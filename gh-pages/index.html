@@ -458,6 +458,198 @@
             font-style: italic;
         }
 
+        /* Calendar Styles */
+        .calendar-container {
+            margin-top: var(--spacing-lg);
+            background: rgba(0, 255, 0, 0.05);
+            border: 1px solid var(--terminal-green);
+            border-radius: var(--radius-md);
+            padding: var(--spacing-md);
+            max-width: 100%;
+        }
+
+        .calendar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--spacing-sm);
+            padding-bottom: var(--spacing-sm);
+            border-bottom: 1px solid var(--terminal-green);
+            flex-wrap: wrap;
+            gap: var(--spacing-xs);
+        }
+
+        .calendar-nav {
+            background: transparent;
+            border: 1px solid var(--terminal-green);
+            color: var(--terminal-green);
+            padding: 4px 8px;
+            cursor: pointer;
+            font-family: inherit;
+            font-weight: bold;
+            border-radius: var(--radius-md);
+            transition: all var(--transition-normal);
+            font-size: 0.85em;
+            white-space: nowrap;
+        }
+
+        .calendar-nav:hover {
+            background: var(--terminal-green);
+            color: var(--terminal-black);
+        }
+
+        .calendar-title {
+            color: var(--terminal-white);
+            font-weight: bold;
+            font-size: 1em;
+            flex: 1;
+            text-align: center;
+        }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 2px;
+            max-width: 100%;
+        }
+
+        .calendar-day-header {
+            color: var(--terminal-green);
+            font-weight: bold;
+            text-align: center;
+            padding: 6px 2px;
+            font-size: 0.75em;
+            border-bottom: 1px solid rgba(0, 255, 0, 0.3);
+        }
+
+        .calendar-day {
+            aspect-ratio: 1;
+            border: 1px solid rgba(0, 255, 0, 0.2);
+            padding: 2px;
+            text-align: center;
+            color: var(--terminal-gray);
+            position: relative;
+            transition: all var(--transition-normal);
+            font-size: 0.75em;
+            min-height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .calendar-day.other-month {
+            opacity: 0.3;
+        }
+
+        .calendar-day.today {
+            border: 2px solid var(--terminal-green);
+            color: var(--terminal-green);
+            font-weight: bold;
+        }
+
+        .calendar-day.has-events {
+            background: rgba(0, 255, 0, 0.15);
+            border-color: var(--terminal-green);
+            color: var(--terminal-white);
+        }
+
+        .calendar-day.has-events::after {
+            content: '●';
+            position: absolute;
+            bottom: 1px;
+            right: 2px;
+            color: var(--terminal-green);
+            font-size: 0.6em;
+        }
+
+        .calendar-events-list {
+            margin-top: var(--spacing-lg);
+            padding-top: var(--spacing-lg);
+            border-top: 1px solid rgba(0, 255, 0, 0.3);
+        }
+
+        .calendar-events-list h3 {
+            color: var(--terminal-white);
+            margin-bottom: var(--spacing-md);
+            font-size: 1.1em;
+        }
+
+        .calendar-month-events {
+            display: grid;
+            gap: var(--spacing-sm);
+        }
+
+        .calendar-month-event {
+            background: rgba(0, 255, 0, 0.05);
+            border: 1px solid rgba(0, 255, 0, 0.3);
+            border-left: 3px solid var(--terminal-green);
+            padding: var(--spacing-sm);
+            border-radius: var(--radius-md);
+            transition: all var(--transition-normal);
+        }
+
+        .calendar-month-event:hover {
+            background: rgba(0, 255, 0, 0.1);
+            border-color: var(--terminal-green);
+            transform: translateX(3px);
+        }
+
+        .calendar-month-event-date {
+            color: var(--terminal-green);
+            font-weight: bold;
+            font-size: 0.85em;
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .calendar-month-event-title {
+            color: var(--terminal-white);
+            font-weight: bold;
+            font-size: 0.95em;
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .calendar-month-event-title a {
+            color: var(--terminal-white);
+            text-decoration: none;
+            transition: color var(--transition-normal);
+        }
+
+        .calendar-month-event-title a:hover {
+            color: var(--terminal-green);
+            text-shadow: 0 0 5px var(--terminal-green);
+        }
+
+        .calendar-month-event-details {
+            color: var(--terminal-gray);
+            font-size: 0.85em;
+            margin-top: var(--spacing-xs);
+        }
+
+        .calendar-month-event-details span {
+            display: block;
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .calendar-month-event-location {
+            color: var(--terminal-white);
+        }
+
+        .calendar-month-event-tags {
+            margin-top: var(--spacing-xs);
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--spacing-xs);
+        }
+
+        .calendar-month-event-tag {
+            background: rgba(0, 255, 0, 0.2);
+            color: var(--terminal-green);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.7em;
+            border: 1px solid var(--terminal-green);
+        }
+
         /* Animations */
         @keyframes fadeIn {
             from {
@@ -505,6 +697,72 @@
                 margin-left: var(--spacing-sm);
                 padding-left: var(--spacing-md);
             }
+
+            /* Calendar mobile adjustments */
+            .calendar-container {
+                padding: var(--spacing-sm);
+                overflow-x: auto;
+            }
+
+            .calendar-header {
+                flex-direction: column;
+                gap: var(--spacing-xs);
+            }
+
+            .calendar-nav {
+                font-size: 0.75em;
+                padding: 3px 6px;
+            }
+
+            .calendar-title {
+                font-size: 0.9em;
+                order: -1;
+            }
+
+            .calendar-grid {
+                gap: 1px;
+                min-width: 100%;
+            }
+
+            .calendar-day-header {
+                padding: 4px 1px;
+                font-size: 0.65em;
+            }
+
+            .calendar-day {
+                font-size: 0.7em;
+                min-height: 28px;
+                padding: 1px;
+            }
+
+            .calendar-day.has-events::after {
+                font-size: 0.5em;
+                bottom: 0;
+                right: 1px;
+            }
+
+            .calendar-events-list {
+                margin-top: var(--spacing-md);
+                padding-top: var(--spacing-md);
+            }
+
+            .calendar-events-list h3 {
+                font-size: 0.95em;
+            }
+
+            .calendar-day-events li {
+                font-size: 0.85em;
+                padding: var(--spacing-xs);
+            }
+        }
+
+        /* Desktop: limitar ancho máximo del calendario */
+        @media (min-width: 769px) {
+            .calendar-container {
+                max-width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+            }
         }
     </style>
 </head>
@@ -527,8 +785,19 @@
                 en un solo lugar. Los eventos se actualizan automáticamente cada 6 horas.
             </p>
         </div>
+        <!-- Comando 2: Calendario Visual -->
+        <div class="prompt">
+            <span class="cursor">$</span>
+            <span class="command-text">./calendario.sh</span>
+        </div>
+        <div class="output">
+            <h2>📅 Calendario de Eventos</h2>
+            <div id="calendar-container" class="calendar-container">
+                <div class="events-loading">Cargando calendario...</div>
+            </div>
+        </div>
 
-        <!-- Comando 2: Calendario ICS -->
+        <!-- Comando 3: Calendario ICS -->
         <div class="prompt">
             <span class="cursor">$</span>
             <span class="command-text">ls calendarios/</span>
@@ -546,19 +815,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Comando 3: Próximos Eventos -->
-        <div class="prompt">
-            <span class="cursor">$</span>
-            <span class="command-text">./proximos-eventos.sh</span>
-        </div>
-        <div class="output">
-            <h2>📅 Próximos Eventos</h2>
-            <div id="events-container" class="events-container">
-                <div class="events-loading">Cargando eventos...</div>
-            </div>
-        </div>
-
         <!-- Comando 4: Datos JSON -->
         <div class="prompt">
             <span class="cursor">$</span>
@@ -682,108 +938,206 @@
             });
         }
 
-        function getUpcomingEvents(events, limit = 10) {
-            const now = new Date();
-            return events
-                .filter(event => {
-                    if (!event.dtstart) return false;
-                    const eventDate = new Date(event.dtstart);
-                    return eventDate >= now;
-                })
-                .sort((a, b) => {
-                    const dateA = new Date(a.dtstart || 0);
-                    const dateB = new Date(b.dtstart || 0);
-                    return dateA - dateB;
-                })
-                .slice(0, limit);
-        }
+        // Calendario Visual
+        let currentDate = new Date();
+        let allEventsData = [];
 
-        function renderEvents(events) {
-            const container = document.getElementById('events-container');
+        // Hacer funciones globales para onclick
+        window.changeMonth = function(direction) {
+            currentDate.setMonth(currentDate.getMonth() + direction);
+            renderCalendar(allEventsData);
+            renderMonthEvents(allEventsData);
+        };
+
+        function renderCalendar(events) {
+            allEventsData = events || [];
+            const container = document.getElementById('calendar-container');
 
             if (!events || events.length === 0) {
-                container.innerHTML = '<div class="events-empty">No hay eventos próximos disponibles</div>';
+                container.innerHTML = '<div class="events-empty">No hay eventos disponibles para mostrar en el calendario</div>';
                 return;
             }
 
-            const upcomingEvents = getUpcomingEvents(events, 10);
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
 
-            if (upcomingEvents.length === 0) {
-                container.innerHTML = '<div class="events-empty">No hay eventos próximos programados</div>';
+            const firstDay = new Date(year, month, 1);
+            const lastDay = new Date(year, month + 1, 0);
+            const daysInMonth = lastDay.getDate();
+            const startingDayOfWeek = firstDay.getDay();
+
+            const monthNames = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
+                              'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+            const dayNames = ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'];
+
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+
+            let calendarHTML = `
+                <div class="calendar-header">
+                    <button class="calendar-nav" onclick="changeMonth(-1)">◀ Anterior</button>
+                    <div class="calendar-title">${monthNames[month]} ${year}</div>
+                    <button class="calendar-nav" onclick="changeMonth(1)">Siguiente ▶</button>
+                </div>
+                <div class="calendar-grid">
+            `;
+
+            // Días de la semana
+            dayNames.forEach(day => {
+                calendarHTML += `<div class="calendar-day-header">${day}</div>`;
+            });
+
+            // Días vacíos al inicio
+            for (let i = 0; i < startingDayOfWeek; i++) {
+                const prevMonthDay = new Date(year, month, -startingDayOfWeek + i + 1);
+                calendarHTML += `<div class="calendar-day other-month">${prevMonthDay.getDate()}</div>`;
+            }
+
+            // Días del mes
+            for (let day = 1; day <= daysInMonth; day++) {
+                const date = new Date(year, month, day);
+                date.setHours(0, 0, 0, 0);
+
+                const dayEvents = getEventsForDate(date, events);
+                const isToday = date.getTime() === today.getTime();
+                const hasEvents = dayEvents.length > 0;
+
+                let dayClass = 'calendar-day';
+                if (isToday) dayClass += ' today';
+                if (hasEvents) dayClass += ' has-events';
+
+                calendarHTML += `
+                    <div class="${dayClass}">
+                        ${day}
+                    </div>
+                `;
+            }
+
+            // Días vacíos al final
+            const remainingDays = 42 - (startingDayOfWeek + daysInMonth);
+            for (let day = 1; day <= remainingDays; day++) {
+                calendarHTML += `<div class="calendar-day other-month">${day}</div>`;
+            }
+
+            calendarHTML += '</div>';
+            calendarHTML += '<div id="calendar-events-list" class="calendar-events-list"></div>';
+
+            container.innerHTML = calendarHTML;
+
+            // Renderizar eventos del mes automáticamente
+            renderMonthEvents(events);
+        }
+
+        function renderMonthEvents(events) {
+            if (!events || events.length === 0) return;
+
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+            const firstDay = new Date(year, month, 1);
+            const lastDay = new Date(year, month + 1, 0);
+
+            // Filtrar eventos del mes actual
+            const monthEvents = events.filter(event => {
+                if (!event.dtstart) return false;
+                const eventDate = new Date(event.dtstart);
+                return eventDate >= firstDay && eventDate <= lastDay;
+            }).sort((a, b) => {
+                const dateA = new Date(a.dtstart || 0);
+                const dateB = new Date(b.dtstart || 0);
+                return dateA - dateB;
+            });
+
+            const eventsList = document.getElementById('calendar-events-list');
+            const monthNames = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
+                              'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+
+            if (monthEvents.length === 0) {
+                eventsList.innerHTML = `<h3>Eventos de ${monthNames[month]} ${year}</h3><p style="color: var(--terminal-gray);">No hay eventos programados este mes</p>`;
                 return;
             }
 
-            container.innerHTML = upcomingEvents.map(event => {
+            let eventsHTML = `<h3>Eventos de ${monthNames[month]} ${year}</h3>`;
+            eventsHTML += '<div class="calendar-month-events">';
+
+            monthEvents.forEach(event => {
+                const eventDate = new Date(event.dtstart);
+                const dateStr = formatDate(event.dtstart);
+                const timeStr = formatTime(event.dtstart);
+                const title = event.title || event.summary || 'Evento sin título';
+                const location = event.location ? `<span class="calendar-month-event-location">📍 ${event.location}</span>` : '';
+                const description = event.description ? `<span>${event.description.substring(0, 200)}${event.description.length > 200 ? '...' : ''}</span>` : '';
+                const link = event.url ? `<a href="${event.url}" target="_blank" rel="noopener" style="color: var(--terminal-green);">Ver más →</a>` : '';
                 const tags = event.tags && event.tags.length > 0
-                    ? `<div class="event-tags">${event.tags.map(tag => `<span class="event-tag">${tag}</span>`).join('')}</div>`
+                    ? `<div class="calendar-month-event-tags">${event.tags.map(tag => `<span class="calendar-month-event-tag">${tag}</span>`).join('')}</div>`
                     : '';
 
-                const location = event.location ? `<span class="event-location">📍 ${event.location}</span>` : '';
-                const link = event.url ? `<a href="${event.url}" target="_blank" rel="noopener">Ver más →</a>` : '';
-
-                const eventTitle = event.title || event.summary || 'Evento sin título';
-                return `
-                    <div class="event-item">
-                        <div class="event-date">${formatDate(event.dtstart)}</div>
-                        <div class="event-title">
-                            ${event.url ? `<a href="${event.url}" target="_blank" rel="noopener">${eventTitle}</a>` : eventTitle}
+                eventsHTML += `
+                    <div class="calendar-month-event">
+                        <div class="calendar-month-event-date">${dateStr} ${timeStr ? '• ' + timeStr : ''}</div>
+                        <div class="calendar-month-event-title">
+                            ${event.url ? `<a href="${event.url}" target="_blank" rel="noopener">${title}</a>` : title}
                         </div>
-                        <div class="event-details">
+                        <div class="calendar-month-event-details">
                             ${location}
-                            ${event.description ? `<span>${event.description.substring(0, 150)}${event.description.length > 150 ? '...' : ''}</span>` : ''}
+                            ${description}
                             ${link}
                         </div>
                         ${tags}
                     </div>
                 `;
-            }).join('');
+            });
+
+            eventsHTML += '</div>';
+            eventsList.innerHTML = eventsHTML;
         }
 
-        // Cargar eventos desde JSON
-        function loadEvents() {
-            const container = document.getElementById('events-container');
+        function getEventsForDate(date, events) {
+            if (!events) return [];
+            return events.filter(event => {
+                if (!event.dtstart) return false;
+                const eventDate = new Date(event.dtstart);
+                eventDate.setHours(0, 0, 0, 0);
+                return eventDate.getTime() === date.getTime();
+            });
+        }
 
+
+        // Función para cargar calendario
+        function loadCalendar() {
             fetch('cronquiles.json')
                 .then(response => {
                     if (!response.ok) {
                         if (response.status === 404) {
-                            throw new Error('El archivo JSON aún no está disponible. Se generará en la próxima actualización automática.');
+                            throw new Error('El archivo JSON aún no está disponible.');
                         }
-                        throw new Error(`Error HTTP ${response.status}: ${response.statusText}`);
+                        throw new Error(`Error HTTP ${response.status}`);
                     }
                     return response.json();
                 })
                 .then(data => {
-                    // El JSON tiene la estructura: {generated_at, total_events, events: [...]}
                     const events = Array.isArray(data) ? data : (data.events || []);
-
-                    if (!events || events.length === 0) {
-                        container.innerHTML = '<div class="events-empty">No hay eventos disponibles en el calendario</div>';
-                        return;
-                    }
-
-                    renderEvents(events);
+                    renderCalendar(events);
                 })
                 .catch(error => {
-                    console.error('Error loading events:', error);
-                    container.innerHTML = `
-                        <div class="events-error">
-                            <strong>Error al cargar eventos:</strong><br>
-                            ${error.message}<br>
-                            <small style="margin-top: 10px; display: block; opacity: 0.7;">
-                                El archivo cronquiles.json se genera automáticamente cada 6 horas.<br>
-                                Si el problema persiste, verifica que el workflow de GitHub Actions esté funcionando correctamente.
-                            </small>
-                        </div>
-                    `;
+                    const container = document.getElementById('calendar-container');
+                    const isLocalFile = window.location.protocol === 'file:';
+                    const errorMsg = isLocalFile
+                        ? `Error: No se puede cargar el archivo localmente. Usa un servidor HTTP.<br><br>
+                           <strong>Soluciones:</strong><br>
+                           1. Ejecuta: <code style="color: var(--terminal-green);">cd gh-pages && python3 serve.py</code><br>
+                           2. O usa: <code style="color: var(--terminal-green);">python3 -m http.server 8000</code><br>
+                           3. Luego abre: <code style="color: var(--terminal-green);">http://localhost:8000/index.html</code>`
+                        : `Error al cargar calendario: ${error.message}`;
+                    container.innerHTML = `<div class="events-error">${errorMsg}</div>`;
+                    console.error('Error loading calendar:', error);
                 });
         }
 
-        // Cargar eventos cuando la página esté lista
+        // Cargar calendario
         if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', loadEvents);
+            document.addEventListener('DOMContentLoaded', loadCalendar);
         } else {
-            loadEvents();
+            loadCalendar();
         }
     </script>
 </body>
