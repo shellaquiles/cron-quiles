@@ -28,11 +28,11 @@ Esta guía te ayudará a configurar la publicación automática de eventos en Go
 2. Haz clic en **Create Credentials** > **OAuth client ID**
 3. Si es la primera vez, configura la pantalla de consentimiento:
    - Tipo de aplicación: **External**
-   - Nombre de la app: "Shellaquiles Events"
+   - Nombre de la app: "Cron-Quiles"
    - Email de soporte: tu email
    - Agrega tu email como usuario de prueba
 4. Tipo de aplicación: **Desktop app**
-5. Nombre: "Shellaquiles Events CLI"
+5. Nombre: "Cron-Quiles CLI"
 6. Haz clic en **Create**
 7. Descarga el archivo JSON de credenciales
 
