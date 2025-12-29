@@ -3,16 +3,16 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "shellaquiles-events"
+name = "cron-quiles"
 version = "1.0.0"
-description = "Agregador de feeds ICS públicos de eventos tech en México"
+description = "Agregador de calendarios tech (Meetup, Luma, ICS) que se actualiza solo, como buen cron"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
     {name = "Shellaquiles Community"}
 ]
-keywords = ["ics", "calendar", "events", "meetup", "mexico", "tech"]
+keywords = ["ics", "calendar", "events", "meetup", "mexico", "tech", "cron"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -40,12 +40,12 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/shellaquiles/events"
-Repository = "https://github.com/shellaquiles/events"
-Issues = "https://github.com/shellaquiles/events/issues"
+Homepage = "https://github.com/shellaquiles/cron-quiles"
+Repository = "https://github.com/shellaquiles/cron-quiles"
+Issues = "https://github.com/shellaquiles/cron-quiles/issues"
 
 [project.scripts]
-shellaquiles-events = "shellaquiles.main:main"
+cron-quiles = "cronquiles.main:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
