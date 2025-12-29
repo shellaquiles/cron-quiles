@@ -1,4 +1,6 @@
-# 🐢 Shellaquiles - Agregador de Eventos Tech México
+# 🐢 Cron-Quiles - Agregador de Calendarios Tech
+
+Agregador de calendarios tech (Meetup, Luma, ICS) que se actualiza solo, como buen cron.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -31,7 +33,8 @@ Consumir múltiples feeds ICS (Meetup, Luma, etc.), normalizar eventos, deduplic
 
 1. Clona o descarga este repositorio:
 ```bash
-cd events
+git clone https://github.com/shellaquiles/cron-quiles.git
+cd cron-quiles
 ```
 
 2. Crea un entorno virtual (recomendado):
@@ -51,7 +54,7 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-Esto instalará el paquete en modo desarrollo y podrás usar `shellaquiles-events` desde cualquier lugar.
+Esto instalará el paquete en modo desarrollo y podrás usar `cron-quiles` desde cualquier lugar.
 
 ## 📖 Uso
 
@@ -63,7 +66,7 @@ Ejecuta el script con la configuración por defecto:
 python main.py
 ```
 
-Esto generará `shellaquiles_events.ics` usando los feeds definidos en `config/feeds.yaml`.
+Esto generará `cronquiles.ics` (calendario unificado) usando los feeds definidos en `config/feeds.yaml`.
 
 ### Opciones avanzadas
 
@@ -97,9 +100,9 @@ python main.py --google-calendar --dry-run
 
 ```
 --feeds FEEDS        Archivo de configuración (YAML o TXT). Default: config/feeds.yaml
---output OUTPUT      Nombre del archivo ICS de salida. Default: shellaquiles_events.ics
+--output OUTPUT      Nombre del archivo ICS de salida. Default: cronquiles.ics
 --json               Generar también archivo JSON
---json-output FILE   Nombre del archivo JSON. Default: shellaquiles_events.json
+--json-output FILE   Nombre del archivo JSON. Default: cronquiles.json
 --timeout SECONDS    Timeout para requests HTTP. Default: 30
 --retries N          Número máximo de reintentos. Default: 2
 --verbose            Modo verbose (más logging)
@@ -108,10 +111,10 @@ python main.py --google-calendar --dry-run
 ## 📁 Estructura del Proyecto
 
 ```
-events/
+cron-quiles/
 ├── main.py                    # Punto de entrada CLI (raíz)
 ├── src/
-│   └── shellaquiles/
+│   └── cronquiles/
 │       ├── __init__.py        # Paquete Python
 │       ├── main.py            # CLI principal
 │       └── ics_aggregator.py  # Lógica de agregación y deduplicación
@@ -195,7 +198,7 @@ Los tags se agregan como categorías en el ICS y están disponibles en el JSON.
 
 ### Archivo ICS
 
-El archivo `shellaquiles_events.ics` es un calendario estándar ICS que puedes importar en:
+El archivo `cronquiles.ics` generado por Cron-Quiles es un calendario estándar ICS que puedes importar en:
 - Google Calendar
 - Apple Calendar
 - Outlook
@@ -239,15 +242,15 @@ python -m pytest tests/ -v
 
 ### Estructura del Código
 
-- **`src/shellaquiles/ics_aggregator.py`**: Contiene las clases principales:
+- **`src/cronquiles/ics_aggregator.py`**: Contiene las clases principales:
   - `EventNormalized`: Representa un evento normalizado
   - `ICSAggregator`: Clase principal para agregar feeds
 
-- **`src/shellaquiles/main.py`**: CLI que orquesta el proceso
+- **`src/cronquiles/main.py`**: CLI que orquesta el proceso
 
 ### Extender el Sistema
 
-Para agregar nuevos tags automáticos, edita el diccionario `TAG_KEYWORDS` en `ics_aggregator.py`:
+Para agregar nuevos tags automáticos, edita el diccionario `TAG_KEYWORDS` en `src/cronquiles/ics_aggregator.py`:
 
 ```python
 TAG_KEYWORDS = {
@@ -302,10 +305,10 @@ El workflow también publica automáticamente los archivos en GitHub Pages, perm
 3. Los archivos se publicarán automáticamente en cada actualización
 
 **URL de acceso:**
-- Página principal: `https://[tu-usuario].github.io/events/`
-- Archivo ICS: `https://[tu-usuario].github.io/events/shellaquiles_events.ics`
-- Archivo JSON: `https://[tu-usuario].github.io/events/shellaquiles_events.json`
-- WebCal (suscripción): `webcal://[tu-usuario].github.io/events/shellaquiles_events.ics`
+- Página principal: `https://shellaquiles.github.io/cron-quiles/`
+- Archivo ICS: `https://shellaquiles.github.io/cron-quiles/cronquiles.ics`
+- Archivo JSON: `https://shellaquiles.github.io/cron-quiles/cronquiles.json`
+- WebCal (suscripción): `webcal://shellaquiles.github.io/cron-quiles/cronquiles.ics`
 
 ### Personalizar la frecuencia
 

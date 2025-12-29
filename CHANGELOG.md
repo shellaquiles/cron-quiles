@@ -55,5 +55,5 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 - Documentación completa en README.md
 - Ejemplos de configuración
 
-[Unreleased]: https://github.com/shellaquiles/events/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/shellaquiles/events/releases/tag/v1.0.0
+[Unreleased]: https://github.com/shellaquiles/cron-quiles/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/shellaquiles/cron-quiles/releases/tag/v1.0.0

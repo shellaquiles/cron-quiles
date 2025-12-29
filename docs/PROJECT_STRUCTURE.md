@@ -1,7 +1,7 @@
 # Estructura del Proyecto
 
 ```
-events/
+cron-quiles/
 ├── .github/
 │   ├── workflows/
 │   │   ├── update-events.yml      # GitHub Actions workflow
@@ -20,10 +20,11 @@ events/
 ├── CHANGELOG.md                     # Historial de cambios
 │
 ├── src/
-│   └── shellaquiles/                # Paquete Python principal
+│   └── cronquiles/                  # Paquete Python principal
 │       ├── __init__.py             # Inicialización del paquete
 │       ├── main.py                 # CLI principal
-│       └── ics_aggregator.py       # Lógica de agregación y deduplicación
+│       ├── ics_aggregator.py       # Lógica de agregación y deduplicación
+│       └── google_calendar.py      # Publicación en Google Calendar
 │
 ├── config/                          # Archivos de configuración
 │   ├── feeds.yaml                  # Configuración de feeds (YAML)
@@ -41,13 +42,13 @@ events/
 ├── pyproject.toml                   # Configuración del proyecto (PEP 518)
 │
 └── [Archivos generados]
-    ├── shellaquiles_events.ics     # Calendario ICS unificado
-    └── shellaquiles_events.json    # JSON con eventos (opcional)
+    ├── cronquiles.ics     # Calendario ICS unificado
+    └── cronquiles.json    # JSON con eventos (opcional)
 ```
 
 ## Descripción de Directorios
 
-### `src/shellaquiles/`
+### `src/cronquiles/`
 Código fuente principal del proyecto. Contiene:
 - **`__init__.py`**: Inicialización del paquete Python
 - **`main.py`**: CLI principal con argumentos y lógica de ejecución
@@ -86,8 +87,8 @@ Configuración de GitHub:
 ## Archivos Generados
 
 Estos archivos se generan al ejecutar `main.py` y se suben al repo automáticamente por GitHub Actions:
-- **`shellaquiles_events.ics`**: Calendario ICS unificado
-- **`shellaquiles_events.json`**: JSON con eventos (si se usa `--json`)
+- **`cronquiles.ics`**: Calendario ICS unificado
+- **`cronquiles.json`**: JSON con eventos (si se usa `--json`)
 
 ## Uso de la Estructura
 
@@ -98,13 +99,15 @@ python main.py
 
 ### Ejecutar el módulo directamente
 ```bash
-python -m src.shellaquiles.main
+python -m src.cronquiles.main
 ```
 
 ### Importar como paquete
 ```python
-from src.shellaquiles import ICSAggregator
+from src.cronquiles import ICSAggregator
 ```
+
+**Nota:** El paquete Python se llama `cronquiles` (sin guión) para cumplir con las convenciones de nombres de paquetes Python.
 
 ## Ventajas de esta Estructura
 

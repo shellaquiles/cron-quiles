@@ -1,4 +1,4 @@
-# Contribuyendo a Shellaquiles Events
+# Contribuyendo a Cron-Quiles
 
 ¡Gracias por tu interés en contribuir! 🐢
 

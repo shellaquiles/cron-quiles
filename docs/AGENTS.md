@@ -52,8 +52,8 @@ Implementa una estrategia razonable:
 
 ### Output
 
-* Archivo: `shellaquiles_events.ics`
-* (opcional) `shellaquiles_events.json`
+* Archivo: `cronquiles.ics`
+* (opcional) `cronquiles.json`
 
 ### Entregables
 

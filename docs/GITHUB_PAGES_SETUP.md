@@ -42,9 +42,9 @@ El workflow se ejecutará automáticamente:
 Una vez configurado, tu sitio estará disponible en:
 
 - **URL principal**: `https://shellaquiles.github.io/cron-quiles/`
-- **Archivo ICS**: `https://shellaquiles.github.io/cron-quiles/shellaquiles_events.ics`
-- **Archivo JSON**: `https://shellaquiles.github.io/cron-quiles/shellaquiles_events.json`
-- **WebCal (suscripción)**: `webcal://shellaquiles.github.io/cron-quiles/shellaquiles_events.ics`
+- **Archivo ICS**: `https://shellaquiles.github.io/cron-quiles/cronquiles.ics`
+- **Archivo JSON**: `https://shellaquiles.github.io/cron-quiles/cronquiles.json`
+- **WebCal (suscripción)**: `webcal://shellaquiles.github.io/cron-quiles/cronquiles.ics`
 
 ### 5. Verificar la Publicación
 
@@ -58,8 +58,8 @@ Una vez configurado, tu sitio estará disponible en:
 Los siguientes archivos se publican automáticamente en GitHub Pages:
 
 - `index.html` - Página principal con instrucciones
-- `shellaquiles_events.ics` - Calendario ICS
-- `shellaquiles_events.json` - Datos JSON (si se genera)
+- `cronquiles.ics` - Calendario ICS
+- `cronquiles.json` - Datos JSON (si se genera)
 
 ## Solución de Problemas
 
@@ -92,10 +92,10 @@ Edita `.github/workflows/update-events.yml` y modifica el cron:
 schedule:
   # Cada 6 horas (actual)
   - cron: '0 */6 * * *'
-  
+
   # Cada 12 horas
   - cron: '0 */12 * * *'
-  
+
   # Diario a las 3 AM UTC
   - cron: '0 3 * * *'
 ```
@@ -110,4 +110,3 @@ Puedes editar `index.html` para personalizar la apariencia y contenido de la pá
 - El sitio se actualiza automáticamente cuando el workflow se ejecuta
 - Los archivos se publican desde la raíz del repositorio
 - Asegúrate de que `index.html` esté en la raíz del proyecto
-
