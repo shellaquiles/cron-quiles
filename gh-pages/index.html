@@ -535,6 +535,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            white-space: normal;
         }
 
         .calendar-day.other-month {
@@ -583,10 +584,11 @@
             background: rgba(0, 255, 0, 0.05);
             border: 1px solid rgba(0, 255, 0, 0.3);
             border-left: 3px solid var(--terminal-green);
-            padding: 6px 8px;
+            padding: var(--spacing-sm) var(--spacing-md);
+            margin-bottom: var(--spacing-md);
             border-radius: var(--radius-md);
             transition: all var(--transition-normal);
-            margin-bottom: 6px;
+            white-space: normal;
         }
 
         .calendar-month-event:hover {
@@ -609,14 +611,16 @@
             font-weight: bold;
             font-size: 0.95em;
             margin-top: 0;
-            margin-bottom: 0;
-            line-height: 1.1;
+            margin-bottom: 4px;
+            line-height: 1.2;
+            white-space: normal;
         }
 
         .calendar-month-event-title a {
             color: var(--terminal-white);
             text-decoration: none;
             transition: color var(--transition-normal);
+            display: block;
         }
 
         .calendar-month-event-title a:hover .event-title-group {
@@ -640,8 +644,9 @@
             font-weight: normal;
             font-size: 0.9em;
             margin-top: 0;
-            margin-bottom: 0;
+            margin-bottom: 2px;
             line-height: 1.1;
+            display: block;
         }
 
         .event-title-location {
@@ -997,12 +1002,10 @@
         function formatDate(dateString) {
             if (!dateString) return 'Fecha no disponible';
             const date = new Date(dateString);
-            return date.toLocaleString('es-MX', {
+            return date.toLocaleDateString('es-MX', {
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric',
-                hour: '2-digit',
-                minute: '2-digit',
                 timeZone: 'America/Mexico_City'
             });
         }
@@ -1141,7 +1144,11 @@
             monthEvents.forEach((event, index) => {
                 const eventDate = new Date(event.dtstart);
                 const dateStr = formatDate(event.dtstart);
-                const timeStr = formatTime(event.dtstart);
+                const startTimeStr = formatTime(event.dtstart);
+                const endTimeStr = formatTime(event.dtend);
+                const timeRangeStr = startTimeStr && endTimeStr && startTimeStr !== endTimeStr
+                    ? `${startTimeStr} - ${endTimeStr}`
+                    : startTimeStr;
                 // Parsear título con formato: Grupo|Nombre evento|Online o Grupo|Nombre evento|País|Estado
                 const rawTitle = event.title || event.summary || 'Evento sin título';
                 let titleHTML = rawTitle;
@@ -1161,7 +1168,8 @@
                     }
                 }
 
-                const location = event.location ? `<span class="calendar-month-event-location">📍 ${event.location}</span>` : '';
+                const cleanLocation = (event.location || '').trim();
+                const location = cleanLocation ? `<span class="calendar-month-event-location">📍 ${cleanLocation}</span>` : '';
 
                 // Descripción con expandir/colapsar
                 let descriptionHTML = '';
@@ -1170,7 +1178,7 @@
                     // Limpiar solo saltos de línea múltiples excesivos (máximo 2 seguidos)
                     // pero preservar los saltos de línea normales
                     const cleanDescription = event.description
-                        .replace(/\n{3,}/g, '\n\n')  // Máximo 2 saltos de línea seguidos
+                        .replace(/(\n\s*){3,}/g, '\n\n')  // Máximo 2 saltos de línea seguidos (tolera espacios)
                         .trim();
                     const isLong = cleanDescription.length > 300;
 
@@ -1192,7 +1200,7 @@
                         <div class="calendar-month-event-title">
                             ${event.url ? `<a href="${event.url}" target="_blank" rel="noopener">${titleHTML}</a>` : titleHTML}
                         </div>
-                        <div class="calendar-month-event-date">${dateStr} ${timeStr ? '• ' + timeStr : ''}</div>
+                        <div class="calendar-month-event-date">${dateStr}${timeRangeStr ? ' • ' + timeRangeStr : ''}</div>
                         <div class="calendar-month-event-details">
                             ${location}
                             ${descriptionHTML}
