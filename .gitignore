@@ -34,6 +34,9 @@ wheels/
 !gh-pages/index.html
 # Config files
 !config/feeds.yaml
+!config/list_icals.txt
+# Archivos de prueba temporales
+config/test.txt
 # Google Calendar credentials (nunca subir al repo)
 config/credentials.json
 config/token.json
