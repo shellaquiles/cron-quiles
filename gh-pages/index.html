@@ -576,16 +576,17 @@
 
         .calendar-month-events {
             display: grid;
-            gap: var(--spacing-sm);
+            gap: var(--spacing-xs);
         }
 
         .calendar-month-event {
             background: rgba(0, 255, 0, 0.05);
             border: 1px solid rgba(0, 255, 0, 0.3);
             border-left: 3px solid var(--terminal-green);
-            padding: var(--spacing-sm);
+            padding: 6px 8px;
             border-radius: var(--radius-md);
             transition: all var(--transition-normal);
+            margin-bottom: 6px;
         }
 
         .calendar-month-event:hover {
@@ -595,17 +596,21 @@
         }
 
         .calendar-month-event-date {
-            color: var(--terminal-green);
-            font-weight: bold;
-            font-size: 0.85em;
-            margin-bottom: var(--spacing-xs);
+            color: var(--terminal-gray);
+            font-weight: normal;
+            font-size: 0.75em;
+            margin-top: 1px;
+            margin-bottom: 0;
+            line-height: 1.1;
         }
 
         .calendar-month-event-title {
             color: var(--terminal-white);
             font-weight: bold;
             font-size: 0.95em;
-            margin-bottom: var(--spacing-xs);
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 1.1;
         }
 
         .calendar-month-event-title a {
@@ -614,31 +619,105 @@
             transition: color var(--transition-normal);
         }
 
-        .calendar-month-event-title a:hover {
-            color: var(--terminal-green);
+        .calendar-month-event-title a:hover .event-title-group {
             text-shadow: 0 0 5px var(--terminal-green);
+        }
+
+        .calendar-month-event-title a:hover .event-title-name {
+            color: var(--terminal-green);
+        }
+
+        .event-title-group {
+            color: var(--terminal-green);
+            font-weight: bold;
+            font-size: 1em;
+            margin-bottom: 0;
+            line-height: 1.1;
+        }
+
+        .event-title-name {
+            color: var(--terminal-white);
+            font-weight: normal;
+            font-size: 0.9em;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 1.1;
+        }
+
+        .event-title-location {
+            color: var(--terminal-gray);
+            font-weight: normal;
+            font-size: 0.8em;
+            font-style: italic;
+            margin-top: 0;
+            margin-bottom: 0;
         }
 
         .calendar-month-event-details {
             color: var(--terminal-gray);
             font-size: 0.85em;
-            margin-top: var(--spacing-xs);
+            margin-top: 1px;
+            line-height: 1.4;
+            white-space: normal;
         }
 
         .calendar-month-event-details span {
             display: block;
-            margin-bottom: var(--spacing-xs);
+            margin-bottom: 0;
         }
 
         .calendar-month-event-location {
             color: var(--terminal-white);
+            margin-bottom: 0;
+            margin-top: 1px;
+            display: block;
+        }
+
+        .calendar-month-event-description {
+            margin-top: 1px;
+            margin-bottom: 1px;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .calendar-month-event-description.collapsed {
+            max-height: 4.2em;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .calendar-month-event-description.collapsed::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1.4em;
+            background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8));
+        }
+
+        .calendar-month-event-toggle {
+            color: var(--terminal-green);
+            cursor: pointer;
+            font-size: 0.85em;
+            margin-top: 0;
+            margin-bottom: 1px;
+            text-decoration: underline;
+            user-select: none;
+            display: inline-block;
+        }
+
+        .calendar-month-event-toggle:hover {
+            color: var(--terminal-white);
+            text-shadow: 0 0 5px var(--terminal-green);
         }
 
         .calendar-month-event-tags {
-            margin-top: var(--spacing-xs);
+            margin-top: 3px;
             display: flex;
             flex-wrap: wrap;
-            gap: var(--spacing-xs);
+            gap: 4px;
         }
 
         .calendar-month-event-tag {
@@ -1059,27 +1138,64 @@
             let eventsHTML = `<h3>Eventos de ${monthNames[month]} ${year}</h3>`;
             eventsHTML += '<div class="calendar-month-events">';
 
-            monthEvents.forEach(event => {
+            monthEvents.forEach((event, index) => {
                 const eventDate = new Date(event.dtstart);
                 const dateStr = formatDate(event.dtstart);
                 const timeStr = formatTime(event.dtstart);
-                const title = event.title || event.summary || 'Evento sin título';
+                // Parsear título con formato: Grupo|Nombre evento|Online o Grupo|Nombre evento|País|Estado
+                const rawTitle = event.title || event.summary || 'Evento sin título';
+                let titleHTML = rawTitle;
+
+                if (rawTitle.includes('|')) {
+                    const parts = rawTitle.split('|');
+                    if (parts.length >= 3) {
+                        const grupo = parts[0].trim();
+                        const nombreEvento = parts[1].trim();
+                        const ubicacion = parts.slice(2).join('|').trim(); // Puede ser "Online" o "País|Estado"
+
+                        titleHTML = `
+                            <div class="event-title-group">${grupo}</div>
+                            <div class="event-title-name">${nombreEvento}</div>
+                            <div class="event-title-location">${ubicacion}</div>
+                        `;
+                    }
+                }
+
                 const location = event.location ? `<span class="calendar-month-event-location">📍 ${event.location}</span>` : '';
-                const description = event.description ? `<span>${event.description.substring(0, 200)}${event.description.length > 200 ? '...' : ''}</span>` : '';
-                const link = event.url ? `<a href="${event.url}" target="_blank" rel="noopener" style="color: var(--terminal-green);">Ver más →</a>` : '';
+
+                // Descripción con expandir/colapsar
+                let descriptionHTML = '';
+                if (event.description) {
+                    const descId = `desc-${index}`;
+                    // Limpiar solo saltos de línea múltiples excesivos (máximo 2 seguidos)
+                    // pero preservar los saltos de línea normales
+                    const cleanDescription = event.description
+                        .replace(/\n{3,}/g, '\n\n')  // Máximo 2 saltos de línea seguidos
+                        .trim();
+                    const isLong = cleanDescription.length > 300;
+
+                    descriptionHTML = `
+                        <div class="calendar-month-event-description ${isLong ? 'collapsed' : ''}" id="${descId}">
+                            ${cleanDescription}
+                        </div>
+                        ${isLong ? `<span class="calendar-month-event-toggle" onclick="toggleDescription('${descId}', this)">Ver más →</span>` : ''}
+                    `;
+                }
+
+                const link = event.url ? `<a href="${event.url}" target="_blank" rel="noopener" style="color: var(--terminal-green); margin-top: 1px; display: inline-block;">Ver evento →</a>` : '';
                 const tags = event.tags && event.tags.length > 0
                     ? `<div class="calendar-month-event-tags">${event.tags.map(tag => `<span class="calendar-month-event-tag">${tag}</span>`).join('')}</div>`
                     : '';
 
                 eventsHTML += `
                     <div class="calendar-month-event">
-                        <div class="calendar-month-event-date">${dateStr} ${timeStr ? '• ' + timeStr : ''}</div>
                         <div class="calendar-month-event-title">
-                            ${event.url ? `<a href="${event.url}" target="_blank" rel="noopener">${title}</a>` : title}
+                            ${event.url ? `<a href="${event.url}" target="_blank" rel="noopener">${titleHTML}</a>` : titleHTML}
                         </div>
+                        <div class="calendar-month-event-date">${dateStr} ${timeStr ? '• ' + timeStr : ''}</div>
                         <div class="calendar-month-event-details">
                             ${location}
-                            ${description}
+                            ${descriptionHTML}
                             ${link}
                         </div>
                         ${tags}
@@ -1090,6 +1206,20 @@
             eventsHTML += '</div>';
             eventsList.innerHTML = eventsHTML;
         }
+
+        // Función para expandir/colapsar descripción
+        window.toggleDescription = function(descId, toggleElement) {
+            const descElement = document.getElementById(descId);
+            if (!descElement) return;
+
+            if (descElement.classList.contains('collapsed')) {
+                descElement.classList.remove('collapsed');
+                toggleElement.textContent = 'Ver menos ←';
+            } else {
+                descElement.classList.add('collapsed');
+                toggleElement.textContent = 'Ver más →';
+            }
+        };
 
         function getEventsForDate(date, events) {
             if (!events) return [];
