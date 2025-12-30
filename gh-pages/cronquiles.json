@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-30T05:02:29.644406+00:00",
+  "generated_at": "2025-12-30T05:33:32.718369+00:00",
   "total_events": 206,
   "events": [
     {
@@ -162,8 +162,8 @@
       "dtstart": "2024-10-21T21:00:00+00:00",
       "dtend": "2024-10-21T23:00:00+00:00",
       "tags": [
-        "python",
-        "ai"
+        "ai",
+        "python"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -230,8 +230,8 @@
       "dtstart": "2024-10-22T01:00:00+00:00",
       "dtend": "2024-10-22T04:00:00+00:00",
       "tags": [
-        "cloud",
-        "ai"
+        "ai",
+        "cloud"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -257,8 +257,8 @@
       "dtstart": "2024-10-22T13:45:00+00:00",
       "dtend": "2024-10-22T15:30:00+00:00",
       "tags": [
-        "cloud",
-        "ai"
+        "ai",
+        "cloud"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -306,10 +306,10 @@
       "dtstart": "2024-10-22T15:00:00+00:00",
       "dtend": "2024-10-22T17:00:00+00:00",
       "tags": [
-        "cloud",
         "mobile",
         "data",
-        "ai"
+        "ai",
+        "cloud"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -362,8 +362,8 @@
       "dtstart": "2024-10-22T15:00:00+00:00",
       "dtend": "2024-10-22T17:00:00+00:00",
       "tags": [
-        "cloud",
-        "ai"
+        "ai",
+        "cloud"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -401,8 +401,8 @@
       "dtstart": "2024-10-22T19:00:00+00:00",
       "dtend": "2024-10-22T22:00:00+00:00",
       "tags": [
-        "python",
-        "ai"
+        "ai",
+        "python"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -441,9 +441,9 @@
       "dtstart": "2024-10-22T23:00:00+00:00",
       "dtend": "2024-10-23T02:00:00+00:00",
       "tags": [
-        "cloud",
         "frontend",
-        "ai"
+        "ai",
+        "cloud"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -729,8 +729,8 @@
       "dtend": "2024-10-23T17:30:00+00:00",
       "tags": [
         "web",
-        "frontend",
-        "ai"
+        "ai",
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -907,8 +907,8 @@
       "dtstart": "2024-10-23T22:00:00+00:00",
       "dtend": "2024-10-24T01:00:00+00:00",
       "tags": [
-        "python",
-        "ai"
+        "ai",
+        "python"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -932,10 +932,10 @@
       "dtstart": "2024-10-23T22:30:00+00:00",
       "dtend": "2024-10-24T00:30:00+00:00",
       "tags": [
-        "cloud",
         "web",
-        "frontend",
-        "ai"
+        "ai",
+        "cloud",
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -1005,8 +1005,8 @@
       "dtstart": "2024-10-24T00:00:00+00:00",
       "dtend": "2024-10-24T02:30:00+00:00",
       "tags": [
-        "python",
-        "ai"
+        "ai",
+        "python"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -1030,8 +1030,8 @@
       "dtstart": "2024-10-24T00:00:00+00:00",
       "dtend": "2024-10-24T02:00:00+00:00",
       "tags": [
-        "cloud",
-        "ai"
+        "ai",
+        "cloud"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -1044,9 +1044,9 @@
       "dtstart": "2024-10-24T00:00:00+00:00",
       "dtend": "2024-10-24T03:00:00+00:00",
       "tags": [
-        "python",
         "backend",
-        "frontend"
+        "frontend",
+        "python"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -1144,8 +1144,8 @@
       "dtstart": "2024-10-24T15:00:00+00:00",
       "dtend": "2024-10-24T19:00:00+00:00",
       "tags": [
-        "data",
-        "web"
+        "web",
+        "data"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -1324,8 +1324,8 @@
       "dtstart": "2024-10-24T22:00:00+00:00",
       "dtend": "2024-10-25T00:00:00+00:00",
       "tags": [
-        "python",
-        "ai"
+        "ai",
+        "python"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -1338,8 +1338,8 @@
       "dtstart": "2024-10-24T22:30:00+00:00",
       "dtend": "2024-10-25T00:30:00+00:00",
       "tags": [
-        "python",
-        "ai"
+        "ai",
+        "python"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -1426,8 +1426,8 @@
       "dtstart": "2024-10-25T00:00:00+00:00",
       "dtend": "2024-10-25T04:30:00+00:00",
       "tags": [
-        "mobile",
-        "frontend"
+        "frontend",
+        "mobile"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -1453,9 +1453,9 @@
       "dtstart": "2024-10-25T00:00:00+00:00",
       "dtend": "2024-10-25T04:00:00+00:00",
       "tags": [
-        "cloud",
         "backend",
-        "ai"
+        "ai",
+        "cloud"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -1531,8 +1531,8 @@
       "dtstart": "2024-10-25T01:00:00+00:00",
       "dtend": "2024-10-25T04:00:00+00:00",
       "tags": [
-        "python",
-        "ai"
+        "ai",
+        "python"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -1693,8 +1693,8 @@
       "dtstart": "2024-10-25T22:00:00+00:00",
       "dtend": "2024-10-26T01:00:00+00:00",
       "tags": [
-        "cloud",
-        "ai"
+        "ai",
+        "cloud"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -2059,9 +2059,9 @@
       "dtstart": "2025-10-20T14:00:00+00:00",
       "dtend": "2025-10-20T16:00:00+00:00",
       "tags": [
-        "python",
+        "ai",
         "cloud",
-        "ai"
+        "python"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -2236,8 +2236,8 @@
       "dtstart": "2025-10-20T19:00:00+00:00",
       "dtend": "2025-10-20T21:30:00+00:00",
       "tags": [
-        "python",
-        "ai"
+        "ai",
+        "python"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -2274,9 +2274,9 @@
       "dtstart": "2025-10-20T21:00:00+00:00",
       "dtend": "2025-10-20T22:30:00+00:00",
       "tags": [
-        "cloud",
         "frontend",
-        "ai"
+        "ai",
+        "cloud"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -2302,8 +2302,8 @@
       "dtstart": "2025-10-20T22:00:00+00:00",
       "dtend": "2025-10-21T01:00:00+00:00",
       "tags": [
-        "python",
-        "ai"
+        "ai",
+        "python"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -2439,9 +2439,9 @@
       "dtstart": "2025-10-21T00:00:00+00:00",
       "dtend": "2025-10-21T03:30:00+00:00",
       "tags": [
-        "python",
+        "ai",
         "cloud",
-        "ai"
+        "python"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
@@ -2483,18 +2483,18 @@
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu"
     },
     {
-      "title": "Kong Mexico City|How Kong Insomnia & AI-Ready APIs Are Shaping the Future of Digital Innovation|Online",
+      "title": "Kong Mexico City|How Kong Insomnia & AI-Ready APIs Are Shaping the Future of Digital Innovation|México|CDMX",
       "description": "Kong/MEXICO-CITY\nAPIs are at the heart of today’s AI and digital transformation, and Kong Insomnia is the essential tool for building scalable, future-proof architectures. Join us for an exploration of how the Kong Gateway and Insomnia can work together to create trustworthy integrations. In this session, you’ll learn how to leverage the Kong Gateway to seamlessly transform your enterprise-grade REST APIs into MCP servers, giving AI agents secure, governed access to your APIs while maintaining the control and visibility you need. We’ll demonstrate how Insomnia serves as your testing and validation environment, allowing you to inspect, test, and verify MCP tools, resources, and prompts before deployment no matter where you build them. From AI-enhanced development workflows to production-ready AI integrations, discover how this combination ensures your connected experiences are not only intelligent, but also reliable and built on a foundation of trust.\n\nJoin us to discover how to unlock strategic opportunities at the intersection of APIs, AI, and connectivity.\n\nWhat you'll learn:\n\n* Trusted API-to-MCP transformations: Convert Kong-managed REST APIs into MCP servers\n* Validate and test your MCP servers’ tools, resources and prompts within Insomnia before opening them up for agentic consumption\n* Enhance your productivity with Insomnia’s AI features\n* Strategic insights into building flexible architectures for the evolving digital landscape.",
       "url": "https://www.meetup.com/kong-mexico-city/events/312478549/",
-      "location": "",
+      "location": "Online event",
       "organizer": "",
       "dtstart": "2026-01-08T10:00:00-06:00",
       "dtend": "2026-01-08T11:00:00-06:00",
       "tags": [
-        "security",
-        "frontend",
         "backend",
-        "ai"
+        "security",
+        "ai",
+        "frontend"
       ],
       "source": "https://www.meetup.com/kong-mexico-city/events/ical"
     },
@@ -2502,24 +2502,24 @@
       "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|Cariño, encogí el modelo - Honey, I Shrunk the Model|México|CDMX",
       "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nSpanish with live English subtitles\nEste evento será en español con subtítulos en inglés en vivo.\n\\*\\*In-person and live on YouTube:\\*\\* https://www.youtube.com/@AICDMX\n\nEnglish Version Below\n\n6:00 p.m. Apertura y registro\n6:30 p.m. Arranca la conversación\n7:15 p.m. Preguntas y respuestas con el público\n7:30 p.m. Networking\n8:00–9:30 p.m. After party en un lugar cercano (a 5 min caminando; hay\nespacio interior/exterior, trae chamarra y zapatos para comer y beber)\n\nHace dos años, David Saavedra vio un problema real con la IA y pausó su carrera en el Tec de Monterrey para hacer algo al respecto. Empezó a construir un modelo de lenguaje pequeño desde cero, sin wrappers, sin plataformas. Las primeras versiones, un clásico problema de Ricitos de Oro: demasiado grandes para correr localmente, demasiado limitadas para ser útiles, especialmente en español. Siguió iterando hasta que corrió en una Raspberry Pi.\nSi la pausa universitaria se vuelve permanente, quién sabe.\nEs un emprendedor serial. Su primera startup es Styla, integrando tecnología NFC directo en la ropa usando materiales reciclados y amigables con el ambiente. Fueron los primeros en lograrlo de verdad, metiendo tecnología sin contacto en prendas, no solo en tarjetas de presentación. El proyecto se expandió a organizadores de cables, stickers personalizados, soluciones anti-metal, y etiquetas de papel, eventualmente consiguiendo un cliente en Victorio Forti.\nA los 15 competía en nacionales representando a CDMX como nadador. Cuando hizo las cuentas sobre cuánto dura una carrera de natación y cómo eran las probabilidades realmente, se fue por lo académico.\nEn esta sesión, David platica lo que realmente pasó: las primeras versiones que no funcionaban, el trade-off entre tamaño y capacidad, y lo que se necesita para construir algo funcional bajo restricciones reales. Es menos sobre resultados y más sobre la secuencia de decisiones que lo trajeron hasta aquí, marcadas por trabajo duro y las lecciones de padres emprendedores.\nEste evento será en español con subtítulos en inglés en vivo.\n\\*\\*David Saavedra:\\*\\* https://www.linkedin.com/in/saavedradavid/\n\\-\\-\\-\n\\#\\# ENGLISH\n6:00 p.m. Doors & check-in\n6:30 p.m. Conversation begins\n7:15 p.m. Audience Q&A\n7:30 p.m. Networking\n8:00–9:30 p.m. After party at a nearby spot (5 min walk; indoor/outdoor, bring a jacket and your drinking/eating shoes)\nTwo years ago, David Saavedra saw a real problem with AI and paused his degree at Tec de Monterrey to do something about it. He started building a small language model from scratch with no wrappers, no platforms. The first versions, a classic Goldilocks problem: too large to run locally, too limited to be useful, especially in Spanish. He kept iterating until it ran on a Raspberry Pi.\nWhether the university pause becomes permanent remains to be seen.\nHe's a serial entrepreneur. His first startup is Styla, integrating NFC technology directly into clothing using recycled and environmentally friendly materials. They became the first to actually pull it off, embedding contactless tech in garments, not just business cards. The project expanded into cable organizers, custom stickers, anti-metal solutions, and paper tags, eventually landing a client in Victorio Forti.\nAt 15, he was competing at nationals representing CDMX as a swimmer. When the math became clear about how long a swimming career realistically lasts and what the odds actually looked like, he chose academics.\nIn this session, David walks through what actually happened: the early versions that didn't work, the trade-offs between size and capability, and what it takes to build something functional under real constraints. It's less about outcomes and more about the sequence of decisions that got him here, shaped by hard work and lessons from entrepreneurial parents.\n\\*\\*David Saavedra:\\*\\* https://www.linkedin.com/in/saavedradavid/",
       "url": "https://www.meetup.com/ai-cdmx/events/311724520/",
-      "location": "",
+      "location": "Casa Rafael Galván, Zacatecas 94, Col Roma Norte,, Mexico City, Mexico City",
       "organizer": "",
       "dtstart": "2026-01-20T18:00:00-06:00",
       "dtend": "2026-01-20T20:00:00-06:00",
       "tags": [
+        "backend",
+        "security",
         "web",
         "frontend",
-        "security",
-        "ai",
-        "backend"
+        "ai"
       ],
       "source": "https://www.meetup.com/ai-cdmx/events/ical"
     },
     {
-      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|Online",
+      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|México|CDMX",
       "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nhttps://www.instagram.com/cdmxai/\nhttps://www.facebook.com/aicdmx\nhttps://www.linkedin.com/company/ai-cdmx\n\nJoin us and stay ahead of the curve. You won’t just learn about AI—you’ll learn how to use it to your advantage.\nThis event is just a glimpse into these topics. Our group dives into AI from all angles with monthly events and workshops that explore a wide range of themes.",
       "url": "https://www.meetup.com/ai-cdmx/events/lwpsttyjcdbwb/",
-      "location": "",
+      "location": "Casa Rafael Galván, Zacatecas 94, Col Roma Norte,, Mexico City, Mexico City",
       "organizer": "",
       "dtstart": "2026-02-17T18:00:00-06:00",
       "dtend": "2026-02-17T20:00:00-06:00",
@@ -2529,10 +2529,10 @@
       "source": "https://www.meetup.com/ai-cdmx/events/ical"
     },
     {
-      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|Online",
+      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|México|CDMX",
       "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nhttps://www.instagram.com/cdmxai/\nhttps://www.facebook.com/aicdmx\nhttps://www.linkedin.com/company/ai-cdmx\n\nJoin us and stay ahead of the curve. You won’t just learn about AI—you’ll learn how to use it to your advantage.\nThis event is just a glimpse into these topics. Our group dives into AI from all angles with monthly events and workshops that explore a wide range of themes.",
       "url": "https://www.meetup.com/ai-cdmx/events/lwpsttyjcfbwb/",
-      "location": "",
+      "location": "Casa Rafael Galván, Zacatecas 94, Col Roma Norte,, Mexico City, Mexico City",
       "organizer": "",
       "dtstart": "2026-03-17T18:00:00-06:00",
       "dtend": "2026-03-17T20:00:00-06:00",
@@ -2542,10 +2542,10 @@
       "source": "https://www.meetup.com/ai-cdmx/events/ical"
     },
     {
-      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|Online",
+      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|México|CDMX",
       "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nhttps://www.instagram.com/cdmxai/\nhttps://www.facebook.com/aicdmx\nhttps://www.linkedin.com/company/ai-cdmx\n\nJoin us and stay ahead of the curve. You won’t just learn about AI—you’ll learn how to use it to your advantage.\nThis event is just a glimpse into these topics. Our group dives into AI from all angles with monthly events and workshops that explore a wide range of themes.",
       "url": "https://www.meetup.com/ai-cdmx/events/lwpsttyjcgbcc/",
-      "location": "",
+      "location": "Casa Rafael Galván, Zacatecas 94, Col Roma Norte,, Mexico City, Mexico City",
       "organizer": "",
       "dtstart": "2026-04-21T18:00:00-06:00",
       "dtend": "2026-04-21T20:00:00-06:00",
@@ -2555,10 +2555,10 @@
       "source": "https://www.meetup.com/ai-cdmx/events/ical"
     },
     {
-      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|Online",
+      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|México|CDMX",
       "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nhttps://www.instagram.com/cdmxai/\nhttps://www.facebook.com/aicdmx\nhttps://www.linkedin.com/company/ai-cdmx\n\nJoin us and stay ahead of the curve. You won’t just learn about AI—you’ll learn how to use it to your advantage.\nThis event is just a glimpse into these topics. Our group dives into AI from all angles with monthly events and workshops that explore a wide range of themes.",
       "url": "https://www.meetup.com/ai-cdmx/events/lwpsttyjchbzb/",
-      "location": "",
+      "location": "Casa Rafael Galván, Zacatecas 94, Col Roma Norte,, Mexico City, Mexico City",
       "organizer": "",
       "dtstart": "2026-05-19T18:00:00-06:00",
       "dtend": "2026-05-19T20:00:00-06:00",
@@ -2568,10 +2568,10 @@
       "source": "https://www.meetup.com/ai-cdmx/events/ical"
     },
     {
-      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|Online",
+      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|México|CDMX",
       "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nhttps://www.instagram.com/cdmxai/\nhttps://www.facebook.com/aicdmx\nhttps://www.linkedin.com/company/ai-cdmx\n\nJoin us and stay ahead of the curve. You won’t just learn about AI—you’ll learn how to use it to your advantage.\nThis event is just a glimpse into these topics. Our group dives into AI from all angles with monthly events and workshops that explore a wide range of themes.",
       "url": "https://www.meetup.com/ai-cdmx/events/lwpsttyjcjbvb/",
-      "location": "",
+      "location": "Casa Rafael Galván, Zacatecas 94, Col Roma Norte,, Mexico City, Mexico City",
       "organizer": "",
       "dtstart": "2026-06-16T18:00:00-06:00",
       "dtend": "2026-06-16T20:00:00-06:00",
@@ -2581,10 +2581,10 @@
       "source": "https://www.meetup.com/ai-cdmx/events/ical"
     },
     {
-      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|Online",
+      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|México|CDMX",
       "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nhttps://www.instagram.com/cdmxai/\nhttps://www.facebook.com/aicdmx\nhttps://www.linkedin.com/company/ai-cdmx\n\nJoin us and stay ahead of the curve. You won’t just learn about AI—you’ll learn how to use it to your advantage.\nThis event is just a glimpse into these topics. Our group dives into AI from all angles with monthly events and workshops that explore a wide range of themes.",
       "url": "https://www.meetup.com/ai-cdmx/events/lwpsttyjckbcc/",
-      "location": "",
+      "location": "Casa Rafael Galván, Zacatecas 94, Col Roma Norte,, Mexico City, Mexico City",
       "organizer": "",
       "dtstart": "2026-07-21T18:00:00-06:00",
       "dtend": "2026-07-21T20:00:00-06:00",
@@ -2594,10 +2594,10 @@
       "source": "https://www.meetup.com/ai-cdmx/events/ical"
     },
     {
-      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|Online",
+      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|México|CDMX",
       "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nhttps://www.instagram.com/cdmxai/\nhttps://www.facebook.com/aicdmx\nhttps://www.linkedin.com/company/ai-cdmx\n\nJoin us and stay ahead of the curve. You won’t just learn about AI—you’ll learn how to use it to your advantage.\nThis event is just a glimpse into these topics. Our group dives into AI from all angles with monthly events and workshops that explore a wide range of themes.",
       "url": "https://www.meetup.com/ai-cdmx/events/lwpsttyjclbxb/",
-      "location": "",
+      "location": "Casa Rafael Galván, Zacatecas 94, Col Roma Norte,, Mexico City, Mexico City",
       "organizer": "",
       "dtstart": "2026-08-18T18:00:00-06:00",
       "dtend": "2026-08-18T20:00:00-06:00",
@@ -2607,10 +2607,10 @@
       "source": "https://www.meetup.com/ai-cdmx/events/ical"
     },
     {
-      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|Online",
+      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|México|CDMX",
       "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nhttps://www.instagram.com/cdmxai/\nhttps://www.facebook.com/aicdmx\nhttps://www.linkedin.com/company/ai-cdmx\n\nJoin us and stay ahead of the curve. You won’t just learn about AI—you’ll learn how to use it to your advantage.\nThis event is just a glimpse into these topics. Our group dives into AI from all angles with monthly events and workshops that explore a wide range of themes.",
       "url": "https://www.meetup.com/ai-cdmx/events/lwpsttyjcmbtb/",
-      "location": "",
+      "location": "Casa Rafael Galván, Zacatecas 94, Col Roma Norte,, Mexico City, Mexico City",
       "organizer": "",
       "dtstart": "2026-09-15T18:00:00-06:00",
       "dtend": "2026-09-15T20:00:00-06:00",
@@ -2620,10 +2620,10 @@
       "source": "https://www.meetup.com/ai-cdmx/events/ical"
     },
     {
-      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|Online",
+      "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|To Be Announced/Por anunciar|México|CDMX",
       "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nhttps://www.instagram.com/cdmxai/\nhttps://www.facebook.com/aicdmx\nhttps://www.linkedin.com/company/ai-cdmx\n\nJoin us and stay ahead of the curve. You won’t just learn about AI—you’ll learn how to use it to your advantage.\nThis event is just a glimpse into these topics. Our group dives into AI from all angles with monthly events and workshops that explore a wide range of themes.",
       "url": "https://www.meetup.com/ai-cdmx/events/lwpsttyjcnbbc/",
-      "location": "",
+      "location": "Casa Rafael Galván, Zacatecas 94, Col Roma Norte,, Mexico City, Mexico City",
       "organizer": "",
       "dtstart": "2026-10-20T18:00:00-06:00",
       "dtend": "2026-10-20T20:00:00-06:00",
