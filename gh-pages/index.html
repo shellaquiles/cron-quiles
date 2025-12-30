@@ -1175,19 +1175,18 @@
                 let descriptionHTML = '';
                 if (event.description) {
                     const descId = `desc-${index}`;
-                    // Limpiar solo saltos de línea múltiples excesivos (máximo 2 seguidos)
-                    // pero preservar los saltos de línea normales
-                    const cleanDescription = event.description
-                        .replace(/(\n\s*){3,}/g, '\n\n')  // Máximo 2 saltos de línea seguidos (tolera espacios)
+                    // Omitir la primera línea y limpiar indentación de cada línea restante
+                    const descLines = event.description.split('\n');
+                    const processedDescription = descLines.length > 1
+                        ? descLines.slice(1).map(line => line.trim()).join('\n')
+                        : event.description;
+
+                    const cleanDescription = processedDescription
+                        .replace(/(\n\s*){3,}/g, '\n\n')  // Máximo 2 saltos de línea
                         .trim();
                     const isLong = cleanDescription.length > 300;
 
-                    descriptionHTML = `
-                        <div class="calendar-month-event-description ${isLong ? 'collapsed' : ''}" id="${descId}">
-                            ${cleanDescription}
-                        </div>
-                        ${isLong ? `<span class="calendar-month-event-toggle" onclick="toggleDescription('${descId}', this)">Ver más →</span>` : ''}
-                    `;
+                    descriptionHTML = `<div class="calendar-month-event-description ${isLong ? 'collapsed' : ''}" id="${descId}">${cleanDescription}</div>${isLong ? `<span class="calendar-month-event-toggle" onclick="toggleDescription('${descId}', this)">Ver más →</span>` : ''}`;
                 }
 
                 const link = event.url ? `<a href="${event.url}" target="_blank" rel="noopener" style="color: var(--terminal-green); margin-top: 1px; display: inline-block;">Ver evento →</a>` : '';
