@@ -8,20 +8,19 @@ feeds:
   # ==========================================
   # ------------------------------------------
   - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu
-    name: "Notion Mexico"
-    description: "Comunidad oficial de Notion en México. Organizamos eventos sobre productividad, organización y herramientas no-code."
+    description: "Calendario oficial de Mexico Tech Week 2025."
   # ------------------------------------------
   - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-okVQAVdbyFhL8Zo
     name: "Python CDMX"
     description: "Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles."
   # ------------------------------------------
   - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-2gq3mjgfAclpoCp
-    name: "Makers CDMX"
-    description: "Comunidad apasionada por la tecnología, el diseño y la fabricación digital."
+    name: "AI/IA CDMX"
+    description: "Canal de Meetup de la comunidad de IA en Ciudad de México."
   # ------------------------------------------
   - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-gKhhS6fDDrX3mqz
-    name: "AI/IA CDMX"
-    description: "Comunidad enfocada en Inteligencia Artificial. Charlas técnicas, demos y networking sobre el futuro de IA."
+    name: "Claude Users Group"
+    description: ""
 
   # ==========================================
   # MEETUP GROUPS
@@ -40,7 +39,7 @@ feeds:
     description: "Espacio para compartir conocimientos sobre metodologías ágiles, Scrum, Kanban y transformación digital."
   # ------------------------------------------
   - url: https://www.meetup.com/ai-cdmx/events/ical
-    name: "AI/IA CDMX (Meetup)"
+    name: "AI/IA CDMX"
     description: "Canal de Meetup de la comunidad de IA en Ciudad de México."
   # ------------------------------------------
   - url: https://www.meetup.com/ajolotesenlanube/events/ical
