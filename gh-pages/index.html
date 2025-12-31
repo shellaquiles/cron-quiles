@@ -897,6 +897,44 @@
                 margin-right: auto;
             }
         }
+
+        /* Language Switcher */
+        .lang-switcher {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin-top: var(--spacing-md);
+        }
+
+        .lang-btn {
+            background: transparent;
+            border: 1px solid var(--terminal-green);
+            color: var(--terminal-green);
+            padding: 4px 12px;
+            font-family: inherit;
+            font-size: 0.85em;
+            cursor: pointer;
+            border-radius: var(--radius-md);
+            transition: all var(--transition-normal);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .lang-btn:hover {
+            background: rgba(0, 255, 0, 0.2);
+        }
+
+        .lang-btn.active {
+            background: var(--terminal-green);
+            color: var(--terminal-black);
+            font-weight: bold;
+        }
+
+        .lang-separator {
+            color: var(--terminal-green);
+            opacity: 0.5;
+        }
     </style>
 </head>
 <body>
@@ -904,16 +942,21 @@
         <!-- Terminal Header -->
         <div class="terminal-header">
             <div class="terminal-title">🐢 Cron-Quiles</div>
-            <div class="terminal-subtitle">Calendario unificado de eventos tech en México</div>
+            <div class="terminal-subtitle" data-i18n="site.subtitle">Calendario unificado de eventos tech en México</div>
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="es" aria-label="Español">ES</button>
+                <span class="lang-separator">|</span>
+                <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+            </div>
         </div>
 
         <!-- Comando 1: Descripción -->
         <div class="prompt">
             <span class="cursor">$</span>
-            <span class="command-text">cat descripcion.txt</span>
+            <span class="command-text" data-i18n="cmd.description">cat descripcion.txt</span>
         </div>
         <div class="output">
-            <p>
+            <p data-i18n="desc.content">
                 Este calendario agrega eventos de múltiples fuentes (Meetup, Luma, etc.)
                 en un solo lugar. Los eventos se actualizan automáticamente cada 6 horas.
             </p>
@@ -921,19 +964,19 @@
         <!-- Comando 2: Calendario Visual -->
         <div class="prompt">
             <span class="cursor">$</span>
-            <span class="command-text">./calendario.sh</span>
+            <span class="command-text" data-i18n="cmd.calendar">./calendario.sh</span>
         </div>
         <div id="calendar-output" class="output">
-            <h2>📅 Calendario de Eventos</h2>
+            <h2 data-i18n="calendar.title">📅 Calendario de Eventos</h2>
             <div id="calendar-container" class="calendar-container">
-                <div class="events-loading">Cargando calendario...</div>
+                <div class="events-loading" data-i18n="calendar.loading">Cargando calendario...</div>
             </div>
         </div>
 
         <!-- Communities Section -->
         <section class="communities-section">
             <h2 class="section-title">
-                <span class="prompt-char">#</span> Comunidades Integradas
+                <span class="prompt-char">#</span> <span data-i18n="section.communities">Comunidades Integradas</span>
             </h2>
             <div class="communities-grid">
                 <div class="community-card">
@@ -1002,43 +1045,43 @@
                 </div>
             </div>
             <div style="margin-top: var(--spacing-lg); color: var(--terminal-gray); font-size: 0.9em; text-align: center;">
-                <a href="https://github.com/shellaquiles/cron-quiles/blob/main/docs/COMMUNITIES.md" target="_blank" style="color: var(--terminal-green); text-decoration: underline;">Ver lista completa de comunidades integrada →</a>
+                <a href="https://github.com/shellaquiles/cron-quiles/blob/main/docs/COMMUNITIES.md" target="_blank" style="color: var(--terminal-green); text-decoration: underline;" data-i18n="communities.viewAll">Ver lista completa de comunidades integrada →</a>
                 <br><br>
-                ¿Quieres agregar tu comunidad? Abre un PR o Issue en el repositorio.
+                <span data-i18n="communities.addYours">¿Quieres agregar tu comunidad? Abre un PR o Issue en el repositorio.</span>
             </div>
         </section>
 
         <!-- Comando 3: Calendario ICS -->
         <div class="prompt">
             <span class="cursor">$</span>
-            <span class="command-text">ls calendarios/</span>
+            <span class="command-text" data-i18n="cmd.files">ls calendarios/</span>
         </div>
         <div class="output">
-            <h2>📅 Calendario ICS <span class="badge">Recomendado</span></h2>
-            <p>
+            <h2>📅 <span data-i18n="section.ics">Calendario ICS</span> <span class="badge" data-i18n="badge.recommended">Recomendado</span></h2>
+            <p data-i18n="ics.description">
                 Archivo ICS estándar compatible con Google Calendar, Apple Calendar,
                 Outlook y cualquier cliente de calendario.
             </p>
             <div class="download-card">
                 <div class="btn-group">
-                    <a href="cronquiles.ics" class="btn" download>Descargar ICS</a>
-                    <a href="webcal://shellaquiles.github.io/cron-quiles/cronquiles.ics" class="btn btn-secondary">Copiar WebCal</a>
+                    <a href="cronquiles.ics" class="btn" download data-i18n="btn.download.ics">Descargar ICS</a>
+                    <a href="webcal://shellaquiles.github.io/cron-quiles/cronquiles.ics" class="btn btn-secondary" data-i18n="btn.copy.webcal">Copiar WebCal</a>
                 </div>
             </div>
         </div>
         <!-- Comando 4: Datos JSON -->
         <div class="prompt">
             <span class="cursor">$</span>
-            <span class="command-text">cat datos.json</span>
+            <span class="command-text" data-i18n="cmd.json">cat datos.json</span>
         </div>
         <div class="output">
-            <h2>📊 Datos JSON</h2>
-            <p>
+            <h2>📊 <span data-i18n="section.json">Datos JSON</span></h2>
+            <p data-i18n="json.description">
                 Archivo JSON con todos los eventos para uso programático o análisis.
             </p>
             <div class="download-card">
                 <div class="btn-group">
-                    <a href="cronquiles.json" class="btn" download>Descargar JSON</a>
+                    <a href="cronquiles.json" class="btn" download data-i18n="btn.download.json">Descargar JSON</a>
                 </div>
             </div>
         </div>
@@ -1046,46 +1089,234 @@
         <!-- Comando 5: Tips -->
         <div class="prompt">
             <span class="cursor">$</span>
-            <span class="command-text">cat tips.txt</span>
+            <span class="command-text" data-i18n="cmd.tips">cat tips.txt</span>
         </div>
         <div class="output">
             <div class="info-box">
-                <strong>💡 Tip:</strong> Para suscribirte automáticamente, usa la URL de WebCal
+                <strong>💡 <span data-i18n="tip.label">Tip:</span></strong> <span data-i18n="tip.content">Para suscribirte automáticamente, usa la URL de WebCal
                 o importa el archivo ICS en tu calendario favorito. Los eventos se actualizarán
-                automáticamente.
+                automáticamente.</span>
             </div>
         </div>
 
         <!-- Comando 6: Cómo usar -->
         <div class="prompt">
             <span class="cursor">$</span>
-            <span class="command-text">./como-usar.sh</span>
+            <span class="command-text" data-i18n="cmd.howto">./como-usar.sh</span>
         </div>
         <div class="output">
-            <h2>📱 Cómo usar</h2>
+            <h2>📱 <span data-i18n="section.howto">Cómo usar</span></h2>
             <ul>
-                <li><strong>Google Calendar:</strong> Haz clic en "Copiar WebCal" o importa el archivo ICS</li>
-                <li><strong>Apple Calendar:</strong> Archivo → Nueva suscripción de calendario → pega la URL WebCal</li>
-                <li><strong>Outlook:</strong> Agregar calendario → Suscribir desde web → pega la URL WebCal</li>
+                <li><strong>Google Calendar:</strong> <span data-i18n="howto.google">Haz clic en "Copiar WebCal" o importa el archivo ICS</span></li>
+                <li><strong>Apple Calendar:</strong> <span data-i18n="howto.apple">Archivo → Nueva suscripción de calendario → pega la URL WebCal</span></li>
+                <li><strong>Outlook:</strong> <span data-i18n="howto.outlook">Agregar calendario → Suscribir desde web → pega la URL WebCal</span></li>
             </ul>
         </div>
 
         <!-- Footer -->
         <div class="footer">
             <p>
-                Proyecto open source de la comunidad <strong>Shellaquiles</strong> 🐢
+                <span data-i18n="footer.project">Proyecto open source de la comunidad</span> <strong>Shellaquiles</strong> 🐢
             </p>
             <p style="margin-top: var(--spacing-md);">
-                <a href="https://github.com/shellaquiles/cron-quiles">Ver en GitHub</a> |
-                <a href="https://github.com/shellaquiles/cron-quiles/blob/main/README.md">Documentación</a>
+                <a href="https://github.com/shellaquiles/cron-quiles" data-i18n="footer.github">Ver en GitHub</a> |
+                <a href="https://github.com/shellaquiles/cron-quiles/blob/main/README.md" data-i18n="footer.docs">Documentación</a>
             </p>
             <p style="margin-top: var(--spacing-md); font-size: 0.9em;">
-                Última actualización: <span class="last-update" id="last-update">Cargando...</span>
+                <span data-i18n="footer.lastUpdate">Última actualización:</span> <span class="last-update" id="last-update" data-i18n="footer.loading">Cargando...</span>
             </p>
         </div>
     </div>
 
     <script>
+        // ============================================
+        // SISTEMA DE INTERNACIONALIZACIÓN (i18n)
+        // ============================================
+        const i18n = {
+            es: {
+                'site.subtitle': 'Calendario unificado de eventos tech en México',
+                'cmd.description': 'cat descripcion.txt',
+                'cmd.calendar': './calendario.sh',
+                'cmd.files': 'ls calendarios/',
+                'cmd.json': 'cat datos.json',
+                'cmd.tips': 'cat tips.txt',
+                'cmd.howto': './como-usar.sh',
+                'desc.content': 'Este calendario agrega eventos de múltiples fuentes (Meetup, Luma, etc.) en un solo lugar. Los eventos se actualizan automáticamente cada 6 horas.',
+                'calendar.title': '📅 Calendario de Eventos',
+                'calendar.loading': 'Cargando calendario...',
+                'calendar.empty': 'No hay eventos disponibles para mostrar en el calendario',
+                'calendar.noEvents': 'No hay eventos programados este mes',
+                'section.communities': 'Comunidades Integradas',
+                'section.ics': 'Calendario ICS',
+                'section.json': 'Datos JSON',
+                'section.howto': 'Cómo usar',
+                'badge.recommended': 'Recomendado',
+                'ics.description': 'Archivo ICS estándar compatible con Google Calendar, Apple Calendar, Outlook y cualquier cliente de calendario.',
+                'json.description': 'Archivo JSON con todos los eventos para uso programático o análisis.',
+                'btn.download.ics': 'Descargar ICS',
+                'btn.copy.webcal': 'Copiar WebCal',
+                'btn.download.json': 'Descargar JSON',
+                'btn.copied': '✓ Copiado!',
+                'tip.label': 'Tip:',
+                'tip.content': 'Para suscribirte automáticamente, usa la URL de WebCal o importa el archivo ICS en tu calendario favorito. Los eventos se actualizarán automáticamente.',
+                'howto.google': 'Haz clic en "Copiar WebCal" o importa el archivo ICS',
+                'howto.apple': 'Archivo → Nueva suscripción de calendario → pega la URL WebCal',
+                'howto.outlook': 'Agregar calendario → Suscribir desde web → pega la URL WebCal',
+                'communities.viewAll': 'Ver lista completa de comunidades integrada →',
+                'communities.addYours': '¿Quieres agregar tu comunidad? Abre un PR o Issue en el repositorio.',
+                'footer.project': 'Proyecto open source de la comunidad',
+                'footer.github': 'Ver en GitHub',
+                'footer.docs': 'Documentación',
+                'footer.lastUpdate': 'Última actualización:',
+                'footer.loading': 'Cargando...',
+                'footer.notAvailable': 'No disponible',
+                'cal.prev': '◀ Anterior',
+                'cal.next': 'Siguiente ▶',
+                'cal.showMore': 'Ver más →',
+                'cal.showLess': 'Ver menos ←',
+                'cal.eventsOf': 'Eventos de',
+                'cal.viewEvent': 'Ver evento →',
+                'months': ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+                'days': ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'],
+                'locale': 'es-MX'
+            },
+            en: {
+                'site.subtitle': 'Unified tech events calendar in Mexico',
+                'cmd.description': 'cat description.txt',
+                'cmd.calendar': './calendar.sh',
+                'cmd.files': 'ls calendars/',
+                'cmd.json': 'cat data.json',
+                'cmd.tips': 'cat tips.txt',
+                'cmd.howto': './how-to-use.sh',
+                'desc.content': 'This calendar aggregates events from multiple sources (Meetup, Luma, etc.) in one place. Events are updated automatically every 6 hours.',
+                'calendar.title': '📅 Events Calendar',
+                'calendar.loading': 'Loading calendar...',
+                'calendar.empty': 'No events available to display in the calendar',
+                'calendar.noEvents': 'No events scheduled this month',
+                'section.communities': 'Integrated Communities',
+                'section.ics': 'ICS Calendar',
+                'section.json': 'JSON Data',
+                'section.howto': 'How to use',
+                'badge.recommended': 'Recommended',
+                'ics.description': 'Standard ICS file compatible with Google Calendar, Apple Calendar, Outlook and any calendar client.',
+                'json.description': 'JSON file with all events for programmatic use or analysis.',
+                'btn.download.ics': 'Download ICS',
+                'btn.copy.webcal': 'Copy WebCal',
+                'btn.download.json': 'Download JSON',
+                'btn.copied': '✓ Copied!',
+                'tip.label': 'Tip:',
+                'tip.content': 'To subscribe automatically, use the WebCal URL or import the ICS file in your favorite calendar. Events will update automatically.',
+                'howto.google': 'Click "Copy WebCal" or import the ICS file',
+                'howto.apple': 'File → New Calendar Subscription → paste the WebCal URL',
+                'howto.outlook': 'Add calendar → Subscribe from web → paste the WebCal URL',
+                'communities.viewAll': 'View full list of integrated communities →',
+                'communities.addYours': 'Want to add your community? Open a PR or Issue in the repository.',
+                'footer.project': 'Open source project by',
+                'footer.github': 'View on GitHub',
+                'footer.docs': 'Documentation',
+                'footer.lastUpdate': 'Last update:',
+                'footer.loading': 'Loading...',
+                'footer.notAvailable': 'Not available',
+                'cal.prev': '◀ Previous',
+                'cal.next': 'Next ▶',
+                'cal.showMore': 'Show more →',
+                'cal.showLess': 'Show less ←',
+                'cal.eventsOf': 'Events of',
+                'cal.viewEvent': 'View event →',
+                'months': ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                'days': ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+                'locale': 'en-US'
+            }
+        };
+
+        // Gestor de idioma con detección automática y persistencia
+        const LangManager = {
+            KEY: 'cron-quiles-lang',
+            SUPPORTED: ['es', 'en'],
+            detect() {
+                const saved = localStorage.getItem(this.KEY);
+                if (saved && this.SUPPORTED.includes(saved)) return saved;
+                const browserLang = (navigator.language || navigator.userLanguage || '').split('-')[0].toLowerCase();
+                return this.SUPPORTED.includes(browserLang) ? browserLang : 'es';
+            },
+            save(lang) {
+                if (this.SUPPORTED.includes(lang)) {
+                    localStorage.setItem(this.KEY, lang);
+                }
+            },
+            get() {
+                return localStorage.getItem(this.KEY) || this.detect();
+            }
+        };
+
+        let currentLang = LangManager.detect();
+
+        function t(key) {
+            return i18n[currentLang][key] || i18n['es'][key] || key;
+        }
+
+        function getLocale() {
+            return i18n[currentLang]['locale'] || 'es-MX';
+        }
+
+        function applyTranslations() {
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                const translation = t(key);
+                if (translation && translation !== key) {
+                    el.textContent = translation;
+                }
+            });
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.lang === currentLang);
+            });
+            document.documentElement.lang = currentLang;
+        }
+
+        function switchLang(lang) {
+            if (lang === currentLang) return;
+            currentLang = lang;
+            LangManager.save(lang);
+            applyTranslations();
+            // Re-renderizar calendario con nuevo idioma
+            if (allEventsData && allEventsData.length > 0) {
+                renderCalendar(allEventsData);
+            }
+            // Actualizar fecha de última actualización
+            updateLastModified();
+        }
+
+        function updateLastModified() {
+            fetch('cronquiles.ics')
+                .then(response => {
+                    const lastModified = response.headers.get('last-modified');
+                    if (lastModified) {
+                        const date = new Date(lastModified);
+                        document.getElementById('last-update').textContent =
+                            date.toLocaleString(getLocale(), {
+                                year: 'numeric',
+                                month: 'long',
+                                day: 'numeric',
+                                hour: '2-digit',
+                                minute: '2-digit'
+                            });
+                    } else {
+                        document.getElementById('last-update').textContent = t('footer.notAvailable');
+                    }
+                })
+                .catch(() => {
+                    document.getElementById('last-update').textContent = t('footer.notAvailable');
+                });
+        }
+
+        // Inicializar i18n
+        document.addEventListener('DOMContentLoaded', () => {
+            applyTranslations();
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.addEventListener('click', () => switchLang(btn.dataset.lang));
+            });
+        });
+
         // Mostrar última fecha de modificación
         fetch('cronquiles.ics')
             .then(response => {
@@ -1093,7 +1324,7 @@
                 if (lastModified) {
                     const date = new Date(lastModified);
                     document.getElementById('last-update').textContent =
-                        date.toLocaleString('es-MX', {
+                        date.toLocaleString(getLocale(), {
                             year: 'numeric',
                             month: 'long',
                             day: 'numeric',
@@ -1101,11 +1332,11 @@
                             minute: '2-digit'
                         });
                 } else {
-                    document.getElementById('last-update').textContent = 'No disponible';
+                    document.getElementById('last-update').textContent = t('footer.notAvailable');
                 }
             })
             .catch(() => {
-                document.getElementById('last-update').textContent = 'No disponible';
+                document.getElementById('last-update').textContent = t('footer.notAvailable');
             });
 
         // Copiar WebCal al portapapeles
@@ -1116,9 +1347,9 @@
                     const url = this.href.replace('webcal://', 'https://');
                     navigator.clipboard.writeText(url).then(() => {
                         const originalText = this.textContent;
-                        this.textContent = '✓ Copiado!';
+                        this.textContent = t('btn.copied');
                         setTimeout(() => {
-                            this.textContent = originalText;
+                            this.textContent = t('btn.copy.webcal');
                         }, 2000);
                     });
                 });
@@ -1127,9 +1358,9 @@
 
         // Cargar y mostrar eventos
         function formatDate(dateString) {
-            if (!dateString) return 'Fecha no disponible';
+            if (!dateString) return currentLang === 'en' ? 'Date not available' : 'Fecha no disponible';
             const date = new Date(dateString);
-            return date.toLocaleDateString('es-MX', {
+            return date.toLocaleDateString(getLocale(), {
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric',
@@ -1140,7 +1371,7 @@
         function formatTime(dateString) {
             if (!dateString) return '';
             const date = new Date(dateString);
-            return date.toLocaleTimeString('es-MX', {
+            return date.toLocaleTimeString(getLocale(), {
                 hour: '2-digit',
                 minute: '2-digit',
                 timeZone: 'America/Mexico_City'
@@ -1163,7 +1394,7 @@
             const container = document.getElementById('calendar-container');
 
             if (!events || events.length === 0) {
-                container.innerHTML = '<div class="events-empty">No hay eventos disponibles para mostrar en el calendario</div>';
+                container.innerHTML = `<div class="events-empty">${t('calendar.empty')}</div>`;
                 return;
             }
 
@@ -1175,18 +1406,17 @@
             const daysInMonth = lastDay.getDate();
             const startingDayOfWeek = firstDay.getDay();
 
-            const monthNames = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
-                              'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
-            const dayNames = ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'];
+            const monthNames = t('months');
+            const dayNames = t('days');
 
             const today = new Date();
             today.setHours(0, 0, 0, 0);
 
             let calendarHTML = `
                 <div class="calendar-header">
-                    <button class="calendar-nav" onclick="changeMonth(-1)">◀ Anterior</button>
+                    <button class="calendar-nav" onclick="changeMonth(-1)">${t('cal.prev')}</button>
                     <div class="calendar-title">${monthNames[month]} ${year}</div>
-                    <button class="calendar-nav" onclick="changeMonth(1)">Siguiente ▶</button>
+                    <button class="calendar-nav" onclick="changeMonth(1)">${t('cal.next')}</button>
                 </div>
                 <div class="calendar-grid">
             `;
@@ -1257,15 +1487,14 @@
             });
 
             const eventsList = document.getElementById('calendar-events-list');
-            const monthNames = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
-                              'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+            const monthNames = t('months');
 
             if (monthEvents.length === 0) {
-                eventsList.innerHTML = `<h3>Eventos de ${monthNames[month]} ${year}</h3><p style="color: var(--terminal-gray);">No hay eventos programados este mes</p>`;
+                eventsList.innerHTML = `<h3>${t('cal.eventsOf')} ${monthNames[month]} ${year}</h3><p style="color: var(--terminal-gray);">${t('calendar.noEvents')}</p>`;
                 return;
             }
 
-            let eventsHTML = `<h3>Eventos de ${monthNames[month]} ${year}</h3>`;
+            let eventsHTML = `<h3>${t('cal.eventsOf')} ${monthNames[month]} ${year}</h3>`;
             eventsHTML += '<div class="calendar-month-events">';
 
             monthEvents.forEach((event, index) => {
@@ -1313,10 +1542,10 @@
                         .trim();
                     const isLong = cleanDescription.length > 300;
 
-                    descriptionHTML = `<div class="calendar-month-event-description ${isLong ? 'collapsed' : ''}" id="${descId}">${cleanDescription}</div>${isLong ? `<span class="calendar-month-event-toggle" onclick="toggleDescription('${descId}', this)">Ver más →</span>` : ''}`;
+                    descriptionHTML = `<div class="calendar-month-event-description ${isLong ? 'collapsed' : ''}" id="${descId}">${cleanDescription}</div>${isLong ? `<span class="calendar-month-event-toggle" onclick="toggleDescription('${descId}', this)">${t('cal.showMore')}</span>` : ''}`;
                 }
 
-                const link = event.url ? `<a href="${event.url}" target="_blank" rel="noopener" style="color: var(--terminal-green); margin-top: 1px; display: inline-block;">Ver evento →</a>` : '';
+                const link = event.url ? `<a href="${event.url}" target="_blank" rel="noopener" style="color: var(--terminal-green); margin-top: 1px; display: inline-block;">${t('cal.viewEvent')}</a>` : '';
                 const tags = event.tags && event.tags.length > 0
                     ? `<div class="calendar-month-event-tags">${event.tags.map(tag => `<span class="calendar-month-event-tag">${tag}</span>`).join('')}</div>`
                     : '';
@@ -1348,10 +1577,10 @@
 
             if (descElement.classList.contains('collapsed')) {
                 descElement.classList.remove('collapsed');
-                toggleElement.textContent = 'Ver menos ←';
+                toggleElement.textContent = t('cal.showLess');
             } else {
                 descElement.classList.add('collapsed');
-                toggleElement.textContent = 'Ver más →';
+                toggleElement.textContent = t('cal.showMore');
             }
         };
 
