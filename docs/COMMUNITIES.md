@@ -59,20 +59,29 @@ Las comunidades de Guadalajara se están agregando progresivamente. Si conoces c
 ### Comunidades pendientes de agregar
 
 - GDG Guadalajara
-- AWS User Group Guadalajara
-- Python Jalisco
-- JavaScript Guadalajara
-- DevOps Guadalajara
-- AI Guadalajara
+- AWS User Group Jalisco
+- Pythonistas GDL
+- GDLJS
+
+| Comunidad | Descripción | Sitio Web |
+| :--- | :--- | :--- |
+| **GDG Guadalajara** | Google Developer Group, tecnologías de Google. | [Link](https://gdg.community.dev/gdg-guadalajara/) |
+| **AWS User Group Jalisco** | User Group oficial de AWS en Guadalajara. | [Link](https://www.meetup.com/amazon-web-services-jalisco/) |
+| **j4Guanatos** | Comunidad de Java en Guadalajara. | [Link](https://www.meetup.com/j4guanatos/) |
+| **Pythonistas GDL** | Comunidad de Python en Guadalajara. | [Link](https://pythonistas-gdl.org/) |
+| **GDLJS** | La comunidad de JavaScript de Guadalajara. | [Link](https://www.gdljs.com/) |
+| **MexAI** | Comunidad de IA en Guadalajara. | [Link](https://www.eventbrite.com.mx/o/mexai-comunidad-de-ia-106303535081) |
 
 ## Otras Ciudades
 
-Algunas comunidades pueden tener eventos en múltiples ciudades o ser nacionales:
+Comunidades de ciudades específicas fuera de CDMX y GDL. Por el momento, estas comunidades están organizadas en la categoría `otras_ciudades` pero no generan calendarios separados. Se agregarán cuando se implemente soporte completo para más ciudades.
 
 | Comunidad | Descripción | Ubicación |
 | :--- | :--- | :--- |
 | **Python Puebla** | Comunidad de Python en el estado de Puebla. | Puebla |
 | **Python Monterrey** | Comunidad de Python en la ciudad de Monterrey. | Monterrey |
+
+**Nota:** Las comunidades nacionales o latinoamericanas (como GitTogether LATAM, Odoo Latinoamérica, etc.) permanecen en la sección de CDMX por el momento, ya que sus eventos suelen realizarse principalmente en Ciudad de México.
 
 ---
 

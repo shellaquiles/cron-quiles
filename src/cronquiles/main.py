@@ -395,13 +395,26 @@ Ejemplos:
             if not success:
                 sys.exit(1)
         elif args.all_cities:
-            # Procesar todas las ciudades
-            logger.info(f"Procesando {len(cities)} ciudades...")
+            # Procesar todas las ciudades (excluyendo categorías especiales)
+            # Por el momento, excluimos "otras_ciudades" que agrupa comunidades
+            # de otras ciudades pero no genera calendarios separados aún
+            excluded_cities = {"otras_ciudades"}
+            active_cities = {
+                slug: config
+                for slug, config in cities.items()
+                if slug not in excluded_cities
+            }
+            
+            if not active_cities:
+                logger.error("No se encontraron ciudades activas para procesar")
+                sys.exit(1)
+            
+            logger.info(f"Procesando {len(active_cities)} ciudades...")
             success_count = 0
-            for city_slug, city_config in cities.items():
+            for city_slug, city_config in active_cities.items():
                 if process_city(city_slug, city_config, args.output_dir, args):
                     success_count += 1
-            logger.info(f"\n✓ Procesadas {success_count}/{len(cities)} ciudades exitosamente")
+            logger.info(f"\n✓ Procesadas {success_count}/{len(active_cities)} ciudades exitosamente")
         else:
             logger.error("Debes especificar --city o --all-cities")
             sys.exit(1)

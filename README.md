@@ -209,6 +209,17 @@ cities:
       - url: https://www.meetup.com/python-jalisco/events/ical
         name: "Python Jalisco"
         description: "Comunidad de Python en Jalisco"
+  
+  otras_ciudades:
+    name: "Otras Ciudades"
+    slug: "otras"
+    timezone: "America/Mexico_City"
+    feeds:
+      # Comunidades de otras ciudades específicas (Puebla, Monterrey, etc.)
+      # Por el momento, estas no generan calendarios separados
+      - url: https://www.meetup.com/grupo-de-python-en-puebla/events/ical
+        name: "Python Puebla"
+        description: "Comunidad de Python en Puebla"
 ```
 
 ### Formato YAML Legacy (compatibilidad hacia atrás)

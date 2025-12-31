@@ -114,11 +114,6 @@ cities:
       - url: https://www.meetup.com/grupo-de-meetup-de-linux-en-ciudad-de-mexico/events/ical
         name: "GNU / SysAdmin Linux en Ciudad de México"
         description: "Comunidad de Sysadmins que se dedican a dar soporte con Software Libre."
-      # ------------------------------------------
-      - url: https://www.meetup.com/grupo-de-python-en-puebla/events/ical
-        name: "Python Puebla"
-        description: "Comunidad de Python en el estado de Puebla. Charlas y talleres."
-      # ------------------------------------------
       - url: https://www.meetup.com/hackrobotsmx/events/ical
         name: "HackrobotsMX"
         description: "HackrobotsMX es la primera y única comunidad en América sin fines de lucro dedicada a la formación y capacitación en robótica."
@@ -182,11 +177,6 @@ cities:
       - url: https://www.meetup.com/pythonista/events/ical
         name: "Pythonista"
         description: "Una de las comunidades de Python más grandes y activas de México. Charlas y talleres para todos los niveles."
-      # ------------------------------------------
-      - url: https://www.meetup.com/pythonmty/events/ical
-        name: "Python Monterrey"
-        description: "Comunidad de Python en la ciudad de Monterrey."
-      # ------------------------------------------
       - url: https://www.meetup.com/red-hat-user-group-mexico/events/ical
         name: "Red Hat User Group"
         description: "Tecnologías Red Hat, Linux Enterprise y OpenShift."
@@ -220,35 +210,47 @@ cities:
       # GUADALAJARA TECH COMMUNITIES
       # ==========================================
       # ------------------------------------------
-      # Nota: Los siguientes feeds son ejemplos comunes.
-      # Verifica que existan y agrega más según sea necesario.
+      - url: https://www.meetup.com/gdg-guadalajara/events/ical
+        name: "GDG Guadalajara"
+        description: "Google Developer Group Guadalajara. Eventos sobre tecnologías de Google y desarrollo."
       # ------------------------------------------
-      # - url: https://www.meetup.com/gdg-guadalajara/events/ical
-      #   name: "GDG Guadalajara"
-      #   description: "Google Developer Group Guadalajara. Eventos sobre tecnologías de Google y desarrollo."
+      - url: https://www.meetup.com/amazon-web-services-jalisco/events/ical
+        name: "AWS User Group Jalisco"
+        description: "Comunidad de usuarios de AWS en Guadalajara. Eventos sobre servicios en la nube de Amazon."
       # ------------------------------------------
-      # - url: https://www.meetup.com/aws-user-group-guadalajara/events/ical
-      #   name: "AWS User Group Guadalajara"
-      #   description: "Comunidad de usuarios de AWS en Guadalajara. Eventos sobre servicios en la nube de Amazon."
+      - url: https://www.meetup.com/j4guanatos/events/ical
+        name: "j4Guanatos"
+        description: "Comunidad de Java en Guadalajara. Eventos sobre Java y tecnologías relacionadas."
+      - url: https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?organizer=https%3A%2F%2Fwww.eventbrite.com.mx%2Fo%2Fmexai-comunidad-de-ia-106303535081
+        name: "MexAI - Comunidad de IA"
+        description: "Comunidad de IA en Guadalajara. Eventos sobre Inteligencia Artificial."
+
+  otras_ciudades:
+    name: "Otras Ciudades"
+    slug: "otras"
+    timezone: "America/Mexico_City"
+    feeds:
+      # ==========================================
+      # COMUNIDADES DE OTRAS CIUDADES
+      # ==========================================
+      # Comunidades de ciudades específicas fuera de CDMX y GDL
+      # Por el momento, estas comunidades no generan calendarios separados
+      # pero están organizadas aquí para futura expansión
       # ------------------------------------------
-      # - url: https://www.meetup.com/python-jalisco/events/ical
-      #   name: "Python Jalisco"
-      #   description: "Comunidad de Python en Jalisco. Charlas, talleres y networking."
+      - url: https://www.meetup.com/grupo-de-python-en-puebla/events/ical
+        name: "Python Puebla"
+        description: "Comunidad de Python en el estado de Puebla. Charlas y talleres."
       # ------------------------------------------
-      # - url: https://www.meetup.com/javascript-guadalajara/events/ical
-      #   name: "JavaScript Guadalajara"
-      #   description: "Comunidad de JavaScript en Guadalajara. Eventos sobre desarrollo web y tecnologías JS."
-      # ------------------------------------------
-      # - url: https://www.meetup.com/devops-guadalajara/events/ical
-      #   name: "DevOps Guadalajara"
-      #   description: "Comunidad de DevOps en Guadalajara. Docker, Kubernetes, CI/CD y más."
-      # ------------------------------------------
-      # - url: https://www.meetup.com/ai-guadalajara/events/ical
-      #   name: "AI Guadalajara"
-      #   description: "Comunidad de Inteligencia Artificial en Guadalajara. Machine Learning, Deep Learning y más."
+      - url: https://www.meetup.com/pythonmty/events/ical
+        name: "Python Monterrey"
+        description: "Comunidad de Python en la ciudad de Monterrey."
 
 # Notas:
 # - Los feeds están organizados por ciudad
+# - CDMX y GDL generan calendarios separados (cronquiles-cdmx.ics, cronquiles-gdl.ics)
+# - La categoría "otras_ciudades" agrupa comunidades de otras ciudades específicas
+#   Por el momento, estas comunidades no generan calendarios separados, pero están
+#   organizadas para futura expansión cuando se agregue soporte para más ciudades
 # - Puedes agregar más ciudades agregando nuevas entradas bajo 'cities'
 # - Puedes agregar más feeds a una ciudad añadiendo entradas a la lista de feeds
 # - Los feeds que fallen no detendrán el proceso completo
