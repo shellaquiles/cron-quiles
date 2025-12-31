@@ -21,6 +21,11 @@ feeds:
   - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-gKhhS6fDDrX3mqz
     name: "Claude Users Group"
     description: ""
+  # ------------------------------------------
+  - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl
+    name: "PyTalavera"
+    description: "Comunidad Pythonista en Puebla. Eventos, charlas y networking para entusiastas de Python en la región."
+
 
   # ==========================================
   # MEETUP GROUPS
@@ -51,7 +56,7 @@ feeds:
     description: "Grupo dedicado a Apache Spark y el ecosistema de procesamiento de Big Data."
   # ------------------------------------------
   - url: https://www.meetup.com/aws-cdmx/events/ical
-    name: "AWS Ciudad de México"
+    name: "AWS Ajolotes Ciudad de México"
     description: "User Group oficial de AWS en CDMX. Eventos sobre servicios en la nube de Amazon."
   # ------------------------------------------
   - url: https://www.meetup.com/aws-cloud-club-at-unam/events/ical
@@ -77,6 +82,10 @@ feeds:
   - url: https://www.meetup.com/elixir-mexico-city/events/ical
     name: "Elixir Mexico City"
     description: "Comunidad enfocada en el lenguaje de programación Elixir y el framework Phoenix."
+  # ------------------------------------------
+  - url: https://www.meetup.com/embajadoras-cloud/events/ical
+    name: "Embajadoras Cloud"
+    description: "Comunidad dedicada a impulsar a mujeres hispanohablantes en cloud computing. Enfocada en AWS, aprendizaje colaborativo y desarrollo profesional."
   # ------------------------------------------
   - url: https://www.meetup.com/eventloop/events/ical
     name: "Eventloop"
