@@ -187,9 +187,11 @@ def process_city(
     Returns:
         True si el procesamiento fue exitoso, False en caso contrario
     """
+    # Usar el slug de la configuración, o el key del diccionario como fallback
+    actual_slug = city_config.get("slug", city_slug)
     city_name = city_config.get("name", city_slug)
     logger.info(f"\n{'='*60}")
-    logger.info(f"Procesando ciudad: {city_name} ({city_slug})")
+    logger.info(f"Procesando ciudad: {city_name} ({actual_slug})")
     logger.info(f"{'='*60}")
 
     # Extraer feeds de la ciudad
@@ -217,11 +219,11 @@ def process_city(
     if output_dir:
         output_path = Path(output_dir)
         output_path.mkdir(parents=True, exist_ok=True)
-        ics_file = str(output_path / f"cronquiles-{city_slug}.ics")
-        json_file = str(output_path / f"cronquiles-{city_slug}.json")
+        ics_file = str(output_path / f"cronquiles-{actual_slug}.ics")
+        json_file = str(output_path / f"cronquiles-{actual_slug}.json")
     else:
-        ics_file = f"cronquiles-{city_slug}.ics"
-        json_file = f"cronquiles-{city_slug}.json"
+        ics_file = f"cronquiles-{actual_slug}.ics"
+        json_file = f"cronquiles-{actual_slug}.json"
 
     # Generar ICS con metadata de la ciudad
     aggregator.generate_ics(events, ics_file, city_name=city_name)
