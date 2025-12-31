@@ -99,9 +99,10 @@ class EventNormalized:
     - Extracción automática de tags basados en keywords
     """
 
-    def __init__(self, event: Event, source_url: str):
+    def __init__(self, event: Event, source_url: str, feed_name: Optional[str] = None):
         self.original_event = event
         self.source_url = source_url
+        self.feed_name = feed_name
 
         # Extraer y normalizar campos
         self.title = self._normalize_title(event.get("summary", ""))
@@ -111,6 +112,11 @@ class EventNormalized:
         # Si no hay location en el feed, intentar extraer de la descripción
         if not self.location or not self.location.strip():
             self.location = self._extract_location_from_description()
+
+        # Si no hay URL, intentar extraer de la descripción (ej: lu.ma)
+        if not self.url:
+            self.url = self._extract_url_from_description()
+
         self.organizer = self._extract_organizer(event)
 
         # Manejar fechas con timezone
@@ -122,6 +128,25 @@ class EventNormalized:
 
         # Tags automáticos
         self.tags = self._extract_tags()
+
+    def _extract_url_from_description(self) -> str:
+        """
+        Intenta extraer una URL del evento de la descripción.
+        Útil para feeds que ponen el link en el cuerpo (ej: Luma).
+        """
+        if not self.description:
+            return ""
+
+        # Buscar URLs de Luma
+        # Soporta lu.ma y luma.com (común en descriptions generadas)
+        luma_pattern = r"(https?://(?:www\.)?(?:luma\.com|lu\.ma)/[\w-]+)"
+        match = re.search(luma_pattern, self.description)
+        if match:
+            return match.group(1)
+
+        # Buscar otras URLs comunes si es necesario en el futuro
+
+        return ""
 
     def _normalize_title(self, title: str) -> str:
         """Normaliza el título: lowercase, sin emojis, sin puntuación extra."""
@@ -230,10 +255,14 @@ class EventNormalized:
         # para tolerancia de ±2 horas
         # Esto agrupa eventos en ventanas de 2 horas:
         # 0-1, 2-3, 4-5, ..., 18-19, 20-21, 22-23
-        hour = self.dtstart.hour
+        # Convertir a UTC para asegurar consistencia entre feeds con diferentes timezones
+        # (ej: Luma usa UTC, Meetup usa Local)
+        dt_utc = self.dtstart.astimezone(tz.UTC)
+
+        hour = dt_utc.hour
         # Redondear hacia abajo al número par más cercano (0, 2, 4, ..., 22)
         hour_block = (hour // 2) * 2
-        hour_rounded = self.dtstart.replace(
+        hour_rounded = dt_utc.replace(
             hour=hour_block, minute=0, second=0, microsecond=0
         )
         return f"{self.title}_{hour_rounded.isoformat()}"
@@ -339,6 +368,10 @@ class EventNormalized:
         Returns:
             Nombre del grupo o "Evento" si no se puede determinar
         """
+        # 0. Si se proporcionó feed_name en config, usarlo (Prioridad más alta)
+        if self.feed_name:
+            return self.feed_name
+
         # Primero intentar del organizador
         if self.organizer:
             return self.organizer.strip()
@@ -569,7 +602,9 @@ class EventNormalized:
 
             # 1. Intentar con JSON-LD (application/ld+json)
             # Usamos regex para evitar dependencias de BS4
-            json_ld_matches = re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.DOTALL)
+            json_ld_matches = re.findall(
+                r'<script type="application/ld\+json">(.*?)</script>', html, re.DOTALL
+            )
             for jld_text in json_ld_matches:
                 try:
                     data = json.loads(jld_text)
@@ -587,8 +622,10 @@ class EventNormalized:
                             if isinstance(address, dict):
                                 street = address.get("streetAddress", "")
                                 city = address.get("addressLocality", "")
-                                if street: parts.append(street)
-                                if city: parts.append(city)
+                                if street:
+                                    parts.append(street)
+                                if city:
+                                    parts.append(city)
                             elif isinstance(address, str):
                                 parts.append(address)
 
@@ -600,18 +637,26 @@ class EventNormalized:
                     continue
 
             # 2. Intentar con __NEXT_DATA__
-            next_data_match = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html, re.DOTALL)
+            next_data_match = re.search(
+                r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>',
+                html,
+                re.DOTALL,
+            )
             if next_data_match:
                 try:
                     data = json.loads(next_data_match.group(1))
-                    event_data = data.get("props", {}).get("pageProps", {}).get("event", {})
+                    event_data = (
+                        data.get("props", {}).get("pageProps", {}).get("event", {})
+                    )
                     venue = event_data.get("venue", {})
                     if venue:
                         name = venue.get("name", "")
                         addr = venue.get("address", "")
                         parts = []
-                        if name: parts.append(name)
-                        if addr: parts.append(addr)
+                        if name:
+                            parts.append(name)
+                        if addr:
+                            parts.append(addr)
                         new_location = ", ".join(parts).strip()
                         if new_location and len(new_location) > len(self.location):
                             self.location = new_location
@@ -677,7 +722,7 @@ class ICSAggregator:
         return None
 
     def extract_events(
-        self, calendar: Calendar, source_url: str
+        self, calendar: Calendar, source_url: str, feed_name: Optional[str] = None
     ) -> List[EventNormalized]:
         """
         Extrae y normaliza eventos de un calendario.
@@ -691,6 +736,14 @@ class ICSAggregator:
         """
         events = []
 
+        # Si no se proporcionó un nombre de feed manual, intentar extraerlo del calendario
+        if not feed_name:
+             # X-WR-CALNAME es una propiedad no estándar pero muy común
+             cal_name = calendar.get("X-WR-CALNAME")
+             if cal_name:
+                 feed_name = str(cal_name)
+                 logger.info(f"Using X-WR-CALNAME as feed name: {feed_name}")
+
         for component in calendar.walk():
             if component.name == "VEVENT":
                 try:
@@ -702,7 +755,7 @@ class ICSAggregator:
                         )
                         continue
 
-                    event_norm = EventNormalized(component, source_url)
+                    event_norm = EventNormalized(component, source_url, feed_name)
                     events.append(event_norm)
 
                 except Exception as e:
@@ -757,6 +810,27 @@ class ICSAggregator:
                 )
 
                 selected = group[0]
+
+                # Recolectar URLs alternativas de otros eventos en el grupo
+                alt_urls = set()
+                primary_url = selected.url.strip() if selected.url else ""
+
+                for duplicate in group[1:]:
+                    dup_url = duplicate.url.strip() if duplicate.url else ""
+                    if dup_url and dup_url.startswith("http") and dup_url != primary_url:
+                        alt_urls.add(dup_url)
+
+                # Si hay URLs alternativas, agregarlas a la descripción
+                if alt_urls:
+                    header = "\n\nOtras fuentes:"
+                    # Evitar duplicar el header si ya existe
+                    if header not in selected.description:
+                         selected.description += header
+
+                    for url in alt_urls:
+                        if url not in selected.description:
+                            selected.description += f"\n- {url}"
+
                 logger.info(
                     f"Deduplicated: kept '{selected.original_event.get('summary', '')}' "
                     f"from {len(group)} similar events"
@@ -771,24 +845,39 @@ class ICSAggregator:
         Agrega múltiples feeds ICS.
 
         Args:
-            feed_urls: Lista de URLs de feeds ICS
+            feed_urls: Lista de dicts [{'url': ..., 'name': ...}] o strings (compatibilidad)
 
         Returns:
             Lista de eventos normalizados y deduplicados
         """
         all_events = []
 
-        for url in feed_urls:
+        for feed in feed_urls:
+            # Manejar compatibilidad con lista de strings (por si acaso o tests)
+            if isinstance(feed, str):
+                url = feed
+                name = None
+            else:
+                url = feed.get("url")
+                name = feed.get("name")
+
+            if not url:
+                continue
+
             calendar = self.fetch_feed(url)
             if calendar:
-                events = self.extract_events(calendar, url)
+                events = self.extract_events(calendar, url, name)
                 all_events.extend(events)
 
         # Enriquecer locaciones de Meetup (solo si no tienen locación o es muy corta)
         # Hacemos esto antes de deduplicar para mejorar la calidad de los datos
-        meetup_events = [e for e in all_events if "meetup.com" in e.url and len(e.location) < 15]
+        meetup_events = [
+            e for e in all_events if "meetup.com" in e.url and len(e.location) < 15
+        ]
         if meetup_events:
-            logger.info(f"Found {len(meetup_events)} Meetup events to potentially enrich")
+            logger.info(
+                f"Found {len(meetup_events)} Meetup events to potentially enrich"
+            )
             for i, event in enumerate(meetup_events):
                 # Pequeño delay para ser respetuosos (no scraping agresivo)
                 if i > 0:
