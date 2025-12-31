@@ -8,6 +8,12 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 ## [Unreleased]
 
 ### Added
+- **Actualización completa de documentación AGENTS.md** (nuevo)
+  - Documentación actualizada con todas las funcionalidades implementadas
+  - Sección de estado actual del proyecto con 12 funcionalidades principales
+  - Estructura del proyecto documentada
+  - Próximas mejoras posibles listadas
+  - **Sección sobre archivos generados**: Instrucciones para no commitear manualmente `cronquiles.ics` y `cronquiles.json` (solo GitHub Actions los commitea)
 - **Formato de títulos inteligente** (nuevo)
   - Formato automático según tipo de evento: `Grupo|Nombre evento|Online` o `Grupo|Nombre evento|País|Estado`
   - Detección automática de eventos online vs presenciales basada en palabras clave
