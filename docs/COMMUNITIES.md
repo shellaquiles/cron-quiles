@@ -9,13 +9,14 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | **AI/IA CDMX** | Charlas técnicas, demos y networking sobre Inteligencia Artificial. |
 | **Ajolotes en la Nube** | Cloud Computing y arquitecturas modernas en la nube. |
 | **Apache Spark Mexico City** | Apache Spark y el ecosistema de procesamiento de Big Data. |
-| **AWS Ciudad de México** | User Group oficial de AWS en CDMX. |
+| **AWS Ajolotes Ciudad de México** | User Group oficial de AWS en CDMX. |
 | **AWS Cloud Club at Universidad Nacional Autonoma de México** | El AWS Cloud Club de la UNAM es un grupo de usuarios dirigido e impulsado por estudiantes que se enfoca en aprender sobre la Nube. |
 | **Data, Cloud and AI in Mexico City** | IBM sponsored Meetup group geared towards developers, data scientists, and ALL Big Data, Cloud and AI enthusiasts. |
 | **DevOps Workshop** | Aprende cómo aplicar diferentes tecnologías para construir un producto. |
 | **DigitalOcean México City** | Meet software developers to share resources, learn, and form discussions around cloud and devops topics. |
 | **México City Docker friends** | Learn, Collaborate & Dockerize! Meet other developers and ops engineers using Docker. |
 | **Elixir Mexico City** | Lenguaje de programación Elixir y framework Phoenix. |
+| **Embajadoras Cloud** | Comunidad dedicada a impulsar a mujeres hispanohablantes en cloud computing. |
 | **Eventloop** | La comunidad de JavaScript de la Ciudad de México. Organización sin fines de lucro para elevar la competitividad técnica. |
 | **Figma México City** | Diseño UX/UI y el ecosistema de Figma. |
 | **Flutter México City** | Desarrollo multiplataforma con Flutter. |
