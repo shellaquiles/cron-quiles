@@ -1038,71 +1038,8 @@
             <h2 class="section-title">
                 <span class="prompt-char">#</span> <span data-i18n="section.communities">Comunidades Integradas</span>
             </h2>
-            <div class="communities-grid">
-                <div class="community-card">
-                    <div class="community-name">Notion Mexico</div>
-                    <div class="community-description">Comunidad oficial de Notion en México. Eventos sobre productividad, organización y herramientas no-code.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">AI/IA CDMX</div>
-                    <div class="community-description">Comunidad enfocada en Inteligencia Artificial. Charlas técnicas, demos y networking sobre el futuro de IA.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Pythonista</div>
-                    <div class="community-description">Una de las comunidades de Python más grandes y activas de México.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">GDG Ciudad de México</div>
-                    <div class="community-description">Google Developer Group CDMX. Tecnologías de Google y desarrollo en general.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Figma Mexico City</div>
-                    <div class="community-description">Espacio para diseñadores UX/UI y amantes de Figma en la Ciudad de México.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Vim Meetup CDMX</div>
-                    <div class="community-description">Para los amantes del editor de texto más eficiente.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Makers CDMX</div>
-                    <div class="community-description">Hardware, tecnología, diseño y fabricación digital.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Rust MX</div>
-                    <div class="community-description">Comunidad dedicada al lenguaje Rust. Seguridad, velocidad y concurrencia.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Gophers MX</div>
-                    <div class="community-description">Comunidad de desarrolladores del lenguaje Go en México.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Flutter Mexico City</div>
-                    <div class="community-description">Desarrollo multiplataforma con Flutter.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Kong Mexico City</div>
-                    <div class="community-description">APIs, Microservicios, Service Mesh e Insomnia.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Sysarmy Mexico</div>
-                    <div class="community-description">Soporte para quienes dan soporte. Comunidad de IT y SysAdmins.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">AWS Ciudad de México</div>
-                    <div class="community-description">User Group oficial de AWS en CDMX. Eventos sobre servicios en la nube de Amazon.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Docker Friends CDMX</div>
-                    <div class="community-description">Comunidad enfocada en contenedores, Docker y el ecosistema de infra moderna.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">EventLoop</div>
-                    <div class="community-description">Comunidad enfocada en JavaScript y el ecosistema web moderno en CDMX.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Linux CDMX</div>
-                    <div class="community-description">Entusiastas, usuarios y administradores del sistema operativo Linux en Ciudad de México.</div>
-                </div>
+            <div id="communities-grid" class="communities-grid">
+                <!-- Las comunidades se cargan dinámicamente según la ciudad -->
             </div>
             <div style="margin-top: var(--spacing-lg); color: var(--terminal-gray); font-size: 0.9em; text-align: center;">
                 <a href="https://github.com/shellaquiles/cron-quiles/blob/main/docs/COMMUNITIES.md" target="_blank" style="color: var(--terminal-green); text-decoration: underline;" data-i18n="communities.viewAll">Ver lista completa de comunidades integrada →</a>
@@ -1380,9 +1317,6 @@
                 });
         }
 
-        // Mostrar última fecha de modificación al cargar
-        updateLastModified();
-
         // Copiar WebCal al portapapeles
         document.querySelectorAll('.btn-secondary').forEach(btn => {
             if (btn.href && btn.href.startsWith('webcal://')) {
@@ -1448,6 +1382,32 @@
             }
         };
 
+        // ============================================
+        // DATOS DE COMUNIDADES POR CIUDAD
+        // ============================================
+        // Las comunidades se cargan dinámicamente desde el JSON generado
+        let communitiesData = {};  // Almacena comunidades por ciudad
+
+        // Renderiza las comunidades según la ciudad seleccionada
+        function renderCommunities(city) {
+            const container = document.getElementById('communities-grid');
+            if (!container) return;
+            
+            const communities = communitiesData[city] || [];
+            
+            if (communities.length === 0) {
+                container.innerHTML = '<div class="events-loading">Cargando comunidades...</div>';
+                return;
+            }
+            
+            container.innerHTML = communities.map(c => `
+                <div class="community-card">
+                    <div class="community-name">${c.name}</div>
+                    <div class="community-description">${c.description}</div>
+                </div>
+            `).join('');
+        }
+
         let currentCity = CityManager.detect();
 
         function updateCityLinks(city) {
@@ -1481,6 +1441,9 @@
             // Actualizar enlaces de descarga
             updateCityLinks(city);
             
+            // Actualizar comunidades mostradas
+            renderCommunities(city);
+            
             // Recargar calendario y actualizar fecha
             loadCalendar();
             updateLastModified();
@@ -1496,6 +1459,12 @@
             
             // Actualizar enlaces iniciales
             updateCityLinks(currentCity);
+            
+            // Renderizar comunidades de la ciudad actual
+            renderCommunities(currentCity);
+            
+            // Mostrar última fecha de modificación
+            updateLastModified();
         });
 
         // Calendario Visual
@@ -1736,6 +1705,12 @@
                 .then(data => {
                     const events = Array.isArray(data) ? data : (data.events || []);
                     renderCalendar(events);
+                    
+                    // Almacenar y renderizar comunidades del JSON
+                    if (data.communities) {
+                        communitiesData[currentCity] = data.communities;
+                        renderCommunities(currentCity);
+                    }
                 })
                 .catch(error => {
                     const isLocalFile = window.location.protocol === 'file:';

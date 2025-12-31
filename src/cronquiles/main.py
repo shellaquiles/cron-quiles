@@ -231,7 +231,7 @@ def process_city(
 
     # Generar JSON si se solicita
     if args.json:
-        aggregator.generate_json(events, json_file)
+        aggregator.generate_json(events, json_file, city_name=city_name, feeds=city_config.get("feeds", []))
         logger.info(f"✓ Archivo JSON generado: {json_file}")
 
     # Estadísticas
