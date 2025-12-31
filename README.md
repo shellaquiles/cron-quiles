@@ -24,6 +24,8 @@ Puedes ver la lista completa de comunidades integradas en [Comunidades Tech en M
 - ✅ Tags automáticos por keywords (Python, AI, Cloud, DevOps, etc.)
 - ✅ Genera ICS unificado y JSON opcional
 - ✅ CLI simple y fácil de usar
+- ✅ **Soporte multi-ciudad** (nuevo): Genera calendarios separados por ciudad (CDMX, Guadalajara, etc.)
+- ✅ **Interfaz web con pestañas de ciudades** (nuevo): Cambia entre ciudades fácilmente
 - ✅ **Publicación directa en Google Calendar** (opcional, requiere OAuth2)
 - ✅ **Interfaz web moderna** con diseño terminal y calendario embebido
 - ✅ **Enriquecimiento de ubicación** automático para eventos de Meetup
@@ -65,19 +67,45 @@ Esto instalará el paquete en modo desarrollo y podrás usar `cron-quiles` desde
 
 ### Uso básico
 
-Ejecuta el script con la configuración por defecto:
+#### Modo multi-ciudad (recomendado)
+
+El proyecto ahora soporta múltiples ciudades. Para generar calendarios para todas las ciudades:
+
+```bash
+python main.py --all-cities --json --output-dir gh-pages/
+```
+
+Esto generará archivos separados por ciudad:
+- `gh-pages/cronquiles-cdmx.ics` y `cronquiles-cdmx.json`
+- `gh-pages/cronquiles-gdl.ics` y `cronquiles-gdl.json`
+
+Para generar el calendario de una ciudad específica:
+
+```bash
+python main.py --city cdmx --json --output-dir gh-pages/
+```
+
+#### Modo legacy (compatibilidad hacia atrás)
+
+Si tu `feeds.yaml` usa el formato antiguo (sin estructura de ciudades):
 
 ```bash
 python main.py
 ```
 
-Esto generará `gh-pages/cronquiles.ics` (calendario unificado) usando los feeds definidos en `config/feeds.yaml`.
+Esto generará `gh-pages/cronquiles.ics` usando los feeds definidos en `config/feeds.yaml`.
 
 **Nota:** Los archivos se generan en `gh-pages/` para publicación en GitHub Pages.
 
 ### Opciones avanzadas
 
 ```bash
+# Generar calendarios para todas las ciudades
+python main.py --all-cities --json --output-dir gh-pages/
+
+# Generar calendario para una ciudad específica
+python main.py --city cdmx --json --output-dir gh-pages/
+
 # Especificar archivo de feeds personalizado
 python main.py --feeds config/mi_configuracion.yaml
 
@@ -87,7 +115,7 @@ python main.py --json
 # Personalizar nombres de archivos de salida (generados en gh-pages/)
 python main.py --output gh-pages/eventos.ics --json-output gh-pages/eventos.json
 
-# Usar archivo de texto plano (una URL por línea)
+# Usar archivo de texto plano (una URL por línea) - solo modo legacy
 python main.py --feeds config/list_icals.txt
 
 # Modo verbose para debugging
@@ -107,7 +135,10 @@ python main.py --google-calendar --dry-run
 
 ```
 --feeds FEEDS        Archivo de configuración (YAML o TXT). Default: config/feeds.yaml
+--city CITY          Generar calendario para una ciudad específica (ej: cdmx, gdl)
+--all-cities         Generar calendarios para todas las ciudades definidas
 --output OUTPUT      Nombre del archivo ICS de salida. Default: cronquiles.ics
+--output-dir DIR     Directorio donde guardar archivos (usa nombres cronquiles-{ciudad}.ics)
 --json               Generar también archivo JSON
 --json-output FILE   Nombre del archivo JSON. Default: cronquiles.json
 --timeout SECONDS    Timeout para requests HTTP. Default: 30
@@ -152,9 +183,37 @@ cron-quiles/
 
 ## ⚙️ Configuración de Feeds
 
-### Formato YAML (recomendado)
+### Formato YAML Multi-Ciudad (recomendado)
 
-Crea un archivo `feeds.yaml`:
+El proyecto ahora soporta múltiples ciudades. Crea un archivo `feeds.yaml` con estructura de ciudades:
+
+```yaml
+cities:
+  cdmx:
+    name: "Ciudad de México"
+    slug: "cdmx"
+    timezone: "America/Mexico_City"
+    feeds:
+      - url: https://www.meetup.com/pythonista/events/ical
+        name: "Pythonista"
+        description: "Comunidad de Python en CDMX"
+      - url: https://www.meetup.com/ai-cdmx/events/ical
+        name: "AI/IA CDMX"
+        description: "Comunidad de IA en CDMX"
+  
+  guadalajara:
+    name: "Guadalajara"
+    slug: "gdl"
+    timezone: "America/Mexico_City"
+    feeds:
+      - url: https://www.meetup.com/python-jalisco/events/ical
+        name: "Python Jalisco"
+        description: "Comunidad de Python en Jalisco"
+```
+
+### Formato YAML Legacy (compatibilidad hacia atrás)
+
+También puedes usar el formato antiguo sin estructura de ciudades:
 
 ```yaml
 feeds:
@@ -341,12 +400,19 @@ El workflow también publica automáticamente los archivos en GitHub Pages, perm
 
 **URL de acceso:**
 - Página principal: `https://shellaquiles.github.io/cron-quiles/`
-- Archivo ICS: `https://shellaquiles.github.io/cron-quiles/cronquiles.ics`
-- Archivo JSON: `https://shellaquiles.github.io/cron-quiles/cronquiles.json`
-- WebCal (suscripción): `webcal://shellaquiles.github.io/cron-quiles/cronquiles.ics`
+- Archivos ICS por ciudad:
+  - CDMX: `https://shellaquiles.github.io/cron-quiles/cronquiles-cdmx.ics`
+  - Guadalajara: `https://shellaquiles.github.io/cron-quiles/cronquiles-gdl.ics`
+- Archivos JSON por ciudad:
+  - CDMX: `https://shellaquiles.github.io/cron-quiles/cronquiles-cdmx.json`
+  - Guadalajara: `https://shellaquiles.github.io/cron-quiles/cronquiles-gdl.json`
+- WebCal (suscripción):
+  - CDMX: `webcal://shellaquiles.github.io/cron-quiles/cronquiles-cdmx.ics`
+  - Guadalajara: `webcal://shellaquiles.github.io/cron-quiles/cronquiles-gdl.ics`
 
 **Características de la interfaz web:**
 - Diseño terminal con colores verde/negro/blanco
+- **Pestañas de ciudades** (nuevo): Cambia fácilmente entre CDMX y Guadalajara
 - Calendario mensual interactivo con eventos marcados
 - Lista automática de todos los eventos del mes actual
 - Navegación entre meses con botones anterior/siguiente
@@ -356,6 +422,7 @@ El workflow también publica automáticamente los archivos en GitHub Pages, perm
 - **Descripciones expandibles**: Descripciones largas se muestran colapsadas con opción de expandir
 - **Espaciado optimizado**: Diseño compacto con espacios reducidos entre elementos
 - **Renderizado correcto de saltos de línea**: Las descripciones preservan el formato original
+- **Persistencia de ciudad seleccionada**: La ciudad se guarda en localStorage
 
 ### Personalizar la frecuencia
 

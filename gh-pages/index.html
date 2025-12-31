@@ -935,6 +935,60 @@
             color: var(--terminal-green);
             opacity: 0.5;
         }
+
+        /* City Tabs */
+        .city-tabs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-lg);
+            margin-bottom: var(--spacing-lg);
+            padding: var(--spacing-md);
+            border-top: 1px solid rgba(0, 255, 0, 0.2);
+            border-bottom: 1px solid rgba(0, 255, 0, 0.2);
+        }
+
+        .city-tab {
+            background: transparent;
+            border: 1px solid var(--terminal-green);
+            color: var(--terminal-green);
+            padding: var(--spacing-md) var(--spacing-xl);
+            font-family: inherit;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: var(--radius-md);
+            transition: all var(--transition-normal);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+        }
+
+        .city-tab:hover {
+            background: rgba(0, 255, 0, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 3px 10px rgba(0, 255, 0, 0.3);
+        }
+
+        .city-tab.active {
+            background: var(--terminal-green);
+            color: var(--terminal-black);
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+        }
+
+        .city-tab.active::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 8px solid var(--terminal-green);
+        }
     </style>
 </head>
 <body>
@@ -948,6 +1002,12 @@
                 <span class="lang-separator">|</span>
                 <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
             </div>
+        </div>
+
+        <!-- City Tabs -->
+        <div class="city-tabs">
+            <button class="city-tab active" data-city="cdmx" aria-label="Ciudad de México">CDMX</button>
+            <button class="city-tab" data-city="gdl" aria-label="Guadalajara">Guadalajara</button>
         </div>
 
         <!-- Comando 1: Descripción -->
@@ -1064,8 +1124,8 @@
             </p>
             <div class="download-card">
                 <div class="btn-group">
-                    <a href="cronquiles.ics" class="btn" download data-i18n="btn.download.ics">Descargar ICS</a>
-                    <a href="webcal://shellaquiles.github.io/cron-quiles/cronquiles.ics" class="btn btn-secondary" data-i18n="btn.copy.webcal">Copiar WebCal</a>
+                    <a href="cronquiles-cdmx.ics" class="btn" id="download-ics-btn" download data-i18n="btn.download.ics">Descargar ICS</a>
+                    <a href="webcal://shellaquiles.github.io/cron-quiles/cronquiles-cdmx.ics" class="btn btn-secondary" id="webcal-btn" data-i18n="btn.copy.webcal">Copiar WebCal</a>
                 </div>
             </div>
         </div>
@@ -1081,7 +1141,7 @@
             </p>
             <div class="download-card">
                 <div class="btn-group">
-                    <a href="cronquiles.json" class="btn" download data-i18n="btn.download.json">Descargar JSON</a>
+                    <a href="cronquiles-cdmx.json" class="btn" id="download-json-btn" download data-i18n="btn.download.json">Descargar JSON</a>
                 </div>
             </div>
         </div>
@@ -1286,8 +1346,19 @@
             updateLastModified();
         }
 
+
+        // Inicializar i18n
+        document.addEventListener('DOMContentLoaded', () => {
+            applyTranslations();
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.addEventListener('click', () => switchLang(btn.dataset.lang));
+            });
+        });
+
+        // Función para actualizar última fecha de modificación
         function updateLastModified() {
-            fetch('cronquiles.ics')
+            const icsFile = `cronquiles-${currentCity}.ics`;
+            fetch(icsFile)
                 .then(response => {
                     const lastModified = response.headers.get('last-modified');
                     if (lastModified) {
@@ -1309,35 +1380,8 @@
                 });
         }
 
-        // Inicializar i18n
-        document.addEventListener('DOMContentLoaded', () => {
-            applyTranslations();
-            document.querySelectorAll('.lang-btn').forEach(btn => {
-                btn.addEventListener('click', () => switchLang(btn.dataset.lang));
-            });
-        });
-
-        // Mostrar última fecha de modificación
-        fetch('cronquiles.ics')
-            .then(response => {
-                const lastModified = response.headers.get('last-modified');
-                if (lastModified) {
-                    const date = new Date(lastModified);
-                    document.getElementById('last-update').textContent =
-                        date.toLocaleString(getLocale(), {
-                            year: 'numeric',
-                            month: 'long',
-                            day: 'numeric',
-                            hour: '2-digit',
-                            minute: '2-digit'
-                        });
-                } else {
-                    document.getElementById('last-update').textContent = t('footer.notAvailable');
-                }
-            })
-            .catch(() => {
-                document.getElementById('last-update').textContent = t('footer.notAvailable');
-            });
+        // Mostrar última fecha de modificación al cargar
+        updateLastModified();
 
         // Copiar WebCal al portapapeles
         document.querySelectorAll('.btn-secondary').forEach(btn => {
@@ -1377,6 +1421,82 @@
                 timeZone: 'America/Mexico_City'
             });
         }
+
+        // ============================================
+        // GESTIÓN DE CIUDADES
+        // ============================================
+        const CityManager = {
+            KEY: 'cron-quiles-city',
+            SUPPORTED: ['cdmx', 'gdl'],
+            DEFAULT: 'cdmx',
+            NAMES: {
+                'cdmx': 'Ciudad de México',
+                'gdl': 'Guadalajara'
+            },
+            detect() {
+                const saved = localStorage.getItem(this.KEY);
+                if (saved && this.SUPPORTED.includes(saved)) return saved;
+                return this.DEFAULT;
+            },
+            save(city) {
+                if (this.SUPPORTED.includes(city)) {
+                    localStorage.setItem(this.KEY, city);
+                }
+            },
+            get() {
+                return localStorage.getItem(this.KEY) || this.detect();
+            }
+        };
+
+        let currentCity = CityManager.detect();
+
+        function updateCityLinks(city) {
+            const icsBtn = document.getElementById('download-ics-btn');
+            const jsonBtn = document.getElementById('download-json-btn');
+            const webcalBtn = document.getElementById('webcal-btn');
+            
+            if (icsBtn) {
+                icsBtn.href = `cronquiles-${city}.ics`;
+            }
+            if (jsonBtn) {
+                jsonBtn.href = `cronquiles-${city}.json`;
+            }
+            if (webcalBtn) {
+                webcalBtn.href = `webcal://shellaquiles.github.io/cron-quiles/cronquiles-${city}.ics`;
+            }
+        }
+
+        function switchCity(city) {
+            if (city === currentCity) return;
+            if (!CityManager.SUPPORTED.includes(city)) return;
+            
+            currentCity = city;
+            CityManager.save(city);
+            
+            // Actualizar tabs
+            document.querySelectorAll('.city-tab').forEach(tab => {
+                tab.classList.toggle('active', tab.dataset.city === city);
+            });
+            
+            // Actualizar enlaces de descarga
+            updateCityLinks(city);
+            
+            // Recargar calendario y actualizar fecha
+            loadCalendar();
+            updateLastModified();
+        }
+
+        // Inicializar tabs de ciudades
+        document.addEventListener('DOMContentLoaded', () => {
+            // Establecer ciudad activa
+            document.querySelectorAll('.city-tab').forEach(tab => {
+                tab.classList.toggle('active', tab.dataset.city === currentCity);
+                tab.addEventListener('click', () => switchCity(tab.dataset.city));
+            });
+            
+            // Actualizar enlaces iniciales
+            updateCityLinks(currentCity);
+        });
 
         // Calendario Visual
         let currentDate = new Date();
@@ -1597,11 +1717,17 @@
 
         // Función para cargar calendario
         function loadCalendar() {
-            fetch('cronquiles.json')
+            const jsonFile = `cronquiles-${currentCity}.json`;
+            const container = document.getElementById('calendar-container');
+            
+            // Mostrar estado de carga
+            container.innerHTML = `<div class="events-loading">${t('calendar.loading')}</div>`;
+            
+            fetch(jsonFile)
                 .then(response => {
                     if (!response.ok) {
                         if (response.status === 404) {
-                            throw new Error('El archivo JSON aún no está disponible.');
+                            throw new Error(`El archivo JSON para ${CityManager.NAMES[currentCity]} aún no está disponible.`);
                         }
                         throw new Error(`Error HTTP ${response.status}`);
                     }
@@ -1612,7 +1738,6 @@
                     renderCalendar(events);
                 })
                 .catch(error => {
-                    const container = document.getElementById('calendar-container');
                     const isLocalFile = window.location.protocol === 'file:';
                     const errorMsg = isLocalFile
                         ? `Error: No se puede cargar el archivo localmente. Usa un servidor HTTP.<br><br>
@@ -1620,7 +1745,7 @@
                            1. Ejecuta: <code style="color: var(--terminal-green);">cd gh-pages && python3 serve.py</code><br>
                            2. O usa: <code style="color: var(--terminal-green);">python3 -m http.server 8000</code><br>
                            3. Luego abre: <code style="color: var(--terminal-green);">http://localhost:8000/index.html</code>`
-                        : `Error al cargar calendario: ${error.message}`;
+                        : `Error al cargar calendario de ${CityManager.NAMES[currentCity]}: ${error.message}`;
                     container.innerHTML = `<div class="events-error">${errorMsg}</div>`;
                     console.error('Error loading calendar:', error);
                 });
