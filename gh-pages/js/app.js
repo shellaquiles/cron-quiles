@@ -73,11 +73,8 @@ class App {
     }
 
     async loadCityData(city) {
-        // UI Loading state
         const calendarContainer = document.getElementById('calendar-container');
-        if (calendarContainer && !calendarContainer.hasChildNodes()) {
-            // Solo mostrar loading si está vacío para evitar parpadeos en cambio de idioma
-            // Pero aquí es cambio de ciudad, así que siempre loading
+        if (calendarContainer) {
             calendarContainer.innerHTML = `<div class="events-loading">${i18n.t('calendar.loading')}</div>`;
         }
 

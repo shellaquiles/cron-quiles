@@ -16,8 +16,13 @@ import logging
 import sys
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
+import os
 
+from dotenv import load_dotenv
 import yaml
+
+# Cargar variables de entorno desde .env si existe
+load_dotenv()
 
 from .ics_aggregator import ICSAggregator, logger
 
@@ -225,7 +230,7 @@ def process_city(
         aggregator.generate_json(events, json_file, city_name=city_name, feeds=city_config.get("feeds", []))
         logger.info(f"✓ Archivo JSON generado: {json_file}")
 
-    # Estadísticas
+    # Estadísticas (usando todos los eventos para reporte)
     tags_count = {}
     for event in events:
         for tag in event.tags:

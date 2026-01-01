@@ -33,8 +33,8 @@ export const CONFIG = {
 
     // Rutas de archivos (se asume relativo a la raíz del sitio)
     PATHS: {
-        getDataUrl: (city) => `data/cronquiles-${city}.json`,
-        getIcsUrl: (city) => `data/cronquiles-${city}.ics`,
+        getDataUrl: (city) => city === 'mexico' ? `data/cronquiles-mexico.json` : `data/cronquiles-${city}.json`,
+        getIcsUrl: (city) => city === 'mexico' ? `data/cronquiles-mexico.ics` : `data/cronquiles-${city}.ics`,
         getWebCalUrl: (city) => `webcal://${window.location.host}${window.location.pathname.replace('index.html', '')}data/cronquiles-${city}.ics`
     }
 };

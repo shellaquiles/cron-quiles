@@ -12,6 +12,7 @@ export class DataService {
      */
     static async getCityData(city) {
         const url = CONFIG.PATHS.getDataUrl(city);
+
         try {
             const response = await fetch(url);
             if (!response.ok) {
