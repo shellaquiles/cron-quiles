@@ -53,6 +53,9 @@ El proyecto es completamente funcional y opera bajo Github Actions.
     *   Comunidades dinámicas cargadas desde JSON (no hardcodeadas).
 12. **Manejo robusto de timezones**: Conversión a UTC para lógica interna, preservando original.
 13. **Publicación automática**: GitHub Actions actualiza feeds y Pages cada 6 horas.
+14. **Persistencia de Historial**: Sistema de "memoria" (`data/history.json`) para preservar eventos pasados y mejorar datos (direcciones completas) mediante scraping.
+15. **Limpieza Avanzada**: Regex robusto para eliminar artefactos `vText` y basura de títulos.
+16. **Merge Inteligente**: Fusiona datos históricos con feeds vivos, preservando siempre la mejor versión de la información (ej: ubicación detallada).
 
 ### Deduplicación
 
@@ -92,7 +95,7 @@ Estrategia implementada:
 * ✅ Tests básicos
 * ✅ GitHub Actions workflow
 * ✅ Interfaz web moderna
-* ✅ Documentación de Google Calendar setup
+* ✅ Documentación de setup
 
 ### Estructura del proyecto
 
@@ -104,7 +107,8 @@ cron-quiles/
 │       ├── __init__.py        # Paquete Python
 │       ├── main.py            # CLI principal
 │       ├── ics_aggregator.py  # Lógica de agregación y deduplicación
-│       └── google_calendar.py # Publicación en Google Calendar (opcional)
+│       ├── history_manager.py # Gestor de persistencia
+│       └── models.py          # Modelos de datos
 ├── config/
 │   ├── feeds.yaml            # Configuración de feeds (YAML)
 │   └── list_icals.txt        # Lista alternativa de feeds (texto)
@@ -114,6 +118,8 @@ cron-quiles/
 │   ├── COMMUNITIES.md        # Lista de comunidades integradas
 │   └── GITHUB_PAGES_SETUP.md # Guía de setup de GitHub Pages
 ├── gh-pages/                  # Archivos para GitHub Pages
+│   ├── css/                  # Estilos CSS
+│   ├── js/                   # Scripts JavaScript
 │   ├── index.html            # Página principal con calendario embebido y tabs
 │   ├── cronquiles-cdmx.ics   # Calendario ICS de CDMX (generado)
 │   ├── cronquiles-cdmx.json  # JSON de CDMX con eventos y comunidades (generado)
@@ -121,8 +127,6 @@ cron-quiles/
 │   ├── cronquiles-gdl.json   # JSON de GDL con eventos y comunidades (generado)
 │   ├── serve.py             # Servidor HTTP para desarrollo local
 │   └── serve.sh             # Script para iniciar servidor
-├── examples/
-│   └── example_event.py      # Ejemplo de formato de eventos
 ├── tests/
 │   └── test_ics_aggregator.py # Tests básicos
 ├── requirements.txt          # Dependencias Python
@@ -132,8 +136,18 @@ cron-quiles/
 └── CONTRIBUTING.md           # Guía para contribuidores
 ```
 
-### Próximas mejoras posibles
+### Herramientas de Mantenimiento
 
+* **Scraper de Historial** (`tools/scrape_meetup_history.py`):
+  * Extrae eventos pasados de Meetup (requiere cookie).
+  * Obtiene direcciones completas (calle, número) que no vienen en el ICS público.
+  * Alimenta `data/history.json`.
+
+* **Limpieza de Historial** (`HistoryManager`):
+  * Deduplica inteligentemente usando hashes consistentes.
+  * Permite regenerar calendarios sin perder datos antiguos.
+
+### Próximas mejoras posibles
 * Filtros por tags o fechas en CLI
 * Mejora en el manejo de eventos recurrentes complejos
 * Soporte para más fuentes de feeds (Eventbrite, etc.)

@@ -19,12 +19,16 @@ cron-quiles/
 ├── CONTRIBUTING.md                  # Guía para contribuidores
 ├── CHANGELOG.md                     # Historial de cambios
 │
+├── data/                            # Datos persistentes
+│   └── history.json                # Historial de eventos (base de datos)
+│
 ├── src/
 │   └── cronquiles/                  # Paquete Python principal
 │       ├── __init__.py             # Inicialización del paquete
 │       ├── main.py                 # CLI principal
 │       ├── ics_aggregator.py       # Lógica de agregación y deduplicación
-│       └── google_calendar.py      # Publicación en Google Calendar
+│       ├── history_manager.py      # Gestor de persistencia y merge
+│       └── models.py               # Modelos de datos (EventNormalized)
 │
 ├── config/                          # Archivos de configuración
 │   ├── feeds.yaml                  # Configuración de feeds (YAML)
@@ -34,14 +38,13 @@ cron-quiles/
 │   ├── AGENTS.md                   # Especificaciones del proyecto
 │   └── PROJECT_STRUCTURE.md        # Este archivo
 │
-├── examples/                        # Ejemplos y scripts de demostración
-│   └── example_event.py            # Ejemplo de formato de eventos
-│
 ├── main.py                          # Punto de entrada CLI (raíz)
 ├── requirements.txt                # Dependencias Python
 ├── pyproject.toml                   # Configuración del proyecto (PEP 518)
 │
 ├── gh-pages/                        # Archivos para GitHub Pages
+│   ├── css/                        # Estilos CSS
+│   ├── js/                         # Scripts JavaScript
 │   ├── index.html                  # Página principal con calendario embebido
 │   ├── cronquiles.ics              # Calendario ICS unificado (generado)
 │   ├── cronquiles.json             # JSON con eventos (generado)
@@ -59,10 +62,11 @@ cron-quiles/
 Código fuente principal del proyecto. Contiene:
 - **`__init__.py`**: Inicialización del paquete Python
 - **`main.py`**: CLI principal con argumentos y lógica de ejecución
-- **`ics_aggregator.py`**: Módulo con clases `EventNormalized` e `ICSAggregator`
-  - `EventNormalized`: Normaliza eventos, detecta online/presencial, extrae grupo/ubicación, formatea títulos e implementa el **enriquecimiento de ubicación desde Meetup**.
+- **`ics_aggregator.py`**: Módulo con la clase `ICSAggregator`.
   - `ICSAggregator`: Agrega múltiples feeds ICS, coordina el enriquecimiento de datos de Meetup (vía JSON-LD/Next.js), deduplica eventos y genera ICS/JSON.
-- **`google_calendar.py`**: Publicación de eventos en Google Calendar (opcional)
+- **`history_manager.py`**: Maneja la carga, guardado y fusión (merge) inteligente de eventos históricos desde `data/history.json`.
+- **`models.py`**: Contiene la clase `EventNormalized` y lógica de limpieza.
+  - `EventNormalized`: Clase que representa un evento unificado. Normaliza eventos, detecta online/presencial, extrae grupo/ubicación, formatea títulos e implementa el **enriquecimiento de ubicación desde Meetup**.
 
 ### `config/`
 Archivos de configuración:
@@ -73,10 +77,6 @@ Archivos de configuración:
 Documentación adicional del proyecto:
 - **`AGENTS.md`**: Especificaciones originales y requisitos del proyecto
 - **`PROJECT_STRUCTURE.md`**: Este archivo con la estructura del proyecto
-
-### `examples/`
-Ejemplos y scripts de demostración:
-- **`example_event.py`**: Script que muestra el formato de eventos en diferentes representaciones
 
 ### Raíz del Proyecto
 - **`main.py`**: Punto de entrada principal que permite ejecutar desde la raíz

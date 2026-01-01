@@ -30,7 +30,6 @@ Puedes ver la lista completa de comunidades integradas en [Comunidades Tech en M
 - ✅ CLI simple y fácil de usar
 - ✅ **Soporte multi-ciudad** (nuevo): Genera calendarios separados por ciudad (CDMX, Guadalajara, etc.)
 - ✅ **Interfaz web con pestañas de ciudades** (nuevo): Cambia entre ciudades fácilmente
-- ✅ **Publicación directa en Google Calendar** (opcional, requiere OAuth2)
 - ✅ **Interfaz web moderna** con diseño terminal y calendario embebido
 - ✅ **Enriquecimiento de ubicación** automático para eventos de Meetup
 - ✅ **Optimización visual**: Limpieza de espacios y descripciones redundantes
@@ -80,8 +79,8 @@ python main.py --all-cities --json --output-dir gh-pages/
 ```
 
 Esto generará archivos separados por ciudad:
-- `gh-pages/cronquiles-cdmx.ics` y `cronquiles-cdmx.json`
-- `gh-pages/cronquiles-gdl.ics` y `cronquiles-gdl.json`
+- `gh-pages/data/cronquiles-cdmx.ics` y `cronquiles-cdmx.json`
+- `gh-pages/data/cronquiles-gdl.ics` y `cronquiles-gdl.json`
 
 Para generar el calendario de una ciudad específica:
 
@@ -127,12 +126,6 @@ python main.py --verbose
 
 # Ajustar timeout y reintentos
 python main.py --timeout 60 --retries 3
-
-# Publicar eventos directamente en Google Calendar
-python main.py --google-calendar
-
-# Simular publicación sin publicar realmente (dry run)
-python main.py --google-calendar --dry-run
 ```
 
 ### Opciones completas
@@ -159,19 +152,20 @@ cron-quiles/
 │   └── cronquiles/
 │       ├── __init__.py        # Paquete Python
 │       ├── main.py            # CLI principal
-│       └── ics_aggregator.py  # Lógica de agregación y deduplicación
+│       ├── ics_aggregator.py  # Lógica de agregación y deduplicación
+│       ├── history_manager.py # Gestor de persistencia
+│       └── models.py          # Modelos de datos
 ├── config/
 │   ├── feeds.yaml            # Configuración de feeds (YAML)
 │   └── list_icals.txt        # Lista alternativa de feeds (texto)
 ├── docs/
 │   ├── AGENTS.md             # Especificaciones del proyecto
 │   └── PROJECT_STRUCTURE.md  # Documentación de estructura
-├── examples/
-│   └── example_event.py       # Ejemplo de formato de eventos
 ├── gh-pages/                  # Archivos para GitHub Pages
+│   ├── css/                  # Estilos CSS
+│   ├── js/                   # Scripts JavaScript
+│   ├── data/                 # Datos generados (ICS/JSON)
 │   ├── index.html            # Página principal con calendario embebido
-│   ├── cronquiles.ics        # Calendario ICS (generado)
-│   ├── cronquiles.json       # JSON con eventos (generado)
 │   ├── serve.py              # Servidor HTTP para desarrollo local
 │   ├── serve.sh              # Script para iniciar servidor
 │   └── README-LOCAL.md       # Guía para desarrollo local
@@ -184,6 +178,51 @@ cron-quiles/
 ├── CHANGELOG.md              # Historial de cambios
 └── LICENSE                   # Licencia MIT
 ```
+
+## 🏛️ Gestión de Datos Históricos (Nuevo)
+
+El proyecto ahora incluye un sistema de persistencia para asegurar que no se pierdan eventos pasados.
+
+1.  **Scraping de Historial**: Se incluye un script `tools/scrape_meetup_history.py` que permite extraer todos los eventos pasados de un grupo de Meetup.
+    ```bash
+    export MEETUP_COOKIE="tu_cookie_aquí"
+    python tools/scrape_meetup_history.py
+    ```
+
+2.  **Persistencia Automática**:
+    - Cada vez que se corre el agregador, los nuevos eventos se fusionan con `data/history.json`.
+    - Los eventos históricos se preservan incluso si desaparecen de los feeds originales (RSS/ICS).
+    - Se prioriza la información más completa (ej. ubicaciones scrapeadas de Meetup sobre datos genéricos de ICS).
+
+### Limpieza y Mantenimiento
+
+El proyecto incluye herramientas para mantener la calidad de los datos:
+- Normalización automática de títulos y descripciones.
+- Deduplicación inteligente basada en título y fecha (tolerancia de 2 horas).
+- Limpieza de artefactos de codificación (mojibake) en feeds ICS.
+
+## 🏛️ Gestión de Datos Históricos (Nuevo)
+
+El proyecto ahora incluye un sistema de persistencia para mantener un historial de eventos y mejorar la calidad de los datos (especialmente direcciones físicas).
+
+### Scraping de Historial
+
+Para importar eventos pasados de Meetup y obtener direcciones detalladas (que no vienen en el ICS público):
+
+1. Obtén tu cookie de sesión de Meetup (`MEETUP_MEMBER` o similar) desde tu navegador.
+2. Ejecuta el scraper:
+
+```bash
+export MEETUP_COOKIE="tu_cookie_aqui"
+python3 tools/scrape_meetup_history.py
+```
+
+Esto creará/actualizará `data/history.json`.
+
+### Ventajas
+- **Direcciones exactas**: El scraper obtiene calle y número, mientras que el ICS a veces solo da la ciudad.
+- **Persistencia**: Si un evento desaparece del feed RSS/ICS, se mantiene en tu historial local.
+- **Deduplicación inteligente**: El sistema fusiona automáticamente la información del feed vivo con la del historial, preservando siempre los mejores datos.
 
 ## ⚙️ Configuración de Feeds
 
@@ -204,7 +243,7 @@ cities:
       - url: https://www.meetup.com/ai-cdmx/events/ical
         name: "AI/IA CDMX"
         description: "Comunidad de IA en CDMX"
-  
+
   guadalajara:
     name: "Guadalajara"
     slug: "gdl"
@@ -213,7 +252,7 @@ cities:
       - url: https://www.meetup.com/python-jalisco/events/ical
         name: "Python Jalisco"
         description: "Comunidad de Python en Jalisco"
-  
+
   otras_ciudades:
     name: "Otras Ciudades"
     slug: "otras"
@@ -345,9 +384,8 @@ python -m pytest tests/ -v
 
 ### Estructura del Código
 
-- **`src/cronquiles/ics_aggregator.py`**: Contiene las clases principales:
-  - `EventNormalized`: Representa un evento normalizado
-  - `ICSAggregator`: Clase principal para agregar feeds
+- **`src/cronquiles/ics_aggregator.py`**: Contiene la clase `ICSAggregator` para agregar feeds.
+- **`src/cronquiles/models.py`**: Contiene `EventNormalized`, que representa un evento unificado.
 
 - **`src/cronquiles/main.py`**: CLI que orquesta el proceso
 
@@ -409,17 +447,16 @@ El workflow también publica automáticamente los archivos en GitHub Pages, perm
 2. En "Source", selecciona **GitHub Actions**
 3. Los archivos se publicarán automáticamente en cada actualización
 
-**URL de acceso:**
-- Página principal: `https://shellaquiles.github.io/cron-quiles/`
-- Archivos ICS por ciudad:
-  - CDMX: `https://shellaquiles.github.io/cron-quiles/cronquiles-cdmx.ics`
-  - Guadalajara: `https://shellaquiles.github.io/cron-quiles/cronquiles-gdl.ics`
-- Archivos JSON por ciudad:
-  - CDMX: `https://shellaquiles.github.io/cron-quiles/cronquiles-cdmx.json`
-  - Guadalajara: `https://shellaquiles.github.io/cron-quiles/cronquiles-gdl.json`
-- WebCal (suscripción):
-  - CDMX: `webcal://shellaquiles.github.io/cron-quiles/cronquiles-cdmx.ics`
-  - Guadalajara: `webcal://shellaquiles.github.io/cron-quiles/cronquiles-gdl.ics`
+- **URL principal**: `https://shellaquiles.github.io/cron-quiles/`
+- **Archivos ICS por ciudad**:
+  - CDMX: `https://shellaquiles.github.io/cron-quiles/data/cronquiles-cdmx.ics`
+  - Guadalajara: `https://shellaquiles.github.io/cron-quiles/data/cronquiles-gdl.ics`
+- **Archivos JSON por ciudad**:
+  - CDMX: `https://shellaquiles.github.io/cron-quiles/data/cronquiles-cdmx.json`
+  - Guadalajara: `https://shellaquiles.github.io/cron-quiles/data/cronquiles-gdl.json`
+- **WebCal (suscripción)**:
+  - CDMX: `webcal://shellaquiles.github.io/cron-quiles/data/cronquiles-cdmx.ics`
+  - Guadalajara: `webcal://shellaquiles.github.io/cron-quiles/data/cronquiles-gdl.ics`
 
 **Características de la interfaz web:**
 - Diseño terminal con colores verde/negro/blanco

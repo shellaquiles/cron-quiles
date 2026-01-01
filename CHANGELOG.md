@@ -57,6 +57,12 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
   - Mejor manejo de errores con instrucciones claras
   - Interfaz más limpia y enfocada
 
+- **Persistencia de Historial y Scraping** (nuevo)
+  - Nuevo módulo `HistoryManager` para preservar eventos pasados y realizar "smart merge"
+  - Herramienta `scrape_meetup_history.py` para obtener direcciones físicas detalladas (calle, número) de Meetup
+  - Sistema de persistencia en `data/history.json`
+  - Mejora la calidad de datos combinando lo mejor del feed vivo y el historial
+
 ### Changed
 - **Formato de eventos** (cambio)
   - Los títulos ahora siguen formato estructurado con separadores `|`
@@ -118,7 +124,11 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 - (Ningún fix aún)
 
 ### Removed
-- (Nada removido aún)
+- **Código y archivos obsoletos**
+  - Eliminado soporte para Google Calendar (`src/cronquiles/google_calendar.py`) para simplificar el proyecto.
+  - Eliminado directorio `examples/` ya que no se usaba.
+  - Limpieza de scripts de debug temporales (`tools/`).
+  - Modularización: `EventNormalized` movido a `src/cronquiles/models.py`.
 
 ---
 
