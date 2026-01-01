@@ -48,14 +48,16 @@ jobs:
           mkdir -p gh-pages
 
       - name: Generate calendars for all cities
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
         run: |
-          python main.py --all-cities --json --output-dir gh-pages/
+          python main.py --all-cities --json --output-dir gh-pages/data/
         working-directory: ${{ github.workspace }}
 
       - name: Check if deployment needed
         id: check-deploy
         run: |
-          if [ -n "$(git status --porcelain gh-pages/ 2>/dev/null)" ]; then
+          if [ -n "$(git status --porcelain gh-pages/ data/ 2>/dev/null)" ]; then
             echo "deploy=true" >> $GITHUB_OUTPUT
           else
             echo "deploy=false" >> $GITHUB_OUTPUT
@@ -66,8 +68,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add gh-pages/
-          git commit -m "🤖 Auto-update: Refresh events calendar [skip ci]" || exit 0
+          git add gh-pages/ data/
+          git commit -m "🤖 Auto-update: Refresh events calendar & persist data [skip ci]" || exit 0
           git push || exit 0
 
       - name: Setup Pages

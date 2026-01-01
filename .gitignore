@@ -29,9 +29,11 @@ wheels/
 *.ics
 *.json
 # Permitir archivos en gh-pages/ para GitHub Pages
-!gh-pages/*.ics
-!gh-pages/*.json
+!gh-pages/data/*.ics
+!gh-pages/data/*.json
 !gh-pages/index.html
+# Datos persistentes importantes
+!data/*.json
 # Config files
 !config/feeds.yaml
 !config/list_icals.txt
@@ -51,3 +53,5 @@ config/token.json
 # OS
 .DS_Store
 Thumbs.db
+debug_meetup.html
+.env

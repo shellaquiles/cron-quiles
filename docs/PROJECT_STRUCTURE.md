@@ -19,32 +19,41 @@ cron-quiles/
 ├── CONTRIBUTING.md                  # Guía para contribuidores
 ├── CHANGELOG.md                     # Historial de cambios
 │
+├── data/                            # Datos persistentes
+│   └── history.json                # Historial de eventos (base de datos)
+│
 ├── src/
 │   └── cronquiles/                  # Paquete Python principal
 │       ├── __init__.py             # Inicialización del paquete
 │       ├── main.py                 # CLI principal
 │       ├── ics_aggregator.py       # Lógica de agregación y deduplicación
-│       └── google_calendar.py      # Publicación en Google Calendar
+│       ├── history_manager.py      # Gestor de persistencia y merge
+│       └── models.py               # Modelos de datos (EventNormalized)
 │
 ├── config/                          # Archivos de configuración
 │   ├── feeds.yaml                  # Configuración de feeds (YAML)
 │   └── list_icals.txt              # Lista alternativa de feeds (texto)
 │
+├── tools/                           # Scripts de mantenimiento y utilidades
+│   ├── populate_cache_from_history.py
+│   ├── scan_feeds_and_cache.py
+│   └── scrape_meetup_history.py
+│
 ├── docs/                            # Documentación adicional
 │   ├── AGENTS.md                   # Especificaciones del proyecto
 │   └── PROJECT_STRUCTURE.md        # Este archivo
-│
-├── examples/                        # Ejemplos y scripts de demostración
-│   └── example_event.py            # Ejemplo de formato de eventos
 │
 ├── main.py                          # Punto de entrada CLI (raíz)
 ├── requirements.txt                # Dependencias Python
 ├── pyproject.toml                   # Configuración del proyecto (PEP 518)
 │
 ├── gh-pages/                        # Archivos para GitHub Pages
+│   ├── css/                        # Estilos CSS
+│   ├── js/                         # Scripts JavaScript
+│   ├── data/                       # Datos generados (JSON/ICS)
+│   │   ├── cronquiles.ics
+│   │   └── cronquiles.json
 │   ├── index.html                  # Página principal con calendario embebido
-│   ├── cronquiles.ics              # Calendario ICS unificado (generado)
-│   ├── cronquiles.json             # JSON con eventos (generado)
 │   ├── serve.py                    # Servidor HTTP para desarrollo local
 │   ├── serve.sh                    # Script para iniciar servidor local
 │   └── README-LOCAL.md             # Guía para desarrollo local
@@ -59,24 +68,27 @@ cron-quiles/
 Código fuente principal del proyecto. Contiene:
 - **`__init__.py`**: Inicialización del paquete Python
 - **`main.py`**: CLI principal con argumentos y lógica de ejecución
-- **`ics_aggregator.py`**: Módulo con clases `EventNormalized` e `ICSAggregator`
-  - `EventNormalized`: Normaliza eventos, detecta online/presencial, extrae grupo/ubicación, formatea títulos e implementa el **enriquecimiento de ubicación desde Meetup**.
+- **`ics_aggregator.py`**: Módulo con la clase `ICSAggregator`.
   - `ICSAggregator`: Agrega múltiples feeds ICS, coordina el enriquecimiento de datos de Meetup (vía JSON-LD/Next.js), deduplica eventos y genera ICS/JSON.
-- **`google_calendar.py`**: Publicación de eventos en Google Calendar (opcional)
+- **`history_manager.py`**: Maneja la carga, guardado y fusión (merge) inteligente de eventos históricos desde `data/history.json`.
+- **`models.py`**: Contiene la clase `EventNormalized` y lógica de limpieza.
+  - `EventNormalized`: Clase que representa un evento unificado. Normaliza eventos, detecta online/presencial, extrae grupo/ubicación, formatea títulos e implementa el **enriquecimiento de ubicación desde Meetup**.
 
 ### `config/`
 Archivos de configuración:
 - **`feeds.yaml`**: Configuración principal de feeds ICS (formato YAML)
 - **`list_icals.txt`**: Lista alternativa de feeds (formato texto plano, una URL por línea)
 
+### `tools/`
+Scripts de mantenimiento y utilidad:
+- **`populate_cache_from_history.py`**: Extrae ubicaciones verificadas de `history.json` y puebla el cache de geocodificación.
+- **`scan_feeds_and_cache.py`**: Escanea todos los feeds configurados, extrae ubicaciones y asegura que estén en el cache (geocodificando si es necesario).
+- **`scrape_meetup_history.py`**: Scraper para obtener eventos históricos de grupos de Meetup.
+
 ### `docs/`
 Documentación adicional del proyecto:
 - **`AGENTS.md`**: Especificaciones originales y requisitos del proyecto
 - **`PROJECT_STRUCTURE.md`**: Este archivo con la estructura del proyecto
-
-### `examples/`
-Ejemplos y scripts de demostración:
-- **`example_event.py`**: Script que muestra el formato de eventos en diferentes representaciones
 
 ### Raíz del Proyecto
 - **`main.py`**: Punto de entrada principal que permite ejecutar desde la raíz
@@ -97,18 +109,19 @@ Configuración de GitHub:
 ## Archivos Generados
 
 Estos archivos se generan al ejecutar `main.py` y se suben al repo automáticamente por GitHub Actions:
-- **`gh-pages/cronquiles.ics`**: Calendario ICS unificado con eventos formateados
-- **`gh-pages/cronquiles.json`**: JSON con eventos (si se usa `--json`)
+- **`gh-pages/data/cronquiles.ics`**: Calendario ICS unificado con eventos formateados
+- **`gh-pages/data/cronquiles.json`**: JSON con eventos (si se usa `--json`)
   - Los eventos incluyen títulos formateados: `Grupo|Nombre evento|Online` o `Grupo|Nombre evento|País|Estado`
 
-**Nota:** Los archivos se generan directamente en `gh-pages/` para publicación en GitHub Pages.
+**Nota:** Los archivos se generan directamente en `gh-pages/data/` para publicación en GitHub Pages.
 
 ## GitHub Pages
 
 La carpeta `gh-pages/` contiene todos los archivos necesarios para GitHub Pages:
 - **`index.html`**: Página principal con diseño terminal y calendario embebido
-- **`cronquiles.ics`**: Calendario ICS para descarga y suscripción WebCal
-- **`cronquiles.json`**: Datos JSON para uso programático
+- **`data/`**: Subdirectorio con los archivos de datos
+  - **`cronquiles.ics`**: Calendario ICS para descarga y suscripción WebCal
+  - **`cronquiles.json`**: Datos JSON para uso programático
 - **`serve.py`** / **`serve.sh`**: Scripts para probar el sitio localmente
 - **`README-LOCAL.md`**: Instrucciones para desarrollo local
 

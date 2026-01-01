@@ -24,7 +24,7 @@ Si los archivos `cronquiles.ics` y `cronquiles.json` no existen, genera primero:
 
 ```bash
 # Desde la raíz del proyecto
-python main.py --json --output gh-pages/cronquiles.ics --json-output gh-pages/cronquiles.json
+python main.py --all-cities --json --output-dir gh-pages/data/
 ```
 
 ## Nota importante

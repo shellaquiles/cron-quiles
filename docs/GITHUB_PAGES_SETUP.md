@@ -13,7 +13,17 @@ Esta guía te ayudará a configurar GitHub Pages para publicar automáticamente 
    - Selecciona **GitHub Actions** como fuente
 5. Guarda los cambios
 
-### 2. Verificar Permisos del Workflow
+### 2. Configurar Secretos del Repositorio
+
+Para que la geocodificación funcione correctamente en CI (usando Google Maps en lugar de Nominatim), debes agregar tu API Key:
+
+1. Ve a **Settings** (Configuración) -> **Secrets and variables** -> **Actions**.
+2. Haz clic en **New repository secret**.
+3. Nombre: `GOOGLE_MAPS_API_KEY`
+4. Valor: Tu API Key de Google Maps Platform.
+5. Haz clic en **Add secret**.
+
+### 3. Verificar Permisos del Workflow
 
 El workflow `.github/workflows/update-events.yml` ya está configurado con los permisos necesarios:
 
@@ -42,9 +52,9 @@ El workflow se ejecutará automáticamente:
 Una vez configurado, tu sitio estará disponible en:
 
 - **URL principal**: `https://shellaquiles.github.io/cron-quiles/`
-- **Archivo ICS**: `https://shellaquiles.github.io/cron-quiles/cronquiles.ics`
-- **Archivo JSON**: `https://shellaquiles.github.io/cron-quiles/cronquiles.json`
-- **WebCal (suscripción)**: `webcal://shellaquiles.github.io/cron-quiles/cronquiles.ics`
+- **Archivo ICS**: `https://shellaquiles.github.io/cron-quiles/data/cronquiles.ics`
+- **Archivo JSON**: `https://shellaquiles.github.io/cron-quiles/data/cronquiles.json`
+- **WebCal (suscripción)**: `webcal://shellaquiles.github.io/cron-quiles/data/cronquiles.ics`
 
 ### 5. Verificar la Publicación
 
@@ -58,8 +68,10 @@ Una vez configurado, tu sitio estará disponible en:
 Los siguientes archivos se publican automáticamente en GitHub Pages desde la carpeta `gh-pages/`:
 
 - `gh-pages/index.html` - Página principal con diseño terminal y calendario embebido
-- `gh-pages/cronquiles.ics` - Calendario ICS para descarga y suscripción WebCal
-- `gh-pages/cronquiles.json` - Datos JSON para uso programático
+- `gh-pages/css/` - Estilos CSS (layout, componentes, variables)
+- `gh-pages/js/` - Scripts JavaScript (lógica de calendario, tabs, etc.)
+- `gh-pages/data/cronquiles[...].ics` - Calendarios ICS por ciudad
+- `gh-pages/data/cronquiles[...].json` - Datos JSON por ciudad
 
 **Características de la interfaz:**
 - Diseño terminal estilo shellaquiles-org (verde/negro/blanco)
@@ -107,9 +119,14 @@ schedule:
   - cron: '0 3 * * *'
 ```
 
-### Personalizar el index.html
+### Personalizar el index.html, CSS y JS
 
-Puedes editar `gh-pages/index.html` para personalizar la apariencia y contenido de la página. El diseño actual incluye:
+Puedes editar:
+- `gh-pages/index.html`: Estructura HTML y contenido
+- `gh-pages/css/*.css`: Estilos, variables y layout
+- `gh-pages/js/*.js`: Lógica de la aplicación
+
+El diseño actual incluye:
 - Tema terminal con colores verde/negro/blanco
 - Calendario mensual visual embebido
 - Lista automática de eventos del mes

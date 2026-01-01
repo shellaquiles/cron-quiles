@@ -53,6 +53,9 @@ El proyecto es completamente funcional y opera bajo Github Actions.
     *   Comunidades dinámicas cargadas desde JSON (no hardcodeadas).
 12. **Manejo robusto de timezones**: Conversión a UTC para lógica interna, preservando original.
 13. **Publicación automática**: GitHub Actions actualiza feeds y Pages cada 6 horas.
+14. **Persistencia de Historial**: Sistema de "memoria" (`data/history.json`) para preservar eventos pasados y mejorar datos (direcciones completas) mediante scraping.
+15. **Limpieza Avanzada**: Regex robusto para eliminar artefactos `vText` y basura de títulos.
+16. **Merge Inteligente**: Fusiona datos históricos con feeds vivos, preservando siempre la mejor versión de la información (ej: ubicación detallada).
 
 ### Deduplicación
 
@@ -68,16 +71,16 @@ Estrategia implementada:
 ### Output
 
 **Archivos por ciudad** (generados con `--all-cities`):
-* `gh-pages/cronquiles-cdmx.ics` - Calendario ICS de Ciudad de México
-* `gh-pages/cronquiles-cdmx.json` - JSON con eventos y comunidades de CDMX
-* `gh-pages/cronquiles-gdl.ics` - Calendario ICS de Guadalajara
-* `gh-pages/cronquiles-gdl.json` - JSON con eventos y comunidades de GDL
-* `gh-pages/cronquiles-puebla.ics` - Calendario ICS de Puebla
-* `gh-pages/cronquiles-puebla.json` - JSON con eventos y comunidades de Puebla
-* `gh-pages/cronquiles-monterrey.ics` - Calendario ICS de Monterrey
-* `gh-pages/cronquiles-monterrey.json` - JSON con eventos y comunidades de Monterrey
-* `gh-pages/cronquiles-mexico.ics` - Calendario ICS unificado (todas las ciudades)
-* `gh-pages/cronquiles-mexico.json` - JSON unificado (todas las ciudades)
+* `gh-pages/data/cronquiles-cdmx.ics` - Calendario ICS de Ciudad de México
+* `gh-pages/data/cronquiles-cdmx.json` - JSON con eventos y comunidades de CDMX
+* `gh-pages/data/cronquiles-gdl.ics` - Calendario ICS de Guadalajara
+* `gh-pages/data/cronquiles-gdl.json` - JSON con eventos y comunidades de GDL
+* `gh-pages/data/cronquiles-puebla.ics` - Calendario ICS de Puebla
+* `gh-pages/data/cronquiles-puebla.json` - JSON con eventos y comunidades de Puebla
+* `gh-pages/data/cronquiles-monterrey.ics` - Calendario ICS de Monterrey
+* `gh-pages/data/cronquiles-monterrey.json` - JSON con eventos y comunidades de Monterrey
+* `gh-pages/data/cronquiles-mexico.ics` - Calendario ICS unificado (todas las ciudades)
+* `gh-pages/data/cronquiles-mexico.json` - JSON unificado (todas las ciudades)
 
 **Interfaz web**:
 * `gh-pages/index.html` - Página con calendario embebido y tabs por ciudad
@@ -92,7 +95,7 @@ Estrategia implementada:
 * ✅ Tests básicos
 * ✅ GitHub Actions workflow
 * ✅ Interfaz web moderna
-* ✅ Documentación de Google Calendar setup
+* ✅ Documentación de setup
 
 ### Estructura del proyecto
 
@@ -104,7 +107,8 @@ cron-quiles/
 │       ├── __init__.py        # Paquete Python
 │       ├── main.py            # CLI principal
 │       ├── ics_aggregator.py  # Lógica de agregación y deduplicación
-│       └── google_calendar.py # Publicación en Google Calendar (opcional)
+│       ├── history_manager.py # Gestor de persistencia
+│       └── models.py          # Modelos de datos
 ├── config/
 │   ├── feeds.yaml            # Configuración de feeds (YAML)
 │   └── list_icals.txt        # Lista alternativa de feeds (texto)
@@ -114,15 +118,16 @@ cron-quiles/
 │   ├── COMMUNITIES.md        # Lista de comunidades integradas
 │   └── GITHUB_PAGES_SETUP.md # Guía de setup de GitHub Pages
 ├── gh-pages/                  # Archivos para GitHub Pages
+│   ├── css/                  # Estilos CSS
+│   ├── js/                   # Scripts JavaScript
 │   ├── index.html            # Página principal con calendario embebido y tabs
-│   ├── cronquiles-cdmx.ics   # Calendario ICS de CDMX (generado)
-│   ├── cronquiles-cdmx.json  # JSON de CDMX con eventos y comunidades (generado)
-│   ├── cronquiles-gdl.ics    # Calendario ICS de Guadalajara (generado)
-│   ├── cronquiles-gdl.json   # JSON de GDL con eventos y comunidades (generado)
+│   ├── data/                 # Subdirectorio de datos
+│   │   ├── cronquiles-cdmx.ics   # Calendario ICS de CDMX (generado)
+│   │   ├── cronquiles-cdmx.json  # JSON de CDMX con eventos y comunidades (generado)
+│   │   ├── cronquiles-gdl.ics    # Calendario ICS de Guadalajara (generado)
+│   │   └── cronquiles-gdl.json   # JSON de GDL con eventos y comunidades (generado)
 │   ├── serve.py             # Servidor HTTP para desarrollo local
 │   └── serve.sh             # Script para iniciar servidor
-├── examples/
-│   └── example_event.py      # Ejemplo de formato de eventos
 ├── tests/
 │   └── test_ics_aggregator.py # Tests básicos
 ├── requirements.txt          # Dependencias Python
@@ -132,8 +137,24 @@ cron-quiles/
 └── CONTRIBUTING.md           # Guía para contribuidores
 ```
 
-### Próximas mejoras posibles
+### Herramientas de Mantenimiento
 
+* **Scraper de Historial** (`tools/scrape_meetup_history.py`):
+  * Extrae eventos pasados de Meetup (requiere cookie).
+  * Obtiene direcciones completas (calle, número) que no vienen en el ICS público.
+  * Alimenta `data/history.json`.
+
+* **Limpieza de Historial** (`HistoryManager`):
+  * Deduplica inteligentemente usando hashes consistentes.
+  * Permite regenerar calendarios sin perder datos antiguos.
+
+* **Población de Cache** (`tools/populate_cache_from_history.py`):
+  * Extrae todas las ubicaciones de `history.json` verificado y las inserta en `geocoding_cache.json` para evitar re-consultar la API.
+
+* **Escaneo de Feeds** (`tools/scan_feeds_and_cache.py`):
+  * Descarga todos los feeds ICS configurados, extrae las ubicaciones y asegura que estén presentes en el cache.
+
+### Próximas mejoras posibles
 * Filtros por tags o fechas en CLI
 * Mejora en el manejo de eventos recurrentes complejos
 * Soporte para más fuentes de feeds (Eventbrite, etc.)
@@ -178,26 +199,74 @@ cron-quiles/
 
 Los siguientes archivos son generados automáticamente y **NO deben incluirse en commits manuales**:
 
-* `gh-pages/cronquiles-cdmx.ics` - Calendario ICS de CDMX
-* `gh-pages/cronquiles-cdmx.json` - JSON de eventos de CDMX
-* `gh-pages/cronquiles-gdl.ics` - Calendario ICS de Guadalajara
-* `gh-pages/cronquiles-gdl.json` - JSON de eventos de Guadalajara
+* `gh-pages/data/cronquiles-cdmx.ics` - Calendario ICS de CDMX
+* `gh-pages/data/cronquiles-cdmx.json` - JSON de eventos de CDMX
+* `gh-pages/data/cronquiles-gdl.ics` - Calendario ICS de Guadalajara
+* `gh-pages/data/cronquiles-gdl.json` - JSON de eventos de Guadalajara
 
 **Razón**: Estos archivos se generan automáticamente por GitHub Actions cada 6 horas. Si los commiteas manualmente, pueden causar conflictos innecesarios y el workflow los sobrescribirá de todas formas.
 
 **Para desarrollo local**:
 ```bash
 # Ignorar temporalmente estos archivos en git
-git update-index --assume-unchanged gh-pages/cronquiles-cdmx.ics
-git update-index --assume-unchanged gh-pages/cronquiles-cdmx.json
-git update-index --assume-unchanged gh-pages/cronquiles-gdl.ics
-git update-index --assume-unchanged gh-pages/cronquiles-gdl.json
+git update-index --assume-unchanged gh-pages/data/cronquiles-cdmx.ics
+git update-index --assume-unchanged gh-pages/data/cronquiles-cdmx.json
+git update-index --assume-unchanged gh-pages/data/cronquiles-gdl.ics
+git update-index --assume-unchanged gh-pages/data/cronquiles-gdl.json
 
 # Para volver a trackearlos (si es necesario)
-git update-index --no-assume-unchanged gh-pages/cronquiles-cdmx.ics
-git update-index --no-assume-unchanged gh-pages/cronquiles-cdmx.json
-git update-index --no-assume-unchanged gh-pages/cronquiles-gdl.ics
-git update-index --no-assume-unchanged gh-pages/cronquiles-gdl.json
+git update-index --no-assume-unchanged gh-pages/data/cronquiles-cdmx.ics
+git update-index --no-assume-unchanged gh-pages/data/cronquiles-cdmx.json
+git update-index --no-assume-unchanged gh-pages/data/cronquiles-gdl.ics
+git update-index --no-assume-unchanged gh-pages/data/cronquiles-gdl.json
 ```
 
 Piensa paso a paso, justifica decisiones técnicas y genera código limpio, comentado y listo para producción ligera. **Nunca dejes documentación desactualizada.**
+
+### ♻️ Reutilización de Código y Dependencias (OBLIGATORIO)
+
+**Regla #1: Reutiliza antes de crear**
+
+* **Antes de escribir código nuevo**, busca si ya existe:
+
+  1. una función/utilidad dentro del repo (`src/cronquiles/`, `utils.py`, `models.py`, `history_manager.py`, etc.)
+  2. una librería Python establecida en PyPI para resolverlo
+* Si existe algo similar, **refactoriza/reusa** en vez de duplicar.
+
+**Regla #2: No inventes librerías, módulos ni APIs**
+
+* **Prohibido**:
+  * inventar nombres de paquetes (“cronquiles-tools”, “ical_superparser”, etc.)
+  * inventar campos de un ICS/fuente si no están en el input real
+  * inventar endpoints o “APIs públicas” que no existan
+* Si no estás seguro de que algo exista, dilo explícitamente:
+  **“No tengo evidencia de que exista X; propongo alternativa Y usando librerías estándar.”**
+
+**Regla #3: Si propones una dependencia, debe ser real y verificable**
+* Cada vez que sugieras una librería externa, debes incluir:
+  * **Nombre exacto del paquete PyPI**
+  * **Para qué se usa** en el proyecto (1 línea)
+  * **Alternativa estándar** (stdlib) si aplica
+  * **Licencia/estabilidad** (si la conoces; si no, indícalo sin inventar)
+* Si se agrega una dependencia:
+  * actualiza `requirements.txt` y/o `pyproject.toml`
+  * agrega tests mínimos y docstrings
+  * actualiza README/CHANGELOG (según tu regla de oro)
+
+**Regla #4: Prioridad de elección (orden estricto)**
+1. Código existente del repo (refactor si hace falta)
+2. Python stdlib
+3. Librerías “de facto standard” y maduras
+4. Código nuevo (solo si 1–3 no cubren el caso)
+
+**Regla #5: No “construyas frameworks”**
+
+* Evita crear mini-frameworks internos si una librería probada ya resuelve el problema.
+* Mantén cambios pequeños, incrementales y revisables (PR-friendly).
+
+**Formato de respuesta esperado al proponer cambios**
+
+* ✅ “Encontré/reutilizo X del repo”
+* ✅ “Uso librería Y (PyPI: `...`) porque …”
+* ✅ “Si Y no aplica, alternativa con stdlib: …”
+* ✅ “No invento fuentes/campos; me baso en: (menciona de dónde sale)”

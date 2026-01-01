@@ -1,0 +1,31 @@
+/**
+ * Design Tokens
+ */
+:root {
+    /* Terminal Colors */
+    --terminal-green: #00ff00;
+    --terminal-red: #ff0000;
+    --terminal-white: #ffffff;
+    --terminal-black: #0a0a0a;
+    --terminal-dark: #1a1a1a;
+    --terminal-gray: #666666;
+
+    /* Spacing */
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 15px;
+    --spacing-lg: 20px;
+    --spacing-xl: 30px;
+    --spacing-xxl: 40px;
+
+    /* Border Radius */
+    --radius-md: 8px;
+    --radius-lg: 10px;
+
+    /* Transitions */
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+
+    /* Typography */
+    --font-family-mono: 'JetBrains Mono', 'Courier New', 'Monaco', 'Menlo', monospace;
+}
