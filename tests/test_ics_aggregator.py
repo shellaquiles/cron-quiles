@@ -97,6 +97,20 @@ class TestICSAggregator(unittest.TestCase):
         # Debe ser el que tiene URL (prioridad)
         self.assertTrue(deduplicated[0].url.startswith("http"))
 
+    def test_extract_luma_link(self):
+        """Test de extracción de link de Luma desde la descripción."""
+        event = Event()
+        event.add("summary", "Luma Event")
+        # Descripción real de Luma
+        event.add("description", "Get up-to-date information at: https://luma.com/z4d0punf\\n\\nHosted by Martin")
+        event.add("dtstart", datetime(2024, 3, 15, 18, 0, 0, tzinfo=tz.UTC))
+
+        # Simulamos que no hay URL en el campo URL
+        event_norm = EventNormalized(event, "https://api2.luma.com/ics/get")
+
+        # Debería extraer el link de luma (luma.com o lu.ma)
+        self.assertEqual(event_norm.url, "https://luma.com/z4d0punf")
+
 
 if __name__ == "__main__":
     unittest.main()

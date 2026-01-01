@@ -16,9 +16,13 @@ Puedes ver la lista completa de comunidades integradas en [Comunidades Tech en M
 
 ## ✨ Características
 
-- ✅ Consume múltiples feeds ICS públicos
+- ✅ Consume múltiples feeds ICS públicos (Meetup, Luma, Google Calendar)
+- ✅ **Soporte avanzado para Luma**: Extracción de links desde descripción y soporte de `lu.ma`
 - ✅ Normaliza eventos (título, fecha, hora, ubicación, link, organizador)
-- ✅ Deduplicación inteligente de eventos similares
+- ✅ **Deduplicación inteligente**:
+  - Merge de links: Agrupa URLs alternativas en la descripción del evento principal
+  - Tolerancia de tiempo y normalización de timezones UTC
+- ✅ **Nombres de grupo inteligentes**: Config manual > X-WR-CALNAME > Organizador
 - ✅ Manejo robusto de timezones
 - ✅ Tolerancia a feeds caídos (no rompe el proceso)
 - ✅ Tags automáticos por keywords (Python, AI, Cloud, DevOps, etc.)
@@ -231,6 +235,7 @@ feeds:
   - url: https://www.meetup.com/pythonista/events/ical
   - url: https://www.meetup.com/ai-cdmx/events/ical
   - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-xxx
+    name: "Nombre Opcional del Grupo" # Si se omite, se usa X-WR-CALNAME o Organizador
 ```
 
 O formato simple:
@@ -257,26 +262,21 @@ El sistema deduplica eventos similares usando la siguiente estrategia:
 
 1. **Normalización de título**: lowercase, sin emojis, sin puntuación extra
 2. **Comparación de fecha/hora**: tolerancia de ±2 horas
-3. **Selección del mejor evento**: prioriza eventos con:
-   - URL válida
-   - Descripción más larga
+3. **Selección del mejor evento**: prioriza eventos con URL válida y descripción más larga
+4. **Merge de Links**: Si se detectan duplicados con diferentes URLs (ej: Luma vs Meetup), se agregan todas las URLs alternativas a la descripción del evento principal.
 
-## 📝 Formato de Títulos
+## 📝 Formato de Títulos y Metadatos
 
 Los eventos se formatean automáticamente según su tipo:
 
 - **Eventos online**: `Grupo|Nombre evento|Online`
 - **Eventos presenciales**: `Grupo|Nombre evento|País|Estado`
 
-El sistema detecta automáticamente si un evento es online o presencial basándose en:
-- Palabras clave en la ubicación y descripción (online: "zoom", "virtual", "streaming", etc.)
-- Presencia de direcciones físicas o indicadores de eventos presenciales
-- Extracción inteligente de país y estado para eventos presenciales (especialmente México)
-
-El nombre del grupo se extrae de:
-- El organizador del evento
-- La descripción del evento (patrones como "Nombre (Descripción)")
-- La URL del evento (ej: meetup.com/kong-mexico-city)
+**Extracción del nombre del grupo (Prioridad):**
+1. Nombre configurado en `feeds.yaml` (`name: "..."`)
+2. Metadato `X-WR-CALNAME` del calendario ICS
+3. Organizador del evento
+4. Inferencia desde la URL o descripción
 
 ## 🏷️ Tags Automáticos
 

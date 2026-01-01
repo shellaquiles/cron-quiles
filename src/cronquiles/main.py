@@ -99,16 +99,16 @@ def load_feeds_from_yaml(yaml_file: str) -> list:
         feeds = data.get("feeds", [])
 
         # Manejar dos formatos: lista de strings o lista de dicts con 'url'
-        feed_urls = []
+        feed_config = []
         for feed in feeds:
             if isinstance(feed, str):
-                feed_urls.append(feed)
+                feed_config.append({"url": feed, "name": None})
             elif isinstance(feed, dict) and "url" in feed:
-                feed_urls.append(feed["url"])
+                feed_config.append(feed)
             else:
                 logger.warning(f"Formato de feed inválido: {feed}")
 
-        return feed_urls
+        return feed_config
 
     except FileNotFoundError:
         logger.error(f"Archivo no encontrado: {yaml_file}")
@@ -133,12 +133,9 @@ def load_feeds_from_txt(txt_file: str) -> list:
     """
     try:
         with open(txt_file, "r", encoding="utf-8") as f:
-            urls = [
-                line.strip()
-                for line in f
-                if line.strip() and not line.strip().startswith("#")
-            ]
-        return urls
+            return [{"url": line.strip(), "name": None}
+                    for line in f
+                    if line.strip() and not line.strip().startswith("#")]
     except FileNotFoundError:
         logger.error(f"Archivo no encontrado: {txt_file}")
         sys.exit(1)

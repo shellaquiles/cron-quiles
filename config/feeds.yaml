@@ -12,20 +12,23 @@ cities:
       # ==========================================
       # ------------------------------------------
       - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu
-        name: "Notion Mexico"
-        description: "Comunidad oficial de Notion en México. Organizamos eventos sobre productividad, organización y herramientas no-code."
+        description: "Calendario oficial de Mexico Tech Week 2025."
       # ------------------------------------------
       - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-okVQAVdbyFhL8Zo
         name: "Python CDMX"
         description: "Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles."
       # ------------------------------------------
       - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-2gq3mjgfAclpoCp
-        name: "Makers CDMX"
-        description: "Comunidad apasionada por la tecnología, el diseño y la fabricación digital."
+        name: "AI/IA CDMX"
+        description: "Canal de Meetup de la comunidad de IA en Ciudad de México."
       # ------------------------------------------
       - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-gKhhS6fDDrX3mqz
-        name: "AI/IA CDMX"
-        description: "Comunidad enfocada en Inteligencia Artificial. Charlas técnicas, demos y networking sobre el futuro de IA."
+        name: "Claude Users Group"
+        description: ""
+      # ------------------------------------------
+      - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl
+        name: "PyTalavera"
+        description: "Comunidad Pythonista en Puebla. Eventos, charlas y networking para entusiastas de Python en la región."
 
       # ==========================================
       # MEETUP GROUPS
@@ -44,7 +47,7 @@ cities:
         description: "Espacio para compartir conocimientos sobre metodologías ágiles, Scrum, Kanban y transformación digital."
       # ------------------------------------------
       - url: https://www.meetup.com/ai-cdmx/events/ical
-        name: "AI/IA CDMX (Meetup)"
+        name: "AI/IA CDMX"
         description: "Canal de Meetup de la comunidad de IA en Ciudad de México."
       # ------------------------------------------
       - url: https://www.meetup.com/ajolotesenlanube/events/ical
@@ -56,7 +59,7 @@ cities:
         description: "Grupo dedicado a Apache Spark y el ecosistema de procesamiento de Big Data."
       # ------------------------------------------
       - url: https://www.meetup.com/aws-cdmx/events/ical
-        name: "AWS Ciudad de México"
+        name: "AWS Ajolotes Ciudad de México"
         description: "User Group oficial de AWS en CDMX. Eventos sobre servicios en la nube de Amazon."
       # ------------------------------------------
       - url: https://www.meetup.com/aws-cloud-club-at-unam/events/ical
@@ -82,6 +85,10 @@ cities:
       - url: https://www.meetup.com/elixir-mexico-city/events/ical
         name: "Elixir Mexico City"
         description: "Comunidad enfocada en el lenguaje de programación Elixir y el framework Phoenix."
+      # ------------------------------------------
+      - url: https://www.meetup.com/embajadoras-cloud/events/ical
+        name: "Embajadoras Cloud"
+        description: "Comunidad dedicada a impulsar a mujeres hispanohablantes en cloud computing. Enfocada en AWS, aprendizaje colaborativo y desarrollo profesional."
       # ------------------------------------------
       - url: https://www.meetup.com/eventloop/events/ical
         name: "Eventloop"
@@ -114,6 +121,7 @@ cities:
       - url: https://www.meetup.com/grupo-de-meetup-de-linux-en-ciudad-de-mexico/events/ical
         name: "GNU / SysAdmin Linux en Ciudad de México"
         description: "Comunidad de Sysadmins que se dedican a dar soporte con Software Libre."
+      # ------------------------------------------
       - url: https://www.meetup.com/hackrobotsmx/events/ical
         name: "HackrobotsMX"
         description: "HackrobotsMX es la primera y única comunidad en América sin fines de lucro dedicada a la formación y capacitación en robótica."
@@ -177,6 +185,7 @@ cities:
       - url: https://www.meetup.com/pythonista/events/ical
         name: "Pythonista"
         description: "Una de las comunidades de Python más grandes y activas de México. Charlas y talleres para todos los niveles."
+      # ------------------------------------------
       - url: https://www.meetup.com/red-hat-user-group-mexico/events/ical
         name: "Red Hat User Group"
         description: "Tecnologías Red Hat, Linux Enterprise y OpenShift."
@@ -244,6 +253,10 @@ cities:
       - url: https://www.meetup.com/pythonmty/events/ical
         name: "Python Monterrey"
         description: "Comunidad de Python en la ciudad de Monterrey."
+      # ------------------------------------------
+      - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl
+        name: "PyTalavera"
+        description: "Comunidad Pythonista en Puebla. Eventos, charlas y networking para entusiastas de Python en la región."
 
 # Notas:
 # - Los feeds están organizados por ciudad
