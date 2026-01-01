@@ -5,7 +5,7 @@ from typing import Dict, List, Optional
 from datetime import datetime
 from dateutil import parser
 
-from .ics_aggregator import EventNormalized
+from .models import EventNormalized
 
 logger = logging.getLogger(__name__)
 
@@ -38,18 +38,14 @@ class HistoryManager:
 
             loaded_count = 0
             for item in data:
-                # Reconstruir hash_key si no existe en el JSON guardado
-                # (aunque idealmente deberíamos guardarlo)
-                # Por ahora usamos el formato de título y fecha
-                if 'title' in item and 'dtstart' in item:
-                    # Crear una instancia temporal para calcular el hash consistentemente
-                    # Nota: Esto es un poco hacky porque EventNormalized espera un objeto Event de icalendar
-                    # Para simplificar, usamos el ID si lo guardamos, o regeneramos la key
+                # Usar from_dict para disparar la lógica de healing/standardization
+                instance = EventNormalized.from_dict(item)
+                item_healed = instance.to_dict()
 
-                    # Estrategia simple: Usar title+start como key única en el diccionario de historia
-                    key = f"{item['title']}_{item['dtstart']}"
-                    self.events[key] = item
-                    loaded_count += 1
+                # Usar hash_key si existe, sino reconstruir como antes
+                key = item_healed.get('hash_key') or f"{item_healed['title']}_{item_healed['dtstart']}"
+                self.events[key] = item_healed
+                loaded_count += 1
 
             logger.info(f"Loaded {loaded_count} historical events from {self.history_file}")
 
@@ -83,8 +79,10 @@ class HistoryManager:
 
         for event in new_events:
             event_dict = event.to_dict()
-            # Generar key consistente
-            key = f"{event_dict['title']}_{event_dict['dtstart']}"
+            # Usar hash_key para merge consistente
+            key = event_dict.get('hash_key')
+            if not key:
+                key = f"{event_dict['title']}_{event_dict['dtstart']}"
 
             if key not in self.events:
                 self.events[key] = event_dict

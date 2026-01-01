@@ -3,13 +3,18 @@ EventNormalized Model - Modelo de datos para eventos normalizados.
 """
 
 import logging
+import os
 import re
 import json
 from datetime import datetime
 from typing import Dict, Optional, Set, Tuple
 from urllib.parse import urlparse
 
+import pycountry
 import requests
+from unidecode import unidecode
+from geopy.geocoders import Nominatim, GoogleV3
+from geopy.exc import GeopyError
 from dateutil import parser, tz
 from icalendar import Event, vText
 
@@ -43,6 +48,22 @@ TAG_KEYWORDS = {
     "backend": ["backend", "api", "rest", "graphql", "microservices"],
     "frontend": ["frontend", "front-end", "ui", "ux", "design"],
 }
+
+
+def slugify(text: str) -> str:
+    """
+    Convierte un texto en un slug simple (minúsculas, sin acentos ni caracteres especiales).
+    """
+    if not text:
+        return ""
+
+    # Usar unidecode para remover acentos y normalizar caracteres
+    text = unidecode(text).lower().strip()
+
+    # Remover todo lo que no sea alfanumérico y poner en minúsculas
+    text = re.sub(r"[^\w\s-]", "", text)
+    # Reemplazar espacios por nada (para city_code)
+    return re.sub(r"[-\s]+", "", text)
 
 
 def fix_encoding(text: str) -> str:
@@ -88,6 +109,83 @@ class EventNormalized:
     - Normalización de títulos para deduplicación
     - Extracción automática de tags basados en keywords
     """
+    # Cache para subdivisiones (estados) de México
+    _mx_subdivisions_cache: Optional[Dict[str, pycountry.db.Subdivision]] = None
+
+    # Alias manuales mínimos (nicknames no ISO)
+    _STATE_ALIASES = {
+        "cdmx": "Ciudad de México",
+        "df": "Ciudad de México",
+        "distrito federal": "Ciudad de México",
+        "mexico city": "Ciudad de México",
+        "méxico city": "Ciudad de México",
+        "amazon headquarters": "Ciudad de México",
+        "amazon hq": "Ciudad de México",
+        "gdl": "Jalisco",
+        "mty": "Nuevo León",
+        "pue": "Puebla",
+        "qro": "Querétaro",
+        "sin": "Sinaloa",
+        "ver": "Veracruz",
+        "yuc": "Yucatán",
+        "edo mex": "México",
+        "estado de méxico": "México",
+        "estado de mexico": "México",
+    }
+
+    @classmethod
+    def _get_mx_subdivisions_lookup(cls) -> Dict[str, pycountry.db.Subdivision]:
+        """
+        Construye una tabla de búsqueda dinámica para subdivisiones de México.
+        """
+        if cls._mx_subdivisions_cache is not None:
+            return cls._mx_subdivisions_cache
+
+        lookup = {}
+        try:
+            subs = pycountry.subdivisions.get(country_code="MX")
+            for sub in subs:
+                # Normalizar nombre base (ej: "Veracruz de Ignacio de la Llave" -> "veracruz")
+                name_clean = cls._normalize_subdivision_name(sub.name)
+                lookup[name_clean] = sub
+
+                # También indexar por el código ISO después del guión (ej: "CMX" de "MX-CMX")
+                code_part = sub.code.split("-")[1].lower()
+                lookup[code_part] = sub
+
+                # Indexar por el código ISO completo (ej: "MX-CMX")
+                lookup[sub.code.lower()] = sub
+
+                # Indexar por el nombre completo también por si acaso
+                lookup[sub.name.lower()] = sub
+        except Exception as e:
+            logger.error(f"Error building subdivisions lookup: {e}")
+
+        cls._mx_subdivisions_cache = lookup
+        return lookup
+
+    @staticmethod
+    def _normalize_subdivision_name(name: str) -> str:
+        """
+        Limpia nombres de estados quitando acentos y sufijos largos oficiales.
+        """
+        # Lowercase y remover acentos con unidecode
+        n = unidecode(name).lower().strip()
+
+        # Remover sufijos comunes en MX
+        suffixes = [
+            " de ignacio de la llave",
+            " de zaragoza",
+            " de ocampo",
+            " de juarez",
+            " de madero",
+        ]
+        for s in suffixes:
+            n = n.replace(s, "")
+
+        return n.strip()
+
+    @staticmethod
 
     @staticmethod
     def _clean_ical_property(prop_value) -> str:
@@ -176,6 +274,22 @@ class EventNormalized:
         # Tags automáticos
         self.tags = self._extract_tags()
 
+        # Flag para forzar online (ej: detectado via structured data)
+        self.forced_online = False
+
+        # Location metadata extraction
+        loc_details = self._extract_location_details()
+        self.country = loc_details["country"]
+        self.country_code = loc_details["country_code"]
+        self.state = loc_details["state"]
+        self.state_code = loc_details["state_code"]
+        self.city = loc_details["city"]
+        self.city_code = loc_details["city_code"]
+        self.address = loc_details.get("address_alias", self.location)
+
+        # Homologar resultados
+        self._standardize_location()
+
     @classmethod
     def from_dict(cls, data: Dict) -> "EventNormalized":
         """Reconstruye un objeto EventNormalized desde un diccionario."""
@@ -245,6 +359,54 @@ class EventNormalized:
             instance.tags = set(data["tags"])
 
         instance.source_url = data.get("source", "")
+
+        # Restore location metadata if available and valid (has codes)
+        # If history has invalid/empty codes, we keep the ones from initial extraction (cls() above)
+        if data.get("country_code"):
+            instance.country = data.get("country", "")
+            instance.country_code = data.get("country_code", "")
+            instance.state = data.get("state", "")
+            instance.state_code = data.get("state_code", "")
+            instance.city = data.get("city", "")
+            instance.city_code = data.get("city_code", "")
+            instance.address = data.get("address", "")
+
+            # --- Healing / Migration ---
+            # Si el país es "Mexico" (sin acento) o la ciudad parece un lugar (headquarters, etc)
+            # re-extraer para usar la nueva lógica mejorada
+            if instance.country == "Mexico" or "headquarters" in instance.city.lower() or "hq" in instance.city.lower():
+                loc_details = instance._extract_location_details()
+                instance.country = loc_details["country"]
+                instance.country_code = loc_details["country_code"]
+                instance.state = loc_details["state"]
+                instance.state_code = loc_details["state_code"]
+                instance.city = loc_details["city"]
+                instance.city_code = loc_details["city_code"]
+                instance.address = loc_details.get("address_alias", instance.location)
+
+            # Homologar siempre al cargar de historia (Healing Dinámico)
+            instance._standardize_location()
+        elif "country" in data:
+            # Migration from previous format (country/state only)
+            instance.address = data.get("address", data.get("location", ""))
+            loc_details = instance._extract_location_details()
+            instance.country = loc_details["country"]
+            instance.country_code = loc_details["country_code"]
+            instance.state = loc_details["state"]
+            instance.state_code = loc_details["state_code"]
+            instance.city = loc_details["city"]
+            instance.city_code = loc_details["city_code"]
+        else:
+            # Re-calculate if not in JSON
+            loc_details = instance._extract_location_details()
+            instance.country = loc_details["country"]
+            instance.country_code = loc_details["country_code"]
+            instance.state = loc_details["state"]
+            instance.state_code = loc_details["state_code"]
+            instance.city = loc_details["city"]
+            instance.city_code = loc_details["city_code"]
+            instance.address = instance.location
+
         instance.hash_key = instance._compute_hash()
 
         return instance
@@ -415,6 +577,11 @@ class EventNormalized:
         location_lower = self.location.lower()
         description_lower = self.description.lower()
 
+        # 0. Prioridad máxima: Flag explícito (ej: de structured data)
+        if hasattr(self, 'forced_online') and self.forced_online:
+            logger.debug(f"Event detected as ONLINE (forced flag): '{self.location}'")
+            return True
+
         # Palabras clave que indican evento presencial (tienen prioridad)
         in_person_keywords = [
             "in-person",
@@ -441,16 +608,6 @@ class EventNormalized:
                 # Si dice "in-person and live on YouTube", es presencial
                 return False
 
-        # Si hay location explícita, probablemente es presencial
-        if self.location and self.location.strip():
-            # Verificar que no sea solo una URL
-            if not self.location.strip().startswith("http"):
-                return False
-
-        # Si no hay location ni indicadores de presencial, probablemente es online
-        if not self.location or not self.location.strip():
-            return True
-
         # Palabras clave que indican evento online
         online_keywords = [
             "online",
@@ -469,12 +626,47 @@ class EventNormalized:
             "webex",
         ]
 
-        text_to_check = f"{location_lower} {description_lower}"
+        # 1. Prioridad: Verificar si la ubicación es explícitamente online
+        if "online" in location_lower or "virtual" in location_lower or "zoom" in location_lower or "meet" in location_lower:
+            logger.debug(f"Event detected as ONLINE (from location): '{self.location}'")
+            return True
+
+        # 1b. Si la descripción dice explícitamente que es online
+        text_to_check = description_lower
         for keyword in online_keywords:
             if keyword in text_to_check:
+                # Caso especial: Si dice "streaming" pero tenemos una dirección física real,
+                # solemos considerar que es presencial con stream.
+                if any(k in location_lower for k in ["calle", "colonia", "col.", "avenida", "av.", "piso", "nivel", "número", "no.", "n°", "residencial", "roma", "norte", "sur", "zacatecas"]):
+                     logger.debug(f"Event detected as PHYSICAL (has streaming but physical keyword in location): '{self.location}'")
+                     return False
+
+                # Si la ubicación tiene un número, probablemente sea una dirección física
+                if re.search(r'\d+', location_lower) and len(location_lower) > 10:
+                     logger.debug(f"Event detected as PHYSICAL (has streaming but number in location): '{self.location}'")
+                     return False
+
+                logger.debug(f"Event detected as ONLINE (keyword '{keyword}' in description): '{self.location}'")
                 return True
 
-        return False
+        # 2. Si hay indicadores de presencial en la descripción
+        for keyword in in_person_keywords:
+            if keyword in description_lower:
+                logger.debug(f"Event detected as PHYSICAL (keyword '{keyword}' in description): '{self.location}'")
+                return False
+
+        # 3. Si hay location explícita y no es una URL, probablemente es presencial
+        if self.location and self.location.strip():
+            if not self.location.strip().startswith("http"):
+                # Si llegamos aquí y no detectamos keywords de online arriba, asumimos presencial
+                # pero evitamos casos como locación = "..." o locaciones muy cortas
+                if len(self.location.strip()) > 3:
+                    logger.debug(f"Event detected as PHYSICAL (location string exists and not detected as online): '{self.location}'")
+                    return False
+
+        # 4. Si no hay nada, o es muy corto, asumir online
+        logger.debug(f"Event detected as ONLINE (fallback): '{self.location}' (len={len(self.location) if self.location else 0})")
+        return True
 
     def _extract_group(self) -> str:
         """
@@ -539,75 +731,392 @@ class EventNormalized:
 
         return "Evento"
 
-    def _extract_country_state(self) -> Tuple[str, str]:
+    def _extract_location_details(self) -> Dict[str, str]:
         """
-        Extrae país y estado de la ubicación del evento.
-
-        Tiene conocimiento especial de estados de México y puede inferir
-        el estado desde nombres de ciudades comunes (ej: Guadalajara -> Jalisco).
-
-        Returns:
-            Tupla (país, estado) o ("", "") si no se puede extraer.
-            Para México, retorna estados normalizados (ej: "CDMX", "Jalisco").
+        Extrae detalles de ubicación (país, estado, ciudad) y sus códigos ISO.
         """
-        if not self.location or not self.location.strip():
-            return ("", "")
-
-        location = self.location.strip()
-
-        # Intentar patrones comunes de ubicación
-        # Formato: "Ciudad, Estado, País" o "Ciudad, Estado" o "Estado, País"
-        # Para México: "Ciudad, CDMX" o "Ciudad, Estado de México"
-
-        # Estados de México comunes
-        estados_mexico = {
-            "cdmx": "CDMX",
-            "ciudad de méxico": "CDMX",
-            "mexico city": "CDMX",
-            "jalisco": "Jalisco",
-            "nuevo león": "Nuevo León",
-            "puebla": "Puebla",
-            "quintana roo": "Quintana Roo",
-            "yucatán": "Yucatán",
-            "yucatan": "Yucatán",
-            "estado de méxico": "Estado de México",
-            "estado de mexico": "Estado de México",
-            "guadalajara": "Jalisco",
-            "monterrey": "Nuevo León",
+        details = {
+            "country": "",
+            "country_code": "",
+            "state": "",
+            "state_code": "",
+            "city": "",
+            "city_code": ""
         }
 
+        if not self.location or not self.location.strip():
+            return details
+
+        location = self.location.strip()
         location_lower = location.lower()
+        # Limpiar dobles comas y espacios extra
+        location_cleaned = re.sub(r',\s*,', ',', location)
+        parts = [p.strip() for p in location_cleaned.split(",") if p.strip()]
 
-        # Buscar estado de México
-        for key, estado in estados_mexico.items():
-            if key in location_lower:
-                return ("México", estado)
+        # --- 1. Detectar País ---
+        country_obj = None
+        # Intentar buscar el último componente en pycountry
+        if parts:
+            try:
+                # Buscar por nombre exacto o código
+                country_obj = pycountry.countries.get(name=parts[-1]) or \
+                              pycountry.countries.get(official_name=parts[-1]) or \
+                              pycountry.countries.get(alpha_2=parts[-1].upper())
+            except:
+                pass
 
-        # Si contiene "méxico" o "mexico" pero no encontramos estado
-        if "méxico" in location_lower or "mexico" in location_lower:
-            # Intentar extraer estado de la ubicación
-            parts = [p.strip() for p in location.split(",")]
-            if len(parts) >= 2:
-                # Asumir que el penúltimo o último es el estado
-                for part in reversed(parts[-2:]):
-                    part_lower = part.lower()
-                    for key, estado in estados_mexico.items():
-                        if key in part_lower:
-                            return ("México", estado)
-                # Si no encontramos estado específico, usar el último
-                return ("México", parts[-1].strip())
-            return ("México", "")
+        # Fallback a México si contiene keywords comunes
+        if not country_obj:
+            if any(k in location_lower for k in ["méxico", "mexico", "cdmx", "jalisco", "puebla", "monterrey", "amazon headquarters"]):
+                country_obj = pycountry.countries.get(alpha_2="MX")
 
-        # Si no es México, intentar extraer país y estado
-        parts = [p.strip() for p in location.split(",")]
-        if len(parts) >= 2:
-            # Último es probablemente el país
-            country = parts[-1]
-            # Penúltimo podría ser el estado
-            state = parts[-2] if len(parts) >= 2 else ""
-            return (country, state)
+        if country_obj:
+            details["country"] = "México" if country_obj.alpha_2 == "MX" else country_obj.name
+            details["country_code"] = country_obj.alpha_2
 
-        return ("", "")
+        # --- 2. Detectar Estado (Subdivision) ---
+        state_obj = None
+        if country_obj and country_obj.alpha_2 == "MX":
+            lookup = self._get_mx_subdivisions_lookup()
+
+            # Buscar coincidencias en los componentes de la dirección
+            for part in parts:
+                p_low = part.lower().strip()
+
+                # 1. Probar con alias manuales
+                search_name = self._STATE_ALIASES.get(p_low, p_low)
+
+                # 2. Normalizar y buscar en el lookup dinámico
+                norm_name = self._normalize_subdivision_name(search_name)
+
+                if norm_name in lookup:
+                    state_obj = lookup[norm_name]
+                    break
+
+        # Caso genérico para otros países (si lo necesitáramos)
+        elif country_obj:
+            try:
+                subs = pycountry.subdivisions.get(country_code=country_obj.alpha_2)
+                for part in parts:
+                    for sub in subs:
+                        if sub.name.lower() == part.lower():
+                            state_obj = sub
+                            break
+                    if state_obj: break
+            except:
+                pass
+
+        if state_obj:
+            details["state"] = state_obj.name
+            details["state_code"] = state_obj.code
+
+            # Especial: Amazon HQ en CDMX
+            if "amazon headquarters" in location_lower or "amazon hq" in location_lower:
+                details["city"] = "Ciudad de México"
+                details["city_code"] = "cdmx"
+                details.setdefault("address_alias", "Paseo de la Reforma 250, Cuauhtémoc, CDMX")
+
+        # --- 3. Detectar Ciudad ---
+        city_name = ""
+        # Usualmente la ciudad es el primer componente o el segundo
+        if parts:
+            # Filtrar componentes que ya identificamos como estado o país
+            remaining = [p for p in parts if p != details["state"] and p != details["country"] and p != details["country_code"] and not details["state_code"].endswith(p.upper())]
+
+            if remaining:
+                # Si hay más de uno, solemos preferir el que parece nombre de ciudad
+                # Por ahora, tomar el primero de los restantes (que no sea el país/estado)
+                city_name = remaining[0]
+                # Si el primero parece una calle o número, intentar el siguiente
+                if len(remaining) > 1 and (re.search(r'\d', remaining[0]) or len(remaining[0]) < 3):
+                    city_name = remaining[1]
+
+        if city_name:
+            # Si el componente de ciudad parece una calle o número, ignorarlo (ser conservador)
+            if any(k in city_name.lower() for k in ["calle", "clle", "avenida", "av.", "piso", "nivel", "número", "no.", "n°", "residencial", "colonia", "col.", "headquarters", "hq"]):
+                city_name = ""
+
+            # Si el nombre de la ciudad es muy largo, probablemente sea el nombre del lugar
+            elif len(city_name) > 30:
+                city_name = ""
+
+        if city_name:
+            details["city"] = city_name
+            details["city_code"] = slugify(city_name)
+        return details
+
+    def _standardize_location(self):
+        """Homologiza nombres y códigos, especialmente para CDMX."""
+        # 1. Corregir país
+        if self.country == "Mexico":
+            self.country = "México"
+
+        # 2. Corregir state_code para CDMX (homologar MX-CMX)
+        if self.state_code in ["MX-CDMX", "MX-DF", "MX-DIF", "CDMX", "DF"]:
+            self.state_code = "MX-CMX"
+            self.state = "Ciudad de México"
+
+        # 3. Homologar CDMX
+        if self.state_code == "MX-CMX":
+            # city_code standar para CDMX
+            if not self.city_code or self.city_code == "ciudaddemexico":
+                self.city_code = "cdmx"
+
+            # Si la ciudad contiene palabras sospechosas de ser un local/venue, resetear a Ciudad de México
+            local_keywords = [
+                "casa",
+                "museo",
+                "galería",
+                "galeria",
+                "teatro",
+                "centro",
+                "corporativo",
+                "headquarters",
+                "hq",
+                "piso",
+                "nivel",
+                "colonia",
+                "roma",
+                "norte",
+                "sur",
+            ]
+
+            if not self.city or any(k in self.city.lower() for k in local_keywords):
+                self.city = "Ciudad de México"
+                self.city_code = "cdmx"
+        else:
+            pass
+
+    def _parse_google_address(self, raw_data: Dict) -> Dict:
+        """
+        Extrae detalles de ubicación de la respuesta raw de Google Maps (address_components).
+
+        Returns:
+            Dict con keys: country, country_code, state, state_code, city, city_code
+        """
+        components = raw_data.get("address_components", [])
+        details = {
+            "country": "",
+            "country_code": "",
+            "state": "",
+            "state_code": "",
+            "city": "",
+            "city_code": "",
+        }
+
+        for comp in components:
+            types = comp.get("types", [])
+            if "country" in types:
+                details["country"] = comp.get("long_name", "")
+                details["country_code"] = comp.get("short_name", "").upper()
+            elif "administrative_area_level_1" in types:
+                details["state"] = comp.get("long_name", "")
+                details["state_code"] = comp.get("short_name", "")
+            elif "locality" in types:
+                details["city"] = comp.get("long_name", "")
+            elif "sublocality" in types and not details["city"]:
+                details["city"] = comp.get("long_name", "")
+            elif "neighborhood" in types and not details["city"]:
+                details["city"] = comp.get("long_name", "")
+
+        # Normalizar state_code para México (MX-XXX) si Google devuelve el nombre corto sin prefijo
+        if (
+            details["country_code"] == "MX"
+            and details["state_code"]
+            and "-" not in details["state_code"]
+        ):
+            details["state_code"] = f"MX-{details['state_code']}"
+
+        if details["city"]:
+            details["city_code"] = slugify(details["city"])
+
+        return details
+
+    def geocode_location(self, cache: Optional[Dict] = None) -> bool:
+        """
+        Usa geopy (GoogleV3 o Nominatim) para obtener detalles precisos de la ubicación.
+        Actualiza los campos country, state, city y sus respectivos códigos.
+
+        Args:
+            cache: Diccionario opcional para cachear resultados {query: result_dict}
+        """
+        if not self.location or len(self.location.strip()) < 5:
+            return False
+
+        # Si ya es Online, no geocodear
+        if self._is_online():
+            return False
+
+        try:
+            # Elegir geocodificador
+            api_key = os.getenv("GOOGLE_MAPS_API_KEY")
+            if api_key:
+                geolocator = GoogleV3(api_key=api_key)
+                service_name = "google"
+            else:
+                geolocator = Nominatim(user_agent="cron-quiles-aggregator")
+                service_name = "nominatim"
+
+            # Limpiar la query: quitar comas redundantes y partes vacías
+            location_cleaned = re.sub(r",\s*,", ",", self.location)
+            query_parts = [p.strip() for p in location_cleaned.split(",") if p.strip()]
+
+            # Quitar URLs si hay comas (suelen ser las últimas partes)
+            query_parts = [p for p in query_parts if not p.startswith("http")]
+
+            # Quitar ruidos comunes de Meetup
+            query_parts = [
+                re.sub(r"^hosted by\s+", "", p, flags=re.IGNORECASE) for p in query_parts
+            ]
+
+            current_query = ", ".join(query_parts).strip()
+            if not current_query or len(current_query) < 4:
+                return False
+
+            # Verificar cache
+            location_data = None
+            if cache and current_query in cache:
+                logger.debug(f"Geocoding cache hit for: {current_query}")
+                raw_data = cache[current_query]
+                if raw_data:
+
+                    class MockLocation:
+                        def __init__(self, raw):
+                            self.raw = raw
+
+                    location_data = MockLocation(raw_data)
+            else:
+                logger.debug(f"Geocoding query ({geolocator.__class__.__name__}): {current_query}")
+                # GoogleV3 no usa 'addressdetails'
+                if isinstance(geolocator, GoogleV3):
+                    location_data = geolocator.geocode(current_query, language="es", timeout=10)
+                else:
+                    location_data = geolocator.geocode(current_query, addressdetails=True, language="es", timeout=10)
+
+                # Guardar en cache
+                if cache is not None:
+                    cache[current_query] = location_data.raw if location_data else {}
+
+            if not location_data and len(query_parts) > 2:
+                # Intentar quitando la primera parte
+                fallback_query_1 = ", ".join(query_parts[1:])
+
+                if cache and fallback_query_1 in cache:
+                    logger.debug(f"Geocoding cache hit (fallback 1): {fallback_query_1}")
+                    raw_data = cache[fallback_query_1]
+                    if raw_data:
+
+                        class MockLocation:
+                            def __init__(self, raw):
+                                self.raw = raw
+
+                        location_data = MockLocation(raw_data)
+                else:
+                    if isinstance(geolocator, GoogleV3):
+                        location_data = geolocator.geocode(fallback_query_1, language="es", timeout=10)
+                    else:
+                        location_data = geolocator.geocode(fallback_query_1, addressdetails=True, language="es", timeout=10)
+
+                    if cache is not None:
+                        cache[fallback_query_1] = location_data.raw if location_data else {}
+
+                if not location_data:
+                    # Intentar con la parte final
+                    fallback_query_2 = ", ".join(query_parts[-2:])
+
+                    if cache and fallback_query_2 in cache:
+                        logger.debug(
+                            f"Geocoding cache hit (fallback 2): {fallback_query_2}"
+                        )
+                        raw_data = cache[fallback_query_2]
+                        if raw_data:
+
+                            class MockLocation:
+                                def __init__(self, raw):
+                                    self.raw = raw
+
+                            location_data = MockLocation(raw_data)
+                    else:
+                        if isinstance(geolocator, GoogleV3):
+                            location_data = geolocator.geocode(fallback_query_2, language="es", timeout=10)
+                        else:
+                            location_data = geolocator.geocode(fallback_query_2, addressdetails=True, language="es", timeout=10)
+
+                        if cache is not None:
+                            cache[fallback_query_2] = location_data.raw if location_data else {}
+
+            if location_data:
+                # 1. Caso Google Maps
+                if "address_components" in location_data.raw:
+                    res = self._parse_google_address(location_data.raw)
+                    self.country = res["country"]
+                    self.country_code = res["country_code"]
+                    self.state = res["state"]
+                    self.state_code = res["state_code"]
+                    self.city = res["city"]
+                    self.city_code = res["city_code"]
+                    self.address = location_data.raw.get("formatted_address", self.location)
+
+                # 2. Caso Nominatim
+                elif "address" in location_data.raw:
+                    address = location_data.raw.get("address", {})
+
+                    # Extraer País
+                    country_name = address.get("country", "")
+                    country_code = address.get("country_code", "").upper()
+                    if country_code:
+                        self.country_code = country_code
+                        # Normalizar nombre de país con pycountry si es posible
+                        try:
+                            c = pycountry.countries.get(alpha_2=country_code)
+                            self.country = c.name if c else country_name
+                        except:
+                            self.country = country_name
+
+                    # Extraer Estado / Provincia
+                    state_name = address.get(
+                        "state", address.get("province", address.get("region", ""))
+                    )
+                    if state_name and self.country_code:
+                        self.state = state_name
+                        # Intentar obtener state_code via pycountry
+                        try:
+                            subs = pycountry.subdivisions.get(
+                                country_code=self.country_code
+                            )
+                            for sub in subs:
+                                if sub.name.lower() == state_name.lower():
+                                    self.state_code = sub.code
+                                    break
+                        except:
+                            pass
+
+                    # Extraer Ciudad
+                    city_name = address.get(
+                        "city",
+                        address.get(
+                            "town",
+                            address.get("village", address.get("suburb", "")),
+                        ),
+                    )
+                    if city_name:
+                        self.city = city_name
+                        self.city_code = slugify(city_name)
+
+                    self.address = location_data.raw.get("display_name", self.location)
+
+                # Homologar resultados después de geocodificar
+                self._standardize_location()
+
+                logger.info(
+                    f"Geocoded successfully ({service_name if 'service_name' in locals() else 'unknown'}): {self.location} -> {self.country}, {self.state}, {self.city}"
+                )
+                return True
+
+        except (GeopyError, Exception) as e:
+            logger.debug(f"Geocoding error for '{self.location}': {e}")
+
+        return False
 
     def _format_title(self) -> str:
         """
@@ -628,7 +1137,8 @@ class EventNormalized:
         if self._is_online():
             return f"{grupo}|{nombre_evento}|Online"
         else:
-            pais, estado = self._extract_country_state()
+            pais = self.country
+            estado = self.state
             if pais and estado:
                 return f"{grupo}|{nombre_evento}|{pais}|{estado}"
             elif pais:
@@ -662,6 +1172,14 @@ class EventNormalized:
             "dtend": self.dtend.isoformat() if self.dtend else None,
             "tags": list(self.tags),
             "source": self.source_url,
+            "country": self.country,
+            "country_code": self.country_code,
+            "state": self.state,
+            "state_code": self.state_code,
+            "city": self.city,
+            "city_code": self.city_code,
+            "address": self.address,
+            "hash_key": self.hash_key,
         }
 
     def to_ical_event(self) -> Event:
@@ -699,6 +1217,22 @@ class EventNormalized:
         # Agregar tags como categorías si existen
         if self.tags:
             event.add("categories", list(self.tags))
+
+        # Add custom properties for location metadata
+        if self.country:
+            event.add("X-CRONQUILES-COUNTRY", fix_encoding(self.country))
+        if self.country_code:
+            event.add("X-CRONQUILES-COUNTRY-CODE", fix_encoding(self.country_code))
+        if self.state:
+            event.add("X-CRONQUILES-STATE", fix_encoding(self.state))
+        if self.state_code:
+            event.add("X-CRONQUILES-STATE-CODE", fix_encoding(self.state_code))
+        if self.city:
+            event.add("X-CRONQUILES-CITY", fix_encoding(self.city))
+        if self.city_code:
+            event.add("X-CRONQUILES-CITY-CODE", fix_encoding(self.city_code))
+        if self.address:
+            event.add("X-CRONQUILES-ADDRESS", fix_encoding(self.address))
 
         return event
 
@@ -738,6 +1272,16 @@ class EventNormalized:
                     for item in items:
                         if item.get("@type") == "Event" and "location" in item:
                             loc = item["location"]
+
+                            # Si el tipo de locación es VirtualLocation, forzar online
+                            if loc.get("@type") == "VirtualLocation":
+                                logger.info(f"Detected VirtualLocation for {self.url}")
+                                self.forced_online = True
+                                self.location = "Online"
+                                self.city = "Online"
+                                self.city_code = "online"
+                                return True
+
                             name = loc.get("name", "")
                             address = loc.get("address", {})
 
@@ -758,6 +1302,18 @@ class EventNormalized:
                             new_location = ", ".join(parts).strip()
                             if new_location and len(new_location) > len(self.location):
                                 self.location = new_location
+
+                                # Re-extraer detalles geográficos inmediatamente
+                                loc_details = self._extract_location_details()
+                                self.country = loc_details["country"]
+                                self.country_code = loc_details["country_code"]
+                                self.state = loc_details["state"]
+                                self.state_code = loc_details["state_code"]
+                                self.city = loc_details["city"]
+                                self.city_code = loc_details["city_code"]
+
+                                # Homologar de nuevo con la nueva información
+                                self._standardize_location()
                                 return True
                 except:
                     continue
@@ -794,6 +1350,18 @@ class EventNormalized:
                         new_location = ", ".join(parts).strip()
                         if new_location and len(new_location) > len(self.location):
                             self.location = new_location
+
+                            # Re-extraer detalles geográficos inmediatamente
+                            loc_details = self._extract_location_details()
+                            self.country = loc_details["country"]
+                            self.country_code = loc_details["country_code"]
+                            self.state = loc_details["state"]
+                            self.state_code = loc_details["state_code"]
+                            self.city = loc_details["city"]
+                            self.city_code = loc_details["city_code"]
+
+                            # Homologar de nuevo con la nueva información
+                            self._standardize_location()
                             return True
                 except:
                     pass

@@ -10,6 +10,7 @@ import re
 import json
 import time
 from datetime import datetime
+from pathlib import Path
 from typing import Dict, List, Optional
 
 import requests
@@ -41,9 +42,34 @@ class ICSAggregator:
         self.max_retries = max_retries
         self.session = requests.Session()
         self.session.headers.update({"User-Agent": "Cron-Quiles-ICS-Aggregator/1.0"})
+        self.geocoding_cache = {}
+        self.cache_file = Path("data/geocoding_cache.json")
+        self.load_geocoding_cache()
+
         # Initialize HistoryManager
         from .history_manager import HistoryManager
         self.history_manager = HistoryManager()
+
+    def load_geocoding_cache(self):
+        """Carga el cache de geocodificación desde un archivo JSON."""
+        if self.cache_file.exists():
+            try:
+                with open(self.cache_file, "r", encoding="utf-8") as f:
+                    self.geocoding_cache = json.load(f)
+                logger.info(f"Loaded {len(self.geocoding_cache)} entries from geocoding cache.")
+            except Exception as e:
+                logger.warning(f"Could not load geocoding cache: {e}")
+                self.geocoding_cache = {}
+
+    def save_geocoding_cache(self):
+        """Guarda el cache de geocodificación en un archivo JSON."""
+        try:
+            self.cache_file.parent.mkdir(parents=True, exist_ok=True)
+            with open(self.cache_file, "w", encoding="utf-8") as f:
+                json.dump(self.geocoding_cache, f, ensure_ascii=False, indent=2)
+            logger.info(f"Saved {len(self.geocoding_cache)} entries to geocoding cache.")
+        except Exception as e:
+            logger.warning(f"Could not save geocoding cache: {e}")
 
     def fetch_feed(self, url: str) -> Optional[Calendar]:
         """
@@ -261,6 +287,24 @@ class ICSAggregator:
                     time.sleep(1)
                 event.enrich_location_from_meetup(self.session)
 
+        # Geocodear eventos que no tienen estado o ciudad clara
+        # Solo eventos nuevos (all_events aún no contiene la historia)
+        to_geocode = [
+            e for e in all_events
+            if not e._is_online() and (not e.state_code or not e.city)
+        ]
+        if to_geocode:
+            logger.info(f"Geocoding {len(to_geocode)} events to improve location data...")
+            for i, event in enumerate(to_geocode):
+                # Nominatim requiere máximo 1 petición por segundo
+                # Solo dormimos si no está en cache para ir rápido
+                if i > 0 and (not self.geocoding_cache or event.location not in self.geocoding_cache):
+                    time.sleep(1.1)
+                event.geocode_location(self.geocoding_cache)
+
+            # Guardar cache después de esta fase
+            self.save_geocoding_cache()
+
         # Deduplicar nuevos eventos primero
         deduplicated_new = self.deduplicate_events(all_events)
 
@@ -285,21 +329,54 @@ class ICSAggregator:
             except Exception as e:
                 logger.error(f"Error reconstructing event from history: {e}")
 
+        # Geocodear eventos que faltan (incluyendo los de historia si no fueron geocodeados antes)
+        # Solo si no son Online
+        to_geocode_final = [
+            e for e in final_events
+            if not e._is_online() and (not e.state_code or not e.city)
+        ]
+
+        if to_geocode_final:
+            # Limitar a un número razonable para no bloquear demasiado tiempo (ej: 100 por ejecución)
+            # Esto permitirá "sanar" la base de datos poco a poco en cada ejecución
+            max_to_geocode = 100
+            to_process = to_geocode_final[:max_to_geocode]
+            logger.info(f"Healing location data: Geocoding {len(to_process)} events (from total {len(to_geocode_final)} incomplete)...")
+
+            for i, event in enumerate(to_process):
+                # Solo dormimos si no está en cache
+                if i > 0 and (not self.geocoding_cache or event.location not in self.geocoding_cache):
+                    time.sleep(1.1)
+                if event.geocode_location(self.geocoding_cache):
+                    # Si hubo cambio, actualizar en el manager para persistir en la próxima corrida
+                    # o simplemente esperar a que se guarde el calendario.
+                    # Para persistir hoy mismo, guardamos de nuevo
+                    key = event.hash_key
+                    self.history_manager.events[key] = event.to_dict()
+
+            self.history_manager.save_history()
+            # Guardar cache después de sanación
+            self.save_geocoding_cache()
+
         # Ordenar por fecha
         final_events.sort(
             key=lambda e: e.dtstart or datetime.max.replace(tzinfo=tz.UTC)
         )
 
-        # Filtrar duplicados nuevamente por si la reconstrucción genero traslapes con lógica distinta
-        # (Aunque el hash debería encargarse de eso en el manager)
-        # IMPORTANTE: HistoryManager usa keys distintas para eventos con título distinto
-        # pero EventNormalized puede detectar que son duplicados.
-        # Ejecutamos deduplicate_events una vez más sobre la lista final.
+        # Filtrar duplicados nuevamente (especialmente útil ahora que cambiamos keys de historia)
         if final_events:
              final_events = self.deduplicate_events(final_events)
 
-        logger.info(f"Final aggregated count (History + Live): {len(final_events)}")
+             # Limpiar HistoryManager y volver a llenar con la lista deduplicada y final
+             # Esto cura la base de datos de duplicados históricos y aplica las nuevas keys
+             self.history_manager.events = {}
+             for event in final_events:
+                 dict_val = event.to_dict()
+                 key = dict_val.get('hash_key') or f"{dict_val['title']}_{dict_val['dtstart']}"
+                 self.history_manager.events[key] = dict_val
+             self.history_manager.save_history()
 
+        logger.info(f"Final aggregated count (History + Live): {len(final_events)}")
         return final_events
 
     def generate_ics(
