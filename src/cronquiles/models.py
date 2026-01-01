@@ -112,26 +112,7 @@ class EventNormalized:
     # Cache para subdivisiones (estados) de México
     _mx_subdivisions_cache: Optional[Dict[str, pycountry.db.Subdivision]] = None
 
-    # Alias manuales mínimos (nicknames no ISO)
-    _STATE_ALIASES = {
-        "cdmx": "Ciudad de México",
-        "df": "Ciudad de México",
-        "distrito federal": "Ciudad de México",
-        "mexico city": "Ciudad de México",
-        "méxico city": "Ciudad de México",
-        "amazon headquarters": "Ciudad de México",
-        "amazon hq": "Ciudad de México",
-        "gdl": "Jalisco",
-        "mty": "Nuevo León",
-        "pue": "Puebla",
-        "qro": "Querétaro",
-        "sin": "Sinaloa",
-        "ver": "Veracruz",
-        "yuc": "Yucatán",
-        "edo mex": "México",
-        "estado de méxico": "México",
-        "estado de mexico": "México",
-    }
+
 
     @classmethod
     def _get_mx_subdivisions_lookup(cls) -> Dict[str, pycountry.db.Subdivision]:
@@ -374,7 +355,7 @@ class EventNormalized:
             # --- Healing / Migration ---
             # Si el país es "Mexico" (sin acento) o la ciudad parece un lugar (headquarters, etc)
             # re-extraer para usar la nueva lógica mejorada
-            if instance.country == "Mexico" or "headquarters" in instance.city.lower() or "hq" in instance.city.lower():
+            if instance.country == "Mexico":
                 loc_details = instance._extract_location_details()
                 instance.country = loc_details["country"]
                 instance.country_code = loc_details["country_code"]
@@ -766,9 +747,7 @@ class EventNormalized:
                 pass
 
         # Fallback a México si contiene keywords comunes
-        if not country_obj:
-            if any(k in location_lower for k in ["méxico", "mexico", "cdmx", "jalisco", "puebla", "monterrey", "amazon headquarters"]):
-                country_obj = pycountry.countries.get(alpha_2="MX")
+
 
         if country_obj:
             details["country"] = "México" if country_obj.alpha_2 == "MX" else country_obj.name
@@ -783,11 +762,8 @@ class EventNormalized:
             for part in parts:
                 p_low = part.lower().strip()
 
-                # 1. Probar con alias manuales
-                search_name = self._STATE_ALIASES.get(p_low, p_low)
-
                 # 2. Normalizar y buscar en el lookup dinámico
-                norm_name = self._normalize_subdivision_name(search_name)
+                norm_name = self._normalize_subdivision_name(p_low)
 
                 if norm_name in lookup:
                     state_obj = lookup[norm_name]
@@ -811,10 +787,7 @@ class EventNormalized:
             details["state_code"] = state_obj.code
 
             # Especial: Amazon HQ en CDMX
-            if "amazon headquarters" in location_lower or "amazon hq" in location_lower:
-                details["city"] = "Ciudad de México"
-                details["city_code"] = "cdmx"
-                details.setdefault("address_alias", "Paseo de la Reforma 250, Cuauhtémoc, CDMX")
+
 
         # --- 3. Detectar Ciudad ---
         city_name = ""
@@ -826,14 +799,22 @@ class EventNormalized:
             if remaining:
                 # Si hay más de uno, solemos preferir el que parece nombre de ciudad
                 # Por ahora, tomar el primero de los restantes (que no sea el país/estado)
-                city_name = remaining[0]
+
+                # FIX: No asumir que el primer componente es la ciudad. Esto causa problemas
+                # cuando el primer componente es el nombre del Venue (ej: Velodrome, Telmex Hub).
+                # Es mejor dejar city vacío y dejar que el geocodificador (Google/Nominatim)
+                # resuelva la ciudad correcta.
+
+                # city_name = remaining[0]
+                pass
+
                 # Si el primero parece una calle o número, intentar el siguiente
-                if len(remaining) > 1 and (re.search(r'\d', remaining[0]) or len(remaining[0]) < 3):
-                    city_name = remaining[1]
+                # if len(remaining) > 1 and (re.search(r'\d', remaining[0]) or len(remaining[0]) < 3):
+                #     city_name = remaining[1]
 
         if city_name:
             # Si el componente de ciudad parece una calle o número, ignorarlo (ser conservador)
-            if any(k in city_name.lower() for k in ["calle", "clle", "avenida", "av.", "piso", "nivel", "número", "no.", "n°", "residencial", "colonia", "col.", "headquarters", "hq"]):
+            if any(k in city_name.lower() for k in ["calle", "clle", "avenida", "av.", "piso", "nivel", "número", "no.", "n°", "residencial", "colonia", "col."]):
                 city_name = ""
 
             # Si el nombre de la ciudad es muy largo, probablemente sea el nombre del lugar
@@ -862,28 +843,7 @@ class EventNormalized:
             if not self.city_code or self.city_code == "ciudaddemexico":
                 self.city_code = "cdmx"
 
-            # Si la ciudad contiene palabras sospechosas de ser un local/venue, resetear a Ciudad de México
-            local_keywords = [
-                "casa",
-                "museo",
-                "galería",
-                "galeria",
-                "teatro",
-                "centro",
-                "corporativo",
-                "headquarters",
-                "hq",
-                "piso",
-                "nivel",
-                "colonia",
-                "roma",
-                "norte",
-                "sur",
-            ]
 
-            if not self.city or any(k in self.city.lower() for k in local_keywords):
-                self.city = "Ciudad de México"
-                self.city_code = "cdmx"
         else:
             pass
 

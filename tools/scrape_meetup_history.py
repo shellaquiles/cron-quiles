@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Herramienta para scrapear eventos pasados de Meetup usando una cookie de sesión.
 Uso: python scrape_meetup_history.py
