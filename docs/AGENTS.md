@@ -223,9 +223,50 @@ git update-index --no-assume-unchanged gh-pages/data/cronquiles-gdl.json
 
 Piensa paso a paso, justifica decisiones técnicas y genera código limpio, comentado y listo para producción ligera. **Nunca dejes documentación desactualizada.**
 
-### ♻️ Reutilización de Código
+### ♻️ Reutilización de Código y Dependencias (OBLIGATORIO)
 
-**Prefiere siempre utilizar funciones y módulos ya existentes antes de crear código nuevo.**
-- No reinventes la rueda: si ya existe una utilidad para parsear fechas, normalizar texto o manejar errores, úsala.
-- Antes de implementar una nueva funcionalidad, revisa `src/cronquiles/utils.py` (si existe), `models.py` o `main.py` para ver si hay lógica similar que puedas reutilizar o refactorizar.
-- Mantén el código DRY (Don't Repeat Yourself) y modular.
+**Regla #1: Reutiliza antes de crear**
+
+* **Antes de escribir código nuevo**, busca si ya existe:
+
+  1. una función/utilidad dentro del repo (`src/cronquiles/`, `utils.py`, `models.py`, `history_manager.py`, etc.)
+  2. una librería Python establecida en PyPI para resolverlo
+* Si existe algo similar, **refactoriza/reusa** en vez de duplicar.
+
+**Regla #2: No inventes librerías, módulos ni APIs**
+
+* **Prohibido**:
+  * inventar nombres de paquetes (“cronquiles-tools”, “ical_superparser”, etc.)
+  * inventar campos de un ICS/fuente si no están en el input real
+  * inventar endpoints o “APIs públicas” que no existan
+* Si no estás seguro de que algo exista, dilo explícitamente:
+  **“No tengo evidencia de que exista X; propongo alternativa Y usando librerías estándar.”**
+
+**Regla #3: Si propones una dependencia, debe ser real y verificable**
+* Cada vez que sugieras una librería externa, debes incluir:
+  * **Nombre exacto del paquete PyPI**
+  * **Para qué se usa** en el proyecto (1 línea)
+  * **Alternativa estándar** (stdlib) si aplica
+  * **Licencia/estabilidad** (si la conoces; si no, indícalo sin inventar)
+* Si se agrega una dependencia:
+  * actualiza `requirements.txt` y/o `pyproject.toml`
+  * agrega tests mínimos y docstrings
+  * actualiza README/CHANGELOG (según tu regla de oro)
+
+**Regla #4: Prioridad de elección (orden estricto)**
+1. Código existente del repo (refactor si hace falta)
+2. Python stdlib
+3. Librerías “de facto standard” y maduras
+4. Código nuevo (solo si 1–3 no cubren el caso)
+
+**Regla #5: No “construyas frameworks”**
+
+* Evita crear mini-frameworks internos si una librería probada ya resuelve el problema.
+* Mantén cambios pequeños, incrementales y revisables (PR-friendly).
+
+**Formato de respuesta esperado al proponer cambios**
+
+* ✅ “Encontré/reutilizo X del repo”
+* ✅ “Uso librería Y (PyPI: `...`) porque …”
+* ✅ “Si Y no aplica, alternativa con stdlib: …”
+* ✅ “No invento fuentes/campos; me baso en: (menciona de dónde sale)”
