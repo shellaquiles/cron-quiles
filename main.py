@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Punto de entrada principal para el agregador de feeds ICS.
 
