@@ -49,7 +49,7 @@ jobs:
 
       - name: Generate calendars for all cities
         run: |
-          python main.py --all-cities --json --output-dir gh-pages/
+          python main.py --all-cities --json --output-dir gh-pages/data/
         working-directory: ${{ github.workspace }}
 
       - name: Check if deployment needed
