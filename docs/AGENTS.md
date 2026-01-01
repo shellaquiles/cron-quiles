@@ -25,10 +25,11 @@ El proyecto es completamente funcional y opera bajo Github Actions.
 
 **Funcionalidades Implementadas:**
 1.  **Soporte Multifuente**: Consume feeds ICS de Meetup, Luma y Google Calendar.
-2.  **Soporte Multi-Ciudad**: Genera calendarios separados por ciudad (CDMX, GDL, etc.).
+2.  **Soporte Multi-Ciudad**: Genera calendarios separados por ciudad (CDMX, GDL, Puebla, Monterrey).
     *   Configuración por ciudad con `name`, `slug` y `timezone`.
     *   CLI con argumentos `--city`, `--all-cities` y `--output-dir`.
-    *   Frontend con tabs para cambiar entre ciudades.
+    *   **Calendario Unificado México**: Al usar `--all-cities`, genera automáticamente un calendario agregado con todos los eventos de todas las ciudades (`cronquiles-mexico.ics/json`).
+    *   Frontend con tabs para cambiar entre ciudades, incluyendo vista "México" por defecto.
 3.  **Deduplicación Robusta**:
     *   Identifica eventos duplicados por título y hora (tolerancia ±2 horas).
     *   Normaliza zonas horarias a UTC para evitar falsos positivos.
@@ -71,6 +72,12 @@ Estrategia implementada:
 * `gh-pages/cronquiles-cdmx.json` - JSON con eventos y comunidades de CDMX
 * `gh-pages/cronquiles-gdl.ics` - Calendario ICS de Guadalajara
 * `gh-pages/cronquiles-gdl.json` - JSON con eventos y comunidades de GDL
+* `gh-pages/cronquiles-puebla.ics` - Calendario ICS de Puebla
+* `gh-pages/cronquiles-puebla.json` - JSON con eventos y comunidades de Puebla
+* `gh-pages/cronquiles-monterrey.ics` - Calendario ICS de Monterrey
+* `gh-pages/cronquiles-monterrey.json` - JSON con eventos y comunidades de Monterrey
+* `gh-pages/cronquiles-mexico.ics` - Calendario ICS unificado (todas las ciudades)
+* `gh-pages/cronquiles-mexico.json` - JSON unificado (todas las ciudades)
 
 **Interfaz web**:
 * `gh-pages/index.html` - Página con calendario embebido y tabs por ciudad
@@ -133,8 +140,6 @@ cron-quiles/
 * API REST para consultar eventos
 * Notificaciones de nuevos eventos
 * Exportación a otros formatos (CSV, etc.)
-* Soporte para más ciudades (Monterrey, Puebla, etc.) - estructura preparada en `otras_ciudades`
-* Calendario combinado "Todos los eventos" que agregue todas las ciudades
 
 ### ⚠️ IMPORTANTE: Documentación y Actualización
 

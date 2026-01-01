@@ -12,6 +12,7 @@ cities:
       # ==========================================
       # ------------------------------------------
       - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu
+        name: "Mexico Tech Week"
         description: "Calendario oficial de Mexico Tech Week 2025."
       # ------------------------------------------
       - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-okVQAVdbyFhL8Zo
@@ -25,10 +26,6 @@ cities:
       - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-gKhhS6fDDrX3mqz
         name: "Claude Users Group"
         description: ""
-      # ------------------------------------------
-      - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl
-        name: "PyTalavera"
-        description: "Comunidad Pythonista en Puebla. Eventos, charlas y networking para entusiastas de Python en la región."
 
       # ==========================================
       # MEETUP GROUPS
@@ -234,6 +231,36 @@ cities:
         name: "MexAI - Comunidad de IA"
         description: "Comunidad de IA en Guadalajara. Eventos sobre Inteligencia Artificial."
 
+  puebla:
+    name: "Puebla"
+    slug: "puebla"
+    timezone: "America/Mexico_City"
+    feeds:
+      # ==========================================
+      # PUEBLA TECH COMMUNITIES
+      # ==========================================
+      # ------------------------------------------
+      - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl
+        name: "PyTalavera"
+        description: "Comunidad Pythonista en Puebla. Eventos, charlas y networking para entusiastas de Python en la región."
+      # ------------------------------------------
+      - url: https://www.meetup.com/grupo-de-python-en-puebla/events/ical
+        name: "Python Puebla"
+        description: "Comunidad de Python en el estado de Puebla. Charlas y talleres."
+
+  monterrey:
+    name: "Monterrey"
+    slug: "monterrey"
+    timezone: "America/Monterrey"
+    feeds:
+      # ==========================================
+      # MONTERREY TECH COMMUNITIES
+      # ==========================================
+      # ------------------------------------------
+      - url: https://www.meetup.com/pythonmty/events/ical
+        name: "Python Monterrey"
+        description: "Comunidad de Python en la ciudad de Monterrey."
+
   otras_ciudades:
     name: "Otras Ciudades"
     slug: "otras"
@@ -242,25 +269,12 @@ cities:
       # ==========================================
       # COMUNIDADES DE OTRAS CIUDADES
       # ==========================================
-      # Comunidades de ciudades específicas fuera de CDMX y GDL
-      # Por el momento, estas comunidades no generan calendarios separados
-      # pero están organizadas aquí para futura expansión
-      # ------------------------------------------
-      - url: https://www.meetup.com/grupo-de-python-en-puebla/events/ical
-        name: "Python Puebla"
-        description: "Comunidad de Python en el estado de Puebla. Charlas y talleres."
-      # ------------------------------------------
-      - url: https://www.meetup.com/pythonmty/events/ical
-        name: "Python Monterrey"
-        description: "Comunidad de Python en la ciudad de Monterrey."
-      # ------------------------------------------
-      - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl
-        name: "PyTalavera"
-        description: "Comunidad Pythonista en Puebla. Eventos, charlas y networking para entusiastas de Python en la región."
+      # Comunidades de ciudades específicas fuera de CDMX, GDL, Puebla y Monterrey
+      # Por el momento están organizadas aquí para futura expansión
 
 # Notas:
 # - Los feeds están organizados por ciudad
-# - CDMX y GDL generan calendarios separados (cronquiles-cdmx.ics, cronquiles-gdl.ics)
+# - CDMX, GDL, Puebla y Monterrey generan calendarios separados
 # - La categoría "otras_ciudades" agrupa comunidades de otras ciudades específicas
 #   Por el momento, estas comunidades no generan calendarios separados, pero están
 #   organizadas para futura expansión cuando se agregue soporte para más ciudades

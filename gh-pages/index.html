@@ -1006,8 +1006,11 @@
 
         <!-- City Tabs -->
         <div class="city-tabs">
-            <button class="city-tab active" data-city="cdmx" aria-label="Ciudad de México">CDMX</button>
-            <button class="city-tab" data-city="gdl" aria-label="Guadalajara">Guadalajara</button>
+            <button class="city-tab active" data-city="mexico" aria-label="México">🇲🇽 México</button>
+            <button class="city-tab" data-city="cdmx" aria-label="Ciudad de México">🌮 CDMX</button>
+            <button class="city-tab" data-city="gdl" aria-label="Guadalajara">💻 Guadalajara</button>
+            <button class="city-tab" data-city="monterrey" aria-label="Monterrey">🏔️ Monterrey</button>
+            <button class="city-tab" data-city="puebla" aria-label="Puebla">🌋 Puebla</button>
         </div>
 
         <!-- Comando 1: Descripción -->
@@ -1361,11 +1364,14 @@
         // ============================================
         const CityManager = {
             KEY: 'cron-quiles-city',
-            SUPPORTED: ['cdmx', 'gdl'],
-            DEFAULT: 'cdmx',
+            SUPPORTED: ['mexico', 'cdmx', 'gdl', 'puebla', 'monterrey'],
+            DEFAULT: 'mexico',
             NAMES: {
+                'mexico': 'México',
                 'cdmx': 'Ciudad de México',
-                'gdl': 'Guadalajara'
+                'gdl': 'Guadalajara',
+                'puebla': 'Puebla',
+                'monterrey': 'Monterrey'
             },
             detect() {
                 const saved = localStorage.getItem(this.KEY);
@@ -1392,14 +1398,14 @@
         function renderCommunities(city) {
             const container = document.getElementById('communities-grid');
             if (!container) return;
-            
+
             const communities = communitiesData[city] || [];
-            
+
             if (communities.length === 0) {
                 container.innerHTML = '<div class="events-loading">Cargando comunidades...</div>';
                 return;
             }
-            
+
             container.innerHTML = communities.map(c => `
                 <div class="community-card">
                     <div class="community-name">${c.name}</div>
@@ -1414,7 +1420,7 @@
             const icsBtn = document.getElementById('download-ics-btn');
             const jsonBtn = document.getElementById('download-json-btn');
             const webcalBtn = document.getElementById('webcal-btn');
-            
+
             if (icsBtn) {
                 icsBtn.href = `cronquiles-${city}.ics`;
             }
@@ -1429,21 +1435,21 @@
         function switchCity(city) {
             if (city === currentCity) return;
             if (!CityManager.SUPPORTED.includes(city)) return;
-            
+
             currentCity = city;
             CityManager.save(city);
-            
+
             // Actualizar tabs
             document.querySelectorAll('.city-tab').forEach(tab => {
                 tab.classList.toggle('active', tab.dataset.city === city);
             });
-            
+
             // Actualizar enlaces de descarga
             updateCityLinks(city);
-            
+
             // Actualizar comunidades mostradas
             renderCommunities(city);
-            
+
             // Recargar calendario y actualizar fecha
             loadCalendar();
             updateLastModified();
@@ -1456,13 +1462,13 @@
                 tab.classList.toggle('active', tab.dataset.city === currentCity);
                 tab.addEventListener('click', () => switchCity(tab.dataset.city));
             });
-            
+
             // Actualizar enlaces iniciales
             updateCityLinks(currentCity);
-            
+
             // Renderizar comunidades de la ciudad actual
             renderCommunities(currentCity);
-            
+
             // Mostrar última fecha de modificación
             updateLastModified();
         });
@@ -1688,10 +1694,10 @@
         function loadCalendar() {
             const jsonFile = `cronquiles-${currentCity}.json`;
             const container = document.getElementById('calendar-container');
-            
+
             // Mostrar estado de carga
             container.innerHTML = `<div class="events-loading">${t('calendar.loading')}</div>`;
-            
+
             fetch(jsonFile)
                 .then(response => {
                     if (!response.ok) {
@@ -1705,7 +1711,7 @@
                 .then(data => {
                     const events = Array.isArray(data) ? data : (data.events || []);
                     renderCalendar(events);
-                    
+
                     // Almacenar y renderizar comunidades del JSON
                     if (data.communities) {
                         communitiesData[currentCity] = data.communities;

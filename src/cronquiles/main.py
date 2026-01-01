@@ -208,7 +208,7 @@ def process_city(
 
     if not events:
         logger.warning(f"No se encontraron eventos en los feeds de {city_name}")
-        return True  # No es un error, simplemente no hay eventos
+        # Continuaremos para generar archivos vacíos y evitar 404 en el frontend
 
     logger.info(f"Total de eventos procesados: {len(events)}")
 
@@ -403,17 +403,44 @@ Ejemplos:
                 for slug, config in cities.items()
                 if slug not in excluded_cities
             }
-            
+
             if not active_cities:
                 logger.error("No se encontraron ciudades activas para procesar")
                 sys.exit(1)
-            
+
             logger.info(f"Procesando {len(active_cities)} ciudades...")
             success_count = 0
             for city_slug, city_config in active_cities.items():
                 if process_city(city_slug, city_config, args.output_dir, args):
                     success_count += 1
             logger.info(f"\n✓ Procesadas {success_count}/{len(active_cities)} ciudades exitosamente")
+
+            # Generar calendario unificado para México (todas las ciudades)
+            logger.info(f"\n{'='*60}")
+            logger.info("Generando calendario unificado: México (mexico)")
+            logger.info(f"{'='*60}")
+
+            all_feeds = []
+            for city_slug, city_config in active_cities.items():
+                city_feeds = city_config.get("feeds", [])
+                # Asegurar que cada feed tenga el formato correcto para el agregador
+                formatted_feeds = []
+                for f in city_feeds:
+                    if isinstance(f, str):
+                        formatted_feeds.append({"url": f, "name": None})
+                    elif isinstance(f, dict):
+                        formatted_feeds.append(f)
+                all_feeds.extend(formatted_feeds)
+
+            mexico_config = {
+                "name": "México",
+                "slug": "mexico",
+                "timezone": "America/Mexico_City",
+                "feeds": all_feeds
+            }
+
+            if process_city("mexico", mexico_config, args.output_dir, args):
+                logger.info("\n✓ Calendario unificado de México generado exitosamente")
         else:
             logger.error("Debes especificar --city o --all-cities")
             sys.exit(1)
