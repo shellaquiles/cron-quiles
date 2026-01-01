@@ -21,12 +21,6 @@ import yaml
 
 from .ics_aggregator import ICSAggregator, logger
 
-try:
-    from .google_calendar import GoogleCalendarPublisher
-
-    GOOGLE_CALENDAR_AVAILABLE = True
-except ImportError:
-    GOOGLE_CALENDAR_AVAILABLE = False
 
 
 def load_cities_from_yaml(yaml_file: str) -> Dict[str, Dict]:
@@ -304,38 +298,6 @@ Ejemplos:
         "--verbose", action="store_true", help="Modo verbose (más logging)"
     )
 
-    parser.add_argument(
-        "--google-calendar",
-        action="store_true",
-        help="Publicar eventos directamente en Google Calendar",
-    )
-
-    parser.add_argument(
-        "--google-credentials",
-        type=str,
-        default="config/credentials.json",
-        help="Ruta al archivo de credenciales OAuth2 de Google. Default: config/credentials.json",
-    )
-
-    parser.add_argument(
-        "--google-token",
-        type=str,
-        default="config/token.json",
-        help="Ruta donde guardar el token de acceso. Default: config/token.json",
-    )
-
-    parser.add_argument(
-        "--google-calendar-id",
-        type=str,
-        default="primary",
-        help="ID del calendario donde publicar. Default: 'primary' (calendario principal)",
-    )
-
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Simular publicación sin publicar realmente (útil para pruebas)",
-    )
 
     parser.add_argument(
         "--city",
@@ -507,34 +469,6 @@ Ejemplos:
             aggregator.generate_json(events, json_file)
             logger.info(f"✓ Archivo JSON generado: {json_file}")
 
-        # Publicar en Google Calendar si se solicita
-        if args.google_calendar:
-            if not GOOGLE_CALENDAR_AVAILABLE:
-                logger.error(
-                    "Google Calendar no está disponible. "
-                    "Instala las dependencias: pip install google-auth google-auth-oauthlib google-api-python-client"
-                )
-            else:
-                publisher = GoogleCalendarPublisher(
-                    credentials_file=args.google_credentials,
-                    token_file=args.google_token,
-                    calendar_id=args.google_calendar_id,
-                )
-
-                if publisher.authenticate():
-                    stats = publisher.publish_events(events, dry_run=args.dry_run)
-                    if args.dry_run:
-                        logger.info(f"[DRY RUN] Se publicarían {stats['success']} eventos")
-                    else:
-                        logger.info(
-                            f"✓ Publicados {stats['success']} eventos en Google Calendar"
-                        )
-                        if stats["failed"] > 0:
-                            logger.warning(
-                                f"⚠ {stats['failed']} eventos fallaron al publicar"
-                            )
-                else:
-                    logger.error("No se pudo autenticar con Google Calendar")
 
         # Estadísticas
         tags_count = {}
