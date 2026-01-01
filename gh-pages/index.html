@@ -935,6 +935,60 @@
             color: var(--terminal-green);
             opacity: 0.5;
         }
+
+        /* City Tabs */
+        .city-tabs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-lg);
+            margin-bottom: var(--spacing-lg);
+            padding: var(--spacing-md);
+            border-top: 1px solid rgba(0, 255, 0, 0.2);
+            border-bottom: 1px solid rgba(0, 255, 0, 0.2);
+        }
+
+        .city-tab {
+            background: transparent;
+            border: 1px solid var(--terminal-green);
+            color: var(--terminal-green);
+            padding: var(--spacing-md) var(--spacing-xl);
+            font-family: inherit;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: var(--radius-md);
+            transition: all var(--transition-normal);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+        }
+
+        .city-tab:hover {
+            background: rgba(0, 255, 0, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 3px 10px rgba(0, 255, 0, 0.3);
+        }
+
+        .city-tab.active {
+            background: var(--terminal-green);
+            color: var(--terminal-black);
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+        }
+
+        .city-tab.active::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 8px solid var(--terminal-green);
+        }
     </style>
 </head>
 <body>
@@ -948,6 +1002,12 @@
                 <span class="lang-separator">|</span>
                 <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
             </div>
+        </div>
+
+        <!-- City Tabs -->
+        <div class="city-tabs">
+            <button class="city-tab active" data-city="cdmx" aria-label="Ciudad de México">CDMX</button>
+            <button class="city-tab" data-city="gdl" aria-label="Guadalajara">Guadalajara</button>
         </div>
 
         <!-- Comando 1: Descripción -->
@@ -978,75 +1038,8 @@
             <h2 class="section-title">
                 <span class="prompt-char">#</span> <span data-i18n="section.communities">Comunidades Integradas</span>
             </h2>
-            <div class="communities-grid">
-                <div class="community-card">
-                    <div class="community-name">Notion Mexico</div>
-                    <div class="community-description">Comunidad oficial de Notion en México. Eventos sobre productividad, organización y herramientas no-code.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">AI/IA CDMX</div>
-                    <div class="community-description">Comunidad enfocada en Inteligencia Artificial. Charlas técnicas, demos y networking sobre el futuro de IA.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Pythonista</div>
-                    <div class="community-description">Una de las comunidades de Python más grandes y activas de México.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">GDG Ciudad de México</div>
-                    <div class="community-description">Google Developer Group CDMX. Tecnologías de Google y desarrollo en general.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Embajadoras Cloud</div>
-                    <div class="community-description">Comunidad dedicada a impulsar a mujeres hispanohablantes en cloud computing.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Figma Mexico City</div>
-                    <div class="community-description">Espacio para diseñadores UX/UI y amantes de Figma en la Ciudad de México.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Vim Meetup CDMX</div>
-                    <div class="community-description">Para los amantes del editor de texto más eficiente.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Makers CDMX</div>
-                    <div class="community-description">Hardware, tecnología, diseño y fabricación digital.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Rust MX</div>
-                    <div class="community-description">Comunidad dedicada al lenguaje Rust. Seguridad, velocidad y concurrencia.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Gophers MX</div>
-                    <div class="community-description">Comunidad de desarrolladores del lenguaje Go en México.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Flutter Mexico City</div>
-                    <div class="community-description">Desarrollo multiplataforma con Flutter.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Kong Mexico City</div>
-                    <div class="community-description">APIs, Microservicios, Service Mesh e Insomnia.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Sysarmy Mexico</div>
-                    <div class="community-description">Soporte para quienes dan soporte. Comunidad de IT y SysAdmins.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">AWS Ajolotes Ciudad de México</div>
-                    <div class="community-description">User Group oficial de AWS en CDMX. Eventos sobre servicios en la nube de Amazon.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Docker Friends CDMX</div>
-                    <div class="community-description">Comunidad enfocada en contenedores, Docker y el ecosistema de infra moderna.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">EventLoop</div>
-                    <div class="community-description">Comunidad enfocada en JavaScript y el ecosistema web moderno en CDMX.</div>
-                </div>
-                <div class="community-card">
-                    <div class="community-name">Linux CDMX</div>
-                    <div class="community-description">Entusiastas, usuarios y administradores del sistema operativo Linux en Ciudad de México.</div>
-                </div>
+            <div id="communities-grid" class="communities-grid">
+                <!-- Las comunidades se cargan dinámicamente según la ciudad -->
             </div>
             <div style="margin-top: var(--spacing-lg); color: var(--terminal-gray); font-size: 0.9em; text-align: center;">
                 <a href="https://github.com/shellaquiles/cron-quiles/blob/main/docs/COMMUNITIES.md" target="_blank" style="color: var(--terminal-green); text-decoration: underline;" data-i18n="communities.viewAll">Ver lista completa de comunidades integrada →</a>
@@ -1068,8 +1061,8 @@
             </p>
             <div class="download-card">
                 <div class="btn-group">
-                    <a href="cronquiles.ics" class="btn" download data-i18n="btn.download.ics">Descargar ICS</a>
-                    <a href="webcal://shellaquiles.github.io/cron-quiles/cronquiles.ics" class="btn btn-secondary" data-i18n="btn.copy.webcal">Copiar WebCal</a>
+                    <a href="cronquiles-cdmx.ics" class="btn" id="download-ics-btn" download data-i18n="btn.download.ics">Descargar ICS</a>
+                    <a href="webcal://shellaquiles.github.io/cron-quiles/cronquiles-cdmx.ics" class="btn btn-secondary" id="webcal-btn" data-i18n="btn.copy.webcal">Copiar WebCal</a>
                 </div>
             </div>
         </div>
@@ -1085,7 +1078,7 @@
             </p>
             <div class="download-card">
                 <div class="btn-group">
-                    <a href="cronquiles.json" class="btn" download data-i18n="btn.download.json">Descargar JSON</a>
+                    <a href="cronquiles-cdmx.json" class="btn" id="download-json-btn" download data-i18n="btn.download.json">Descargar JSON</a>
                 </div>
             </div>
         </div>
@@ -1290,8 +1283,19 @@
             updateLastModified();
         }
 
+
+        // Inicializar i18n
+        document.addEventListener('DOMContentLoaded', () => {
+            applyTranslations();
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.addEventListener('click', () => switchLang(btn.dataset.lang));
+            });
+        });
+
+        // Función para actualizar última fecha de modificación
         function updateLastModified() {
-            fetch('cronquiles.ics')
+            const icsFile = `cronquiles-${currentCity}.ics`;
+            fetch(icsFile)
                 .then(response => {
                     const lastModified = response.headers.get('last-modified');
                     if (lastModified) {
@@ -1312,36 +1316,6 @@
                     document.getElementById('last-update').textContent = t('footer.notAvailable');
                 });
         }
-
-        // Inicializar i18n
-        document.addEventListener('DOMContentLoaded', () => {
-            applyTranslations();
-            document.querySelectorAll('.lang-btn').forEach(btn => {
-                btn.addEventListener('click', () => switchLang(btn.dataset.lang));
-            });
-        });
-
-        // Mostrar última fecha de modificación
-        fetch('cronquiles.ics')
-            .then(response => {
-                const lastModified = response.headers.get('last-modified');
-                if (lastModified) {
-                    const date = new Date(lastModified);
-                    document.getElementById('last-update').textContent =
-                        date.toLocaleString(getLocale(), {
-                            year: 'numeric',
-                            month: 'long',
-                            day: 'numeric',
-                            hour: '2-digit',
-                            minute: '2-digit'
-                        });
-                } else {
-                    document.getElementById('last-update').textContent = t('footer.notAvailable');
-                }
-            })
-            .catch(() => {
-                document.getElementById('last-update').textContent = t('footer.notAvailable');
-            });
 
         // Copiar WebCal al portapapeles
         document.querySelectorAll('.btn-secondary').forEach(btn => {
@@ -1381,6 +1355,117 @@
                 timeZone: 'America/Mexico_City'
             });
         }
+
+        // ============================================
+        // GESTIÓN DE CIUDADES
+        // ============================================
+        const CityManager = {
+            KEY: 'cron-quiles-city',
+            SUPPORTED: ['cdmx', 'gdl'],
+            DEFAULT: 'cdmx',
+            NAMES: {
+                'cdmx': 'Ciudad de México',
+                'gdl': 'Guadalajara'
+            },
+            detect() {
+                const saved = localStorage.getItem(this.KEY);
+                if (saved && this.SUPPORTED.includes(saved)) return saved;
+                return this.DEFAULT;
+            },
+            save(city) {
+                if (this.SUPPORTED.includes(city)) {
+                    localStorage.setItem(this.KEY, city);
+                }
+            },
+            get() {
+                return localStorage.getItem(this.KEY) || this.detect();
+            }
+        };
+
+        // ============================================
+        // DATOS DE COMUNIDADES POR CIUDAD
+        // ============================================
+        // Las comunidades se cargan dinámicamente desde el JSON generado
+        let communitiesData = {};  // Almacena comunidades por ciudad
+
+        // Renderiza las comunidades según la ciudad seleccionada
+        function renderCommunities(city) {
+            const container = document.getElementById('communities-grid');
+            if (!container) return;
+            
+            const communities = communitiesData[city] || [];
+            
+            if (communities.length === 0) {
+                container.innerHTML = '<div class="events-loading">Cargando comunidades...</div>';
+                return;
+            }
+            
+            container.innerHTML = communities.map(c => `
+                <div class="community-card">
+                    <div class="community-name">${c.name}</div>
+                    <div class="community-description">${c.description}</div>
+                </div>
+            `).join('');
+        }
+
+        let currentCity = CityManager.detect();
+
+        function updateCityLinks(city) {
+            const icsBtn = document.getElementById('download-ics-btn');
+            const jsonBtn = document.getElementById('download-json-btn');
+            const webcalBtn = document.getElementById('webcal-btn');
+            
+            if (icsBtn) {
+                icsBtn.href = `cronquiles-${city}.ics`;
+            }
+            if (jsonBtn) {
+                jsonBtn.href = `cronquiles-${city}.json`;
+            }
+            if (webcalBtn) {
+                webcalBtn.href = `webcal://shellaquiles.github.io/cron-quiles/cronquiles-${city}.ics`;
+            }
+        }
+
+        function switchCity(city) {
+            if (city === currentCity) return;
+            if (!CityManager.SUPPORTED.includes(city)) return;
+            
+            currentCity = city;
+            CityManager.save(city);
+            
+            // Actualizar tabs
+            document.querySelectorAll('.city-tab').forEach(tab => {
+                tab.classList.toggle('active', tab.dataset.city === city);
+            });
+            
+            // Actualizar enlaces de descarga
+            updateCityLinks(city);
+            
+            // Actualizar comunidades mostradas
+            renderCommunities(city);
+            
+            // Recargar calendario y actualizar fecha
+            loadCalendar();
+            updateLastModified();
+        }
+
+        // Inicializar tabs de ciudades
+        document.addEventListener('DOMContentLoaded', () => {
+            // Establecer ciudad activa
+            document.querySelectorAll('.city-tab').forEach(tab => {
+                tab.classList.toggle('active', tab.dataset.city === currentCity);
+                tab.addEventListener('click', () => switchCity(tab.dataset.city));
+            });
+            
+            // Actualizar enlaces iniciales
+            updateCityLinks(currentCity);
+            
+            // Renderizar comunidades de la ciudad actual
+            renderCommunities(currentCity);
+            
+            // Mostrar última fecha de modificación
+            updateLastModified();
+        });
 
         // Calendario Visual
         let currentDate = new Date();
@@ -1601,11 +1686,17 @@
 
         // Función para cargar calendario
         function loadCalendar() {
-            fetch('cronquiles.json')
+            const jsonFile = `cronquiles-${currentCity}.json`;
+            const container = document.getElementById('calendar-container');
+            
+            // Mostrar estado de carga
+            container.innerHTML = `<div class="events-loading">${t('calendar.loading')}</div>`;
+            
+            fetch(jsonFile)
                 .then(response => {
                     if (!response.ok) {
                         if (response.status === 404) {
-                            throw new Error('El archivo JSON aún no está disponible.');
+                            throw new Error(`El archivo JSON para ${CityManager.NAMES[currentCity]} aún no está disponible.`);
                         }
                         throw new Error(`Error HTTP ${response.status}`);
                     }
@@ -1614,9 +1705,14 @@
                 .then(data => {
                     const events = Array.isArray(data) ? data : (data.events || []);
                     renderCalendar(events);
+                    
+                    // Almacenar y renderizar comunidades del JSON
+                    if (data.communities) {
+                        communitiesData[currentCity] = data.communities;
+                        renderCommunities(currentCity);
+                    }
                 })
                 .catch(error => {
-                    const container = document.getElementById('calendar-container');
                     const isLocalFile = window.location.protocol === 'file:';
                     const errorMsg = isLocalFile
                         ? `Error: No se puede cargar el archivo localmente. Usa un servidor HTTP.<br><br>
@@ -1624,7 +1720,7 @@
                            1. Ejecuta: <code style="color: var(--terminal-green);">cd gh-pages && python3 serve.py</code><br>
                            2. O usa: <code style="color: var(--terminal-green);">python3 -m http.server 8000</code><br>
                            3. Luego abre: <code style="color: var(--terminal-green);">http://localhost:8000/index.html</code>`
-                        : `Error al cargar calendario: ${error.message}`;
+                        : `Error al cargar calendario de ${CityManager.NAMES[currentCity]}: ${error.message}`;
                     container.innerHTML = `<div class="events-error">${errorMsg}</div>`;
                     console.error('Error loading calendar:', error);
                 });

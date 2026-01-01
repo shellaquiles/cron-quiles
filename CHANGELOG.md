@@ -8,6 +8,17 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 ## [Unreleased]
 
 ### Added
+- **Soporte multi-ciudad** (nuevo)
+  - Estructura de configuración por ciudades en `feeds.yaml`
+  - Generación de calendarios separados por ciudad (ej: `cronquiles-cdmx.ics`, `cronquiles-gdl.ics`)
+  - Argumentos CLI `--city` y `--all-cities` para procesar ciudades específicas o todas
+  - Argumento `--output-dir` para especificar directorio de salida
+  - Metadatos de ciudad en archivos ICS y JSON generados
+  - Interfaz web con pestañas para cambiar entre ciudades
+  - Persistencia de ciudad seleccionada en localStorage
+  - Enlaces de descarga dinámicos que se actualizan según la ciudad seleccionada
+  - Soporte inicial para Guadalajara (GDL) además de Ciudad de México (CDMX)
+  - Compatibilidad hacia atrás con formato legacy de `feeds.yaml`
 - **Actualización completa de documentación AGENTS.md** (nuevo)
   - Documentación actualizada con todas las funcionalidades implementadas
   - Sección de estado actual del proyecto con 12 funcionalidades principales

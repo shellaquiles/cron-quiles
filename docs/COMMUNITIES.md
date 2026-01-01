@@ -1,6 +1,8 @@
 # Comunidades Tech en México
 
-Esta es la lista completa de comunidades integradas en el agregador de **Cron-Quiles**. Estas comunidades organizan regularmente eventos técnicos, workshops y espacios de networking en México.
+Esta es la lista completa de comunidades integradas en el agregador de **Cron-Quiles**, organizadas por ciudad. Estas comunidades organizan regularmente eventos técnicos, workshops y espacios de networking en México.
+
+## Ciudad de México (CDMX)
 
 | Comunidad | Descripción |
 | :--- | :--- |
@@ -18,7 +20,6 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | **Elixir Mexico City** | Lenguaje de programación Elixir y framework Phoenix. |
 | **Embajadoras Cloud** | Comunidad dedicada a impulsar a mujeres hispanohablantes en cloud computing. |
 | **Eventloop** | La comunidad de JavaScript de la Ciudad de México. Organización sin fines de lucro para elevar la competitividad técnica. |
-| **Figma México City** | Diseño UX/UI y el ecosistema de Figma. |
 | **Flutter México City** | Desarrollo multiplataforma con Flutter. |
 | **GDG Ciudad de México** | Google Developer Group, tecnologías de Google. |
 | **GitTogether CDMX** | Evento mensual creado por desarrolladores para aprender acerca de GitHub y Open Source. |
@@ -42,8 +43,6 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | **PostgreSQL México** | Usuarios y administradores de bases de datos PostgreSQL. |
 | **Product Management Society \| CDMX Chapter** | A collective empowering Product Managers to connect, learn from one another and grow. |
 | **Python CDMX** | Comunidad de entusiastas de Python en México. Charlas y talleres. |
-| **Python Puebla** | Comunidad de Python en el estado de Puebla. |
-| **Python Monterrey** | Comunidad de Python en Monterrey. |
 | **Pythonista** | Una de las comunidades de Python más activas de México. |
 | **Red Hat User Group** | Tecnologías Red Hat, Linux Enterprise y OpenShift. |
 | **Rust MX** | Comunidad dedicada al lenguaje Rust. |
@@ -54,5 +53,51 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | **Unity User Group CDMX** | Videojuegos y experiencias interactivas con Unity 3D. |
 | **Vim CDMX** | Nuestro objetivo es atraer a usuarios noveles y expertos en Vim para aprender el arte de la edición modal. |
 
+## Guadalajara (GDL)
+
+Las comunidades de Guadalajara se están agregando progresivamente. Si conoces comunidades tech en Guadalajara con feeds ICS públicos, puedes solicitar su inclusión abriendo un Issue.
+
+### Comunidades pendientes de agregar
+
+- GDG Guadalajara
+- AWS User Group Jalisco
+- Pythonistas GDL
+- GDLJS
+
+| Comunidad | Descripción | Sitio Web |
+| :--- | :--- | :--- |
+| **GDG Guadalajara** | Google Developer Group, tecnologías de Google. | [Link](https://gdg.community.dev/gdg-guadalajara/) |
+| **AWS User Group Jalisco** | User Group oficial de AWS en Guadalajara. | [Link](https://www.meetup.com/amazon-web-services-jalisco/) |
+| **j4Guanatos** | Comunidad de Java en Guadalajara. | [Link](https://www.meetup.com/j4guanatos/) |
+| **Pythonistas GDL** | Comunidad de Python en Guadalajara. | [Link](https://pythonistas-gdl.org/) |
+| **GDLJS** | La comunidad de JavaScript de Guadalajara. | [Link](https://www.gdljs.com/) |
+| **MexAI** | Comunidad de IA en Guadalajara. | [Link](https://www.eventbrite.com.mx/o/mexai-comunidad-de-ia-106303535081) |
+
+## Otras Ciudades
+
+Comunidades de ciudades específicas fuera de CDMX y GDL. Por el momento, estas comunidades están organizadas en la categoría `otras_ciudades` pero no generan calendarios separados. Se agregarán cuando se implemente soporte completo para más ciudades.
+
+| Comunidad | Descripción | Ubicación |
+| :--- | :--- | :--- |
+| **Python Puebla** | Comunidad de Python en el estado de Puebla. | Puebla |
+| **Python Monterrey** | Comunidad de Python en la ciudad de Monterrey. | Monterrey |
+
+**Nota:** Las comunidades nacionales o latinoamericanas (como GitTogether LATAM, Odoo Latinoamérica, etc.) permanecen en la sección de CDMX por el momento, ya que sus eventos suelen realizarse principalmente en Ciudad de México.
+
 ---
-*Si tu comunidad no está aquí y tiene un feed ICS público (como Meetup o Luma), puedes solicitar su inclusión abriendo un Issue.*
+
+## Agregar tu Comunidad
+
+Si tu comunidad no está aquí y tiene un feed ICS público (como Meetup o Luma), puedes solicitar su inclusión:
+
+1. Abre un [Issue](https://github.com/shellaquiles/cron-quiles/issues) con:
+   - Nombre de la comunidad
+   - URL del feed ICS
+   - Descripción breve
+   - Ciudad donde se realizan los eventos
+
+2. O envía un Pull Request modificando `config/feeds.yaml` con tu comunidad.
+
+---
+
+*Última actualización: Las comunidades están organizadas por ciudad para facilitar la navegación y el mantenimiento del agregador.*

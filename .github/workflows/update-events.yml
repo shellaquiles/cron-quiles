@@ -47,9 +47,9 @@ jobs:
         run: |
           mkdir -p gh-pages
 
-      - name: Generate calendar
+      - name: Generate calendars for all cities
         run: |
-          python main.py --json --output gh-pages/cronquiles.ics --json-output gh-pages/cronquiles.json
+          python main.py --all-cities --json --output-dir gh-pages/
         working-directory: ${{ github.workspace }}
 
       - name: Check if deployment needed

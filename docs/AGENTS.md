@@ -14,34 +14,44 @@ Estás construyendo una herramienta **open source**, sin APIs privadas ni pagos,
 1. Consumir múltiples URLs **.ics**
 2. Normalizar los eventos (título, fecha, hora, ubicación, link, organizador)
 3. Deduplicar eventos similares (mismo título + fecha ± tolerancia)
-4. Generar:
+4. Generar por ciudad:
 
-   * Un **ICS unificado**
-   * (opcional) Un JSON para futuros usos
+   * Un **ICS unificado** por ciudad (`cronquiles-{slug}.ics`)
+   * Un **JSON** con eventos y comunidades (`cronquiles-{slug}.json`)
 
-### Estado Actual del Proyecto (v1.6.0)
+### Estado Actual del Proyecto (v1.7.0)
 
 El proyecto es completamente funcional y opera bajo Github Actions.
 
 **Funcionalidades Implementadas:**
 1.  **Soporte Multifuente**: Consume feeds ICS de Meetup, Luma y Google Calendar.
-2.  **Deduplicación Robusta**:
+2.  **Soporte Multi-Ciudad**: Genera calendarios separados por ciudad (CDMX, GDL, etc.).
+    *   Configuración por ciudad con `name`, `slug` y `timezone`.
+    *   CLI con argumentos `--city`, `--all-cities` y `--output-dir`.
+    *   Frontend con tabs para cambiar entre ciudades.
+3.  **Deduplicación Robusta**:
     *   Identifica eventos duplicados por título y hora (tolerancia ±2 horas).
     *   Normaliza zonas horarias a UTC para evitar falsos positivos.
     *   **NO PIERDE DATOS**: Si hay duplicados con diferentes links, los agrega a la descripción del evento principal ("Otras fuentes: ...").
-3.  **Extracción Inteligente de Metadatos**:
+4.  **Extracción Inteligente de Metadatos**:
     *   Prioriza nombres de grupos configurados manualmente > X-WR-CALNAME (del ICS) > Organizador del evento.
     *   Detecta automáticamente URLs de eventos Luma (`lu.ma`, `luma.com`) dentro de la descripción si no están en el campo URL principal.
-4.  **Formato de Títulos Estandarizado**: `Grupo|Nombre|Ubicación` (ej: "Python CDMX|Charla Mensual|Online").
-5.  **Detección de Ubicación**: Clasifica automáticamente como "Online", "Ciudad, Estado" o "País".
+5.  **Formato de Títulos Estandarizado**: `Grupo|Nombre|Ubicación` (ej: "Python CDMX|Charla Mensual|Online").
+6.  **Detección de Ubicación**: Clasifica automáticamente como "Online", "Ciudad, Estado" o "País".
     *   Enriquecimiento de ubicación desde Meetup (JSON-LD/Next.js).
-6.  **Sistema de Configuración**: `feeds.yaml` centralizado para gestionar fuentes.
-7.  **Salida Dual**: Genera tanto `.ics` (para calendarios) como `.json` (para integraciones).
-8.  **Logging Detallado**: Registra el proceso de agregación y estadísticas de eventos procesados.
-9.  **Tags automáticos**: Detección por keywords en título y descripción (python, ai, cloud, etc).
-10. **Interfaz web moderna**: Diseño terminal estilo shellaquiles-org con calendario visual embebido.
-11. **Manejo robusto de timezones**: Conversión a UTC para lógica interna, preservando original.
-12. **Publicación automática**: GitHub Actions actualiza feeds y Pages cada 6 horas.
+7.  **Sistema de Configuración**: `feeds.yaml` centralizado con estructura por ciudades.
+    *   Estructura: `cities.{slug}.feeds[]` para organizar feeds por ciudad.
+    *   Cada ciudad define `name`, `slug`, `timezone` y lista de `feeds`.
+8.  **Salida Dual**: Genera tanto `.ics` (para calendarios) como `.json` (para integraciones).
+    *   Archivos por ciudad: `cronquiles-{slug}.ics` y `cronquiles-{slug}.json`.
+    *   JSON incluye campo `communities` con lista de comunidades integradas.
+9.  **Logging Detallado**: Registra el proceso de agregación y estadísticas de eventos procesados.
+10. **Tags automáticos**: Detección por keywords en título y descripción (python, ai, cloud, etc).
+11. **Interfaz web moderna**: Diseño terminal estilo shellaquiles-org con calendario visual embebido.
+    *   Tabs de ciudad para cambiar entre CDMX y Guadalajara.
+    *   Comunidades dinámicas cargadas desde JSON (no hardcodeadas).
+12. **Manejo robusto de timezones**: Conversión a UTC para lógica interna, preservando original.
+13. **Publicación automática**: GitHub Actions actualiza feeds y Pages cada 6 horas.
 
 ### Deduplicación
 
@@ -56,9 +66,14 @@ Estrategia implementada:
 
 ### Output
 
-* Archivo: `gh-pages/cronquiles.ics` (calendario ICS unificado)
-* Archivo opcional: `gh-pages/cronquiles.json` (JSON con eventos)
-* Interfaz web: `gh-pages/index.html` (página con calendario embebido)
+**Archivos por ciudad** (generados con `--all-cities`):
+* `gh-pages/cronquiles-cdmx.ics` - Calendario ICS de Ciudad de México
+* `gh-pages/cronquiles-cdmx.json` - JSON con eventos y comunidades de CDMX
+* `gh-pages/cronquiles-gdl.ics` - Calendario ICS de Guadalajara
+* `gh-pages/cronquiles-gdl.json` - JSON con eventos y comunidades de GDL
+
+**Interfaz web**:
+* `gh-pages/index.html` - Página con calendario embebido y tabs por ciudad
 
 ### Entregables
 
@@ -92,9 +107,11 @@ cron-quiles/
 │   ├── COMMUNITIES.md        # Lista de comunidades integradas
 │   └── GITHUB_PAGES_SETUP.md # Guía de setup de GitHub Pages
 ├── gh-pages/                  # Archivos para GitHub Pages
-│   ├── index.html            # Página principal con calendario embebido
-│   ├── cronquiles.ics        # Calendario ICS (generado)
-│   ├── cronquiles.json      # JSON con eventos (generado)
+│   ├── index.html            # Página principal con calendario embebido y tabs
+│   ├── cronquiles-cdmx.ics   # Calendario ICS de CDMX (generado)
+│   ├── cronquiles-cdmx.json  # JSON de CDMX con eventos y comunidades (generado)
+│   ├── cronquiles-gdl.ics    # Calendario ICS de Guadalajara (generado)
+│   ├── cronquiles-gdl.json   # JSON de GDL con eventos y comunidades (generado)
 │   ├── serve.py             # Servidor HTTP para desarrollo local
 │   └── serve.sh             # Script para iniciar servidor
 ├── examples/
@@ -116,6 +133,8 @@ cron-quiles/
 * API REST para consultar eventos
 * Notificaciones de nuevos eventos
 * Exportación a otros formatos (CSV, etc.)
+* Soporte para más ciudades (Monterrey, Puebla, etc.) - estructura preparada en `otras_ciudades`
+* Calendario combinado "Todos los eventos" que agregue todas las ciudades
 
 ### ⚠️ IMPORTANTE: Documentación y Actualización
 
@@ -143,7 +162,7 @@ cron-quiles/
    - ✅ Documentación sincronizada con código
    - ✅ No dejar referencias a archivos/estructuras antiguas
    - ✅ Ejemplos actualizados y funcionales
-   - ✅ **NO commitear archivos generados manualmente**: `gh-pages/cronquiles.ics` y `gh-pages/cronquiles.json`
+   - ✅ **NO commitear archivos generados manualmente**: `gh-pages/cronquiles-*.ics` y `gh-pages/cronquiles-*.json`
      - Estos archivos son generados automáticamente por GitHub Actions
      - Si necesitas probar localmente, usa `git update-index --assume-unchanged` para ignorarlos temporalmente
      - Los archivos en `gh-pages/` son publicados automáticamente por el workflow
@@ -154,20 +173,26 @@ cron-quiles/
 
 Los siguientes archivos son generados automáticamente y **NO deben incluirse en commits manuales**:
 
-* `gh-pages/cronquiles.ics` - Generado automáticamente por el script
-* `gh-pages/cronquiles.json` - Generado automáticamente por el script (si se usa `--json`)
+* `gh-pages/cronquiles-cdmx.ics` - Calendario ICS de CDMX
+* `gh-pages/cronquiles-cdmx.json` - JSON de eventos de CDMX
+* `gh-pages/cronquiles-gdl.ics` - Calendario ICS de Guadalajara
+* `gh-pages/cronquiles-gdl.json` - JSON de eventos de Guadalajara
 
 **Razón**: Estos archivos se generan automáticamente por GitHub Actions cada 6 horas. Si los commiteas manualmente, pueden causar conflictos innecesarios y el workflow los sobrescribirá de todas formas.
 
 **Para desarrollo local**:
 ```bash
 # Ignorar temporalmente estos archivos en git
-git update-index --assume-unchanged gh-pages/cronquiles.ics
-git update-index --assume-unchanged gh-pages/cronquiles.json
+git update-index --assume-unchanged gh-pages/cronquiles-cdmx.ics
+git update-index --assume-unchanged gh-pages/cronquiles-cdmx.json
+git update-index --assume-unchanged gh-pages/cronquiles-gdl.ics
+git update-index --assume-unchanged gh-pages/cronquiles-gdl.json
 
 # Para volver a trackearlos (si es necesario)
-git update-index --no-assume-unchanged gh-pages/cronquiles.ics
-git update-index --no-assume-unchanged gh-pages/cronquiles.json
+git update-index --no-assume-unchanged gh-pages/cronquiles-cdmx.ics
+git update-index --no-assume-unchanged gh-pages/cronquiles-cdmx.json
+git update-index --no-assume-unchanged gh-pages/cronquiles-gdl.ics
+git update-index --no-assume-unchanged gh-pages/cronquiles-gdl.json
 ```
 
 Piensa paso a paso, justifica decisiones técnicas y genera código limpio, comentado y listo para producción ligera. **Nunca dejes documentación desactualizada.**

@@ -898,6 +898,7 @@ class ICSAggregator:
         self,
         events: List[EventNormalized],
         output_file: str = "cronquiles.ics",
+        city_name: Optional[str] = None,
     ) -> str:
         """
         Genera un archivo ICS unificado.
@@ -905,6 +906,7 @@ class ICSAggregator:
         Args:
             events: Lista de eventos normalizados
             output_file: Nombre del archivo de salida
+            city_name: Nombre de la ciudad para incluir en los metadatos (opcional)
 
         Returns:
             Ruta del archivo generado
@@ -913,8 +915,15 @@ class ICSAggregator:
         calendar.add("prodid", "-//Cron-Quiles//ICS Aggregator//EN")
         calendar.add("version", "2.0")
         calendar.add("calscale", "GREGORIAN")
-        calendar.add("X-WR-CALNAME", "Cron-Quiles - Eventos Tech México")
-        calendar.add("X-WR-CALDESC", "Calendario unificado de eventos tech en México")
+        
+        # Incluir nombre de ciudad en los metadatos si está disponible
+        if city_name:
+            calendar.add("X-WR-CALNAME", f"Cron-Quiles - Eventos Tech {city_name}")
+            calendar.add("X-WR-CALDESC", f"Calendario unificado de eventos tech en {city_name}, México")
+        else:
+            calendar.add("X-WR-CALNAME", "Cron-Quiles - Eventos Tech México")
+            calendar.add("X-WR-CALDESC", "Calendario unificado de eventos tech en México")
+        
         calendar.add("X-WR-TIMEZONE", "America/Mexico_City")
 
         for event_norm in events:
@@ -931,6 +940,8 @@ class ICSAggregator:
         self,
         events: List[EventNormalized],
         output_file: str = "cronquiles.json",
+        city_name: Optional[str] = None,
+        feeds: Optional[List[Dict]] = None,
     ) -> str:
         """
         Genera un archivo JSON con los eventos.
@@ -938,6 +949,8 @@ class ICSAggregator:
         Args:
             events: Lista de eventos normalizados
             output_file: Nombre del archivo de salida
+            city_name: Nombre de la ciudad para incluir en los metadatos (opcional)
+            feeds: Lista de feeds configurados para incluir las comunidades (opcional)
 
         Returns:
             Ruta del archivo generado
@@ -947,6 +960,11 @@ class ICSAggregator:
         events_data = {
             "generated_at": datetime.now(tz.UTC).isoformat(),
             "total_events": len(events),
+            "city": city_name,
+            "communities": [
+                {"name": f["name"], "description": f.get("description", "")}
+                for f in (feeds or [])
+            ],
             "events": [event.to_dict() for event in events],
         }
 
