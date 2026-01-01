@@ -32,6 +32,8 @@ wheels/
 !gh-pages/data/*.ics
 !gh-pages/data/*.json
 !gh-pages/index.html
+# Datos persistentes importantes
+!data/*.json
 # Config files
 !config/feeds.yaml
 !config/list_icals.txt
