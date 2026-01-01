@@ -15,17 +15,9 @@ export const CONFIG = {
         SUPPORTED: ['es', 'en']
     },
 
-    // Ciudades soportadas y sus metadatos
+    // Ciudades/Estados soportadas (se cargarán dinámicamente)
     CITIES: {
-        DEFAULT: 'mexico',
-        SUPPORTED: ['mexico', 'cdmx', 'gdl', 'puebla', 'monterrey'],
-        NAMES: {
-            'mexico': 'México',
-            'cdmx': 'Ciudad de México',
-            'gdl': 'Guadalajara',
-            'puebla': 'Puebla',
-            'monterrey': 'Monterrey'
-        }
+        DEFAULT: 'mexico'
     },
 
     // Intervalos de tiempo
@@ -33,6 +25,7 @@ export const CONFIG = {
 
     // Rutas de archivos (se asume relativo a la raíz del sitio)
     PATHS: {
+        getMetadataUrl: () => `data/states_metadata.json`,
         getDataUrl: (city) => city === 'mexico' ? `data/cronquiles-mexico.json` : `data/cronquiles-${city}.json`,
         getIcsUrl: (city) => city === 'mexico' ? `data/cronquiles-mexico.ics` : `data/cronquiles-${city}.ics`,
         getWebCalUrl: (city) => `webcal://${window.location.host}${window.location.pathname.replace('index.html', '')}data/cronquiles-${city}.ics`

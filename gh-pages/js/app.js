@@ -21,10 +21,19 @@ class App {
         this.init();
     }
 
-    init() {
+    async init() {
+        // 0. Cargar metadatos de estados
+        this.states = await DataService.getStatesMetadata();
+        this.renderTabs();
+
         // 1. Restaurar estado (idioma y ciudad)
         const savedLang = Storage.get(CONFIG.STORAGE_KEYS.LANG) || CONFIG.LANGUAGES.DEFAULT;
-        const savedCity = Storage.get(CONFIG.STORAGE_KEYS.CITY) || CONFIG.CITIES.DEFAULT;
+        let savedCity = Storage.get(CONFIG.STORAGE_KEYS.CITY) || CONFIG.CITIES.DEFAULT;
+
+        // Verificar que la ciudad guardada aún exista en los metadatos (si no, usar default)
+        if (this.states.length > 0 && !this.states.find(s => s.slug === savedCity)) {
+            savedCity = CONFIG.CITIES.DEFAULT;
+        }
 
         // Esto disparará las suscripciones iniciales en I18n y Header
         appStore.set('lang', savedLang);
@@ -37,13 +46,25 @@ class App {
         this.loadCityData(savedCity);
     }
 
+    renderTabs() {
+        const container = document.querySelector('.city-tabs');
+        if (!container || !this.states.length) return;
+
+        container.innerHTML = this.states.map(state => `
+            <button class="city-tab" data-city="${state.slug}" aria-label="${state.name}">
+                ${state.emoji} ${state.name}
+            </button>
+        `).join('');
+    }
+
     bindEvents() {
-        // Cambio de ciudad
-        document.querySelectorAll('.city-tab').forEach(tab => {
-            tab.addEventListener('click', () => {
+        // Cambio de ciudad (Delegación de eventos para tabs dinámicos)
+        document.querySelector('.city-tabs').addEventListener('click', (e) => {
+            const tab = e.target.closest('.city-tab');
+            if (tab) {
                 const city = tab.dataset.city;
                 if (city) appStore.set('city', city);
-            });
+            }
         });
 
         // Reacción a cambios de estado

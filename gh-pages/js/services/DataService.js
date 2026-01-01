@@ -6,6 +6,22 @@ import { CONFIG } from '../config.js';
 
 export class DataService {
     /**
+     * Obtiene los metadatos de los estados disponibles
+     * @returns {Promise<Array>} Lista de estados
+     */
+    static async getStatesMetadata() {
+        const url = CONFIG.PATHS.getMetadataUrl();
+        try {
+            const response = await fetch(url);
+            if (!response.ok) return [];
+            return await response.json();
+        } catch (error) {
+            console.warn('Error fetching states metadata:', error);
+            return [];
+        }
+    }
+
+    /**
      * Obtiene los datos para una ciudad específica
      * @param {string} city ID de la ciudad
      * @returns {Promise<Object>} Datos del JSON
