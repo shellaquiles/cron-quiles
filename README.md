@@ -98,16 +98,16 @@ python main.py
 
 Esto generará `gh-pages/cronquiles.ics` usando los feeds definidos en `config/feeds.yaml`.
 
-**Nota:** Los archivos se generan en `gh-pages/` para publicación en GitHub Pages.
+**Nota:** Los archivos se generan en `gh-pages/data/` para publicación en GitHub Pages (según la convención del proyecto).
 
 ### Opciones avanzadas
 
 ```bash
 # Generar calendarios para todas las ciudades
-python main.py --all-cities --json --output-dir gh-pages/
+python main.py --all-cities --json --output-dir gh-pages/data/
 
 # Generar calendario para una ciudad específica
-python main.py --city cdmx --json --output-dir gh-pages/
+python main.py --city cdmx --json --output-dir gh-pages/data/
 
 # Especificar archivo de feeds personalizado
 python main.py --feeds config/mi_configuracion.yaml
@@ -199,7 +199,7 @@ El proyecto ahora incluye un sistema de persistencia para asegurar que no se pie
 El proyecto incluye herramientas para mantener la calidad de los datos:
 - Normalización automática de títulos y descripciones.
 - Deduplicación inteligente basada en título y fecha (tolerancia de 2 horas).
-- Limpieza de artefactos de codificación (mojibake) en feeds ICS.
+- **Población automática del cache geográfico**: Los scripts `populate_cache_from_history.py` y `scan_feeds_and_cache.py` aseguran que las ubicaciones se resuelvan correctamente usando la API de Google Maps y se guarden para futuras ejecuciones.
 
 ## 🏛️ Gestión de Datos Históricos (Nuevo)
 

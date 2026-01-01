@@ -71,16 +71,16 @@ Estrategia implementada:
 ### Output
 
 **Archivos por ciudad** (generados con `--all-cities`):
-* `gh-pages/cronquiles-cdmx.ics` - Calendario ICS de Ciudad de México
-* `gh-pages/cronquiles-cdmx.json` - JSON con eventos y comunidades de CDMX
-* `gh-pages/cronquiles-gdl.ics` - Calendario ICS de Guadalajara
-* `gh-pages/cronquiles-gdl.json` - JSON con eventos y comunidades de GDL
-* `gh-pages/cronquiles-puebla.ics` - Calendario ICS de Puebla
-* `gh-pages/cronquiles-puebla.json` - JSON con eventos y comunidades de Puebla
-* `gh-pages/cronquiles-monterrey.ics` - Calendario ICS de Monterrey
-* `gh-pages/cronquiles-monterrey.json` - JSON con eventos y comunidades de Monterrey
-* `gh-pages/cronquiles-mexico.ics` - Calendario ICS unificado (todas las ciudades)
-* `gh-pages/cronquiles-mexico.json` - JSON unificado (todas las ciudades)
+* `gh-pages/data/cronquiles-cdmx.ics` - Calendario ICS de Ciudad de México
+* `gh-pages/data/cronquiles-cdmx.json` - JSON con eventos y comunidades de CDMX
+* `gh-pages/data/cronquiles-gdl.ics` - Calendario ICS de Guadalajara
+* `gh-pages/data/cronquiles-gdl.json` - JSON con eventos y comunidades de GDL
+* `gh-pages/data/cronquiles-puebla.ics` - Calendario ICS de Puebla
+* `gh-pages/data/cronquiles-puebla.json` - JSON con eventos y comunidades de Puebla
+* `gh-pages/data/cronquiles-monterrey.ics` - Calendario ICS de Monterrey
+* `gh-pages/data/cronquiles-monterrey.json` - JSON con eventos y comunidades de Monterrey
+* `gh-pages/data/cronquiles-mexico.ics` - Calendario ICS unificado (todas las ciudades)
+* `gh-pages/data/cronquiles-mexico.json` - JSON unificado (todas las ciudades)
 
 **Interfaz web**:
 * `gh-pages/index.html` - Página con calendario embebido y tabs por ciudad
@@ -121,10 +121,11 @@ cron-quiles/
 │   ├── css/                  # Estilos CSS
 │   ├── js/                   # Scripts JavaScript
 │   ├── index.html            # Página principal con calendario embebido y tabs
-│   ├── cronquiles-cdmx.ics   # Calendario ICS de CDMX (generado)
-│   ├── cronquiles-cdmx.json  # JSON de CDMX con eventos y comunidades (generado)
-│   ├── cronquiles-gdl.ics    # Calendario ICS de Guadalajara (generado)
-│   ├── cronquiles-gdl.json   # JSON de GDL con eventos y comunidades (generado)
+│   ├── data/                 # Subdirectorio de datos
+│   │   ├── cronquiles-cdmx.ics   # Calendario ICS de CDMX (generado)
+│   │   ├── cronquiles-cdmx.json  # JSON de CDMX con eventos y comunidades (generado)
+│   │   ├── cronquiles-gdl.ics    # Calendario ICS de Guadalajara (generado)
+│   │   └── cronquiles-gdl.json   # JSON de GDL con eventos y comunidades (generado)
 │   ├── serve.py             # Servidor HTTP para desarrollo local
 │   └── serve.sh             # Script para iniciar servidor
 ├── tests/
@@ -146,6 +147,12 @@ cron-quiles/
 * **Limpieza de Historial** (`HistoryManager`):
   * Deduplica inteligentemente usando hashes consistentes.
   * Permite regenerar calendarios sin perder datos antiguos.
+
+* **Población de Cache** (`tools/populate_cache_from_history.py`):
+  * Extrae todas las ubicaciones de `history.json` verificado y las inserta en `geocoding_cache.json` para evitar re-consultar la API.
+
+* **Escaneo de Feeds** (`tools/scan_feeds_and_cache.py`):
+  * Descarga todos los feeds ICS configurados, extrae las ubicaciones y asegura que estén presentes en el cache.
 
 ### Próximas mejoras posibles
 * Filtros por tags o fechas en CLI
@@ -192,26 +199,26 @@ cron-quiles/
 
 Los siguientes archivos son generados automáticamente y **NO deben incluirse en commits manuales**:
 
-* `gh-pages/cronquiles-cdmx.ics` - Calendario ICS de CDMX
-* `gh-pages/cronquiles-cdmx.json` - JSON de eventos de CDMX
-* `gh-pages/cronquiles-gdl.ics` - Calendario ICS de Guadalajara
-* `gh-pages/cronquiles-gdl.json` - JSON de eventos de Guadalajara
+* `gh-pages/data/cronquiles-cdmx.ics` - Calendario ICS de CDMX
+* `gh-pages/data/cronquiles-cdmx.json` - JSON de eventos de CDMX
+* `gh-pages/data/cronquiles-gdl.ics` - Calendario ICS de Guadalajara
+* `gh-pages/data/cronquiles-gdl.json` - JSON de eventos de Guadalajara
 
 **Razón**: Estos archivos se generan automáticamente por GitHub Actions cada 6 horas. Si los commiteas manualmente, pueden causar conflictos innecesarios y el workflow los sobrescribirá de todas formas.
 
 **Para desarrollo local**:
 ```bash
 # Ignorar temporalmente estos archivos en git
-git update-index --assume-unchanged gh-pages/cronquiles-cdmx.ics
-git update-index --assume-unchanged gh-pages/cronquiles-cdmx.json
-git update-index --assume-unchanged gh-pages/cronquiles-gdl.ics
-git update-index --assume-unchanged gh-pages/cronquiles-gdl.json
+git update-index --assume-unchanged gh-pages/data/cronquiles-cdmx.ics
+git update-index --assume-unchanged gh-pages/data/cronquiles-cdmx.json
+git update-index --assume-unchanged gh-pages/data/cronquiles-gdl.ics
+git update-index --assume-unchanged gh-pages/data/cronquiles-gdl.json
 
 # Para volver a trackearlos (si es necesario)
-git update-index --no-assume-unchanged gh-pages/cronquiles-cdmx.ics
-git update-index --no-assume-unchanged gh-pages/cronquiles-cdmx.json
-git update-index --no-assume-unchanged gh-pages/cronquiles-gdl.ics
-git update-index --no-assume-unchanged gh-pages/cronquiles-gdl.json
+git update-index --no-assume-unchanged gh-pages/data/cronquiles-cdmx.ics
+git update-index --no-assume-unchanged gh-pages/data/cronquiles-cdmx.json
+git update-index --no-assume-unchanged gh-pages/data/cronquiles-gdl.ics
+git update-index --no-assume-unchanged gh-pages/data/cronquiles-gdl.json
 ```
 
 Piensa paso a paso, justifica decisiones técnicas y genera código limpio, comentado y listo para producción ligera. **Nunca dejes documentación desactualizada.**
