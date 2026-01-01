@@ -3,7 +3,7 @@
 Esta es la lista completa de comunidades integradas en el agregador de **Cron-Quiles**, organizadas por actividad y ciudad. Estas comunidades organizan regularmente eventos técnicos, workshops y espacios de networking.
 
 > [!NOTE]
-> Las comunidades están ordenadas cronológicamente por actividad dentro de cada sección. Las marcadas con ⚠️ no han reportado eventos recientes en el historial.
+> Las comunidades están ordenadas cronológicamente por actividad dentro de cada sección. Las marcadas con ⚠️ no han reportado eventos recientes o están en pausa.
 
 ## Ciudad de México
 
@@ -23,7 +23,9 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | [**Open Infra CDMX**](https://www.meetup.com/openinfrastructurecdmx) ⚠️ | Infraestructura abierta, OpenStack y tecnologías de cloud open source. | 2025-03-06 | 10 |
 | [**AWS Ajolotes Ciudad de México**](https://www.meetup.com/aws-cdmx) ⚠️ | User Group oficial de AWS en CDMX. Eventos sobre servicios en la nube de Amazon. | 2024-09-26 | 10 |
 | [**Vim CDMX**](https://www.meetup.com/cdmx-vim-meetup) ⚠️ | Nuestro objetivo es atraer a usuarios noveles y expertos en Vim para aprender el arte de la edición modal, mejorar, o compartir flujos de trabajo. | 2018-12-20 | 10 |
-| [**GNU / SysAdmin Linux en Ciudad de México**](https://www.meetup.com/grupo-de-meetup-de-linux-en-ciudad-de-mexico) | Comunidad de Sysadmins que se dedican a dar soporte con Software Libre. | N/A | 0 |
+| [**GNU / SysAdmin Linux en Ciudad de México**](https://www.meetup.com/grupo-de-meetup-de-linux-en-ciudad-de-mexico) ⚠️ | Comunidad de Sysadmins que se dedican a dar soporte con Software Libre. | N/A | 0 |
+| [**Python CDMX**](https://api2.luma.com/ics/get?entity=calendar&id=cal-okVQAVdbyFhL8Zo) ⚠️ | Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles. | N/A | 0 |
+| [**AI/IA CDMX**](https://api2.luma.com/ics/get?entity=calendar&id=cal-2gq3mjgfAclpoCp) ⚠️ | Canal de Meetup de la comunidad de IA en Ciudad de México. | N/A | 0 |
 
 ## Guadalajara
 
@@ -32,7 +34,8 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | [**MexAI - Comunidad de IA**](https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical) | Comunidad de IA en Guadalajara. Eventos sobre Inteligencia Artificial. | 2025-12-16 | 13 |
 | [**AWS User Group Jalisco**](https://www.meetup.com/amazon-web-services-jalisco) | Comunidad de usuarios de AWS en Guadalajara. Eventos sobre servicios en la nube de Amazon. | 2025-11-27 | 10 |
 | [**j4Guanatos**](https://www.meetup.com/j4guanatos) | Comunidad de Java en Guadalajara. Eventos sobre Java y tecnologías relacionadas. | 2025-09-25 | 10 |
-| [**GDG Guadalajara**](https://www.meetup.com/gdg-guadalajara) | Google Developer Group Guadalajara. Eventos sobre tecnologías de Google y desarrollo. | N/A | 0 |
+| [**GDG Guadalajara**](https://www.meetup.com/gdg-guadalajara) ⚠️ | Google Developer Group Guadalajara. Eventos sobre tecnologías de Google y desarrollo. | N/A | 0 |
+| [**PyTalavera**](https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl) ⚠️ | Comunidad Pythonista en Puebla. Eventos, charlas y networking para entusiastas de Python en la región. | N/A | 0 |
 
 ## Puebla
 
@@ -78,7 +81,9 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | [**HackrobotsMX**](https://www.meetup.com/hackrobotsmx) ⚠️ | HackrobotsMX es la primera y única comunidad en América sin fines de lucro dedicada a la formación y capacitación en robótica. | 2020-05-30 | 10 |
 | [**330ohms**](https://www.meetup.com/330ohms) ⚠️ | Comunidad enfocada en hardware, electrónica e Internet de las Cosas (IoT). | 2019-09-12 | 10 |
 | [**The Dojo MX**](https://www.meetup.com/the-dojo-mx) ⚠️ | Aprende y desarrolla habilidades de manos de los mejores desarrolladores de México. Talleres presenciales o en línea. | 2019-09-10 | 1 |
-| [**Meetup de Network Orquestrators, Creating Unicorns**](https://www.meetup.com/meetup-de-network-orquestrators-creating-unicorns) | En este grupo estamos intentando construir empresas Unicornio. Queremos contactar con startuperos interesados en intercambiar ideas y contactos. | N/A | 0 |
+| [**Meetup de Network Orquestrators, Creating Unicorns**](https://www.meetup.com/meetup-de-network-orquestrators-creating-unicorns) ⚠️ | En este grupo estamos intentando construir empresas Unicornio. Queremos contactar con startuperos interesados en intercambiar ideas y contactos. | N/A | 0 |
+| [**Mexico Tech Week**](https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu) ⚠️ | Calendario oficial de Mexico Tech Week 2025. | N/A | 0 |
+| [**Claude Users Group**](https://api2.luma.com/ics/get?entity=calendar&id=cal-gKhhS6fDDrX3mqz) ⚠️ |  | N/A | 0 |
 
 ---
 
