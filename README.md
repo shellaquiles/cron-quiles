@@ -413,6 +413,15 @@ El workflow está configurado en `.github/workflows/update-events.yml` y:
 - ✅ Se ejecuta cuando cambias `feeds.yaml` o el código
 - ✅ Hace commit y push automático de los archivos actualizados
 
+### 🔐 Configuración de Secretos
+
+Para que la geocodificación funcione correctamente en la nube, es necesario configurar un secreto en el repositorio:
+
+1. Ve a **Settings** -> **Secrets and variables** -> **Actions**.
+2. Agrega `GOOGLE_MAPS_API_KEY` con tu llave de Google Maps Platform.
+
+Ver la guía completa en [Configuración de GitHub Pages](docs/GITHUB_PAGES_SETUP.md).
+
 ### Activar el workflow
 
 1. Haz push del workflow al repositorio:

@@ -8,6 +8,23 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 ## [Unreleased]
 
 ### Added
+- **Infraestructura de Datos y CI** (nuevo)
+  - **Persistencia de Datos**: CI (GitHub Actions) ahora persiste `data/history.json` y `data/geocoding_cache.json` entre ejecuciones.
+  - **Inyección de Secretos**: CI ahora utiliza `GOOGLE_MAPS_API_KEY` para geocodificación precisa en la nube.
+  - **Nuevas Herramientas de Mantenimiento**:
+    - `populate_cache_from_history.py`: Reconstuye el cache geográfico usando el historial verificado.
+    - `scan_feeds_and_cache.py`: Escanea todos los feeds activos y asegura que sus ubicaciones estén en cache.
+- **Estructura de Datos** (nuevo)
+  - Archivos generados movidos a `gh-pages/data/` para una separación limpia entre aplicación y datos.
+
+### Changed
+- **Refactorización de Ubicación** (cambio)
+  - **Eliminación de Lógica Hardcoded**: Se eliminaron diccionarios manuales de alias, adivinanza de países por keywords y hacks específicos (ej. Amazon HQ).
+  - **Geocodificación 100% API**: El sistema ahora confía plenamente en Google Maps API (con fallback a Nominatim) para la resolución de lugares.
+- **Frontend Actualizado** (cambio)
+  - `config.js` y `index.html` actualizados para consumir datos desde la nueva ruta `gh-pages/data/`.
+
+### Added
 - **Soporte multi-ciudad** (nuevo)
   - Estructura de configuración por ciudades en `feeds.yaml`
   - Generación de calendarios separados por ciudad (ej: `cronquiles-cdmx.ics`, `cronquiles-gdl.ics`)
