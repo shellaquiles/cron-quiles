@@ -13,7 +13,17 @@ Esta guía te ayudará a configurar GitHub Pages para publicar automáticamente 
    - Selecciona **GitHub Actions** como fuente
 5. Guarda los cambios
 
-### 2. Verificar Permisos del Workflow
+### 2. Configurar Secretos del Repositorio
+
+Para que la geocodificación funcione correctamente en CI (usando Google Maps en lugar de Nominatim), debes agregar tu API Key:
+
+1. Ve a **Settings** (Configuración) -> **Secrets and variables** -> **Actions**.
+2. Haz clic en **New repository secret**.
+3. Nombre: `GOOGLE_MAPS_API_KEY`
+4. Valor: Tu API Key de Google Maps Platform.
+5. Haz clic en **Add secret**.
+
+### 3. Verificar Permisos del Workflow
 
 El workflow `.github/workflows/update-events.yml` ya está configurado con los permisos necesarios:
 
