@@ -8,6 +8,12 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 ## [Unreleased]
 
 ### Added
+- **Generación Dinámica de Estados** (nuevo)
+  - **Detección Automática**: El sistema ahora detecta el estado de cada evento y genera calendarios individuales por estado (`mx-cmx`, `mx-jal`, etc.) sin configuración manual.
+  - **Normalización ISO**: Se mejoró el reconocimiento de abreviaturas de estados (ej: `MX-N.L.` -> `Nuevo León`) usando estándares ISO.
+  - **Frontend Reactivo**: Las pestañas de navegación en la web se generan dinámicamente basándose en los metadatos de los estados procesados.
+  - **Simplificación de Configuración**: `feeds.yaml` ahora usa una lista plana, desacoplada de la lógica de ciudades/estados.
+  - **Pruebas de Normalización**: Implementadas pruebas automatizadas para asegurar la correcta clasificación de eventos por estado.
 - **Infraestructura de Datos y CI** (nuevo)
   - **Persistencia de Datos**: CI (GitHub Actions) ahora persiste `data/history.json` y `data/geocoding_cache.json` entre ejecuciones.
   - **Inyección de Secretos**: CI ahora utiliza `GOOGLE_MAPS_API_KEY` para geocodificación precisa en la nube.
