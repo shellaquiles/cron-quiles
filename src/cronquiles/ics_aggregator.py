@@ -915,7 +915,7 @@ class ICSAggregator:
         calendar.add("prodid", "-//Cron-Quiles//ICS Aggregator//EN")
         calendar.add("version", "2.0")
         calendar.add("calscale", "GREGORIAN")
-        
+
         # Incluir nombre de ciudad en los metadatos si está disponible
         if city_name:
             calendar.add("X-WR-CALNAME", f"Cron-Quiles - Eventos Tech {city_name}")
@@ -923,7 +923,7 @@ class ICSAggregator:
         else:
             calendar.add("X-WR-CALNAME", "Cron-Quiles - Eventos Tech México")
             calendar.add("X-WR-CALDESC", "Calendario unificado de eventos tech en México")
-        
+
         calendar.add("X-WR-TIMEZONE", "America/Mexico_City")
 
         for event_norm in events:
@@ -962,8 +962,9 @@ class ICSAggregator:
             "total_events": len(events),
             "city": city_name,
             "communities": [
-                {"name": f["name"], "description": f.get("description", "")}
+                {"name": f.get("name"), "description": f.get("description", "")}
                 for f in (feeds or [])
+                if isinstance(f, dict) and f.get("name")
             ],
             "events": [event.to_dict() for event in events],
         }
