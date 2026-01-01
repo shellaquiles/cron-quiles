@@ -222,3 +222,10 @@ git update-index --no-assume-unchanged gh-pages/data/cronquiles-gdl.json
 ```
 
 Piensa paso a paso, justifica decisiones técnicas y genera código limpio, comentado y listo para producción ligera. **Nunca dejes documentación desactualizada.**
+
+### ♻️ Reutilización de Código
+
+**Prefiere siempre utilizar funciones y módulos ya existentes antes de crear código nuevo.**
+- No reinventes la rueda: si ya existe una utilidad para parsear fechas, normalizar texto o manejar errores, úsala.
+- Antes de implementar una nueva funcionalidad, revisa `src/cronquiles/utils.py` (si existe), `models.py` o `main.py` para ver si hay lógica similar que puedas reutilizar o refactorizar.
+- Mantén el código DRY (Don't Repeat Yourself) y modular.
