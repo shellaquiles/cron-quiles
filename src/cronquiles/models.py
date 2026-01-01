@@ -829,23 +829,40 @@ class EventNormalized:
     def _standardize_location(self):
         """Homologiza nombres y códigos, especialmente para CDMX."""
         # 1. Corregir país
-        if self.country == "Mexico":
+        if self.country == "Mexico" or self.country_code == "MX":
             self.country = "México"
+            self.country_code = "MX"
 
-        # 2. Corregir state_code para CDMX (homologar MX-CMX)
+        # 2. Normalizar state_code
+        if self.state_code:
+            # Remover puntos y espacios, convertir a uppercase
+            sc = self.state_code.replace(".", "").replace(" ", "").upper()
+
+            # Mapeos específicos de abreviaturas comunes en México para ISO pycountry
+            mx_mappings = {
+                "MX-NL": "MX-NLE",
+                "MX-TLAX": "MX-TLA",
+            }
+
+            # Asegurar prefijo MX- si es México y el código es corto (ej: JAL -> MX-JAL)
+            if self.country_code == "MX" and not sc.startswith("MX-"):
+                sc = f"MX-{sc}"
+
+            if self.country_code == "MX":
+                sc = mx_mappings.get(sc, sc)
+
+            self.state_code = sc
+
+        # 3. Corregir state_code para CDMX (homologar MX-CMX)
         if self.state_code in ["MX-CDMX", "MX-DF", "MX-DIF", "CDMX", "DF"]:
             self.state_code = "MX-CMX"
             self.state = "Ciudad de México"
 
-        # 3. Homologar CDMX
+        # 4. Homologar CDMX
         if self.state_code == "MX-CMX":
             # city_code standar para CDMX
             if not self.city_code or self.city_code == "ciudaddemexico":
                 self.city_code = "cdmx"
-
-
-        else:
-            pass
 
     def _parse_google_address(self, raw_data: Dict) -> Dict:
         """

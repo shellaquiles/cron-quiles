@@ -379,6 +379,27 @@ class ICSAggregator:
         logger.info(f"Final aggregated count (History + Live): {len(final_events)}")
         return final_events
 
+    def group_events_by_state(
+        self, events: List[EventNormalized]
+    ) -> Dict[str, List[EventNormalized]]:
+        """
+        Agrupa los eventos por su state_code.
+
+        Args:
+            events: Lista de eventos normalizados
+
+        Returns:
+            Dict de {state_code: List[EventNormalized]}
+        """
+        grouped = {}
+        for event in events:
+            # El código de estado ya debería estar normalizado por models.py
+            code = event.state_code if event.state_code else "ONLINE"
+            if code not in grouped:
+                grouped[code] = []
+            grouped[code].append(event)
+        return grouped
+
     def generate_ics(
         self,
         events: List[EventNormalized],

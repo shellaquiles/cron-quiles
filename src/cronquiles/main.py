@@ -24,7 +24,7 @@ import yaml
 # Cargar variables de entorno desde .env si existe
 load_dotenv()
 
-from .ics_aggregator import ICSAggregator, logger
+from .ics_aggregator import ICSAggregator, EventNormalized, logger
 
 
 
@@ -165,83 +165,67 @@ def get_feeds_for_city(city_config: Dict) -> List[str]:
     return feed_urls
 
 
-def process_city(
-    city_slug: str,
-    city_config: Dict,
-    output_dir: Optional[str],
-    args: argparse.Namespace,
-) -> bool:
+def generate_states_metadata(grouped_events: Dict[str, List[EventNormalized]], output_file: str):
     """
-    Procesa los feeds de una ciudad y genera los archivos ICS/JSON.
-
-    Args:
-        city_slug: Slug de la ciudad (ej: 'cdmx', 'gdl')
-        city_config: Configuración de la ciudad
-        output_dir: Directorio de salida (None para usar el directorio actual)
-        args: Argumentos del CLI
-
-    Returns:
-        True si el procesamiento fue exitoso, False en caso contrario
+    Genera un archivo JSON con los metadatos de los estados que tienen eventos.
     """
-    # Usar el slug de la configuración, o el key del diccionario como fallback
-    actual_slug = city_config.get("slug", city_slug)
-    city_name = city_config.get("name", city_slug)
-    logger.info(f"\n{'='*60}")
-    logger.info(f"Procesando ciudad: {city_name} ({actual_slug})")
-    logger.info(f"{'='*60}")
+    import json
+    import pycountry
 
-    # Extraer feeds de la ciudad
-    feed_urls = get_feeds_for_city(city_config)
-    if not feed_urls:
-        logger.warning(f"No se encontraron feeds para {city_name}")
-        return False
+    metadata = []
 
-    logger.info(f"Cargados {len(feed_urls)} feeds para {city_name}")
+    # 1. Agregar entrada para México (unificado)
+    total_events = sum(len(evs) for evs in grouped_events.values())
+    metadata.append({
+        "code": "mexico",
+        "name": "México",
+        "slug": "mexico",
+        "event_count": total_events,
+        "emoji": "🇲🇽"
+    })
 
-    # Inicializar agregador
-    aggregator = ICSAggregator(timeout=args.timeout, max_retries=args.retries)
+    # 2. Agregar estados individuales
+    for code, events in grouped_events.items():
+        if not events: continue
 
-    # Agregar feeds
-    logger.info("Iniciando agregación de feeds...")
-    events = aggregator.aggregate_feeds(feed_urls)
+        name = code
+        emoji = "📅"
 
-    if not events:
-        logger.warning(f"No se encontraron eventos en los feeds de {city_name}")
-        # Continuaremos para generar archivos vacíos y evitar 404 en el frontend
+        if code.startswith("MX-"):
+            try:
+                sub = pycountry.subdivisions.get(code=code)
+                if sub:
+                    name = sub.name
+                    # Emojis personalizados para estados populares
+                    emojis = {
+                        "MX-CMX": "🌮",
+                        "MX-JAL": "💻",
+                        "MX-NLE": "🏔️",
+                        "MX-PUE": "🌋",
+                        "MX-YUC": "🏖️"
+                    }
+                    emoji = emojis.get(code, "🌵")
+            except:
+                pass
+        elif code == "ONLINE":
+            name = "Online"
+            emoji = "🌐"
 
-    logger.info(f"Total de eventos procesados: {len(events)}")
+        metadata.append({
+            "code": code,
+            "name": name,
+            "slug": code.lower(),
+            "event_count": len(events),
+            "emoji": emoji
+        })
 
-    # Determinar nombres de archivos de salida
-    if output_dir:
-        output_path = Path(output_dir)
-        output_path.mkdir(parents=True, exist_ok=True)
-        ics_file = str(output_path / f"cronquiles-{actual_slug}.ics")
-        json_file = str(output_path / f"cronquiles-{actual_slug}.json")
-    else:
-        ics_file = f"cronquiles-{actual_slug}.ics"
-        json_file = f"cronquiles-{actual_slug}.json"
+    # Ordenar: México primero, luego por nombre
+    metadata.sort(key=lambda x: (x["code"] != "mexico", x["name"]))
 
-    # Generar ICS con metadata de la ciudad
-    aggregator.generate_ics(events, ics_file, city_name=city_name)
-    logger.info(f"✓ Calendario ICS generado: {ics_file}")
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(metadata, f, indent=2, ensure_ascii=False)
 
-    # Generar JSON si se solicita
-    if args.json:
-        aggregator.generate_json(events, json_file, city_name=city_name, feeds=city_config.get("feeds", []))
-        logger.info(f"✓ Archivo JSON generado: {json_file}")
-
-    # Estadísticas (usando todos los eventos para reporte)
-    tags_count = {}
-    for event in events:
-        for tag in event.tags:
-            tags_count[tag] = tags_count.get(tag, 0) + 1
-
-    if tags_count:
-        logger.info(f"\nTags detectados para {city_name}:")
-        for tag, count in sorted(tags_count.items(), key=lambda x: x[1], reverse=True):
-            logger.info(f"  {tag}: {count} eventos")
-
-    return True
+    logger.info(f"✓ Metadatos de estados generados: {output_file} ({len(metadata)} estados)")
 
 
 def main():
@@ -249,40 +233,27 @@ def main():
     parser = argparse.ArgumentParser(
         description="Cron-Quiles - Agregador de calendarios tech (Meetup, Luma, ICS)",
         formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog="""
-Ejemplos:
-  python main.py
-  python main.py --feeds feeds.yaml
-  python main.py --feeds list_icals.txt --json
-  python main.py --output eventos.ics --json
-        """,
     )
 
     parser.add_argument(
         "--feeds",
         type=str,
         default="config/feeds.yaml",
-        help="Archivo de configuración de feeds (YAML o TXT). Por defecto: config/feeds.yaml",
+        help="Archivo de configuración de feeds (YAML). Por defecto: config/feeds.yaml",
     )
 
     parser.add_argument(
-        "--output",
+        "--output-dir",
         type=str,
-        default="cronquiles.ics",
-        help="Nombre del archivo ICS de salida. Por defecto: cronquiles.ics",
+        default="gh-pages/data",
+        help="Directorio de salida para los archivos generados. Por defecto: gh-pages/data",
     )
 
     parser.add_argument(
         "--json",
         action="store_true",
-        help="Generar también archivo JSON con los eventos",
-    )
-
-    parser.add_argument(
-        "--json-output",
-        type=str,
-        default="cronquiles.json",
-        help="Nombre del archivo JSON de salida. Por defecto: cronquiles.json",
+        default=True,
+        help="Generar también archivos JSON (activado por defecto)",
     )
 
     parser.add_argument(
@@ -303,23 +274,11 @@ Ejemplos:
         "--verbose", action="store_true", help="Modo verbose (más logging)"
     )
 
-
-    parser.add_argument(
-        "--city",
-        type=str,
-        help="Generar calendario para una ciudad específica (ej: cdmx, gdl). Requiere feeds.yaml con estructura de ciudades.",
-    )
-
     parser.add_argument(
         "--all-cities",
         action="store_true",
-        help="Generar calendarios para todas las ciudades definidas en feeds.yaml",
-    )
-
-    parser.add_argument(
-        "--output-dir",
-        type=str,
-        help="Directorio donde guardar los archivos de salida. Si se especifica, los archivos se nombrarán como cronquiles-{ciudad}.ics/json",
+        default=True,
+        help="Procesar todos los feeds y generar archivos por estado (activado por defecto)",
     )
 
     args = parser.parse_args()
@@ -328,165 +287,76 @@ Ejemplos:
     if args.verbose:
         logger.setLevel(logging.DEBUG)
 
-    # Cargar configuración
     feeds_path = Path(args.feeds)
-
     if not feeds_path.exists():
         logger.error(f"Archivo de feeds no encontrado: {args.feeds}")
-        logger.info(
-            "Crea un archivo config/feeds.yaml o usa --feeds para especificar otro archivo"
-        )
         sys.exit(1)
 
-    # Modo multi-ciudad: procesar ciudades desde YAML
-    if args.city or args.all_cities:
-        if feeds_path.suffix.lower() not in [".yaml", ".yml"]:
-            logger.error("Los modos --city y --all-cities requieren un archivo YAML")
-            sys.exit(1)
+    # 1. Cargar feeds
+    feed_config = load_feeds_from_yaml(str(feeds_path))
+    if not feed_config:
+        logger.error("No se encontraron feeds para procesar")
+        sys.exit(1)
 
-        cities = load_cities_from_yaml(str(feeds_path))
-        if not cities:
-            logger.error("No se encontraron ciudades en el archivo YAML")
-            sys.exit(1)
+    logger.info(f"Cargados {len(feed_config)} feeds desde {args.feeds}")
 
-        if args.city:
-            # Procesar una ciudad específica
-            if args.city not in cities:
-                logger.error(
-                    f"Ciudad '{args.city}' no encontrada. Ciudades disponibles: {', '.join(cities.keys())}"
-                )
-                sys.exit(1)
-            city_config = cities[args.city]
-            success = process_city(args.city, city_config, args.output_dir, args)
-            if not success:
-                sys.exit(1)
-        elif args.all_cities:
-            # Procesar todas las ciudades (excluyendo categorías especiales)
-            # Por el momento, excluimos "otras_ciudades" que agrupa comunidades
-            # de otras ciudades pero no genera calendarios separados aún
-            excluded_cities = {"otras_ciudades"}
-            active_cities = {
-                slug: config
-                for slug, config in cities.items()
-                if slug not in excluded_cities
-            }
+    # 2. Inicializar agregador
+    aggregator = ICSAggregator(timeout=args.timeout, max_retries=args.retries)
 
-            if not active_cities:
-                logger.error("No se encontraron ciudades activas para procesar")
-                sys.exit(1)
+    # 3. Agregar y unificar eventos
+    logger.info("Iniciando agregación de feeds...")
+    all_events = aggregator.aggregate_feeds(feed_config)
 
-            logger.info(f"Procesando {len(active_cities)} ciudades...")
-            success_count = 0
-            for city_slug, city_config in active_cities.items():
-                if process_city(city_slug, city_config, args.output_dir, args):
-                    success_count += 1
-            logger.info(f"\n✓ Procesadas {success_count}/{len(active_cities)} ciudades exitosamente")
+    if not all_events:
+        logger.warning("No se encontraron eventos en los feeds.")
+        sys.exit(0)
 
-            # Generar calendario unificado para México (todas las ciudades)
-            logger.info(f"\n{'='*60}")
-            logger.info("Generando calendario unificado: México (mexico)")
-            logger.info(f"{'='*60}")
+    logger.info(f"Total de eventos unificados: {len(all_events)}")
 
-            all_feeds = []
-            for city_slug, city_config in active_cities.items():
-                city_feeds = city_config.get("feeds", [])
-                # Asegurar que cada feed tenga el formato correcto para el agregador
-                formatted_feeds = []
-                for f in city_feeds:
-                    if isinstance(f, str):
-                        formatted_feeds.append({"url": f, "name": None})
-                    elif isinstance(f, dict):
-                        formatted_feeds.append(f)
-                all_feeds.extend(formatted_feeds)
+    # 4. Preparar directorio de salida
+    output_path = Path(args.output_dir)
+    output_path.mkdir(parents=True, exist_ok=True)
 
-            mexico_config = {
-                "name": "México",
-                "slug": "mexico",
-                "timezone": "America/Mexico_City",
-                "feeds": all_feeds
-            }
+    # 5. Generar archivo unificado de México
+    mex_ics = str(output_path / "cronquiles-mexico.ics")
+    mex_json = str(output_path / "cronquiles-mexico.json")
 
-            if process_city("mexico", mexico_config, args.output_dir, args):
-                logger.info("\n✓ Calendario unificado de México generado exitosamente")
-        else:
-            logger.error("Debes especificar --city o --all-cities")
-            sys.exit(1)
+    aggregator.generate_ics(all_events, mex_ics, city_name="México")
+    if args.json:
+        aggregator.generate_json(all_events, mex_json, city_name="México", feeds=feed_config)
 
-    else:
-        # Modo legacy: procesar feeds directamente (compatibilidad hacia atrás)
-        if feeds_path.suffix.lower() in [".yaml", ".yml"]:
-            # Intentar cargar como formato legacy primero
+    logger.info("✓ Calendario unificado de México generado.")
+
+    # 6. Agrupar por estado y generar archivos dinámicos
+    grouped_events = aggregator.group_events_by_state(all_events)
+
+    for state_code, events in grouped_events.items():
+        # Normalizar slug para el nombre del archivo
+        slug = state_code.lower()
+        ics_file = str(output_path / f"cronquiles-{slug}.ics")
+        json_file = str(output_path / f"cronquiles-{slug}.json")
+
+        # Intentar obtener nombre legible del estado
+        state_name = state_code
+        if state_code.startswith("MX-"):
             try:
-                with open(str(feeds_path), "r", encoding="utf-8") as f:
-                    data = yaml.safe_load(f)
-                # Si tiene 'cities', sugerir usar --city o --all-cities
-                if "cities" in data:
-                    logger.warning(
-                        "El archivo YAML tiene estructura de ciudades. "
-                        "Usa --city <ciudad> o --all-cities para procesar ciudades específicas."
-                    )
-                    logger.info(f"Ciudades disponibles: {', '.join(data['cities'].keys())}")
-                    sys.exit(1)
-                # Si no tiene 'cities', usar formato legacy
-                feed_urls = load_feeds_from_yaml(str(feeds_path))
-            except Exception as e:
-                logger.error(f"Error cargando feeds: {e}")
-                sys.exit(1)
-        else:
-            # Asumir formato de texto plano
-            feed_urls = load_feeds_from_txt(str(feeds_path))
+                import pycountry
+                sub = pycountry.subdivisions.get(code=state_code)
+                if sub: state_name = sub.name
+            except: pass
+        elif state_code == "ONLINE":
+            state_name = "Online"
 
-        if not feed_urls:
-            logger.error("No se encontraron feeds para procesar")
-            sys.exit(1)
-
-        logger.info(f"Cargados {len(feed_urls)} feeds desde {args.feeds}")
-
-        # Inicializar agregador
-        aggregator = ICSAggregator(timeout=args.timeout, max_retries=args.retries)
-
-        # Agregar feeds
-        logger.info("Iniciando agregación de feeds...")
-        events = aggregator.aggregate_feeds(feed_urls)
-
-        if not events:
-            logger.warning("No se encontraron eventos en los feeds")
-            sys.exit(0)
-
-        logger.info(f"Total de eventos procesados: {len(events)}")
-
-        # Determinar archivo de salida
-        if args.output_dir:
-            output_path = Path(args.output_dir)
-            output_path.mkdir(parents=True, exist_ok=True)
-            ics_file = str(output_path / args.output)
-            json_file = str(output_path / args.json_output) if args.json else None
-        else:
-            ics_file = args.output
-            json_file = args.json_output if args.json else None
-
-        # Generar ICS
-        aggregator.generate_ics(events, ics_file)
-        logger.info(f"✓ Calendario ICS generado: {ics_file}")
-
-        # Generar JSON si se solicita
+        aggregator.generate_ics(events, ics_file, city_name=state_name)
         if args.json:
-            aggregator.generate_json(events, json_file)
-            logger.info(f"✓ Archivo JSON generado: {json_file}")
+            aggregator.generate_json(events, json_file, city_name=state_name)
 
+        logger.info(f"✓ Archivos generados para: {state_name} ({len(events)} eventos)")
 
-        # Estadísticas
-        tags_count = {}
-        for event in events:
-            for tag in event.tags:
-                tags_count[tag] = tags_count.get(tag, 0) + 1
+    # 7. Generar metadatos para el frontend
+    generate_states_metadata(grouped_events, str(output_path / "states_metadata.json"))
 
-        if tags_count:
-            logger.info("\nTags detectados:")
-            for tag, count in sorted(tags_count.items(), key=lambda x: x[1], reverse=True):
-                logger.info(f"  {tag}: {count} eventos")
-
-    logger.info("\n✓ Proceso completado exitosamente")
+    logger.info(f"\n✓ Proceso completado exitosamente. Archivos en: {args.output_dir}")
 
 
 if __name__ == "__main__":
