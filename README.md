@@ -17,7 +17,7 @@ Puedes ver la lista completa de comunidades integradas en [Comunidades Tech en M
 ## ✨ Características
 
 - ✅ Consume múltiples feeds ICS públicos (Meetup, Luma, Google Calendar)
-- ✅ **Soporte avanzado para Luma**: Extracción de links desde descripción y soporte de `lu.ma`
+- ✅ **Soporte avanzado para Luma**: Soporte de `lu.ma`, enriquecimiento de ubicaciones URL-only y limpieza de coordenadas.
 - ✅ Normaliza eventos (título, fecha, hora, ubicación, link, organizador)
 - ✅ **Deduplicación inteligente**:
   - Merge de links: Agrupa URLs alternativas en la descripción del evento principal

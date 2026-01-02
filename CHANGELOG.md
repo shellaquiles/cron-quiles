@@ -15,6 +15,14 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
   - **Próximos Eventos**: Si el mes actual no tiene eventos, el calendario muestra automáticamente una lista de eventos futuros.
   - **Información de Debug** (temporalmente usada para ver problemas, ya removida).
 
+### Changed
+- **Mejoras en Luma** (cambio)
+  - **Enriquecimiento de Ubicación**: Ahora se procesan eventos de Luma que solo tienen URL como ubicación.
+  - **Limpieza de Direcciones**: Se eliminan coordenadas numéricas al principio de las direcciones de Luma para mejorar la geocodificación.
+- **Normalización de Títulos** (cambio)
+  - **Manejo de Pipes**: Los caracteres `|` en los títulos originales se reemplazan por ` - ` para evitar conflictos con el separador interno del sistema.
+
+
 ### Fixed
 - **Visualización de Eventos Manuales**: Corregido bug donde eventos futuros no se mostraban si el mes actual estaba vacío.
 - **Filtro de Zona Horaria**: Corregido el filtrado de eventos en el calendario que ocultaba eventos debido a desfases horarios (ej: eventos al final del mes).

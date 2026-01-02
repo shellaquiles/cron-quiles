@@ -70,10 +70,10 @@ Código fuente principal del proyecto. Contiene:
 - **`__init__.py`**: Inicialización del paquete Python
 - **`main.py`**: CLI principal con argumentos y lógica de ejecución
 - **`ics_aggregator.py`**: Módulo con la clase `ICSAggregator`.
-  - `ICSAggregator`: Agrega múltiples feeds ICS, coordina el enriquecimiento de datos de Meetup (vía JSON-LD/Next.js), deduplica eventos y genera ICS/JSON.
+  - `ICSAggregator`: Agrega múltiples feeds ICS, coordina el enriquecimiento de datos de Meetup y Luma, deduplica eventos y genera ICS/JSON.
 - **`history_manager.py`**: Maneja la carga, guardado y fusión (merge) inteligente de eventos históricos desde `data/history.json`.
 - **`models.py`**: Contiene la clase `EventNormalized` y lógica de limpieza.
-  - `EventNormalized`: Clase que representa un evento unificado. Normaliza eventos, detecta online/presencial, extrae grupo/ubicación, formatea títulos e implementa el **enriquecimiento de ubicación desde Meetup**.
+  - `EventNormalized`: Clase que representa un evento unificado. Normaliza eventos, detecta online/presencial, extrae grupo/ubicación, formatea títulos e implementa el **enriquecimiento de ubicación desde Meetup y Luma**.
 
 ### `config/`
 Archivos de configuración:
