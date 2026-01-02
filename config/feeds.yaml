@@ -238,20 +238,21 @@ feeds:
     nivel que tengas. No somos expertxs, somos Sudo.
 
 # ------------------------------------------
-# FEEDS COMENTADOS (HISTORIAL)
+# FEEDS LUMA
 # ------------------------------------------
-#- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu
-#  name: "Mexico Tech Week"
-#  description: "Calendario oficial de Mexico Tech Week 2025."
-#- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-okVQAVdbyFhL8Zo
-#  name: "Python CDMX"
-#  description: "Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles."
-#- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-2gq3mjgfAclpoCp
-#  name: "AI/IA CDMX"
-#  description: "Canal de Meetup de la comunidad de IA en Ciudad de México."
-#- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-gKhhS6fDDrX3mqz
-#  name: "Claude Users Group"
-#  description: ""
-#- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl
-#  name: "PyTalavera"
-#  description: "Comunidad Pythonista en Puebla. Eventos, charlas y networking para entusiastas de Python en la región."
+# Mexico Tech Week
+- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu
+  name: "Mexico Tech Week"
+  description: "Calendario oficial de Mexico Tech Week 2025."
+# Python CDMX
+- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-f8GxWvNMvBvvuLb
+  name: "Python CDMX"
+  description: "Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles."
+# Claude Users Group
+- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-gKhhS6fDDrX3mqz
+  name: "Claude Users Group"
+  description: ""
+# PyTalavera
+- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl
+  name: "PyTalavera"
+  description: "Comunidad Pythonista en Puebla. Eventos, charlas y networking para entusiastas de Python en la región."
