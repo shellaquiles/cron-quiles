@@ -28,7 +28,8 @@ Lo que realmente está pasando.
 
 - OS: [ej. Linux, macOS, Windows]
 - Python version: [ej. 3.10.5]
-- Versión del proyecto: [ej. 1.0.0]
+- Versión del proyecto: [ej. 1.7.0]
+- Ciudad/Estado afectado: [ej. MX-YUC, Online, etc.]
 
 ## Logs/Errores
 
