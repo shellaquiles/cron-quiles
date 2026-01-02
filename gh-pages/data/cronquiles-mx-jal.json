@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-02T00:14:15.253228+00:00",
-  "total_events": 39,
+  "generated_at": "2026-01-02T03:54:55.928805+00:00",
+  "total_events": 40,
   "city": "Jalisco",
   "communities": [
     {
@@ -34,6 +34,10 @@
     {
       "name": "Meetup México",
       "description": "Comunidad general de usuarios y organizadores de Meetup en México."
+    },
+    {
+      "name": "KCD Guadalajara",
+      "description": "Organizador de eventos manuales (ej: KCD Guadalajara 2026)"
     }
   ],
   "events": [
@@ -45,7 +49,10 @@
       "organizer": "meetup-mexico",
       "dtstart": "2022-07-23T19:00:00-05:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "frontend",
+        "mobile"
+      ],
       "source": "https://www.meetup.com/meetup-mexico/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -64,7 +71,12 @@
       "organizer": "eventloop",
       "dtstart": "2023-09-14T09:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "backend",
+        "frontend",
+        "mobile",
+        "web"
+      ],
       "source": "https://www.meetup.com/eventloop/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -83,7 +95,14 @@
       "organizer": "j4guanatos",
       "dtstart": "2024-02-29T19:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "data",
+        "frontend",
+        "security",
+        "mobile",
+        "python",
+        "web"
+      ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -102,7 +121,13 @@
       "organizer": "j4guanatos",
       "dtstart": "2024-05-30T19:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "backend",
+        "frontend",
+        "mobile",
+        "python",
+        "ai"
+      ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -121,7 +146,12 @@
       "organizer": "j4guanatos",
       "dtstart": "2024-06-27T19:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "frontend",
+        "mobile",
+        "web",
+        "ai"
+      ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -140,7 +170,13 @@
       "organizer": "j4guanatos",
       "dtstart": "2024-08-29T19:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "frontend",
+        "devops",
+        "mobile",
+        "web",
+        "ai"
+      ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -159,7 +195,14 @@
       "organizer": "amazon-web-services-jalisco",
       "dtstart": "2024-09-12T19:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "data",
+        "frontend",
+        "devops",
+        "mobile",
+        "web",
+        "cloud"
+      ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -178,7 +221,11 @@
       "organizer": "j4guanatos",
       "dtstart": "2024-09-26T19:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "frontend",
+        "web",
+        "cloud"
+      ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -197,7 +244,11 @@
       "organizer": "amazon-web-services-jalisco",
       "dtstart": "2024-10-30T19:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "frontend",
+        "web",
+        "cloud"
+      ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -216,7 +267,9 @@
       "organizer": "",
       "dtstart": "2025-02-01T01:00:00+00:00",
       "dtend": "2025-02-01T03:00:00+00:00",
-      "tags": [],
+      "tags": [
+        "ai"
+      ],
       "source": "https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?organizer=https%3A%2F%2Fwww.eventbrite.com.mx%2Fo%2Fmexai-comunidad-de-ia-106303535081",
       "country": "México",
       "country_code": "MX",
@@ -235,7 +288,12 @@
       "organizer": "j4guanatos",
       "dtstart": "2025-02-20T19:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "data",
+        "frontend",
+        "web",
+        "ai"
+      ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -254,7 +312,9 @@
       "organizer": "",
       "dtstart": "2025-02-27T00:00:00+00:00",
       "dtend": "2025-02-27T03:00:00+00:00",
-      "tags": [],
+      "tags": [
+        "ai"
+      ],
       "source": "https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?organizer=https%3A%2F%2Fwww.eventbrite.com.mx%2Fo%2Fmexai-comunidad-de-ia-106303535081",
       "country": "México",
       "country_code": "MX",
@@ -273,7 +333,12 @@
       "organizer": "amazon-web-services-jalisco",
       "dtstart": "2025-03-13T18:30:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "frontend",
+        "web",
+        "cloud",
+        "ai"
+      ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -292,7 +357,12 @@
       "organizer": "rust-mx",
       "dtstart": "2025-03-21T19:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "backend",
+        "frontend",
+        "cloud",
+        "ai"
+      ],
       "source": "https://www.meetup.com/rust-mx/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -311,7 +381,9 @@
       "organizer": "",
       "dtstart": "2025-03-27T00:00:00+00:00",
       "dtend": "2025-03-27T02:00:00+00:00",
-      "tags": [],
+      "tags": [
+        "ai"
+      ],
       "source": "https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?organizer=https%3A%2F%2Fwww.eventbrite.com.mx%2Fo%2Fmexai-comunidad-de-ia-106303535081",
       "country": "México",
       "country_code": "MX",
@@ -330,7 +402,12 @@
       "organizer": "devops-workshop",
       "dtstart": "2025-03-28T08:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "devops",
+        "mobile",
+        "cloud",
+        "ai"
+      ],
       "source": "https://www.meetup.com/devops-workshop/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -349,7 +426,12 @@
       "organizer": "html5-ciudad-de-mexico",
       "dtstart": "2025-03-28T08:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "devops",
+        "web",
+        "cloud",
+        "ai"
+      ],
       "source": "https://www.meetup.com/html5-ciudad-de-mexico/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -368,7 +450,15 @@
       "organizer": "amazon-web-services-jalisco",
       "dtstart": "2025-04-24T18:30:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "backend",
+        "frontend",
+        "devops",
+        "mobile",
+        "web",
+        "cloud",
+        "ai"
+      ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -387,7 +477,11 @@
       "organizer": "j4guanatos",
       "dtstart": "2025-04-24T19:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "backend",
+        "frontend",
+        "mobile"
+      ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -406,7 +500,9 @@
       "organizer": "",
       "dtstart": "2025-05-01T00:30:00+00:00",
       "dtend": "2025-05-01T04:00:00+00:00",
-      "tags": [],
+      "tags": [
+        "ai"
+      ],
       "source": "https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?organizer=https%3A%2F%2Fwww.eventbrite.com.mx%2Fo%2Fmexai-comunidad-de-ia-106303535081",
       "country": "México",
       "country_code": "MX",
@@ -425,7 +521,9 @@
       "organizer": "",
       "dtstart": "2025-05-29T00:30:00+00:00",
       "dtend": "2025-05-29T03:30:00+00:00",
-      "tags": [],
+      "tags": [
+        "ai"
+      ],
       "source": "https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?organizer=https%3A%2F%2Fwww.eventbrite.com.mx%2Fo%2Fmexai-comunidad-de-ia-106303535081",
       "country": "México",
       "country_code": "MX",
@@ -444,7 +542,12 @@
       "organizer": "amazon-web-services-jalisco",
       "dtstart": "2025-05-29T18:30:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "frontend",
+        "security",
+        "web",
+        "cloud"
+      ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -463,7 +566,11 @@
       "organizer": "j4guanatos",
       "dtstart": "2025-06-07T10:30:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "frontend",
+        "security",
+        "web"
+      ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -482,7 +589,10 @@
       "organizer": "rust-mx",
       "dtstart": "2025-06-19T19:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "frontend",
+        "ai"
+      ],
       "source": "https://www.meetup.com/rust-mx/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -501,7 +611,9 @@
       "organizer": "",
       "dtstart": "2025-07-02T00:30:00+00:00",
       "dtend": "2025-07-02T02:00:00+00:00",
-      "tags": [],
+      "tags": [
+        "ai"
+      ],
       "source": "https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?organizer=https%3A%2F%2Fwww.eventbrite.com.mx%2Fo%2Fmexai-comunidad-de-ia-106303535081",
       "country": "México",
       "country_code": "MX",
@@ -520,7 +632,12 @@
       "organizer": "amazon-web-services-jalisco",
       "dtstart": "2025-07-24T18:30:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "data",
+        "frontend",
+        "web",
+        "cloud"
+      ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -539,7 +656,9 @@
       "organizer": "",
       "dtstart": "2025-07-31T00:00:00+00:00",
       "dtend": "2025-07-31T02:00:00+00:00",
-      "tags": [],
+      "tags": [
+        "ai"
+      ],
       "source": "https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?organizer=https%3A%2F%2Fwww.eventbrite.com.mx%2Fo%2Fmexai-comunidad-de-ia-106303535081",
       "country": "México",
       "country_code": "MX",
@@ -558,7 +677,9 @@
       "organizer": "j4guanatos",
       "dtstart": "2025-07-31T19:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "mobile"
+      ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -577,7 +698,9 @@
       "organizer": "",
       "dtstart": "2025-08-27T00:30:00+00:00",
       "dtend": "2025-08-27T02:00:00+00:00",
-      "tags": [],
+      "tags": [
+        "ai"
+      ],
       "source": "https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?organizer=https%3A%2F%2Fwww.eventbrite.com.mx%2Fo%2Fmexai-comunidad-de-ia-106303535081",
       "country": "México",
       "country_code": "MX",
@@ -596,7 +719,13 @@
       "organizer": "amazon-web-services-jalisco",
       "dtstart": "2025-09-25T18:30:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "security",
+        "mobile",
+        "web",
+        "cloud",
+        "ai"
+      ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -615,7 +744,10 @@
       "organizer": "j4guanatos",
       "dtstart": "2025-09-25T19:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "web",
+        "python"
+      ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -655,7 +787,14 @@
       "organizer": "amazon-web-services-jalisco",
       "dtstart": "2025-10-28T19:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "frontend",
+        "security",
+        "devops",
+        "mobile",
+        "web",
+        "cloud"
+      ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -695,7 +834,10 @@
       "organizer": "eventloop",
       "dtstart": "2025-10-30T09:30:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "frontend",
+        "web"
+      ],
       "source": "https://www.meetup.com/eventloop/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -714,7 +856,14 @@
       "organizer": "amazon-web-services-jalisco",
       "dtstart": "2025-11-20T18:30:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "data",
+        "backend",
+        "frontend",
+        "web",
+        "cloud",
+        "ai"
+      ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -754,7 +903,13 @@
       "organizer": "amazon-web-services-jalisco",
       "dtstart": "2025-11-27T18:30:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "frontend",
+        "mobile",
+        "web",
+        "cloud",
+        "ai"
+      ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
       "country_code": "MX",
@@ -785,6 +940,30 @@
       "city_code": "guadalajara",
       "address": "C. Manuel López Cotilla 1505, Col Americana, Lafayette, 44160 Guadalajara, Jal., México",
       "hash_key": "comunidad de ia en guadalajara reunin de diciembre 2025_2025-12-16T00:00:00+00:00"
+    },
+    {
+      "title": "KCD Guadalajara|KCD Guadalajara 2026|México|Jalisco",
+      "description": "Kubernetes Community Days Guadalajara, un evento para profesionales de la nube y Kubernetes.",
+      "url": "https://community.cncf.io/kcd-guadalajara/",
+      "location": "Holiday Inn Guadalajara Expo, an IHG Hotel 2500 Avenida Adolfo López Mateos Sur, Zapopan, 45050",
+      "organizer": "KCD Guadalajara",
+      "dtstart": "2026-02-28T08:00:00-06:00",
+      "dtend": "2026-02-28T19:00:00-06:00",
+      "tags": [
+        "kubernetes",
+        "conferencia",
+        "devops",
+        "cloud"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Jalisco",
+      "state_code": "MX-JAL",
+      "city": "Guadalajara",
+      "city_code": "guadalajara",
+      "address": "Holiday Inn Guadalajara Expo, an IHG Hotel 2500 Avenida Adolfo López Mateos Sur, Zapopan, 45050",
+      "hash_key": "kcd guadalajara 2026_2026-02-28T14:00:00+00:00"
     }
   ]
 }

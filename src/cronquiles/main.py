@@ -21,6 +21,7 @@ import os
 
 from dotenv import load_dotenv
 import yaml
+import json
 
 # Cargar variables de entorno desde .env si existe
 load_dotenv()
@@ -142,6 +143,31 @@ def load_feeds_from_txt(txt_file: str) -> list:
     except Exception as e:
         logger.error(f"Error cargando feeds desde texto: {e}")
         sys.exit(1)
+
+
+def load_manual_events(json_file: str) -> list:
+    """
+    Carga eventos manuales desde un archivo JSON.
+
+    Args:
+        json_file: Ruta al archivo JSON
+
+    Returns:
+        Lista de eventos (diccionarios)
+    """
+    try:
+        if not os.path.exists(json_file):
+            return []
+
+        with open(json_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            if not isinstance(data, list):
+                logger.warning(f"Formato de eventos manuales inválido en {json_file}")
+                return []
+            return data
+    except Exception as e:
+        logger.error(f"Error cargando eventos manuales: {e}")
+        return []
 
 
 def normalize_url(url: str) -> str:
@@ -322,12 +348,18 @@ def main():
 
     logger.info(f"Cargados {len(feed_config)} feeds desde {args.feeds}")
 
+    # 1.1 Cargar eventos manuales
+    manual_events_path = Path("config/manual_events.json")
+    manual_data = load_manual_events(str(manual_events_path))
+    if manual_data:
+        logger.info(f"Cargados {len(manual_data)} eventos manuales desde {manual_events_path}")
+
     # 2. Inicializar agregador
     aggregator = ICSAggregator(timeout=args.timeout, max_retries=args.retries)
 
     # 3. Agregar y unificar eventos
     logger.info("Iniciando agregación de feeds...")
-    all_events = aggregator.aggregate_feeds(feed_config)
+    all_events = aggregator.aggregate_feeds(feed_config, manual_data=manual_data)
 
     if not all_events:
         logger.warning("No se encontraron eventos en los feeds.")
@@ -374,6 +406,21 @@ def main():
         state_source_urls = {normalize_url(e.source_url) for e in events if e.source_url}
         # Filtramos los feeds originales comparando versiones normalizadas
         state_feeds = [f for f in feed_config if normalize_url(f.get("url")) in state_source_urls]
+
+        # Incluir organizadores de eventos manuales en la lista de comunidades de este estado
+        manual_organizers = {}
+        for event in events:
+            if event.source_url == "Manual" and event.organizer:
+                if event.organizer not in manual_organizers:
+                    manual_organizers[event.organizer] = {
+                        "name": event.organizer,
+                        "description": f"Organizador de eventos manuales (ej: {event.summary})"
+                    }
+
+        # Añadir organizadores manuales que no estén ya en state_feeds
+        for org_name, org_data in manual_organizers.items():
+            if not any(f.get("name") == org_name for f in state_feeds):
+                state_feeds.append(org_data)
 
         aggregator.generate_ics(events, ics_file, city_name=state_name)
         if args.json:

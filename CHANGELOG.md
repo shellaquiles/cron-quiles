@@ -7,6 +7,19 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ## [Unreleased]
 
+### Added
+- **Soporte para Eventos Manuales** (nuevo)
+  - Configuración vía `config/manual_events.json` para eventos sin feed ICS.
+  - Integración automática en el calendario unificado.
+- **Mejoras en Calendario Web** (nuevo)
+  - **Próximos Eventos**: Si el mes actual no tiene eventos, el calendario muestra automáticamente una lista de eventos futuros.
+  - **Información de Debug** (temporalmente usada para ver problemas, ya removida).
+
+### Fixed
+- **Visualización de Eventos Manuales**: Corregido bug donde eventos futuros no se mostraban si el mes actual estaba vacío.
+- **Filtro de Zona Horaria**: Corregido el filtrado de eventos en el calendario que ocultaba eventos debido a desfases horarios (ej: eventos al final del mes).
+- **Display Móvil**: Reportado y en seguimiento (Issue #9) problemas de diseño en pantallas pequeñas.
+
 ## [1.5.0] - 2026-01-01
 
 ### Added

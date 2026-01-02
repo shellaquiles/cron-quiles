@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-02T00:14:15.257094+00:00",
+  "generated_at": "2026-01-02T03:54:55.935677+00:00",
   "total_events": 1,
   "city": "Tlaxcala",
   "communities": [
@@ -17,7 +17,13 @@
       "organizer": "meetup-mexico",
       "dtstart": "2023-04-21T11:00:00-06:00",
       "dtend": null,
-      "tags": [],
+      "tags": [
+        "frontend",
+        "security",
+        "mobile",
+        "web",
+        "ai"
+      ],
       "source": "https://www.meetup.com/meetup-mexico/events/?type=past",
       "country": "México",
       "country_code": "MX",

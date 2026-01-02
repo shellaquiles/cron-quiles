@@ -118,34 +118,65 @@ export class Calendar {
     renderEventList(year, month) {
         const eventsListContainer = DOM.create('div', { className: 'calendar-events-list', id: 'calendar-events-list' });
 
-        const firstDay = new Date(year, month, 1);
-        const lastDay = new Date(year, month + 1, 0);
-
+        // Fix Timezone Bug: Normalize comparisons to year/month parts
+        // Filter events belonging to this month (regardless of time)
         const monthEvents = this.events.filter(e => {
             if (!e.dtstart) return false;
             const d = new Date(e.dtstart);
-            return d >= firstDay && d <= lastDay;
+            return d.getFullYear() === year && d.getMonth() === month;
         }).sort((a, b) => new Date(a.dtstart) - new Date(b.dtstart));
 
         const monthNames = i18n.t('months');
-
         const titleText = `${i18n.t('cal.eventsOf')} ${monthNames[month]} ${year}`;
         eventsListContainer.appendChild(DOM.create('h3', { text: titleText }));
 
-        if (monthEvents.length === 0) {
-            eventsListContainer.appendChild(DOM.create('p', {
-                text: i18n.t('calendar.noEvents'),
-                attributes: { style: 'color: var(--terminal-gray);' }
-            }));
-        } else {
+        if (monthEvents.length > 0) {
             const listWrapper = DOM.create('div', { className: 'calendar-month-events' });
             monthEvents.forEach(event => {
                 listWrapper.appendChild(this.createEventCard(event));
             });
             eventsListContainer.appendChild(listWrapper);
+        } else {
+            // Month is empty -> Show "No events" BUT check for upcoming events
+            eventsListContainer.appendChild(DOM.create('p', {
+                text: i18n.t('calendar.noEvents'),
+                attributes: { style: 'color: var(--terminal-gray); margin-bottom: var(--spacing-lg);' }
+            }));
+
+            // Show Upcoming Events Logic
+            const nextEvents = this.getUpcomingEvents(year, month, 3);
+            if (nextEvents.length > 0) {
+                eventsListContainer.appendChild(DOM.create('h3', {
+                    text: '🔜 Próximos eventos', // Hardcoded fallback or add to i18n
+                    attributes: { style: 'color: var(--terminal-green); margin-top: var(--spacing-xl);' }
+                }));
+
+                const listWrapper = DOM.create('div', { className: 'calendar-month-events' });
+                nextEvents.forEach(event => {
+                    listWrapper.appendChild(this.createEventCard(event));
+                });
+                eventsListContainer.appendChild(listWrapper);
+            }
         }
 
         this.container.appendChild(eventsListContainer);
+    }
+
+    /**
+     * Get next N events after the specified month
+     */
+    getUpcomingEvents(currentYear, currentMonth, limit) {
+        // Create a date for the start of next month
+        const nextMonthStart = new Date(currentYear, currentMonth + 1, 1);
+
+        return this.events
+            .filter(e => {
+                if (!e.dtstart) return false;
+                const d = new Date(e.dtstart);
+                return d >= nextMonthStart;
+            })
+            .sort((a, b) => new Date(a.dtstart) - new Date(b.dtstart))
+            .slice(0, limit);
     }
 
     createEventCard(event) {

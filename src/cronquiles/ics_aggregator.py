@@ -243,18 +243,46 @@ class ICSAggregator:
         logger.info(f"Deduplication: {len(events)} -> {len(deduplicated)} events")
         return deduplicated
 
-    def aggregate_feeds(self, feed_urls: List[str]) -> List[EventNormalized]:
+    def process_manual_events(self, manual_data: List[Dict]) -> List[EventNormalized]:
         """
-        Agrega múltiples feeds ICS.
+        Procesa una lista de eventos manuales (diccionarios).
+
+        Args:
+            manual_data: Lista de diccionarios con datos de eventos
+
+        Returns:
+            Lista de objetos EventNormalized
+        """
+        manual_events = []
+        for data in manual_data:
+            try:
+                # Asegurar que source sea "Manual" si no está presente
+                if "source" not in data:
+                    data["source"] = "Manual"
+
+                event_norm = EventNormalized.from_dict(data)
+                manual_events.append(event_norm)
+            except Exception as e:
+                logger.error(f"Error processing manual event: {e}")
+                continue
+
+        logger.info(f"Processed {len(manual_events)} manual events")
+        return manual_events
+
+    def aggregate_feeds(self, feed_urls: List[str], manual_data: Optional[List[Dict]] = None) -> List[EventNormalized]:
+        """
+        Agrega múltiples feeds ICS y opcionalmente eventos manuales.
 
         Args:
             feed_urls: Lista de dicts [{'url': ..., 'name': ...}] o strings (compatibilidad)
+            manual_data: Lista de diccionarios con eventos manuales
 
         Returns:
             Lista de eventos normalizados y deduplicados
         """
         all_events = []
 
+        # 1. Cargar eventos de feeds ICS
         for feed in feed_urls:
             # Manejar compatibilidad con lista de strings (por si acaso o tests)
             if isinstance(feed, str):
@@ -272,10 +300,15 @@ class ICSAggregator:
                 events = self.extract_events(calendar, url, name)
                 all_events.extend(events)
 
+        # 2. Cargar eventos manuales si existen
+        if manual_data:
+            manual_events = self.process_manual_events(manual_data)
+            all_events.extend(manual_events)
+
         # Enriquecer locaciones de Meetup (solo si no tienen locación o es muy corta)
         # Hacemos esto antes de deduplicar para mejorar la calidad de los datos
         meetup_events = [
-            e for e in all_events if "meetup.com" in e.url and len(e.location) < 15
+            e for e in all_events if e.url and "meetup.com" in e.url and len(e.location) < 15
         ]
         if meetup_events:
             logger.info(

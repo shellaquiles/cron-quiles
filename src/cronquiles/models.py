@@ -293,12 +293,12 @@ class EventNormalized:
                 pass
 
         # Instanciar (esto ejecutará init y re-normalización, lo cual está bien)
-        # Pero queremos preservar valores exactos del historial si ya estaban normalizados
+        # Pero queremos preservar valores exactos del historial/manual si ya estaban normalizados
         instance = cls(event, data.get("source", ""), feed_name=data.get("organizer"))
 
         # Sobreescribir con valores exactos del diccionario para evitar re-normalización destructiva
         # Restaurar título normalizado para hashing consistente
-        # El título en JSON de historial es "Grupo|Resumen|Location", necesitamos extraer "Resumen"
+        # El título en JSON es "Grupo|Resumen|Location" o solo el título
         formatted_title = data.get("title", "")
         clean_summary_extracted = ""
 
@@ -337,7 +337,9 @@ class EventNormalized:
              instance.dtend = None
 
         if "tags" in data:
-            instance.tags = set(data["tags"])
+            # Combinar tags del sistema con los manuales
+            manual_tags = set(data["tags"])
+            instance.tags = instance.tags.union(manual_tags)
 
         instance.source_url = data.get("source", "")
 
@@ -350,7 +352,7 @@ class EventNormalized:
             instance.state_code = data.get("state_code", "")
             instance.city = data.get("city", "")
             instance.city_code = data.get("city_code", "")
-            instance.address = data.get("address", "")
+            instance.address = data.get("address", data.get("location", ""))
 
             # --- Healing / Migration ---
             # Si el país es "Mexico" (sin acento) o la ciudad parece un lugar (headquarters, etc)

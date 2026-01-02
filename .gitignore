@@ -37,6 +37,7 @@ wheels/
 # Config files
 !config/feeds.yaml
 !config/list_icals.txt
+!config/manual_events.json
 # Archivos de prueba temporales
 config/test.txt
 # Google Calendar credentials (nunca subir al repo)
