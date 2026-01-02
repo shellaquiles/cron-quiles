@@ -1349,3 +1349,149 @@ class EventNormalized:
             logger.warning(f"Error enriching location from {self.url}: {e}")
 
         return False
+
+    def enrich_location_from_luma(self, session: requests.Session) -> bool:
+        """
+        Intenta extraer la ubicación detallada de la página de Luma.
+        """
+        # Soportar lu.ma y luma.com
+        if "lu.ma" not in self.url and "luma.com" not in self.url:
+            return False
+
+        try:
+            headers = {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+            }
+            logger.debug(f"Enriching location from Luma: {self.url}")
+            response = session.get(self.url, headers=headers, timeout=10)
+            if response.status_code != 200:
+                return False
+
+            html = response.text
+
+            # Buscar __NEXT_DATA__
+            next_data_match = re.search(
+                r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>',
+                html,
+                re.DOTALL,
+            )
+
+            if next_data_match:
+                try:
+                    data = json.loads(next_data_match.group(1))
+                    event_data = (
+                        data.get("props", {})
+                        .get("pageProps", {})
+                        .get("initialData", {})
+                        .get("data", {})
+                        .get("event", {})
+                    )
+
+                    if not event_data:
+                        return False
+
+                    new_location_parts = []
+
+                    # 0. [NUEVO] Intentar extraer Venue Name del HTML (Google Maps Link)
+                    # <a href="https://www.google.com/maps/search/?api=1&query=Pinterest%20M%C3%A9xico...>
+                    try:
+                        maps_link_match = re.search(
+                            r'href="https://www\.google\.com/maps/search/\?api=1&amp;query=([^"&]+)',
+                            html
+                        )
+                        if not maps_link_match:
+                             # Try without &amp;
+                             maps_link_match = re.search(
+                                r'href="https://www\.google\.com/maps/search/\?api=1&query=([^"&]+)',
+                                html
+                            )
+
+                        if maps_link_match:
+                            venue_name_encoded = maps_link_match.group(1)
+                            # Decode URL (Pinterest%20M%C3%A9xico -> Pinterest México)
+                            from urllib.parse import unquote
+                            venue_name = unquote(venue_name_encoded).strip()
+                            # Replace + with space just in case
+                            venue_name = venue_name.replace("+", " ")
+
+                            if venue_name and venue_name.lower() != "google maps":
+                                new_location_parts.append(venue_name)
+                                logger.debug(f"Extracted venue name from Luma: {venue_name}")
+                    except Exception as e:
+                        logger.warning(f"Error extracting venue name Luma: {e}")
+
+                    # 1. Verificar geo_address_info
+                    geo_info = event_data.get("geo_address_info", {})
+                    if geo_info:
+                        # Extraer campos disponibles
+                        # Prioridad: full_address > address + city > city + region
+
+                        full_address = geo_info.get("full_address")
+                        address = geo_info.get("address")
+                        sublocality = geo_info.get("sublocality")
+                        city = geo_info.get("city")
+                        city_state = geo_info.get("city_state")
+                        region = geo_info.get("region")
+                        country = geo_info.get("country")
+
+                        if full_address:
+                            new_location_parts.append(full_address)
+                        else:
+                            # Construir
+                            if address: new_location_parts.append(address)
+                            if sublocality: new_location_parts.append(sublocality)
+                            if city: new_location_parts.append(city)
+                            elif city_state: new_location_parts.append(city_state)
+
+                            if region and region != city: new_location_parts.append(region)
+                            if country: new_location_parts.append(country)
+
+                    # 2. Verificar location_type para saber si es online
+                    loc_type = event_data.get("location_type")
+                    if loc_type == "online":
+                        self.forced_online = True
+                        self.location = "Online"
+                        # Extraer link si es posible
+                        virtual_info = event_data.get("virtual_info", {})
+                        if virtual_info.get("video_call_url"):
+                             # Podríamos agregar esto a la descripción si quisiéramos
+                             pass
+                        return True
+
+                    # 3. Si tenemos location física
+                    if new_location_parts:
+                        new_location = ", ".join(new_location_parts).strip()
+
+                        # CLEANUP: Remover coordenadas si aparecen al principio (Luma las pone en full_address)
+                        # Ej: "19.42,-99.1725, Ciudad de México" -> "Ciudad de México"
+                        # Patrón: número(s).número(s), número(s).número(s),
+                        new_location = re.sub(r'^-?\d+\.\d+,\s*-?\d+\.\d+,?\s*', '', new_location)
+
+                        # Limpiar duplicados (ej: Ciudad de México, Ciudad de México)
+                        # Un set preservando orden sería ideal pero simple string manipulation funciona
+                        # para casos obvios
+
+                        if new_location and len(new_location) > 5:
+                            self.location = new_location
+                            self.address = new_location
+
+                            # Re-extraer detalles geográficos
+                            loc_details = self._extract_location_details()
+                            self.country = loc_details["country"]
+                            self.country_code = loc_details["country_code"]
+                            self.state = loc_details["state"]
+                            self.state_code = loc_details["state_code"]
+                            self.city = loc_details["city"]
+                            self.city_code = loc_details["city_code"]
+
+                            self._standardize_location()
+                            return True
+
+                except Exception as e:
+                    logger.warning(f"Error parsing Luma JSON: {e}")
+                    pass
+
+        except Exception as e:
+            logger.warning(f"Error enriching location from Luma {self.url}: {e}")
+
+        return False

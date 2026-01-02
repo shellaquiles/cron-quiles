@@ -320,6 +320,26 @@ class ICSAggregator:
                     time.sleep(1)
                 event.enrich_location_from_meetup(self.session)
 
+        # Enriquecer locaciones de Luma
+        luma_events = [
+            e for e in all_events
+            if e.url and ("lu.ma" in e.url or "luma.com" in e.url) and (
+                not e.location
+                or "Check event page" in e.location
+                or len(e.location) < 15
+                or e.location.strip().startswith("http")
+            )
+        ]
+        if luma_events:
+            logger.info(
+                f"Found {len(luma_events)} Luma events to potentially enrich"
+            )
+            for i, event in enumerate(luma_events):
+                # Pequeño delay para ser respetuosos
+                if i > 0:
+                    time.sleep(1)
+                event.enrich_location_from_luma(self.session)
+
         # Geocodear eventos que no tienen estado o ciudad clara
         # Solo eventos nuevos (all_events aún no contiene la historia)
         to_geocode = [
