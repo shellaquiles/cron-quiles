@@ -227,6 +227,12 @@ class EventNormalized:
 
         # Extraer y normalizar campos usando el limpiador
         raw_summary = self._clean_ical_property(event.get("summary"))
+
+        # [FIX] Reemplazar pipes por guiones para evitar truncamiento accidental
+        # ya que usamos | como separador interno en nuestro formato
+        if "|" in raw_summary:
+            raw_summary = raw_summary.replace("|", " - ")
+
         # Guardar summary limpio para uso posterior (display)
         self.summary = raw_summary
         self.title = self._normalize_title(raw_summary)
