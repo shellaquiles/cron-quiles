@@ -495,6 +495,17 @@ Las contribuciones son bienvenidas. Algunas ideas:
 - Mejorar el manejo de eventos recurrentes
 - Agregar filtros por tags o fechas
 
+## 👥 Contribuidores
+
+¡Gracias a las personas que hacen posible este proyecto!
+
+- **Ricardo Lira** ([@richlira](https://github.com/richlira)) - I18n, Gestión de Comunidades.
+- **Ivan Galaviz** ([@ivanovishado](https://github.com/ivanovishado)) - Soporte para Guadalajara.
+- **AdanGQ** ([@pixelead0](https://github.com/pixelead0)) - Core, Infraestructura CI, UI Estilo Terminal.
+
+> [!TIP]
+> Si quieres aparecer aquí, ¡envía tu Pull Request con nuevas comunidades o mejoras!
+
 ## 📧 Contacto
 
 Para la comunidad **Shellaquiles** 🐢
