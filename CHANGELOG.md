@@ -7,6 +7,8 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ## [Unreleased]
 
+## [1.5.0] - 2026-01-01
+
 ### Added
 - **Generación Dinámica de Estados** (nuevo)
   - **Detección Automática**: El sistema ahora detecta el estado de cada evento y genera calendarios individuales por estado (`mx-cmx`, `mx-jal`, etc.) sin configuración manual.
@@ -15,6 +17,10 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
   - **Frontend Reactivo**: Las pestañas de navegación en la web se generan dinámicamente basándose en los metadatos de los estados procesados.
   - **Simplificación de Configuración**: `feeds.yaml` ahora usa una lista plana, desacoplada de la lógica de ciudades/estados.
   - **Pruebas de Normalización**: Implementadas pruebas automatizadas para asegurar la correcta clasificación de eventos por estado.
+
+## [1.4.0] - 2026-01-01
+
+### Added
 - **Infraestructura de Datos y CI** (nuevo)
   - **Persistencia de Datos**: CI (GitHub Actions) ahora persiste `data/history.json` y `data/geocoding_cache.json` entre ejecuciones.
   - **Inyección de Secretos**: CI ahora utiliza `GOOGLE_MAPS_API_KEY` para geocodificación precisa en la nube.
@@ -30,6 +36,8 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
   - **Geocodificación 100% API**: El sistema ahora confía plenamente en Google Maps API (con fallback a Nominatim) para la resolución de lugares.
 - **Frontend Actualizado** (cambio)
   - `config.js` y `index.html` actualizados para consumir datos desde la nueva ruta `gh-pages/data/`.
+
+## [1.3.0] - 2025-12-31
 
 ### Added
 - **Soporte multi-ciudad** (nuevo)
@@ -49,6 +57,10 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
   - Estructura del proyecto documentada
   - Próximas mejoras posibles listadas
   - **Sección sobre archivos generados**: Instrucciones para no commitear manualmente `cronquiles.ics` y `cronquiles.json` (solo GitHub Actions los commitea)
+
+## [1.2.0] - 2025-12-31
+
+### Added
 - **Formato de títulos inteligente** (nuevo)
   - Formato automático según tipo de evento: `Grupo|Nombre evento|Online` o `Grupo|Nombre evento|País|Estado`
   - Detección automática de eventos online vs presenciales basada en palabras clave
@@ -80,7 +92,6 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
   - Detección automática de errores en desarrollo local con mensajes útiles
   - Mejor manejo de errores con instrucciones claras
   - Interfaz más limpia y enfocada
-
 - **Persistencia de Historial y Scraping** (nuevo)
   - Nuevo módulo `HistoryManager` para preservar eventos pasados y realizar "smart merge"
   - Herramienta `scrape_meetup_history.py` para obtener direcciones físicas detalladas (calle, número) de Meetup
@@ -119,7 +130,9 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 - Corregida la repetición de nombres de grupo en descripciones de Meetup
 - Corregido el espaciado/indentación erróneo en el renderizado de descripciones web (white-space issue)
 
-### Added (versiones anteriores)
+## [1.1.0] - 2025-12-29
+
+### Added
 - Agregador de feeds ICS públicos
 - Normalización de eventos (título, fecha, ubicación, etc.)
 - Deduplicación inteligente de eventos similares
@@ -141,12 +154,6 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
   - Soporte para suscripción WebCal
   - Actualización automática cada 6 horas
 
-### Changed
-- (Ningún cambio aún)
-
-### Fixed
-- (Ningún fix aún)
-
 ### Removed
 - **Código y archivos obsoletos**
   - Eliminado soporte para Google Calendar (`src/cronquiles/google_calendar.py`) para simplificar el proyecto.
@@ -154,9 +161,7 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
   - Limpieza de scripts de debug temporales (`tools/`).
   - Modularización: `EventNormalized` movido a `src/cronquiles/models.py`.
 
----
-
-## [1.0.0] - 2024-01-XX
+## [1.0.0] - 2025-12-29
 
 ### Added
 - Versión inicial del proyecto
@@ -166,5 +171,10 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 - Documentación completa en README.md
 - Ejemplos de configuración
 
-[Unreleased]: https://github.com/shellaquiles/cron-quiles/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/shellaquiles/cron-quiles/compare/v1.5.0...HEAD
+[1.5.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.4.0...v1.5.0
+[1.4.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.3.0...v1.4.0
+[1.3.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.2.0...v1.3.0
+[1.2.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.1.0...v1.2.0
+[1.1.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/shellaquiles/cron-quiles/releases/tag/v1.0.0
