@@ -47,8 +47,8 @@ El proyecto es completamente funcional y opera bajo Github Actions.
 9.  **Logging Detallado**: Registra el proceso de agregación y estadísticas de eventos procesados.
 10. **Tags automáticos**: Detección por keywords en título y descripción (python, ai, cloud, etc).
 11. **Interfaz web moderna**: Diseño terminal estilo shellaquiles-org con calendario visual embebido.
-    *   Tabs de ciudad para cambiar entre CDMX y Guadalajara.
-    *   Comunidades dinámicas cargadas desde JSON (no hardcodeadas).
+    *   Tabs de ciudad generados dinámicamente.
+    *   Comunidades dinámicas cargadas desde JSON (mapeo robusto por URL).
 12. **Manejo robusto de timezones**: Conversión a UTC para lógica interna, preservando original.
 13. **Publicación automática**: GitHub Actions actualiza feeds y Pages cada 6 horas.
 14. **Persistencia de Historial**: Sistema de "memoria" (`data/history.json`) para preservar eventos pasados y mejorar datos (direcciones completas) mediante scraping.
@@ -114,10 +114,10 @@ cron-quiles/
 │   ├── js/                   # Scripts JavaScript
 │   ├── index.html            # Página principal con calendario embebido y tabs
 │   ├── data/                 # Subdirectorio de datos
-│   │   ├── cronquiles-cdmx.ics   # Calendario ICS de CDMX (generado)
-│   │   ├── cronquiles-cdmx.json  # JSON de CDMX con eventos y comunidades (generado)
-│   │   ├── cronquiles-gdl.ics    # Calendario ICS de Guadalajara (generado)
-│   │   └── cronquiles-gdl.json   # JSON de GDL con eventos y comunidades (generado)
+│   │   ├── cronquiles-mexico.ics # Calendario unificado (Todo México)
+│   │   ├── cronquiles-mx-cmx.json # JSON de CDMX (generado)
+│   │   ├── cronquiles-mx-jal.json # JSON de Jalisco (generado)
+│   │   └── states_metadata.json  # Manifiesto dinámico
 │   ├── serve.py             # Servidor HTTP para desarrollo local
 │   └── serve.sh             # Script para iniciar servidor
 ├── tests/
@@ -191,10 +191,10 @@ cron-quiles/
 
 Los siguientes archivos son generados automáticamente y **NO deben incluirse en commits manuales**:
 
-* `gh-pages/data/cronquiles-cdmx.ics` - Calendario ICS de CDMX
-* `gh-pages/data/cronquiles-cdmx.json` - JSON de eventos de CDMX
-* `gh-pages/data/cronquiles-gdl.ics` - Calendario ICS de Guadalajara
-* `gh-pages/data/cronquiles-gdl.json` - JSON de eventos de Guadalajara
+* `gh-pages/data/cronquiles-mx-cmx.ics` - Calendario ICS de CDMX
+* `gh-pages/data/cronquiles-mx-cmx.json` - JSON de eventos de CDMX
+* `gh-pages/data/cronquiles-mx-jal.ics` - Calendario ICS de Jalisco
+* `gh-pages/data/cronquiles-mx-jal.json` - JSON de eventos de Jalisco
 
 **Razón**: Estos archivos se generan automáticamente por GitHub Actions cada 6 horas. Si los commiteas manualmente, pueden causar conflictos innecesarios y el workflow los sobrescribirá de todas formas.
 
