@@ -121,8 +121,8 @@ Estos archivos se generan al ejecutar `main.py` y se suben al repo automáticame
 La carpeta `gh-pages/` contiene todos los archivos necesarios para GitHub Pages:
 - **`index.html`**: Página principal con diseño terminal y calendario embebido
 - **`data/`**: Subdirectorio con los archivos de datos
-  - **`cronquiles.ics`**: Calendario ICS para descarga y suscripción WebCal
-  - **`cronquiles.json`**: Datos JSON para uso programático
+  - **`cronquiles-mexico.ics`**: Calendario ICS nacional para descarga y suscripción WebCal
+  - **`cronquiles-mx-cmx.json`**: Ejemplo de datos JSON por estado
 - **`serve.py`** / **`serve.sh`**: Scripts para probar el sitio localmente
 - **`README-LOCAL.md`**: Instrucciones para desarrollo local
 

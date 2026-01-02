@@ -29,6 +29,7 @@ Puedes ver la lista completa de comunidades integradas en [Comunidades Tech en M
 - ✅ Genera ICS unificado y JSON opcional
 - ✅ CLI simple y fácil de usar
 - ✅ **Generación dinámica de estados** (nuevo): Clasifica eventos automáticamente por su `state_code` (MX-CMX, MX-JAL, etc.)
+- ✅ **Mapeo robusto de comunidades** (nuevo): Asocia metadatos de comunidades a cada ciudad usando normalización de URLs.
 - ✅ **Interfaz web inteligente** (nuevo): Renderiza pestañas de estados dinámicamente basándose en los datos disponibles
 - ✅ **Interfaz web moderna** con diseño terminal y calendario embebido
 - ✅ **Enriquecimiento de ubicación** automático para eventos de Meetup
