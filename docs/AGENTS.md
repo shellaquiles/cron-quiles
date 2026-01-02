@@ -25,11 +25,9 @@ El proyecto es completamente funcional y opera bajo Github Actions.
 
 **Funcionalidades Implementadas:**
 1.  **Soporte Multifuente**: Consume feeds ICS de Meetup, Luma y Google Calendar.
-2.  **Soporte Multi-Ciudad**: Genera calendarios separados por ciudad (CDMX, GDL, Puebla, Monterrey).
-    *   Configuración por ciudad con `name`, `slug` y `timezone`.
-    *   CLI con argumentos `--city`, `--all-cities` y `--output-dir`.
-    *   **Calendario Unificado México**: Al usar `--all-cities`, genera automáticamente un calendario agregado con todos los eventos de todas las ciudades (`cronquiles-mexico.ics/json`).
-    *   Frontend con tabs para cambiar entre ciudades, incluyendo vista "México" por defecto.
+2.  **Generación Dinámica de Estados**: Detecta el estado de cada evento y genera calendarios separados automáticamente (`mx-cmx`, `mx-jal`, etc.).
+    *   **Normalización ISO**: Transforma abreviaturas comunes (ej: MX-NL) a códigos ISO estándar.
+    *   **Frontend Inteligente**: Renderiza pestañas de navegación dinámicamente basándose en el manifiesto `states_metadata.json`.
 3.  **Deduplicación Robusta**:
     *   Identifica eventos duplicados por título y hora (tolerancia ±2 horas).
     *   Normaliza zonas horarias a UTC para evitar falsos positivos.
@@ -40,17 +38,17 @@ El proyecto es completamente funcional y opera bajo Github Actions.
 5.  **Formato de Títulos Estandarizado**: `Grupo|Nombre|Ubicación` (ej: "Python CDMX|Charla Mensual|Online").
 6.  **Detección de Ubicación**: Clasifica automáticamente como "Online", "Ciudad, Estado" o "País".
     *   Enriquecimiento de ubicación desde Meetup (JSON-LD/Next.js).
-7.  **Sistema de Configuración**: `feeds.yaml` centralizado con estructura por ciudades.
-    *   Estructura: `cities.{slug}.feeds[]` para organizar feeds por ciudad.
-    *   Cada ciudad define `name`, `slug`, `timezone` y lista de `feeds`.
+7.  **Sistema de Configuración**: `feeds.yaml` con lista plana de feeds.
+    *   Estructura: `feeds: [ {url, name, description}, ... ]`.
+    *   Desacoplado de la lógica de ciudades: el sistema infiere el estado desde cada evento.
 8.  **Salida Dual**: Genera tanto `.ics` (para calendarios) como `.json` (para integraciones).
     *   Archivos por ciudad: `cronquiles-{slug}.ics` y `cronquiles-{slug}.json`.
     *   JSON incluye campo `communities` con lista de comunidades integradas.
 9.  **Logging Detallado**: Registra el proceso de agregación y estadísticas de eventos procesados.
 10. **Tags automáticos**: Detección por keywords en título y descripción (python, ai, cloud, etc).
 11. **Interfaz web moderna**: Diseño terminal estilo shellaquiles-org con calendario visual embebido.
-    *   Tabs de ciudad para cambiar entre CDMX y Guadalajara.
-    *   Comunidades dinámicas cargadas desde JSON (no hardcodeadas).
+    *   Tabs de ciudad generados dinámicamente.
+    *   Comunidades dinámicas cargadas desde JSON (mapeo robusto por URL).
 12. **Manejo robusto de timezones**: Conversión a UTC para lógica interna, preservando original.
 13. **Publicación automática**: GitHub Actions actualiza feeds y Pages cada 6 horas.
 14. **Persistencia de Historial**: Sistema de "memoria" (`data/history.json`) para preservar eventos pasados y mejorar datos (direcciones completas) mediante scraping.
@@ -70,17 +68,11 @@ Estrategia implementada:
 
 ### Output
 
-**Archivos por ciudad** (generados con `--all-cities`):
-* `gh-pages/data/cronquiles-cdmx.ics` - Calendario ICS de Ciudad de México
-* `gh-pages/data/cronquiles-cdmx.json` - JSON con eventos y comunidades de CDMX
-* `gh-pages/data/cronquiles-gdl.ics` - Calendario ICS de Guadalajara
-* `gh-pages/data/cronquiles-gdl.json` - JSON con eventos y comunidades de GDL
-* `gh-pages/data/cronquiles-puebla.ics` - Calendario ICS de Puebla
-* `gh-pages/data/cronquiles-puebla.json` - JSON con eventos y comunidades de Puebla
-* `gh-pages/data/cronquiles-monterrey.ics` - Calendario ICS de Monterrey
-* `gh-pages/data/cronquiles-monterrey.json` - JSON con eventos y comunidades de Monterrey
-* `gh-pages/data/cronquiles-mexico.ics` - Calendario ICS unificado (todas las ciudades)
-* `gh-pages/data/cronquiles-mexico.json` - JSON unificado (todas las ciudades)
+**Archivos generados dinámicamente**:
+* `gh-pages/data/states_metadata.json` - Manifiesto para el frontend
+* `gh-pages/data/cronquiles-mexico.ics/json` - Calendario nacional
+* `gh-pages/data/cronquiles-{slug}.ics/json` - Calendarios por estado (ej: `cronquiles-mx-cmx.ics`)
+* `gh-pages/data/cronquiles-online.ics/json` - Eventos sin ubicación física
 
 **Interfaz web**:
 * `gh-pages/index.html` - Página con calendario embebido y tabs por ciudad
@@ -122,10 +114,10 @@ cron-quiles/
 │   ├── js/                   # Scripts JavaScript
 │   ├── index.html            # Página principal con calendario embebido y tabs
 │   ├── data/                 # Subdirectorio de datos
-│   │   ├── cronquiles-cdmx.ics   # Calendario ICS de CDMX (generado)
-│   │   ├── cronquiles-cdmx.json  # JSON de CDMX con eventos y comunidades (generado)
-│   │   ├── cronquiles-gdl.ics    # Calendario ICS de Guadalajara (generado)
-│   │   └── cronquiles-gdl.json   # JSON de GDL con eventos y comunidades (generado)
+│   │   ├── cronquiles-mexico.ics # Calendario unificado (Todo México)
+│   │   ├── cronquiles-mx-cmx.json # JSON de CDMX (generado)
+│   │   ├── cronquiles-mx-jal.json # JSON de Jalisco (generado)
+│   │   └── states_metadata.json  # Manifiesto dinámico
 │   ├── serve.py             # Servidor HTTP para desarrollo local
 │   └── serve.sh             # Script para iniciar servidor
 ├── tests/
@@ -199,10 +191,10 @@ cron-quiles/
 
 Los siguientes archivos son generados automáticamente y **NO deben incluirse en commits manuales**:
 
-* `gh-pages/data/cronquiles-cdmx.ics` - Calendario ICS de CDMX
-* `gh-pages/data/cronquiles-cdmx.json` - JSON de eventos de CDMX
-* `gh-pages/data/cronquiles-gdl.ics` - Calendario ICS de Guadalajara
-* `gh-pages/data/cronquiles-gdl.json` - JSON de eventos de Guadalajara
+* `gh-pages/data/cronquiles-mx-cmx.ics` - Calendario ICS de CDMX
+* `gh-pages/data/cronquiles-mx-cmx.json` - JSON de eventos de CDMX
+* `gh-pages/data/cronquiles-mx-jal.ics` - Calendario ICS de Jalisco
+* `gh-pages/data/cronquiles-mx-jal.json` - JSON de eventos de Jalisco
 
 **Razón**: Estos archivos se generan automáticamente por GitHub Actions cada 6 horas. Si los commiteas manualmente, pueden causar conflictos innecesarios y el workflow los sobrescribirá de todas formas.
 

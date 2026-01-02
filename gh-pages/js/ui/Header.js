@@ -34,7 +34,7 @@ export class Header {
     async updateLastModified() {
         const city = appStore.get('city');
         const element = document.getElementById('last-update');
-        if (!element) return;
+        if (!element || !city) return;
 
         element.textContent = i18n.t('footer.loading');
 

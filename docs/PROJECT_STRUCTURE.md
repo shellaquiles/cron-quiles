@@ -51,8 +51,9 @@ cron-quiles/
 │   ├── css/                        # Estilos CSS
 │   ├── js/                         # Scripts JavaScript
 │   ├── data/                       # Datos generados (JSON/ICS)
-│   │   ├── cronquiles.ics
-│   │   └── cronquiles.json
+│   │   ├── states_metadata.json     # Manifiesto dinámico para el frontend
+│   │   ├── cronquiles-mexico.ics    # Calendario nacional unificado
+│   │   └── cronquiles-{slug}.ics    # Calendarios por estado (dinámicos)
 │   ├── index.html                  # Página principal con calendario embebido
 │   ├── serve.py                    # Servidor HTTP para desarrollo local
 │   ├── serve.sh                    # Script para iniciar servidor local
@@ -109,9 +110,9 @@ Configuración de GitHub:
 ## Archivos Generados
 
 Estos archivos se generan al ejecutar `main.py` y se suben al repo automáticamente por GitHub Actions:
-- **`gh-pages/data/cronquiles.ics`**: Calendario ICS unificado con eventos formateados
-- **`gh-pages/data/cronquiles.json`**: JSON con eventos (si se usa `--json`)
-  - Los eventos incluyen títulos formateados: `Grupo|Nombre evento|Online` o `Grupo|Nombre evento|País|Estado`
+- **`gh-pages/data/states_metadata.json`**: Manifiesto JSON con la lista de estados detectados, sus slugs, conteo de eventos y emojis para el frontend.
+- **`gh-pages/data/cronquiles-mexico.ics/json`**: Calendario unificado con todos los eventos.
+- **`gh-pages/data/cronquiles-{slug}.ics/json`**: Archivos específicos por estado (ej: `cronquiles-mx-cmx.json`).
 
 **Nota:** Los archivos se generan directamente en `gh-pages/data/` para publicación en GitHub Pages.
 
@@ -120,8 +121,8 @@ Estos archivos se generan al ejecutar `main.py` y se suben al repo automáticame
 La carpeta `gh-pages/` contiene todos los archivos necesarios para GitHub Pages:
 - **`index.html`**: Página principal con diseño terminal y calendario embebido
 - **`data/`**: Subdirectorio con los archivos de datos
-  - **`cronquiles.ics`**: Calendario ICS para descarga y suscripción WebCal
-  - **`cronquiles.json`**: Datos JSON para uso programático
+  - **`cronquiles-mexico.ics`**: Calendario ICS nacional para descarga y suscripción WebCal
+  - **`cronquiles-mx-cmx.json`**: Ejemplo de datos JSON por estado
 - **`serve.py`** / **`serve.sh`**: Scripts para probar el sitio localmente
 - **`README-LOCAL.md`**: Instrucciones para desarrollo local
 

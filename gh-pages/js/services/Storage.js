@@ -3,12 +3,14 @@
  */
 export const Storage = {
     get(key, defaultValue = null) {
+        const item = localStorage.getItem(key);
+        if (item === null) return defaultValue;
+
         try {
-            const item = localStorage.getItem(key);
-            return item ? JSON.parse(item) : defaultValue;
+            return JSON.parse(item);
         } catch (e) {
-            console.error('Error reading from storage', e);
-            return defaultValue;
+            // Si no es JSON válido (por ejemplo, una cadena simple guardada previamente), retornar tal cual
+            return item || defaultValue;
         }
     },
 
