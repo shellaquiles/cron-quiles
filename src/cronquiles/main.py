@@ -14,6 +14,7 @@ Uso:
 import argparse
 import logging
 import sys
+import re
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 import os
@@ -141,6 +142,27 @@ def load_feeds_from_txt(txt_file: str) -> list:
     except Exception as e:
         logger.error(f"Error cargando feeds desde texto: {e}")
         sys.exit(1)
+
+
+def normalize_url(url: str) -> str:
+    """
+    Normaliza una URL para comparación (meetup, luma, etc).
+    Quita protocolos, subdominios comunes, sufijos de eventos y slashes.
+    """
+    if not url:
+        return ""
+
+    # Remover protocolo y www
+    u = re.sub(r'^https?://(www\.)?', '', url)
+
+    # Remover sufijos comunes de Meetup/Luma/Eventbrite
+    u = re.sub(r'/events(/ical)?/?(\?.*)?$', '', u)
+    u = u.replace('/?type=past', '')
+
+    # Limpiar trailing slashes
+    u = u.rstrip('/')
+
+    return u.lower()
 
 
 def get_feeds_for_city(city_config: Dict) -> List[str]:
@@ -347,11 +369,17 @@ def main():
         elif state_code == "ONLINE":
             state_name = "Online"
 
+        # Identificar qué feeds pertenecen a este estado basándonos en los eventos
+        # Obtenemos las URLs de origen de los eventos de este estado (normalizadas)
+        state_source_urls = {normalize_url(e.source_url) for e in events if e.source_url}
+        # Filtramos los feeds originales comparando versiones normalizadas
+        state_feeds = [f for f in feed_config if normalize_url(f.get("url")) in state_source_urls]
+
         aggregator.generate_ics(events, ics_file, city_name=state_name)
         if args.json:
-            aggregator.generate_json(events, json_file, city_name=state_name)
+            aggregator.generate_json(events, json_file, city_name=state_name, feeds=state_feeds)
 
-        logger.info(f"✓ Archivos generados para: {state_name} ({len(events)} eventos)")
+        logger.info(f"✓ Archivos generados para: {state_name} ({len(events)} eventos, {len(state_feeds)} comunidades)")
 
     # 7. Generar metadatos para el frontend
     generate_states_metadata(grouped_events, str(output_path / "states_metadata.json"))
