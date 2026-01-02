@@ -18,6 +18,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | [**Scala & FP CDMX**](https://www.meetup.com/scala-and-functional-programming-cdmx-and-remote) | Programación funcional y lenguaje Scala. | 2025-08-28 | 10 |
 | [**Microsoft Fabric CDMX**](https://www.meetup.com/mexico-city-microsoft-fabric-group) | Grupo de usuarios de Microsoft Fabric y análisis de datos empresarial. | 2025-08-27 | 1 |
 | [**Global AI CDMX**](https://www.meetup.com/globalaicdmx) | Capítulo local de la Global AI Community. Enfoque en Microsoft AI y tecnologías Azure. | 2025-06-26 | 3 |
+| [**Mexico City Apache Kafka**](https://www.meetup.com/mexico-kafka) | Mexico City Apache Kafka Meetup. | 2025-10-21 | 10 |
 | [**HTML5 CDMX**](https://www.meetup.com/html5-ciudad-de-mexico) ⚠️ | Desarrollo web, estándares W3C y tecnologías de frontend. | 2025-03-28 | 10 |
 | [**GDG Ciudad de México**](https://www.meetup.com/gdg-ciudad-de-mexico) ⚠️ | Google Developer Group CDMX. Eventos sobre tecnologías de Google y desarrollo en general. | 2025-03-15 | 10 |
 | [**Open Infra CDMX**](https://www.meetup.com/openinfrastructurecdmx) ⚠️ | Infraestructura abierta, OpenStack y tecnologías de cloud open source. | 2025-03-06 | 10 |
@@ -34,6 +35,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | [**MexAI - Comunidad de IA**](https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical) | Comunidad de IA en Guadalajara. Eventos sobre Inteligencia Artificial. | 2025-12-16 | 13 |
 | [**AWS User Group Jalisco**](https://www.meetup.com/amazon-web-services-jalisco) | Comunidad de usuarios de AWS en Guadalajara. Eventos sobre servicios en la nube de Amazon. | 2025-11-27 | 10 |
 | [**j4Guanatos**](https://www.meetup.com/j4guanatos) | Comunidad de Java en Guadalajara. Eventos sobre Java y tecnologías relacionadas. | 2025-09-25 | 10 |
+| [**Guadalajara Apache Kafka**](https://www.meetup.com/guadalajara-kafka) | Guadalajara Apache Kafka Meetup. | 2025-09-17 | 10 |
 | [**GDG Guadalajara**](https://www.meetup.com/gdg-guadalajara) ⚠️ | Google Developer Group Guadalajara. Eventos sobre tecnologías de Google y desarrollo. | N/A | 0 |
 | [**PyTalavera**](https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl) ⚠️ | Comunidad Pythonista en Puebla. Eventos, charlas y networking para entusiastas de Python en la región. | N/A | 0 |
 
