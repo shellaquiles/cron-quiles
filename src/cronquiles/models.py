@@ -17,6 +17,7 @@ from geopy.geocoders import Nominatim, GoogleV3
 from geopy.exc import GeopyError
 from dateutil import parser, tz
 from icalendar import Event, vText
+from .schemas import EventSchema
 
 logger = logging.getLogger(__name__)
 
@@ -1145,7 +1146,7 @@ class EventNormalized:
                     # Evitar duplicar si ya está en el nombre (caso raro)
                     return f"{grupo}|{nombre_evento}|Online"
 
-    def to_dict(self) -> Dict:
+    def to_dict(self) -> EventSchema:
         """Convierte el evento normalizado a diccionario para JSON."""
         return {
             "title": self._format_title(),

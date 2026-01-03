@@ -14,6 +14,7 @@ Uso:
 import argparse
 import logging
 import sys
+import subprocess
 import re
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -430,6 +431,18 @@ def main():
 
     # 7. Generar metadatos para el frontend
     generate_states_metadata(grouped_events, str(output_path / "states_metadata.json"))
+
+    # 8. Actualizar estatus de comunidades en docs/COMMUNITIES.md
+    try:
+        logger.info("Actualizando estatus de comunidades en docs/COMMUNITIES.md...")
+        script_path = Path("tools/update_communities_status.py")
+        if script_path.exists():
+            subprocess.run([sys.executable, str(script_path)], check=True)
+            logger.info("Estatus de comunidades actualizado.")
+        else:
+            logger.warning(f"No se encontró el script de actualización de estatus en {script_path}")
+    except Exception as e:
+        logger.error(f"Error actualizando estatus de comunidades: {e}")
 
     logger.info(f"\n✓ Proceso completado exitosamente. Archivos en: {args.output_dir}")
 
