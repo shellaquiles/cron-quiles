@@ -7,6 +7,8 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ## [Unreleased]
 
+## [1.6.0] - 2026-01-03
+
 - **Refactorización de Agregadores** (cambio mayor)
   - Split monolítico de `ics_aggregator.py` a paquete modular `src/cronquiles/aggregators/`.
   - Implementación de clases especializadas: `GenericICSAggregator`, `EventbriteAggregator`, `LumaAggregator`, `MeetupAggregator`, `ManualAggregator`.
@@ -202,7 +204,8 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 - Documentación completa en README.md
 - Ejemplos de configuración
 
-[Unreleased]: https://github.com/shellaquiles/cron-quiles/compare/v1.5.0...HEAD
+[Unreleased]: https://github.com/shellaquiles/cron-quiles/compare/v1.6.0...HEAD
+[1.6.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.5.0...v1.6.0
 [1.5.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.2.0...v1.3.0
