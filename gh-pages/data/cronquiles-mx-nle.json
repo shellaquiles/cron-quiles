@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-01-03T06:22:54.235465+00:00",
-  "total_events": 11,
+  "generated_at": "2026-01-03T08:36:23.175483+00:00",
+  "total_events": 13,
   "city": "Nuevo León",
   "communities": [
     {
-      "name": "Python Monterrey",
-      "description": "Comunidad de Python en la ciudad de Monterrey."
-    },
-    {
       "name": "AWS Ajolotes Ciudad de México",
       "description": "User Group oficial de AWS en CDMX. Eventos sobre servicios en la nube de Amazon."
+    },
+    {
+      "name": "Python Monterrey",
+      "description": "Comunidad de Python en la ciudad de Monterrey."
     }
   ],
   "events": [
@@ -23,9 +23,9 @@
       "dtend": null,
       "tags": [
         "security",
+        "web",
         "python",
         "mobile",
-        "web",
         "frontend"
       ],
       "source": "https://www.meetup.com/pythonmty/events/?type=past",
@@ -47,9 +47,9 @@
       "dtstart": "2019-02-22T19:00:00-06:00",
       "dtend": null,
       "tags": [
-        "python",
+        "devops",
         "frontend",
-        "devops"
+        "python"
       ],
       "source": "https://www.meetup.com/pythonmty/events/?type=past",
       "country": "México",
@@ -70,9 +70,9 @@
       "dtstart": "2019-03-21T19:00:00-06:00",
       "dtend": null,
       "tags": [
-        "python",
         "ai",
         "web",
+        "python",
         "frontend"
       ],
       "source": "https://www.meetup.com/pythonmty/events/?type=past",
@@ -118,9 +118,9 @@
       "dtstart": "2020-01-23T18:30:00-06:00",
       "dtend": null,
       "tags": [
-        "python",
+        "ai",
         "frontend",
-        "ai"
+        "python"
       ],
       "source": "https://www.meetup.com/pythonmty/events/?type=past",
       "country": "México",
@@ -143,8 +143,8 @@
       "tags": [
         "python",
         "mobile",
-        "data",
-        "frontend"
+        "frontend",
+        "data"
       ],
       "source": "https://www.meetup.com/pythonmty/events/?type=past",
       "country": "México",
@@ -165,11 +165,11 @@
       "dtstart": "2022-09-22T18:30:00-05:00",
       "dtend": null,
       "tags": [
-        "python",
         "ai",
+        "web",
+        "python",
         "mobile",
         "backend",
-        "web",
         "frontend"
       ],
       "source": "https://www.meetup.com/pythonmty/events/?type=past",
@@ -191,9 +191,9 @@
       "dtstart": "2023-01-19T18:30:00-06:00",
       "dtend": null,
       "tags": [
+        "web",
         "python",
         "mobile",
-        "web",
         "frontend"
       ],
       "source": "https://www.meetup.com/pythonmty/events/?type=past",
@@ -216,8 +216,8 @@
       "dtend": null,
       "tags": [
         "web",
-        "cloud",
-        "frontend"
+        "frontend",
+        "cloud"
       ],
       "source": "https://www.meetup.com/aws-cdmx/events/?type=past",
       "country": "México",
@@ -238,9 +238,9 @@
       "dtstart": "2024-08-02T19:00:00-06:00",
       "dtend": null,
       "tags": [
+        "web",
         "python",
         "backend",
-        "web",
         "frontend"
       ],
       "source": "https://www.meetup.com/pythonmty/events/?type=past",
@@ -274,6 +274,44 @@
       "city_code": "monterrey",
       "address": "Blvd. Díaz Ordaz 333-lote 2, Rincón de Santa María, 64650 Monterrey, N.L., México",
       "hash_key": "reunin mensual marzo 2025_2025-03-28T00:00:00+00:00"
+    },
+    {
+      "title": "EPAM|EPAM Tech Talks Monterrey|México|Nuevo León",
+      "description": "Acompáñanos en nuestras Tech Talks en Monterrey para compartir y discutir conocimientos sobre",
+      "url": "https://www.eventbrite.com.mx/e/entradas-epam-tech-talks-monterrey-1407854754469",
+      "location": "NEORIS, Blv. Gustavo Díaz Ordaz 333, San Pedro Garza García, NLE",
+      "organizer": "EPAM",
+      "dtstart": "2025-07-03T18:30:00-06:00",
+      "dtend": "2025-07-03T21:30:00-06:00",
+      "tags": [],
+      "source": "Eventbrite",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Nuevo León",
+      "state_code": "MX-NLE",
+      "city": "San Pedro Garza García",
+      "city_code": "sanpedrogarzagarcia",
+      "address": "San Pedro Garza García, N.L., México",
+      "hash_key": "epam tech talks monterrey_2025-07-04T00:00:00+00:00"
+    },
+    {
+      "title": "EPAM|EPAM Tech Talks Monterrey|México|Nuevo León",
+      "description": "Acompáñanos en nuestras Tech Talks en Monterrey para compartir y discutir conocimientos sobre",
+      "url": "https://www.eventbrite.com.mx/e/entradas-epam-tech-talks-monterrey-1712401722649",
+      "location": "NEORIS, Blv. Gustavo Díaz Ordaz 333, San Pedro Garza García, NLE",
+      "organizer": "EPAM",
+      "dtstart": "2025-10-16T18:30:00-06:00",
+      "dtend": "2025-10-16T21:30:00-06:00",
+      "tags": [],
+      "source": "Eventbrite",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Nuevo León",
+      "state_code": "MX-NLE",
+      "city": "San Pedro Garza García",
+      "city_code": "sanpedrogarzagarcia",
+      "address": "San Pedro Garza García, N.L., México",
+      "hash_key": "epam tech talks monterrey_2025-10-17T00:00:00+00:00"
     }
   ]
 }

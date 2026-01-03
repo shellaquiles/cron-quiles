@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:pythonmty|Reunión Septiembre/2018 - Back on track |México|Nuevo 
  León
 DTSTART:20180920T193000
-CATEGORIES:security,python,mobile,web,frontend
+CATEGORIES:security,web,python,mobile,frontend
 DESCRIPTION:¡Hola a todos! Una vez más\, estamos de vuelta con nuestras 
  reuniones mensuales.\n\nPara los que no hayan asistido anteriormente\, el 
  formato de la reunión es informal con énfasis en la calidad de la inform
@@ -45,7 +45,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:pythonmty|Primera reunión 2019|México|Nuevo León
 DTSTART:20190222T190000
-CATEGORIES:python,frontend,devops
+CATEGORIES:devops,frontend,python
 DESCRIPTION:¡Hola Pythonistas!\n\nEl viernes 22 de febrero tendremos la p
  rimera reunión del 2019\, la cuál consistirá de dos pláticas técnicas
   y un espacio de networking como es costumbre.\n\nEn las pláticas nos aco
@@ -68,7 +68,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:pythonmty|Reunión Marzo 2019|México|Nuevo León
 DTSTART:20190321T190000
-CATEGORIES:python,ai,web,frontend
+CATEGORIES:ai,web,python,frontend
 DESCRIPTION:Una vez más\, los esperamos en nuestra reunión mensual\, vam
  os a tener un formato regular dos charlas y networking.\n\nLas platicas so
  n las siguientes:\n\n-----------------------------------------------------
@@ -164,7 +164,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:pythonmty|Reunión Mensual - Enero 2020|México|Nuevo León
 DTSTART:20200123T183000
-CATEGORIES:python,frontend,ai
+CATEGORIES:ai,frontend,python
 DESCRIPTION:Iniciando el año con T O D O\, los esperamos en nuestra próx
  ima reunión mensual con el formato regular: dos charlas\, networking\, be
  bidas y snacks.\n\nNuestras reuniones son una plataforma para la colaborac
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:pythonmty|Reunión Mensual - Febrero 2020|México|Nuevo León
 DTSTART:20200227T183000
-CATEGORIES:python,mobile,data,frontend
+CATEGORIES:python,mobile,frontend,data
 DESCRIPTION:Una vez más y con la esperanza de no romper la continuidad me
  nsual... Los esperamos en nuestra próxima reunión mensual de formato reg
  ular: dos charlas\, networking\, bebidas y snacks.\n\nEsta ocasión las ch
@@ -246,7 +246,7 @@ BEGIN:VEVENT
 SUMMARY:pythonmty|Reunión mensual - De vuelta a las andadas|México|Nuevo
   León
 DTSTART:20220922T183000
-CATEGORIES:python,ai,mobile,backend,web,frontend
+CATEGORIES:ai,web,python,mobile,backend,frontend
 DESCRIPTION:Luego de este largo "break" de 938 días desde nuestra última
   reunión\, *volvemos a las andadas* con esta reunión mensual\, muy próx
  imos al décimo aniversario del grupo.\n\nPara el que no lo tuviera claro.
@@ -295,7 +295,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:pythonmty|Reunión Mensual - Enero 2023|México|Nuevo León
 DTSTART:20230119T183000
-CATEGORIES:python,mobile,web,frontend
+CATEGORIES:web,python,mobile,frontend
 DESCRIPTION:¡Hola todos! Una vez más los esperamos en nuestra próxima r
  eunión *mensual*\, esperemos éste nuevo año este lleno de reuniones con
   mucho más regularidad (algo similar comenté a inicios del 2020\, y ya s
@@ -349,7 +349,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:aws-cdmx|AWS Community Day - México 2023|México|Nuevo León
 DTSTART:20231111T090000
-CATEGORIES:web,cloud,frontend
+CATEGORIES:web,frontend,cloud
 DESCRIPTION:🚀 ¡Llega el AWS Community Day México 2023! 🇲🇽\n\n¿
  Estás listo para sumergirte en un día lleno de innovación\, aprendizaje
   y networking? ¡Entonces prepárate para el evento del año!\n\nTe presen
@@ -378,7 +378,7 @@ BEGIN:VEVENT
 SUMMARY:pythonmty|Reunión mensual  - Julio/Agosto 2024|México|Nuevo Leó
  n
 DTSTART:20240802T190000
-CATEGORIES:python,backend,web,frontend
+CATEGORIES:web,python,backend,frontend
 DESCRIPTION:¡Hola a todos (que aún siguen por aquí)!\n\nEn caso de que 
  aún no lo hayan notado... ya tenemos como año y medio sin reuniones\, va
  rias se han queda en puro plan en privado y nunca llegaron a consolidarse.
@@ -434,6 +434,36 @@ X-CRONQUILES-ADDRESS:Blvd. Díaz Ordaz 333-lote 2\, Rincón de Santa Marí
  a\, 64650 Monterrey\, N.L.\, México
 X-CRONQUILES-CITY:Monterrey
 X-CRONQUILES-CITY-CODE:monterrey
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EPAM|EPAM Tech Talks Monterrey|México|Nuevo León
+DTSTART:20250703T183000
+DESCRIPTION:Acompáñanos en nuestras Tech Talks en Monterrey para compart
+ ir y discutir conocimientos sobre
+LOCATION:NEORIS\, Blv. Gustavo Díaz Ordaz 333\, San Pedro Garza García\,
+  NLE
+X-CRONQUILES-ADDRESS:San Pedro Garza García\, N.L.\, México
+X-CRONQUILES-CITY:San Pedro Garza García
+X-CRONQUILES-CITY-CODE:sanpedrogarzagarcia
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EPAM|EPAM Tech Talks Monterrey|México|Nuevo León
+DTSTART:20251016T183000
+DESCRIPTION:Acompáñanos en nuestras Tech Talks en Monterrey para compart
+ ir y discutir conocimientos sobre
+LOCATION:NEORIS\, Blv. Gustavo Díaz Ordaz 333\, San Pedro Garza García\,
+  NLE
+X-CRONQUILES-ADDRESS:San Pedro Garza García\, N.L.\, México
+X-CRONQUILES-CITY:San Pedro Garza García
+X-CRONQUILES-CITY-CODE:sanpedrogarzagarcia
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Nuevo León

@@ -1,47 +1,47 @@
 {
-  "generated_at": "2026-01-03T06:22:54.305171+00:00",
+  "generated_at": "2026-01-03T08:36:23.248658+00:00",
   "total_events": 42,
   "city": "Jalisco",
   "communities": [
-    {
-      "name": "MexAI - Comunidad de IA",
-      "description": "Comunidad de IA en Guadalajara. Eventos sobre Inteligencia Artificial."
-    },
-    {
-      "name": "Rust MX",
-      "description": "Comunidad dedicada al lenguaje Rust. Enfoque en seguridad, velocidad y concurrencia."
-    },
     {
       "name": "AWS User Group Jalisco",
       "description": "Comunidad de usuarios de AWS en Guadalajara. Eventos sobre servicios en la nube de Amazon."
     },
     {
-      "name": "Eventloop",
-      "description": "La comunidad de JavaScript de la Ciudad de México es una organización sin fines de lucro con el objetivo de elevar la competitividad técnica de la ciudad."
+      "name": "Claude Users Group",
+      "description": ""
     },
     {
       "name": "DevOps Workshop",
       "description": "Aprende cómo aplicar diferentes tecnologías para construir un producto. En este grupo vas a mejorar tu conocimiento de diferentes sistemas operativos."
     },
     {
-      "name": "j4Guanatos",
-      "description": "Comunidad de Java en Guadalajara. Eventos sobre Java y tecnologías relacionadas."
+      "name": "Eventloop",
+      "description": "La comunidad de JavaScript de la Ciudad de México es una organización sin fines de lucro con el objetivo de elevar la competitividad técnica de la ciudad."
     },
     {
       "name": "HTML5 CDMX",
       "description": "Desarrollo web, estándares W3C y tecnologías de frontend."
     },
     {
+      "name": "j4Guanatos",
+      "description": "Comunidad de Java en Guadalajara. Eventos sobre Java y tecnologías relacionadas."
+    },
+    {
       "name": "Meetup México",
       "description": "Comunidad general de usuarios y organizadores de Meetup en México."
+    },
+    {
+      "name": "MexAI - Comunidad de IA",
+      "description": "Comunidad de IA en Guadalajara. Eventos sobre Inteligencia Artificial."
     },
     {
       "name": "Mexico Tech Week",
       "description": "Calendario oficial de Mexico Tech Week 2025."
     },
     {
-      "name": "Claude Users Group",
-      "description": ""
+      "name": "Rust MX",
+      "description": "Comunidad dedicada al lenguaje Rust. Enfoque en seguridad, velocidad y concurrencia."
     },
     {
       "name": "KCD Guadalajara",
@@ -58,8 +58,8 @@
       "dtstart": "2022-07-23T19:00:00-05:00",
       "dtend": null,
       "tags": [
-        "frontend",
-        "mobile"
+        "mobile",
+        "frontend"
       ],
       "source": "https://www.meetup.com/meetup-mexico/events/?type=past",
       "country": "México",
@@ -80,9 +80,9 @@
       "dtstart": "2023-09-14T09:00:00-06:00",
       "dtend": null,
       "tags": [
+        "web",
         "mobile",
         "backend",
-        "web",
         "frontend"
       ],
       "source": "https://www.meetup.com/eventloop/events/?type=past",
@@ -105,11 +105,11 @@
       "dtend": null,
       "tags": [
         "security",
+        "web",
         "python",
         "mobile",
-        "web",
-        "data",
-        "frontend"
+        "frontend",
+        "data"
       ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
@@ -130,8 +130,8 @@
       "dtstart": "2024-05-30T19:00:00-06:00",
       "dtend": null,
       "tags": [
-        "python",
         "ai",
+        "python",
         "mobile",
         "backend",
         "frontend"
@@ -156,8 +156,8 @@
       "dtend": null,
       "tags": [
         "ai",
-        "mobile",
         "web",
+        "mobile",
         "frontend"
       ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
@@ -172,7 +172,7 @@
     },
     {
       "title": "Mexico Tech Week|Multiple Ways For Automation Testing|México|Jalisco",
-      "description": "Get up-to-date information at: https://luma.com/x1r4az0n\n\nAddress:\nAv. Patria 888, Piso 4, Col. Loma Real, 45129 Zapopan, Jal.\n\nHosted by Mexico Tech Week & Pamela",
+      "description": "Obtén información actualizada en: https://luma.com/x1r4az0n\n\nDirección:\nAv. Patria 888, Piso 4, Col. Loma Real, 45129 Zapopan, Jal.\n\nOrganizado por Mexico Tech Week y Pamela",
       "url": "https://luma.com/x1r4az0n",
       "location": "Av. Patria 888, Piso 4, Col. Loma Real, 45129 Zapopan, Jal.",
       "organizer": "Mexico Tech Week",
@@ -199,9 +199,9 @@
       "dtend": null,
       "tags": [
         "ai",
+        "web",
         "devops",
         "mobile",
-        "web",
         "frontend"
       ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
@@ -223,12 +223,12 @@
       "dtstart": "2024-09-12T19:00:00-06:00",
       "dtend": null,
       "tags": [
-        "cloud",
+        "web",
         "devops",
         "mobile",
-        "web",
+        "frontend",
         "data",
-        "frontend"
+        "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
@@ -250,8 +250,8 @@
       "dtend": null,
       "tags": [
         "web",
-        "cloud",
-        "frontend"
+        "frontend",
+        "cloud"
       ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
@@ -273,8 +273,8 @@
       "dtend": null,
       "tags": [
         "web",
-        "cloud",
-        "frontend"
+        "frontend",
+        "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
@@ -318,8 +318,8 @@
       "tags": [
         "ai",
         "web",
-        "data",
-        "frontend"
+        "frontend",
+        "data"
       ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
@@ -361,10 +361,10 @@
       "dtstart": "2025-03-13T18:30:00-06:00",
       "dtend": null,
       "tags": [
-        "cloud",
         "ai",
         "web",
-        "frontend"
+        "frontend",
+        "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
@@ -385,10 +385,10 @@
       "dtstart": "2025-03-21T19:00:00-06:00",
       "dtend": null,
       "tags": [
-        "cloud",
         "ai",
         "backend",
-        "frontend"
+        "frontend",
+        "cloud"
       ],
       "source": "https://www.meetup.com/rust-mx/events/?type=past",
       "country": "México",
@@ -430,10 +430,10 @@
       "dtstart": "2025-03-28T08:00:00-06:00",
       "dtend": null,
       "tags": [
-        "cloud",
-        "devops",
         "ai",
-        "mobile"
+        "devops",
+        "mobile",
+        "cloud"
       ],
       "source": "https://www.meetup.com/devops-workshop/events/?type=past",
       "country": "México",
@@ -454,10 +454,10 @@
       "dtstart": "2025-03-28T08:00:00-06:00",
       "dtend": null,
       "tags": [
-        "cloud",
-        "devops",
         "ai",
-        "web"
+        "web",
+        "devops",
+        "cloud"
       ],
       "source": "https://www.meetup.com/html5-ciudad-de-mexico/events/?type=past",
       "country": "México",
@@ -478,13 +478,13 @@
       "dtstart": "2025-04-24T18:30:00-06:00",
       "dtend": null,
       "tags": [
-        "cloud",
         "ai",
+        "web",
         "devops",
         "mobile",
         "backend",
-        "web",
-        "frontend"
+        "frontend",
+        "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
@@ -571,9 +571,9 @@
       "dtend": null,
       "tags": [
         "security",
-        "cloud",
         "web",
-        "frontend"
+        "frontend",
+        "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
@@ -617,8 +617,8 @@
       "dtstart": "2025-06-19T19:00:00-06:00",
       "dtend": null,
       "tags": [
-        "frontend",
-        "ai"
+        "ai",
+        "frontend"
       ],
       "source": "https://www.meetup.com/rust-mx/events/?type=past",
       "country": "México",
@@ -660,10 +660,10 @@
       "dtstart": "2025-07-24T18:30:00-06:00",
       "dtend": null,
       "tags": [
-        "cloud",
         "web",
+        "frontend",
         "data",
-        "frontend"
+        "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
@@ -740,7 +740,7 @@
     },
     {
       "title": "Martin Manriquez Leon|AI After Brunch - Tech & Chill Night|México|Jalisco",
-      "description": "Get up-to-date information at: https://luma.com/11t1uq7i\n\nAddress:\nRock It Chapultepec\nGuadalajara, Jalisco\nMexico\n\nHosted by Martin Manriquez Leon",
+      "description": "Obtén información actualizada en: https://luma.com/11t1uq7i\n\nDirección:\nRock It Chapultepec\nGuadalajara, Jalisco\nMexico\n\nOrganizado por Martin Manriquez Leon",
       "url": "https://luma.com/11t1uq7i",
       "location": "Rock It Chapultepec, Av. Chapultepec Sur 389, Col Americana, Americana, 44140 Guadalajara, Jal., Mexico",
       "organizer": "Martin Manriquez Leon",
@@ -768,11 +768,11 @@
       "dtstart": "2025-09-25T18:30:00-06:00",
       "dtend": null,
       "tags": [
-        "security",
-        "cloud",
         "ai",
+        "security",
+        "web",
         "mobile",
-        "web"
+        "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
@@ -837,11 +837,11 @@
       "dtend": null,
       "tags": [
         "security",
-        "cloud",
+        "web",
         "devops",
         "mobile",
-        "web",
-        "frontend"
+        "frontend",
+        "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
@@ -883,8 +883,8 @@
       "dtstart": "2025-10-30T09:30:00-06:00",
       "dtend": null,
       "tags": [
-        "frontend",
-        "web"
+        "web",
+        "frontend"
       ],
       "source": "https://www.meetup.com/eventloop/events/?type=past",
       "country": "México",
@@ -905,12 +905,12 @@
       "dtstart": "2025-11-20T18:30:00-06:00",
       "dtend": null,
       "tags": [
-        "cloud",
         "ai",
-        "backend",
         "web",
+        "backend",
+        "frontend",
         "data",
-        "frontend"
+        "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
@@ -952,11 +952,11 @@
       "dtstart": "2025-11-27T18:30:00-06:00",
       "dtend": null,
       "tags": [
-        "cloud",
         "ai",
-        "mobile",
         "web",
-        "frontend"
+        "mobile",
+        "frontend",
+        "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
@@ -998,10 +998,10 @@
       "dtstart": "2026-02-28T08:00:00-06:00",
       "dtend": "2026-02-28T19:00:00-06:00",
       "tags": [
-        "kubernetes",
-        "cloud",
         "conferencia",
-        "devops"
+        "devops",
+        "kubernetes",
+        "cloud"
       ],
       "source": "Manual",
       "country": "México",
