@@ -62,6 +62,7 @@ Una vez configurado, tu sitio estará disponible en:
 2. Busca el workflow "Update Events Calendar"
 3. Verifica que se ejecute correctamente
 4. Si hay errores, revisa los logs del workflow
+5. **Verificar Commits Automáticos**: El workflow también actualiza automáticamente `docs/COMMUNITIES.md` en la rama principal si hubo cambios en los estados de las comunidades.
 
 ## Archivos que se Publican
 

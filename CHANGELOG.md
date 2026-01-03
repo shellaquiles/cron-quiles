@@ -7,6 +7,16 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ## [Unreleased]
 
+- **Refactorización de Agregadores** (cambio mayor)
+  - Split monolítico de `ics_aggregator.py` a paquete modular `src/cronquiles/aggregators/`.
+  - Implementación de clases especializadas: `GenericICSAggregator`, `EventbriteAggregator`, `LumaAggregator`, `MeetupAggregator`, `ManualAggregator`.
+  - Orchestrador unificado en `EventPipeline` (antes `ICSAggregator`).
+- **Nuevos Feeds Soportados** (nuevo)
+  - **Eventbrite**: Soporte completo para URLs de organizador y eventos individuales (scrapeo directo JSON-LD).
+- **Documentación** (mejora)
+  - `docs/COMMUNITIES.md`: Tabla unificada con columna "Estados", generada automáticamente desde el historial de eventos.
+  - Actualización de reglas de estatus (12/18 meses).
+
 ### Added
 - **Soporte para Eventos Manuales** (nuevo)
   - Configuración vía `config/manual_events.json` para eventos sin feed ICS.

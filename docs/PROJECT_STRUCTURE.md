@@ -26,7 +26,15 @@ cron-quiles/
 │   └── cronquiles/                  # Paquete Python principal
 │       ├── __init__.py             # Inicialización del paquete
 │       ├── main.py                 # CLI principal
-│       ├── ics_aggregator.py       # Lógica de agregación y deduplicación
+│       ├── main.py                 # CLI principal
+│       ├── ics_aggregator.py       # Orchestrador del pipeline
+│       ├── aggregators/            # Paquete de lógica de agregación
+│       │   ├── base.py
+│       │   ├── ics.py
+│       │   ├── eventbrite.py
+│       │   ├── luma.py
+│       │   ├── meetup.py
+│       │   └── manual.py
 │       ├── history_manager.py      # Gestor de persistencia y merge
 │       └── models.py               # Modelos de datos (EventNormalized)
 │
@@ -69,8 +77,12 @@ cron-quiles/
 Código fuente principal del proyecto. Contiene:
 - **`__init__.py`**: Inicialización del paquete Python
 - **`main.py`**: CLI principal con argumentos y lógica de ejecución
-- **`ics_aggregator.py`**: Módulo con la clase `ICSAggregator`.
-  - `ICSAggregator`: Agrega múltiples feeds ICS, coordina el enriquecimiento de datos de Meetup y Luma, deduplica eventos y genera ICS/JSON.
+- **`ics_aggregator.py`**: Orchestrador (EventPipeline). Coordina la agregación delegando a las clases en `aggregators/`.
+- **`aggregators/`**: Paquete modular con la lógica de extracción específica:
+  - `GenericICSAggregator` (ICS estándar)
+  - `EventbriteAggregator` (Adaptador JSON-LD)
+  - `LumaAggregator` & `MeetupAggregator` (Enriquecimiento)
+  - `ManualAggregator`
 - **`history_manager.py`**: Maneja la carga, guardado y fusión (merge) inteligente de eventos históricos desde `data/history.json`.
 - **`models.py`**: Contiene la clase `EventNormalized` y lógica de limpieza.
   - `EventNormalized`: Clase que representa un evento unificado. Normaliza eventos, detecta online/presencial, extrae grupo/ubicación, formatea títulos e implementa el **enriquecimiento de ubicación desde Meetup y Luma**.

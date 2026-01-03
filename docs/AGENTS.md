@@ -28,7 +28,10 @@ El proyecto es completamente funcional y opera bajo Github Actions.
 2.  **Generación Dinámica de Estados**: Detecta el estado de cada evento y genera calendarios separados automáticamente (`mx-cmx`, `mx-jal`, etc.).
     *   **Normalización ISO**: Transforma abreviaturas comunes (ej: MX-NL) a códigos ISO estándar.
     *   **Frontend Inteligente**: Renderiza pestañas de navegación dinámicamente basándose en el manifiesto `states_metadata.json`.
-3.  **Deduplicación Robusta**:
+3.  **Arquitectura Modular de Agregadores**:
+    *   **Separación de Responsabilidades**: Lógica de extracción desacoplada en `src/cronquiles/aggregators/`.
+    *   **Soporte Extensible**: Fácil adición de nuevos adaptadores (ej: Eventbrite, Luma).
+4.  **Deduplicación Robusta**:
     *   Identifica eventos duplicados por título y hora (tolerancia ±2 horas).
     *   Normaliza zonas horarias a UTC para evitar falsos positivos.
     *   **NO PIERDE DATOS**: Si hay duplicados con diferentes links, los agrega a la descripción del evento principal ("Otras fuentes: ...").
@@ -98,7 +101,14 @@ cron-quiles/
 │   └── cronquiles/
 │       ├── __init__.py        # Paquete Python
 │       ├── main.py            # CLI principal
-│       ├── ics_aggregator.py  # Lógica de agregación y deduplicación
+│       ├── ics_aggregator.py  # Orchestrador del pipeline
+│       ├── aggregators/       # Paquete de agregadores
+│       │   ├── base.py        # Interface BaseAggregator
+│       │   ├── ics.py         # Parser genérico ICS
+│       │   ├── eventbrite.py  # Extractor Eventbrite + Adapter
+│       │   ├── luma.py        # Extractor Luma
+│       │   ├── meetup.py      # Extractor Meetup
+│       │   └── manual.py      # Agregador de eventos manuales
 │       ├── history_manager.py # Gestor de persistencia
 │       └── models.py          # Modelos de datos
 ├── config/
@@ -146,6 +156,12 @@ cron-quiles/
 * **Escaneo de Feeds** (`tools/scan_feeds_and_cache.py`):
   * Descarga todos los feeds ICS configurados, extrae las ubicaciones y asegura que estén presentes en el cache.
 
+### Clasificación de Comunidades
+Se define el estatus de una comunidad basado en la fecha de su último evento:
+* **Activo**: Eventos en los últimos 12 meses.
+* **En Pausa**: Eventos entre 12 y 18 meses.
+* **Inactivo**: Más de 18 meses sin eventos.
+
 ### Próximas mejoras posibles
 * Filtros por tags o fechas en CLI
 * Mejora en el manejo de eventos recurrentes complejos
@@ -169,6 +185,7 @@ cron-quiles/
    - ✅ `CONTRIBUTING.md` si cambian procesos de desarrollo
    - ✅ Tests si agregas/modificas funcionalidad
    - ✅ `requirements.txt` si agregas dependencias
+   - ✅ `docs/COMMUNITIES.md` si agregas un nuevo feed en `config/feeds.yaml`
 
 3. **Mantener consistencia**:
    - ✅ Ejemplos de código en README deben funcionar
