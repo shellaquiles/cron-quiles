@@ -68,7 +68,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add gh-pages/ data/
+          git add gh-pages/ data/ docs/COMMUNITIES.md
           git commit -m "🤖 Auto-update: Refresh events calendar & persist data [skip ci]" || exit 0
           git push || exit 0
 
