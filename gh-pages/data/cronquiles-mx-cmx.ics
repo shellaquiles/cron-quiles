@@ -277,7 +277,7 @@ BEGIN:VEVENT
 SUMMARY:hackrobotsmx|Aprende a modelar un brazo robótico y crear un simpl
  e IK riggin con Cinema 4D|México|Ciudad de México
 DTSTART:20180310T150000
-CATEGORIES:web,mobile,frontend
+CATEGORIES:mobile,frontend,web
 DESCRIPTION:El Diseñador e Ilustrador Argelis Rebolledo te enseñará las
   claves del diseño de personajes en 3D y las herramientas básicas para c
  rear un brazo robótico con Cinema 4D.\n\nAprenderás a jugar con los colo
@@ -377,7 +377,7 @@ BEGIN:VEVENT
 SUMMARY:mexico-city-unity-user-group|Meetup Unity 15: El quinceavo|México
  |Ciudad de México
 DTSTART:20180414T110000
-CATEGORIES:mobile,frontend
+CATEGORIES:frontend,mobile
 DESCRIPTION:Hola a toda la comunidad de Unity en la CDMX\, cumpliendo con 
  nuestrp deber y continuando con la buena racha de meetups (obligatoriament
  e mensuales) traemos ahora en abril\, una serie de nuevosproyectos e invit
@@ -417,7 +417,7 @@ BEGIN:VEVENT
 SUMMARY:hackrobotsmx|Electrocardiograma Básico con S4A|México|Ciudad de 
  México
 DTSTART:20180421T150000
-CATEGORIES:web,frontend,mobile,ai
+CATEGORIES:frontend,ai,mobile,web
 DESCRIPTION:• Lo que haremos\nEn este meetup\, construirás un sensor de
   pulso cardiaco básico con el fin de entender su funcionamiento para que 
  pueda representarse en un electrocardiograma\, por medio de S4A (Scratch f
@@ -526,7 +526,7 @@ BEGIN:VEVENT
 SUMMARY:hackrobotsmx|Adquiriendo datos de una tarjeta de RFID|México|Ciud
  ad de México
 DTSTART:20180818T110000
-CATEGORIES:web,frontend,python
+CATEGORIES:frontend,web,python
 DESCRIPTION:Por medio de una página web se obtendrá el número de identi
  ficación de la tarjeta RFID\, el cual será guardado en una base de datos
  \, siendo estos últimos de forma local. La adquisición del ID se hace po
@@ -752,7 +752,7 @@ BEGIN:VEVENT
 SUMMARY:gophersmx| fmt.Println("hello MX again!!!")|México|Ciudad de Méx
  ico
 DTSTART:20190528T190000
-CATEGORIES:web,frontend,backend,ai
+CATEGORIES:frontend,ai,backend,web
 DESCRIPTION:Hola!\n\nEstamos encantados de poder retomar las actividades d
  e la comunidad de Go\, los estaremos realizando bimestralmente.\nEste even
  to se realizará con nuestros amigos de Credijusto.\n\n**De JS a Go y un g
@@ -815,7 +815,7 @@ BEGIN:VEVENT
 SUMMARY:openinfrastructurecdmx|Infraestructura como código con Terraform|
  México|Ciudad de México
 DTSTART:20190618T190000
-CATEGORIES:mobile,frontend,devops
+CATEGORIES:devops,mobile,frontend
 DESCRIPTION:Hola amigos\,\n\nya tenemos nuevo meetup y será acerca de : I
  nfraestructura como código con Terraform\n\nEl tema de Infraestructura co
  mo código hace referencia a la práctica de utilizar scripts para configu
@@ -874,7 +874,7 @@ BEGIN:VEVENT
 SUMMARY:hackrobotsmx|Programación de microcontroladores AVR - S1|México|
  Ciudad de México
 DTSTART:20190727T160000
-CATEGORIES:mobile,frontend
+CATEGORIES:frontend,mobile
 DESCRIPTION:El propósito del evento es acerca a estudiantes y personas in
  teresadas en programar microcontroladores de 8 bits en lenguaje C\, con el
   fin de hacer uso de ellos para sus proyectos y generarles interés. Const
@@ -930,7 +930,7 @@ BEGIN:VEVENT
 SUMMARY:hackrobotsmx|Programación de microcontroladores AVR en C - Entrad
  as y Salidas S2|México|Ciudad de México
 DTSTART:20190803T160000
-CATEGORIES:web,frontend
+CATEGORIES:frontend,web
 DESCRIPTION:Para la segunda sesión tendremos la configuración del microc
  ontrolador como entradas y/o salidas.\nPara esta sesión se requiere el us
  o de:\n\nATmega48 o 168\n5 resistencias de 10 k (kilo ohms)\n10 resistenci
@@ -956,7 +956,7 @@ BEGIN:VEVENT
 SUMMARY:hackrobotsmx|Programación de microcontroladores AVR en C - PWM S3
  |México|Ciudad de México
 DTSTART:20190810T160000
-CATEGORIES:web,frontend
+CATEGORIES:frontend,web
 DESCRIPTION:Para la tercera sesión tendremos la configuración del microc
  ontrolador como PWM.\nPara esta sesión se requiere el uso de:\n\nATmega48
   o 168\n3 resistencias de 10k (kilo ohms)\n3 Resistencias de 100\, 150 y 3
@@ -1006,7 +1006,7 @@ BEGIN:VEVENT
 SUMMARY:openinfrastructurecdmx|Kata Containers 101|México|Ciudad de Méxi
  co
 DTSTART:20190827T190000
-CATEGORIES:frontend,cloud,mobile,devops,ai
+CATEGORIES:frontend,cloud,ai,devops,mobile
 DESCRIPTION:¡Hola amigos!\n\nYa tenemos meetup de este mes y estamos muy 
  contentos por ello\, ya que estaremos hablando de un tema muy interesante:
   Kata Containers\n\nDentro de los temas que revisaremos están...\n\n¿Qu
@@ -1089,7 +1089,7 @@ BEGIN:VEVENT
 SUMMARY:openinfrastructurecdmx|Consideraciones OpenStack en despliegues de
   NFV & Operando Openstack día a día|México|Ciudad de México
 DTSTART:20191017T190000
-CATEGORIES:mobile,ai
+CATEGORIES:ai,mobile
 DESCRIPTION:Hola amigos\,\n\n¡Llegó el meetup de Octubre!\n\nLa intenci
  ón de este meetup es poder ayudar a los asistentes a resolver sus dudas r
  especto a un proyecto de Openstack y cómo tener éxito con ello y no mori
@@ -1213,7 +1213,7 @@ BEGIN:VEVENT
 SUMMARY:eventloop|Eventloop Julio COMEBACK - Meetup de la comunidad de Jav
  aScript de la CDMX|México|Ciudad de México
 DTSTART:20220706T190000
-CATEGORIES:web,frontend,backend
+CATEGORIES:frontend,web,backend
 DESCRIPTION:Eventloop es el meetup de la comunidad de JavaScript de la Ciu
  dad de México donde nos visitan profesionales de desarrollo de software p
  ara compartirnos las últimas tendencias en el lenguaje y las mejores prá
@@ -1244,7 +1244,7 @@ BEGIN:VEVENT
 SUMMARY:meetup-mexico|CINCEL Investor Cocktail - Metafirma Pre-launch - Po
  lanco - The Pool Arkangeles |México|Ciudad de México
 DTSTART:20220721T190000
-CATEGORIES:web,cloud,security,ai,data
+CATEGORIES:cloud,ai,data,security,web
 DESCRIPTION:**CINCEL Investor Cocktail**\n**"Metafirma Pre-launch"**\n\nPa
  ra aquellos inversionistas que se encuentran en la Ciudad de México\, est
  án invitados al "CINCEL **Investor Coctkail**" para conocer a los fundado
@@ -1277,7 +1277,7 @@ BEGIN:VEVENT
 SUMMARY:eventloop|Eventloop Agosto - Meetup de la comunidad de JavaScript 
  de la CDMX|México|Ciudad de México
 DTSTART:20220810T190000
-CATEGORIES:web,frontend
+CATEGORIES:frontend,web
 DESCRIPTION:Eventloop es el meetup de la comunidad de JavaScript de la Ciu
  dad de México donde nos visitan profesionales de desarrollo de software p
  ara compartirnos las últimas tendencias en el lenguaje y las mejores prá
@@ -1306,7 +1306,7 @@ BEGIN:VEVENT
 SUMMARY:openinfrastructurecdmx|Construyendo Clouds de alto desempeño con 
  tecnologías OpenSource|México|Ciudad de México
 DTSTART:20220912T170000
-CATEGORIES:frontend,cloud,mobile,devops,ai
+CATEGORIES:frontend,cloud,ai,devops,mobile
 DESCRIPTION:Whitestack\, empresa líder en soluciones Telco Cloud en Latin
  oamérica\, invita a todos los ingenieros y desarrolladores trabajando en 
  Cloud (incluido estudiantes universitarios y recién egresados) a particip
@@ -1338,7 +1338,7 @@ BEGIN:VEVENT
 SUMMARY:eventloop|Eventloop Septiembre - Meetup de la comunidad de JavaScr
  ipt de la CDMX|México|Ciudad de México
 DTSTART:20220914T190000
-CATEGORIES:web,mobile,cloud
+CATEGORIES:mobile,cloud,web
 DESCRIPTION:Eventloop es el meetup de la comunidad de JavaScript de la Ciu
  dad de México donde nos visitan profesionales de desarrollo de software p
  ara compartirnos las últimas tendencias en el lenguaje y las mejores prá
@@ -1367,7 +1367,7 @@ BEGIN:VEVENT
 SUMMARY:eventloop|Eventloop Octubre - Meetup de la comunidad de JavaScript
   de la CDMX|México|Ciudad de México
 DTSTART:20221012T190000
-CATEGORIES:web,mobile,frontend
+CATEGORIES:mobile,frontend,web
 DESCRIPTION:Eventloop es el meetup de la comunidad de JavaScript de la Ciu
  dad de México donde nos visitan profesionales de desarrollo de software p
  ara compartirnos las últimas tendencias en el lenguaje y las mejores prá
@@ -1453,7 +1453,7 @@ BEGIN:VEVENT
 SUMMARY:meetup-mexico|Meetup Bitcoiner CDMX Hablemos Privacidad on-chain|M
  éxico|Ciudad de México
 DTSTART:20221207T190000
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Te invitamos a la previa de **BTC++** ...\n**What is BTC++?**\
  nBitcoin++ is a three-day developer-focused bitcoin conference. We place a
   heavy emphasis on long form lectures and workshops\, with smaller more-fo
@@ -1475,7 +1475,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:aws-cdmx|Meetup AWS UG CDMX Enero 2023|México|Ciudad de México
 DTSTART:20230112T180000
-CATEGORIES:web,cloud,mobile,ai
+CATEGORIES:cloud,ai,mobile,web
 DESCRIPTION:Nuestro primer Meetup de 2023. Y empezamos con grandes plátic
  as:\n\n* Brenda Guzmán\, Cloud Engineer @ It Trade\, ella está realizand
  o la implementación de soluciones rápidas a incidentes\, y a los compone
@@ -1627,7 +1627,7 @@ BEGIN:VEVENT
 SUMMARY:aws-cdmx|Crear una arquitectura Big Data con Infraestructura como 
  Código|México|Ciudad de México
 DTSTART:20230905T190000
-CATEGORIES:frontend,cloud,data
+CATEGORIES:data,frontend,cloud
 DESCRIPTION:¡Prepárate para otro gran Meetup del AWS User Group CDMX! 
  🙌🏻\n\nEn esta ocasión\, nos complace presentar a un destacado exper
  to en el campo de Big Data y Metadata\, el es Tony Trujillo. Tony es un ap
@@ -1658,7 +1658,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:gophersmx|Go 1.21 Release party!|México|Ciudad de México
 DTSTART:20230907T183000
-CATEGORIES:frontend,python,ai
+CATEGORIES:frontend,ai,python
 DESCRIPTION:Agradecemos a Kunai Consulting ([linkedin](https://www.linkedi
  n.com/company/kunai-consulting/about/) aquí) quien será el sponsor de es
  ta reunión <3\n\n*Les comparto un mensaje de Brianna de Kunai:*\n\n*¡Hol
@@ -1696,7 +1696,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:aws-cdmx|IA Generativa |México|Ciudad de México
 DTSTART:20231025T183000
-CATEGORIES:cloud,mobile,security,devops
+CATEGORIES:cloud,devops,security,mobile
 DESCRIPTION:¡Únete a nosotros en el próximo Meetup presencial del AWS U
  ser Group de CDMX! 🙌🏻\n\nEn este emocionante evento\, exploraremos d
  iferentes temas dentro del mundo cloud en AWS. ☁\n\nEsaú Reyes\, con su
@@ -1759,7 +1759,7 @@ BEGIN:VEVENT
 SUMMARY:aws-cdmx|Como prepararte para ser un AWS Community Builder|México
  |Ciudad de México
 DTSTART:20240223T183000
-CATEGORIES:cloud,frontend
+CATEGORIES:frontend,cloud
 DESCRIPTION:¡Únete a nosotros en el próximo Meetup del AWS UG CDMX!\n\n
  📅 Fecha: 23 de Febrero del 2024\n🕒 Hora: 18:00 hrs.\n📍 Lugar: Ama
  zon Mexico Headquarters\n\n¿Listo para llevar tus habilidades en AWS al s
@@ -1948,7 +1948,7 @@ SUMMARY:scala-and-functional-programming-cdmx-and-remote|Test your code by
   mutating the source! Stryker4s a Mutation Testing Lib|México|Ciudad de M
  éxico
 DTSTART:20240530T180000
-CATEGORIES:backend,ai
+CATEGORIES:ai,backend
 DESCRIPTION:**Scala Talk + FREE Drinks and Pizza + Meet other Scala devs!*
  *\n@Pinterest CDMX\n\n**IT IS IMPORTANT TO PRE-REGISTER/RSVP TO GAIN ACCES
  S TO THE PINTEREST OFFICE.**\n\nIs there something better than test covera
@@ -1979,7 +1979,7 @@ BEGIN:VEVENT
 SUMMARY:notrustsec|NoTrustSec Mayo: Poderoso y Místico (De Inteligencia y
   Respuesta a Incidentes )|México|Ciudad de México
 DTSTART:20240530T183000
-CATEGORIES:web,frontend,python,mobile,security
+CATEGORIES:frontend,python,security,mobile,web
 DESCRIPTION:Primero un eclipse\, luego un terremoto en la Falla de San And
  rés y finalmente una tormenta solar generadora de auroras boreales .\n\nN
  o\, no es el fin del mundo… son señales de que algo grande viene\, el N
@@ -2082,7 +2082,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:meetup-mexico|Lanzamiento de CondoNOUNS|México|Ciudad de México
 DTSTART:20240626T190000
-CATEGORIES:mobile,frontend
+CATEGORIES:frontend,mobile
 DESCRIPTION:¿Es un avión? ¿Es un ovni? ¿Es un globo? **¡¡Nooooo!!** 
  Son los **CondoNOUNS** que se *vienen*\, por fin\, para que sientas los *N
  ouns* en toda su extensión*.*\n\nÚnete a este memorable lanzamiento en e
@@ -2113,7 +2113,7 @@ BEGIN:VEVENT
 SUMMARY:scala-and-functional-programming-cdmx-and-remote|Simplifying your 
  code with Scala Type Classes|México|Ciudad de México
 DTSTART:20240627T180000
-CATEGORIES:backend,ai
+CATEGORIES:ai,backend
 DESCRIPTION:**Any level of experience with programming and Scala :D**\n\n*
  *Coding Dojo + Meet other Scala devs**\n**Itinerary**\n6:00 - Welcome drin
  ks + pizza\n6:30 - Code talk\n7:30 - Networking\n8:30 - End of the event\n
@@ -2141,7 +2141,7 @@ SUMMARY:scala-and-functional-programming-cdmx-and-remote|Easy parallel and
   concurrent code with Scala for low-latency systems.|México|Ciudad de Mé
  xico
 DTSTART:20240801T180000
-CATEGORIES:frontend,backend,ai,data
+CATEGORIES:frontend,ai,backend,data
 DESCRIPTION:**Scala Talk + FREE Drinks and Pizza + Meet other Scala devs!*
  *\n@Pinterest CDMX\n\n**IT IS IMPORTANT TO PRE-REGISTER/RSVP TO GAIN ACCES
  S TO THE PINTEREST OFFICE.**\n\nWhen developing highly concurrent low-late
@@ -2173,7 +2173,7 @@ BEGIN:VEVENT
 SUMMARY:notrustsec|26vo NoTrustSec: Depresión Post DEFCON |México|Ciudad
   de México
 DTSTART:20240822T190000
-CATEGORIES:frontend,mobile,security,ai
+CATEGORIES:frontend,ai,security,mobile
 DESCRIPTION:**DEFCON 32 terminó 💔💔💔**\n\nHay quienes regresan c
  ómodamente en un avión\, y otros que pasan horas y horas con las manos a
  l volante\, pero el sentimiento es el mismo: la alegría de ver a los amig
@@ -2221,7 +2221,7 @@ BEGIN:VEVENT
 SUMMARY:gittogether-cdmx|GitHub OpenSource CDMX & Notion Campus Leaders|M
  éxico|Ciudad de México
 DTSTART:20240823T180000
-CATEGORIES:frontend,backend,mobile,ai
+CATEGORIES:frontend,ai,backend,mobile
 DESCRIPTION:¡Hola **comunidad**!\nAgosto será un mes de muchas novedades
  . Y nos emociona informarles que el próximo evento se hará en colaboraci
  ón con **Notion Campus Leaders** y por primera vez será realizado en las
@@ -2270,7 +2270,7 @@ BEGIN:VEVENT
 SUMMARY:scala-and-functional-programming-cdmx-and-remote|Deep Neural Netwo
  rks with Scala|México|Ciudad de México
 DTSTART:20240829T170000
-CATEGORIES:frontend,backend,ai
+CATEGORIES:frontend,ai,backend
 DESCRIPTION:**Any level of experience with programming and Scala :D**\n\n*
  *Itinerary**\n6:00 - Welcome drinks + pizza\n6:30 - Code talk\n7:30 - Netw
  orking\n8:30 - End of the event\n\n**Etsy is sponsoring drinks and pizza!*
@@ -2299,7 +2299,7 @@ BEGIN:VEVENT
 SUMMARY:gdg-ciudad-de-mexico|Flautas + Flutter + ML register here --> http
  s://lu.ma/c5idesxj|México|Ciudad de México
 DTSTART:20240906T180000
-CATEGORIES:frontend,python,cloud,mobile,ai
+CATEGORIES:frontend,cloud,ai,python,mobile
 DESCRIPTION:**Don't forget to register here --> https://lu.ma/c5idesxj**\n
  **Don't forget to register here --> https://lu.ma/c5idesxj**\n**Don't forg
  et to register here --> https://lu.ma/c5idesxj**\n\n​Hey tech enthusiast
@@ -2334,7 +2334,7 @@ BEGIN:VEVENT
 SUMMARY:odoo-community-days-america-latina|Odoo Community: América Latina
   |México|Ciudad de México
 DTSTART:20240911T090000
-CATEGORIES:mobile,frontend
+CATEGORIES:frontend,mobile
 DESCRIPTION:**Odoo Community Day es un evento anual en México**\nLos miem
  bros actuales (y futuros) de la comunidad de Odoo se juntan durante dos É
  PICOS días para compartir conocimiento crear nuevas relaciones empresaria
@@ -2426,7 +2426,7 @@ BEGIN:VEVENT
 SUMMARY:gdg-ciudad-de-mexico|Flautas + Flutter + ML register here --> http
  s://lu.ma/c5idesxj|México|Ciudad de México
 DTSTART:20240926T180000
-CATEGORIES:frontend,python,cloud,mobile,ai
+CATEGORIES:frontend,cloud,ai,python,mobile
 DESCRIPTION:**Don't forget to register here --> https://lu.ma/c5idesxj**\n
  **Don't forget to register here --> https://lu.ma/c5idesxj**\n**Don't forg
  et to register here --> https://lu.ma/c5idesxj**\n\n​Hey tech enthusiast
@@ -2461,7 +2461,7 @@ BEGIN:VEVENT
 SUMMARY:aws-cdmx| Explorando la IA Generativa con Amazon Bedrock 🚀|Onli
  ne
 DTSTART:20240926T190000
-CATEGORIES:cloud,frontend
+CATEGORIES:frontend,cloud
 DESCRIPTION:En este **Meetup #89** nos sumergiremos en el apasionante mund
  o de la **IA Generativa** utilizando **Amazon Bedrock**.\n\nExploraremos e
  n profundidad la **arquitectura Transformer**\, el pilar fundamental detr
@@ -2518,7 +2518,7 @@ BEGIN:VEVENT
 SUMMARY:scala-and-functional-programming-cdmx-and-remote|Ace programming c
  hallenges with Scala and Functional Programming|México|Ciudad de México
 DTSTART:20241003T180000
-CATEGORIES:backend,ai
+CATEGORIES:ai,backend
 DESCRIPTION:**Scala Talk + FREE Drinks and Pizza + Meet other Scala devs!*
  *\n@Pinterest CDMX\n\n**IT IS IMPORTANT TO PRE-REGISTER/RSVP TO GAIN ACCES
  S TO THE PINTEREST OFFICE.**\n\n**Pre-registration**\n*When hitting RSVP\,
@@ -2548,7 +2548,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Dulce Díaz|Conexión de visionarios|México|Ciudad de México
 DTSTART:20241009T213000Z
-CATEGORIES:mobile,ai
+CATEGORIES:ai,mobile
 DESCRIPTION:Get up-to-date information at: https://luma.com/ejamvz7l\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Dulce Díaz\, Edga
  r Torres & Nadia Lezcano
@@ -2565,7 +2565,7 @@ BEGIN:VEVENT
 SUMMARY:mobile-development-mexico|Explorando Swift UI\, Multithreading en 
  Flutter y  Apple Intelligence|México|Ciudad de México
 DTSTART:20241017T190000
-CATEGORIES:web,mobile,frontend
+CATEGORIES:mobile,frontend,web
 DESCRIPTION:¡Saludos comunidad de Desarrollo Móvil en CDMX!\n\n¡Estamos
   de vuelta con el segundo evento de cierre de año! 🎉\n\nLos invitamos 
  al segundo evento\, el próximo **Jueves 17 de Octubre a las 7:00 p.m.** e
@@ -2604,7 +2604,7 @@ BEGIN:VEVENT
 SUMMARY:notrustsec|27vo NoTrustSec: Temporada de revivir a Los Espíritus 
  Hacker|México|Ciudad de México
 DTSTART:20241017T190000
-CATEGORIES:mobile,security,frontend
+CATEGORIES:security,mobile,frontend
 DESCRIPTION:Afuera de su casa estaba la calaca\,\ntilica y muy flaquita\nb
  uscaba aquí\, y buscaba allá.\n\nNo encontraba su llave y tenía prisa p
  or entrar\nporque quería preparar su charlita.\n\nOh\, ¿Qué puedo hacer
@@ -2645,7 +2645,7 @@ BEGIN:VEVENT
 SUMMARY:gdg-ciudad-de-mexico|Flautas + Flutter + ML register here --> http
  s://lu.ma/c5idesxj|México|Ciudad de México
 DTSTART:20241018T180000
-CATEGORIES:frontend,python,cloud,mobile,ai
+CATEGORIES:frontend,cloud,ai,python,mobile
 DESCRIPTION:**Don't forget to register here --> https://lu.ma/c5idesxj**\n
  **Don't forget to register here --> https://lu.ma/c5idesxj**\n**Don't forg
  et to register here --> https://lu.ma/c5idesxj**\n\n​Hey tech enthusiast
@@ -2792,7 +2792,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Mastering Fundraising: Building a Strong Foundati
  on for Growth|México|Ciudad de México
 DTSTART:20241021T173000Z
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/1vedoug6\n\nAd
  dress:\nBBVA\nFloor 33rd\nCiudad de México\, Ciudad de México\nMexico\n\
  nHosted by Mexico Tech Week & Andrea López
@@ -2878,7 +2878,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Founders & Drinks by Startup Grind #MexicoTechWee
  k|México|Ciudad de México
 DTSTART:20241021T230000Z
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/cranm43m\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week\,
   Guillermo Vizcaino & Carlos Zárate
@@ -2895,7 +2895,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Diving deep on AI in Mexico: In Conversation with
   Rest of World|México|Ciudad de México
 DTSTART:20241021T230000Z
-CATEGORIES:backend,ai
+CATEGORIES:ai,backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/2ts08m45\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   Rest of World
@@ -2984,7 +2984,7 @@ SUMMARY:Mexico Tech Week|Aws y  Merlin Data Quality invitan a Desayuno pre
  sencial: ¿Cómo convertir datos en negocios rentables?|México|Ciudad de 
  México
 DTSTART:20241022T150000Z
-CATEGORIES:cloud,mobile,ai,data
+CATEGORIES:cloud,ai,data,mobile
 DESCRIPTION:Get up-to-date information at: https://luma.com/zw6btxfv\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   5 others
@@ -3053,7 +3053,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Ganas Ventures Coffee 🇲🇽  #MexicoTechWeek|M
  éxico|Ciudad de México
 DTSTART:20241022T163000Z
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/hknigmzv\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   Guillermo Vizcaino
@@ -3176,7 +3176,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Networking Cocktail & Invitational Party by Capit
  al One|México|Ciudad de México
 DTSTART:20241023T000000Z
-CATEGORIES:backend,ai
+CATEGORIES:ai,backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/5upe1x94\n\nAd
  dress:\nBrick Hotel México City\nCuauhtémoc\, Ciudad de México\nMexico\
  n\nHosted by Mexico Tech Week & Capital One\n\nOtras fuentes:\n- https://l
@@ -3214,7 +3214,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Entendiendo los modelos de IA/GenAI y cómo aplic
  arnos en las empresas.|México|Ciudad de México
 DTSTART:20241023T000000Z
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/w71txum2\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   Israel Cauich Viñas
@@ -3351,7 +3351,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Mezcal\, Art & Capital|México|Ciudad de México
 DTSTART:20241023T010000Z
-CATEGORIES:backend,ai
+CATEGORIES:ai,backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/mezcal-art-cap
  ital-by-addemcapitalseedstarsredwood\n\nAddress:\nCheck event page for mor
  e details.\n\nHosted by Mexico Tech Week & 4 others
@@ -3405,7 +3405,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Cena Mujeres en la Tech  -  French Tech|México|C
  iudad de México
 DTSTART:20241023T020000Z
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/8vanaydh\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   Equipo French Tech México
@@ -3514,7 +3514,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Building and Selling Enterprise SAAS - Roundtable
   breakfast|México|Ciudad de México
 DTSTART:20241023T153000Z
-CATEGORIES:web,frontend,ai
+CATEGORIES:frontend,web,ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/1jum1jsk\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   3 others
@@ -3586,7 +3586,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|VC Reverse Pitch Sessions in Xochimilco #MexicoTe
  chWeek|México|Ciudad de México
 DTSTART:20241023T180000Z
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/kouwlxru\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   Guillermo Vizcaino
@@ -3763,7 +3763,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|BIVA & AWS Insight: Tech\, Liquidity and Financin
  g Session|México|Ciudad de México
 DTSTART:20241023T223000Z
-CATEGORIES:web,frontend,cloud,ai
+CATEGORIES:frontend,cloud,ai,web
 DESCRIPTION:Get up-to-date information at: https://luma.com/g4f5jsed\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   3 others
@@ -4103,7 +4103,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Fuck Up Nights - DILA Capital and Caravela. Br-La
  tam Nexus|México|Ciudad de México
 DTSTART:20241024T150000Z
-CATEGORIES:backend,ai
+CATEGORIES:ai,backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/nw9nna1d\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   4 others
@@ -4176,7 +4176,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Supply Chains for the Future: AI & Tech Innovatio
  ns.|México|Ciudad de México
 DTSTART:20241024T200000Z
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/f56p91xg\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   Guindic
@@ -4429,7 +4429,7 @@ BEGIN:VEVENT
 SUMMARY:AngelHub Ventures|IOS Offices + Cabrito Valley: Building Communiti
  es|México|Ciudad de México
 DTSTART:20241025T000000Z
-CATEGORIES:mobile,frontend
+CATEGORIES:frontend,mobile
 DESCRIPTION:Get up-to-date information at: https://luma.com/w1pnd7pq\n\nAd
  dress:\nTorre Virreyes\nCiudad de México\, Ciudad de México\nMexico\n\nH
  osted by AngelHub Ventures & 9 others
@@ -4468,7 +4468,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Cloud Innovators Challenge by Product-LatAm spons
  ored by Capital One|México|Ciudad de México
 DTSTART:20241025T000000Z
-CATEGORIES:cloud,backend,ai
+CATEGORIES:cloud,ai,backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/qbcuzmov\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   4 others
@@ -4973,7 +4973,7 @@ BEGIN:VEVENT
 SUMMARY:gdg-ciudad-de-mexico|Super Happy Devhouse CDMX|México|Ciudad de M
  éxico
 DTSTART:20241026T100000
-CATEGORIES:frontend,python,security,ai
+CATEGORIES:frontend,ai,python,security
 DESCRIPTION:**No olvides registrarte acá --> https://gdg.community.dev/ev
  ents/details/google-gdg-cdmx-presents-super-happy-devhouse-mexico-city/**\
  n\n🗓 Fecha: Sábado\, 26 de octubre de 2024\n🕙 Hora: 10:00 AM – 6:
@@ -5011,7 +5011,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|FIGHT CLUB CDMX presents... "Byte & Bites - Tech 
  Week Forest Adventure"|México|Ciudad de México
 DTSTART:20241026T160000Z
-CATEGORIES:backend,ai
+CATEGORIES:ai,backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/tech-week-mexi
  co-fight-club-cdmx-2024\n\nAddress:\nCheck event page for more details.\n\
  nHosted by Mexico Tech Week\, Yana Immis & FIGHT CLUB Networking Events
@@ -5114,7 +5114,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Latinos in Mexico Closing Rooftop Party #MexicoTe
  chWeek|México|Ciudad de México
 DTSTART:20241026T210000Z
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/or2e93ua\n\nAd
  dress:\nFiesta Inn Insurgentes Viaducto\nCiudad de México\, Ciudad de Mé
  xico\nMexico\n\nHosted by Mexico Tech Week\, Guillermo Vizcaino & Gerardo 
@@ -5168,7 +5168,7 @@ BEGIN:VEVENT
 SUMMARY:gdg-ciudad-de-mexico|GDG Ciudad de México y Google Meetup|México
  |Ciudad de México
 DTSTART:20241113T173000
-CATEGORIES:mobile,python
+CATEGORIES:python,mobile
 DESCRIPTION:Te invitamos a unirte al **GDG Ciudad de México y Google CDMX
  ** para una noche de networking con nuestros lideres de ingenieros de desa
  rrolladores de Mexico.\n\n¡Ven y conecta con **GDG Ciudad de México y Go
@@ -5201,7 +5201,7 @@ BEGIN:VEVENT
 SUMMARY:mobile-development-mexico|Explorando Técnicas de Escalabilidad y 
  Modernización de Aplicaciones Móbiles|México|Ciudad de México
 DTSTART:20241120T190000
-CATEGORIES:mobile,frontend
+CATEGORIES:frontend,mobile
 DESCRIPTION:¡Saludos comunidad de Desarrollo Móvil Mexico !\n¡Estamos d
  e regreso con el tercer evento y el cierre de año! 🎉\n\nLos invitamos 
  al segundo evento\, el próximo **Miércoles 20 de Noviembre a las 7:00 p.
@@ -5284,7 +5284,7 @@ BEGIN:VEVENT
 SUMMARY:gdg-ciudad-de-mexico|Flautas + Flutter + ML register here --> http
  s://lu.ma/c5idesxj|México|Ciudad de México
 DTSTART:20241213T180000
-CATEGORIES:frontend,python,cloud,mobile,ai
+CATEGORIES:frontend,cloud,ai,python,mobile
 DESCRIPTION:**Don't forget to register here --> https://lu.ma/c5idesxj**\n
  **Don't forget to register here --> https://lu.ma/c5idesxj**\n**Don't forg
  et to register here --> https://lu.ma/c5idesxj**\n\n​Hey tech enthusiast
@@ -5379,7 +5379,7 @@ BEGIN:VEVENT
 SUMMARY:elixir-mexico-city|Evento Presencial: Elixir y Kafka|México|Ciuda
  d de México
 DTSTART:20250128T190000
-CATEGORIES:web,mobile,frontend
+CATEGORIES:mobile,frontend,web
 DESCRIPTION:Retomamos los meetups presenciales en la CDMX con la ayuda de 
  nuestros amigos de Wizeline.\n\nHabrá un espacio de networking con pizzas
   y bebidas donde podrás platicar con programadores de diferentes niveles 
@@ -5421,7 +5421,7 @@ BEGIN:VEVENT
 SUMMARY:globalaicdmx|Episodio I - Los datos y la IA|México|Ciudad de Méx
  ico
 DTSTART:20250129T190000
-CATEGORIES:ai,data
+CATEGORIES:data,ai
 DESCRIPTION:¡Prepárate para nuestro primer Meetup de la comunidad **Glob
  al AI Mexico City**🎉\n\n📅 **Fecha**: 29 de Enero\n🕖 **Hora**: 7:0
  0 PM\n🏢 **Lugar**: Oficinas de Wizeline CDMX\n\n**Ponente #1 - Cesár M
@@ -5462,7 +5462,7 @@ BEGIN:VEVENT
 SUMMARY:thedatapub|Data Pub Enero: Predicciones de riesgo global (2° luga
  r Factored Datathon 2024)|México|Ciudad de México
 DTSTART:20250129T190000
-CATEGORIES:web,frontend,cloud,mobile,security,devops,ai,data
+CATEGORIES:frontend,cloud,ai,devops,data,security,mobile,web
 DESCRIPTION:¡Parroquian@s! 👋\n\n**¡Estamos de regreso para este 2025!
  **\n\nEsta vez tendremos a César Arroyo Cárdenas con la charla:\n\n**Pre
  dicciones de riesgo global: Segundo lugar del Factored Datathon 2024**\n\n
@@ -5516,7 +5516,7 @@ BEGIN:VEVENT
 SUMMARY:gdg-ciudad-de-mexico|Supabase + Google Developer Group CDMX @ Pepp
  er.ai HQ|México|Ciudad de México
 DTSTART:20250130T180000
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:¡Acompáñanos al primer meetup del año!\n\nLuego de un geni
  al DevFest 2024 en Google México\, te invitamos al primer meetup del año
   del Google Developer Group CDMX en colaboración con Supabase CDMX en Pep
@@ -5544,7 +5544,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:rust-mx|Rust y ciencia de datos|México|Ciudad de México
 DTSTART:20250221T190000
-CATEGORIES:mobile,data
+CATEGORIES:data,mobile
 DESCRIPTION:Para el meetup de Febero 2025\, Gustavo De la Cruz Tovar va a 
  platicar de que es ciencia de datos y las opciones que se tienen para trab
  ajar con Rust.\nSe cubrirá como:\n\n* Manejar *datasets* con bibliotecas 
@@ -5597,7 +5597,7 @@ BEGIN:VEVENT
 SUMMARY:thedatapub|Data Pub Febrero: ML Informed Financial Assistance to P
  revent Homelessness|México|Ciudad de México
 DTSTART:20250227T190000
-CATEGORIES:frontend,mobile,ai,data
+CATEGORIES:frontend,ai,data,mobile
 DESCRIPTION:¡Parroquian@s! 👋\n\nEste mes de febrero\, tenemos un Meetu
  p el jueves 27 y nos complace anunciar la participación de **Kasun Amaras
  inghe**\, quien ha sido ponente en ediciones anteriores del **Data Day**\,
@@ -5674,7 +5674,7 @@ BEGIN:VEVENT
 SUMMARY:gittogether-cdmx|GitHub GitTogether CDMX - 2° Aniversario|México
  |Ciudad de México
 DTSTART:20250307T173000
-CATEGORIES:mobile,frontend
+CATEGORIES:frontend,mobile
 DESCRIPTION:¡Hola **comunidad**!\nNos emociona reunirnos nuevamente este 
  **2025** y compartir que tenemos grandes novedades que se han estado traba
  jando en estos meses. **GitHub Universe** nos trajo nuevas actualizaciones
@@ -5715,7 +5715,7 @@ BEGIN:VEVENT
 SUMMARY:python-mexico|PythonCDMX 🐍 Mar 2025 - Agentes de IA / Pysides 6
  |México|Ciudad de México
 DTSTART:20250311T183000
-CATEGORIES:frontend,python,ai
+CATEGORIES:frontend,ai,python
 DESCRIPTION:**#PythonCDMX** 🐍 es un grupo de personas interesadas en ap
  render y compartir su conocimiento sobre el lenguaje de programación Pyth
  on. El objetivo es estar en contacto con más gente interesada en innovaci
@@ -5841,7 +5841,7 @@ BEGIN:VEVENT
 SUMMARY:notrustsec|NoTrustSec 28: Encendiendo el Espíritu Hacker y descub
  riendo enigmas de los APTs|México|Ciudad de México
 DTSTART:20250327T190000
-CATEGORIES:backend,security
+CATEGORIES:security,backend
 DESCRIPTION:Este 2025 ha comenzado muy extraño\, con impuestos a la miel 
  de maple de los hot-cakes\, y otra\, sí\, otra ola de despidos en Tech y 
  Cyber.\n\nPero antes de la Semana Santa\, es momento de glorificar nuestro
@@ -5882,7 +5882,7 @@ BEGIN:VEVENT
 SUMMARY:thedatapub|Data Pub Marzo: Before jumping to Large Language Models
  |México|Ciudad de México
 DTSTART:20250327T190000
-CATEGORIES:frontend,backend,mobile,ai,data
+CATEGORIES:frontend,ai,backend,data,mobile
 DESCRIPTION:¡Parroquian@s! 👋\n\n**Este mes de marzo\, tendremos un Mee
  tup el jueves 27\, y nos complace anunciar la participación de Liliana Mi
  llán Núñez\, quien es muy conocida y querida por esta comunidad. Con la
@@ -5932,7 +5932,7 @@ BEGIN:VEVENT
 SUMMARY:python-mexico|PythonCDMX 🐍 ABR 2025 - Kubernetes y IA|México|C
  iudad de México
 DTSTART:20250408T183000
-CATEGORIES:frontend,python,devops,ai
+CATEGORIES:frontend,ai,python,devops
 DESCRIPTION:**#PythonCDMX** 🐍 es un grupo de personas interesadas en ap
  render y compartir su conocimiento sobre el lenguaje de programación Pyth
  on. El objetivo es estar en contacto con más gente interesada en innovaci
@@ -5968,7 +5968,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ajolotesenlanube|¡AjoloAniversario!|México|Ciudad de México
 DTSTART:20250411T180000
-CATEGORIES:cloud,frontend
+CATEGORIES:frontend,cloud
 DESCRIPTION:🎉🥳 ¡Ajolotes en la Nube está de fiesta! 🥳🎉\n\nEs
  te **11 de abril**\, celebra con nosotros nuestro **primer aniversario** e
  n un **Meetup espectacular** lleno de tecnología\, comunidad y mucha emoc
@@ -5997,7 +5997,7 @@ BEGIN:VEVENT
 SUMMARY:scala-and-functional-programming-cdmx-and-remote|Type-level progra
  mming in Scala.|México|Ciudad de México
 DTSTART:20250424T183000
-CATEGORIES:security,backend,ai
+CATEGORIES:security,ai,backend
 DESCRIPTION:Scala allows you to play with types in ways that removes boile
  rplate and creates flexible APIs without losing type safety. In this talk\
  , we will see how you can use Scala's type-level programming techniques to
@@ -6024,7 +6024,7 @@ BEGIN:VEVENT
 SUMMARY:thedatapub|Data Pub Abril: Responsible AI to Benefit Society\, Use
   Cases and Lessons Learned|México|Ciudad de México
 DTSTART:20250424T190000
-CATEGORIES:frontend,backend,mobile,ai,data
+CATEGORIES:frontend,ai,backend,data,mobile
 DESCRIPTION:¡Parroquian@s! 👋\n\n**Este mes de abril tendremos un meetu
  p el jueves 24\, y nos complace anunciar la participación de Kit Rodolfa\
  , PhD\, quien es Director de Investigación en el Laboratorio de Regulaci
@@ -6084,7 +6084,7 @@ BEGIN:VEVENT
 SUMMARY:python-mexico|PythonCDMX 🐍 ¡Extra! Sudo Ciencias en la Unam|M
  éxico|Ciudad de México
 DTSTART:20250425T160000
-CATEGORIES:web,python,ai
+CATEGORIES:web,ai,python
 DESCRIPTION:**#PythonCDMX** 🐍 es un grupo de personas interesadas en ap
  render y compartir su conocimiento sobre el lenguaje de programación Pyth
  on. El objetivo es estar en contacto con más gente interesada en innovaci
@@ -6162,7 +6162,7 @@ BEGIN:VEVENT
 SUMMARY:embajadoras-cloud|Transformando datos y realidades: tu primera exp
  eriencia con AWS Glue|México|Ciudad de México
 DTSTART:20250508T180000
-CATEGORIES:frontend,cloud,mobile,security,ai
+CATEGORIES:frontend,cloud,ai,security,mobile
 DESCRIPTION:✨**AWS Embajadoras Cloud** trae para ti esta charla técnica
   👩‍💻 sobre cómo construir tu primer **pipeline ETL** utilizando *
  *AWS Glue 🧪** y visualizar los resultados en **Amazon QuickSight 📈**
@@ -6200,7 +6200,7 @@ BEGIN:VEVENT
 SUMMARY:notrustsec|NoTrustSec 29: Mayo\, Los Logs y la Fuerza: NTS Edició
  n Galáctica|México|Ciudad de México
 DTSTART:20250508T190000
-CATEGORIES:frontend,backend,mobile,security
+CATEGORIES:frontend,backend,security,mobile
 DESCRIPTION:En una galaxia no tan lejana\, un joven padawan parchaba Windo
  ws 10 antes de su fin. Hasta que un fatídico .exe lo llevó por hacia el 
  lado oscuro. Un ransomware\, unos cibercriminales y unos cuantos Bitcoins 
@@ -6275,7 +6275,7 @@ BEGIN:VEVENT
 SUMMARY:python-mexico|PythonCDMX 🐍 MAY 2025 - Publicando un paquete en 
  PyPI|México|Ciudad de México
 DTSTART:20250513T183000
-CATEGORIES:frontend,python,security,devops,ai
+CATEGORIES:frontend,ai,python,devops,security
 DESCRIPTION:**#PythonCDMX** 🐍 es un grupo de personas interesadas en ap
  render y compartir su conocimiento sobre el lenguaje de programación Pyth
  on. El objetivo es estar en contacto con más gente interesada en innovaci
@@ -6317,7 +6317,7 @@ BEGIN:VEVENT
 SUMMARY:ajolotesenlanube|Ajolotes en la Nube > Temporada 2 > Cap > 04|Méx
  ico|Ciudad de México
 DTSTART:20250515T190000
-CATEGORIES:frontend,devops,cloud
+CATEGORIES:devops,frontend,cloud
 DESCRIPTION:🎉 ¡Ya viene el **Meetup de mayo** de *Ajolotes en la Nube*
  ! 🌩️\n\nEste mes tenemos **dos speakers de lujo** que nos compartirá
  n experiencias reales y buenas prácticas para llevar nuestros sistemas al
@@ -6344,7 +6344,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ai-cdmx|Lets talk BOLT!|México|Ciudad de México
 DTSTART:20250520T190000
-CATEGORIES:frontend,backend,ai
+CATEGORIES:frontend,ai,backend
 DESCRIPTION:If your not in the whatsapp then you may have not heard about 
  the plan for tonight.\n\nBelow is some more info. Looking forward to see y
  ou there!\n\nFor those interested in participating in the Bolt Hackathon t
@@ -6505,7 +6505,7 @@ BEGIN:VEVENT
 SUMMARY:red-hat-user-group-mexico|Hablemos de automatización |México|Ciu
  dad de México
 DTSTART:20250610T150000
-CATEGORIES:mobile,frontend
+CATEGORIES:frontend,mobile
 DESCRIPTION:Acompáñanos en la segunda edición del Red Hat User Group\, 
  México.\nUn espacio en el que conversaremos con personas que comparten tu
   misma pasión por la tecnología y analizaremos estrategias ¿qué?\, ¿c
@@ -6536,7 +6536,7 @@ BEGIN:VEVENT
 SUMMARY:python-mexico|PythonCDMX 🐍 JUN 2025 - Usando Python y software 
  libre|México|Ciudad de México
 DTSTART:20250610T183000
-CATEGORIES:frontend,python,ai
+CATEGORIES:frontend,ai,python
 DESCRIPTION:**#PythonCDMX** 🐍 es un grupo de personas interesadas en ap
  render y compartir su conocimiento sobre el lenguaje de programación Pyth
  on. El objetivo es estar en contacto con más gente interesada en innovaci
@@ -6644,7 +6644,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ai-cdmx|Automate with AI - Workshop|México|Ciudad de México
 DTSTART:20250619T170000
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Intrigued by Artificial Intelligence but feel intimidated? Our
   "Automate with AI Workshop" is specifically designed for you! This worksh
  op demystifies AI and shows you how it can become your friendly coding par
@@ -6665,7 +6665,7 @@ BEGIN:VEVENT
 SUMMARY:ajolotesenlanube|Ajolotes en la Nube > Temporada 2 > Cap > 05|Méx
  ico|Ciudad de México
 DTSTART:20250625T190000
-CATEGORIES:cloud,frontend
+CATEGORIES:frontend,cloud
 DESCRIPTION:🎉 ¡Te esperamos en el próximo AjoloMeet! 🎉\n\n📅 Mi
  ércoles 25 de junio 🕖 7:00 PM\n📍 Oficinas de Wizeline CDMX\n\n
  🔍 En esta ocasión\, contaremos con la brillante Elisa Zamarrón\, quie
@@ -6697,7 +6697,7 @@ BEGIN:VEVENT
 SUMMARY:thedatapub|Data Pub Junio: Sinapsis - Transformando la Implementac
  ión de la IA|México|Ciudad de México
 DTSTART:20250625T190000
-CATEGORIES:frontend,mobile,ai,data
+CATEGORIES:frontend,ai,data,mobile
 DESCRIPTION:¡Parroquian@s! 👋\n\n**Despues de una pequeño descando\, r
  egresamos con nuevo meetup para este mes de julio\, tendremos una charla u
  n poco diferentes\, y nos complace anunciar la participación de Natalia O
@@ -6741,7 +6741,7 @@ BEGIN:VEVENT
 SUMMARY:globalaicdmx|AgentCon 2025 Ciudad de México|México|Ciudad de Mé
  xico
 DTSTART:20250626T143000
-CATEGORIES:web,frontend,python,cloud,mobile,security,devops,ai,data
+CATEGORIES:frontend,cloud,ai,python,devops,data,security,mobile,web
 DESCRIPTION:El próximo jueves 26 de Junio 2025 tenemos un gran evento par
  a ti\, el AgentCon un evento único que reúne a desarrolladores\, investi
  gadores\, emprendedores y mentes brillantes del mundo de la IA.\n**AgentCo
@@ -6861,7 +6861,7 @@ BEGIN:VEVENT
 SUMMARY:elixir-mexico-city|Evento Presencial: Elixir y Rust|México|Ciudad
   de México
 DTSTART:20250626T190000
-CATEGORIES:frontend,backend,mobile,ai
+CATEGORIES:frontend,ai,backend,mobile
 DESCRIPTION:Continuamos con los meetups presenciales en la CDMX con la ayu
  da de nuestros amigos de [Wizeline](https://www.wizeline.com/).\n\nLa cita
   es el Jueves 26 de Junio a las **19:00 hrs**. en las oficinas de Wizeline
@@ -6911,7 +6911,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:rust-mx|Elixir y Rust|México|Ciudad de México
 DTSTART:20250626T190000
-CATEGORIES:frontend,backend,mobile,ai
+CATEGORIES:frontend,ai,backend,mobile
 DESCRIPTION:Las comunidades de Elixir y Rust invitan al siguiente meetup :
  \n\nLa cita es el Jueves 26 de Junio a las **19:00 hrs**. en las oficinas 
  de Wizeline México ([https://maps.app.goo.gl/hayuy7xMDzbjkF8E6](https://m
@@ -6964,7 +6964,7 @@ BEGIN:VEVENT
 SUMMARY:aws-cloud-club-at-unam|Taller Intersemestral Comunitario (TICs): I
  ntroducción en la Nube con AWS|México|Ciudad de México
 DTSTART:20250630T140000
-CATEGORIES:web,frontend,cloud,mobile
+CATEGORIES:frontend,cloud,mobile,web
 DESCRIPTION:¡Buenas tardes comunidad! 👋\n\nNos hemos aliado a la **Com
  isión Estudiantil de Ciencias de la Computación** en la Facultad de Cien
  cias a la **Comunidad Sudo** para traerles el primer evento de nuestro Clo
@@ -7003,7 +7003,7 @@ BEGIN:VEVENT
 SUMMARY:python-mexico|PythonCDMX 🐍 JUL  2025 - Preparar un ambiente de 
  desarrollo desde cero|México|Ciudad de México
 DTSTART:20250708T183000
-CATEGORIES:python,cloud,mobile,security,ai
+CATEGORIES:cloud,ai,python,security,mobile
 DESCRIPTION:**#PythonCDMX** 🐍 es un grupo de personas interesadas en ap
  render y compartir su conocimiento sobre el lenguaje de programación Pyth
  on. El objetivo es estar en contacto con más gente interesada en innovaci
@@ -7050,7 +7050,7 @@ BEGIN:VEVENT
 SUMMARY:mobile-development-mexico|App Developer nights @ CDMX|México|Ciud
  ad de México
 DTSTART:20250708T183000
-CATEGORIES:mobile,backend,ai
+CATEGORIES:mobile,ai,backend
 DESCRIPTION:Una noche para platicar temas varios de desarrollo de apps: **
  iOS\, Android\, Flutter\, APIs\, Procesos**\, etcétera. Compartir unas ch
  arlas\, networking con la comunidad de desarrolladores de apps en la Ciuda
@@ -7106,7 +7106,7 @@ BEGIN:VEVENT
 SUMMARY:ai-cdmx|Ai Tools. MCP\, API\, RAG and more buzzwords in 2025|Méxi
  co|Ciudad de México
 DTSTART:20250715T190000
-CATEGORIES:frontend,backend,mobile,ai
+CATEGORIES:frontend,ai,backend,mobile
 DESCRIPTION:Everywhere you look it’s MCP this\, RAG that\, API everythin
  g. But what do these tools really do—and when are they actually worth us
  ing?\nThis month we’re opening up a fast-paced\, high-level discussion a
@@ -7148,7 +7148,7 @@ BEGIN:VEVENT
 SUMMARY:flutter-mexico-city|¡Lanzamiento Flutter México City! De Cero a 
  Tu Primera App con Flutter|México|Ciudad de México
 DTSTART:20250718T190000
-CATEGORIES:mobile,frontend
+CATEGORIES:frontend,mobile
 DESCRIPTION:¡Prepárate para el evento inaugural de la comunidad **Flutte
  r México City**! Nos vemos en **Wizeline** este **18 de julio a las 7 PM*
  * para una noche llena de aprendizaje y conexiones.\n\nComenzaremos con **
@@ -7177,7 +7177,7 @@ BEGIN:VEVENT
 SUMMARY:ajolotesenlanube|Ajolotes en la Nube > Temporada 2 > Cap > 06|Méx
  ico|Ciudad de México
 DTSTART:20250724T190000
-CATEGORIES:cloud,frontend
+CATEGORIES:frontend,cloud
 DESCRIPTION:¡Ya tenemos fecha para el próximo **AjoloMeet!** 🌟\n\n
  📆 **Jueves 24 de julio**\n📍 **Amazon Headquarters CDMX**\n🕖 **7:0
  0 PM**\n\nEn esta edición de la comunidad **Ajolotes en la Nube**\, conta
@@ -7205,7 +7205,7 @@ BEGIN:VEVENT
 SUMMARY:rust-mx|Construyendo un Runtime Asíncrono desde Cero en Rust|Méx
  ico|Ciudad de México
 DTSTART:20250724T190000
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:**¡Únete a RustMX - Jueves 24 de Julio\, 7-9 PM!**\nDaniel C
  eballos nos dará la plática y descubre cómo construir un runtime asínc
  rono desde cero en Rust. Aprenderás a implementar executors\, wakers\, y 
@@ -7233,7 +7233,7 @@ BEGIN:VEVENT
 SUMMARY:product-management-society-cdmx-chapter|Product Management Network
  ing Meetup|México|Ciudad de México
 DTSTART:20250729T183000
-CATEGORIES:backend,frontend
+CATEGORIES:frontend,backend
 DESCRIPTION:**Join the launch of our product management meetup. We're brin
  ging together PMs\, founders\, designers\, and engineers for a relaxed eve
  ning of networking. If you're in the product world or want to be\, come co
@@ -7266,7 +7266,7 @@ BEGIN:VEVENT
 SUMMARY:thedatapub|Data Pub Julio: Modelar con intención\, decisiones que
   transforman|México|Ciudad de México
 DTSTART:20250730T190000
-CATEGORIES:mobile,frontend,data
+CATEGORIES:data,mobile,frontend
 DESCRIPTION:¡Parroquian@s! 👋\n\n¡Regresamos con un Meetup muy especia
  l! Esta vez contaremos con la participación de Mauricio Porte\, MSc\, un 
  destacado urbanista con una amplia trayectoria en el uso de datos y métod
@@ -7315,7 +7315,7 @@ BEGIN:VEVENT
 SUMMARY:notrustsec|NoTrustSec 30: Crisis de los 30\, Exploits y Breakpoint
  s Existenciales|México|Ciudad de México
 DTSTART:20250731T190000
-CATEGORIES:mobile,security,frontend
+CATEGORIES:security,mobile,frontend
 DESCRIPTION:🎂 ¡Cumplimos 30!\n🥲 Algunos tienen hijxs.\n😅 Otros t
  ienen certificados TLS caducados.\n😬 Y tú… ¿sigues diciendo que "un
   día de estos "te vas a certificar"?\n💥 **No** somos mejores personas.
@@ -7380,7 +7380,7 @@ BEGIN:VEVENT
 SUMMARY:ajolotesenlanube|Ajolotes en la Nube > Temporada 2 > Cap > 07|Méx
  ico|Ciudad de México
 DTSTART:20250807T190000
-CATEGORIES:frontend,python,cloud
+CATEGORIES:frontend,cloud,python
 DESCRIPTION:¡Ya tenemos fecha para el próximo **AjoloMeet!** 🌟\n\n
  📆 **Jueves 07 de Agosto**\n📍 **TecMilenio Reforma**\n🕖 **7:00 PM*
  *\n\nEn nuestra edición de agosto\, la comunidad Ajolotes en la Nube se c
@@ -7419,7 +7419,7 @@ BEGIN:VEVENT
 SUMMARY:python-mexico|PythonCDMX 🐍 Ago  2025 - Escalando tus aplicacion
  es Python con Ray|México|Ciudad de México
 DTSTART:20250812T183000
-CATEGORIES:frontend,python,cloud,mobile,ai
+CATEGORIES:frontend,cloud,ai,python,mobile
 DESCRIPTION:**#PythonCDMX** 🐍 es un grupo de personas interesadas en ap
  render y compartir su conocimiento sobre el lenguaje de programación Pyth
  on. El objetivo es estar en contacto con más gente interesada en innovaci
@@ -7473,7 +7473,7 @@ BEGIN:VEVENT
 SUMMARY:aws-cloud-club-at-unam|¡Serverless! ¡A donde vamos no necesitamo
  s servidores!|México|Ciudad de México
 DTSTART:20250815T160000
-CATEGORIES:cloud,frontend
+CATEGORIES:frontend,cloud
 DESCRIPTION:¿Te has preguntado qué es exactamente eso de la arquitectura
   serverless? ¿O cómo funciona **AWS Lambda** y por qué tantas empresas 
  y devs usan este modelo? 🤔☁️\n\nEn nuestro próximo Meetup te lleva
@@ -7535,7 +7535,7 @@ BEGIN:VEVENT
 SUMMARY:ai-cdmx|Beyond the Plateau: Rethinking AI in 2025|México|Ciudad d
  e México
 DTSTART:20250819T190000
-CATEGORIES:frontend,backend,mobile,security,ai
+CATEGORIES:frontend,ai,backend,security,mobile
 DESCRIPTION:Find the live stream at\nhttps://x.com/ai_cdmx\n\nEspañol Aba
  jo\n\nJoin us for a lively and thought-provoking conversation on the curre
  nt state of the AI industry. As we move through 2025\, large language mode
@@ -7606,7 +7606,7 @@ BEGIN:VEVENT
 SUMMARY:thedatapub|Data Pub Agosto: ¿Puede la GenIA razonar? Un enfoque l
  ógico-matemático|México|Ciudad de México
 DTSTART:20250821T190000
-CATEGORIES:mobile,frontend,data
+CATEGORIES:data,mobile,frontend
 DESCRIPTION:¡Parroquian@s! 👋\n\nEste mes tenemos un Meetup muy especia
  l. Nos acompaña Alfonso Ruiz PhD\, Director General del Colegio de Matem
  áticas Bourbaki\, quien nos ofrecerá una charla que\, sin duda\, será d
@@ -7651,7 +7651,7 @@ BEGIN:VEVENT
 SUMMARY:mexico-city-microsoft-fabric-group|Intro to Microsoft Fabric: Dash
  boards\, Pipelines & AI|México|Ciudad de México
 DTSTART:20250827T180000
-CATEGORIES:frontend,ai,data
+CATEGORIES:data,frontend,ai
 DESCRIPTION:Join us for the **first-ever Mexico City Fabric Group meetup**
  \, where data pros\, engineers\, and business leaders come together to exp
  lore the future of analytics and AI with Microsoft Fabric.\n\nWhether you'
@@ -7698,7 +7698,7 @@ BEGIN:VEVENT
 SUMMARY:gittogether-cdmx|GitTogether CDMX - Agentes de IA|México|Ciudad d
  e México
 DTSTART:20250829T180000
-CATEGORIES:frontend,python,security,ai
+CATEGORIES:frontend,ai,python,security
 DESCRIPTION:¡Hola **comunidad**!\nNos alegra informarles que el próximo 
  evento será realizado en las oficinas de **Nu México**.\n\n**Aprenderas 
  sobre:**\n\n* **Agentes de IA. Qué son\, cómo funcionan y cómo crear un
@@ -7843,7 +7843,7 @@ BEGIN:VEVENT
 SUMMARY:ai-cdmx|Unlocking the Future: Custom AI with Hugging Face|México|
  Ciudad de México
 DTSTART:20250916T190000
-CATEGORIES:frontend,cloud,mobile,ai,data
+CATEGORIES:frontend,cloud,ai,data,mobile
 DESCRIPTION:English Below. This presentation will be mostly in spanish.\n\
  nHi all\, if you cant make it tonight there should be a live stream on you
  tube and X.com is the backup\nhttps://www.youtube.com/@AICDMX\nhttps://x.c
@@ -7911,7 +7911,7 @@ BEGIN:VEVENT
 SUMMARY:thedatapub|Data Pub Septiembre: Integración de Rust y Python con 
  PyO3|México|Ciudad de México
 DTSTART:20250924T190000
-CATEGORIES:frontend,python,mobile,data
+CATEGORIES:frontend,python,data,mobile
 DESCRIPTION:¡Parroquian@s! 👋\n\nEste mes tenemos un Meetup muy especia
  l. Nos acompaña Hermilio Cortés\, un viejo conocido del espacio e Invest
  igador Asociado de la Escuela de Gobierno y Transformación Pública del T
@@ -7965,7 +7965,7 @@ BEGIN:VEVENT
 SUMMARY:product-management-society-cdmx-chapter|Product Management Network
  ing Meetup|México|Ciudad de México
 DTSTART:20250930T180000
-CATEGORIES:backend,frontend
+CATEGORIES:frontend,backend
 DESCRIPTION:**We're bringing together PMs\, founders\, designers\, and eng
  ineers for a relaxed evening of networking. If you're in the product world
   or want to be\, come connect with your community. See you there!**\n\nAny
@@ -8023,7 +8023,7 @@ BEGIN:VEVENT
 SUMMARY:python-mexico|PythonCDMX🐍 Oct2025 -Explotando productos satelit
  ales con Python: de Sentinel-2|México|Ciudad de México
 DTSTART:20251014T183000
-CATEGORIES:frontend,python,backend,mobile,ai
+CATEGORIES:frontend,ai,python,backend,mobile
 DESCRIPTION:**#PythonCDMX🐍** es un grupo de personas interesadas en apr
  ender y compartir su conocimiento sobre el lenguaje de programación Pytho
  n. El objetivo es estar en contacto con más gente interesada en innovaci
@@ -8085,7 +8085,7 @@ BEGIN:VEVENT
 SUMMARY:big-data-developers-in-mexico-city|IBM Tech Summit - Mexico Editio
  n|México|Ciudad de México
 DTSTART:20251016T073000
-CATEGORIES:frontend,mobile,security,ai,data
+CATEGORIES:frontend,ai,data,security,mobile
 DESCRIPTION:El IBM Tech Summit - Mexico Edition es un encuentro único don
  de tendrás acceso a tecnologías disruptivas en Inteligencia Artificial\,
   Nube Híbrida y Automatización\, a través de demos en vivo\, casos de u
@@ -8211,7 +8211,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Breakfast and Bike Ride at Sunrise with Olympian 
  Cyclist Belem Guerrero by Capital One|México|Ciudad de México
 DTSTART:20251020T123000Z
-CATEGORIES:backend,ai
+CATEGORIES:ai,backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/zg62fb5f\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week\,
   Julian Rodales & Host Team
@@ -8228,7 +8228,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Investors & Founders Coffee Mixer by AWS + PYGMA 
  + NXTP + Adamant|México|Ciudad de México
 DTSTART:20251020T140000Z
-CATEGORIES:python,cloud,ai
+CATEGORIES:cloud,ai,python
 DESCRIPTION:Get up-to-date information at: https://luma.com/ixkvvsmy\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   5 others
@@ -8369,7 +8369,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|AI: Governance & Responsibilities|México|Ciudad 
  de México
 DTSTART:20251020T160000Z
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/v1csyri8\n\nAd
  dress:\nCórdoba 42\nPiso 5 - Suite B\, viene a MIRAI\nCiudad de México\,
   Ciudad de México\nMexico\n\nHosted by Mexico Tech Week & 6 others
@@ -8676,7 +8676,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Workshop: Building Products with AI|México|Ciuda
  d de México
 DTSTART:20251020T230000Z
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/i1wws1f2\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   3 others
@@ -8748,7 +8748,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|🏠 Casa de la comunidades Clara y AWS  -  Pytho
  n CDMX|México|Ciudad de México
 DTSTART:20251021T000000Z
-CATEGORIES:python,cloud,ai
+CATEGORIES:cloud,ai,python
 DESCRIPTION:Get up-to-date information at: https://luma.com/he7n0zm4\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
   9 others
@@ -8816,7 +8816,7 @@ BEGIN:VEVENT
 SUMMARY:ai-cdmx|From Academia to AI Startup: Building a Virtual Friend for
   Mental Well-being|México|Ciudad de México
 DTSTART:20251021T180000
-CATEGORIES:frontend,backend,mobile,ai
+CATEGORIES:frontend,ai,backend,mobile
 DESCRIPTION:Please Notice the New Location Casa Rafael Galván\n\nThis pre
  sentation will be in English.\nEsta presentación será en inglés.\n\n6-6
  :30 Networking\n6:30 Presentation starts\n7:30-8 Networking\n\nLive stream
@@ -8918,7 +8918,7 @@ BEGIN:VEVENT
 SUMMARY:thedatapub|Data Pub Octubre: Motor de crédito impulsado por IA en
   Bankaya|México|Ciudad de México
 DTSTART:20251029T190000
-CATEGORIES:frontend,mobile,devops,ai,data
+CATEGORIES:frontend,ai,devops,data,mobile
 DESCRIPTION:¡Atención Parroquian@s! 👋\n\nNos acercamos al cierre del 
  año y tenemos un Meetup muy interesante este mes.\n\nContaremos con la pr
  esencia de Francys Lanza García\, Data Scientist en Bankaya\, especializa
@@ -8970,7 +8970,7 @@ BEGIN:VEVENT
 SUMMARY:product-management-society-cdmx-chapter|Product Management Network
  ing Meetup|México|Ciudad de México
 DTSTART:20251030T190000
-CATEGORIES:backend,frontend
+CATEGORIES:frontend,backend
 DESCRIPTION:Location on Google Maps: [https://maps.app.goo.gl/areV6KRPqnLy
  VhFV8?g_st=ipc](https://maps.app.goo.gl/areV6KRPqnLyVhFV8?g_st=ipc)\n\n**W
  e're bringing together PMs\, founders\, designers\, and engineers for a re
@@ -9002,7 +9002,7 @@ BEGIN:VEVENT
 SUMMARY:embajadoras-cloud|🚀 Construyendo Agentes de IA con Strands Agen
  ts|México|Ciudad de México
 DTSTART:20251105T180000
-CATEGORIES:cloud,frontend
+CATEGORIES:frontend,cloud
 DESCRIPTION:🤔 ¿Has escuchado hablar de los agentes de IA\, pero no sab
  es por dónde empezar?\n\nEsta sesión es para ti. 💡\n\nAcompáñanos c
  on **Ana Cunha\,** quien nos llevará paso a paso a crear agentes de intel
@@ -9064,7 +9064,7 @@ BEGIN:VEVENT
 SUMMARY:python-mexico|PythonCDMX🐍 Noviembre 2025 - Historias de TECHrro
  r - Sysadmin Horror Story|México|Ciudad de México
 DTSTART:20251111T183000
-CATEGORIES:frontend,python,ai
+CATEGORIES:frontend,ai,python
 DESCRIPTION:**#PythonCDMX** 🐍 es un grupo de personas interesadas en ap
  render y compartir su conocimiento sobre el lenguaje de programación Pyth
  on. El objetivo es estar en contacto con más gente interesada en innovaci
@@ -9125,7 +9125,7 @@ BEGIN:VEVENT
 SUMMARY:ai-cdmx|AI Experience – Agentic AI en el Sector Financiero - GBM
  /Datapub/AICDMX|México|Ciudad de México
 DTSTART:20251112T170000
-CATEGORIES:frontend,mobile,security,ai,data
+CATEGORIES:frontend,ai,data,security,mobile
 DESCRIPTION:https://luma.com/3lxd5avn/?utm_source=AICDMXMeetup\nTienes que
   registrarte en Luma para poder entrar al evento. No olvides llevar tu INE
  \; tienes que estar en la lista.\nDe paso inscríbete también aqui para q
@@ -9273,7 +9273,7 @@ BEGIN:VEVENT
 SUMMARY:elixir-mexico-city|🔥 Por Qué Elixir Está Creciendo: Una Noche
   para Descubrirlo|México|Ciudad de México
 DTSTART:20251127T183000
-CATEGORIES:web,frontend,backend,ai
+CATEGORIES:frontend,ai,backend,web
 DESCRIPTION:**🎉 Última reunión del año: Elixir MX — 27 de noviembr
  e**\n\n¡Acompáñanos a cerrar el año con una de las sesiones más emoci
  onantes de la comunidad Elixir MX!\n\nTendremos dos charlas increíbles qu
@@ -9325,7 +9325,7 @@ BEGIN:VEVENT
 SUMMARY:thedatapub|Data Pub Noviembre: ML para fortalecer decisiones de ne
  gocio|México|Ciudad de México
 DTSTART:20251203T190000
-CATEGORIES:frontend,mobile,ai,data
+CATEGORIES:frontend,ai,data,mobile
 DESCRIPTION:¡Atención Parroquian@s! 👋\n\nLlega el último Meetup del 
  año y tendremos nuestro evento final junto con la posada. Acompáñanos e
  n el cierre de un gran año para The Data Pub. Tendremos\, como siempre\, 
@@ -9379,7 +9379,7 @@ BEGIN:VEVENT
 SUMMARY:product-management-society-cdmx-chapter|Product Management Network
  ing Meetup|México|Ciudad de México
 DTSTART:20251204T190000
-CATEGORIES:backend,frontend
+CATEGORIES:frontend,backend
 DESCRIPTION:Location on Google Maps: [https://maps.app.goo.gl/areV6KRPqnLy
  VhFV8?g_st=ipc](https://maps.app.goo.gl/areV6KRPqnLyVhFV8?g_st=ipc)\n\n**W
  e're bringing together PMs\, founders\, designers\, and engineers for a re
@@ -9411,7 +9411,7 @@ BEGIN:VEVENT
 SUMMARY:ai-cdmx|Mind the Loop: Empowering AI Agents to Reason\, Decide\, a
  nd Do|México|Ciudad de México
 DTSTART:20251209T180000
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:\\*\\*In-person and live on YouTube:\\*\\* https://www.youtube
  .com/@AICDMX\n\nEnglish with live Spanish subtitles\nEste evento será en 
  inglés con subtítulos en español en vivo.\n\nStep into an evening built
@@ -9453,7 +9453,7 @@ BEGIN:VEVENT
 SUMMARY:flutter-mexico-city|Flutter Mexico City: ¡Nuestra Posada Tech Nav
  ideña!|México|Ciudad de México
 DTSTART:20251210T170000
-CATEGORIES:mobile,frontend
+CATEGORIES:frontend,mobile
 DESCRIPTION:Prepárense para una noche épica de **aprendizaje**\, **netwo
  rking** y mucha **alegría decembrina** en un evento que no querrán perde
  rse. El **10 de Diciembre** abriremos las puertas de las increíbles **ofi
@@ -9527,7 +9527,7 @@ BEGIN:VEVENT
 SUMMARY:PythonCDMX|Meetup Enero 2026  -  Pinterest & PythonCDMX|México|Ci
  udad de México
 DTSTART:20260114T000000Z
-CATEGORIES:backend,python
+CATEGORIES:python,backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/cciyzwk2\n\nAd
  dress:\nPinterest México\nCiudad de México\, Ciudad de México\nMexico\n
  \nHosted by PythonCDMX
@@ -9607,7 +9607,7 @@ BEGIN:VEVENT
 SUMMARY:AI/IA CDMX (Ciudad de México Inteligencia Artificial)|Cariño\, 
  encogí el modelo - Honey\, I Shrunk the Model|México|Ciudad de México
 DTSTART:20260120T180000
-CATEGORIES:web,frontend,backend,security,ai
+CATEGORIES:frontend,ai,backend,security,web
 DESCRIPTION:AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nSpani
  sh with live English subtitles\nEste evento será en español con subtítu
  los en inglés en vivo.\n\\*\\*In-person and live on YouTube:\\*\\* https:
@@ -9680,7 +9680,7 @@ SUMMARY:AI/IA CDMX (Ciudad de México Inteligencia Artificial)|Campeón P
  eso Ligero IA para la Salud/Lightweight Champion AI for Health|México|Ciu
  dad de México
 DTSTART:20260217T180000
-CATEGORIES:frontend,cloud,backend,mobile,ai,data
+CATEGORIES:frontend,cloud,ai,backend,data,mobile
 DESCRIPTION:AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nSpani
  sh with live English subtitles\nEste evento será en español con subtítu
  los en inglés en vivo.\n\n\\*\\*Presencial y en vivo en YouTube/In-person
