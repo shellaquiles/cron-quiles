@@ -1,283 +1,245 @@
 feeds:
   # -----------------------------------
+- url: https://www.meetup.com/330ohms/events/ical
+  name: 330ohms
+  description: Comunidad enfocada en hardware, electrónica e Internet de las Cosas (IoT).
+  # -----------------------------------
+- url: https://www.meetup.com/agilility-talks/events/ical
+  name: Agility Talks
+  description: Espacio para compartir conocimientos sobre metodologías ágiles, Scrum, Kanban y transformación digital.
+  # -----------------------------------
 - url: https://www.meetup.com/ai-cdmx/events/ical
   name: AI/IA CDMX
   description: Canal de Meetup de la comunidad de IA en Ciudad de México.
-  # -----------------------------------
-- url: https://www.meetup.com/embajadoras-cloud/events/ical
-  name: Embajadoras Cloud
-  description: Comunidad dedicada a impulsar a mujeres hispanohablantes en cloud computing.
-    Enfocada en AWS, aprendizaje colaborativo y desarrollo profesional.
-  # -----------------------------------
-- url: https://www.meetup.com/kong-mexico-city/events/ical
-  name: Kong Mexico City
-  description: Eventos sobre APIs, Microservicios, Service Mesh e Insomnia.
-  # -----------------------------------
-- url: https://www.meetup.com/mexico-city-unity-user-group/events/ical
-  name: Unity User Group CDMX
-  description: Desarrolladores de videojuegos y experiencias interactivas con Unity
-    3D.
-  # -----------------------------------
-- url: https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?organizer=https%3A%2F%2Fwww.eventbrite.com.mx%2Fo%2Fmexai-comunidad-de-ia-106303535081
-  name: MexAI - Comunidad de IA
-  description: Comunidad de IA en Guadalajara. Eventos sobre Inteligencia Artificial.
   # -----------------------------------
 - url: https://www.meetup.com/ajolotesenlanube/events/ical
   name: Ajolotes en la Nube
   description: Grupo dedicado a Cloud Computing y arquitecturas modernas en la nube.
   # -----------------------------------
+- url: https://www.meetup.com/apache-spark-mexicocity/events/ical
+  name: Apache Spark Mexico City
+  description: Grupo dedicado a Apache Spark y el ecosistema de procesamiento de Big Data.
+  # -----------------------------------
+- url: https://www.meetup.com/aws-cdmx/events/ical
+  name: AWS Ajolotes Ciudad de México
+  description: User Group oficial de AWS en CDMX. Eventos sobre servicios en la nube de Amazon.
+  # -----------------------------------
+- url: https://www.meetup.com/aws-cloud-club-at-unam/events/ical
+  name: AWS Cloud Club at Universidad Nacional Autonoma de México
+  description: El AWS Cloud Club de la UNAM es un grupo de usuarios dirigido e impulsado por estudiantes que se enfoca en aprender sobre la Nube.
+  # -----------------------------------
+- url: https://www.meetup.com/amazon-web-services-jalisco/events/ical
+  name: AWS User Group Jalisco
+  description: Comunidad de usuarios de AWS en Guadalajara. Eventos sobre servicios en la nube de Amazon.
+  # -----------------------------------
+- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-gKhhS6fDDrX3mqz
+  name: Claude Users Group
+  description: ""
+  # -----------------------------------
 - url: https://www.meetup.com/big-data-developers-in-mexico-city/events/ical
   name: Data, Cloud and AI in Mexico City
-  description: IBM sponsored Meetup group geared towards developers, data scientists,
-    data engineers, and ALL Big Data, Cloud and AI enthusiasts.
+  description: IBM sponsored Meetup group geared towards developers, data scientists, data engineers, and ALL Big Data, Cloud and AI enthusiasts.
+  # -----------------------------------
+- url: https://www.meetup.com/mobile-development-mexico/events/ical
+  name: Desarrollo de Aplicaciones Móviles México
+  description: Bienvenidos a la comunidad de desarrolladores móviles en iOS y Android, un espacio donde la innovación, la colaboración y el aprendizaje son clave.
+  # -----------------------------------
+- url: https://www.meetup.com/devops-workshop/events/ical
+  name: DevOps Workshop
+  description: Aprende cómo aplicar diferentes tecnologías para construir un producto. En este grupo vas a mejorar tu conocimiento de diferentes sistemas operativos.
+  # -----------------------------------
+- url: https://www.meetup.com/digitaloceanmex/events/ical
+  name: DigitalOcean México City
+  description: Meet software developers of all skill levels to share resources, learn, and form discussions around cloud and devops topics.
+  # -----------------------------------
+- url: https://www.meetup.com/elixir-mexico-city/events/ical
+  name: Elixir Mexico City
+  description: Comunidad enfocada en el lenguaje de programación Elixir y el framework Phoenix.
+  # -----------------------------------
+- url: https://www.meetup.com/embajadoras-cloud/events/ical
+  name: Embajadoras Cloud
+  description: Comunidad dedicada a impulsar a mujeres hispanohablantes en cloud computing. Enfocada en AWS, aprendizaje colaborativo y desarrollo profesional.
+  # -----------------------------------
+- url: https://www.eventbrite.com.mx/o/epam-27283356907
+  name: EPAM
+  description: EPAM Tech Talks Mexico City
+  # -----------------------------------
+- url: https://www.meetup.com/eventloop/events/ical
+  name: Eventloop
+  description: La comunidad de JavaScript de la Ciudad de México es una organización sin fines de lucro con el objetivo de elevar la competitividad técnica de la ciudad.
   # -----------------------------------
 - url: https://www.meetup.com/flutter-mexico-city/events/ical
   name: Flutter Mexico City
   description: Desarrollo multiplataforma con Flutter. Charlas técnicas y talleres.
   # -----------------------------------
-- url: https://www.meetup.com/product-management-society-cdmx-chapter/events/ical
-  name: Product Management Society | CDMX Chapter
-  description: A collective empowering Product Managers to connect, learn from one
-    another and grow.
+- url: https://www.meetup.com/gdg-ciudad-de-mexico/events/ical
+  name: GDG Ciudad de México
+  description: Google Developer Group CDMX. Eventos sobre tecnologías de Google y desarrollo en general.
   # -----------------------------------
-- url: https://www.meetup.com/rust-mx/events/ical
-  name: Rust MX
-  description: Comunidad dedicada al lenguaje Rust. Enfoque en seguridad, velocidad
-    y concurrencia.
-  # -----------------------------------
-- url: https://www.meetup.com/thedatapub/events/ical
-  name: The Data Pub
-  description: Punto de encuentro para amantes de los datos, ciencia de datos y visualización.
-  # -----------------------------------
-- url: https://www.meetup.com/elixir-mexico-city/events/ical
-  name: Elixir Mexico City
-  description: Comunidad enfocada en el lenguaje de programación Elixir y el framework
-    Phoenix.
-  # -----------------------------------
-- url: https://www.meetup.com/amazon-web-services-jalisco/events/ical
-  name: AWS User Group Jalisco
-  description: Comunidad de usuarios de AWS en Guadalajara. Eventos sobre servicios
-    en la nube de Amazon.
-  # -----------------------------------
-- url: https://www.meetup.com/aws-cloud-club-at-unam/events/ical
-  name: AWS Cloud Club at Universidad Nacional Autonoma de México
-  description: El AWS Cloud Club de la UNAM es un grupo de usuarios dirigido e impulsado
-    por estudiantes que se enfoca en aprender sobre la Nube.
-  # -----------------------------------
-- url: https://www.meetup.com/python-mexico/events/ical
-  name: Python CDMX
-  description: Comunidad de entusiastas de Python en México. Charlas, talleres y networking
-    para todos los niveles.
-  # -----------------------------------
-- url: https://www.meetup.com/mobile-development-mexico/events/ical
-  name: Desarrollo de Aplicaciones Móviles México
-  description: Bienvenidos a la comunidad de desarrolladores móviles en iOS y Android,
-    un espacio donde la innovación, la colaboración y el aprendizaje son clave.
-  # -----------------------------------
-- url: https://www.meetup.com/eventloop/events/ical
-  name: Eventloop
-  description: La comunidad de JavaScript de la Ciudad de México es una organización
-    sin fines de lucro con el objetivo de elevar la competitividad técnica de la ciudad.
-  # -----------------------------------
-- url: https://www.meetup.com/notrustsec/events/ical
-  name: NoTrustSec
-  description: Ciberseguridad, hacking ético y seguridad ofensiva/defensiva.
-  # -----------------------------------
-- url: https://www.meetup.com/mexico-kafka/events/ical
-  name: Mexico City Apache Kafka Meetup
-  description: Mexico City Apache Kafka Meetup
-  # -----------------------------------
-- url: https://www.meetup.com/devops-workshop/events/ical
-  name: DevOps Workshop
-  description: Aprende cómo aplicar diferentes tecnologías para construir un producto.
-    En este grupo vas a mejorar tu conocimiento de diferentes sistemas operativos.
-  # -----------------------------------
-- url: https://www.meetup.com/agilility-talks/events/ical
-  name: Agility Talks
-  description: Espacio para compartir conocimientos sobre metodologías ágiles, Scrum,
-    Kanban y transformación digital.
-  # -----------------------------------
-- url: https://www.meetup.com/digitaloceanmex/events/ical
-  name: DigitalOcean México City
-  description: Meet software developers of all skill levels to share resources, learn,
-    and form discussions around cloud and devops topics.
-  # -----------------------------------
-- url: https://www.meetup.com/j4guanatos/events/ical
-  name: j4Guanatos
-  description: Comunidad de Java en Guadalajara. Eventos sobre Java y tecnologías
-    relacionadas.
-  # -----------------------------------
-- url: https://www.meetup.com/guadalajara-kafka/events/ical
-  name: Guadalajara Apache Kafka Meetup
-  description: Guadalajara Apache Kafka Meetup
-  # -----------------------------------
-- url: https://www.meetup.com/odoo-community-days-america-latina/events/ical
-  name: Odoo Latinoamérica
-  description: Comunidad del ERP Open Source Odoo en América Latina.
+- url: https://www.meetup.com/gdg-guadalajara/events/ical
+  name: GDG Guadalajara
+  description: Google Developer Group Guadalajara. Eventos sobre tecnologías de Google y desarrollo.
   # -----------------------------------
 - url: https://www.meetup.com/gittogether-cdmx/events/ical
   name: GitTogether CDMX
-  description: GitHub GitTogether CDMX es un evento mensual creado por desarrolladores
-    para desarrolladores para aprender acerca de GitHub y Open Source.
-  # -----------------------------------
-- url: https://www.meetup.com/scala-and-functional-programming-cdmx-and-remote/events/ical
-  name: Scala & FP CDMX
-  description: Programación funcional y lenguaje Scala.
-  # -----------------------------------
-- url: https://www.meetup.com/mexico-city-microsoft-fabric-group/events/ical
-  name: Microsoft Fabric CDMX
-  description: Grupo de usuarios de Microsoft Fabric y análisis de datos empresarial.
-  # -----------------------------------
-- url: https://www.meetup.com/apache-spark-mexicocity/events/ical
-  name: Apache Spark Mexico City
-  description: Grupo dedicado a Apache Spark y el ecosistema de procesamiento de Big
-    Data.
-  # -----------------------------------
-- url: https://www.meetup.com/globalaicdmx/events/ical
-  name: Global AI CDMX
-  description: Capítulo local de la Global AI Community. Enfoque en Microsoft AI y
-    tecnologías Azure.
-  # -----------------------------------
-- url: https://www.meetup.com/postgresql-mexico/events/ical
-  name: PostgreSQL México
-  description: Usuarios y administradores de bases de datos PostgreSQL.
-  # -----------------------------------
-- url: https://www.meetup.com/red-hat-user-group-mexico/events/ical
-  name: Red Hat User Group
-  description: Tecnologías Red Hat, Linux Enterprise y OpenShift.
+  description: GitHub GitTogether CDMX es un evento mensual creado por desarrolladores para desarrolladores para aprender acerca de GitHub y Open Source.
   # -----------------------------------
 - url: https://www.meetup.com/gittogether-latam/events/ical
   name: GitTogether LATAM
   description: Comunidad latinoamericana de GitHub. Open Source y colaboración.
   # -----------------------------------
-- url: https://www.meetup.com/html5-ciudad-de-mexico/events/ical
-  name: HTML5 CDMX
-  description: Desarrollo web, estándares W3C y tecnologías de frontend.
+- url: https://www.meetup.com/globalaicdmx/events/ical
+  name: Global AI CDMX
+  description: Capítulo local de la Global AI Community. Enfoque en Microsoft AI y tecnologías Azure.
   # -----------------------------------
-- url: https://www.meetup.com/pythonmty/events/ical
-  name: Python Monterrey
-  description: Comunidad de Python en la ciudad de Monterrey.
-
-  # -----------------------------------
-- url: https://www.meetup.com/gdg-ciudad-de-mexico/events/ical
-  name: GDG Ciudad de México
-  description: Google Developer Group CDMX. Eventos sobre tecnologías de Google y
-    desarrollo en general.
-  # -----------------------------------
-- url: https://www.meetup.com/openinfrastructurecdmx/events/ical
-  name: Open Infra CDMX
-  description: Infraestructura abierta, OpenStack y tecnologías de cloud open source.
-  # -----------------------------------
-- url: https://www.meetup.com/sysarmy-mexico/events/ical
-  name: Sysarmy México
-  description: Hola, somos el capitulo oficial de Sysarmy en México. Una comunidad
-    de sistemas enfocada a reunir a todos los profesionales del sector.
-  # -----------------------------------
-- url: https://www.meetup.com/pythonista/events/ical
-  name: Pythonista
-  description: Una de las comunidades de Python más grandes y activas de México. Charlas
-    y talleres para todos los niveles.
-  # -----------------------------------
-- url: https://www.meetup.com/aws-cdmx/events/ical
-  name: AWS Ajolotes Ciudad de México
-  description: User Group oficial de AWS en CDMX. Eventos sobre servicios en la nube
-    de Amazon.
-  # -----------------------------------
-- url: https://www.meetup.com/meetup-mexico/events/ical
-  name: Meetup México
-  description: Comunidad general de usuarios y organizadores de Meetup en México.
-  # -----------------------------------
-- url: https://www.meetup.com/gophersmx/events/ical
-  name: Gophers MX
-  description: Comunidad de desarrolladores del lenguaje Go en México.
-  # -----------------------------------
-- url: https://www.meetup.com/grupo-de-python-en-puebla/events/ical
-  name: Python Puebla
-  description: Comunidad de Python en el estado de Puebla. Charlas y talleres.
-  # -----------------------------------
-- url: https://www.meetup.com/mexico-city-docker-friends/events/ical
-  name: México City Docker friends
-  description: Learn, Collaborate & Dockerize! Meet other developers and ops engineers
-    in your community that are using and learning about Docker.
-  # -----------------------------------
-- url: https://www.meetup.com/php-the-right-way/events/ical
-  name: PHP Mexico
-  description: ¡Hacemos la web! PHP es el lenguaje más usado de la web, en este grupo
-    podrás encontrar el siguiente nivel en tu carrera como programador PHP.
-  # -----------------------------------
-- url: https://www.meetup.com/hackrobotsmx/events/ical
-  name: HackrobotsMX
-  description: HackrobotsMX es la primera y única comunidad en América sin fines de
-    lucro dedicada a la formación y capacitación en robótica.
-  # -----------------------------------
-- url: https://www.meetup.com/330ohms/events/ical
-  name: 330ohms
-  description: Comunidad enfocada en hardware, electrónica e Internet de las Cosas
-    (IoT).
-  # -----------------------------------
-- url: https://www.meetup.com/the-dojo-mx/events/ical
-  name: The Dojo MX
-  description: Aprende y desarrolla habilidades de manos de los mejores desarrolladores
-    de México. Talleres presenciales o en línea.
-  # -----------------------------------
-- url: https://www.meetup.com/cdmx-vim-meetup/events/ical
-  name: Vim CDMX
-  description: Nuestro objetivo es atraer a usuarios noveles y expertos en Vim para
-    aprender el arte de la edición modal, mejorar, o compartir flujos de trabajo.
+- url: https://www.eventbrite.com/o/global-startup-ecosystem-26000946435
+  name: Global Startup Ecosystem
+  description: Digital career accelerator and community.
   # -----------------------------------
 - url: https://www.meetup.com/grupo-de-meetup-de-linux-en-ciudad-de-mexico/events/ical
   name: GNU / SysAdmin Linux en Ciudad de México
   description: Comunidad de Sysadmins que se dedican a dar soporte con Software Libre.
   # -----------------------------------
+- url: https://www.meetup.com/gophersmx/events/ical
+  name: Gophers MX
+  description: Comunidad de desarrolladores del lenguaje Go en México.
+  # -----------------------------------
+- url: https://www.meetup.com/guadalajara-kafka/events/ical
+  name: Guadalajara Apache Kafka Meetup
+  description: Guadalajara Apache Kafka Meetup
+  # -----------------------------------
+- url: https://www.meetup.com/hackrobotsmx/events/ical
+  name: HackrobotsMX
+  description: HackrobotsMX es la primera y única comunidad en América sin fines de lucro dedicada a la formación y capacitación en robótica.
+  # -----------------------------------
+- url: https://www.meetup.com/html5-ciudad-de-mexico/events/ical
+  name: HTML5 CDMX
+  description: Desarrollo web, estándares W3C y tecnologías de frontend.
+  # -----------------------------------
+- url: https://www.meetup.com/j4guanatos/events/ical
+  name: j4Guanatos
+  description: Comunidad de Java en Guadalajara. Eventos sobre Java y tecnologías relacionadas.
+  # -----------------------------------
+- url: https://www.meetup.com/kong-mexico-city/events/ical
+  name: Kong Mexico City
+  description: Eventos sobre APIs, Microservicios, Service Mesh e Insomnia.
+  # -----------------------------------
 - url: https://www.meetup.com/meetup-de-network-orquestrators-creating-unicorns/events/ical
   name: Meetup de Network Orquestrators, Creating Unicorns
-  description: En este grupo estamos intentando construir empresas Unicornio. Queremos
-    contactar con startuperos interesados en intercambiar ideas y contactos.
+  description: En este grupo estamos intentando construir empresas Unicornio. Queremos contactar con startuperos interesados en intercambiar ideas y contactos.
   # -----------------------------------
-- url: https://www.meetup.com/gdg-guadalajara/events/ical
-  name: GDG Guadalajara
-  description: Google Developer Group Guadalajara. Eventos sobre tecnologías de Google
-    y desarrollo.
-  # Calendario 2026
+- url: https://www.meetup.com/meetup-mexico/events/ical
+  name: Meetup México
+  description: Comunidad general de usuarios y organizadores de Meetup en México.
+  # -----------------------------------
+- url: https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?organizer=https%3A%2F%2Fwww.eventbrite.com.mx%2Fo%2Fmexai-comunidad-de-ia-106303535081
+  name: MexAI - Comunidad de IA
+  description: Comunidad de IA en Guadalajara. Eventos sobre Inteligencia Artificial.
+  # -----------------------------------
+- url: https://www.meetup.com/mexico-kafka/events/ical
+  name: Mexico City Apache Kafka Meetup
+  description: Mexico City Apache Kafka Meetup
+  # -----------------------------------
+- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu
+  name: Mexico Tech Week
+  description: Calendario oficial de Mexico Tech Week 2025.
+  # -----------------------------------
+- url: https://www.meetup.com/mexico-city-microsoft-fabric-group/events/ical
+  name: Microsoft Fabric CDMX
+  description: Grupo de usuarios de Microsoft Fabric y análisis de datos empresarial.
+  # -----------------------------------
+- url: https://www.eventbrite.com/e/mujeres-en-tech-ciudad-de-mexico-outgeekwomen-tickets-1354031136579?aff=ebdsoporgprofile
+  name: Mujeres en Tech CDMX
+  description: OutGeekWomen networking event.
+  # -----------------------------------
+- url: https://www.meetup.com/mexico-city-docker-friends/events/ical
+  name: México City Docker friends
+  description: Learn, Collaborate & Dockerize! Meet other developers and ops engineers in your community that are using and learning about Docker.
+  # -----------------------------------
+- url: https://www.meetup.com/notrustsec/events/ical
+  name: NoTrustSec
+  description: Ciberseguridad, hacking ético y seguridad ofensiva/defensiva.
+  # -----------------------------------
+- url: https://www.meetup.com/odoo-community-days-america-latina/events/ical
+  name: Odoo Latinoamérica
+  description: Comunidad del ERP Open Source Odoo en América Latina.
+  # -----------------------------------
+- url: https://www.meetup.com/openinfrastructurecdmx/events/ical
+  name: Open Infra CDMX
+  description: Infraestructura abierta, OpenStack y tecnologías de cloud open source.
+  # -----------------------------------
+- url: https://www.meetup.com/php-the-right-way/events/ical
+  name: PHP Mexico
+  description: ¡Hacemos la web! PHP es el lenguaje más usado de la web, en este grupo podrás encontrar el siguiente nivel en tu carrera como programador PHP.
+  # -----------------------------------
+- url: https://www.meetup.com/postgresql-mexico/events/ical
+  name: PostgreSQL México
+  description: Usuarios y administradores de bases de datos PostgreSQL.
+  # -----------------------------------
+- url: https://www.meetup.com/product-management-society-cdmx-chapter/events/ical
+  name: Product Management Society | CDMX Chapter
+  description: A collective empowering Product Managers to connect, learn from one another and grow.
+  # -----------------------------------
+- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl
+  name: PyTalavera
+  description: Comunidad Pythonista en Puebla. Eventos, charlas y networking para entusiastas de Python en la región.
+  # -----------------------------------
+- url: https://www.meetup.com/python-mexico/events/ical
+  name: Python CDMX
+  description: Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles.
+  # -----------------------------------
+- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-f8GxWvNMvBvvuLb
+  name: Python CDMX
+  description: Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles.
+  # -----------------------------------
+- url: https://www.meetup.com/pythonmty/events/ical
+  name: Python Monterrey
+  description: Comunidad de Python en la ciudad de Monterrey.
+  # -----------------------------------
+- url: https://www.meetup.com/grupo-de-python-en-puebla/events/ical
+  name: Python Puebla
+  description: Comunidad de Python en el estado de Puebla. Charlas y talleres.
+  # -----------------------------------
+- url: https://www.meetup.com/pythonista/events/ical
+  name: Pythonista
+  description: Una de las comunidades de Python más grandes y activas de México. Charlas y talleres para todos los niveles.
+  # -----------------------------------
+- url: https://www.meetup.com/red-hat-user-group-mexico/events/ical
+  name: Red Hat User Group
+  description: Tecnologías Red Hat, Linux Enterprise y OpenShift.
+  # -----------------------------------
+- url: https://www.eventbrite.com/o/richard-kasperowski-4717258269
+  name: Richard Kasperowski
+  description: High-performance teams and Agile protocols.
+  # -----------------------------------
+- url: https://www.meetup.com/rust-mx/events/ical
+  name: Rust MX
+  description: Comunidad dedicada al lenguaje Rust. Enfoque en seguridad, velocidad y concurrencia.
+  # -----------------------------------
+- url: https://www.meetup.com/scala-and-functional-programming-cdmx-and-remote/events/ical
+  name: Scala & FP CDMX
+  description: Programación funcional y lenguaje Scala.
+  # -----------------------------------
 - url: https://luma.com/sudo_fciencias_2026
   name: Sudo FCiencias
-  description: Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de
-    la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el
-    nivel que tengas. No somos expertxs, somos Sudo.
-
-# ------------------------------------------
-# FEEDS LUMA
-# ------------------------------------------
-# Mexico Tech Week
-- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu
-  name: "Mexico Tech Week"
-  description: "Calendario oficial de Mexico Tech Week 2025."
-# Python CDMX
-- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-f8GxWvNMvBvvuLb
-  name: "Python CDMX"
-  description: "Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles."
-# Claude Users Group
-- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-gKhhS6fDDrX3mqz
-  name: "Claude Users Group"
-  description: ""
-# PyTalavera
-- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl
-  name: "PyTalavera"
-  description: "Comunidad Pythonista en Puebla. Eventos, charlas y networking para entusiastas de Python en la región."
-# Eventbrite Feeds (New)
-# EPAM
-- url: https://www.eventbrite.com.mx/o/epam-27283356907
-  name: "EPAM"
-  description: "EPAM Tech Talks Mexico City"
-# Richard Kasperowski
-- url: https://www.eventbrite.com/o/richard-kasperowski-4717258269
-  name: "Richard Kasperowski"
-  description: "High-performance teams and Agile protocols."
-# Global Startup Ecosystem
-- url: https://www.eventbrite.com/o/global-startup-ecosystem-26000946435
-  name: "Global Startup Ecosystem"
-  description: "Digital career accelerator and community."
-# Single Events
-- url: https://www.eventbrite.com/e/mujeres-en-tech-ciudad-de-mexico-outgeekwomen-tickets-1354031136579?aff=ebdsoporgprofile
-  name: "Mujeres en Tech CDMX"
-  description: "OutGeekWomen networking event."
+  description: Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.
+  # -----------------------------------
+- url: https://www.meetup.com/sysarmy-mexico/events/ical
+  name: Sysarmy México
+  description: Hola, somos el capitulo oficial de Sysarmy en México. Una comunidad de sistemas enfocada a reunir a todos los profesionales del sector.
+  # -----------------------------------
+- url: https://www.meetup.com/thedatapub/events/ical
+  name: The Data Pub
+  description: Punto de encuentro para amantes de los datos, ciencia de datos y visualización.
+  # -----------------------------------
+- url: https://www.meetup.com/the-dojo-mx/events/ical
+  name: The Dojo MX
+  description: Aprende y desarrolla habilidades de manos de los mejores desarrolladores de México. Talleres presenciales o en línea.
+  # -----------------------------------
+- url: https://www.meetup.com/mexico-city-unity-user-group/events/ical
+  name: Unity User Group CDMX
+  description: Desarrolladores de videojuegos y experiencias interactivas con Unity 3D.
+  # -----------------------------------
+- url: https://www.meetup.com/cdmx-vim-meetup/events/ical
+  name: Vim CDMX
+  description: Nuestro objetivo es atraer a usuarios noveles y expertos en Vim para aprender el arte de la edición modal, mejorar, o compartir flujos de trabajo.
