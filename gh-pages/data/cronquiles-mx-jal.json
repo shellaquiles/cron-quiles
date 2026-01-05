@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-05T12:31:00.346580+00:00",
+  "generated_at": "2026-01-05T18:24:21.382658+00:00",
   "total_events": 42,
   "city": "Jalisco",
   "communities": [
@@ -58,8 +58,8 @@
       "dtstart": "2022-07-23T19:00:00-05:00",
       "dtend": null,
       "tags": [
-        "mobile",
-        "frontend"
+        "frontend",
+        "mobile"
       ],
       "source": "https://www.meetup.com/meetup-mexico/events/?type=past",
       "country": "México",
@@ -80,10 +80,10 @@
       "dtstart": "2023-09-14T09:00:00-06:00",
       "dtend": null,
       "tags": [
-        "mobile",
-        "frontend",
         "backend",
-        "web"
+        "web",
+        "mobile",
+        "frontend"
       ],
       "source": "https://www.meetup.com/eventloop/events/?type=past",
       "country": "México",
@@ -104,12 +104,12 @@
       "dtstart": "2024-02-29T19:00:00-06:00",
       "dtend": null,
       "tags": [
+        "web",
         "python",
+        "data",
         "mobile",
         "frontend",
-        "data",
-        "security",
-        "web"
+        "security"
       ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
@@ -130,11 +130,11 @@
       "dtstart": "2024-05-30T19:00:00-06:00",
       "dtend": null,
       "tags": [
+        "backend",
         "python",
-        "mobile",
-        "frontend",
         "ai",
-        "backend"
+        "mobile",
+        "frontend"
       ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
@@ -155,10 +155,10 @@
       "dtstart": "2024-06-27T19:00:00-06:00",
       "dtend": null,
       "tags": [
-        "mobile",
-        "frontend",
+        "web",
         "ai",
-        "web"
+        "mobile",
+        "frontend"
       ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
@@ -198,11 +198,11 @@
       "dtstart": "2024-08-29T19:00:00-06:00",
       "dtend": null,
       "tags": [
-        "mobile",
         "devops",
-        "frontend",
+        "web",
         "ai",
-        "web"
+        "mobile",
+        "frontend"
       ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
@@ -223,11 +223,11 @@
       "dtstart": "2024-09-12T19:00:00-06:00",
       "dtend": null,
       "tags": [
-        "mobile",
         "devops",
-        "frontend",
-        "data",
         "web",
+        "data",
+        "mobile",
+        "frontend",
         "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
@@ -250,8 +250,8 @@
       "dtend": null,
       "tags": [
         "web",
-        "cloud",
-        "frontend"
+        "frontend",
+        "cloud"
       ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
@@ -273,8 +273,8 @@
       "dtend": null,
       "tags": [
         "web",
-        "cloud",
-        "frontend"
+        "frontend",
+        "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
@@ -316,10 +316,10 @@
       "dtstart": "2025-02-20T19:00:00-06:00",
       "dtend": null,
       "tags": [
-        "frontend",
+        "web",
         "ai",
         "data",
-        "web"
+        "frontend"
       ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
@@ -361,9 +361,9 @@
       "dtstart": "2025-03-13T18:30:00-06:00",
       "dtend": null,
       "tags": [
-        "frontend",
-        "ai",
         "web",
+        "ai",
+        "frontend",
         "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
@@ -385,9 +385,9 @@
       "dtstart": "2025-03-21T19:00:00-06:00",
       "dtend": null,
       "tags": [
-        "frontend",
-        "ai",
         "backend",
+        "ai",
+        "frontend",
         "cloud"
       ],
       "source": "https://www.meetup.com/rust-mx/events/?type=past",
@@ -430,9 +430,9 @@
       "dtstart": "2025-03-28T08:00:00-06:00",
       "dtend": null,
       "tags": [
-        "mobile",
         "devops",
         "ai",
+        "mobile",
         "cloud"
       ],
       "source": "https://www.meetup.com/devops-workshop/events/?type=past",
@@ -455,8 +455,8 @@
       "dtend": null,
       "tags": [
         "devops",
-        "ai",
         "web",
+        "ai",
         "cloud"
       ],
       "source": "https://www.meetup.com/html5-ciudad-de-mexico/events/?type=past",
@@ -478,12 +478,12 @@
       "dtstart": "2025-04-24T18:30:00-06:00",
       "dtend": null,
       "tags": [
-        "mobile",
-        "devops",
-        "frontend",
-        "ai",
         "backend",
+        "devops",
         "web",
+        "ai",
+        "mobile",
+        "frontend",
         "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
@@ -505,8 +505,8 @@
       "dtstart": "2025-04-24T19:00:00-06:00",
       "dtend": null,
       "tags": [
-        "mobile",
         "backend",
+        "mobile",
         "frontend"
       ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
@@ -570,10 +570,10 @@
       "dtstart": "2025-05-29T18:30:00-06:00",
       "dtend": null,
       "tags": [
-        "frontend",
-        "security",
         "web",
-        "cloud"
+        "frontend",
+        "cloud",
+        "security"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
@@ -594,9 +594,9 @@
       "dtstart": "2025-06-07T10:30:00-06:00",
       "dtend": null,
       "tags": [
-        "security",
         "web",
-        "frontend"
+        "frontend",
+        "security"
       ],
       "source": "https://www.meetup.com/j4guanatos/events/?type=past",
       "country": "México",
@@ -617,8 +617,8 @@
       "dtstart": "2025-06-19T19:00:00-06:00",
       "dtend": null,
       "tags": [
-        "ai",
-        "frontend"
+        "frontend",
+        "ai"
       ],
       "source": "https://www.meetup.com/rust-mx/events/?type=past",
       "country": "México",
@@ -660,9 +660,9 @@
       "dtstart": "2025-07-24T18:30:00-06:00",
       "dtend": null,
       "tags": [
-        "frontend",
-        "data",
         "web",
+        "data",
+        "frontend",
         "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
@@ -768,11 +768,11 @@
       "dtstart": "2025-09-25T18:30:00-06:00",
       "dtend": null,
       "tags": [
-        "mobile",
-        "ai",
-        "security",
         "web",
-        "cloud"
+        "ai",
+        "mobile",
+        "cloud",
+        "security"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
       "country": "México",
@@ -836,11 +836,11 @@
       "dtstart": "2025-10-28T19:00:00-06:00",
       "dtend": null,
       "tags": [
-        "mobile",
         "devops",
+        "web",
+        "mobile",
         "frontend",
         "security",
-        "web",
         "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
@@ -905,11 +905,11 @@
       "dtstart": "2025-11-20T18:30:00-06:00",
       "dtend": null,
       "tags": [
-        "frontend",
-        "ai",
         "backend",
-        "data",
         "web",
+        "ai",
+        "data",
+        "frontend",
         "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
@@ -952,10 +952,10 @@
       "dtstart": "2025-11-27T18:30:00-06:00",
       "dtend": null,
       "tags": [
+        "web",
+        "ai",
         "mobile",
         "frontend",
-        "ai",
-        "web",
         "cloud"
       ],
       "source": "https://www.meetup.com/amazon-web-services-jalisco/events/?type=past",
@@ -1000,8 +1000,8 @@
       "tags": [
         "conferencia",
         "devops",
-        "cloud",
-        "kubernetes"
+        "kubernetes",
+        "cloud"
       ],
       "source": "Manual",
       "country": "México",

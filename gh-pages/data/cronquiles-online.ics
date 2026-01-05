@@ -58,7 +58,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:hackrobotsmx|SIX SIGMA & LEAN MANUFACTURING|Online
 DTSTART:20200530T120000
-CATEGORIES:mobile,frontend,ai,web
+CATEGORIES:web,ai,mobile,frontend
 DESCRIPTION:¡Estamos de vuelta! :D\n\nTipo de evento:\nTaller\n\nNivel ac
  adémico del evento:\nBásico\n\nConocimientos previos del asistente:\nEst
  adística básica\n\nDescripción del evento:\nLos asistentes al taller ap
@@ -82,7 +82,7 @@ BEGIN:VEVENT
 SUMMARY:eventloop|Eventloop Junio - Meetup de la comunidad de JavaScript d
  e la CDMX|Online
 DTSTART:20200610T190000
-CATEGORIES:python,mobile,frontend,ai,backend,web
+CATEGORIES:backend,web,python,ai,mobile,frontend
 DESCRIPTION:Eventloop es el meetup mensual de la comunidad de JavaScript d
  e la Ciudad de México. Nos "reunimos" el primer miércoles para que nos v
  isiten profesionales de desarrollo de software para compartirnos las últi
@@ -153,7 +153,7 @@ BEGIN:VEVENT
 SUMMARY:mexico-city-docker-friends|Curso de Docker básico con Compose II|
  Online
 DTSTART:20200829T100000
-CATEGORIES:ai,devops,frontend
+CATEGORIES:devops,frontend,ai
 DESCRIPTION:https://events.docker.com/events/details/docker-mexico-city-pr
  esents-curso-de-docker-basico-con-compose-ii/\n\nTerminaremos de exponer e
  l último capítulo que quedó pendiente en la sesión pasada y seguiremos
@@ -194,7 +194,7 @@ BEGIN:VEVENT
 SUMMARY:openinfrastructurecdmx|Open Infrastructure Summit 2020 Virtual|Onl
  ine
 DTSTART:20201019T080000
-CATEGORIES:mobile,devops,frontend,ai
+CATEGORIES:devops,ai,mobile,frontend
 DESCRIPTION:El Open Infrastructure Summit 2020 será virtual\, del 19 al 2
  3 de octubre de 2020.\n\nVER LA AGENDA: https://www.openstack.org/summit/2
  020/summit-schedule/#day=2020-10-19\n\nREGÍSTRATE GRATIS: https://openinf
@@ -267,7 +267,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:digitaloceanmex|DigitalOcean deploy Virtual Conference|Online
 DTSTART:20201110T090000
-CATEGORIES:ai,data,frontend
+CATEGORIES:frontend,ai,data
 DESCRIPTION:Celebrating our developer community and introducing new produc
  ts to help you scale your projects with ease\, DigitalOcean's virtual deve
  loper conference\, deploy\, has something for everyone.\n\nREGISTER HERE: 
@@ -354,7 +354,7 @@ BEGIN:VEVENT
 SUMMARY:html5-ciudad-de-mexico|La magia de GraphQL y la nueva era del API|
  Online
 DTSTART:20210325T190000
-CATEGORIES:mobile,frontend,ai,backend,web
+CATEGORIES:backend,web,ai,mobile,frontend
 DESCRIPTION:GraphQL es una tecnología desarrollada por Facebook para abri
  r una nueva era en la construcción de APIs\, consiste en un lenguaje de e
  squemas y consultas en grafos que permite implementar los recursos del ser
@@ -377,7 +377,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:html5-ciudad-de-mexico|DevOps y JavaScript con Jenkins|Online
 DTSTART:20210408T190000
-CATEGORIES:ai,devops,web
+CATEGORIES:devops,web,ai
 DESCRIPTION:En nuestra próxima reunión vamos a hablar de DevOps para nue
  stros proyectos JavaScript\, usaremos Jenkins como herramienta de integrac
  ión entrega y continua.\n\nLes deje este articulo que trata precisamente 
@@ -390,7 +390,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:digitaloceanmex|deploy '21: Power Your Business|Online
 DTSTART:20210629T080000
-CATEGORIES:cloud,frontend
+CATEGORIES:frontend,cloud
 DESCRIPTION:Join developers\, entrepreneurs\, startups\, and small busines
  ses at DigitalOcean's virtual conference for global development teams\, de
  ploy: Power Your Business on June 29th\, 2021.\n\nGrab your virtual seat t
@@ -415,7 +415,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:mexico-city-docker-friends|Dockerfriends\, We are Back!!!!|Online
 DTSTART:20210911T120000
-CATEGORIES:ai,devops,frontend
+CATEGORIES:devops,frontend,ai
 DESCRIPTION:https://events.docker.com/events/details/docker-mexico-city-pr
  esents-dockerfriends-we-are-back/\n\nHola amigos\, ya regresamos :) y tene
  mos una charla para ustedes\, en esta ocasión tenemos con nosotros a&nbsp
@@ -441,7 +441,7 @@ BEGIN:VEVENT
 SUMMARY:html5-ciudad-de-mexico|StriderCD una herramienta JS para DevOps|On
  line
 DTSTART:20210930T190000
-CATEGORIES:ai,devops,web
+CATEGORIES:devops,web,ai
 DESCRIPTION:En esta ocasión vamos a platicar de StriderCD.\n\nStrider es 
  una plataforma de integración continua / entrega continua de código abie
  rto. Está escrito en Node.JS / JavaScript y usa MongoDB en el back.\n\nA 
@@ -453,7 +453,7 @@ BEGIN:VEVENT
 SUMMARY:digitaloceanmex|Hacktoberfest 2021 Official Kickoff: Americas Edit
  ion|Online
 DTSTART:20211001T090000
-CATEGORIES:ai,python,frontend
+CATEGORIES:frontend,python,ai
 DESCRIPTION:Happy 8th Hacktoberfest! Come celebrate open source software\,
   hear maintainer stories\, play games\, and make your first pull request.\
  n\n- - - - - - - - -\n\nOpen source is changing the world – one contribu
@@ -479,7 +479,7 @@ BEGIN:VEVENT
 SUMMARY:mexico-city-docker-friends|Re-architect a front end application & 
  ArgoCD|Online
 DTSTART:20211002T110000
-CATEGORIES:devops,frontend
+CATEGORIES:frontend,devops
 DESCRIPTION:Queridos Dokerfriends :) ya tenemos el proximo evento y eso no
  s hace muy felices.\n\n¿De qué vamos hablar?\n\n* Chismes\, sí señor\,
   ¿por qué no? Pero chismes acerca de IT\, novedades\, cosas que nos cont
@@ -502,7 +502,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:digitaloceanmex|Hacktoberfest 2021: The Big Push|Online
 DTSTART:20211025T090000
-CATEGORIES:frontend,ai,security,backend,cloud
+CATEGORIES:backend,ai,frontend,cloud,security
 DESCRIPTION:Celebrate open source software\, find projects\, and start hac
  king with DigitalOcean experts!\n\n- - - - - - - - -\n\nKnock out your 4 P
  Rs/MRs all at once with the help of DigitalOcean! Join the hosts of Cloud 
@@ -539,7 +539,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:mexico-city-docker-friends|Dockerfriends octubre|Online
 DTSTART:20211028T120000
-CATEGORIES:devops,frontend,ai,security,web,cloud
+CATEGORIES:devops,web,ai,frontend,cloud,security
 DESCRIPTION:¡Hola amigos!\n\n¡Estamos de vuelta nuevamente para tener ot
  ro evento en línea y esta vez con temas que no se pueden perder!\n\nPubli
  caremos el streaming del evento en el grupo de Facebook https://www.facebo
@@ -567,7 +567,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:digitaloceanmex|deploy by DigitalOcean|Online
 DTSTART:20211116T100000
-CATEGORIES:frontend,ai,security,cloud
+CATEGORIES:ai,frontend,cloud,security
 DESCRIPTION:deploy is back! This two-day developer conference is virtual\,
   completely free\, and chock-full of practices to help you build\, secure\
  , and deploy your apps using cloud native technologies.\n\nSCHEDULE\nNov. 
@@ -600,7 +600,7 @@ BEGIN:VEVENT
 SUMMARY:mexico-city-docker-friends|Enforcing compliance clusters with Gate
  keeper & Learning k8s pt.0|Online
 DTSTART:20211218T110000
-CATEGORIES:devops,frontend
+CATEGORIES:frontend,devops
 DESCRIPTION:Si estás interesado en aprender como mejorar el compliance de
   tu cluster k8s o conocer alguna herramienta de seguridad y que sea open s
  ource Gatekeeper puede interesarte.\n\nGatekeeper es un gestor de polític
@@ -642,7 +642,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:mexico-city-docker-friends|Docker birthday #9!|France|Occitania
 DTSTART:20220326T140000
-CATEGORIES:devops,frontend
+CATEGORIES:frontend,devops
 DESCRIPTION:¡Hola Docker friends!\n\n¡Docker cumple 9 años!\n\nVamos a 
  celebrar el cumpleaños de Docker el próximo sábado 26 de marzo a las 2p
  m. Desafortunadamente no podemos aun reunirnos presencialmente pero pronto
@@ -678,7 +678,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:pythonista|Data Warehousing con BigQuery y SQL|Online
 DTSTART:20220502T190000
-CATEGORIES:python,frontend,ai,data,web,cloud
+CATEGORIES:web,python,ai,data,frontend,cloud
 DESCRIPTION:## Descripción del taller.\n\n[BigQuery](https://cloud.google
  .com/bigquery/?) es la plataforma serverless de Google Cloud Platform para
   Data Warehouse\, Machine Learning y BI\, capaz de analizar TB de datos me
@@ -721,7 +721,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:php-the-right-way|Introducción al mundo Big Data|Online
 DTSTART:20220628T200000
-CATEGORIES:mobile,frontend,data,cloud
+CATEGORIES:data,mobile,frontend,cloud
 DESCRIPTION:David Loera (@pohvak) nos dará una introducción a conceptos 
  de big data\, ¿qué diferencias hay con el cómputo tradicional? ¿cómo 
  es programar para procesar big data?\n\nHablaremos de las tecnologías má
@@ -736,7 +736,7 @@ BEGIN:VEVENT
 SUMMARY:pythonista|Desarrollo de pipelines de datos con Python y Apache Ai
  rflow|Online
 DTSTART:20220629T200000
-CATEGORIES:ai,python
+CATEGORIES:python,ai
 DESCRIPTION:La actividad principal de la ingeniería de datos es la de dis
  eñar y deplegar pipelines de datos que permitan procesos de extracción\,
   transformación y carga tanto para flujos de datos (streams) como para da
@@ -751,7 +751,7 @@ BEGIN:VEVENT
 SUMMARY:html5-ciudad-de-mexico|Uno Platform 4.0 – putting the “Platfor
  m in Uno Platform”|Online
 DTSTART:20220630T190000
-CATEGORIES:mobile,frontend,ai,web
+CATEGORIES:web,ai,mobile,frontend
 DESCRIPTION:El jueves 30 de junio a las 7:00 pm (tiempo de CDMX) vamos a p
  laticar de la plataforma de desarrollo UNO.\nLa platica será impartida po
  r Andres Pineda y en español.\n\nTrsnimitiremos por Youtube\, ahi nos pud
@@ -790,7 +790,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:pythonista|APIs asíncronas con  FastAPI y SQLAlchemy|Online
 DTSTART:20220718T200000
-CATEGORIES:python,mobile,frontend,ai,backend,web
+CATEGORIES:backend,web,python,ai,mobile,frontend
 DESCRIPTION:Duración.\n\n* 24 horas .\n* Sesiones diarias de lunes a juev
  es desde el lunes 10 de julio hasta el jueves 4 de agosto.\n* 20:00 a 22:0
  0 horas (tiempo de la CDMX).\n\nRequisitos del participante.\n\n* Experien
@@ -830,7 +830,7 @@ BEGIN:VEVENT
 SUMMARY:openinfrastructurecdmx| Open Infrastructure Days Mexico 2022|Onlin
  e
 DTSTART:20220815T090000
-CATEGORIES:devops,frontend,ai,cloud
+CATEGORIES:devops,ai,frontend,cloud
 DESCRIPTION:Hola\, nos encantaría que nos acompañaran en el OpenInfra Da
  ys Mexico 2022 en [https://openinfradays.mx](https://t.co/LKKoAZS7GE)[http
  s://eventee.co/en/e/open-infrastructure-days-mexico-2022-13797](https://t.
@@ -854,7 +854,7 @@ BEGIN:VEVENT
 SUMMARY:sysarmy-mexico|Release the gremlin\, release the chaos (engineerin
  g)|Online
 DTSTART:20220822T190000
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:En esta ocasión vamos a tener una plática sobre ingenieria d
  el caos\, qué es y cómo es el día a día de alguien que ejerce este rol
  .\n\nSobre el ponente:\nAram es un entusiasta de la automatización con ma
@@ -920,7 +920,7 @@ BEGIN:VEVENT
 SUMMARY:digitaloceanmex|Hacktoberfest 2022 Kick-Off: Prepare to Hack|Onlin
  e
 DTSTART:20221004T100000
-CATEGORIES:devops,frontend,ai,security,backend,cloud
+CATEGORIES:backend,devops,ai,frontend,cloud,security
 DESCRIPTION:**Celebrate open source software projects + sharpen coding ski
  lls with DigitalOcean\, Appwrite\, and Docker!**\n\nFor the past 9 years\,
   thousands of people—coders and non-coders alike—have participated in 
@@ -980,7 +980,7 @@ BEGIN:VEVENT
 SUMMARY:notrustsec|22vo NoTrustSec: Hacks de escritura para triunfar en la
   Industria Cyber |Online
 DTSTART:20221014T190000
-CATEGORIES:security,backend
+CATEGORIES:backend,security
 DESCRIPTION:**22vo NoTrustSec: Muertos no estamos\, nada más de parranda:
  **\n\nEstaba la calaca\, muy sentada ella\nleyendo los leaks en Twitter\nm
  uy entretenida ella\ncuando de pronto se fijo\nque Octubre ya era\n\nMucha
@@ -999,7 +999,7 @@ BEGIN:VEVENT
 SUMMARY:digitaloceanmex|Hacktoberfest Hack Party: Support Open Source|Onli
  ne
 DTSTART:20221020T100000
-CATEGORIES:python,frontend,backend,cloud
+CATEGORIES:backend,python,frontend,cloud
 DESCRIPTION:**Join forces with open-source experts from DigitalOcean\, Dev
  tron\, Novu\, RapidAPI\, and more to get your pull/merge requests done as 
  a team\, learn new skills\, and meet lifelong friends.**\n\nOpen-source pr
@@ -1034,7 +1034,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:digitaloceanmex|Hacktoberfest 2022 Wrap Party|Online
 DTSTART:20221027T160000
-CATEGORIES:python,frontend,ai,backend,cloud
+CATEGORIES:backend,python,ai,frontend,cloud
 DESCRIPTION:**Join us in a final push to help developers of every skill le
  vel complete their pull requests responsibly\, support the open source com
  munity\, and earn a reward for their efforts!**\n\nOpen-source projects\, 
@@ -1071,7 +1071,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:pythonista|Introducción a PySpark|Online
 DTSTART:20221107T200000
-CATEGORIES:python,mobile,frontend,data
+CATEGORIES:python,data,mobile,frontend
 DESCRIPTION:Duración.\n\n* 16 horas .\n* Sesiones diarias de lunes a juev
  es desde el lunes 7 de noviembre hasta el jueves 17 de noviembre.\n* 20:00
   a 22:00 horas (tiempo de la CDMX).\n\nRequisitos del participante.\n\n* E
@@ -1121,7 +1121,7 @@ BEGIN:VEVENT
 SUMMARY:openinfrastructurecdmx|Construyendo Clouds de alto desempeño con 
  tecnologías Open source|Online
 DTSTART:20221129T150000
-CATEGORIES:devops,frontend,ai,cloud
+CATEGORIES:devops,ai,frontend,cloud
 DESCRIPTION:**Whitestack\,** empresa líder en soluciones Telco Cloud en L
  atinoamérica\, invita a todos los ingenieros y desarrolladores trabajando
   en Cloud a participar en este **Workshop Online** donde aprenderemos sobr
@@ -1146,7 +1146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:pythonista|Flujos de datos y machine learning con PySpark|Online
 DTSTART:20221129T200000
-CATEGORIES:python,frontend,ai,data
+CATEGORIES:python,ai,data,frontend
 DESCRIPTION:La última sesión del taller "Introducción a PySpark" acerca
   de las bibliotecas Spark Streaming y Spark MLlib\, será de acceso gratui
  to.\n\nExploraremos de forma práctica los conceptos básicos de la gesti
@@ -1158,7 +1158,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:pythonista|Numpy\, Pandas y Matplotlib|Online
 DTSTART:20221205T200000
-CATEGORIES:python,mobile,frontend,data
+CATEGORIES:python,data,mobile,frontend
 DESCRIPTION:Curso intensivo sobre las herramientas básicas de gestión\, 
  análisis y visualización de datos con Python.\n\nDuración:\n\n* 24 hora
  s .\n* Sesiones diarias de lunes a jueves desde el lunes 5 de diciembre ha
@@ -1193,7 +1193,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:mexico-city-docker-friends|Community All-Hands #7 |Online
 DTSTART:20221215T100000
-CATEGORIES:ai,devops,web
+CATEGORIES:devops,web,ai
 DESCRIPTION:Join the 7th the Community All-Hands\, a quarterly online even
  t that brings the Docker community together! This global meetup features c
  ommunity news\, company and product updates\, demos\, and language-specifi
@@ -1213,7 +1213,7 @@ BEGIN:VEVENT
 SUMMARY:notrustsec|23vo. NoTrustSec: De Ciberseguridad y año nuevo |Onlin
  e
 DTSTART:20230127T190000
-CATEGORIES:security,frontend
+CATEGORIES:frontend,security
 DESCRIPTION:Se acabaron los romeritos\, el bacalao y comimos rosca doble c
  on chocolate\; pero que no te llegue la depresión\, porque arrancamos el 
  año con una nueva edición de NoTrustSec!.\n\nEn esta ocasión nos ponemo
@@ -1232,7 +1232,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:pythonista|Free OPEN Passes to DeveloperWeek 2023|Online
 DTSTART:20230221T100000
-CATEGORIES:ai,python,cloud
+CATEGORIES:python,cloud,ai
 DESCRIPTION:***You must register at the link below (and not just indicate 
  that you are attending here on Meetup).***\n\n***Register here:***\n[https
  ://www.devnetwork.com/registration/?event=DeveloperWeek%202023&utm_source=
@@ -1260,7 +1260,7 @@ BEGIN:VEVENT
 SUMMARY:notrustsec|24vo NoTrustSec: Hackers en su jugo 🔥|France|Occitan
  ia
 DTSTART:20230630T190000
-CATEGORIES:mobile,frontend,ai,security,web
+CATEGORIES:web,ai,mobile,frontend,security
 DESCRIPTION:Estos días sólo pensamos en una cosa: ¡calor!\, todo suda\,
   el agua escasea en las tiendas\; y vemos como el recibo de CFE va aumenta
  ndo todos los días. ¿Y pensábamos que la pandemia era suficiente para t
@@ -1292,7 +1292,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:pythonista|SQL para analítica con Apache Spark|Online
 DTSTART:20230828T190000
-CATEGORIES:data,python,backend
+CATEGORIES:backend,python,data
 DESCRIPTION:Duración: 16 horas\n\nDel 28 de agosto al 7 de septiembre\n\n
  Lunes a jueves de 20:00 a 22:00 horas\n\nLas sesiones serán grabadas\n\nE
  ste taller práctico explora las características y ventajas de lenguaje S
@@ -1312,7 +1312,7 @@ BEGIN:VEVENT
 SUMMARY:html5-ciudad-de-mexico|TypeScript para provisionar infraestructura
   AWS|Online
 DTSTART:20230922T190000
-CATEGORIES:ai,web,cloud
+CATEGORIES:web,cloud,ai
 DESCRIPTION:En esta breve reunión vamos a ver las bases para usar AWS con
   TypeScript\, si usando el AWS CDK.\n\nNos vemos conectamos\, Alex
 LOCATION:Online
@@ -1321,7 +1321,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:mexico-city-docker-friends|DockerCon 2023!|Online
 DTSTART:20231004T110000
-CATEGORIES:devops,ai,security,cloud
+CATEGORIES:devops,ai,cloud,security
 DESCRIPTION:**DockerCon is back\, both 💻 online and📍 in person**!\n\
  nCome meet us at our flagship event on **October 4-5**\, 2023\, in Los Ang
  eles\, or join us virtually - the choice is yours! We've carefully curated
@@ -1352,7 +1352,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:pythonista|Free OPEN Passes to API World 2023|Online
 DTSTART:20231024T120000
-CATEGORIES:ai,python,backend
+CATEGORIES:backend,python,ai
 DESCRIPTION:*Register here:* [https://www.devnetwork.com/registration/?eve
  nt=API%20World%202023&utm_source=meetup&utm_medium=email&utm_campaign=MU10
  945&discount=MU10945](https://www.devnetwork.com/registration/?event=API%2
@@ -1380,7 +1380,7 @@ BEGIN:VEVENT
 SUMMARY:devops-workshop|Construyendo un sistema serverless con DNS dinámi
  co en AWS|Online
 DTSTART:20231211T190000
-CATEGORIES:devops,cloud
+CATEGORIES:cloud,devops
 DESCRIPTION:¿Ya habías escuchado de DDNS?\nDNS dinámico (DDNS) es un se
  rvicio que puede actualizar automáticamente los registros DNS cuando camb
  ia una dirección IP.\n\n¿pero cuales son las ventajas de este?\n¿como l
@@ -1397,7 +1397,7 @@ BEGIN:VEVENT
 SUMMARY:devops-workshop|Construyendo un sistema serverless con DNS dinámi
  co en AWS (parte 2)|Online
 DTSTART:20231219T190000
-CATEGORIES:devops,cloud,frontend
+CATEGORIES:devops,frontend,cloud
 DESCRIPTION:Esta es la continuación del meetup anterior.\nLa primera part
  e la pueden ver aqui.\nhttps://www.youtube.com/watch?v=fjkj6nN5HOk\n\n**¿
  Ya habías escuchado de DDNS?**\nDNS dinámico (DDNS) es un servicio que p
@@ -1412,7 +1412,7 @@ BEGIN:VEVENT
 SUMMARY:html5-ciudad-de-mexico|Intro a Grunt\, el manejador de tareas de J
  S.|Online
 DTSTART:20231221T190000
-CATEGORIES:ai,web
+CATEGORIES:web,ai
 DESCRIPTION:La ultima y nos vamos!\nEn esta ultima reunion del 2023 vamos 
  a platicar de Grunt\, el manejado de tareas de JS\, que si bien ya tiene b
  astantes años la herramienta sigue vigente y es ampliamente utilizada.\n\
@@ -1423,7 +1423,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:devops-workshop|GitOps Fundamentals|Online
 DTSTART:20240215T190000
-CATEGORIES:devops,frontend
+CATEGORIES:frontend,devops
 DESCRIPTION:En nuestra próxima reunion vamos a platicar acerca de GitOps 
  y veremos un ejemplo utilizando ArgoCD.\n\nLa liga al evento es\n[https://
  www.youtube.com/watch?v=hUxyvT4oTx0&ab_channel=KMMX-Capacitaciónyconsulto
@@ -1437,7 +1437,7 @@ BEGIN:VEVENT
 SUMMARY:gittogether-cdmx|GitHub Open Source CDMX: Mujeres que inspiran|Mé
  xico|CDMX
 DTSTART:20240315T190000
-CATEGORIES:python,frontend,ai,data,web,cloud
+CATEGORIES:web,python,ai,data,frontend,cloud
 DESCRIPTION:**A medida que hacemos la transición a este nuevo espacio\, p
  or favor confirma tu asistencia en nuestra otra página:**\n**[GitHub Open
   Source CDMX: Mujeres que inspiran\\\, Fri\\\, Mar 15\\\, 2024\\\, 7:00 PM
@@ -1468,7 +1468,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:html5-ciudad-de-mexico|Trabajando con AWS CDK en TypeScript|Online
 DTSTART:20240403T190000
-CATEGORIES:ai,backend,web,cloud
+CATEGORIES:backend,web,ai,cloud
 DESCRIPTION:Hola!\nEn nuestra próxima reunión virtual vamos a platicar d
  e AWS CDK\, el Cloud Development Kit de la nube de Amazon que nos sirve pa
  ra provisional infraestructura como código y paréate propósito usaremos
@@ -1493,7 +1493,7 @@ BEGIN:VEVENT
 SUMMARY:html5-ciudad-de-mexico|Free OPEN Passes to DeveloperWeek Latin Ame
  rica 2024|Online
 DTSTART:20240605T070000
-CATEGORIES:ai,web,cloud
+CATEGORIES:web,cloud,ai
 DESCRIPTION:[DeveloperWeek Latin America ](https://www.developerweek.com/l
  atin-america/)2024 (June 5-6\, Live Online) is the largest software develo
  per conference & expo dedicated to Latin America’s tech community where 
@@ -1551,7 +1551,7 @@ BEGIN:VEVENT
 SUMMARY:mexico-city-unity-user-group|Unity Webinar: Accelerate your multip
  layer prototyping with Unity 6|Online
 DTSTART:20240801T100000
-CATEGORIES:ai,web
+CATEGORIES:web,ai
 DESCRIPTION:Howdy everyone\, Mike Geig from Unity here testing out the Mee
  tup Networked Event functionality by inviting you to our upcoming webinar:
  \n\n**Accelerate your multiplayer prototyping with Unity 6**\nJoin us for 
@@ -1573,7 +1573,7 @@ BEGIN:VEVENT
 SUMMARY:agilility-talks|La agilidad es sistémica y eso lo cambia todo|Onl
  ine
 DTSTART:20240801T183000
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:**La agilidad empresarial va más allá de implementar nuevas 
  prácticas y herramientas\; es un cambio profundo en la forma en que una o
  rganización piensa\, actúa y se adapta.**\n\n**Reconocer la naturaleza d
@@ -1605,7 +1605,7 @@ BEGIN:VEVENT
 SUMMARY:gittogether-latam|Phi-3 y Semantic Kernel: Titanes de AI en miniat
  ura|Online
 DTSTART:20240802T090000
-CATEGORIES:ai,cloud
+CATEGORIES:cloud,ai
 DESCRIPTION:🧠💻 ¡Prepárate para una inmersión en el fascinante mun
  do de la IA! 🚀 En esta sesión\, exploraremos los Modelos de Lenguaje P
  equeños Phi-3 y Semantic Kernel. 🤓 Es hora de activar tu modo geek al 
@@ -1623,7 +1623,7 @@ BEGIN:VEVENT
 SUMMARY:gittogether-latam|Git Commit 101: Dominando los Fundamentos de Git
   y GitHub|Online
 DTSTART:20240806T140000
-CATEGORIES:ai,mobile,frontend
+CATEGORIES:mobile,frontend,ai
 DESCRIPTION:🌟 ¡Bienvenidos a Git Commit 101\, una serie de eventos vir
  tuales emocionantes diseñados para fortalecer tus habilidades en desarrol
  lo de software! 🖥️\n\nEste programa es una iniciativa especial de Git
@@ -1707,7 +1707,7 @@ BEGIN:VEVENT
 SUMMARY:agilility-talks|Emergencia: Un llamado a los líderes en tiempos d
  e complejidad|Online
 DTSTART:20240910T183000
-CATEGORIES:mobile,frontend
+CATEGORIES:frontend,mobile
 DESCRIPTION:***"En tiempos de incertidumbre\, el liderazgo no se trata de 
  evitar la complejidad\, sino de enfrentarla con valentía y visión." Jim 
  Collins***\n\nEl objetivo de esta sesión es equipar a los líderes con id
@@ -1744,7 +1744,7 @@ BEGIN:VEVENT
 SUMMARY:agilility-talks|Facilitación en Scrum: Cómo transformar obstácu
  los en oportunidades|Online
 DTSTART:20241003T183000
-CATEGORIES:security,frontend
+CATEGORIES:frontend,security
 DESCRIPTION:**En este meetup\, exploraremos cómo una facilitación efecti
  va puede ser la clave para desbloquear el verdadero potencial de tu equipo
   Scrum.**\n\nProfundizaremos en el rol crucial del **facilitador**\, que v
@@ -1836,7 +1836,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|🌞Community Day powered by Milia⚡#MexicoTechW
  eek|Online
 DTSTART:20241023T170000Z
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Obtén información actualizada en: https://luma.com/b1z4i3en\
  n\nOrganizado por Mexico Tech Week y Guillermo Vizcaino
 LOCATION:https://luma.com/event/evt-gpAIOkVpeUyDNIZ
@@ -1846,7 +1846,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Online Speed Networking by Milia⚡️#MexicoTech
  Week|Online
 DTSTART:20241023T180000Z
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Obtén información actualizada en: https://luma.com/ry8nt8ii\
  n\nOrganizado por Mexico Tech Week y Guillermo Vizcaino
 LOCATION:https://luma.com/event/evt-mRO6US6iBsyPg8p
@@ -1856,7 +1856,7 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Generative AI: Arquitectura\, Funcionamiento y Ap
  licaciones en la Nube|Online
 DTSTART:20241024T170000Z
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Obtén información actualizada en: https://luma.com/nbegq0w4\
  n\nOrganizado por Mexico Tech Week\, Craftech y Jesus Liernur
 LOCATION:https://luma.com/event/evt-r02QQbE0hAcpo3X
@@ -1877,7 +1877,7 @@ BEGIN:VEVENT
 SUMMARY:gittogether-latam|Construyendo puentes en IA: Xavi Portilla y la i
  ntegración GitHub-Genkit|Online
 DTSTART:20241025T090000
-CATEGORIES:devops,cloud
+CATEGORIES:cloud,devops
 DESCRIPTION:Este #OpenSourceViernes\, **[Xavier Portilla Edo](https://gith
  ub.com/xavidop)**\, GitHub Star y creador de [genkitx-github](genkitx-gith
  ub)\, nos presentará su plugin comunitario que integra los modelos de Git
@@ -1914,7 +1914,7 @@ BEGIN:VEVENT
 SUMMARY:pythonista|Potenciando los chatbots mediante Vertex AI Agent Build
  er|Online
 DTSTART:20241025T190000
-CATEGORIES:python,frontend,ai,backend,web
+CATEGORIES:backend,web,python,ai,frontend
 DESCRIPTION:En este webinar\, exploraremos cómo los Large Language Models
   (LLMs) están revolucionando la forma en que interactuamos con la tecnolo
  gía. Aprenderá cómo se pueden utilizar para crear agentes de inteligenc
@@ -1991,7 +1991,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:devops-workshop|Pasado\, presente y futuro de  DevOps|Online
 DTSTART:20241114T190000
-CATEGORIES:devops,cloud
+CATEGORIES:cloud,devops
 DESCRIPTION:Estimados devop@rs!!\n\nLa proxima sessión trataremos el tema
   "**Passado\, presente e futuro do DevOps ao estilo brasileiro**" con nues
  tro amigos brasileiros.\nQue siempre es interesante como ven ellos la tecn
@@ -2015,7 +2015,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:devops-workshop|FinOps|Online
 DTSTART:20241217T200000
-CATEGORIES:devops,cloud,frontend
+CATEGORIES:devops,frontend,cloud
 DESCRIPTION:¡La ultima y nos vamos!\n\nEn nuestra ultimo meetup del 2024 
  y para cerrar con broche de oro\, vamos a platicar con los expertos acerca
   de FinOps.\nNo se lo pierdan.\n\nRafael Nize (Brasil)\nhttps://www.linked
@@ -2052,7 +2052,7 @@ BEGIN:VEVENT
 SUMMARY:html5-ciudad-de-mexico|Free OPEN Passes to DeveloperWeek 2025|Onli
  ne
 DTSTART:20250211T080000
-CATEGORIES:devops,frontend,ai,data,security,web,cloud
+CATEGORIES:devops,web,ai,data,frontend,cloud,security
 DESCRIPTION:[DeveloperWeek 2025](https://www.developerweek.com/) (Feb 11-1
  3\, Santa Clara\, CA) + (Feb 18-20\, Live Online) is the world’s largest
   independent engineering conference & expo where thousands of developers\,
@@ -2090,7 +2090,7 @@ BEGIN:VEVENT
 SUMMARY:agilility-talks|Mes a mes\, meta a meta: El arte de priorizar para
   lograr la agilidad|Online
 DTSTART:20250213T183000
-CATEGORIES:mobile,frontend
+CATEGORIES:frontend,mobile
 DESCRIPTION:**La agilidad empresarial e individual tiene un ingrediente vi
  tal: El enfoque.**\n\n**El enfoque se logra principalmente gracias al pode
  r de la Priorización.**\n\nMucho se habla de transformación organizacion
@@ -2108,7 +2108,7 @@ BEGIN:VEVENT
 SUMMARY:openinfrastructurecdmx|OpenInfra Days North America 2025 at SCaLE|
  México|CDMX
 DTSTART:20250306T110000
-CATEGORIES:ai,devops,frontend
+CATEGORIES:devops,frontend,ai
 DESCRIPTION:¡**[OpenInfra Days North America ](https://www.socallinuxexpo
  .org/scale/22x/events/open-infra-days)**regresará en marzo de 2025 y comp
  artirá ubicación con SCaLE en Pasadena\, CA!\nSCaLE se llevará a cabo d
@@ -2142,7 +2142,7 @@ BEGIN:VEVENT
 SUMMARY:gdg-ciudad-de-mexico|AI Study Jam Sesión 1 --> Registro https://g
  dg.community.dev/events/details/goog|Online
 DTSTART:20250313T183000
-CATEGORIES:python,mobile,frontend,ai,data
+CATEGORIES:python,ai,data,mobile,frontend
 DESCRIPTION:## **AI Study Jam Sesión 1 --> Registro: https://gdg.communit
  y.dev/events/details/google-gdg-cdmx-presents-ai-study-jam-sesion-1-2025-0
  3-13/**\n\n¿Te apasiona la Inteligencia Artificial y quieres mejorar tus 
@@ -2218,7 +2218,7 @@ BEGIN:VEVENT
 SUMMARY:gdg-ciudad-de-mexico|Club de Estudio de Lectura de Papers de Machi
  ne Learning Sesión 1|Online
 DTSTART:20250314T183000
-CATEGORIES:mobile,frontend,ai,security
+CATEGORIES:ai,mobile,frontend,security
 DESCRIPTION:## **Club de Estudio de Lectura de Papers de Machine Learning 
  Sesión 1 Registro --> https://gdg.community.dev/events/details/google-gdg
  -cdmx-presents-club-de-estudio-de-lectura-de-papers-de-machine-learning-se
@@ -2282,7 +2282,7 @@ BEGIN:VEVENT
 SUMMARY:gdg-ciudad-de-mexico|Club de estudio de Matemáticas para Machine 
  Learning Sesión 1|Online
 DTSTART:20250315T183000
-CATEGORIES:ai,mobile,frontend
+CATEGORIES:mobile,frontend,ai
 DESCRIPTION:## **Club de Estudio de Matemáticas para Machine Learning Ses
  ión 1 Registro --> https://gdg.community.dev/events/details/google-gdg-cd
  mx-presents-club-de-estudio-de-matematicas-para-machine-learning-sesion-1-
@@ -2328,7 +2328,7 @@ BEGIN:VEVENT
 SUMMARY:embajadoras-cloud|¿Por qué aprender Cloud? Una respuesta que cam
  biará tu carrera|Online
 DTSTART:20250318T160000
-CATEGORIES:data,cloud,frontend
+CATEGORIES:frontend,cloud,data
 DESCRIPTION:El mundo de la tecnología está evolucionando\, y **Cloud Com
  puting** es una de las tendencias más importantes en la actualidad. 💡 
  Si alguna vez te has preguntado cómo esta tecnología puede transformar t
@@ -2357,7 +2357,7 @@ BEGIN:VEVENT
 SUMMARY:gittogether-latam|Programa Reconecta: Regreso a Carreras Tech Sesi
  ón Informativa Virtual|Online
 DTSTART:20250318T170000
-CATEGORIES:data,security,frontend
+CATEGORIES:frontend,security,data
 DESCRIPTION:¿Buscas retomar tu carrera en tecnología? ¡Únete a nuestra
   sesión informativa sobre el programa Reconecta\, una iniciativa respalda
  da por GitHub\, Microsoft\, LinkedIn\, Liderly y el Tecnológico de Monter
@@ -2586,7 +2586,7 @@ BEGIN:VEVENT
 SUMMARY:embajadoras-cloud|Q&A - AWS re:Invent: All Builders Welcome Grant|
  Online
 DTSTART:20250701T190000
-CATEGORIES:mobile,cloud,frontend
+CATEGORIES:mobile,frontend,cloud
 DESCRIPTION:**¡Bienvenidas a nuestro inspirador y práctico panel virtual
   con ex becarias de AWS re:Invent!**\nEn este evento único\, un grupo de 
  mujeres excepcionales compartirá sus experiencias de primera mano en AWS 
@@ -2667,7 +2667,7 @@ BEGIN:VEVENT
 SUMMARY:embajadoras-cloud|Build Fast\, Spend Smart: FinOps en el mundo rea
  l de AWS|Online
 DTSTART:20250814T190000
-CATEGORIES:security,cloud,frontend
+CATEGORIES:frontend,cloud,security
 DESCRIPTION:**AWS Embajadoras Cloud** trae para tí la charla "Build Fast\
  , Spend Smart: FinOps en el mundo real de AWS"\n\n🌟 ¡Prepárate para u
  n meetup sobre **FinOps** imperdible! 🌟\n\nTe esperamos en un evento vi
@@ -2717,7 +2717,7 @@ BEGIN:VEVENT
 SUMMARY:kong-mexico-city|Insomnia Unleashed: Next-Level API Collaboration\
  , Testing & Debugging for Modern|Online
 DTSTART:20250916T090000
-CATEGORIES:frontend,ai,data,security,backend,cloud
+CATEGORIES:backend,ai,data,frontend,cloud,security
 DESCRIPTION:APIs are at the heart of modern software\, but they don’t ex
  ist in isolation—and neither should your tools. Join us for an in-depth 
  demonstration of[ Kong Insomnia](https://www.konghq.com/solutions/insomnia
@@ -2754,7 +2754,7 @@ BEGIN:VEVENT
 SUMMARY:big-data-developers-in-mexico-city|Agent-to-Agent Interactions wit
  h NLIP and an application to AllyCat|Online
 DTSTART:20250918T100000
-CATEGORIES:frontend,ai,data,security,web,cloud
+CATEGORIES:web,ai,data,frontend,cloud,security
 DESCRIPTION:**Description**\nNLIP (Natural Language Interaction Protocol) 
  is a project defining an interoperable protocol for user-to-agent and agen
  t-to-agent natural language interactions. In this talk\, Tom will describe
@@ -2819,7 +2819,7 @@ BEGIN:VEVENT
 SUMMARY:kong-mexico-city|[Workshop 201] APIOps in Action: Automating the A
  PI Lifecycle with Kong Konnect|Online
 DTSTART:20250923T100000
-CATEGORIES:devops,frontend,ai,security,backend
+CATEGORIES:backend,devops,ai,frontend,security
 DESCRIPTION:**[Register Here](https://konghq.com/events/workshops/workshop
  -kong-konnect-automations-201-apiops-in-action-automating-the-api-lifecycl
  e-with-kong-konnect?utm_source=kong-email&utm_medium=email&utm_campaign=co
@@ -2851,7 +2851,7 @@ BEGIN:VEVENT
 SUMMARY:flutter-mexico-city|Meetup Online - De Peticiones Inocentes a Resp
  uestas Maliciosas|Online
 DTSTART:20250923T174500
-CATEGORIES:mobile,backend
+CATEGORIES:backend,mobile
 DESCRIPTION:📅 **Fecha:** 18 de septiembre\n📍 **Dónde:** [YouTube - 
  Flutter Mexico City](https://www.youtube.com/@FlutterMexicoCity)\n\nLas AP
  Is pueden parecer monstruos difíciles de domar\, ¡pero no te preocupes\,
@@ -2870,7 +2870,7 @@ BEGIN:VEVENT
 SUMMARY:kong-mexico-city|The Platform Team’s Guide to Multi-Gateway API 
  Management|Online
 DTSTART:20250925T090000
-CATEGORIES:backend,cloud,frontend
+CATEGORIES:backend,frontend,cloud
 DESCRIPTION:As organizations scale their API ecosystems\, it’s increasin
  gly common to operate in a multi-gateway environment—whether by choice o
  r necessity. But while most platform teams agree on what multi-vendor APIM
@@ -2896,7 +2896,7 @@ BEGIN:VEVENT
 SUMMARY:big-data-developers-in-mexico-city|[AI Alliance] Building a Deep R
  esearch Agent Using MCP-Agent|Online
 DTSTART:20250925T100000
-CATEGORIES:frontend,ai,data,security,web,cloud
+CATEGORIES:web,ai,data,frontend,cloud,security
 DESCRIPTION:Deep Research architectures have become increasingly popular o
  ver the past three months as users want more complex tasks to be handled b
  y LLMs. The LastMile AI team has gone through a journey to understand what
@@ -2927,7 +2927,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ajolotesenlanube|Online Meetup |Online
 DTSTART:20250925T190000
-CATEGORIES:frontend,ai,backend,data,web,cloud
+CATEGORIES:backend,web,ai,data,frontend,cloud
 DESCRIPTION:What if a simple web form could do more than just collect data
  ? Imagine transforming a few clicks into a job-winning LinkedIn profile or
   a fully personalized travel itinerary.\n\nIn this session\, we’ll show 
@@ -2946,7 +2946,7 @@ BEGIN:VEVENT
 SUMMARY:digitaloceanmex|Hacktoberfest 2025 Kickoff: From Code to Community
  |Online
 DTSTART:20250930T213000
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Celebrate open source and AI at Hacktoberfest’s kickoff feat
  uring global voices\, contests\, and more. Stay tuned and participate in l
  ive quizzes/contests to stand a chance to win limited edition Hacktoberfes
@@ -3007,7 +3007,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:kong-mexico-city|[Virtual] API Summit 2025 |Online
 DTSTART:20251014T213000
-CATEGORIES:ai,security,backend,cloud
+CATEGORIES:backend,ai,cloud,security
 DESCRIPTION:**Join online with the best businesses\, API minds\, and platf
  orm teams to discuss how API strategies must evolve amidst major shifts ar
  ound agentic AI\, cloud\, security\, event streaming\, and more.**\n\n**[R
@@ -3030,7 +3030,7 @@ BEGIN:VEVENT
 SUMMARY:big-data-developers-in-mexico-city|[AI Alliance] How to Train Your
   LLM Web Agent: A Statistical Diagnosis|Online
 DTSTART:20251016T100000
-CATEGORIES:frontend,ai,data,security,web
+CATEGORIES:web,ai,data,frontend,security
 DESCRIPTION:LLM-based web agents have recently made significant progress\,
   but much of it has occurred in closed-source systems\, widening the gap w
  ith open-source alternatives. Progress has been held back by two key chall
@@ -3106,7 +3106,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:elixir-mexico-city|Mexico Tech Week 2025|México|CDMX
 DTSTART:20251021T180000
-CATEGORIES:data,cloud,frontend
+CATEGORIES:frontend,cloud,data
 DESCRIPTION:**Únete a una noche poderosa junto a Elixir MX**\, la comunid
  ad oficial dedicada al desarrollo funcional\, sistemas concurrentes y plat
  aformas altamente escalables. En el marco de la **Tech Week CDMX**\, serem
@@ -3141,7 +3141,7 @@ BEGIN:VEVENT
 SUMMARY:embajadoras-cloud|Embajadoras Cloud en la Mexico Tech Week 2025|M
  éxico|CDMX
 DTSTART:20251022T180000
-CATEGORIES:ai,cloud,frontend
+CATEGORIES:frontend,cloud,ai
 DESCRIPTION:# 🏠 Casa de las comunidades Clara y AWS \\| Embajadoras Clo
  ud y Ajolotes en la Nube\n\n**POR FAVOR REGISTRATE EN ESTE LINK** (**no** 
  aquí en meetup): [https://luma.com/rfe2s38m](https://luma.com/rfe2s38m)\n
@@ -3179,7 +3179,7 @@ BEGIN:VEVENT
 SUMMARY:kong-mexico-city|Enable Business Agility Through The Lens of API S
  ecurity|Online
 DTSTART:20251023T090000
-CATEGORIES:frontend,ai,security,backend,cloud
+CATEGORIES:backend,ai,frontend,cloud,security
 DESCRIPTION:Today's API landscape is a labyrinth of multi-cloud\, multi-ga
  teway\, and event-driven architectures\, rapidly expanded by AI\, LLM and 
  MCP adoption—each presenting new attack vectors. While security is often
@@ -3205,7 +3205,7 @@ BEGIN:VEVENT
 SUMMARY:big-data-developers-in-mexico-city|[AI Alliance] Connect On-prem S
  olutions via NLIP|Online
 DTSTART:20251023T100000
-CATEGORIES:frontend,ai,data,security,web,cloud
+CATEGORIES:web,ai,data,frontend,cloud,security
 DESCRIPTION:This use case showcases how Natural Language Interaction Proto
  col (NLIP) could facilitate the integration of on-premises resources such 
  as Active Directory with cloud providers such as ServiceNow. Special atten
@@ -3251,7 +3251,7 @@ BEGIN:VEVENT
 SUMMARY:kong-mexico-city|[Developer Day] Developer Portal\, Observability 
  & Identity with Kong Konnect|Online
 DTSTART:20251028T180000
-CATEGORIES:frontend,ai,backend,data,security,web
+CATEGORIES:backend,web,ai,data,frontend,security
 DESCRIPTION:**[Register Here](https://konghq.com/events/webinars/developer
  -day-developer-experience-in-practice-developer-portal-observability--iden
  tity-with-kong-konnect)**\n\n**[Developer Day] Developer Experience in Pra
@@ -3292,7 +3292,7 @@ BEGIN:VEVENT
 SUMMARY:big-data-developers-in-mexico-city|[AI Alliance] Build AI Apps Fas
  t with Langflow|Online
 DTSTART:20251030T100000
-CATEGORIES:frontend,ai,data,security,web
+CATEGORIES:web,ai,data,frontend,security
 DESCRIPTION:This is an intro talk for [Langflow](https://www.langflow.org)
  \, a open source visual IDE devs can use to quickly create and iterate on 
  agentic and generative AI workflows for applications. Model and vector sto
@@ -3319,7 +3319,7 @@ BEGIN:VEVENT
 SUMMARY:big-data-developers-in-mexico-city|[AI Alliance] Gofannon: Ramen|F
  rance|Occitania
 DTSTART:20251113T130000
-CATEGORIES:frontend,ai,data,security,web
+CATEGORIES:web,ai,data,frontend,security
 DESCRIPTION:Everyone is talking about agents\; if you don't have agents al
  ready in production you are hopelessly behind. Wasn't vibe coding supposed
   to take care of everyone's computer problems? How am I behind if AI takes
@@ -3381,7 +3381,7 @@ BEGIN:VEVENT
 SUMMARY:kong-mexico-city|[Workshop 101] Build an Enterprise-Grade AI Platf
  orm with Kong AI Gateway|Online
 DTSTART:20251118T110000
-CATEGORIES:frontend,ai,security,backend
+CATEGORIES:backend,ai,frontend,security
 DESCRIPTION:**[Register Here](https://konghq.com/events/workshops/workshop
  -101-build-an-enterprise-grade-ai-platform-with-kong-ai-gateway?utm_source
  =kong-email&utm_medium=email&utm_campaign=community/)**\n\nJoin us for an 
@@ -3403,7 +3403,7 @@ BEGIN:VEVENT
 SUMMARY:kong-mexico-city|From Batch to Real-Time: The Business Case for Ev
  ent Streaming|Online
 DTSTART:20251120T100000
-CATEGORIES:ai,data,backend
+CATEGORIES:backend,ai,data
 DESCRIPTION:In today’s digital landscape\, data that moves slowly is dat
  a that loses value. As organizations strive for instant insights\, respons
  ive experiences\, and operational agility\, batch processing can no longer
@@ -3428,7 +3428,7 @@ BEGIN:VEVENT
 SUMMARY:big-data-developers-in-mexico-city|[AI Alliance] SEMIONT – AI-N
  ative Knowledge Kernel for Human/Agent Collaboration|Online
 DTSTART:20251120T110000
-CATEGORIES:frontend,ai,data,security,web
+CATEGORIES:web,ai,data,frontend,security
 DESCRIPTION:Meet [Semiont](https://the-ai-alliance.github.io/semiont/)\, t
  he wiki-like knowledge base supporting graph retrieval\, where humans and 
  agents co-create Knowledge. Includes MCP server.\n\n**About the presenter*
@@ -3461,7 +3461,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:rust-mx|Optimizando rendimiento de Python con Rust|Online
 DTSTART:20251204T190000
-CATEGORIES:python,mobile,frontend,ai
+CATEGORIES:python,ai,mobile,frontend
 DESCRIPTION:**Nos mudamos a Luma!!!**\n\n**Registrarse en https://luma.com
  /slfpp1q7 ya que por este medio se manejará el acceso al Meetup**\n\nSaú
  l Neri será quien nos de la plática final del 2025\n\nEsta charla muestr
@@ -3480,7 +3480,7 @@ BEGIN:VEVENT
 SUMMARY:big-data-developers-in-mexico-city|AI Alliance: PyTorch & The Agen
  tic Stack|Online
 DTSTART:20251205T120000
-CATEGORIES:python,frontend,ai,data,backend
+CATEGORIES:backend,python,ai,data,frontend
 DESCRIPTION:External registration: https://events.thealliance.ai/pytorch-x
  -ai-alliance\n\nJoin Meta's Joe Spisak for an exclusive look at 6 groundbr
  eaking projects shaping the future of agentic development—from low-level
@@ -3502,7 +3502,7 @@ BEGIN:VEVENT
 SUMMARY:kong-mexico-city|[Workshop 201] Beyond the Gateway: Governing Secu
  re and Observable AI Agents|Online
 DTSTART:20251209T110000
-CATEGORIES:ai,security,frontend
+CATEGORIES:frontend,security,ai
 DESCRIPTION:**[Register Here](https://konghq.com/events/workshops/workshop
  -201-beyond-the-gateway-governing-secure-and-observable-ai-agents?utm_sour
  ce=kong-email&utm_medium=email&utm_campaign=community/)**\n\nJoin our 201-
@@ -3524,7 +3524,7 @@ BEGIN:VEVENT
 SUMMARY:kong-mexico-city|From Experiment to Enterprise: Operationalizing A
  I in 2026|Online
 DTSTART:20251211T100000
-CATEGORIES:frontend,ai,backend,data,security,web
+CATEGORIES:backend,web,ai,data,frontend,security
 DESCRIPTION:By 2026\, the AI landscape has shifted from experimentation to
   expectation. Enterprises are no longer asking whether they should adopt A
  I—they’re asking how to operationalize it responsibly\, reliably\, and
@@ -3554,7 +3554,7 @@ BEGIN:VEVENT
 SUMMARY:big-data-developers-in-mexico-city|[AI Alliance] Introducing weave
  -cli - A fast CLI for vector search|Online
 DTSTART:20251211T110000
-CATEGORIES:devops,frontend,ai,data,security,web,cloud
+CATEGORIES:devops,web,ai,data,frontend,cloud,security
 DESCRIPTION:Weave-cli is a fast CLI for Weaviate\, Milvus\, Chroma\, Qdran
  t\, and other vector DBs to help view\, list\, create\, delete\, and searc
  h collections and documents in collections for development\, test\, and de
@@ -3602,7 +3602,7 @@ BEGIN:VEVENT
 SUMMARY:Kong Mexico City|How Kong Insomnia & AI-Ready APIs Are Shaping the
   Future of Digital Innovation|Online
 DTSTART:20260108T100000
-CATEGORIES:frontend,ai,security,backend
+CATEGORIES:backend,ai,frontend,security
 DESCRIPTION:Kong/MEXICO-CITY\nAPIs are at the heart of today’s AI and di
  gital transformation\, and Kong Insomnia is the essential tool for buildin
  g scalable\, future-proof architectures. Join us for an exploration of how
@@ -3630,7 +3630,7 @@ BEGIN:VEVENT
 SUMMARY:Embajadoras Cloud|🚀 ¡Conviértete en AWS Community Builder! 
  🚀|Online
 DTSTART:20260108T180000
-CATEGORIES:mobile,cloud,frontend
+CATEGORIES:mobile,frontend,cloud
 DESCRIPTION:Embajadoras Cloud\n📅 Fecha: 08 de enero de 2026\, 18:00hrs 
  (Mex)\, 19:00(Col)\n🌐 Modalidad: Virtual\n🌎 Para toda Latinoamérica
  \n🗣️ Idioma: Español\n\n¿Te apasiona compartir conocimiento sobre A
