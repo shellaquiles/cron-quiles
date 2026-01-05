@@ -1,0 +1,472 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cron-Quiles//ICS Aggregator//EN
+CALSCALE:GREGORIAN
+X-WR-CALDESC:Calendario unificado de eventos tech en Nuevo León\, México
+X-WR-CALNAME:Eventos Tech Nuevo León - cronquiles
+X-WR-TIMEZONE:America/Mexico_City
+BEGIN:VEVENT
+SUMMARY:pythonmty|Reunión Septiembre/2018 - Back on track |México|Nuevo 
+ León
+DTSTART:20180920T193000
+CATEGORIES:frontend,mobile,python,security,web
+DESCRIPTION:¡Hola a todos! Una vez más\, estamos de vuelta con nuestras 
+ reuniones mensuales.\n\nPara los que no hayan asistido anteriormente\, el 
+ formato de la reunión es informal con énfasis en la calidad de la inform
+ ación\, los asistentes y discusiones que se llevan a cabo en el evento.\n
+ \nEl evento NO tiene costo y se les invita a traer botana/bebidas de su pr
+ eferencia (incluyendo cerveza o refrescos)\, para ser consumidas durante l
+ a reunión (con particular prudencia cuando se lleve a cabo alguna charla)
+ .\n\nEn esta ocasión tendremos dos charlas:\n\n* Debugging like a Pro - P
+ or Ricardo Azpeitia\nAprende a leer errores\, conocer que es un stacktrace
+ \, como hacer logging\, que herramientas usar para monitorear tu aplicacio
+ n y hacer debugging usando pdb y tracers.\n\n* Python packaging y algo má
+ s...- Por Joel Rivera\nQue son los paquetes en Python (en el contexto de d
+ istribución de software)\, introducción a setuptools\, pip\, virtualenvs
+ \, manejo de dependencias\, wheels\, entre otras cosas.\n\nAgenda:\n\n* [0
+ 7:40pm - 08:20pm] Charla Debugging like a Pro\n* [08:20pm - 08:40pm] netwo
+ rking / break\n* [08:40pm - 09:20pm] Charla Python packaging y algo más..
+ .\n* [09:20pm - 10:00pm] networking / convivencia\n\nDicho todo lo anterio
+ r... La reunión no sería posible sin el apoyo del espacio que nos provee
+ :\n\nTree House Cowork [ https://www.treehousecowork.com ]\n\nQuienes ofre
+ cen espacios de trabajo para emprendedores y startups\, con el mejor ambie
+ nte e instalaciones para desarrollar tu proyecto. No duden en preguntar m
+ ás detalles durante el evento.\n\n¡Nos vemos el Jueves!
+LOCATION:Tree House Cowork\, Jose Benitez 1920\, Obispado\, Monterrey\, MX
+X-CRONQUILES-ADDRESS:Lic. José Benítez 1920-Nivel 3\, Obispado\, 64060 M
+ onterrey\, N.L.\, México
+X-CRONQUILES-CITY:Monterrey
+X-CRONQUILES-CITY-CODE:monterrey
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pythonmty|Primera reunión 2019|México|Nuevo León
+DTSTART:20190222T190000
+CATEGORIES:devops,frontend,python
+DESCRIPTION:¡Hola Pythonistas!\n\nEl viernes 22 de febrero tendremos la p
+ rimera reunión del 2019\, la cuál consistirá de dos pláticas técnicas
+  y un espacio de networking como es costumbre.\n\nEn las pláticas nos aco
+ mpañarán:\n- Luis Herrada\, quien nos hablará de cómo automatizar las 
+ etapas de desarrollo de tu proyecto de Python con CI/CD.\n- Israel Zuñiga
+ \, quien nos dará una Introducción a Tenacity: "Retrying library for Pyt
+ hon"\n\nGracias a cerouno.io y a los ponentes por apoyarnos en hacer este 
+ evento realidad.
+LOCATION:WeWork Espacio de Oficinas & Coworking Boulevard Antonio L. Rodri
+ guez\, Blvd. Antonio L. Rodríguez 1888\, Monterrey\, MX
+X-CRONQUILES-ADDRESS:Blvd. Antonio L. Rodríguez 1888\, Santa María\, 646
+ 50 Monterrey\, N.L.\, México
+X-CRONQUILES-CITY:Monterrey
+X-CRONQUILES-CITY-CODE:monterrey
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pythonmty|Reunión Marzo 2019|México|Nuevo León
+DTSTART:20190321T190000
+CATEGORIES:ai,frontend,python,web
+DESCRIPTION:Una vez más\, los esperamos en nuestra reunión mensual\, vam
+ os a tener un formato regular dos charlas y networking.\n\nLas platicas so
+ n las siguientes:\n\n-----------------------------------------------------
+ ----------------------------\n* Un enfoque moderno de Python en Machine Le
+ arning. - por Benjamin Noyola\n\nRevisaremos las principales bibliotecas d
+ e las que se ha nutrido Python a través de años recientes\, para increme
+ ntar los avances tecnológicos en el campo de Machine Learning (software l
+ ibre) y ejemplificaremos el uso de TensorFlow para una aplicación de clas
+ ificación.\n\n-----------------------------------------------------------
+ ----------------------\n\n* De Visual Basic Not-Dot-Net a Python - por Jua
+ n Manuel Chapa\n\nDel porqué Python será tu nuevo mejor amigo. Diferenci
+ as\, similitudes\, alcances\, limitaciones y la frustración de que es só
+ lo el principio.\n--------------------------------------------------------
+ -------------------------\n\nLa agenda del evento sería:\n\n7:15pm ~ 8:00
+ pm : charla: "Un enfoque moderno de Python en Machine Learning"\n8:00pm ~ 
+ 8:20pm : break/networking\n8:20pm ~ 9:10pm : charla: "De Visual Basic Not-
+ Dot-Net a Python"\n9:10pm ~ 10:40pm : networking\n\nAgradecemos a Paykii -
+ > https://www.paykii.com/ por hospedar nuestra reunión en su oficina (¡y
+  una charla por medio de Benjamin!) . Éstos eventos no serían posible si
+ n el apoyo de compañías como Paykii.\n\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%\nUPDATE:\n¡Paykii también va a apoyarnos con cervezas/aguas/refrescos
+  y una botana!\n\nSi alguien gusta traer más\, no hay problema\, aparte t
+ al vez pedimos pizza o se arma un _after_ para los que quieran ir a cenar\
+ , lo vemos en el break de las dos charlas.\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%\n\nPara los que sea su primera vez en nuestros eventos\, estos tienen
+  temas formales y técnicos en su contenido\, pero su presentación es inf
+ ormal y relajada. No duden en darse la vuelta.\n\n¡Nos vemos el Jueves!
+LOCATION:Torre Vertice Valle Oriente\, Av. Cto. Frida Kahlo 195\, Monterre
+ y\, MX
+X-CRONQUILES-ADDRESS:Av. Cto. Frida Kahlo 195\, Haciendas de La Sierra\, 6
+ 6269 Monterrey\, N.L.\, México
+X-CRONQUILES-CITY:Monterrey
+X-CRONQUILES-CITY-CODE:monterrey
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pythonmty|Reunión Mensual - Mayo 2019|México|Nuevo León
+DTSTART:20190531T190000
+CATEGORIES:backend,frontend,mobile,python
+DESCRIPTION:Una vez más\, nos vemos en nuestra _ya tradicional_ reunión 
+ con pretensiones de ser mensual \;).\n\nLa reunión es de entrada gratuita
+  y va dirigido a todo aquel que le resulte interesante los temas relaciona
+ dos a la tecnología y en particular con Python. En general\, en las reuni
+ ones se tiene la apertura a tocar temas periféricos cuasi-filosóficos si
+ n mucho problema\, así que bienvenidos sean.\n\nTendremos dos charlas y e
+ spacios para networking.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~~~~~~~~~\n--- Original Meetup\n+++ Updated Meetup\n-Por el momento no ten
+ emos patrocinador de bebidas snacks\, así que se les invita a traer cheve
+ \, refrescos y botana a su preferencia\, si así lo desean.\n\n+Raz (Ricar
+ do Azpeitia) https://twitter.com/razpeitia_ antiguo miembro de éste grupo
+  y que ahora anda ausente por que vive en otro país... muy generosamente 
+ donó dinero para comprar pizzas y bebidas no-alcohólicas (en nombre de t
+ odos aquellos que no van por las cheves a los meetups). Así que si quiere
+ n traer algo les recomiendo que sean cheves o algo así [vamos a tener hie
+ lera \;)]\, botana ya esta cubierta también y por lo demás Raz ya nos ti
+ ene cubiertos.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\
+ nLas charlas:\n\n1. El uso de Python en los gigantes tecnológicos - por G
+ ustavo A. Reyes\n\nEn esta plática exploraremos cómo Netflix\, Facebook 
+ y otras grandes empresas tecnológicas utilizan Python en su día a día p
+ ara brindar sus conocidos servicios. En esta ocasión la charla no será t
+ écnica si no un vistazo al uso que se le da a Python en las principales e
+ mpresas de tecnología.\n\n2. Intro a programación entera con OR-Tools - 
+ por Gerardo Carmona\n\nDiversos problemas en investigación de operaciones
+  pueden ser modelados y resueltos a través de la programación entera. De
+ stacan entre estos problemas\, aquel de la mochila (Knapsack) y programaci
+ ón de horarios (Scheduling). En esta plática\, a través de distintos ej
+ emplos de modelos para problemas de optimización\, se introducirá una he
+ rramienta para programación restrictiva\, el SAT-Solver de ortools\, paqu
+ ete de Google para investigación de operaciones.\n\nAgenda:\n\n[ 7:00pm -
+  7:20pm ] Intro/Networking\n[ 7:20pm - 8:00pm ] Charla: El uso de Python e
+ n los gigantes tecnológicos\n[ 8:00pm - 8:20pm ] Break/Networking\n[ 8:20
+ pm - 9:00pm ] Charla: Intro a programación entera con OR-Tools\n[ 9:00pm 
+ - 10:30pm ] Networking\n\nAgradecemos a Valiot (http://valiot.io/) por fac
+ ilitar el espacio para llevar a cabo el evento y a Paykii (nuevamente!) po
+ r ayudar a coordinar para que esto sucediera.\n\nEl evento se llevará a c
+ abo en el mismo lugar que la última reunión\, en el piso 12 de la Torre 
+ Vértice saliendo de los elevadores a la izquierda.\n\n¡Nos vemos el vier
+ nes!
+LOCATION:Torre Vertice Valle Oriente\, Av. Cto. Frida Kahlo 195\, Monterre
+ y\, MX
+X-CRONQUILES-ADDRESS:Av. Cto. Frida Kahlo 195\, Haciendas de La Sierra\, 6
+ 6269 Monterrey\, N.L.\, México
+X-CRONQUILES-CITY:Monterrey
+X-CRONQUILES-CITY-CODE:monterrey
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pythonmty|Reunión Mensual - Enero 2020|México|Nuevo León
+DTSTART:20200123T183000
+CATEGORIES:ai,frontend,python
+DESCRIPTION:Iniciando el año con T O D O\, los esperamos en nuestra próx
+ ima reunión mensual con el formato regular: dos charlas\, networking\, be
+ bidas y snacks.\n\nNuestras reuniones son una plataforma para la colaborac
+ ión entre los asistentes para compartir experiencias\, conocimientos y vi
+ ncular a la comunidad local\, buscando mantener un ambiente informal y rel
+ ajado\, a la vez que fomenta las discusiones técnicas especializadas\, co
+ n todo el rigor que el tema necesite.\n\nTendremos dos charlas:\n\n+ Acele
+ rando Python con Rust -\nAprende cómo acelerar el rendimiento de Python c
+ on Rust\nPor: Ricardo Azpeitia\n\n+ Micropython para NodeMCU: Computación
+  física y microcontroladores\nExploraremos las posibilidades para program
+ ar dispositivos físicos basados en chip ESP8266 . Conectividad procesamie
+ nto e interacción en 3.3v y unos cuantos centímetros.\nPor: Luis Muniz\n
+ \nAgenda:\n\n6:30pm - 7:00pm Bienvenida\, Networking.\n7:00pm - 7:40pm Pri
+ mer charla: "Acelerando Python con Rust"\n7:40pm - 8:00pm Break / Networki
+ ng\n8:00pm - 8:40pm Segunda charla: "Micropython para NodeMCU"\n8:40pm - 9
+ :30pm Networking\n\nLa sede del evento será en las nuevas oficinas de Tie
+ mpo Development [1]\, a quienes les agradecemos mucho por ofrecer sus ofic
+ inas llevar a cabo la reunión\, ademas de... ¡Patrocinar los snacks\, be
+ bidas y _algo_ de cerveza en el evento! Si gustan llevar algo más de bota
+ na\, bebidas o cerveza\, bienvenido sea.\n\nLos que vengan en carro\, pued
+ en buscar lugar sobre la plaza que esta al lado\, también hay unos cuanto
+ s cajones pegados a la oficina sobre Luis Elizondo y otro más sobre Haban
+ a\, la entrada esta sobre Valparaiso.\n\n¡Nos vemos el próximo Jueves 23
+  de enero!\n\n[1]: https://www.tiempodev.com/
+LOCATION:Valparaíso 49\, Valparaíso 49\, Monterrey\, MX
+X-CRONQUILES-ADDRESS:Valparaíso 49\, Altavista\, Distrito Tec\, 64840 Mon
+ terrey\, N.L.\, México
+X-CRONQUILES-CITY:Monterrey
+X-CRONQUILES-CITY-CODE:monterrey
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pythonmty|Reunión Mensual - Febrero 2020|México|Nuevo León
+DTSTART:20200227T183000
+CATEGORIES:data,frontend,mobile,python
+DESCRIPTION:Una vez más y con la esperanza de no romper la continuidad me
+ nsual... Los esperamos en nuestra próxima reunión mensual de formato reg
+ ular: dos charlas\, networking\, bebidas y snacks.\n\nEsta ocasión las ch
+ arlas serán un poco más "holísticas" en lo que respecta al desarrollo d
+ e software\, tratando casos concretos de aplicaciones de software a partir
+  de necesidades de negocio y del siempre presente problema del refactoring
+  conforme las necesidades de negocio cambian.\n\nNuestras reuniones son un
+ a plataforma para la colaboración entre los asistentes\, para compartir e
+ xperiencias\, conocimientos y vincular a la comunidad local\, buscando man
+ tener un ambiente informal y relajado\, a la vez que fomenta las discusion
+ es técnicas especializadas\, con todo el rigor que el tema necesite.\n\nL
+ as charlas:\n\n+ Caso de estudio Banregio: Predicción de efectivo en ATMs
+ .\nDo's and dont's\, más espacio de AMA (preguntar lo que sea)\ncon el po
+ nente [Chief Analytics Officer @ Banregio].\nPor: Aldo Valadez\n\n+ Refact
+ oring\nEstrategias y acciones tácticas para mantener limpio el código y 
+ arquitectura de un proyecto a lo largo del tiempo\, balanceando las necesi
+ dades técnicas y las de negocio.\nPor: Luis Herrada\n\nAgenda:\n\n6:30pm 
+ - 7:00pm Bienvenida\, Networking.\n7:00pm - 7:40pm Primer charla: "Caso de
+  estudio Banregio: Predicción de efectivo en ATMs"\n7:40pm - 8:00pm Break
+  / Networking\n8:00pm - 8:40pm Segunda charla: "Refactoring"\n8:40pm - 9:3
+ 0pm Networking\n\nLa sede del evento será en las IOS Offices Arboleda por
+  parte de Paykii [1]\, a quienes les agradecemos mucho por hacer el evento
+  posible\, ademas de ¡patrocinar botana\, pizzas\, bebidas y cerveza cero
+ ! De forma adicional\, si gustan llevar algo más de botana\, bebidas o ce
+ rveza (no hay problema con el alcohol)\, bienvenido sea.\n\nLas oficinas e
+ stán ubicadas dentro de Parque Arboleda\, por lo que pueden hacer uso del
+  estacionamiento del lugar.\n\n¡Nos vemos el próximo Jueves 27 de febrer
+ o!\n\n[1]: https://www.paykii.com/
+LOCATION:IOS OFFICES Arboleda\, Av. del Roble 660\, San Pedro Garza Garcí
+ a\, MX
+X-CRONQUILES-ADDRESS:Av. del Roble 660\, Valle del Campestre\, 66265 San P
+ edro Garza García\, N.L.\, México
+X-CRONQUILES-CITY:San Pedro Garza García
+X-CRONQUILES-CITY-CODE:sanpedrogarzagarcia
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pythonmty|Reunión mensual - De vuelta a las andadas|México|Nuevo
+  León
+DTSTART:20220922T183000
+CATEGORIES:ai,backend,frontend,mobile,python,web
+DESCRIPTION:Luego de este largo "break" de 938 días desde nuestra última
+  reunión\, *volvemos a las andadas* con esta reunión mensual\, muy próx
+ imos al décimo aniversario del grupo.\n\nPara el que no lo tuviera claro.
+ .. las reuniones se suspendieron por todo el tema de la *pandemia*\, debid
+ o a eso —de forma precautoria— la reunión se llevará a cabo al aire 
+ libre\, el uso de tapabocas queda a criterio individual\, sin embargo se l
+ es exhorta a respetar las precauciones que cada quien tome. El COVID impac
+ to de muchas formas nuestras vidas y las necesidades de cuidados a la salu
+ d varían mucho de persona a persona. Se espera respeto y empatía entre l
+ os asistentes.\n\nNuestras reuniones son una plataforma para la colaboraci
+ ón entre los asistentes\, fomentando el compartir experiencias\, conocimi
+ entos y vincular a la comunidad local\, buscando mantener un ambiente info
+ rmal y relajado\, a la vez que fomenta las discusiones técnicas especiali
+ zadas\, con todo el rigor que el tema necesite.\n\nEl formato de la reuni
+ ón es el regular: dos charlas\, networking\, bebidas y snacks (sin patroc
+ inador\, pero el que guste llevar\, bienvenido sea).\n\nLas charlas:\n\n* 
+ Rastreo de tus gastos con Python y... ¿NodeJS?\nEstructura de una API ded
+ icada a correr scripts de Python como solución automatizada para procesar
+  información disponible de tu banca en línea.\nPor: Gerardo Mijares ([Li
+ nkedIn](https://www.linkedin.com/in/gerardomijares/)\, [Web Personal](http
+ ://gmijares.me))\n* La forma "correcta" de escribir software.\nReflexiones
+  sobre la realidad de escribir software en la industria: efectos culturale
+ s\, costumbres y relaciones de poder.\nPor: Joel Rivera\n\nAgenda:\n[[ La 
+ agenda empuja un poco las charlas a que sea un poco más en la noche para 
+ evitar problemas con la proyección de diapositivas. ]]\n\n6:30pm - 7:30pm
+  Bienvenida\, Networking.\n7:30pm - 8:10pm Primer charla: «Rastreo de tus
+  gastos con Python y... ¿NodeJS?»\n8:10pm - 8:30pm Break / Networking\n8
+ :30pm - 9:20pm Segunda charla: «La forma "correcta" de escribir software.
+ »\n9:20pm - 10:00pm Networking\n\nEl evento se llevará a cabo en el pati
+ o de [Coworking Monterrey](http://coworkingmty.com/)\, a quienes les agrad
+ ecemos mucho por permitirnos llevar a cabo el evento en sus instalaciones.
+  No cabe duda ha sido uno de los espacios que más ha apoyado al grupo y a
+  las comunidades de la ciudad en general.\n\nEsperando que este evento sea
+  el inicio de reuniones con más regularidad... ¡Nos vemos el próximo Ju
+ eves 22 de Septiembre!
+LOCATION:Coworking Monterrey\, C. Isaac Garza 735\, Monterrey\, MX
+X-CRONQUILES-ADDRESS:Isaac Garza 735\, Centro\, 64000 Monterrey\, N.L.\, M
+ éxico
+X-CRONQUILES-CITY:Monterrey
+X-CRONQUILES-CITY-CODE:monterrey
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pythonmty|Reunión Mensual - Enero 2023|México|Nuevo León
+DTSTART:20230119T183000
+CATEGORIES:frontend,mobile,python,web
+DESCRIPTION:¡Hola todos! Una vez más los esperamos en nuestra próxima r
+ eunión *mensual*\, esperemos éste nuevo año este lleno de reuniones con
+  mucho más regularidad (algo similar comenté a inicios del 2020\, y ya s
+ abemos como acabo ese año 😅).\n\nPara los que no este familiarizados c
+ on los eventos del grupo: nuestras reuniones son una plataforma para la co
+ laboración entre los asistentes\, fomentando el compartir experiencias\, 
+ conocimientos y vincular a la comunidad local\, buscando mantener un ambie
+ nte informal y relajado\, a la vez que fomenta las discusiones técnicas e
+ specializadas\, con todo el rigor que el tema necesite.\n\nLos eventos los
+  hace la misma comunidad\, por lo cual se les invita a participar de forma
+  activa\, por ejemplo hospedando eventos o presentando temas para futuras 
+ reuniones.\n\nLa entrada es gratuita.\n\nEl formato de la reunión es el r
+ egular: dos charlas\, networking\, bebidas y snacks [el que guste llevar\,
+  incluyendo cervezas \;-)] .\n\nLas charlas:\n\n* Python y la elaboración
+  de contratos inteligentes (Web 3.0)\nEstructurando y creando contratos in
+ teligentes compatibles con EVM usando el lenguaje de programación [Vyper]
+ (https://vyper.readthedocs.io/en/stable/) asi como el uso de [Brownie](htt
+ ps://eth-brownie.readthedocs.io/en/latest/) como marco de trabajo basado e
+ n python para el desarrollo\, pruebas y despliegue de contratos inteligent
+ es compatibles con EVM.\nPor: Arturo Quintanilla Marín\n* Monitoreo con [
+ Prometheus](https://prometheus.io/) y [Loki](https://github.com/grafana/lo
+ ki)\nConceptos de su arquitectura e integración. Pros\, contras y vistazo
+  sobre [Grafana](https://grafana.com/).\nPor: Abel Camarillo\n\nAgenda:\n\
+ n6:30pm - 7:15pm Bienvenida\, networking.\n7:15pm - 8:00pm Primer charla: 
+ «Python y la elaboración de contratos inteligentes (Web 3.0)».\n8:00pm 
+ - 8:30pm Break\, networking.\n8:30pm - 9:15pm Segunda charla: «Monitoreo 
+ con Prometheus y Loki».\n9:15pm - 10:15pm Networking.\n\nEl evento será 
+ hospedado por [Spectrum Effect](https://spectrumeffect.com/) —¡mí actu
+ al lugar de trabajo!—¡A quienes les agradezco mucho el apoyo! De paso l
+ es cuento que tenemos [algunas vacantes](https://spectrumeffect.com/career
+ s/) que tal vez sean de su interés\, por si le quieren echar un ojo\, con
+  suerte acabamos de futuros compañeros de trabajo\, si tienen alguna duda
+  al respecto me pueden preguntar en la reunión.\n\nLa oficina R&D de Spec
+ trum Effect están ubicada dentro de la [Torre Comercial América](https:/
+ /goo.gl/maps/N2vwS84XfVN7yDSb9)\, piso 30. Esta al lado de Plaza Fiesta/Fa
+ shion Drive\, bastante conveniente para los que quiera evitarse el trafico
+  de hora pico y quedarse por San Pedro o si manejan hacía el lugar\, para
+  muchos a esas horas va a estar a contra flujo del tráfico.\n\n¡Nos vemo
+ s el próximo Jueves!
+LOCATION:Torre Comercial America\, Torre Comercial America\, San Pedro Gar
+ za García\, MX
+X-CRONQUILES-ADDRESS:Av. Batallón de San Patricio 111\, Corporativo Prode
+ sa\, 66269 San Pedro Garza García\, N.L.\, México
+X-CRONQUILES-CITY:San Pedro Garza García
+X-CRONQUILES-CITY-CODE:sanpedrogarzagarcia
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:aws-cdmx|AWS Community Day - México 2023|México|Nuevo León
+DTSTART:20231111T090000
+CATEGORIES:cloud,frontend,web
+DESCRIPTION:🚀 ¡Llega el AWS Community Day México 2023! 🇲🇽\n\n¿
+ Estás listo para sumergirte en un día lleno de innovación\, aprendizaje
+  y networking? ¡Entonces prepárate para el evento del año!\n\nTe presen
+ tamos el AWS Community Day México 2023\, donde las comunidades de AWS Mé
+ xico nos reuniremos para compartir conocimientos\, experiencias y las últ
+ imas tendencias en tecnología en la nube.\n\n📅 Fecha: 11 de noviembre\
+ n📍 Lugar: UDEM\, Monterrey\, NL\n📝 Registro: https://awscommunity.mx
+ /\n\n¿Qué puedes esperar?\n🔥 Charlas inspiradoras\n👥 Paneles con e
+ xpertos\n🛠 Talleres prácticos\n🤝 Networking excepcional\n\n¡No te 
+ pierdas la oportunidad de ser parte de este evento épico que reúne a las
+  comunidades de AWS por primera vez en México! Únete a nosotros para des
+ cubrir cómo las soluciones en la nube están impulsando la innovación en
+  todos los rincones de la industria.\n\n**¿Estás listo para dar el sigui
+ ente paso en tu carrera tecnológica? ¡Regístrate ahora y asegura tu lug
+ ar en este evento único!**\n\nPara más información y registro\, visita 
+ nuestro sitio web.
+LOCATION:Avenida José Calderón\, Av. José Calderón A.\, Santa Catarina
+ \, MX
+X-CRONQUILES-ADDRESS:Av. José Calderón A.\, Nuevo León\, México
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pythonmty|Reunión mensual  - Julio/Agosto 2024|México|Nuevo Leó
+ n
+DTSTART:20240802T190000
+CATEGORIES:backend,frontend,python,web
+DESCRIPTION:¡Hola a todos (que aún siguen por aquí)!\n\nEn caso de que 
+ aún no lo hayan notado... ya tenemos como año y medio sin reuniones\, va
+ rias se han queda en puro plan en privado y nunca llegaron a consolidarse.
+  Una disculpa a los involucrados en donde el evento *se quedó en el tinte
+ ro.*\n\nA falta de poder organizar algo de forma estable y regular\, los i
+ nvito a una reunión de formato libre para discutir ideas para reactivar e
+ l grupo.\n\nLa idea es dar un poco de contexto histórico y abordar los si
+ guientes temas:\n\n1\\. Participar como organizador\\.\n2\\. Nuevos format
+ os de reuniones\\.\n3\\. Consolidar los multiples canales/grupos que se cr
+ earon para el grupo\\.\n\n~~Por el momento no hay lugar definido (probable
+ mente algún restaurante o cowork)\, el evento se actualizará en cuanto e
+ sto quede determinado\, abierto a sugerencias.~~\n\n**Actualización 1:**\
+ n**El evento se llevará a cabo en las oficinas de [OpenSource Monterrey](
+ https://opensourcemty.com/)\, Trinidad 200\, Col. Vista Hermosa. Agradecem
+ os mucho por el apoyo.**\n\n**En cuanto a snack o bebidas\, no contamos co
+ n patrocinador para el evento\, por lo cual se les invita traer botanas o 
+ bebidas para la charla y la convivencia.**\n\n**Actualización 2:**\n\n**E
+ l evento lo voy a mover para la semana que sigue por temas de un brote de 
+ COVID en mi casa :-/.**\n\n¡Nos vemos el ~~jueves\,~~ viernes!
+LOCATION:Open Source Monterrey\, Trinidad 200 Vista Hermosa\, Monterrey\, 
+ MX
+X-CRONQUILES-ADDRESS:Trinidad 200\, Vista Hermosa\, 64620 Monterrey\, N.L.
+ \, México
+X-CRONQUILES-CITY:Monterrey
+X-CRONQUILES-CITY-CODE:monterrey
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:pythonmty|Reunión Mensual Marzo 2025|México|Nuevo León
+DTSTART:20250327T193000
+CATEGORIES:frontend,python
+DESCRIPTION:¡Hola a todos!\n\n**Nos estamos migrando a [https://social.or
+ g.mx/@pymty](https://social.org.mx/@pymty) pero\, en el inter el evento se
+  sigue publicando aquí.**\n\n**Atentos que ya es mañana Jueves 27 de Mar
+ zo.**\n\nSe les invita a la siguiente Reunión del grupo de Python Monterr
+ ey.\n\nSe tendrán **DOS** charlas con break y espacio para networking.\n\
+ nSede: Digital HUB Mty: [https://maps.app.goo.gl/DzCbCPPhvLvtbRiZ7](https:
+ //maps.app.goo.gl/DzCbCPPhvLvtbRiZ7)\nFavor de llenar el registro: [https:
+ //social.org.mx/events/4a854fb9-ff3a-4d12-9326-746d10899da2/participate](h
+ ttps://social.org.mx/events/4a854fb9-ff3a-4d12-9326-746d10899da2/participa
+ te)\n\nAgenda:\n\n* 7:30 Networking\n* 8:00: Charla Julio González: Opera
+ ciones psicológicas: control psicológico con redes sociales\n* 8:45: Bre
+ ak\n* 9:00 Charla Isaías Rodríguez: Selenium y ChatGPT: ¿Los empleados 
+ del mes?: Una charla sobre la cómo la automatización puede reemplazar a 
+ los empleados y como evitarlo.\n* 9:30 Networking\n\n¡Nos vemos el próxi
+ mo jueves!
+LOCATION:Monterrey Digital Hub\, Blvd Diaz Ordaz 333 Lote 2\, Unidad San P
+ edro\, Zona Industrial. Edificio Neoris\, San Pedro Garza García\, MX
+X-CRONQUILES-ADDRESS:Blvd. Díaz Ordaz 333-lote 2\, Rincón de Santa Marí
+ a\, 64650 Monterrey\, N.L.\, México
+X-CRONQUILES-CITY:Monterrey
+X-CRONQUILES-CITY-CODE:monterrey
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EPAM|EPAM Tech Talks Monterrey|México|Nuevo León
+DTSTART:20250703T183000
+DESCRIPTION:Acompáñanos en nuestras Tech Talks en Monterrey para compart
+ ir y discutir conocimientos sobre
+LOCATION:NEORIS\, Blv. Gustavo Díaz Ordaz 333\, San Pedro Garza García\,
+  NLE
+X-CRONQUILES-ADDRESS:San Pedro Garza García\, N.L.\, México
+X-CRONQUILES-CITY:San Pedro Garza García
+X-CRONQUILES-CITY-CODE:sanpedrogarzagarcia
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EPAM|EPAM Tech Talks Monterrey|México|Nuevo León
+DTSTART:20251016T183000
+DESCRIPTION:Acompáñanos en nuestras Tech Talks en Monterrey para compart
+ ir y discutir conocimientos sobre
+LOCATION:NEORIS\, Blv. Gustavo Díaz Ordaz 333\, San Pedro Garza García\,
+  NLE
+X-CRONQUILES-ADDRESS:San Pedro Garza García\, N.L.\, México
+X-CRONQUILES-CITY:San Pedro Garza García
+X-CRONQUILES-CITY-CODE:sanpedrogarzagarcia
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+END:VCALENDAR
