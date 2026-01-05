@@ -33,7 +33,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:eventloop|JSConf MX 2023|México|Jalisco
 DTSTART:20230914T090000
-CATEGORIES:web,backend,mobile,frontend
+CATEGORIES:web,mobile,backend,frontend
 DESCRIPTION:tickets --> https://www.jsconf.mx\n\nÚnete al encuentro de de
  sarrolladores front-end más prestigioso del mundo\, por primera vez en M
  éxico. Conoce los proyectos más innovadores y conecta con las personas q
@@ -57,7 +57,7 @@ BEGIN:VEVENT
 SUMMARY:j4guanatos|(j4G) => isLeapYear(new Meetup("February"))|México|Jal
  isco
 DTSTART:20240229T190000
-CATEGORIES:web,data,python,mobile,frontend,security
+CATEGORIES:web,data,mobile,security,frontend,python
 DESCRIPTION:DESPUES DE UNAS LARGAS VACACIONES\, REGRESAMOS!\n\nNo estabamo
  s perdidos\, solo nos tomamos un break en enero\,pero ya estamos de vuelta
   con mas meetups chidos para la banda.\nEste mes\, tendremos una charla ba
@@ -99,7 +99,7 @@ BEGIN:VEVENT
 SUMMARY:j4guanatos|@UserMessage(“Organize meetup on May”)|México|Jali
  sco
 DTSTART:20240530T190000
-CATEGORIES:backend,python,mobile,frontend,ai
+CATEGORIES:mobile,ai,backend,frontend,python
 DESCRIPTION:Llego el mes de las madres\, el mes de la fuerza proletaria un
  ida\, el mes del "cinco di may-io"\, un mes donde tendremos un meetup supe
  r chido con la banda y que estaremos de nueva cuenta cotorreando!!\n\nEste
@@ -135,7 +135,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:j4guanatos|j4Guanatos.prototype = new Meetup(JUNE)|México|Jalisco
 DTSTART:20240627T190000
-CATEGORIES:web,mobile,frontend,ai
+CATEGORIES:web,mobile,ai,frontend
 DESCRIPTION:Ya estamos a medio año y no hemos tenido un meetup dedicado a
  l lenguaje mas amado y odiado de todos? No podemos permitirnos seguir asi\
  , tenemos que hacer controversia\, tenemos que ser trendy\, tenemos que se
@@ -189,7 +189,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:j4guanatos|Try.of(Meetup.AUGUST)|México|Jalisco
 DTSTART:20240829T190000
-CATEGORIES:web,devops,mobile,frontend,ai
+CATEGORIES:web,mobile,ai,frontend,devops
 DESCRIPTION:Con estas lluvias e inundaciones\, ha estado dificil salir per
  o afortunadamente tenemos j4Guanatos para reunirnos y poder olvidarnos de 
  los socavones y tener un rato de chelas y codigo!\n\nNo le tengan miedo al
@@ -229,7 +229,7 @@ BEGIN:VEVENT
 SUMMARY:amazon-web-services-jalisco|Evoluciona con DevOps: De la Ingenier
  ía de Datos a la IA y LLMs en AWS|México|Jalisco
 DTSTART:20240912T190000
-CATEGORIES:web,data,devops,mobile,frontend,cloud
+CATEGORIES:cloud,web,data,mobile,frontend,devops
 DESCRIPTION:Te invitamos a un evento único que te llevará desde los fund
  amentos de DevOps hasta las últimas innovaciones en inteligencia artifici
  al y modelos de lenguaje (LLMs). Explora cómo las prácticas de DevOps es
@@ -263,7 +263,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:j4guanatos|Meetup de Septiembre (con GDL JUG)|México|Jalisco
 DTSTART:20240926T190000
-CATEGORIES:web,frontend,cloud
+CATEGORIES:frontend,cloud,web
 DESCRIPTION:¡No te pierdas nuestro Meetup de Septiembre con j4G! Será un
   evento increíble lleno de charlas interesantes\, networking y mucha... e
  rrr... caele y veremos!\n**Detalles del evento:**\n\n* **Fecha:** Septiemb
@@ -292,7 +292,7 @@ BEGIN:VEVENT
 SUMMARY:amazon-web-services-jalisco|🤖💻 GameDay de AWS: ¡Sumérgete 
  en la IA Generativa! 🚀🧠|México|Jalisco
 DTSTART:20241030T190000
-CATEGORIES:web,frontend,cloud
+CATEGORIES:frontend,cloud,web
 DESCRIPTION:¡Hola\, entusiastas de la tecnología! 👋\n¿Estás listo p
  ara sumergirte en el fascinante mundo de la IA Generativa?\n\n🌟 Únete 
  a nosotros en este emocionante GameDay de AWS donde aprenderemos\, constru
@@ -350,7 +350,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:j4guanatos|Meetup Febrero with GDLJUG|México|Jalisco
 DTSTART:20250220T190000
-CATEGORIES:web,data,frontend,ai
+CATEGORIES:web,data,ai,frontend
 DESCRIPTION:¡Ya se la saben Javandita! ¡Ya andamos de vuelta en la jugad
  a y más prendidos! 🎊\nAgárrense porque nos vamos a juntar con la band
  ita de j4G pa' hacer un meetup. Y no cualquier meetup\, ¡no señor! Vamos
@@ -406,7 +406,7 @@ BEGIN:VEVENT
 SUMMARY:amazon-web-services-jalisco|Arquitectura en la nube con AWS en 202
  5 🚀🧠|México|Jalisco
 DTSTART:20250313T183000
-CATEGORIES:web,frontend,cloud,ai
+CATEGORIES:cloud,web,ai,frontend
 DESCRIPTION:¡Hola\, entusiastas de la tecnología! 👋\n\nAcompáñanos 
  en este evento donde exploraremos temas clave para optimizar tus aplicacio
  nes y reducir costos en la nube.\n\n🎯 ¿Qué aprenderemos?\n💰 **Cost
@@ -442,7 +442,7 @@ BEGIN:VEVENT
 SUMMARY:rust-mx|Rust y AWS Lambda. Preparando el camino para desplegar ML/
  AI|México|Jalisco
 DTSTART:20250321T190000
-CATEGORIES:backend,frontend,cloud,ai
+CATEGORIES:cloud,ai,backend,frontend
 DESCRIPTION:En esta sesión de RustMX\, coincidiendo con la llegada de la 
  primavera\, aprenderemos sobre AWS Lambda y su implementación con Rust.\n
  \nHerramientas que pueden ser aplicadas a diversos campos\, incluyendo des
@@ -497,7 +497,7 @@ BEGIN:VEVENT
 SUMMARY:devops-workshop|Around K8s  is a full day of Kubernetes s workshop
  s  |México|Jalisco
 DTSTART:20250328T080000
-CATEGORIES:devops,mobile,cloud,ai
+CATEGORIES:cloud,mobile,ai,devops
 DESCRIPTION:# Around K8s is a full day of Kubernetes workshops\n\nWelcome 
  to AroundK8s.com\, your destination for in-depth Kubernetes training and w
  orkshops. Join us for a full day of immersive learning\, hands-on exercise
@@ -526,7 +526,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:html5-ciudad-de-mexico|Talleres de Kubernetes|México|Jalisco
 DTSTART:20250328T080000
-CATEGORIES:web,devops,cloud,ai
+CATEGORIES:cloud,web,ai,devops
 DESCRIPTION:Me gustaría comentarles acerca de un evento que se llevará a
   cabo un día previo al KCD Guadalajara.\n\nAroundsk8s.com es un día de t
  alleres\, meramente práctico\, vamos a instalar configurar\, asegurar\, a
@@ -557,7 +557,7 @@ BEGIN:VEVENT
 SUMMARY:amazon-web-services-jalisco|Container Orchestration and Microservi
  ces 🌟|México|Jalisco
 DTSTART:20250424T183000
-CATEGORIES:web,backend,devops,mobile,frontend,cloud,ai
+CATEGORIES:cloud,web,mobile,ai,backend,frontend,devops
 DESCRIPTION:¡Hola\, entusiastas de la tecnología! 🚀\n\n¿Quieres llev
  ar tus habilidades en contenedores al siguiente nivel? Únete a nosotros e
  n nuestro próximo meetup: **Container Orchestration and Microservices**\,
@@ -586,7 +586,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:j4guanatos|F*ckup Interviews|México|Jalisco
 DTSTART:20250424T190000
-CATEGORIES:backend,mobile,frontend
+CATEGORIES:mobile,backend,frontend
 DESCRIPTION:Estamos de regreso!\nDe nueva cuenta en colaboracion con el Gu
  adalajara Java User Group tendremos este meetup muy chido\, primero de muc
  hos capitulos.\n\nEscucharemos historias de fallos más memorables en entr
@@ -647,7 +647,7 @@ BEGIN:VEVENT
 SUMMARY:amazon-web-services-jalisco|Cloud-Native Development☁️|México
  |Jalisco
 DTSTART:20250529T183000
-CATEGORIES:web,frontend,cloud,security
+CATEGORIES:cloud,web,security,frontend
 DESCRIPTION:¡Hola\, comunidad! 🌐✨\n\n¿Te apasiona el desarrollo mod
  erno y las tecnologías nativas de la nube? Entonces no puedes perderte nu
  estro próximo meetup: **Cloud Native Development**\, donde exploraremos c
@@ -674,7 +674,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:j4guanatos|JConf Méx 2025|México|Jalisco
 DTSTART:20250607T103000
-CATEGORIES:web,frontend,security
+CATEGORIES:security,frontend,web
 DESCRIPTION:**⚠️ [Importante: necesitas comprar tu boleto para asistir
  ](https://eventos.jconf.mx/event/2/jconf-mexico-2025).**\n\n**¡La confere
  ncia del ecosistema JVM más grande de México regresa!**\nPrepárate para
@@ -714,7 +714,7 @@ BEGIN:VEVENT
 SUMMARY:rust-mx|programación asíncrona en Rust usando Tokio|México|Jali
  sco
 DTSTART:20250619T190000
-CATEGORIES:ai,frontend
+CATEGORIES:frontend,ai
 DESCRIPTION:Luis Carlos Osorio Jayk va a platicar en nuestro meetup de jun
  io 2025.\n\nEn esta charla\, nos sumergiremos en el mundo de la programaci
  ón asíncrona en Rust\, utilizando como herramienta principal el popular 
@@ -774,7 +774,7 @@ BEGIN:VEVENT
 SUMMARY:amazon-web-services-jalisco|Advanced Database Solutions📈|Méxic
  o|Jalisco
 DTSTART:20250724T183000
-CATEGORIES:web,data,frontend,cloud
+CATEGORIES:cloud,web,data,frontend
 DESCRIPTION:¡Hola\, comunidad tech! 🚀\n\nEste mes tenemos un **nuevo m
  eetup imperdible** sobre **Advanced Database Solutions** en el que explora
  remos estrategias\, herramientas y buenas prácticas para gestionar y esca
@@ -894,7 +894,7 @@ BEGIN:VEVENT
 SUMMARY:amazon-web-services-jalisco|Modern Application Security🔐|Méxic
  o|Jalisco
 DTSTART:20250925T183000
-CATEGORIES:web,mobile,cloud,ai,security
+CATEGORIES:cloud,web,mobile,ai,security
 DESCRIPTION:Ya tenemos fecha para nuestro próximo meetup y no te lo puede
  s perder!\nEl **jueves 25 de septiembre** nos vemos en **Wizeline** para h
  ablar de un tema que está en el centro de todas las conversaciones: **la 
@@ -989,7 +989,7 @@ BEGIN:VEVENT
 SUMMARY:amazon-web-services-jalisco|Cost Management and FinOps 💵👻|M
  éxico|Jalisco
 DTSTART:20251028T190000
-CATEGORIES:web,devops,mobile,frontend,cloud,security
+CATEGORIES:cloud,web,mobile,security,frontend,devops
 DESCRIPTION:¡Hola\, comunidad tech! 🎃\n\nEste 28 de octubre te invitam
  os a un meetup muy especial con temática de **Halloween**\, donde hablare
  mos sobre **Cost Management y FinOps**. Prepárate para aprender\, compart
@@ -1053,7 +1053,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:eventloop|JSConf México 2025|México|Jalisco
 DTSTART:20251030T093000
-CATEGORIES:web,frontend
+CATEGORIES:frontend,web
 DESCRIPTION:La conferencia más esperada por la comunidad JavaScript regre
  sa a Guadalajara.\n\n**JSConf México** reúne a la comunidad para dos dí
  as llenos de charlas técnicas\, networking\, música\, tejuino y mucha co
@@ -1076,7 +1076,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:amazon-web-services-jalisco|🍺Brew the Future |México|Jalisco
 DTSTART:20251120T183000
-CATEGORIES:backend,web,data,frontend,cloud,ai
+CATEGORIES:cloud,web,data,ai,backend,frontend
 DESCRIPTION:​Join us for an evening crafted for **developers\, engineers
  \, and cloud architects** shaping the future of AI and automation on AWS.\
  n​This special edition of our Builders Mixer blends **a technical sessio
@@ -1136,7 +1136,7 @@ BEGIN:VEVENT
 SUMMARY:amazon-web-services-jalisco|🌩️ Disaster Recovery & Business C
  ontinuity ☁️|México|Jalisco
 DTSTART:20251127T183000
-CATEGORIES:web,mobile,frontend,cloud,ai
+CATEGORIES:cloud,web,mobile,ai,frontend
 DESCRIPTION:¡Hola\, comunidad tech! 🚀\n\nEste **27 de noviembre** te e
  speramos en **Wizeline** para cerrar el año con un **meetup enfocado en r
  esiliencia\, continuidad y recuperación ante desastres en la nube**.\n\nP
@@ -1189,7 +1189,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:KCD Guadalajara|KCD Guadalajara 2026|México|Jalisco
 DTSTART:20260228T080000
-CATEGORIES:kubernetes,cloud,devops,conferencia
+CATEGORIES:kubernetes,conferencia,cloud,devops
 DESCRIPTION:Kubernetes Community Days Guadalajara\, un evento para profesi
  onales de la nube y Kubernetes.
 LOCATION:Holiday Inn Guadalajara Expo\, an IHG Hotel 2500 Avenida Adolfo L
