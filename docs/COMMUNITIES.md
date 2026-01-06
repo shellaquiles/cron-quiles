@@ -64,3 +64,4 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🔴 [**The Dojo MX**](https://www.meetup.com/the-dojo-mx) | Aprende y desarrolla habilidades de manos de los mejores desarrolladores de México. Talleres presenciales o en línea. | Online |
 | 🟢 [**Unity User Group CDMX**](https://www.meetup.com/mexico-city-unity-user-group) | Desarrolladores de videojuegos y experiencias interactivas con Unity 3D. | Ciudad de México, Online |
 | 🔴 [**Vim CDMX**](https://www.meetup.com/cdmx-vim-meetup) | Nuestro objetivo es atraer a usuarios noveles y expertos en Vim para aprender el arte de la edición modal, mejorar, o compartir flujos de trabajo. | Ciudad de México |
+| 🟢 [**AWS User Group Mixtli**](https://www.meetup.com/awsugmixtli/) | Comunidad de usuarios de AWS en Puebla. Eventos sobre servicios en la nube de Amazon. | Puebla, Online |
