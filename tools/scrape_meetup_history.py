@@ -31,7 +31,15 @@ def load_feeds(config_file="config/feeds.yaml"):
         data = yaml.safe_load(f)
 
     urls = []
-    # Recorrer estructura de ciudades
+
+    # 1. New format: Flat list under 'feeds'
+    if 'feeds' in data and isinstance(data['feeds'], list):
+         for feed in data['feeds']:
+            url = feed.get('url', '') if isinstance(feed, dict) else feed
+            if 'meetup.com' in url:
+                urls.append(url)
+
+    # 2. Old format: Nested under 'cities'
     cities = data.get('cities', {})
     for city in cities.values():
         feeds = city.get('feeds') or []
@@ -39,7 +47,9 @@ def load_feeds(config_file="config/feeds.yaml"):
             url = feed.get('url', '') if isinstance(feed, dict) else feed
             if 'meetup.com' in url:
                 urls.append(url)
-    return urls
+
+    # Deduplicate
+    return list(set(urls))
 
 def extract_group_slug(url):
     # https://www.meetup.com/python-mexico/events/ical -> python-mexico
