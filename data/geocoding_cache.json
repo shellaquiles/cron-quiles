@@ -14924,5 +14924,106 @@
       "establishment",
       "point_of_interest"
     ]
+  },
+  "Jardín Americana, 1305 Avenida Ignacio L Vallarta, Guadalajara, JAL": {
+    "address_components": [
+      {
+        "long_name": "1305",
+        "short_name": "1305",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Ignacio L Vallarta",
+        "short_name": "Av. Ignacio L Vallarta",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Colonia Americana",
+        "short_name": "Col Americana",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Americana",
+        "short_name": "Americana",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Guadalajara",
+        "short_name": "Guadalajara",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Jalisco",
+        "short_name": "Jal.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "44160",
+        "short_name": "44160",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Ignacio L Vallarta 1305, Col Americana, Americana, 44160 Guadalajara, Jal., México",
+    "geometry": {
+      "location": {
+        "lat": 20.6744521,
+        "lng": -103.365396
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 20.6758980802915,
+          "lng": -103.3640496697085
+        },
+        "southwest": {
+          "lat": 20.6732001197085,
+          "lng": -103.3667476302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 20.6745831,
+          "longitude": -103.3653994
+        }
+      }
+    ],
+    "place_id": "ChIJI7FavQSuKIQRyWTUV4zPgqo",
+    "plus_code": {
+      "compound_code": "MJFM+QR Guadalajara, Jal., México",
+      "global_code": "75GRMJFM+QR"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
   }
 }
