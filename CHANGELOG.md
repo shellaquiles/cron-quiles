@@ -7,6 +7,8 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ## [Unreleased]
 
+## [1.7.0] - 2026-01-07
+
 ### Added
 - **Herramientas de Mantenimiento**:
   - `tools/deduplicate_events.py`: Script para limpiar duplicados en el historial basado en lógica de normalización `EventNormalized`.
