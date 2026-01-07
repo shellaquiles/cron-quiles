@@ -97,6 +97,8 @@ Scripts de mantenimiento y utilidad:
 - **`populate_cache_from_history.py`**: Extrae ubicaciones verificadas de `history.json` y puebla el cache de geocodificación.
 - **`scan_feeds_and_cache.py`**: Escanea todos los feeds configurados, extrae ubicaciones y asegura que estén en el cache (geocodificando si es necesario).
 - **`scrape_meetup_history.py`**: Scraper para obtener eventos históricos de grupos de Meetup.
+- **`deduplicate_events.py`**: Script para limpiar duplicados en `history.json` re-normalizando eventos.
+- **`sort_history.py`**: Script para asegurar el ordenamiento cronológico descendente del historial.
 
 ### `docs/`
 Documentación adicional del proyecto:
