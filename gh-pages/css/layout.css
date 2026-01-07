@@ -108,6 +108,11 @@ body::before {
         padding: var(--spacing-md);
     }
 
+    .terminal-header {
+        margin-bottom: var(--spacing-lg);
+        padding: var(--spacing-md);
+    }
+
     .terminal-title {
         font-size: 2em;
     }

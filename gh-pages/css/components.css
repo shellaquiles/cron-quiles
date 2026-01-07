@@ -250,3 +250,39 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .city-tabs {
+        flex-wrap: wrap;
+        gap: var(--spacing-sm);
+        padding: var(--spacing-sm);
+    }
+
+    .city-tab {
+        flex: 1 1 auto;
+        text-align: center;
+        padding: var(--spacing-sm) var(--spacing-md);
+        font-size: 0.9em;
+    }
+
+    .btn {
+        padding: var(--spacing-md) var(--spacing-lg);
+        width: 100%;
+        text-align: center;
+        margin-bottom: var(--spacing-xs);
+    }
+
+    .btn-group {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+
+    .prompt {
+        font-size: 0.9em;
+    }
+
+    .communities-grid {
+        grid-template-columns: 1fr;
+    }
+}
