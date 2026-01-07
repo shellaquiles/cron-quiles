@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-01-07T12:30:52.765882+00:00",
-  "total_events": 11,
+  "generated_at": "2026-01-07T14:27:59.909942+00:00",
+  "total_events": 12,
   "city": "Puebla",
   "communities": [
     {
       "name": "PyTalavera",
       "description": "Comunidad Pythonista en Puebla. Eventos, charlas y networking para entusiastas de Python en la región."
+    },
+    {
+      "name": "AWS User Group Mixtli",
+      "description": "Comunidad de usuarios de AWS en Puebla. Eventos sobre servicios en la nube de Amazon."
     }
   ],
   "events": [
@@ -240,6 +244,30 @@
       "city_code": "heroicapuebladezaragoza",
       "address": "Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
       "hash_key": "pytalavera mixtli posada_2025-12-13T22:00:00+00:00"
+    },
+    {
+      "title": "AWS User Group Mixtli Cholula|Modern Serverless Architectures y Lambda Managed Instances|México|Puebla",
+      "description": "AWS User Group Mixtli Cholula\n¿Crees que el modelo Serverless te obliga a sacrificar control a cambio de simplicidad? 🤔 **¡Es momento de actualizar esa idea!**\n\nLas arquitecturas serverless han evolucionado drásticamente. Con los anuncios de **AWS re:Invent 2025**, la frontera entre la flexibilidad del cómputo tradicional y la agilidad de Serverless es más delgada que nunca.\n\nEn esta charla técnica y estratégica, de la mano de **Edwin Moedano (Cloud Architect en Caylent)**, exploraremos a fondo las **Lambda Managed Instances**. Descubrirás cómo este nuevo paradigma permite ejecutar cargas de trabajo constantes o especializadas con un rendimiento superior, sin perder los beneficios de escalabilidad que tanto amamos de AWS Lambda.\n\n**¿Qué aprenderás en esta sesión?**\n\n* **Lambda Managed Instances:** Qué son y cómo utilizarlas para obtener lo mejor de ambos mundos (control y simplicidad).\n* **Nuevos Patrones de Orquestación:** Cómo diseñar sistemas robustos que soporten cargas de trabajo complejas.\n* **Optimización de Performance:** Estrategias para reducir latencias y manejar ejecuciones de larga duración.\n* **Diseño de Sistemas Modernos:** Patrones para construir arquitecturas que sean eficientes tanto en costo como en operación.\n\nNo importa si estás migrando microservicios o construyendo aplicaciones nativas en la nube desde cero; saldrás de esta sesión con una visión clara de cómo llevar tus arquitecturas serverless al siguiente nivel. 🚀\n\n¡Acompáñanos para descubrir cómo construir el backend del futuro hoy mismo!\n\n***\n\n🍻 **Networking:** Disfruta de bebidas, comida y una gran charla con la comunidad.\n👥 **Conecta:** Conoce a otros profesionales y entusiastas de la nube y AWS.\n\n📅 **Fecha:** Jueves 29 de enero\n🕐 **Hora:** 6:30 PM - 8:30 PM\n📍 **Lugar:** Workósfera Coworking",
+      "url": "https://www.meetup.com/awsugmixtli/events/312755138/",
+      "location": " workósfera coworking",
+      "organizer": "",
+      "dtstart": "2026-01-29T18:30:00-06:00",
+      "dtend": "2026-01-29T20:30:00-06:00",
+      "tags": [
+        "backend",
+        "cloud",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/ical",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "modern serverless architectures y lambda managed instances_2026-01-30T00:00:00+00:00"
     }
   ]
 }
