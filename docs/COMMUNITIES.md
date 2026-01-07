@@ -35,7 +35,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🟢 [**Global AI CDMX**](https://www.meetup.com/globalaicdmx) | Capítulo local de la Global AI Community. Enfoque en Microsoft AI y tecnologías Azure. | Ciudad de México |
 | 🔴 [**GNU / SysAdmin Linux en Ciudad de México**](https://www.meetup.com/grupo-de-meetup-de-linux-en-ciudad-de-mexico) | Comunidad de Sysadmins que se dedican a dar soporte con Software Libre. | Online |
 | 🔴 [**Gophers MX**](https://www.meetup.com/gophersmx) | Comunidad de desarrolladores del lenguaje Go en México. | Ciudad de México, Online |
-| 🔴 [**Guadalajara Apache Kafka**](https://www.meetup.com/guadalajara-kafka) | Guadalajara Apache Kafka Meetup. | Online |
+| 🟢 [**Guadalajara Apache Kafka**](https://www.meetup.com/guadalajara-kafka) | Guadalajara Apache Kafka Meetup. | Online |
 | 🟢 [**HackGDL**](https://www.eventbrite.com.mx/o/hackgdl-72541932683) | Comunidad de tecnología e innovación en Guadalajara. | Jalisco |
 | 🔴 [**HackrobotsMX**](https://www.meetup.com/hackrobotsmx) | HackrobotsMX es la primera y única comunidad en América sin fines de lucro dedicada a la formación y capacitación en robótica. | Ciudad de México, Online |
 | 🟢 [**HTML5 CDMX**](https://www.meetup.com/html5-ciudad-de-mexico) | Desarrollo web, estándares W3C y tecnologías de frontend. | Jalisco, Online |
@@ -44,7 +44,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🔴 [**Meetup de Network Orquestrators, Creating Unicorns**](https://www.meetup.com/meetup-de-network-orquestrators-creating-unicorns) | En este grupo estamos intentando construir empresas Unicornio. Queremos contactar con startuperos interesados en intercambiar ideas y contactos. | Online |
 | 🔴 [**Meetup México**](https://www.meetup.com/meetup-mexico) | Comunidad general de usuarios y organizadores de Meetup en México. | Ciudad de México, Jalisco, Tlaxcala |
 | 🟢 [**MexAI - Comunidad de IA**](https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical) | Comunidad de IA en Guadalajara. Eventos sobre Inteligencia Artificial. | Jalisco |
-| 🔴 [**Mexico City Apache Kafka**](https://www.meetup.com/mexico-kafka) | Mexico City Apache Kafka Meetup. | Online |
+| 🟢 [**Mexico City Apache Kafka**](https://www.meetup.com/mexico-kafka) | Mexico City Apache Kafka Meetup. | Ciudad de México |
 | 🟢 [**Mexico Tech Week**](https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu) | Calendario oficial de Mexico Tech Week 2025. | Ciudad de México, Estado de México, Jalisco, Online |
 | 🟢 [**Microsoft Fabric CDMX**](https://www.meetup.com/mexico-city-microsoft-fabric-group) | Grupo de usuarios de Microsoft Fabric y análisis de datos empresarial. | Ciudad de México |
 | 🔴 [**México City Docker friends**](https://www.meetup.com/mexico-city-docker-friends) | Learn, Collaborate & Dockerize! Meet other developers and ops engineers in your community that are using and learning about Docker. | Ciudad de México, Occitania, Online |

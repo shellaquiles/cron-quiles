@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-07T18:24:24.192713+00:00",
-  "total_events": 648,
+  "generated_at": "2026-01-07T19:20:45.478961+00:00",
+  "total_events": 675,
   "city": "México",
   "communities": [
     {
@@ -1714,6 +1714,29 @@
       "hash_key": "meetarmy enero_2021-01-12T00:00:00+00:00"
     },
     {
+      "title": "guadalajara-kafka|Es un ETL, es una cola de mensaje, es un ESB? No , es Kafka|Online",
+      "description": "Find out about other upcoming online meetups and recordings from past Kafka Meetups all over the world: cnfl.io/meetup-hub\n\n-----\n\n*Time below in Mexico City time - to find out when the event is in your timezone follow this link: http://www.worldtimebuddy.com/event?lid=3530597&h=3530597&sts=26863560&sln=12-13&a=show\n\nAgenda:\n12:00pm-12:05pm: Online Networking\n12:05pm-12:50pm: Ramon Marquez, Confluent (Q&A included)\n12:45pm: Log in or Join our Slack Space (cnfl.io/slack) and go to #events to ask any follow up questions!\n\n-----\nSpeaker: Ramon Marquez\n\nTalk:\n¿Es un ETL, es una cola de mensaje, es un ESB? No , es Kafka\n\nAbstract: Veremos lo que realmente es Apache Kafka, la solución de facto del streaming de datos, utilizada por empresas de la talla de Spotify, Netflix, Linkedin entre otras.\n\nBios:\nJuan Ramón Marquez es Ingeniero en Informática egresado de la Universidad Católica del Uruguay, posee un Master en Big Data & Analytics de la Universidad de Alcalá de Henares (España) y un Master in Business and Administration de la Universidad Politécnica de Madrid (España), actualmente trabaja como Ingeniero de Soluciones en Iberia (Portugal & España) para Confluent , los creadores de Apache Kafka.\n\n---\n\nOnline Meetup Etiquette:\n•Please unmute yourself when you have a question.\n•Please hold your questions until the end of the presentation or use the zoomchat!\n•Please arrive on time as zoom meetings can become locked for many reasons (though if you get locked out a recording will be available, but you may have to wait a little while for it!\n\n----\n\nIf you would like to speak or host our next event please let us know! community@confluent.io",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/275757356/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2021-01-28T12:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "data",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "es un etl es una cola de mensaje es un esb no es kafka_2021-01-28T18:00:00+00:00"
+    },
+    {
       "title": "Richard Kasperowski|Office Hours with Richard Kasperowski - Spring 2021|Online",
       "description": "Office Hours with Richard",
       "url": "https://www.eventbrite.com/e/office-hours-with-richard-kasperowski-spring-2021-tickets-139790375777",
@@ -1752,6 +1775,30 @@
       "hash_key": "meetarmy febrero_2021-02-09T00:00:00+00:00"
     },
     {
+      "title": "guadalajara-kafka|(en español) Building a self-service Kafka platform as a service with Gitops|Online",
+      "description": "Find out about other upcoming online meetups and recordings from past Kafka Meetups all over the world: cnfl.io/meetup-hub\n\n-----\n\n*Time below in Mexico City time - to find out when the event is in your timezone follow this link: http://www.worldtimebuddy.com/event?lid=3530597%2C100%2C212&h=3530597&sts=26873640&sln=12-13&a=show\n\nAgenda:\n12:00pm-12:05pm: Online Networking\n12:05pm-12:50pm: Pere Urbon-Bayes, Confluent (Q&A included)\n12:50pm: Log in or Join our Slack Space (cnfl.io/slack) and go to #events to ask any follow up questions!\n\n-----\nSpeaker: Pere Urbon-Bayes\n\nTitle: Building a self-service Kafka platform as a service with Gitops\n\nAbstract: Have you ever wondered, what motivates people? According to many authors, autonomy is a key factor to build a sustainable and motivated team. This is as well a core principle of the devops.\n\nIf you are in the quest of building a self-service kafka based platform where your users can manage topics, acls and rbac by themself, but still keep change control and a verification process? Gitops and Kafka Topology Builder is here to help you.\n\nIn this talk we're going to present and guide you towards the steps necessary to build up a self-service Apache Kafka using Gitops and Kafka Topology Builder, including a few war stories from people using it in production.\n\nBy the end of this talk, you will take home an automatic Jenkins pipeline, that will make your users autonomous and give you more time to focus on less bureaucratic work.\n\nBio: Pere is a Software Engineer for Confluent out of Berlin, Germany. He has been working with data and architecting systems for more than 15 years as a freelance engineer and consultant. In that role he was focused on data processing and search, helping companies build reliable and scalable data architectures. His work sits at the crossroad of infrastructure, data engineers and scientists, ontologist and product. Prior to that he was part of Elastic, the company behind Elasticsearch, where he was part of the Logstash team, helping companies build reliable ingestion pipelines into Elasticsearch. When not working, Pere loves to spend time with his lovely wife and kids.\n\n---\n\nOnline Meetup Etiquette:\n•Please unmute yourself when you have a question.\n•Please hold your questions until the end of the presentation or use the zoomchat!\n•Please arrive on time as zoom meetings can become locked for many reasons (though if you get locked out a recording will be available, but you may have to wait a little while for it!)\n\n----\n\nIf you would like to speak or host our next event please let us know! community@confluent.io",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/276039167/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2021-02-09T12:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "data",
+        "devops",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "en espaol building a self service kafka platform as a service with gitops_2021-02-09T18:00:00+00:00"
+    },
+    {
       "title": "sysarmy-mexico|MeetArmy Marzo|Online",
       "description": "Este mes, aprovechando el Dia internacional de la mujer tendremos un panel con varias chicas de la comunidad.\n\nEl streaming es por Youtube 19:30 hora Ciudad de México (GTM-6): https://youtu.be/tiIUjgW7Smk",
       "url": "https://www.meetup.com/sysarmy-mexico/events/276714308/",
@@ -1769,6 +1816,29 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "meetarmy marzo_2021-03-09T00:00:00+00:00"
+    },
+    {
+      "title": "guadalajara-kafka|Introducción a Stream Processing utilizando Kafka Streams|Online",
+      "description": "Find out about other upcoming online meetups and recordings from past Kafka Meetups all over the world: cnfl.io/meetup-hub\n\n-----\n\n*Time below in Mexico City time - to find out when the event is in your timezone follow this link: http://www.worldtimebuddy.com/event?lid=3530597%2C100%2C3128760&h=3530597&sts=26931240&sln=12-13&a=show\n\nAgenda:\n12:00pm-12:05pm: Online Networking\n12:05pm-12:50pm: Matías Cascallares, Confluent (Q&A included)\n12:50pm: Log in or Join our Forum (forum.confluent.io) to ask any follow up questions!\n\n-----\nSpeakers: Matías Cascallares\n\nTalk: Introducción a Stream Processing utilizando Kafka Streams\n\nAbstract: Streams es uno de los keywords de moda! En esta presentación, veremos cómo implementar stream processing con Kafka Streams, que consideraciones tenemos que tener en cuenta, y un pequeño tour por ksqlDB como herramienta.\n\nBios:\nMatias es un ingeniero de sistemas con más de 15 años de experiencia en desarrollo de software y con un fuerte foco en tecnologías open source y escalabilidad. En la actualidad, como miembro del equipo Customer Success Engineering en Confluent, ayuda a organizaciones a extraer valor de la información. En los últimos años, Matias ha estado involucrado en proyectos de distintas áreas como finanzas, transporte, telecomunicaciones y e-commerce entre otros.\n\n---\n\nOnline Meetup Etiquette:\n•Please hold your questions until the end of the presentation or use the zoomchat during!\n•Please arrive on time as zoom meetings can become locked for many reasons (though if you get locked out a recording will be available, but you may have to wait a little while for it!)\n\n----\n\nIf you would like to speak or host our next event please let us know! community@confluent.io",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/276717471/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2021-03-16T12:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "introduccin a stream processing utilizando kafka streams_2021-03-16T18:00:00+00:00"
     },
     {
       "title": "Richard Kasperowski|Postponed - Grow Together: How to Learn Your Way to a Great Team|Online",
@@ -1836,6 +1906,56 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "devops y javascript con jenkins_2021-04-09T00:00:00+00:00"
+    },
+    {
+      "title": "guadalajara-kafka|CDC patterns in Apache Kafka® (En español)|Online",
+      "description": "Find out about other upcoming online meetups and recordings from past Kafka Meetups all over the world: cnfl.io/meetup-hub\n\n-----\n\n*Time below in Mexico City time - to find out when the event is in your timezone follow this link: https://www.worldtimebuddy.com/event?lid=100&h=100&sts=26974080&sln=0-1&a=preview\n\nAgenda (Mexico City time):\n7:00pm-7:05pm: Online Networking\n7:05pm-7:50pm: Mario Molina (En español)\n7:50pm: Log in or Join our Forum (forum.confluent.io) to ask any follow up questions!\n\n-----\nSpeakers: Mario Molina\n\nTalk: CDC patterns in Apache Kafka\n\nAbstract:\nCDC systems are usually used to identify changes in data sources, capture and replicate those changes to other systems. Companies are using CDC to sync data across systems, cloud migration or even applying stream processing, among others.\n\nIn this presentation we’ll see CDC patterns, how to use it in Apache Kafka, and do a live demo!\n\nBio:\nMario Molina is a software engineer working on projects for building data products for the fintech.\nHe has been working in the IT sector mainly focused in designing and implementing architectures for data management since 2005.\nHis main interests are open source software, distributed systems, databases and all the latest research in these fronts with a passion for ‘all things data’.\n\n---\n\nOnline Meetup Etiquette:\n•Please hold your questions until the end of the presentation or use the zoomchat during!\n•Please arrive on time as zoom meetings can become locked for many reasons (though if you get locked out a recording will be available, but you may have to wait a little while for it!)\n\n----\n\nIf you would like to speak or host our next event please let us know! community@confluent.io",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/277309501/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2021-04-14T19:00:00-05:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "backend",
+        "cloud",
+        "data",
+        "frontend",
+        "security"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "cdc patterns in apache kafka en espaol_2021-04-15T00:00:00+00:00"
+    },
+    {
+      "title": "guadalajara-kafka|KIP (Kafka Improvement Proposal) 500 (En español)|Online",
+      "description": "Find out about other upcoming online meetups and recordings from past Kafka Meetups all over the world: cnfl.io/meetup-hub\n\n-----\n\n*Time below in Mexico City time - to find out when the event is in your timezone follow this link: http://www.worldtimebuddy.com/event?lid=3530597%2C100&h=100&sts=27044640&sln=16-17&a=show\n\nAgenda:\n11:00am-11:05am: Online Networking\n11:05am-11:50am: Raul Estrada (En español)\n11:50am: Log in or Join our Forum (forum.confluent.io) to ask any follow up questions!\n\n-----\nSpeakers: Raul Estrada\n\nTalk: KIP (Kafka Improvement Proposal) 500\n\nDurante el Kafka Summit del 12 de Mayo de 2021, se presentó la implementación del protocolo Raft en Kafka (llamado K-Raft) para reemplazar el uso de Zookeeper.\n\nEl KIP (Kafka Improvement Proposal) 500 establece la visión de Kafka sin Zookeeper. Sin embargo, incluso sin Zookeeper, la necesidad de consenso nunca desaparece. En esta charla, se discute una de las iniciativas centrales de la comunidad de Kafka, un protocolo nativo similar a Raft que se use para garantizar que diferentes servidores se pongan de acuerdo sobre la sincronización de los metadatos y cuáles réplicas están disponibles para escritura (es decir, ser líderes de partición).\n\nEspecíficamente, se cubren los siguientes temas:\nPor qué la comunidad abandonó el consenso externo y qué beneficios brinda el consenso interno.\nEn qué se diferencia el protocolo K-Raft del Raft estándar y las consideraciones de diseño en su implementación.\nCómo funciona el nuevo Quorum Controller y cómo se integra con el protocolo Raft\nCuáles son los siguientes pasos para el protocolo de replicación de Kafka para metadatos.\n\nBio:\nRaul is a programmer specialized in massive data processing pipelines. Also, he has experience with Scala, Kotlin, Java, Elixir and Go programming languages.\n\nSince 2015 Raul is co-organizer of the Java Mexico Meetup. Also he is co-organizer of the Kafka Mexico Meetup, GoLang Mexico Meetup and author of several books related to data engineering and Kafka.\n\nHe loves to talk about Kafka, Kafka streams, KSQL and all the technologies related to massive data processing like Spark and Flink.\n\nRaul is also a Confluent Community Catalyst (Class of 2020 - 2021).\n\n---\n\nOnline Meetup Etiquette:\n•Please hold your questions until the end of the presentation or use the zoomchat during!\n•Please arrive on time as zoom meetings can become locked for many reasons (though if you get locked out a recording will be available, but you may have to wait a little while for it!)\n\n----\n\nIf you would like to speak or host our next event please let us know! community@confluent.io",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/278602721/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2021-06-17T11:00:00-05:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "data",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "kip kafka improvement proposal 500 en espaol_2021-06-17T16:00:00+00:00"
     },
     {
       "title": "digitaloceanmex|deploy '21: Power Your Business|Online",
@@ -2066,6 +2186,30 @@
       "hash_key": "jsconf mexico virtual_2021-11-29T16:00:00+00:00"
     },
     {
+      "title": "guadalajara-kafka|Understanding Apache Kafka® P99 latency at Scale|Online",
+      "description": "Hello Streamers!\n\nPlease find the details to join this fun and informative meetup below. This meetup will be presented in Spanish.\n\nFind information about upcoming meetups and tons of content from past Kafka Meetups all over the world:\ncnfl.io/meetup-hub\n-----\nAgenda (time below is CST):\n11:00am-11:05am: Online networking (optional)\n\n11:05am-11:50am: Understanding Apache Kafka® P99 latency at Scale, Pere Urbon Bayes, Solutions Architect, Confluent\n\n11:50am-12:00pm: Q&A\n\nJoining our slack space is not instant, so ensure that you are in, in time for the event, follow the steps within this link before the day of the event if you can! cnfl.io/slack\n\n-----\nSpeaker:\nPere Urbon Bayes, Solutions Architect, Confluent\n\nTitle:\nUnderstanding Apache Kafka® P99 latency at Scale\n\nAbstract:\nApache Kafka es un proyecto muy popular utilizado por muchas organizaciones para conectar sistemas, construir microservicios, para data mesh, etc. Sin embargo, como sistema distribuido, comprender su rendimiento es un reto, demasiadas partes móviles.\n\nEn esta charla, revisaremos los componentes claves (productores, consumidores, replicación, red, etc.), compartiremos una estrategia para medir e interpretar los resultados de rendimiento de consumidores y productores junto a una guía general para ayudar a interpretar los resultados.\n\nSi asistes te llevarás a casa un método probado para medir, evaluar y optimizar el rendimiento de una infraestructura basada en Apache Kafka. Una requisito clave para projectos de baja latencia y alto rendimiento, pero especialmente para las implementaciones de mayor escala.\n\nBio:\nPere es Arquitecto de Soluciones en Confluent, desde Berlin en Alemania. Habiendo trabajado en sistema y arquitectura de datos por mor de 15 años como freelance y consultor. En estos roles ha trabajado de forma principal en sistemas de procesamiento de datos y búsqueda, ayudando empresas a construir arquitecturas de datos resilientes y escalables.\n\nEl trabajo normalmente es a medio camino entre la infraestructura, los ingenieros y los científicos de datos, ontologías y producto.\n\nEn el pasado, siendo parte de Elastic, la empresa detrás de Elasticsearch, ayudando empresas en sistemas de operaciones. Cuando no está en el trabajo a Pere le encanta pasar tiempo con la familia, niños y disfrutar de un buen partido de Balonmano.\n\n-----\nOnline Meetup Etiquette:\n•Please unmute yourself when you have a question.\n•Please hold your questions until the end of the presentation or use the zoomchat!\n•Please arrive on time as zoom meetings can become locked for many reasons (though if you get locked out a recording will be available, but you may have to wait a little while for it!)\n\n----\nIf you would like to speak or host our next event please let us know! community@confluent.io",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/282391066/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2021-12-14T11:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "data",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "understanding apache kafka p99 latency at scale_2021-12-14T16:00:00+00:00"
+    },
+    {
       "title": "mexico-city-docker-friends|Enforcing compliance clusters with Gatekeeper & Learning k8s pt.0|Online",
       "description": "Si estás interesado en aprender como mejorar el compliance de tu cluster k8s o conocer alguna herramienta de seguridad y que sea open source Gatekeeper puede interesarte.\n\nGatekeeper es un gestor de políticas de código abierto y de propósito general que permite aplicar políticas unificadas y conscientes de su entorno y puede evaluar el cumplimiento de las políticas de los recursos de K8.\nAndrés nos estará explicando cómo usar Gatekeeper y aplicarlo en k8s.\n\nComo segundo approach de esta reunión, queremos enseñarles a los que nunca han usado k8s, como instalar un entorno de prueba y echar andar su primer aplicación en su maquina local.\n\nEstaremos como siempre resolviendo dudas que podamos responder :)\nlos esperamos, es el último meetup del año :D\n\nUn abrazo, los vemos pronto.\n\nP.D : Publicaremos el link del evento, poco antes de comenzar.",
       "url": "https://www.meetup.com/mexico-city-docker-friends/events/282528894/",
@@ -2107,6 +2251,30 @@
       "hash_key": "agile dojojanuary 6 2022_2022-01-06T22:00:00+00:00"
     },
     {
+      "title": "guadalajara-kafka|Apache Kafka® Fundamentals (with Cloud component)|Online",
+      "description": "Hello Streamers!\n\nJoin us for an Apache Kafka® meetup on Monday, February 14th, at 12:00 pm CDMX. This meetup will be presented in English. It will be free training with a walkthrough exercise on the Fundamentals of Apache Kafka®!\n\nThe session will be run by Doug Hogan, Senior Technical Instructor at Confluent, and will include a presentation on important technical fundamentals. The presentation will include some quick interactivity and be followed by an interactive discussion of a concrete scenario or two. The session will wrap up with an interactive exercise wherein you’ll be able to sign up for Confluent Cloud and experience basic Kafka in action.\nAs with all Confluent Meetups, it is free, ungated, purely technical, and purely educational.\n\n****VERY IMPORTANT: To join this meetup, please go to the Zoom App and enter the following details:\n\nMeeting ID: 954 3984 7248\nPassword 915121\n\nPlease visit https://cnfl.io/developer-live\nprior to the meetup so you’re able to follow along as Doug presents the hands-on lab with guidance on setting up Confluent Cloud and simple producing and consuming.\n\n-----\nAgenda (time below is CDMX):\n12:00 PM - 1:30 PM:\nPresentation on Apache Kafka Technical Fundamentals\n(including two quick interactive knowledge checks)\n\n-Interactive discussion of one or more concrete scenario problems\n\n-Hands-on lab with guidance on setting up Confluent Cloud and simple producing and consuming\n\n-Q&A, additional discussion, time permitting\n\n-----\nSpeaker:\nDoug Hogan, Sr. Technical Trainer, Confluent\n\nTitle:\nApache Kafka Fundamentals (with Cloud component)\n\nAbstract:\nApache Kafka was built with the vision to become the central nervous system that makes real-time data available to all the applications that need to use it, with numerous use cases like stock trading and fraud detection, to transportation, data integration, and real-time analytics. Whether you’re just getting started or have already built stream processing applications, you will find actionable insights in this series that will enable you to further derive business value from your data systems.\n\nBio:\nDoug Hogan is a senior technical trainer at Confluent. He works as the course champion for the Developer Skills course and has been working on enhancing interactivity and engagement in Confluent Training. Before coming to Confluent, he spent about a decade teaching university computer science and math classes.\n\n-----\nOnline Meetup Etiquette:\n•Please unmute yourself when you have a question.\n•Please hold your questions until the end of the presentation or use the zoomchat!\n•Please arrive on time as zoom meetings can become locked for many reasons (though if you get locked out a recording will be available, but you may have to wait a little while for it!)\n\n----\nDon't forget to join our Forum and Community Slack Team! https://www.confluent.io/community/ask-the-community/\n\nIf you would like to speak or host our next event please let us know! community@confluent.io",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/283487905/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2022-02-14T12:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "cloud",
+        "data",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "apache kafka fundamentals with cloud component_2022-02-14T18:00:00+00:00"
+    },
+    {
       "title": "elixir-mexico-city|Meetup Elixir: Vol. II 2022|Online",
       "description": "¡Hola, Elixir friends!\n\nYa estamos listos para nuestro segundo meetup Elixir de este 2022. Anótenlo en su agenda, alístense y prepárense para este miércoles 2 de marzo a las 6 pm hora MX.\n\nLa charla será transmitida a través de nuestro canal de Twitch y también a través de nuestro canal en YouTube, para que estén atentos y se suscriban para recibir notificaciones:\n\nTwitch - https://www.twitch.tv/elixirdevelopersmexico\nYouTube - https://www.youtube.com/channel/UCabvfkjqAx73geQNcEZAQGA\n\nSi tienen alguna duda, con gusto envíen mensaje a Daniela González, organizadora, y con gusto les apoyamos.\n\n¡Muchas gracias!",
       "url": "https://www.meetup.com/elixir-mexico-city/events/284028890/",
@@ -2146,6 +2314,30 @@
       "city_code": "",
       "address": "Online, Croix d'Argent, Montpellier, Hérault, Occitania, Francia metropolitana, Francia",
       "hash_key": "docker birthday 9_2022-03-26T20:00:00+00:00"
+    },
+    {
+      "title": "guadalajara-kafka|Confluent Developer Live Free Training Workshop: Kafka Connect 101|Online",
+      "description": "Hello Streamers!\n\nJoin us for a special Confluent Developer Live training workshop on Monday, April 4th at 12:00pm GMT-5. Please find the details to join this free hands-on training with a walkthrough exercise on Kafka Connect 101. **This training will be presented in Spanish.**\n\nThe session will be run by Antonio Loma Daza, Senior Technical Instructor at Confluent, and will include a presentation on important technical fundamentals as well as live hands-on training.\n\nAs with all Confluent Meetups, it is free, purely technical, and purely educational.\n\n**\\*\\*\\*\\*\\*\\*TWO IMPORTANT ACTIONS TO ATTEND THIS EVENT:\\*\\*\\*\\*\\*\\*\\***\n**STEP 1: BETWEEN NOW AND THE EVENT:**\nPlease sign up for Confluent Cloud using this link (its free and no Credit Card required) [https://cnfl.io/live-cloud](https://cnfl.io/live-cloud) feel free to use the Promo code CC60COMM as well - this will ensure that you can follow along as Antonio presents the hands-on lab with guidance on setting up Confluent Cloud and simple producing and consuming.\n\n**STEP 2: WHEN THE EVENT BEGINS:**\nJoin this meetup by going to the Zoom app and entering the following details:\nMeeting ID: 98301460429\nPassword: 544408\n\n**\\*\\*\\*\\*\\*\\*EVENT DETAILS\\*\\*\\*\\*\\*\\*\\***\nAgenda (time below is in GMT-5):\n12:00PM - about 12:50 PM\n-Presentation on Kafka Connect 101\n\nabout 12:50 PM - 1:30 PM\n-Interactive discussion of one or more concrete scenario problems\n-Demo & hands-on lab\n-Q&A, additional discussion, time permitting\n\\-\\-\\-\\-\\-\nSpeaker:\nAntonio Loma Daza, Technical Instructor, Confluent\n\nTitle:\nKafka Connect 101\n\nAbstract:\nKafka Connect is a component of Apache Kafka for performing streaming integration between Kafka and other systems like databases, cloud services, search indexes, file systems, and key-value stores.Kafka Connect makes it easy to stream data from numerous sources into Kafka, and stream data from Kafka to numerous targets. There are literally hundreds of different connectors available for Kafka Connect.\n\nBio:\nAntonio Loma Daza is a senior technical trainer at Confluent, working for EMEA from France. He works as course champion for the Confluent Advance Administration course. A jack of all trades, Antonio has previously worked in industrial automatization, Linux administration, and enterprise-hardware support training.\n\\-\\-\\-\\-\\-\nOnline Meetup Etiquette:\n•Please use the “Raise Hand” button and Zoom chat feature to ask questions during the presentation!\n•Please raise your hand when you have a question and you will be unmuted.\n•Please arrive on time as Zoom meetings can become locked for many reasons. We will begin promptly.\n\\-\\-\\-\\-\nDon't forget to join our Forum and Community Slack to ask any follow up questions [https://cnfl.io/meetup-questions](https://cnfl.io/meetup-questions)\n\nIf you would like to speak or host our next event please let us know! community@[confluent.io](http://confluent.io/)",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/284952634/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2022-04-04T12:00:00-05:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "cloud",
+        "data",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "confluent developer live free training workshop kafka connect 101_2022-04-04T16:00:00+00:00"
     },
     {
       "title": "elixir-mexico-city|Meetup Elixir: Vol. III 2022|Online",
@@ -7337,28 +7529,6 @@
       "hash_key": "startup cocktail lab by mauna_2024-10-25T00:00:00+00:00"
     },
     {
-      "title": "gittogether-latam|Construyendo puentes en IA: Xavi Portilla y la integración GitHub-Genkit|Online",
-      "description": "Este #OpenSourceViernes, **[Xavier Portilla Edo](https://github.com/xavidop)**, GitHub Star y creador de [genkitx-github](genkitx-github), nos presentará su plugin comunitario que integra los modelos de GitHub con [Firebase Genkit](https://github.com/firebase/genkit). Xavier, con experiencia en Cloud, Kubernetes, DevOps e IA Conversacional, explicará cómo genkitx-github facilita el desarrollo de aplicaciones innovadoras. Analizaremos el impacto de esta herramienta en el desarrollo de software moderno y exploraremos sus aplicaciones prácticas. Únete a nosotros para una sesión informativa y colaborativa, donde podrás aprender de la experiencia de Xavier.",
-      "url": "https://www.meetup.com/gittogether-latam/events/303902192/",
-      "location": "Online",
-      "organizer": "gittogether-latam",
-      "dtstart": "2024-10-25T09:00:00-06:00",
-      "dtend": null,
-      "tags": [
-        "cloud",
-        "devops"
-      ],
-      "source": "https://www.meetup.com/gittogether-latam/events/?type=past",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "Online",
-      "hash_key": "construyendo puentes en ia xavi portilla y la integracin github genkit_2024-10-25T14:00:00+00:00"
-    },
-    {
       "title": "Mexico Tech Week|AI Starter Pack - Breakfast + Crash Course  -  Fintual & Google|México|Ciudad de México",
       "description": "Obtén información actualizada en: https://luma.com/73a956ii\n\nDirección:\nGoogle Mexico City\nCiudad de México, Ciudad de México\nMexico\n\nOrganizado por Mexico Tech Week y Salvador Vazquez",
       "url": "https://luma.com/73a956ii",
@@ -7397,6 +7567,28 @@
       "city_code": "cdmx",
       "address": "Bosque de Chapultepec, Miguel Hidalgo, Ciudad de México, CDMX, México",
       "hash_key": "leadgen 2 0 deep dive con meta neoperformance_2024-10-25T14:00:00+00:00"
+    },
+    {
+      "title": "gittogether-latam|Construyendo puentes en IA: Xavi Portilla y la integración GitHub-Genkit|Online",
+      "description": "Este #OpenSourceViernes, **[Xavier Portilla Edo](https://github.com/xavidop)**, GitHub Star y creador de [genkitx-github](genkitx-github), nos presentará su plugin comunitario que integra los modelos de GitHub con [Firebase Genkit](https://github.com/firebase/genkit). Xavier, con experiencia en Cloud, Kubernetes, DevOps e IA Conversacional, explicará cómo genkitx-github facilita el desarrollo de aplicaciones innovadoras. Analizaremos el impacto de esta herramienta en el desarrollo de software moderno y exploraremos sus aplicaciones prácticas. Únete a nosotros para una sesión informativa y colaborativa, donde podrás aprender de la experiencia de Xavier.",
+      "url": "https://www.meetup.com/gittogether-latam/events/303902192/",
+      "location": "Online",
+      "organizer": "gittogether-latam",
+      "dtstart": "2024-10-25T09:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "cloud",
+        "devops"
+      ],
+      "source": "https://www.meetup.com/gittogether-latam/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "construyendo puentes en ia xavi portilla y la integracin github genkit_2024-10-25T14:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Coffee Talks: Art 🎨 & Tech 👩🏽‍💻|México|Ciudad de México",
@@ -7694,6 +7886,25 @@
       "hash_key": "bridging continents leveraging india and mexico in global tech strategies_2024-10-26T00:00:00+00:00"
     },
     {
+      "title": "Mexico Tech Week|La chela de los founders By Traund|México|Ciudad de México",
+      "description": "Obtén información actualizada en: https://luma.com/cheladelosfoundersMXTW24\n\nDirección:\nConsulta la página del evento para obtener más detalles.\n\nOrganizado por Mexico Tech Week y Traund",
+      "url": "https://luma.com/cheladelosfoundersMXTW24",
+      "location": "https://luma.com/event/evt-hueXvEdtelH59dT",
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-26T01:00:00+00:00",
+      "dtend": "2024-10-26T05:30:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "la chela de los founders by traund_2024-10-26T00:00:00+00:00"
+    },
+    {
       "title": "pythonista|Potenciando los chatbots mediante Vertex AI Agent Builder|Online",
       "description": "En este webinar, exploraremos cómo los Large Language Models (LLMs) están revolucionando la forma en que interactuamos con la tecnología. Aprenderá cómo se pueden utilizar para crear agentes de inteligencia artificial capaces de mantener conversaciones enriquecidas y contextualmente relevantes. Descubrirá cómo superar las limitaciones de los chatbots tradicionales y brindar una experiencia de usuario verdaderamente personalizada y satisfactoria. Además, **exploraremos la plataforma Vertex AI Agent Builder de Google, una herramienta poderosa para construir y desplegar agentes de IA conversacionales de manera eficiente, así como su API en Python.**",
       "url": "https://www.meetup.com/pythonista/events/303750954/",
@@ -7717,25 +7928,6 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "potenciando los chatbots mediante vertex ai agent builder_2024-10-26T00:00:00+00:00"
-    },
-    {
-      "title": "Mexico Tech Week|La chela de los founders By Traund|México|Ciudad de México",
-      "description": "Obtén información actualizada en: https://luma.com/cheladelosfoundersMXTW24\n\nDirección:\nConsulta la página del evento para obtener más detalles.\n\nOrganizado por Mexico Tech Week y Traund",
-      "url": "https://luma.com/cheladelosfoundersMXTW24",
-      "location": "https://luma.com/event/evt-hueXvEdtelH59dT",
-      "organizer": "Mexico Tech Week",
-      "dtstart": "2024-10-26T01:00:00+00:00",
-      "dtend": "2024-10-26T05:30:00+00:00",
-      "tags": [],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "Ciudad de México, CDMX, México",
-      "hash_key": "la chela de los founders by traund_2024-10-26T00:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Despecho night!|México|Estado de México",
@@ -7835,30 +8027,6 @@
       "hash_key": "hike picnic new ventures x parque natural la caada_2024-10-26T14:00:00+00:00"
     },
     {
-      "title": "gdg-ciudad-de-mexico|Super Happy Devhouse CDMX|México|Ciudad de México",
-      "description": "**No olvides registrarte acá --> https://gdg.community.dev/events/details/google-gdg-cdmx-presents-super-happy-devhouse-mexico-city/**\n\n🗓 Fecha: Sábado, 26 de octubre de 2024\n🕙 Hora: 10:00 AM – 6:00 PM\n📍 Lugar: Fablab Impact, 88 República de Perú, Ciudad de México, 06010\n\nSuper Happy Dev House (SHDH) es un evento informal y colaborativo para entusiastas de la tecnología, desarrolladores, diseñadores y emprendedores que se reúnen para compartir conocimientos, trabajar en proyectos personales y aprender de otros.\n\nSe caracteriza por ser un espacio relajado y sin agenda estricta, donde los participantes pueden explorar nuevas tecnologías, colaborar en ideas creativas, y conectarse con una comunidad apasionada por la innovación. El espíritu de SHDH es abierto, inclusivo y enfocado en el aprendizaje autodirigido y la experimentación.\n\n🗓🗓Agenda:\n**10:00 AM Bienvenida y breve historia del SHDH**\nDaremos la bienvenida oficial al hackathon y la dinámica social\n**10:30 AM Hacking time**\nTrabajaremos hasta la tarde para construir, aprender o diseñar una solución tecnológica utilizando AI\n**2:00 PM Lunch break**\nMomento para comer algo antes del último code sprint\n**5:00 PM Lightning talks y cierre**\nCharlas relámpago de 5 minutos cronometrados para hablar de lo que construiste o lo que estás creando en tu día a día, así como el cierre oficial del evento\n\n**No olvides registrarte acá --> https://gdg.community.dev/events/details/google-gdg-cdmx-presents-super-happy-devhouse-mexico-city/**",
-      "url": "https://www.meetup.com/gdg-ciudad-de-mexico/events/302060307/",
-      "location": "Fablab Impact, Republica de Peru 88, Colonia Centro, Mexico City, MX",
-      "organizer": "gdg-ciudad-de-mexico",
-      "dtstart": "2024-10-26T10:00:00-06:00",
-      "dtend": null,
-      "tags": [
-        "ai",
-        "frontend",
-        "python",
-        "security"
-      ],
-      "source": "https://www.meetup.com/gdg-ciudad-de-mexico/events/?type=past",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "Fablab Impact, Republica de Peru 88, Colonia Centro, Mexico City, MX",
-      "hash_key": "super happy devhouse cdmx_2024-10-26T16:00:00+00:00"
-    },
-    {
       "title": "Mexico Tech Week|FIGHT CLUB CDMX presents... \"Byte & Bites - Tech Week Forest Adventure\"|México|Ciudad de México",
       "description": "Obtén información actualizada en: https://luma.com/tech-week-mexico-fight-club-cdmx-2024\n\nDirección:\nConsulta la página del evento para obtener más detalles.\n\nOrganizado por Mexico Tech Week, Yana Immis y FIGHT CLUB Networking Events",
       "url": "https://luma.com/tech-week-mexico-fight-club-cdmx-2024",
@@ -7897,6 +8065,30 @@
       "city_code": "cdmx",
       "address": "Ciudad de México, CDMX, México",
       "hash_key": "casa de satoshi open house_2024-10-26T16:00:00+00:00"
+    },
+    {
+      "title": "gdg-ciudad-de-mexico|Super Happy Devhouse CDMX|México|Ciudad de México",
+      "description": "**No olvides registrarte acá --> https://gdg.community.dev/events/details/google-gdg-cdmx-presents-super-happy-devhouse-mexico-city/**\n\n🗓 Fecha: Sábado, 26 de octubre de 2024\n🕙 Hora: 10:00 AM – 6:00 PM\n📍 Lugar: Fablab Impact, 88 República de Perú, Ciudad de México, 06010\n\nSuper Happy Dev House (SHDH) es un evento informal y colaborativo para entusiastas de la tecnología, desarrolladores, diseñadores y emprendedores que se reúnen para compartir conocimientos, trabajar en proyectos personales y aprender de otros.\n\nSe caracteriza por ser un espacio relajado y sin agenda estricta, donde los participantes pueden explorar nuevas tecnologías, colaborar en ideas creativas, y conectarse con una comunidad apasionada por la innovación. El espíritu de SHDH es abierto, inclusivo y enfocado en el aprendizaje autodirigido y la experimentación.\n\n🗓🗓Agenda:\n**10:00 AM Bienvenida y breve historia del SHDH**\nDaremos la bienvenida oficial al hackathon y la dinámica social\n**10:30 AM Hacking time**\nTrabajaremos hasta la tarde para construir, aprender o diseñar una solución tecnológica utilizando AI\n**2:00 PM Lunch break**\nMomento para comer algo antes del último code sprint\n**5:00 PM Lightning talks y cierre**\nCharlas relámpago de 5 minutos cronometrados para hablar de lo que construiste o lo que estás creando en tu día a día, así como el cierre oficial del evento\n\n**No olvides registrarte acá --> https://gdg.community.dev/events/details/google-gdg-cdmx-presents-super-happy-devhouse-mexico-city/**",
+      "url": "https://www.meetup.com/gdg-ciudad-de-mexico/events/302060307/",
+      "location": "Fablab Impact, Republica de Peru 88, Colonia Centro, Mexico City, MX",
+      "organizer": "gdg-ciudad-de-mexico",
+      "dtstart": "2024-10-26T10:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "frontend",
+        "python",
+        "security"
+      ],
+      "source": "https://www.meetup.com/gdg-ciudad-de-mexico/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Fablab Impact, Republica de Peru 88, Colonia Centro, Mexico City, MX",
+      "hash_key": "super happy devhouse cdmx_2024-10-26T16:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Wellness + Tech  -  Pilates Class & Brunch|México|Ciudad de México",
@@ -8208,6 +8400,30 @@
       "hash_key": "meetarmy noviembre 2024_2024-11-21T00:00:00+00:00"
     },
     {
+      "title": "mexico-kafka|IN PERSON: Apache Kafka® x Apache Flink® Meetup|México|Ciudad de México",
+      "description": "Retomamos los meetups presenciales en la CDMX con la ayuda de nuestros amigos de Wizeline.\n\nHabrá un espacio de networking con pizzas y bebidas donde podrás platicar con programadores de diferentes niveles e intereses.\n\nLa cita es el Martes 26 de Noviembre a las 19:00 en las oficinas de Wizeline México ([https://maps.app.goo.gl/hayuy7xMDzbjkF8E6](https://maps.app.goo.gl/hayuy7xMDzbjkF8E6)) Paseo de la Reforma 296, Col. Juárez, 06600\n\n**Para el acceso**\nRegístrate con tu nombre y apellido en [meetup.com](http://meetup.com/).\nAl llegar, subir al lobby del piso 12, donde hay que registrarse con una identificación OFICIAL y de allí subir a Wizeline en el piso 32.\n\n***«*5 Arquitecturas de procesamiento de datos con Kafka y Flink*»***\n\n*Por: Raúl Estrada*\n\nApache Flink y Apache Kafka son herramientas poderosas para construir arquitecturas de procesamiento de datos en tiempo real. Esta plática describe 5 arquitecturas de uso común que combinan Apache Flink y Apache Kafka:\n\n1. Pipeline de Procesamiento en Tiempo Real\n2. Arquitectura Lambda con un Data Warehouse\n3. Arquitectura Kappa\n4. Streaming Analytics con un Dashboard en Tiempo Real\n5. Arquitectura de Procesamiento de Eventos Complejos (CEP)\n\n\\*\\*\\*\nDISCLAIMER\nWe are unable to cater for any attendees under the age of 18.\nIf you would like to speak or host our next event please let us know! [community@confluent.io](http://community@confluent.io/)",
+      "url": "https://www.meetup.com/mexico-kafka/events/304525698/",
+      "location": "Wizeline, Av. P.º de la Reforma 296-Piso 32, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico, Mexico City, MX",
+      "organizer": "mexico-kafka",
+      "dtstart": "2024-11-26T19:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "cloud",
+        "data",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/mexico-kafka/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Av. P.º de la Reforma 296-Piso 32, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
+      "hash_key": "in person apache kafka x apache flink meetup_2024-11-27T00:00:00+00:00"
+    },
+    {
       "title": "scala-and-functional-programming-cdmx-and-remote|Xmas Gathering & \"Lazy is Faster\" Tech Talk|México|Ciudad de México",
       "description": "**Any level of experience with programming and Scala :D**\n\n**Etsy is sponsoring Holiday treats!**\n**Itinerary**\n5:30 - Holiday treats, food and drinks! Hang out for a cozy evening with us.\n6:30 - Code talk (only 40mins)\n7:10 - More hanging together with Etsy sponsored treats :D\n8:30 - End of the event\n\n**About the code talk**\nIn this talk we explore what \"effect types\" are, and how they make programming in Scala simpler, easier, and more performant, by using the Scala library \"cats-effect\".\n\n**About the speaker.**\nFrancisco Aramburo is a Staff Engineer at Etsy, where he uses Scala and cats-effect to orchestrate millions of features for machine learning inferences per second. He has also been a Scala developer for the last 11 years.",
       "url": "https://www.meetup.com/scala-and-functional-programming-cdmx-and-remote/events/304528437/",
@@ -8247,6 +8463,27 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "dojo de codificacin global en lnea_2024-12-11T16:00:00+00:00"
+    },
+    {
+      "title": "awsugmixtli|Networking navideño|México|Puebla",
+      "description": "🎄 Ya viene la navidad y queremos compartir con ustedes antes de que se acabe el año! 🎁\n\nEn este evento buscamos compartir y hacer una sesión de networking. Hablemos de la nube en un espacio más informal y también conozcamos más de nuestra comunidad de expertos y aficionados de la nube en Puebla.\n\nLos esperamos, en una tarde con café y anéctodas llenas de AWS ☁️.\n\n📅 Miércoles, 11 de diciembre de 2024\n🕔 18:30 hrs\n📍 R&E Specialty Coffee",
+      "url": "https://www.meetup.com/awsugmixtli/events/304761849/",
+      "location": "R&E Specialty Coffee, Av. Juárez 1312, Col. Centro, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2024-12-11T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "cloud"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Av. Juárez 1312-interior 1, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "networking navideo_2024-12-12T00:00:00+00:00"
     },
     {
       "title": "gdg-ciudad-de-mexico|Flautas + Flutter + ML register here --> https://lu.ma/c5idesxj|México|Ciudad de México",
@@ -8400,6 +8637,28 @@
       "hash_key": "multithreading y async en rust 101 holamundo parte 3_2025-01-18T00:00:00+00:00"
     },
     {
+      "title": "awsugmixtli|AWS Community re:Invent re:Cap 🌠|México|Puebla",
+      "description": "¡Acompáñanos a conocer los anuncios del re:Invent!\n\nCon nuestro **invitado especial** [David Victoria](https://www.linkedin.com/in/vikomex/) (AWS Ambassador y Senior Cloud Architect @ [Caylent](https://caylent.com/)) te traemos lo más destacado del re:Invent.\n\nCon David vamos a conocer los anuncios más importantes de AWS y las tendencias que podemos esperar este 2025 tanto en la computación en la nube como de parte de AWS.\n\n🗓 **Fecha:** Jueves, 23 de enero\n⏰ **Hora:** 6:00 PM\n📍 **Lugar:** [Workósfera Coworking](https://g.co/kgs/bL1RpBM)",
+      "url": "https://www.meetup.com/awsugmixtli/events/305547070/",
+      "location": "Workósfera Coworking - La Paz, Calle Cholula 35, La Paz, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-01-23T18:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "cloud",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "aws community re invent re cap_2025-01-24T00:00:00+00:00"
+    },
+    {
       "title": "elixir-mexico-city|Evento Presencial: Elixir y Kafka|México|Ciudad de México",
       "description": "Retomamos los meetups presenciales en la CDMX con la ayuda de nuestros amigos de Wizeline.\n\nHabrá un espacio de networking con pizzas y bebidas donde podrás platicar con programadores de diferentes niveles e intereses.\n\nLa cita es el Martes 28 de Enero a las 19:00 hrs. en las oficinas de Wizeline México (https://maps.app.goo.gl/hayuy7xMDzbjkF8E6) Paseo de la Reforma 296, Col. Juárez, 06600\n\n**Para el acceso**\n\nRegístrate con tu nombre y apellido en meetup.com.\n\nAl llegar, sube al lobby del piso 12, donde hay que registrarse con una identificación OFICIAL y de allí subir a Wizeline en el piso 32.\n\n**Elixir y Kafka – Construyendo Sistemas Reactivos en Tiempo Real**\n\n*Por: Raúl Estrada*\n\n1. Kafka vs. Elixir: ¿Competencia o Colaboración?\nKafka: ¿Qué es? ¿cuándo es opción y cuando no?\nDiferencias clave y casos de uso de cada tecnología.\n¿Dónde colaboran?\nKafka como backbone de eventos.\nElixir como motor de lógica y concurrencia.\nEjemplos prácticos de escenarios en los que se complementan.\n\n2. Introducción a Broadway y Phoenix\nPhoenix: Framework para construir aplicaciones web rápidas y escalables.\nPhoenix LiveView: Interactividad en tiempo real sin necesidad de JavaScript.\nCómo estas herramientas potencian Elixir en arquitecturas modernas.\nDemo: Construyendo un Pipeline con Kafka y Elixir\n\n3. Caso práctico: Sistema de notificaciones en tiempo real.\nCreación de tópicos en Kafka.\nConsumo de eventos en tiempo real con Broadway.\nRenderizado dinámico en Phoenix LiveView:\nVisualización en tiempo real de los mensajes procesados.\n\n4. Preguntas y Networking\nResolución de dudas.\nEspacio para conectar con otros asistentes.",
       "url": "https://www.meetup.com/elixir-mexico-city/events/305463604/",
@@ -8421,6 +8680,30 @@
       "city_code": "cdmx",
       "address": "Wizeline Torre Reforma Latino, aseo de la Reforma 296 Piso 32, Col Juárez, Alcaldía Cuauhtémoc, 06600 CDMX - Oficina Wizeline Piso 32, Ciudad de México, MX",
       "hash_key": "evento presencial elixir y kafka_2025-01-29T00:00:00+00:00"
+    },
+    {
+      "title": "mexico-kafka|IN-PERSON: Apache Kafka® Meetup Mexico 2025|México|Ciudad de México",
+      "description": "Retomamos los meetups presenciales en la CDMX con la ayuda de nuestros amigos de Wizeline.\n\nHabrá un espacio de networking con pizzas y bebidas donde podrás platicar con programadores de diferentes niveles e intereses.\n\nLa cita es el Martes 28 de Enero a las 19:00 hrs. en las oficinas de Wizeline México ([https://maps.app.goo.gl/hayuy7xMDzbjkF8E6](https://maps.app.goo.gl/hayuy7xMDzbjkF8E6)) Paseo de la Reforma 296, Col. Juárez, 06600\n\n**Para el acceso**\nRegístrate con tu nombre y apellido en [meetup.com](http://meetup.com/).\nAl llegar, sube al lobby del piso 12, donde hay que registrarse con una identificación OFICIAL y de allí subir a Wizeline en el piso 32.\n\n**Kafka y Elixir – Construyendo Sistemas Reactivos en Tiempo Real**\n*Por: Raúl Estrada*\n\n1. Kafka vs. Elixir: ¿Competencia o Colaboración?\nKafka: ¿Qué es? ¿cuándo es opción y cuándo no?\nDiferencias clave y casos de uso de cada tecnología.\n¿Dónde colaboran?\nKafka como backbone de eventos.\nElixir como motor de lógica y concurrencia.\nEjemplos prácticos de escenarios en los que se complementan.\n2. Introducción a Broadway y Phoenix\nPhoenix: Framework para construir aplicaciones web rápidas y escalables.\nPhoenix LiveView: Interactividad en tiempo real sin necesidad de JavaScript.\nCómo estas herramientas potencian Elixir en arquitecturas modernas.\nDemo: Construyendo un Pipeline con Kafka y Elixir\n3. Caso práctico: Sistema de notificaciones en tiempo real.\nCreación de tópicos en Kafka.\nConsumo de eventos en tiempo real con Broadway.\nRenderizado dinámico en Phoenix LiveView:\nVisualización en tiempo real de los mensajes procesados.\n4. Preguntas y Networking\nResolución de dudas.\nEspacio para conectar con otros asistentes.\n\n\\*\\*\\*\nDISCLAIMER\nWe are unable to cater for any attendees under the age of 18.\nIf you would like to speak or host our next event please let us know! [community@confluent.io](http://community@confluent.io/)",
+      "url": "https://www.meetup.com/mexico-kafka/events/305473327/",
+      "location": "Wizeline, Av. P.º de la Reforma 296-Piso 32, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico, Mexico City, MX",
+      "organizer": "mexico-kafka",
+      "dtstart": "2025-01-28T19:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "frontend",
+        "mobile",
+        "web"
+      ],
+      "source": "https://www.meetup.com/mexico-kafka/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Av. P.º de la Reforma 296-Piso 32, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
+      "hash_key": "in person apache kafka meetup mexico 2025_2025-01-29T00:00:00+00:00"
     },
     {
       "title": "globalaicdmx|Episodio I - Los datos y la IA|México|Ciudad de México",
@@ -8674,6 +8957,31 @@
       "city_code": "cdmx",
       "address": "Periférico Blvrd Manuel Ávila Camacho 261, Periférico Blvrd Manuel Ávila Camacho 261, Ciudad de México, MX",
       "hash_key": "llevando el soporte de comunidades a otro nivel con automatizacin e ia_2025-02-28T00:00:00+00:00"
+    },
+    {
+      "title": "awsugmixtli|Despliegue automatizado: AWS ECS y GitHub Actions|México|Puebla",
+      "description": "🚀 Acompáñenos en esta sesión práctica donde se aprenderá a automatizar despliegues en AWS ECS utilizando GitHub Actions!\nPara quienes están cansados de los despliegues manuales, esta charla revelará cómo implementar un pipeline de CI/CD profesional que llevará el código desde el repositorio hasta producción en AWS ECS de manera automática y segura.\n\n👨‍💻 Los participantes aprenderán:\n\n* Configuración paso a paso de GitHub Actions\n* Mejores prácticas para despliegues en ECS\n* Tips para optimizar su pipeline\n* Estrategias de seguridad en la automatización\n\nTanto para quienes están comenzando con AWS como para usuarios avanzados, esta sesión ofrece valor donde la teoría se convierte en práctica.\n\n¡Una oportunidad para llevar las habilidades de DevOps al siguiente nivel! 🔥\n\n📅 27 de febrero\n🕐 6:30pm - 8:30pm\n📍 [Workósfera Coworking](https://maps.app.goo.gl/8aiwimKMHy1EnyCg9)\n\n¡Los cupos son limitados! Se recomienda asegurar el lugar y unirse a esta comunidad de entusiastas de AWS. ¡Los esperamos! 🤝",
+      "url": "https://www.meetup.com/awsugmixtli/events/306013941/",
+      "location": "Workósfera Coworking - La Paz, Calle Cholula 35, La Paz, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-02-27T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "cloud",
+        "devops",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "despliegue automatizado aws ecs y github actions_2025-02-28T00:00:00+00:00"
     },
     {
       "title": "thedatapub|Data Pub Febrero: ML Informed Financial Assistance to Prevent Homelessness|México|Ciudad de México",
@@ -9123,6 +9431,54 @@
       "hash_key": "comunidad de ia en guadalajara marzo 2025_2025-03-27T00:00:00+00:00"
     },
     {
+      "title": "awsugmixtli|AWS: El Secreto para Acceder a Más y Mejores Oportunidades Laborales|México|Puebla",
+      "description": "**¿Te gustaría mejorar tu perfil profesional y acceder a más oportunidades laborales?** Únete a nuestro meetup y descubre cómo AWS puede impulsar tu carrera, sin importar tu experiencia o perfil. Ya seas desarrollador, trabajes con machine learning, ia, redes o ciberseguridad, esta charla es para ti.\n\nTe explicaremos cómo la nube puede potenciar tu perfil y cómo obtener **certificaciones en AWS, ¡incluso gratis!** Además, te daremos tips para tomar la certificación, consejos para hacer tu perfil más atractivo para reclutadores, y plataformas que te ayudarán a certificarte rápidamente.\n\n**¿Por qué ahora?**\nCon la expansión de AWS en Querétaro, se crearán más de 7,000 empleos y una inversión de más de $5,000 millones, lo que genera una gran **demanda de expertos en la nube.**\n\n**Dinámicas divertidas:**\n🍀 **Gana una AWS Builder Card:** Durante el evento, tendrás la oportunidad de ganar una AWS Builder Card, una excelente herramienta para impulsar tu aprendizaje en la nube. Esta es la segunda edición de las Builder Cards, traídas directamente desde el evento AWS re:Invent 2024. ¡No te lo puedes perder! 🚀\n🎉 **Gana una tarjeta exclusiva de AWS re:Invent 2024:** También podrás ganar una tarjeta exclusiva de ese evento 🎁\n🍕 **Disfruta de pizza y bebidas:** Mientras aprendes, disfruta de un ambiente relajado con pizza y bebidas, ¡perfecto para compartir experiencias con otros profesionales! 🍻\n**Detalles del Evento:**\n\n* 📅 Fecha: 27 de marzo\n* 🕐 Hora: 6:30 pm - 8:30 pm\n* 📍 Ubicación: [Workósfera Coworking ](https://maps.app.goo.gl/Q3RAVTPPy6X84qGKA)\n\n**¡Los cupos son limitados!** Asegura tu lugar y únete a una comunidad de entusiastas de AWS.",
+      "url": "https://www.meetup.com/awsugmixtli/events/306792308/",
+      "location": "Workósfera Coworking - La Paz, Calle Cholula 35, La Paz, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-03-27T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "cloud",
+        "frontend",
+        "python",
+        "security"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "aws el secreto para acceder a ms y mejores oportunidades laborales_2025-03-28T00:00:00+00:00"
+    },
+    {
+      "title": "mexico-kafka|IN-PERSON: Apache Kafka® x Apache Flink® x Apache Iceberg™|México|Ciudad de México",
+      "description": "Continuamos con los meetups presenciales en la CDMX con la ayuda de nuestros amigos de Wizeline.\n\nHabrá un espacio de networking con pizzas y bebidas donde podrás platicar con programadores de diferentes niveles e intereses.\n\nLa cita es el Jueves 27 de Marzo a las 18:50 hrs. en las oficinas de Wizeline México ([https://maps.app.goo.gl/hayuy7xMDzbjkF8E6](https://maps.app.goo.gl/hayuy7xMDzbjkF8E6)) Paseo de la Reforma 296, Col. Juárez, 06600\n\nPara el acceso\nRegístrate con tu nombre y apellido en [meetup.com](http://meetup.com/).\n\nAl llegar, toma el elevador para subir al lobby del piso 12, donde hay que registrarse con una identificación OFICIAL y de allí subir a Wizeline en el piso 32.\n\n**Streaming Data Technologies Internals.**\n\nPor: Raúl Estrada\n\n1. Kafka Streams Internals: Procesamiento Distribuido sobre Kafka\nArquitectura de Kafka Streams\nInternals del procesamiento\nCómo Kafka Streams maneja el Fault-Tolerance\n2. Apache Flink Internals: Ejecución Distribuida en Tiempo Real\nModelo de Ejecución Interna\nCheckpointing & Recovery en Flink\nOptimización de Flink Jobs\n3. Apache Iceberg Internals: Evolucionando el Almacenamiento en Data Lakes\nArquitectura de Apache Iceberg\nCómo Apache Iceberg gestiona particiones y datos\nTransacciones y Consistencia en Apache Iceberg\nResolución de dudas.\nPreguntas y Networking\nEspacio para conectar con otros asistentes.\n\n\\*\\*\\*\nDISCLAIMER\nWe are unable to cater for any attendees under the age of 18.\nIf you would like to speak or host our next event please let us know! [community@confluent.io](http://community@confluent.io/)",
+      "url": "https://www.meetup.com/mexico-kafka/events/306548932/",
+      "location": "Wizeline, Av. P.º de la Reforma 296-Piso 32, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico, Mexico City, MX",
+      "organizer": "mexico-kafka",
+      "dtstart": "2025-03-27T18:50:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "data",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/mexico-kafka/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Av. P.º de la Reforma 296-Piso 32, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
+      "hash_key": "in person apache kafka x apache flink x apache iceberg_2025-03-28T00:00:00+00:00"
+    },
+    {
       "title": "notrustsec|NoTrustSec 28: Encendiendo el Espíritu Hacker y descubriendo enigmas de los APTs|México|Ciudad de México",
       "description": "Este 2025 ha comenzado muy extraño, con impuestos a la miel de maple de los hot-cakes, y otra, sí, otra ola de despidos en Tech y Cyber.\n\nPero antes de la Semana Santa, es momento de glorificar nuestro espíritu hacker, multiplicar nuestras habilidades descifrando un APT y peregrinar con nuestras amistades en una la edición 28 del NoTrustSec.\n\nLas charlas que tendremos están consagradas, llenas de devoción y la calidad que caracteriza a tu MeetUp *Ciberseguro* de confianza.\n\nPrimero que nada, desde Colombia, con café, cumbias y sopas de huevo, tenemos una plática a cargo de **Ernesto @inori**, sobre **el caso APT-C-36 en LATAM**. Vamos a platicar las múltiples técnicas utilizadas en su análisis, para poder destapar las TTPs usadas por este grupo que ha hecho su blanco de ataque a los países de nuestra región.\n\nAsí que saca tus antenas, porque acá vamos a ver temas de spear phishing, uso de RATs, malware; pffff.. Que Netflix, ni que Netflix, esto sí va a ser acción de verdad.\n\nSi esto no es suficiente, prepárate porque tu cabella estallará y tu espíritu hacker se encenderá con fuego nuevo con ***Don't worry, be hacky***; a cargo de **Yael** [@_zkvL](https://x.com/_zkvL), que nos traerá una guía de supervivencia para el hacker actual, sin discursos vendehúmos, ni pantallas con mapitas de misiles, solo estrategias *probadas-caladas-garantizadas* con sustento científico y editorial que harán que reviva la llama de la pasión hacker en tí.\n\nAsí que... ¡hey!, ¡hey!.. Ya, olvídalo... Esos bitcoins no se van a mover, olvídate de los nuevos impuestos, el bourbon y los Teslas; desconéctate del mundo y prepara tu cerveza, tu mezcal y botanita....\n\n**¡Porque el NoTrustSec 28 está aquí!**",
       "url": "https://www.meetup.com/notrustsec/events/306841179/",
@@ -9328,6 +9684,30 @@
       "hash_key": "ajoloaniversario_2025-04-12T00:00:00+00:00"
     },
     {
+      "title": "guadalajara-kafka|VIRTUAL: Introducción a Apache Kafka®|Online",
+      "description": "**IMPORTANT: PLEASE RSVP @ [https://www.meetup.com/pydata-panama/events/307071570/](https://www.meetup.com/pydata-panama/events/307071570/)**\n\n**Jose Bethancourt, Senior Solutions Engineer, Confluent**\n**Descubre el poder del streaming de datos en tiempo real con Apache Kafka.** Esta sesión introductoria es ideal para desarrolladores, ingenieros de datos y profesionales de TI que buscan comprender los fundamentos de Kafka, la plataforma open-source líder para construir aplicaciones escalables y reactivas basadas en eventos.\n**En esta charla, exploraremos:**\n\n* **Los pilares de Kafka:** Temas, particiones, productores y consumidores explicados de forma clara y concisa.\n* **El ecosistema Kafka al detalle:** Desde brokers y clientes hasta Schema Registry y Kafka Connect.\n* **Introducción al procesamiento de flujos:** Un vistazo a Kafka Streams y Apache Flink.\n* **Aplicaciones prácticas:** Casos de uso reales que demuestran el impacto de Kafka en diversas industrias.",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/307085592/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2025-04-16T11:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "data",
+        "frontend",
+        "python",
+        "web"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "virtual introduccin a apache kafka_2025-04-16T16:00:00+00:00"
+    },
+    {
       "title": "gittogether-latam|Calculando con el compilador: Comp time vs Run time en Rust|Online",
       "description": "Únete al experto en Rust [Miguel Raz](https://github.com/miguelraz) para una presentación reveladora sobre 'Calculando con el compilador: Comp time vs Run time en Rust'. Esta sesión explora cómo el potente compilador de Rust permite a los desarrolladores trasladar cálculos del tiempo de ejecución al tiempo de compilación, mejorando el rendimiento y la seguridad. Aprende técnicas prácticas para aprovechar el sistema de tipos de Rust y las características de evaluación constante para detectar errores antes y optimizar tu código. Perfecto para programadores intermedios de Rust que buscan profundizar en su comprensión de las capacidades únicas del lenguaje.",
       "url": "https://www.meetup.com/gittogether-latam/events/307163426/",
@@ -9397,6 +9777,31 @@
       "city_code": "zapopan",
       "address": "Blvd. Puerta de Hierro 5153-Piso 23, Puerta de Hierro, 45116 Zapopan, Jal., México",
       "hash_key": "container orchestration and microservices_2025-04-25T00:00:00+00:00"
+    },
+    {
+      "title": "awsugmixtli|De Golang a la Nube: Mi viaje hacia Cloud Native con AWS|México|Puebla",
+      "description": "Para quienes buscan mejorar la escalabilidad y visibilidad en sus sistemas, esta sesión compartirá cómo se migraron APIs desarrolladas en Go desde un entorno on-premise a la nube, enfrentando desafíos técnicos, tomando decisiones clave y utilizando tecnologías como EC2 y Kubernetes en EKS.\n\n👨‍💻 **En esta charla aprenderás:**\n\n* El proceso de migración en dos fases: EC2 y Kubernetes en EKS\n* Cómo superar la falta de escalabilidad y visibilidad en sistemas existentes\n* Herramientas y decisiones clave para modernizar una arquitectura crítica\n* Retos técnicos y lecciones aprendidas en el camino\n\nTanto si eres nuevo en la nube como si ya tienes experiencia, esta charla te ofrecerá valiosos insights y ejemplos prácticos.\n\n🍻 Además, disfrutarás de bebidas frías, un espacio para **networking** y un momento para **aprender jugando** con las **AWS BuilderCards**.\n\n📅 24 de abril\n🕐 6:30pm - 8:30pm\n📍 [Valenza Casa de Creativos](https://maps.app.goo.gl/Xm2LR4GSEtFPBdaQ8)\n\n¡Los cupos son limitados! Asegura tu lugar y conecta con otros apasionados de la nube. ¡Te esperamos! 🤝",
+      "url": "https://www.meetup.com/awsugmixtli/events/307164327/",
+      "location": "Valenza Casa de Creativos, Av. Venustiano Carranza 205, San Baltazar Campeche, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-04-24T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "backend",
+        "cloud",
+        "devops",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "de golang a la nube mi viaje hacia cloud native con aws_2025-04-25T00:00:00+00:00"
     },
     {
       "title": "thedatapub|Data Pub Abril: Responsible AI to Benefit Society, Use Cases and Lessons Learned|México|Ciudad de México",
@@ -9470,23 +9875,29 @@
       "hash_key": "pythoncdmx extra sudo ciencias en la unam_2025-04-25T22:00:00+00:00"
     },
     {
-      "title": "EPAM|EPAM Tech Talks Mexico City|México|Ciudad de México",
-      "description": "Acompáñanos en nuestras Tech Talks en Ciudad de México para compartir y discutir conocimientos sobre",
-      "url": "https://www.eventbrite.com.mx/e/entradas-epam-tech-talks-mexico-city-1308616189249",
-      "location": "Impact HUB Ciudad de México, Avenida Álvaro Obregón 213, Ciudad de México, CMX",
-      "organizer": "EPAM",
-      "dtstart": "2025-04-30T18:30:00-06:00",
-      "dtend": "2025-04-30T21:30:00-06:00",
-      "tags": [],
-      "source": "Eventbrite",
+      "title": "mexico-kafka|Elastic & Apache Kafka® en Mexico|México|Ciudad de México",
+      "description": "**IMPORTANT: if you RSVP here, you don't need to also RSVP on [Elastic Mexico City User Group](https://www.meetup.com/elastic-mexico-city-user-group/)**\n\n\\*\\*\\*\n\nÚnete a nosotros en el próximo Meetup. Estaremos en el corazón de la Ciudad de México para hablar de Elastic y Apache Kafka:\nTendremos charlas increíbles para la comunidad de México! 🇲🇽\n**Agenda**\n📍 18:45 - 19:00 Recepción de asistentes\n👋🏼 19:00 - 19:10 Bienvenida\n👨🏻‍💻 19:10 - 20:00 **How to monitor Kafka and Confluent Cloud with Elastic Observability**\n**[Alexander Ambris](https://www.linkedin.com/in/alexander-ambriz-rivas/)** \\- Senior Solutions Architect @ Elastic\nResumo:\n\n1. *Overview of Elastic Observability*\n2. *APM*\n3. *Example setup*\n\n👨🏻‍💻 20:00 - 20:45 **Kafka y Elastic: Arquitectura Moderna para Streaming**\n**[Raul Estrada](https://www.linkedin.com/in/uurl/)** \\- CEO @ Treu Technologies Inc\nResumo:\n**1\\. Contexto**\nCasos de uso comunes: monitoreo, logging, detección de fraudes, observabilidad en microservicios, IoT, etc.\n**2\\. Kafka y Elastic**\n**Apache Kafka**\n\n* Topics, Producers, Consumers, Partitioning\n* Kafka Connect\n\n**Elastic Stack**\n\n* Elasticsearch como motor de indexación y búsqueda en tiempo real\n* Logstash y Beats para la ingesta\n* Kibana para visualización\n\n**3\\. Live Demo**\n*\"Del evento al dashboard en tiempo real\"*\n\n* Setup básico: Kafka topic + producer de eventos JSON\n* Configuración del Kafka Connect + Elasticsearch Sink\n* Verificación de indexación en Elasticsearch\n* Visualización en Kibana: dashboard en vivo con filtros y métricas\n\n🍕 20:45 - 21:30 Bocadillos y Networking\nTe esperamos para una noche increíble. Invita a tus amigos y ven!\nUbicación:\n**Av. Paseo de la Reforma 296, Piso 32, Col. Juárez**\n\n\\*\\*\\*\nDISCLAIMER\nWe are unable to cater for any attendees under the age of 18.\nIf you would like to speak or host our next event please let us know! [community@confluent.io](http://community@confluent.io/)",
+      "url": "https://www.meetup.com/mexico-kafka/events/307023265/",
+      "location": "Wizeline, Av. P.º de la Reforma 296-Piso 32, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico, Mexico City, MX",
+      "organizer": "mexico-kafka",
+      "dtstart": "2025-04-29T18:45:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "cloud",
+        "frontend",
+        "mobile",
+        "web"
+      ],
+      "source": "https://www.meetup.com/mexico-kafka/events/?type=past",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
       "state_code": "MX-CMX",
       "city": "Ciudad de México",
       "city_code": "cdmx",
-      "address": "Av. Álvaro Obregón 213, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
-      "hash_key": "epam tech talks mexico city_2025-05-01T00:00:00+00:00"
+      "address": "Av. P.º de la Reforma 296-Piso 32, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
+      "hash_key": "elastic apache kafka en mexico_2025-04-30T00:00:00+00:00"
     },
     {
       "title": "Evento|Comunidad de IA en Guadalajara, Abril 2025|México|Jalisco",
@@ -9508,6 +9919,25 @@
       "city_code": "guadalajara",
       "address": "Calle Marsella 155-Int 105 A, Col Americana, Lafayette, 44160 Guadalajara, Jal., México",
       "hash_key": "comunidad de ia en guadalajara abril 2025_2025-05-01T00:00:00+00:00"
+    },
+    {
+      "title": "EPAM|EPAM Tech Talks Mexico City|México|Ciudad de México",
+      "description": "Acompáñanos en nuestras Tech Talks en Ciudad de México para compartir y discutir conocimientos sobre",
+      "url": "https://www.eventbrite.com.mx/e/entradas-epam-tech-talks-mexico-city-1308616189249",
+      "location": "Impact HUB Ciudad de México, Avenida Álvaro Obregón 213, Ciudad de México, CMX",
+      "organizer": "EPAM",
+      "dtstart": "2025-04-30T18:30:00-06:00",
+      "dtend": "2025-04-30T21:30:00-06:00",
+      "tags": [],
+      "source": "Eventbrite",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Av. Álvaro Obregón 213, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+      "hash_key": "epam tech talks mexico city_2025-05-01T00:00:00+00:00"
     },
     {
       "title": "gittogether-cdmx|GitTogether CDMX - Season of AI|México|Ciudad de México",
@@ -9556,6 +9986,27 @@
       "hash_key": "transformando datos y realidades tu primera experiencia con aws glue_2025-05-09T00:00:00+00:00"
     },
     {
+      "title": "Gabriel Gómez Téllez|Python Charlas en Puebla + Networking|México|Puebla",
+      "description": "Obtén información actualizada en: https://luma.com/x9gk52xh\n\nDirección:\nConsulta la página del evento para obtener más detalles.\n\nOrganizado por Gabriel Gómez Téllez",
+      "url": "https://luma.com/x9gk52xh",
+      "location": "https://luma.com/event/evt-8Ah6biGds3SNehq",
+      "organizer": "Gabriel Gómez Téllez",
+      "dtstart": "2025-05-09T00:30:00+00:00",
+      "dtend": "2025-05-09T04:00:00+00:00",
+      "tags": [
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "python charlas en puebla networking_2025-05-09T00:00:00+00:00"
+    },
+    {
       "title": "apache-spark-mexicocity|Weekly Data + AI Study Group Session : Certified Data Engineer Professional|Online",
       "description": "**Study Group Session: Certified Data Engineer Professional**\n\nEn 2025 vamos a invertirle tiempo a preparar la certificación de Data Engineer Professional. Nos veremos semanalmente los jueves en la noche para platicar tema por tema nuestro avance en el camino a la certificación. Si gustas más detalles únete a la sesión y monta la ola.\n\nVenga que la mayoría está empezando de ceros.\n\n[Data Engineer Professional](https://www.databricks.com/learn/certification/data-engineer-professional).",
       "url": "https://www.meetup.com/apache-spark-mexicocity/events/305887712/",
@@ -9595,27 +10046,6 @@
       "city_code": "santiagodequeretaro",
       "address": "C. Héroe de Nacozari 25B, Centro, 76000 Santiago de Querétaro, Qro., México",
       "hash_key": "epam tech talks quertaro_2025-05-09T00:00:00+00:00"
-    },
-    {
-      "title": "Gabriel Gómez Téllez|Python Charlas en Puebla + Networking|México|Puebla",
-      "description": "Obtén información actualizada en: https://luma.com/x9gk52xh\n\nDirección:\nConsulta la página del evento para obtener más detalles.\n\nOrganizado por Gabriel Gómez Téllez",
-      "url": "https://luma.com/x9gk52xh",
-      "location": "https://luma.com/event/evt-8Ah6biGds3SNehq",
-      "organizer": "Gabriel Gómez Téllez",
-      "dtstart": "2025-05-09T00:30:00+00:00",
-      "dtend": "2025-05-09T04:00:00+00:00",
-      "tags": [
-        "python"
-      ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Puebla",
-      "state_code": "MX-PUE",
-      "city": "Heroica Puebla de Zaragoza",
-      "city_code": "heroicapuebladezaragoza",
-      "address": "Heroica Puebla de Zaragoza, Pue., México",
-      "hash_key": "python charlas en puebla networking_2025-05-09T00:00:00+00:00"
     },
     {
       "title": "notrustsec|NoTrustSec 29: Mayo, Los Logs y la Fuerza: NTS Edición Galáctica|México|Ciudad de México",
@@ -9862,6 +10292,29 @@
       "hash_key": "comunidad de ia en guadalajara reunin de mayo 2025_2025-05-29T00:00:00+00:00"
     },
     {
+      "title": "mexico-kafka|Apache Kafka® Práctico — Procesamiento de Eventos en Tiempo Real|México|Ciudad de México",
+      "description": "Continuamos con los meetups presenciales en la CDMX con la ayuda de nuestros amigos de Wizeline.\n\nHabrá un espacio de networking con pizzas y bebidas donde podrás platicar con programadores de diferentes niveles e intereses.\n\nLa cita es el miércoles 28 de Mayo a las 18:50 hrs. en las oficinas de Wizeline México ([https://maps.app.goo.gl/hayuy7xMDzbjkF8E6](https://maps.app.goo.gl/hayuy7xMDzbjkF8E6)) Paseo de la Reforma 296, Col. Juárez, 06600\n\nPara el acceso\nRegístrate con tu nombre y apellido en [meetup.com](http://meetup.com/).\n\nAl llegar, toma el elevador para subir al lobby del piso 12, donde hay que registrarse con una identificación OFICIAL y de allí subir a Wizeline en el piso 32.\n\n**🎙️ Kafka Práctico — Procesamiento de Eventos en Tiempo Real**\n\nEn esta sesión continuaremos con los ejemplos de Kafka en código.\n\n🧩 Exploraremos cómo construir flujos de eventos completos utilizando:\n\n* Kafka Producers y Consumers con SerDes simples y compuestos.\n* Serialización con JSON, Avro, y Protobuf\n* Uso de Schema Registry\n* Procesamiento de flujos con Kafka Streams: topologías, joins, ventanas\n* Uso de KSQL\n\n💡 Llevaremos los eventos del código al flujo en vivo, cubriendo desde la serialización hasta el análisis en tiempo real.\n\n👨‍💻 Ideal para desarrolladores, arquitectos y entusiastas de sistemas distribuidos que quieran entender el stack completo de Kafka.\n\n📚 Sesión totalmente práctica, trae tu laptop y prepárate para código en acción\n\n\\*\\*\\*\nDISCLAIMER\nWe are unable to cater for any attendees under the age of 18.\nIf you would like to speak or host our next event please let us know! [community@confluent.io](http://community@confluent.io/)",
+      "url": "https://www.meetup.com/mexico-kafka/events/307734321/",
+      "location": "Wizeline, Av. P.º de la Reforma 296-Piso 32, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico, Mexico City, MX",
+      "organizer": "mexico-kafka",
+      "dtstart": "2025-05-28T18:50:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "frontend",
+        "web"
+      ],
+      "source": "https://www.meetup.com/mexico-kafka/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Av. P.º de la Reforma 296-Piso 32, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
+      "hash_key": "apache kafka prctico procesamiento de eventos en tiempo real_2025-05-29T00:00:00+00:00"
+    },
+    {
       "title": "scala-and-functional-programming-cdmx-and-remote|How I created a visual DAG orchestrator with Scala|México|Ciudad de México",
       "description": "I will show Constellation, a hackaton project where the user uses a UI to build a graph to design complex processes, and uses Scala to run them.\n\nThe engine uses the cats-effect library in fun ways. And the whole system ends-up being a high-level graphical programming language.\n\n**Any level of experience with programming and Scala :D**\n\n**Itinerary**\n5:30 - Food and drinks! Hang out for a cozy evening with us.\n6:30 - Tech talk\n7:30 - More hanging together with Etsy sponsored treats :D\n8:30 - End of the event\n\n**About the speaker.**\nFrancisco Aramburo is a Staff Engineer at Etsy, where he uses Scala and cats-effect to orchestrate millions of features for machine learning inferences per second. He has also been a Scala developer for the last 11 years.",
       "url": "https://www.meetup.com/scala-and-functional-programming-cdmx-and-remote/events/307987132/",
@@ -9929,6 +10382,30 @@
       "city_code": "zapopan",
       "address": "Av. Patria 888-piso 4, Jardines Universidad, 45110 Zapopan, Jal., México",
       "hash_key": "cloud native development_2025-05-30T00:00:00+00:00"
+    },
+    {
+      "title": "awsugmixtli|Navegando el universo de la Inteligencia Artifical en AWS|México|Puebla",
+      "description": "¿Alguna vez has soñado con tener un asistente de IA que entienda tu código mejor que tu compañero de cubículo? ¡Esta charla es para ti! Acompáñanos en un viaje divertido pero práctico por el ecosistema de servicios de IA de AWS.\n\nAprenderemos cómo estos servicios pueden convertirte en el desarrollador \"con superpoderes\" que siempre quisiste ser, sin necesidad de un accidente radioactivo. Aprenderás a utilizar modelos fundacionales con Bedrock más rápido que preparar un café instantáneo, a conversar con Amazon Q cuando tu rubber duck ya no te da respuestas, y a disfrutar del Vibe coding que hace que tu IDE parezca leer tu mente (¡aunque a veces se ponga filosófico y te sugiera código que ni tú entiendes!).\n\nTanto si eres nuevo en la nube como si ya tienes experiencia, esta charla te ofrecerá valiosos insights y ejemplos prácticos para optimizar tu tiempo con la Inteligencia Artificial.\n\n🍻 Además, disfrutarás de bebidas frías, un espacio para **networking** y más**.**\n\n📅 29 de mayo\n🕐 6:30pm - 8:30pm\n📍 [Workósfera Coworking](https://maps.app.goo.gl/Q3RAVTPPy6X84qGKA)\n\n¡Los cupos son limitados! Asegura tu lugar y conecta con otros apasionados de la nube. ¡Te esperamos! 🤝",
+      "url": "https://www.meetup.com/awsugmixtli/events/307840584/",
+      "location": "Workósfera Coworking - La Paz, Calle Cholula 35, La Paz, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-05-29T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "cloud",
+        "frontend",
+        "mobile",
+        "python"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "navegando el universo de la inteligencia artifical en aws_2025-05-30T00:00:00+00:00"
     },
     {
       "title": "EPAM|EPAM Tech Talks Aguascalientes|México|Aguascalientes",
@@ -10294,6 +10771,27 @@
       "hash_key": "weekly data ai study group session certified data engineer professional_2025-06-27T00:00:00+00:00"
     },
     {
+      "title": "Gabriel Gómez Téllez|PyTalavera Fest: 1er Aniversario|México|Puebla",
+      "description": "Obtén información actualizada en: https://luma.com/kfjqxz64\n\nDirección:\nCervecería Cholula\nCholula de Rivadavia, Puebla\nMexico\n\nOrganizado por Gabriel Gómez Téllez",
+      "url": "https://luma.com/kfjqxz64",
+      "location": "Cervecería Cholula, Av. 13 Ote. 412, San Pablo Tecamac, 72760 Cholula de Rivadavia, Pue., Mexico",
+      "organizer": "Gabriel Gómez Téllez",
+      "dtstart": "2025-06-27T01:00:00+00:00",
+      "dtend": "2025-06-27T05:00:00+00:00",
+      "tags": [
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Cholula de Rivadavia",
+      "city_code": "choluladerivadavia",
+      "address": "Av. 13 Ote. 412, San Pablo Tecamac, 72760 Cholula de Rivadavia, Pue., México",
+      "hash_key": "pytalavera fest 1er aniversario_2025-06-27T00:00:00+00:00"
+    },
+    {
       "title": "elixir-mexico-city|Evento Presencial: Elixir y Rust|México|Ciudad de México",
       "description": "Continuamos con los meetups presenciales en la CDMX con la ayuda de nuestros amigos de [Wizeline](https://www.wizeline.com/).\n\nLa cita es el Jueves 26 de Junio a las **19:00 hrs**. en las oficinas de Wizeline México ([https://maps.app.goo.gl/hayuy7xMDzbjkF8E6](https://maps.app.goo.gl/hayuy7xMDzbjkF8E6))\nPaseo de la Reforma 296, Col. Juárez, 06600\n\n**Para el acceso**\nRegístrate con tu nombre completo (nombre y apellido) en [meetup.com](http://meetup.com/).\nAl llegar, toma el elevador para subir al lobby del piso 12, donde hay que registrarse con una identificación **oficial** y de allí subir a Wizeline en el piso 32.\n\n### **Elixir y Rust: Dos filosofías, retos comunes**\n\n### **1\\. Introducción: Filosofías distintas\\, retos comunes**\n\n* ¿Por qué comparar Elixir y Rust?\n* Breve historia: Erlang/BEAM vs Rust/LLVM\n* ¿Qué tipo de problemas resuelve mejor cada uno?\n\n***\n\n### **2\\. Concurrencia: BEAM vs Tokio/async**\n\n* Actores, aislamiento, y procesos en Elixir\n* Futures, ownership y concurrencia en Rust\n* ¿Dónde brilla cada modelo? Casos reales (IoT, sistemas distribuidos, juegos, backend)\n\n***\n\n### **3\\. Resiliencia y tolerancia a fallos**\n\n* OTP: Supervisores, GenServer, restarts\n* ¿Cómo se modela algo similar en Rust?\n* Cuándo importa la resiliencia vs el rendimiento crudo\n\n***\n\n### **4\\. Rendimiento y cómputo intensivo**\n\n* Benchmarking básico entre Rust y Elixir\n* Cuándo necesitas SIMD, CUDA, FFI, zero-cost abstractions\n* ¿Puede Elixir competir?\n\n***\n\n### **5\\. Interoperabilidad: Rust \\+ Elixir**\n\n* NIFs: ejemplos reales (Rustler)\n* Ports y microservicios\n* Cuándo conviene delegar cómputo intensivo a Rust\n* Demo corto: módulo en Elixir que llama a Rust con cálculo intensivo\n\n***\n\n### **6\\. Modelos mentales y experiencia de desarrollo**\n\n* Filosofía del lenguaje: expresividad vs control\n* Iteración rápida en Elixir vs debugging complejo en Rust\n* Tooling, comunidad, ecosistema\n\n***\n\n### **7\\. Casos de uso combinados**\n\n* Backend concurrente en Elixir + cómputo en Rust\n* ML/AI en Elixir con Nx y EXLA + extensiones en Rust\n* Sistemas distribuidos con supervisión BEAM y FFI a Rust\n\n***\n\n### **8\\. Q&A interactiva / panel abierto**\n\n* Espacio para preguntas, experiencias de la comunidad, compartir herramientas, etc.\n\nAl final, habrá un espacio de networking donde podrás platicar con programadores de diferentes niveles e intereses.",
       "url": "https://www.meetup.com/elixir-mexico-city/events/308507390/",
@@ -10340,27 +10838,6 @@
       "city_code": "cdmx",
       "address": "Wizeline Torre Reforma Latino, aseo de la Reforma 296 Piso 32, Col Juárez, Alcaldía Cuauhtémoc, 06600 CDMX - Oficina Wizeline Piso 32, Ciudad de México, MX",
       "hash_key": "elixir y rust_2025-06-27T00:00:00+00:00"
-    },
-    {
-      "title": "Gabriel Gómez Téllez|PyTalavera Fest: 1er Aniversario|México|Puebla",
-      "description": "Obtén información actualizada en: https://luma.com/kfjqxz64\n\nDirección:\nCervecería Cholula\nCholula de Rivadavia, Puebla\nMexico\n\nOrganizado por Gabriel Gómez Téllez",
-      "url": "https://luma.com/kfjqxz64",
-      "location": "Cervecería Cholula, Av. 13 Ote. 412, San Pablo Tecamac, 72760 Cholula de Rivadavia, Pue., Mexico",
-      "organizer": "Gabriel Gómez Téllez",
-      "dtstart": "2025-06-27T01:00:00+00:00",
-      "dtend": "2025-06-27T05:00:00+00:00",
-      "tags": [
-        "python"
-      ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Puebla",
-      "state_code": "MX-PUE",
-      "city": "Cholula de Rivadavia",
-      "city_code": "choluladerivadavia",
-      "address": "Av. 13 Ote. 412, San Pablo Tecamac, 72760 Cholula de Rivadavia, Pue., México",
-      "hash_key": "pytalavera fest 1er aniversario_2025-06-27T00:00:00+00:00"
     },
     {
       "title": "aws-cloud-club-at-unam|Taller Intersemestral Comunitario (TICs): Introducción en la Nube con AWS|México|Ciudad de México",
@@ -10788,6 +11265,31 @@
       "hash_key": "data pub julio modelar con intencin decisiones que transforman_2025-07-31T00:00:00+00:00"
     },
     {
+      "title": "awsugmixtli|Implementando DevSecOps para entornos de nube: Primeros Pasos|México|Puebla",
+      "description": "### **¿Te interesa saber qué es DevSecOps y cómo aplicarlo en entornos de nube?**\n\nEste meetup es una excelente oportunidad para dar tus primeros pasos en esta práctica que está transformando la manera en que desarrollamos software seguro.\n\nDevSecOps busca integrar la seguridad desde las etapas iniciales del desarrollo, fomentando una colaboración continua entre desarrollo, operaciones y seguridad. En esta charla aprenderás cómo empezar a implementar DevSecOps combinando servicios nativos de AWS con tecnologías Open Source, automatizando controles, detectando riesgos a tiempo y adoptando el enfoque **“shift left”**.\n\nEstá dirigido a desarrolladores, DevOps, personas interesadas en la nube o simplemente quienes quieran entender cómo construir aplicaciones más seguras y resilientes desde el principio.\n\n🔧 No necesitas experiencia previa en seguridad: solo curiosidad y ganas de aprender.\n🍻Además, disfruta de bebidas, comida, networking y más.\nConecta con personas que comparten tu interés por la tecnología y la nube.\n\n📅 **Jueves 31 de julio**\n🕐 **6:30 PM - 8:30 PM**\n📍 **[Workósfera Coworking](https://maps.app.goo.gl/mvEtyGobFTC6Mubx9)**",
+      "url": "https://www.meetup.com/awsugmixtli/events/309533875/",
+      "location": "Workósfera Coworking - La Paz, Calle Cholula 35, La Paz, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-07-31T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "cloud",
+        "devops",
+        "frontend",
+        "mobile",
+        "security"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "implementando devsecops para entornos de nube primeros pasos_2025-08-01T00:00:00+00:00"
+    },
+    {
       "title": "notrustsec|NoTrustSec 30: Crisis de los 30, Exploits y Breakpoints Existenciales|México|Ciudad de México",
       "description": "🎂 ¡Cumplimos 30!\n🥲 Algunos tienen hijxs.\n😅 Otros tienen certificados TLS caducados.\n😬 Y tú… ¿sigues diciendo que \"un día de estos \"te vas a certificar\"?\n💥 **No** somos mejores personas.\n🧩 **No** tenemos la vida resuelta.\n💸 Pero al menos ahora cobramos por romper cosas. 💻💰\n\n🧠 Y como todo ser que llega a los 30...\nEmpezamos a cuestionar nuestras decisiones de carrera. 🤯\n\nNo sabemos si esto nos convierte en una comunidad madura… 🫥 …o en una que simplemente ya aprendió a disimular mejor el burnout.\n\nA estas alturas, muchxs ya no hackean por adrenalina, sino por contrato (y por la renta). Lxs más jóvenes creen que el camino está lleno de exploits épicos...\n\nLxs de 30+ sabemos que los verdaderos ataques vienen del cliente que no responde hasta el domingo a las 11 PM.\n\n🎉 Celebramos **tres décadas de ediciones** (¡no años, por ahora!). Esta sesión es para quienes ya han vivido varias vidas profesionales\nPero ¡hey!, subimos de nivel.\nY esta edición viene con dos gigantes del conocimiento ofensivo que no te puedes perder:…y varios formateos personales.\n\n🤖 Charla 1:\nHacktitud – La amenaza silenciosa de la inyección indirecta de prompts\nUna vez creímos que los ataques vendrían en paquetes TCP, con logs, exploits y tráfico sospechoso... Ahora, los más letales llegan disfrazados de solicitudes perfectamente válidas.\n🔇 Cero ruido.\n🚫 Cero alertas.\n🤖 Solo una IA haciendo exactamente lo que no debería hacer.\nBienvenidx al mundo de la inyección indirecta de prompts: cuando la amenaza no entra por la red, sino que se ejecuta en el razonamiento de tu modelo de lenguaje.\nNuestro speaker Roberto Lom nos confirma que el silencio no siempre es seguridad…\nY que la nueva frontera no está en el sistema operativo. Está en la lógica que alimenta a la IA. 💡🧠\n\n🤖 Charla 2:\nErrores, sesgos y caminos torcidos: lo que no te enseñan de las pruebas ofensivas\nMilton Security la quiso reclutar, pero ella prefirió venir a NTS.\n💻 Vane Valdéz, una hacker que aprendió más de sus fallos que de sus CTFs.\n🖤 Esta no es una charla de éxito.\nEs una historia sobre lo que pasa cuando haces pruebas de intrusión interna y descubres que lo verdaderamente vulnerable… son los procesos humanos. Y tú.\nEn esta sesión de brutal honestidad, Vane nos hablará de:\n• 🪞 Sesgos técnicos que distorsionan tus hallazgos\n• 🩸 Errores que no aparecen en el reporte, pero que te cambian\n• ⚔️ Ambientes donde hackear no es el reto, sino sobrevivir a los egos y las políticas absurdas\n✨ Ideal para quienes están dentro del pentest, o cerca, o considerando entrar… y quieren saber lo que no aparece en el roadmap.\n\n🎁 Además, en esta edición especial:\n• 🚨 Un repaso tragicómico de “cosas que hicimos en nuestros 20s y aún nos persiguen (en logs)”\n• 🍕 Snack & Hack: pastel de cumplemeetup, café y tragos cyber\n• 🧠 Speed networking para compartir errores, aprendizajes y otros archivos ocultos\n\n🧠 ¿Porqué venir?\nPorque 30 ediciones después, seguimos creyendo en:\n✔️ Compartir conocimiento sin pedantería\n✔️ Reírnos de nuestros errores sin vergüenza\n✔️ Reconocer que crecer profesionalmente también es fallar con más estilo\n\nVen a tu meetup ciberseguridad de confianza! Aprende algo nuevo conoce alguien más que como tú, le apasiona el mundo Cyber !\n\nTe esperamos en las 30 primaveras de NoTrustSec !!",
       "url": "https://www.meetup.com/notrustsec/events/310225199/",
@@ -11145,6 +11647,32 @@
       "hash_key": "epam tech talks mexico city_2025-08-29T00:00:00+00:00"
     },
     {
+      "title": "awsugmixtli|Acelerando el desarollo: Aplicaciones web con AWS Amplify ✨|México|Puebla",
+      "description": "### **¿Te interesa saber qué es DevSecOps y cómo aplicarlo en entornos de nube?**\n\nEn esta charla exploraremos cómo AWS Amplify permite a desarrolladores frontend construir aplicaciones web y móviles completas de forma rápida, segura y escalable, sin necesidad de ser expertos en backend. Desde la autenticación de usuarios con Amazon Cognito hasta la gestión de datos en tiempo real con AppSync y la integración con almacenamiento, analizaremos cómo aprovechar el poder de la nube con simples líneas de código. Verás en acción cómo Amplify simplifica tareas complejas y acelera el ciclo de desarrollo, reduciendo fricción y tiempo al mercado. Ideal para quienes quieren enfocarse en la experiencia del usuario sin sacrificar robustez en la infraestructura.\n\n🍻Disfruta de bebidas, comida, networking y más.\n\n👥Conecta con personas que comparten tu interés por la tecnología y la nube.\n\n📅 **Jueves 28 de agosto**\n🕐 **6:30 PM - 8:30 PM**\n📍 **[Workósfera Coworking](https://maps.app.goo.gl/mvEtyGobFTC6Mubx9)**",
+      "url": "https://www.meetup.com/awsugmixtli/events/310547318/",
+      "location": "Workósfera Coworking - La Paz, Calle Cholula 35, La Paz, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-08-28T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "backend",
+        "cloud",
+        "frontend",
+        "mobile",
+        "security",
+        "web"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "acelerando el desarollo aplicaciones web con aws amplify_2025-08-29T00:00:00+00:00"
+    },
+    {
       "title": "gittogether-cdmx|GitTogether CDMX - Agentes de IA|México|Ciudad de México",
       "description": "¡Hola **comunidad**!\nNos alegra informarles que el próximo evento será realizado en las oficinas de **Nu México**.\n\n**Aprenderas sobre:**\n\n* **Agentes de IA. Qué son, cómo funcionan y cómo crear uno desde cero.** Exploraremos **qué es un agente**, cuál es su **arquitectura interna**, y cómo componentes como el *planner*, *executor*, *herramientas* y el *LLM* trabajan juntos para resolver tareas complejas. Verás **cómo funcionan por dentro**, cómo “piensan”, y cómo eligen qué hacer paso a paso.\n\nLa segunda mitad de la charla estará dedicada a una **demo práctica** de un agente autónomo creado con **tecnologías open source** como Hugging Face Transformers, Gradio y herramientas personalizadas en Python. Este agente será capaz de responder preguntas, usar documentos, ejecutar código y más.\n\n**Ponentes:**\n\n* **Eduardo Dominguez:** Egresado de la carrera de Ingeniería en Informática por el IPN , especializado en inteligencia artificial. Actualmente, trabaja como AI Engineer en IBM, desarrollando soluciones de Machine Learning e IA generativa.\nEduardo también es cofundador y líder de IA de **Binary Brains**, una comunidad educativa en el sector de TI que contribuye a difundir y apoyar en la búsqueda del aprendizaje del área.\n\n**Agenda**:\n\n* 5:45 p.m. - Entrada al evento\n* 6:00 p.m. - Inicio del evento\n* 7:35 p.m. - Networking\n* 8:30 p.m. - Cierre del evento\n\n**Asiste presencialmente**\nEn esta ocasión, contaremos con el apoyo principal de **GitHub** y **Nu** para realizar este evento en sus oficinas.\n\nPara este evento, **les recomendamos llevar sus computadoras** para que puedan practicar lo que verán en la sesión.\n\n**Fecha límite de registro:** *Domingo 24 de Agosto - 23:59 p.m.*\n\n📢 **Este evento es abierto a todas y todos**.\nPuedes invitar a tu escuela, comunidad, amistades y familia.\n¡TE ESPERAMOS!\n\n**IMPORTANTE:**\n\\- Para poder acceder al evento y por cuestiones de seguridad debes de **presentar tu Identificación oficial** (INE, Pasaporte) y el correo con el que te registraste a este Meet Up.",
       "url": "https://www.meetup.com/gittogether-cdmx/events/310420197/",
@@ -11190,27 +11718,6 @@
       "hash_key": "odoo community days latin america 2025_2025-09-03T14:00:00+00:00"
     },
     {
-      "title": "ajolotesenlanube|AjoloMeet + Panel|México|Ciudad de México",
-      "description": "✨🚀 ¡Se viene el próximo **AjoloPanel**!\nEsta vez estaremos en las oficinas de **Nu México 💜**, en una edición especial llena de conversación, experiencias y mucho aprendizaje en comunidad.\n👩‍💻 Nos acompañarán nuestras panelistas:\n\n* **Natalia Reyes**\n* **Fer Osorio**\n* **Ana Cifuentes**\n\nAdemás, contaremos con la participación especial de **Betsai Mendoza – Lead Software Engineer en Nu**. 🎤\n🗓️ Muy pronto te compartiremos todos los detalles, pero ve apartando la fecha porque este panel no te lo vas a querer perder.\n#AjolotesEnLaNube #AjoloPanel #Meetup",
-      "url": "https://www.meetup.com/ajolotesenlanube/events/310650878/",
-      "location": "NU México, Periférico Blvrd Manuel Ávila Camacho 201-Piso 9 Polanco, Polanco I Secc, Miguel Hidalgo 11510 Ciudad de México, CDMX Mexico, Ciudad de México, MX",
-      "organizer": "ajolotesenlanube",
-      "dtstart": "2025-09-04T19:00:00-06:00",
-      "dtend": null,
-      "tags": [
-        "ai"
-      ],
-      "source": "https://www.meetup.com/ajolotesenlanube/events/?type=past",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "NU México, Periférico Blvrd Manuel Ávila Camacho 201-Piso 9 Polanco, Polanco I Secc, Miguel Hidalgo 11510 Ciudad de México, CDMX Mexico, Ciudad de México, MX",
-      "hash_key": "ajolomeet panel_2025-09-05T00:00:00+00:00"
-    },
-    {
       "title": "Gabriel Gómez Téllez|Python Charlas en Puebla + Networking|México|Puebla",
       "description": "Obtén información actualizada en: https://luma.com/0oejo0zg\n\nDirección:\nJobs Coworking Cholula | Gran Pirámide Plaza\nÚltimo piso de la plaza\nSan Andrés Cholula, Puebla\nMexico\n\nOrganizado por Gabriel Gómez Téllez",
       "url": "https://luma.com/0oejo0zg",
@@ -11230,6 +11737,27 @@
       "city_code": "sanandrescholula",
       "address": "C. 14 Pte. 111-Local 11, San Juan Aquiahuac, 72810 San Andrés Cholula, Pue., México",
       "hash_key": "python charlas en puebla networking_2025-09-05T00:00:00+00:00"
+    },
+    {
+      "title": "ajolotesenlanube|AjoloMeet + Panel|México|Ciudad de México",
+      "description": "✨🚀 ¡Se viene el próximo **AjoloPanel**!\nEsta vez estaremos en las oficinas de **Nu México 💜**, en una edición especial llena de conversación, experiencias y mucho aprendizaje en comunidad.\n👩‍💻 Nos acompañarán nuestras panelistas:\n\n* **Natalia Reyes**\n* **Fer Osorio**\n* **Ana Cifuentes**\n\nAdemás, contaremos con la participación especial de **Betsai Mendoza – Lead Software Engineer en Nu**. 🎤\n🗓️ Muy pronto te compartiremos todos los detalles, pero ve apartando la fecha porque este panel no te lo vas a querer perder.\n#AjolotesEnLaNube #AjoloPanel #Meetup",
+      "url": "https://www.meetup.com/ajolotesenlanube/events/310650878/",
+      "location": "NU México, Periférico Blvrd Manuel Ávila Camacho 201-Piso 9 Polanco, Polanco I Secc, Miguel Hidalgo 11510 Ciudad de México, CDMX Mexico, Ciudad de México, MX",
+      "organizer": "ajolotesenlanube",
+      "dtstart": "2025-09-04T19:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai"
+      ],
+      "source": "https://www.meetup.com/ajolotesenlanube/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "NU México, Periférico Blvrd Manuel Ávila Camacho 201-Piso 9 Polanco, Polanco I Secc, Miguel Hidalgo 11510 Ciudad de México, CDMX Mexico, Ciudad de México, MX",
+      "hash_key": "ajolomeet panel_2025-09-05T00:00:00+00:00"
     },
     {
       "title": "python-mexico|PythonCDMX 🐍 Sep  2025 - Uso de redes neuronales en computación científica|México|Ciudad de México",
@@ -11324,6 +11852,30 @@
       "city_code": "cdmx",
       "address": "#Hashtag Gallery, Benjamin Franklin 151-A, Condesa, Mexico City, MX",
       "hash_key": "unlocking the future custom ai with hugging face_2025-09-17T00:00:00+00:00"
+    },
+    {
+      "title": "guadalajara-kafka|Introduccíon a Apache Kafka® Connect|Online",
+      "description": "**IMPORTANT PLEASE RSVP @ [https://www.meetup.com/pydata-panama/events/310374886/?eventOrigin=group_upcoming_events](https://www.meetup.com/pydata-panama/events/310374886/?eventOrigin=group_upcoming_events)**\n\n\\*\\*\\*\n\n**Speaker: José Bethancour**t, Ingeniero de Soluciones Senior, Confluent\n\n**Topic**: Introduction to Kafka Connect\n\n**Description**:\nKafka Connect is a powerful framework for integrating Apache Kafka® with external systems, making it simple to move large data sets in and out of Kafka without writing custom code. In this session, we’ll cover the fundamentals of Kafka Connect, how it works, and showcase practical examples of commonly used connectors (e.g., databases, cloud storage). Attendees will learn how to set up and configure connectors to streamline data pipelines and accelerate real-time integration use cases.\n\n**Kafka Connect** es un marco potente para integrar Apache Kafka® con sistemas externos, lo que facilita mover grandes conjuntos de datos hacia y desde Kafka sin necesidad de escribir código personalizado. En esta sesión, abordaremos los fundamentos de Kafka Connect, su funcionamiento y presentaremos ejemplos prácticos de conectores comúnmente utilizados (por ejemplo, bases de datos, almacenamiento en la nube).\n\nLos asistentes aprenderán a configurar y establecer conectores para optimizar los flujos de datos y acelerar casos de uso de integración en tiempo real.",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/311066560/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2025-09-17T18:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "cloud",
+        "data",
+        "python"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "introduccon a apache kafka connect_2025-09-18T00:00:00+00:00"
     },
     {
       "title": "big-data-developers-in-mexico-city|Agent-to-Agent Interactions with NLIP and an application to AllyCat|Online",
@@ -11540,6 +12092,31 @@
       "hash_key": "modern application security_2025-09-26T00:00:00+00:00"
     },
     {
+      "title": "awsugmixtli|IA Generativa con Amazon Bedrock 🤖|México|Puebla",
+      "description": "**¿Siempre has querido construir aplicaciones con IA Generativa pero pensaste que era demasiado complejo? 🤔 ¡Piénsalo de nuevo!**\n\nEn esta charla dinámica y 100% práctica, desmitificaremos la IA Generativa y te mostraremos cómo puedes empezar a crear potentes aplicaciones utilizando **Amazon Bedrock**, el servicio de AWS que te da acceso a los mejores modelos fundacionales (como Claude, Llama, y Titan) a través de una simple API.\nDescubre cómo con scripts de **menos de 100 líneas de código en Python** puedes construir:\n\n* Un chatbot que entiende y responde a tus usuarios.\n* Un generador de contenido creativo para marketing o redes sociales.\n* Herramientas que resumen documentos extensos en segundos.\n\nNo importa si eres un desarrollador experimentado o apenas estás comenzando tu viaje en la nube, saldrás de esta sesión con el conocimiento y el código listo para integrar la IA Generativa en tus propios proyectos. 🚀\n\n**¡Prepárate para sorprenderte de lo fácil que es empezar a construir el futuro! ¡No te lo puedes perder!**\n\n🍻Disfruta de bebidas, comida, networking y más.\n\n👥Conecta con personas que comparten tu interés por la tecnología y la nube.\n\n📅 **Jueves 25 de septiembre**\n🕐 **6:30 PM - 8:30 PM**\n📍 **[Workósfera Coworking](https://maps.app.goo.gl/mvEtyGobFTC6Mubx9)**",
+      "url": "https://www.meetup.com/awsugmixtli/events/311172150/",
+      "location": "Workósfera Coworking - La Paz, Calle Cholula 35, La Paz, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-09-25T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "backend",
+        "cloud",
+        "frontend",
+        "mobile",
+        "python"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "ia generativa con amazon bedrock_2025-09-26T00:00:00+00:00"
+    },
+    {
       "title": "ajolotesenlanube|Online Meetup |Online",
       "description": "What if a simple web form could do more than just collect data? Imagine transforming a few clicks into a job-winning LinkedIn profile or a fully personalized travel itinerary.\n\nIn this session, we’ll show how to reimagine traditional forms by combining **Amazon Bedrock** with **AWS serverless services** like Lambda and API Gateway. You’ll learn how to capture user input and automatically generate dynamic, tailored documents—from optimized career profiles to travel agendas—powered by GenAI.\n\nWhether you’re a **developer looking to build smarter apps** or a **product owner exploring AI-driven experiences**, you’ll walk away with a practical blueprint for designing scalable, real-time document workflows that turn everyday forms into powerful automation tools.",
       "url": "https://www.meetup.com/ajolotesenlanube/events/310956941/",
@@ -11588,6 +12165,27 @@
       "hash_key": "import es2025 jquery from j4g js_2025-09-26T00:00:00+00:00"
     },
     {
+      "title": "Evento|MexAI, Comunidad de IA en Guadalajara, reunin de septiembre 2025|México|Jalisco",
+      "description": "https://www.eventbrite.com.mx/e/mexai-comunidad-de-ia-en-guadalajara-reunion-de-septiembre-2025-tickets-1730704566949\n\nSesin de septiembre de MexAI, la Comunidad de IA en Guadalajara, ven y conecta con otros apasionados por la inteligencia artificial!",
+      "url": "https://www.eventbrite.com.mx/e/mexai-comunidad-de-ia-en-guadalajara-reunion-de-septiembre-2025-tickets-1730704566949",
+      "location": "Instituto de Informacin Estadstica y Geogrfica IIEG, #71 Calzada de los Pirules, Zapopan, JAL 45010",
+      "organizer": "",
+      "dtstart": "2025-10-01T00:00:00+00:00",
+      "dtend": "2025-10-01T02:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?organizer=https%3A%2F%2Fwww.eventbrite.com.mx%2Fo%2Fmexai-comunidad-de-ia-106303535081",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Jalisco",
+      "state_code": "MX-JAL",
+      "city": "Zapopan",
+      "city_code": "zapopan",
+      "address": "Calz. de los Pirules #71, Granja, 45010 Zapopan, Jal., México",
+      "hash_key": "mexai comunidad de ia en guadalajara reunin de septiembre 2025_2025-10-01T00:00:00+00:00"
+    },
+    {
       "title": "product-management-society-cdmx-chapter|Product Management Networking Meetup|México|Ciudad de México",
       "description": "**We're bringing together PMs, founders, designers, and engineers for a relaxed evening of networking. If you're in the product world or want to be, come connect with your community. See you there!**\n\nAnyone interested in Product or trying to get into\nProduct Management is welcome. Our meetups typically include a mix of product managers, founders, marketers, engineers and product designers :) The event follows a relaxed format, giving the participants an opportunity to network with fellow product people.\n\n* Follow us on Linkedin: [https://www.linkedin.com/company/product-management-society/](https://www.linkedin.com/company/product-management-society/)\n* Join our Slack channel: [https://join.slack.com/t/product-mgmt-society/shared_invite/zt-2t477uzhc-0RWKnexUEQLmjlymeZ3_bg](https://join.slack.com/t/product-mgmt-society/shared_invite/zt-2t477uzhc-0RWKnexUEQLmjlymeZ3_bg)\n* Subscribe to our blog: [https://blog.productmanagementsociety.com/](https://blog.productmanagementsociety.com/)",
       "url": "https://www.meetup.com/product-management-society-cdmx-chapter/events/310991252/",
@@ -11608,27 +12206,6 @@
       "city_code": "cdmx",
       "address": "Libertario Coffee Roasters - Roma Norte, C. Orizaba 16, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico, Mexico City, MX",
       "hash_key": "product management networking meetup_2025-10-01T00:00:00+00:00"
-    },
-    {
-      "title": "Evento|MexAI, Comunidad de IA en Guadalajara, reunin de septiembre 2025|México|Jalisco",
-      "description": "https://www.eventbrite.com.mx/e/mexai-comunidad-de-ia-en-guadalajara-reunion-de-septiembre-2025-tickets-1730704566949\n\nSesin de septiembre de MexAI, la Comunidad de IA en Guadalajara, ven y conecta con otros apasionados por la inteligencia artificial!",
-      "url": "https://www.eventbrite.com.mx/e/mexai-comunidad-de-ia-en-guadalajara-reunion-de-septiembre-2025-tickets-1730704566949",
-      "location": "Instituto de Informacin Estadstica y Geogrfica IIEG, #71 Calzada de los Pirules, Zapopan, JAL 45010",
-      "organizer": "",
-      "dtstart": "2025-10-01T00:00:00+00:00",
-      "dtend": "2025-10-01T02:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?organizer=https%3A%2F%2Fwww.eventbrite.com.mx%2Fo%2Fmexai-comunidad-de-ia-106303535081",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Jalisco",
-      "state_code": "MX-JAL",
-      "city": "Zapopan",
-      "city_code": "zapopan",
-      "address": "Calz. de los Pirules #71, Granja, 45010 Zapopan, Jal., México",
-      "hash_key": "mexai comunidad de ia en guadalajara reunin de septiembre 2025_2025-10-01T00:00:00+00:00"
     },
     {
       "title": "digitaloceanmex|Hacktoberfest 2025 Kickoff: From Code to Community|Online",
@@ -12749,6 +13326,28 @@
       "hash_key": "mexico tech week 2025_2025-10-22T00:00:00+00:00"
     },
     {
+      "title": "mexico-kafka|Change Data Capture con Elixir|México|CDMX",
+      "description": "**IMPORTANT PLEASE RSVP HERE: https://luma.com/jib8cs90**\n\n\\*\\*\\*\nContinuamos con los meetups presenciales en la CDMX.\n\nHabrá un espacio de networking con comida y bebida donde podrás platicar con programadores de diferentes niveles e intereses.\n\nLa cita es el Martes 21 de Octubre a las 18:50 hrs.\n\nPara obtener la ubicación y el acceso físico al evento, **ES OBLIGATORIO** regístrarse en [https://luma.com/jib8cs90](https://luma.com/jib8cs90)\n\n**Change Data Capture.**\n**Por Raúl Estrada**\n\nDescubre cómo Elixir está revolucionando el mundo del **Change Data Capture (CDC)** con soluciones resilientes, eficientes y sin la carga de infraestructuras complejas. Raúl te llevará desde los enfoques tradicionales con Debezium y Kafka, hasta Sequin, una herramienta escrita 100% en Elixir que permite procesamiento *exactly-once*, *backfills* inteligentes, conectores a Kafka, y una arquitectura limpia y moderna.\nIdeal para quienes enfrentan retos con flujos de datos en tiempo real o desean explorar arquitecturas event-driven desde una perspectiva funcional.\n\n**¡Y como siempre, no faltarán las conversaciones, las risas y la buena vibra que hacen de esta comunidad algo único!**",
+      "url": "https://www.meetup.com/mexico-kafka/events/311454001/",
+      "location": "Presencial (Ubicación TBD)",
+      "organizer": "mexico-kafka",
+      "dtstart": "2025-10-21T19:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "data",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/mexico-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Presencial (Ubicación TBD)",
+      "hash_key": "change data capture con elixir_2025-10-22T00:00:00+00:00"
+    },
+    {
       "title": "embajadoras-cloud|Embajadoras Cloud en la Mexico Tech Week 2025|México|CDMX",
       "description": "# 🏠 Casa de las comunidades Clara y AWS \\| Embajadoras Cloud y Ajolotes en la Nube\n\n**POR FAVOR REGISTRATE EN ESTE LINK** (**no** aquí en meetup): [https://luma.com/rfe2s38m](https://luma.com/rfe2s38m)\n\n**DEBES TRAER EL QR QUE TE LLEGARÁ POR CORREO**\n\n​🚀 ¡Un Evento Histórico en la Nube de la CDMX! ☁️\n\n​La comunidad AWS en la Ciudad de México está de fiesta 🎉\n\nLos dos User Groups oficiales de AWS, Embajadoras Cloud y Ajolotes en la Nube, unimos fuerzas para organizar un evento épico en el marco de la #MexicoTechWeek2025.\n\n​📅 Marca en tu calendario: miércoles, 22 de octubre\n​🕕 Hora: 6:00 pm\n\n​No te puedes perder nuestra sesión estelar con nuestras invitadas de lujo:\n\n​✨ Hazel Saenz ✨\n\n​AWS Serverless Hero, Software Architect y Speaker Internacional. Hazel ha sido muy reconocida por su pasión y dedicación a la arquitectura serverless y la inteligencia artificial generativa, ¡una mente brillante que viene a compartir su conocimiento con nosotros!\n\n​🎤 Charla: \"Más no siempre significa mejor: Repensando el uso de multi-agentes en producción\"\n\n​Aprenderás a optimizar tus soluciones de IA y a usar la arquitectura de multi-agentes de manera más eficiente.\n\n​✨ Gabriela Mendez ✨\n\n​🎤 Charla: \"Aprender, diseñar, evolucionar: mi camino como Solutions Architect\"\n\n​Gabriela nos contará sobre su trayectoria profesional como Solutions Architect en AWS, desde sus primeros pasos en infraestructura hasta el diseño de soluciones en la nube. A través de tres ejes: Aprender, Diseñar y Evolucionar. Más que un recorrido técnico, es una historia sobre crecimiento, resiliencia y aprendizaje continuo.\n\n​Gracias a nuestros patrocinadores de primera: Patrocinado por @AWS y @Clara.\n\n​Prepárense para una noche de networking, conocimiento de alto nivel y muchas sorpresas que tenemos preparadas. ¡Es el evento de la comunidad AWS que no te puedes perder en la #MexicoTechWeek2025!\n\n​Regístrate y únete a esta colaboración histórica\n\n​#AWSCommunityMx #EmbajadorasCloud #AjolotesEnLaNube #AWSCommunity #Serverless #GenerativeAI #HazelSaenz #Clara",
       "url": "https://www.meetup.com/embajadoras-cloud/events/311633150/",
@@ -12917,6 +13516,27 @@
       "hash_key": "cost management and finops_2025-10-29T00:00:00+00:00"
     },
     {
+      "title": "Evento|MexAI, Comunidad de IA en Guadalajara, reunin de octubre 2025|México|Jalisco",
+      "description": "https://www.eventbrite.com.mx/e/mexai-comunidad-de-ia-en-guadalajara-reunion-de-octubre-2025-tickets-1873183605589\n\nSesin de octubre de MexAI, la Comunidad de IA en Guadalajara, ven y conecta con otros apasionados por la inteligencia artificial!",
+      "url": "https://www.eventbrite.com.mx/e/mexai-comunidad-de-ia-en-guadalajara-reunion-de-octubre-2025-tickets-1873183605589",
+      "location": "HackerGarage, 155 Calle Marsella #Int 105 A, Guadalajara, JAL 44160",
+      "organizer": "",
+      "dtstart": "2025-10-30T01:00:00+00:00",
+      "dtend": "2025-10-30T03:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?organizer=https%3A%2F%2Fwww.eventbrite.com.mx%2Fo%2Fmexai-comunidad-de-ia-106303535081",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Jalisco",
+      "state_code": "MX-JAL",
+      "city": "Guadalajara",
+      "city_code": "guadalajara",
+      "address": "Calle Marsella 155-Int 105 A, Col Americana, Lafayette, 44160 Guadalajara, Jal., México",
+      "hash_key": "mexai comunidad de ia en guadalajara reunin de octubre 2025_2025-10-30T00:00:00+00:00"
+    },
+    {
       "title": "thedatapub|Data Pub Octubre: Motor de crédito impulsado por IA en Bankaya|México|Ciudad de México",
       "description": "¡Atención Parroquian@s! 👋\n\nNos acercamos al cierre del año y tenemos un Meetup muy interesante este mes.\n\nContaremos con la presencia de Francys Lanza García, Data Scientist en Bankaya, especializada en soluciones de Machine Learning para riesgo y fraude en servicios financieros.\n\n**Motor de crédito impulsado por IA en Bankaya**\n\n¿De qué va la charla?\n\nBankaya desarrolló un motor de decisión de crédito de baja latencia que responde en segundos. Este motor utiliza fuentes de datos alternativas (eventos dentro de la aplicación, geolocalización, señales del dispositivo y transacciones en tiempo real) para evaluar perfiles con poco o nulo historial crediticio.\n\nEste motor está construido sobre un Feature Store unificado capaz de servir features en batch y en streaming, con versionado, linaje y consistencia estricta entre lo que el modelo ve en entrenamiento y en predicción. Sobre esta infraestructura se ejecutan pipelines de CI/CD/CT que permiten entrenar, validar y desplegar modelos en horas, con validaciones offline/online, despliegues canarios y rollback seguro, garantizando paridad de entorno (dependencias, runtimes y vistas de features) entre desarrollo y producción.\n\nEste motor ha mejorado la conversión, disminuido el riesgo del portafolio y acelerado los tiempos de aprobación, a la vez que ha permitido implementaciones sin fricción con socios comerciales. Al automatizar los ciclos de entrenamiento y despliegue, el equipo libera tiempo para enfocarse en innovación y nuevos productos, manteniendo el motor de crédito actualizado ante cambios de comportamiento y de mercado.\n\n\\-\\-\\-\n\nLa cita es este próximo **miercoles** 29 de octubre (2025) a las **7:00 pm (Hora de Ciudad de México)** en \"Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey\" [https://goo.gl/maps/eD5acVqaZ5MamH6T6](https://goo.gl/maps/eD5acVqaZ5MamH6T6) para aquellos que estén en la CDMX y también estaremos haciendo streaming del evento por nuestro canal de YouTube:\n\n[https://www.youtube.com/c/TheDataPubChannel](https://www.youtube.com/c/TheDataPubChannel/videos).\n\n¡Recuerden que al final tendremos networking 🌐!\n\n¡Esperamos verlos por acá!\n\nLa agenda es la siguiente:\n\n* 7:00pm - 7:30pm Bienvenida y Anuncios\n* 7:30pm - 8:45pm Motor de crédito impulsado por IA en Bankaya\n* 8:45pm - 10:00pm Chelas, pizzas y networking!\n\nPueden ir reservando su espacio registrándose en el evento.\n\n\\*El lugar cuenta con estacionamiento $50 pesos tiempo indefinido.\n\n¡Esperamos verlos por acá!\n\n\\- Data Pub",
       "url": "https://www.meetup.com/thedatapub/events/311481364/",
@@ -12940,27 +13560,6 @@
       "city_code": "cdmx",
       "address": "Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey, Av. Revolución 756, Ciudad de México, MX",
       "hash_key": "data pub octubre motor de crdito impulsado por ia en bankaya_2025-10-30T00:00:00+00:00"
-    },
-    {
-      "title": "Evento|MexAI, Comunidad de IA en Guadalajara, reunin de octubre 2025|México|Jalisco",
-      "description": "https://www.eventbrite.com.mx/e/mexai-comunidad-de-ia-en-guadalajara-reunion-de-octubre-2025-tickets-1873183605589\n\nSesin de octubre de MexAI, la Comunidad de IA en Guadalajara, ven y conecta con otros apasionados por la inteligencia artificial!",
-      "url": "https://www.eventbrite.com.mx/e/mexai-comunidad-de-ia-en-guadalajara-reunion-de-octubre-2025-tickets-1873183605589",
-      "location": "HackerGarage, 155 Calle Marsella #Int 105 A, Guadalajara, JAL 44160",
-      "organizer": "",
-      "dtstart": "2025-10-30T01:00:00+00:00",
-      "dtend": "2025-10-30T03:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?organizer=https%3A%2F%2Fwww.eventbrite.com.mx%2Fo%2Fmexai-comunidad-de-ia-106303535081",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Jalisco",
-      "state_code": "MX-JAL",
-      "city": "Guadalajara",
-      "city_code": "guadalajara",
-      "address": "Calle Marsella 155-Int 105 A, Col Americana, Lafayette, 44160 Guadalajara, Jal., México",
-      "hash_key": "mexai comunidad de ia en guadalajara reunin de octubre 2025_2025-10-30T00:00:00+00:00"
     },
     {
       "title": "eventloop|JSConf México 2025|México|Jalisco",
@@ -13077,6 +13676,27 @@
       "hash_key": "app dev nights cdmx building scalable apps_2025-11-12T00:00:00+00:00"
     },
     {
+      "title": "PythonCDMX|Sysadmin Horror Story - Historias de TECHrror para Sysdmins|México|Ciudad de México",
+      "description": "Obtén información actualizada en: https://luma.com/ena2z4t0\n\nDirección:\nConsulta la página del evento para obtener más detalles.\n\nOrganizado por PythonCDMX",
+      "url": "https://luma.com/ena2z4t0",
+      "location": "https://luma.com/event/evt-7wnWfzL3fKCj3Lf",
+      "organizer": "PythonCDMX",
+      "dtstart": "2025-11-12T00:30:00+00:00",
+      "dtend": "2025-11-12T03:00:00+00:00",
+      "tags": [
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-f8GxWvNMvBvvuLb",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "sysadmin horror story historias de techrror para sysdmins_2025-11-12T00:00:00+00:00"
+    },
+    {
       "title": "python-mexico|PythonCDMX🐍 Noviembre 2025 - Historias de TECHrror - Sysadmin Horror Story|México|Ciudad de México",
       "description": "**#PythonCDMX** 🐍 es un grupo de personas interesadas en aprender y compartir su conocimiento sobre el lenguaje de programación Python. El objetivo es estar en contacto con más gente interesada en innovación y tecnología.\n\n**🚨 IMPORTANTE: NUEVO SISTEMA DE REGISTRO**\n**A partir de ahora ya no se aceptarán registros en Meetup.**\n**Estamos migrando a Luma, nuestra nueva plataforma de registro y comunidad.**\n**👉 Regístrate aquí para obtener tu QR de acceso:**\n**🔗 [https://luma.com/ena2z4t0](https://luma.com/ena2z4t0)**\n\n¡Estamos emocionados de anunciar que este mes lo haremos en las increíbles oficinas de CLARA!\n\nHabrá un tiempo de networking donde podrás platicar con programadores de diferentes niveles e intereses.\n\nY para ponerle aún más energía, prepárate para compartir tus conocimientos durante nuestras ***Lightning Talks.***\n**¡Es tu oportunidad de impactar con ideas frescas y compartir lo que sabes!**\n\nLa cita es el **Martes 11 de Noviembre a las 18:30 en las oficinas de Clara México** ([Google Maps](https://maps.app.goo.gl/NPvkQjisJWY9ySyS7)).\n\n***«Sysadmin Horror Story - Historias de TECHrror para Sysdmins***»\n*Por: Alex Callejas*\nEn está ocasión nuestro ponente, Alex Callejas, nos dará una adaptación libre de historias de terror clásicas (Edgar Allan Poe, Neil Gaiman) sobre las historias más terroríficas vividas en la administración de sistemas.\n\n**​Alex Callejas** es Content Architect de Red Hat, basado en la Ciudad de México. Con más de 25 años de experiencia como Sysadmin, tiene una fuerte experiencia en el endurecimiento de la infraestructura y la automatización. Entusiasta del código abierto, apoya a la comunidad compartiendo su conocimiento en diferentes eventos de acceso público y universidades. Autor del libro \"Fedora Linux System Administrator\" de Packt.\n\n**--> Transmisión en vivo <--**\n[YouTube](https://www.youtube.com/@PythonMexico/streams)\n\n**--> Unete al grupo de telegram y platica con más pythonistas <--**\n[https://t.me/PythonCDMX](https://t.me/PythonCDMX)",
       "url": "https://www.meetup.com/python-mexico/events/311766843/",
@@ -13098,27 +13718,6 @@
       "city_code": "cdmx",
       "address": "Clara, Av Sonora 46, Roma Nte., Cuauhtémoc, 06700, Mexico City, MX",
       "hash_key": "pythoncdmx noviembre 2025 historias de techrror sysadmin horror story_2025-11-12T00:00:00+00:00"
-    },
-    {
-      "title": "PythonCDMX|Sysadmin Horror Story - Historias de TECHrror para Sysdmins|México|Ciudad de México",
-      "description": "Obtén información actualizada en: https://luma.com/ena2z4t0\n\nDirección:\nConsulta la página del evento para obtener más detalles.\n\nOrganizado por PythonCDMX",
-      "url": "https://luma.com/ena2z4t0",
-      "location": "https://luma.com/event/evt-7wnWfzL3fKCj3Lf",
-      "organizer": "PythonCDMX",
-      "dtstart": "2025-11-12T00:30:00+00:00",
-      "dtend": "2025-11-12T03:00:00+00:00",
-      "tags": [
-        "python"
-      ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-f8GxWvNMvBvvuLb",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "Ciudad de México, CDMX, México",
-      "hash_key": "sysadmin horror story historias de techrror para sysdmins_2025-11-12T00:00:00+00:00"
     },
     {
       "title": "ai-cdmx|AI Experience – Agentic AI en el Sector Financiero - GBM/Datapub/AICDMX|México|Ciudad de México",
@@ -13704,6 +14303,29 @@
       "hash_key": "pytalavera mixtli posada_2025-12-13T22:00:00+00:00"
     },
     {
+      "title": "awsugmixtli|Networking navideño|México|Puebla",
+      "description": "Hola a todos.\n\nEstamos muy emocionados de invitarlos a nuestro meetup de diciembre. En **PyTalavera** y en **AWS User Group Mixtli** queremos cerrar este año de la mejor manera: aprendiendo, agradeciendo y compartiendo con la comunidad que nos ha acompañado en cada paso.\n\nEste evento será una oportunidad para convivir, hacer networking y seguir creciendo juntos.\n\nTendremos charlas llenas de valor y la visita de nuestro invitado especial, **David Sol**. También planeamos algunas sorpresas especiales para despedir el año.\n\nLa cita es el sábado 13 de diciembre de 2025 en Valenza, Casa de Creativos, ubicada en Av. Venustiano Carranza 205, San Baltazar Campeche, Puebla.\n\nAcompáñennos en esta última reunión del año para celebrar, aprender y conectar. ¡Los esperamos!",
+      "url": "https://www.meetup.com/awsugmixtli/events/312249761/",
+      "location": "Valenza Casa de Creativos, Av. Venustiano Carranza 205, San Baltazar Campeche, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-12-13T17:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "cloud",
+        "frontend",
+        "python"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "networking navideo_2025-12-13T22:00:00+00:00"
+    },
+    {
       "title": "Evento|Comunidad de IA en Guadalajara, reunin de diciembre 2025|México|Jalisco",
       "description": "https://www.eventbrite.com.mx/e/comunidad-de-ia-en-guadalajara-reunion-de-diciembre-2025-tickets-1976205171867\n\n!Ven a nuestra reunin mensual de MexAI, la Comunidad de IA de Jalisco para conectarte con otros apasionados por la inteligencia artificial",
       "url": "https://www.eventbrite.com.mx/e/comunidad-de-ia-en-guadalajara-reunion-de-diciembre-2025-tickets-1976205171867",
@@ -13879,6 +14501,27 @@
       "city_code": "cdmx",
       "address": "amazon headquarters, piso 5",
       "hash_key": "re cap re invent 2025 aws community_2026-01-16T00:00:00+00:00"
+    },
+    {
+      "title": "Gabriel Gómez Téllez|Meetup Enero Python Puebla|México|Puebla",
+      "description": "Obtén información actualizada en: https://luma.com/lkjf5ejr\n\nDirección:\nValenza Casa de Creativos - Plaza Dorada\nHeroica Puebla de Zaragoza, Puebla\nMéxico\n\nOrganizado por Gabriel Gómez Téllez",
+      "url": "https://luma.com/lkjf5ejr",
+      "location": "Valenza Casa de Creativos - Plaza Dorada, Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
+      "organizer": "Gabriel Gómez Téllez",
+      "dtstart": "2026-01-16T00:30:00+00:00",
+      "dtend": "2026-01-16T04:30:00+00:00",
+      "tags": [
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "meetup enero python puebla_2026-01-16T00:00:00+00:00"
     },
     {
       "title": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)|Cariño, encogí el modelo - Honey, I Shrunk the Model|México|Ciudad de México",

@@ -6,6 +6,28 @@ X-WR-CALDESC:Calendario unificado de eventos tech en Puebla\, México
 X-WR-CALNAME:Eventos Tech Puebla - cronquiles
 X-WR-TIMEZONE:America/Mexico_City
 BEGIN:VEVENT
+SUMMARY:awsugmixtli|Networking navideño|México|Puebla
+DTSTART:20241211T183000
+CATEGORIES:cloud
+DESCRIPTION:🎄 Ya viene la navidad y queremos compartir con ustedes ante
+ s de que se acabe el año! 🎁\n\nEn este evento buscamos compartir y hac
+ er una sesión de networking. Hablemos de la nube en un espacio más infor
+ mal y también conozcamos más de nuestra comunidad de expertos y aficiona
+ dos de la nube en Puebla.\n\nLos esperamos\, en una tarde con café y ané
+ ctodas llenas de AWS ☁️.\n\n📅 Miércoles\, 11 de diciembre de 2024\
+ n🕔 18:30 hrs\n📍 R&E Specialty Coffee
+LOCATION:R&E Specialty Coffee\, Av. Juárez 1312\, Col. Centro\, Puebla\, 
+ MX
+X-CRONQUILES-ADDRESS:Av. Juárez 1312-interior 1\, La Paz\, 72160 Heroica 
+ Puebla de Zaragoza\, Pue.\, México
+X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
+X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Puebla
+X-CRONQUILES-STATE-CODE:MX-PUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Gabriel Gómez Téllez|Charlas de Python y partida de Rosca|Méxic
  o|Puebla
 DTSTART:20250110T003000Z
@@ -18,6 +40,29 @@ LOCATION:Valenza Casa de Creativos - Plaza Dorada\, Av. Venustiano Carranz
  Mexico
 X-CRONQUILES-ADDRESS:Av. Venustiano Carranza 205\, San Baltazar Campeche\,
   72550 Heroica Puebla de Zaragoza\, Pue.\, México
+X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
+X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Puebla
+X-CRONQUILES-STATE-CODE:MX-PUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:awsugmixtli|AWS Community re:Invent re:Cap 🌠|México|Puebla
+DTSTART:20250123T180000
+CATEGORIES:cloud,mobile
+DESCRIPTION:¡Acompáñanos a conocer los anuncios del re:Invent!\n\nCon n
+ uestro **invitado especial** [David Victoria](https://www.linkedin.com/in/
+ vikomex/) (AWS Ambassador y Senior Cloud Architect @ [Caylent](https://cay
+ lent.com/)) te traemos lo más destacado del re:Invent.\n\nCon David vamos
+  a conocer los anuncios más importantes de AWS y las tendencias que podem
+ os esperar este 2025 tanto en la computación en la nube como de parte de 
+ AWS.\n\n🗓 **Fecha:** Jueves\, 23 de enero\n⏰ **Hora:** 6:00 PM\n📍 
+ **Lugar:** [Workósfera Coworking](https://g.co/kgs/bL1RpBM)
+LOCATION:Workósfera Coworking - La Paz\, Calle Cholula 35\, La Paz\, Pueb
+ la\, MX
+X-CRONQUILES-ADDRESS:Cholula 35\, La Paz\, 72160 Heroica Puebla de Zaragoz
+ a\, Pue.\, México
 X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
 X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
 X-CRONQUILES-COUNTRY:México
@@ -46,6 +91,37 @@ X-CRONQUILES-STATE:Puebla
 X-CRONQUILES-STATE-CODE:MX-PUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:awsugmixtli|Despliegue automatizado: AWS ECS y GitHub Actions|Méx
+ ico|Puebla
+DTSTART:20250227T183000
+CATEGORIES:ai,cloud,devops,frontend,mobile
+DESCRIPTION:🚀 Acompáñenos en esta sesión práctica donde se aprender
+ á a automatizar despliegues en AWS ECS utilizando GitHub Actions!\nPara q
+ uienes están cansados de los despliegues manuales\, esta charla revelará
+  cómo implementar un pipeline de CI/CD profesional que llevará el códig
+ o desde el repositorio hasta producción en AWS ECS de manera automática 
+ y segura.\n\n👨‍💻 Los participantes aprenderán:\n\n* Configuració
+ n paso a paso de GitHub Actions\n* Mejores prácticas para despliegues en 
+ ECS\n* Tips para optimizar su pipeline\n* Estrategias de seguridad en la a
+ utomatización\n\nTanto para quienes están comenzando con AWS como para u
+ suarios avanzados\, esta sesión ofrece valor donde la teoría se conviert
+ e en práctica.\n\n¡Una oportunidad para llevar las habilidades de DevOps
+  al siguiente nivel! 🔥\n\n📅 27 de febrero\n🕐 6:30pm - 8:30pm\n
+ 📍 [Workósfera Coworking](https://maps.app.goo.gl/8aiwimKMHy1EnyCg9)\n\
+ n¡Los cupos son limitados! Se recomienda asegurar el lugar y unirse a est
+ a comunidad de entusiastas de AWS. ¡Los esperamos! 🤝
+LOCATION:Workósfera Coworking - La Paz\, Calle Cholula 35\, La Paz\, Pueb
+ la\, MX
+X-CRONQUILES-ADDRESS:Cholula 35\, La Paz\, 72160 Heroica Puebla de Zaragoz
+ a\, Pue.\, México
+X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
+X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Puebla
+X-CRONQUILES-STATE-CODE:MX-PUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Gabriel Gómez Téllez|Python Charlas en Puebla + Networking|Méxi
  co|Puebla
 DTSTART:20250307T003000Z
@@ -58,6 +134,46 @@ LOCATION:Valenza Casa de Creativos - Plaza Dorada\, Av. Venustiano Carranz
  Mexico
 X-CRONQUILES-ADDRESS:Av. Venustiano Carranza 205\, San Baltazar Campeche\,
   72550 Heroica Puebla de Zaragoza\, Pue.\, México
+X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
+X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Puebla
+X-CRONQUILES-STATE-CODE:MX-PUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:awsugmixtli|AWS: El Secreto para Acceder a Más y Mejores Oportuni
+ dades Laborales|México|Puebla
+DTSTART:20250327T183000
+CATEGORIES:ai,cloud,frontend,python,security
+DESCRIPTION:**¿Te gustaría mejorar tu perfil profesional y acceder a má
+ s oportunidades laborales?** Únete a nuestro meetup y descubre cómo AWS 
+ puede impulsar tu carrera\, sin importar tu experiencia o perfil. Ya seas 
+ desarrollador\, trabajes con machine learning\, ia\, redes o cibersegurida
+ d\, esta charla es para ti.\n\nTe explicaremos cómo la nube puede potenci
+ ar tu perfil y cómo obtener **certificaciones en AWS\, ¡incluso gratis!*
+ * Además\, te daremos tips para tomar la certificación\, consejos para h
+ acer tu perfil más atractivo para reclutadores\, y plataformas que te ayu
+ darán a certificarte rápidamente.\n\n**¿Por qué ahora?**\nCon la expan
+ sión de AWS en Querétaro\, se crearán más de 7\,000 empleos y una inve
+ rsión de más de $5\,000 millones\, lo que genera una gran **demanda de e
+ xpertos en la nube.**\n\n**Dinámicas divertidas:**\n🍀 **Gana una AWS B
+ uilder Card:** Durante el evento\, tendrás la oportunidad de ganar una AW
+ S Builder Card\, una excelente herramienta para impulsar tu aprendizaje en
+  la nube. Esta es la segunda edición de las Builder Cards\, traídas dire
+ ctamente desde el evento AWS re:Invent 2024. ¡No te lo puedes perder! 
+ 🚀\n🎉 **Gana una tarjeta exclusiva de AWS re:Invent 2024:** También 
+ podrás ganar una tarjeta exclusiva de ese evento 🎁\n🍕 **Disfruta de
+  pizza y bebidas:** Mientras aprendes\, disfruta de un ambiente relajado c
+ on pizza y bebidas\, ¡perfecto para compartir experiencias con otros prof
+ esionales! 🍻\n**Detalles del Evento:**\n\n* 📅 Fecha: 27 de marzo\n* 
+ 🕐 Hora: 6:30 pm - 8:30 pm\n* 📍 Ubicación: [Workósfera Coworking ](
+ https://maps.app.goo.gl/Q3RAVTPPy6X84qGKA)\n\n**¡Los cupos son limitados!
+ ** Asegura tu lugar y únete a una comunidad de entusiastas de AWS.
+LOCATION:Workósfera Coworking - La Paz\, Calle Cholula 35\, La Paz\, Pueb
+ la\, MX
+X-CRONQUILES-ADDRESS:Cholula 35\, La Paz\, 72160 Heroica Puebla de Zaragoz
+ a\, Pue.\, México
 X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
 X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
 X-CRONQUILES-COUNTRY:México
@@ -86,6 +202,38 @@ X-CRONQUILES-STATE:Puebla
 X-CRONQUILES-STATE-CODE:MX-PUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:awsugmixtli|De Golang a la Nube: Mi viaje hacia Cloud Native con A
+ WS|México|Puebla
+DTSTART:20250424T183000
+CATEGORIES:backend,cloud,devops,frontend,mobile
+DESCRIPTION:Para quienes buscan mejorar la escalabilidad y visibilidad en 
+ sus sistemas\, esta sesión compartirá cómo se migraron APIs desarrollad
+ as en Go desde un entorno on-premise a la nube\, enfrentando desafíos té
+ cnicos\, tomando decisiones clave y utilizando tecnologías como EC2 y Kub
+ ernetes en EKS.\n\n👨‍💻 **En esta charla aprenderás:**\n\n* El pro
+ ceso de migración en dos fases: EC2 y Kubernetes en EKS\n* Cómo superar 
+ la falta de escalabilidad y visibilidad en sistemas existentes\n* Herramie
+ ntas y decisiones clave para modernizar una arquitectura crítica\n* Retos
+  técnicos y lecciones aprendidas en el camino\n\nTanto si eres nuevo en l
+ a nube como si ya tienes experiencia\, esta charla te ofrecerá valiosos i
+ nsights y ejemplos prácticos.\n\n🍻 Además\, disfrutarás de bebidas f
+ rías\, un espacio para **networking** y un momento para **aprender jugand
+ o** con las **AWS BuilderCards**.\n\n📅 24 de abril\n🕐 6:30pm - 8:30p
+ m\n📍 [Valenza Casa de Creativos](https://maps.app.goo.gl/Xm2LR4GSEtFPBd
+ aQ8)\n\n¡Los cupos son limitados! Asegura tu lugar y conecta con otros ap
+ asionados de la nube. ¡Te esperamos! 🤝
+LOCATION:Valenza Casa de Creativos\, Av. Venustiano Carranza 205\, San Bal
+ tazar Campeche\, Puebla\, MX
+X-CRONQUILES-ADDRESS:Av. Venustiano Carranza 205\, San Baltazar Campeche\,
+  72550 Heroica Puebla de Zaragoza\, Pue.\, México
+X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
+X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Puebla
+X-CRONQUILES-STATE-CODE:MX-PUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Gabriel Gómez Téllez|Python Charlas en Puebla + Networking|Méxi
  co|Puebla
 DTSTART:20250509T003000Z
@@ -95,6 +243,39 @@ DESCRIPTION:Obtén información actualizada en: https://luma.com/x9gk52xh\
  \n\nOrganizado por Gabriel Gómez Téllez
 LOCATION:https://luma.com/event/evt-8Ah6biGds3SNehq
 X-CRONQUILES-ADDRESS:Heroica Puebla de Zaragoza\, Pue.\, México
+X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
+X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Puebla
+X-CRONQUILES-STATE-CODE:MX-PUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:awsugmixtli|Navegando el universo de la Inteligencia Artifical en 
+ AWS|México|Puebla
+DTSTART:20250529T183000
+CATEGORIES:cloud,frontend,mobile,python
+DESCRIPTION:¿Alguna vez has soñado con tener un asistente de IA que enti
+ enda tu código mejor que tu compañero de cubículo? ¡Esta charla es par
+ a ti! Acompáñanos en un viaje divertido pero práctico por el ecosistema
+  de servicios de IA de AWS.\n\nAprenderemos cómo estos servicios pueden c
+ onvertirte en el desarrollador "con superpoderes" que siempre quisiste ser
+ \, sin necesidad de un accidente radioactivo. Aprenderás a utilizar model
+ os fundacionales con Bedrock más rápido que preparar un café instantán
+ eo\, a conversar con Amazon Q cuando tu rubber duck ya no te da respuestas
+ \, y a disfrutar del Vibe coding que hace que tu IDE parezca leer tu mente
+  (¡aunque a veces se ponga filosófico y te sugiera código que ni tú en
+ tiendes!).\n\nTanto si eres nuevo en la nube como si ya tienes experiencia
+ \, esta charla te ofrecerá valiosos insights y ejemplos prácticos para o
+ ptimizar tu tiempo con la Inteligencia Artificial.\n\n🍻 Además\, disfr
+ utarás de bebidas frías\, un espacio para **networking** y más**.**\n\n
+ 📅 29 de mayo\n🕐 6:30pm - 8:30pm\n📍 [Workósfera Coworking](https:
+ //maps.app.goo.gl/Q3RAVTPPy6X84qGKA)\n\n¡Los cupos son limitados! Asegura
+  tu lugar y conecta con otros apasionados de la nube. ¡Te esperamos! 🤝
+LOCATION:Workósfera Coworking - La Paz\, Calle Cholula 35\, La Paz\, Pueb
+ la\, MX
+X-CRONQUILES-ADDRESS:Cholula 35\, La Paz\, 72160 Heroica Puebla de Zaragoz
+ a\, Pue.\, México
 X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
 X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
 X-CRONQUILES-COUNTRY:México
@@ -142,6 +323,39 @@ X-CRONQUILES-STATE:Puebla
 X-CRONQUILES-STATE-CODE:MX-PUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:awsugmixtli|Implementando DevSecOps para entornos de nube: Primero
+ s Pasos|México|Puebla
+DTSTART:20250731T183000
+CATEGORIES:cloud,devops,frontend,mobile,security
+DESCRIPTION:### **¿Te interesa saber qué es DevSecOps y cómo aplicarlo 
+ en entornos de nube?**\n\nEste meetup es una excelente oportunidad para da
+ r tus primeros pasos en esta práctica que está transformando la manera e
+ n que desarrollamos software seguro.\n\nDevSecOps busca integrar la seguri
+ dad desde las etapas iniciales del desarrollo\, fomentando una colaboraci
+ ón continua entre desarrollo\, operaciones y seguridad. En esta charla ap
+ renderás cómo empezar a implementar DevSecOps combinando servicios nativ
+ os de AWS con tecnologías Open Source\, automatizando controles\, detecta
+ ndo riesgos a tiempo y adoptando el enfoque **“shift left”**.\n\nEstá
+  dirigido a desarrolladores\, DevOps\, personas interesadas en la nube o s
+ implemente quienes quieran entender cómo construir aplicaciones más segu
+ ras y resilientes desde el principio.\n\n🔧 No necesitas experiencia pre
+ via en seguridad: solo curiosidad y ganas de aprender.\n🍻Además\, disf
+ ruta de bebidas\, comida\, networking y más.\nConecta con personas que co
+ mparten tu interés por la tecnología y la nube.\n\n📅 **Jueves 31 de j
+ ulio**\n🕐 **6:30 PM - 8:30 PM**\n📍 **[Workósfera Coworking](https:/
+ /maps.app.goo.gl/mvEtyGobFTC6Mubx9)**
+LOCATION:Workósfera Coworking - La Paz\, Calle Cholula 35\, La Paz\, Pueb
+ la\, MX
+X-CRONQUILES-ADDRESS:Cholula 35\, La Paz\, 72160 Heroica Puebla de Zaragoz
+ a\, Pue.\, México
+X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
+X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Puebla
+X-CRONQUILES-STATE-CODE:MX-PUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Gabriel Gómez Téllez|Aprende Serverless con Python (Taller + Net
  working Gratis)|México|Puebla
 DTSTART:20250808T003000Z
@@ -154,6 +368,37 @@ LOCATION:Valenza Casa de Creativos - Plaza Dorada\, Av. Venustiano Carranz
  Mexico
 X-CRONQUILES-ADDRESS:Av. Venustiano Carranza 205\, San Baltazar Campeche\,
   72550 Heroica Puebla de Zaragoza\, Pue.\, México
+X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
+X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Puebla
+X-CRONQUILES-STATE-CODE:MX-PUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:awsugmixtli|Acelerando el desarollo: Aplicaciones web con AWS Ampl
+ ify ✨|México|Puebla
+DTSTART:20250828T183000
+CATEGORIES:backend,cloud,frontend,mobile,security,web
+DESCRIPTION:### **¿Te interesa saber qué es DevSecOps y cómo aplicarlo 
+ en entornos de nube?**\n\nEn esta charla exploraremos cómo AWS Amplify pe
+ rmite a desarrolladores frontend construir aplicaciones web y móviles com
+ pletas de forma rápida\, segura y escalable\, sin necesidad de ser expert
+ os en backend. Desde la autenticación de usuarios con Amazon Cognito hast
+ a la gestión de datos en tiempo real con AppSync y la integración con al
+ macenamiento\, analizaremos cómo aprovechar el poder de la nube con simpl
+ es líneas de código. Verás en acción cómo Amplify simplifica tareas c
+ omplejas y acelera el ciclo de desarrollo\, reduciendo fricción y tiempo 
+ al mercado. Ideal para quienes quieren enfocarse en la experiencia del usu
+ ario sin sacrificar robustez en la infraestructura.\n\n🍻Disfruta de beb
+ idas\, comida\, networking y más.\n\n👥Conecta con personas que compart
+ en tu interés por la tecnología y la nube.\n\n📅 **Jueves 28 de agosto
+ **\n🕐 **6:30 PM - 8:30 PM**\n📍 **[Workósfera Coworking](https://map
+ s.app.goo.gl/mvEtyGobFTC6Mubx9)**
+LOCATION:Workósfera Coworking - La Paz\, Calle Cholula 35\, La Paz\, Pueb
+ la\, MX
+X-CRONQUILES-ADDRESS:Cholula 35\, La Paz\, 72160 Heroica Puebla de Zaragoz
+ a\, Pue.\, México
 X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
 X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
 X-CRONQUILES-COUNTRY:México
@@ -176,6 +421,40 @@ X-CRONQUILES-ADDRESS:C. 14 Pte. 111-Local 11\, San Juan Aquiahuac\, 72810
  San Andrés Cholula\, Pue.\, México
 X-CRONQUILES-CITY:San Andrés Cholula
 X-CRONQUILES-CITY-CODE:sanandrescholula
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Puebla
+X-CRONQUILES-STATE-CODE:MX-PUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:awsugmixtli|IA Generativa con Amazon Bedrock 🤖|México|Puebla
+DTSTART:20250925T183000
+CATEGORIES:backend,cloud,frontend,mobile,python
+DESCRIPTION:**¿Siempre has querido construir aplicaciones con IA Generati
+ va pero pensaste que era demasiado complejo? 🤔 ¡Piénsalo de nuevo!**\
+ n\nEn esta charla dinámica y 100% práctica\, desmitificaremos la IA Gene
+ rativa y te mostraremos cómo puedes empezar a crear potentes aplicaciones
+  utilizando **Amazon Bedrock**\, el servicio de AWS que te da acceso a los
+  mejores modelos fundacionales (como Claude\, Llama\, y Titan) a través d
+ e una simple API.\nDescubre cómo con scripts de **menos de 100 líneas de
+  código en Python** puedes construir:\n\n* Un chatbot que entiende y resp
+ onde a tus usuarios.\n* Un generador de contenido creativo para marketing 
+ o redes sociales.\n* Herramientas que resumen documentos extensos en segun
+ dos.\n\nNo importa si eres un desarrollador experimentado o apenas estás 
+ comenzando tu viaje en la nube\, saldrás de esta sesión con el conocimie
+ nto y el código listo para integrar la IA Generativa en tus propios proye
+ ctos. 🚀\n\n**¡Prepárate para sorprenderte de lo fácil que es empezar
+  a construir el futuro! ¡No te lo puedes perder!**\n\n🍻Disfruta de beb
+ idas\, comida\, networking y más.\n\n👥Conecta con personas que compart
+ en tu interés por la tecnología y la nube.\n\n📅 **Jueves 25 de septie
+ mbre**\n🕐 **6:30 PM - 8:30 PM**\n📍 **[Workósfera Coworking](https:/
+ /maps.app.goo.gl/mvEtyGobFTC6Mubx9)**
+LOCATION:Workósfera Coworking - La Paz\, Calle Cholula 35\, La Paz\, Pueb
+ la\, MX
+X-CRONQUILES-ADDRESS:Cholula 35\, La Paz\, 72160 Heroica Puebla de Zaragoz
+ a\, Pue.\, México
+X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
+X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Puebla
@@ -211,6 +490,51 @@ DESCRIPTION:Obtén información actualizada en: https://luma.com/s3rpjdgx\
 LOCATION:Valenza Casa de Creativos - Plaza Dorada\, Av. Venustiano Carranz
  a 205\, San Baltazar Campeche\, 72550 Heroica Puebla de Zaragoza\, Pue.\, 
  Mexico
+X-CRONQUILES-ADDRESS:Av. Venustiano Carranza 205\, San Baltazar Campeche\,
+  72550 Heroica Puebla de Zaragoza\, Pue.\, México
+X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
+X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Puebla
+X-CRONQUILES-STATE-CODE:MX-PUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:awsugmixtli|Networking navideño|México|Puebla
+DTSTART:20251213T170000
+CATEGORIES:cloud,frontend,python
+DESCRIPTION:Hola a todos.\n\nEstamos muy emocionados de invitarlos a nuest
+ ro meetup de diciembre. En **PyTalavera** y en **AWS User Group Mixtli** q
+ ueremos cerrar este año de la mejor manera: aprendiendo\, agradeciendo y 
+ compartiendo con la comunidad que nos ha acompañado en cada paso.\n\nEste
+  evento será una oportunidad para convivir\, hacer networking y seguir cr
+ eciendo juntos.\n\nTendremos charlas llenas de valor y la visita de nuestr
+ o invitado especial\, **David Sol**. También planeamos algunas sorpresas 
+ especiales para despedir el año.\n\nLa cita es el sábado 13 de diciembre
+  de 2025 en Valenza\, Casa de Creativos\, ubicada en Av. Venustiano Carran
+ za 205\, San Baltazar Campeche\, Puebla.\n\nAcompáñennos en esta última
+  reunión del año para celebrar\, aprender y conectar. ¡Los esperamos!
+LOCATION:Valenza Casa de Creativos\, Av. Venustiano Carranza 205\, San Bal
+ tazar Campeche\, Puebla\, MX
+X-CRONQUILES-ADDRESS:Av. Venustiano Carranza 205\, San Baltazar Campeche\,
+  72550 Heroica Puebla de Zaragoza\, Pue.\, México
+X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
+X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Puebla
+X-CRONQUILES-STATE-CODE:MX-PUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gabriel Gómez Téllez|Meetup Enero Python Puebla|México|Puebla
+DTSTART:20260116T003000Z
+CATEGORIES:python
+DESCRIPTION:Obtén información actualizada en: https://luma.com/lkjf5ejr\
+ n\nDirección:\nValenza Casa de Creativos - Plaza Dorada\nHeroica Puebla d
+ e Zaragoza\, Puebla\nMéxico\n\nOrganizado por Gabriel Gómez Téllez
+LOCATION:Valenza Casa de Creativos - Plaza Dorada\, Av. Venustiano Carranz
+ a 205\, San Baltazar Campeche\, 72550 Heroica Puebla de Zaragoza\, Pue.\, 
+ México
 X-CRONQUILES-ADDRESS:Av. Venustiano Carranza 205\, San Baltazar Campeche\,
   72550 Heroica Puebla de Zaragoza\, Pue.\, México
 X-CRONQUILES-CITY:Heroica Puebla de Zaragoza

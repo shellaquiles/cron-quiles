@@ -15025,5 +15025,504 @@
       "establishment",
       "point_of_interest"
     ]
+  },
+  "Valenza Casa de Creativos - Plaza Dorada, Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México": {
+    "address_components": [
+      {
+        "long_name": "205",
+        "short_name": "205",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Venustiano Carranza",
+        "short_name": "Av. Venustiano Carranza",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "San Baltazar Campeche",
+        "short_name": "San Baltazar Campeche",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Heroica Puebla de Zaragoza",
+        "short_name": "Heroica Puebla de Zaragoza",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Puebla",
+        "short_name": "Pue.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "72550",
+        "short_name": "72550",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
+    "geometry": {
+      "location": {
+        "lat": 19.0246895,
+        "lng": -98.2072277
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.0260626302915,
+          "lng": -98.2058666197085
+        },
+        "southwest": {
+          "lat": 19.0233646697085,
+          "lng": -98.20856458029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.0246857,
+          "longitude": -98.2072309
+        }
+      }
+    ],
+    "place_id": "ChIJXUbCsVfBz4URMrquZqTcO-A",
+    "plus_code": {
+      "compound_code": "2QFV+V4 Heroica Puebla de Zaragoza, Pue., México",
+      "global_code": "76F32QFV+V4"
+    },
+    "types": [
+      "art_gallery",
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "Valenza Casa de Creativos, Av. Venustiano Carranza 205, San Baltazar Campeche, Puebla, MX": {
+    "address_components": [
+      {
+        "long_name": "205",
+        "short_name": "205",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Venustiano Carranza",
+        "short_name": "Av. Venustiano Carranza",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "San Baltazar Campeche",
+        "short_name": "San Baltazar Campeche",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Heroica Puebla de Zaragoza",
+        "short_name": "Heroica Puebla de Zaragoza",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Puebla",
+        "short_name": "Pue.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "72550",
+        "short_name": "72550",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
+    "geometry": {
+      "location": {
+        "lat": 19.0246895,
+        "lng": -98.2072277
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.0260626302915,
+          "lng": -98.2058666197085
+        },
+        "southwest": {
+          "lat": 19.0233646697085,
+          "lng": -98.20856458029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.0246857,
+          "longitude": -98.2072309
+        }
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJXUbCsVfBz4URMrquZqTcO-A",
+    "plus_code": {
+      "compound_code": "2QFV+V4 Heroica Puebla de Zaragoza, Pue., México",
+      "global_code": "76F32QFV+V4"
+    },
+    "types": [
+      "art_gallery",
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "Workósfera Coworking - La Paz, Calle Cholula 35, La Paz, Puebla, MX": {
+    "address_components": [
+      {
+        "long_name": "35",
+        "short_name": "35",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Cholula",
+        "short_name": "Cholula",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "La Paz",
+        "short_name": "La Paz",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Heroica Puebla de Zaragoza",
+        "short_name": "Heroica Puebla de Zaragoza",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Puebla",
+        "short_name": "Pue.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "72160",
+        "short_name": "72160",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+    "geometry": {
+      "location": {
+        "lat": 19.0536482,
+        "lng": -98.2273264
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.0549712802915,
+          "lng": -98.2259923197085
+        },
+        "southwest": {
+          "lat": 19.0522733197085,
+          "lng": -98.2286902802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.0536512,
+          "longitude": -98.22732959999999
+        }
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJfQ0djR_Hz4URQhDsTxlXJdQ",
+    "plus_code": {
+      "compound_code": "3Q3F+F3 Heroica Puebla de Zaragoza, Pue., México",
+      "global_code": "76F33Q3F+F3"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "Wizeline, Av. P.º de la Reforma 296-Piso 32, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico, Mexico City, MX": {
+    "address_components": [
+      {
+        "long_name": "Piso 32",
+        "short_name": "Piso 32",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "296",
+        "short_name": "296",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Paseo de la Reforma",
+        "short_name": "Av. P.º de la Reforma",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Juárez",
+        "short_name": "Juárez",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06600",
+        "short_name": "06600",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. P.º de la Reforma 296-Piso 32, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4273871,
+        "lng": -99.1652376
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4288640802915,
+          "lng": -99.1639580197085
+        },
+        "southwest": {
+          "lat": 19.4261661197085,
+          "lng": -99.16665598029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.427587,
+          "longitude": -99.165346
+        }
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJiWjuikr_0YURRQJWZJfYUX8",
+    "plus_code": {
+      "compound_code": "CRGM+XW Ciudad de México, CDMX, México",
+      "global_code": "76F2CRGM+XW"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "R&E Specialty Coffee, Av. Juárez 1312, Col. Centro, Puebla, MX": {
+    "address_components": [
+      {
+        "long_name": "interior 1",
+        "short_name": "interior 1",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "1312",
+        "short_name": "1312",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Juárez",
+        "short_name": "Av. Juárez",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "La Paz",
+        "short_name": "La Paz",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Heroica Puebla de Zaragoza",
+        "short_name": "Heroica Puebla de Zaragoza",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Puebla",
+        "short_name": "Pue.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "72160",
+        "short_name": "72160",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Juárez 1312-interior 1, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+    "geometry": {
+      "location": {
+        "lat": 19.0473621,
+        "lng": -98.2093026
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.04862148029151,
+          "lng": -98.2080523697085
+        },
+        "southwest": {
+          "lat": 19.0459235197085,
+          "lng": -98.2107503302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.047288,
+          "longitude": -98.20947129999999
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 19.0472397,
+          "longitude": -98.20936479999999
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJm9cB6k_Bz4UR7JgWzh5LE-g",
+    "plus_code": {
+      "compound_code": "2QWR+W7 Heroica Puebla de Zaragoza, Pue., México",
+      "global_code": "76F32QWR+W7"
+    },
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest"
+    ]
   }
 }
