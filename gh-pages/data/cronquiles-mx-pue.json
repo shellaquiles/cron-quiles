@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-07T18:50:17.198890+00:00",
-  "total_events": 12,
+  "generated_at": "2026-01-07T19:20:46.137371+00:00",
+  "total_events": 23,
   "city": "Puebla",
   "communities": [
     {
@@ -13,6 +13,27 @@
     }
   ],
   "events": [
+    {
+      "title": "awsugmixtli|Networking navideño|México|Puebla",
+      "description": "🎄 Ya viene la navidad y queremos compartir con ustedes antes de que se acabe el año! 🎁\n\nEn este evento buscamos compartir y hacer una sesión de networking. Hablemos de la nube en un espacio más informal y también conozcamos más de nuestra comunidad de expertos y aficionados de la nube en Puebla.\n\nLos esperamos, en una tarde con café y anéctodas llenas de AWS ☁️.\n\n📅 Miércoles, 11 de diciembre de 2024\n🕔 18:30 hrs\n📍 R&E Specialty Coffee",
+      "url": "https://www.meetup.com/awsugmixtli/events/304761849/",
+      "location": "R&E Specialty Coffee, Av. Juárez 1312, Col. Centro, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2024-12-11T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "cloud"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Av. Juárez 1312-interior 1, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "networking navideo_2024-12-12T00:00:00+00:00"
+    },
     {
       "title": "Gabriel Gómez Téllez|Charlas de Python y partida de Rosca|México|Puebla",
       "description": "Obtén información actualizada en: https://luma.com/t2ns9s7l\n\nDirección:\nValenza Casa de Creativos - Plaza Dorada\nHeroica Puebla de Zaragoza, Puebla\nMexico\n\nOrganizado por Gabriel Gómez Téllez",
@@ -33,6 +54,28 @@
       "city_code": "heroicapuebladezaragoza",
       "address": "Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
       "hash_key": "charlas de python y partida de rosca_2025-01-10T00:00:00+00:00"
+    },
+    {
+      "title": "awsugmixtli|AWS Community re:Invent re:Cap 🌠|México|Puebla",
+      "description": "¡Acompáñanos a conocer los anuncios del re:Invent!\n\nCon nuestro **invitado especial** [David Victoria](https://www.linkedin.com/in/vikomex/) (AWS Ambassador y Senior Cloud Architect @ [Caylent](https://caylent.com/)) te traemos lo más destacado del re:Invent.\n\nCon David vamos a conocer los anuncios más importantes de AWS y las tendencias que podemos esperar este 2025 tanto en la computación en la nube como de parte de AWS.\n\n🗓 **Fecha:** Jueves, 23 de enero\n⏰ **Hora:** 6:00 PM\n📍 **Lugar:** [Workósfera Coworking](https://g.co/kgs/bL1RpBM)",
+      "url": "https://www.meetup.com/awsugmixtli/events/305547070/",
+      "location": "Workósfera Coworking - La Paz, Calle Cholula 35, La Paz, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-01-23T18:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "cloud",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "aws community re invent re cap_2025-01-24T00:00:00+00:00"
     },
     {
       "title": "Gabriel Gómez Téllez|Python Charlas en Puebla + Networking|México|Puebla",
@@ -56,6 +99,31 @@
       "hash_key": "python charlas en puebla networking_2025-02-07T00:00:00+00:00"
     },
     {
+      "title": "awsugmixtli|Despliegue automatizado: AWS ECS y GitHub Actions|México|Puebla",
+      "description": "🚀 Acompáñenos en esta sesión práctica donde se aprenderá a automatizar despliegues en AWS ECS utilizando GitHub Actions!\nPara quienes están cansados de los despliegues manuales, esta charla revelará cómo implementar un pipeline de CI/CD profesional que llevará el código desde el repositorio hasta producción en AWS ECS de manera automática y segura.\n\n👨‍💻 Los participantes aprenderán:\n\n* Configuración paso a paso de GitHub Actions\n* Mejores prácticas para despliegues en ECS\n* Tips para optimizar su pipeline\n* Estrategias de seguridad en la automatización\n\nTanto para quienes están comenzando con AWS como para usuarios avanzados, esta sesión ofrece valor donde la teoría se convierte en práctica.\n\n¡Una oportunidad para llevar las habilidades de DevOps al siguiente nivel! 🔥\n\n📅 27 de febrero\n🕐 6:30pm - 8:30pm\n📍 [Workósfera Coworking](https://maps.app.goo.gl/8aiwimKMHy1EnyCg9)\n\n¡Los cupos son limitados! Se recomienda asegurar el lugar y unirse a esta comunidad de entusiastas de AWS. ¡Los esperamos! 🤝",
+      "url": "https://www.meetup.com/awsugmixtli/events/306013941/",
+      "location": "Workósfera Coworking - La Paz, Calle Cholula 35, La Paz, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-02-27T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "cloud",
+        "devops",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "despliegue automatizado aws ecs y github actions_2025-02-28T00:00:00+00:00"
+    },
+    {
       "title": "Gabriel Gómez Téllez|Python Charlas en Puebla + Networking|México|Puebla",
       "description": "Obtén información actualizada en: https://luma.com/hy7epq9i\n\nDirección:\nValenza Casa de Creativos - Plaza Dorada\nHeroica Puebla de Zaragoza, Puebla\nMexico\n\nOrganizado por Gabriel Gómez Téllez",
       "url": "https://luma.com/hy7epq9i",
@@ -75,6 +143,31 @@
       "city_code": "heroicapuebladezaragoza",
       "address": "Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
       "hash_key": "python charlas en puebla networking_2025-03-07T00:00:00+00:00"
+    },
+    {
+      "title": "awsugmixtli|AWS: El Secreto para Acceder a Más y Mejores Oportunidades Laborales|México|Puebla",
+      "description": "**¿Te gustaría mejorar tu perfil profesional y acceder a más oportunidades laborales?** Únete a nuestro meetup y descubre cómo AWS puede impulsar tu carrera, sin importar tu experiencia o perfil. Ya seas desarrollador, trabajes con machine learning, ia, redes o ciberseguridad, esta charla es para ti.\n\nTe explicaremos cómo la nube puede potenciar tu perfil y cómo obtener **certificaciones en AWS, ¡incluso gratis!** Además, te daremos tips para tomar la certificación, consejos para hacer tu perfil más atractivo para reclutadores, y plataformas que te ayudarán a certificarte rápidamente.\n\n**¿Por qué ahora?**\nCon la expansión de AWS en Querétaro, se crearán más de 7,000 empleos y una inversión de más de $5,000 millones, lo que genera una gran **demanda de expertos en la nube.**\n\n**Dinámicas divertidas:**\n🍀 **Gana una AWS Builder Card:** Durante el evento, tendrás la oportunidad de ganar una AWS Builder Card, una excelente herramienta para impulsar tu aprendizaje en la nube. Esta es la segunda edición de las Builder Cards, traídas directamente desde el evento AWS re:Invent 2024. ¡No te lo puedes perder! 🚀\n🎉 **Gana una tarjeta exclusiva de AWS re:Invent 2024:** También podrás ganar una tarjeta exclusiva de ese evento 🎁\n🍕 **Disfruta de pizza y bebidas:** Mientras aprendes, disfruta de un ambiente relajado con pizza y bebidas, ¡perfecto para compartir experiencias con otros profesionales! 🍻\n**Detalles del Evento:**\n\n* 📅 Fecha: 27 de marzo\n* 🕐 Hora: 6:30 pm - 8:30 pm\n* 📍 Ubicación: [Workósfera Coworking ](https://maps.app.goo.gl/Q3RAVTPPy6X84qGKA)\n\n**¡Los cupos son limitados!** Asegura tu lugar y únete a una comunidad de entusiastas de AWS.",
+      "url": "https://www.meetup.com/awsugmixtli/events/306792308/",
+      "location": "Workósfera Coworking - La Paz, Calle Cholula 35, La Paz, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-03-27T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "cloud",
+        "frontend",
+        "python",
+        "security"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "aws el secreto para acceder a ms y mejores oportunidades laborales_2025-03-28T00:00:00+00:00"
     },
     {
       "title": "Gabriel Gómez Téllez|Python Charlas en Puebla + Networking|México|Puebla",
@@ -98,6 +191,31 @@
       "hash_key": "python charlas en puebla networking_2025-04-04T00:00:00+00:00"
     },
     {
+      "title": "awsugmixtli|De Golang a la Nube: Mi viaje hacia Cloud Native con AWS|México|Puebla",
+      "description": "Para quienes buscan mejorar la escalabilidad y visibilidad en sus sistemas, esta sesión compartirá cómo se migraron APIs desarrolladas en Go desde un entorno on-premise a la nube, enfrentando desafíos técnicos, tomando decisiones clave y utilizando tecnologías como EC2 y Kubernetes en EKS.\n\n👨‍💻 **En esta charla aprenderás:**\n\n* El proceso de migración en dos fases: EC2 y Kubernetes en EKS\n* Cómo superar la falta de escalabilidad y visibilidad en sistemas existentes\n* Herramientas y decisiones clave para modernizar una arquitectura crítica\n* Retos técnicos y lecciones aprendidas en el camino\n\nTanto si eres nuevo en la nube como si ya tienes experiencia, esta charla te ofrecerá valiosos insights y ejemplos prácticos.\n\n🍻 Además, disfrutarás de bebidas frías, un espacio para **networking** y un momento para **aprender jugando** con las **AWS BuilderCards**.\n\n📅 24 de abril\n🕐 6:30pm - 8:30pm\n📍 [Valenza Casa de Creativos](https://maps.app.goo.gl/Xm2LR4GSEtFPBdaQ8)\n\n¡Los cupos son limitados! Asegura tu lugar y conecta con otros apasionados de la nube. ¡Te esperamos! 🤝",
+      "url": "https://www.meetup.com/awsugmixtli/events/307164327/",
+      "location": "Valenza Casa de Creativos, Av. Venustiano Carranza 205, San Baltazar Campeche, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-04-24T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "backend",
+        "cloud",
+        "devops",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "de golang a la nube mi viaje hacia cloud native con aws_2025-04-25T00:00:00+00:00"
+    },
+    {
       "title": "Gabriel Gómez Téllez|Python Charlas en Puebla + Networking|México|Puebla",
       "description": "Obtén información actualizada en: https://luma.com/x9gk52xh\n\nDirección:\nConsulta la página del evento para obtener más detalles.\n\nOrganizado por Gabriel Gómez Téllez",
       "url": "https://luma.com/x9gk52xh",
@@ -117,6 +235,30 @@
       "city_code": "heroicapuebladezaragoza",
       "address": "Heroica Puebla de Zaragoza, Pue., México",
       "hash_key": "python charlas en puebla networking_2025-05-09T00:00:00+00:00"
+    },
+    {
+      "title": "awsugmixtli|Navegando el universo de la Inteligencia Artifical en AWS|México|Puebla",
+      "description": "¿Alguna vez has soñado con tener un asistente de IA que entienda tu código mejor que tu compañero de cubículo? ¡Esta charla es para ti! Acompáñanos en un viaje divertido pero práctico por el ecosistema de servicios de IA de AWS.\n\nAprenderemos cómo estos servicios pueden convertirte en el desarrollador \"con superpoderes\" que siempre quisiste ser, sin necesidad de un accidente radioactivo. Aprenderás a utilizar modelos fundacionales con Bedrock más rápido que preparar un café instantáneo, a conversar con Amazon Q cuando tu rubber duck ya no te da respuestas, y a disfrutar del Vibe coding que hace que tu IDE parezca leer tu mente (¡aunque a veces se ponga filosófico y te sugiera código que ni tú entiendes!).\n\nTanto si eres nuevo en la nube como si ya tienes experiencia, esta charla te ofrecerá valiosos insights y ejemplos prácticos para optimizar tu tiempo con la Inteligencia Artificial.\n\n🍻 Además, disfrutarás de bebidas frías, un espacio para **networking** y más**.**\n\n📅 29 de mayo\n🕐 6:30pm - 8:30pm\n📍 [Workósfera Coworking](https://maps.app.goo.gl/Q3RAVTPPy6X84qGKA)\n\n¡Los cupos son limitados! Asegura tu lugar y conecta con otros apasionados de la nube. ¡Te esperamos! 🤝",
+      "url": "https://www.meetup.com/awsugmixtli/events/307840584/",
+      "location": "Workósfera Coworking - La Paz, Calle Cholula 35, La Paz, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-05-29T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "cloud",
+        "frontend",
+        "mobile",
+        "python"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "navegando el universo de la inteligencia artifical en aws_2025-05-30T00:00:00+00:00"
     },
     {
       "title": "Gabriel Gómez Téllez|PyTalavera Fest: 1er Aniversario|México|Puebla",
@@ -161,6 +303,31 @@
       "hash_key": "python charlas en puebla networking_2025-07-11T00:00:00+00:00"
     },
     {
+      "title": "awsugmixtli|Implementando DevSecOps para entornos de nube: Primeros Pasos|México|Puebla",
+      "description": "### **¿Te interesa saber qué es DevSecOps y cómo aplicarlo en entornos de nube?**\n\nEste meetup es una excelente oportunidad para dar tus primeros pasos en esta práctica que está transformando la manera en que desarrollamos software seguro.\n\nDevSecOps busca integrar la seguridad desde las etapas iniciales del desarrollo, fomentando una colaboración continua entre desarrollo, operaciones y seguridad. En esta charla aprenderás cómo empezar a implementar DevSecOps combinando servicios nativos de AWS con tecnologías Open Source, automatizando controles, detectando riesgos a tiempo y adoptando el enfoque **“shift left”**.\n\nEstá dirigido a desarrolladores, DevOps, personas interesadas en la nube o simplemente quienes quieran entender cómo construir aplicaciones más seguras y resilientes desde el principio.\n\n🔧 No necesitas experiencia previa en seguridad: solo curiosidad y ganas de aprender.\n🍻Además, disfruta de bebidas, comida, networking y más.\nConecta con personas que comparten tu interés por la tecnología y la nube.\n\n📅 **Jueves 31 de julio**\n🕐 **6:30 PM - 8:30 PM**\n📍 **[Workósfera Coworking](https://maps.app.goo.gl/mvEtyGobFTC6Mubx9)**",
+      "url": "https://www.meetup.com/awsugmixtli/events/309533875/",
+      "location": "Workósfera Coworking - La Paz, Calle Cholula 35, La Paz, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-07-31T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "cloud",
+        "devops",
+        "frontend",
+        "mobile",
+        "security"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "implementando devsecops para entornos de nube primeros pasos_2025-08-01T00:00:00+00:00"
+    },
+    {
       "title": "Gabriel Gómez Téllez|Aprende Serverless con Python (Taller + Networking Gratis)|México|Puebla",
       "description": "Obtén información actualizada en: https://luma.com/htiova91\n\nDirección:\nValenza Casa de Creativos - Plaza Dorada\nHeroica Puebla de Zaragoza, Puebla\nMexico\n\nOrganizado por Gabriel Gómez Téllez",
       "url": "https://luma.com/htiova91",
@@ -183,6 +350,32 @@
       "hash_key": "aprende serverless con python taller networking gratis_2025-08-08T00:00:00+00:00"
     },
     {
+      "title": "awsugmixtli|Acelerando el desarollo: Aplicaciones web con AWS Amplify ✨|México|Puebla",
+      "description": "### **¿Te interesa saber qué es DevSecOps y cómo aplicarlo en entornos de nube?**\n\nEn esta charla exploraremos cómo AWS Amplify permite a desarrolladores frontend construir aplicaciones web y móviles completas de forma rápida, segura y escalable, sin necesidad de ser expertos en backend. Desde la autenticación de usuarios con Amazon Cognito hasta la gestión de datos en tiempo real con AppSync y la integración con almacenamiento, analizaremos cómo aprovechar el poder de la nube con simples líneas de código. Verás en acción cómo Amplify simplifica tareas complejas y acelera el ciclo de desarrollo, reduciendo fricción y tiempo al mercado. Ideal para quienes quieren enfocarse en la experiencia del usuario sin sacrificar robustez en la infraestructura.\n\n🍻Disfruta de bebidas, comida, networking y más.\n\n👥Conecta con personas que comparten tu interés por la tecnología y la nube.\n\n📅 **Jueves 28 de agosto**\n🕐 **6:30 PM - 8:30 PM**\n📍 **[Workósfera Coworking](https://maps.app.goo.gl/mvEtyGobFTC6Mubx9)**",
+      "url": "https://www.meetup.com/awsugmixtli/events/310547318/",
+      "location": "Workósfera Coworking - La Paz, Calle Cholula 35, La Paz, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-08-28T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "backend",
+        "cloud",
+        "frontend",
+        "mobile",
+        "security",
+        "web"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "acelerando el desarollo aplicaciones web con aws amplify_2025-08-29T00:00:00+00:00"
+    },
+    {
       "title": "Gabriel Gómez Téllez|Python Charlas en Puebla + Networking|México|Puebla",
       "description": "Obtén información actualizada en: https://luma.com/0oejo0zg\n\nDirección:\nJobs Coworking Cholula | Gran Pirámide Plaza\nÚltimo piso de la plaza\nSan Andrés Cholula, Puebla\nMexico\n\nOrganizado por Gabriel Gómez Téllez",
       "url": "https://luma.com/0oejo0zg",
@@ -202,6 +395,31 @@
       "city_code": "sanandrescholula",
       "address": "C. 14 Pte. 111-Local 11, San Juan Aquiahuac, 72810 San Andrés Cholula, Pue., México",
       "hash_key": "python charlas en puebla networking_2025-09-05T00:00:00+00:00"
+    },
+    {
+      "title": "awsugmixtli|IA Generativa con Amazon Bedrock 🤖|México|Puebla",
+      "description": "**¿Siempre has querido construir aplicaciones con IA Generativa pero pensaste que era demasiado complejo? 🤔 ¡Piénsalo de nuevo!**\n\nEn esta charla dinámica y 100% práctica, desmitificaremos la IA Generativa y te mostraremos cómo puedes empezar a crear potentes aplicaciones utilizando **Amazon Bedrock**, el servicio de AWS que te da acceso a los mejores modelos fundacionales (como Claude, Llama, y Titan) a través de una simple API.\nDescubre cómo con scripts de **menos de 100 líneas de código en Python** puedes construir:\n\n* Un chatbot que entiende y responde a tus usuarios.\n* Un generador de contenido creativo para marketing o redes sociales.\n* Herramientas que resumen documentos extensos en segundos.\n\nNo importa si eres un desarrollador experimentado o apenas estás comenzando tu viaje en la nube, saldrás de esta sesión con el conocimiento y el código listo para integrar la IA Generativa en tus propios proyectos. 🚀\n\n**¡Prepárate para sorprenderte de lo fácil que es empezar a construir el futuro! ¡No te lo puedes perder!**\n\n🍻Disfruta de bebidas, comida, networking y más.\n\n👥Conecta con personas que comparten tu interés por la tecnología y la nube.\n\n📅 **Jueves 25 de septiembre**\n🕐 **6:30 PM - 8:30 PM**\n📍 **[Workósfera Coworking](https://maps.app.goo.gl/mvEtyGobFTC6Mubx9)**",
+      "url": "https://www.meetup.com/awsugmixtli/events/311172150/",
+      "location": "Workósfera Coworking - La Paz, Calle Cholula 35, La Paz, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-09-25T18:30:00-06:00",
+      "dtend": null,
+      "tags": [
+        "backend",
+        "cloud",
+        "frontend",
+        "mobile",
+        "python"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "ia generativa con amazon bedrock_2025-09-26T00:00:00+00:00"
     },
     {
       "title": "Gabriel Gómez Téllez|Python Charlas en Puebla + Networking|México|Puebla",
@@ -244,6 +462,50 @@
       "city_code": "heroicapuebladezaragoza",
       "address": "Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
       "hash_key": "pytalavera mixtli posada_2025-12-13T22:00:00+00:00"
+    },
+    {
+      "title": "awsugmixtli|Networking navideño|México|Puebla",
+      "description": "Hola a todos.\n\nEstamos muy emocionados de invitarlos a nuestro meetup de diciembre. En **PyTalavera** y en **AWS User Group Mixtli** queremos cerrar este año de la mejor manera: aprendiendo, agradeciendo y compartiendo con la comunidad que nos ha acompañado en cada paso.\n\nEste evento será una oportunidad para convivir, hacer networking y seguir creciendo juntos.\n\nTendremos charlas llenas de valor y la visita de nuestro invitado especial, **David Sol**. También planeamos algunas sorpresas especiales para despedir el año.\n\nLa cita es el sábado 13 de diciembre de 2025 en Valenza, Casa de Creativos, ubicada en Av. Venustiano Carranza 205, San Baltazar Campeche, Puebla.\n\nAcompáñennos en esta última reunión del año para celebrar, aprender y conectar. ¡Los esperamos!",
+      "url": "https://www.meetup.com/awsugmixtli/events/312249761/",
+      "location": "Valenza Casa de Creativos, Av. Venustiano Carranza 205, San Baltazar Campeche, Puebla, MX",
+      "organizer": "awsugmixtli",
+      "dtstart": "2025-12-13T17:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "cloud",
+        "frontend",
+        "python"
+      ],
+      "source": "https://www.meetup.com/awsugmixtli/events/?type=past",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "networking navideo_2025-12-13T22:00:00+00:00"
+    },
+    {
+      "title": "Gabriel Gómez Téllez|Meetup Enero Python Puebla|México|Puebla",
+      "description": "Obtén información actualizada en: https://luma.com/lkjf5ejr\n\nDirección:\nValenza Casa de Creativos - Plaza Dorada\nHeroica Puebla de Zaragoza, Puebla\nMéxico\n\nOrganizado por Gabriel Gómez Téllez",
+      "url": "https://luma.com/lkjf5ejr",
+      "location": "Valenza Casa de Creativos - Plaza Dorada, Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
+      "organizer": "Gabriel Gómez Téllez",
+      "dtstart": "2026-01-16T00:30:00+00:00",
+      "dtend": "2026-01-16T04:30:00+00:00",
+      "tags": [
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "meetup enero python puebla_2026-01-16T00:00:00+00:00"
     },
     {
       "title": "AWS User Group Mixtli Cholula|Modern Serverless Architectures y Lambda Managed Instances|México|Puebla",

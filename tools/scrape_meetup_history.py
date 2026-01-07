@@ -17,10 +17,14 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 from pathlib import Path
 import re
+from dotenv import load_dotenv
 
 # Configurar logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
+
+# Cargar variables de entorno
+load_dotenv()
 
 # Configuración
 # YEAR_TO_SCRAPE = 2025 # Filter removed by user request
@@ -234,51 +238,31 @@ def main():
     project_root = Path(__file__).resolve().parent.parent
     sys.path.insert(0, str(project_root / "src"))
 
+    # Convert to EventNormalized objects
+    from cronquiles.models import EventNormalized
     from cronquiles.history_manager import HistoryManager
+
     hm = HistoryManager()
     hm.load_history()
 
-    # Convertir a formato compatible con HistoryManager (dicts) y mergear
-    # El scraper ya devuelve dicts compatibles
-
-    # Necesitamos "normalizar" un poco para que el título coincida con lo que espera el sistema
-    # El sistema usa formato "Grupo|Titulo|Loc".
-    # Lo ideal seria usar EventNormalized, pero requeriría instanciar objetos complejos.
-    # Vamos a guardar raw y dejar que el sistema lo normalice al cargar?
-    # No, HistoryManager espera ya el dict "final".
-
-    # Vamos a inyectar logic simple de normalizacion aqui
+    normalized_events = []
+    logger.info("Normalizing events for merge...")
     for e in all_events:
-        # Formatear titulo estilo sistema
-        # Grupo|Nombre|Loc
-        # Esto es una aproximación, idealmente usariamos EventNormalized logic
-        grp = e['organizer'].replace('-', ' ').title()
-        loc = "Online" if e['location'] == "Online" else "México" # Simplificado
-        e['title'] = f"{grp}|{e['title']}|{loc}"
+        # Create EventNormalized from dict
+        # This handles title normalization (slug vs Title Case)
+        # However, scraper "e" dict has constructed title in lines above:
+        # e['title'] = f"{grp}|{e['title']}|{loc}"
+        # We should let EventNormalized handle parsing that string.
+        try:
+           ev_obj = EventNormalized.from_dict(e)
+           normalized_events.append(ev_obj)
+        except Exception as err:
+            logger.warning(f"Skipping invalid event during normalization: {err}")
 
-        # Tags (simple)
-        e['tags'] = []
-
-    # Guardar
-    count_before = len(hm.events)
-
-    # Mockear objetos EventNormalized simplificados para usar el metodo merge_events?
-    # O mejor agregar metodo add_raw_dict a HistoryManager?
-    # Usaremos un hack: manipular el dict interno de HM directamente
-
-    logging.info("Merging scraped events...")
-    new_scraped = 0
-    for e in all_events:
-        key = f"{e['title']}_{e['dtstart']}"
-        # Always update in case parsing logic improved (like location)
-        if key not in hm.events:
-            new_scraped += 1
-        hm.events[key] = e
-
+    logger.info("Merging scraped events...")
+    hm.merge_events(normalized_events)
     hm.save_history()
-    logger.info(f"Done. Added {new_scraped} new historical events.")
+    logger.info("Done.")
 
 if __name__ == "__main__":
-    # Asegurar que src esta en path
-    sys.path.insert(0, str(Path(__file__).parent.parent))
     main()

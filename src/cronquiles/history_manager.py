@@ -55,9 +55,9 @@ class HistoryManager:
     def save_history(self):
         """Guarda el estado actual en el archivo JSON."""
         try:
-            # Convertir a lista y ordenar por fecha
+            # Convertir a lista y ordenar por fecha (descendiente, mas recientes primero)
             events_list = list(self.events.values())
-            events_list.sort(key=lambda x: x.get('dtstart') or "")
+            events_list.sort(key=lambda x: x.get('dtstart') or "", reverse=True)
 
             with open(self.history_file, 'w', encoding='utf-8') as f:
                 json.dump(events_list, f, ensure_ascii=False, indent=2)
@@ -111,5 +111,5 @@ class HistoryManager:
     def get_all_events(self) -> List[dict]:
         """Retorna todos los eventos ordenados por fecha."""
         events = list(self.events.values())
-        events.sort(key=lambda x: x.get('dtstart') or "")
+        events.sort(key=lambda x: x.get('dtstart') or "", reverse=True)
         return events

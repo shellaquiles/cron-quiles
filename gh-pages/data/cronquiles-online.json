@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-07T18:50:17.160406+00:00",
-  "total_events": 187,
+  "generated_at": "2026-01-07T19:20:46.052596+00:00",
+  "total_events": 198,
   "city": "Online",
   "communities": [
     {
@@ -68,6 +68,10 @@
       "description": "Comunidad de desarrolladores del lenguaje Go en México."
     },
     {
+      "name": "Guadalajara Apache Kafka Meetup",
+      "description": "Guadalajara Apache Kafka Meetup"
+    },
+    {
       "name": "HackrobotsMX",
       "description": "HackrobotsMX es la primera y única comunidad en América sin fines de lucro dedicada a la formación y capacitación en robótica."
     },
@@ -82,6 +86,10 @@
     {
       "name": "MexAI - Comunidad de IA",
       "description": "Comunidad de IA en Guadalajara. Eventos sobre Inteligencia Artificial."
+    },
+    {
+      "name": "Mexico City Apache Kafka Meetup",
+      "description": "Mexico City Apache Kafka Meetup"
     },
     {
       "name": "Mexico Tech Week",
@@ -498,6 +506,29 @@
       "hash_key": "meetarmy enero_2021-01-12T00:00:00+00:00"
     },
     {
+      "title": "guadalajara-kafka|Es un ETL, es una cola de mensaje, es un ESB? No , es Kafka|Online",
+      "description": "Find out about other upcoming online meetups and recordings from past Kafka Meetups all over the world: cnfl.io/meetup-hub\n\n-----\n\n*Time below in Mexico City time - to find out when the event is in your timezone follow this link: http://www.worldtimebuddy.com/event?lid=3530597&h=3530597&sts=26863560&sln=12-13&a=show\n\nAgenda:\n12:00pm-12:05pm: Online Networking\n12:05pm-12:50pm: Ramon Marquez, Confluent (Q&A included)\n12:45pm: Log in or Join our Slack Space (cnfl.io/slack) and go to #events to ask any follow up questions!\n\n-----\nSpeaker: Ramon Marquez\n\nTalk:\n¿Es un ETL, es una cola de mensaje, es un ESB? No , es Kafka\n\nAbstract: Veremos lo que realmente es Apache Kafka, la solución de facto del streaming de datos, utilizada por empresas de la talla de Spotify, Netflix, Linkedin entre otras.\n\nBios:\nJuan Ramón Marquez es Ingeniero en Informática egresado de la Universidad Católica del Uruguay, posee un Master en Big Data & Analytics de la Universidad de Alcalá de Henares (España) y un Master in Business and Administration de la Universidad Politécnica de Madrid (España), actualmente trabaja como Ingeniero de Soluciones en Iberia (Portugal & España) para Confluent , los creadores de Apache Kafka.\n\n---\n\nOnline Meetup Etiquette:\n•Please unmute yourself when you have a question.\n•Please hold your questions until the end of the presentation or use the zoomchat!\n•Please arrive on time as zoom meetings can become locked for many reasons (though if you get locked out a recording will be available, but you may have to wait a little while for it!\n\n----\n\nIf you would like to speak or host our next event please let us know! community@confluent.io",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/275757356/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2021-01-28T12:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "data",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "es un etl es una cola de mensaje es un esb no es kafka_2021-01-28T18:00:00+00:00"
+    },
+    {
       "title": "Richard Kasperowski|Office Hours with Richard Kasperowski - Spring 2021|Online",
       "description": "Office Hours with Richard",
       "url": "https://www.eventbrite.com/e/office-hours-with-richard-kasperowski-spring-2021-tickets-139790375777",
@@ -536,6 +567,30 @@
       "hash_key": "meetarmy febrero_2021-02-09T00:00:00+00:00"
     },
     {
+      "title": "guadalajara-kafka|(en español) Building a self-service Kafka platform as a service with Gitops|Online",
+      "description": "Find out about other upcoming online meetups and recordings from past Kafka Meetups all over the world: cnfl.io/meetup-hub\n\n-----\n\n*Time below in Mexico City time - to find out when the event is in your timezone follow this link: http://www.worldtimebuddy.com/event?lid=3530597%2C100%2C212&h=3530597&sts=26873640&sln=12-13&a=show\n\nAgenda:\n12:00pm-12:05pm: Online Networking\n12:05pm-12:50pm: Pere Urbon-Bayes, Confluent (Q&A included)\n12:50pm: Log in or Join our Slack Space (cnfl.io/slack) and go to #events to ask any follow up questions!\n\n-----\nSpeaker: Pere Urbon-Bayes\n\nTitle: Building a self-service Kafka platform as a service with Gitops\n\nAbstract: Have you ever wondered, what motivates people? According to many authors, autonomy is a key factor to build a sustainable and motivated team. This is as well a core principle of the devops.\n\nIf you are in the quest of building a self-service kafka based platform where your users can manage topics, acls and rbac by themself, but still keep change control and a verification process? Gitops and Kafka Topology Builder is here to help you.\n\nIn this talk we're going to present and guide you towards the steps necessary to build up a self-service Apache Kafka using Gitops and Kafka Topology Builder, including a few war stories from people using it in production.\n\nBy the end of this talk, you will take home an automatic Jenkins pipeline, that will make your users autonomous and give you more time to focus on less bureaucratic work.\n\nBio: Pere is a Software Engineer for Confluent out of Berlin, Germany. He has been working with data and architecting systems for more than 15 years as a freelance engineer and consultant. In that role he was focused on data processing and search, helping companies build reliable and scalable data architectures. His work sits at the crossroad of infrastructure, data engineers and scientists, ontologist and product. Prior to that he was part of Elastic, the company behind Elasticsearch, where he was part of the Logstash team, helping companies build reliable ingestion pipelines into Elasticsearch. When not working, Pere loves to spend time with his lovely wife and kids.\n\n---\n\nOnline Meetup Etiquette:\n•Please unmute yourself when you have a question.\n•Please hold your questions until the end of the presentation or use the zoomchat!\n•Please arrive on time as zoom meetings can become locked for many reasons (though if you get locked out a recording will be available, but you may have to wait a little while for it!)\n\n----\n\nIf you would like to speak or host our next event please let us know! community@confluent.io",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/276039167/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2021-02-09T12:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "data",
+        "devops",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "en espaol building a self service kafka platform as a service with gitops_2021-02-09T18:00:00+00:00"
+    },
+    {
       "title": "sysarmy-mexico|MeetArmy Marzo|Online",
       "description": "Este mes, aprovechando el Dia internacional de la mujer tendremos un panel con varias chicas de la comunidad.\n\nEl streaming es por Youtube 19:30 hora Ciudad de México (GTM-6): https://youtu.be/tiIUjgW7Smk",
       "url": "https://www.meetup.com/sysarmy-mexico/events/276714308/",
@@ -553,6 +608,29 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "meetarmy marzo_2021-03-09T00:00:00+00:00"
+    },
+    {
+      "title": "guadalajara-kafka|Introducción a Stream Processing utilizando Kafka Streams|Online",
+      "description": "Find out about other upcoming online meetups and recordings from past Kafka Meetups all over the world: cnfl.io/meetup-hub\n\n-----\n\n*Time below in Mexico City time - to find out when the event is in your timezone follow this link: http://www.worldtimebuddy.com/event?lid=3530597%2C100%2C3128760&h=3530597&sts=26931240&sln=12-13&a=show\n\nAgenda:\n12:00pm-12:05pm: Online Networking\n12:05pm-12:50pm: Matías Cascallares, Confluent (Q&A included)\n12:50pm: Log in or Join our Forum (forum.confluent.io) to ask any follow up questions!\n\n-----\nSpeakers: Matías Cascallares\n\nTalk: Introducción a Stream Processing utilizando Kafka Streams\n\nAbstract: Streams es uno de los keywords de moda! En esta presentación, veremos cómo implementar stream processing con Kafka Streams, que consideraciones tenemos que tener en cuenta, y un pequeño tour por ksqlDB como herramienta.\n\nBios:\nMatias es un ingeniero de sistemas con más de 15 años de experiencia en desarrollo de software y con un fuerte foco en tecnologías open source y escalabilidad. En la actualidad, como miembro del equipo Customer Success Engineering en Confluent, ayuda a organizaciones a extraer valor de la información. En los últimos años, Matias ha estado involucrado en proyectos de distintas áreas como finanzas, transporte, telecomunicaciones y e-commerce entre otros.\n\n---\n\nOnline Meetup Etiquette:\n•Please hold your questions until the end of the presentation or use the zoomchat during!\n•Please arrive on time as zoom meetings can become locked for many reasons (though if you get locked out a recording will be available, but you may have to wait a little while for it!)\n\n----\n\nIf you would like to speak or host our next event please let us know! community@confluent.io",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/276717471/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2021-03-16T12:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "introduccin a stream processing utilizando kafka streams_2021-03-16T18:00:00+00:00"
     },
     {
       "title": "Richard Kasperowski|Postponed - Grow Together: How to Learn Your Way to a Great Team|Online",
@@ -620,6 +698,56 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "devops y javascript con jenkins_2021-04-09T00:00:00+00:00"
+    },
+    {
+      "title": "guadalajara-kafka|CDC patterns in Apache Kafka® (En español)|Online",
+      "description": "Find out about other upcoming online meetups and recordings from past Kafka Meetups all over the world: cnfl.io/meetup-hub\n\n-----\n\n*Time below in Mexico City time - to find out when the event is in your timezone follow this link: https://www.worldtimebuddy.com/event?lid=100&h=100&sts=26974080&sln=0-1&a=preview\n\nAgenda (Mexico City time):\n7:00pm-7:05pm: Online Networking\n7:05pm-7:50pm: Mario Molina (En español)\n7:50pm: Log in or Join our Forum (forum.confluent.io) to ask any follow up questions!\n\n-----\nSpeakers: Mario Molina\n\nTalk: CDC patterns in Apache Kafka\n\nAbstract:\nCDC systems are usually used to identify changes in data sources, capture and replicate those changes to other systems. Companies are using CDC to sync data across systems, cloud migration or even applying stream processing, among others.\n\nIn this presentation we’ll see CDC patterns, how to use it in Apache Kafka, and do a live demo!\n\nBio:\nMario Molina is a software engineer working on projects for building data products for the fintech.\nHe has been working in the IT sector mainly focused in designing and implementing architectures for data management since 2005.\nHis main interests are open source software, distributed systems, databases and all the latest research in these fronts with a passion for ‘all things data’.\n\n---\n\nOnline Meetup Etiquette:\n•Please hold your questions until the end of the presentation or use the zoomchat during!\n•Please arrive on time as zoom meetings can become locked for many reasons (though if you get locked out a recording will be available, but you may have to wait a little while for it!)\n\n----\n\nIf you would like to speak or host our next event please let us know! community@confluent.io",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/277309501/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2021-04-14T19:00:00-05:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "backend",
+        "cloud",
+        "data",
+        "frontend",
+        "security"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "cdc patterns in apache kafka en espaol_2021-04-15T00:00:00+00:00"
+    },
+    {
+      "title": "guadalajara-kafka|KIP (Kafka Improvement Proposal) 500 (En español)|Online",
+      "description": "Find out about other upcoming online meetups and recordings from past Kafka Meetups all over the world: cnfl.io/meetup-hub\n\n-----\n\n*Time below in Mexico City time - to find out when the event is in your timezone follow this link: http://www.worldtimebuddy.com/event?lid=3530597%2C100&h=100&sts=27044640&sln=16-17&a=show\n\nAgenda:\n11:00am-11:05am: Online Networking\n11:05am-11:50am: Raul Estrada (En español)\n11:50am: Log in or Join our Forum (forum.confluent.io) to ask any follow up questions!\n\n-----\nSpeakers: Raul Estrada\n\nTalk: KIP (Kafka Improvement Proposal) 500\n\nDurante el Kafka Summit del 12 de Mayo de 2021, se presentó la implementación del protocolo Raft en Kafka (llamado K-Raft) para reemplazar el uso de Zookeeper.\n\nEl KIP (Kafka Improvement Proposal) 500 establece la visión de Kafka sin Zookeeper. Sin embargo, incluso sin Zookeeper, la necesidad de consenso nunca desaparece. En esta charla, se discute una de las iniciativas centrales de la comunidad de Kafka, un protocolo nativo similar a Raft que se use para garantizar que diferentes servidores se pongan de acuerdo sobre la sincronización de los metadatos y cuáles réplicas están disponibles para escritura (es decir, ser líderes de partición).\n\nEspecíficamente, se cubren los siguientes temas:\nPor qué la comunidad abandonó el consenso externo y qué beneficios brinda el consenso interno.\nEn qué se diferencia el protocolo K-Raft del Raft estándar y las consideraciones de diseño en su implementación.\nCómo funciona el nuevo Quorum Controller y cómo se integra con el protocolo Raft\nCuáles son los siguientes pasos para el protocolo de replicación de Kafka para metadatos.\n\nBio:\nRaul is a programmer specialized in massive data processing pipelines. Also, he has experience with Scala, Kotlin, Java, Elixir and Go programming languages.\n\nSince 2015 Raul is co-organizer of the Java Mexico Meetup. Also he is co-organizer of the Kafka Mexico Meetup, GoLang Mexico Meetup and author of several books related to data engineering and Kafka.\n\nHe loves to talk about Kafka, Kafka streams, KSQL and all the technologies related to massive data processing like Spark and Flink.\n\nRaul is also a Confluent Community Catalyst (Class of 2020 - 2021).\n\n---\n\nOnline Meetup Etiquette:\n•Please hold your questions until the end of the presentation or use the zoomchat during!\n•Please arrive on time as zoom meetings can become locked for many reasons (though if you get locked out a recording will be available, but you may have to wait a little while for it!)\n\n----\n\nIf you would like to speak or host our next event please let us know! community@confluent.io",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/278602721/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2021-06-17T11:00:00-05:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "data",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "kip kafka improvement proposal 500 en espaol_2021-06-17T16:00:00+00:00"
     },
     {
       "title": "digitaloceanmex|deploy '21: Power Your Business|Online",
@@ -850,6 +978,30 @@
       "hash_key": "jsconf mexico virtual_2021-11-29T16:00:00+00:00"
     },
     {
+      "title": "guadalajara-kafka|Understanding Apache Kafka® P99 latency at Scale|Online",
+      "description": "Hello Streamers!\n\nPlease find the details to join this fun and informative meetup below. This meetup will be presented in Spanish.\n\nFind information about upcoming meetups and tons of content from past Kafka Meetups all over the world:\ncnfl.io/meetup-hub\n-----\nAgenda (time below is CST):\n11:00am-11:05am: Online networking (optional)\n\n11:05am-11:50am: Understanding Apache Kafka® P99 latency at Scale, Pere Urbon Bayes, Solutions Architect, Confluent\n\n11:50am-12:00pm: Q&A\n\nJoining our slack space is not instant, so ensure that you are in, in time for the event, follow the steps within this link before the day of the event if you can! cnfl.io/slack\n\n-----\nSpeaker:\nPere Urbon Bayes, Solutions Architect, Confluent\n\nTitle:\nUnderstanding Apache Kafka® P99 latency at Scale\n\nAbstract:\nApache Kafka es un proyecto muy popular utilizado por muchas organizaciones para conectar sistemas, construir microservicios, para data mesh, etc. Sin embargo, como sistema distribuido, comprender su rendimiento es un reto, demasiadas partes móviles.\n\nEn esta charla, revisaremos los componentes claves (productores, consumidores, replicación, red, etc.), compartiremos una estrategia para medir e interpretar los resultados de rendimiento de consumidores y productores junto a una guía general para ayudar a interpretar los resultados.\n\nSi asistes te llevarás a casa un método probado para medir, evaluar y optimizar el rendimiento de una infraestructura basada en Apache Kafka. Una requisito clave para projectos de baja latencia y alto rendimiento, pero especialmente para las implementaciones de mayor escala.\n\nBio:\nPere es Arquitecto de Soluciones en Confluent, desde Berlin en Alemania. Habiendo trabajado en sistema y arquitectura de datos por mor de 15 años como freelance y consultor. En estos roles ha trabajado de forma principal en sistemas de procesamiento de datos y búsqueda, ayudando empresas a construir arquitecturas de datos resilientes y escalables.\n\nEl trabajo normalmente es a medio camino entre la infraestructura, los ingenieros y los científicos de datos, ontologías y producto.\n\nEn el pasado, siendo parte de Elastic, la empresa detrás de Elasticsearch, ayudando empresas en sistemas de operaciones. Cuando no está en el trabajo a Pere le encanta pasar tiempo con la familia, niños y disfrutar de un buen partido de Balonmano.\n\n-----\nOnline Meetup Etiquette:\n•Please unmute yourself when you have a question.\n•Please hold your questions until the end of the presentation or use the zoomchat!\n•Please arrive on time as zoom meetings can become locked for many reasons (though if you get locked out a recording will be available, but you may have to wait a little while for it!)\n\n----\nIf you would like to speak or host our next event please let us know! community@confluent.io",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/282391066/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2021-12-14T11:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "data",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "understanding apache kafka p99 latency at scale_2021-12-14T16:00:00+00:00"
+    },
+    {
       "title": "mexico-city-docker-friends|Enforcing compliance clusters with Gatekeeper & Learning k8s pt.0|Online",
       "description": "Si estás interesado en aprender como mejorar el compliance de tu cluster k8s o conocer alguna herramienta de seguridad y que sea open source Gatekeeper puede interesarte.\n\nGatekeeper es un gestor de políticas de código abierto y de propósito general que permite aplicar políticas unificadas y conscientes de su entorno y puede evaluar el cumplimiento de las políticas de los recursos de K8.\nAndrés nos estará explicando cómo usar Gatekeeper y aplicarlo en k8s.\n\nComo segundo approach de esta reunión, queremos enseñarles a los que nunca han usado k8s, como instalar un entorno de prueba y echar andar su primer aplicación en su maquina local.\n\nEstaremos como siempre resolviendo dudas que podamos responder :)\nlos esperamos, es el último meetup del año :D\n\nUn abrazo, los vemos pronto.\n\nP.D : Publicaremos el link del evento, poco antes de comenzar.",
       "url": "https://www.meetup.com/mexico-city-docker-friends/events/282528894/",
@@ -891,6 +1043,30 @@
       "hash_key": "agile dojojanuary 6 2022_2022-01-06T22:00:00+00:00"
     },
     {
+      "title": "guadalajara-kafka|Apache Kafka® Fundamentals (with Cloud component)|Online",
+      "description": "Hello Streamers!\n\nJoin us for an Apache Kafka® meetup on Monday, February 14th, at 12:00 pm CDMX. This meetup will be presented in English. It will be free training with a walkthrough exercise on the Fundamentals of Apache Kafka®!\n\nThe session will be run by Doug Hogan, Senior Technical Instructor at Confluent, and will include a presentation on important technical fundamentals. The presentation will include some quick interactivity and be followed by an interactive discussion of a concrete scenario or two. The session will wrap up with an interactive exercise wherein you’ll be able to sign up for Confluent Cloud and experience basic Kafka in action.\nAs with all Confluent Meetups, it is free, ungated, purely technical, and purely educational.\n\n****VERY IMPORTANT: To join this meetup, please go to the Zoom App and enter the following details:\n\nMeeting ID: 954 3984 7248\nPassword 915121\n\nPlease visit https://cnfl.io/developer-live\nprior to the meetup so you’re able to follow along as Doug presents the hands-on lab with guidance on setting up Confluent Cloud and simple producing and consuming.\n\n-----\nAgenda (time below is CDMX):\n12:00 PM - 1:30 PM:\nPresentation on Apache Kafka Technical Fundamentals\n(including two quick interactive knowledge checks)\n\n-Interactive discussion of one or more concrete scenario problems\n\n-Hands-on lab with guidance on setting up Confluent Cloud and simple producing and consuming\n\n-Q&A, additional discussion, time permitting\n\n-----\nSpeaker:\nDoug Hogan, Sr. Technical Trainer, Confluent\n\nTitle:\nApache Kafka Fundamentals (with Cloud component)\n\nAbstract:\nApache Kafka was built with the vision to become the central nervous system that makes real-time data available to all the applications that need to use it, with numerous use cases like stock trading and fraud detection, to transportation, data integration, and real-time analytics. Whether you’re just getting started or have already built stream processing applications, you will find actionable insights in this series that will enable you to further derive business value from your data systems.\n\nBio:\nDoug Hogan is a senior technical trainer at Confluent. He works as the course champion for the Developer Skills course and has been working on enhancing interactivity and engagement in Confluent Training. Before coming to Confluent, he spent about a decade teaching university computer science and math classes.\n\n-----\nOnline Meetup Etiquette:\n•Please unmute yourself when you have a question.\n•Please hold your questions until the end of the presentation or use the zoomchat!\n•Please arrive on time as zoom meetings can become locked for many reasons (though if you get locked out a recording will be available, but you may have to wait a little while for it!)\n\n----\nDon't forget to join our Forum and Community Slack Team! https://www.confluent.io/community/ask-the-community/\n\nIf you would like to speak or host our next event please let us know! community@confluent.io",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/283487905/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2022-02-14T12:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "cloud",
+        "data",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "apache kafka fundamentals with cloud component_2022-02-14T18:00:00+00:00"
+    },
+    {
       "title": "elixir-mexico-city|Meetup Elixir: Vol. II 2022|Online",
       "description": "¡Hola, Elixir friends!\n\nYa estamos listos para nuestro segundo meetup Elixir de este 2022. Anótenlo en su agenda, alístense y prepárense para este miércoles 2 de marzo a las 6 pm hora MX.\n\nLa charla será transmitida a través de nuestro canal de Twitch y también a través de nuestro canal en YouTube, para que estén atentos y se suscriban para recibir notificaciones:\n\nTwitch - https://www.twitch.tv/elixirdevelopersmexico\nYouTube - https://www.youtube.com/channel/UCabvfkjqAx73geQNcEZAQGA\n\nSi tienen alguna duda, con gusto envíen mensaje a Daniela González, organizadora, y con gusto les apoyamos.\n\n¡Muchas gracias!",
       "url": "https://www.meetup.com/elixir-mexico-city/events/284028890/",
@@ -930,6 +1106,30 @@
       "city_code": "",
       "address": "Online, Croix d'Argent, Montpellier, Hérault, Occitania, Francia metropolitana, Francia",
       "hash_key": "docker birthday 9_2022-03-26T20:00:00+00:00"
+    },
+    {
+      "title": "guadalajara-kafka|Confluent Developer Live Free Training Workshop: Kafka Connect 101|Online",
+      "description": "Hello Streamers!\n\nJoin us for a special Confluent Developer Live training workshop on Monday, April 4th at 12:00pm GMT-5. Please find the details to join this free hands-on training with a walkthrough exercise on Kafka Connect 101. **This training will be presented in Spanish.**\n\nThe session will be run by Antonio Loma Daza, Senior Technical Instructor at Confluent, and will include a presentation on important technical fundamentals as well as live hands-on training.\n\nAs with all Confluent Meetups, it is free, purely technical, and purely educational.\n\n**\\*\\*\\*\\*\\*\\*TWO IMPORTANT ACTIONS TO ATTEND THIS EVENT:\\*\\*\\*\\*\\*\\*\\***\n**STEP 1: BETWEEN NOW AND THE EVENT:**\nPlease sign up for Confluent Cloud using this link (its free and no Credit Card required) [https://cnfl.io/live-cloud](https://cnfl.io/live-cloud) feel free to use the Promo code CC60COMM as well - this will ensure that you can follow along as Antonio presents the hands-on lab with guidance on setting up Confluent Cloud and simple producing and consuming.\n\n**STEP 2: WHEN THE EVENT BEGINS:**\nJoin this meetup by going to the Zoom app and entering the following details:\nMeeting ID: 98301460429\nPassword: 544408\n\n**\\*\\*\\*\\*\\*\\*EVENT DETAILS\\*\\*\\*\\*\\*\\*\\***\nAgenda (time below is in GMT-5):\n12:00PM - about 12:50 PM\n-Presentation on Kafka Connect 101\n\nabout 12:50 PM - 1:30 PM\n-Interactive discussion of one or more concrete scenario problems\n-Demo & hands-on lab\n-Q&A, additional discussion, time permitting\n\\-\\-\\-\\-\\-\nSpeaker:\nAntonio Loma Daza, Technical Instructor, Confluent\n\nTitle:\nKafka Connect 101\n\nAbstract:\nKafka Connect is a component of Apache Kafka for performing streaming integration between Kafka and other systems like databases, cloud services, search indexes, file systems, and key-value stores.Kafka Connect makes it easy to stream data from numerous sources into Kafka, and stream data from Kafka to numerous targets. There are literally hundreds of different connectors available for Kafka Connect.\n\nBio:\nAntonio Loma Daza is a senior technical trainer at Confluent, working for EMEA from France. He works as course champion for the Confluent Advance Administration course. A jack of all trades, Antonio has previously worked in industrial automatization, Linux administration, and enterprise-hardware support training.\n\\-\\-\\-\\-\\-\nOnline Meetup Etiquette:\n•Please use the “Raise Hand” button and Zoom chat feature to ask questions during the presentation!\n•Please raise your hand when you have a question and you will be unmuted.\n•Please arrive on time as Zoom meetings can become locked for many reasons. We will begin promptly.\n\\-\\-\\-\\-\nDon't forget to join our Forum and Community Slack to ask any follow up questions [https://cnfl.io/meetup-questions](https://cnfl.io/meetup-questions)\n\nIf you would like to speak or host our next event please let us know! community@[confluent.io](http://confluent.io/)",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/284952634/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2022-04-04T12:00:00-05:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "cloud",
+        "data",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "confluent developer live free training workshop kafka connect 101_2022-04-04T16:00:00+00:00"
     },
     {
       "title": "elixir-mexico-city|Meetup Elixir: Vol. III 2022|Online",
@@ -2979,6 +3179,30 @@
       "hash_key": "ingeniera de prompts con github copilot_2025-04-04T00:00:00+00:00"
     },
     {
+      "title": "guadalajara-kafka|VIRTUAL: Introducción a Apache Kafka®|Online",
+      "description": "**IMPORTANT: PLEASE RSVP @ [https://www.meetup.com/pydata-panama/events/307071570/](https://www.meetup.com/pydata-panama/events/307071570/)**\n\n**Jose Bethancourt, Senior Solutions Engineer, Confluent**\n**Descubre el poder del streaming de datos en tiempo real con Apache Kafka.** Esta sesión introductoria es ideal para desarrolladores, ingenieros de datos y profesionales de TI que buscan comprender los fundamentos de Kafka, la plataforma open-source líder para construir aplicaciones escalables y reactivas basadas en eventos.\n**En esta charla, exploraremos:**\n\n* **Los pilares de Kafka:** Temas, particiones, productores y consumidores explicados de forma clara y concisa.\n* **El ecosistema Kafka al detalle:** Desde brokers y clientes hasta Schema Registry y Kafka Connect.\n* **Introducción al procesamiento de flujos:** Un vistazo a Kafka Streams y Apache Flink.\n* **Aplicaciones prácticas:** Casos de uso reales que demuestran el impacto de Kafka en diversas industrias.",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/307085592/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2025-04-16T11:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "data",
+        "frontend",
+        "python",
+        "web"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "virtual introduccin a apache kafka_2025-04-16T16:00:00+00:00"
+    },
+    {
       "title": "gittogether-latam|Calculando con el compilador: Comp time vs Run time en Rust|Online",
       "description": "Únete al experto en Rust [Miguel Raz](https://github.com/miguelraz) para una presentación reveladora sobre 'Calculando con el compilador: Comp time vs Run time en Rust'. Esta sesión explora cómo el potente compilador de Rust permite a los desarrolladores trasladar cálculos del tiempo de ejecución al tiempo de compilación, mejorando el rendimiento y la seguridad. Aprende técnicas prácticas para aprovechar el sistema de tipos de Rust y las características de evaluación constante para detectar errores antes y optimizar tu código. Perfecto para programadores intermedios de Rust que buscan profundizar en su comprensión de las capacidades únicas del lenguaje.",
       "url": "https://www.meetup.com/gittogether-latam/events/307163426/",
@@ -3400,6 +3624,30 @@
       "hash_key": "insomnia unleashed next level api collaboration testing debugging for modern_2025-09-16T14:00:00+00:00"
     },
     {
+      "title": "guadalajara-kafka|Introduccíon a Apache Kafka® Connect|Online",
+      "description": "**IMPORTANT PLEASE RSVP @ [https://www.meetup.com/pydata-panama/events/310374886/?eventOrigin=group_upcoming_events](https://www.meetup.com/pydata-panama/events/310374886/?eventOrigin=group_upcoming_events)**\n\n\\*\\*\\*\n\n**Speaker: José Bethancour**t, Ingeniero de Soluciones Senior, Confluent\n\n**Topic**: Introduction to Kafka Connect\n\n**Description**:\nKafka Connect is a powerful framework for integrating Apache Kafka® with external systems, making it simple to move large data sets in and out of Kafka without writing custom code. In this session, we’ll cover the fundamentals of Kafka Connect, how it works, and showcase practical examples of commonly used connectors (e.g., databases, cloud storage). Attendees will learn how to set up and configure connectors to streamline data pipelines and accelerate real-time integration use cases.\n\n**Kafka Connect** es un marco potente para integrar Apache Kafka® con sistemas externos, lo que facilita mover grandes conjuntos de datos hacia y desde Kafka sin necesidad de escribir código personalizado. En esta sesión, abordaremos los fundamentos de Kafka Connect, su funcionamiento y presentaremos ejemplos prácticos de conectores comúnmente utilizados (por ejemplo, bases de datos, almacenamiento en la nube).\n\nLos asistentes aprenderán a configurar y establecer conectores para optimizar los flujos de datos y acelerar casos de uso de integración en tiempo real.",
+      "url": "https://www.meetup.com/guadalajara-kafka/events/311066560/",
+      "location": "Online",
+      "organizer": "guadalajara-kafka",
+      "dtstart": "2025-09-17T18:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "ai",
+        "cloud",
+        "data",
+        "python"
+      ],
+      "source": "https://www.meetup.com/guadalajara-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "introduccon a apache kafka connect_2025-09-18T00:00:00+00:00"
+    },
+    {
       "title": "big-data-developers-in-mexico-city|Agent-to-Agent Interactions with NLIP and an application to AllyCat|Online",
       "description": "**Description**\nNLIP (Natural Language Interaction Protocol) is a project defining an interoperable protocol for user-to-agent and agent-to-agent natural language interactions. In this talk, Tom will describe the goals of the NLIP project and then demonstrate a proof of concept agent network built using NLIP. One of the agents is an AllyCat instance that has been modified by giving it an NLIP server. By adding NLIP to the AllyCat server, it is immediately available to Chat Clients and other Agents, making it part of an expanding network of agents.\n\n**Speaker bio**\n\nTom Sheffler is a computer engineer currently working towards interoperability of secure agentic systems. He is also a solution architect with UnifabriX - a maker of CXL memory pooling systems for memory-bound HPC applications. Previously, Tom built global web applications for managing and scaling genomics computations at Roche. As an entrepreneur, he founded the cloud-based video analytics company, Sensr.net, that provided a consumer solution for home security cameras. Tom was an early employee at Rambus where he worked on the architecture and verification of high-speed memory devices.\n\n**About the AI Alliance**\nThe [AI Alliance](https://thealliance.ai) is an international community of researchers, developers and organizational leaders committed to support and enhance open innovation across the AI technology landscape to accelerate progress, improve safety, security and trust in AI, and maximize benefits to people and society everywhere. Members of the AI Alliance believe that open innovation is essential to develop and achieve safe and responsible AI that benefit society rather than benefit a select few big players.\n\n**Join the community**\nSign up for the [AI Alliance newsletter](https://thealliance.ai/community) (check the website footer) and join our new [AI Alliance Discord](https://discord.gg/YtsWdke6E9).",
       "url": "https://www.meetup.com/big-data-developers-in-mexico-city/events/311007139/",
@@ -3747,6 +3995,28 @@
       "city_code": "",
       "address": "Presencial (Ubicación TBD)",
       "hash_key": "mexico tech week 2025_2025-10-22T00:00:00+00:00"
+    },
+    {
+      "title": "mexico-kafka|Change Data Capture con Elixir|México|CDMX",
+      "description": "**IMPORTANT PLEASE RSVP HERE: https://luma.com/jib8cs90**\n\n\\*\\*\\*\nContinuamos con los meetups presenciales en la CDMX.\n\nHabrá un espacio de networking con comida y bebida donde podrás platicar con programadores de diferentes niveles e intereses.\n\nLa cita es el Martes 21 de Octubre a las 18:50 hrs.\n\nPara obtener la ubicación y el acceso físico al evento, **ES OBLIGATORIO** regístrarse en [https://luma.com/jib8cs90](https://luma.com/jib8cs90)\n\n**Change Data Capture.**\n**Por Raúl Estrada**\n\nDescubre cómo Elixir está revolucionando el mundo del **Change Data Capture (CDC)** con soluciones resilientes, eficientes y sin la carga de infraestructuras complejas. Raúl te llevará desde los enfoques tradicionales con Debezium y Kafka, hasta Sequin, una herramienta escrita 100% en Elixir que permite procesamiento *exactly-once*, *backfills* inteligentes, conectores a Kafka, y una arquitectura limpia y moderna.\nIdeal para quienes enfrentan retos con flujos de datos en tiempo real o desean explorar arquitecturas event-driven desde una perspectiva funcional.\n\n**¡Y como siempre, no faltarán las conversaciones, las risas y la buena vibra que hacen de esta comunidad algo único!**",
+      "url": "https://www.meetup.com/mexico-kafka/events/311454001/",
+      "location": "Presencial (Ubicación TBD)",
+      "organizer": "mexico-kafka",
+      "dtstart": "2025-10-21T19:00:00-06:00",
+      "dtend": null,
+      "tags": [
+        "data",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/mexico-kafka/events/?type=past",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Presencial (Ubicación TBD)",
+      "hash_key": "change data capture con elixir_2025-10-22T00:00:00+00:00"
     },
     {
       "title": "embajadoras-cloud|Embajadoras Cloud en la Mexico Tech Week 2025|México|CDMX",
