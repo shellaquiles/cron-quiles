@@ -7,6 +7,16 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ## [Unreleased]
 
+### Changed
+- **Rediseño de Pestañas de Ciudad** (cambio)
+  - **Filtrado Inteligente**: Las pestañas de ciudades ahora se ocultan automáticamente si no tienen eventos futuros o en el mes actual.
+  - **Excepciones de Visibilidad**: "México" y la ciudad seleccionada siempre permanecen visibles para facilitar la navegación.
+  - **Metadatos Expandidos**: `states_metadata.json` ahora incluye `active_months` para permitir un filtrado preciso en el frontend.
+  - **Limpieza de UI**: Se eliminó el botón de "Mostrar historial" para mantener la interfaz limpia y enfocada en eventos relevantes.
+
+### Fixed
+- **Cache de Metadatos**: Se implementó "cache busting" en la carga de `states_metadata.json` para asegurar que los usuarios siempre vean la lista de ciudades actualizada.
+
 ## [1.6.0] - 2026-01-03
 
 - **Refactorización de Agregadores** (cambio mayor)

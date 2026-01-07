@@ -3,14 +3,23 @@
  * Maneja la visualización de la cuadrícula, eventos y navegación.
  */
 import { i18n } from '../core/I18n.js';
+import { appStore } from '../core/Store.js';
 import { DateUtils } from '../utils/dates.js';
 import { DOM } from '../utils/dom.js';
 
 export class Calendar {
     constructor(containerId) {
         this.container = document.getElementById(containerId);
-        this.currentDate = new Date(); // Fecha "foco" del calendario (mes visible)
-        this.events = [];
+        // Local state removed, using appStore
+        this.currentDate = new Date(); // Initialize for local use, but sync with store
+
+        // Initialize store with current view
+        appStore.set('viewDate', this.currentDate);
+
+        // Subscribe to global state changes
+        appStore.subscribe('showPastEvents', () => {
+            this.render();
+        });
     }
 
     setEvents(events) {
@@ -24,7 +33,30 @@ export class Calendar {
      */
     changeMonth(direction) {
         this.currentDate.setMonth(this.currentDate.getMonth() + direction);
+        appStore.set('viewDate', new Date(this.currentDate)); // Update global view date (cloned)
         this.render();
+    }
+
+
+
+    /**
+     * Get events filtered by current policy
+     */
+    getFilteredEvents() {
+        const showPastEvents = appStore.get('showPastEvents');
+
+        if (showPastEvents) {
+            return this.events;
+        }
+
+        // Return only events from the start of the current month onwards
+        const now = new Date();
+        const startOfCurrentMonth = new Date(now.getFullYear(), now.getMonth(), 1);
+
+        return this.events.filter(e => {
+            if (!e.dtstart) return false;
+            return new Date(e.dtstart) >= startOfCurrentMonth;
+        });
     }
 
     render() {
@@ -55,6 +87,9 @@ export class Calendar {
 
         header.append(prevBtn, title, nextBtn);
         this.container.appendChild(header);
+
+
+
 
         // ==== Grid del Calendario ====
         const grid = DOM.create('div', { className: 'calendar-grid' });
@@ -120,7 +155,10 @@ export class Calendar {
 
         // Fix Timezone Bug: Normalize comparisons to year/month parts
         // Filter events belonging to this month (regardless of time)
-        const monthEvents = this.events.filter(e => {
+        // AND apply the global history filter
+        const relevantEvents = this.getFilteredEvents();
+
+        const monthEvents = relevantEvents.filter(e => {
             if (!e.dtstart) return false;
             const d = new Date(e.dtstart);
             return d.getFullYear() === year && d.getMonth() === month;

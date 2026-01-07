@@ -220,16 +220,48 @@ def generate_states_metadata(grouped_events: Dict[str, List[EventNormalized]], o
     """
     import json
     import pycountry
+    from datetime import datetime, timezone
 
     metadata = []
 
+    # Obtener fecha actual con timezone info para comparar (usamos UTC como base simple o local)
+    # Los eventos tienen timezone, así que comparar con now() aware es mejor.
+    # EventNormalized.dtstart es datetime.
+    now = datetime.now(timezone.utc)
+
+    def count_future(events_list):
+        count = 0
+        for e in events_list:
+            if not e.dtstart: continue
+            # Asegurar que e.dtstart tenga timezone o asumir UTC si no
+            dt = e.dtstart
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+
+            if dt >= now:
+                count += 1
+        return count
+
+    def get_active_months(events_list):
+        months = set()
+        for e in events_list:
+            if not e.dtstart: continue
+            months.add(e.dtstart.strftime("%Y-%m"))
+        return sorted(list(months))
+
     # 1. Agregar entrada para México (unificado)
-    total_events = sum(len(evs) for evs in grouped_events.values())
+    all_events_flat = [e for evs in grouped_events.values() for e in evs]
+    total_events = len(all_events_flat)
+    future_events_mex = count_future(all_events_flat)
+    active_months_mex = get_active_months(all_events_flat)
+
     metadata.append({
         "code": "mexico",
         "name": "México",
         "slug": "mexico",
         "event_count": total_events,
+        "future_event_count": future_events_mex,
+        "active_months": active_months_mex,
         "emoji": "🇲🇽"
     })
 
@@ -265,6 +297,8 @@ def generate_states_metadata(grouped_events: Dict[str, List[EventNormalized]], o
             "name": name,
             "slug": code.lower(),
             "event_count": len(events),
+            "future_event_count": count_future(events),
+            "active_months": get_active_months(events),
             "emoji": emoji
         })
 

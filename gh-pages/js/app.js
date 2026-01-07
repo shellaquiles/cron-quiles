@@ -50,8 +50,39 @@ class App {
         const container = document.querySelector('.city-tabs');
         if (!container || !this.states.length) return;
 
-        container.innerHTML = this.states.map(state => `
-            <button class="city-tab" data-city="${state.slug}" aria-label="${state.name}">
+        const showPast = appStore.get('showPastEvents');
+        const viewDate = appStore.get('viewDate') || new Date();
+
+        // Format viewDate to YYYY-MM for comparison
+        const year = viewDate.getFullYear();
+        const month = String(viewDate.getMonth() + 1).padStart(2, '0');
+        const viewMonthStr = `${year}-${month}`;
+
+        const currentCity = appStore.get('city');
+
+        const visibleStates = this.states.filter(state => {
+
+            if (state.slug === 'mexico') return true;
+            if (state.slug === currentCity) return true; // Keep active tab visible
+
+            if (showPast) return true;
+
+            // Check if city has any active month >= viewMonthStr
+            if (!state.active_months || !Array.isArray(state.active_months)) {
+                // Fallback to future_event_count if active_months not present (compatibility)
+                return (state.future_event_count || 0) > 0;
+            }
+
+            // active_months is sorted, check if any is >= viewMonthStr
+            const isVisible = state.active_months.some(m => m >= viewMonthStr);
+            if (state.slug === 'mx-ags') {
+                console.log(`[DEBUG] Filtering mx-ags. View: ${viewMonthStr}. Active: ${JSON.stringify(state.active_months)}. Result: ${isVisible}`);
+            }
+            return isVisible;
+        });
+
+        container.innerHTML = visibleStates.map(state => `
+            <button class="city-tab ${state.slug === currentCity ? 'active' : ''}" data-city="${state.slug}" aria-label="${state.name}">
                 ${state.emoji} ${state.name}
             </button>
         `).join('');
@@ -70,16 +101,16 @@ class App {
         // Reacción a cambios de estado
         appStore.subscribe('city', (city) => this.onCityChange(city));
         appStore.subscribe('lang', (lang) => this.onLangChange(lang));
+        appStore.subscribe('showPastEvents', () => this.renderTabs());
+        appStore.subscribe('viewDate', () => this.renderTabs());
     }
 
     onCityChange(city) {
         // Persistir
         Storage.set(CONFIG.STORAGE_KEYS.CITY, city);
 
-        // Actualizar UI Tabs
-        document.querySelectorAll('.city-tab').forEach(tab => {
-            tab.classList.toggle('active', tab.dataset.city === city);
-        });
+        // Re-render tabs to update active class (and potentially visibility if logic changes)
+        this.renderTabs();
 
         // Actualizar datos
         this.loadCityData(city);

@@ -10,7 +10,7 @@ export class DataService {
      * @returns {Promise<Array>} Lista de estados
      */
     static async getStatesMetadata() {
-        const url = CONFIG.PATHS.getMetadataUrl();
+        const url = CONFIG.PATHS.getMetadataUrl() + '?t=' + new Date().getTime();
         try {
             const response = await fetch(url);
             if (!response.ok) return [];
