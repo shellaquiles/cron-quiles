@@ -58,6 +58,7 @@ Para que el evento aparezca correctamente en las pestañas del frontend, se reco
 2. Los eventos se normalizan y se mezclan con los eventos provenientes de los feeds ICS.
 3. El organizador se añade automáticamente a la lista de comunidades en la barra lateral del frontend.
 4. Si el evento ya existe (mismo título y hora), el sistema lo tratará como un duplicado y seleccionará la mejor versión.
+5. **Filtrado por País**: Al igual que los feeds ICS, los eventos manuales están sujetos al filtro global. Asegúrate de que `country_code` sea "MX" o que el evento sea "ONLINE" para que se procese.
 
 ## Validación
 Al ejecutar `python3 main.py`, el sistema validará que las fechas tengan el formato correcto. Si faltan códigos de ubicación, intentará inferirlos (geocodificación), pero es más fiable proporcionarlos manualmente.

@@ -7,6 +7,18 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ## [Unreleased]
 
+### Added
+- Nuevo feed de Luma para **Claude Community**.
+- Script de mantenimiento `tools/fix_cache_encoding.py` para sanear el cache geográfico.
+
+### Changed
+- **Filtrado Global por País**: Implementado un filtro en el pipeline de agregación para asegurar que solo se procesen eventos ubicados en México o eventos Online, manteniendo el calendario enfocado en la comunidad local.
+- **Mejora en Normalización**: Se robusteció la detección de ubicaciones en México mediante búsqueda de keywords de respaldo.
+
+### Fixed
+- **Codificación del Cache**: Corregido problema de "símbolos raros" (mojibake) en `geocoding_cache.json` mediante sanitización automática y mejoras en `models.py`.
+- **Detección de País**: Se corrigió el filtrado incorrecto de eventos mexicanos cuyas direcciones no eran reconocidas inicialmente por `pycountry`.
+
 ## [1.7.0] - 2026-01-07
 
 ### Added
