@@ -57,6 +57,8 @@ El proyecto es completamente funcional y opera bajo Github Actions.
 14. **Persistencia de Historial**: Sistema de "memoria" (`data/history.json`) para preservar eventos pasados y mejorar datos (direcciones completas) mediante scraping.
 15. **Limpieza Avanzada**: Regex robusto para eliminar artefactos `vText` y basura de títulos.
 16. **Merge Inteligente**: Fusiona datos históricos con feeds vivos, preservando siempre la mejor versión de la información (ej: ubicación detallada).
+17. **Filtrado Global por País**: El sistema solo procesa eventos donde el país detectado es México (`MX`) o el evento es `Online`. Esto mantiene el calendario enfocado y optimiza el rendimiento.
+18. **Codificación Robusta**: Sistema automático para detectar y corregir problemas de codificación (mojibake) tanto en feeds externos como en archivos de datos locales (`geocoding_cache.json`, `history.json`). Maneja secuencias complejas como `¬∫` -> `º` y limpieza de caracteres basurairrecuperables.
 
 ### Deduplicación
 

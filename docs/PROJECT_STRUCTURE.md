@@ -43,6 +43,7 @@ cron-quiles/
 │   └── list_icals.txt              # Lista alternativa de feeds (texto)
 │
 ├── tools/                           # Scripts de mantenimiento y utilidades
+│   ├── fix_cache_encoding.py
 │   ├── populate_cache_from_history.py
 │   ├── scan_feeds_and_cache.py
 │   └── scrape_meetup_history.py

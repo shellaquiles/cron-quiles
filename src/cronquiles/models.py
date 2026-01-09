@@ -71,8 +71,8 @@ def fix_encoding(text: str) -> str:
     """
     Corrige problemas comunes de codificación (mojibake).
 
-    Detecta y corrige casos donde texto UTF-8 fue interpretado como Latin-1.
-    Ejemplo: "CariÃ±o" -> "Cariño"
+    Detecta y corrige casos donde texto UTF-8 fue interpretado como Latin-1 o MacRoman.
+    Ejemplo: "CariÃ±o" -> "Cariño", "M茅xico" -> "México"
 
     Args:
         text: String que puede tener problemas de codificación
@@ -80,21 +80,63 @@ def fix_encoding(text: str) -> str:
     Returns:
         String con codificación corregida
     """
-    if not isinstance(text, str):
+    if not isinstance(text, str) or not text:
         return text
 
-    # Detectar si hay caracteres de mojibake comunes
+    # 1. Corregir Mojibake común de UTF-8 como Latin-1 (ej: Ã© -> é)
     if "Ã" in text:
         try:
             # Intentar decodificar como latin-1 y recodificar como UTF-8
-            # Esto corrige el problema de mojibake
-            fixed = text.encode("latin-1").decode("utf-8")
-            return fixed
+            return text.encode("latin-1").decode("utf-8")
         except (UnicodeEncodeError, UnicodeDecodeError):
-            # Si falla, devolver el texto original
             pass
 
-    return text
+    # 2. Corregir Mojibake específico observado en el cache (ej: 茅 -> é, 贸 -> ó)
+    # Estos suelen ocurrir cuando UTF-8 se interpreta como una variante de Windows-1252 o similar
+    # y luego se re-codifica incorrectamente.
+    replacements = {
+        "茅": "é",
+        "贸": "ó",
+        "谩": "á",
+        "铆": "í",
+        "煤": "ú",
+        "帽": "ñ",
+        "麓": "í", # A veces el acento solo
+        "√©": "é", # MacRoman Mojibake
+        "√°": "á",
+        "√≠": "í",
+        "√≥": "ó",
+        "√∫": "ú",
+        "√±": "ñ",
+        "√ì": "Ó",
+        "√Å": "Á",
+        "¬∫": "º", # Paseo -> P.º
+        "¬": "",   # A veces queda solo el ¬ de un UTF-8 roto
+    }
+
+    # Solo aplicar si vemos que hay una mezcla sospechosa o caracteres típicos de mojibake
+    # (No queremos romper texto que legítimamente use caracteres chinos si los hubiera,
+    # aunque en este contexto de eventos en México es poco probable).
+    if any(c in text for c in replacements.keys()):
+        # Si contiene 'México' o 'Mexico' mal codificado, es casi seguro que necesita fix
+        for corrupted, clean in replacements.items():
+            text = text.replace(corrupted, clean)
+
+    # 3. Eliminar caracteres de reemplazo e intentar limpiar basura residual
+    if "\ufffd" in text:
+        text = text.replace("\ufffd", "")
+        # Si después de quitar el  quedaron caracteres chinos aislados en un texto que
+        # claramente es español/inglés, es probable que sean ruido de codificación.
+        # (Heurística simple para el contexto del proyecto).
+        import re
+        # Rango CJK: \u4e00-\u9fff
+        if re.search(r"[\u4e00-\u9fff]", text):
+            # Solo si el resto del texto parece occidental
+            occidental = len(re.findall(r"[a-zA-ZáéíóúñÁÉÍÓÚÑ]", text))
+            if occidental > 5:
+                text = re.sub(r"[\u4e00-\u9fff]", "", text)
+
+    return text.strip()
 
 
 class EventNormalized:
@@ -250,7 +292,7 @@ class EventNormalized:
         if not self.url:
             self.url = self._extract_url_from_description()
 
-        self.organizer = self._extract_organizer(event)
+        self.organizer = self._extract_group()
 
         # Manejar fechas con timezone
         self.dtstart = self._extract_datetime(event.get("dtstart"))
@@ -756,8 +798,13 @@ class EventNormalized:
                 pass
 
         # Fallback a México si contiene keywords comunes
-
-
+        if not country_obj:
+            mx_keywords = ["méxico", "mexico", "cdmx", "ciudad de méxico", "mexico city"]
+            if any(any(kw in p.lower() for kw in mx_keywords) for p in parts):
+                try:
+                    country_obj = pycountry.countries.get(alpha_2="MX")
+                except:
+                    pass
         if country_obj:
             details["country"] = "México" if country_obj.alpha_2 == "MX" else country_obj.name
             details["country_code"] = country_obj.alpha_2
@@ -956,6 +1003,7 @@ class EventNormalized:
             ]
 
             current_query = ", ".join(query_parts).strip()
+            current_query = fix_encoding(current_query)
             if not current_query or len(current_query) < 4:
                 return False
 

@@ -164,6 +164,15 @@ class ICSAggregator:
             events = self.aggregators['manual'].extract(manual_data)
             all_events.extend(events)
 
+        # 2.5 Filter events by country (Only Mexico or Online)
+        before_filter_count = len(all_events)
+        all_events = [
+            e for e in all_events
+            if e.country_code == "MX" or e._is_online()
+        ]
+        if len(all_events) < before_filter_count:
+            logger.info(f"Filtered out {before_filter_count - len(all_events)} non-Mexico / non-Online events.")
+
         # 3. Geocoding (Healing) Phase 1 - Live Events
         to_geocode = [e for e in all_events if not e._is_online() and (not e.state_code or not e.city)]
         if to_geocode:

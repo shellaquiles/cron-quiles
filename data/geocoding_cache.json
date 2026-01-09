@@ -6716,6 +6716,7 @@
         }
       }
     ],
+    "partial_match": true,
     "place_id": "ChIJcTcOXWIB0oURgpv4Qi4uSK0",
     "plus_code": {
       "compound_code": "CQFQ+JV Ciudad de México, CDMX, México",
@@ -6793,23 +6794,15 @@
       "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 19.4241583802915,
-          "lng": -99.1735051197085
+          "lat": 19.4243532802915,
+          "lng": -99.1735168697085
         },
         "southwest": {
-          "lat": 19.4214604197085,
-          "lng": -99.1762030802915
+          "lat": 19.4216553197085,
+          "lng": -99.1762148302915
         }
       }
     },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.422825,
-          "longitude": -99.1748831
-        }
-      }
-    ],
     "partial_match": true,
     "place_id": "ChIJfYJ2RZX_0YURdFfsKKqgLiA",
     "plus_code": {
@@ -7782,14 +7775,10 @@
       }
     ],
     "partial_match": true,
-    "place_id": "ChIJiWjuikr_0YURRQJWZJfYUX8",
-    "plus_code": {
-      "compound_code": "CRGM+XW Ciudad de México, CDMX, México",
-      "global_code": "76F2CRGM+XW"
-    },
+    "place_id": "ChIJY2KKtTX_0YUREGc5cZfthgE",
     "types": [
-      "establishment",
-      "point_of_interest"
+      "street_address",
+      "subpremise"
     ]
   },
   "Studio Berlin, Tonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
@@ -10023,6 +10012,7 @@
         }
       }
     ],
+    "partial_match": true,
     "place_id": "ChIJVVVFDDP_0YURKhiK3sd6DRw",
     "plus_code": {
       "compound_code": "CRHQ+RP Ciudad de México, CDMX, México",
@@ -10501,6 +10491,7 @@
         }
       }
     ],
+    "partial_match": true,
     "place_id": "ChIJCZLpUS_50YURuJEyUi4czqM",
     "plus_code": {
       "compound_code": "CRFG+Q6 Ciudad de México, CDMX, México",
@@ -10779,35 +10770,16 @@
       "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 19.4309180802915,
-          "lng": -99.15929061970849
+          "lat": 19.4309501802915,
+          "lng": -99.15915956970849
         },
         "southwest": {
-          "lat": 19.4282201197085,
-          "lng": -99.1619885802915
+          "lat": 19.4282522197085,
+          "lng": -99.16185753029151
         }
       }
     },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4293288,
-          "longitude": -99.1605895
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 19.4297773,
-          "longitude": -99.16072179999999
-        },
-        "restricted_travel_modes": [
-          "DRIVE"
-        ]
-      }
-    ],
+    "partial_match": true,
     "place_id": "El9Bdi4gUC7CuiBkZSBsYSBSZWZvcm1hIDE4MC1waXNvIDI5LCBKdcOhcmV6LCBDdWF1aHTDqW1vYywgMDY2MDAgQ2l1ZGFkIGRlIE3DqXhpY28sIENETVgsIE1leGljbyIjGiEKFgoUChIJF-JQDDP_0YURJ40_LweDmgwSB3Bpc28gMjk",
     "types": [
       "street_address",
@@ -11295,6 +11267,7 @@
         }
       }
     ],
+    "partial_match": true,
     "place_id": "ChIJj6zBkTX_0YURD6CQ-amXLbw",
     "plus_code": {
       "compound_code": "CRHM+56 Ciudad de México, CDMX, México",
@@ -12411,8 +12384,8 @@
         ]
       },
       {
-        "long_name": "Avenida Paseo de la Reforma",
-        "short_name": "Av. P.º de la Reforma",
+        "long_name": "Reforma",
+        "short_name": "Reforma",
         "types": [
           "route"
         ]
@@ -12458,29 +12431,29 @@
         ]
       }
     ],
-    "formatted_address": "Av. P.º de la Reforma 180, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
+    "formatted_address": "Reforma 180, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
     "geometry": {
       "location": {
-        "lat": 19.4295924,
-        "lng": -99.16062529999999
+        "lat": 19.4296135,
+        "lng": -99.1605786
       },
       "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 19.4309180802915,
-          "lng": -99.15929061970849
+          "lat": 19.4310517302915,
+          "lng": -99.15921271970849
         },
         "southwest": {
-          "lat": 19.4282201197085,
-          "lng": -99.1619885802915
+          "lat": 19.4283537697085,
+          "lng": -99.16191068029151
         }
       }
     },
     "navigation_points": [
       {
         "location": {
-          "latitude": 19.4293288,
-          "longitude": -99.1605895
+          "latitude": 19.4297989,
+          "longitude": -99.1606754
         },
         "restricted_travel_modes": [
           "WALK"
@@ -12488,18 +12461,23 @@
       },
       {
         "location": {
-          "latitude": 19.4297773,
-          "longitude": -99.16072179999999
+          "latitude": 19.4295745,
+          "longitude": -99.1604801
         },
         "restricted_travel_modes": [
           "DRIVE"
         ]
       }
     ],
-    "place_id": "ChIJF-JQDDP_0YURJ40_LweDmgw",
+    "partial_match": true,
+    "place_id": "ChIJkWdaDDP_0YURoxGWr55kSv8",
+    "plus_code": {
+      "compound_code": "CRHQ+RQ Ciudad de México, CDMX, México",
+      "global_code": "76F2CRHQ+RQ"
+    },
     "types": [
-      "premise",
-      "street_address"
+      "establishment",
+      "point_of_interest"
     ]
   },
   "Torre I, Av. Javier Barros Sierra 540, Santa Fe, Lomas de Sta Fé, Álvaro Obregón, 01210 Ciudad de México, CDMX, Mexico": {
@@ -15923,6 +15901,283 @@
       "food",
       "point_of_interest",
       "store"
+    ]
+  },
+  "P√öBLICO Reforma, Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "333",
+        "short_name": "333",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Paseo de la Reforma",
+        "short_name": "Av. P.º de la Reforma",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Cuauhtémoc",
+        "short_name": "Cuauhtémoc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06500",
+        "short_name": "06500",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4279927,
+        "lng": -99.167788
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4292596302915,
+          "lng": -99.1664431697085
+        },
+        "southwest": {
+          "lat": 19.42656166970849,
+          "lng": -99.16914113029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.427863,
+          "longitude": -99.16779629999999
+        }
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJw22Nzqv_0YURLscJNjBVnBw",
+    "plus_code": {
+      "compound_code": "CRHJ+5V Ciudad de México, CDMX, México",
+      "global_code": "76F2CRHJ+5V"
+    },
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant"
+    ]
+  },
+  "Colonia Extremadura Insurgentes, Ciudad de México": {
+    "address_components": [
+      {
+        "long_name": "Extremadura Insurgentes",
+        "short_name": "Extremadura Insurgentes",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "03740",
+        "short_name": "03740",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Extremadura Insurgentes, 03740 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.3800318,
+          "lng": -99.17688389999999
+        },
+        "southwest": {
+          "lat": 19.3742482,
+          "lng": -99.1828675
+        }
+      },
+      "location": {
+        "lat": 19.3765413,
+        "lng": -99.1802147
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.3800318,
+          "lng": -99.17688389999999
+        },
+        "southwest": {
+          "lat": 19.3742482,
+          "lng": -99.1828675
+        }
+      }
+    },
+    "place_id": "ChIJmZqOvIT_0YURVZ1GTUnl5to",
+    "types": [
+      "political",
+      "sublocality",
+      "sublocality_level_1"
+    ]
+  },
+  "Rojo Birria, Primavera 106-Local 1, ngel Zimbrón, Miguel Hidalgo, 02099 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "Local 1",
+        "short_name": "Local 1",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "106",
+        "short_name": "106",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Primavera",
+        "short_name": "Primavera",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ángel Zimbrón",
+        "short_name": "Ángel Zimbrón",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "02099",
+        "short_name": "02099",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Primavera 106-Local 1, Ángel Zimbrón, Miguel Hidalgo, 02099 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4643148,
+        "lng": -99.1903071
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4657598302915,
+          "lng": -99.1889303197085
+        },
+        "southwest": {
+          "lat": 19.4630618697085,
+          "lng": -99.19162828029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4644473,
+          "longitude": -99.1902731
+        }
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJY0lU1kH10YURyXArEG86zrg",
+    "plus_code": {
+      "compound_code": "FR75+PV Ángel Zimbrón, Ciudad de México, CDMX, México",
+      "global_code": "76F2FR75+PV"
+    },
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant"
     ]
   }
 }
