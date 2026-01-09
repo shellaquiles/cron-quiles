@@ -255,3 +255,7 @@ feeds:
 - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-W2sKbYqVIxmPXxw
   name: Vive Codding Cafe
   description: "Un espacio para juntarnos a echar código y compartir lo que estamos descubriendo en el mundo de la IA."
+  # -----------------------------------
+- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu
+  name: Claude Community
+  description: Eventos de la comunidad de Claude AI.
