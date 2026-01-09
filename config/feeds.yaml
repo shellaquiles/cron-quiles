@@ -251,3 +251,7 @@ feeds:
 - url: https://www.meetup.com/awsugmixtli/events/ical
   name: AWS User Group Mixtli
   description: Comunidad de usuarios de AWS en Puebla. Eventos sobre servicios en la nube de Amazon.
+  # -----------------------------------
+- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-W2sKbYqVIxmPXxw
+  name: Vive Codding Cafe
+  description: "Un espacio para juntarnos a echar código y compartir lo que estamos descubriendo en el mundo de la IA."
