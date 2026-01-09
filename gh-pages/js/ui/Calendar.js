@@ -7,6 +7,22 @@ import { appStore } from '../core/Store.js';
 import { DateUtils } from '../utils/dates.js';
 import { DOM } from '../utils/dom.js';
 
+/**
+ * Adds utm_source=cron-quiles to a URL for tracking outgoing links.
+ * @param {string} url - The original URL
+ * @returns {string} - URL with utm_source parameter added
+ */
+function addUtmSource(url) {
+    if (!url) return url;
+    try {
+        const urlObj = new URL(url);
+        urlObj.searchParams.set('utm_source', 'cron-quiles');
+        return urlObj.toString();
+    } catch {
+        return url;
+    }
+}
+
 export class Calendar {
     constructor(containerId) {
         this.container = document.getElementById(containerId);
@@ -247,7 +263,7 @@ export class Calendar {
         // Link Wrapper
         let titleContainer = DOM.create('div', { className: 'calendar-month-event-title' });
         if (event.url) {
-            const link = DOM.create('a', { attributes: { href: event.url, target: '_blank', rel: 'noopener' } });
+            const link = DOM.create('a', { attributes: { href: addUtmSource(event.url), target: '_blank', rel: 'noopener' } });
             if (typeof titleNode === 'string') link.textContent = titleNode;
             else link.appendChild(titleNode);
             titleContainer.appendChild(link);
@@ -285,7 +301,7 @@ export class Calendar {
                 className: 'event-link',
                 text: i18n.t('cal.viewEvent'),
                 attributes: {
-                    href: event.url,
+                    href: addUtmSource(event.url),
                     target: '_blank',
                     style: 'color: var(--terminal-green); margin-top: 5px; display: inline-block;'
                 }
