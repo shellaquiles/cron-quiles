@@ -6,6 +6,7 @@ from ..models import EventNormalized
 
 logger = logging.getLogger(__name__)
 
+
 class LumaAggregator(GenericICSAggregator):
     """Aggregator for Luma ICS feeds with location enrichment."""
 
@@ -26,7 +27,8 @@ class LumaAggregator(GenericICSAggregator):
         if to_enrich:
             logger.info(f"Found {len(to_enrich)} Luma events to potentially enrich")
             for i, event in enumerate(to_enrich):
-                if i > 0: time.sleep(1)
+                if i > 0:
+                    time.sleep(1)
                 try:
                     event.enrich_location_from_luma(self.session)
                 except Exception as e:

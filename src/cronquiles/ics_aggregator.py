@@ -31,6 +31,7 @@ from .schemas import JSONOutputSchema, CommunitySchema
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
+
 class ICSAggregator:
     """
     Orchestrator for event aggregation.
@@ -121,7 +122,8 @@ class ICSAggregator:
                         if url not in selected.description:
                             selected.description += f"\n- {url}"
 
-                logger.info(f"Deduplicated: kept '{selected.original_event.get('summary', '')}' from {len(group)} similar events")
+                logger.info(
+                    f"Deduplicated: kept '{selected.original_event.get('summary', '')}' from {len(group)} similar events")
                 deduplicated.append(selected)
 
         logger.info(f"Deduplication: {len(events)} -> {len(deduplicated)} events")
@@ -135,23 +137,24 @@ class ICSAggregator:
             url = feed if isinstance(feed, str) else feed.get("url")
             name = None if isinstance(feed, str) else feed.get("name")
 
-            if not url: continue
+            if not url:
+                continue
 
             # Dispatch logic
             if "eventbrite." in url and "/e/" not in url and "/o/" not in url and "ical" not in url:
-                 # Check if likely direct Eventbrite URL vs ICS proxy
-                 # Actually our code handles this logic. If it looks like eventbrite, use EB aggregator
-                 # Assuming direct EB urls:
-                 agg = self.aggregators['eventbrite']
+                # Check if likely direct Eventbrite URL vs ICS proxy
+                # Actually our code handles this logic. If it looks like eventbrite, use EB aggregator
+                # Assuming direct EB urls:
+                agg = self.aggregators['eventbrite']
             elif "eventbrite." in url and ("eventbrite.com" in url or "eventbrite.com.mx" in url):
-                 # Stronger check for Eventbrite domains
-                 agg = self.aggregators['eventbrite']
+                # Stronger check for Eventbrite domains
+                agg = self.aggregators['eventbrite']
             elif "lu.ma" in url or "luma.com" in url:
-                 agg = self.aggregators['luma']
+                agg = self.aggregators['luma']
             elif "meetup.com" in url:
-                 agg = self.aggregators['meetup']
+                agg = self.aggregators['meetup']
             else:
-                 agg = self.aggregators['ics']
+                agg = self.aggregators['ics']
 
             try:
                 events = agg.extract(feed, name)
@@ -207,11 +210,11 @@ class ICSAggregator:
 
             for i, event in enumerate(to_process):
                 if i > 0 and (not self.geocoding_cache or event.location not in self.geocoding_cache):
-                     time.sleep(1.1)
+                    time.sleep(1.1)
                 if event.geocode_location(self.geocoding_cache):
-                     # Update history immediately for persistence
-                     key = event.hash_key
-                     self.history_manager.events[key] = event.to_dict()
+                    # Update history immediately for persistence
+                    key = event.hash_key
+                    self.history_manager.events[key] = event.to_dict()
 
             self.history_manager.save_history()
             self.save_geocoding_cache()
@@ -236,11 +239,15 @@ class ICSAggregator:
         grouped = {}
         for event in events:
             code = event.state_code if event.state_code else "ONLINE"
-            if code not in grouped: grouped[code] = []
+            if code not in grouped:
+                grouped[code] = []
             grouped[code].append(event)
         return grouped
 
-    def generate_ics(self, events: List[EventNormalized], output_file: str = "cronquiles.ics", city_name: Optional[str] = None) -> str:
+    def generate_ics(self,
+                     events: List[EventNormalized],
+                     output_file: str = "cronquiles.ics",
+                     city_name: Optional[str] = None) -> str:
         calendar = Calendar()
         calendar.add("prodid", "-//Cron-Quiles//ICS Aggregator//EN")
         calendar.add("version", "2.0")
@@ -263,7 +270,11 @@ class ICSAggregator:
         logger.info(f"Generated ICS file: {output_file} with {len(events)} events")
         return output_file
 
-    def generate_json(self, events: List[EventNormalized], output_file: str = "cronquiles.json", city_name: Optional[str] = None, feeds: Optional[List[Dict]] = None) -> str:
+    def generate_json(self,
+                      events: List[EventNormalized],
+                      output_file: str = "cronquiles.json",
+                      city_name: Optional[str] = None,
+                      feeds: Optional[List[Dict]] = None) -> str:
         events_data: JSONOutputSchema = {
             "generated_at": datetime.now(tz.UTC).isoformat(),
             "total_events": len(events),

@@ -1,18 +1,15 @@
 import json
 import logging
-import re
-from datetime import datetime
 from typing import Dict, List, Optional
-from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
-from dateutil import parser, tz
 
 from .base import BaseAggregator
 from ..models import EventNormalized
 
 logger = logging.getLogger(__name__)
+
 
 class EventbriteExtractor:
     """
@@ -24,7 +21,11 @@ class EventbriteExtractor:
         self.session = session or requests.Session()
         # Headers para parecer un navegador real
         self.session.headers.update({
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "User-Agent": (
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/120.0.0.0 Safari/537.36"
+            ),
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
             "Accept-Language": "es-419,es;q=0.9,en;q=0.8",
         })
@@ -195,6 +196,7 @@ class EventbriteExtractor:
 
         return False
 
+
 class EventbriteAggregator(BaseAggregator):
     """Aggregator for Eventbrite URLs (Organizers or Single Events)."""
 
@@ -206,7 +208,8 @@ class EventbriteAggregator(BaseAggregator):
         url = source if isinstance(source, str) else source.get("url")
         name = feed_name or (source.get("name") if isinstance(source, dict) else None)
 
-        if not url: return []
+        if not url:
+            return []
 
         logger.info(f"Processing Eventbrite URL: {url}")
         events = []

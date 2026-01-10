@@ -7,6 +7,7 @@ from ..models import EventNormalized
 
 logger = logging.getLogger(__name__)
 
+
 class GenericICSAggregator(BaseAggregator):
     """Aggregator for standard ICS feeds."""
 
@@ -34,19 +35,26 @@ class GenericICSAggregator(BaseAggregator):
 
         return None
 
-    def extract_events_from_calendar(self, calendar: Calendar, source_url: str, feed_name: Optional[str] = None) -> List[EventNormalized]:
+    def extract_events_from_calendar(
+            self,
+            calendar: Calendar,
+            source_url: str,
+            feed_name: Optional[str] = None) -> List[EventNormalized]:
         events = []
 
         # Try to infer feed name from calendar if not provided
         if not feed_name:
             cal_name = calendar.get("X-WR-CALNAME")
             if cal_name:
-                if isinstance(cal_name, list): cal_name = cal_name[0]
+                if isinstance(cal_name, list):
+                    cal_name = cal_name[0]
                 feed_name = str(cal_name)
                 # Cleanup bytes string repr
                 if "b'" in feed_name:
-                    try: feed_name = eval(feed_name).decode('utf-8', errors='ignore')
-                    except: pass
+                    try:
+                        feed_name = eval(feed_name).decode('utf-8', errors='ignore')
+                    except Exception:
+                        pass
                 logger.info(f"Using X-WR-CALNAME as feed name: {feed_name}")
 
         for component in calendar.walk():
@@ -69,7 +77,8 @@ class GenericICSAggregator(BaseAggregator):
         url = source if isinstance(source, str) else source.get("url")
         name = feed_name or (source.get("name") if isinstance(source, dict) else None)
 
-        if not url: return []
+        if not url:
+            return []
 
         calendar = self.fetch_feed(url)
         if calendar:

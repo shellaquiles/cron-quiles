@@ -3,6 +3,7 @@ from typing import List, Optional, Dict
 import requests
 from ..models import EventNormalized
 
+
 class BaseAggregator(ABC):
     """Base class for all feed aggregators."""
 

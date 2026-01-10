@@ -1,13 +1,12 @@
 import json
 import logging
 import os
-from typing import Dict, List, Optional
-from datetime import datetime
-from dateutil import parser
+from typing import Dict, List
 
 from .models import EventNormalized
 
 logger = logging.getLogger(__name__)
+
 
 class HistoryManager:
     """
@@ -17,7 +16,7 @@ class HistoryManager:
 
     def __init__(self, history_file: str = "data/history.json"):
         self.history_file = history_file
-        self.events: Dict[str, dict] = {} # Key: hash_key, Value: Event dict
+        self.events: Dict[str, dict] = {}  # Key: hash_key, Value: Event dict
         self._ensure_data_dir()
 
     def _ensure_data_dir(self):
