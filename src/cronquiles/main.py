@@ -17,18 +17,16 @@ import sys
 import subprocess
 import re
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List
 import os
-
-from dotenv import load_dotenv
 import yaml
 import json
+from dotenv import load_dotenv
+from .ics_aggregator import ICSAggregator, EventNormalized, logger
+
 
 # Cargar variables de entorno desde .env si existe
 load_dotenv()
-
-from .ics_aggregator import ICSAggregator, EventNormalized, logger
-
 
 
 def load_cities_from_yaml(yaml_file: str) -> Dict[str, Dict]:
@@ -232,7 +230,8 @@ def generate_states_metadata(grouped_events: Dict[str, List[EventNormalized]], o
     def count_future(events_list):
         count = 0
         for e in events_list:
-            if not e.dtstart: continue
+            if not e.dtstart:
+                continue
             # Asegurar que e.dtstart tenga timezone o asumir UTC si no
             dt = e.dtstart
             if dt.tzinfo is None:
@@ -245,7 +244,8 @@ def generate_states_metadata(grouped_events: Dict[str, List[EventNormalized]], o
     def get_active_months(events_list):
         months = set()
         for e in events_list:
-            if not e.dtstart: continue
+            if not e.dtstart:
+                continue
             months.add(e.dtstart.strftime("%Y-%m"))
         return sorted(list(months))
 
@@ -267,7 +267,8 @@ def generate_states_metadata(grouped_events: Dict[str, List[EventNormalized]], o
 
     # 2. Agregar estados individuales
     for code, events in grouped_events.items():
-        if not events: continue
+        if not events:
+            continue
 
         name = code
         emoji = "📅"
@@ -286,7 +287,7 @@ def generate_states_metadata(grouped_events: Dict[str, List[EventNormalized]], o
                         "MX-YUC": "🏖️"
                     }
                     emoji = emojis.get(code, "🌵")
-            except:
+            except Exception:
                 pass
         elif code == "ONLINE":
             name = "Online"
@@ -431,8 +432,10 @@ def main():
             try:
                 import pycountry
                 sub = pycountry.subdivisions.get(code=state_code)
-                if sub: state_name = sub.name
-            except: pass
+                if sub:
+                    state_name = sub.name
+            except Exception:
+                pass
         elif state_code == "ONLINE":
             state_name = "Online"
 

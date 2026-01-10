@@ -1,6 +1,6 @@
-from .base import BaseAggregator
-from .ics import GenericICSAggregator
-from .eventbrite import EventbriteAggregator
-from .luma import LumaAggregator
-from .meetup import MeetupAggregator
-from .manual import ManualAggregator
+from .base import BaseAggregator  # noqa: F401
+from .ics import GenericICSAggregator  # noqa: F401
+from .eventbrite import EventbriteAggregator  # noqa: F401
+from .luma import LumaAggregator  # noqa: F401
+from .meetup import MeetupAggregator  # noqa: F401
+from .manual import ManualAggregator  # noqa: F401
