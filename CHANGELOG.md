@@ -5,11 +5,13 @@ Todos los cambios notables en este proyecto serán documentados en este archivo.
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/),
 y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
-## [Unreleased]
+## [1.8.0] - 2026-01-10
 
 ### Added
 - Nuevo feed de Luma para **Claude Community**.
 - Script de mantenimiento `tools/fix_cache_encoding.py` para sanear el cache geográfico.
+- **Soporte Hi.Events**: Nuevo agregador modular `HiEventsAggregator` para plataformas especializadas.
+- **Integración Pythonistas GDL**: Añadida la comunidad de Guadalajara basada en Hi.Events.
 
 ### Changed
 - **Filtrado Global por País**: Implementado un filtro en el pipeline de agregación para asegurar que solo se procesen eventos ubicados en México o eventos Online, manteniendo el calendario enfocado en la comunidad local.
@@ -237,7 +239,9 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 - Documentación completa en README.md
 - Ejemplos de configuración
 
-[Unreleased]: https://github.com/shellaquiles/cron-quiles/compare/v1.6.0...HEAD
+[Unreleased]: https://github.com/shellaquiles/cron-quiles/compare/v1.8.0...HEAD
+[1.8.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.7.0...v1.8.0
+[1.7.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.5.0...v1.6.0
 [1.5.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.3.0...v1.4.0

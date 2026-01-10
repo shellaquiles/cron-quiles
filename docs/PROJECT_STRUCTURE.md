@@ -34,7 +34,8 @@ cron-quiles/
 │       │   ├── eventbrite.py
 │       │   ├── luma.py
 │       │   ├── meetup.py
-│       │   └── manual.py
+│       │   ├── manual.py
+│       │   └── hievents.py
 │       ├── history_manager.py      # Gestor de persistencia y merge
 │       └── models.py               # Modelos de datos (EventNormalized)
 │
@@ -84,6 +85,7 @@ Código fuente principal del proyecto. Contiene:
   - `EventbriteAggregator` (Adaptador JSON-LD)
   - `LumaAggregator` & `MeetupAggregator` (Enriquecimiento)
   - `ManualAggregator`
+  - `HiEventsAggregator` (Soporte para plataformas como Pythonistas GDL)
 - **`history_manager.py`**: Maneja la carga, guardado y fusión (merge) inteligente de eventos históricos desde `data/history.json`.
 - **`models.py`**: Contiene la clase `EventNormalized` y lógica de limpieza.
   - `EventNormalized`: Clase que representa un evento unificado. Normaliza eventos, detecta online/presencial, extrae grupo/ubicación, formatea títulos e implementa el **enriquecimiento de ubicación desde Meetup y Luma**.

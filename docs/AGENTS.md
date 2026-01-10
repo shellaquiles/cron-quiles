@@ -24,7 +24,7 @@ Estás construyendo una herramienta **open source**, sin APIs privadas ni pagos,
 El proyecto es completamente funcional y opera bajo Github Actions.
 
 **Funcionalidades Implementadas:**
-1.  **Soporte Multifuente**: Consume feeds ICS de Meetup, Luma y Google Calendar.
+1.  **Soporte Multifuente**: Consume feeds ICS de Meetup, Luma, Google Calendar y Hi.Events.
 2.  **Generación Dinámica de Estados**: Detecta el estado de cada evento y genera calendarios separados automáticamente (`mx-cmx`, `mx-jal`, etc.).
     *   **Normalización ISO**: Transforma abreviaturas comunes (ej: MX-NL) a códigos ISO estándar.
     *   **Frontend Inteligente**: Renderiza pestañas de navegación dinámicamente basándose en el manifiesto `states_metadata.json`.

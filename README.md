@@ -22,6 +22,7 @@ Cron-Quiles is an open-source tool designed to unify the fragmented landscape of
   - **Meetup**: Automatic location enrichment via JSON-LD/Next.js extraction.
   - **Luma**: Deep integration with location cleaning (URL-only fixes).
   - **Eventbrite**: Native extraction (Organizer & Single Event support).
+  - **Hi.Events**: Support for custom tech community platforms (e.g., Pythonistas GDL) via API extraction.
   - **Manual**: JSON-based injection for events without public feeds.
 - **Smart Deduplication**: Merges duplicate events (same title/time) and consolidates alternative URLs.
 - **Dynamic State Generation**: Automatically categorizes events by state (e.g., `MX-CMX`, `MX-JAL`) using geocoding.
@@ -75,7 +76,11 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for deta
 
 - **Ricardo Lira** ([@richlira](https://github.com/richlira))
 - **Ivan Galaviz** ([@ivanovishado](https://github.com/ivanovishado))
-- **AdanGQ** ([@pixelead0](https://github.com/pixelead0))
+- **Pixelead0** ([@pixelead0](https://github.com/pixelead0))
+- **Raul Estrada** ([@uurl](https://github.com/uurl))
+- **Geronimo Orozco** ([@patux](https://github.com/patux))
+- **Daniel Paredes** ([@DanielParedes](https://github.com/DanielParedes))
+- **Mariano Rodríguez** ([@marianox](https://github.com/marianox))
 
 ---
 
