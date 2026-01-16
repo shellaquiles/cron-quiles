@@ -295,7 +295,7 @@ export class Calendar {
         if (locationNode) details.appendChild(locationNode);
         if (descNode) details.appendChild(descNode);
 
-        // Links a fuentes del evento (multi-source support)
+        // Links a fuentes del evento (soporte multi-fuente)
         if (event.sources && event.sources.length > 0) {
             const sourcesContainer = DOM.create('div', { className: 'event-sources' });
             event.sources.forEach(source => {

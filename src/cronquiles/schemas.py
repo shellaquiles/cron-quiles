@@ -16,8 +16,8 @@ class EventSchema(TypedDict):
     """Esquema de un evento normalizado en el JSON de salida."""
     title: str
     description: str
-    url: str  # Primary URL (backward compat)
-    sources: List[SourceSchema]  # All sources with platform info
+    url: str  # URL principal (compatibilidad)
+    sources: List[SourceSchema]  # Todas las fuentes con info de plataforma
     location: str
     organizer: str
     dtstart: Optional[str]  # ISO format

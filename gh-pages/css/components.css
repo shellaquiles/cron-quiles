@@ -251,7 +251,7 @@
     letter-spacing: 1px;
 }
 
-/* Event Source Buttons (Multi-source support) */
+/* Botones de fuentes de eventos (soporte multi-fuente) */
 .event-sources {
     display: flex;
     flex-wrap: wrap;
@@ -320,7 +320,7 @@
     color: var(--terminal-black);
 }
 
-/* Mobile Adjustments */
+/* Ajustes móviles */
 @media (max-width: 768px) {
     .city-tabs {
         flex-wrap: wrap;

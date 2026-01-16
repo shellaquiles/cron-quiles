@@ -271,14 +271,21 @@ class ICSAggregator:
                       output_file: str = "cronquiles.json",
                       city_name: Optional[str] = None,
                       feeds: Optional[List[Dict]] = None) -> str:
+        # Deduplicar comunidades por nombre (misma comunidad puede tener múltiples feeds)
+        seen_communities: Dict[str, str] = {}
+        for f in (feeds or []):
+            if isinstance(f, dict) and f.get("name"):
+                name = f.get("name", "")
+                if name not in seen_communities:
+                    seen_communities[name] = f.get("description", "")
+
         events_data: JSONOutputSchema = {
             "generated_at": datetime.now(tz.UTC).isoformat(),
             "total_events": len(events),
             "city": city_name,
             "communities": [
-                CommunitySchema(name=f.get("name", ""), description=f.get("description", ""))
-                for f in (feeds or [])
-                if isinstance(f, dict) and f.get("name")
+                CommunitySchema(name=name, description=desc)
+                for name, desc in seen_communities.items()
             ],
             "events": [event.to_dict() for event in events],
         }
