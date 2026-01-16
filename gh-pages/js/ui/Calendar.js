@@ -295,8 +295,24 @@ export class Calendar {
         if (locationNode) details.appendChild(locationNode);
         if (descNode) details.appendChild(descNode);
 
-        // Link "Ver evento"
-        if (event.url) {
+        // Links a fuentes del evento (soporte multi-fuente)
+        if (event.sources && event.sources.length > 0) {
+            const sourcesContainer = DOM.create('div', { className: 'event-sources' });
+            event.sources.forEach(source => {
+                const btn = DOM.create('a', {
+                    className: `event-source-btn event-source-${source.platform}`,
+                    text: source.label,
+                    attributes: {
+                        href: addUtmSource(source.url),
+                        target: '_blank',
+                        rel: 'noopener'
+                    }
+                });
+                sourcesContainer.appendChild(btn);
+            });
+            details.appendChild(sourcesContainer);
+        } else if (event.url) {
+            // Fallback para eventos sin sources (compatibilidad)
             details.appendChild(DOM.create('a', {
                 className: 'event-link',
                 text: i18n.t('cal.viewEvent'),

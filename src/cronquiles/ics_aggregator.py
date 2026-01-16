@@ -83,7 +83,8 @@ class ICSAggregator:
 
     def deduplicate_events(self, events: List[EventNormalized], time_tolerance_hours: int = 2) -> List[EventNormalized]:
         """
-        Deduplicates events similar to original implementation.
+        Deduplica eventos agrupándolos por hash_key (título + bloque de tiempo).
+        Combina las URLs de eventos duplicados en el campo sources.
         """
         events_by_hash: Dict[str, List[EventNormalized]] = {}
 
@@ -108,27 +109,18 @@ class ICSAggregator:
                 )
                 selected = group[0]
 
-                # Merge alternative URLs
-                alt_urls = set()
-                primary_url = selected.url.strip() if selected.url else ""
+                # Combinar URLs alternativas en el campo sources
                 for duplicate in group[1:]:
-                    dup_url = duplicate.url.strip() if duplicate.url else ""
-                    if dup_url and dup_url.startswith("http") and dup_url != primary_url:
-                        alt_urls.add(dup_url)
-
-                if alt_urls:
-                    header = "\n\nOtras fuentes:"
-                    if header not in selected.description:
-                        selected.description += header
-                    for url in alt_urls:
-                        if url not in selected.description:
-                            selected.description += f"\n- {url}"
+                    for dup_url in duplicate.sources:
+                        if dup_url and dup_url.startswith("http") and dup_url not in selected.sources:
+                            selected.sources.append(dup_url)
 
                 logger.info(
-                    f"Deduplicated: kept '{selected.original_event.get('summary', '')}' from {len(group)} similar events")
+                    f"Deduplicado: conservado '{selected.original_event.get('summary', '')}' "
+                    f"de {len(group)} eventos similares (fuentes: {len(selected.sources)})")
                 deduplicated.append(selected)
 
-        logger.info(f"Deduplication: {len(events)} -> {len(deduplicated)} events")
+        logger.info(f"Deduplicación: {len(events)} -> {len(deduplicated)} eventos")
         return deduplicated
 
     def aggregate_feeds(self, feed_urls: List[str], manual_data: Optional[List[Dict]] = None) -> List[EventNormalized]:
@@ -279,14 +271,21 @@ class ICSAggregator:
                       output_file: str = "cronquiles.json",
                       city_name: Optional[str] = None,
                       feeds: Optional[List[Dict]] = None) -> str:
+        # Deduplicar comunidades por nombre (misma comunidad puede tener múltiples feeds)
+        seen_communities: Dict[str, str] = {}
+        for f in (feeds or []):
+            if isinstance(f, dict) and f.get("name"):
+                name = f.get("name", "")
+                if name not in seen_communities:
+                    seen_communities[name] = f.get("description", "")
+
         events_data: JSONOutputSchema = {
             "generated_at": datetime.now(tz.UTC).isoformat(),
             "total_events": len(events),
             "city": city_name,
             "communities": [
-                CommunitySchema(name=f.get("name", ""), description=f.get("description", ""))
-                for f in (feeds or [])
-                if isinstance(f, dict) and f.get("name")
+                CommunitySchema(name=name, description=desc)
+                for name, desc in seen_communities.items()
             ],
             "events": [event.to_dict() for event in events],
         }

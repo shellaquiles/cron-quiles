@@ -251,7 +251,76 @@
     letter-spacing: 1px;
 }
 
-/* Mobile Adjustments */
+/* Botones de fuentes de eventos (soporte multi-fuente) */
+.event-sources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-sm);
+}
+
+.event-source-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    font-size: 0.85em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: var(--radius-md);
+    transition: all var(--transition-normal);
+    border: 1px solid;
+}
+
+/* Meetup - Rojo */
+.event-source-meetup {
+    background: rgba(237, 24, 73, 0.1);
+    border-color: #ED1849;
+    color: #ED1849;
+}
+
+.event-source-meetup:hover {
+    background: #ED1849;
+    color: white;
+}
+
+/* Luma - Morado */
+.event-source-luma {
+    background: rgba(138, 43, 226, 0.1);
+    border-color: #8A2BE2;
+    color: #8A2BE2;
+}
+
+.event-source-luma:hover {
+    background: #8A2BE2;
+    color: white;
+}
+
+/* Eventbrite - Naranja */
+.event-source-eventbrite {
+    background: rgba(255, 128, 0, 0.1);
+    border-color: #FF8000;
+    color: #FF8000;
+}
+
+.event-source-eventbrite:hover {
+    background: #FF8000;
+    color: white;
+}
+
+/* Website (genérico) - Verde terminal */
+.event-source-website {
+    background: rgba(0, 255, 0, 0.1);
+    border-color: var(--terminal-green);
+    color: var(--terminal-green);
+}
+
+.event-source-website:hover {
+    background: var(--terminal-green);
+    color: var(--terminal-black);
+}
+
+/* Ajustes móviles */
 @media (max-width: 768px) {
     .city-tabs {
         flex-wrap: wrap;
@@ -284,5 +353,14 @@
 
     .communities-grid {
         grid-template-columns: 1fr;
+    }
+
+    .event-sources {
+        flex-direction: column;
+    }
+
+    .event-source-btn {
+        width: 100%;
+        justify-content: center;
     }
 }

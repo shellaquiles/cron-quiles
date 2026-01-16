@@ -67,6 +67,47 @@ def slugify(text: str) -> str:
     return re.sub(r"[-\s]+", "", text)
 
 
+def detect_platform(url: str) -> str:
+    """
+    Detecta la plataforma a partir del patrón de URL.
+
+    Args:
+        url: URL del evento
+
+    Returns:
+        Identificador de plataforma: "meetup", "luma", "eventbrite", o "website"
+    """
+    if not url:
+        return "website"
+    url_lower = url.lower()
+    if "meetup.com" in url_lower:
+        return "meetup"
+    if "lu.ma" in url_lower or "luma.com" in url_lower:
+        return "luma"
+    if "eventbrite.com" in url_lower or "eventbrite.com.mx" in url_lower:
+        return "eventbrite"
+    return "website"
+
+
+def get_platform_label(platform: str) -> str:
+    """
+    Obtiene la etiqueta de visualización para la plataforma.
+
+    Args:
+        platform: Identificador de plataforma de detect_platform()
+
+    Returns:
+        Etiqueta legible para mostrar en la UI
+    """
+    labels = {
+        "meetup": "Ver en Meetup",
+        "luma": "Ver en Luma",
+        "eventbrite": "Ver en Eventbrite",
+        "website": "Ver sitio web"
+    }
+    return labels.get(platform, "Ver sitio web")
+
+
 def fix_encoding(text: str) -> str:
     """
     Corrige problemas comunes de codificación (mojibake).
@@ -280,6 +321,12 @@ class EventNormalized:
         self.description = self._clean_ical_property(event.get("description"))
         self.url = str(event.get("url", "")) if event.get("url") else ""
 
+        # Soporte multi-fuente: lista de todas las URLs para este evento
+        # Se inicializa con la URL principal, fuentes adicionales se agregan durante la deduplicación
+        self.sources: list[str] = []
+        if self.url:
+            self.sources.append(self.url)
+
         self.location = self._clean_ical_property(event.get("location"))
         # Si no hay location en el feed, intentar extraer de la descripción
         if not self.location or not self.location.strip():
@@ -288,6 +335,9 @@ class EventNormalized:
         # Si no hay URL, intentar extraer de la descripción (ej: lu.ma)
         if not self.url:
             self.url = self._extract_url_from_description()
+            # Actualizar sources con la URL extraída
+            if self.url and self.url not in self.sources:
+                self.sources.append(self.url)
 
         self.organizer = self._extract_group()
 
@@ -372,6 +422,23 @@ class EventNormalized:
         instance.url = data.get("url", "")
         instance.location = data.get("location", "")
         instance.organizer = data.get("organizer", "")
+
+        # Restaurar fuentes desde el historial
+        # Si hay sources guardados, usarlos; si no, inicializar con la URL principal
+        if "sources" in data and data["sources"]:
+            # sources puede venir como lista de dicts o lista de strings
+            sources_data = data["sources"]
+            instance.sources = []
+            for src in sources_data:
+                if isinstance(src, dict):
+                    instance.sources.append(src.get("url", ""))
+                else:
+                    instance.sources.append(src)
+            # Filtrar URLs vacías
+            instance.sources = [s for s in instance.sources if s]
+        else:
+            # Migración: si no hay sources, inicializar con la URL principal
+            instance.sources = [instance.url] if instance.url else []
 
         if dtstart_str:
             instance.dtstart = parser.isoparse(dtstart_str)
@@ -560,8 +627,12 @@ class EventNormalized:
 
     def _compute_hash(self) -> str:
         """Calcula un hash para deduplicación basado en título y fecha."""
+        # Truncar título a 40 caracteres para evitar problemas con títulos
+        # cortados en feeds ICS (ej: Luma trunca títulos largos)
+        title_truncated = self.title[:40] if self.title else ""
+
         if not self.dtstart:
-            return f"{self.title}_no_date"
+            return f"{title_truncated}_no_date"
 
         # Redondear hacia abajo al bloque de 2 horas más cercano
         # para tolerancia de ±2 horas
@@ -577,7 +648,7 @@ class EventNormalized:
         hour_rounded = dt_utc.replace(
             hour=hour_block, minute=0, second=0, microsecond=0
         )
-        return f"{self.title}_{hour_rounded.isoformat()}"
+        return f"{title_truncated}_{hour_rounded.isoformat()}"
 
     def _extract_tags(self) -> Set[str]:
         """Extrae tags automáticos basados en keywords."""
@@ -1214,10 +1285,21 @@ class EventNormalized:
 
     def to_dict(self) -> EventSchema:
         """Convierte el evento normalizado a diccionario para JSON."""
+        # Construir array de fuentes con info de plataforma
+        sources_with_platform = []
+        for source_url in self.sources:
+            platform = detect_platform(source_url)
+            sources_with_platform.append({
+                "platform": platform,
+                "url": source_url,
+                "label": get_platform_label(platform)
+            })
+
         return {
             "title": self._format_title(),
             "description": self.description,
-            "url": self.url,
+            "url": self.url,  # compatibilidad: URL principal
+            "sources": sources_with_platform,  # nuevo: todas las fuentes con info de plataforma
             "location": self.location,
             "organizer": self.organizer,
             "dtstart": self.dtstart.isoformat() if self.dtstart else None,
