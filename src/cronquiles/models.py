@@ -335,6 +335,9 @@ class EventNormalized:
         # Si no hay URL, intentar extraer de la descripción (ej: lu.ma)
         if not self.url:
             self.url = self._extract_url_from_description()
+            # Actualizar sources con la URL extraída
+            if self.url and self.url not in self.sources:
+                self.sources.append(self.url)
 
         self.organizer = self._extract_group()
 
@@ -624,8 +627,12 @@ class EventNormalized:
 
     def _compute_hash(self) -> str:
         """Calcula un hash para deduplicación basado en título y fecha."""
+        # Truncar título a 40 caracteres para evitar problemas con títulos
+        # cortados en feeds ICS (ej: Luma trunca títulos largos)
+        title_truncated = self.title[:40] if self.title else ""
+
         if not self.dtstart:
-            return f"{self.title}_no_date"
+            return f"{title_truncated}_no_date"
 
         # Redondear hacia abajo al bloque de 2 horas más cercano
         # para tolerancia de ±2 horas
@@ -641,7 +648,7 @@ class EventNormalized:
         hour_rounded = dt_utc.replace(
             hour=hour_block, minute=0, second=0, microsecond=0
         )
-        return f"{self.title}_{hour_rounded.isoformat()}"
+        return f"{title_truncated}_{hour_rounded.isoformat()}"
 
     def _extract_tags(self) -> Set[str]:
         """Extrae tags automáticos basados en keywords."""
