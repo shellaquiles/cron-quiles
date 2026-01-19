@@ -152,12 +152,19 @@ class ICSAggregator:
         self.cache_file = Path("data/geocoding_cache.json")
         self.load_geocoding_cache()
 
+        # Cache de URLs de Luma (conversiones y vanity URLs)
+        self.luma_url_cache_file = Path("data/luma_url_cache.json")
+        self.luma_url_cache = {"url_conversions": {}, "vanity_urls": {}}
+        self.load_luma_url_cache()
+
         self.history_manager = HistoryManager()
 
         # Initialize specific aggregators
         self.aggregators = {
             "eventbrite": EventbriteAggregator(self.session),
-            "luma": LumaAggregator(self.session, timeout, max_retries),
+            "luma": LumaAggregator(
+                self.session, timeout, max_retries, self.luma_url_cache
+            ),
             "meetup": MeetupAggregator(self.session, timeout, max_retries),
             "ics": GenericICSAggregator(self.session, timeout, max_retries),
             "manual": ManualAggregator(self.session),
@@ -186,6 +193,42 @@ class ICSAggregator:
             )
         except Exception as e:
             logger.warning(f"Could not save geocoding cache: {e}")
+
+    def load_luma_url_cache(self):
+        """Carga el cache de URLs de Luma desde disco."""
+        if self.luma_url_cache_file.exists():
+            try:
+                with open(self.luma_url_cache_file, "r", encoding="utf-8") as f:
+                    loaded = json.load(f)
+                    if isinstance(loaded, dict):
+                        self.luma_url_cache = {
+                            "url_conversions": loaded.get("url_conversions", {}),
+                            "vanity_urls": loaded.get("vanity_urls", {}),
+                        }
+                        conv_count = len(self.luma_url_cache["url_conversions"])
+                        vanity_count = len(self.luma_url_cache["vanity_urls"])
+                        logger.info(
+                            f"Loaded {conv_count} URL conversions and "
+                            f"{vanity_count} vanity URLs from Luma cache."
+                        )
+            except Exception as e:
+                logger.warning(f"Could not load Luma URL cache: {e}")
+                self.luma_url_cache = {"url_conversions": {}, "vanity_urls": {}}
+
+    def save_luma_url_cache(self):
+        """Guarda el cache de URLs de Luma a disco."""
+        try:
+            self.luma_url_cache_file.parent.mkdir(parents=True, exist_ok=True)
+            with open(self.luma_url_cache_file, "w", encoding="utf-8") as f:
+                json.dump(self.luma_url_cache, f, ensure_ascii=False, indent=2)
+            conv_count = len(self.luma_url_cache["url_conversions"])
+            vanity_count = len(self.luma_url_cache["vanity_urls"])
+            logger.info(
+                f"Saved {conv_count} URL conversions and "
+                f"{vanity_count} vanity URLs to Luma cache."
+            )
+        except Exception as e:
+            logger.warning(f"Could not save Luma URL cache: {e}")
 
     def deduplicate_events(
         self, events: List[EventNormalized], time_tolerance_hours: int = 2
@@ -309,6 +352,7 @@ class ICSAggregator:
                     time.sleep(1.1)
                 event.geocode_location(self.geocoding_cache)
             self.save_geocoding_cache()
+            self.save_luma_url_cache()
 
         # 4. Integrate with History
         deduplicated_new = self.deduplicate_events(all_events)
@@ -349,6 +393,7 @@ class ICSAggregator:
 
             self.history_manager.save_history()
             self.save_geocoding_cache()
+            self.save_luma_url_cache()
 
         # 7. Final Sort and Deduplication
         final_events.sort(
@@ -422,6 +467,11 @@ class ICSAggregator:
         city_name: Optional[str] = None,
         feeds: Optional[List[Dict]] = None,
     ) -> str:
+        # Obtener cache de URLs vanity de Luma (si está disponible)
+        luma_vanity_cache = getattr(
+            self.aggregators.get("luma"), "vanity_url_cache", {}
+        )
+
         # Agrupar comunidades por nombre y recolectar todos sus enlaces
         # (misma comunidad puede tener múltiples feeds en diferentes plataformas)
         community_data: Dict[str, Dict] = {}
@@ -438,9 +488,20 @@ class ICSAggregator:
 
                 # Extraer URL navegable y detectar plataforma
                 if feed_url:
-                    community_url = extract_community_url(feed_url)
-                    platform = detect_platform_from_url(feed_url)
+                    # Prioridad: 1) community_url explícita, 2) cache de Luma, 3) extraer de feed_url
+                    explicit_community_url = f.get("community_url")
+                    if explicit_community_url:
+                        community_url = explicit_community_url
+                    elif feed_url in luma_vanity_cache:
+                        community_url = luma_vanity_cache[feed_url]
+                    else:
+                        community_url = extract_community_url(feed_url)
+                    platform = detect_platform_from_url(explicit_community_url or feed_url)
                     label = get_platform_label_for_community(platform)
+
+                    # No agregar links de Luma con formato cal-xxx (no funcionan como landing pages)
+                    if platform == "luma" and "/cal-" in community_url:
+                        continue
 
                     # Agregar link solo si no existe ya (evitar duplicados)
                     existing_urls = [link["url"] for link in community_data[name]["links"]]
