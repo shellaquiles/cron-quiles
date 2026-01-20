@@ -24,7 +24,6 @@ import json
 from dotenv import load_dotenv
 from .ics_aggregator import ICSAggregator, EventNormalized, logger
 
-
 # Cargar variables de entorno desde .env si existe
 load_dotenv()
 
@@ -133,9 +132,11 @@ def load_feeds_from_txt(txt_file: str) -> list:
     """
     try:
         with open(txt_file, "r", encoding="utf-8") as f:
-            return [{"url": line.strip(), "name": None}
-                    for line in f
-                    if line.strip() and not line.strip().startswith("#")]
+            return [
+                {"url": line.strip(), "name": None}
+                for line in f
+                if line.strip() and not line.strip().startswith("#")
+            ]
     except FileNotFoundError:
         logger.error(f"Archivo no encontrado: {txt_file}")
         sys.exit(1)
@@ -178,14 +179,14 @@ def normalize_url(url: str) -> str:
         return ""
 
     # Remover protocolo y www
-    u = re.sub(r'^https?://(www\.)?', '', url)
+    u = re.sub(r"^https?://(www\.)?", "", url)
 
     # Remover sufijos comunes de Meetup/Luma/Eventbrite
-    u = re.sub(r'/events(/ical)?/?(\?.*)?$', '', u)
-    u = u.replace('/?type=past', '')
+    u = re.sub(r"/events(/ical)?/?(\?.*)?$", "", u)
+    u = u.replace("/?type=past", "")
 
     # Limpiar trailing slashes
-    u = u.rstrip('/')
+    u = u.rstrip("/")
 
     return u.lower()
 
@@ -212,7 +213,9 @@ def get_feeds_for_city(city_config: Dict) -> List[str]:
     return feed_urls
 
 
-def generate_states_metadata(grouped_events: Dict[str, List[EventNormalized]], output_file: str):
+def generate_states_metadata(
+    grouped_events: Dict[str, List[EventNormalized]], output_file: str
+):
     """
     Genera un archivo JSON con los metadatos de los estados que tienen eventos.
     """
@@ -255,15 +258,17 @@ def generate_states_metadata(grouped_events: Dict[str, List[EventNormalized]], o
     future_events_mex = count_future(all_events_flat)
     active_months_mex = get_active_months(all_events_flat)
 
-    metadata.append({
-        "code": "mexico",
-        "name": "México",
-        "slug": "mexico",
-        "event_count": total_events,
-        "future_event_count": future_events_mex,
-        "active_months": active_months_mex,
-        "emoji": "🇲🇽"
-    })
+    metadata.append(
+        {
+            "code": "mexico",
+            "name": "México",
+            "slug": "mexico",
+            "event_count": total_events,
+            "future_event_count": future_events_mex,
+            "active_months": active_months_mex,
+            "emoji": "🇲🇽",
+        }
+    )
 
     # 2. Agregar estados individuales
     for code, events in grouped_events.items():
@@ -284,7 +289,7 @@ def generate_states_metadata(grouped_events: Dict[str, List[EventNormalized]], o
                         "MX-JAL": "💻",
                         "MX-NLE": "🏔️",
                         "MX-PUE": "🌋",
-                        "MX-YUC": "🏖️"
+                        "MX-YUC": "🏖️",
                     }
                     emoji = emojis.get(code, "🌵")
             except Exception:
@@ -293,15 +298,17 @@ def generate_states_metadata(grouped_events: Dict[str, List[EventNormalized]], o
             name = "Online"
             emoji = "🌐"
 
-        metadata.append({
-            "code": code,
-            "name": name,
-            "slug": code.lower(),
-            "event_count": len(events),
-            "future_event_count": count_future(events),
-            "active_months": get_active_months(events),
-            "emoji": emoji
-        })
+        metadata.append(
+            {
+                "code": code,
+                "name": name,
+                "slug": code.lower(),
+                "event_count": len(events),
+                "future_event_count": count_future(events),
+                "active_months": get_active_months(events),
+                "emoji": emoji,
+            }
+        )
 
     # Ordenar: México primero, luego por nombre
     metadata.sort(key=lambda x: (x["code"] != "mexico", x["name"]))
@@ -309,7 +316,9 @@ def generate_states_metadata(grouped_events: Dict[str, List[EventNormalized]], o
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(metadata, f, indent=2, ensure_ascii=False)
 
-    logger.info(f"✓ Metadatos de estados generados: {output_file} ({len(metadata)} estados)")
+    logger.info(
+        f"✓ Metadatos de estados generados: {output_file} ({len(metadata)} estados)"
+    )
 
 
 def main():
@@ -388,7 +397,9 @@ def main():
     manual_events_path = Path("config/manual_events.json")
     manual_data = load_manual_events(str(manual_events_path))
     if manual_data:
-        logger.info(f"Cargados {len(manual_data)} eventos manuales desde {manual_events_path}")
+        logger.info(
+            f"Cargados {len(manual_data)} eventos manuales desde {manual_events_path}"
+        )
 
     # 2. Inicializar agregador
     aggregator = ICSAggregator(timeout=args.timeout, max_retries=args.retries)
@@ -413,7 +424,9 @@ def main():
 
     aggregator.generate_ics(all_events, mex_ics, city_name="México")
     if args.json:
-        aggregator.generate_json(all_events, mex_json, city_name="México", feeds=feed_config)
+        aggregator.generate_json(
+            all_events, mex_json, city_name="México", feeds=feed_config
+        )
 
     logger.info("✓ Calendario unificado de México generado.")
 
@@ -431,6 +444,7 @@ def main():
         if state_code.startswith("MX-"):
             try:
                 import pycountry
+
                 sub = pycountry.subdivisions.get(code=state_code)
                 if sub:
                     state_name = sub.name
@@ -441,9 +455,13 @@ def main():
 
         # Identificar qué feeds pertenecen a este estado basándonos en los eventos
         # Obtenemos las URLs de origen de los eventos de este estado (normalizadas)
-        state_source_urls = {normalize_url(e.source_url) for e in events if e.source_url}
+        state_source_urls = {
+            normalize_url(e.source_url) for e in events if e.source_url
+        }
         # Filtramos los feeds originales comparando versiones normalizadas
-        state_feeds = [f for f in feed_config if normalize_url(f.get("url")) in state_source_urls]
+        state_feeds = [
+            f for f in feed_config if normalize_url(f.get("url")) in state_source_urls
+        ]
 
         # Incluir organizadores de eventos manuales en la lista de comunidades de este estado
         manual_organizers = {}
@@ -452,7 +470,7 @@ def main():
                 if event.organizer not in manual_organizers:
                     manual_organizers[event.organizer] = {
                         "name": event.organizer,
-                        "description": f"Organizador de eventos manuales (ej: {event.summary})"
+                        "description": f"Organizador de eventos manuales (ej: {event.summary})",
                     }
 
         # Añadir organizadores manuales que no estén ya en state_feeds
@@ -462,9 +480,13 @@ def main():
 
         aggregator.generate_ics(events, ics_file, city_name=state_name)
         if args.json:
-            aggregator.generate_json(events, json_file, city_name=state_name, feeds=state_feeds)
+            aggregator.generate_json(
+                events, json_file, city_name=state_name, feeds=state_feeds
+            )
 
-        logger.info(f"✓ Archivos generados para: {state_name} ({len(events)} eventos, {len(state_feeds)} comunidades)")
+        logger.info(
+            f"✓ Archivos generados para: {state_name} ({len(events)} eventos, {len(state_feeds)} comunidades)"
+        )
 
     # 7. Generar metadatos para el frontend
     generate_states_metadata(grouped_events, str(output_path / "states_metadata.json"))
@@ -477,7 +499,9 @@ def main():
             subprocess.run([sys.executable, str(script_path)], check=True)
             logger.info("Estatus de comunidades actualizado.")
         else:
-            logger.warning(f"No se encontró el script de actualización de estatus en {script_path}")
+            logger.warning(
+                f"No se encontró el script de actualización de estatus en {script_path}"
+            )
     except Exception as e:
         logger.error(f"Error actualizando estatus de comunidades: {e}")
 

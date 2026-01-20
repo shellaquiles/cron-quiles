@@ -11,7 +11,12 @@ logger = logging.getLogger(__name__)
 class GenericICSAggregator(BaseAggregator):
     """Aggregator for standard ICS feeds."""
 
-    def __init__(self, session: Optional[requests.Session] = None, timeout: int = 30, max_retries: int = 2):
+    def __init__(
+        self,
+        session: Optional[requests.Session] = None,
+        timeout: int = 30,
+        max_retries: int = 2,
+    ):
         super().__init__(session)
         self.timeout = timeout
         self.max_retries = max_retries
@@ -31,15 +36,15 @@ class GenericICSAggregator(BaseAggregator):
             except Exception as e:
                 logger.warning(f"Error fetching {url} (attempt {attempt + 1}): {e}")
                 if attempt == self.max_retries - 1:
-                    logger.error(f"Failed to fetch feed after {self.max_retries} attempts: {url}")
+                    logger.error(
+                        f"Failed to fetch feed after {self.max_retries} attempts: {url}"
+                    )
 
         return None
 
     def extract_events_from_calendar(
-            self,
-            calendar: Calendar,
-            source_url: str,
-            feed_name: Optional[str] = None) -> List[EventNormalized]:
+        self, calendar: Calendar, source_url: str, feed_name: Optional[str] = None
+    ) -> List[EventNormalized]:
         events = []
 
         # Try to infer feed name from calendar if not provided
@@ -52,7 +57,7 @@ class GenericICSAggregator(BaseAggregator):
                 # Cleanup bytes string repr
                 if "b'" in feed_name:
                     try:
-                        feed_name = eval(feed_name).decode('utf-8', errors='ignore')
+                        feed_name = eval(feed_name).decode("utf-8", errors="ignore")
                     except Exception:
                         pass
                 logger.info(f"Using X-WR-CALNAME as feed name: {feed_name}")
@@ -73,7 +78,9 @@ class GenericICSAggregator(BaseAggregator):
         logger.info(f"Extracted {len(events)} events from {source_url}")
         return events
 
-    def extract(self, source: str | Dict, feed_name: Optional[str] = None) -> List[EventNormalized]:
+    def extract(
+        self, source: str | Dict, feed_name: Optional[str] = None
+    ) -> List[EventNormalized]:
         url = source if isinstance(source, str) else source.get("url")
         name = feed_name or (source.get("name") if isinstance(source, dict) else None)
 

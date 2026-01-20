@@ -152,7 +152,7 @@ def fix_encoding(text: str) -> str:
         "√ì": "Ó",
         "√Å": "Á",
         "¬∫": "º",  # Paseo -> P.º
-        "¬": "",   # A veces queda solo el ¬ de un UTF-8 roto
+        "¬": "",  # A veces queda solo el ¬ de un UTF-8 roto
     }
 
     # Solo aplicar si vemos que hay una mezcla sospechosa o caracteres típicos de mojibake
@@ -170,6 +170,7 @@ def fix_encoding(text: str) -> str:
         # claramente es español/inglés, es probable que sean ruido de codificación.
         # (Heurística simple para el contexto del proyecto).
         import re
+
         # Rango CJK: \u4e00-\u9fff
         if re.search(r"[\u4e00-\u9fff]", text):
             # Solo si el resto del texto parece occidental
@@ -193,6 +194,7 @@ class EventNormalized:
     - Normalización de títulos para deduplicación
     - Extracción automática de tags basados en keywords
     """
+
     # Cache para subdivisiones (estados) de México
     _mx_subdivisions_cache: Optional[Dict[str, pycountry.db.Subdivision]] = None
 
@@ -265,7 +267,9 @@ class EventNormalized:
 
         # Si es una lista (propiedades duplicadas), tomar la primera
         # Usamos check genérico por si icalendar devuelve un tipo custom list-like
-        if not isinstance(prop_value, (str, bytes, vText)) and hasattr(prop_value, "__getitem__"):
+        if not isinstance(prop_value, (str, bytes, vText)) and hasattr(
+            prop_value, "__getitem__"
+        ):
             try:
                 # Intentar tomar el primero, si es válido
                 prop_value = prop_value[0]
@@ -286,14 +290,19 @@ class EventNormalized:
                     bytes_str = match.group(1)
                     try:
                         # Hack seguro para decodificar unicode escapes
-                        decoded = bytes(bytes_str, 'utf-8').decode('unicode_escape').encode('latin-1').decode('utf-8')
+                        decoded = (
+                            bytes(bytes_str, "utf-8")
+                            .decode("unicode_escape")
+                            .encode("latin-1")
+                            .decode("utf-8")
+                        )
                         text = decoded
                     except Exception:
                         text = bytes_str
 
                 # Intentar limpiar si es solo una representación de bytes b'...'
                 elif text.startswith("b'") or text.startswith('b"'):
-                    text = eval(text).decode('utf-8', errors='ignore')
+                    text = eval(text).decode("utf-8", errors="ignore")
 
             except Exception:
                 pass
@@ -678,7 +687,7 @@ class EventNormalized:
         description_lower = self.description.lower()
 
         # 0. Prioridad máxima: Flag explícito (ej: de structured data)
-        if hasattr(self, 'forced_online') and self.forced_online:
+        if hasattr(self, "forced_online") and self.forced_online:
             logger.debug(f"Event detected as ONLINE (forced flag): '{self.location}'")
             return True
 
@@ -727,7 +736,12 @@ class EventNormalized:
         ]
 
         # 1. Prioridad: Verificar si la ubicación es explícitamente online
-        if "online" in location_lower or "virtual" in location_lower or "zoom" in location_lower or "meet" in location_lower:
+        if (
+            "online" in location_lower
+            or "virtual" in location_lower
+            or "zoom" in location_lower
+            or "meet" in location_lower
+        ):
             logger.debug(f"Event detected as ONLINE (from location): '{self.location}'")
             return True
 
@@ -738,27 +752,46 @@ class EventNormalized:
                 # Caso especial: Si dice "streaming" pero tenemos una dirección física real,
                 # solemos considerar que es presencial con stream.
                 physical_keywords = [
-                    "calle", "colonia", "col.", "avenida", "av.", "piso",
-                    "nivel", "número", "no.", "n°", "residencial", "roma",
-                    "norte", "sur", "zacatecas"
+                    "calle",
+                    "colonia",
+                    "col.",
+                    "avenida",
+                    "av.",
+                    "piso",
+                    "nivel",
+                    "número",
+                    "no.",
+                    "n°",
+                    "residencial",
+                    "roma",
+                    "norte",
+                    "sur",
+                    "zacatecas",
                 ]
                 if any(k in location_lower for k in physical_keywords):
                     logger.debug(
-                        f"Event detected as PHYSICAL (has streaming but physical keyword in location): '{self.location}'")
+                        f"Event detected as PHYSICAL (has streaming but physical keyword in location): '{self.location}'"
+                    )
                     return False
 
                 # Si la ubicación tiene un número, probablemente sea una dirección física
-                if re.search(r'\d+', location_lower) and len(location_lower) > 10:
-                    logger.debug(f"Event detected as PHYSICAL (has streaming but number in location): '{self.location}'")
+                if re.search(r"\d+", location_lower) and len(location_lower) > 10:
+                    logger.debug(
+                        f"Event detected as PHYSICAL (has streaming but number in location): '{self.location}'"
+                    )
                     return False
 
-                logger.debug(f"Event detected as ONLINE (keyword '{keyword}' in description): '{self.location}'")
+                logger.debug(
+                    f"Event detected as ONLINE (keyword '{keyword}' in description): '{self.location}'"
+                )
                 return True
 
         # 2. Si hay indicadores de presencial en la descripción
         for keyword in in_person_keywords:
             if keyword in description_lower:
-                logger.debug(f"Event detected as PHYSICAL (keyword '{keyword}' in description): '{self.location}'")
+                logger.debug(
+                    f"Event detected as PHYSICAL (keyword '{keyword}' in description): '{self.location}'"
+                )
                 return False
 
         # 3. Si hay location explícita y no es una URL, probablemente es presencial
@@ -768,12 +801,14 @@ class EventNormalized:
                 # pero evitamos casos como locación = "..." o locaciones muy cortas
                 if len(self.location.strip()) > 3:
                     logger.debug(
-                        f"Event detected as PHYSICAL (location string exists and not detected as online): '{self.location}'")
+                        f"Event detected as PHYSICAL (location string exists and not detected as online): '{self.location}'"
+                    )
                     return False
 
         # 4. Si no hay nada, o es muy corto, asumir online
         logger.debug(
-            f"Event detected as ONLINE (fallback): '{self.location}' (len={len(self.location) if self.location else 0})")
+            f"Event detected as ONLINE (fallback): '{self.location}' (len={len(self.location) if self.location else 0})"
+        )
         return True
 
     def _extract_group(self) -> str:
@@ -850,7 +885,7 @@ class EventNormalized:
             "state": "",
             "state_code": "",
             "city": "",
-            "city_code": ""
+            "city_code": "",
         }
 
         if not self.location or not self.location.strip():
@@ -858,7 +893,7 @@ class EventNormalized:
 
         location = self.location.strip()
         # Limpiar dobles comas y espacios extra
-        location_cleaned = re.sub(r',\s*,', ',', location)
+        location_cleaned = re.sub(r",\s*,", ",", location)
         parts = [p.strip() for p in location_cleaned.split(",") if p.strip()]
 
         # --- 1. Detectar País ---
@@ -867,22 +902,32 @@ class EventNormalized:
         if parts:
             try:
                 # Buscar por nombre exacto o código
-                country_obj = pycountry.countries.get(name=parts[-1]) or \
-                    pycountry.countries.get(official_name=parts[-1]) or \
-                    pycountry.countries.get(alpha_2=parts[-1].upper())
+                country_obj = (
+                    pycountry.countries.get(name=parts[-1])
+                    or pycountry.countries.get(official_name=parts[-1])
+                    or pycountry.countries.get(alpha_2=parts[-1].upper())
+                )
             except Exception:
                 pass
 
         # Fallback a México si contiene keywords comunes
         if not country_obj:
-            mx_keywords = ["méxico", "mexico", "cdmx", "ciudad de méxico", "mexico city"]
+            mx_keywords = [
+                "méxico",
+                "mexico",
+                "cdmx",
+                "ciudad de méxico",
+                "mexico city",
+            ]
             if any(any(kw in p.lower() for kw in mx_keywords) for p in parts):
                 try:
                     country_obj = pycountry.countries.get(alpha_2="MX")
                 except Exception:
                     pass
         if country_obj:
-            details["country"] = "México" if country_obj.alpha_2 == "MX" else country_obj.name
+            details["country"] = (
+                "México" if country_obj.alpha_2 == "MX" else country_obj.name
+            )
             details["country_code"] = country_obj.alpha_2
 
         # --- 2. Detectar Estado (Subdivision) ---
@@ -927,11 +972,12 @@ class EventNormalized:
         if parts:
             # Filtrar componentes que ya identificamos como estado o país
             remaining = [
-                p for p in parts
-                if p != details["state"] and
-                p != details["country"] and
-                p != details["country_code"] and
-                not details["state_code"].endswith(p.upper())
+                p
+                for p in parts
+                if p != details["state"]
+                and p != details["country"]
+                and p != details["country_code"]
+                and not details["state_code"].endswith(p.upper())
             ]
 
             if remaining:
@@ -952,8 +998,18 @@ class EventNormalized:
 
             # Si el componente de ciudad parece una calle o número, ignorarlo (ser conservador)
             city_keywords = [
-                "calle", "clle", "avenida", "av.", "piso", "nivel",
-                "número", "no.", "n°", "residencial", "colonia", "col."
+                "calle",
+                "clle",
+                "avenida",
+                "av.",
+                "piso",
+                "nivel",
+                "número",
+                "no.",
+                "n°",
+                "residencial",
+                "colonia",
+                "col.",
             ]
             if any(k in city_name.lower() for k in city_keywords):
                 city_name = ""
@@ -1084,7 +1140,8 @@ class EventNormalized:
 
             # Quitar ruidos comunes de Meetup
             query_parts = [
-                re.sub(r"^hosted by\s+", "", p, flags=re.IGNORECASE) for p in query_parts
+                re.sub(r"^hosted by\s+", "", p, flags=re.IGNORECASE)
+                for p in query_parts
             ]
 
             current_query = ", ".join(query_parts).strip()
@@ -1105,12 +1162,18 @@ class EventNormalized:
 
                     location_data = MockLocation(raw_data)
             else:
-                logger.debug(f"Geocoding query ({geolocator.__class__.__name__}): {current_query}")
+                logger.debug(
+                    f"Geocoding query ({geolocator.__class__.__name__}): {current_query}"
+                )
                 # GoogleV3 no usa 'addressdetails'
                 if isinstance(geolocator, GoogleV3):
-                    location_data = geolocator.geocode(current_query, language="es", timeout=10)
+                    location_data = geolocator.geocode(
+                        current_query, language="es", timeout=10
+                    )
                 else:
-                    location_data = geolocator.geocode(current_query, addressdetails=True, language="es", timeout=10)
+                    location_data = geolocator.geocode(
+                        current_query, addressdetails=True, language="es", timeout=10
+                    )
 
                 # Guardar en cache
                 if cache is not None:
@@ -1121,7 +1184,9 @@ class EventNormalized:
                 fallback_query_1 = ", ".join(query_parts[1:])
 
                 if cache and fallback_query_1 in cache:
-                    logger.debug(f"Geocoding cache hit (fallback 1): {fallback_query_1}")
+                    logger.debug(
+                        f"Geocoding cache hit (fallback 1): {fallback_query_1}"
+                    )
                     raw_data = cache[fallback_query_1]
                     if raw_data:
 
@@ -1132,12 +1197,21 @@ class EventNormalized:
                         location_data = MockLocation(raw_data)
                 else:
                     if isinstance(geolocator, GoogleV3):
-                        location_data = geolocator.geocode(fallback_query_1, language="es", timeout=10)
+                        location_data = geolocator.geocode(
+                            fallback_query_1, language="es", timeout=10
+                        )
                     else:
-                        location_data = geolocator.geocode(fallback_query_1, addressdetails=True, language="es", timeout=10)
+                        location_data = geolocator.geocode(
+                            fallback_query_1,
+                            addressdetails=True,
+                            language="es",
+                            timeout=10,
+                        )
 
                     if cache is not None:
-                        cache[fallback_query_1] = location_data.raw if location_data else {}
+                        cache[fallback_query_1] = (
+                            location_data.raw if location_data else {}
+                        )
 
                 if not location_data:
                     # Intentar con la parte final
@@ -1157,13 +1231,21 @@ class EventNormalized:
                             location_data = MockLocation(raw_data)
                     else:
                         if isinstance(geolocator, GoogleV3):
-                            location_data = geolocator.geocode(fallback_query_2, language="es", timeout=10)
+                            location_data = geolocator.geocode(
+                                fallback_query_2, language="es", timeout=10
+                            )
                         else:
                             location_data = geolocator.geocode(
-                                fallback_query_2, addressdetails=True, language="es", timeout=10)
+                                fallback_query_2,
+                                addressdetails=True,
+                                language="es",
+                                timeout=10,
+                            )
 
                         if cache is not None:
-                            cache[fallback_query_2] = location_data.raw if location_data else {}
+                            cache[fallback_query_2] = (
+                                location_data.raw if location_data else {}
+                            )
 
             if location_data:
                 # 1. Caso Google Maps
@@ -1176,7 +1258,8 @@ class EventNormalized:
                     self.city = res["city"]
                     self.city_code = res["city_code"]
                     self.address = location_data.raw.get(
-                        "formatted_address", self.location)
+                        "formatted_address", self.location
+                    )
 
                 # 2. Caso Nominatim
                 elif "address" in location_data.raw:
@@ -1191,7 +1274,9 @@ class EventNormalized:
                         try:
                             c = pycountry.countries.get(alpha_2=country_code)
                             self.country = c.name if c else country_name
-                        except KeyError:  # More specific exception for pycountry.countries.get
+                        except (
+                            KeyError
+                        ):  # More specific exception for pycountry.countries.get
                             self.country = country_name
 
                     # Extraer Estado / Provincia
@@ -1224,8 +1309,7 @@ class EventNormalized:
                         self.city = city_name
                         self.city_code = slugify(city_name)
 
-                    self.address = location_data.raw.get(
-                        "display_name", self.location)
+                    self.address = location_data.raw.get("display_name", self.location)
 
                 # Homologar resultados después de geocodificar
                 self._standardize_location()
@@ -1560,26 +1644,29 @@ class EventNormalized:
                     try:
                         maps_link_match = re.search(
                             r'href="https://www\.google\.com/maps/search/\?api=1&amp;query=([^"&]+)',
-                            html
+                            html,
                         )
                         if not maps_link_match:
                             # Try without &amp;
                             maps_link_match = re.search(
                                 r'href="https://www\.google\.com/maps/search/\?api=1&query=([^"&]+)',
-                                html
+                                html,
                             )
 
                         if maps_link_match:
                             venue_name_encoded = maps_link_match.group(1)
                             # Decode URL (Pinterest%20M%C3%A9xico -> Pinterest México)
                             from urllib.parse import unquote
+
                             venue_name = unquote(venue_name_encoded).strip()
                             # Replace + with space just in case
                             venue_name = venue_name.replace("+", " ")
 
                             if venue_name and venue_name.lower() != "google maps":
                                 new_location_parts.append(venue_name)
-                                logger.debug(f"Extracted venue name from Luma: {venue_name}")
+                                logger.debug(
+                                    f"Extracted venue name from Luma: {venue_name}"
+                                )
                     except Exception as e:
                         logger.warning(f"Error extracting venue name Luma: {e}")
 
@@ -1634,7 +1721,9 @@ class EventNormalized:
                         # CLEANUP: Remover coordenadas si aparecen al principio (Luma las pone en full_address)
                         # Ej: "19.42,-99.1725, Ciudad de México" -> "Ciudad de México"
                         # Patrón: número(s).número(s), número(s).número(s),
-                        new_location = re.sub(r'^-?\d+\.\d+,\s*-?\d+\.\d+,?\s*', '', new_location)
+                        new_location = re.sub(
+                            r"^-?\d+\.\d+,\s*-?\d+\.\d+,?\s*", "", new_location
+                        )
 
                         # Limpiar duplicados (ej: Ciudad de México, Ciudad de México)
                         # Un set preservando orden sería ideal pero simple string manipulation funciona

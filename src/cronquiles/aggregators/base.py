@@ -11,7 +11,9 @@ class BaseAggregator(ABC):
         self.session = session or requests.Session()
 
     @abstractmethod
-    def extract(self, source: str | Dict, feed_name: Optional[str] = None) -> List[EventNormalized]:
+    def extract(
+        self, source: str | Dict, feed_name: Optional[str] = None
+    ) -> List[EventNormalized]:
         """
         Extract events from a source.
 

@@ -14,6 +14,7 @@ class SourceSchema(TypedDict):
 
 class EventSchema(TypedDict):
     """Esquema de un evento normalizado en el JSON de salida."""
+
     title: str
     description: str
     url: str  # URL principal (compatibilidad)
@@ -21,7 +22,7 @@ class EventSchema(TypedDict):
     location: str
     organizer: str
     dtstart: Optional[str]  # ISO format
-    dtend: Optional[str]    # ISO format
+    dtend: Optional[str]  # ISO format
     tags: List[str]
     source: str
     country: str
@@ -36,12 +37,14 @@ class EventSchema(TypedDict):
 
 class CommunitySchema(TypedDict):
     """Esquema de una comunidad en el metadata del JSON."""
+
     name: str
     description: str
 
 
 class JSONOutputSchema(TypedDict):
     """Esquema del archivo JSON final generado."""
+
     generated_at: str
     total_events: int
     city: Optional[str]

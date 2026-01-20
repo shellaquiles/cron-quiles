@@ -9,7 +9,9 @@ logger = logging.getLogger(__name__)
 class ManualAggregator(BaseAggregator):
     """Aggregator for manually defined events."""
 
-    def extract(self, source: List[Dict], feed_name: Optional[str] = None) -> List[EventNormalized]:
+    def extract(
+        self, source: List[Dict], feed_name: Optional[str] = None
+    ) -> List[EventNormalized]:
         # Source here is expected to be a list of dicts (the manual events data)
         # or a single dict if we change schema, but currently list.
         if not source:

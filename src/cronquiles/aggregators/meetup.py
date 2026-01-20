@@ -10,12 +10,15 @@ logger = logging.getLogger(__name__)
 class MeetupAggregator(GenericICSAggregator):
     """Aggregator for Meetup ICS feeds with location enrichment."""
 
-    def extract(self, source: str | Dict, feed_name: Optional[str] = None) -> List[EventNormalized]:
+    def extract(
+        self, source: str | Dict, feed_name: Optional[str] = None
+    ) -> List[EventNormalized]:
         events = super().extract(source, feed_name)
 
         # Enrich events needing location
         to_enrich = [
-            e for e in events
+            e
+            for e in events
             if e.url and "meetup.com" in e.url and len(e.location) < 15
         ]
 

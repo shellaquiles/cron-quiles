@@ -32,7 +32,7 @@ class HistoryManager:
             return
 
         try:
-            with open(self.history_file, 'r', encoding='utf-8') as f:
+            with open(self.history_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
 
             loaded_count = 0
@@ -42,11 +42,16 @@ class HistoryManager:
                 item_healed = instance.to_dict()
 
                 # Usar hash_key si existe, sino reconstruir como antes
-                key = item_healed.get('hash_key') or f"{item_healed['title']}_{item_healed['dtstart']}"
+                key = (
+                    item_healed.get("hash_key")
+                    or f"{item_healed['title']}_{item_healed['dtstart']}"
+                )
                 self.events[key] = item_healed
                 loaded_count += 1
 
-            logger.info(f"Loaded {loaded_count} historical events from {self.history_file}")
+            logger.info(
+                f"Loaded {loaded_count} historical events from {self.history_file}"
+            )
 
         except Exception as e:
             logger.error(f"Error loading history: {e}")
@@ -56,9 +61,9 @@ class HistoryManager:
         try:
             # Convertir a lista y ordenar por fecha (descendiente, mas recientes primero)
             events_list = list(self.events.values())
-            events_list.sort(key=lambda x: x.get('dtstart') or "", reverse=True)
+            events_list.sort(key=lambda x: x.get("dtstart") or "", reverse=True)
 
-            with open(self.history_file, 'w', encoding='utf-8') as f:
+            with open(self.history_file, "w", encoding="utf-8") as f:
                 json.dump(events_list, f, ensure_ascii=False, indent=2)
 
             logger.info(f"Saved {len(events_list)} events to history file")
@@ -79,7 +84,7 @@ class HistoryManager:
         for event in new_events:
             event_dict = event.to_dict()
             # Usar hash_key para merge consistente
-            key = event_dict.get('hash_key')
+            key = event_dict.get("hash_key")
             if not key:
                 key = f"{event_dict['title']}_{event_dict['dtstart']}"
 
@@ -93,22 +98,26 @@ class HistoryManager:
 
                 # Regla 1: Preservar ubicación si es más detallada en historia
                 # (Asumimos que más largo = más detalle, ej: "Wizeline, Calle..." vs "Wizeline")
-                old_loc = existing_event.get('location', '')
-                new_loc = merged_event.get('location', '')
+                old_loc = existing_event.get("location", "")
+                new_loc = merged_event.get("location", "")
                 if old_loc and len(old_loc) > len(new_loc):
-                    merged_event['location'] = old_loc
+                    merged_event["location"] = old_loc
 
                 # Regla 2: Preservar descripción si la nueva está vacía
-                if not merged_event.get('description') and existing_event.get('description'):
-                    merged_event['description'] = existing_event.get('description')
+                if not merged_event.get("description") and existing_event.get(
+                    "description"
+                ):
+                    merged_event["description"] = existing_event.get("description")
 
                 self.events[key] = merged_event
                 update_count += 1
 
-        logger.info(f"Merged history: {new_count} new, {update_count} updated. Total: {len(self.events)}")
+        logger.info(
+            f"Merged history: {new_count} new, {update_count} updated. Total: {len(self.events)}"
+        )
 
     def get_all_events(self) -> List[dict]:
         """Retorna todos los eventos ordenados por fecha."""
         events = list(self.events.values())
-        events.sort(key=lambda x: x.get('dtstart') or "", reverse=True)
+        events.sort(key=lambda x: x.get("dtstart") or "", reverse=True)
         return events
