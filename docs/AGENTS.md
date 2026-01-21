@@ -110,12 +110,15 @@ cron-quiles/
 │       │   ├── eventbrite.py  # Extractor Eventbrite + Adapter
 │       │   ├── luma.py        # Extractor Luma
 │       │   ├── meetup.py      # Extractor Meetup
-│       │   └── manual.py      # Agregador de eventos manuales
+│       │   ├── manual.py      # Agregador de eventos manuales
+│       │   └── hievents.py    # Extractor Hi.Events
 │       ├── history_manager.py # Gestor de persistencia
-│       └── models.py          # Modelos de datos
+│       ├── models.py          # Modelos de datos
+│       └── schemas.py         # Esquemas de validación y serialización
 ├── config/
 │   ├── feeds.yaml            # Configuración de feeds (YAML)
-│   └── list_icals.txt        # Lista alternativa de feeds (texto)
+│   ├── list_icals.txt        # Lista alternativa de feeds (texto)
+│   └── manual_events.json    # Eventos agregados manualmente
 ├── docs/
 │   ├── AGENTS.md             # Este archivo (especificaciones)
 │   ├── PROJECT_STRUCTURE.md   # Documentación de estructura
@@ -152,11 +155,20 @@ cron-quiles/
   * Deduplica inteligentemente usando hashes consistentes.
   * Permite regenerar calendarios sin perder datos antiguos.
 
+* **Deduplicación de Eventos** (`tools/deduplicate_events.py`):
+  * Limpia duplicados en `history.json` re-normalizando eventos.
+
+* **Ordenamiento de Historial** (`tools/sort_history.py`):
+  * Asegura el ordenamiento cronológico descendente del historial.
+
 * **Población de Cache** (`tools/populate_cache_from_history.py`):
   * Extrae todas las ubicaciones de `history.json` verificado y las inserta en `geocoding_cache.json` para evitar re-consultar la API.
 
 * **Escaneo de Feeds** (`tools/scan_feeds_and_cache.py`):
   * Descarga todos los feeds ICS configurados, extrae las ubicaciones y asegura que estén presentes en el cache.
+
+* **Actualización de Estados** (`tools/update_communities_status.py`):
+  * Actualiza automáticamente el estado de las comunidades en `docs/COMMUNITIES.md` basándose en la fecha de su último evento.
 
 ### Clasificación de Comunidades
 Se define el estatus de una comunidad basado en la fecha de su último evento:

@@ -26,7 +26,6 @@ cron-quiles/
 │   └── cronquiles/                  # Paquete Python principal
 │       ├── __init__.py             # Inicialización del paquete
 │       ├── main.py                 # CLI principal
-│       ├── main.py                 # CLI principal
 │       ├── ics_aggregator.py       # Orchestrador del pipeline
 │       ├── aggregators/            # Paquete de lógica de agregación
 │       │   ├── base.py
@@ -37,17 +36,22 @@ cron-quiles/
 │       │   ├── manual.py
 │       │   └── hievents.py
 │       ├── history_manager.py      # Gestor de persistencia y merge
-│       └── models.py               # Modelos de datos (EventNormalized)
+│       ├── models.py               # Modelos de datos (EventNormalized)
+│       └── schemas.py              # Esquemas de validación y serialización
 │
 ├── config/                          # Archivos de configuración
 │   ├── feeds.yaml                  # Configuración de feeds (YAML)
-│   └── list_icals.txt              # Lista alternativa de feeds (texto)
+│   ├── list_icals.txt              # Lista alternativa de feeds (texto)
+│   └── manual_events.json          # Eventos agregados manualmente
 │
 ├── tools/                           # Scripts de mantenimiento y utilidades
-│   ├── fix_cache_encoding.py
-│   ├── populate_cache_from_history.py
-│   ├── scan_feeds_and_cache.py
-│   └── scrape_meetup_history.py
+│   ├── deduplicate_events.py       # Limpieza de duplicados en history.json
+│   ├── fix_cache_encoding.py       # Corrección de problemas de codificación
+│   ├── populate_cache_from_history.py  # Población de cache desde historial
+│   ├── scan_feeds_and_cache.py     # Escaneo de feeds y cacheo de ubicaciones
+│   ├── scrape_meetup_history.py    # Scraper de eventos históricos de Meetup
+│   ├── sort_history.py             # Ordenamiento cronológico del historial
+│   └── update_communities_status.py # Actualización de estados de comunidades
 │
 ├── docs/                            # Documentación adicional
 │   ├── AGENTS.md                   # Especificaciones del proyecto
