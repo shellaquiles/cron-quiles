@@ -33,23 +33,38 @@ Cron-Quiles is an open-source tool designed to unify the fragmented landscape of
 
 ## 🛠️ Quick Start
 
-### Installation
+### Requisitos
+
+- Python 3.10+
+- [uv](https://docs.astral.sh/uv/)
+
+### Instalación
 
 ```bash
+# Clonar
 git clone https://github.com/shellaquiles/cron-quiles.git
 cd cron-quiles
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+
+# Instalar uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Instalar dependencias
+make install-dev
+
+# Verificar
+make check
 ```
 
-### Usage
+### Uso
 
-Run the main pipeline to fetch feeds and generate artifacts:
+Ejecuta el pipeline principal para obtener feeds y generar artefactos:
 
 ```bash
-# Process all feeds and output to gh-pages/data/
-python main.py --all-cities --json --output-dir gh-pages/data/
+# Procesar todos los feeds y salida a gh-pages/data/
+make run-all
+
+# Ver todos los comandos disponibles
+make help
 ```
 
 This generates:

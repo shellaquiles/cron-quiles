@@ -29,7 +29,9 @@ from .aggregators.hievents import HiEventsAggregator
 from .schemas import JSONOutputSchema, CommunitySchema
 
 # Configurations
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
 
 
@@ -54,12 +56,12 @@ class ICSAggregator:
 
         # Initialize specific aggregators
         self.aggregators = {
-            'eventbrite': EventbriteAggregator(self.session),
-            'luma': LumaAggregator(self.session, timeout, max_retries),
-            'meetup': MeetupAggregator(self.session, timeout, max_retries),
-            'ics': GenericICSAggregator(self.session, timeout, max_retries),
-            'manual': ManualAggregator(self.session),
-            'hievents': HiEventsAggregator(self.session)
+            "eventbrite": EventbriteAggregator(self.session),
+            "luma": LumaAggregator(self.session, timeout, max_retries),
+            "meetup": MeetupAggregator(self.session, timeout, max_retries),
+            "ics": GenericICSAggregator(self.session, timeout, max_retries),
+            "manual": ManualAggregator(self.session),
+            "hievents": HiEventsAggregator(self.session),
         }
 
     def load_geocoding_cache(self):
@@ -67,7 +69,9 @@ class ICSAggregator:
             try:
                 with open(self.cache_file, "r", encoding="utf-8") as f:
                     self.geocoding_cache = json.load(f)
-                logger.info(f"Loaded {len(self.geocoding_cache)} entries from geocoding cache.")
+                logger.info(
+                    f"Loaded {len(self.geocoding_cache)} entries from geocoding cache."
+                )
             except Exception as e:
                 logger.warning(f"Could not load geocoding cache: {e}")
                 self.geocoding_cache = {}
@@ -77,11 +81,15 @@ class ICSAggregator:
             self.cache_file.parent.mkdir(parents=True, exist_ok=True)
             with open(self.cache_file, "w", encoding="utf-8") as f:
                 json.dump(self.geocoding_cache, f, ensure_ascii=False, indent=2)
-            logger.info(f"Saved {len(self.geocoding_cache)} entries to geocoding cache.")
+            logger.info(
+                f"Saved {len(self.geocoding_cache)} entries to geocoding cache."
+            )
         except Exception as e:
             logger.warning(f"Could not save geocoding cache: {e}")
 
-    def deduplicate_events(self, events: List[EventNormalized], time_tolerance_hours: int = 2) -> List[EventNormalized]:
+    def deduplicate_events(
+        self, events: List[EventNormalized], time_tolerance_hours: int = 2
+    ) -> List[EventNormalized]:
         """
         Deduplica eventos agrupándolos por hash_key (título + bloque de tiempo).
         Combina las URLs de eventos duplicados en el campo sources.
@@ -112,18 +120,25 @@ class ICSAggregator:
                 # Combinar URLs alternativas en el campo sources
                 for duplicate in group[1:]:
                     for dup_url in duplicate.sources:
-                        if dup_url and dup_url.startswith("http") and dup_url not in selected.sources:
+                        if (
+                            dup_url
+                            and dup_url.startswith("http")
+                            and dup_url not in selected.sources
+                        ):
                             selected.sources.append(dup_url)
 
                 logger.info(
                     f"Deduplicado: conservado '{selected.original_event.get('summary', '')}' "
-                    f"de {len(group)} eventos similares (fuentes: {len(selected.sources)})")
+                    f"de {len(group)} eventos similares (fuentes: {len(selected.sources)})"
+                )
                 deduplicated.append(selected)
 
         logger.info(f"Deduplicación: {len(events)} -> {len(deduplicated)} eventos")
         return deduplicated
 
-    def aggregate_feeds(self, feed_urls: List[str], manual_data: Optional[List[Dict]] = None) -> List[EventNormalized]:
+    def aggregate_feeds(
+        self, feed_urls: List[str], manual_data: Optional[List[Dict]] = None
+    ) -> List[EventNormalized]:
         all_events = []
 
         # 1. Process config feeds
@@ -135,22 +150,29 @@ class ICSAggregator:
                 continue
 
             # Dispatch logic
-            if "eventbrite." in url and "/e/" not in url and "/o/" not in url and "ical" not in url:
+            if (
+                "eventbrite." in url
+                and "/e/" not in url
+                and "/o/" not in url
+                and "ical" not in url
+            ):
                 # Check if likely direct Eventbrite URL vs ICS proxy
                 # Actually our code handles this logic. If it looks like eventbrite, use EB aggregator
                 # Assuming direct EB urls:
-                agg = self.aggregators['eventbrite']
-            elif "eventbrite." in url and ("eventbrite.com" in url or "eventbrite.com.mx" in url):
+                agg = self.aggregators["eventbrite"]
+            elif "eventbrite." in url and (
+                "eventbrite.com" in url or "eventbrite.com.mx" in url
+            ):
                 # Stronger check for Eventbrite domains
-                agg = self.aggregators['eventbrite']
+                agg = self.aggregators["eventbrite"]
             elif "lu.ma" in url or "luma.com" in url:
-                agg = self.aggregators['luma']
+                agg = self.aggregators["luma"]
             elif "meetup.com" in url:
-                agg = self.aggregators['meetup']
+                agg = self.aggregators["meetup"]
             elif "/reuniones." in url or "hi.events" in url:
-                agg = self.aggregators['hievents']
+                agg = self.aggregators["hievents"]
             else:
-                agg = self.aggregators['ics']
+                agg = self.aggregators["ics"]
 
             try:
                 events = agg.extract(feed, name)
@@ -160,24 +182,30 @@ class ICSAggregator:
 
         # 2. Process manual events
         if manual_data:
-            events = self.aggregators['manual'].extract(manual_data)
+            events = self.aggregators["manual"].extract(manual_data)
             all_events.extend(events)
 
         # 2.5 Filter events by country (Only Mexico or Online)
         before_filter_count = len(all_events)
-        all_events = [
-            e for e in all_events
-            if e.country_code == "MX" or e._is_online()
-        ]
+        all_events = [e for e in all_events if e.country_code == "MX" or e._is_online()]
         if len(all_events) < before_filter_count:
-            logger.info(f"Filtered out {before_filter_count - len(all_events)} non-Mexico / non-Online events.")
+            logger.info(
+                f"Filtered out {before_filter_count - len(all_events)} non-Mexico / non-Online events."
+            )
 
         # 3. Geocoding (Healing) Phase 1 - Live Events
-        to_geocode = [e for e in all_events if not e._is_online() and (not e.state_code or not e.city)]
+        to_geocode = [
+            e
+            for e in all_events
+            if not e._is_online() and (not e.state_code or not e.city)
+        ]
         if to_geocode:
             logger.info(f"Geocoding {len(to_geocode)} new events...")
             for i, event in enumerate(to_geocode):
-                if i > 0 and (not self.geocoding_cache or event.location not in self.geocoding_cache):
+                if i > 0 and (
+                    not self.geocoding_cache
+                    or event.location not in self.geocoding_cache
+                ):
                     time.sleep(1.1)
                 event.geocode_location(self.geocoding_cache)
             self.save_geocoding_cache()
@@ -198,14 +226,21 @@ class ICSAggregator:
                 logger.error(f"Error reconstructing event: {e}")
 
         # 6. Geocoding (Healing) Phase 2 - Full List (including historic)
-        to_geocode_final = [e for e in final_events if not e._is_online() and (not e.state_code or not e.city)]
+        to_geocode_final = [
+            e
+            for e in final_events
+            if not e._is_online() and (not e.state_code or not e.city)
+        ]
         if to_geocode_final:
             max_to_geocode = 100
             to_process = to_geocode_final[:max_to_geocode]
             logger.info(f"Healing location data: Geocoding {len(to_process)} events...")
 
             for i, event in enumerate(to_process):
-                if i > 0 and (not self.geocoding_cache or event.location not in self.geocoding_cache):
+                if i > 0 and (
+                    not self.geocoding_cache
+                    or event.location not in self.geocoding_cache
+                ):
                     time.sleep(1.1)
                 if event.geocode_location(self.geocoding_cache):
                     # Update history immediately for persistence
@@ -216,7 +251,9 @@ class ICSAggregator:
             self.save_geocoding_cache()
 
         # 7. Final Sort and Deduplication
-        final_events.sort(key=lambda e: e.dtstart or datetime.max.replace(tzinfo=tz.UTC))
+        final_events.sort(
+            key=lambda e: e.dtstart or datetime.max.replace(tzinfo=tz.UTC)
+        )
         if final_events:
             final_events = self.deduplicate_events(final_events)
 
@@ -224,14 +261,19 @@ class ICSAggregator:
             self.history_manager.events = {}
             for event in final_events:
                 dict_val = event.to_dict()
-                key = dict_val.get('hash_key') or f"{dict_val['title']}_{dict_val['dtstart']}"
+                key = (
+                    dict_val.get("hash_key")
+                    or f"{dict_val['title']}_{dict_val['dtstart']}"
+                )
                 self.history_manager.events[key] = dict_val
             self.history_manager.save_history()
 
         logger.info(f"Final aggregated count (History + Live): {len(final_events)}")
         return final_events
 
-    def group_events_by_state(self, events: List[EventNormalized]) -> Dict[str, List[EventNormalized]]:
+    def group_events_by_state(
+        self, events: List[EventNormalized]
+    ) -> Dict[str, List[EventNormalized]]:
         grouped = {}
         for event in events:
             code = event.state_code if event.state_code else "ONLINE"
@@ -240,10 +282,12 @@ class ICSAggregator:
             grouped[code].append(event)
         return grouped
 
-    def generate_ics(self,
-                     events: List[EventNormalized],
-                     output_file: str = "cronquiles.ics",
-                     city_name: Optional[str] = None) -> str:
+    def generate_ics(
+        self,
+        events: List[EventNormalized],
+        output_file: str = "cronquiles.ics",
+        city_name: Optional[str] = None,
+    ) -> str:
         calendar = Calendar()
         calendar.add("prodid", "-//Cron-Quiles//ICS Aggregator//EN")
         calendar.add("version", "2.0")
@@ -251,10 +295,15 @@ class ICSAggregator:
 
         if city_name:
             calendar.add("X-WR-CALNAME", f"Eventos Tech {city_name} - cronquiles")
-            calendar.add("X-WR-CALDESC", f"Calendario unificado de eventos tech en {city_name}, México")
+            calendar.add(
+                "X-WR-CALDESC",
+                f"Calendario unificado de eventos tech en {city_name}, México",
+            )
         else:
             calendar.add("X-WR-CALNAME", "Eventos Tech México - cronquiles")
-            calendar.add("X-WR-CALDESC", "Calendario unificado de eventos tech en México")
+            calendar.add(
+                "X-WR-CALDESC", "Calendario unificado de eventos tech en México"
+            )
         calendar.add("X-WR-TIMEZONE", "America/Mexico_City")
 
         for event_norm in events:
@@ -266,14 +315,16 @@ class ICSAggregator:
         logger.info(f"Generated ICS file: {output_file} with {len(events)} events")
         return output_file
 
-    def generate_json(self,
-                      events: List[EventNormalized],
-                      output_file: str = "cronquiles.json",
-                      city_name: Optional[str] = None,
-                      feeds: Optional[List[Dict]] = None) -> str:
+    def generate_json(
+        self,
+        events: List[EventNormalized],
+        output_file: str = "cronquiles.json",
+        city_name: Optional[str] = None,
+        feeds: Optional[List[Dict]] = None,
+    ) -> str:
         # Deduplicar comunidades por nombre (misma comunidad puede tener múltiples feeds)
         seen_communities: Dict[str, str] = {}
-        for f in (feeds or []):
+        for f in feeds or []:
             if isinstance(f, dict) and f.get("name"):
                 name = f.get("name", "")
                 if name not in seen_communities:

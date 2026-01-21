@@ -42,18 +42,24 @@ class LumaAggregator(GenericICSAggregator):
 
         return url
 
-    def extract(self, source: str | Dict, feed_name: Optional[str] = None) -> List[EventNormalized]:
+    def extract(
+        self, source: str | Dict, feed_name: Optional[str] = None
+    ) -> List[EventNormalized]:
         # Convertir URL si es necesario
         if isinstance(source, str):
             source = self._convert_luma_url_to_ics(source)
         elif isinstance(source, dict) and "url" in source:
             source["url"] = self._convert_luma_url_to_ics(source["url"])
+
         events = super().extract(source, feed_name)
 
         # Enrich events needing location
         to_enrich = [
-            e for e in events
-            if e.url and ("lu.ma" in e.url or "luma.com" in e.url) and (
+            e
+            for e in events
+            if e.url
+            and ("lu.ma" in e.url or "luma.com" in e.url)
+            and (
                 not e.location
                 or "Check event page" in e.location
                 or len(e.location) < 15

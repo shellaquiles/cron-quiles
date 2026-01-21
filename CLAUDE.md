@@ -9,29 +9,68 @@ Cron-Quiles is a Python tool that aggregates tech event calendars from multiple 
 ## Common Commands
 
 ```bash
-# Install dependencies
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+# Installation
+make install-dev  # Install prod + dev dependencies
+make install      # Production only
 
-# Run the main pipeline (generates ICS/JSON files in gh-pages/data/)
-python main.py --all-cities --json --output-dir gh-pages/data/
+# Run pipeline
+make run-all                                    # All cities
+make run ARGS="--city cdmx --json"             # Specific city
+make run ARGS="--all-cities --output-dir out/"  # Custom output
 
-# Run tests
-python -m pytest tests/ -v
+# Tests
+make test                                  # All tests
+make test-file FILE=test_ics_aggregator.py # Specific file
+make test-filter FILTER="normalize_title"  # Filtered
 
-# Run a single test file
-python -m pytest tests/test_ics_aggregator.py -v
+# Linting and formatting
+make lint          # Check
+make format        # Format
+make format-check  # Check without changing
 
-# Run tests with specific test name
-python -m pytest tests/ -v -k "test_normalize_title"
+# Local server
+make serve  # http://localhost:8000
 
-# Lint code
-pip install flake8
-flake8 src/ --max-line-length=127
+# Tools
+make tools-deduplicate
+make tools-populate-cache
+make tools-scan-feeds
+make tools-scrape-meetup
 
-# Local dev server for gh-pages
-cd gh-pages && python serve.py
+# Management
+make clean   # Clean generated files
+make update  # Update dependencies
+make check   # Verify environment
+
+# See all commands
+make help
+```
+
+## Dependency Management with uv
+
+### Installing uv
+
+```bash
+# Linux/macOS
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+### Basic Usage
+
+```bash
+# Install from lockfile
+uv sync --frozen
+
+# With dev extras
+uv sync --frozen --all-extras
+
+# Add dependency
+uv add requests
+uv add --dev pytest
+
+# Update
+uv lock --upgrade-package requests  # Specific
+uv lock --upgrade                   # All
 ```
 
 ## Architecture

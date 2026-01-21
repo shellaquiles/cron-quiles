@@ -102,7 +102,10 @@ class TestICSAggregator(unittest.TestCase):
         event = Event()
         event.add("summary", "Luma Event")
         # Descripción real de Luma
-        event.add("description", "Get up-to-date information at: https://luma.com/z4d0punf\\n\\nHosted by Martin")
+        event.add(
+            "description",
+            "Get up-to-date information at: https://luma.com/z4d0punf\\n\\nHosted by Martin",
+        )
         event.add("dtstart", datetime(2024, 3, 15, 18, 0, 0, tzinfo=tz.UTC))
 
         # Simulamos que no hay URL en el campo URL

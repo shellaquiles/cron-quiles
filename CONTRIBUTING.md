@@ -27,6 +27,26 @@ Las sugerencias son bienvenidas:
 
 ### Contribuir Código
 
+#### Setup Inicial
+
+```bash
+# Fork y clonar
+git clone https://github.com/TU-USUARIO/cron-quiles.git
+cd cron-quiles
+
+# Instalar uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Instalar dependencias
+make install-dev
+
+# Verificar
+make test
+make check
+```
+
+#### Implementar cambios
+
 1. **Fork el repositorio**
 
 2. **Crea una rama para tu feature**:
@@ -41,9 +61,9 @@ Las sugerencias son bienvenidas:
 
 4. **Prueba tus cambios**:
    ```bash
-   python main.py --verbose
-   # O ejecuta los tests si los hay:
-   python -m pytest tests/ -v
+   make run-all
+   # O ejecuta los tests:
+   make test
    ```
 
 5. **Commit tus cambios**:

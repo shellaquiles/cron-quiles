@@ -17,7 +17,9 @@ class HiEventsAggregator(BaseAggregator):
         super().__init__(session)
         self.session.headers.update({"Accept": "application/json"})
 
-    def extract(self, source: str | Dict, feed_name: Optional[str] = None) -> List[EventNormalized]:
+    def extract(
+        self, source: str | Dict, feed_name: Optional[str] = None
+    ) -> List[EventNormalized]:
         """
         Extracts events from a Hi.Events public API or organizer URL.
         """
@@ -65,7 +67,9 @@ class HiEventsAggregator(BaseAggregator):
             logger.error(f"Failed to process Hi.Events feed {url}: {e}")
             return []
 
-    def _map_to_normalized(self, raw: Dict, source_url: str, feed_name: Optional[str]) -> Optional[EventNormalized]:
+    def _map_to_normalized(
+        self, raw: Dict, source_url: str, feed_name: Optional[str]
+    ) -> Optional[EventNormalized]:
         """Maps Hi.Events API JSON to EventNormalized object."""
 
         # Extract location string
@@ -96,7 +100,7 @@ class HiEventsAggregator(BaseAggregator):
             "location": location_str,
             "url": f"{source_url.split('/events/')[0]}/event/{raw.get('id')}/{raw.get('slug')}",
             "source": "Hi.Events",
-            "organizer": raw.get("organizer", {}).get("name") or feed_name
+            "organizer": raw.get("organizer", {}).get("name") or feed_name,
         }
 
         event_norm = EventNormalized.from_dict(mapped_data)

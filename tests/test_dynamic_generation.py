@@ -13,6 +13,7 @@ from cronquiles.models import EventNormalized
 from cronquiles.ics_aggregator import ICSAggregator
 from cronquiles.main import generate_states_metadata
 
+
 class TestStateNormalization(unittest.TestCase):
     def setUp(self):
         self.dt = datetime(2024, 3, 15, 18, 0, 0, tzinfo=tz.UTC)
@@ -36,11 +37,11 @@ class TestStateNormalization(unittest.TestCase):
 
         # Case 2: MX-N.L. (with dots)
         ev2 = self._create_event("Monterrey, N.L.", state_code="MX-N.L.")
-        self.assertEqual(ev2.state_code, "MX-NLE") # Normalized to ISO standard
+        self.assertEqual(ev2.state_code, "MX-NLE")  # Normalized to ISO standard
 
         # Case 3: MX-Tlax. (abbreviated)
         ev3 = self._create_event("Tlaxcala", state_code="MX-Tlax.")
-        self.assertEqual(ev3.state_code, "MX-TLA") # Normalized to ISO standard
+        self.assertEqual(ev3.state_code, "MX-TLA")  # Normalized to ISO standard
 
         # Case 4: CDMX variations
         ev4 = self._create_event("Roma Norte, DF", state_code="DF")
@@ -58,6 +59,7 @@ class TestStateNormalization(unittest.TestCase):
         self.assertIn("ONLINE", grouped)
         self.assertEqual(len(grouped["ONLINE"]), 1)
 
+
 class TestGroupingLogic(unittest.TestCase):
     def test_group_by_state(self):
         aggregator = ICSAggregator()
@@ -73,13 +75,14 @@ class TestGroupingLogic(unittest.TestCase):
         ev3.state_code = "MX-CMX"
 
         ev4 = EventNormalized(Event(), "f4")
-        ev4.state_code = "" # Online
+        ev4.state_code = ""  # Online
 
         grouped = aggregator.group_events_by_state([ev1, ev2, ev3, ev4])
 
         self.assertEqual(len(grouped["MX-CMX"]), 2)
         self.assertEqual(len(grouped["MX-JAL"]), 1)
         self.assertEqual(len(grouped["ONLINE"]), 1)
+
 
 if __name__ == "__main__":
     unittest.main()

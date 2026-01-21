@@ -5,6 +5,40 @@ Todos los cambios notables en este proyecto serán documentados en este archivo.
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/),
 y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
+## [Unreleased]
+
+### Changed
+- **Migración a uv**: El proyecto ahora usa `uv` en lugar de `pip` para gestión de dependencias
+  - Build system actualizado de setuptools a hatchling
+  - Generación automática de `uv.lock` para reproducibilidad garantizada
+  - GitHub Actions (~70% más rápido) con cache nativo de uv
+  - `pyproject.toml` ahora es la fuente única de verdad para todas las 12 dependencias de producción
+
+### Added
+- **Makefile**: Sistema de comandos simplificados para desarrollo
+  - `make install-dev` - Instala todas las dependencias
+  - `make test` - Ejecuta tests
+  - `make format` - Formatea código
+  - `make lint` - Verifica estilo
+  - `make run-all` - Ejecuta pipeline completo
+  - Y más. Ver `make help` para lista completa
+- **Documentación**:
+  - `CLAUDE.md`: Guía para Claude Code con nuevos comandos
+  - `MIGRATION.md`: Guía para migrar de pip a uv
+  - Updated `CONTRIBUTING.md` con instrucciones de setup con uv
+- **CI/CD**:
+  - `.github/workflows/tests.yml` ahora usa uv con cache
+  - `.github/workflows/update-events.yml` actualizado para uv
+
+### Fixed
+- **Dependencias Incompletas**: `pyproject.toml` solo declaraba 4 de 12 dependencias de producción
+  - Agregadas: google-auth, google-auth-oauthlib, google-api-python-client, beautifulsoup4, pycountry, geopy, unidecode, python-dotenv
+
+### Notes
+- `requirements.txt` aún disponible pero generado desde `uv.lock`
+- `uv.lock` **debe** ser commiteado en git para reproducibilidad
+- Compatibilidad hacia atrás: El proyecto sigue siendo instalable con pip si es necesario
+
 ## [1.8.0] - 2026-01-10
 
 ### Added

@@ -2,10 +2,12 @@ import sys
 import os
 import requests
 import unittest
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../src')))
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../src")))
 
 from cronquiles.models import EventNormalized
 from icalendar import Event
+
 
 class TestLumaEnrichment(unittest.TestCase):
     def test_enrich_location(self):
@@ -13,8 +15,8 @@ class TestLumaEnrichment(unittest.TestCase):
 
         # Create a dummy event
         event_ical = Event()
-        event_ical.add('summary', 'Test Event')
-        event_ical.add('url', url)
+        event_ical.add("summary", "Test Event")
+        event_ical.add("url", url)
         event_norm = EventNormalized(event_ical, source_url="")
 
         print(f"Original Location: {event_norm.location}")
@@ -35,5 +37,6 @@ class TestLumaEnrichment(unittest.TestCase):
         self.assertNotIn("19.42", event_norm.location)
         # self.assertIn("Pinterest México", event_norm.location) # Only visible if authenticated/not obfuscated
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
