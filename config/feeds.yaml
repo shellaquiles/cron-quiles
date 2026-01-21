@@ -263,3 +263,23 @@ feeds:
 - url: https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu
   name: Claude Community
   description: Eventos de la comunidad de Claude AI.
+  # -----------------------------------
+- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP
+  name: Java Mexico
+  description: Comunidad de Java en México. Eventos, charlas técnicas y networking para desarrolladores Java.
+  # -----------------------------------
+- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq
+  name: AI Builders MX
+  description: Comunidad de AI builders en México. Eventos sobre inteligencia artificial, desarrollo y hackathons.
+  # -----------------------------------
+- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0
+  name: Frutero Club
+  description: Comunidad y plataforma enfocada en formar, conectar y activar talento tecnológico en América Latina. Eventos de builders, Web3 y desarrollo.
+  # -----------------------------------
+- url: https://www.meetup.com/rladies-cdmx/events/ical
+  name: R-Ladies CDMX
+  description: Comunidad de R-Ladies en Ciudad de México. Eventos sobre programación en R, ciencia de datos y estadística para mujeres y personas de género diverso.
+  # -----------------------------------
+- url: https://api2.luma.com/ics/get?entity=calendar&id=cal-KqGqtx1zbUKDXTy
+  name: Talavera Valley
+  description: Comunidad que está construyendo el ecosistema de startups más ambicioso y robusto de la región de Puebla. Eventos para startups, talento emergente y capital.
