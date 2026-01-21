@@ -19,7 +19,7 @@ Estás construyendo una herramienta **open source**, sin APIs privadas ni pagos,
    * Un **ICS unificado** por ciudad (`cronquiles-{slug}.ics`)
    * Un **JSON** con eventos y comunidades (`cronquiles-{slug}.json`)
 
-### Estado Actual del Proyecto (v1.7.0)
+### Estado Actual del Proyecto (v1.8.0+)
 
 El proyecto es completamente funcional y opera bajo Github Actions.
 
@@ -46,7 +46,8 @@ El proyecto es completamente funcional y opera bajo Github Actions.
     *   Desacoplado de la lógica de ciudades: el sistema infiere el estado desde cada evento.
 8.  **Salida Dual**: Genera tanto `.ics` (para calendarios) como `.json` (para integraciones).
     *   Archivos por ciudad: `cronquiles-{slug}.ics` y `cronquiles-{slug}.json`.
-    *   JSON incluye campo `communities` con lista de comunidades integradas.
+    *   JSON incluye campo `communities` con lista de comunidades integradas y sus enlaces a múltiples plataformas.
+    *   JSON incluye campo `sources` en eventos con información de todas las plataformas disponibles.
 9.  **Logging Detallado**: Registra el proceso de agregación y estadísticas de eventos procesados.
 10. **Tags automáticos**: Detección por keywords en título y descripción (python, ai, cloud, etc).
 11. **Interfaz web moderna**: Diseño terminal estilo shellaquiles-org con calendario visual embebido.
@@ -69,7 +70,8 @@ Estrategia implementada:
 * Priorizar eventos con:
   1. URL válida
   2. Descripción más larga
-* **Merge de links**: Si los duplicados tienen URLs diferentes, se agregan al final de la descripción.
+* **Merge de fuentes**: Si los duplicados tienen URLs diferentes de diferentes plataformas (Meetup, Luma, Eventbrite), se combinan en el campo `sources` del evento, manteniendo información de plataforma y etiquetas.
+* **Campo `sources`**: Array de objetos con `platform`, `url`, y `label` para cada fuente del evento.
 
 ### Output
 
@@ -79,8 +81,15 @@ Estrategia implementada:
 * `gh-pages/data/cronquiles-{slug}.ics/json` - Calendarios por estado (ej: `cronquiles-mx-cmx.ics`)
 * `gh-pages/data/cronquiles-online.ics/json` - Eventos sin ubicación física
 
+**Formato JSON**:
+* Campo `sources` en eventos: Array de objetos con `platform` (meetup/luma/eventbrite/website), `url`, y `label`
+* Campo `links` en comunidades: Array de objetos con información de todas las plataformas disponibles
+* Cache persistente: `data/luma_url_cache.json` almacena conversiones de URLs vanity de Luma a URLs de API
+
 **Interfaz web**:
 * `gh-pages/index.html` - Página con calendario embebido y tabs por ciudad
+* Botones de plataforma estilizados por color (rojo Meetup, morado Luma, naranja Eventbrite)
+* Enlaces de comunidades con múltiples plataformas visibles en las tarjetas
 
 ### Entregables
 

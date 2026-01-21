@@ -7,6 +7,23 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ## [Unreleased]
 
+## [1.9.0] - 2026-01-21
+
+### Added
+- **Soporte multi-fuente para eventos**: Los eventos ahora pueden tener múltiples URLs de diferentes plataformas (Meetup, Luma, Eventbrite)
+  - Campo `sources` en eventos con información de plataforma y etiquetas
+  - Botones estilizados en el frontend con colores por plataforma (rojo para Meetup, morado para Luma, naranja para Eventbrite)
+  - Deduplicación mejorada que combina fuentes de eventos duplicados
+- **Enlaces de comunidades**: Las tarjetas de comunidades ahora muestran enlaces a todas sus plataformas
+  - Campo `links` en comunidades con información de plataforma
+  - Renderizado de botones de plataforma en `CommunityList.js`
+- **Cache persistente para URLs de Luma**: Nuevo archivo `data/luma_url_cache.json` para evitar requests innecesarios
+  - Conversión de URLs vanity a URLs de API
+  - Persistencia entre ejecuciones del pipeline
+- **Funciones de detección de plataforma**: `detect_platform()` y `get_platform_label()` en `models.py`
+- **Nuevos esquemas**: `SourceSchema` y `CommunityLinkSchema` en `schemas.py`
+- **Nuevos feeds**: GDG CloudMX y México City AI, Machine Learning and Computer Vision Meetup
+
 ### Changed
 - **Migración a uv**: El proyecto ahora usa `uv` en lugar de `pip` para gestión de dependencias
   - Build system actualizado de setuptools a hatchling

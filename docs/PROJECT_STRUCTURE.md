@@ -20,7 +20,8 @@ cron-quiles/
 ├── CHANGELOG.md                     # Historial de cambios
 │
 ├── data/                            # Datos persistentes
-│   └── history.json                # Historial de eventos (base de datos)
+│   ├── history.json                # Historial de eventos (base de datos)
+│   └── luma_url_cache.json         # Cache persistente de conversiones de URLs de Luma (vanity → API)
 │
 ├── src/
 │   └── cronquiles/                  # Paquete Python principal
@@ -37,7 +38,12 @@ cron-quiles/
 │       │   └── hievents.py
 │       ├── history_manager.py      # Gestor de persistencia y merge
 │       ├── models.py               # Modelos de datos (EventNormalized)
+│       │                           # - detect_platform(): Detecta plataforma desde URL
+│       │                           # - get_platform_label(): Obtiene etiqueta de plataforma
+│       │                           # - EventNormalized.sources: Lista de URLs multi-fuente
 │       └── schemas.py              # Esquemas de validación y serialización
+│                                   # - SourceSchema: Esquema para fuentes de eventos
+│                                   # - CommunityLinkSchema: Esquema para enlaces de comunidades
 │
 ├── config/                          # Archivos de configuración
 │   ├── feeds.yaml                  # Configuración de feeds (YAML)
@@ -93,11 +99,15 @@ Código fuente principal del proyecto. Contiene:
 - **`history_manager.py`**: Maneja la carga, guardado y fusión (merge) inteligente de eventos históricos desde `data/history.json`.
 - **`models.py`**: Contiene la clase `EventNormalized` y lógica de limpieza.
   - `EventNormalized`: Clase que representa un evento unificado. Normaliza eventos, detecta online/presencial, extrae grupo/ubicación, formatea títulos e implementa el **enriquecimiento de ubicación desde Meetup y Luma**.
+  - `EventNormalized.sources`: Lista de URLs multi-fuente del evento (puede tener múltiples plataformas: Meetup, Luma, Eventbrite).
+  - `detect_platform(url)`: Función que detecta la plataforma desde una URL (meetup, luma, eventbrite, website).
+  - `get_platform_label(platform)`: Función que obtiene la etiqueta de visualización para una plataforma.
 
 ### `config/`
 Archivos de configuración:
 - **`feeds.yaml`**: Configuración principal de feeds ICS (formato YAML)
 - **`list_icals.txt`**: Lista alternativa de feeds (formato texto plano, una URL por línea)
+- **`manual_events.json`**: Eventos agregados manualmente sin feeds públicos
 
 ### `tools/`
 Scripts de mantenimiento y utilidad:

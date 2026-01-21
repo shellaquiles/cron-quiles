@@ -26,7 +26,8 @@ Cron-Quiles is an open-source tool designed to unify the fragmented landscape of
   - **Eventbrite**: Native extraction (Organizer & Single Event support).
   - **Hi.Events**: Support for custom tech community platforms (e.g., Pythonistas GDL) via API extraction.
   - **Manual**: JSON-based injection for events without public feeds.
-- **Smart Deduplication**: Merges duplicate events (same title/time) and consolidates alternative URLs.
+- **Smart Deduplication**: Merges duplicate events (same title/time) and consolidates alternative URLs from multiple platforms (Meetup, Luma, Eventbrite).
+- **Multi-Source Events**: Events can have multiple URLs from different platforms, displayed with platform-specific buttons in the frontend.
 - **Dynamic State Generation**: Automatically categorizes events by state (e.g., `MX-CMX`, `MX-JAL`) using geocoding.
 - **Automated Pipeline**: runs on GitHub Actions to keep data fresh every 6 hours.
 - **Modern Web Interface**: Terminal-styled UI with embedded visual calendar.
