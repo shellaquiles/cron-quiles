@@ -16,7 +16,13 @@ from icalendar import Event
 src_path = Path(__file__).parent.parent / "src"
 sys.path.insert(0, str(src_path))
 
-from cronquiles.ics_aggregator import EventNormalized, ICSAggregator
+from cronquiles.ics_aggregator import (
+    EventNormalized,
+    ICSAggregator,
+    extract_community_url,
+    detect_platform_from_url,
+    get_platform_label_for_community
+)
 
 
 class TestEventNormalized(unittest.TestCase):
@@ -113,6 +119,52 @@ class TestICSAggregator(unittest.TestCase):
 
         # Debería extraer el link de luma (luma.com o lu.ma)
         self.assertEqual(event_norm.url, "https://luma.com/z4d0punf")
+
+
+class TestCommunityURLExtraction(unittest.TestCase):
+    """Tests para las funciones de extracción de URLs de comunidades."""
+
+    def test_extract_meetup_url(self):
+        """Test de extracción de URL de Meetup desde el feed ICS."""
+        result = extract_community_url("https://www.meetup.com/ai-cdmx/events/ical")
+        self.assertEqual(result, "https://www.meetup.com/ai-cdmx")
+
+        result = extract_community_url("https://www.meetup.com/python-mexico/events/ical")
+        self.assertEqual(result, "https://www.meetup.com/python-mexico")
+
+    def test_extract_luma_api_url(self):
+        """Test de extracción de URL de Luma desde la API ICS."""
+        result = extract_community_url("https://api2.luma.com/ics/get?entity=calendar&id=cal-gKhhS6fDDrX3mqz")
+        self.assertEqual(result, "https://lu.ma/cal-gKhhS6fDDrX3mqz")
+
+    def test_extract_luma_direct_url(self):
+        """Test de URLs directas de Luma (sin transformación)."""
+        result = extract_community_url("https://luma.com/ai-cdmx")
+        self.assertEqual(result, "https://luma.com/ai-cdmx")
+
+        result = extract_community_url("https://lu.ma/sudo_fciencias_2026")
+        self.assertEqual(result, "https://lu.ma/sudo_fciencias_2026")
+
+    def test_extract_eventbrite_url(self):
+        """Test de URLs de Eventbrite (sin transformación)."""
+        result = extract_community_url("https://www.eventbrite.com.mx/o/epam-27283356907")
+        self.assertEqual(result, "https://www.eventbrite.com.mx/o/epam-27283356907")
+
+    def test_detect_platform(self):
+        """Test de detección de plataforma desde URL."""
+        self.assertEqual(detect_platform_from_url("https://www.meetup.com/ai-cdmx"), "meetup")
+        self.assertEqual(detect_platform_from_url("https://lu.ma/cal-123"), "luma")
+        self.assertEqual(detect_platform_from_url("https://luma.com/ai-cdmx"), "luma")
+        self.assertEqual(detect_platform_from_url("https://api2.luma.com/ics/get?id=123"), "luma")
+        self.assertEqual(detect_platform_from_url("https://www.eventbrite.com.mx/o/123"), "eventbrite")
+        self.assertEqual(detect_platform_from_url("https://other-site.com/events"), "website")
+
+    def test_get_platform_label(self):
+        """Test de etiquetas de plataforma para comunidades."""
+        self.assertEqual(get_platform_label_for_community("meetup"), "Meetup")
+        self.assertEqual(get_platform_label_for_community("luma"), "Luma")
+        self.assertEqual(get_platform_label_for_community("eventbrite"), "Eventbrite")
+        self.assertEqual(get_platform_label_for_community("website"), "Sitio web")
 
 
 if __name__ == "__main__":

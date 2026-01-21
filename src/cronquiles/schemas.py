@@ -5,6 +5,13 @@ Schemas - Definiciones de tipo para la estructura de datos.
 from typing import TypedDict, List, Optional
 
 
+class CommunityLinkSchema(TypedDict):
+    """Esquema de un enlace a la plataforma de una comunidad."""
+    platform: str  # "meetup", "luma", "eventbrite", "website"
+    url: str
+    label: str  # "Ver en Meetup", etc.
+
+
 class SourceSchema(TypedDict):
     """Esquema de una fuente/plataforma de un evento."""
     platform: str  # "meetup", "luma", "eventbrite", "website"
@@ -40,6 +47,7 @@ class CommunitySchema(TypedDict):
 
     name: str
     description: str
+    links: List[CommunityLinkSchema]  # Enlaces a las plataformas de la comunidad
 
 
 class JSONOutputSchema(TypedDict):

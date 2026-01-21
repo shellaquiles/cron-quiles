@@ -218,6 +218,18 @@
     line-height: 1.4;
 }
 
+.community-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-md);
+}
+
+.community-links .event-source-btn {
+    font-size: 0.8em;
+    padding: 4px 10px;
+}
+
 .communities-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
