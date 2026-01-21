@@ -93,11 +93,11 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for deta
 
 - **Ricardo Lira** ([@richlira](https://github.com/richlira))
 - **Ivan Galaviz** ([@ivanovishado](https://github.com/ivanovishado))
-- **Pixelead0** ([@pixelead0](https://github.com/pixelead0))
 - **Raul Estrada** ([@uurl](https://github.com/uurl))
 - **Geronimo Orozco** ([@patux](https://github.com/patux))
 - **Daniel Paredes** ([@DanielParedes](https://github.com/DanielParedes))
-- **Mariano Rodríguez** ([@marianox](https://github.com/marianox))
+- **Mariano Rodríguez** ([@MarianoRD](https://github.com/MarianoRD))
+- **Ben** ([@dataforxyz](https://github.com/dataforxyz))
 
 ---
 
