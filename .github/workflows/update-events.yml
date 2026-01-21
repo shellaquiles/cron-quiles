@@ -14,13 +14,7 @@ on:
     branches:
       - main
       - master
-    paths:
-      - 'config/feeds.yaml'
-      - 'config/list_icals.txt'
-      - 'src/cronquiles/ics_aggregator.py'
-      - 'src/cronquiles/main.py'
-      - 'main.py'
-      - 'gh-pages/index.html'
+    # Se ejecuta en cualquier push, pero solo hace commit si hay cambios en los datos
 
 jobs:
   update:
