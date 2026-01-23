@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-23T17:08:42.256436+00:00",
-  "total_events": 114,
+  "generated_at": "2026-01-23T18:33:59.822164+00:00",
+  "total_events": 115,
   "city": "Online",
   "communities": [
     {
@@ -3159,6 +3159,38 @@
       "city_code": "",
       "address": "",
       "hash_key": "march 5 ai ml and computer vision meetup_2026-03-05T16:00:00+00:00"
+    },
+    {
+      "title": "México City AI, Machine Learning and Computer Vision Meetup|March 11 - Strategies for Validating World Models and Action-Conditioned Video|Online",
+      "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin us for a one hour hands-on workshop where we will explore emerging challenges in developing and validating world foundation models and video-generation AI systems for robotics and autonomous vehicles.\n\n**Time and Location**\n\nMar 11, 2026\n10-11am PST\nOnline, **[Register for the Zoom!](https://voxel51.com/events/debugging-the-future-strategies-for-validating-world-models-and-action-conditioned-video-march)**\n\nIndustries from robotics to autonomous vehicles are converging on world foundation models (WFMs) and action-conditioned video generation, where the challenge is predicting physics, causality, and intent. But this shift has created a massive new bottleneck: validation.\n\nHow do you debug a model that imagines the future? How do you curate petabyte-scale video datasets to capture the \"long tail\" of rare events without drowning in storage costs? And how do you ensure temporal consistency when your training data lives in scattered data lakes?\n\nIn this session, we explore technical workflows for the next generation of Visual AI. We will dissect the \"Video Data Monster,\" demonstrating how to build feedback loops that bridge the gap between generative imagination and physical reality. Learn how leading teams are using federated data strategies and collaborative evaluation to turn video from a storage burden into a structured, queryable asset for embodied intelligence.\n\n*About the Speaker*\n\n[Nick Lotz](https://www.linkedin.com/in/nicholaslotz/) is chemical process engineer-turned-developer who is currently a Technical Marketing Engineer at Voxel51. He is particularly interested in bringing observability and security to all layers of the AI stack.",
+      "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313022944/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313022944/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Online",
+      "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
+      "dtstart": "2026-03-11T11:00:00-06:00",
+      "dtend": "2026-03-11T12:00:00-06:00",
+      "tags": [
+        "ai",
+        "backend",
+        "data",
+        "frontend",
+        "security"
+      ],
+      "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "march 11 strategies for validating world_2026-03-11T16:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|March 19 - Women in AI Meetup|Online",

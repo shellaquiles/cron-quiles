@@ -6330,6 +6330,38 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Marc
+ h 11 - Strategies for Validating World Models and Action-Conditioned Video
+ |Online
+DTSTART:20260311T110000
+CATEGORIES:ai,backend,data,frontend,security
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nJoin us for a one hour hands-on workshop where we will explore emerging c
+ hallenges in developing and validating world foundation models and video-g
+ eneration AI systems for robotics and autonomous vehicles.\n\n**Time and L
+ ocation**\n\nMar 11\, 2026\n10-11am PST\nOnline\, **[Register for the Zoom
+ !](https://voxel51.com/events/debugging-the-future-strategies-for-validati
+ ng-world-models-and-action-conditioned-video-march)**\n\nIndustries from r
+ obotics to autonomous vehicles are converging on world foundation models (
+ WFMs) and action-conditioned video generation\, where the challenge is pre
+ dicting physics\, causality\, and intent. But this shift has created a mas
+ sive new bottleneck: validation.\n\nHow do you debug a model that imagines
+  the future? How do you curate petabyte-scale video datasets to capture th
+ e "long tail" of rare events without drowning in storage costs? And how do
+  you ensure temporal consistency when your training data lives in scattere
+ d data lakes?\n\nIn this session\, we explore technical workflows for the 
+ next generation of Visual AI. We will dissect the "Video Data Monster\," d
+ emonstrating how to build feedback loops that bridge the gap between gener
+ ative imagination and physical reality. Learn how leading teams are using 
+ federated data strategies and collaborative evaluation to turn video from 
+ a storage burden into a structured\, queryable asset for embodied intellig
+ ence.\n\n*About the Speaker*\n\n[Nick Lotz](https://www.linkedin.com/in/ni
+ cholaslotz/) is chemical process engineer-turned-developer who is currentl
+ y a Technical Marketing Engineer at Voxel51. He is particularly interested
+  in bringing observability and security to all layers of the AI stack.
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:HackGDL|HackGDL 2026|México|Jalisco
 DTSTART:20260314T090000
 DESCRIPTION:¡Acompáñanos en la tercera edición de HackGD! Será un eve
