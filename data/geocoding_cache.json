@@ -17983,5 +17983,103 @@
       "point_of_interest",
       "university"
     ]
+  },
+  "Mercado de Flores, Av Constituyentes, Bosque de Chapultepec I Secc, Miguel Hidalgo, 11580 Ciudad de México, CDMX, México": {
+    "address_components": [
+      {
+        "long_name": "Avenida Constituyentes",
+        "short_name": "Av Constituyentes",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Bosque de Chapultepec I Sección",
+        "short_name": "Bosque de Chapultepec I Secc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "11580",
+        "short_name": "11580",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av Constituyentes, Bosque de Chapultepec I Secc, Miguel Hidalgo, 11580 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4169209,
+        "lng": -99.1807537
+      },
+      "location_type": "GEOMETRIC_CENTER",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4182549302915,
+          "lng": -99.1794045197085
+        },
+        "southwest": {
+          "lat": 19.4155569697085,
+          "lng": -99.1821024802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4169382,
+          "longitude": -99.1807674
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 19.4168737,
+          "longitude": -99.1807888
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
+      }
+    ],
+    "place_id": "ChIJwWWY_Fr_0YURrXaapFu6f-E",
+    "plus_code": {
+      "compound_code": "CR89+QM Bosque de Chapultepec I Sección, Ciudad de México, CDMX, México",
+      "global_code": "76F2CR89+QM"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
   }
 }
