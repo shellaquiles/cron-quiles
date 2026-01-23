@@ -110,8 +110,15 @@ class LumaAggregator(GenericICSAggregator):
                 if response.status_code == 200:
                     html = response.text
                     # Buscar calendar ID en el HTML
-                    # Patrón: app-argument=luma://calendar/cal-XXXXX
+                    # Patrón 1: app-argument=luma://calendar/cal-XXXXX
                     match = re.search(r'app-argument=luma://calendar/(cal-[a-zA-Z0-9]+)', html)
+                    if not match:
+                        # Patrón 2: cal-XXXXX en el HTML (puede estar en varios lugares)
+                        # Buscar todos los calendar IDs y tomar el primero que sea válido
+                        all_cal_ids = re.findall(r'\b(cal-[a-zA-Z0-9]{15,})\b', html)
+                        if all_cal_ids:
+                            # Usar el primer calendar ID encontrado
+                            match = type('Match', (), {'group': lambda self, n: all_cal_ids[0]})()
                     if match:
                         calendar_id = match.group(1)
                         ics_url = f"https://api2.luma.com/ics/get?entity=calendar&id={calendar_id}"
