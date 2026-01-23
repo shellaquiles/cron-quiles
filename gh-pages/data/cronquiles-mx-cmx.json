@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-23T12:34:50.031613+00:00",
-  "total_events": 235,
+  "generated_at": "2026-01-23T17:08:42.339807+00:00",
+  "total_events": 237,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -44,6 +44,17 @@
       "name": "Python CDMX",
       "description": "Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles.",
       "links": []
+    },
+    {
+      "name": "Rust-AICollective",
+      "description": "Comunidad de Rust y AI en Ciudad de México. Eventos sobre desarrollo en Rust, inteligencia artificial y desafíos técnicos.",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/rust-ios-ai",
+          "label": "Luma"
+        }
+      ]
     },
     {
       "name": "Sudo FCiencias",
@@ -95,6 +106,11 @@
     {
       "name": "PayJoy",
       "description": "Organizador de eventos manuales (ej: Tech Talk: Building Scalable Applications in Python)",
+      "links": []
+    },
+    {
+      "name": "Rust-AICollective / The AI Collective",
+      "description": "Organizador de eventos manuales (ej: Primer Meetup: Retos de la Posada de Código 2025)",
       "links": []
     }
   ],
@@ -3880,6 +3896,34 @@
       "hash_key": "epam tech talks mexico city_2025-05-01T00:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|AI Collective México  -  Launch Party 🚀|México|Ciudad de México",
+      "description": "Obtén información actualizada en: https://luma.com/cdmx-06-03\n\nDirección:\nConsulta la página del evento para obtener más detalles.\n\nOrganizado por The AI Collective",
+      "url": "https://luma.com/cdmx-06-03",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/cdmx-06-03",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "organizer": "Rust-AICollective",
+      "dtstart": "2025-06-04T01:00:00+00:00",
+      "dtend": "2025-06-04T03:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "ai collective mxico launch party_2025-06-04T00:00:00+00:00"
+    },
+    {
       "title": "Frutero Club|Coworking Frutal 3|México|Ciudad de México",
       "description": "Obtén información actualizada en: https://luma.com/7dpb781y\n\nDirección:\nConsulta la página del evento para obtener más detalles.\n\nOrganizado por René Hernández, mel y Anthony Morales",
       "url": "https://luma.com/7dpb781y",
@@ -5926,6 +5970,38 @@
       "city_code": "cdmx",
       "address": "Av. P.º de la Reforma 296-Piso 25, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
       "hash_key": "epam tech talks mexico city_2026-01-23T00:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective / The AI Collective|Primer Meetup: Retos de la Posada de Código 2025|Online",
+      "description": "En este primer meetup, la comunidad de RustMX dará la primera charla.\n\nEl tópico es relacionado sobre como se resolvieron los retos de la Posada de Código 2025 y donde Daniel Ceballos fue uno de los desarrolladores que acabo entre los 10 primeros competidores\n\nEn esta sesión, Daniel nos va a platicar sobre como resolvió cada reto y explicar el código que desarrollo",
+      "url": "https://luma.com/rust-ios-ai",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/rust-ios-ai",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México, Ciudad de México",
+      "organizer": "Rust-AICollective / The AI Collective",
+      "dtstart": "2026-01-27T18:00:00-06:00",
+      "dtend": "2026-01-27T21:00:00-06:00",
+      "tags": [
+        "ai",
+        "coding-challenge",
+        "meetup",
+        "programming",
+        "rust"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, Ciudad de México",
+      "hash_key": "primer meetup retos de la posada de cdig_2026-01-28T00:00:00+00:00"
     },
     {
       "title": "Java Mexico|30 Años Programando: Lecciones Aprendidas  -  Por Enrique Zamudio|México|Ciudad de México",
