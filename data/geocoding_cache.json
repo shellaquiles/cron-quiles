@@ -18159,5 +18159,126 @@
       "sublocality",
       "sublocality_level_1"
     ]
+  },
+  "EPAM NEORIS, Av. 2 de Octubre 333, San Pedro Garza García, NLE": {
+    "address_components": [
+      {
+        "long_name": "Lote 2",
+        "short_name": "Lote 2",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "333",
+        "short_name": "333",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida 2 de Octubre",
+        "short_name": "Av. 2 de Octubre",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Unidad",
+        "short_name": "Unidad",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "San Pedro",
+        "short_name": "San Pedro",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "San Pedro Garza García",
+        "short_name": "San Pedro Garza García",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Nuevo León",
+        "short_name": "N.L.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "66215",
+        "short_name": "66215",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. 2 de Octubre 333-Lote 2, Unidad, San Pedro, 66215 San Pedro Garza García, N.L., México",
+    "geometry": {
+      "location": {
+        "lat": 25.6761314,
+        "lng": -100.4164747
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 25.6779397802915,
+          "lng": -100.4150635697085
+        },
+        "southwest": {
+          "lat": 25.6752418197085,
+          "lng": -100.4177615302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 25.6769879,
+          "longitude": -100.4165223
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 25.676131,
+          "longitude": -100.4163727
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJVVVVqcKXYoYRA1DZow8lCVc",
+    "plus_code": {
+      "compound_code": "MHGM+FC San Pedro Garza García, N.L., México",
+      "global_code": "75QXMHGM+FC"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
   }
 }
