@@ -1401,6 +1401,16 @@ LOCATION:https://luma.com/event/evt-dH2B0KgQXBhFFZg
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-dH2B0KgQXBhFFZg
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Rust-AICollective|AI Collective Education: Breaking into the US Ma
+ rket for UK/EU AI Founders|Online
+DTSTART:20260211T160000Z
+CATEGORIES:ai
+DESCRIPTION:Obtén información actualizada en: https://luma.com/aic-gl-2-
+ 11\n\nOrganizado por The AI Collective\, Emma Gruver y Abraham
+LOCATION:https://luma.com/event/evt-dH2B0KgQXBhFFZg
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-dH2B0KgQXBhFFZg
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Feb 
  11 - Visual AI for Video Use Cases|Online
 DTSTART:20260211T110000
@@ -1814,6 +1824,78 @@ DESCRIPTION:Obtén información actualizada en: https://luma.com/aic-gl-3-
  23\n\nOrganizado por The AI Collective y 4 personas más
 LOCATION:https://luma.com/event/evt-Wsru160A7sqZvBL
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-Wsru160A7sqZvBL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Apri
+ l 2 - AI\, ML and Computer Vision Meetup|Online
+DTSTART:20260402T100000
+CATEGORIES:ai,data,frontend,security
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nJoin our virtual Meetup to hear talks from experts on cutting-edge topics
+  across AI\, ML\, and computer vision.\n\n**Date\, Time and Location**\n\n
+ Apr 2\, 2026\n9 - 11 AM Pacific\nOnline. **[Register for the Zoom!](https:
+ //voxel51.com/events/ai-ml-and-computer-vision-meetup-april-2-2026)**\n\n*
+ *Async Agents in Production: Failure Modes and Fixes**\n\nAs models improv
+ e\, we are starting to build long-running\, asynchronous agents such as de
+ ep research agents and browser agents that can execute multi-step workflow
+ s autonomously. These systems unlock new use cases\, but they fail in ways
+  that short-lived agents do not.\n\nThe longer an agent runs\, the more ea
+ rly mistakes compound\, and the more token usage grows through extended re
+ asoning\, retries\, and tool calls. Patterns that work for request-respons
+ e agents often break down\, leading to unreliable behaviour and unpredicta
+ ble costs.\n\nThis talk is aimed at use case developers\, with secondary r
+ elevance for platform engineers. It covers the most common failure modes i
+ n async agents and practical design patterns for reducing error compoundin
+ g and keeping token costs bounded in production.\n\n*About the Speaker*\n\
+ n[Meryem Arik](https://www.linkedin.com/in/meryemarik/) is the co-founder 
+ and CEO of Doubleword\, where she works on large-scale LLM inference and p
+ roduction AI systems. She studied theoretical physics and philosophy at th
+ e University of Oxford. Meryem is a frequent conference speaker\, includin
+ g a TEDx speaker and a four-time highly rated speaker at QCon conferences.
+  She was named to the Forbes 30 Under 30 list for her work in AI infrastru
+ cture.\n\n**Visual AI at the Edge: Beyond the Model**\n\nEdge-based visual
+  AI promises low latency\, privacy\, and real-time decision-making\, but m
+ any projects struggle to move beyond successful demos. This talk explores 
+ what deploying visual AI at the edge really involves\, shifting the focus 
+ from models to complete\, operational systems. We will discuss common pitf
+ alls teams encounter when moving from lab to field. Attendees will leave w
+ ith a practical mental model for approaching edge vision projects more eff
+ ectively.\n\n*About the Speaker*\n\n[David Moser](https://www.linkedin.com
+ /in/david-moser-dm/) is an AI/Computer Vision expert and Founding Engineer
+  with a strong track record of building and deploying safety-critical visu
+ al AI systems in real-world environments. As Co-Founder of Orella Vision\,
+  he is building Visual AI for Autonomy on the Edge - going from data and m
+ odels to production-grade edge deployments.\n\n**Sanitizing Evaluation Dat
+ asets: From Detection to Correction**\n\nWe generally accept that gold sta
+ ndard evaluation sets contain label noise\, yet we rarely fix them because
+  the engineering friction is too high. This talk presents a workflow to op
+ erationalize ground-truth auditing. We will demonstrate how to bridge the 
+ gap between algorithmic error detection and manual rectification. Specific
+ ally\, we will show how to inspect discordant ground truth labels and corr
+ ect them directly in-situ. The goal is to move to a fully trusted end-to-e
+ nd evaluation pipeline.\n\n*About the Speaker*\n\n[Nick Lotz](https://www.
+ linkedin.com/in/nicholaslotz) is an engineer on the Voxel51 community team
+ . With a background in open source infrastructure and a passion for develo
+ per enablement\, Nick focuses on helping teams understand their tools and 
+ how to use them to ship faster.\n\n**Building enterprise agentic systems t
+ hat scale**\n\nBuilding AI agents that work in demos is easy\, building tr
+ ue assistants that make people genuinely productive takes a different set 
+ of patterns. This talk shares lessons from a multi-agent system at Cisco u
+ sed by 2\,000+ sellers daily\, where we moved past "chat with your data" t
+ o encoding business workflows into true agentic systems people actually re
+ ly on to get work done.\n\nWe'll cover multi-agent orchestration patterns 
+ for complex workflows\, the personalization and productivity features that
+  drive adoption\, and the enterprise foundations that helped us earn user 
+ trust at scale. You'll leave with an architecture and set of patterns that
+  have been battle tested at enterprise scale.\n\n*About the Speaker*\n\n[A
+ man Sardana](https://www.linkedin.com/in/amansardana/) is a Senior Enginee
+ ring Architect at Cisco\, I lead the design and deployment of enterprise A
+ I systems that blend LLMs\, data infrastructure\, and customer experience 
+ to solve high‑stakes\, real-world problems at scale. I’m also an open-
+ source contributor and active mentor in the AI community\, helping teams m
+ ove from AI experimentation to reliable agentic applications in production
+ .
+LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Apri

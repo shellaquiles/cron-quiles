@@ -18280,5 +18280,110 @@
       "establishment",
       "point_of_interest"
     ]
+  },
+  "Co-Madre Lomas, Diagonal C. Montes Urales 455-Piso 1 y 2, Lomas - Virreyes, 6, Lomas - Virreyes, Lomas de Chapultepec III Secc, Miguel Hidalgo, Mexico City, CMX 06500, Mexico City, CMX": {
+    "address_components": [
+      {
+        "long_name": "piso 1 y 2",
+        "short_name": "piso 1 y 2",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "455",
+        "short_name": "455",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Calle Montes Urales",
+        "short_name": "C. Montes Urales",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Lomas - Virreyes",
+        "short_name": "Lomas - Virreyes",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Lomas de Chapultepec III Sección",
+        "short_name": "Lomas de Chapultepec III Secc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "11000",
+        "short_name": "11000",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "C. Montes Urales 455-piso 1 y 2, Lomas - Virreyes, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11000 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4282005,
+        "lng": -99.2063039
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4297206802915,
+          "lng": -99.2048694697085
+        },
+        "southwest": {
+          "lat": 19.4270227197085,
+          "lng": -99.2075674302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4284893,
+          "longitude": -99.2061681
+        }
+      }
+    ],
+    "partial_match": true,
+    "place_id": "EocBQy4gTW9udGVzIFVyYWxlcyA0NTUtcGlzbyAxIHkgMiwgTG9tYXMgLSBWaXJyZXllcywgTG9tYXMgZGUgQ2hhcHVsdGVwZWMgSUlJIFNlY2MsIE1pZ3VlbCBIaWRhbGdvLCAxMTAwMCBDaXVkYWQgZGUgTcOpeGljbywgQ0RNWCwgTWV4aWNvIiYaJAoWChQKEglbCt109gHShRG1tC0Vf2FN1RIKcGlzbyAxIHkgMg",
+    "types": [
+      "street_address",
+      "subpremise"
+    ]
   }
 }
