@@ -18385,5 +18385,83 @@
       "street_address",
       "subpremise"
     ]
+  },
+  "Hipódromo, Ciudad de México": {
+    "address_components": [
+      {
+        "long_name": "Hipódromo",
+        "short_name": "Hipódromo",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06100",
+        "short_name": "06100",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Hipódromo, 06100 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.4167765,
+          "lng": -99.16540409999999
+        },
+        "southwest": {
+          "lat": 19.4002009,
+          "lng": -99.18068219999999
+        }
+      },
+      "location": {
+        "lat": 19.4093682,
+        "lng": -99.1719095
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4167765,
+          "lng": -99.16540409999999
+        },
+        "southwest": {
+          "lat": 19.4002009,
+          "lng": -99.18068219999999
+        }
+      }
+    },
+    "place_id": "ChIJIb7VFUL_0YURABkbMjDDqqQ",
+    "types": [
+      "political",
+      "sublocality",
+      "sublocality_level_1"
+    ]
   }
 }
