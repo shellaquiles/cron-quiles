@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-29T18:46:14.209990+00:00",
-  "total_events": 124,
+  "generated_at": "2026-01-30T01:23:42.317834+00:00",
+  "total_events": 126,
   "city": "Online",
   "communities": [
     {
@@ -3111,6 +3111,34 @@
       "hash_key": "ai collective education entering the u s_2026-02-11T16:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|AI Education: Entering the U.S. Market for UK/EU Founders|Online",
+      "description": "Obtén información actualizada en: https://luma.com/aic-gl-2-11\n\nOrganizado por The AI Collective y 3 personas más",
+      "url": "https://luma.com/aic-gl-2-11",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-gl-2-11",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-dH2B0KgQXBhFFZg",
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-02-11T16:00:00+00:00",
+      "dtend": "2026-02-11T17:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-dH2B0KgQXBhFFZg",
+      "hash_key": "ai education entering the u s market for_2026-02-11T16:00:00+00:00"
+    },
+    {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Feb 11 - Visual AI for Video Use Cases|Online",
       "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual Meetup to hear talks from experts on cutting-edge topics at the intersection of Visual AI and video use cases.\n\n**Time and Location**\n\nFeb 11, 2026\n9 - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/visual-ai-for-video-use-cases-february-11-2026)**\n\n**VIDEOP2R: Video Understanding from Perception to Reasoning**\n\nReinforcement fine-tuning (RFT), a two-stage framework consisting of supervised fine-tuning (SFT) and reinforcement learning (RL) has shown promising results on improving reasoning ability of large language models (LLMs). Yet extending RFT to large video language models (LVLMs) remains challenging. We propose VideoP2R, a novel process-aware video RFT framework that enhances video reasoning by modeling perception and reasoning as distinct processes. In the SFT stage, we develop a three-step pipeline to generate VideoP2R-CoT-162K, a high-quality, process-aware chain-of-thought (CoT) dataset for perception and reasoning.\n\nIn the RL stage, we introduce a novel process-aware group relative policy optimization (PA-GRPO) algorithm that supplies separate rewards for perception and reasoning. Extensive experiments show that VideoP2R achieves state-of-the-art (SotA) performance on six out of seven video reasoning and understanding benchmarks. Ablation studies further confirm the effectiveness of our process-aware modeling and PA-GRPO and demonstrate that model's perception output is information-sufficient for downstream reasoning.\n\n*About the Speaker*\n\n[Yifan Jiang](https://www.linkedin.com/in/yifanj921/) is a third-year Ph.D. student in the Information Science Institute at the University of Southern California (USC-ISI), advised by Dr. Jay Pujara, focusing on natural language processing, commonsense reasoning and multimodality large language models.\n\n**Layer-Aware Video Composition via Split-then-Merge**\n\nSplit-then-Merge (StM) is a novel generative framework that overcomes data scarcity in video composition by splitting unlabeled videos into separate foreground and background layers for self-supervised learning. By utilizing a transformation-aware training pipeline with multi-layer fusion, the model learns to realistically compose dynamic subjects into diverse scenes without relying on expensive annotated datasets. This presentation will cover the problem of video composition and the details of StM, an approach looking at this problem from a generative AI perspective. We will conclude by demonstrating how StM is working, and outperforming state-of-the-art methods in both quantitative benchmarks and qualitative evaluations.\n\n*About the Speaker*\n\n[Ozgur Kara](https://www.linkedin.com/in/ozgurr-kara/) is a 4th year Computer Science PhD student at the University of Illinois Urbana-Champaign (UIUC), advised by Founder Professor James M. Rehg. His research builds the next generation of video AI by tackling three core challenges: efficiency, controllability, and safety.\n\n**Video-native VLMs and control**\n\nWe show how image-native vision–language models can be extended to support native video understanding, structured reasoning, tool use, and robotics. Our approach focuses on designing data, modeling, and training recipes to optimize for multimodality input and interaction patterns - treating vision and perception as a first class citizens. We discuss lessons learned from scaling these methods in an open-source model family and their implications for building flexible multimodal systems.\n\n*About the Speaker*\n\n[Akshat Shrivastava](https://www.linkedin.com/in/akshatsh/) is the CTO and co-founder of Perceptron, previously leading AR On-Device at Meta and conducting research at UW.\n\n**Video Intelligence Is Going Agentic**\n\nVideo content has become ubiquitous in our digital world, yet the tools for working with video have remained largely unchanged for decades. This talk explores how the convergence of foundation models and agent architectures is fundamentally transforming video interaction and creation. We'll examine how video-native foundation models, multimodal interfaces, and agent transparency are reshaping enterprise media workflows through a deep dive into Jockey, a pioneering video agent system.\n\n*About the Speaker*\n\n[James Le ](https://www.linkedin.com/in/khanhnamle94)currently leads the developer experience function at TwelveLabs - a startup building foundation models for video understanding. He previously operated in the MLOps space and ran a blog/podcast on the Data & AI infrastructure ecosystem.",
       "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/312540438/",
@@ -3293,6 +3321,36 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-HFz7HZQgYrKMwDx",
       "hash_key": "collective intelligence building secure _2026-02-18T16:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|AI Education: Building Secure AI Agents from Prototype to Production|Online",
+      "description": "Obtén información actualizada en: https://luma.com/aic-gl-2-18\n\nOrganizado por The AI Collective, Emma Gruver y Abraham",
+      "url": "https://luma.com/aic-gl-2-18",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-gl-2-18",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-HFz7HZQgYrKMwDx",
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-02-18T16:00:00+00:00",
+      "dtend": "2026-02-18T17:00:00+00:00",
+      "tags": [
+        "ai",
+        "frontend",
+        "security"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-HFz7HZQgYrKMwDx",
+      "hash_key": "ai education building secure ai agents f_2026-02-18T16:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Feb 18 - Feedback-Driven Annotation Pipelines for End-to-End ML Workflows|Online",
