@@ -49,6 +49,8 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🟢 [**Mexico Tech Week**](https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu) | Calendario oficial de Mexico Tech Week 2025. | Ciudad de México, Estado de México, Online |
 | 🔴 [**Microsoft Fabric CDMX**](https://www.meetup.com/mexico-city-microsoft-fabric-group) | Grupo de usuarios de Microsoft Fabric y análisis de datos empresarial. | Online |
 | 🔴 [**México City Docker friends**](https://www.meetup.com/mexico-city-docker-friends) | Learn, Collaborate & Dockerize! Meet other developers and ops engineers in your community that are using and learning about Docker. | Online |
+| 🟢 [**Mobil3**](https://mobil3.xyz) | Comunidad técnica enfocada en la experimentación, aprendizaje práctico y colaboración en tecnologías emergentes. Organiza eventos, encuentros presenciales y actividades orientadas a desarrolladores, estudiantes y perfiles técnicos interesados en construir y explorar nuevas herramientas y sistemas. | Ciudad de México, Nuevo León,
+
 | 🔴 [**NoTrustSec**](https://www.meetup.com/notrustsec) | Ciberseguridad, hacking ético y seguridad ofensiva/defensiva. | Online |
 | 🔴 [**Odoo Latinoamérica**](https://www.meetup.com/odoo-community-days-america-latina) | Comunidad del ERP Open Source Odoo en América Latina. | Online |
 | 🔴 [**Open Infra CDMX**](https://www.meetup.com/openinfrastructurecdmx) | Infraestructura abierta, OpenStack y tecnologías de cloud open source. | Online |
