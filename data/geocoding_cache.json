@@ -18557,5 +18557,98 @@
       "finance",
       "point_of_interest"
     ]
+  },
+  "La Laguna S.A. de C.V., C. Dr. Lucio 181, Doctores, Cuauhtémoc, 06720 Ciudad de México, CDMX": {
+    "address_components": [
+      {
+        "long_name": "181",
+        "short_name": "181",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Calle Doctor Lucio",
+        "short_name": "C. Dr. Lucio",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Doctores",
+        "short_name": "Doctores",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06720",
+        "short_name": "06720",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "C. Dr. Lucio 181, Doctores, Cuauhtémoc, 06720 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4179733,
+        "lng": -99.152588
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4193180302915,
+          "lng": -99.15119771970849
+        },
+        "southwest": {
+          "lat": 19.4166200697085,
+          "lng": -99.1538956802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4179716,
+          "longitude": -99.15257179999999
+        }
+      }
+    ],
+    "place_id": "ChIJMRL-tSX_0YURcIB4CkeP9ag",
+    "plus_code": {
+      "compound_code": "CR9W+5X Ciudad de México, CDMX, México",
+      "global_code": "76F2CR9W+5X"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
   }
 }
