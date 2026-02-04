@@ -30,6 +30,9 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🟢 [**EPAM**](https://www.eventbrite.com.mx/o/epam-27283356907) | EPAM Tech Talks Mexico City | Aguascalientes, Ciudad de México, Nuevo León, Querétaro |
 | 🔴 [**Eventloop**](https://www.meetup.com/eventloop) | La comunidad de JavaScript de la Ciudad de México es una organización sin fines de lucro con el objetivo de elevar la competitividad técnica de la ciudad. | Online |
 | 🔴 [**Flutter Mexico City**](https://www.meetup.com/flutter-mexico-city) | Desarrollo multiplataforma con Flutter. Charlas técnicas y talleres. | Online |
+| 🟢 [**Founder Friends Mexico**](https://luma.com/FFMexico2026) | Comunidad de founders en México por Hustle Fund. Conexión, historias y networking. | Ciudad de México |
+| 🟢 [**FinTech México**](https://luma.com/eofagheq) | Comunidad FinTech México. FinTech México Week, sistemas transaccionales, Fuckup Nights (Ciudad de México). | Ciudad de México |
+| 🟢 [**Fvckup Nights**](https://luma.com/user/usr-OqGmWs21jbaz5fK) | Gestión del Fracaso para la productividad e innovación. Eventos en México. | Ciudad de México |
 | 🔴 [**GDG Ciudad de México**](https://www.meetup.com/gdg-ciudad-de-mexico) | Google Developer Group CDMX. Eventos sobre tecnologías de Google y desarrollo en general. | Online |
 | 🔴 [**GDG Guadalajara**](https://www.meetup.com/gdg-guadalajara) | Google Developer Group Guadalajara. Eventos sobre tecnologías de Google y desarrollo. | Online |
 | 🔴 [**GitTogether CDMX**](https://www.meetup.com/gittogether-cdmx) | GitHub GitTogether CDMX es un evento mensual creado por desarrolladores para desarrolladores para aprender acerca de GitHub y Open Source. | Online |
@@ -45,6 +48,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🟢 [**Kong Mexico City**](https://www.meetup.com/kong-mexico-city) | Eventos sobre APIs, Microservicios, Service Mesh e Insomnia. | Online |
 | 🔴 [**Meetup de Network Orquestrators, Creating Unicorns**](https://www.meetup.com/meetup-de-network-orquestrators-creating-unicorns) | En este grupo estamos intentando construir empresas Unicornio. Queremos contactar con startuperos interesados en intercambiar ideas y contactos. | Online |
 | 🔴 [**Meetup México**](https://www.meetup.com/meetup-mexico) | Comunidad general de usuarios y organizadores de Meetup en México. | Online |
+| 🟢 [**Management In Tech**](https://luma.com/qhszdqs3) | Conversaciones sobre liderazgo y gestión de equipos en tech. Hosted by Jyr Gaxiola & Daniel Zavala. | Ciudad de México |
 | 🔴 [**MexAI - Comunidad de IA**](https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical) | Comunidad de IA en Guadalajara. Eventos sobre Inteligencia Artificial. | Online |
 | 🔴 [**Mexico City Apache Kafka**](https://www.meetup.com/mexico-kafka) | Mexico City Apache Kafka Meetup. | Online |
 | 🟢 [**Mexico Tech Week**](https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu) | Calendario oficial de Mexico Tech Week 2025. | Ciudad de México, Estado de México, Online |
@@ -67,5 +71,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🔴 [**Sysarmy México**](https://www.meetup.com/sysarmy-mexico) | Hola, somos el capitulo oficial de Sysarmy en México. Una comunidad de sistemas enfocada a reunir a todos los profesionales del sector. | Online |
 | 🟢 [**The Data Pub**](https://www.meetup.com/thedatapub) | Punto de encuentro para amantes de los datos, ciencia de datos y visualización. | Ciudad de México |
 | 🔴 [**The Dojo MX**](https://www.meetup.com/the-dojo-mx) | Aprende y desarrolla habilidades de manos de los mejores desarrolladores de México. Talleres presenciales o en línea. | Online |
+| 🟢 [**This Week in Fintech**](https://luma.com/lkn7cfxz) | AI x Fintech Talks, Mexico Fintech Week 2026. Eventos sobre IA y fintech. | Ciudad de México |
 | 🔴 [**Unity User Group CDMX**](https://www.meetup.com/mexico-city-unity-user-group) | Desarrolladores de videojuegos y experiencias interactivas con Unity 3D. | Online |
+| 🟢 [**v0 Prompt to Production Mexico City**](https://luma.com/fdg8riz2) | Evento oficial de v0 (Vercel) en México. AI builders, hackathon global. Hosted by aibuilders.mx. | Ciudad de México |
 | 🔴 [**Vim CDMX**](https://www.meetup.com/cdmx-vim-meetup) | Nuestro objetivo es atraer a usuarios noveles y expertos en Vim para aprender el arte de la edición modal, mejorar, o compartir flujos de trabajo. | Online |
