@@ -7,6 +7,9 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ## [Unreleased]
 
+### Added
+- **Feed CHIDAS TECH**: Luma `https://luma.com/nc2fac44` (comunidad tech, eventos sobre redes e infraestructura).
+
 ## [1.9.0] - 2026-01-21
 
 ### Added
