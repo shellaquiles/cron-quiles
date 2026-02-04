@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-04T17:41:53.122736+00:00",
-  "total_events": 10,
+  "generated_at": "2026-02-04T17:50:28.125902+00:00",
+  "total_events": 11,
   "city": "Jalisco",
   "communities": [
     {
@@ -22,6 +22,11 @@
     {
       "name": "Vive Codding Cafe",
       "description": "Un espacio para juntarnos a echar código y compartir lo que estamos descubriendo en el mundo de la IA.",
+      "links": []
+    },
+    {
+      "name": "Mobile Developer Community / Linuxeros Zapopan",
+      "description": "Organizador de eventos manuales (ej: Coding Sessions – MDC x Linuxeros Zapopan)",
       "links": []
     },
     {
@@ -242,6 +247,40 @@
       "city_code": "guadalajara",
       "address": "Av. de las Américas #1545-piso 6, Providencia, 44630 Guadalajara, Jal., México",
       "hash_key": "personalizacin de llms y clis en python_2026-01-31T00:00:00+00:00"
+    },
+    {
+      "title": "Mobile Developer Community / Linuxeros Zapopan|Coding Sessions – MDC x Linuxeros Zapopan|México|Jalisco",
+      "description": "En colaboración con Linuxeros Zapopan, te invitamos a nuestro primer Coding Session del 2026.\n\n¿Qué es un Coding Session? Es un espacio relajado, abierto y sin presión, pensado para que la comunidad se reúna a: trabajar en tus proyectos personales; mostrar lo que estás construyendo y recibir feedback; encontrar personas interesadas en sumarse a tu proyecto; presentar una idea o demo de forma informal; o simplemente venir a platicar, convivir y pasar un buen rato con otros devs.\n\nNo hay agenda rígida, no hay presión, solo código, ideas, buena compañía… y café. La comunidad de Linuxeros Zapopan estará presente ayudando a quien quiera instalar Linux, resolver dudas o platicar sobre open source.",
+      "url": "#",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "#",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Hacker Garage, Zapopan",
+      "organizer": "Mobile Developer Community / Linuxeros Zapopan",
+      "dtstart": "2026-02-07T10:00:00-06:00",
+      "dtend": "2026-02-07T14:00:00-06:00",
+      "tags": [
+        "coding",
+        "community",
+        "dev",
+        "frontend",
+        "linux",
+        "mobile",
+        "open-source"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Jalisco",
+      "state_code": "MX-JAL",
+      "city": "Zapopan",
+      "city_code": "zapopan",
+      "address": "Hacker Garage, Zapopan",
+      "hash_key": "coding sessions mdc x linuxeros zapopan_2026-02-07T16:00:00+00:00"
     },
     {
       "title": "KCD Guadalajara|KCD Guadalajara 2026|México|Jalisco",
