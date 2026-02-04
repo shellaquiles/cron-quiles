@@ -9,6 +9,12 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ### Added
 - **Feed CHIDAS TECH**: Luma `https://luma.com/nc2fac44` (comunidad tech, eventos sobre redes e infraestructura).
+- **Feed Management In Tech**: Luma `https://luma.com/qhszdqs3` (conversaciones sobre liderazgo y gestión de equipos en tech, Ciudad de México).
+- **Feed Founder Friends Mexico**: Luma `https://luma.com/FFMexico2026` (comunidad de founders por Hustle Fund, Ciudad de México).
+- **Feeds FinTech México y Sudo FCiencias**: Luma `https://luma.com/eofagheq`, `https://luma.com/02t893pf` (FinTech México), `https://luma.com/e17fbtoo` (Sudo FCiencias, evento bases de datos no relacionales).
+- **Feed Fvckup Nights**: Luma perfil `https://luma.com/user/usr-OqGmWs21jbaz5fK` (solo eventos en MX; el pipeline ya filtra por país).
+- **Feed This Week in Fintech**: Luma `https://luma.com/lkn7cfxz` (AI x Fintech Talks @ Mexico Fintech Week 2026, Ciudad de México).
+- **Feed v0 Prompt to Production Mexico City**: Luma `https://luma.com/fdg8riz2` (evento oficial v0/Vercel en México, aibuilders.mx, Ciudad de México).
 
 ### Changed
 - **Rendimiento**: Los `sleep` de rate-limit solo se aplican cuando hay llamada real a la API (no cuando hay caché). Geocoding: dormir solo si `geocode_location` usó la API; Luma/Meetup: dormir solo después de un enrich que hizo request. El pipeline es más rápido cuando el caché está poblado.
