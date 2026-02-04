@@ -19,8 +19,8 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🔴 [**AWS Cloud Club at Universidad Nacional Autonoma de México**](https://www.meetup.com/aws-cloud-club-at-unam) | El AWS Cloud Club de la UNAM es un grupo de usuarios dirigido e impulsado por estudiantes que se enfoca en aprender sobre la Nube. | Online |
 | 🔴 [**AWS User Group Jalisco**](https://www.meetup.com/amazon-web-services-jalisco) | Comunidad de usuarios de AWS en Guadalajara. Eventos sobre servicios en la nube de Amazon. | Online |
 | 🔴 [**AWS User Group Mixtli**](https://www.meetup.com/awsugmixtli/) | Comunidad de usuarios de AWS en Puebla. Eventos sobre servicios en la nube de Amazon. | Online |
-| 🟢 [**Claude Community**](https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu) | Events for the Claude AI community. | Ciudad de México |
 | 🟢 [**CHIDAS TECH**](https://luma.com/nc2fac44) | Comunidad tech. Eventos sobre redes, infraestructura y desarrollo (ej. Networking 101, Fundamentos de Redes). | Online |
+| 🟢 [**Claude Community**](https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu) | Events for the Claude AI community. | Ciudad de México |
 | 🔴 [**Data, Cloud and AI in Mexico City**](https://www.meetup.com/big-data-developers-in-mexico-city) | IBM sponsored Meetup group geared towards developers, data scientists, data engineers, and ALL Big Data, Cloud and AI enthusiasts. | Online |
 | 🔴 [**Desarrollo de Aplicaciones Móviles México**](https://www.meetup.com/mobile-development-mexico) | Bienvenidos a la comunidad de desarrolladores móviles en iOS y Android, un espacio donde la innovación, la colaboración y el aprendizaje son clave. | Online |
 | 🟢 [**DevOps Workshop**](https://www.meetup.com/devops-workshop) | Aprende cómo aplicar diferentes tecnologías para construir un producto. En este grupo vas a mejorar tu conocimiento de diferentes sistemas operativos. | Online |

@@ -42,6 +42,9 @@ run:  ## Ejecuta pipeline (uso: make run ARGS="--city cdmx --json")
 run-all:  ## Ejecuta pipeline completo para todas las ciudades
 	$(UV) run python -m cronquiles.main --all-cities --json --output-dir $(OUTPUT_DIR)/
 
+run-fast:  ## Ejecuta pipeline en modo rápido (--fast: sin enrich ni geocoding de historial)
+	$(UV) run python -m cronquiles.main --all-cities --json --output-dir $(OUTPUT_DIR)/ --fast
+
 serve:  ## Inicia servidor local en gh-pages/
 	cd gh-pages && $(UV) run python serve.py
 

@@ -8,9 +8,10 @@ y genera un calendario unificado.
 import logging
 import json
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 import requests
 from dateutil import tz
 from icalendar import Calendar
@@ -135,6 +136,67 @@ def get_platform_label_for_community(platform: str) -> str:
     return labels.get(platform, "Sitio web")
 
 
+def _aggregator_key_for_url(url: str) -> str:
+    """Devuelve la clave del agregador para una URL de feed (eventbrite, luma, meetup, hievents, ics)."""
+    if not url:
+        return "ics"
+    if (
+        "eventbrite." in url
+        and "/e/" not in url
+        and "/o/" not in url
+        and "ical" not in url
+    ):
+        return "eventbrite"
+    if "eventbrite." in url and (
+        "eventbrite.com" in url or "eventbrite.com.mx" in url
+    ):
+        return "eventbrite"
+    if "lu.ma" in url or "luma.com" in url:
+        return "luma"
+    if "meetup.com" in url:
+        return "meetup"
+    if "/reuniones." in url or "hi.events" in url:
+        return "hievents"
+    return "ics"
+
+
+def _extract_one_feed(
+    feed: Any,
+    name: Optional[str],
+    agg_key: str,
+    luma_url_cache: Dict,
+    timeout: int = 30,
+    max_retries: int = 2,
+    skip_enrich: bool = False,
+) -> List[EventNormalized]:
+    """
+    Extrae eventos de un solo feed (para ejecución en paralelo).
+    Crea su propia sesión HTTP para ser thread-safe.
+    """
+    session = requests.Session()
+    session.headers.update({"User-Agent": "Cron-Quiles-ICS-Aggregator/1.0"})
+    if agg_key == "eventbrite":
+        agg = EventbriteAggregator(session)
+    elif agg_key == "luma":
+        agg = LumaAggregator(
+            session, timeout, max_retries, luma_url_cache, skip_enrich=skip_enrich
+        )
+    elif agg_key == "meetup":
+        agg = MeetupAggregator(
+            session, timeout, max_retries, skip_enrich=skip_enrich
+        )
+    elif agg_key == "hievents":
+        agg = HiEventsAggregator(session)
+    else:
+        agg = GenericICSAggregator(session, timeout, max_retries)
+    try:
+        return agg.extract(feed, name)
+    except Exception as e:
+        url = feed if isinstance(feed, str) else (feed.get("url") or "")
+        logger.error("Error extracting from %s: %s", url, e)
+        return []
+
+
 class ICSAggregator:
     """
     Orchestrator for event aggregation.
@@ -142,9 +204,17 @@ class ICSAggregator:
     Handles deduplication, healing, history management, and output generation.
     """
 
-    def __init__(self, timeout: int = 30, max_retries: int = 2):
+    def __init__(
+        self,
+        timeout: int = 30,
+        max_retries: int = 2,
+        feed_workers: int = 10,
+        fast_mode: bool = False,
+    ):
         self.timeout = timeout
         self.max_retries = max_retries
+        self.feed_workers = max(1, min(feed_workers, 20))
+        self.fast_mode = fast_mode
         self.session = requests.Session()
         self.session.headers.update({"User-Agent": "Cron-Quiles-ICS-Aggregator/1.0"})
 
@@ -284,44 +354,44 @@ class ICSAggregator:
     ) -> List[EventNormalized]:
         all_events = []
 
-        # 1. Process config feeds
+        # 1. Process config feeds (en paralelo)
+        feed_tasks = []
         for feed in feed_urls:
             url = feed if isinstance(feed, str) else feed.get("url")
             name = None if isinstance(feed, str) else feed.get("name")
-
             if not url:
                 continue
+            agg_key = _aggregator_key_for_url(url)
+            feed_tasks.append((feed, name, agg_key))
 
-            # Dispatch logic
-            if (
-                "eventbrite." in url
-                and "/e/" not in url
-                and "/o/" not in url
-                and "ical" not in url
-            ):
-                # Check if likely direct Eventbrite URL vs ICS proxy
-                # Actually our code handles this logic. If it looks like eventbrite, use EB aggregator
-                # Assuming direct EB urls:
-                agg = self.aggregators["eventbrite"]
-            elif "eventbrite." in url and (
-                "eventbrite.com" in url or "eventbrite.com.mx" in url
-            ):
-                # Stronger check for Eventbrite domains
-                agg = self.aggregators["eventbrite"]
-            elif "lu.ma" in url or "luma.com" in url:
-                agg = self.aggregators["luma"]
-            elif "meetup.com" in url:
-                agg = self.aggregators["meetup"]
-            elif "/reuniones." in url or "hi.events" in url:
-                agg = self.aggregators["hievents"]
-            else:
-                agg = self.aggregators["ics"]
-
-            try:
-                events = agg.extract(feed, name)
-                all_events.extend(events)
-            except Exception as e:
-                logger.error(f"Error extracting from {url}: {e}")
+        if feed_tasks:
+            logger.info(
+                "Fetching %d feeds with %d workers...",
+                len(feed_tasks),
+                self.feed_workers,
+            )
+            with ThreadPoolExecutor(max_workers=self.feed_workers) as executor:
+                futures = {
+                    executor.submit(
+                        _extract_one_feed,
+                        feed,
+                        name,
+                        agg_key,
+                        self.luma_url_cache,
+                        self.timeout,
+                        self.max_retries,
+                        self.fast_mode,
+                    ): (feed, name)
+                    for feed, name, agg_key in feed_tasks
+                }
+                for future in as_completed(futures):
+                    try:
+                        events = future.result()
+                        all_events.extend(events)
+                    except Exception as e:
+                        feed, name = futures[future]
+                        url = feed if isinstance(feed, str) else feed.get("url")
+                        logger.error("Error extracting from %s: %s", url, e)
 
         # 2. Process manual events
         if manual_data:
@@ -344,13 +414,10 @@ class ICSAggregator:
         ]
         if to_geocode:
             logger.info(f"Geocoding {len(to_geocode)} new events...")
-            for i, event in enumerate(to_geocode):
-                if i > 0 and (
-                    not self.geocoding_cache
-                    or event.location not in self.geocoding_cache
-                ):
+            for event in to_geocode:
+                _, used_api = event.geocode_location(self.geocoding_cache)
+                if used_api:
                     time.sleep(1.1)
-                event.geocode_location(self.geocoding_cache)
             self.save_geocoding_cache()
             self.save_luma_url_cache()
 
@@ -370,23 +437,22 @@ class ICSAggregator:
                 logger.error(f"Error reconstructing event: {e}")
 
         # 6. Geocoding (Healing) Phase 2 - Full List (including historic)
+        # En fast_mode se omite para reducir tiempo (los datos ya vienen de caché/historial).
         to_geocode_final = [
             e
             for e in final_events
             if not e._is_online() and (not e.state_code or not e.city)
         ]
-        if to_geocode_final:
+        if to_geocode_final and not self.fast_mode:
             max_to_geocode = 100
             to_process = to_geocode_final[:max_to_geocode]
             logger.info(f"Healing location data: Geocoding {len(to_process)} events...")
 
-            for i, event in enumerate(to_process):
-                if i > 0 and (
-                    not self.geocoding_cache
-                    or event.location not in self.geocoding_cache
-                ):
+            for event in to_process:
+                success, used_api = event.geocode_location(self.geocoding_cache)
+                if used_api:
                     time.sleep(1.1)
-                if event.geocode_location(self.geocoding_cache):
+                if success:
                     # Update history immediately for persistence
                     key = event.hash_key
                     self.history_manager.events[key] = event.to_dict()

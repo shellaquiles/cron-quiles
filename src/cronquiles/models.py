@@ -1106,21 +1106,25 @@ class EventNormalized:
 
         return details
 
-    def geocode_location(self, cache: Optional[Dict] = None) -> bool:
+    def geocode_location(self, cache: Optional[Dict] = None) -> tuple[bool, bool]:
         """
         Usa geopy (GoogleV3 o Nominatim) para obtener detalles precisos de la ubicación.
         Actualiza los campos country, state, city y sus respectivos códigos.
 
         Args:
             cache: Diccionario opcional para cachear resultados {query: result_dict}
+
+        Returns:
+            Tupla (éxito, usó_api): True si aplicó ubicación; True si llamó a la API (no cache).
         """
         if not self.location or len(self.location.strip()) < 5:
-            return False
+            return (False, False)
 
         # Si ya es Online, no geocodear
         if self._is_online():
-            return False
+            return (False, False)
 
+        used_api = False
         try:
             # Elegir geocodificador
             api_key = os.getenv("GOOGLE_MAPS_API_KEY")
@@ -1147,7 +1151,7 @@ class EventNormalized:
             current_query = ", ".join(query_parts).strip()
             current_query = fix_encoding(current_query)
             if not current_query or len(current_query) < 4:
-                return False
+                return (False, False)
 
             # Verificar cache
             location_data = None
@@ -1162,6 +1166,7 @@ class EventNormalized:
 
                     location_data = MockLocation(raw_data)
             else:
+                used_api = True
                 logger.debug(
                     f"Geocoding query ({geolocator.__class__.__name__}): {current_query}"
                 )
@@ -1196,6 +1201,7 @@ class EventNormalized:
 
                         location_data = MockLocation(raw_data)
                 else:
+                    used_api = True
                     if isinstance(geolocator, GoogleV3):
                         location_data = geolocator.geocode(
                             fallback_query_1, language="es", timeout=10
@@ -1230,6 +1236,7 @@ class EventNormalized:
 
                             location_data = MockLocation(raw_data)
                     else:
+                        used_api = True
                         if isinstance(geolocator, GoogleV3):
                             location_data = geolocator.geocode(
                                 fallback_query_2, language="es", timeout=10
@@ -1318,12 +1325,12 @@ class EventNormalized:
                     f"Geocoded successfully ({service_name if 'service_name' in locals() else 'unknown'}): "
                     f"{self.location} -> {self.country}, {self.state}, {self.city}"
                 )
-                return True
+                return (True, used_api)
 
         except (GeopyError, Exception) as e:
             logger.debug(f"Geocoding error for '{self.location}': {e}")
 
-        return False
+        return (False, False)
 
     def _format_title(self) -> str:
         """

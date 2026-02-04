@@ -12,9 +12,16 @@ logger = logging.getLogger(__name__)
 class LumaAggregator(GenericICSAggregator):
     """Aggregator para feeds ICS de Luma con enriquecimiento de ubicación."""
 
-    def __init__(self, session=None, timeout: int = 30, max_retries: int = 2,
-                 url_cache: Optional[Dict] = None):
+    def __init__(
+        self,
+        session=None,
+        timeout: int = 30,
+        max_retries: int = 2,
+        url_cache: Optional[Dict] = None,
+        skip_enrich: bool = False,
+    ):
         super().__init__(session, timeout, max_retries)
+        self.skip_enrich = skip_enrich
         # Cache persistente compartido con ICSAggregator
         self.url_cache = url_cache if url_cache is not None else {"url_conversions": {}, "vanity_urls": {}}
         # Mantener referencia directa para compatibilidad
@@ -200,13 +207,12 @@ class LumaAggregator(GenericICSAggregator):
             )
         ]
 
-        if to_enrich:
+        if to_enrich and not self.skip_enrich:
             logger.info(f"Found {len(to_enrich)} Luma events to potentially enrich")
-            for i, event in enumerate(to_enrich):
-                if i > 0:
-                    time.sleep(1)
+            for event in to_enrich:
                 try:
-                    event.enrich_location_from_luma(self.session)
+                    if event.enrich_location_from_luma(self.session):
+                        time.sleep(1)
                 except Exception as e:
                     logger.warning(f"Error enriching Luma event {event.url}: {e}")
 

@@ -10,6 +10,11 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 ### Added
 - **Feed CHIDAS TECH**: Luma `https://luma.com/nc2fac44` (comunidad tech, eventos sobre redes e infraestructura).
 
+### Changed
+- **Rendimiento**: Los `sleep` de rate-limit solo se aplican cuando hay llamada real a la API (no cuando hay caché). Geocoding: dormir solo si `geocode_location` usó la API; Luma/Meetup: dormir solo después de un enrich que hizo request. El pipeline es más rápido cuando el caché está poblado.
+- **Extracción paralela de feeds**: Los feeds se descargan en paralelo (por defecto 10 workers). Reduce mucho el tiempo cuando hay ~76 feeds.
+- **Modo `--fast`**: Omite enriquecimiento de ubicación (Luma/Meetup) y la fase 2 de geocoding (healing de historial). Uso: `make run ARGS="--fast"` o `python -m cronquiles.main --fast`.
+
 ## [1.9.0] - 2026-01-21
 
 ### Added
