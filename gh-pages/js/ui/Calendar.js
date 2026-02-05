@@ -293,7 +293,7 @@ export class Calendar {
 
         // Location
         const locationNode = event.location
-            ? DOM.create('span', { className: 'calendar-month-event-location', text: `📍 ${event.location}` })
+            ? DOM.create('span', { className: 'calendar-month-event-location', text: event.location })
             : null;
 
         // Description with toggle
@@ -382,9 +382,11 @@ export class Calendar {
                 const isCollapsed = textDiv.classList.contains('collapsed');
                 if (isCollapsed) {
                     textDiv.classList.remove('collapsed');
+                    toggle.classList.add('expanded');
                     toggle.textContent = i18n.t('cal.showLess');
                 } else {
                     textDiv.classList.add('collapsed');
+                    toggle.classList.remove('expanded');
                     toggle.textContent = i18n.t('cal.showMore');
                 }
             };
