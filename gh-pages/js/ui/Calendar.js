@@ -93,15 +93,30 @@ export class Calendar {
         // ==== Header del Calendario ====
         const header = DOM.create('div', { className: 'calendar-header' });
 
-        const prevBtn = DOM.create('button', { className: 'calendar-nav', text: i18n.t('cal.prev') });
+        const prevBtn = DOM.create('button', {
+            className: 'calendar-nav calendar-nav-prev',
+            attributes: { 'aria-label': i18n.t('cal.prev') }
+        });
+        prevBtn.innerHTML = '<span class="calendar-nav-icon" aria-hidden="true">←</span><span class="calendar-nav-text">' + i18n.t('cal.prev') + '</span>';
         prevBtn.addEventListener('click', () => this.changeMonth(-1));
 
-        const nextBtn = DOM.create('button', { className: 'calendar-nav', text: i18n.t('cal.next') });
+        const nextBtn = DOM.create('button', {
+            className: 'calendar-nav calendar-nav-next',
+            attributes: { 'aria-label': i18n.t('cal.next') }
+        });
+        nextBtn.innerHTML = '<span class="calendar-nav-icon" aria-hidden="true">→</span><span class="calendar-nav-text">' + i18n.t('cal.next') + '</span>';
         nextBtn.addEventListener('click', () => this.changeMonth(1));
+
+        const todayBtn = DOM.create('button', { className: 'calendar-nav calendar-nav-today', text: i18n.t('cal.today') });
+        todayBtn.addEventListener('click', () => {
+            this.currentDate = new Date();
+            appStore.set('viewDate', new Date(this.currentDate));
+            this.render();
+        });
 
         const title = DOM.create('div', { className: 'calendar-title', text: `${monthNames[month]} ${year}` });
 
-        header.append(prevBtn, title, nextBtn);
+        header.append(prevBtn, nextBtn, title, todayBtn);
         this.container.appendChild(header);
 
 
@@ -130,7 +145,7 @@ export class Calendar {
             }));
         }
 
-        // Días actuales
+        // Días actuales (clicables: desplazar a la lista del día)
         const today = new Date();
         today.setHours(0, 0, 0, 0);
 
@@ -144,10 +159,14 @@ export class Calendar {
             if (date.getTime() === today.getTime()) className += ' today';
             if (dayEvents.length > 0) className += ' has-events';
 
-            grid.appendChild(DOM.create('div', {
+            const dayKey = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+            const dayCell = DOM.create('div', {
                 className,
-                text: day.toString()
-            }));
+                text: day.toString(),
+                attributes: { 'data-date': dayKey }
+            });
+            dayCell.addEventListener('click', () => this.scrollToDay(dayKey));
+            grid.appendChild(dayCell);
         }
 
         // Días siguientes (relleno)
@@ -164,6 +183,17 @@ export class Calendar {
 
         // ==== Lista de Eventos ====
         this.renderEventList(year, month);
+
+        // CTA: Llévate este calendario (multipágina → suscribir.html, single-page → #descargar)
+        const ctaWrap = DOM.create('div', { className: 'calendar-take-cta-wrap' });
+        const ctaHref = (window.location.pathname || '').includes('eventos') ? 'suscribir.html' : '#descargar';
+        const cta = DOM.create('a', {
+            className: 'calendar-take-cta btn btn-secondary',
+            text: i18n.t('cal.takeCalendar'),
+            attributes: { href: ctaHref }
+        });
+        ctaWrap.appendChild(cta);
+        this.container.appendChild(ctaWrap);
     }
 
     renderEventList(year, month) {
@@ -195,11 +225,34 @@ export class Calendar {
         container.appendChild(DOM.create('h3', { text: titleText }));
 
         if (monthEvents.length > 0) {
-            const listWrapper = DOM.create('div', { className: 'calendar-month-events' });
+            // Agrupar por día para anclas de scroll (clic en el calendario)
+            const byDay = {};
             monthEvents.forEach(event => {
-                listWrapper.appendChild(this.createEventCard(event));
+                const d = new Date(event.dtstart);
+                const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+                if (!byDay[key]) byDay[key] = [];
+                byDay[key].push(event);
             });
-            container.appendChild(listWrapper);
+
+            const dayNamesShort = i18n.t('days');
+            Object.keys(byDay).sort().forEach(dayKey => {
+                const [y, m, day] = dayKey.split('-').map(Number);
+                const date = new Date(y, m - 1, day);
+                const dayName = dayNamesShort[date.getDay()];
+                const section = DOM.create('div', {
+                    className: 'calendar-day-events',
+                    attributes: { id: `day-${dayKey}` }
+                });
+                const heading = DOM.create('h4', {
+                    className: 'calendar-day-events-title',
+                    text: `${dayName} ${day}`
+                });
+                section.appendChild(heading);
+                const listWrapper = DOM.create('div', { className: 'calendar-month-events' });
+                byDay[dayKey].forEach(event => listWrapper.appendChild(this.createEventCard(event)));
+                section.appendChild(listWrapper);
+                container.appendChild(section);
+            });
         } else {
             container.appendChild(DOM.create('p', {
                 text: i18n.t('calendar.noEvents'),
@@ -236,6 +289,19 @@ export class Calendar {
     }
 
     /**
+     * Desplaza la vista hacia la sección del día en la lista de eventos.
+     * @param {string} dayKey - Formato YYYY-MM-DD
+     */
+    scrollToDay(dayKey) {
+        const el = document.getElementById(`day-${dayKey}`);
+        if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            el.classList.add('calendar-day-events-highlight');
+            setTimeout(() => el.classList.remove('calendar-day-events-highlight'), 2000);
+        }
+    }
+
+    /**
      * Get next N events after the specified month
      */
     getUpcomingEvents(currentYear, currentMonth, limit) {
@@ -252,52 +318,118 @@ export class Calendar {
             .slice(0, limit);
     }
 
+    /**
+     * Etiqueta corta de estado/ubicación para filtro visual al hacer scroll (ej. CDMX, Jal, En línea).
+     */
+    getPlaceLabel(event) {
+        if (this.isEventOnline(event)) return i18n.t('cal.online');
+        const code = (event.state_code || '').replace(/^MX-/, '').toUpperCase();
+        if (code === 'CMX') return 'CDMX';
+        if (code === 'JAL') return 'Jal';
+        if (code === 'NLE') return 'NL';
+        if (code === 'PUE') return 'Pue';
+        if (code === 'QRO') return 'Qro';
+        if (code === 'YUC') return 'Yuc';
+        if (code === 'AGS') return 'Ags';
+        if (code.length >= 2) return code.charAt(0) + code.slice(1).toLowerCase();
+        if (event.city) return event.city.trim().split(',')[0];
+        if (event.state) return event.state.trim().split(',')[0];
+        return '';
+    }
+
+    /**
+     * Detecta si el evento es online (URL como ubicación o flag del backend).
+     */
+    isEventOnline(event) {
+        if (event.online === true) return true;
+        const loc = (event.location || '').trim();
+        if (!loc) return false;
+        if (loc.toLowerCase().startsWith('http://') || loc.toLowerCase().startsWith('https://')) return true;
+        const lower = loc.toLowerCase();
+        if (lower === 'online' || lower === 'virtual' || lower === 'en línea') return true;
+        if (lower.includes('luma.com') || lower.includes('meetup.com') || lower.includes('zoom')) return true;
+        return false;
+    }
+
+    /**
+     * URL de Google Maps para buscar la dirección (abre en nueva pestaña).
+     */
+    getMapsUrl(location) {
+        if (!location || typeof location !== 'string') return '#';
+        const query = location.split('\n')[0].trim().replace(/\s+/g, ' ');
+        return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+    }
+
+    /**
+     * Acorta la ubicación para mostrar en una línea (evita bloques repetidos).
+     */
+    shortenLocation(location, maxLen = 90) {
+        if (!location || typeof location !== 'string') return '';
+        const firstLine = location.split('\n')[0].trim();
+        if (firstLine.length <= maxLen) return firstLine;
+        return firstLine.slice(0, maxLen - 1).trim() + '…';
+    }
+
     createEventCard(event) {
         const dateStr = DateUtils.formatDate(event.dtstart);
         const startStr = DateUtils.formatTime(event.dtstart);
         const endStr = DateUtils.formatTime(event.dtend);
         const timeStr = (startStr && endStr && startStr !== endStr) ? `${startStr} - ${endStr}` : startStr;
 
-        // Título parseado
-        let titleNode;
         const rawTitle = event.title || event.summary || 'Evento sin título';
+        let categoryLabel = null;
+        let displayName = rawTitle;
 
         if (rawTitle.includes('|')) {
-            const parts = rawTitle.split('|');
-            if (parts.length >= 3) {
-                titleNode = DOM.create('div', {
-                    html: `
-                        <div class="event-title-group">${parts[0].trim()}</div>
-                        <div class="event-title-name">${parts[1].trim()}</div>
-                        <div class="event-title-location">${parts.slice(2).join('|').trim()}</div>
-                    `
-                });
-            } else {
-                titleNode = document.createTextNode(rawTitle);
+            const parts = rawTitle.split('|').map(p => p.trim());
+            if (parts.length >= 2) {
+                categoryLabel = parts[0];
+                displayName = parts[1];
             }
-        } else {
-            titleNode = document.createTextNode(rawTitle);
         }
 
-        // Link Wrapper
-        let titleContainer = DOM.create('div', { className: 'calendar-month-event-title' });
+        // Título: solo nombre del evento (sin duplicar ubicación en el título)
+        const titleContainer = DOM.create('div', { className: 'calendar-month-event-title' });
         if (event.url) {
-            const link = DOM.create('a', { attributes: { href: addUtmSource(event.url), target: '_blank', rel: 'noopener' } });
-            if (typeof titleNode === 'string') link.textContent = titleNode;
-            else link.appendChild(titleNode);
+            const link = DOM.create('a', {
+                attributes: { href: addUtmSource(event.url), target: '_blank', rel: 'noopener' },
+                text: displayName
+            });
             titleContainer.appendChild(link);
         } else {
-            if (typeof titleNode === 'string') titleContainer.textContent = titleNode;
-            else titleContainer.appendChild(titleNode);
+            titleContainer.textContent = displayName;
         }
 
-        // Location
-        const locationNode = event.location
-            ? DOM.create('span', { className: 'calendar-month-event-location', text: event.location })
-            : null;
+        // Ubicación: solo para presenciales (dirección + "Ver en mapa"). Online: "en línea" solo en la pill de estado.
+        const isOnline = this.isEventOnline(event);
+        const locationText = isOnline
+            ? ''
+            : (event.location ? this.shortenLocation(event.location) : (rawTitle.includes('|') ? rawTitle.split('|').slice(2).join(' | ').trim() : ''));
+        let locationNode = null;
+        if (locationText) {
+            locationNode = DOM.create('div', { className: 'calendar-month-event-location' });
+            const locationRow = DOM.create('div', { className: 'event-location-row' });
+            const locationSpan = DOM.create('span', { className: 'event-location-text', text: locationText });
+            locationRow.appendChild(locationSpan);
+            locationNode.appendChild(locationRow);
+            if (event.location) {
+                const mapsUrl = this.getMapsUrl(event.location);
+                const mapLink = DOM.create('a', {
+                    className: 'event-map-link',
+                    text: i18n.t('cal.viewOnMap'),
+                    attributes: {
+                        href: mapsUrl,
+                        target: '_blank',
+                        rel: 'noopener',
+                        'data-i18n': 'cal.viewOnMap'
+                    }
+                });
+                locationNode.appendChild(mapLink);
+            }
+        }
 
-        // Description with toggle
-        const descNode = this.createDescriptionNode(event.description);
+        // Descripción (sin repetir Address ni Hosted by si ya los mostramos)
+        const descNode = this.createDescriptionNode(event.description, event.location, categoryLabel);
 
         // Tags
         let tagsNode = null;
@@ -310,11 +442,37 @@ export class Calendar {
 
         const card = DOM.create('div', { className: 'calendar-month-event' });
 
-        const details = DOM.create('div', { className: 'calendar-month-event-details' });
-        if (locationNode) details.appendChild(locationNode);
-        if (descNode) details.appendChild(descNode);
+        // 1. Fecha + estado a primer vista (filtros visuales al hacer scroll)
+        const shortDate = DateUtils.formatShortDate(event.dtstart);
+        const placeLabel = this.getPlaceLabel(event);
+        const dateFirstBlock = DOM.create('div', { className: 'event-date-first' });
+        dateFirstBlock.appendChild(DOM.create('span', { className: 'event-date-pill', text: shortDate }));
+        if (timeStr) {
+            dateFirstBlock.appendChild(DOM.create('span', { className: 'event-time-pill', text: timeStr }));
+        }
+        if (placeLabel) {
+            const placePill = DOM.create('span', {
+                className: 'event-place-pill',
+                text: placeLabel,
+                attributes: placeLabel === i18n.t('cal.online') ? { 'data-i18n': 'cal.online' } : {}
+            });
+            dateFirstBlock.appendChild(placePill);
+        }
+        card.appendChild(dateFirstBlock);
 
-        // Links a fuentes del evento (soporte multi-fuente)
+        // 2. Badge de categoría (si existe)
+        if (categoryLabel) {
+            const badge = DOM.create('div', { className: 'event-title-group', text: categoryLabel });
+            card.appendChild(badge);
+        }
+
+        // 3. Título (nombre del evento)
+        card.appendChild(titleContainer);
+
+        // 4. Ubicación (una línea; sin repetir en descripción)
+        if (locationNode) card.appendChild(locationNode);
+
+        // 5. CTA: Ver en Luma / Meetup / etc.
         if (event.sources && event.sources.length > 0) {
             const sourcesContainer = DOM.create('div', { className: 'event-sources' });
             event.sources.forEach(source => {
@@ -329,38 +487,61 @@ export class Calendar {
                 });
                 sourcesContainer.appendChild(btn);
             });
-            details.appendChild(sourcesContainer);
+            card.appendChild(sourcesContainer);
         } else if (event.url) {
-            // Fallback para eventos sin sources (compatibilidad)
-            details.appendChild(DOM.create('a', {
-                className: 'event-link',
+            const fallbackLink = DOM.create('a', {
+                className: 'event-source-btn event-source-website',
                 text: i18n.t('cal.viewEvent'),
-                attributes: {
-                    href: addUtmSource(event.url),
-                    target: '_blank',
-                    style: 'color: var(--terminal-green); margin-top: 5px; display: inline-block;'
-                }
-            }));
+                attributes: { href: addUtmSource(event.url), target: '_blank', rel: 'noopener' }
+            });
+            card.appendChild(fallbackLink);
         }
 
-        card.append(
-            titleContainer,
-            DOM.create('div', { className: 'calendar-month-event-date', text: `${dateStr}${timeStr ? ' • ' + timeStr : ''}` }),
-            details
-        );
+        // 6. Descripción (colapsable; sin Address ni Hosted by repetidos)
+        if (descNode) card.appendChild(descNode);
 
+        // 7. Tags
         if (tagsNode) card.appendChild(tagsNode);
 
         return card;
     }
 
-    createDescriptionNode(rawDesc) {
+    createDescriptionNode(rawDesc, eventLocation, categoryLabel) {
         if (!rawDesc) return null;
 
         // Limpieza de descripción
-        const lines = rawDesc.split('\n');
+        let lines = rawDesc.split('\n');
         const processed = lines.length > 1 ? lines.slice(1).map(l => l.trim()).join('\n') : rawDesc;
-        const clean = processed.replace(/(\n\s*){3,}/g, '\n\n').trim();
+        let clean = processed.replace(/(\n\s*){3,}/g, '\n\n').trim();
+
+        // Quitar bloque "Address:" cuando ya mostramos ubicación arriba (evitar redundancia)
+        if (eventLocation && clean.includes('Address:')) {
+            const addrIdx = clean.indexOf('Address:');
+            const afterAddr = clean.slice(addrIdx + 'Address:'.length).trim();
+            const addrBlockEnd = afterAddr.indexOf('\n\n') >= 0 ? afterAddr.indexOf('\n\n') : afterAddr.length;
+            clean = (clean.slice(0, addrIdx).trim() + (afterAddr.slice(addrBlockEnd).trim() ? '\n\n' + afterAddr.slice(addrBlockEnd).trim() : '')).replace(/(\n\s*){3,}/g, '\n\n').trim();
+        }
+
+        // Quitar "Hosted by X" / "Organizado por X" cuando ya mostramos organizador en el badge
+        if (categoryLabel && clean) {
+            clean = clean
+                .replace(/Hosted by\s+[^\n]+/gi, '')
+                .replace(/Organizado por\s+[^\n]+/gi, '')
+                .replace(/(\n\s*){3,}/g, '\n\n')
+                .trim();
+        }
+
+        // Reducir redundancia bilingüe: dos líneas seguidas mismo mensaje (ej. idioma del evento)
+        const locale = (i18n.getLocale() || '').toLowerCase();
+        const preferEs = locale.startsWith('es');
+        const descLines = clean.split('\n').map(l => l.trim()).filter(Boolean);
+        if (descLines.length >= 2 && descLines[0].length < 120 && descLines[1].length < 120) {
+            const hasEn = (descLines[0].includes('Spanish') || descLines[0].includes('English') || descLines[0].includes('subtitles'));
+            const hasEs = (descLines[1].includes('español') || descLines[1].includes('inglés') || descLines[1].includes('subtítulos'));
+            if (hasEn && hasEs) {
+                clean = preferEs ? descLines[1] : descLines[0];
+            }
+        }
 
         if (!clean) return null;
 

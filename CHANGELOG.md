@@ -9,6 +9,14 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ### Added
 - **Documentación del flujo**: Nuevo `docs/FLUJO.md` con el flujo completo del pipeline (entrada → agregación → salida) y actualización de la página (schedule, push, workflow). Actualizados `docs/PROJECT_STRUCTURE.md`, `docs/GITHUB_PAGES_SETUP.md`, `.github/workflows/README.md`, `gh-pages/README.md` y `gh-pages/README-LOCAL.md` para referenciar el flujo actual y corregir URLs/ejemplos.
+- **Frontend / UX (gh-pages)**:
+  - **Calendario interactivo**: Al hacer clic en un día del mes se desplaza la vista a la lista de eventos de ese día (scroll suave y resaltado breve). La lista de eventos se agrupa por día con anclas `#day-YYYY-MM-DD`.
+  - **Fichas de evento**: Fecha visible primero (pill "día mes" + hora), badge de categoría/organizador, título, ubicación única (sin repetir Address ni Hosted by en la descripción). Reducción de redundancia bilingüe en descripciones.
+  - **Eventos online**: Si el evento es online (URL como ubicación o `event.online`), se muestra "en línea" solo en la pill de estado (sin repetir en bloque de ubicación). No se muestra el enlace "Ver en mapa".
+  - **Ver en mapa**: Para eventos con dirección física, enlace "Ver en mapa" (siguiente línea a la dirección) que abre Google Maps con la dirección. Campo `online` en el JSON de salida (`models.py`, `schemas.py`) para que el frontend distinga online vs presencial.
+  - **Calendario en móvil**: Cabecera en una fila (flechas ← →, mes, Hoy), grid a ancho completo, celdas y botones con área de toque ≥44px.
+  - **Navegación multipágina**: Páginas `index.html` (inicio), `eventos.html` (calendario + lista), `suscribir.html` (añadir al calendario), `comunidades.html` (lista de comunidades), con header/nav y estilos compartidos.
+- **Revisión UI/UX (Laws of UX)**: Documento `docs/UX_REVISION_LAWS_OF_UX.md` con revisión crítica escritorio y móvil aplicando principios de [Laws of UX](https://lawsofux.com/). Mejoras aplicadas: estilo visible para página actual en nav (`.section-nav-link.active`), área táctil ≥44px en lang switcher (ES/EN), `:focus-visible` en nav, tabs de ciudad, botones del calendario y selector de ciudad para accesibilidad por teclado.
 - **Feed CHIDAS TECH**: Luma `https://luma.com/nc2fac44` (comunidad tech, eventos sobre redes e infraestructura).
 - **Feed Management In Tech**: Luma `https://luma.com/qhszdqs3` (conversaciones sobre liderazgo y gestión de equipos en tech, Ciudad de México).
 - **Feed Founder Friends Mexico**: Luma `https://luma.com/FFMexico2026` (comunidad de founders por Hustle Fund, Ciudad de México).

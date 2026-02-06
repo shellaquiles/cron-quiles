@@ -111,6 +111,8 @@ Files are generated in `gh-pages/data/`:
 - `cronquiles-online.ics/json` - Online-only events
 - `states_metadata.json` - Frontend manifest with state info
 
+Event JSON includes `online: true/false` (from `EventNormalized._is_online()`) so the frontend can show "en línea" and omit "Ver en mapa" for online events.
+
 ### Country Filtering
 
 Only events in Mexico (`country_code == "MX"`) or Online events are processed. Non-Mexico events are filtered out.
@@ -121,6 +123,7 @@ Only events in Mexico (`country_code == "MX"`) or Online events are processed. N
 - `config/manual_events.json`: Manual event entries (optional)
 - `data/history.json`: Persistent event history database
 - `data/geocoding_cache.json`: Cached geocoding results to avoid API rate limits
+- `gh-pages/`: Frontend (HTML, CSS, JS). Multipage: index, eventos, suscribir, comunidades. Calendar: click day → scroll to that day's events; event cards with date-first, "Ver en mapa" (physical), "en línea" (online). See `gh-pages/README.md`.
 
 ## Tools Directory
 

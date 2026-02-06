@@ -1392,6 +1392,7 @@ class EventNormalized:
             "url": self.url,  # compatibilidad: URL principal
             "sources": sources_with_platform,  # nuevo: todas las fuentes con info de plataforma
             "location": self.location,
+            "online": self._is_online(),  # para que el frontend omita "Ver en mapa" y muestre "en línea"
             "organizer": self.organizer,
             "dtstart": self.dtstart.isoformat() if self.dtstart else None,
             "dtend": self.dtend.isoformat() if self.dtend else None,

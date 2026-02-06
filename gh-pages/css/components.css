@@ -97,6 +97,126 @@
     color: var(--terminal-black);
 }
 
+/* Navegación por secciones (sticky) */
+.section-nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    background: var(--terminal-dark);
+    border-bottom: 1px solid rgba(0, 255, 0, 0.3);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.section-nav-link {
+    flex-shrink: 0;
+    color: var(--terminal-green);
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 12px 16px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-md);
+    transition: all var(--transition-normal);
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .section-nav {
+        justify-content: flex-start;
+        gap: var(--spacing-sm);
+        padding: var(--spacing-sm) var(--spacing-md);
+    }
+
+    .section-nav-link {
+        font-size: 0.9rem;
+        padding: 12px 12px;
+    }
+}
+
+.section-nav-link:hover {
+    background: rgba(0, 255, 0, 0.1);
+    color: var(--terminal-white);
+}
+
+/* Página actual: reconocimiento inmediato (Laws of UX: Similitud, Jakob) */
+.section-nav-link.active {
+    background: rgba(0, 255, 0, 0.15);
+    color: var(--terminal-white);
+    border: 1px solid rgba(0, 255, 0, 0.5);
+}
+
+.section-nav-link:focus,
+.section-nav-link:focus-visible {
+    outline: 2px solid var(--terminal-green);
+    outline-offset: 2px;
+}
+
+/* Línea de bienvenida (usuarios no técnicos) */
+.welcome-hint {
+    color: var(--terminal-gray);
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: var(--spacing-md);
+    margin-top: calc(-1 * var(--spacing-md));
+}
+
+/* Títulos amigables (reducen jerga) */
+.friendly-heading {
+    color: var(--terminal-white);
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.output .friendly-heading {
+    font-size: 1.15rem;
+}
+
+/* Hint antes de los botones de descarga */
+.download-hint {
+    color: var(--terminal-gray);
+    font-size: 0.9rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.howto-lead {
+    color: var(--terminal-gray);
+    font-size: 0.95rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+/* Etiqueta visible del selector de ciudad (móvil) */
+.city-select-wrapper {
+    width: 100%;
+}
+
+.city-select-label {
+    display: block;
+    color: var(--terminal-green);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+/* Evitar que las secciones queden tapadas por la barra sticky al hacer scroll por ancla */
+#eventos,
+#comunidades,
+#descargar,
+#como-usar {
+    scroll-margin-top: 4rem;
+}
+
 /* Tabs */
 .city-tabs {
     display: flex;
@@ -115,6 +235,7 @@
     border: 1px solid var(--terminal-green);
     color: var(--terminal-green);
     padding: var(--spacing-md) var(--spacing-xl);
+    min-height: 44px;
     font-family: inherit;
     font-size: 1em;
     font-weight: bold;
@@ -124,6 +245,9 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .city-tab.active {
@@ -145,7 +269,12 @@
     border-top: 8px solid var(--terminal-green);
 }
 
-/* Lang Switcher */
+.city-tab:focus-visible {
+    outline: 2px solid var(--terminal-green);
+    outline-offset: 2px;
+}
+
+/* Lang Switcher - Fitts's Law: área táctil ≥44px en móvil */
 .lang-switcher {
     display: flex;
     justify-content: center;
@@ -157,7 +286,9 @@
     background: transparent;
     border: 1px solid var(--terminal-green);
     color: var(--terminal-green);
-    padding: 4px 12px;
+    padding: 10px 16px;
+    min-height: 44px;
+    min-width: 44px;
     font-family: inherit;
     font-size: 0.85em;
     cursor: pointer;
@@ -165,6 +296,14 @@
     transition: all var(--transition-normal);
     text-transform: uppercase;
     letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang-btn:focus-visible {
+    outline: 2px solid var(--terminal-green);
+    outline-offset: 2px;
 }
 
 .lang-btn.active {
@@ -228,6 +367,41 @@
 .community-links .event-source-btn {
     font-size: 0.8em;
     padding: 4px 10px;
+}
+
+.communities-section {
+    color: var(--terminal-green);
+    margin-bottom: var(--spacing-xl);
+    padding-left: var(--spacing-lg);
+    border-left: 2px solid var(--terminal-green);
+    margin-left: var(--spacing-lg);
+}
+
+.communities-section .section-title {
+    color: var(--terminal-white);
+    margin-bottom: var(--spacing-md);
+    font-size: 1.5em;
+}
+
+.communities-section .prompt-char {
+    color: var(--terminal-green);
+}
+
+.communities-footer {
+    margin-top: var(--spacing-xl);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid rgba(0, 255, 0, 0.15);
+}
+
+.communities-footer .link-underline {
+    color: var(--terminal-green);
+    text-decoration: underline;
+}
+
+.communities-footer .communities-add {
+    margin-top: var(--spacing-sm);
+    color: var(--terminal-white);
+    font-size: 0.9em;
 }
 
 .communities-grid {
@@ -343,6 +517,34 @@
     box-shadow: 0 4px 12px rgba(0, 255, 0, 0.4);
 }
 
+/* Selector de ciudad en móvil */
+.city-select {
+    width: 100%;
+    max-width: 100%;
+    min-height: 44px;
+    padding: 12px 16px;
+    font-family: var(--font-family-mono);
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--terminal-green);
+    background: var(--terminal-dark);
+    border: 1px solid var(--terminal-green);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2300ff00' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    padding-right: 36px;
+}
+
+.city-select:focus,
+.city-select:focus-visible {
+    outline: 2px solid var(--terminal-green);
+    outline-offset: 2px;
+}
+
 /* Ajustes móviles */
 @media (max-width: 768px) {
     .output {
@@ -357,9 +559,15 @@
         padding: var(--spacing-sm);
     }
 
+    .city-select {
+        min-height: 44px;
+        font-size: 1rem;
+    }
+
     .city-tab {
         flex: 1 1 auto;
         text-align: center;
+        min-height: 44px;
         padding: var(--spacing-sm) var(--spacing-md);
         font-size: 0.9em;
     }

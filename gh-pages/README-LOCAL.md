@@ -7,7 +7,9 @@ cd gh-pages
 python3 serve.py
 ```
 
-Luego abre en tu navegador: http://localhost:8000/index.html
+Luego abre en tu navegador: http://localhost:8000/ (index), http://localhost:8000/eventos.html (calendario), etc.
+
+**Alternativa desde la raíz del repo:** `make serve` (servidor en gh-pages).
 
 ## Opción 2: Servidor HTTP simple
 

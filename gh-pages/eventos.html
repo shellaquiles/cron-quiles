@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐢</text></svg>">
-    <title>🐢 Cron-Quiles - Eventos Tech México</title>
+    <title>Eventos - Cron-Quiles</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -23,8 +23,8 @@
         </div>
 
         <nav class="section-nav" aria-label="Navegación principal">
-            <a href="index.html" class="section-nav-link active" data-i18n="nav.linkInicio">Inicio</a>
-            <a href="eventos.html" class="section-nav-link" data-i18n="nav.linkEventos">Eventos</a>
+            <a href="index.html" class="section-nav-link" data-i18n="nav.linkInicio">Inicio</a>
+            <a href="eventos.html" class="section-nav-link active" data-i18n="nav.linkEventos">Eventos</a>
             <a href="suscribir.html" class="section-nav-link" data-i18n="nav.linkSuscribir">Añadir al calendario</a>
             <a href="comunidades.html" class="section-nav-link" data-i18n="nav.linkComunidades">Comunidades</a>
         </nav>
@@ -35,15 +35,10 @@
             <div class="events-loading">...</div>
         </div>
 
-        <div class="landing-block output">
-            <h2 class="friendly-heading" data-i18n="hint.whatIsThis">¿Qué es esto?</h2>
-            <p data-i18n="desc.content">
-                Este calendario agrega eventos de múltiples fuentes (Meetup, Luma, etc.)
-                en un solo lugar. Los eventos se actualizan automáticamente cada 6 horas.
-            </p>
-            <div class="btn-group landing-ctas">
-                <a href="eventos.html" id="btn-ver-eventos" class="btn" data-i18n="landing.verEventos">Ver eventos</a>
-                <a href="suscribir.html" class="btn btn-secondary" data-i18n="landing.anadirCalendario">Añadir a mi calendario</a>
+        <div id="eventos" class="output">
+            <h2 data-i18n="calendar.title">📅 Calendario de Eventos</h2>
+            <div id="calendar-container" class="calendar-container">
+                <div class="events-loading" data-i18n="calendar.loading">Cargando calendario...</div>
             </div>
         </div>
 

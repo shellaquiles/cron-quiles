@@ -27,6 +27,7 @@ class EventSchema(TypedDict):
     url: str  # URL principal (compatibilidad)
     sources: List[SourceSchema]  # Todas las fuentes con info de plataforma
     location: str
+    online: bool  # True si es evento online (frontend muestra "en línea" y omite "Ver en mapa")
     organizer: str
     dtstart: Optional[str]  # ISO format
     dtend: Optional[str]  # ISO format
