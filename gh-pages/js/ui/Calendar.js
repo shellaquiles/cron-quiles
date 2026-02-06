@@ -192,7 +192,9 @@ export class Calendar {
 
         const monthNames = i18n.t('months');
         const titleText = `${i18n.t('cal.eventsOf')} ${monthNames[month]} ${year}`;
-        container.appendChild(DOM.create('h3', { text: titleText }));
+        const monthHeading = DOM.create('h3', { text: titleText });
+        monthHeading.id = 'events-list-top';
+        container.appendChild(monthHeading);
 
         if (monthEvents.length > 0) {
             const listWrapper = DOM.create('div', { className: 'calendar-month-events' });
@@ -252,6 +254,19 @@ export class Calendar {
             .slice(0, limit);
     }
 
+    // Mapeo de location string a slug de ciudad
+    static LOCATION_TO_SLUG = {
+        'Online': 'online',
+        'México|Ciudad de México': 'mx-cmx',
+        'México|Jalisco': 'mx-jal',
+        'México|Nuevo León': 'mx-nle',
+        'México|Aguascalientes': 'mx-agu',
+        'México|Estado de México': 'mx-mex',
+        'México|Puebla': 'mx-pue',
+        'México|Querétaro': 'mx-que',
+        'México|Yucatán': 'mx-yuc',
+    };
+
     createEventCard(event) {
         const dateStr = DateUtils.formatDate(event.dtstart);
         const startStr = DateUtils.formatTime(event.dtstart);
@@ -260,18 +275,40 @@ export class Calendar {
 
         // Título parseado
         let titleNode;
+        let locationBadge = null;
         const rawTitle = event.title || event.summary || 'Evento sin título';
 
         if (rawTitle.includes('|')) {
             const parts = rawTitle.split('|');
             if (parts.length >= 3) {
+                let locationText = parts.slice(2).join('|').trim();
+                // Si el campo location del evento dice "Online", respetar eso sobre el título
+                const evtLoc = (event.location || '').trim().toLowerCase();
+                if (evtLoc === 'online' && locationText.toLowerCase() !== 'online') {
+                    locationText = 'Online';
+                }
+                const slug = Calendar.LOCATION_TO_SLUG[locationText];
+
                 titleNode = DOM.create('div', {
                     html: `
                         <div class="event-title-group">${parts[0].trim()}</div>
                         <div class="event-title-name">${parts[1].trim()}</div>
-                        <div class="event-title-location">${parts.slice(2).join('|').trim()}</div>
                     `
                 });
+
+                // Badge de ubicación clickeable (top-center del card)
+                locationBadge = DOM.create('span', {
+                    className: 'event-location-badge' + (slug ? ' event-location-badge--clickable' : ''),
+                    text: locationText
+                });
+                if (slug) {
+                    locationBadge.dataset.city = slug;
+                    locationBadge.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        appStore.set('city', slug);
+                    });
+                }
             } else {
                 titleNode = document.createTextNode(rawTitle);
             }
@@ -279,17 +316,10 @@ export class Calendar {
             titleNode = document.createTextNode(rawTitle);
         }
 
-        // Link Wrapper
+        // Title container (no link — source buttons handle that)
         let titleContainer = DOM.create('div', { className: 'calendar-month-event-title' });
-        if (event.url) {
-            const link = DOM.create('a', { attributes: { href: addUtmSource(event.url), target: '_blank', rel: 'noopener' } });
-            if (typeof titleNode === 'string') link.textContent = titleNode;
-            else link.appendChild(titleNode);
-            titleContainer.appendChild(link);
-        } else {
-            if (typeof titleNode === 'string') titleContainer.textContent = titleNode;
-            else titleContainer.appendChild(titleNode);
-        }
+        if (typeof titleNode === 'string') titleContainer.textContent = titleNode;
+        else titleContainer.appendChild(titleNode);
 
         // Location
         const locationNode = event.location
@@ -343,13 +373,21 @@ export class Calendar {
             }));
         }
 
+        // Footer: source buttons + tags on same row
+        if (tagsNode || details.querySelector('.event-sources')) {
+            const footer = DOM.create('div', { className: 'event-card-footer' });
+            const sourcesEl = details.querySelector('.event-sources');
+            if (sourcesEl) { details.removeChild(sourcesEl); footer.appendChild(sourcesEl); }
+            if (tagsNode) footer.appendChild(tagsNode);
+            details.appendChild(footer);
+        }
+
+        if (locationBadge) card.appendChild(locationBadge);
         card.append(
             titleContainer,
             DOM.create('div', { className: 'calendar-month-event-date', text: `${dateStr}${timeStr ? ' • ' + timeStr : ''}` }),
             details
         );
-
-        if (tagsNode) card.appendChild(tagsNode);
 
         return card;
     }
