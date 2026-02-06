@@ -24,22 +24,28 @@ class App {
     async init() {
         // 0. Cargar metadatos de estados
         this.states = await DataService.getStatesMetadata();
-        this.renderTabs();
 
-        // 1. Restaurar estado (idioma y ciudad)
-        const savedLang = Storage.get(CONFIG.STORAGE_KEYS.LANG) || CONFIG.LANGUAGES.DEFAULT;
-        let savedCity = Storage.get(CONFIG.STORAGE_KEYS.CITY) || CONFIG.CITIES.DEFAULT;
+        // 1. Restaurar estado desde URL params, luego localStorage, luego defaults
+        const urlParams = new URLSearchParams(window.location.search);
+        const savedLang = urlParams.get('lang') || Storage.get(CONFIG.STORAGE_KEYS.LANG) || CONFIG.LANGUAGES.DEFAULT;
+        let savedCity = urlParams.get('city') || Storage.get(CONFIG.STORAGE_KEYS.CITY) || CONFIG.CITIES.DEFAULT;
 
         // Verificar que la ciudad guardada aún exista en los metadatos (si no, usar default)
         if (this.states.length > 0 && !this.states.find(s => s.slug === savedCity)) {
             savedCity = CONFIG.CITIES.DEFAULT;
         }
 
-        // Esto disparará las suscripciones iniciales en I18n y Header
+        // Inicializar estado sin disparar suscripciones aún
         appStore.set('lang', savedLang);
         appStore.set('city', savedCity);
 
-        // 2. Event listeners globales
+        // Sincronizar URL con el estado inicial
+        this.updateUrlParams();
+
+        // Renderizar tabs con ciudad activa
+        this.renderTabs();
+
+        // 2. Event listeners globales (después de init para evitar efectos durante arranque)
         this.bindEvents();
 
         // 3. Cargar datos iniciales
@@ -75,9 +81,6 @@ class App {
 
             // active_months is sorted, check if any is >= viewMonthStr
             const isVisible = state.active_months.some(m => m >= viewMonthStr);
-            if (state.slug === 'mx-ags') {
-                console.log(`[DEBUG] Filtering mx-ags. View: ${viewMonthStr}. Active: ${JSON.stringify(state.active_months)}. Result: ${isVisible}`);
-            }
             return isVisible;
         });
 
@@ -105,9 +108,35 @@ class App {
         appStore.subscribe('viewDate', () => this.renderTabs());
     }
 
+    /**
+     * Actualiza los query params de la URL sin recargar la página.
+     */
+    updateUrlParams() {
+        const params = new URLSearchParams(window.location.search);
+        const city = appStore.get('city');
+        const lang = appStore.get('lang');
+
+        if (city) {
+            params.set('city', city);
+        } else {
+            params.delete('city');
+        }
+
+        if (lang && lang !== CONFIG.LANGUAGES.DEFAULT) {
+            params.set('lang', lang);
+        } else {
+            params.delete('lang');
+        }
+
+        const qs = params.toString();
+        const newUrl = window.location.pathname + (qs ? '?' + qs : '');
+        window.history.replaceState(null, '', newUrl);
+    }
+
     onCityChange(city) {
         // Persistir
         Storage.set(CONFIG.STORAGE_KEYS.CITY, city);
+        this.updateUrlParams();
 
         // Re-render tabs to update active class (and potentially visibility if logic changes)
         this.renderTabs();
@@ -119,6 +148,7 @@ class App {
 
     onLangChange(lang) {
         Storage.set(CONFIG.STORAGE_KEYS.LANG, lang);
+        this.updateUrlParams();
         // Calendar se repinta automáticamente si reusamos los datos,
         // pero por simplicidad de este refactor, re-renderizamos con lo que tenga
         this.calendar.render();

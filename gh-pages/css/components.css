@@ -268,25 +268,32 @@
     display: flex;
     flex-wrap: wrap;
     gap: var(--spacing-sm);
-    margin-top: var(--spacing-sm);
+    padding-top: var(--event-section-gap);
+    margin-top: var(--event-section-gap);
+    border-top: 1px solid rgba(0, 255, 0, 0.15);
 }
 
 .event-source-btn {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    padding: 6px 12px;
+    padding: 8px 14px;
     font-size: 0.85em;
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: none;
     border-radius: var(--radius-md);
     transition: all var(--transition-normal);
-    border: 1px solid;
+    border: 1.5px solid;
+    letter-spacing: 0.3px;
+}
+
+.event-source-btn:hover {
+    transform: translateY(-1px);
 }
 
 /* Meetup - Rojo */
 .event-source-meetup {
-    background: rgba(237, 24, 73, 0.1);
+    background: rgba(237, 24, 73, 0.08);
     border-color: #ED1849;
     color: #ED1849;
 }
@@ -294,11 +301,12 @@
 .event-source-meetup:hover {
     background: #ED1849;
     color: white;
+    box-shadow: 0 4px 12px rgba(237, 24, 73, 0.4);
 }
 
 /* Luma - Morado */
 .event-source-luma {
-    background: rgba(138, 43, 226, 0.1);
+    background: rgba(138, 43, 226, 0.08);
     border-color: #8A2BE2;
     color: #8A2BE2;
 }
@@ -306,23 +314,25 @@
 .event-source-luma:hover {
     background: #8A2BE2;
     color: white;
+    box-shadow: 0 4px 12px rgba(138, 43, 226, 0.4);
 }
 
-/* Eventbrite - Naranja */
+/* Eventbrite - Naranja relleno (como en referencia) */
 .event-source-eventbrite {
-    background: rgba(255, 128, 0, 0.1);
-    border-color: #FF8000;
-    color: #FF8000;
+    background: #FF8000;
+    border-color: #E67300;
+    color: #ffffff;
 }
 
 .event-source-eventbrite:hover {
-    background: #FF8000;
-    color: white;
+    background: #E67300;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(255, 128, 0, 0.4);
 }
 
 /* Website (genérico) - Verde terminal */
 .event-source-website {
-    background: rgba(0, 255, 0, 0.1);
+    background: rgba(0, 255, 0, 0.08);
     border-color: var(--terminal-green);
     color: var(--terminal-green);
 }
@@ -330,10 +340,17 @@
 .event-source-website:hover {
     background: var(--terminal-green);
     color: var(--terminal-black);
+    box-shadow: 0 4px 12px rgba(0, 255, 0, 0.4);
 }
 
 /* Ajustes móviles */
 @media (max-width: 768px) {
+    .output {
+        margin-left: 0;
+        padding-left: 6px;
+        border-left: 2px solid var(--terminal-green);
+    }
+
     .city-tabs {
         flex-wrap: wrap;
         gap: var(--spacing-sm);
@@ -369,10 +386,18 @@
 
     .event-sources {
         flex-direction: column;
+        gap: var(--spacing-xs);
+        margin-left: calc(var(--spacing-xs) * -1);
+        margin-right: calc(var(--spacing-xs) * -1);
     }
 
     .event-source-btn {
         width: 100%;
         justify-content: center;
+        padding: 12px 16px;
+        font-size: 0.9em;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
     }
 }

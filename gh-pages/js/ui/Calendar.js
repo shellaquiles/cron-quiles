@@ -65,13 +65,13 @@ export class Calendar {
             return this.events;
         }
 
-        // Return only events from the start of the current month onwards
-        const now = new Date();
-        const startOfCurrentMonth = new Date(now.getFullYear(), now.getMonth(), 1);
+        // Retornar solo eventos de hoy en adelante
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
 
         return this.events.filter(e => {
             if (!e.dtstart) return false;
-            return new Date(e.dtstart) >= startOfCurrentMonth;
+            return new Date(e.dtstart) >= today;
         });
     }
 
@@ -169,9 +169,19 @@ export class Calendar {
     renderEventList(year, month) {
         const eventsListContainer = DOM.create('div', { className: 'calendar-events-list', id: 'calendar-events-list' });
 
-        // Fix Timezone Bug: Normalize comparisons to year/month parts
-        // Filter events belonging to this month (regardless of time)
-        // AND apply the global history filter
+        // Rastrear el último mes cargado para "cargar más"
+        this.lastLoadedYear = year;
+        this.lastLoadedMonth = month;
+
+        this.appendMonthEvents(eventsListContainer, year, month);
+
+        this.container.appendChild(eventsListContainer);
+    }
+
+    /**
+     * Agrega los eventos de un mes al contenedor y un botón para cargar el siguiente mes.
+     */
+    appendMonthEvents(container, year, month) {
         const relevantEvents = this.getFilteredEvents();
 
         const monthEvents = relevantEvents.filter(e => {
@@ -182,38 +192,47 @@ export class Calendar {
 
         const monthNames = i18n.t('months');
         const titleText = `${i18n.t('cal.eventsOf')} ${monthNames[month]} ${year}`;
-        eventsListContainer.appendChild(DOM.create('h3', { text: titleText }));
+        container.appendChild(DOM.create('h3', { text: titleText }));
 
         if (monthEvents.length > 0) {
             const listWrapper = DOM.create('div', { className: 'calendar-month-events' });
             monthEvents.forEach(event => {
                 listWrapper.appendChild(this.createEventCard(event));
             });
-            eventsListContainer.appendChild(listWrapper);
+            container.appendChild(listWrapper);
         } else {
-            // Month is empty -> Show "No events" BUT check for upcoming events
-            eventsListContainer.appendChild(DOM.create('p', {
+            container.appendChild(DOM.create('p', {
                 text: i18n.t('calendar.noEvents'),
                 attributes: { style: 'color: var(--terminal-gray); margin-bottom: var(--spacing-lg);' }
             }));
-
-            // Show Upcoming Events Logic
-            const nextEvents = this.getUpcomingEvents(year, month, 3);
-            if (nextEvents.length > 0) {
-                eventsListContainer.appendChild(DOM.create('h3', {
-                    text: '🔜 Próximos eventos', // Hardcoded fallback or add to i18n
-                    attributes: { style: 'color: var(--terminal-green); margin-top: var(--spacing-xl);' }
-                }));
-
-                const listWrapper = DOM.create('div', { className: 'calendar-month-events' });
-                nextEvents.forEach(event => {
-                    listWrapper.appendChild(this.createEventCard(event));
-                });
-                eventsListContainer.appendChild(listWrapper);
-            }
         }
 
-        this.container.appendChild(eventsListContainer);
+        // Verificar si hay eventos en meses posteriores
+        const nextMonthStart = new Date(year, month + 1, 1);
+        const hasMoreEvents = relevantEvents.some(e => {
+            if (!e.dtstart) return false;
+            return new Date(e.dtstart) >= nextMonthStart;
+        });
+
+        // Remover botón anterior si existe
+        const oldBtn = container.querySelector('.load-more-btn');
+        if (oldBtn) oldBtn.remove();
+
+        if (hasMoreEvents) {
+            const loadMoreBtn = DOM.create('button', {
+                className: 'load-more-btn',
+                text: i18n.t('cal.loadMore') || 'Cargar siguiente mes ▼'
+            });
+            loadMoreBtn.addEventListener('click', () => {
+                loadMoreBtn.remove();
+                // Avanzar al siguiente mes
+                const nextDate = new Date(this.lastLoadedYear, this.lastLoadedMonth + 1, 1);
+                this.lastLoadedYear = nextDate.getFullYear();
+                this.lastLoadedMonth = nextDate.getMonth();
+                this.appendMonthEvents(container, this.lastLoadedYear, this.lastLoadedMonth);
+            });
+            container.appendChild(loadMoreBtn);
+        }
     }
 
     /**
@@ -274,7 +293,7 @@ export class Calendar {
 
         // Location
         const locationNode = event.location
-            ? DOM.create('span', { className: 'calendar-month-event-location', text: `📍 ${event.location}` })
+            ? DOM.create('span', { className: 'calendar-month-event-location', text: event.location })
             : null;
 
         // Description with toggle
@@ -363,9 +382,11 @@ export class Calendar {
                 const isCollapsed = textDiv.classList.contains('collapsed');
                 if (isCollapsed) {
                     textDiv.classList.remove('collapsed');
+                    toggle.classList.add('expanded');
                     toggle.textContent = i18n.t('cal.showLess');
                 } else {
                     textDiv.classList.add('collapsed');
+                    toggle.classList.remove('expanded');
                     toggle.textContent = i18n.t('cal.showMore');
                 }
             };
