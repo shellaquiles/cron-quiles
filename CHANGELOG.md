@@ -8,6 +8,7 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 ## [Unreleased]
 
 ### Added
+- **Documentación del flujo**: Nuevo `docs/FLUJO.md` con el flujo completo del pipeline (entrada → agregación → salida) y actualización de la página (schedule, push, workflow). Actualizados `docs/PROJECT_STRUCTURE.md`, `docs/GITHUB_PAGES_SETUP.md`, `.github/workflows/README.md`, `gh-pages/README.md` y `gh-pages/README-LOCAL.md` para referenciar el flujo actual y corregir URLs/ejemplos.
 - **Feed CHIDAS TECH**: Luma `https://luma.com/nc2fac44` (comunidad tech, eventos sobre redes e infraestructura).
 - **Feed Management In Tech**: Luma `https://luma.com/qhszdqs3` (conversaciones sobre liderazgo y gestión de equipos en tech, Ciudad de México).
 - **Feed Founder Friends Mexico**: Luma `https://luma.com/FFMexico2026` (comunidad de founders por Hustle Fund, Ciudad de México).

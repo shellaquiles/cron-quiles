@@ -61,6 +61,9 @@ cron-quiles/
 │
 ├── docs/                            # Documentación adicional
 │   ├── AGENTS.md                   # Especificaciones del proyecto
+│   ├── FLUJO.md                    # Flujo completo: pipeline + publicación (ver este doc para el flujo actual)
+│   ├── GITHUB_PAGES_SETUP.md       # Configuración de GitHub Pages
+│   ├── COMMUNITIES.md              # Lista de comunidades integradas
 │   └── PROJECT_STRUCTURE.md        # Este archivo
 │
 ├── main.py                          # Punto de entrada CLI (raíz)
@@ -120,6 +123,9 @@ Scripts de mantenimiento y utilidad:
 ### `docs/`
 Documentación adicional del proyecto:
 - **`AGENTS.md`**: Especificaciones originales y requisitos del proyecto
+- **`FLUJO.md`**: Flujo completo del pipeline (entrada → agregación → salida) y actualización de la página (schedule, push, workflow)
+- **`GITHUB_PAGES_SETUP.md`**: Guía de configuración de GitHub Pages
+- **`COMMUNITIES.md`**: Lista de comunidades integradas (actualizado por el pipeline)
 - **`PROJECT_STRUCTURE.md`**: Este archivo con la estructura del proyecto
 
 ### Raíz del Proyecto

@@ -52,9 +52,12 @@ El workflow se ejecutará automáticamente:
 Una vez configurado, tu sitio estará disponible en:
 
 - **URL principal**: `https://shellaquiles.github.io/cron-quiles/`
-- **Archivo ICS**: `https://shellaquiles.github.io/cron-quiles/data/cronquiles.ics`
-- **Archivo JSON**: `https://shellaquiles.github.io/cron-quiles/data/cronquiles.json`
-- **WebCal (suscripción)**: `webcal://shellaquiles.github.io/cron-quiles/data/cronquiles.ics`
+- **Calendario nacional ICS**: `https://shellaquiles.github.io/cron-quiles/data/cronquiles-mexico.ics`
+- **Calendario nacional JSON**: `https://shellaquiles.github.io/cron-quiles/data/cronquiles-mexico.json`
+- **WebCal (suscripción nacional)**: `webcal://shellaquiles.github.io/cron-quiles/data/cronquiles-mexico.ics`
+- **Por estado**: `data/cronquiles-{slug}.ics` y `data/cronquiles-{slug}.json` (ej. `cronquiles-mx-cmx`, `cronquiles-online`)
+
+Para el flujo completo del pipeline y cómo se actualiza la página, ver **`docs/FLUJO.md`**.
 
 ### 5. Verificar la Publicación
 
@@ -71,8 +74,9 @@ Los siguientes archivos se publican automáticamente en GitHub Pages desde la ca
 - `gh-pages/index.html` - Página principal con diseño terminal y calendario embebido
 - `gh-pages/css/` - Estilos CSS (layout, componentes, variables)
 - `gh-pages/js/` - Scripts JavaScript (lógica de calendario, tabs, etc.)
-- `gh-pages/data/cronquiles[...].ics` - Calendarios ICS por ciudad
-- `gh-pages/data/cronquiles[...].json` - Datos JSON por ciudad
+- `gh-pages/data/cronquiles-mexico.ics/json` - Calendario nacional
+- `gh-pages/data/cronquiles-{slug}.ics/json` - Calendarios por estado (ej. mx-cmx, online)
+- `gh-pages/data/states_metadata.json` - Manifiesto para el frontend
 
 **Características de la interfaz:**
 - Diseño terminal estilo shellaquiles-org (verde/negro/blanco)
