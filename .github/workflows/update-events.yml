@@ -35,7 +35,7 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v4
         with:
-          enable-cache: true
+          enable-cache: false  # Evitar errores 400 del cache de GitHub
 
       - name: Install dependencies
         run: uv sync --frozen
@@ -132,7 +132,7 @@ jobs:
         if: steps.check-deploy.outputs.deploy == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'gh-pages'
+          path: '.'  # Tras "Publicar en rama orphan gh-pages", el site está en la raíz
 
       - name: Deploy to GitHub Pages
         if: steps.check-deploy.outputs.deploy == 'true'
