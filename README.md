@@ -1,105 +1,70 @@
-# 🐢 Cron-Quiles
+# Cron-Quiles Frontend
 
-**The Centralized Tech Calendar for Mexico.**
-Aggregating public ICS feeds, Meetup, Luma, and Eventbrite into a single, unified, and deduplicated event stream.
+This directory contains the static site generator output and the source code for the frontend application. It is built with **Vanilla JS** using **ES Modules** for a modular, dependency-free architecture.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+## Development
 
-[![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=☕&slug=pixelead0&button_colour=FFDD00&font_colour=000000&font_family=Inter&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/pixelead0)
+The project uses native ES Modules, so you must serve it via a local HTTP server to avoid CORS issues with `file://` protocol.
 
----
+### Prerequisites
 
-## 🚀 Overview
+- Python 3 (already included in most systems) OR Node.js
 
-Cron-Quiles is an open-source tool designed to unify the fragmented landscape of tech event calendars in Mexico. It consumes various feed formats, normalizes the data, deduplicates events, and generates a clean, usable output for the community.
+### Running Locally
 
-**Live Calendar:** [https://shellaquiles.github.io/cron-quiles/](https://shellaquiles.github.io/cron-quiles/)
+You have two easy options:
 
-## ✨ Key Features
+1.  **Using Python (Recommended)**:
+    ```bash
+    cd gh-pages
+    ./serve.sh
+    # Or manually: python3 -m http.server 8000
+    ```
+    Open [http://localhost:8000](http://localhost:8000)
 
-- **Multi-Source Aggregation**:
-  - **ICS Feeds**: Standard generic calendars.
-  - **Meetup**: Automatic location enrichment via JSON-LD/Next.js extraction.
-  - **Luma**: Deep integration with location cleaning (URL-only fixes).
-  - **Eventbrite**: Native extraction (Organizer & Single Event support).
-  - **Hi.Events**: Support for custom tech community platforms (e.g., Pythonistas GDL) via API extraction.
-  - **Manual**: JSON-based injection for events without public feeds.
-- **Smart Deduplication**: Merges duplicate events (same title/time) and consolidates alternative URLs from multiple platforms (Meetup, Luma, Eventbrite).
-- **Multi-Source Events**: Events can have multiple URLs from different platforms, displayed with platform-specific buttons in the frontend.
-- **Dynamic State Generation**: Automatically categorizes events by state (e.g., `MX-CMX`, `MX-JAL`) using geocoding.
-- **Automated Pipeline**: runs on GitHub Actions to keep data fresh every 6 hours.
-- **Modern Web Interface**: Terminal-styled UI with embedded visual calendar.
+2.  **Using Node/NPM**:
+    ```bash
+    npx serve gh-pages
+    ```
 
-## 🛠️ Quick Start
+## Architecture
 
-### Requisitos
+The codebase is organized into logical layers:
 
-- Python 3.10+
-- [uv](https://docs.astral.sh/uv/)
-
-### Instalación
-
-```bash
-# Clonar
-git clone https://github.com/shellaquiles/cron-quiles.git
-cd cron-quiles
-
-# Instalar uv
-curl -LsSf https://astral.sh/uv/install.sh | sh
-
-# Instalar dependencias
-make install-dev
-
-# Verificar
-make check
+```text
+gh-pages/
+├── css/                 # Styling
+│   ├── styles.css       # Entry point
+│   ├── variables.css    # Design tokens (colors, spacing)
+│   ├── layout.css       # Global layout & reset
+│   └── components.css   # Reusable UI components
+├── js/                  # Application Logic
+│   ├── app.js           # Main Entry Point (Bootstrapper)
+│   ├── config.js        # Global constants (Cities, Langs, Paths)
+│   ├── core/            # Core Infrastructure
+│   │   ├── Store.js     # State Management (Pub/Sub)
+│   │   └── I18n.js      # Internationalization
+│   ├── services/        # Data Layer
+│   │   ├── DataService.js # Fetches JSON/ICS data
+│   │   └── Storage.js   # LocalStorage wrapper
+│   ├── ui/              # UI Components
+│   │   ├── Calendar.js  # Complex Calendar Logic
+│   │   ├── Header.js    # Navbar & Controls
+│   │   └── CommunityList.js
+│   └── utils/           # Helpers
+│       ├── dates.js     # Date formatting
+│       └── dom.js       # DOM manipulation
+└── index.html           # Main HTML (uses type="module")
 ```
 
-### Uso
+### Key Concepts
 
-Ejecuta el pipeline principal para obtener feeds y generar artefactos:
+-   **State Management**: `appStore` in `core/Store.js` manages global state like selected City and Language. Components subscribe to changes.
+-   **No Build Step**: The code runs directly in modern browsers. No Webpack/Vite required for development, though one could be added for production optimization (minification) if traffic scales significantly.
+-   **Internationalization**: All text is abstracted in `core/I18n.js`. State changes trigger DOM updates automatically.
 
-```bash
-# Procesar todos los feeds y salida a gh-pages/data/
-make run-all
+## Adding Features
 
-# Ver todos los comandos disponibles
-make help
-```
-
-This generates:
-- `cronquiles-mexico.ics` (Unified)
-- `cronquiles-mx-cmx.ics` (Mexico City)
-- `cronquiles-mx-jal.ics` (Jalisco)
-- `states_metadata.json` (Frontend Manifest)
-
-## 📚 Documentation
-
-Detailed documentation is available in the `docs/` directory:
-
-| Topic | Description | Link |
-| :--- | :--- | :--- |
-| **Architecture** | Technical specifications and logic details | [AGENTS.md](docs/AGENTS.md) |
-| **Structure** | Directory layout and module explanation | [PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md) |
-| **Communities** | List of integrated communities and their status | [COMMUNITIES.md](docs/COMMUNITIES.md) |
-| **Manual Events** | Guide to adding events manually via JSON | [MANUAL_EVENTS.md](docs/MANUAL_EVENTS.md) |
-| **Deployment** | GitHub Pages & Actions setup guide | [GITHUB_PAGES_SETUP.md](docs/GITHUB_PAGES_SETUP.md) |
-
-## 🤝 Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to propose changes.
-
-## 👥 Contributors
-
-- **Ricardo Lira** ([@richlira](https://github.com/richlira))
-- **Ivan Galaviz** ([@ivanovishado](https://github.com/ivanovishado))
-- **Raul Estrada** ([@uurl](https://github.com/uurl))
-- **Geronimo Orozco** ([@patux](https://github.com/patux))
-- **Daniel Paredes** ([@DanielParedes](https://github.com/DanielParedes))
-- **Mariano Rodríguez** ([@MarianoRD](https://github.com/MarianoRD))
-- **Ben** ([@dataforxyz](https://github.com/dataforxyz))
-
----
-
-*Built with ❤️ for the Mexican Tech Community.*
+-   **New City**: Add it to `CONFIG.CITIES` in `js/config.js`.
+-   **New Component**: Create a class in `js/ui/`, accept a container ID, and instantiate it in `js/app.js`.
+-   **New Translation**: Add keys to `TRANSLATIONS` in `js/core/I18n.js`.
