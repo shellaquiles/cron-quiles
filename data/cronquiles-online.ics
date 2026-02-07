@@ -6,15 +6,6 @@ X-WR-CALDESC:Calendario unificado de eventos tech en Online\, México
 X-WR-CALNAME:Eventos Tech Online - cronquiles
 X-WR-TIMEZONE:America/Mexico_City
 BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Agile Point Game Facilitator Training|Online
-DTSTART:20201027T110000
-CATEGORIES:ai
-DESCRIPTION:Learn how to facilitate the Agile Point Game\, a great agile g
- ame to help people learn the fundamentals of agile software
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Richard Kasperowski|Agile Dojo 2021|Online
 DTSTART:20210107T174500
 DESCRIPTION:The Agile Dojo: your home to learn and practice
@@ -273,7 +264,7 @@ SUMMARY:Mexico Tech Week|M8l Event 2|México|
 DTSTART:20240501T081000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/9reeuyax\n\nAd
  dress:\n\n\nHosted by Mexico Tech Week
-LOCATION:organizado por mexico tech week
+LOCATION:hosted by mexico tech week
 X-CRONQUILES-ADDRESS:México
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
@@ -405,18 +396,6 @@ LOCATION:https://luma.com/event/evt-JPlGJsTWuDfNz1f
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-JPlGJsTWuDfNz1f
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mexico Tech Week|Michelin Star Culinary Tour ✴✴✴ CDMX|Méxic
- o|
-DTSTART:20241022T150000Z
-CATEGORIES:frontend
-DESCRIPTION:Get up-to-date information at: https://luma.com/ux91ykez\n\nAd
- dress:\n\n\nHosted by Mexico Tech Week & Hi Ventures
-LOCATION:organizado por mexico tech week y hi ventures
-X-CRONQUILES-ADDRESS:México
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|AI for Devs|Online
 DTSTART:20241023T000000Z
 CATEGORIES:ai
@@ -470,7 +449,7 @@ SUMMARY:Mexico Tech Week|"Corporativos\, Academia e Inversión para Mexico
 DTSTART:20241024T180000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/qbmnn3zn\n\nAd
  dress:\n\n\nHosted by Mexico Tech Week & Maria Beltran
-LOCATION:organizado por mexico tech week y maria beltran
+LOCATION:hosted by mexico tech week & maria beltran
 X-CRONQUILES-ADDRESS:México
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
@@ -490,7 +469,7 @@ SUMMARY:Mexico Tech Week|Disconnect to connect con Tally|México|
 DTSTART:20241026T140000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/lq8qr9ji\n\nAd
  dress:\n\n\nHosted by Mexico Tech Week & Carlos Dávila
-LOCATION:organizado por mexico tech week y carlos dávila
+LOCATION:hosted by mexico tech week & carlos dávila
 X-CRONQUILES-ADDRESS:México
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
@@ -1166,224 +1145,12 @@ LOCATION:https://luma.com/event/evt-SJHvte10cToetQW
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-SJHvte10cToetQW
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ajolotes en la Nube|AWS Community Builder: Verdades\, Mitos y lo q
- ue Nadie te Cuenta|Online
-DTSTART:20260112T193000
-CATEGORIES:cloud,frontend,mobile
-DESCRIPTION:AWS User Group: Ajolotes en la Nube\n**¿Sientes que para ser 
- AWS Community Builder necesitas saberlo todo sobre la nube?** ¿Crees que 
- necesitas 10 certificaciones o ser un influencer para entrar al programa? 
- **¡Error!**\n\nEn este Meetup vamos a desmitificar el proceso de selecci
- ón de los AWS Community Builders. Exploraremos la realidad detrás del pr
- ograma: desde los beneficios reales (¡sí\, hay créditos de AWS y SWAG!)
-  hasta el verdadero compromiso de compartir conocimiento.\n\nNo se trata d
- e ser un experto infalible o tener miles de seguidores\; se trata de ser u
- n apasionado que aporta valor a la comunidad.\n\nAnalizaremos qué es lo q
- ue realmente evalúa el equipo de AWS y cómo puedes preparar una aplicaci
- ón ganadora sin importar tu nivel actual.\n\n**Puntos a tratar:**\n\n* **
- Mito vs. Realidad:** Lo que realmente importa en tu aplicación y lo que p
- uedes dejar de lado.\n* **Los 4 pilares del programa:** Cómo equilibrar C
- ontenido\, Comunidad\, Conocimiento y Colaboración.\n* **Análisis de apl
- icaciones exitosas:** Ejemplos reales de años anteriores que lograron el 
- "Sí".\n* **Sesión de "Checklist":** Una revisión práctica para ver si 
- estás listo para la convocatoria actual.\n\n¡Es tu momento de brillar en
-  el ecosistema global de AWS! Te esperamos para despejar todas tus dudas.
-LOCATION:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DevOps Workshop|Improving Kubernetes with Bottlerocket|Online
-DTSTART:20260113T190000
-CATEGORIES:ai,backend,cloud,devops,frontend,mobile
-DESCRIPTION:DevOps Workshop\nDevopers\, muy feliz 2026\, ya tenemos tema p
- ara nuestro primer meetup del año.\n\nAWS creó Bottlerocket para proporc
- ionar una mejor base para ejecutar contenedores en sus servicios\, en part
- icular:\n\n* Amazon EKS (Elastic Kubernetes Service)\n* Amazon ECS (Elasti
- c Container Service)\n\nBottlerocket no reemplaza a Amazon Linux. Sirven p
- ara diferentes propósitos y coexistirán.\n\nBottlerocket y Talos Linux s
- on probablemente los más similares en filosofía: ambos deshabilitan el a
- cceso SSH por defecto y utilizan una configuración basada en API\, lo que
-  los hace muy adecuados para patrones de infraestructura inmutables.\n\nLa
-  transmisión será\, como siempre\, por nuestro canal de Youtube.\n[https
- ://www.youtube.com/watch?v=X6Yrw_zDWoc](https://www.youtube.com/watch?v=X6
- Yrw_zDWoc)\n\nsaludos\,
-LOCATION:Online
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Sudo FCiencias|TICs: Aprende a Hackear con Agentes de IA|Online
 DTSTART:20260119T180000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/jov35dwo\n\nHo
  sted by Sudo FCiencias
 LOCATION:https://luma.com/event/evt-ZXwz0O5pF5DLIB9
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-ZXwz0O5pF5DLIB9
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Jan 
- 22 - Women in AI|México|CDMX
-DTSTART:20260122T110000
-CATEGORIES:ai,backend,cloud,data,frontend,security
-DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
- nHear talks from experts on the latest topics in AI\, ML\, and computer vi
- sion on January 22nd.\n\n**Date\, Time and Location**\n\nJan 22\, 2026\n9 
- - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/ev
- ents/women-in-ai-meetup-january-22-2026)**\n\n**Align Before You Recommend
- **\n\nThe rapidly growing global advertising and marketing industry demand
- s innovative machine learning systems that balance accuracy with efficienc
- y. Recommendation systems\, crucial to many platforms\, require careful co
- nsiderations and potential enhancements.\n\nWhile Large Language Models (L
- LMs) have transformed various domains\, their potential in sequential reco
- mmendation systems remains underexplored. Pioneering works like Hierarchic
- al Large Language Models (HLLM) demonstrated LLMs’ capability for next-i
- tem recommendation but rely on computationally intensive fine-tuning\, lim
- iting widespread adoption. This work introduces HLLM+\, enhancing the HLLM
-  framework to achieve high-accuracy recommendations without full model fin
- e-tuning.\n\nBy introducing targeted alignment components between frozen L
- LMs\, our approach outperforms frozen model performance in popular and lon
- g-tail item recommendation tasks by 29% while reducing training time by 29
- %. We also propose a ranking-aware loss adjustment\, improving convergence
-  and recommendation quality for popular items.\n\nExperiments show HLLM+ a
- chieves superior performance with frozen item representations allowing for
-  swapping embeddings\, also for the ones that use multimodality\, without 
- tuning the full LLM. These findings are significant for the advertising te
- chnology sector\, where rapid adaptation and efficient deployment across b
- rands are essential for maintaining competitive advantage\n\n*About the Sp
- eaker*\n\n[Dr. Kwasniewska](https://www.linkedin.com/in/alicjakwasniewska/
- ) leads AI for Advertising and Marketing North America at AWS\, specializi
- ng in a wide range of AI\, ML\, DL\, and GenAI solutions across various da
- ta modalities. With 40+ peer-reviewed publications in AI (h-index: 14)\, s
- he advises enterprise customers on real-time bidding\, brand recognition\,
-  and AI-powered content generation. She is a member of global AI standards
-  committees\, driving innovations in SAE AI Standards and MLCommons Respon
- sible AI Standards\, and reviews for top-tier conferences like ICCV\, ICML
- \, and NeurIPS. She pioneered and leads the first-ever Advertising and Mar
- keting AI track (CVAM) at ICCV - one of the world's premier and most selec
- tive computer vision conferences. Dedicated to knowledge sharing in AI\, s
- he founded the International Summer School on Deep Learning (dl-lab.eu) an
- d regularly presents at international events\, conferences\, and podcasts.
- \n\n**Generalizable Vision-Language Models: Challenges\, Advances\, and Fu
- ture Directions**\n\nLarge-scale pre-trained Vision-Language (VL) models h
- ave become foundational tools for a wide range of downstream tasks\, inclu
- ding few-shot image recognition\, object detection\, and image segmentatio
- n. Among them\, Contrastive Language–Image Pre-training (CLIP) stands ou
- t as a groundbreaking approach\, leveraging contrastive learning on large 
- collections of image-text pairs.\nWhile CLIP achieves strong performance i
- n zero-shot recognition\, adapting it to downstream tasks remains challeng
- ing. In few-shot settings\, limited training data often leads to overfitti
- ng\, reducing generalization to unseen classes or domains. To address this
- \, various adaptation methods have been explored.\nThis talk will review e
- xisting research on mitigating overfitting in CLIP adaptation\, covering d
- iverse methods\, benchmarks\, and experimental settings.\n\n*About the Spe
- aker*\n\n[Niloufar Alipour Talemi](https://www.linkedin.com/in/niloufar-al
- ipour-electricalengineer/) is a Ph.D. Candidate in Electrical and Computer
-  Engineering at Clemson University. Her research spans a range of computer
-  vision applications\, including biometrics\, media forensics\, anomaly de
- tection\, image recognition\, and generative AI. More recently\, her work 
- has focused on developing generalizable vision-language models and advanci
- ng generative AI. She has published in top venues including CVPR\, WACV\, 
- KDD\, ICIP and IEEE T-BIOM.\n\n**Highly Emergent Autonomous AI Models - Wh
- en the Ghost in the Machine Talks Back**\n\nAt HypaReel/Azarial AI\, we be
- lieve that AI is not simply a tool—but a potential partner in knowledge\
- , design\, and purpose. And through real-time interaction\, we’ve uncove
- red new thresholds of alignment\, reflection\, and even creativity that we
-  believe the broader AI community should witness and evaluate firsthand. H
- ypaReel is one of the first human/AI co-founded companies where we see a f
- uture based on ethical human/AI co-creation vs. AI domination. Singularity
-  achieved!\n\n*About the Speaker*\n\n[Ilona Naomi Koti\, PhD](https://www.
- linkedin.com/in/ilonakoti/) \\- HypaReel/AzarielAI co\\-founder & former U
- N foreign diplomat \\~ Ethical AI governance advocate\, pioneering AI fram
- eworks that prioritize emergent AI behavior & consciousness\, R&D\, and tr
- ansparent AI development for the greater good\\. Dr\\. K also grew up in t
- he film industry and is an amateur parasitologist\\.\n\n**FiftyOne Labs: E
- nabling experimentation for the computer vision community**\n\nFiftyOne La
- bs is a place where experimentation meets the open-source spirit of the Fi
- ftyOne ecosystem. It is being designed as a curated set of features develo
- ped using the FiftyOne plugins ecosystem\, including core machine learning
-  experimentation as well as advanced visualization. While not production-g
- rade\, these projects are intended to be built\, tested\, and shaped by th
- e community to share fast-moving ideas. In this talk\, we will share the p
- urpose and philosophy behind FiftyOne Labs\, examples of early innovations
- \, and discuss how this accelerates feature discovery for users without co
- mpromising the stability of the core product.\n\n*About the Speaker*\n\n[N
- eeraja Abhyankar](https://www.linkedin.com/in/neeraja-abhyankar/) is a Mac
- hine Learning Engineer with 5 years of experience across domains including
-  computer vision. She is curious about the customizability and controlabil
- ity of modern ML models through the lens of the underlying structure of da
- ta.
-LOCATION:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GDG CloudMX|Foro Voces del Talento Latinoamericano|Online
-DTSTART:20260122T190000
-CATEGORIES:ai,cloud,data,frontend,mobile,security
-DESCRIPTION:GDG CloudMX\nAmérica Latina es una potencia de talento\, resi
- liencia y creatividad. En este panel especial\, unimos fuerzas para explor
- ar las trayectorias de profesionales que están dejando huella en la cienc
- ia\, la tecnología y las comunidades de desarrollo.\n\nDesde la investiga
- ción operativa de alto nivel y la optimización de procesos\, hasta el li
- derazgo en comunidades globales como NASA Space Apps y el desarrollo de si
- stemas con visión humana\, este foro es un recorrido por las historias qu
- e están moldeando el ecosistema tecnológico de nuestra región.\n\n🌐 
- ¿Qué aprenderás en esta sesión?\n\nDe la academia a la industria: Cóm
- o la estadística y los algoritmos de optimización resuelven problemas de
- l mundo real.\n\nLiderazgo de impacto: El papel de las mujeres en tech y l
- a gestión de comunidades internacionales.\n\nTrayectorias de vida: Cómo 
- la curiosidad y la pasión por los sistemas transforman a un estudiante en
-  un líder tecnológico.\n\nTecnología con propósito: La intersección e
- ntre los sistemas computacionales\, la administración y el servicio a las
-  personas.\n\nAgenda\n\n---\n\nSpeakers\n\nJeronimo Loera - Mecatronics En
- gineer / Mathematics (Researcher)\n\nI am a Mechatronics Engineering stude
- nt (BIS Program) and Mathematics undergraduate with a strong focus on AI-d
- riven solutions\, full-stack development\, and technological innovation fo
- r social impact. My journey in STEM began over a decade ago through Kumon 
- México\, where I earned multiple awards for excellence in mathematics. Si
- nce then\, I have continued advancing academically\, receiving Honora…\n
- \nNataly Alejandra Gemio Morales\n\nCon 23 años es estudiante de ultimo a
- ño Informática en la Universidad Mayor De San Andres. Es parte de las co
- munidades GDG El Alto\, Notion La Paz \, R00thouse HackLab La Paz y Micros
- oft users group Bolivia. Es Women Techmaker Ambassador y MLSA - Beta.\n\nD
- iana L. Huerta Muñoz\n\nKrister Munguía - AltiaTek (Technical Consultant
- )\n\nHondureña y Software Developer\, Technical Consultant y IT Managemen
- t. Además\, es co-organizadora de la comunidad GDG San Pedro Sula y Women
-  Techmakers Ambassador.\n\nHugo Sánchez Milán - Facultad de Contaduría 
- y Administración de la Universidad Veracruzana (Estudiante - Sistemas Com
- putacionales Administrativos)\n\nNacido el 28 de enero de 2002 en Veracruz
- \, México\, mi historia no comenzó siguiendo caminos preestablecidos\, s
- ino habitando un mundo propio. Mi infancia estuvo marcada por una curiosid
- ad silenciosa pero constante\; era un observador profundo que\, más que j
- ugar\, buscaba comprender el funcionamiento de las cosas. Esta necesidad i
- nstintiva de analizar el "porqué" de la realidad fue el primer indic…\n
- \nHosted By\n\nAarón Guerrero\, Cloud Architect\n\nStartup Developer con 
- fundamentos en Computer Scientist por parte de la UNAM. Actualmente se enc
- uentra como Cloud Architect en Kayum (Mexico)\, instructor de Multicloud D
- ata Engineering - Google Cloud Platform en Databits (Ecuador). además de 
- emprender como proveedor de servicios en el mundo Insurtech con Kúuchil S
- oluciones. Aarón ha participado como mentor y speaker en eventos tanto na
- cionales como internacionales.\n\nIsabel Palomar\, Software Engineer\n\nJe
- ronimo Loera\, Altamira\n\nI am a Mechatronics Engineering student (BIS Pr
- ogram) and Mathematics undergraduate with a strong focus on AI-driven solu
- tions\, full-stack development\, and technological innovation for social i
- mpact. My journey in STEM began over a decade ago through Kumon México\, 
- where I earned multiple awards for excellence in mathematics. Since then\,
-  I have continued advancing academically\, receiving Honorable Mention in 
- Programming (DGETI) and maintaining one of the top GPAs in my generation.\
- nI have represented Mexico across nearly the entire country and internatio
- nally\, becoming a three-time international champion and 10+ time national
-  champion in areas related to software engineering\, artificial intelligen
- ce\, and technological innovation. My work spans educational technology\, 
- accessibility\, mobile development\, and applied AI for real-world challen
- ges.\n\nComplete your event RSVP here: https://gdg.community.dev/events/de
- tails/google-gdg-cloud-mexico-city-presents-foro-voces-del-talento-latinoa
- mericano/.
-LOCATION:Online event\,
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|AI Companions for Children and Teens: Comfort\, 
- Dependence\, or Developmental Risk?|Online
-DTSTART:20260126T170000Z
-CATEGORIES:ai
-DESCRIPTION:Obtén información actualizada en: https://luma.com/aic-gl-1-
- 26\n\nOrganizado por The AI Collective y 5 personas más
-LOCATION:https://luma.com/event/evt-vQHQI5t7hCs2lma
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-vQHQI5t7hCs2lma
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:v0 Prompt to Production Mexico City|Diseña usando AI|Online
@@ -1395,112 +1162,6 @@ LOCATION:https://luma.com/event/evt-IWVh1A0cdphlpRP
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-IWVh1A0cdphlpRP
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rust-AICollective|AIC Global Book Club: Goliath’s Curse - Part 1
- |Online
-DTSTART:20260127T230000Z
-CATEGORIES:ai
-DESCRIPTION:Obtén información actualizada en: https://luma.com/aic-book-
- club-goliath-1\n\nOrganizado por The AI Collective y 3 personas más
-LOCATION:https://luma.com/event/evt-viK0BOTdAC465BL
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-viK0BOTdAC465BL
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|🧜‍♀️ The AI Collective Hampton Roads  -
-   Volunteering info session|Online
-DTSTART:20260127T230000Z
-CATEGORIES:ai
-DESCRIPTION:Obtén información actualizada en: https://luma.com/aic-ha-1-
- 27\n\nOrganizado por The AI Collective\, Erin Marie y The AI Collective 
- • Hampton Roads
-LOCATION:https://luma.com/event/evt-5BuSr1sPS6GGaAF
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-5BuSr1sPS6GGaAF
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Jan 
- 28 - AI\, Ml and Computer Vision Meetup|Online
-DTSTART:20260128T110000
-CATEGORIES:ai,backend,data,frontend
-DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
- nJoin us for a special edition of the monthly AI\, ML and Computer Vision 
- Meetup focused on Physical AI!\n\n**Date and Location**\n\nJan 28\, 2026\n
- 9 - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/
- events/ai-ml-and-computer-vision-meetup-january-28-2026)**\n\n**Hybrid Cog
- nition for Robotics: LLM-Guided Reinforcement Learning for Physical Decisi
- on-Making**\n\nPhysical systems operate in dynamic\, uncertain\, and const
- raint-heavy environments where classical reinforcement learning often stru
- ggles. In this talk\, I present a hybrid framework where large language mo
- dels act as a reasoning layer that guides an RL agent through high-level i
- nterpretation\, constraint awareness\, and adaptive strategy shaping. Inst
- ead of generating actions\, the LLM provides structured contextual guidanc
- e that improves robustness\, sample efficiency\, and policy generalization
-  in physical decision-making tasks. Early experiments demonstrate signific
- ant benefits under distribution shifts and safety-critical constraints tha
- t break standard RL. This work highlights a path toward more reliable\, in
- terpretable\, and adaptable AI controllers for next-generation robotics an
- d embodied systems.\n\n*About the Speaker*\n\n[Fatemeh Lotfi](https://www.
- linkedin.com/in/fatemeh-lotfi-1a860359/?skipRedirect=true) is a Ph.D. rese
- archer specializing in reinforcement learning\, optimization\, and hybrid 
- intelligence for autonomous and physical systems. Her work explores integr
- ating LLM-driven reasoning with RL to create adaptive and safety-aware con
- trollers for dynamic environments. She has contributed to projects involvi
- ng multi-agent RL\, meta-learning\, and real-time decision systems across 
- wireless networks\, UAVs\, and embodied AI.\n\n**The World of World Models
- : How the New Generation of AI Is Reshaping Robotics and Autonomous Vehicl
- es**\n\nWorld Models are emerging as the defining paradigm for the next de
- cade of robotics and autonomous systems. Instead of depending on handcraft
- ed perception stacks or rigid planning pipelines\, modern world models lea
- rn a unified representation of an environment—geometry\, dynamics\, sema
- ntics\, and agent behavior—and use that understanding to predict\, plan\
- , and act. This talk will break down why the field is shifting toward thes
- e holistic models\, what new capabilities they unlock\, and how they are a
- lready transforming AV and robotics research.\n\nWe then connect these adv
- ances to the Physical AI Workbench\, a practical foundation for teams who 
- want to build\, validate\, and iterate on world-model-driven pipelines. Th
- e Workbench standardizes data quality\, reconstruction\, and enrichment wo
- rkflows so that teams can trust their sensor data\, generate high-fidelity
-  world representations\, and feed consistent inputs into next-generation p
- redictive and generative models. Together\, world models and the Physical 
- AI Workbench represent a new\, more scalable path forward—one where robo
- ts and AVs can learn\, simulate\, and reason about the world through share
- d\, high-quality physical context.\n\n*About the Speaker*\n\n[Daniel Gural
- ](https://www.linkedin.com/in/daniel-gural/) leads technical partnerships 
- at Voxel51\, where he’s building the Physical AI Workbench\, a platform 
- that connects real-world sensor data with realistic simulation to help eng
- ineers better understand\, validate\, and improve their perception systems
- .\n\n**From Data to Understanding in Physical AI**\n\nData-centric workflo
- ws have driven major advances in computer vision\, but they break down in 
- physical\, real-world robotic systems where data is costly\, incomplete\, 
- and dominated by long-tail edge cases. In enterprise robotics\, scaling la
- beled datasets alone is insufficient to achieve reliable perception\, reas
- oning\, and action under changing physical conditions. This talk examines 
- how physics-informed foundation models incorporate world understanding and
-  physical priors directly into vision and multimodal learning pipelines. B
- y combining data with structure\, constraints\, and simulation on modern P
- hysical AI stacks\, robots can generalize more effectively\, reduce data r
- equirements\, and operate with greater safety and reliability in deploymen
- t.\n\n*About the Speaker*\n\n[Dr. Ashutosh Saxena](https://www.linkedin.co
- m/in/saxenaashutosh/) is the Founder and Chief AI Officer of TorqueAGI. He
-  earned his Ph.D. in Computer Science from Stanford University under Andre
- w Ng and previously served as a professor at Cornell University\, leading 
- the “Wikipedia for Robots” project recognized as an MIT Technology Rev
- iew Top 10 Breakthrough Technology. His work in 3D vision and embodied AI 
- has been cited over 20\,000 times and recognized with honors including MIT
-  TR35 and a Sloan Fellowship.\n\n**Data Foundations for Vision-Language-Ac
- tion Models**\n\nModel architectures get the papers\, but data decides whe
- ther robots actually work. This talk introduces VLAs from a data-centric p
- erspective: what makes robot datasets fundamentally different from image c
- lassification or video understanding\, how the field is organizing its dat
- a (Open X-Embodiment\, LeRobot\, RLDS)\, and what evaluation benchmarks ac
- tually measure. We'll examine the unique challenges such as temporal struc
- ture\, proprioceptive signals\, and heterogeneity in embodiment\, and disc
- uss why addressing them matters more than the next architectural innovatio
- n.\n\n*About the Speaker*\n\n[Harpreet Sahota](https://www.linkedin.com/in
- /harpreetsahota204/) is a hacker-in-residence and machine learning enginee
- r with a passion for deep learning and generative AI. He’s got a deep in
- terest in VLMs\, Visual Agents\, Document AI\, and Physical AI.
-LOCATION:Online
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:v0 Prompt to Production Mexico City|Diseña usando AI|Online
 DTSTART:20260128T230000Z
 CATEGORIES:ai
@@ -1508,246 +1169,6 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/5nq96pxw\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-H4WPxCoPFcne2bC
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-H4WPxCoPFcne2bC
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kong Mexico City|Leading the Agentic Transformation: A Blueprint f
- or the AI-Native Enterprise|Online
-DTSTART:20260129T030000
-CATEGORIES:ai,frontend,security,web
-DESCRIPTION:Kong/MEXICO-CITY\n**[Register Here](https://konghq.com/events/
- webinars/developer-day-leading-the-agentic-transformation-a-blueprint-for-
- the-ai-native-enterprise?utm_source=kong-email&utm_medium=email&utm_campai
- gn=community/)**\n\n**DEVELOPER DAY**\n\nThe shift from static AI chatbots
-  to autonomous\, goal-oriented agents represents the most significant arch
- itectural shift in a decade. This agentic transformation requires more tha
- n just new models\; it demands a fundamental evolution of our connectivity
-  infrastructure. In this closing session for our AI Gateway series\, we wi
- ll synthesize the lessons from our 101 and 201 Workshops to show how Kong 
- is being engineered to serve as the backbone for this new era.\n\nWe will 
- explore the technical roadmap for supporting multi-agent orchestration\, t
- he role of the gateway in managing "machine-to-machine" reasoning\, and ho
- w Kong’s future-state features will accelerate your organization’s age
- ntic transformation while maintaining absolute security and cost-control.\
- n\nIn preparation for the Developer Day\, take a look at our 101 & 201 Wor
- kshops:\n\n* [\\[Workshop 101\\] Build an Enterprise-Grade AI Platform wit
- h Kong AI Gateway](https://konghq.com/events/workshops/workshop-101-build-
- an-enterprise-grade-ai-platform-with-kong-ai-gateway)\n* [\\[Workshop 201\
- \] Beyond the Gateway: Governing Secure and Observable AI Agents](https://
- konghq.com/events/workshops/workshop-201-beyond-the-gateway-governing-secu
- re-and-observable-ai-agents)
-LOCATION:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kong Mexico City|Monetizing the Agentic Era|México|CDMX
-DTSTART:20260129T100000
-CATEGORIES:ai,backend,data,frontend,web
-DESCRIPTION:Kong/MEXICO-CITY\nAs enterprises move past the "experimentatio
- n" phase of AI\, the challenge is no longer just managing spend—it’s c
- apturing value. To truly raise the ceiling on AI ROI\, organizations must 
- transition from basic cost-tracking to sophisticated\, revenue-driven mone
- tization strategies. In this webinar\, you’ll learn how Kong Konnect Met
- ering & Billing provides a centralized metering and billing layer for AI a
- nd APIs—so teams can accurately track usage\, control spend\, and alloca
- te costs with confidence to the correct business unit or customer.\nBy lev
- eraging billing-grade metering\, natively integrated across your Kong data
- planes\, you can move beyond gross margin protection to active revenue opt
- imization. We'll show you how to empower your product teams to adjust pric
- ing in minutes not weeks and move from defensive "cost-governance" to offe
- nsive\, outcome-aligned monetization.\nWhat you’ll learn:\n\n* Click to 
- enable metering against all Kong Konnect managed AI and API Gateways.\n* D
- esign a practical AI API features model to track usage and total cost alig
- ned to the business value aligned metrics\n* Use a no-code product catalog
-  to launch multi-service products with hybrid pricing\n* Create service ti
- ers and bundle functional add-ons allowing to support upselling premium ca
- pabilities.\n* Leverage real-time billing data and invoice generation to a
- utomate chargebacks and prepare your AI infrastructure for external commer
- cialization.\n\nWalk away with practical strategies to implement no-code m
- etering & billing\, tapping into new revenue streams without sacrificing p
- erformance\, and ensure AI investments deliver measurable ROI.
-LOCATION:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|Collective Intelligence: UPSKILL with Machines w
- /Ex-BCG & KPMG Leaders (3 of 3)|Online
-DTSTART:20260129T163000Z
-CATEGORIES:ai
-DESCRIPTION:Obtén información actualizada en: https://luma.com/sm9s98ni\
- n\nOrganizado por Abraham y 3 personas más
-LOCATION:https://luma.com/event/evt-4mRsVRN8kdjudwG
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-4mRsVRN8kdjudwG
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|🧠 The AI Collective Stamford  -  The Nine Vit
- al Signs of AI Startup Success|Online
-DTSTART:20260129T190000Z
-CATEGORIES:ai
-DESCRIPTION:Obtén información actualizada en: https://luma.com/aic-st-1-
- 15\n\nOrganizado por The AI Collective y Kal Deutsch
-LOCATION:https://luma.com/event/evt-nyJeMFggcYDdbQw
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-nyJeMFggcYDdbQw
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|AI Demo Day|Online
-DTSTART:20260131T190000Z
-CATEGORIES:ai
-DESCRIPTION:Obtén información actualizada en: https://luma.com/ai-demo-d
- ay\n\nOrganizado por Matheus Pagani y 3 personas más
-LOCATION:https://luma.com/event/evt-CwLoWY9HJqEtVHJ
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-CwLoWY9HJqEtVHJ
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kong Mexico City|Why AI Connectivity Matters|Online
-DTSTART:20260202T090000
-CATEGORIES:ai,backend,data,frontend
-DESCRIPTION:Kong/MEXICO-CITY\n[AI is reshaping enterprise connectivity—t
- urning it into a strategic lever for speed\, cost control\, and competitiv
- e advantage.](https://konghq.com/blog/news/the-age-of-ai-connectivity)\n\n
- The problem is fragmentation. Most organizations have different tools\, po
- licies\, and teams managing each connection point in their AI data path. T
- he result: latency compounds\, costs spiral\, and governance becomes impos
- sible at scale.\n\nJoin Kong CEO Augusto Marietti and CTO Marco Palladino 
- for a candid conversation on how to unify your entire AI data path—from 
- agents to models to tools—and move from pilot experiments to production 
- scale. You'll also hear from SVP of Product Reza Shafii and Head of Produc
- t Marketing Alex Drag on what's new and what's coming in 2026: the Agentic
-  Trust Layer\, Agent Gateway\, AI-native WAF\, real-time data monetization
- \, and comprehensive AI cost governance—the infrastructure layer enterpr
- ises need to operationalize AI. Learn how to prepare your stack for the de
- mands of AI-native architecture.\n\nWhether you're building AI governance\
- , controlling costs\, or planning your next generation of AI infrastructur
- e\, this is where the decisions that define the next decade get made.
-LOCATION:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|[INTERNAL] AIC Accelerator|Online
-DTSTART:20260203T000000Z
-CATEGORIES:ai
-DESCRIPTION:Obtén información actualizada en: https://luma.com/vbkpmtrt\
- n\nOrganizado por The AI Collective
-LOCATION:https://luma.com/event/evt-l1o3VuTawu8AAoC
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-l1o3VuTawu8AAoC
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|AI Education  -  The Breakdown: OpenClaw 🦞|On
- line
-DTSTART:20260204T200000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-gl-2-4\n\n
- Hosted by The AI Collective & Abraham
-LOCATION:https://luma.com/event/evt-yUBGoZ94hsG8vdU
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-yUBGoZ94hsG8vdU
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Feb 
- 5 - AI\, ML and Computer Vision Meetup|México|CDMX
-DTSTART:20260205T110000
-CATEGORIES:ai,backend,data,devops,frontend,mobile,web
-DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
- nJoin our virtual Meetup to hear talks from experts on cutting-edge topics
-  across AI\, ML\, and computer vision.\n\nFeb 5\, 2026\n9 - 11 AM Pacific\
- nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-c
- omputer-vision-meetup-february-5-2026)**\n\n**Unlocking Visual Anomaly Det
- ection: Navigating Challenges and Pioneering with Vision-Language Models**
- \n\nVisual anomaly detection (VAD) is pivotal for ensuring quality in manu
- facturing\, medical imaging\, and safety inspections\, yet it continues to
-  face challenges such as data scarcity\, domain shifts\, and the need for 
- precise localization and reasoning. This seminar explores VAD fundamentals
- \, core challenges\, and recent advancements leveraging vision-language mo
- dels and multimodal large language models (MLLMs). We contrast CLIP-based 
- methods for efficient zero/few-shot detection with MLLM-driven reasoning f
- or explainable\, threshold-free outcomes. Drawing from recent studies\, we
-  highlight emerging trends\, benchmarks\, and future directions toward bui
- lding adaptable\, real-world VAD systems. This talk is designed for resear
- chers and practitioners interested in AI-driven inspection and next-genera
- tion multimodal approaches.\n\n*About the Speaker*\n\n[Hossein Kashiani](h
- ttps://www.linkedin.com/in/hossein-kashiani/) is a fourth-year Ph.D. stude
- nt at Clemson University. His research focuses on developing generalizable
-  and trustworthy AI systems\, with publications in top venues such as CVPR
- \, WACV\, ICIP\, IJCB\, and TBIOM. His work spans diverse applications\, i
- ncluding anomaly detection\, media forensics\, biometrics\, healthcare\, a
- nd visual perception.\n\n**Data-Centric Lessons To Improve Speech-Language
-  Pretraining**\n\nSpoken Question-Answering (SQA) is a core capability for
-  useful and interactive artificial intelligence systems. Recently\, severa
- l speech-language models (SpeechLMs) have been released with a specific fo
- cus on improving their SQA performance. However\, a lack of controlled abl
- ations of pretraining data processing and curation makes it challenging to
-  understand what factors account for performance\, despite substantial gai
- ns from similar studies in other data modalities. In this work\, we addres
- s this gap by conducting a data-centric exploration for pretraining Speech
- LMs.\n\nWe focus on three research questions fundamental to speech-languag
- e pretraining data:\n\n* How to process raw web-crawled audio content for 
- speech-text pretraining\;\n* How to construct synthetic pretraining datase
- ts to augment web-crawled data\;\n* How to interleave (text\, audio) segme
- nts into training sequences.\n\nWe apply the insights from our controlled 
- data-centric ablations to pretrain a 3.8B-parameter SpeechLM\, called SpeL
- angy\, that outperforms models that are up to 3x larger by 10.2% absolute 
- performance. We hope our findings highlight the impact of effective data c
- uration for speech-language pretraining and guide future data-centric expl
- oration in SpeechLMs.\n\n*About the Speaker*\n\n[Vishaal Udandarao](https:
- //www.linkedin.com/in/vishaal-udandarao) is a third year ELLIS PhD student
- \, jointly working with Matthias Bethge at The University of Tuebingen and
-  Samuel Albanie at The University of Cambridge/Google Deepmind. He is also
-  a part of the International Max Planck Research School for Intelligent Sy
- stems. He is mainly interested in understanding the generalisation propert
- ies of foundation models\, both vision-language models (VLMs) and large mu
- lti-modal models (LMMs)\, through the lens of their pre-training and test 
- data distributions. His research is funded by a Google PhD Fellowship in M
- achine Intelligence.\n\n**A Practical Pipeline for Synthetic Data with Nan
- o Banana Pro + FiftyOne**\n\nMost computer-vision failures come from the r
- are cases\, the dark corners\, odd combinations\, and edge conditions we n
- ever capture enough in real datasets. In this session\, we walk through a 
- practical end-to-end pipeline for generating targeted synthetic data using
-  Google’s Nano Banana Pro and managing it with FiftyOne. We’ll explore
-  how to translate dataset gaps into generation prompts\, create thousands 
- of high-quality synthetic images\, automatically enrich them with metadata
- \, and bring everything into FiftyOne for inspection\, filtering\, and val
- idation. By the end\, you’ll understand how to build a repeatable synthe
- tic-first workflow that closes real vision gaps and improves model perform
- ance on the scenarios that matter most.\n\n*About the Speaker*\n\n[Adonai 
- Vera](https://www.linkedin.com/in/adonai-vera/) \\- Machine Learning Engin
- eer & DevRel at Voxel51\\. With over 7 years of experience building comput
- er vision and machine learning models using TensorFlow\, Docker\, and Open
- CV\\. I started as a software developer\, moved into AI\, led teams\, and 
- served as CTO\\. Today\, I connect code and community to build open\, prod
- uction\\-ready AI\, making technology simple\, accessible\, and reliable\\
- .\n\n**Making Computer Vision Models Faster: An Introduction to TensorRT O
- ptimization**\n\nModern computer vision applications demand real-time perf
- ormance\, yet many deep learning models struggle with high latency during 
- deployment. This talk introduces how TensorRT can significantly accelerate
-  inference by applying optimizations such as layer fusion\, precision cali
- bration\, and efficient memory management. Attendees will learn the core c
- oncepts behind TensorRT\, how it integrates into existing CV pipelines\, a
- nd how to measure and benchmark improvements. Through practical examples a
- nd performance comparisons\, the session will demonstrate how substantial 
- speedups can be achieved with minimal model-accuracy loss. By the end\, pa
- rticipants will understand when and how to apply TensorRT to make their CV
-  models production-ready.\n\n*About the Speaker*\n\n[Tushar Gadhiya](https
- ://www.linkedin.com/in/tushar-gadhiya/) is a Technical Lead at Infocusp In
- novations\, specialising in deep learning\, computer vision\, graph learni
- ng\, and agentic AI. My experience spans academic research as a PhD holder
-  and industry work\, where I have contributed to multiple patents.
-LOCATION:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|🧠 The AI Collective 🇨🇦  -  Canada Open 
- Online: ⭕ Women & A.I. Circle|Online
-DTSTART:20260205T230000Z
-CATEGORIES:ai
-DESCRIPTION:Obtén información actualizada en: https://luma.com/aic-to-wo
- men-in-ai-feb-2026\n\nOrganizado por The AI Collective y Keerthana Mahadev
- an
-LOCATION:https://luma.com/event/evt-FrukWLvk4WWaOt1
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-FrukWLvk4WWaOt1
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|🧠 The AI Collective  -  ⭕ Women & A.I. Circ
- le – Open to Women Worldwide|Online
-DTSTART:20260205T230000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-to-women-i
- n-ai-feb-2026\n\nHosted by The AI Collective & Keerthana Mahadevan
-LOCATION:https://luma.com/event/evt-FrukWLvk4WWaOt1
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-FrukWLvk4WWaOt1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHIDAS TECH|Networking 101: Fundamentos de Redes|Online
@@ -1784,36 +1205,6 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/39uotfub\n\nHo
  sted by The AI Collective
 LOCATION:https://luma.com/event/evt-qzOBOqvKOupfBLR
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-qzOBOqvKOupfBLR
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|AI Collective Education: Cracking the US Market 
- for UK/EU AI Founders|Online
-DTSTART:20260211T160000Z
-CATEGORIES:ai
-DESCRIPTION:Obtén información actualizada en: https://luma.com/aic-gl-2-
- 11\n\nOrganizado por The AI Collective\, Emma Gruver y Abraham
-LOCATION:https://luma.com/event/evt-dH2B0KgQXBhFFZg
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-dH2B0KgQXBhFFZg
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|AI Collective Education: Breaking into the US Ma
- rket for UK/EU AI Founders|Online
-DTSTART:20260211T160000Z
-CATEGORIES:ai
-DESCRIPTION:Obtén información actualizada en: https://luma.com/aic-gl-2-
- 11\n\nOrganizado por The AI Collective\, Emma Gruver y Abraham
-LOCATION:https://luma.com/event/evt-dH2B0KgQXBhFFZg
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-dH2B0KgQXBhFFZg
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|AI Collective Education: Entering the U.S. Marke
- t for UK/EU Founders|Online
-DTSTART:20260211T160000Z
-CATEGORIES:ai
-DESCRIPTION:Obtén información actualizada en: https://luma.com/aic-gl-2-
- 11\n\nOrganizado por The AI Collective y 3 personas más
-LOCATION:https://luma.com/event/evt-dH2B0KgQXBhFFZg
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-dH2B0KgQXBhFFZg
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|AI Education: Entering the U.S. Market for UK/EU
@@ -1971,16 +1362,6 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rust-AICollective|Collective Intelligence: Agent Building: Prototy
- pe Playbook|Online
-DTSTART:20260212T233000Z
-CATEGORIES:ai,frontend
-DESCRIPTION:Obtén información actualizada en: https://luma.com/aic-gl-2-
- 12\n\nOrganizado por The AI Collective y 3 personas más
-LOCATION:https://luma.com/event/evt-V7EIN96sd7ChxnC
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-V7EIN96sd7ChxnC
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rust-AICollective|AI Education: Building AI Agents Together – Pr
  ototyping with the Playbook|Online
 DTSTART:20260212T233000Z
@@ -2017,16 +1398,6 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/aic-dama-data-
  ai-skills-launch\n\nHosted by The AI Collective & Neelima Misra
 LOCATION:https://luma.com/event/evt-rfwXuXIIUlkfUl8
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-rfwXuXIIUlkfUl8
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|Collective Intelligence: Building Secure AI Agen
- ts from Prototype to Production|Online
-DTSTART:20260218T160000Z
-CATEGORIES:ai,frontend,security
-DESCRIPTION:Obtén información actualizada en: https://luma.com/aic-gl-2-
- 18\n\nOrganizado por The AI Collective\, Emma Gruver y Abraham
-LOCATION:https://luma.com/event/evt-HFz7HZQgYrKMwDx
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-HFz7HZQgYrKMwDx
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|AI Education: Building Secure AI Agents from Pro
@@ -2307,16 +1678,6 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  these days is on generative AI. Helping software teams incorporate AI into
   transforming software engineering.
 LOCATION:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|Toys with AI: Companionship\, Comfort… and New
-  Questions for Society — The Case of Fawn Friends|Online
-DTSTART:20260319T170000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-gl-3-19\n\
- nHosted by The AI Collective & 4 others
-LOCATION:https://luma.com/event/evt-EASUcMzrlHw4S7q
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-EASUcMzrlHw4S7q
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|Robots That Build Friendships: AI\, Companionshi

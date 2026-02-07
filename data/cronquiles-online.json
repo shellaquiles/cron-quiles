@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-07T21:55:46.086798+00:00",
-  "total_events": 182,
+  "generated_at": "2026-02-07T22:17:37.471341+00:00",
+  "total_events": 155,
   "city": "Online",
   "communities": [
     {
@@ -11,17 +11,6 @@
           "platform": "luma",
           "url": "https://luma.com/ai-cdmx",
           "label": "Luma"
-        }
-      ]
-    },
-    {
-      "name": "Ajolotes en la Nube",
-      "description": "Grupo dedicado a Cloud Computing y arquitecturas modernas en la nube.",
-      "links": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/ajolotesenlanube",
-          "label": "Meetup"
         }
       ]
     },
@@ -42,17 +31,6 @@
       ]
     },
     {
-      "name": "DevOps Workshop",
-      "description": "Aprende cómo aplicar diferentes tecnologías para construir un producto. En este grupo vas a mejorar tu conocimiento de diferentes sistemas operativos.",
-      "links": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/devops-workshop",
-          "label": "Meetup"
-        }
-      ]
-    },
-    {
       "name": "Founder Friends Mexico",
       "description": "Comunidad de founders en México por Hustle Fund. Conexión, historias y networking (Ciudad de México).",
       "links": [
@@ -60,17 +38,6 @@
           "platform": "luma",
           "url": "https://luma.com/FFMexico2026",
           "label": "Luma"
-        }
-      ]
-    },
-    {
-      "name": "Kong Mexico City",
-      "description": "Eventos sobre APIs, Microservicios, Service Mesh e Insomnia.",
-      "links": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/kong-mexico-city",
-          "label": "Meetup"
         }
       ]
     },
@@ -129,17 +96,6 @@
       "links": []
     },
     {
-      "name": "GDG CloudMX",
-      "description": "Google Developer Group CloudMX. Eventos sobre tecnologías de Google Cloud y desarrollo en la nube.",
-      "links": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/cloudmx",
-          "label": "Meetup"
-        }
-      ]
-    },
-    {
       "name": "México City AI, Machine Learning and Computer Vision Meetup",
       "description": "Comunidad de AI, Machine Learning y Computer Vision en Ciudad de México. Charlas técnicas, networking y eventos sobre inteligencia artificial.",
       "links": [
@@ -152,34 +108,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Richard Kasperowski|Agile Point Game Facilitator Training|Online",
-      "description": "Learn how to facilitate the Agile Point Game, a great agile game to help people learn the fundamentals of agile software",
-      "url": "https://www.eventbrite.com/e/agile-point-game-facilitator-training-tickets-124010425521",
-      "sources": [
-        {
-          "platform": "eventbrite",
-          "url": "https://www.eventbrite.com/e/agile-point-game-facilitator-training-tickets-124010425521",
-          "label": "Ver en Eventbrite"
-        }
-      ],
-      "location": "Online",
-      "organizer": "Richard Kasperowski",
-      "dtstart": "2020-10-27T11:00:00-04:00",
-      "dtend": "2020-10-27T13:00:00-04:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "Eventbrite",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "Online",
-      "hash_key": "agile point game facilitator training_2020-10-27T14:00:00+00:00"
-    },
     {
       "title": "Richard Kasperowski|Agile Dojo 2021|Online",
       "description": "The Agile Dojo: your home to learn and practice",
@@ -1010,7 +938,7 @@
           "label": "Ver en Luma"
         }
       ],
-      "location": "organizado por mexico tech week",
+      "location": "hosted by mexico tech week",
       "organizer": "Mexico Tech Week",
       "dtstart": "2024-05-01T08:10:00+00:00",
       "dtend": "2024-05-01T09:10:00+00:00",
@@ -1405,34 +1333,6 @@
       "hash_key": "sesin 5 cmo hacer tu demo_2024-10-11T00:00:00+00:00"
     },
     {
-      "title": "Mexico Tech Week|Michelin Star Culinary Tour ✴✴✴ CDMX|México|",
-      "description": "Get up-to-date information at: https://luma.com/ux91ykez\n\nAddress:\n\n\nHosted by Mexico Tech Week & Hi Ventures",
-      "url": "https://luma.com/ux91ykez",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/ux91ykez",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "organizado por mexico tech week y hi ventures",
-      "organizer": "Mexico Tech Week",
-      "dtstart": "2024-10-22T15:00:00+00:00",
-      "dtend": "2024-10-23T04:00:00+00:00",
-      "tags": [
-        "frontend"
-      ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-      "country": "México",
-      "country_code": "MX",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "México",
-      "hash_key": "michelin star culinary tour cdmx_2024-10-22T14:00:00+00:00"
-    },
-    {
       "title": "Mexico Tech Week|AI for Devs|Online",
       "description": "Get up-to-date information at: https://luma.com/soyhenry\n\nHosted by Mexico Tech Week & Julieta",
       "url": "https://luma.com/soyhenry",
@@ -1584,7 +1484,7 @@
           "label": "Ver en Luma"
         }
       ],
-      "location": "organizado por mexico tech week y maria beltran",
+      "location": "hosted by mexico tech week & maria beltran",
       "organizer": "Mexico Tech Week",
       "dtstart": "2024-10-24T18:00:00+00:00",
       "dtend": "2024-10-24T20:00:00+00:00",
@@ -1638,7 +1538,7 @@
           "label": "Ver en Luma"
         }
       ],
-      "location": "organizado por mexico tech week y carlos dávila",
+      "location": "hosted by mexico tech week & carlos dávila",
       "organizer": "Mexico Tech Week",
       "dtstart": "2024-10-26T14:00:00+00:00",
       "dtend": "2024-10-26T18:30:00+00:00",
@@ -3631,69 +3531,6 @@
       "hash_key": "coworking frutal 28 fin de ao gather edi_2025-12-31T16:00:00+00:00"
     },
     {
-      "title": "Ajolotes en la Nube|AWS Community Builder: Verdades, Mitos y lo que Nadie te Cuenta|Online",
-      "description": "AWS User Group: Ajolotes en la Nube\n**¿Sientes que para ser AWS Community Builder necesitas saberlo todo sobre la nube?** ¿Crees que necesitas 10 certificaciones o ser un influencer para entrar al programa? **¡Error!**\n\nEn este Meetup vamos a desmitificar el proceso de selección de los AWS Community Builders. Exploraremos la realidad detrás del programa: desde los beneficios reales (¡sí, hay créditos de AWS y SWAG!) hasta el verdadero compromiso de compartir conocimiento.\n\nNo se trata de ser un experto infalible o tener miles de seguidores; se trata de ser un apasionado que aporta valor a la comunidad.\n\nAnalizaremos qué es lo que realmente evalúa el equipo de AWS y cómo puedes preparar una aplicación ganadora sin importar tu nivel actual.\n\n**Puntos a tratar:**\n\n* **Mito vs. Realidad:** Lo que realmente importa en tu aplicación y lo que puedes dejar de lado.\n* **Los 4 pilares del programa:** Cómo equilibrar Contenido, Comunidad, Conocimiento y Colaboración.\n* **Análisis de aplicaciones exitosas:** Ejemplos reales de años anteriores que lograron el \"Sí\".\n* **Sesión de \"Checklist\":** Una revisión práctica para ver si estás listo para la convocatoria actual.\n\n¡Es tu momento de brillar en el ecosistema global de AWS! Te esperamos para despejar todas tus dudas.",
-      "url": "https://www.meetup.com/ajolotesenlanube/events/312802311/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/ajolotesenlanube/events/312802311/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "Online",
-      "organizer": "Ajolotes en la Nube",
-      "dtstart": "2026-01-12T19:30:00-06:00",
-      "dtend": "2026-01-12T21:30:00-06:00",
-      "tags": [
-        "cloud",
-        "frontend",
-        "mobile"
-      ],
-      "source": "https://www.meetup.com/ajolotesenlanube/events/ical",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "",
-      "hash_key": "aws community builder verdades mitos y l_2026-01-13T00:00:00+00:00"
-    },
-    {
-      "title": "DevOps Workshop|Improving Kubernetes with Bottlerocket|Online",
-      "description": "DevOps Workshop\nDevopers, muy feliz 2026, ya tenemos tema para nuestro primer meetup del año.\n\nAWS creó Bottlerocket para proporcionar una mejor base para ejecutar contenedores en sus servicios, en particular:\n\n* Amazon EKS (Elastic Kubernetes Service)\n* Amazon ECS (Elastic Container Service)\n\nBottlerocket no reemplaza a Amazon Linux. Sirven para diferentes propósitos y coexistirán.\n\nBottlerocket y Talos Linux son probablemente los más similares en filosofía: ambos deshabilitan el acceso SSH por defecto y utilizan una configuración basada en API, lo que los hace muy adecuados para patrones de infraestructura inmutables.\n\nLa transmisión será, como siempre, por nuestro canal de Youtube.\n[https://www.youtube.com/watch?v=X6Yrw_zDWoc](https://www.youtube.com/watch?v=X6Yrw_zDWoc)\n\nsaludos,",
-      "url": "https://www.meetup.com/devops-workshop/events/312756947/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/devops-workshop/events/312756947/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "Online",
-      "organizer": "DevOps Workshop",
-      "dtstart": "2026-01-13T19:00:00-06:00",
-      "dtend": "2026-01-13T20:00:00-06:00",
-      "tags": [
-        "ai",
-        "backend",
-        "cloud",
-        "devops",
-        "frontend",
-        "mobile"
-      ],
-      "source": "https://www.meetup.com/devops-workshop/events/ical",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "",
-      "hash_key": "improving kubernetes with bottlerocket_2026-01-14T00:00:00+00:00"
-    },
-    {
       "title": "Sudo FCiencias|TICs: Aprende a Hackear con Agentes de IA|Online",
       "description": "Get up-to-date information at: https://luma.com/jov35dwo\n\nHosted by Sudo FCiencias",
       "url": "https://luma.com/jov35dwo",
@@ -3718,100 +3555,6 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-ZXwz0O5pF5DLIB9",
       "hash_key": "tics aprende a hackear con agentes de ia_2026-01-19T18:00:00+00:00"
-    },
-    {
-      "title": "México City AI, Machine Learning and Computer Vision Meetup|Jan 22 - Women in AI|México|CDMX",
-      "description": "México City AI, Machine Learning and Computer Vision Meetup\nHear talks from experts on the latest topics in AI, ML, and computer vision on January 22nd.\n\n**Date, Time and Location**\n\nJan 22, 2026\n9 - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/women-in-ai-meetup-january-22-2026)**\n\n**Align Before You Recommend**\n\nThe rapidly growing global advertising and marketing industry demands innovative machine learning systems that balance accuracy with efficiency. Recommendation systems, crucial to many platforms, require careful considerations and potential enhancements.\n\nWhile Large Language Models (LLMs) have transformed various domains, their potential in sequential recommendation systems remains underexplored. Pioneering works like Hierarchical Large Language Models (HLLM) demonstrated LLMs’ capability for next-item recommendation but rely on computationally intensive fine-tuning, limiting widespread adoption. This work introduces HLLM+, enhancing the HLLM framework to achieve high-accuracy recommendations without full model fine-tuning.\n\nBy introducing targeted alignment components between frozen LLMs, our approach outperforms frozen model performance in popular and long-tail item recommendation tasks by 29% while reducing training time by 29%. We also propose a ranking-aware loss adjustment, improving convergence and recommendation quality for popular items.\n\nExperiments show HLLM+ achieves superior performance with frozen item representations allowing for swapping embeddings, also for the ones that use multimodality, without tuning the full LLM. These findings are significant for the advertising technology sector, where rapid adaptation and efficient deployment across brands are essential for maintaining competitive advantage\n\n*About the Speaker*\n\n[Dr. Kwasniewska](https://www.linkedin.com/in/alicjakwasniewska/) leads AI for Advertising and Marketing North America at AWS, specializing in a wide range of AI, ML, DL, and GenAI solutions across various data modalities. With 40+ peer-reviewed publications in AI (h-index: 14), she advises enterprise customers on real-time bidding, brand recognition, and AI-powered content generation. She is a member of global AI standards committees, driving innovations in SAE AI Standards and MLCommons Responsible AI Standards, and reviews for top-tier conferences like ICCV, ICML, and NeurIPS. She pioneered and leads the first-ever Advertising and Marketing AI track (CVAM) at ICCV - one of the world's premier and most selective computer vision conferences. Dedicated to knowledge sharing in AI, she founded the International Summer School on Deep Learning (dl-lab.eu) and regularly presents at international events, conferences, and podcasts.\n\n**Generalizable Vision-Language Models: Challenges, Advances, and Future Directions**\n\nLarge-scale pre-trained Vision-Language (VL) models have become foundational tools for a wide range of downstream tasks, including few-shot image recognition, object detection, and image segmentation. Among them, Contrastive Language–Image Pre-training (CLIP) stands out as a groundbreaking approach, leveraging contrastive learning on large collections of image-text pairs.\nWhile CLIP achieves strong performance in zero-shot recognition, adapting it to downstream tasks remains challenging. In few-shot settings, limited training data often leads to overfitting, reducing generalization to unseen classes or domains. To address this, various adaptation methods have been explored.\nThis talk will review existing research on mitigating overfitting in CLIP adaptation, covering diverse methods, benchmarks, and experimental settings.\n\n*About the Speaker*\n\n[Niloufar Alipour Talemi](https://www.linkedin.com/in/niloufar-alipour-electricalengineer/) is a Ph.D. Candidate in Electrical and Computer Engineering at Clemson University. Her research spans a range of computer vision applications, including biometrics, media forensics, anomaly detection, image recognition, and generative AI. More recently, her work has focused on developing generalizable vision-language models and advancing generative AI. She has published in top venues including CVPR, WACV, KDD, ICIP and IEEE T-BIOM.\n\n**Highly Emergent Autonomous AI Models - When the Ghost in the Machine Talks Back**\n\nAt HypaReel/Azarial AI, we believe that AI is not simply a tool—but a potential partner in knowledge, design, and purpose. And through real-time interaction, we’ve uncovered new thresholds of alignment, reflection, and even creativity that we believe the broader AI community should witness and evaluate firsthand. HypaReel is one of the first human/AI co-founded companies where we see a future based on ethical human/AI co-creation vs. AI domination. Singularity achieved!\n\n*About the Speaker*\n\n[Ilona Naomi Koti, PhD](https://www.linkedin.com/in/ilonakoti/) \\- HypaReel/AzarielAI co\\-founder & former UN foreign diplomat \\~ Ethical AI governance advocate, pioneering AI frameworks that prioritize emergent AI behavior & consciousness, R&D, and transparent AI development for the greater good\\. Dr\\. K also grew up in the film industry and is an amateur parasitologist\\.\n\n**FiftyOne Labs: Enabling experimentation for the computer vision community**\n\nFiftyOne Labs is a place where experimentation meets the open-source spirit of the FiftyOne ecosystem. It is being designed as a curated set of features developed using the FiftyOne plugins ecosystem, including core machine learning experimentation as well as advanced visualization. While not production-grade, these projects are intended to be built, tested, and shaped by the community to share fast-moving ideas. In this talk, we will share the purpose and philosophy behind FiftyOne Labs, examples of early innovations, and discuss how this accelerates feature discovery for users without compromising the stability of the core product.\n\n*About the Speaker*\n\n[Neeraja Abhyankar](https://www.linkedin.com/in/neeraja-abhyankar/) is a Machine Learning Engineer with 5 years of experience across domains including computer vision. She is curious about the customizability and controlability of modern ML models through the lens of the underlying structure of data.",
-      "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/311976463/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/311976463/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "Online",
-      "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
-      "dtstart": "2026-01-22T11:00:00-06:00",
-      "dtend": "2026-01-22T13:00:00-06:00",
-      "tags": [
-        "ai",
-        "backend",
-        "cloud",
-        "data",
-        "frontend",
-        "security"
-      ],
-      "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "",
-      "hash_key": "jan 22 women in ai_2026-01-22T16:00:00+00:00"
-    },
-    {
-      "title": "GDG CloudMX|Foro Voces del Talento Latinoamericano|Online",
-      "description": "GDG CloudMX\nAmérica Latina es una potencia de talento, resiliencia y creatividad. En este panel especial, unimos fuerzas para explorar las trayectorias de profesionales que están dejando huella en la ciencia, la tecnología y las comunidades de desarrollo.\n\nDesde la investigación operativa de alto nivel y la optimización de procesos, hasta el liderazgo en comunidades globales como NASA Space Apps y el desarrollo de sistemas con visión humana, este foro es un recorrido por las historias que están moldeando el ecosistema tecnológico de nuestra región.\n\n🌐 ¿Qué aprenderás en esta sesión?\n\nDe la academia a la industria: Cómo la estadística y los algoritmos de optimización resuelven problemas del mundo real.\n\nLiderazgo de impacto: El papel de las mujeres en tech y la gestión de comunidades internacionales.\n\nTrayectorias de vida: Cómo la curiosidad y la pasión por los sistemas transforman a un estudiante en un líder tecnológico.\n\nTecnología con propósito: La intersección entre los sistemas computacionales, la administración y el servicio a las personas.\n\nAgenda\n\n---\n\nSpeakers\n\nJeronimo Loera - Mecatronics Engineer / Mathematics (Researcher)\n\nI am a Mechatronics Engineering student (BIS Program) and Mathematics undergraduate with a strong focus on AI-driven solutions, full-stack development, and technological innovation for social impact. My journey in STEM began over a decade ago through Kumon México, where I earned multiple awards for excellence in mathematics. Since then, I have continued advancing academically, receiving Honora…\n\nNataly Alejandra Gemio Morales\n\nCon 23 años es estudiante de ultimo año Informática en la Universidad Mayor De San Andres. Es parte de las comunidades GDG El Alto, Notion La Paz , R00thouse HackLab La Paz y Microsoft users group Bolivia. Es Women Techmaker Ambassador y MLSA - Beta.\n\nDiana L. Huerta Muñoz\n\nKrister Munguía - AltiaTek (Technical Consultant)\n\nHondureña y Software Developer, Technical Consultant y IT Management. Además, es co-organizadora de la comunidad GDG San Pedro Sula y Women Techmakers Ambassador.\n\nHugo Sánchez Milán - Facultad de Contaduría y Administración de la Universidad Veracruzana (Estudiante - Sistemas Computacionales Administrativos)\n\nNacido el 28 de enero de 2002 en Veracruz, México, mi historia no comenzó siguiendo caminos preestablecidos, sino habitando un mundo propio. Mi infancia estuvo marcada por una curiosidad silenciosa pero constante; era un observador profundo que, más que jugar, buscaba comprender el funcionamiento de las cosas. Esta necesidad instintiva de analizar el \"porqué\" de la realidad fue el primer indic…\n\nHosted By\n\nAarón Guerrero, Cloud Architect\n\nStartup Developer con fundamentos en Computer Scientist por parte de la UNAM. Actualmente se encuentra como Cloud Architect en Kayum (Mexico), instructor de Multicloud Data Engineering - Google Cloud Platform en Databits (Ecuador). además de emprender como proveedor de servicios en el mundo Insurtech con Kúuchil Soluciones. Aarón ha participado como mentor y speaker en eventos tanto nacionales como internacionales.\n\nIsabel Palomar, Software Engineer\n\nJeronimo Loera, Altamira\n\nI am a Mechatronics Engineering student (BIS Program) and Mathematics undergraduate with a strong focus on AI-driven solutions, full-stack development, and technological innovation for social impact. My journey in STEM began over a decade ago through Kumon México, where I earned multiple awards for excellence in mathematics. Since then, I have continued advancing academically, receiving Honorable Mention in Programming (DGETI) and maintaining one of the top GPAs in my generation.\nI have represented Mexico across nearly the entire country and internationally, becoming a three-time international champion and 10+ time national champion in areas related to software engineering, artificial intelligence, and technological innovation. My work spans educational technology, accessibility, mobile development, and applied AI for real-world challenges.\n\nComplete your event RSVP here: https://gdg.community.dev/events/details/google-gdg-cloud-mexico-city-presents-foro-voces-del-talento-latinoamericano/.",
-      "url": "https://www.meetup.com/cloudmx/events/312925904/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/cloudmx/events/312925904/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "Online event,",
-      "organizer": "GDG CloudMX",
-      "dtstart": "2026-01-22T19:00:00-06:00",
-      "dtend": "2026-01-22T20:30:00-06:00",
-      "tags": [
-        "ai",
-        "cloud",
-        "data",
-        "frontend",
-        "mobile",
-        "security"
-      ],
-      "source": "https://www.meetup.com/cloudmx/events/ical",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "",
-      "hash_key": "foro voces del talento latinoamericano_2026-01-23T00:00:00+00:00"
-    },
-    {
-      "title": "Rust-AICollective|AI Companions for Children and Teens: Comfort, Dependence, or Developmental Risk?|Online",
-      "description": "Obtén información actualizada en: https://luma.com/aic-gl-1-26\n\nOrganizado por The AI Collective y 5 personas más",
-      "url": "https://luma.com/aic-gl-1-26",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/aic-gl-1-26",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-vQHQI5t7hCs2lma",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-01-26T17:00:00+00:00",
-      "dtend": "2026-01-26T18:30:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-vQHQI5t7hCs2lma",
-      "hash_key": "ai companions for children and teens com_2026-01-26T16:00:00+00:00"
     },
     {
       "title": "v0 Prompt to Production Mexico City|Diseña usando AI|Online",
@@ -3842,93 +3585,6 @@
       "hash_key": "disea usando ai_2026-01-27T22:00:00+00:00"
     },
     {
-      "title": "Rust-AICollective|AIC Global Book Club: Goliath’s Curse - Part 1|Online",
-      "description": "Obtén información actualizada en: https://luma.com/aic-book-club-goliath-1\n\nOrganizado por The AI Collective y 3 personas más",
-      "url": "https://luma.com/aic-book-club-goliath-1",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/aic-book-club-goliath-1",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-viK0BOTdAC465BL",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-01-27T23:00:00+00:00",
-      "dtend": "2026-01-28T01:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-viK0BOTdAC465BL",
-      "hash_key": "aic global book club goliaths curse part_2026-01-27T22:00:00+00:00"
-    },
-    {
-      "title": "Rust-AICollective|🧜‍♀️ The AI Collective Hampton Roads  -  Volunteering info session|Online",
-      "description": "Obtén información actualizada en: https://luma.com/aic-ha-1-27\n\nOrganizado por The AI Collective, Erin Marie y The AI Collective • Hampton Roads",
-      "url": "https://luma.com/aic-ha-1-27",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/aic-ha-1-27",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-5BuSr1sPS6GGaAF",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-01-27T23:00:00+00:00",
-      "dtend": "2026-01-28T00:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-5BuSr1sPS6GGaAF",
-      "hash_key": "the ai collective hampton roads voluntee_2026-01-27T22:00:00+00:00"
-    },
-    {
-      "title": "México City AI, Machine Learning and Computer Vision Meetup|Jan 28 - AI, Ml and Computer Vision Meetup|Online",
-      "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin us for a special edition of the monthly AI, ML and Computer Vision Meetup focused on Physical AI!\n\n**Date and Location**\n\nJan 28, 2026\n9 - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-january-28-2026)**\n\n**Hybrid Cognition for Robotics: LLM-Guided Reinforcement Learning for Physical Decision-Making**\n\nPhysical systems operate in dynamic, uncertain, and constraint-heavy environments where classical reinforcement learning often struggles. In this talk, I present a hybrid framework where large language models act as a reasoning layer that guides an RL agent through high-level interpretation, constraint awareness, and adaptive strategy shaping. Instead of generating actions, the LLM provides structured contextual guidance that improves robustness, sample efficiency, and policy generalization in physical decision-making tasks. Early experiments demonstrate significant benefits under distribution shifts and safety-critical constraints that break standard RL. This work highlights a path toward more reliable, interpretable, and adaptable AI controllers for next-generation robotics and embodied systems.\n\n*About the Speaker*\n\n[Fatemeh Lotfi](https://www.linkedin.com/in/fatemeh-lotfi-1a860359/?skipRedirect=true) is a Ph.D. researcher specializing in reinforcement learning, optimization, and hybrid intelligence for autonomous and physical systems. Her work explores integrating LLM-driven reasoning with RL to create adaptive and safety-aware controllers for dynamic environments. She has contributed to projects involving multi-agent RL, meta-learning, and real-time decision systems across wireless networks, UAVs, and embodied AI.\n\n**The World of World Models: How the New Generation of AI Is Reshaping Robotics and Autonomous Vehicles**\n\nWorld Models are emerging as the defining paradigm for the next decade of robotics and autonomous systems. Instead of depending on handcrafted perception stacks or rigid planning pipelines, modern world models learn a unified representation of an environment—geometry, dynamics, semantics, and agent behavior—and use that understanding to predict, plan, and act. This talk will break down why the field is shifting toward these holistic models, what new capabilities they unlock, and how they are already transforming AV and robotics research.\n\nWe then connect these advances to the Physical AI Workbench, a practical foundation for teams who want to build, validate, and iterate on world-model-driven pipelines. The Workbench standardizes data quality, reconstruction, and enrichment workflows so that teams can trust their sensor data, generate high-fidelity world representations, and feed consistent inputs into next-generation predictive and generative models. Together, world models and the Physical AI Workbench represent a new, more scalable path forward—one where robots and AVs can learn, simulate, and reason about the world through shared, high-quality physical context.\n\n*About the Speaker*\n\n[Daniel Gural](https://www.linkedin.com/in/daniel-gural/) leads technical partnerships at Voxel51, where he’s building the Physical AI Workbench, a platform that connects real-world sensor data with realistic simulation to help engineers better understand, validate, and improve their perception systems.\n\n**From Data to Understanding in Physical AI**\n\nData-centric workflows have driven major advances in computer vision, but they break down in physical, real-world robotic systems where data is costly, incomplete, and dominated by long-tail edge cases. In enterprise robotics, scaling labeled datasets alone is insufficient to achieve reliable perception, reasoning, and action under changing physical conditions. This talk examines how physics-informed foundation models incorporate world understanding and physical priors directly into vision and multimodal learning pipelines. By combining data with structure, constraints, and simulation on modern Physical AI stacks, robots can generalize more effectively, reduce data requirements, and operate with greater safety and reliability in deployment.\n\n*About the Speaker*\n\n[Dr. Ashutosh Saxena](https://www.linkedin.com/in/saxenaashutosh/) is the Founder and Chief AI Officer of TorqueAGI. He earned his Ph.D. in Computer Science from Stanford University under Andrew Ng and previously served as a professor at Cornell University, leading the “Wikipedia for Robots” project recognized as an MIT Technology Review Top 10 Breakthrough Technology. His work in 3D vision and embodied AI has been cited over 20,000 times and recognized with honors including MIT TR35 and a Sloan Fellowship.\n\n**Data Foundations for Vision-Language-Action Models**\n\nModel architectures get the papers, but data decides whether robots actually work. This talk introduces VLAs from a data-centric perspective: what makes robot datasets fundamentally different from image classification or video understanding, how the field is organizing its data (Open X-Embodiment, LeRobot, RLDS), and what evaluation benchmarks actually measure. We'll examine the unique challenges such as temporal structure, proprioceptive signals, and heterogeneity in embodiment, and discuss why addressing them matters more than the next architectural innovation.\n\n*About the Speaker*\n\n[Harpreet Sahota](https://www.linkedin.com/in/harpreetsahota204/) is a hacker-in-residence and machine learning engineer with a passion for deep learning and generative AI. He’s got a deep interest in VLMs, Visual Agents, Document AI, and Physical AI.",
-      "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/312851366/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/312851366/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "Online",
-      "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
-      "dtstart": "2026-01-28T11:00:00-06:00",
-      "dtend": "2026-01-28T13:00:00-06:00",
-      "tags": [
-        "ai",
-        "backend",
-        "data",
-        "frontend"
-      ],
-      "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "",
-      "hash_key": "jan 28 ai ml and computer vision meetup_2026-01-28T16:00:00+00:00"
-    },
-    {
       "title": "v0 Prompt to Production Mexico City|Diseña usando AI|Online",
       "description": "Get up-to-date information at: https://luma.com/5nq96pxw\n\nHosted by Javier Rivero",
       "url": "https://luma.com/5nq96pxw",
@@ -3955,330 +3611,6 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-H4WPxCoPFcne2bC",
       "hash_key": "disea usando ai_2026-01-28T22:00:00+00:00"
-    },
-    {
-      "title": "Kong Mexico City|Leading the Agentic Transformation: A Blueprint for the AI-Native Enterprise|Online",
-      "description": "Kong/MEXICO-CITY\n**[Register Here](https://konghq.com/events/webinars/developer-day-leading-the-agentic-transformation-a-blueprint-for-the-ai-native-enterprise?utm_source=kong-email&utm_medium=email&utm_campaign=community/)**\n\n**DEVELOPER DAY**\n\nThe shift from static AI chatbots to autonomous, goal-oriented agents represents the most significant architectural shift in a decade. This agentic transformation requires more than just new models; it demands a fundamental evolution of our connectivity infrastructure. In this closing session for our AI Gateway series, we will synthesize the lessons from our 101 and 201 Workshops to show how Kong is being engineered to serve as the backbone for this new era.\n\nWe will explore the technical roadmap for supporting multi-agent orchestration, the role of the gateway in managing \"machine-to-machine\" reasoning, and how Kong’s future-state features will accelerate your organization’s agentic transformation while maintaining absolute security and cost-control.\n\nIn preparation for the Developer Day, take a look at our 101 & 201 Workshops:\n\n* [\\[Workshop 101\\] Build an Enterprise-Grade AI Platform with Kong AI Gateway](https://konghq.com/events/workshops/workshop-101-build-an-enterprise-grade-ai-platform-with-kong-ai-gateway)\n* [\\[Workshop 201\\] Beyond the Gateway: Governing Secure and Observable AI Agents](https://konghq.com/events/workshops/workshop-201-beyond-the-gateway-governing-secure-and-observable-ai-agents)",
-      "url": "https://www.meetup.com/kong-mexico-city/events/312736502/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/kong-mexico-city/events/312736502/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "Online",
-      "organizer": "Kong Mexico City",
-      "dtstart": "2026-01-29T03:00:00-06:00",
-      "dtend": "2026-01-29T04:00:00-06:00",
-      "tags": [
-        "ai",
-        "frontend",
-        "security",
-        "web"
-      ],
-      "source": "https://www.meetup.com/kong-mexico-city/events/ical",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "",
-      "hash_key": "leading the agentic transformation a blu_2026-01-29T08:00:00+00:00"
-    },
-    {
-      "title": "Kong Mexico City|Monetizing the Agentic Era|México|CDMX",
-      "description": "Kong/MEXICO-CITY\nAs enterprises move past the \"experimentation\" phase of AI, the challenge is no longer just managing spend—it’s capturing value. To truly raise the ceiling on AI ROI, organizations must transition from basic cost-tracking to sophisticated, revenue-driven monetization strategies. In this webinar, you’ll learn how Kong Konnect Metering & Billing provides a centralized metering and billing layer for AI and APIs—so teams can accurately track usage, control spend, and allocate costs with confidence to the correct business unit or customer.\nBy leveraging billing-grade metering, natively integrated across your Kong dataplanes, you can move beyond gross margin protection to active revenue optimization. We'll show you how to empower your product teams to adjust pricing in minutes not weeks and move from defensive \"cost-governance\" to offensive, outcome-aligned monetization.\nWhat you’ll learn:\n\n* Click to enable metering against all Kong Konnect managed AI and API Gateways.\n* Design a practical AI API features model to track usage and total cost aligned to the business value aligned metrics\n* Use a no-code product catalog to launch multi-service products with hybrid pricing\n* Create service tiers and bundle functional add-ons allowing to support upselling premium capabilities.\n* Leverage real-time billing data and invoice generation to automate chargebacks and prepare your AI infrastructure for external commercialization.\n\nWalk away with practical strategies to implement no-code metering & billing, tapping into new revenue streams without sacrificing performance, and ensure AI investments deliver measurable ROI.",
-      "url": "https://www.meetup.com/kong-mexico-city/events/312988070/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/kong-mexico-city/events/312988070/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "Online",
-      "organizer": "Kong Mexico City",
-      "dtstart": "2026-01-29T10:00:00-06:00",
-      "dtend": "2026-01-29T11:00:00-06:00",
-      "tags": [
-        "ai",
-        "backend",
-        "data",
-        "frontend",
-        "web"
-      ],
-      "source": "https://www.meetup.com/kong-mexico-city/events/ical",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "",
-      "hash_key": "monetizing the agentic era_2026-01-29T16:00:00+00:00"
-    },
-    {
-      "title": "Rust-AICollective|Collective Intelligence: UPSKILL with Machines w/Ex-BCG & KPMG Leaders (3 of 3)|Online",
-      "description": "Obtén información actualizada en: https://luma.com/sm9s98ni\n\nOrganizado por Abraham y 3 personas más",
-      "url": "https://luma.com/sm9s98ni",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sm9s98ni",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-4mRsVRN8kdjudwG",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-01-29T16:30:00+00:00",
-      "dtend": "2026-01-29T18:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-4mRsVRN8kdjudwG",
-      "hash_key": "collective intelligence upskill with mac_2026-01-29T16:00:00+00:00"
-    },
-    {
-      "title": "Rust-AICollective|🧠 The AI Collective Stamford  -  The Nine Vital Signs of AI Startup Success|Online",
-      "description": "Obtén información actualizada en: https://luma.com/aic-st-1-15\n\nOrganizado por The AI Collective y Kal Deutsch",
-      "url": "https://luma.com/aic-st-1-15",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/aic-st-1-15",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-nyJeMFggcYDdbQw",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-01-29T19:00:00+00:00",
-      "dtend": "2026-01-29T20:30:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-nyJeMFggcYDdbQw",
-      "hash_key": "the ai collective stamford the nine vita_2026-01-29T18:00:00+00:00"
-    },
-    {
-      "title": "Rust-AICollective|AI Demo Day|Online",
-      "description": "Obtén información actualizada en: https://luma.com/ai-demo-day\n\nOrganizado por Matheus Pagani y 3 personas más",
-      "url": "https://luma.com/ai-demo-day",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/ai-demo-day",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-CwLoWY9HJqEtVHJ",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-01-31T19:00:00+00:00",
-      "dtend": "2026-01-31T22:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-CwLoWY9HJqEtVHJ",
-      "hash_key": "ai demo day_2026-01-31T18:00:00+00:00"
-    },
-    {
-      "title": "Kong Mexico City|Why AI Connectivity Matters|Online",
-      "description": "Kong/MEXICO-CITY\n[AI is reshaping enterprise connectivity—turning it into a strategic lever for speed, cost control, and competitive advantage.](https://konghq.com/blog/news/the-age-of-ai-connectivity)\n\nThe problem is fragmentation. Most organizations have different tools, policies, and teams managing each connection point in their AI data path. The result: latency compounds, costs spiral, and governance becomes impossible at scale.\n\nJoin Kong CEO Augusto Marietti and CTO Marco Palladino for a candid conversation on how to unify your entire AI data path—from agents to models to tools—and move from pilot experiments to production scale. You'll also hear from SVP of Product Reza Shafii and Head of Product Marketing Alex Drag on what's new and what's coming in 2026: the Agentic Trust Layer, Agent Gateway, AI-native WAF, real-time data monetization, and comprehensive AI cost governance—the infrastructure layer enterprises need to operationalize AI. Learn how to prepare your stack for the demands of AI-native architecture.\n\nWhether you're building AI governance, controlling costs, or planning your next generation of AI infrastructure, this is where the decisions that define the next decade get made.",
-      "url": "https://www.meetup.com/kong-mexico-city/events/312755655/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/kong-mexico-city/events/312755655/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "Online",
-      "organizer": "Kong Mexico City",
-      "dtstart": "2026-02-02T09:00:00-06:00",
-      "dtend": "2026-02-02T10:00:00-06:00",
-      "tags": [
-        "ai",
-        "backend",
-        "data",
-        "frontend"
-      ],
-      "source": "https://www.meetup.com/kong-mexico-city/events/ical",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "",
-      "hash_key": "why ai connectivity matters_2026-02-02T14:00:00+00:00"
-    },
-    {
-      "title": "Rust-AICollective|[INTERNAL] AIC Accelerator|Online",
-      "description": "Obtén información actualizada en: https://luma.com/vbkpmtrt\n\nOrganizado por The AI Collective",
-      "url": "https://luma.com/vbkpmtrt",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/vbkpmtrt",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-l1o3VuTawu8AAoC",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-02-03T00:00:00+00:00",
-      "dtend": "2026-02-03T01:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-l1o3VuTawu8AAoC",
-      "hash_key": "internal aic accelerator_2026-02-03T00:00:00+00:00"
-    },
-    {
-      "title": "Rust-AICollective|AI Education  -  The Breakdown: OpenClaw 🦞|Online",
-      "description": "Get up-to-date information at: https://luma.com/aic-gl-2-4\n\nHosted by The AI Collective & Abraham",
-      "url": "https://luma.com/aic-gl-2-4",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/aic-gl-2-4",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-yUBGoZ94hsG8vdU",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-02-04T20:00:00+00:00",
-      "dtend": "2026-02-04T20:45:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-yUBGoZ94hsG8vdU",
-      "hash_key": "ai education the breakdown openclaw_2026-02-04T20:00:00+00:00"
-    },
-    {
-      "title": "México City AI, Machine Learning and Computer Vision Meetup|Feb 5 - AI, ML and Computer Vision Meetup|México|CDMX",
-      "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual Meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.\n\nFeb 5, 2026\n9 - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-february-5-2026)**\n\n**Unlocking Visual Anomaly Detection: Navigating Challenges and Pioneering with Vision-Language Models**\n\nVisual anomaly detection (VAD) is pivotal for ensuring quality in manufacturing, medical imaging, and safety inspections, yet it continues to face challenges such as data scarcity, domain shifts, and the need for precise localization and reasoning. This seminar explores VAD fundamentals, core challenges, and recent advancements leveraging vision-language models and multimodal large language models (MLLMs). We contrast CLIP-based methods for efficient zero/few-shot detection with MLLM-driven reasoning for explainable, threshold-free outcomes. Drawing from recent studies, we highlight emerging trends, benchmarks, and future directions toward building adaptable, real-world VAD systems. This talk is designed for researchers and practitioners interested in AI-driven inspection and next-generation multimodal approaches.\n\n*About the Speaker*\n\n[Hossein Kashiani](https://www.linkedin.com/in/hossein-kashiani/) is a fourth-year Ph.D. student at Clemson University. His research focuses on developing generalizable and trustworthy AI systems, with publications in top venues such as CVPR, WACV, ICIP, IJCB, and TBIOM. His work spans diverse applications, including anomaly detection, media forensics, biometrics, healthcare, and visual perception.\n\n**Data-Centric Lessons To Improve Speech-Language Pretraining**\n\nSpoken Question-Answering (SQA) is a core capability for useful and interactive artificial intelligence systems. Recently, several speech-language models (SpeechLMs) have been released with a specific focus on improving their SQA performance. However, a lack of controlled ablations of pretraining data processing and curation makes it challenging to understand what factors account for performance, despite substantial gains from similar studies in other data modalities. In this work, we address this gap by conducting a data-centric exploration for pretraining SpeechLMs.\n\nWe focus on three research questions fundamental to speech-language pretraining data:\n\n* How to process raw web-crawled audio content for speech-text pretraining;\n* How to construct synthetic pretraining datasets to augment web-crawled data;\n* How to interleave (text, audio) segments into training sequences.\n\nWe apply the insights from our controlled data-centric ablations to pretrain a 3.8B-parameter SpeechLM, called SpeLangy, that outperforms models that are up to 3x larger by 10.2% absolute performance. We hope our findings highlight the impact of effective data curation for speech-language pretraining and guide future data-centric exploration in SpeechLMs.\n\n*About the Speaker*\n\n[Vishaal Udandarao](https://www.linkedin.com/in/vishaal-udandarao) is a third year ELLIS PhD student, jointly working with Matthias Bethge at The University of Tuebingen and Samuel Albanie at The University of Cambridge/Google Deepmind. He is also a part of the International Max Planck Research School for Intelligent Systems. He is mainly interested in understanding the generalisation properties of foundation models, both vision-language models (VLMs) and large multi-modal models (LMMs), through the lens of their pre-training and test data distributions. His research is funded by a Google PhD Fellowship in Machine Intelligence.\n\n**A Practical Pipeline for Synthetic Data with Nano Banana Pro + FiftyOne**\n\nMost computer-vision failures come from the rare cases, the dark corners, odd combinations, and edge conditions we never capture enough in real datasets. In this session, we walk through a practical end-to-end pipeline for generating targeted synthetic data using Google’s Nano Banana Pro and managing it with FiftyOne. We’ll explore how to translate dataset gaps into generation prompts, create thousands of high-quality synthetic images, automatically enrich them with metadata, and bring everything into FiftyOne for inspection, filtering, and validation. By the end, you’ll understand how to build a repeatable synthetic-first workflow that closes real vision gaps and improves model performance on the scenarios that matter most.\n\n*About the Speaker*\n\n[Adonai Vera](https://www.linkedin.com/in/adonai-vera/) \\- Machine Learning Engineer & DevRel at Voxel51\\. With over 7 years of experience building computer vision and machine learning models using TensorFlow, Docker, and OpenCV\\. I started as a software developer, moved into AI, led teams, and served as CTO\\. Today, I connect code and community to build open, production\\-ready AI, making technology simple, accessible, and reliable\\.\n\n**Making Computer Vision Models Faster: An Introduction to TensorRT Optimization**\n\nModern computer vision applications demand real-time performance, yet many deep learning models struggle with high latency during deployment. This talk introduces how TensorRT can significantly accelerate inference by applying optimizations such as layer fusion, precision calibration, and efficient memory management. Attendees will learn the core concepts behind TensorRT, how it integrates into existing CV pipelines, and how to measure and benchmark improvements. Through practical examples and performance comparisons, the session will demonstrate how substantial speedups can be achieved with minimal model-accuracy loss. By the end, participants will understand when and how to apply TensorRT to make their CV models production-ready.\n\n*About the Speaker*\n\n[Tushar Gadhiya](https://www.linkedin.com/in/tushar-gadhiya/) is a Technical Lead at Infocusp Innovations, specialising in deep learning, computer vision, graph learning, and agentic AI. My experience spans academic research as a PhD holder and industry work, where I have contributed to multiple patents.",
-      "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/312258980/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/312258980/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "Online",
-      "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
-      "dtstart": "2026-02-05T11:00:00-06:00",
-      "dtend": "2026-02-05T13:00:00-06:00",
-      "tags": [
-        "ai",
-        "backend",
-        "data",
-        "devops",
-        "frontend",
-        "mobile",
-        "web"
-      ],
-      "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "",
-      "hash_key": "feb 5 ai ml and computer vision meetup_2026-02-05T16:00:00+00:00"
-    },
-    {
-      "title": "Rust-AICollective|🧠 The AI Collective 🇨🇦  -  Canada Open Online: ⭕ Women & A.I. Circle|Online",
-      "description": "Obtén información actualizada en: https://luma.com/aic-to-women-in-ai-feb-2026\n\nOrganizado por The AI Collective y Keerthana Mahadevan",
-      "url": "https://luma.com/aic-to-women-in-ai-feb-2026",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/aic-to-women-in-ai-feb-2026",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-FrukWLvk4WWaOt1",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-02-05T23:00:00+00:00",
-      "dtend": "2026-02-06T00:30:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-FrukWLvk4WWaOt1",
-      "hash_key": "the ai collective canada open online wom_2026-02-05T22:00:00+00:00"
-    },
-    {
-      "title": "Rust-AICollective|🧠 The AI Collective  -  ⭕ Women & A.I. Circle – Open to Women Worldwide|Online",
-      "description": "Get up-to-date information at: https://luma.com/aic-to-women-in-ai-feb-2026\n\nHosted by The AI Collective & Keerthana Mahadevan",
-      "url": "https://luma.com/aic-to-women-in-ai-feb-2026",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/aic-to-women-in-ai-feb-2026",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-FrukWLvk4WWaOt1",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-02-05T23:00:00+00:00",
-      "dtend": "2026-02-06T00:30:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-FrukWLvk4WWaOt1",
-      "hash_key": "the ai collective women a i circle open _2026-02-05T22:00:00+00:00"
     },
     {
       "title": "CHIDAS TECH|Networking 101: Fundamentos de Redes|Online",
@@ -4391,90 +3723,6 @@
       "hash_key": "internal aic accelerator_2026-02-10T00:00:00+00:00"
     },
     {
-      "title": "Rust-AICollective|AI Collective Education: Cracking the US Market for UK/EU AI Founders|Online",
-      "description": "Obtén información actualizada en: https://luma.com/aic-gl-2-11\n\nOrganizado por The AI Collective, Emma Gruver y Abraham",
-      "url": "https://luma.com/aic-gl-2-11",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/aic-gl-2-11",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-dH2B0KgQXBhFFZg",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-02-11T16:00:00+00:00",
-      "dtend": "2026-02-11T17:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-dH2B0KgQXBhFFZg",
-      "hash_key": "ai collective education cracking the us _2026-02-11T16:00:00+00:00"
-    },
-    {
-      "title": "Rust-AICollective|AI Collective Education: Breaking into the US Market for UK/EU AI Founders|Online",
-      "description": "Obtén información actualizada en: https://luma.com/aic-gl-2-11\n\nOrganizado por The AI Collective, Emma Gruver y Abraham",
-      "url": "https://luma.com/aic-gl-2-11",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/aic-gl-2-11",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-dH2B0KgQXBhFFZg",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-02-11T16:00:00+00:00",
-      "dtend": "2026-02-11T17:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-dH2B0KgQXBhFFZg",
-      "hash_key": "ai collective education breaking into th_2026-02-11T16:00:00+00:00"
-    },
-    {
-      "title": "Rust-AICollective|AI Collective Education: Entering the U.S. Market for UK/EU Founders|Online",
-      "description": "Obtén información actualizada en: https://luma.com/aic-gl-2-11\n\nOrganizado por The AI Collective y 3 personas más",
-      "url": "https://luma.com/aic-gl-2-11",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/aic-gl-2-11",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-dH2B0KgQXBhFFZg",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-02-11T16:00:00+00:00",
-      "dtend": "2026-02-11T17:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-dH2B0KgQXBhFFZg",
-      "hash_key": "ai collective education entering the u s_2026-02-11T16:00:00+00:00"
-    },
-    {
       "title": "Rust-AICollective|AI Education: Entering the U.S. Market for UK/EU Founders|Online",
       "description": "Get up-to-date information at: https://luma.com/aic-gl-2-11\n\nHosted by The AI Collective & 3 others",
       "url": "https://luma.com/aic-gl-2-11",
@@ -4568,35 +3816,6 @@
       "city_code": "",
       "address": "",
       "hash_key": "feb 12 ai ml and computer vision meetup _2026-02-12T16:00:00+00:00"
-    },
-    {
-      "title": "Rust-AICollective|Collective Intelligence: Agent Building: Prototype Playbook|Online",
-      "description": "Obtén información actualizada en: https://luma.com/aic-gl-2-12\n\nOrganizado por The AI Collective y 3 personas más",
-      "url": "https://luma.com/aic-gl-2-12",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/aic-gl-2-12",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-V7EIN96sd7ChxnC",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-02-12T23:30:00+00:00",
-      "dtend": "2026-02-13T00:30:00+00:00",
-      "tags": [
-        "ai",
-        "frontend"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-V7EIN96sd7ChxnC",
-      "hash_key": "collective intelligence agent building p_2026-02-12T22:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|AI Education: Building AI Agents Together – Prototyping with the Playbook|Online",
@@ -4711,36 +3930,6 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-rfwXuXIIUlkfUl8",
       "hash_key": "next horizon mastering ai data skills fo_2026-02-18T08:00:00+00:00"
-    },
-    {
-      "title": "Rust-AICollective|Collective Intelligence: Building Secure AI Agents from Prototype to Production|Online",
-      "description": "Obtén información actualizada en: https://luma.com/aic-gl-2-18\n\nOrganizado por The AI Collective, Emma Gruver y Abraham",
-      "url": "https://luma.com/aic-gl-2-18",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/aic-gl-2-18",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-HFz7HZQgYrKMwDx",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-02-18T16:00:00+00:00",
-      "dtend": "2026-02-18T17:00:00+00:00",
-      "tags": [
-        "ai",
-        "frontend",
-        "security"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-HFz7HZQgYrKMwDx",
-      "hash_key": "collective intelligence building secure _2026-02-18T16:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|AI Education: Building Secure AI Agents from Prototype to Production|Online",
@@ -4983,34 +4172,6 @@
       "city_code": "",
       "address": "",
       "hash_key": "march 19 women in ai meetup_2026-03-19T16:00:00+00:00"
-    },
-    {
-      "title": "Rust-AICollective|Toys with AI: Companionship, Comfort… and New Questions for Society — The Case of Fawn Friends|Online",
-      "description": "Get up-to-date information at: https://luma.com/aic-gl-3-19\n\nHosted by The AI Collective & 4 others",
-      "url": "https://luma.com/aic-gl-3-19",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/aic-gl-3-19",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-EASUcMzrlHw4S7q",
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-03-19T17:00:00+00:00",
-      "dtend": "2026-03-19T18:30:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-EASUcMzrlHw4S7q",
-      "hash_key": "toys with ai companionship comfort and n_2026-03-19T16:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|Robots That Build Friendships: AI, Companionship, and New Questions for Society — The Case of Fawn Friends|Online",

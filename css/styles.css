@@ -94,6 +94,7 @@
 .calendar-container {
     margin-top: var(--spacing-lg);
     background: rgba(0, 255, 0, 0.05);
+    border: 1px solid var(--terminal-green);
     border-radius: var(--radius-md);
     padding: var(--spacing-md);
     max-width: 100%;
