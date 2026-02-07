@@ -137,6 +137,10 @@ class App {
             this.calendar.setEvents(events);
             this.communityList.render(data.communities || []);
 
+            // Scroll al inicio de la lista de eventos
+            const anchor = document.getElementById('events-list-top');
+            if (anchor) anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
         } catch (error) {
             console.error(error);
             const container = document.getElementById('calendar-container');

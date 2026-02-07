@@ -1,5 +1,5 @@
 .PHONY: help install install-dev sync test test-file test-filter lint format format-check run run-all serve clean update check
-.PHONY: tools-deduplicate tools-populate-cache tools-scan-feeds tools-scrape-meetup requirements-freeze
+.PHONY: tools-deduplicate tools-populate-cache tools-scan-feeds tools-scrape-meetup requirements-freeze deploy-gh-pages
 
 UV := uv
 OUTPUT_DIR := gh-pages/data
@@ -78,3 +78,31 @@ tools-scrape-meetup:  ## Scraping histórico
 requirements-freeze:  ## Genera requirements.txt (compatibilidad temporal)
 	$(UV) pip freeze > requirements.txt
 	@echo "⚠️  requirements.txt generado para compatibilidad"
+
+# Despliegue a rama orphan gh-pages
+deploy-gh-pages:  ## Publica gh-pages/ y data/ en la rama orphan gh-pages
+	@echo "Publicando en rama orphan gh-pages..."
+	$(eval TMPDIR := $(shell mktemp -d))
+	cp -r gh-pages/* $(TMPDIR)/
+	mkdir -p $(TMPDIR)/data
+	cp data/history.json $(TMPDIR)/data/ 2>/dev/null || true
+	cp data/geocoding_cache.json $(TMPDIR)/data/ 2>/dev/null || true
+	cp docs/COMMUNITIES.md $(TMPDIR)/ 2>/dev/null || true
+	git config --local user.email "action@github.com"
+	git config --local user.name "GitHub Action"
+	git stash --include-untracked || true
+	if git fetch origin gh-pages 2>/dev/null; then \
+		git checkout gh-pages; \
+	else \
+		git checkout --orphan gh-pages; \
+		git rm -rf . 2>/dev/null || true; \
+	fi
+	git rm -rf . 2>/dev/null || true
+	cp -r $(TMPDIR)/* .
+	rm -rf $(TMPDIR)
+	git add -A
+	git commit -m "🤖 Auto-update: Refresh events calendar & persist data" || true
+	git push origin gh-pages --force
+	git checkout main
+	git stash pop || true
+	@echo "✓ Publicado en rama gh-pages"

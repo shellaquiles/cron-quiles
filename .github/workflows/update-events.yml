@@ -14,7 +14,7 @@ on:
     branches:
       - main
       - master
-    # Se ejecuta en cualquier push, pero solo hace commit si hay cambios en los datos
+    # Se ejecuta en cualquier push, pero solo hace deploy si hay cambios en los datos
 
 jobs:
   update:
@@ -41,35 +41,88 @@ jobs:
         run: uv sync --frozen
 
       - name: Prepare gh-pages directory
+        run: mkdir -p gh-pages
+
+      - name: Restaurar estado previo desde rama gh-pages
         run: |
-          mkdir -p gh-pages
+          # Intentar obtener archivos de estado de la rama orphan gh-pages
+          if git fetch origin gh-pages 2>/dev/null; then
+            echo "Rama gh-pages encontrada, restaurando estado previo..."
+            # Restaurar history.json y geocoding_cache.json
+            git show origin/gh-pages:data/history.json > data/history.json 2>/dev/null || echo "Sin history.json previo"
+            git show origin/gh-pages:data/geocoding_cache.json > data/geocoding_cache.json 2>/dev/null || echo "Sin geocoding_cache.json previo"
+            # Restaurar datos generados previos para comparación
+            mkdir -p /tmp/prev-gh-pages-data
+            git archive origin/gh-pages -- gh-pages/data/ 2>/dev/null | tar -x -C /tmp/prev-gh-pages-data/ || true
+          else
+            echo "Primera ejecución: no existe rama gh-pages aún"
+          fi
 
       - name: Generate calendars for all cities
         env:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
         run: uv run python -m cronquiles.main --all-cities --json --output-dir gh-pages/data/
 
-      - name: Check if deployment needed
+      - name: Verificar si hay cambios para desplegar
         id: check-deploy
         run: |
-          if [ -n "$(git status --porcelain gh-pages/ data/ 2>/dev/null)" ]; then
-            echo "deploy=true" >> $GITHUB_OUTPUT
+          CHANGED=false
+          # Comparar datos generados con los previos de la rama gh-pages
+          if [ -d /tmp/prev-gh-pages-data/gh-pages/data ]; then
+            if ! diff -rq gh-pages/data/ /tmp/prev-gh-pages-data/gh-pages/data/ >/dev/null 2>&1; then
+              CHANGED=true
+            fi
+            # También verificar cambios en data/
+            for f in data/history.json data/geocoding_cache.json; do
+              if [ -f "$f" ]; then
+                PREV=$(git show origin/gh-pages:"$f" 2>/dev/null || true)
+                CURR=$(cat "$f")
+                if [ "$PREV" != "$CURR" ]; then
+                  CHANGED=true
+                fi
+              fi
+            done
           else
-            echo "deploy=false" >> $GITHUB_OUTPUT
+            # Primera ejecución, siempre desplegar
+            CHANGED=true
           fi
+          echo "deploy=$CHANGED" >> $GITHUB_OUTPUT
 
-      - name: Commit and push changes
+      - name: Publicar en rama orphan gh-pages
         if: steps.check-deploy.outputs.deploy == 'true'
         run: |
+          # Guardar archivos a publicar en directorio temporal
+          TMPDIR=$(mktemp -d)
+          cp -r gh-pages/* "$TMPDIR/"
+          mkdir -p "$TMPDIR/data"
+          cp data/history.json "$TMPDIR/data/" 2>/dev/null || true
+          cp data/geocoding_cache.json "$TMPDIR/data/" 2>/dev/null || true
+          cp docs/COMMUNITIES.md "$TMPDIR/" 2>/dev/null || true
+
+          # Configurar git
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # Actualizar el repositorio local antes de hacer push para evitar conflictos
-          git fetch origin
-          BRANCH=$(git branch --show-current || echo "main")
-          git pull --rebase origin $BRANCH || true
-          git add gh-pages/ data/ docs/COMMUNITIES.md
+
+          # Eliminar directorio gh-pages/ para evitar ambigüedad con la rama
+          rm -rf gh-pages
+
+          # Cambiar a rama orphan gh-pages (crear si no existe)
+          if git fetch origin gh-pages 2>/dev/null; then
+            git checkout -f gh-pages
+          else
+            git checkout --orphan gh-pages
+            git rm -rf . 2>/dev/null || true
+          fi
+
+          # Limpiar y copiar archivos nuevos
+          git rm -rf . 2>/dev/null || true
+          cp -r "$TMPDIR"/* .
+          rm -rf "$TMPDIR"
+
+          # Commit y push
+          git add -A
           git commit -m "🤖 Auto-update: Refresh events calendar & persist data [skip ci]" || exit 0
-          git push origin $BRANCH || exit 0
+          git push origin gh-pages --force
 
       - name: Setup Pages
         if: steps.check-deploy.outputs.deploy == 'true'

@@ -23,16 +23,15 @@ wheels/
 .installed.cfg
 *.egg
 
-# Output files (permitir los archivos generados en gh-pages/)
-# Los archivos cronquiles.ics y cronquiles.json se generan en gh-pages/
-# pero ignoramos otros archivos .ics/.json temporales
+# Output files
+# Los archivos .ics y .json generados se publican en la rama orphan gh-pages,
+# no se rastrean en main
 *.ics
 *.json
-# Permitir archivos en gh-pages/ para GitHub Pages
-!gh-pages/data/*.ics
-!gh-pages/data/*.json
+# Datos generados por el pipeline (viven en rama orphan gh-pages)
+gh-pages/data/
 !gh-pages/index.html
-# Datos persistentes importantes
+# Datos persistentes importantes (historial y caché de geocoding)
 !data/*.json
 # Config files
 !config/feeds.yaml
