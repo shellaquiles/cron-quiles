@@ -23,6 +23,21 @@ export const DateUtils = {
     },
 
     /**
+     * Fecha corta para escaneo rápido (día + mes abrev.)
+     * @param {string|Date} date
+     * @returns {string} ej. "6 feb" (es) o "Feb 6" (en)
+     */
+    formatShortDate(date) {
+        if (!date) return '';
+        const d = new Date(date);
+        const locale = i18n.getLocale();
+        const day = d.getDate();
+        const monthStr = d.toLocaleDateString(locale, { month: 'short' }).replace(/\./g, '');
+        const month = locale.startsWith('es') ? monthStr.toLowerCase() : monthStr;
+        return locale.startsWith('es') ? `${day} ${month}` : `${month} ${day}`;
+    },
+
+    /**
      * Formatea la hora
      * @param {string|Date} date
      */

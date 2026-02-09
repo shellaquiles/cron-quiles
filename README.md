@@ -1,6 +1,15 @@
 # Cron-Quiles Frontend
 
-This directory contains the static site generator output and the source code for the frontend application. It is built with **Vanilla JS** using **ES Modules** for a modular, dependency-free architecture.
+This directory contains the static site and frontend source. It is built with **Vanilla JS** and **ES Modules** (no build step).
+
+## Pages
+
+- **index.html** – Landing: city selector and CTAs to "Ver eventos" and "Añadir a mi calendario".
+- **eventos.html** – Calendar + event list by day; click a day to scroll to that day's events.
+- **suscribir.html** – Add to calendar: copy WebCal link, download ICS, and "Cómo usar" steps.
+- **comunidades.html** – List of integrated communities by city.
+
+Shared header/nav and terminal-style UI (green on dark, JetBrains Mono) across all pages.
 
 ## Development
 
@@ -48,14 +57,20 @@ gh-pages/
 │   │   ├── DataService.js # Fetches JSON/ICS data
 │   │   └── Storage.js   # LocalStorage wrapper
 │   ├── ui/              # UI Components
-│   │   ├── Calendar.js  # Complex Calendar Logic
-│   │   ├── Header.js    # Navbar & Controls
+│   │   ├── Calendar.js  # Calendar grid, event list by day, click-day-to-scroll, event cards
+│   │   ├── Header.js    # Lang switcher, last-update
 │   │   └── CommunityList.js
 │   └── utils/           # Helpers
-│       ├── dates.js     # Date formatting
-│       └── dom.js       # DOM manipulation
-└── index.html           # Main HTML (uses type="module")
+│       ├── dates.js     # Date/time formatting (incl. formatShortDate)
+│       └── dom.js       # DOM helpers
+└── index.html, eventos.html, suscribir.html, comunidades.html
 ```
+
+### Key behavior
+
+- **Calendar**: Clicking a day scrolls to that day's events (list grouped by day with IDs `#day-YYYY-MM-DD`). "Hoy" button resets to current month. Mobile: arrow-only prev/next, single-row header.
+- **Event cards**: Date first (pill), category badge, title, location (or "en línea" for online), "Ver en mapa" link (next line) for physical events only, then CTA (e.g. Ver en Luma) and description.
+- **Online events**: Detected by `event.online` or location URL; show "en línea" and omit "Ver en mapa".
 
 ### Key Concepts
 

@@ -28,6 +28,9 @@ export const CONFIG = {
         getMetadataUrl: () => `data/states_metadata.json`,
         getDataUrl: (city) => city === 'mexico' ? `data/cronquiles-mexico.json` : `data/cronquiles-${city}.json`,
         getIcsUrl: (city) => city === 'mexico' ? `data/cronquiles-mexico.ics` : `data/cronquiles-${city}.ics`,
-        getWebCalUrl: (city) => `webcal://${window.location.host}${window.location.pathname.replace('index.html', '')}data/cronquiles-${city}.ics`
+        getWebCalUrl: (city) => {
+            const base = (window.location.pathname || '/').replace(/\/[^/]*$/, '/');
+            return `webcal://${window.location.host}${base}data/cronquiles-${city}.ics`;
+        }
     }
 };

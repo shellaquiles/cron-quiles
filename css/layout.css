@@ -1,6 +1,10 @@
 /**
  * Base Layout & Reset
  */
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -104,8 +108,12 @@ body::before {
 
 /* Responsive */
 @media (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
     .terminal {
-        padding: var(--spacing-md);
+        padding: var(--spacing-sm) 0;
     }
 
     .terminal-header {
