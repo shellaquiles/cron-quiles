@@ -4077,15 +4077,6 @@ X-CRONQUILES-STATE:Jalisco
 X-CRONQUILES-STATE-CODE:MX-JAL
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rust-AICollective|[INTERNAL] AIC Accelerator|Online
-DTSTART:20260210T000000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/39uotfub\n\nHo
- sted by The AI Collective
-LOCATION:https://luma.com/event/evt-qzOBOqvKOupfBLR
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-qzOBOqvKOupfBLR
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Frutero Club|Casa Frutero - Coworking Frutal #6|México|Ciudad de 
  México
 DTSTART:20260211T160000Z
@@ -4280,7 +4271,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ajolotes en la Nube|Descubre Kiro: El IDE Agentico que está cambi
  ando como desarrollar código|México|Ciudad de México
-DTSTART:20260212T190000
+DTSTART:20260212T180000
 CATEGORIES:ai,cloud,frontend,security
 DESCRIPTION:AWS User Group: Ajolotes en la Nube\n# 🚀 Kiro Deep Dive: Do
  mina el IDE Agéntico con Expertos de AWS\n\n¡El desarrollo de software h
@@ -5064,6 +5055,56 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Marc
+ h 12 - Agents\, MCP and Skills Virtual Meetup|Online
+DTSTART:20260312T100000
+CATEGORIES:ai,data,devops,frontend
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nJoin us for a special edition of the AI\, ML and Computer Vision Meetup w
+ here we will focus on Agents\, MCP and Skills!\n\n**Date\, Time\, Location
+ **\n\nMar 12\, 2026\n9 - 11 AM PST\nOnline. **[Register for the Zoom!](htt
+ ps://voxel51.com/events/mcp-and-skills-meetup-march-12-2026)**\n\n**Agents
+  Building Agents on the Hugging Face Hub**\n\nDiscover how coding agents c
+ an run or support your fine-tuning experiments. From quick dataset validat
+ ion and preprocessing\, to optimal GPU hardware selection\, to automated j
+ ob submission based on metric tracking\, to evaluation. Ben will demonstra
+ te how Hugging Face skills can be used to define best practices for agents
+  to support machine learning experiments. Bring Claude\, Codex\, or Mistra
+ l Vibes\, and we’ll show you to get it training models with GRPO\, SFT\,
+  and DPO.\n\n*About the Speaker*\n\n[Ben Burtenshaw](https://www.linkedin.
+ com/in/ben-burtenshaw/) is a Machine Learning Engineer at Hugging Face\, f
+ ocusing on building agents with fine-tuning and reinforcement learning. He
+  led educational projects like the Agents Course\, the MCP Course\, and th
+ e LLM course\, which bridge the gap between complex Reinforcement Learning
+  (RL) techniques and practical application. Ben focuses on democratizing a
+ ccess to efficient AI\, empowering the community to align\, evaluate\, and
+  deploy transparent agentic systems.\n\n**Claude Code Templates**\n\nThis 
+ talk explores how to configure and align Claude Code agents using template
+ s and custom components. I'll demonstrate practical configuration patterns
+  that ensure your CLI agent executes exactly what you intend\, covering Sk
+ ills setup\, hooks implementation\, and template customization. Drawing fr
+ om real-world examples building Claude Code Templates\, attendees will lea
+ rn how to structure their agent configurations for consistent\, reliable b
+ ehavior and create reusable components that maintain alignment across diff
+ erent use cases.\n\n*About the Speaker*\n\n[Daniel Avila](https://www.link
+ edin.com/in/daniel-avila-arias/) is an AI Engineer at Hedgineer building a
+ gentic systems and creator of Claude Code Templates.\n\n**Move Faster in C
+ omputer Vision by Teaching Agents to See Your Data**\n\nComputer vision te
+ ams spend too much time writing scripts just to find bad labels\, blurry i
+ mages\, and edge cases. In this talk\, I’ll show how to move that work t
+ o agents by using FiftyOne as a visual operating system. With Skills and M
+ CP\, agents can see inside your datasets\, explore them visually\, and han
+ dle common data cleanup tasks\, so you can spend less time on data and mor
+ e time shipping models.\n\n*About the Speaker*\n\n[Adonai Vera](https://ww
+ w.linkedin.com/in/adonai-vera/) \\- Machine Learning Engineer & DevRel at 
+ Voxel51\\. With over 7 years of experience building computer vision and ma
+ chine learning models using TensorFlow\, Docker\, and OpenCV\\. I started 
+ as a software developer\, moved into AI\, led teams\, and served as CTO\\.
+  Today\, I connect code and community to build open\, production\\-ready A
+ I\, making technology simple\, accessible\, and reliable\\.
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:HackGDL|HackGDL 2026|México|Jalisco
 DTSTART:20260314T090000
 DESCRIPTION:¡Acompáñanos en la tercera edición de HackGD! Será un eve
@@ -5341,82 +5382,6 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  ence and machine learning engineer with a passion for deep learning and ge
  nerative AI. He’s got a deep interest in RAG\, Agents\, and Multimodal A
  I.
-LOCATION:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Apri
- l 16 - AI\, ML and Computer Vision Meetup en Español|Online
-DTSTART:20260416T100000
-CATEGORIES:ai,devops,frontend,web
-DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
- nJoin our virtual meetup to hear talks from experts on cutting-edge topics
-  across AI\, ML\, and computer vision en Español .\n\n**Date\, Time and L
- ocation**\n\nApr 16\, 2026\n9 - 11 AM Pacific\nOnline. **[Register for the
-  Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-en-esp
- anol-april-16-2026)**\n\n**Uncertainty in Large Vision-Language Models and
-  Computer Vision**\n\nWhat if we train a model to classify dogs and cats\,
-  but it is later tested with an image of a human? Generally the model will
-  output either dog or cat\, and has no ability to signal that the image ha
- s no class that it can recognize.\n\nMachine learning models by default do
-  not provide estimates of their confidence or uncertainty\, which hinders 
- their use in applications involving humans. Possible solutions is the use 
- of Bayesian Neural Networks or similar models.\n\nIn this talk I will show
-  research applications of neural networks with uncertainty quantification\
- , covering Computer Vision\, Large Language Models and Vision-Language Mod
- els. This includes super-resolution\, frame generation\, verbalized uncert
- ainty\, robustness to corrupted inputs\, and input uncertainty.\n\n*About 
- the Speaker*\n\n[Dr. Matias Valdenegro](https://www.linkedin.com/in/matias
- -valdenegro-toro-29383717/) is Tenured Assistant Professor of Machine Lear
- ning at the Department of Artificial Intelligence\, Bernoulli Institute\, 
- University of Groningen since 2022. He studied Computer Science\, Autonomo
- us Systems\, and Electrical Engineering in Chile\, Germany\, and Scotland\
- , holding a PhD from Heriot-Watt University on a thesis in detecting marin
- e debris in sonar images. As a Researcher at the German Research Center fo
- r Artificial Intelligence in Bremen he conducted research in Computer Visi
- on and Uncertainty Quantification from 2018 to 2022.\n\n**Deep Generative 
- Modeling for Multimodal Human Trajectory Prediction**\n\nIn this talk\, I 
- plan to show how deep generative models can be used as powerful multiple-h
- ypothesis predictive models\, in human trajectory prediction. This kind of
-  problem arises in particular in autonomous driving. I will show a few wor
- ks we have done in the past and a few ongoing works in my team.\n\n*About 
- the Speaker*\n\n[Jean-Bernard Hayet](https://www.linkedin.com/in/jean-bern
- ard-hayet-a988381/) studied my engineering degree at Ecole Nationale Supé
- rieure de Techniques Avancées (ENSTA) in Paris\, and obtained my master d
- egree in artificial intelligence at University Paris VI. I got my Ph.D. de
- gree from University of Toulouse in 2003\, at LAAS-CNRS\, in Toulouse.\n\n
- **Cuando el conocimiento es Open la Innovación se acelera**\n\nEn esta ch
- arla mostraremos cómo\, cuando el conocimiento es abierto\, la innovació
- n se acelera al volverse accesible para cualquier colaborador y no solo pa
- ra unos pocos expertos. Presentare Promptotyper\, una plataforma creada po
- r Innovaitors que integra modelos open source y librerías como LangChain 
- y LangGraph para habilitar soluciones agénticas que guían desde el plant
- eamiento del problema hasta el prototipado.\n\nA través de agentes expert
- os en innovación\, los equipos pueden estructurar retos empresariales y a
- vanzar hacia soluciones en áreas como automatización (por ejemplo con n8
- n)\, prototipado de aplicaciones web y analítica de datos. El enfoque dem
- ocratiza el “saber hacer” innovación en empresas de Latinoamérica\, 
- reduciendo la fricción y aumentando la velocidad de aprendizaje y ejecuci
- ón. Al final\, verás cómo convertir el expertise en un sistema reutiliz
- able que escala capacidades de innovación en toda la organización.\n\n*A
- bout the Speaker*\n\n[Alejandro Uribe](https://www.linkedin.com/in/dauribe
- l/) es científico de datos\, cofundador de Innovaitors y consultor en ind
- ustria 4.0. Magíster en Inteligencia Artificial (U. Javeriana)\, profesor
-  en la U. Externado e investigador en IA en la Javeriana\, con 6 años des
- arrollando soluciones de IA y analítica de datos.\n\nFrom Using Open Sour
- ce to Contributing: A Practical Guide to Getting Started\n\nOpen source is
-  one of the best ways to learn faster\, build real experience\, and grow y
- our career\, but many people don’t know how to start. In this talk\, I s
- hare a very practical approach to contributing to open source\, based on r
- eal experience. We’ll cover how to choose the right project\, understand
-  large codebases\, start with small contributions\, and communicate clearl
- y with maintainers. Using FiftyOne as a real example (but keeping everythi
- ng general)\, I’ll show how small actions like fixing docs\, improving t
- ooling\, or opening a simple PR can lead to long-term impact\, visibility\
- , and growth.\n\n*About the Speaker*\n\n[Adonai Vera](https://www.linkedin
- .com/in/adonai-vera/) \\- Machine Learning Engineer & DevRel at Voxel51\\.
-  With over 7 years of experience building computer vision and machine lear
- ning models using TensorFlow\, Docker\, and OpenCV\\. I started as a softw
- are developer\, moved into AI\, led teams\, and served as CTO\\.
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
