@@ -4176,6 +4176,23 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|Pitch and Run CDMX|México|Ciudad de México
+DTSTART:20260212T133000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/bx480zhp\n\nAd
+ dress:\nMercado de Flores\nCiudad de México\, Ciudad de México\nMexico\n
+ \nHosted by Eleanor Davies & 4 others
+LOCATION:Mercado de Flores\, Av Constituyentes\, Bosque de Chapultepec I S
+ ecc\, Miguel Hidalgo\, 11580 Ciudad de México\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Av Constituyentes\, Bosque de Chapultepec I Secc\, Mi
+ guel Hidalgo\, 11580 Ciudad de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Feb 
  12 - AI\, ML and Computer Vision Meetup en Español|Online
 DTSTART:20260212T110000
@@ -4504,20 +4521,19 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  line keeping annotators\, tools\, and models aligned and closing the loop 
  from annotation\, curation\, back to model training and evaluation.\n\n**T
  ime and Location**\n\nFeb 18\, 2026\n10 - 11 AM PST\nOnline. **[Register f
- or the Zoom!](https://voxel51.com/events/building-feedback-driven-annotati
- on-pipelines-for-end-to-end-ml-workflows-february-18-2026)**\n\n**What you
- 'll learn**\n\n* **Techniques for labeling the data that matters the most*
- * for annotation time and cost savings\n* **Structure human-in-the-loop wo
- rkflows** for finding and fixing model errors\, data gaps\, and targeted r
- elabeling instead of bulk labeling\n* **Combine auto-labeling and human re
- view** in a single\, feedback-driven pipeline for perception models\n* **U
- se label schemas and metadata as “data contracts”** to enforce consist
- ency between annotators\, models\, and tools\, especially for multimodal d
- ata\n* **Detect and manage schema drift** and tie schema versions to datas
- et and model versions for reproducibility\n* **QA and review steps** that 
- surface label issues early and tie changes back to model behavior\n* **An 
- annotation architecture** that can accommodate new perception tasks and fe
- edback signals without rebuilding your entire data stack
+ or the Zoom!](https://link.voxel51.com/26-0218-annotation-meetup)**\n\n**W
+ hat you'll learn**\n\n* **Techniques for labeling the data that matters th
+ e most** for annotation time and cost savings\n* **Structure human-in-the-
+ loop workflows** for finding and fixing model errors\, data gaps\, and tar
+ geted relabeling instead of bulk labeling\n* **Combine auto-labeling and h
+ uman review** in a single\, feedback-driven pipeline for perception models
+ \n* **Use label schemas and metadata as “data contracts”** to enforce 
+ consistency between annotators\, models\, and tools\, especially for multi
+ modal data\n* **Detect and manage schema drift** and tie schema versions t
+ o dataset and model versions for reproducibility\n* **QA and review steps*
+ * that surface label issues early and tie changes back to model behavior\n
+ * **An annotation architecture** that can accommodate new perception tasks
+  and feedback signals without rebuilding your entire data stack
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
@@ -4882,6 +4898,36 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/aidatagh\n\nHo
  a
 LOCATION:https://luma.com/event/evt-rI9mxNqygqodV1R
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-rI9mxNqygqodV1R
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Feb 
+ 26 - Exploring Video Datasets with FiftyOne and Vision-Language Models|Onl
+ ine
+DTSTART:20260226T110000
+CATEGORIES:ai,data,frontend
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nJoin [Harpreet Sahota](https://www.linkedin.com/in/harpreetsahota204/) fo
+ r a virtual workshop to learn how to use Facebook's Action100M dataset and
+  FiftyOne to build an end-to-end workflow.\n\n**Date\, Time and Location**
+ \n\nFeb 26\, 2026\n9am - 10am Pacific\nOnline. **[Register for the Zoom!](
+ https://voxel51.com/events/exploring-video-datasets-with-fiftyone-and-visi
+ on-language-models-february-26-2026)**\n\nVideo is the hardest modality to
+  work with. You're dealing with more data\, temporal complexity\, and anno
+ tation workflows that don't scale. This hands-on workshop tackles a practi
+ cal question: given a large video dataset\, how do you understand what's i
+ n it without manually watching thousands of clips?\n\nIn this workshop you
+ 'll learn how to:\n\n* **Navigate and explore** video data in the FiftyOne
+  App\, filter samples\, and understand dataset structure\n* **Compute embe
+ ddings** with Qwen3-VL to enable semantic search\, zero-shot classificatio
+ n\, and clustering\n* **Generate descriptions and localize events** using 
+ vision-language models like Qwen3-VL and Molmo2\n* **Visualize patterns** 
+ in your data through embedding projections and the FiftyOne App\n* **Evalu
+ ate model outputs** against Action100M's hierarchical annotations to valid
+ ate what the models actually capture\n\nBy the end of the session\, you'll
+  have a reusable toolkit for understanding any video dataset at scale\, wh
+ ether you're curating training data\, debugging model performance\, or exp
+ loring a new domain.
+LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|🧠 The AI Collective Stamford  -  Batchery AI 
@@ -5350,50 +5396,6 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  source contributor and active mentor in the AI community\, helping teams m
  ove from AI experimentation to reliable agentic applications in production
  .
-LOCATION:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Apri
- l 9 - Workshop: Build a Visual Agent that can Navigate GUIs like Humans|On
- line
-DTSTART:20260409T100000
-CATEGORIES:ai,backend,data,frontend,web
-DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
- nThis hands-on workshop provides a comprehensive introduction to building 
- and evaluating visual agents for GUI automation using modern tools and tec
- hniques.\n\n**Date\, Time and Location**\n\nApril 9\, 2026 at 9 AM Pacific
- \nOnline. **[Register for the Zoom](https://voxel51.com/events/visual-agen
- ts-what-it-takes-to-build-an-agent-that-can-navigate-guis-like-humans-apri
- l-9-2026)**\n\nVisual agents that can understand and interact with graphic
- al user interfaces represent a transformative frontier in AI automation. T
- hese systems combine computer vision\, natural language understanding\, an
- d spatial reasoning to enable machines to navigate complex interfaces—fr
- om web applications to desktop software—just as humans do. However\, bui
- lding robust GUI agents requires careful attention to dataset curation\, m
- odel evaluation\, and iterative improvement workflows.\n\nParticipants wil
- l learn how to leverage [FiftyOne](https://github.com/voxel51/fiftyone)\, 
- an open-source toolkit for dataset curation and computer vision workflows\
- , to build production-ready GUI agent systems.\n\nWhat You'll Learn:\n\n* 
- **Dataset Creation & Management:** How to structure\, annotate\, and load 
- GUI interaction datasets using the COCO4GUI standardized format\n* **Data 
- Exploration & Analysis:** Using FiftyOne's interactive interface to visual
- ize datasets\, analyze action distributions\, and understand annotation pa
- tterns\n* **Multimodal Embeddings:** Computing embeddings for screenshots 
- and UI element patches to enable similarity search and retrieval\n* **Mode
- l Inference:** Running state-of-the-art models like Microsoft's GUI-Actor 
- to predict interaction points from natural language instructions\n* **Perf
- ormance Evaluation:** Measuring model accuracy using standard metrics and 
- normalized click distance to assess localization precision\n* **Failure An
- alysis:** Investigating model failures through attention maps\, error patt
- ern analysis\, and systematic debugging workflows\n* **Data-Driven Improve
- ment:** Tagging samples based on error types (attention misalignment vs. l
- ocalization errors) to prioritize fine-tuning efforts\n* **Synthetic Data 
- Generation:** Using FiftyOne plugins to augment training data with synthet
- ic task descriptions and variations\n\n*About the Speaker*\n\n[Harpreet Sa
- hota](https://www.linkedin.com/in/harpreetsahota204/) is a hacker-in-resid
- ence and machine learning engineer with a passion for deep learning and ge
- nerative AI. He’s got a deep interest in RAG\, Agents\, and Multimodal A
- I.
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
