@@ -29,6 +29,7 @@ from .aggregators.meetup import MeetupAggregator
 from .aggregators.ics import GenericICSAggregator
 from .aggregators.manual import ManualAggregator
 from .aggregators.hievents import HiEventsAggregator
+from .aggregators.gdgcommunitydev import GdgCommunityDev
 from .schemas import JSONOutputSchema, CommunitySchema, CommunityLinkSchema
 
 # Configurations
@@ -157,6 +158,8 @@ def _aggregator_key_for_url(url: str) -> str:
         return "meetup"
     if "/reuniones." in url or "hi.events" in url:
         return "hievents"
+    if "gdg.community.dev" in url:
+        return "gdgcommunitydev"
     return "ics"
 
 
@@ -187,6 +190,8 @@ def _extract_one_feed(
         )
     elif agg_key == "hievents":
         agg = HiEventsAggregator(session)
+    elif agg_key == "gdgcommunitydev":
+        agg = GdgCommunityDev(session)
     else:
         agg = GenericICSAggregator(session, timeout, max_retries)
     try:
