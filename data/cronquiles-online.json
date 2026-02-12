@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-12T01:20:31.735209+00:00",
-  "total_events": 153,
+  "generated_at": "2026-02-12T06:54:34.381709+00:00",
+  "total_events": 154,
   "city": "Online",
   "communities": [
     {
@@ -56,6 +56,17 @@
       "name": "Mexico Tech Week",
       "description": "Calendario oficial de Mexico Tech Week 2025.",
       "links": []
+    },
+    {
+      "name": "Pythonista",
+      "description": "Una de las comunidades de Python más grandes y activas de México. Charlas y talleres para todos los niveles.",
+      "links": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/pythonista",
+          "label": "Meetup"
+        }
+      ]
     },
     {
       "name": "Rust-AICollective",
@@ -4244,6 +4255,38 @@
       "city_code": "",
       "address": "",
       "hash_key": "march 12 agents mcp and skills virtual m_2026-03-12T18:00:00+00:00"
+    },
+    {
+      "title": "Pythonista|Introducción a Ingeniería y Analítica de Datos con Pyhon|Online",
+      "description": "Pythonista®\n## 🚀 **Taller: Introducción a la Ingeniería y Analítica de Datos con Python**\n\n¿Quieres dominar las herramientas que utilizan los Ingenieros de Datos y Científicos de Datos hoy en día? Únete a este taller práctico de **24 horas** donde pasaremos de los fundamentos numéricos a la creación de aplicaciones de datos de alto rendimiento.\nEn este curso, no solo aprenderás la teoría, sino que trabajarás con el ecosistema moderno de Python (**Pandas, Polars, PyArrow, Dask, Streamlit**) para procesar grandes volúmenes de información de manera eficiente.\n\n### 🎁 Promoción Exclusiva Meetup\n\n¡Queremos premiar a los primeros en sumarse!\n\n* **Precio regular:** $29 USD\n* **Precio especial Meetup:** **$20 USD** (Solo para los **primeros 25 inscritos**).\n\n***\n\n### 📅 Detalles del Evento\n\n* **Fechas:** Del 23 de febrero al 12 de marzo.\n* **Sesiones:** Lunes a jueves (12 sesiones en total).\n* **Horario:** 18:30 a 20:30 horas (CST - CDMX).\n* **Modalidad:** Online en vivo (incluye acceso a grabaciones y materiales en GitHub).\n\n***\n\n### 🛠️ ¿Qué aprenderás?\n\nEl taller está dividido en 5 módulos estratégicos:\n\n1. **Fundamentos Numéricos:** Computación vectorial con NumPy y el ecosistema SciPy.\n2. **Pandas Moderno:** Optimización de memoria con PyArrow y gestión eficiente de tipos de datos.\n3. **ETL y Analítica Avanzada:** Técnicas de Windowing, limpieza de datos y transformaciones complejas.\n4. **Ingeniería de Alto Rendimiento:** Procesamiento con **Polars** (el futuro de los DataFrames) y computación distribuida con **Dask**.\n5. **Visualización y Producto:** Gráficos estadísticos con Seaborn y despliegue de **Data Apps con Streamlit**.\n\n***\n\n### 📋 Requisitos\n\n* Conocimientos básicos de Python.\n* Cuenta de GitHub (trabajaremos directamente en la nube con Codespaces).\n* ¡Muchas ganas de aprender!\n\n### 🎓 Certificación\n\nSe otorgará un **diploma de asistencia** a quienes participen en al menos el 80% de las sesiones.\n\n### 🔗 Cómo inscribirse\n\n1. Realiza tu pago con el descuento de Meetup aquí.\n2. Una vez realizado, completa tu registro oficial en: [https://www.pythonista.io/eventos/data_eng_intro-2602](https://www.pythonista.io/eventos/data_eng_intro-2602)\n\n**¡Corre! El cupo para el descuento de $20 USD es limitado a los primeros 25.**",
+      "url": "https://www.meetup.com/pythonista/events/313316350/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/pythonista/events/313316350/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "Pythonista",
+      "dtstart": "2026-03-12T18:30:00-06:00",
+      "dtend": "2026-03-12T20:30:00-06:00",
+      "tags": [
+        "ai",
+        "data",
+        "frontend",
+        "python"
+      ],
+      "source": "https://www.meetup.com/pythonista/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "introduccin a ingeniera y analtica de da_2026-03-13T00:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|March 18 - Vibe Coding Production-Ready Computer Vision Pipelines Workshop|Online",
