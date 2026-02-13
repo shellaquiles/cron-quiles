@@ -290,6 +290,39 @@
     "hash_key": "to be announced por anunciar_2026-04-22T00:00:00+00:00"
   },
   {
+    "title": "México City AI, Machine Learning and Computer Vision Meetup|April 9 - Workshop: Build a Visual Agent that can Navigate GUIs like Humans|Online",
+    "description": "México City AI, Machine Learning and Computer Vision Meetup\nThis hands-on workshop provides a comprehensive introduction to building and evaluating visual agents for GUI automation using modern tools and techniques.\n\n**Date, Time and Location**\n\nApril 9, 2026 at 9 AM Pacific\nOnline. **[Register for the Zoom](https://voxel51.com/events/visual-agents-what-it-takes-to-build-an-agent-that-can-navigate-guis-like-humans-april-9-2026)**\n\nVisual agents that can understand and interact with graphical user interfaces represent a transformative frontier in AI automation. These systems combine computer vision, natural language understanding, and spatial reasoning to enable machines to navigate complex interfaces—from web applications to desktop software—just as humans do. However, building robust GUI agents requires careful attention to dataset curation, model evaluation, and iterative improvement workflows.\n\nParticipants will learn how to leverage [FiftyOne](https://github.com/voxel51/fiftyone), an open-source toolkit for dataset curation and computer vision workflows, to build production-ready GUI agent systems.\n\nWhat You'll Learn:\n\n* **Dataset Creation & Management:** How to structure, annotate, and load GUI interaction datasets using the COCO4GUI standardized format\n* **Data Exploration & Analysis:** Using FiftyOne's interactive interface to visualize datasets, analyze action distributions, and understand annotation patterns\n* **Multimodal Embeddings:** Computing embeddings for screenshots and UI element patches to enable similarity search and retrieval\n* **Model Inference:** Running state-of-the-art models like Microsoft's GUI-Actor to predict interaction points from natural language instructions\n* **Performance Evaluation:** Measuring model accuracy using standard metrics and normalized click distance to assess localization precision\n* **Failure Analysis:** Investigating model failures through attention maps, error pattern analysis, and systematic debugging workflows\n* **Data-Driven Improvement:** Tagging samples based on error types (attention misalignment vs. localization errors) to prioritize fine-tuning efforts\n* **Synthetic Data Generation:** Using FiftyOne plugins to augment training data with synthetic task descriptions and variations\n\n*About the Speaker*\n\n[Harpreet Sahota](https://www.linkedin.com/in/harpreetsahota204/) is a hacker-in-residence and machine learning engineer with a passion for deep learning and generative AI. He’s got a deep interest in RAG, Agents, and Multimodal AI.",
+    "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313207113/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313207113/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online",
+    "online": true,
+    "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
+    "dtstart": "2026-04-09T10:00:00-06:00",
+    "dtend": "2026-04-09T11:30:00-06:00",
+    "tags": [
+      "ai",
+      "backend",
+      "data",
+      "frontend",
+      "web"
+    ],
+    "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "april 9 workshop build a visual agent th_2026-04-09T16:00:00+00:00"
+  },
+  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|April 8 - Getting Started with FiftyOne|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nThis workshop provides a technical foundation for managing large scale computer vision datasets. You will learn to curate, visualize, and evaluate models using the [open source FiftyOne app](https://docs.voxel51.com/).\n\n**Date, Time and Location**\n\nApr 8, 2026\n10 AM PST - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/getting-started-with-fiftyone-april-8-2026)**\n\nThe session covers data ingestion, embedding visualization, and model failure analysis. You will build workflows to identify dataset bias, find annotation errors, and select informative samples for training. Attendees leave with a framework for data centric AI for research and production pipelines, prioritizing data quality over pure model iteration.\n\nWhat you'll learn\n\n* **Structure unstructured data.** Map data and metadata into a queryable schema for images, videos, and point clouds.\n* **Query datasets with the FiftyOne SDK**. Create complex views based on model predictions, labels, and custom tags. Use the FiftyOne to filter data based on logical conditions and confidence scores.\n* **Visualize high dimensional embeddings**. Project features into lower dimensions to find clusters of similar samples. Identify data gaps and outliers using FiftyOne Brain.\n* **Automate data curation.** Implement algorithmic measures to select diverse subsets for training. Reduce labeling costs by prioritizing high entropy samples.\n* **Debug model performance.** Run evaluation routines to generate confusion matrices and precision recall curves. Visualize false positives and false negatives directly in the App to understand model failures.\n* **Customize FiftyOne**. Build custom dashboards and interactive panels. Create specialized views for domain specific tasks.\n\n**Prerequisites:**\n\n* Working knowledge of Python and machine learning and/or computer vision fundamentals.\n* All attendees will get access to the tutorials and code examples used in the workshop.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313298951/",
@@ -738,7 +771,7 @@
     "online": false,
     "organizer": "Pythonistas GDL",
     "dtstart": "2026-02-28T00:30:00+00:00",
-    "dtend": "2026-02-28T00:30:00+00:00",
+    "dtend": "2026-02-28T04:00:00+00:00",
     "tags": [
       "cloud",
       "frontend",
@@ -898,6 +931,35 @@
     "city_code": "heroicapuebladezaragoza",
     "address": "Atlixcáyotl 5718, Reserva Territorial Atlixcáyotl, Corredor Comercial Desarrollo Atlixcayotl, 72453 Heroica Puebla de Zaragoza, Pue., México",
     "hash_key": "kick off talavera valley hub el evento q_2026-02-26T00:00:00+00:00"
+  },
+  {
+    "title": "FinTech México|VC Fintech Session by adn.vc, Zeta, GAIN & Semilla Ventures|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/31qel456\n\nAddress:\nTorre BBVA Bancomer\nJuárez, Ciudad de México\nMexico\n\nHosted by Nico Di Pace & 3 others",
+    "url": "https://luma.com/31qel456",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/31qel456",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Torre BBVA Bancomer, Av. P.º de la Reforma 506, Cuauhtémoc, 06600 Juárez, CDMX, Mexico",
+    "online": false,
+    "organizer": "FinTech México",
+    "dtstart": "2026-02-25T21:00:00+00:00",
+    "dtend": "2026-02-26T00:00:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://luma.com/02t893pf",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Juárez",
+    "city_code": "juarez",
+    "address": "Torre BBVA Bancomer, Av. P.º de la Reforma 506, Cuauhtémoc, 06600 Juárez, CDMX, México",
+    "hash_key": "vc fintech session by adn vc zeta gain s_2026-02-25T20:00:00+00:00"
   },
   {
     "title": "The Data Pub|Data Pub Febrero: La personalidad jurídica de la IA|México|Ciudad de México",
@@ -1635,6 +1697,33 @@
     "hash_key": "vibe coding caf_2026-02-13T22:00:00+00:00"
   },
   {
+    "title": "Frutero Club|Coworking Frutal - Work and Chill #2|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/ew6147x6\n\nAddress:\nAv. Insurgentes Sur 1877\nÁlvaro Obregón, Ciudad de México\nMexico\n\nHosted by Frutero",
+    "url": "https://luma.com/ew6147x6",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/ew6147x6",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, Mexico",
+    "online": false,
+    "organizer": "Frutero Club",
+    "dtstart": "2026-02-13T16:00:00+00:00",
+    "dtend": "2026-02-14T02:00:00+00:00",
+    "tags": [],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Álvaro Obregón",
+    "city_code": "alvaroobregon",
+    "address": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, México",
+    "hash_key": "coworking frutal work and chill 2_2026-02-13T16:00:00+00:00"
+  },
+  {
     "title": "v0 Prompt to Production Mexico City|How I Use AI – Vol 2|Online",
     "description": "Get up-to-date information at: https://luma.com/lgd37763\n\nHosted by Javier Rivero & 3 others",
     "url": "https://luma.com/lgd37763",
@@ -1662,36 +1751,6 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-rYB4HiifBPDm7LU",
     "hash_key": "how i use ai vol 2_2026-02-13T00:00:00+00:00"
-  },
-  {
-    "title": "Rust-AICollective|AI Education: Building AI Agents Together – Prototyping with the Playbook|Online",
-    "description": "Get up-to-date information at: https://luma.com/aic-gl-2-12\n\nHosted by The AI Collective & 3 others",
-    "url": "https://luma.com/aic-gl-2-12",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/aic-gl-2-12",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "https://luma.com/event/evt-V7EIN96sd7ChxnC",
-    "online": true,
-    "organizer": "Rust-AICollective",
-    "dtstart": "2026-02-12T23:30:00+00:00",
-    "dtend": "2026-02-13T00:30:00+00:00",
-    "tags": [
-      "ai",
-      "frontend"
-    ],
-    "source": "https://luma.com/rust-ios-ai",
-    "country": "",
-    "country_code": "",
-    "state": "",
-    "state_code": "",
-    "city": "",
-    "city_code": "",
-    "address": "https://luma.com/event/evt-V7EIN96sd7ChxnC",
-    "hash_key": "ai education building ai agents together_2026-02-12T22:00:00+00:00"
   },
   {
     "title": "Ajolotes en la Nube|Descubre Kiro: El IDE Agentico que está cambiando como desarrollar código|México|Ciudad de México",
@@ -1724,42 +1783,6 @@
     "city_code": "cdmx",
     "address": "Periférico Blvrd Manuel Ávila Camacho 261, Puerta Polanco, Polanco I Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX, México",
     "hash_key": "descubre kiro el ide agentico que est ca_2026-02-13T00:00:00+00:00"
-  },
-  {
-    "title": "México City AI, Machine Learning and Computer Vision Meetup|Feb 12 - AI, ML and Computer Vision Meetup en Español|Online",
-    "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.\n\nFeb 12, 2026\n9 - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-en-espanol-february-12-2026)**\n\n**AI On-Device: Potencia + Privacidad**\n\nDescubre como puedes aprovechar los modelos de AI para ejecutarlos directamente en tu dispositivo, ofreciendo velocidad, autonomía y privacidad real: los datos nunca abandonan tu teléfono. En esta charla veremos cómo funciona, qué posibilidades abre y por qué marca un antes y un después en la relación entre usuario y tecnología.\n\n*About the Speaker*\n\n[Eury Pérez Beltré](https://www.linkedin.com/in/euryperez/) en Android con 14 años de experiencia en el sector. Ha trabajado con marcas como Under Armour, BeachBody, Citizen, AdAction, Mode Mobile entre otros.\n\n**The magic of video generation! (Spanish)**\n\nVideo generation is no longer limited to cloud platforms like Google Veo3 and others!\n\nYou can also do it with open-source software—no cost and no restrictions!\nIn this talk, you’ll discover the node-based interface ComfyUI with models like Wan2.1. I’ll also give you a quick demo of an open-source extension I developed, which has gained huge popularity in the community in just one month (1.2k stars on GitHub).\n\nAll of this LIVE!\n\n*About the Speaker*\n\n[Crystian Bietti](https://www.linkedin.com/in/crystian/) apasionado por la tecnología en todos sus sabores.\nHoy: Maker especializado con IA Generativa (Audiovisual + Agentes + Automatización + Técnico + Ponente + Divulgador)\nAyer: Arquitecto de software de aplicaciones empresariales a gran escala.\n\n**Digital Twins: Building High-Fidelity Virtual Worlds from Real-World Data**\n\nDigital twins provide a powerful framework for creating high-fidelity virtual representations of real environments, enabling new forms of analysis, interaction, and decision-making. This talk will introduce the key principles behind building robust digital twins from real-world data, including capture workflows, reconstruction methods, and scalability considerations. I will present several use cases across domains such as cultural heritage, industrial environments and operations, virtual production, and interactive or gamified applications, illustrating how digital twins deliver measurable value in diverse contexts. The session will highlight how these models can integrate with computational pipelines, opening the door to applications that require high realism and scientific reliability. This general overview will establish a foundation that accommodates deeper exploration of specific applications during the live presentation.\n\n*About the Speaker*\n\n[Rubén Bernardino](https://www.linkedin.com/in/ruben-bernardino/) is an industrial engineer with nearly 30 years of international experience in engineering, cultural heritage, and emerging media technologies. As the founder and Project Lead at Dronícola, he develops high-fidelity digital twins and spatial-computing workflows that combine drones, LiDAR, photogrammetry, artificial intelligence, and game engines such as Unreal Engine for applications in virtual production, immersive environments, training, and smart-industry operations. His background includes senior engineering roles at General Motors, Ford, and Fiat Chrysler, complemented by studies in digital innovation and XR technologies at Stanford, Wageningen, and Picterra University.\n\n**A Practical Pipeline for Synthetic Data with Nano Banana Pro + FiftyOne**\n\nMost computer-vision failures come from the rare cases, the dark corners, odd combinations, and edge conditions we never capture enough in real datasets. In this session, we walk through a practical end-to-end pipeline for generating targeted synthetic data using Google’s Nano Banana Pro and managing it with FiftyOne. We’ll explore how to translate dataset gaps into generation prompts, create thousands of high-quality synthetic images, automatically enrich them with metadata, and bring everything into FiftyOne for inspection, filtering, and validation. By the end, you’ll understand how to build a repeatable synthetic-first workflow that closes real vision gaps and improves model performance on the scenarios that matter most.\n\n*About the Speaker*\n\n[Adonai Vera](https://www.linkedin.com/in/adonai-vera/) \\- Machine Learning Engineer & DevRel at Voxel51\\. With over 7 years of experience building computer vision and machine learning models using TensorFlow, Docker, and OpenCV\\. I started as a software developer, moved into AI, led teams, and served as CTO\\. Today, I connect code and community to build open, production\\-ready AI, making technology simple, accessible, and reliable\\.",
-    "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/312259135/",
-    "sources": [
-      {
-        "platform": "meetup",
-        "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/312259135/",
-        "label": "Ver en Meetup"
-      }
-    ],
-    "location": "Online",
-    "online": true,
-    "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
-    "dtstart": "2026-02-12T11:00:00-06:00",
-    "dtend": "2026-02-12T13:00:00-06:00",
-    "tags": [
-      "ai",
-      "backend",
-      "cloud",
-      "data",
-      "devops",
-      "frontend",
-      "mobile",
-      "security"
-    ],
-    "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
-    "country": "",
-    "country_code": "",
-    "state": "",
-    "state_code": "",
-    "city": "",
-    "city_code": "",
-    "address": "",
-    "hash_key": "feb 12 ai ml and computer vision meetup _2026-02-12T16:00:00+00:00"
   },
   {
     "title": "Frutero Club|Casa Frutero - Coworking Frutal #6|México|Ciudad de México",
@@ -8228,6 +8251,35 @@
     "city_code": "cdmx",
     "address": "C. Montes Urales 445, Lomas - Virreyes, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX, México",
     "hash_key": "mxtw transformacin digital para fundador_2024-10-22T14:00:00+00:00"
+  },
+  {
+    "title": "Mexico Tech Week|Tacos, Beer and Gen AI|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/heroguest\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week & 3 others",
+    "url": "https://luma.com/heroguest",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/heroguest",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Ciudad de México",
+    "online": false,
+    "organizer": "Mexico Tech Week",
+    "dtstart": "2024-10-21T19:30:00+00:00",
+    "dtend": "2024-10-21T22:00:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Ciudad de México, CDMX, México",
+    "hash_key": "tacos beer and gen ai_2024-10-21T18:00:00+00:00"
   },
   {
     "title": "Mexico Tech Week|Fintech Frenzy Future: Web3 Panel & Burger Lunch|México|Ciudad de México",
