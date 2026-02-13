@@ -566,38 +566,6 @@
     "hash_key": "hackgdl 2026_2026-03-14T14:00:00+00:00"
   },
   {
-    "title": "Pythonista|Introducción a Ingeniería y Analítica de Datos con Pyhon|Online",
-    "description": "Pythonista®\n## 🚀 **Taller: Introducción a la Ingeniería y Analítica de Datos con Python**\n\n¿Quieres dominar las herramientas que utilizan los Ingenieros de Datos y Científicos de Datos hoy en día? Únete a este taller práctico de **24 horas** donde pasaremos de los fundamentos numéricos a la creación de aplicaciones de datos de alto rendimiento.\nEn este curso, no solo aprenderás la teoría, sino que trabajarás con el ecosistema moderno de Python (**Pandas, Polars, PyArrow, Dask, Streamlit**) para procesar grandes volúmenes de información de manera eficiente.\n\n### 🎁 Promoción Exclusiva Meetup\n\n¡Queremos premiar a los primeros en sumarse!\n\n* **Precio regular:** $29 USD\n* **Precio especial Meetup:** **$20 USD** (Solo para los **primeros 25 inscritos**).\n\n***\n\n### 📅 Detalles del Evento\n\n* **Fechas:** Del 23 de febrero al 12 de marzo.\n* **Sesiones:** Lunes a jueves (12 sesiones en total).\n* **Horario:** 18:30 a 20:30 horas (CST - CDMX).\n* **Modalidad:** Online en vivo (incluye acceso a grabaciones y materiales en GitHub).\n\n***\n\n### 🛠️ ¿Qué aprenderás?\n\nEl taller está dividido en 5 módulos estratégicos:\n\n1. **Fundamentos Numéricos:** Computación vectorial con NumPy y el ecosistema SciPy.\n2. **Pandas Moderno:** Optimización de memoria con PyArrow y gestión eficiente de tipos de datos.\n3. **ETL y Analítica Avanzada:** Técnicas de Windowing, limpieza de datos y transformaciones complejas.\n4. **Ingeniería de Alto Rendimiento:** Procesamiento con **Polars** (el futuro de los DataFrames) y computación distribuida con **Dask**.\n5. **Visualización y Producto:** Gráficos estadísticos con Seaborn y despliegue de **Data Apps con Streamlit**.\n\n***\n\n### 📋 Requisitos\n\n* Conocimientos básicos de Python.\n* Cuenta de GitHub (trabajaremos directamente en la nube con Codespaces).\n* ¡Muchas ganas de aprender!\n\n### 🎓 Certificación\n\nSe otorgará un **diploma de asistencia** a quienes participen en al menos el 80% de las sesiones.\n\n### 🔗 Cómo inscribirse\n\n1. Realiza tu pago con el descuento de Meetup aquí.\n2. Una vez realizado, completa tu registro oficial en: [https://www.pythonista.io/eventos/data_eng_intro-2602](https://www.pythonista.io/eventos/data_eng_intro-2602)\n\n**¡Corre! El cupo para el descuento de $20 USD es limitado a los primeros 25.**",
-    "url": "https://www.meetup.com/pythonista/events/313316350/",
-    "sources": [
-      {
-        "platform": "meetup",
-        "url": "https://www.meetup.com/pythonista/events/313316350/",
-        "label": "Ver en Meetup"
-      }
-    ],
-    "location": "Online",
-    "online": true,
-    "organizer": "Pythonista",
-    "dtstart": "2026-03-12T18:30:00-06:00",
-    "dtend": "2026-03-12T20:30:00-06:00",
-    "tags": [
-      "ai",
-      "data",
-      "frontend",
-      "python"
-    ],
-    "source": "https://www.meetup.com/pythonista/events/ical",
-    "country": "",
-    "country_code": "",
-    "state": "",
-    "state_code": "",
-    "city": "",
-    "city_code": "",
-    "address": "",
-    "hash_key": "introduccin a ingeniera y analtica de da_2026-03-13T00:00:00+00:00"
-  },
-  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|March 12 - Agents, MCP and Skills Virtual Meetup|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin us for a special edition of the AI, ML and Computer Vision Meetup where we will focus on Agents, MCP and Skills!\n\n**Date, Time, Location**\n\nMar 12, 2026\n9 - 11 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/mcp-and-skills-meetup-march-12-2026)**\n\n**Agents Building Agents on the Hugging Face Hub**\n\nDiscover how coding agents can run or support your fine-tuning experiments. From quick dataset validation and preprocessing, to optimal GPU hardware selection, to automated job submission based on metric tracking, to evaluation. Ben will demonstrate how Hugging Face skills can be used to define best practices for agents to support machine learning experiments. Bring Claude, Codex, or Mistral Vibes, and we’ll show you to get it training models with GRPO, SFT, and DPO.\n\n*About the Speaker*\n\n[Ben Burtenshaw](https://www.linkedin.com/in/ben-burtenshaw/) is a Machine Learning Engineer at Hugging Face, focusing on building agents with fine-tuning and reinforcement learning. He led educational projects like the Agents Course, the MCP Course, and the LLM course, which bridge the gap between complex Reinforcement Learning (RL) techniques and practical application. Ben focuses on democratizing access to efficient AI, empowering the community to align, evaluate, and deploy transparent agentic systems.\n\n**Claude Code Templates**\n\nThis talk explores how to configure and align Claude Code agents using templates and custom components. I'll demonstrate practical configuration patterns that ensure your CLI agent executes exactly what you intend, covering Skills setup, hooks implementation, and template customization. Drawing from real-world examples building Claude Code Templates, attendees will learn how to structure their agent configurations for consistent, reliable behavior and create reusable components that maintain alignment across different use cases.\n\n*About the Speaker*\n\n[Daniel Avila](https://www.linkedin.com/in/daniel-avila-arias/) is an AI Engineer at Hedgineer building agentic systems and creator of Claude Code Templates.\n\n**Move Faster in Computer Vision by Teaching Agents to See Your Data**\n\nComputer vision teams spend too much time writing scripts just to find bad labels, blurry images, and edge cases. In this talk, I’ll show how to move that work to agents by using FiftyOne as a visual operating system. With Skills and MCP, agents can see inside your datasets, explore them visually, and handle common data cleanup tasks, so you can spend less time on data and more time shipping models.\n\n*About the Speaker*\n\n[Adonai Vera](https://www.linkedin.com/in/adonai-vera/) \\- Machine Learning Engineer & DevRel at Voxel51\\. With over 7 years of experience building computer vision and machine learning models using TensorFlow, Docker, and OpenCV\\. I started as a software developer, moved into AI, led teams, and served as CTO\\. Today, I connect code and community to build open, production\\-ready AI, making technology simple, accessible, and reliable\\.\n\n**Skills As Documentation**\n\nSkills are self-contained recipes - each one a piece of a larger puzzle. Instead of trying to modify human-centric documentation to better fit agents, skills let us build capabilities into our agents directly. This talk will showcase how to think about leveraging skills to enhance how users interact with your software!\n\n*About the Speaker*\n\n[Chris Alexiuk](https://www.linkedin.com/in/csalexiuk/) is a deep learning developer advocate at NVIDIA, working on creating technical assets that help developers use the incredible suite of AI tools available at NVIDIA. Chris comes from a machine learning and data science background, and he is obsessed with everything and anything about large language models.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313284576/",
@@ -1312,6 +1280,38 @@
     "hash_key": "sistemas transaccionales para escalar la_2026-02-23T18:00:00+00:00"
   },
   {
+    "title": "Pythonista|Introducción a Ingeniería y Analítica de Datos con Pyhon|Online",
+    "description": "Pythonista®\n## 🚀 **Taller: Introducción a la Ingeniería y Analítica de Datos con Python**\n\n¿Quieres dominar las herramientas que utilizan los Ingenieros de Datos y Científicos de Datos hoy en día? Únete a este taller práctico de **24 horas** donde pasaremos de los fundamentos numéricos a la creación de aplicaciones de datos de alto rendimiento.\nEn este curso, no solo aprenderás la teoría, sino que trabajarás con el ecosistema moderno de Python (**Pandas, Polars, PyArrow, Dask, Streamlit**) para procesar grandes volúmenes de información de manera eficiente.\n\n### 🎁 Promoción Exclusiva Meetup\n\n¡Queremos premiar a los primeros en sumarse!\n\n* **Precio regular:** $29 USD\n* **Precio especial Meetup:** **$20 USD** (Solo para los **primeros 25 inscritos**).\n\n***\n\n### 📅 Detalles del Evento\n\n* **Fechas:** Del 23 de febrero al 12 de marzo.\n* **Sesiones:** Lunes a jueves (12 sesiones en total).\n* **Horario:** 18:30 a 20:30 horas (CST - CDMX).\n* **Modalidad:** Online en vivo (incluye acceso a grabaciones y materiales en GitHub).\n\n***\n\n### 🛠️ ¿Qué aprenderás?\n\nEl taller está dividido en 5 módulos estratégicos:\n\n1. **Fundamentos Numéricos:** Computación vectorial con NumPy y el ecosistema SciPy.\n2. **Pandas Moderno:** Optimización de memoria con PyArrow y gestión eficiente de tipos de datos.\n3. **ETL y Analítica Avanzada:** Técnicas de Windowing, limpieza de datos y transformaciones complejas.\n4. **Ingeniería de Alto Rendimiento:** Procesamiento con **Polars** (el futuro de los DataFrames) y computación distribuida con **Dask**.\n5. **Visualización y Producto:** Gráficos estadísticos con Seaborn y despliegue de **Data Apps con Streamlit**.\n\n***\n\n### 📋 Requisitos\n\n* Conocimientos básicos de Python.\n* Cuenta de GitHub (trabajaremos directamente en la nube con Codespaces).\n* ¡Muchas ganas de aprender!\n\n### 🎓 Certificación\n\nSe otorgará un **diploma de asistencia** a quienes participen en al menos el 80% de las sesiones.\n\n### 🔗 Cómo inscribirse\n\n1. Realiza tu pago con el descuento de Meetup aquí.\n2. Una vez realizado, completa tu registro oficial en: [https://www.pythonista.io/eventos/data_eng_intro-2602](https://www.pythonista.io/eventos/data_eng_intro-2602)\n\n**¡Corre! El cupo para el descuento de $20 USD es limitado a los primeros 25.**",
+    "url": "https://www.meetup.com/pythonista/events/313316350/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/pythonista/events/313316350/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online",
+    "online": true,
+    "organizer": "Pythonista",
+    "dtstart": "2026-02-23T18:30:00-06:00",
+    "dtend": "2026-02-23T20:30:00-06:00",
+    "tags": [
+      "ai",
+      "data",
+      "frontend",
+      "python"
+    ],
+    "source": "https://www.meetup.com/pythonista/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "introduccin a ingeniera y analtica de da_2026-02-24T00:00:00+00:00"
+  },
+  {
     "title": "FinTech México|Amenazas Emergentes 2026: Fortaleciendo Fintechs by DYCSI|México|Ciudad de México",
     "description": "Get up-to-date information at: https://luma.com/9he6dis0\n\nAddress:\nWeWork Espacio de Oficinas & Coworking\nSala 19A\nCiudad de México, Ciudad de México\nMexico\n\nHosted by FinTech México & DYCSI Inc",
     "url": "https://luma.com/9he6dis0",
@@ -1751,38 +1751,6 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-rYB4HiifBPDm7LU",
     "hash_key": "how i use ai vol 2_2026-02-13T00:00:00+00:00"
-  },
-  {
-    "title": "Ajolotes en la Nube|Descubre Kiro: El IDE Agentico que está cambiando como desarrollar código|México|Ciudad de México",
-    "description": "AWS User Group: Ajolotes en la Nube\n# 🚀 Kiro Deep Dive: Domina el IDE Agéntico con Expertos de AWS\n\n¡El desarrollo de software ha evolucionado! Te invitamos a una sesión técnica exclusiva sobre **Kiro**, el IDE agéntico diseñado para potenciar el ciclo de vida del software garantizando código de alta calidad.\nAcompañanos en esta **inmersión profunda** donde exploraremos desde la nueva CLI hasta estrategias de implementación a gran escala.\n\n***\n\n### 🎙️ Ponentes Invitados\n\nContaremos con la participación especial de dos expertos de la industria, miembros de la comunidad técnica interna de AWS **\"Next Generation Developer Experience\"**:\n\n* **César Bautista:** Arquitecto de Soluciones en **AWS** para el sector de Telco.\n* **Manuel Quijano:** Arquitecto de Soluciones Sr en **AWS** para el sector Financiero.\n\n***\n\n### 🎯 ¿Qué veremos en la sesión?\n\n1. **Demostración Práctica de la Nueva CLI:** Exploración hands-on de las capacidades más recientes y flujos de trabajo en tiempo real.\n2. **Casos del Mundo Real:** Estrategias de implementación y mejores prácticas de integración.\n3. **Escalando la IA en el Desarrollo:** Consejos para equipos y estrategias de adopción organizacional.\n4. **Q&A Interactivo:** Resolución de dudas específicas de tu contexto técnico.\n\n***\n\n### 💻 ¡Importante: Trae tu equipo!\n\nPara participar en las dinámicas y probar las herramientas en tiempo real, **es fundamental que traigas tu laptop** con los siguientes requisitos listos:\n\n1. **Instalar Kiro CLI** (preferiblemente) o el IDE: [Descargar aquí](https://kiro.dev/downloads/)\n2. **Configurar Autenticación:** Haz login con GitHub o Builder ID siguiendo esta [Guía de Inicio](https://kiro.dev/docs/getting-started/authentication/)\n\n**¡No pierdas la oportunidad de estar a la vanguardia del AI-Assisted Software Development junto a líderes de AWS!**",
-    "url": "https://www.meetup.com/ajolotesenlanube/events/312936734/",
-    "sources": [
-      {
-        "platform": "meetup",
-        "url": "https://www.meetup.com/ajolotesenlanube/events/312936734/",
-        "label": "Ver en Meetup"
-      }
-    ],
-    "location": "Periférico Blvrd Manuel Ávila Camacho 261, Periférico Blvrd Manuel Ávila Camacho 261, Ciudad de México, CD, Ciudad de México",
-    "online": false,
-    "organizer": "Ajolotes en la Nube",
-    "dtstart": "2026-02-12T18:00:00-06:00",
-    "dtend": "2026-02-12T20:00:00-06:00",
-    "tags": [
-      "ai",
-      "cloud",
-      "frontend",
-      "security"
-    ],
-    "source": "https://www.meetup.com/ajolotesenlanube/events/ical",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Periférico Blvrd Manuel Ávila Camacho 261, Puerta Polanco, Polanco I Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX, México",
-    "hash_key": "descubre kiro el ide agentico que est ca_2026-02-13T00:00:00+00:00"
   },
   {
     "title": "Frutero Club|Casa Frutero - Coworking Frutal #6|México|Ciudad de México",
@@ -8251,35 +8219,6 @@
     "city_code": "cdmx",
     "address": "C. Montes Urales 445, Lomas - Virreyes, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX, México",
     "hash_key": "mxtw transformacin digital para fundador_2024-10-22T14:00:00+00:00"
-  },
-  {
-    "title": "Mexico Tech Week|Tacos, Beer and Gen AI|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/heroguest\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week & 3 others",
-    "url": "https://luma.com/heroguest",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/heroguest",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Mexico Tech Week",
-    "dtstart": "2024-10-21T19:30:00+00:00",
-    "dtend": "2024-10-21T22:00:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "tacos beer and gen ai_2024-10-21T18:00:00+00:00"
   },
   {
     "title": "Mexico Tech Week|Fintech Frenzy Future: Web3 Panel & Burger Lunch|México|Ciudad de México",

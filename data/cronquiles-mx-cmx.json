@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-13T01:23:26.384936+00:00",
-  "total_events": 160,
+  "generated_at": "2026-02-13T06:51:54.252055+00:00",
+  "total_events": 158,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -16,17 +16,6 @@
           "platform": "luma",
           "url": "https://luma.com/ai-cdmx",
           "label": "Luma"
-        }
-      ]
-    },
-    {
-      "name": "Ajolotes en la Nube",
-      "description": "Grupo dedicado a Cloud Computing y arquitecturas modernas en la nube.",
-      "links": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/ajolotesenlanube",
-          "label": "Meetup"
         }
       ]
     },
@@ -461,35 +450,6 @@
       "city_code": "cdmx",
       "address": "Ciudad de México, CDMX, México",
       "hash_key": "fintech frenzy future web3 panel burger _2024-10-21T18:00:00+00:00"
-    },
-    {
-      "title": "Mexico Tech Week|Tacos, Beer and Gen AI|México|Ciudad de México",
-      "description": "Get up-to-date information at: https://luma.com/heroguest\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week & 3 others",
-      "url": "https://luma.com/heroguest",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/heroguest",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "Ciudad de México",
-      "online": false,
-      "organizer": "Mexico Tech Week",
-      "dtstart": "2024-10-21T19:30:00+00:00",
-      "dtend": "2024-10-21T22:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "Ciudad de México, CDMX, México",
-      "hash_key": "tacos beer and gen ai_2024-10-21T18:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|México|Ciudad de México",
@@ -3799,38 +3759,6 @@
       "city_code": "alvaroobregon",
       "address": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, México",
       "hash_key": "casa frutero coworking frutal 6_2026-02-11T16:00:00+00:00"
-    },
-    {
-      "title": "Ajolotes en la Nube|Descubre Kiro: El IDE Agentico que está cambiando como desarrollar código|México|Ciudad de México",
-      "description": "AWS User Group: Ajolotes en la Nube\n# 🚀 Kiro Deep Dive: Domina el IDE Agéntico con Expertos de AWS\n\n¡El desarrollo de software ha evolucionado! Te invitamos a una sesión técnica exclusiva sobre **Kiro**, el IDE agéntico diseñado para potenciar el ciclo de vida del software garantizando código de alta calidad.\nAcompañanos en esta **inmersión profunda** donde exploraremos desde la nueva CLI hasta estrategias de implementación a gran escala.\n\n***\n\n### 🎙️ Ponentes Invitados\n\nContaremos con la participación especial de dos expertos de la industria, miembros de la comunidad técnica interna de AWS **\"Next Generation Developer Experience\"**:\n\n* **César Bautista:** Arquitecto de Soluciones en **AWS** para el sector de Telco.\n* **Manuel Quijano:** Arquitecto de Soluciones Sr en **AWS** para el sector Financiero.\n\n***\n\n### 🎯 ¿Qué veremos en la sesión?\n\n1. **Demostración Práctica de la Nueva CLI:** Exploración hands-on de las capacidades más recientes y flujos de trabajo en tiempo real.\n2. **Casos del Mundo Real:** Estrategias de implementación y mejores prácticas de integración.\n3. **Escalando la IA en el Desarrollo:** Consejos para equipos y estrategias de adopción organizacional.\n4. **Q&A Interactivo:** Resolución de dudas específicas de tu contexto técnico.\n\n***\n\n### 💻 ¡Importante: Trae tu equipo!\n\nPara participar en las dinámicas y probar las herramientas en tiempo real, **es fundamental que traigas tu laptop** con los siguientes requisitos listos:\n\n1. **Instalar Kiro CLI** (preferiblemente) o el IDE: [Descargar aquí](https://kiro.dev/downloads/)\n2. **Configurar Autenticación:** Haz login con GitHub o Builder ID siguiendo esta [Guía de Inicio](https://kiro.dev/docs/getting-started/authentication/)\n\n**¡No pierdas la oportunidad de estar a la vanguardia del AI-Assisted Software Development junto a líderes de AWS!**",
-      "url": "https://www.meetup.com/ajolotesenlanube/events/312936734/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/ajolotesenlanube/events/312936734/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "Periférico Blvrd Manuel Ávila Camacho 261, Periférico Blvrd Manuel Ávila Camacho 261, Ciudad de México, CD, Ciudad de México",
-      "online": false,
-      "organizer": "Ajolotes en la Nube",
-      "dtstart": "2026-02-12T18:00:00-06:00",
-      "dtend": "2026-02-12T20:00:00-06:00",
-      "tags": [
-        "ai",
-        "cloud",
-        "frontend",
-        "security"
-      ],
-      "source": "https://www.meetup.com/ajolotesenlanube/events/ical",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "Periférico Blvrd Manuel Ávila Camacho 261, Puerta Polanco, Polanco I Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX, México",
-      "hash_key": "descubre kiro el ide agentico que est ca_2026-02-13T00:00:00+00:00"
     },
     {
       "title": "Frutero Club|Coworking Frutal - Work and Chill #2|México|Ciudad de México",
