@@ -615,23 +615,6 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mexico Tech Week|Fintech Frenzy Future: Web3 Panel & Burger Lunch|
- México|Ciudad de México
-DTSTART:20241021T190000Z
-CATEGORIES:ai,web
-DESCRIPTION:Get up-to-date information at: https://luma.com/vadiMXTW2024\n
- \nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech We
- ek & 3 others
-LOCATION:Ciudad de México
-X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|M
  éxico|Ciudad de México
 DTSTART:20241022T143000Z
@@ -4353,10 +4336,12 @@ DESCRIPTION:Kong/MEXICO-CITY\nAs enterprises rapidly adopt AI\, teams are
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|Master Midjourney|Online
+SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #3: Midjourney|On
+ line
 DTSTART:20260219T233000Z
+CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/d342anny\n\nHo
- sted by Javier Rivero
+ sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-WUg9IsqZP5MKL4B
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-WUg9IsqZP5MKL4B
 END:VEVENT
@@ -4404,6 +4389,23 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Estado de México
 X-CRONQUILES-STATE-CODE:MX-MÉX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FinTech México|Connect Day: Fintech Coffee Mixer by Pygma\, LATAM
+  Fintech Hub\, Oracle\, and Cometa VC|México|Ciudad de México
+DTSTART:20260223T140000Z
+CATEGORIES:ai,python
+DESCRIPTION:Get up-to-date information at: https://luma.com/6b18ulh8\n\nAd
+ dress:\nCheck event page for more details.\n\nHosted by FinTech México & 
+ 3 others
+LOCATION:Roma Sur\, Ciudad de México
+X-CRONQUILES-ADDRESS:Roma Sur\, 06760 Ciudad de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FinTech México|Tendencias Críticas en Prevención de Lavado de D
@@ -4479,8 +4481,45 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FinTech México|Clink & Connect by Monato (invite only)|México|Ci
+ udad de México
+DTSTART:20260224T000000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/tuvg33i8\n\nAd
+ dress:\nCheck event page for more details.\n\nHosted by FinTech México & 
+ Omar Pérez
+LOCATION:Roma Norte\, Ciudad de México
+X-CRONQUILES-ADDRESS:Roma Nte.\, 06700 Ciudad de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FinTech México|Hablemos de Dinero by GBM|México|Ciudad de Méxic
+ o
+DTSTART:20260224T000000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/bowe8h2d\n\nAd
+ dress:\nForo GBM\nCiudad de México\, Ciudad de México\nMexico\n\nHosted 
+ by FinTech México\, Ariela & Maya Ortiz
+LOCATION:Foro GBM\, Plaza I\, Av. Javier Barros Sierra 540-Planta Baja\, S
+ anta Fe\, Zedec Sta Fé\, Álvaro Obregón\, 01219 Ciudad de México\, CDM
+ X\, Mexico
+X-CRONQUILES-ADDRESS:Foro GBM\, Plaza I\, Av. Javier Barros Sierra 540-Pla
+ nta Baja\, Santa Fe\, Zedec Sta Fé\, Álvaro Obregón\, 01219 Ciudad de M
+ éxico\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Pythonista|Introducción a Ingeniería y Analítica de Datos con P
- yhon|Online
+ ython|Online
 DTSTART:20260223T183000
 CATEGORIES:ai,data,frontend,python
 DESCRIPTION:Pythonista®\n## 🚀 **Taller: Introducción a la Ingeniería
@@ -4564,42 +4603,6 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/uwjfgnlj\n\nAd
 LOCATION:Hipódromo Condesa\, Ciudad de México
 X-CRONQUILES-ADDRESS:Hipódromo Condesa\, 06170 Ciudad de México\, CDMX\,
   México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FinTech México|Futuro de Pagos entre Cortes by tapi|México|Ciuda
- d de México
-DTSTART:20260224T203000Z
-CATEGORIES:ai,backend
-DESCRIPTION:Get up-to-date information at: https://luma.com/robjv7n2\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by FinTech México & 
- 3 others
-LOCATION:Chapultepec Morales\, Ciudad de México
-X-CRONQUILES-ADDRESS:Chapultepec Morales\, Polanco V Secc\, Ciudad de Méx
- ico\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FinTech México|AML & Financial Crime Intelligence by  IKIEXPERTS|
- México|Ciudad de México
-DTSTART:20260224T220000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/qr2wspo0\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by FinTech México\, 
- JOSE ESPIRITU & Erika Postel
-LOCATION:Colonia Cuauhtémoc\, Ciudad de México
-X-CRONQUILES-ADDRESS:Cuauhtémoc\, 06500 Ciudad de México\, CDMX\, Méxic
- o
 X-CRONQUILES-CITY:Ciudad de México
 X-CRONQUILES-CITY-CODE:cdmx
 X-CRONQUILES-COUNTRY:México
@@ -4712,13 +4715,51 @@ DTSTART:20260225T210000Z
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/31qel456\n\nAd
  dress:\nTorre BBVA Bancomer\nJuárez\, Ciudad de México\nMexico\n\nHosted
-  by Nico Di Pace & 3 others
+  by Nico Di Pace & 4 others
 LOCATION:Torre BBVA Bancomer\, Av. P.º de la Reforma 506\, Cuauhtémoc\, 
  06600 Juárez\, CDMX\, Mexico
 X-CRONQUILES-ADDRESS:Torre BBVA Bancomer\, Av. P.º de la Reforma 506\, Cu
  auhtémoc\, 06600 Juárez\, CDMX\, México
 X-CRONQUILES-CITY:Juárez
 X-CRONQUILES-CITY-CODE:juarez
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FinTech México|Unicornios mexicanos e inclusión financiera: del 
+ emprendimiento fintech a la política pública" by Clip|México|Ciudad de 
+ México
+DTSTART:20260225T210000Z
+CATEGORIES:mobile
+DESCRIPTION:Get up-to-date information at: https://luma.com/ll6ieo4f\n\nAd
+ dress:\nInstituto Tecnológico Autónomo de México\nCiudad de México\, C
+ iudad de México\nMexico\n\nHosted by FinTech México & Daniel martinez
+LOCATION:Instituto Tecnológico Autónomo de México\, Río Hondo 1\, Alta
+ vista\, Álvaro Obregón\, 01080 Ciudad de México\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Río Hondo 1\, Altavista\, Álvaro Obregón\, 01080 C
+ iudad de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FinTech México|Drinks\, Not Decks @ Fintech Mexico Week|México|C
+ iudad de México
+DTSTART:20260226T000000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/4hy9286c\n\nAd
+ dress:\nbiberón\nCiudad de México\, Ciudad de México\nMexico\n\nHosted 
+ by Maria Paula Lopera\, Juan Diego Oliva & Samia Boumediene
+LOCATION:biberón\, Durango 219\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad d
+ e México\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Durango 219\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad 
+ de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Ciudad de México
@@ -4863,6 +4904,35 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/aic-st-2-26\n\
  nHosted by The AI Collective & Kal Deutsch
 LOCATION:https://luma.com/event/evt-56Y28APKOSPKUDK
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-56Y28APKOSPKUDK
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #4: OpenClaw|Onli
+ ne
+DTSTART:20260227T000000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/5ivardas\n\nHo
+ sted by Javier Rivero\, Ben Kim & Ricardo García
+LOCATION:https://luma.com/event/evt-utuQiZ6tlVbHWXw
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-utuQiZ6tlVbHWXw
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FinTech México|Health & Wealth by GBM|México|Ciudad de México
+DTSTART:20260227T150000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/00m8p4j6\n\nAd
+ dress:\nForo GBM\nCiudad de México\, Ciudad de México\nMexico\n\nHosted 
+ by FinTech México & Ariela
+LOCATION:Foro GBM\, Plaza I\, Av. Javier Barros Sierra 540-Planta Baja\, S
+ anta Fe\, Zedec Sta Fé\, Álvaro Obregón\, 01219 Ciudad de México\, CDM
+ X\, Mexico
+X-CRONQUILES-ADDRESS:Foro GBM\, Plaza I\, Av. Javier Barros Sierra 540-Pla
+ nta Baja\, Santa Fe\, Zedec Sta Fé\, Álvaro Obregón\, 01219 Ciudad de M
+ éxico\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pythonistas GDL|Interfaz web y agentes autónomos|México|Jalisco
@@ -5414,6 +5484,25 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  nerative AI. He’s got a deep interest in RAG\, Agents\, and Multimodal A
  I.
 LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:v0 Prompt to Production Mexico City|Codex Meetup & Build – Mexic
+ o City|México|Ciudad de México
+DTSTART:20260409T230000Z
+CATEGORIES:frontend
+DESCRIPTION:Get up-to-date information at: https://luma.com/suipk589\n\nAd
+ dress:\nPlaza Carso\nCiudad de México\, Ciudad de México\nMexico\n\nHost
+ ed by Javier Rivero
+LOCATION:Plaza Carso\, Pl. Carso\, Amp Granada\, 11529 Ciudad de México\,
+  CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Pl. Carso\, Amp Granada\, 11529 Ciudad de México\, C
+ DMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México
