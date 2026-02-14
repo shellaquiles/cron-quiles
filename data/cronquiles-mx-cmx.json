@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-13T18:37:16.221548+00:00",
+  "generated_at": "2026-02-14T01:15:39.193615+00:00",
   "total_events": 162,
   "city": "Ciudad de México",
   "communities": [
@@ -26,11 +26,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -64,11 +64,11 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/e17fbtoo",
+          "url": "https://luma.com/sudo_fciencias_2026",
           "label": "Luma"
         }
       ]
@@ -109,11 +109,6 @@
     {
       "name": "Vive Codding Cafe",
       "description": "Un espacio para juntarnos a echar código y compartir lo que estamos descubriendo en el mundo de la IA.",
-      "links": []
-    },
-    {
-      "name": "Java Mexico",
-      "description": "Comunidad de Java en México. Eventos, charlas técnicas y networking para desarrolladores Java.",
       "links": []
     },
     {
@@ -420,6 +415,36 @@
       "city_code": "cdmx",
       "address": "Av. P.º de la Reforma 510, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
       "hash_key": "mastering fundraising building a strong _2024-10-21T16:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Fintech Frenzy Future: Web3 Panel & Burger Lunch|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/vadiMXTW2024\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week & 3 others",
+      "url": "https://luma.com/vadiMXTW2024",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/vadiMXTW2024",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-21T19:00:00+00:00",
+      "dtend": "2024-10-21T22:00:00+00:00",
+      "tags": [
+        "ai",
+        "web"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "fintech frenzy future web3 panel burger _2024-10-21T18:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|México|Ciudad de México",
@@ -2217,37 +2242,6 @@
       "hash_key": "coworking frutal 7_2025-07-16T16:00:00+00:00"
     },
     {
-      "title": "Java Mexico|Arquitecturas Modernas en Java: Hacia Servicios Escalables y Flexibles|México|Ciudad de México",
-      "description": "Get up-to-date information at: https://luma.com/83si3bw5\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Benek",
-      "url": "https://luma.com/83si3bw5",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/83si3bw5",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "Ciudad de México",
-      "online": false,
-      "organizer": "Java Mexico",
-      "dtstart": "2025-07-30T00:30:00+00:00",
-      "dtend": "2025-07-30T04:00:00+00:00",
-      "tags": [
-        "ai",
-        "frontend",
-        "mobile"
-      ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "Ciudad de México, CDMX, México",
-      "hash_key": "arquitecturas modernas en java hacia ser_2025-07-30T00:00:00+00:00"
-    },
-    {
       "title": "Frutero Club|Coworking Frutal #9🥑|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/28h8jcg9\n\nAddress:\nSan Francisco 1845\nCiudad de México, Ciudad de México\nMexico\n\nHosted by René Hernández & 3 others",
       "url": "https://luma.com/28h8jcg9",
@@ -2486,7 +2480,7 @@
       "dtstart": "2025-09-19T22:00:00+00:00",
       "dtend": "2025-09-20T00:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -2540,7 +2534,7 @@
       "dtstart": "2025-09-29T18:00:00+00:00",
       "dtend": "2025-09-29T19:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3184,7 +3178,7 @@
       "dtstart": "2025-11-18T23:00:00+00:00",
       "dtend": "2025-11-19T01:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3693,7 +3687,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3843,7 +3837,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3870,7 +3864,7 @@
       "dtstart": "2026-02-23T17:00:00+00:00",
       "dtend": "2026-02-23T18:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3897,7 +3891,7 @@
       "dtstart": "2026-02-23T18:00:00+00:00",
       "dtend": "2026-02-23T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3924,7 +3918,7 @@
       "dtstart": "2026-02-23T19:00:00+00:00",
       "dtend": "2026-02-23T20:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3954,7 +3948,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3963,35 +3957,6 @@
       "city_code": "cdmx",
       "address": "Roma Sur, 06760 Ciudad de México, CDMX, México",
       "hash_key": "fintech founders vc s mixer by pygma lat_2026-02-23T22:00:00+00:00"
-    },
-    {
-      "title": "FinTech México|Clink & Connect by Monato (invite only)|México|Ciudad de México",
-      "description": "Get up-to-date information at: https://luma.com/tuvg33i8\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & Omar Pérez",
-      "url": "https://luma.com/tuvg33i8",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/tuvg33i8",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "Roma Norte, Ciudad de México",
-      "online": false,
-      "organizer": "FinTech México",
-      "dtstart": "2026-02-24T00:00:00+00:00",
-      "dtend": "2026-02-24T02:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/02t893pf",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "Roma Nte., 06700 Ciudad de México, CDMX, México",
-      "hash_key": "clink connect by monato invite only_2026-02-24T00:00:00+00:00"
     },
     {
       "title": "FinTech México|Hablemos de Dinero by GBM|México|Ciudad de México",
@@ -4010,7 +3975,7 @@
       "dtstart": "2026-02-24T00:00:00+00:00",
       "dtend": "2026-02-24T02:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4039,7 +4004,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4068,7 +4033,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4098,7 +4063,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4107,6 +4072,36 @@
       "city_code": "cdmx",
       "address": "Hipódromo Condesa, 06170 Ciudad de México, CDMX, México",
       "hash_key": "fintech luncheon vol 3 by pygma and morr_2026-02-24T18:00:00+00:00"
+    },
+    {
+      "title": "FinTech México|Futuro de Pagos entre Cortes by tapi|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/robjv7n2\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & 3 others",
+      "url": "https://luma.com/robjv7n2",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/robjv7n2",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Chapultepec Morales, Ciudad de México",
+      "online": false,
+      "organizer": "FinTech México",
+      "dtstart": "2026-02-24T20:30:00+00:00",
+      "dtend": "2026-02-24T23:00:00+00:00",
+      "tags": [
+        "ai",
+        "backend"
+      ],
+      "source": "https://luma.com/eofagheq",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Chapultepec Morales, Polanco V Secc, Ciudad de México, CDMX, México",
+      "hash_key": "futuro de pagos entre cortes by tapi_2026-02-24T20:00:00+00:00"
     },
     {
       "title": "Python CDMX|Meetup Febrero 2026  -  Clara & PythonCDMX|México|Ciudad de México",
@@ -4224,7 +4219,7 @@
     },
     {
       "title": "FinTech México|VC Fintech Session by adn.vc, Zeta, GAIN & Semilla Ventures|México|Ciudad de México",
-      "description": "Get up-to-date information at: https://luma.com/31qel456\n\nAddress:\nTorre BBVA Bancomer\nJuárez, Ciudad de México\nMexico\n\nHosted by Nico Di Pace & 4 others",
+      "description": "Get up-to-date information at: https://luma.com/31qel456\n\nAddress:\nTorre BBVA Bancomer\nJuárez, Ciudad de México\nMexico\n\nHosted by Nico Di Pace & 5 others",
       "url": "https://luma.com/31qel456",
       "sources": [
         {
@@ -4241,7 +4236,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4270,7 +4265,7 @@
       "tags": [
         "mobile"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4297,7 +4292,7 @@
       "dtstart": "2026-02-26T00:00:00+00:00",
       "dtend": "2026-02-26T03:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4324,7 +4319,7 @@
       "dtstart": "2026-02-26T01:00:00+00:00",
       "dtend": "2026-02-26T04:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4383,7 +4378,7 @@
       "dtstart": "2026-02-27T15:00:00+00:00",
       "dtend": "2026-02-27T17:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4410,7 +4405,7 @@
       "dtstart": "2026-03-01T17:00:00+00:00",
       "dtend": "2026-03-01T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
