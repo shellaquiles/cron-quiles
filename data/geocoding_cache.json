@@ -976,107 +976,6 @@
       "restaurant"
     ]
   },
-  "Jardín Americana, 1305 Avenida Ignacio L Vallarta, Guadalajara, JAL": {
-    "address_components": [
-      {
-        "long_name": "1305",
-        "short_name": "1305",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Ignacio L Vallarta",
-        "short_name": "Av. Ignacio L Vallarta",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Colonia Americana",
-        "short_name": "Col Americana",
-        "types": [
-          "neighborhood",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Americana",
-        "short_name": "Americana",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Guadalajara",
-        "short_name": "Guadalajara",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Jalisco",
-        "short_name": "Jal.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "44160",
-        "short_name": "44160",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. Ignacio L Vallarta 1305, Col Americana, Americana, 44160 Guadalajara, Jal., México",
-    "geometry": {
-      "location": {
-        "lat": 20.6744521,
-        "lng": -103.365396
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 20.6758980802915,
-          "lng": -103.3640496697085
-        },
-        "southwest": {
-          "lat": 20.6732001197085,
-          "lng": -103.3667476302915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 20.6745831,
-          "longitude": -103.3653994
-        }
-      }
-    ],
-    "place_id": "ChIJI7FavQSuKIQRyWTUV4zPgqo",
-    "plus_code": {
-      "compound_code": "MJFM+QR Guadalajara, Jal., México",
-      "global_code": "75GRMJFM+QR"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
-    ]
-  },
   "La Salle Nezahualcoyotl - Auditorio y Centro Cultural Alfredo Harp Helú, Colonia Cd. Jardín Bicentenario, Av. Bordo de Xochiaca s/n-B, Manzana polígono IV, 57205 Cdad. Nezahualcóyotl, Méx., Ciudad de México, Ciudad de México": {
     "address_components": [
       {
@@ -1173,6 +1072,107 @@
     "plus_code": {
       "compound_code": "CXFM+2C Ciudad Nezahualcóyotl, Méx., México",
       "global_code": "76F2CXFM+2C"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "Jardín Americana, 1305 Avenida Ignacio L Vallarta, Guadalajara, JAL": {
+    "address_components": [
+      {
+        "long_name": "1305",
+        "short_name": "1305",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Ignacio L Vallarta",
+        "short_name": "Av. Ignacio L Vallarta",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Colonia Americana",
+        "short_name": "Col Americana",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Americana",
+        "short_name": "Americana",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Guadalajara",
+        "short_name": "Guadalajara",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Jalisco",
+        "short_name": "Jal.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "44160",
+        "short_name": "44160",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Ignacio L Vallarta 1305, Col Americana, Americana, 44160 Guadalajara, Jal., México",
+    "geometry": {
+      "location": {
+        "lat": 20.6744521,
+        "lng": -103.365396
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 20.6758980802915,
+          "lng": -103.3640496697085
+        },
+        "southwest": {
+          "lat": 20.6732001197085,
+          "lng": -103.3667476302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 20.6745831,
+          "longitude": -103.3653994
+        }
+      }
+    ],
+    "place_id": "ChIJI7FavQSuKIQRyWTUV4zPgqo",
+    "plus_code": {
+      "compound_code": "MJFM+QR Guadalajara, Jal., México",
+      "global_code": "75GRMJFM+QR"
     },
     "types": [
       "establishment",
@@ -1553,6 +1553,309 @@
     "types": [
       "establishment",
       "finance",
+      "point_of_interest"
+    ]
+  },
+  "Valenza Casa de Creativos - Plaza Dorada, Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., Mexico": {
+    "address_components": [
+      {
+        "long_name": "205",
+        "short_name": "205",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Venustiano Carranza",
+        "short_name": "Av. Venustiano Carranza",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "San Baltazar Campeche",
+        "short_name": "San Baltazar Campeche",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Heroica Puebla de Zaragoza",
+        "short_name": "Heroica Puebla de Zaragoza",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Puebla",
+        "short_name": "Pue.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "72550",
+        "short_name": "72550",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
+    "geometry": {
+      "location": {
+        "lat": 19.0246895,
+        "lng": -98.2072277
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.0260626302915,
+          "lng": -98.2058666197085
+        },
+        "southwest": {
+          "lat": 19.0233646697085,
+          "lng": -98.20856458029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.0246857,
+          "longitude": -98.2072309
+        }
+      }
+    ],
+    "place_id": "ChIJXUbCsVfBz4URMrquZqTcO-A",
+    "plus_code": {
+      "compound_code": "2QFV+V4 Heroica Puebla de Zaragoza, Pue., México",
+      "global_code": "76F32QFV+V4"
+    },
+    "types": [
+      "art_gallery",
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "Cervecería Cholula, Av. 13 Ote. 412, San Pablo Tecamac, 72760 Cholula de Rivadavia, Pue., Mexico": {
+    "address_components": [
+      {
+        "long_name": "412",
+        "short_name": "412",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida 13 Oriente",
+        "short_name": "Av. 13 Ote.",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "San Pablo Tecamac",
+        "short_name": "San Pablo Tecamac",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Cholula de Rivadavia",
+        "short_name": "Cholula de Rivadavia",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Puebla",
+        "short_name": "Pue.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "72750",
+        "short_name": "72750",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. 13 Ote. 412, San Pablo Tecamac, 72750 Cholula de Rivadavia, Pue., México",
+    "geometry": {
+      "location": {
+        "lat": 19.0549271,
+        "lng": -98.30631079999999
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.0563258802915,
+          "lng": -98.30488981970849
+        },
+        "southwest": {
+          "lat": 19.0536279197085,
+          "lng": -98.3075877802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.0549692,
+          "longitude": -98.30619399999999
+        }
+      }
+    ],
+    "place_id": "ChIJ50SvnCnGz4URi7jy0CVMYGo",
+    "plus_code": {
+      "compound_code": "3M3V+XF Cholula de Rivadavia, Pue., México",
+      "global_code": "76F33M3V+XF"
+    },
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant"
+    ]
+  },
+  "Jobs Coworking Cholula | Gran Pirámide Plaza, C. 14 Pte. 111-Local 11, San Juan Aquiahuac, 72810 San Andrés Cholula, Pue., Mexico": {
+    "address_components": [
+      {
+        "long_name": "Local 11",
+        "short_name": "Local 11",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "111",
+        "short_name": "111",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Calle 14 Poniente",
+        "short_name": "C. 14 Pte.",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "San Juan Aquiahuac",
+        "short_name": "San Juan Aquiahuac",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "San Andrés Cholula",
+        "short_name": "San Andrés Cholula",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Puebla",
+        "short_name": "Pue.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "72810",
+        "short_name": "72810",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "C. 14 Pte. 111-Local 11, San Juan Aquiahuac, 72810 San Andrés Cholula, Pue., México",
+    "geometry": {
+      "location": {
+        "lat": 19.0572098,
+        "lng": -98.29802339999999
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.0587355302915,
+          "lng": -98.29672431970849
+        },
+        "southwest": {
+          "lat": 19.0560375697085,
+          "lng": -98.29942228029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.0575455,
+          "longitude": -98.2980628
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 19.057201,
+          "longitude": -98.2981143
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJxenEU_zHz4URz2q4Fz7GJDo",
+    "plus_code": {
+      "compound_code": "3P42+VQ San Andrés Cholula, Pue., México",
+      "global_code": "76F33P42+VQ"
+    },
+    "types": [
+      "establishment",
       "point_of_interest"
     ]
   },
@@ -2010,309 +2313,6 @@
       "establishment",
       "point_of_interest",
       "university"
-    ]
-  },
-  "Valenza Casa de Creativos - Plaza Dorada, Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., Mexico": {
-    "address_components": [
-      {
-        "long_name": "205",
-        "short_name": "205",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Venustiano Carranza",
-        "short_name": "Av. Venustiano Carranza",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "San Baltazar Campeche",
-        "short_name": "San Baltazar Campeche",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Heroica Puebla de Zaragoza",
-        "short_name": "Heroica Puebla de Zaragoza",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Puebla",
-        "short_name": "Pue.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "72550",
-        "short_name": "72550",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
-    "geometry": {
-      "location": {
-        "lat": 19.0246895,
-        "lng": -98.2072277
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.0260626302915,
-          "lng": -98.2058666197085
-        },
-        "southwest": {
-          "lat": 19.0233646697085,
-          "lng": -98.20856458029151
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.0246857,
-          "longitude": -98.2072309
-        }
-      }
-    ],
-    "place_id": "ChIJXUbCsVfBz4URMrquZqTcO-A",
-    "plus_code": {
-      "compound_code": "2QFV+V4 Heroica Puebla de Zaragoza, Pue., México",
-      "global_code": "76F32QFV+V4"
-    },
-    "types": [
-      "art_gallery",
-      "establishment",
-      "point_of_interest"
-    ]
-  },
-  "Cervecería Cholula, Av. 13 Ote. 412, San Pablo Tecamac, 72760 Cholula de Rivadavia, Pue., Mexico": {
-    "address_components": [
-      {
-        "long_name": "412",
-        "short_name": "412",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida 13 Oriente",
-        "short_name": "Av. 13 Ote.",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "San Pablo Tecamac",
-        "short_name": "San Pablo Tecamac",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Cholula de Rivadavia",
-        "short_name": "Cholula de Rivadavia",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Puebla",
-        "short_name": "Pue.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "72750",
-        "short_name": "72750",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. 13 Ote. 412, San Pablo Tecamac, 72750 Cholula de Rivadavia, Pue., México",
-    "geometry": {
-      "location": {
-        "lat": 19.0549271,
-        "lng": -98.30631079999999
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.0563258802915,
-          "lng": -98.30488981970849
-        },
-        "southwest": {
-          "lat": 19.0536279197085,
-          "lng": -98.3075877802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.0549692,
-          "longitude": -98.30619399999999
-        }
-      }
-    ],
-    "place_id": "ChIJ50SvnCnGz4URi7jy0CVMYGo",
-    "plus_code": {
-      "compound_code": "3M3V+XF Cholula de Rivadavia, Pue., México",
-      "global_code": "76F33M3V+XF"
-    },
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "point_of_interest",
-      "restaurant"
-    ]
-  },
-  "Jobs Coworking Cholula | Gran Pirámide Plaza, C. 14 Pte. 111-Local 11, San Juan Aquiahuac, 72810 San Andrés Cholula, Pue., Mexico": {
-    "address_components": [
-      {
-        "long_name": "Local 11",
-        "short_name": "Local 11",
-        "types": [
-          "subpremise"
-        ]
-      },
-      {
-        "long_name": "111",
-        "short_name": "111",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Calle 14 Poniente",
-        "short_name": "C. 14 Pte.",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "San Juan Aquiahuac",
-        "short_name": "San Juan Aquiahuac",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "San Andrés Cholula",
-        "short_name": "San Andrés Cholula",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Puebla",
-        "short_name": "Pue.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "72810",
-        "short_name": "72810",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "C. 14 Pte. 111-Local 11, San Juan Aquiahuac, 72810 San Andrés Cholula, Pue., México",
-    "geometry": {
-      "location": {
-        "lat": 19.0572098,
-        "lng": -98.29802339999999
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.0587355302915,
-          "lng": -98.29672431970849
-        },
-        "southwest": {
-          "lat": 19.0560375697085,
-          "lng": -98.29942228029151
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.0575455,
-          "longitude": -98.2980628
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 19.057201,
-          "longitude": -98.2981143
-        },
-        "restricted_travel_modes": [
-          "DRIVE"
-        ]
-      }
-    ],
-    "partial_match": true,
-    "place_id": "ChIJxenEU_zHz4URz2q4Fz7GJDo",
-    "plus_code": {
-      "compound_code": "3P42+VQ San Andrés Cholula, Pue., México",
-      "global_code": "76F33P42+VQ"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
     ]
   },
   "UNAM - Facultad De Ciencias, Investigación Científica, C.U., Coyoacán, 04510 Ciudad de México, CDMX, Mexico": {
@@ -2782,120 +2782,6 @@
     "place_id": "ChIJ9SxomBAC0oURRHoHGIi4yBM",
     "types": [
       "route"
-    ]
-  },
-  "Tecnológico de Monterrey Campus Puebla, Atlixcáyotl 5718, Reserva Territorial Atlixcáyotl, Corredor Comercial Desarrollo Atlixcayotl, 72453 Heroica Puebla de Zaragoza, Pue., Mexico": {
-    "address_components": [
-      {
-        "long_name": "5718",
-        "short_name": "5718",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Vía Atlixcáyotl",
-        "short_name": "Atlixcáyotl",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Reserva Territorial Atlixcáyotl",
-        "short_name": "Reserva Territorial Atlixcáyotl",
-        "types": [
-          "neighborhood",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Corredor Comercial Desarrollo Atlixcayotl",
-        "short_name": "Corredor Comercial Desarrollo Atlixcayotl",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Heroica Puebla de Zaragoza",
-        "short_name": "Heroica Puebla de Zaragoza",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Puebla",
-        "short_name": "Pue.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "72453",
-        "short_name": "72453",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Atlixcáyotl 5718, Reserva Territorial Atlixcáyotl, Corredor Comercial Desarrollo Atlixcayotl, 72453 Heroica Puebla de Zaragoza, Pue., México",
-    "geometry": {
-      "location": {
-        "lat": 19.0181463,
-        "lng": -98.2411307
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.0197415302915,
-          "lng": -98.23967041970849
-        },
-        "southwest": {
-          "lat": 19.01704356970849,
-          "lng": -98.2423683802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.0185835,
-          "longitude": -98.24087899999999
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 19.0184195,
-          "longitude": -98.2411647
-        },
-        "restricted_travel_modes": [
-          "DRIVE"
-        ]
-      }
-    ],
-    "place_id": "ChIJbVxPzbfHz4URRJGY45JBIfQ",
-    "plus_code": {
-      "compound_code": "2Q95+7G Heroica Puebla de Zaragoza, Pue., México",
-      "global_code": "76F32Q95+7G"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest",
-      "university"
     ]
   },
   "Lincoln Offices & Cowork, Anatole France 51, Polanco, Polanco III Secc, Miguel Hidalgo, 11540 Ciudad de México, CDMX, Mexico": {
@@ -4248,6 +4134,120 @@
     "types": [
       "establishment",
       "point_of_interest"
+    ]
+  },
+  "Tecnológico de Monterrey Campus Puebla, Atlixcáyotl 5718, Reserva Territorial Atlixcáyotl, Corredor Comercial Desarrollo Atlixcayotl, 72453 Heroica Puebla de Zaragoza, Pue., Mexico": {
+    "address_components": [
+      {
+        "long_name": "5718",
+        "short_name": "5718",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Vía Atlixcáyotl",
+        "short_name": "Atlixcáyotl",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Reserva Territorial Atlixcáyotl",
+        "short_name": "Reserva Territorial Atlixcáyotl",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Corredor Comercial Desarrollo Atlixcayotl",
+        "short_name": "Corredor Comercial Desarrollo Atlixcayotl",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Heroica Puebla de Zaragoza",
+        "short_name": "Heroica Puebla de Zaragoza",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Puebla",
+        "short_name": "Pue.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "72453",
+        "short_name": "72453",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Atlixcáyotl 5718, Reserva Territorial Atlixcáyotl, Corredor Comercial Desarrollo Atlixcayotl, 72453 Heroica Puebla de Zaragoza, Pue., México",
+    "geometry": {
+      "location": {
+        "lat": 19.0181463,
+        "lng": -98.2411307
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.0197415302915,
+          "lng": -98.23967041970849
+        },
+        "southwest": {
+          "lat": 19.01704356970849,
+          "lng": -98.2423683802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.0185835,
+          "longitude": -98.24087899999999
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 19.0184195,
+          "longitude": -98.2411647
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
+      }
+    ],
+    "place_id": "ChIJbVxPzbfHz4URRJGY45JBIfQ",
+    "plus_code": {
+      "compound_code": "2Q95+7G Heroica Puebla de Zaragoza, Pue., México",
+      "global_code": "76F32Q95+7G"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "university"
     ]
   },
   "Casa Rafael Galván, Zacatecas 94, Col Roma Norte, Mexico City, Mexico City": {
