@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-17T01:19:04.765233+00:00",
-  "total_events": 13,
+  "generated_at": "2026-02-17T06:49:36.910861+00:00",
+  "total_events": 14,
   "city": "Jalisco",
   "communities": [
     {
@@ -317,6 +317,33 @@
       "city_code": "guadalajara",
       "address": "Calle Marsella 155-Int 105 A, Col Americana, Lafayette, 44160 Guadalajara, Jal., México",
       "hash_key": "vibe coding caf_2026-02-13T22:00:00+00:00"
+    },
+    {
+      "title": "Vive Codding Cafe|Codeworking day|México|Jalisco",
+      "description": "Get up-to-date information at: https://luma.com/8wwwg9vy\n\nAddress:\nVentura Café\nGuadalajara, Jalisco\nMexico\n\nHosted by Rogelio Hernandez",
+      "url": "https://luma.com/8wwwg9vy",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/8wwwg9vy",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ventura Café, Av San Francisco 3205, Chapalita, 44500 Guadalajara, Jal., Mexico",
+      "online": false,
+      "organizer": "Vive Codding Cafe",
+      "dtstart": "2026-02-18T18:00:00+00:00",
+      "dtend": "2026-02-18T22:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-W2sKbYqVIxmPXxw",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Jalisco",
+      "state_code": "MX-JAL",
+      "city": "Guadalajara",
+      "city_code": "guadalajara",
+      "address": "Av San Francisco 3205, Chapalita, 44500 Guadalajara, Jal., México",
+      "hash_key": "codeworking day_2026-02-18T18:00:00+00:00"
     },
     {
       "title": "Pythonistas GDL|Interfaz web y agentes autónomos|México|Jalisco",
