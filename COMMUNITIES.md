@@ -27,7 +27,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🔴 [**DigitalOcean México City**](https://www.meetup.com/digitaloceanmex) | Meet software developers of all skill levels to share resources, learn, and form discussions around cloud and devops topics. | Online |
 | 🔴 [**Elixir Mexico City**](https://www.meetup.com/elixir-mexico-city) | Comunidad enfocada en el lenguaje de programación Elixir y el framework Phoenix. | Online |
 | 🔴 [**Embajadoras Cloud**](https://www.meetup.com/embajadoras-cloud) | Comunidad dedicada a impulsar a mujeres hispanohablantes en cloud computing. Enfocada en AWS, aprendizaje colaborativo y desarrollo profesional. | Online |
-| 🟢 [**EPAM**](https://www.eventbrite.com.mx/o/epam-27283356907) | EPAM Tech Talks Mexico City | Aguascalientes, Ciudad de México, Nuevo León, Querétaro |
+| 🟢 [**EPAM**](https://www.eventbrite.com.mx/o/epam-27283356907) | EPAM Tech Talks Mexico City | Aguascalientes, Ciudad de México, Coahuila de Zaragoza, Nuevo León, Querétaro |
 | 🔴 [**Eventloop**](https://www.meetup.com/eventloop) | La comunidad de JavaScript de la Ciudad de México es una organización sin fines de lucro con el objetivo de elevar la competitividad técnica de la ciudad. | Online |
 | 🟢 [**FinTech México**](https://luma.com/eofagheq) | Comunidad FinTech México. FinTech México Week, sistemas transaccionales, Fuckup Nights (Ciudad de México). | Ciudad de México |
 | 🔴 [**Flutter Mexico City**](https://www.meetup.com/flutter-mexico-city) | Desarrollo multiplataforma con Flutter. Charlas técnicas y talleres. | Online |
@@ -72,6 +72,6 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🟢 [**The Data Pub**](https://www.meetup.com/thedatapub) | Punto de encuentro para amantes de los datos, ciencia de datos y visualización. | Ciudad de México |
 | 🔴 [**The Dojo MX**](https://www.meetup.com/the-dojo-mx) | Aprende y desarrolla habilidades de manos de los mejores desarrolladores de México. Talleres presenciales o en línea. | Online |
 | 🟢 [**This Week in Fintech**](https://luma.com/lkn7cfxz) | AI x Fintech Talks, Mexico Fintech Week 2026. Eventos sobre IA y fintech. | Ciudad de México |
-| 🔴 [**Unity User Group CDMX**](https://www.meetup.com/mexico-city-unity-user-group) | Desarrolladores de videojuegos y experiencias interactivas con Unity 3D. | Online |
+| 🟢 [**Unity User Group CDMX**](https://www.meetup.com/mexico-city-unity-user-group) | Desarrolladores de videojuegos y experiencias interactivas con Unity 3D. | Online |
 | 🟢 [**v0 Prompt to Production Mexico City**](https://luma.com/fdg8riz2) | Evento oficial de v0 (Vercel) en México. AI builders, hackathon global. Hosted by aibuilders.mx. | Ciudad de México |
 | 🔴 [**Vim CDMX**](https://www.meetup.com/cdmx-vim-meetup) | Nuestro objetivo es atraer a usuarios noveles y expertos en Vim para aprender el arte de la edición modal, mejorar, o compartir flujos de trabajo. | Online |

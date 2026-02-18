@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-17T18:47:36.062119+00:00",
-  "total_events": 154,
+  "generated_at": "2026-02-18T01:21:00.694192+00:00",
+  "total_events": 155,
   "city": "Online",
   "communities": [
     {
@@ -81,11 +81,11 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/e17fbtoo",
+          "url": "https://luma.com/sudo_fciencias_2026",
           "label": "Luma"
         }
       ]
@@ -98,6 +98,17 @@
           "platform": "luma",
           "url": "https://luma.com/lkn7cfxz",
           "label": "Luma"
+        }
+      ]
+    },
+    {
+      "name": "Unity User Group CDMX",
+      "description": "Desarrolladores de videojuegos y experiencias interactivas con Unity 3D.",
+      "links": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/mexico-city-unity-user-group",
+          "label": "Meetup"
         }
       ]
     },
@@ -3341,7 +3352,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3506,7 +3517,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3695,7 +3706,7 @@
       "dtstart": "2026-01-19T18:00:00+00:00",
       "dtend": "2026-01-28T20:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -4004,6 +4015,35 @@
       "city_code": "",
       "address": "",
       "hash_key": "introduccin a ingeniera y analtica de da_2026-02-24T00:00:00+00:00"
+    },
+    {
+      "title": "Unity User Group CDMX|Skillshare #3: Our Favorite Advocacy Assets and Sample Packages|Online",
+      "description": "Unity User Group - Ciudad de México\nJoin us for our 3rd Skillshare Thursday session with Corrie Green!\n\nOn this call, we will be loading up our favorite assets from the asset store and showcasing their features to level up your game from character controllers to HDRP forests.\n\nWe will also be taking a look at some sample packages from old to new to dive into and learn from including assets from *Keijiro Takahashi*. With potential time at the end for a bonus peak at future content.\n\nHope to see you there!",
+      "url": "https://www.meetup.com/mexico-city-unity-user-group/events/313400890/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/mexico-city-unity-user-group/events/313400890/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "Unity User Group CDMX",
+      "dtstart": "2026-02-26T11:00:00-06:00",
+      "dtend": "2026-02-26T12:00:00-06:00",
+      "tags": [
+        "backend"
+      ],
+      "source": "https://www.meetup.com/mexico-city-unity-user-group/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "skillshare 3 our favorite advocacy asset_2026-02-26T16:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Feb 26 - Exploring Video Datasets with FiftyOne and Vision-Language Models|Online",
