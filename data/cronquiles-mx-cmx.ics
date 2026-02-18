@@ -210,6 +210,22 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|Tacos\, Beer and Gen AI|México|Ciudad de México
+DTSTART:20241021T193000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/heroguest\n\nA
+ ddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week 
+ & 3 others
+LOCATION:Ciudad de México
+X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|M
  éxico|Ciudad de México
 DTSTART:20241022T143000Z
@@ -1412,6 +1428,22 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Java Mexico|Arquitecturas Modernas en Java: Hacia Servicios Escala
+ bles y Flexibles|México|Ciudad de México
+DTSTART:20250730T003000Z
+CATEGORIES:ai,frontend,mobile
+DESCRIPTION:Get up-to-date information at: https://luma.com/83si3bw5\n\nAd
+ dress:\nCheck event page for more details.\n\nHosted by Javier Benek
+LOCATION:Ciudad de México
+X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Frutero Club|Coworking Frutal #9🥑|México|Ciudad de México
 DTSTART:20250806T160000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/28h8jcg9\n\nAd
@@ -2396,109 +2428,15 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AI/IA CDMX|Campeón Peso Ligero IA para la Salud/Lightweight Champ
- ion AI for Health|México|Ciudad de México
-DTSTART:20260217T180000
-CATEGORIES:ai,backend,cloud,data,frontend,mobile
-DESCRIPTION:AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nSpani
- sh with live English subtitles\nEste evento será en español con subtítu
- los en inglés en vivo.\n\n\\*\\*Presencial y en vivo en YouTube/In-person
-  and live on YouTube:\\*\\*\nhttps://www.youtube.com/@AICDMX\n\nEnglish Ve
- rsion Below\n6:00 p.m. Apertura y registro\n6:30 p.m. Arranca la conversac
- ión\n7:15 p.m. Preguntas y respuestas con el público\n7:30 p.m. Networki
- ng\n8:00–9:30 p.m. After party en un lugar cercano (a 5 min caminando\; 
- hay\nespacio interior/exterior\, trae chamarra y zapatos para comer y bebe
- r)\n\nCuando los datos son escasos y la infraestructura es poco confiable\
- , “más grande” no siempre es mejor. Ahí es donde la IA ligera puede 
- convertirse en una campeona para la salud.\nAxell Albano Gutiérrez Ramír
- ez es ingeniero biomédico y vio de cerca cómo un diagnóstico inicial eq
- uivocado puede afectar a toda una familia.\n\nEn muchas clínicas rurales 
- y de bajos recursos\, los pacientes muestran señales tempranas (temblores
- \, cambios en la marcha\, deterioro cognitivo)\, pero los especialistas es
- tán a horas de distancia y las listas de espera se extienden por meses.\n
- \nEn esta charla\, Axell comparte un camino distinto al hype de “modelos
-  más grandes + datasets masivos”: construir herramientas prácticas de 
- apoyo al diagnóstico que puedan correr en hardware básico\, funcionar si
- n conexión y aprender con decenas o cientos de registros de pacientes\, n
- o millones.\n\n\\#\\# Lo que veremos\n• \\*\\*Cuándo los pocos datos pu
- eden ganar\\*\\* - Cómo los modelos simples y eficientes en datos pueden 
- superar al deep learning en escenarios de datos limitados (y cuándo no)\n
- • \\*\\*Diseño guiado por restricciones\\*\\* - Construir para el siste
- ma de salud que existe (ancho de banda limitado\, energía inestable\, dis
- positivos básicos)\, no para el de los papers\n• \\*\\*Explicabilidad 
- útil para el personal clínico\\*\\* - Qué debería significar “explic
- able” en la práctica para apoyar decisiones\, generar confianza y adopt
- ar de forma segura\n• \\*\\*Del modelo al flujo de trabajo\\*\\* - Cómo
-  convertir un prototipo en algo que un médico general realmente pueda usa
- r bajo restricciones reales\n• \\*\\*Equidad\, límites y responsabilida
- d\\*\\* - Cómo ampliar el acceso sin sobreprometer: IA como apoyo\, no co
- mo reemplazo\n\nBasado en su investigación de maestría en el CIC IPN\, A
- xell recorrerá un enfoque de prediagnóstico de Parkinson a partir del an
- álisis con IA de patrones geométricos trazados a mano\, algo que un méd
- ico general puede aplicar con papel y un teléfono\, sin infraestructura e
- n la nube ni equipo especializado.\n\n\\#\\# Sobre Axell\nhttps://www.link
- edin.com/in/axell-albano-guti%C3%A9rrez-ram%C3%ADrez-2a30b11a8\nhttps://or
- cid.org/0009-0008-6197-5422\nAxell Albano Gutiérrez Ramírez es ingeniero
-  biomédico de México y actualmente cursa la maestría en Ciencias de la 
- Computación (MCIC) en el CIC IPN\, en la Ciudad de México. Su tesis se e
- nfoca en aprendizaje de máquina para apoyo al diagnóstico\, específicam
- ente un sistema de prediagnóstico de la enfermedad de Parkinson mediante 
- el análisis de patrones geométricos trazados a mano.\n\nSu trabajo enfat
- iza IA práctica para la accesibilidad en salud: modelos ligeros adecuados
-  para entornos clínicos de bajos recursos sin acceso a especialistas. Est
- e año\, en París\, participó en el ICMV 2025\, uno de los congresos int
- ernacionales a los que asistió para compartir avances de su investigació
- n sobre el uso de trazos como apoyo en el diagnóstico de Parkinson.\n\nHa
-  presentado en congresos internacionales\, incluidos CIESEM 2021\, EDULEAR
- N24 (Mallorca) e ICMV 2025 (París\, Francia)\, y ha sido coautor de traba
- jos sobre diagnósticos basados en IA\, defendiendo enfoques simples y efi
- cientes en datos cuando los conjuntos disponibles son limitados.\n\n\\*\\*
- Schedule\\*\\*\n6:00 p.m. Doors & check-in\n6:30 p.m. Conversation begins\
- n7:15 p.m. Audience Q&A\n7:30 p.m. Networking\n8:00–9:30 p.m. After part
- y at a nearby spot (5 min walk\; indoor/outdoor\, bring a jacket and your 
- drinking/eating shoes)\n\nWhen data is scarce and infrastructure is unreli
- able\, “bigger” isn’t better. That’s where lightweight AI can beco
- me a champion for health.\nAxell Albano Gutiérrez Ramírez is a biomedica
- l engineer who saw how a wrong initial diagnosis can ripple through a fami
- ly. In many rural and low‑resource clinics\, patients show early signs (
- tremors\, gait changes\, cognitive shifts)\, but specialists are hours awa
- y and waitlists stretch for months.\n\nIn this talk\, Axell shares a diffe
- rent path from the “bigger models + massive datasets” hype: building p
- ractical diagnostic support that can run on basic hardware\, work offline\
- , and learn from dozens or hundreds of patient records\, not millions.\n\n
- We will cover his wins and losses. What he learned along the way and...\n
- • \\*\\*When small data can win\\*\\* - How simple\, data‑efficient mo
- dels can outperform deep learning in limited‑data settings (and when the
- y can’t)\n• \\*\\*Constraint-driven design\\*\\* - Building for the he
- althcare system that exists (limited bandwidth\, unreliable power\, basic 
- devices)\, not the one in research papers\n• \\*\\*Explainability clinic
- ians can use\\*\\* - What “explainable” should mean in practice for de
- cision support\, trust\, and safe adoption\n• \\*\\*From model to workfl
- ow\\*\\* - Turning a prototype into something a general practitioner can a
- ctually use under real constraints\n• \\*\\*Equity\, limits\, and respon
- sibility\\*\\* - How to expand access without overclaiming: AI as support\
- , not replacement\nGrounded in his master’s research at CIC IPN\, Axell 
- will walk through a Parkinson’s pre‑diagnosis approach based on AI ana
- lysis of hand‑drawn geometric patterns\, something a general practitione
- r can administer with paper and a phone\, without cloud infrastructure or 
- specialized equipment.\n\n\\#\\# About Axell\nhttps://www.linkedin.com/in/
- axell-albano-guti%C3%A9rrez-ram%C3%ADrez-2a30b11a8\nhttps://orcid.org/0009
- -0008-6197-5422\n\nAxell Albano Gutiérrez Ramírez is a biomedical engine
- er from Mexico currently pursuing his master's degree in Computer Science 
- (MCIC) at CIC IPN in Mexico City. His thesis focuses on machine learning f
- or diagnostic support\, specifically a pre‑diagnostic system for Parkins
- on’s disease through analysis of hand‑drawn geometric patterns.\n\nHis
-  work emphasizes practical AI for healthcare accessibility: lightweight mo
- dels suitable for low‑resource clinical settings without access to speci
- alists. This year\, in Paris\, he took part in ICMV 2025\, one of the inte
- rnational conferences he attended to share progress in his research on usi
- ng hand‑drawn strokes to support Parkinson’s diagnosis.\nHe has presen
- ted at international conferences including CIESEM 2021\, EDULEARN24 (Mallo
- rca)\, and ICMV 2025 (Paris\, France)\, and co‑authored work on AI‑dri
- ven diagnostics\, advocating for simple\, data‑efficient approaches when
-  datasets are limited.
-LOCATION:Casa Rafael Galván\, Zacatecas 94\, Col Roma Norte\,\, Mexico Ci
- ty\, Mexico City
+SUMMARY:AI/IA CDMX|Campeón Peso Ligero IA para la Salud - Lightweight Cha
+ mpion AI for Health|México|Ciudad de México
+DTSTART:20260218T000000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/vals4loe\n\nAd
+ dress:\nCasa Rafael Galvan\nCiudad de México\, Ciudad de México\nMexico\
+ n\nHosted by Benjamin Ullrich & Ben AI CDMX
+LOCATION:Casa Rafael Galvan\, Zacatecas 94\, Roma Nte.\, Cuauhtémoc\, 067
+ 00 Ciudad de México\, CDMX\, Mexico
 X-CRONQUILES-ADDRESS:Zacatecas 94\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad
   de México\, CDMX\, México
 X-CRONQUILES-CITY:Ciudad de México
@@ -3200,6 +3138,29 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México
 DTSTART:20261117T180000
+CATEGORIES:ai
+DESCRIPTION:AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent
+  live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nh
+ ttps://www.instagram.com/cdmxai/\nhttps://www.facebook.com/aicdmx\nhttps:/
+ /www.linkedin.com/company/ai-cdmx\n\nJoin us and stay ahead of the curve. 
+ You won’t just learn about AI—you’ll learn how to use it to your adv
+ antage.\nThis event is just a glimpse into these topics. Our group dives i
+ nto AI from all angles with monthly events and workshops that explore a wi
+ de range of themes.
+LOCATION:Casa Rafael Galván\, Zacatecas 94\, Col Roma Norte\,\, Mexico Ci
+ ty\, Mexico City
+X-CRONQUILES-ADDRESS:Zacatecas 94\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad
+  de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México
+DTSTART:20261215T180000
 CATEGORIES:ai
 DESCRIPTION:AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent
   live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nh
