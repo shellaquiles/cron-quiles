@@ -1,12 +1,17 @@
 {
-  "generated_at": "2026-02-19T12:44:05.900936+00:00",
-  "total_events": 153,
+  "generated_at": "2026-02-19T18:43:25.882372+00:00",
+  "total_events": 154,
   "city": "Online",
   "communities": [
     {
       "name": "AI/IA CDMX",
-      "description": "Canal de Luma de la comunidad de IA en Ciudad de México.",
+      "description": "Canal de Meetup de la comunidad de IA en Ciudad de México.",
       "links": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/ai-cdmx",
+          "label": "Meetup"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/ai-cdmx",
@@ -42,12 +47,12 @@
       ]
     },
     {
-      "name": "Kong Mexico City",
-      "description": "Eventos sobre APIs, Microservicios, Service Mesh e Insomnia.",
+      "name": "Global AI CDMX",
+      "description": "Capítulo local de la Global AI Community. Enfoque en Microsoft AI y tecnologías Azure.",
       "links": [
         {
           "platform": "meetup",
-          "url": "https://www.meetup.com/kong-mexico-city",
+          "url": "https://www.meetup.com/globalaicdmx",
           "label": "Meetup"
         }
       ]
@@ -3831,38 +3836,6 @@
       "hash_key": "how i use ai vol 2_2026-02-13T00:00:00+00:00"
     },
     {
-      "title": "Kong Mexico City|Shadow AI to Governed AI: The Chief AI Officer’s Playbook|Online",
-      "description": "Kong/MEXICO-CITY\nAs enterprises rapidly adopt AI, teams are deploying models across multiple providers—often without oversight, creating operational blind spots and compliance risks. This webinar addresses the urgent challenges of shadow AI and fragmented model management, offering a clear roadmap to centralized control with Kong AI Gateway. We'll explore the risks of ungoverned AI deployment and demonstrate how a governed API surface streamlines orchestration, security, and compliance.Discover how leading organizations have used Kong Konnect to centralize AI access, control costs, and improve developer experience—all without disrupting existing workflows.\n\n**What you’ll learn:**\n\n* Identify and quantify hidden financial, security, and compliance risks in shadow AI\n* Map AI gateway capabilities—authentication, policy enforcement, rate limiting, routing, and audit logging—to your most urgent operational challenges\n* Implement a phased migration from direct model calls to gateway-first architecture for rapid, low-risk wins\n* Align platform, security, and compliance teams with a unified approach to AI governance\n* Enhance developer experience while achieving end-to-end oversight and control",
-      "url": "https://www.meetup.com/kong-mexico-city/events/313308352/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/kong-mexico-city/events/313308352/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "Online",
-      "online": true,
-      "organizer": "Kong Mexico City",
-      "dtstart": "2026-02-19T10:00:00-06:00",
-      "dtend": "2026-02-19T11:00:00-06:00",
-      "tags": [
-        "ai",
-        "backend",
-        "security",
-        "web"
-      ],
-      "source": "https://www.meetup.com/kong-mexico-city/events/ical",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "",
-      "hash_key": "shadow ai to governed ai the chief ai of_2026-02-19T16:00:00+00:00"
-    },
-    {
       "title": "v0 Prompt to Production Mexico City|How I Use AI #3: Midjourney|Online",
       "description": "Get up-to-date information at: https://luma.com/d342anny\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/d342anny",
@@ -3890,6 +3863,36 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-WUg9IsqZP5MKL4B",
       "hash_key": "how i use ai 3 midjourney_2026-02-19T22:00:00+00:00"
+    },
+    {
+      "title": "Global AI CDMX|7th Global Power Platform Bootcamp 2026 México|Online",
+      "description": "Global AI Mexico City\nEl Power Platform 2026 llega a México también y podrás conocer los avances tecnológicos de esta área entre la comunidad académica, profesional y tecnológica de la región, fomentando el aprendizaje, la innovación y el desarrollo de habilidades que impulsan la transformación digital.\n\nEstamos seguros de que este evento será un espacio enriquecedor para todos los participantes y contribuirá significativamente al fortalecimiento del ecosistema tecnológico local.\n\nEn instalaciones magnificas, conferencistas especializados en el área y gran dinamismo.\n\nLa agenda de publicará dentro de poco.\n\nSe brindará constancia digital de participación en este evento.",
+      "url": "https://www.meetup.com/globalaicdmx/events/312777254/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/globalaicdmx/events/312777254/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "",
+      "online": true,
+      "organizer": "Global AI CDMX",
+      "dtstart": "2026-02-20T12:00:00-06:00",
+      "dtend": "2026-02-20T18:00:00-06:00",
+      "tags": [
+        "ai",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/globalaicdmx/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "7th global power platform bootcamp 2026 _2026-02-20T18:00:00+00:00"
     },
     {
       "title": "Pythonista|Introducción a Ingeniería y Analítica de Datos con Python|Online",
@@ -3934,7 +3937,7 @@
           "label": "Ver en Meetup"
         }
       ],
-      "location": "Online",
+      "location": "",
       "online": true,
       "organizer": "Unity User Group CDMX",
       "dtstart": "2026-02-26T11:00:00-06:00",
@@ -3963,7 +3966,7 @@
           "label": "Ver en Meetup"
         }
       ],
-      "location": "Online",
+      "location": "",
       "online": true,
       "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
       "dtstart": "2026-02-26T11:00:00-06:00",
@@ -4509,6 +4512,35 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-CORCUTzJrvpRzSw",
       "hash_key": "predictive neurotechnologies criminal ri_2026-06-03T06:00:00+00:00"
+    },
+    {
+      "title": "AI/IA CDMX|To Be Announced/Por anunciar|Online",
+      "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nhttps://www.instagram.com/cdmxai/\nhttps://www.facebook.com/aicdmx\nhttps://www.linkedin.com/company/ai-cdmx\n\nJoin us and stay ahead of the curve. You won’t just learn about AI—you’ll learn how to use it to your advantage.\nThis event is just a glimpse into these topics. Our group dives into AI from all angles with monthly events and workshops that explore a wide range of themes.",
+      "url": "https://www.meetup.com/ai-cdmx/events/313154431/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/ai-cdmx/events/313154431/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "",
+      "online": true,
+      "organizer": "AI/IA CDMX",
+      "dtstart": "2026-08-18T18:00:00-06:00",
+      "dtend": "2026-08-18T20:00:00-06:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://www.meetup.com/ai-cdmx/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "to be announced por anunciar_2026-08-19T00:00:00+00:00"
     }
   ]
 }
