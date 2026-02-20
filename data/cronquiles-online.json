@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-20T12:40:04.560474+00:00",
-  "total_events": 154,
+  "generated_at": "2026-02-20T18:37:09.892889+00:00",
+  "total_events": 156,
   "city": "Online",
   "communities": [
     {
@@ -81,11 +81,11 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/e17fbtoo",
+          "url": "https://luma.com/sudo_fciencias_2026",
           "label": "Luma"
         }
       ]
@@ -3352,7 +3352,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3517,7 +3517,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3706,7 +3706,7 @@
       "dtstart": "2026-01-19T18:00:00+00:00",
       "dtend": "2026-01-28T20:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3860,6 +3860,35 @@
       "hash_key": "how i use ai 3 midjourney_2026-02-19T22:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|AI Demo Day|Online",
+      "description": "Get up-to-date information at: https://luma.com/ai-demo-day-2\n\nHosted by Matheus Pagani & 3 others",
+      "url": "https://luma.com/ai-demo-day-2",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/ai-demo-day-2",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-ddonWR6KgsQZwBN",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-02-21T19:00:00+00:00",
+      "dtend": "2026-02-21T22:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-ddonWR6KgsQZwBN",
+      "hash_key": "ai demo day_2026-02-21T18:00:00+00:00"
+    },
+    {
       "title": "Pythonista|Introducción a Ingeniería y Analítica de Datos con Python|Online",
       "description": "Pythonista®\n## 🚀 **Taller: Introducción a la Ingeniería y Analítica de Datos con Python**\n\n¿Quieres dominar las herramientas que utilizan los Ingenieros de Datos y Científicos de Datos hoy en día? Únete a este taller práctico de **24 horas** donde pasaremos de los fundamentos numéricos a la creación de aplicaciones de datos de alto rendimiento.\nEn este curso, no solo aprenderás la teoría, sino que trabajarás con el ecosistema moderno de Python (**Pandas, Polars, PyArrow, Dask, Streamlit**) para procesar grandes volúmenes de información de manera eficiente.\n\n### 🎁 Promoción Exclusiva Meetup\n\n¡Queremos premiar a los primeros en sumarse!\n\n* **Precio regular:** $29 USD\n* **Precio especial Meetup:** **$20 USD** (Solo para los **primeros 25 inscritos**).\n\n***\n\n### 📅 Detalles del Evento\n\n* **Fechas:** Del 23 de febrero al 12 de marzo.\n* **Sesiones:** Lunes a jueves (12 sesiones en total).\n* **Horario:** 18:30 a 20:30 horas (CST - CDMX).\n* **Modalidad:** Online en vivo (incluye acceso a grabaciones y materiales en GitHub).\n\n***\n\n### 🛠️ ¿Qué aprenderás?\n\nEl taller está dividido en 5 módulos estratégicos:\n\n1. **Fundamentos Numéricos:** Computación vectorial con NumPy y el ecosistema SciPy.\n2. **Pandas Moderno:** Optimización de memoria con PyArrow y gestión eficiente de tipos de datos.\n3. **ETL y Analítica Avanzada:** Técnicas de Windowing, limpieza de datos y transformaciones complejas.\n4. **Ingeniería de Alto Rendimiento:** Procesamiento con **Polars** (el futuro de los DataFrames) y computación distribuida con **Dask**.\n5. **Visualización y Producto:** Gráficos estadísticos con Seaborn y despliegue de **Data Apps con Streamlit**.\n\n***\n\n### 📋 Requisitos\n\n* Conocimientos básicos de Python o algún otro lenguaje orientado a objetos.\n* Cuenta de GitHub (trabajaremos directamente en la nube con Codespaces).\n* ¡Muchas ganas de aprender!\n\n### 🎓 Certificación\n\nSe otorgará un **diploma de asistencia** a quienes participen en al menos el 80% de las sesiones.\n\n### 🔗 Cómo inscribirse\n\n1. Realiza tu pago con el descuento de Meetup aquí.\n2. Una vez realizado, completa tu registro oficial en: [https://www.pythonista.io/eventos/data_eng_intro-2602](https://www.pythonista.io/eventos/data_eng_intro-2602)\n\n**¡Corre! El cupo para el descuento de $20 USD es limitado a los primeros 25.**",
       "url": "https://www.meetup.com/pythonista/events/313316350/",
@@ -3890,6 +3919,35 @@
       "city_code": "",
       "address": "",
       "hash_key": "introduccin a ingeniera y analtica de da_2026-02-24T00:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|AI Collective Harare Chapter - Governance Sub-Track Paper Discussion (w/ The AI Collective)|Online",
+      "description": "Get up-to-date information at: https://luma.com/governancezw\n\nHosted by The AI Collective & 5 others",
+      "url": "https://luma.com/governancezw",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/governancezw",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-MLHmt6ur8AtltIk",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-02-26T17:00:00+00:00",
+      "dtend": "2026-02-26T18:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-MLHmt6ur8AtltIk",
+      "hash_key": "ai collective harare chapter governance _2026-02-26T16:00:00+00:00"
     },
     {
       "title": "Unity User Group CDMX|Skillshare #3: Our Favorite Advocacy Assets and Sample Packages|Online",
@@ -4010,35 +4068,6 @@
       "hash_key": "the ai collective stamford batchery ai s_2026-02-26T18:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|How I Use AI #4: OpenClaw|Online",
-      "description": "Get up-to-date information at: https://luma.com/5ivardas\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
-      "url": "https://luma.com/5ivardas",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/5ivardas",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-utuQiZ6tlVbHWXw",
-      "online": true,
-      "organizer": "v0 Prompt to Production Mexico City",
-      "dtstart": "2026-02-27T00:00:00+00:00",
-      "dtend": "2026-02-27T01:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/fdg8riz2",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-utuQiZ6tlVbHWXw",
-      "hash_key": "how i use ai 4 openclaw_2026-02-27T00:00:00+00:00"
-    },
-    {
       "title": "Rust-AICollective|All About OpenClaw. Hands-On Deployment Workshop - North Dallas Surroundings|Online",
       "description": "Get up-to-date information at: https://luma.com/din1zna2\n\nHosted by The AI Collective & 3 others",
       "url": "https://luma.com/din1zna2",
@@ -4101,6 +4130,35 @@
       "city_code": "",
       "address": "",
       "hash_key": "march 5 ai ml and computer vision meetup_2026-03-05T16:00:00+00:00"
+    },
+    {
+      "title": "v0 Prompt to Production Mexico City|How I Use AI #4: OpenClaw|Online",
+      "description": "Get up-to-date information at: https://luma.com/5ivardas\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
+      "url": "https://luma.com/5ivardas",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/5ivardas",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-utuQiZ6tlVbHWXw",
+      "online": true,
+      "organizer": "v0 Prompt to Production Mexico City",
+      "dtstart": "2026-03-06T00:00:00+00:00",
+      "dtend": "2026-03-06T01:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/fdg8riz2",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-utuQiZ6tlVbHWXw",
+      "hash_key": "how i use ai 4 openclaw_2026-03-06T00:00:00+00:00"
     },
     {
       "title": "Ajolotes en la Nube|EKS en Piloto Automático: Terraform + Kiro para Administrar tu Clúster en AWS|Online",
