@@ -1198,22 +1198,6 @@ LOCATION:https://luma.com/event/evt-WUg9IsqZP5MKL4B
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-WUg9IsqZP5MKL4B
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Global AI CDMX|7th Global Power Platform Bootcamp 2026 México|Onl
- ine
-DTSTART:20260220T120000
-CATEGORIES:ai,frontend
-DESCRIPTION:Global AI Mexico City\nEl Power Platform 2026 llega a México 
- también y podrás conocer los avances tecnológicos de esta área entre l
- a comunidad académica\, profesional y tecnológica de la región\, foment
- ando el aprendizaje\, la innovación y el desarrollo de habilidades que im
- pulsan la transformación digital.\n\nEstamos seguros de que este evento s
- erá un espacio enriquecedor para todos los participantes y contribuirá s
- ignificativamente al fortalecimiento del ecosistema tecnológico local.\n\
- nEn instalaciones magnificas\, conferencistas especializados en el área y
-  gran dinamismo.\n\nLa agenda de publicará dentro de poco.\n\nSe brindar
- á constancia digital de participación en este evento.
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pythonista|Introducción a Ingeniería y Analítica de Datos con P
  ython|Online
 DTSTART:20260223T183000
@@ -1266,6 +1250,7 @@ DESCRIPTION:Unity User Group - Ciudad de México\nJoin us for our 3rd Skil
  dive into and learn from including assets from *Keijiro Takahashi*. With p
  otential time at the end for a bonus peak at future content.\n\nHope to se
  e you there!
+LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Feb 
@@ -1295,6 +1280,16 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
   have a reusable toolkit for understanding any video dataset at scale\, wh
  ether you're curating training data\, debugging model performance\, or exp
  loring a new domain.
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Founder Friends Mexico|Venture Bites: How small check writers driv
+ e big impact|Online
+DTSTART:20260226T180000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/n7qh2wkf\n\nHo
+ sted by Wael Jabir
+LOCATION:https://luma.com/event/evt-T9DwqyfaoViKf9K
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-T9DwqyfaoViKf9K
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|🧠 The AI Collective Stamford  -  Batchery AI 
@@ -1409,6 +1404,34 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  d modernization\, and applied AI programs across insurance\, financial ser
  vices\, and global eCommerce.
 LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ajolotes en la Nube|EKS en Piloto Automático: Terraform + Kiro pa
+ ra Administrar tu Clúster en AWS|Online
+DTSTART:20260305T193000
+CATEGORIES:cloud,devops,frontend,web
+DESCRIPTION:AWS User Group: Ajolotes en la Nube\n📅 **Fecha:** Jueves 5 
+ de marzo\n⏰ **Hora:** 7:30 PM\n📍 **Ubicación:** En línea\n\nÚnete 
+ a nosotros en esta sesión práctica donde aprenderás a llevar tu operaci
+ ón de Kubernetes al siguiente nivel con **Amazon EKS**\, combinando **Ter
+ raform** para Infraestructura como Código y **Kiro** para la automatizaci
+ ón operativa dentro del clúster.\n\nAdministrar Kubernetes manualmente n
+ o escala. Crear VPCs\, nodos\, clústeres y deployments puede convertirse 
+ en una tarea repetitiva y propensa a errores. En esta charla descubrirás 
+ cómo automatizar todo el proceso y construir un entorno reproducible\, es
+ calable y listo para producción en **Amazon Web Services**.\n\nDurante la
+  sesión\, aprenderás a:\n✅ Crear y desplegar un clúster en Amazon EKS
+  usando Terraform.\n✅ Aplicar Infraestructura como Código (IaC) para en
+ tornos consistentes y versionables.\n✅ Automatizar la gestión operativa
+  del clúster con Kiro.\n✅ Pasar de configuraciones manuales a una opera
+ ción profesional y escalable.\n\nEsta charla es nivel básico–intermedi
+ o\, ideal para desarrolladores y perfiles DevOps que quieran profesionaliz
+ ar su operación en Kubernetes y dar el siguiente paso en la nube.\n\nEsta
+  sesión es tu oportunidad perfecta para **profundizar tus conocimientos**
+ \, **conectar con nuestra vibrante comunidad** y **seguir creciendo** en t
+ u camino profesional!\n\n**¡Nos vemos pronto\, Ajolote! 💜🚀✨**
+LOCATION:Online
+X-CRONQUILES-ADDRESS:en línea
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Marc
@@ -1884,18 +1907,5 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/aic-gl-6-3\n\n
  Hosted by The AI Collective & 3 others
 LOCATION:https://luma.com/event/evt-CORCUTzJrvpRzSw
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-CORCUTzJrvpRzSw
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|Online
-DTSTART:20260818T180000
-CATEGORIES:ai
-DESCRIPTION:AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent
-  live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nh
- ttps://www.instagram.com/cdmxai/\nhttps://www.facebook.com/aicdmx\nhttps:/
- /www.linkedin.com/company/ai-cdmx\n\nJoin us and stay ahead of the curve. 
- You won’t just learn about AI—you’ll learn how to use it to your adv
- antage.\nThis event is just a glimpse into these topics. Our group dives i
- nto AI from all angles with monthly events and workshops that explore a wi
- de range of themes.
 END:VEVENT
 END:VCALENDAR

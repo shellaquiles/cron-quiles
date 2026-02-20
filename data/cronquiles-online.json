@@ -1,21 +1,27 @@
 {
-  "generated_at": "2026-02-19T18:43:25.882372+00:00",
+  "generated_at": "2026-02-20T01:16:23.428217+00:00",
   "total_events": 154,
   "city": "Online",
   "communities": [
     {
       "name": "AI/IA CDMX",
-      "description": "Canal de Meetup de la comunidad de IA en Ciudad de México.",
+      "description": "Canal de Luma de la comunidad de IA en Ciudad de México.",
       "links": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/ai-cdmx",
-          "label": "Meetup"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/ai-cdmx",
           "label": "Luma"
+        }
+      ]
+    },
+    {
+      "name": "Ajolotes en la Nube",
+      "description": "Grupo dedicado a Cloud Computing y arquitecturas modernas en la nube.",
+      "links": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/ajolotesenlanube",
+          "label": "Meetup"
         }
       ]
     },
@@ -43,17 +49,6 @@
           "platform": "luma",
           "url": "https://luma.com/FFMexico2026",
           "label": "Luma"
-        }
-      ]
-    },
-    {
-      "name": "Global AI CDMX",
-      "description": "Capítulo local de la Global AI Community. Enfoque en Microsoft AI y tecnologías Azure.",
-      "links": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/globalaicdmx",
-          "label": "Meetup"
         }
       ]
     },
@@ -3865,36 +3860,6 @@
       "hash_key": "how i use ai 3 midjourney_2026-02-19T22:00:00+00:00"
     },
     {
-      "title": "Global AI CDMX|7th Global Power Platform Bootcamp 2026 México|Online",
-      "description": "Global AI Mexico City\nEl Power Platform 2026 llega a México también y podrás conocer los avances tecnológicos de esta área entre la comunidad académica, profesional y tecnológica de la región, fomentando el aprendizaje, la innovación y el desarrollo de habilidades que impulsan la transformación digital.\n\nEstamos seguros de que este evento será un espacio enriquecedor para todos los participantes y contribuirá significativamente al fortalecimiento del ecosistema tecnológico local.\n\nEn instalaciones magnificas, conferencistas especializados en el área y gran dinamismo.\n\nLa agenda de publicará dentro de poco.\n\nSe brindará constancia digital de participación en este evento.",
-      "url": "https://www.meetup.com/globalaicdmx/events/312777254/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/globalaicdmx/events/312777254/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "",
-      "online": true,
-      "organizer": "Global AI CDMX",
-      "dtstart": "2026-02-20T12:00:00-06:00",
-      "dtend": "2026-02-20T18:00:00-06:00",
-      "tags": [
-        "ai",
-        "frontend"
-      ],
-      "source": "https://www.meetup.com/globalaicdmx/events/ical",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "",
-      "hash_key": "7th global power platform bootcamp 2026 _2026-02-20T18:00:00+00:00"
-    },
-    {
       "title": "Pythonista|Introducción a Ingeniería y Analítica de Datos con Python|Online",
       "description": "Pythonista®\n## 🚀 **Taller: Introducción a la Ingeniería y Analítica de Datos con Python**\n\n¿Quieres dominar las herramientas que utilizan los Ingenieros de Datos y Científicos de Datos hoy en día? Únete a este taller práctico de **24 horas** donde pasaremos de los fundamentos numéricos a la creación de aplicaciones de datos de alto rendimiento.\nEn este curso, no solo aprenderás la teoría, sino que trabajarás con el ecosistema moderno de Python (**Pandas, Polars, PyArrow, Dask, Streamlit**) para procesar grandes volúmenes de información de manera eficiente.\n\n### 🎁 Promoción Exclusiva Meetup\n\n¡Queremos premiar a los primeros en sumarse!\n\n* **Precio regular:** $29 USD\n* **Precio especial Meetup:** **$20 USD** (Solo para los **primeros 25 inscritos**).\n\n***\n\n### 📅 Detalles del Evento\n\n* **Fechas:** Del 23 de febrero al 12 de marzo.\n* **Sesiones:** Lunes a jueves (12 sesiones en total).\n* **Horario:** 18:30 a 20:30 horas (CST - CDMX).\n* **Modalidad:** Online en vivo (incluye acceso a grabaciones y materiales en GitHub).\n\n***\n\n### 🛠️ ¿Qué aprenderás?\n\nEl taller está dividido en 5 módulos estratégicos:\n\n1. **Fundamentos Numéricos:** Computación vectorial con NumPy y el ecosistema SciPy.\n2. **Pandas Moderno:** Optimización de memoria con PyArrow y gestión eficiente de tipos de datos.\n3. **ETL y Analítica Avanzada:** Técnicas de Windowing, limpieza de datos y transformaciones complejas.\n4. **Ingeniería de Alto Rendimiento:** Procesamiento con **Polars** (el futuro de los DataFrames) y computación distribuida con **Dask**.\n5. **Visualización y Producto:** Gráficos estadísticos con Seaborn y despliegue de **Data Apps con Streamlit**.\n\n***\n\n### 📋 Requisitos\n\n* Conocimientos básicos de Python o algún otro lenguaje orientado a objetos.\n* Cuenta de GitHub (trabajaremos directamente en la nube con Codespaces).\n* ¡Muchas ganas de aprender!\n\n### 🎓 Certificación\n\nSe otorgará un **diploma de asistencia** a quienes participen en al menos el 80% de las sesiones.\n\n### 🔗 Cómo inscribirse\n\n1. Realiza tu pago con el descuento de Meetup aquí.\n2. Una vez realizado, completa tu registro oficial en: [https://www.pythonista.io/eventos/data_eng_intro-2602](https://www.pythonista.io/eventos/data_eng_intro-2602)\n\n**¡Corre! El cupo para el descuento de $20 USD es limitado a los primeros 25.**",
       "url": "https://www.meetup.com/pythonista/events/313316350/",
@@ -3937,7 +3902,7 @@
           "label": "Ver en Meetup"
         }
       ],
-      "location": "",
+      "location": "Online",
       "online": true,
       "organizer": "Unity User Group CDMX",
       "dtstart": "2026-02-26T11:00:00-06:00",
@@ -3966,7 +3931,7 @@
           "label": "Ver en Meetup"
         }
       ],
-      "location": "",
+      "location": "Online",
       "online": true,
       "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
       "dtstart": "2026-02-26T11:00:00-06:00",
@@ -3985,6 +3950,33 @@
       "city_code": "",
       "address": "",
       "hash_key": "feb 26 exploring video datasets with fif_2026-02-26T16:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Venture Bites: How small check writers drive big impact|Online",
+      "description": "Get up-to-date information at: https://luma.com/n7qh2wkf\n\nHosted by Wael Jabir",
+      "url": "https://luma.com/n7qh2wkf",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/n7qh2wkf",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-T9DwqyfaoViKf9K",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2026-02-26T18:00:00+00:00",
+      "dtend": "2026-02-26T18:10:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-T9DwqyfaoViKf9K",
+      "hash_key": "venture bites how small check writers dr_2026-02-26T18:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|🧠 The AI Collective Stamford  -  Batchery AI Startup Studio - Open Office Hours|Online",
@@ -4107,6 +4099,38 @@
       "city_code": "",
       "address": "",
       "hash_key": "march 5 ai ml and computer vision meetup_2026-03-05T16:00:00+00:00"
+    },
+    {
+      "title": "Ajolotes en la Nube|EKS en Piloto Automático: Terraform + Kiro para Administrar tu Clúster en AWS|Online",
+      "description": "AWS User Group: Ajolotes en la Nube\n📅 **Fecha:** Jueves 5 de marzo\n⏰ **Hora:** 7:30 PM\n📍 **Ubicación:** En línea\n\nÚnete a nosotros en esta sesión práctica donde aprenderás a llevar tu operación de Kubernetes al siguiente nivel con **Amazon EKS**, combinando **Terraform** para Infraestructura como Código y **Kiro** para la automatización operativa dentro del clúster.\n\nAdministrar Kubernetes manualmente no escala. Crear VPCs, nodos, clústeres y deployments puede convertirse en una tarea repetitiva y propensa a errores. En esta charla descubrirás cómo automatizar todo el proceso y construir un entorno reproducible, escalable y listo para producción en **Amazon Web Services**.\n\nDurante la sesión, aprenderás a:\n✅ Crear y desplegar un clúster en Amazon EKS usando Terraform.\n✅ Aplicar Infraestructura como Código (IaC) para entornos consistentes y versionables.\n✅ Automatizar la gestión operativa del clúster con Kiro.\n✅ Pasar de configuraciones manuales a una operación profesional y escalable.\n\nEsta charla es nivel básico–intermedio, ideal para desarrolladores y perfiles DevOps que quieran profesionalizar su operación en Kubernetes y dar el siguiente paso en la nube.\n\nEsta sesión es tu oportunidad perfecta para **profundizar tus conocimientos**, **conectar con nuestra vibrante comunidad** y **seguir creciendo** en tu camino profesional!\n\n**¡Nos vemos pronto, Ajolote! 💜🚀✨**",
+      "url": "https://www.meetup.com/ajolotesenlanube/events/313431118/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/ajolotesenlanube/events/313431118/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Online",
+      "online": false,
+      "organizer": "Ajolotes en la Nube",
+      "dtstart": "2026-03-05T19:30:00-06:00",
+      "dtend": "2026-03-05T21:00:00-06:00",
+      "tags": [
+        "cloud",
+        "devops",
+        "frontend",
+        "web"
+      ],
+      "source": "https://www.meetup.com/ajolotesenlanube/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": " en línea",
+      "hash_key": "eks en piloto automtico terraform kiro p_2026-03-06T00:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|March 11 - Strategies for Validating World Models and Action-Conditioned Video|Online",
@@ -4512,35 +4536,6 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-CORCUTzJrvpRzSw",
       "hash_key": "predictive neurotechnologies criminal ri_2026-06-03T06:00:00+00:00"
-    },
-    {
-      "title": "AI/IA CDMX|To Be Announced/Por anunciar|Online",
-      "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nhttps://www.instagram.com/cdmxai/\nhttps://www.facebook.com/aicdmx\nhttps://www.linkedin.com/company/ai-cdmx\n\nJoin us and stay ahead of the curve. You won’t just learn about AI—you’ll learn how to use it to your advantage.\nThis event is just a glimpse into these topics. Our group dives into AI from all angles with monthly events and workshops that explore a wide range of themes.",
-      "url": "https://www.meetup.com/ai-cdmx/events/313154431/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/ai-cdmx/events/313154431/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "",
-      "online": true,
-      "organizer": "AI/IA CDMX",
-      "dtstart": "2026-08-18T18:00:00-06:00",
-      "dtend": "2026-08-18T20:00:00-06:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://www.meetup.com/ai-cdmx/events/ical",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "",
-      "hash_key": "to be announced por anunciar_2026-08-19T00:00:00+00:00"
     }
   ]
 }

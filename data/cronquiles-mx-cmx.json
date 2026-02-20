@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-19T18:43:25.956978+00:00",
-  "total_events": 165,
+  "generated_at": "2026-02-20T01:16:23.497835+00:00",
+  "total_events": 169,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -31,11 +31,6 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
-          "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -114,6 +109,11 @@
     {
       "name": "Vive Codding Cafe",
       "description": "Un espacio para juntarnos a echar código y compartir lo que estamos descubriendo en el mundo de la IA.",
+      "links": []
+    },
+    {
+      "name": "Java Mexico",
+      "description": "Comunidad de Java en México. Eventos, charlas técnicas y networking para desarrolladores Java.",
       "links": []
     },
     {
@@ -2276,6 +2276,37 @@
       "hash_key": "coworking frutal 7_2025-07-16T16:00:00+00:00"
     },
     {
+      "title": "Java Mexico|Arquitecturas Modernas en Java: Hacia Servicios Escalables y Flexibles|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/83si3bw5\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Benek",
+      "url": "https://luma.com/83si3bw5",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/83si3bw5",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Java Mexico",
+      "dtstart": "2025-07-30T00:30:00+00:00",
+      "dtend": "2025-07-30T04:00:00+00:00",
+      "tags": [
+        "ai",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "arquitecturas modernas en java hacia ser_2025-07-30T00:00:00+00:00"
+    },
+    {
       "title": "Frutero Club|Coworking Frutal #9🥑|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/28h8jcg9\n\nAddress:\nSan Francisco 1845\nCiudad de México, Ciudad de México\nMexico\n\nHosted by René Hernández & 3 others",
       "url": "https://luma.com/28h8jcg9",
@@ -3842,38 +3873,58 @@
       "hash_key": "casa frutero coworking frutal 7_2026-02-18T16:00:00+00:00"
     },
     {
-      "title": "AI/IA CDMX|Campeón Peso Ligero IA para la Salud - Lightweight Champion AI for Health|México|Ciudad de México",
-      "description": "Get up-to-date information at: https://luma.com/d75h0bp3\n\nAddress:\nCasa Rafael Galvan\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Ben AI CDMX",
-      "url": "https://luma.com/d75h0bp3",
+      "title": "Frutero Club|Coworking Frutal - Work and Chill #3|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/rg30j7cd\n\nAddress:\nAv. Insurgentes Sur 1877\nÁlvaro Obregón, Ciudad de México\nMexico\n\nHosted by Frutero",
+      "url": "https://luma.com/rg30j7cd",
       "sources": [
         {
           "platform": "luma",
-          "url": "https://luma.com/d75h0bp3",
-          "label": "Ver en Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/ojj5ouzi",
+          "url": "https://luma.com/rg30j7cd",
           "label": "Ver en Luma"
         }
       ],
-      "location": "Casa Rafael Galvan, Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+      "location": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, Mexico",
       "online": false,
-      "organizer": "AI/IA CDMX",
-      "dtstart": "2026-02-20T00:00:00+00:00",
-      "dtend": "2026-02-20T02:00:00+00:00",
-      "tags": [
-        "ai"
+      "organizer": "Frutero Club",
+      "dtstart": "2026-02-20T16:00:00+00:00",
+      "dtend": "2026-02-21T00:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Álvaro Obregón",
+      "city_code": "alvaroobregon",
+      "address": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, México",
+      "hash_key": "coworking frutal work and chill 3_2026-02-20T16:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Frutero Touch Grass|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/9jqn0dhe\n\nAddress:\nBosque de Chapultepec\nMexico City, Mexico City\nMexico\n\nHosted by Frutero",
+      "url": "https://luma.com/9jqn0dhe",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/9jqn0dhe",
+          "label": "Ver en Luma"
+        }
       ],
-      "source": "https://luma.com/ai-cdmx",
+      "location": "Bosque de Chapultepec, Miguel Hidalgo, Mexico City, CDMX, Mexico",
+      "online": false,
+      "organizer": "Frutero Club",
+      "dtstart": "2026-02-22T17:00:00+00:00",
+      "dtend": "2026-02-22T20:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
       "state_code": "MX-CMX",
       "city": "Ciudad de México",
       "city_code": "cdmx",
-      "address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
-      "hash_key": "campen peso ligero ia para la salud ligh_2026-02-20T00:00:00+00:00"
+      "address": "Bosque de Chapultepec, Miguel Hidalgo, Ciudad de México, CDMX, México",
+      "hash_key": "frutero touch grass_2026-02-22T16:00:00+00:00"
     },
     {
       "title": "FinTech México|Connect Day: Fintech Coffee Mixer by Pygma, LATAM Fintech Hub, Oracle, and Cometa VC|México|Ciudad de México",
@@ -4073,6 +4124,33 @@
       "hash_key": "drink global by ditobanx evertec_2026-02-24T00:00:00+00:00"
     },
     {
+      "title": "FinTech México|Evoluciona tu relación con el dinero - By Pilou & Dalia|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/7mivqqeo\n\nAddress:\nDalia\nCiudad de México, Ciudad de México\nMexico\n\nHosted by FinTech México & 4 others",
+      "url": "https://luma.com/7mivqqeo",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/7mivqqeo",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Dalia, Monte Líbano 215, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "FinTech México",
+      "dtstart": "2026-02-24T14:30:00+00:00",
+      "dtend": "2026-02-24T16:30:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/eofagheq",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Monte Líbano 215, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX, México",
+      "hash_key": "evoluciona tu relacin con el dinero by p_2026-02-24T14:00:00+00:00"
+    },
+    {
       "title": "FinTech México|Estado del crédito en México y tendencias 2026 by uFlow & Círculo de Credito|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/bzhhm85f\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & Marina Lucía Mero",
       "url": "https://luma.com/bzhhm85f",
@@ -4102,7 +4180,7 @@
       "hash_key": "estado del crdito en mxico y tendencias _2026-02-24T14:00:00+00:00"
     },
     {
-      "title": "FinTech México|Fintech Luncheon Vol.3 by Pygma and Morrison Foerster|México|Ciudad de México",
+      "title": "FinTech México|Fintech Luncheon Vol.3 by Pygma, AMG Block Ventures  and Morrison Foerster|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/uwjfgnlj\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & Andrés Cano",
       "url": "https://luma.com/uwjfgnlj",
       "sources": [
@@ -4129,7 +4207,7 @@
       "city": "Ciudad de México",
       "city_code": "cdmx",
       "address": "Hipódromo Condesa, 06170 Ciudad de México, CDMX, México",
-      "hash_key": "fintech luncheon vol 3 by pygma and morr_2026-02-24T18:00:00+00:00"
+      "hash_key": "fintech luncheon vol 3 by pygma amg bloc_2026-02-24T18:00:00+00:00"
     },
     {
       "title": "FinTech México|Futuro de Pagos entre Cortes by tapi|México|Ciudad de México",
@@ -4160,35 +4238,6 @@
       "city_code": "cdmx",
       "address": "Chapultepec Morales, Polanco V Secc, Ciudad de México, CDMX, México",
       "hash_key": "futuro de pagos entre cortes by tapi_2026-02-24T20:00:00+00:00"
-    },
-    {
-      "title": "FinTech México|AML & Financial Crime Intelligence by  IKIEXPERTS|México|Ciudad de México",
-      "description": "Get up-to-date information at: https://luma.com/qr2wspo0\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México, JOSE ESPIRITU & Erika Postel",
-      "url": "https://luma.com/qr2wspo0",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/qr2wspo0",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "Colonia Cuauhtémoc, Ciudad de México",
-      "online": false,
-      "organizer": "FinTech México",
-      "dtstart": "2026-02-24T22:00:00+00:00",
-      "dtend": "2026-02-25T01:30:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/02t893pf",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
-      "hash_key": "aml financial crime intelligence by ikie_2026-02-24T22:00:00+00:00"
     },
     {
       "title": "Python CDMX|Meetup Febrero 2026  -  Clara & PythonCDMX|México|Ciudad de México",
@@ -4567,6 +4616,11 @@
           "platform": "meetup",
           "url": "https://www.meetup.com/ai-cdmx/events/312759812/",
           "label": "Ver en Meetup"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/owb7324u",
+          "label": "Ver en Luma"
         }
       ],
       "location": "Casa Rafael Galván, Zacatecas 94, Col Roma Norte,, Mexico City, Mexico City",
@@ -4620,6 +4674,37 @@
       "city_code": "cdmx",
       "address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
       "hash_key": "tmele al shoggoth fear the shoggoth_2026-04-22T00:00:00+00:00"
+    },
+    {
+      "title": "AI/IA CDMX|El Turista Tiene Alma, el Algoritmo No - The Tourist Has a Soul, the Algorithm D|México|Ciudad de México",
+      "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nSpanish with live English subtitles\nEste evento será en español con subtítulos en inglés en vivo.\n\\*\\*Presencial y en vivo en YouTube/In-person and live on YouTube:\\*\\*\nhttps://www.youtube.com/@AICDMX\n\nEnglish Version Below\n\n6:00 p.m. Apertura y registro\n6:30 p.m. Arranca la conversación\n7:15 p.m. Preguntas y respuestas con el público\n7:30 p.m. Networking\n8:00–9:30 p.m. After party en un lugar cercano (a 5 min caminando; hay\nespacio interior/exterior, trae chamarra y zapatos para comer y beber)\n\nViajar siempre ha sido algo personal. A dónde vas, por qué vas, qué buscas cuando llegas. Las respuestas son distintas para cada quien. Pero durante décadas, la industria ha tratado a los viajeros como segmentos en una hoja de cálculo. La AI finalmente está haciendo posible la personalización real. La pregunta es si la vamos a usar para diseñar viajes con significado, o simplemente embudos más eficientes.\n\nMireya Nieto es la fundadora de Hey Priya y ha estado trabajando en la intersección de AI, viajes y experiencia humana. En esta charla, explora qué significa diseñar experiencias de viaje en la era de la inteligencia artificial. No solo recomendar destinos, sino entender las motivaciones más profundas detrás de por qué la gente viaja y cómo la tecnología puede servir a esas motivaciones sin aplanarlas.\n\n\\#\\# Vamos a explorar\n\n• \\*\\*Personalización más allá de preferencias.\\*\\* Ir más allá de \"te gustó París, prueba Roma\" hacia entender qué es lo que realmente busca el viajero\n\n• \\*\\*AI como partner de diseño.\\*\\* Cómo la AI puede dar forma a viajes que se sienten intencionales, no algorítmicos\n\n• \\*\\*La experiencia humana al centro.\\*\\* Por qué el mejor travel con AI mantiene la historia humana al frente, no la métrica de optimización\n\n• \\*\\*Construir donde la emoción importa.\\*\\* Qué tiene de diferente diseñar productos de AI donde el resultado no es eficiencia, sino significado\n\n\\#\\# Sobre Mireya\nhttps://www.linkedin.com/in/mireya-nieto/\nMireya Nieto · Fundadora, Hey Priya\n\n\\*\\*Schedule\\*\\*\n6:00 p.m. Doors & check-in\n6:30 p.m. Conversation begins\n7:15 p.m. Audience Q&A\n7:30 p.m. Networking\n8:00–9:30 p.m. After party at a nearby spot (5 min walk; indoor/outdoor, bring a jacket and your drinking/eating shoes)\n\nTravel has always been personal. Where you go, why you go, what you're looking for when you get there. Those answers are different for everyone. But for decades, the industry has treated travelers like segments in a spreadsheet. AI is finally making real personalization possible. The question is whether we'll use it to design meaningful journeys, or just more efficient funnels.\n\nMireya Nieto is the founder of Hey Priya and has been working at the intersection of AI, travel, and human experience. In this talk, she explores what it means to design travel experiences in the age of artificial intelligence. Not just recommending destinations, but understanding the deeper motivations behind why people travel and how technology can serve those motivations without flattening them.\n\n\\#\\# We'll explore\n\n• \\*\\*Personalization beyond preferences.\\*\\* Moving past \"you liked Paris, try Rome\" toward understanding what a traveler is actually seeking\n\n• \\*\\*AI as a design partner.\\*\\* How AI can shape journeys that feel intentional, not algorithmic\n\n• \\*\\*The human experience at the center.\\*\\* Why the best AI-powered travel keeps the human story front and center, not the optimization metric\n\n• \\*\\*Building in a space where emotion matters.\\*\\* What's different about designing AI products where the output isn't efficiency, but meaning\n\n\\#\\# About Mireya\nhttps://www.linkedin.com/in/mireya-nieto/\nMireya Nieto · Founder, Hey Priya",
+      "url": "https://www.meetup.com/ai-cdmx/events/313154427/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/ai-cdmx/events/313154427/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Casa Rafael Galván, Zacatecas 94, Col Roma Norte,, Mexico City, Mexico City",
+      "online": false,
+      "organizer": "AI/IA CDMX",
+      "dtstart": "2026-05-19T18:00:00-06:00",
+      "dtend": "2026-05-19T20:00:00-06:00",
+      "tags": [
+        "ai",
+        "frontend",
+        "security"
+      ],
+      "source": "https://www.meetup.com/ai-cdmx/events/ical",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+      "hash_key": "el turista tiene alma el algoritmo no th_2026-05-20T00:00:00+00:00"
     },
     {
       "title": "AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México",
@@ -4680,6 +4765,35 @@
       "city_code": "cdmx",
       "address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
       "hash_key": "del oro negro al oro digital from black _2026-07-22T00:00:00+00:00"
+    },
+    {
+      "title": "AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México",
+      "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nhttps://www.instagram.com/cdmxai/\nhttps://www.facebook.com/aicdmx\nhttps://www.linkedin.com/company/ai-cdmx\n\nJoin us and stay ahead of the curve. You won’t just learn about AI—you’ll learn how to use it to your advantage.\nThis event is just a glimpse into these topics. Our group dives into AI from all angles with monthly events and workshops that explore a wide range of themes.",
+      "url": "https://www.meetup.com/ai-cdmx/events/313154431/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/ai-cdmx/events/313154431/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Casa Rafael Galván, Zacatecas 94, Col Roma Norte,, Mexico City, Mexico City",
+      "online": false,
+      "organizer": "AI/IA CDMX",
+      "dtstart": "2026-08-18T18:00:00-06:00",
+      "dtend": "2026-08-18T20:00:00-06:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://www.meetup.com/ai-cdmx/events/ical",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+      "hash_key": "to be announced por anunciar_2026-08-19T00:00:00+00:00"
     },
     {
       "title": "AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México",

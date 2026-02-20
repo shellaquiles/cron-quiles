@@ -3,8 +3,8 @@
     "code": "mexico",
     "name": "México",
     "slug": "mexico",
-    "event_count": 356,
-    "future_event_count": 62,
+    "event_count": 361,
+    "future_event_count": 64,
     "active_months": [
       "2021-01",
       "2021-02",
@@ -48,6 +48,7 @@
       "2026-02",
       "2026-03",
       "2026-04",
+      "2026-05",
       "2026-06",
       "2026-07",
       "2026-08",
@@ -62,8 +63,8 @@
     "code": "MX-CMX",
     "name": "Ciudad de México",
     "slug": "mx-cmx",
-    "event_count": 165,
-    "future_event_count": 33,
+    "event_count": 169,
+    "future_event_count": 36,
     "active_months": [
       "2024-09",
       "2024-10",
@@ -79,8 +80,10 @@
       "2026-02",
       "2026-03",
       "2026-04",
+      "2026-05",
       "2026-06",
       "2026-07",
+      "2026-08",
       "2026-09",
       "2026-10",
       "2026-11",
@@ -132,11 +135,12 @@
     "code": "MX-MÉX",
     "name": "MX-MÉX",
     "slug": "mx-méx",
-    "event_count": 2,
-    "future_event_count": 0,
+    "event_count": 3,
+    "future_event_count": 1,
     "active_months": [
       "2024-10",
-      "2025-10"
+      "2025-10",
+      "2026-02"
     ],
     "emoji": "📅"
   },
@@ -157,7 +161,7 @@
     "name": "Nuevo León",
     "slug": "mx-nle",
     "event_count": 3,
-    "future_event_count": 1,
+    "future_event_count": 0,
     "active_months": [
       "2025-07",
       "2025-10",
@@ -170,7 +174,7 @@
     "name": "Online",
     "slug": "online",
     "event_count": 154,
-    "future_event_count": 23,
+    "future_event_count": 22,
     "active_months": [
       "2021-01",
       "2021-02",
@@ -213,8 +217,7 @@
       "2026-02",
       "2026-03",
       "2026-04",
-      "2026-06",
-      "2026-08"
+      "2026-06"
     ],
     "emoji": "🌐"
   },

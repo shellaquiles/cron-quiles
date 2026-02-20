@@ -205,6 +205,200 @@
       "restaurant"
     ]
   },
+  "#Hashtag Gallery Ltd, Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "A",
+        "short_name": "A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "151",
+        "short_name": "151",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Benjamín Franklin",
+        "short_name": "Av. Benjamín Franklin",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Hipódromo",
+        "short_name": "Hipódromo",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06140",
+        "short_name": "06140",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4053361,
+        "lng": -99.1758565
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4066391802915,
+          "lng": -99.17452806970849
+        },
+        "southwest": {
+          "lat": 19.4039412197085,
+          "lng": -99.17722603029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4053023,
+          "longitude": -99.1758716
+        }
+      }
+    ],
+    "place_id": "ChIJE-pL1-P_0YURxYWBe7yGbEs",
+    "plus_code": {
+      "compound_code": "CR4F+4M Ciudad de México, CDMX, México",
+      "global_code": "76F2CR4F+4M"
+    },
+    "types": [
+      "art_gallery",
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "Casa Rafael Galvan, Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "94",
+        "short_name": "94",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Zacatecas",
+        "short_name": "Zacatecas",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Roma Norte",
+        "short_name": "Roma Nte.",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06700",
+        "short_name": "06700",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4159281,
+        "lng": -99.1586478
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4173300802915,
+          "lng": -99.1573109197085
+        },
+        "southwest": {
+          "lat": 19.4146321197085,
+          "lng": -99.1600088802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4159725,
+          "longitude": -99.1586579
+        }
+      }
+    ],
+    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
+    "plus_code": {
+      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
+      "global_code": "76F2CR8R+9G"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
   "EPAM NEORIS, Av. 2 de Octubre 333, San Pedro Garza García, NLE": {
     "address_components": [
       {
@@ -889,32 +1083,33 @@
       "restaurant"
     ]
   },
-  "#Hashtag Gallery Ltd, Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico": {
+  "Jardín Americana, 1305 Avenida Ignacio L Vallarta, Guadalajara, JAL": {
     "address_components": [
       {
-        "long_name": "A",
-        "short_name": "A",
-        "types": [
-          "subpremise"
-        ]
-      },
-      {
-        "long_name": "151",
-        "short_name": "151",
+        "long_name": "1305",
+        "short_name": "1305",
         "types": [
           "street_number"
         ]
       },
       {
-        "long_name": "Avenida Benjamín Franklin",
-        "short_name": "Av. Benjamín Franklin",
+        "long_name": "Avenida Ignacio L Vallarta",
+        "short_name": "Av. Ignacio L Vallarta",
         "types": [
           "route"
         ]
       },
       {
-        "long_name": "Hipódromo",
-        "short_name": "Hipódromo",
+        "long_name": "Colonia Americana",
+        "short_name": "Col Americana",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Americana",
+        "short_name": "Americana",
         "types": [
           "political",
           "sublocality",
@@ -922,16 +1117,16 @@
         ]
       },
       {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
+        "long_name": "Guadalajara",
+        "short_name": "Guadalajara",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
+        "long_name": "Jalisco",
+        "short_name": "Jal.",
         "types": [
           "administrative_area_level_1",
           "political"
@@ -946,69 +1141,76 @@
         ]
       },
       {
-        "long_name": "06140",
-        "short_name": "06140",
+        "long_name": "44160",
+        "short_name": "44160",
         "types": [
           "postal_code"
         ]
       }
     ],
-    "formatted_address": "Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, México",
+    "formatted_address": "Av. Ignacio L Vallarta 1305, Col Americana, Americana, 44160 Guadalajara, Jal., México",
     "geometry": {
       "location": {
-        "lat": 19.4053361,
-        "lng": -99.1758565
+        "lat": 20.6744521,
+        "lng": -103.365396
       },
       "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 19.4066391802915,
-          "lng": -99.17452806970849
+          "lat": 20.6758980802915,
+          "lng": -103.3640496697085
         },
         "southwest": {
-          "lat": 19.4039412197085,
-          "lng": -99.17722603029151
+          "lat": 20.6732001197085,
+          "lng": -103.3667476302915
         }
       }
     },
     "navigation_points": [
       {
         "location": {
-          "latitude": 19.4053023,
-          "longitude": -99.1758716
+          "latitude": 20.6745831,
+          "longitude": -103.3653994
         }
       }
     ],
-    "place_id": "ChIJE-pL1-P_0YURxYWBe7yGbEs",
+    "place_id": "ChIJI7FavQSuKIQRyWTUV4zPgqo",
     "plus_code": {
-      "compound_code": "CR4F+4M Ciudad de México, CDMX, México",
-      "global_code": "76F2CR4F+4M"
+      "compound_code": "MJFM+QR Guadalajara, Jal., México",
+      "global_code": "75GRMJFM+QR"
     },
     "types": [
-      "art_gallery",
       "establishment",
       "point_of_interest"
     ]
   },
-  "Casa Rafael Galvan, Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
+  "La Salle Nezahualcoyotl - Auditorio y Centro Cultural Alfredo Harp Helú, Colonia Cd. Jardín Bicentenario, Av. Bordo de Xochiaca s/n-B, Manzana polígono IV, 57205 Cdad. Nezahualcóyotl, Méx., Ciudad de México, Ciudad de México": {
     "address_components": [
       {
-        "long_name": "94",
-        "short_name": "94",
+        "long_name": "Av. Bordo de Xochiaca Lote 3 interior 2B",
+        "short_name": "",
+        "types": []
+      },
+      {
+        "long_name": "Tamaulipas",
+        "short_name": "Tamaulipas",
         "types": [
-          "street_number"
+          "neighborhood",
+          "political"
         ]
       },
       {
-        "long_name": "Zacatecas",
-        "short_name": "Zacatecas",
+        "long_name": "001",
+        "short_name": "001",
         "types": [
-          "route"
+          "political",
+          "sublocality",
+          "sublocality_level_3"
         ]
       },
       {
-        "long_name": "Roma Norte",
-        "short_name": "Roma Nte.",
+        "long_name": "Ciudad Jardín",
+        "short_name": "Cdad. Jardín",
         "types": [
           "political",
           "sublocality",
@@ -1016,16 +1218,16 @@
         ]
       },
       {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
+        "long_name": "Ciudad Nezahualcóyotl",
+        "short_name": "Cdad. Nezahualcóyotl",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
+        "long_name": "Estado de México",
+        "short_name": "Méx.",
         "types": [
           "administrative_area_level_1",
           "political"
@@ -1040,43 +1242,44 @@
         ]
       },
       {
-        "long_name": "06700",
-        "short_name": "06700",
+        "long_name": "57300",
+        "short_name": "57300",
         "types": [
           "postal_code"
         ]
       }
     ],
-    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+    "formatted_address": "Av. Bordo de Xochiaca Lote 3 interior 2B, Manzana 001, Tamaulipas, Cdad. Jardín, 57300 Cdad. Nezahualcóyotl, Méx., México",
     "geometry": {
       "location": {
-        "lat": 19.4159281,
-        "lng": -99.1586478
+        "lat": 19.422529,
+        "lng": -99.0164686
       },
-      "location_type": "ROOFTOP",
+      "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 19.4173300802915,
-          "lng": -99.1573109197085
+          "lat": 19.4237293302915,
+          "lng": -99.0151278697085
         },
         "southwest": {
-          "lat": 19.4146321197085,
-          "lng": -99.1600088802915
+          "lat": 19.4210313697085,
+          "lng": -99.01782583029151
         }
       }
     },
     "navigation_points": [
       {
         "location": {
-          "latitude": 19.4159725,
-          "longitude": -99.1586579
+          "latitude": 19.4222946,
+          "longitude": -99.01648159999999
         }
       }
     ],
-    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
+    "partial_match": true,
+    "place_id": "ChIJvzv3kLP80YURR_bWPZd2GaM",
     "plus_code": {
-      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
-      "global_code": "76F2CR8R+9G"
+      "compound_code": "CXFM+2C Ciudad Nezahualcóyotl, Méx., México",
+      "global_code": "76F2CXFM+2C"
     },
     "types": [
       "establishment",
@@ -1177,107 +1380,6 @@
       "food",
       "point_of_interest",
       "restaurant"
-    ]
-  },
-  "Jardín Americana, 1305 Avenida Ignacio L Vallarta, Guadalajara, JAL": {
-    "address_components": [
-      {
-        "long_name": "1305",
-        "short_name": "1305",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Ignacio L Vallarta",
-        "short_name": "Av. Ignacio L Vallarta",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Colonia Americana",
-        "short_name": "Col Americana",
-        "types": [
-          "neighborhood",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Americana",
-        "short_name": "Americana",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Guadalajara",
-        "short_name": "Guadalajara",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Jalisco",
-        "short_name": "Jal.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "44160",
-        "short_name": "44160",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. Ignacio L Vallarta 1305, Col Americana, Americana, 44160 Guadalajara, Jal., México",
-    "geometry": {
-      "location": {
-        "lat": 20.6744521,
-        "lng": -103.365396
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 20.6758980802915,
-          "lng": -103.3640496697085
-        },
-        "southwest": {
-          "lat": 20.6732001197085,
-          "lng": -103.3667476302915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 20.6745831,
-          "longitude": -103.3653994
-        }
-      }
-    ],
-    "place_id": "ChIJI7FavQSuKIQRyWTUV4zPgqo",
-    "plus_code": {
-      "compound_code": "MJFM+QR Guadalajara, Jal., México",
-      "global_code": "75GRMJFM+QR"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
     ]
   },
   "Grid Dynamics, Av. de las Américas 1545-Piso 6, Providencia, Guadalajara, Jalisco, MX": {
@@ -1465,100 +1567,6 @@
     "types": [
       "street_address",
       "subpremise"
-    ]
-  },
-  "Clara, Av Sonora 46, Roma Nte., Cuauhtémoc, 06700, Mexico City, Mexico City": {
-    "address_components": [
-      {
-        "long_name": "46",
-        "short_name": "46",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Sonora",
-        "short_name": "Av Sonora",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Roma Norte",
-        "short_name": "Roma Nte.",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06700",
-        "short_name": "06700",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av Sonora 46, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.419452,
-        "lng": -99.17232039999999
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4207172802915,
-          "lng": -99.17108891970848
-        },
-        "southwest": {
-          "lat": 19.4180193197085,
-          "lng": -99.17378688029149
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4193226,
-          "longitude": -99.17250209999999
-        }
-      }
-    ],
-    "place_id": "ChIJhYiRbZz_0YURPnYWrUCR_Fs",
-    "plus_code": {
-      "compound_code": "CR9H+Q3 Ciudad de México, CDMX, México",
-      "global_code": "76F2CR9H+Q3"
-    },
-    "types": [
-      "establishment",
-      "finance",
-      "point_of_interest"
     ]
   },
   "Valenza Casa de Creativos - Plaza Dorada, Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., Mexico": {
@@ -2318,6 +2326,100 @@
       "establishment",
       "point_of_interest",
       "university"
+    ]
+  },
+  "Clara, Av Sonora 46, Roma Nte., Cuauhtémoc, 06700, Mexico City, Mexico City": {
+    "address_components": [
+      {
+        "long_name": "46",
+        "short_name": "46",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Sonora",
+        "short_name": "Av Sonora",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Roma Norte",
+        "short_name": "Roma Nte.",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06700",
+        "short_name": "06700",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av Sonora 46, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.419452,
+        "lng": -99.17232039999999
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4207172802915,
+          "lng": -99.17108891970848
+        },
+        "southwest": {
+          "lat": 19.4180193197085,
+          "lng": -99.17378688029149
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4193226,
+          "longitude": -99.17250209999999
+        }
+      }
+    ],
+    "place_id": "ChIJhYiRbZz_0YURPnYWrUCR_Fs",
+    "plus_code": {
+      "compound_code": "CR9H+Q3 Ciudad de México, CDMX, México",
+      "global_code": "76F2CR9H+Q3"
+    },
+    "types": [
+      "establishment",
+      "finance",
+      "point_of_interest"
     ]
   },
   "UNAM - Facultad De Ciencias, Investigación Científica, C.U., Coyoacán, 04510 Ciudad de México, CDMX, Mexico": {
@@ -3405,6 +3507,100 @@
       "sublocality_level_1"
     ]
   },
+  "Dalia, Monte Líbano 215, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "215",
+        "short_name": "215",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Monte Líbano",
+        "short_name": "Monte Líbano",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Lomas de Chapultepec",
+        "short_name": "Lomas de Chapultepec",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "11000",
+        "short_name": "11000",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Monte Líbano 215, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.41862,
+        "lng": -99.21411499999999
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4198766802915,
+          "lng": -99.21272921970849
+        },
+        "southwest": {
+          "lat": 19.4171787197085,
+          "lng": -99.2154271802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4184944,
+          "longitude": -99.2140649
+        }
+      }
+    ],
+    "place_id": "ChIJCeRZJwgB0oURyoL1p8vKwm0",
+    "plus_code": {
+      "compound_code": "CQ9P+C9 Ciudad de México, CDMX, México",
+      "global_code": "76F2CQ9P+C9"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "school"
+    ]
+  },
   "Polanco I Sección, Mexico City": {
     "address_components": [
       {
@@ -4268,11 +4464,25 @@
       "point_of_interest"
     ]
   },
-  "Colonia Cuauhtémoc, Ciudad de México": {
+  "Casa Rafael Galván, Zacatecas 94, Col Roma Norte, Mexico City, Mexico City": {
     "address_components": [
       {
-        "long_name": "Cuauhtémoc",
-        "short_name": "Cuauhtémoc",
+        "long_name": "94",
+        "short_name": "94",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Zacatecas",
+        "short_name": "Zacatecas",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Roma Norte",
+        "short_name": "Roma Nte.",
         "types": [
           "political",
           "sublocality",
@@ -4304,46 +4514,48 @@
         ]
       },
       {
-        "long_name": "06500",
-        "short_name": "06500",
+        "long_name": "06700",
+        "short_name": "06700",
         "types": [
           "postal_code"
         ]
       }
     ],
-    "formatted_address": "Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
+    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
     "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.4363254,
-          "lng": -99.1590379
-        },
-        "southwest": {
-          "lat": 19.4233319,
-          "lng": -99.1776362
-        }
-      },
       "location": {
-        "lat": 19.4301322,
-        "lng": -99.16914129999999
+        "lat": 19.4159281,
+        "lng": -99.1586478
       },
-      "location_type": "APPROXIMATE",
+      "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 19.4363254,
-          "lng": -99.1590379
+          "lat": 19.4173300802915,
+          "lng": -99.1573109197085
         },
         "southwest": {
-          "lat": 19.4233319,
-          "lng": -99.1776362
+          "lat": 19.4146321197085,
+          "lng": -99.1600088802915
         }
       }
     },
-    "place_id": "ChIJ_YE7tMr40YURtHtXg6cgsOU",
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4159725,
+          "longitude": -99.1586579
+        }
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
+    "plus_code": {
+      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
+      "global_code": "76F2CR8R+9G"
+    },
     "types": [
-      "political",
-      "sublocality",
-      "sublocality_level_1"
+      "establishment",
+      "point_of_interest"
     ]
   },
   "Tecnológico de Monterrey Campus Puebla, Atlixcáyotl 5718, Reserva Territorial Atlixcáyotl, Corredor Comercial Desarrollo Atlixcayotl, 72453 Heroica Puebla de Zaragoza, Pue., Mexico": {
@@ -5002,29 +5214,16 @@
       "street_address"
     ]
   },
-  "Casa Rafael Galván, Zacatecas 94, Col Roma Norte, Mexico City, Mexico City": {
+  "Bosque de Chapultepec, Miguel Hidalgo, Mexico City, CDMX, Mexico": {
     "address_components": [
       {
-        "long_name": "94",
-        "short_name": "94",
+        "long_name": "Bosque de Chapultepec",
+        "short_name": "Bosque de Chapultepec",
         "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Zacatecas",
-        "short_name": "Zacatecas",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Roma Norte",
-        "short_name": "Roma Nte.",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
+          "establishment",
+          "park",
+          "point_of_interest",
+          "tourist_attraction"
         ]
       },
       {
@@ -5050,50 +5249,80 @@
           "country",
           "political"
         ]
-      },
-      {
-        "long_name": "06700",
-        "short_name": "06700",
-        "types": [
-          "postal_code"
-        ]
       }
     ],
-    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+    "formatted_address": "Bosque de Chapultepec, Miguel Hidalgo, Ciudad de México, CDMX, México",
     "geometry": {
       "location": {
-        "lat": 19.4159281,
-        "lng": -99.1586478
+        "lat": 19.4194815,
+        "lng": -99.18945579999999
       },
-      "location_type": "ROOFTOP",
+      "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 19.4173300802915,
-          "lng": -99.1573109197085
+          "lat": 19.4249466,
+          "lng": -99.1783531
         },
         "southwest": {
-          "lat": 19.4146321197085,
-          "lng": -99.1600088802915
+          "lat": 19.4140463,
+          "lng": -99.192667
         }
       }
     },
     "navigation_points": [
       {
         "location": {
-          "latitude": 19.4159725,
-          "longitude": -99.1586579
+          "latitude": 19.4140701,
+          "longitude": -99.18777539999999
         }
+      },
+      {
+        "location": {
+          "latitude": 19.4172228,
+          "longitude": -99.1926596
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 19.4233389,
+          "longitude": -99.1783816
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 19.4209816,
+          "longitude": -99.1925049
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 19.4247133,
+          "longitude": -99.1878668
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
       }
     ],
-    "partial_match": true,
-    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
+    "place_id": "ChIJP1dJRVf_0YURr8MZosHl4kI",
     "plus_code": {
-      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
-      "global_code": "76F2CR8R+9G"
+      "compound_code": "CR96+Q6 Ciudad de México, CDMX, México",
+      "global_code": "76F2CR96+Q6"
     },
     "types": [
       "establishment",
-      "point_of_interest"
+      "park",
+      "point_of_interest",
+      "tourist_attraction"
     ]
   },
   "mexico tech week": {
@@ -7704,29 +7933,21 @@
     "formatted_address": "Av. Río Mixcoac 108, Actipan, Benito Juárez, 03230 Ciudad de México, CDMX, México",
     "geometry": {
       "location": {
-        "lat": 19.3659237,
-        "lng": -99.17809480000001
+        "lat": 19.3658539,
+        "lng": -99.17816619999999
       },
       "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 19.3671646302915,
-          "lng": -99.17676916970849
+          "lat": 19.3672028802915,
+          "lng": -99.1768172197085
         },
         "southwest": {
-          "lat": 19.3644666697085,
-          "lng": -99.1794671302915
+          "lat": 19.3645049197085,
+          "lng": -99.1795151802915
         }
       }
     },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.3657492,
-          "longitude": -99.1780931
-        }
-      }
-    ],
     "place_id": "ChIJ3T-xHpL_0YUROrjpbhdqQQM",
     "types": [
       "premise",
@@ -11384,5 +11605,6 @@
       "establishment",
       "point_of_interest"
     ]
-  }
+  },
+  "Online": {}
 }
