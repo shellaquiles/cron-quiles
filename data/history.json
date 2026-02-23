@@ -441,36 +441,6 @@
     "hash_key": "april 9 workshop build a visual agent th_2026-04-09T16:00:00+00:00"
   },
   {
-    "title": "v0 Prompt to Production Mexico City|OpenAI Codex – Mexico City|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/suipk589\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero & 3 others",
-    "url": "https://luma.com/suipk589",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/suipk589",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ampliación Granada, Ciudad de México",
-    "online": false,
-    "organizer": "v0 Prompt to Production Mexico City",
-    "dtstart": "2026-04-09T00:00:00+00:00",
-    "dtend": "2026-04-09T02:30:00+00:00",
-    "tags": [
-      "ai",
-      "frontend"
-    ],
-    "source": "https://luma.com/fdg8riz2",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Amp Granada, Ciudad de México, CDMX, México",
-    "hash_key": "openai codex mexico city_2026-04-09T00:00:00+00:00"
-  },
-  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|April 8 - Getting Started with FiftyOne|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nThis workshop provides a technical foundation for managing large scale computer vision datasets. You will learn to curate, visualize, and evaluate models using the [open source FiftyOne app](https://docs.voxel51.com/).\n\n**Date, Time and Location**\n\nApr 8, 2026\n10 AM PST - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/getting-started-with-fiftyone-april-8-2026)**\n\nThe session covers data ingestion, embedding visualization, and model failure analysis. You will build workflows to identify dataset bias, find annotation errors, and select informative samples for training. Attendees leave with a framework for data centric AI for research and production pipelines, prioritizing data quality over pure model iteration.\n\nWhat you'll learn\n\n* **Structure unstructured data.** Map data and metadata into a queryable schema for images, videos, and point clouds.\n* **Query datasets with the FiftyOne SDK**. Create complex views based on model predictions, labels, and custom tags. Use the FiftyOne to filter data based on logical conditions and confidence scores.\n* **Visualize high dimensional embeddings**. Project features into lower dimensions to find clusters of similar samples. Identify data gaps and outliers using FiftyOne Brain.\n* **Automate data curation.** Implement algorithmic measures to select diverse subsets for training. Reduce labeling costs by prioritizing high entropy samples.\n* **Debug model performance.** Run evaluation routines to generate confusion matrices and precision recall curves. Visualize false positives and false negatives directly in the App to understand model failures.\n* **Customize FiftyOne**. Build custom dashboards and interactive panels. Create specialized views for domain specific tasks.\n\n**Prerequisites:**\n\n* Working knowledge of Python and machine learning and/or computer vision fundamentals.\n* All attendees will get access to the tutorials and code examples used in the workshop.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313298951/",
@@ -846,7 +816,7 @@
   },
   {
     "title": "Ajolotes en la Nube|EKS en Piloto Automático: Terraform + Kiro para Administrar tu Clúster en AWS|Online",
-    "description": "AWS User Group: Ajolotes en la Nube\n📅 **Fecha:** Jueves 5 de marzo\n⏰ **Hora:** 7:30 PM\n📍 **Ubicación:** En línea\n\nÚnete a nosotros en esta sesión práctica donde aprenderás a llevar tu operación de Kubernetes al siguiente nivel con **Amazon EKS**, combinando **Terraform** para Infraestructura como Código y **Kiro** para la automatización operativa dentro del clúster.\n\nAdministrar Kubernetes manualmente no escala. Crear VPCs, nodos, clústeres y deployments puede convertirse en una tarea repetitiva y propensa a errores. En esta charla descubrirás cómo automatizar todo el proceso y construir un entorno reproducible, escalable y listo para producción en **Amazon Web Services**.\n\nDurante la sesión, aprenderás a:\n✅ Crear y desplegar un clúster en Amazon EKS usando Terraform.\n✅ Aplicar Infraestructura como Código (IaC) para entornos consistentes y versionables.\n✅ Automatizar la gestión operativa del clúster con Kiro.\n✅ Pasar de configuraciones manuales a una operación profesional y escalable.\n\nEsta charla es nivel básico–intermedio, ideal para desarrolladores y perfiles DevOps que quieran profesionalizar su operación en Kubernetes y dar el siguiente paso en la nube.\n\nEsta sesión es tu oportunidad perfecta para **profundizar tus conocimientos**, **conectar con nuestra vibrante comunidad** y **seguir creciendo** en tu camino profesional!\n\n**¡Nos vemos pronto, Ajolote! 💜🚀✨**",
+    "description": "AWS User Group: Ajolotes en la Nube\n**Fecha:** Jueves 5 de marzo\n⏰ **Hora:** 7:30 PM\n**Ubicación:** En línea\n\nÚnete a nosotros en esta sesión práctica donde aprenderás a llevar tu operación de Kubernetes al siguiente nivel con **Amazon EKS**, combinando **Terraform** para Infraestructura como Código y **Kiro** para la automatización operativa dentro del clúster.\n\nAdministrar Kubernetes manualmente no escala. Crear VPCs, nodos, clústeres y deployments puede convertirse en una tarea repetitiva y propensa a errores. En esta charla descubrirás cómo automatizar todo el proceso y construir un entorno reproducible, escalable y listo para producción en **Amazon Web Services**.\n\nDurante la sesión, aprenderás a:\n✅ Crear y desplegar un clúster en Amazon EKS usando Terraform.\n✅ Aplicar Infraestructura como Código (IaC) para entornos consistentes y versionables.\n✅ Automatizar la gestión operativa del clúster con Kiro.\n✅ Pasar de configuraciones manuales a una operación profesional y escalable.\n\nEsta charla es nivel básico–intermedio, ideal para desarrolladores y perfiles DevOps que quieran profesionalizar su operación en Kubernetes y dar el siguiente paso en la nube.\n\nEsta sesión es tu oportunidad perfecta para **profundizar tus conocimientos**, **conectar con nuestra vibrante comunidad** y **seguir creciendo** en tu camino profesional!\n\n**¡Nos vemos pronto, Ajolote! ✨**",
     "url": "https://www.meetup.com/ajolotesenlanube/events/313431118/",
     "sources": [
       {
@@ -1233,33 +1203,6 @@
     "hash_key": "fuckup nights x fintech mxico week_2026-02-26T00:00:00+00:00"
   },
   {
-    "title": "Talavera Valley|🔥🚀 Kick Off Talavera Valley Hub  -  EL evento que enciende el ecosistema ✨|México|Puebla",
-    "description": "Get up-to-date information at: https://luma.com/r706j72y\n\nAddress:\nTecnológico de Monterrey Campus Puebla\nHeroica Puebla de Zaragoza, Puebla\nMexico\n\nHosted by Talavera Valley",
-    "url": "https://luma.com/r706j72y",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/r706j72y",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Tecnológico de Monterrey Campus Puebla, Atlixcáyotl 5718, Reserva Territorial Atlixcáyotl, Corredor Comercial Desarrollo Atlixcayotl, 72453 Heroica Puebla de Zaragoza, Pue., Mexico",
-    "online": false,
-    "organizer": "Talavera Valley",
-    "dtstart": "2026-02-26T00:00:00+00:00",
-    "dtend": "2026-02-26T02:00:00+00:00",
-    "tags": [],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-KqGqtx1zbUKDXTy",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Puebla",
-    "state_code": "MX-PUE",
-    "city": "Heroica Puebla de Zaragoza",
-    "city_code": "heroicapuebladezaragoza",
-    "address": "Atlixcáyotl 5718, Reserva Territorial Atlixcáyotl, Corredor Comercial Desarrollo Atlixcayotl, 72453 Heroica Puebla de Zaragoza, Pue., México",
-    "hash_key": "kick off talavera valley hub el evento q_2026-02-26T00:00:00+00:00"
-  },
-  {
     "title": "FinTech México|Drinks, Not Decks @ Fintech Mexico Week|México|Ciudad de México",
     "description": "Get up-to-date information at: https://luma.com/4hy9286c\n\nAddress:\nbiberón\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Maria Paula Lopera & 3 others",
     "url": "https://luma.com/4hy9286c",
@@ -1285,6 +1228,33 @@
     "city_code": "cdmx",
     "address": "Durango 219, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
     "hash_key": "drinks not decks fintech mexico week_2026-02-26T00:00:00+00:00"
+  },
+  {
+    "title": "Talavera Valley|🔥🚀 Kick Off Talavera Valley Hub  -  EL evento que enciende el ecosistema ✨|México|Puebla",
+    "description": "Get up-to-date information at: https://luma.com/r706j72y\n\nAddress:\nTecnológico de Monterrey Campus Puebla\nHeroica Puebla de Zaragoza, Puebla\nMexico\n\nHosted by Talavera Valley",
+    "url": "https://luma.com/r706j72y",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/r706j72y",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Tecnológico de Monterrey Campus Puebla, Atlixcáyotl 5718, Reserva Territorial Atlixcáyotl, Corredor Comercial Desarrollo Atlixcayotl, 72453 Heroica Puebla de Zaragoza, Pue., Mexico",
+    "online": false,
+    "organizer": "Talavera Valley",
+    "dtstart": "2026-02-26T00:00:00+00:00",
+    "dtend": "2026-02-26T02:00:00+00:00",
+    "tags": [],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-KqGqtx1zbUKDXTy",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Puebla",
+    "state_code": "MX-PUE",
+    "city": "Heroica Puebla de Zaragoza",
+    "city_code": "heroicapuebladezaragoza",
+    "address": "Atlixcáyotl 5718, Reserva Territorial Atlixcáyotl, Corredor Comercial Desarrollo Atlixcayotl, 72453 Heroica Puebla de Zaragoza, Pue., México",
+    "hash_key": "kick off talavera valley hub el evento q_2026-02-26T00:00:00+00:00"
   },
   {
     "title": "FinTech México|Hacia una política pública para la inclusión financiera: Oportunidades y retos para México by Finabien|México|Ciudad de México",
@@ -1373,7 +1343,7 @@
   },
   {
     "title": "The Data Pub|Data Pub Febrero: La personalidad jurídica de la IA|México|Ciudad de México",
-    "description": "The Data Pub\n¡Atención Parroquian@s! 👋\n\nEstamos de regreso este febrero y este mes contaremos con una charla titulada **\"La personalidad jurídica de la IA\"**, un espacio de reflexión y análisis sobre uno de los debates más relevantes en la intersección entre derecho y tecnología. En esta sesión exploraremos si, y cómo, los sistemas de inteligencia artificial podrían llegar a tener un reconocimiento legal similar al de las personas o las empresas. La discusión abordará temas clave como la responsabilidad por las acciones de la IA, la asignación de derechos y obligaciones, y los límites éticos y legales que deben establecerse. En esencia, la charla busca analizar cómo adaptar el derecho a tecnologías cada vez más autónomas, sin perder la responsabilidad humana ni la protección jurídica.\n\nLa charla será presentada por **Club IA Legal**, una comunidad que promueve el uso ético, innovador y colaborativo de la inteligencia artificial en el ámbito jurídico, conectando a profesionales del derecho, tecnólogos, académicos y entusiastas para aprender y construir juntos el futuro del derecho con tecnologías emergentes.\n\nQuien nos acompañará en esta charla será **Luis Raúl González Romo**, Director Ejecutivo del Club IA Legal en México, abogado y especialista en derecho digital y tecnología, con amplia experiencia en innovación legal y transformación digital en distintas organizaciones.\n\n\\-\\-\\-\n\nLa cita es este próximo **miércoles** 25 de febrero (2026) a las **7:00 pm (Hora de Ciudad de México)** en \"Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey\" [https://goo.gl/maps/eD5acVqaZ5MamH6T6](https://goo.gl/maps/eD5acVqaZ5MamH6T6) para aquellos que estén en la CDMX y también estaremos haciendo streaming del evento por nuestro canal de YouTube:\n\n[https://www.youtube.com/c/TheDataPubChannel](https://www.youtube.com/c/TheDataPubChannel/videos).\n\n¡Recuerden que al final tendremos nuestro evento de networking 🌐!\n\n¡Esperamos verlos por acá!\n\nLa agenda es la siguiente:\n\n* 7:00pm - 7:30pm Bienvenida y Anuncios\n* 7:30pm - 8:45pm La personalidad jurídica de la IA\n* 8:45pm - 10:00pm Chelas, pizzas y networking!\n\nPueden ir reservando su espacio registrándose en el evento.\n\n\\*El lugar cuenta con estacionamiento $50 pesos tiempo indefinido.\n\n¡Esperamos verlos por acá!\n\n\\- Data Pub",
+    "description": "The Data Pub\n¡Atención Parroquian@s!\n\nEstamos de regreso este febrero y este mes contaremos con una charla titulada **\"La personalidad jurídica de la IA\"**, un espacio de reflexión y análisis sobre uno de los debates más relevantes en la intersección entre derecho y tecnología. En esta sesión exploraremos si, y cómo, los sistemas de inteligencia artificial podrían llegar a tener un reconocimiento legal similar al de las personas o las empresas. La discusión abordará temas clave como la responsabilidad por las acciones de la IA, la asignación de derechos y obligaciones, y los límites éticos y legales que deben establecerse. En esencia, la charla busca analizar cómo adaptar el derecho a tecnologías cada vez más autónomas, sin perder la responsabilidad humana ni la protección jurídica.\n\nLa charla será presentada por **Club IA Legal**, una comunidad que promueve el uso ético, innovador y colaborativo de la inteligencia artificial en el ámbito jurídico, conectando a profesionales del derecho, tecnólogos, académicos y entusiastas para aprender y construir juntos el futuro del derecho con tecnologías emergentes.\n\nQuien nos acompañará en esta charla será **Luis Raúl González Romo**, Director Ejecutivo del Club IA Legal en México, abogado y especialista en derecho digital y tecnología, con amplia experiencia en innovación legal y transformación digital en distintas organizaciones.\n\n\\-\\-\\-\n\nLa cita es este próximo **miércoles** 25 de febrero (2026) a las **7:00 pm (Hora de Ciudad de México)** en \"Escuela de Gobierno y Transformación Pública del Tecnológico de Monterrey\" [https://goo.gl/maps/eD5acVqaZ5MamH6T6](https://goo.gl/maps/eD5acVqaZ5MamH6T6) para aquellos que estén en la CDMX y también estaremos haciendo streaming del evento por nuestro canal de YouTube:\n\n[https://www.youtube.com/c/TheDataPubChannel](https://www.youtube.com/c/TheDataPubChannel/videos).\n\n¡Recuerden que al final tendremos nuestro evento de networking !\n\n¡Esperamos verlos por acá!\n\nLa agenda es la siguiente:\n\n* 7:00pm - 7:30pm Bienvenida y Anuncios\n* 7:30pm - 8:45pm La personalidad jurídica de la IA\n* 8:45pm - 10:00pm Chelas, pizzas y networking!\n\nPueden ir reservando su espacio registrándose en el evento.\n\n\\*El lugar cuenta con estacionamiento $50 pesos tiempo indefinido.\n\n¡Esperamos verlos por acá!\n\n\\- Data Pub",
     "url": "https://www.meetup.com/thedatapub/events/313303117/",
     "sources": [
       {
@@ -1516,127 +1486,8 @@
     "hash_key": "meetup febrero 2026 clara pythoncdmx_2026-02-25T00:00:00+00:00"
   },
   {
-    "title": "FinTech México|Security Circle México – Ciberseguridad by Mastercard|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/5he7wkf5\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México, Maura Crocker & Santiago Fuentes",
-    "url": "https://luma.com/5he7wkf5",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/5he7wkf5",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Juárez, Ciudad de México",
-    "online": false,
-    "organizer": "FinTech México",
-    "dtstart": "2026-02-24T23:30:00+00:00",
-    "dtend": "2026-02-25T01:30:00+00:00",
-    "tags": [
-      "ai",
-      "security"
-    ],
-    "source": "https://luma.com/eofagheq",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Juárez, 06600 Ciudad de México, CDMX, México",
-    "hash_key": "security circle mxico ciberseguridad by _2026-02-24T22:00:00+00:00"
-  },
-  {
-    "title": "FinTech México|AML & Financial Crime Intelligence by  IKIEXPERTS|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/qr2wspo0\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México, JOSE ESPIRITU & Erika Postel",
-    "url": "https://luma.com/qr2wspo0",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/qr2wspo0",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Colonia Cuauhtémoc, Ciudad de México",
-    "online": false,
-    "organizer": "FinTech México",
-    "dtstart": "2026-02-24T22:00:00+00:00",
-    "dtend": "2026-02-25T01:30:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://luma.com/eofagheq",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
-    "hash_key": "aml financial crime intelligence by ikie_2026-02-24T22:00:00+00:00"
-  },
-  {
-    "title": "FinTech México|Futuro de Pagos entre Cortes by tapi|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/robjv7n2\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & 3 others",
-    "url": "https://luma.com/robjv7n2",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/robjv7n2",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Chapultepec Morales, Ciudad de México",
-    "online": false,
-    "organizer": "FinTech México",
-    "dtstart": "2026-02-24T20:30:00+00:00",
-    "dtend": "2026-02-24T23:00:00+00:00",
-    "tags": [
-      "ai",
-      "backend"
-    ],
-    "source": "https://luma.com/eofagheq",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Chapultepec Morales, Polanco V Secc, Ciudad de México, CDMX, México",
-    "hash_key": "futuro de pagos entre cortes by tapi_2026-02-24T20:00:00+00:00"
-  },
-  {
-    "title": "FinTech México|Fintech Luncheon Vol.3 by Pygma, AMG Block Ventures  and Morrison Foerster|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/uwjfgnlj\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & Andrés Cano",
-    "url": "https://luma.com/uwjfgnlj",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/uwjfgnlj",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Hipódromo Condesa, Ciudad de México",
-    "online": false,
-    "organizer": "FinTech México",
-    "dtstart": "2026-02-24T19:00:00+00:00",
-    "dtend": "2026-02-24T21:00:00+00:00",
-    "tags": [
-      "ai",
-      "python"
-    ],
-    "source": "https://luma.com/eofagheq",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Hipódromo Condesa, 06170 Ciudad de México, CDMX, México",
-    "hash_key": "fintech luncheon vol 3 by pygma amg bloc_2026-02-24T18:00:00+00:00"
-  },
-  {
     "title": "Python CDMX|PythonCDMX🐍 Feb2026  - Python en el mundo cripto: Lecciones de un backend global|México|Ciudad de México",
-    "description": "Python CDMX\n**#PythonCDMX** 🐍 es un grupo de personas interesadas en aprender y compartir su conocimiento sobre el lenguaje de programación Python. El objetivo es estar en contacto con más gente interesada en innovación y tecnología.\n\n**🚨 IMPORTANTE: NUEVO SISTEMA DE REGISTRO**\n**A partir de ahora ya no se aceptarán registros en Meetup.**\n**Estamos migrando a Luma, nuestra nueva plataforma de registro y comunidad.**\n**👉 Regístrate aquí para obtener tu QR de acceso:**\n**🔗 [https://luma.com/b2j4qyjy](https://luma.com/b2j4qyjy)**\n\n¡Estamos emocionados de anunciar que este mes lo haremos en las increíbles oficinas de CLARA!\n\nHabrá un tiempo de networking donde podrás platicar con programadores de diferentes niveles e intereses.\n\nY para ponerle aún más energía, prepárate para compartir tus conocimientos durante nuestras ***Lightning Talks.***\n**¡Es tu oportunidad de impactar con ideas frescas y compartir lo que sabes!**\n\nLa cita es el **Martes 24 de Febrero a las 18:00 en las oficinas de Clara México** ([Google Maps](https://maps.app.goo.gl/NPvkQjisJWY9ySyS7)).\n\n***«Python en el mundo cripto: Lecciones de un backend global***»\n*Por: Domingo Suarez*\nDespués de más de 15 años desarrollando en Java, pasé el último año construyendo un backend en Python para una startup cripto que opera a nivel global. El proyecto implicó integrar múltiples proveedores en distintos países, soportar diversas blockchains (EVM, SVM, etc.) y resolver retos técnicos de alta complejidad.\n\n**Domingo Suárez –** Backend Engineer, con experiencia en Java (15+ años) y actualmente desarrollando en Python para entornos cripto globales.\n\n**--> Transmisión en vivo <--**\n[YouTube](https://www.youtube.com/@PythonMexico/streams)\n\n**--> Unete al grupo de telegram y platica con más pythonistas <--**\n[https://t.me/PythonCDMX](https://t.me/PythonCDMX)",
+    "description": "Python CDMX\n**#PythonCDMX** es un grupo de personas interesadas en aprender y compartir su conocimiento sobre el lenguaje de programación Python. El objetivo es estar en contacto con más gente interesada en innovación y tecnología.\n\n** IMPORTANTE: NUEVO SISTEMA DE REGISTRO**\n**A partir de ahora ya no se aceptarán registros en Meetup.**\n**Estamos migrando a Luma, nuestra nueva plataforma de registro y comunidad.**\n** Regístrate aquí para obtener tu QR de acceso:**\n** [https://luma.com/b2j4qyjy](https://luma.com/b2j4qyjy)**\n\n¡Estamos emocionados de anunciar que este mes lo haremos en las increíbles oficinas de CLARA!\n\nHabrá un tiempo de networking donde podrás platicar con programadores de diferentes niveles e intereses.\n\nY para ponerle aún más energía, prepárate para compartir tus conocimientos durante nuestras ***Lightning Talks.***\n**¡Es tu oportunidad de impactar con ideas frescas y compartir lo que sabes!**\n\nLa cita es el **Martes 24 de Febrero a las 18:00 en las oficinas de Clara México** ([Google Maps](https://maps.app.goo.gl/NPvkQjisJWY9ySyS7)).\n\n***«Python en el mundo cripto: Lecciones de un backend global***»\n*Por: Domingo Suarez*\nDespués de más de 15 años desarrollando en Java, pasé el último año construyendo un backend en Python para una startup cripto que opera a nivel global. El proyecto implicó integrar múltiples proveedores en distintos países, soportar diversas blockchains (EVM, SVM, etc.) y resolver retos técnicos de alta complejidad.\n\n**Domingo Suárez –** Backend Engineer, con experiencia en Java (15+ años) y actualmente desarrollando en Python para entornos cripto globales.\n\n**--> Transmisión en vivo <--**\n[YouTube](https://www.youtube.com/@PythonMexico/streams)\n\n**--> Unete al grupo de telegram y platica con más pythonistas <--**\n[https://t.me/PythonCDMX](https://t.me/PythonCDMX)",
     "url": "https://www.meetup.com/python-mexico/events/313242971/",
     "sources": [
       {
@@ -1895,7 +1746,7 @@
   },
   {
     "title": "Pythonista|Introducción a Ingeniería y Analítica de Datos con Python|Online",
-    "description": "Pythonista®\n## 🚀 **Taller: Introducción a la Ingeniería y Analítica de Datos con Python**\n\n¿Quieres dominar las herramientas que utilizan los Ingenieros de Datos y Científicos de Datos hoy en día? Únete a este taller práctico de **24 horas** donde pasaremos de los fundamentos numéricos a la creación de aplicaciones de datos de alto rendimiento.\nEn este curso, no solo aprenderás la teoría, sino que trabajarás con el ecosistema moderno de Python (**Pandas, Polars, PyArrow, Dask, Streamlit**) para procesar grandes volúmenes de información de manera eficiente.\n\n### 🎁 Promoción Exclusiva Meetup\n\n¡Queremos premiar a los primeros en sumarse!\n\n* **Precio regular:** $29 USD\n* **Precio especial Meetup:** **$20 USD** (Solo para los **primeros 25 inscritos**).\n\n***\n\n### 📅 Detalles del Evento\n\n* **Fechas:** Del 23 de febrero al 12 de marzo.\n* **Sesiones:** Lunes a jueves (12 sesiones en total).\n* **Horario:** 18:30 a 20:30 horas (CST - CDMX).\n* **Modalidad:** Online en vivo (incluye acceso a grabaciones y materiales en GitHub).\n\n***\n\n### 🛠️ ¿Qué aprenderás?\n\nEl taller está dividido en 5 módulos estratégicos:\n\n1. **Fundamentos Numéricos:** Computación vectorial con NumPy y el ecosistema SciPy.\n2. **Pandas Moderno:** Optimización de memoria con PyArrow y gestión eficiente de tipos de datos.\n3. **ETL y Analítica Avanzada:** Técnicas de Windowing, limpieza de datos y transformaciones complejas.\n4. **Ingeniería de Alto Rendimiento:** Procesamiento con **Polars** (el futuro de los DataFrames) y computación distribuida con **Dask**.\n5. **Visualización y Producto:** Gráficos estadísticos con Seaborn y despliegue de **Data Apps con Streamlit**.\n\n***\n\n### 📋 Requisitos\n\n* Conocimientos básicos de Python o algún otro lenguaje orientado a objetos.\n* Cuenta de GitHub (trabajaremos directamente en la nube con Codespaces).\n* ¡Muchas ganas de aprender!\n\n### 🎓 Certificación\n\nSe otorgará un **diploma de asistencia** a quienes participen en al menos el 80% de las sesiones.\n\n### 🔗 Cómo inscribirse\n\n1. Realiza tu pago con el descuento de Meetup aquí.\n2. Una vez realizado, completa tu registro oficial en: [https://www.pythonista.io/eventos/data_eng_intro-2602](https://www.pythonista.io/eventos/data_eng_intro-2602)\n\n**¡Corre! El cupo para el descuento de $20 USD es limitado a los primeros 25.**",
+    "description": "Pythonista®\n## **Taller: Introducción a la Ingeniería y Analítica de Datos con Python**\n\n¿Quieres dominar las herramientas que utilizan los Ingenieros de Datos y Científicos de Datos hoy en día? Únete a este taller práctico de **24 horas** donde pasaremos de los fundamentos numéricos a la creación de aplicaciones de datos de alto rendimiento.\nEn este curso, no solo aprenderás la teoría, sino que trabajarás con el ecosistema moderno de Python (**Pandas, Polars, PyArrow, Dask, Streamlit**) para procesar grandes volúmenes de información de manera eficiente.\n\n### Promoción Exclusiva Meetup\n\n¡Queremos premiar a los primeros en sumarse!\n\n* **Precio regular:** $29 USD\n* **Precio especial Meetup:** **$20 USD** (Solo para los **primeros 25 inscritos**).\n\n***\n\n### Detalles del Evento\n\n* **Fechas:** Del 23 de febrero al 12 de marzo.\n* **Sesiones:** Lunes a jueves (12 sesiones en total).\n* **Horario:** 18:30 a 20:30 horas (CST - CDMX).\n* **Modalidad:** Online en vivo (incluye acceso a grabaciones y materiales en GitHub).\n\n***\n\n### ️ ¿Qué aprenderás?\n\nEl taller está dividido en 5 módulos estratégicos:\n\n1. **Fundamentos Numéricos:** Computación vectorial con NumPy y el ecosistema SciPy.\n2. **Pandas Moderno:** Optimización de memoria con PyArrow y gestión eficiente de tipos de datos.\n3. **ETL y Analítica Avanzada:** Técnicas de Windowing, limpieza de datos y transformaciones complejas.\n4. **Ingeniería de Alto Rendimiento:** Procesamiento con **Polars** (el futuro de los DataFrames) y computación distribuida con **Dask**.\n5. **Visualización y Producto:** Gráficos estadísticos con Seaborn y despliegue de **Data Apps con Streamlit**.\n\n***\n\n### Requisitos\n\n* Conocimientos básicos de Python o algún otro lenguaje orientado a objetos.\n* Cuenta de GitHub (trabajaremos directamente en la nube con Codespaces).\n* ¡Muchas ganas de aprender!\n\n### Certificación\n\nSe otorgará un **diploma de asistencia** a quienes participen en al menos el 80% de las sesiones.\n\n### Cómo inscribirse\n\n1. Realiza tu pago con el descuento de Meetup aquí.\n2. Una vez realizado, completa tu registro oficial en: [https://www.pythonista.io/eventos/data_eng_intro-2602](https://www.pythonista.io/eventos/data_eng_intro-2602)\n\n**¡Corre! El cupo para el descuento de $20 USD es limitado a los primeros 25.**",
     "url": "https://www.meetup.com/pythonista/events/313316350/",
     "sources": [
       {
@@ -2339,7 +2190,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -2543,35 +2394,6 @@
     "city_code": "alvaroobregon",
     "address": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, México",
     "hash_key": "coworking frutal work and chill 1_2026-01-30T16:00:00+00:00"
-  },
-  {
-    "title": "Java Mexico|30 Años Programando: Lecciones Aprendidas  -  Por Enrique Zamudio|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/ksvsiu3v\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Benek & Eduardo Zarate Mejia",
-    "url": "https://luma.com/ksvsiu3v",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/ksvsiu3v",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Juárez, Ciudad de México",
-    "online": false,
-    "organizer": "Java Mexico",
-    "dtstart": "2026-01-29T00:30:00+00:00",
-    "dtend": "2026-01-29T04:00:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Juárez, 06600 Ciudad de México, CDMX, México",
-    "hash_key": "30 aos programando lecciones aprendidas _2026-01-29T00:00:00+00:00"
   },
   {
     "title": "v0 Prompt to Production Mexico City|Diseña usando AI|Online",
@@ -2824,7 +2646,7 @@
     "dtstart": "2026-01-19T18:00:00+00:00",
     "dtend": "2026-01-28T20:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "",
     "country_code": "",
     "state": "",
@@ -3268,7 +3090,7 @@
       "devops",
       "frontend"
     ],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "",
     "country_code": "",
     "state": "",
@@ -3277,36 +3099,6 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-4FVaazO3gHVsG8I",
     "hash_key": "kubernetes 101 w victor morales_2025-12-06T18:00:00+00:00"
-  },
-  {
-    "title": "Java Mexico|Cucumber y BDD en el mundo Java: Más allá de las pruebas|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/08equxao\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Benek & Eduardo Zarate Mejia",
-    "url": "https://luma.com/08equxao",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/08equxao",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Java Mexico",
-    "dtstart": "2025-12-04T00:30:00+00:00",
-    "dtend": "2025-12-04T04:00:00+00:00",
-    "tags": [
-      "ai",
-      "frontend"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "cucumber y bdd en el mundo java ms all d_2025-12-04T00:00:00+00:00"
   },
   {
     "title": "Frutero Club|Coworking Frutal #24🍇|México|Ciudad de México",
@@ -3528,35 +3320,6 @@
     "city_code": "cdmx",
     "address": "Ciudad de México, CDMX, México",
     "hash_key": "sysadmin horror story historias de techr_2025-11-12T00:00:00+00:00"
-  },
-  {
-    "title": "Java Mexico|javaMéxico Meetup++; Doble charla 06 nov 👻🎃|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/l1sbcrs8\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Benek",
-    "url": "https://luma.com/l1sbcrs8",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/l1sbcrs8",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Java Mexico",
-    "dtstart": "2025-11-07T00:30:00+00:00",
-    "dtend": "2025-11-07T04:00:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "javamxico meetup doble charla 06 nov_2025-11-07T00:00:00+00:00"
   },
   {
     "title": "Founder Friends Mexico|10 Minute Blitz with Ankur Nagpal: Avoiding Tax Pitfalls as an Angel Investor|Online",
@@ -4301,7 +4064,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "",
     "country_code": "",
     "state": "",
@@ -4524,7 +4287,7 @@
     "dtstart": "2025-09-19T22:00:00+00:00",
     "dtend": "2025-09-20T00:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8817,154 +8580,6 @@
     "hash_key": "mxtw transformacin digital para fundador_2024-10-22T14:00:00+00:00"
   },
   {
-    "title": "Mexico Tech Week|Founders & Drinks by Startup Grind #MexicoTechWeek|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/cranm43m\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week, Guillermo Vizcaino & Carlos Zárate",
-    "url": "https://luma.com/cranm43m",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/cranm43m",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Mexico Tech Week",
-    "dtstart": "2024-10-21T23:00:00+00:00",
-    "dtend": "2024-10-22T01:00:00+00:00",
-    "tags": [
-      "ai",
-      "frontend"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "founders drinks by startup grind mexicot_2024-10-21T22:00:00+00:00"
-  },
-  {
-    "title": "Mexico Tech Week|Diving deep on AI in Mexico: In Conversation with Rest of World|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/2ts08m45\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week & Rest of World",
-    "url": "https://luma.com/2ts08m45",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/2ts08m45",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Mexico Tech Week",
-    "dtstart": "2024-10-21T23:00:00+00:00",
-    "dtend": "2024-10-22T02:00:00+00:00",
-    "tags": [
-      "ai",
-      "backend"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "diving deep on ai in mexico in conversat_2024-10-21T22:00:00+00:00"
-  },
-  {
-    "title": "Mexico Tech Week|Emprelatam Connect Day CDMX|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/rk2rp5gp\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week, Emprelatam & Denisse Galindo",
-    "url": "https://luma.com/rk2rp5gp",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/rk2rp5gp",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Mexico Tech Week",
-    "dtstart": "2024-10-21T21:30:00+00:00",
-    "dtend": "2024-10-22T02:00:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "emprelatam connect day cdmx_2024-10-21T20:00:00+00:00"
-  },
-  {
-    "title": "Mexico Tech Week|Fintech Feast:  Luncheon with Pygma, Mastercard, Google & This Week in Fintech|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/8o2qc0sg\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week, Andrés Cano & Jorge Gonzalez Soler",
-    "url": "https://luma.com/8o2qc0sg",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/8o2qc0sg",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Mexico Tech Week",
-    "dtstart": "2024-10-21T21:00:00+00:00",
-    "dtend": "2024-10-21T23:00:00+00:00",
-    "tags": [
-      "ai",
-      "python"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "fintech feast luncheon with pygma master_2024-10-21T20:00:00+00:00"
-  },
-  {
-    "title": "Mexico Tech Week|Tacos, Beer and Gen AI|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/heroguest\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week & 3 others",
-    "url": "https://luma.com/heroguest",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/heroguest",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Mexico Tech Week",
-    "dtstart": "2024-10-21T19:30:00+00:00",
-    "dtend": "2024-10-21T22:00:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "tacos beer and gen ai_2024-10-21T18:00:00+00:00"
-  },
-  {
     "title": "Mexico Tech Week|Fintech Frenzy Future: Web3 Panel & Burger Lunch|México|Ciudad de México",
     "description": "Get up-to-date information at: https://luma.com/vadiMXTW2024\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week & 3 others",
     "url": "https://luma.com/vadiMXTW2024",
@@ -9394,35 +9009,6 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-HZp5M0UnfCVBPNE",
     "hash_key": "sesiones co work lluvia de ideas_2024-09-27T00:00:00+00:00"
-  },
-  {
-    "title": "Frutero Club|Sesiones Co-work: Lluvia de Ideas|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/e3vnxjix\n\nAddress:\nCheck event page for more details.\n\nHosted by mel",
-    "url": "https://luma.com/e3vnxjix",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/e3vnxjix",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Frutero Club",
-    "dtstart": "2024-09-26T20:00:00+00:00",
-    "dtend": "2024-09-27T01:30:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "sesiones co work lluvia de ideas_2024-09-26T20:00:00+00:00"
   },
   {
     "title": "This Week in Fintech|Fintech Breakfast by TWIF & CFX Network|México|Ciudad de México",
