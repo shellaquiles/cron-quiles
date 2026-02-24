@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-24T06:52:14.074139+00:00",
-  "total_events": 155,
+  "generated_at": "2026-02-24T12:45:04.462742+00:00",
+  "total_events": 156,
   "city": "Online",
   "communities": [
     {
@@ -55,6 +55,11 @@
     {
       "name": "Mexico Tech Week",
       "description": "Calendario oficial de Mexico Tech Week 2025.",
+      "links": []
+    },
+    {
+      "name": "Python CDMX",
+      "description": "Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles.",
       "links": []
     },
     {
@@ -3847,6 +3852,35 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-WUg9IsqZP5MKL4B",
       "hash_key": "how i use ai 3 midjourney_2026-02-19T22:00:00+00:00"
+    },
+    {
+      "title": "Python CDMX|Meetup Febrero 2026  -  Clara & PythonCDMX|Online",
+      "description": "Get up-to-date information at: https://luma.com/b2j4qyjy\n\nHosted by PythonCDMX & Clara Community",
+      "url": "https://luma.com/b2j4qyjy",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/b2j4qyjy",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-gJdCFiMrQ4I5wWp",
+      "online": true,
+      "organizer": "Python CDMX",
+      "dtstart": "2026-02-25T00:45:00+00:00",
+      "dtend": "2026-02-25T03:00:00+00:00",
+      "tags": [
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-f8GxWvNMvBvvuLb",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-gJdCFiMrQ4I5wWp",
+      "hash_key": "meetup febrero 2026 clara pythoncdmx_2026-02-25T00:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|AI Collective Harare Chapter - Governance Sub-Track Paper Discussion (w/ The AI Collective)|Online",
