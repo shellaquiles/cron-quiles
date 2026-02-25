@@ -381,6 +381,38 @@
     "hash_key": "tmele al shoggoth fear the shoggoth_2026-04-22T00:00:00+00:00"
   },
   {
+    "title": "KCD Guadalajara|KCD Guadalajara 2026|México|Jalisco",
+    "description": "Kubernetes Community Days Guadalajara, un evento para profesionales de la nube y Kubernetes.",
+    "url": "https://community.cncf.io/kcd-guadalajara/",
+    "sources": [
+      {
+        "platform": "website",
+        "url": "https://community.cncf.io/kcd-guadalajara/",
+        "label": "Ver sitio web"
+      }
+    ],
+    "location": "Holiday Inn Guadalajara Expo, an IHG Hotel 2500 Avenida Adolfo López Mateos Sur, Zapopan, 45050",
+    "online": false,
+    "organizer": "KCD Guadalajara",
+    "dtstart": "2026-04-18T08:00:00-06:00",
+    "dtend": "2026-04-18T19:00:00-06:00",
+    "tags": [
+      "cloud",
+      "conferencia",
+      "devops",
+      "kubernetes"
+    ],
+    "source": "Manual",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Jalisco",
+    "state_code": "MX-JAL",
+    "city": "Guadalajara",
+    "city_code": "guadalajara",
+    "address": "Holiday Inn Guadalajara Expo, an IHG Hotel 2500 Avenida Adolfo López Mateos Sur, Zapopan, 45050",
+    "hash_key": "kcd guadalajara 2026_2026-04-18T14:00:00+00:00"
+  },
+  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|April 16 - AI, ML and Computer Vision Meetup en Español|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision en Español .\n\n**Date, Time and Location**\n\nApr 16, 2026\n9 - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-en-espanol-april-16-2026)**\n\n**Uncertainty in Large Vision-Language Models and Computer Vision**\n\nWhat if we train a model to classify dogs and cats, but it is later tested with an image of a human? Generally the model will output either dog or cat, and has no ability to signal that the image has no class that it can recognize.\n\nMachine learning models by default do not provide estimates of their confidence or uncertainty, which hinders their use in applications involving humans. Possible solutions is the use of Bayesian Neural Networks or similar models.\n\nIn this talk I will show research applications of neural networks with uncertainty quantification, covering Computer Vision, Large Language Models and Vision-Language Models. This includes super-resolution, frame generation, verbalized uncertainty, robustness to corrupted inputs, and input uncertainty.\n\n*About the Speaker*\n\n[Dr. Matias Valdenegro](https://www.linkedin.com/in/matias-valdenegro-toro-29383717/) is Tenured Assistant Professor of Machine Learning at the Department of Artificial Intelligence, Bernoulli Institute, University of Groningen since 2022. He studied Computer Science, Autonomous Systems, and Electrical Engineering in Chile, Germany, and Scotland, holding a PhD from Heriot-Watt University on a thesis in detecting marine debris in sonar images. As a Researcher at the German Research Center for Artificial Intelligence in Bremen he conducted research in Computer Vision and Uncertainty Quantification from 2018 to 2022.\n\n**Deep Generative Modeling for Multimodal Human Trajectory Prediction**\n\nIn this talk, I plan to show how deep generative models can be used as powerful multiple-hypothesis predictive models, in human trajectory prediction. This kind of problem arises in particular in autonomous driving. I will show a few works we have done in the past and a few ongoing works in my team.\n\n*About the Speaker*\n\n[Jean-Bernard Hayet](https://www.linkedin.com/in/jean-bernard-hayet-a988381/) studied my engineering degree at Ecole Nationale Supérieure de Techniques Avancées (ENSTA) in Paris, and obtained my master degree in artificial intelligence at University Paris VI. I got my Ph.D. degree from University of Toulouse in 2003, at LAAS-CNRS, in Toulouse.\n\n**Cuando el conocimiento es Open la Innovación se acelera**\n\nEn esta charla mostraremos cómo, cuando el conocimiento es abierto, la innovación se acelera al volverse accesible para cualquier colaborador y no solo para unos pocos expertos. Presentare Promptotyper, una plataforma creada por Innovaitors que integra modelos open source y librerías como LangChain y LangGraph para habilitar soluciones agénticas que guían desde el planteamiento del problema hasta el prototipado.\n\nA través de agentes expertos en innovación, los equipos pueden estructurar retos empresariales y avanzar hacia soluciones en áreas como automatización (por ejemplo con n8n), prototipado de aplicaciones web y analítica de datos. El enfoque democratiza el “saber hacer” innovación en empresas de Latinoamérica, reduciendo la fricción y aumentando la velocidad de aprendizaje y ejecución. Al final, verás cómo convertir el expertise en un sistema reutilizable que escala capacidades de innovación en toda la organización.\n\n*About the Speaker*\n\n[Alejandro Uribe](https://www.linkedin.com/in/dauribel/) es científico de datos, cofundador de Innovaitors y consultor en industria 4.0. Magíster en Inteligencia Artificial (U. Javeriana), profesor en la U. Externado e investigador en IA en la Javeriana, con 6 años desarrollando soluciones de IA y analítica de datos.\n\nFrom Using Open Source to Contributing: A Practical Guide to Getting Started\n\nOpen source is one of the best ways to learn faster, build real experience, and grow your career, but many people don’t know how to start. In this talk, I share a very practical approach to contributing to open source, based on real experience. We’ll cover how to choose the right project, understand large codebases, start with small contributions, and communicate clearly with maintainers. Using FiftyOne as a real example (but keeping everything general), I’ll show how small actions like fixing docs, improving tooling, or opening a simple PR can lead to long-term impact, visibility, and growth.\n\n*About the Speaker*\n\n[Adonai Vera](https://www.linkedin.com/in/adonai-vera/) \\- Machine Learning Engineer & DevRel at Voxel51\\. With over 7 years of experience building computer vision and machine learning models using TensorFlow, Docker, and OpenCV\\. I started as a software developer, moved into AI, led teams, and served as CTO\\.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/312994586/",
@@ -993,7 +1025,7 @@
     "dtstart": "2026-03-01T17:00:00+00:00",
     "dtend": "2026-03-01T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1002,38 +1034,6 @@
     "city_code": "cdmx",
     "address": "Periférico Sur, Cir. Unidad Independencia 3400, Independencia Batan Sur, San Jerónimo Lídice, La Magdalena Contreras, 10100 Ciudad de México, CDMX, México",
     "hash_key": "mega clase de criptomonedas con bitso y _2026-03-01T16:00:00+00:00"
-  },
-  {
-    "title": "KCD Guadalajara|KCD Guadalajara 2026|México|Jalisco",
-    "description": "Kubernetes Community Days Guadalajara, un evento para profesionales de la nube y Kubernetes.",
-    "url": "https://community.cncf.io/kcd-guadalajara/",
-    "sources": [
-      {
-        "platform": "website",
-        "url": "https://community.cncf.io/kcd-guadalajara/",
-        "label": "Ver sitio web"
-      }
-    ],
-    "location": "Holiday Inn Guadalajara Expo, an IHG Hotel 2500 Avenida Adolfo López Mateos Sur, Zapopan, 45050",
-    "online": false,
-    "organizer": "KCD Guadalajara",
-    "dtstart": "2026-02-28T08:00:00-06:00",
-    "dtend": "2026-02-28T19:00:00-06:00",
-    "tags": [
-      "cloud",
-      "conferencia",
-      "devops",
-      "kubernetes"
-    ],
-    "source": "Manual",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Jalisco",
-    "state_code": "MX-JAL",
-    "city": "Guadalajara",
-    "city_code": "guadalajara",
-    "address": "Holiday Inn Guadalajara Expo, an IHG Hotel 2500 Avenida Adolfo López Mateos Sur, Zapopan, 45050",
-    "hash_key": "kcd guadalajara 2026_2026-02-28T14:00:00+00:00"
   },
   {
     "title": "Pythonistas GDL|EVENTO POSPUESTO Interfaz web y agentes autónomos|México|Jalisco",
@@ -1084,7 +1084,7 @@
     "dtstart": "2026-02-27T15:00:00+00:00",
     "dtend": "2026-02-27T17:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1317,7 +1317,7 @@
     "dtstart": "2026-02-26T01:00:00+00:00",
     "dtend": "2026-02-26T04:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1326,33 +1326,6 @@
     "city_code": "cdmx",
     "address": "Lago Iseo 296, Anáhuac I Secc, Miguel Hidalgo, 11320 Ciudad de México, CDMX, México",
     "hash_key": "fuckup nights x fintech mxico week_2026-02-26T00:00:00+00:00"
-  },
-  {
-    "title": "FinTech México|Drinks, Not Decks @ Fintech Mexico Week|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/4hy9286c\n\nAddress:\nbiberón\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Maria Paula Lopera & 3 others",
-    "url": "https://luma.com/4hy9286c",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/4hy9286c",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "biberón, Durango 219, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
-    "online": false,
-    "organizer": "FinTech México",
-    "dtstart": "2026-02-26T00:00:00+00:00",
-    "dtend": "2026-02-26T03:00:00+00:00",
-    "tags": [],
-    "source": "https://luma.com/02t893pf",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Durango 219, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
-    "hash_key": "drinks not decks fintech mexico week_2026-02-26T00:00:00+00:00"
   },
   {
     "title": "Talavera Valley|🔥🚀 Kick Off Talavera Valley Hub  -  EL evento que enciende el ecosistema ✨|México|Puebla",
@@ -1382,6 +1355,33 @@
     "hash_key": "kick off talavera valley hub el evento q_2026-02-26T00:00:00+00:00"
   },
   {
+    "title": "FinTech México|Drinks, Not Decks @ Fintech Mexico Week|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/4hy9286c\n\nAddress:\nbiberón\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Maria Paula Lopera & 3 others",
+    "url": "https://luma.com/4hy9286c",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/4hy9286c",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "biberón, Durango 219, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+    "online": false,
+    "organizer": "FinTech México",
+    "dtstart": "2026-02-26T00:00:00+00:00",
+    "dtend": "2026-02-26T03:00:00+00:00",
+    "tags": [],
+    "source": "https://luma.com/eofagheq",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Durango 219, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+    "hash_key": "drinks not decks fintech mexico week_2026-02-26T00:00:00+00:00"
+  },
+  {
     "title": "FinTech México|Hacia una política pública para la inclusión financiera: Oportunidades y retos para México by Finabien|México|Ciudad de México",
     "description": "Get up-to-date information at: https://luma.com/hc8p9gq9\n\nAddress:\nMuseo del Telégrafo\nCiudad de México, Ciudad de México\nMexico\n\nHosted by FinTech México & 3 others",
     "url": "https://luma.com/hc8p9gq9",
@@ -1398,7 +1398,7 @@
     "dtstart": "2026-02-25T22:00:00+00:00",
     "dtend": "2026-02-25T23:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1427,7 +1427,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1456,7 +1456,7 @@
     "tags": [
       "mobile"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1542,7 +1542,7 @@
     "dtstart": "2026-02-25T15:00:00+00:00",
     "dtend": "2026-02-25T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1629,7 +1629,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1656,7 +1656,7 @@
     "dtstart": "2026-02-24T14:30:00+00:00",
     "dtend": "2026-02-24T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1685,7 +1685,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1712,7 +1712,7 @@
     "dtstart": "2026-02-24T00:00:00+00:00",
     "dtend": "2026-02-24T02:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1741,7 +1741,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1771,7 +1771,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1801,7 +1801,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1828,7 +1828,7 @@
     "dtstart": "2026-02-23T19:00:00+00:00",
     "dtend": "2026-02-23T20:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1855,7 +1855,7 @@
     "dtstart": "2026-02-23T18:00:00+00:00",
     "dtend": "2026-02-23T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1882,7 +1882,7 @@
     "dtstart": "2026-02-23T17:00:00+00:00",
     "dtend": "2026-02-23T18:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1912,7 +1912,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -3296,7 +3296,7 @@
     "dtstart": "2025-11-18T23:00:00+00:00",
     "dtend": "2025-11-19T01:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -4302,7 +4302,7 @@
     "dtstart": "2025-09-29T18:00:00+00:00",
     "dtend": "2025-09-29T19:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -4841,37 +4841,6 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-jAbrAB2UuAtd9ay",
     "hash_key": "venture bites why founders should angel _2025-07-31T18:00:00+00:00"
-  },
-  {
-    "title": "Java Mexico|Arquitecturas Modernas en Java: Hacia Servicios Escalables y Flexibles|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/83si3bw5\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Benek",
-    "url": "https://luma.com/83si3bw5",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/83si3bw5",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Java Mexico",
-    "dtstart": "2025-07-30T00:30:00+00:00",
-    "dtend": "2025-07-30T04:00:00+00:00",
-    "tags": [
-      "ai",
-      "frontend",
-      "mobile"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "arquitecturas modernas en java hacia ser_2025-07-30T00:00:00+00:00"
   },
   {
     "title": "Frutero Club|Coworking Frutal #7|México|Ciudad de México",

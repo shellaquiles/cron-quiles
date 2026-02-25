@@ -251,23 +251,6 @@ X-CRONQUILES-STATE:Jalisco
 X-CRONQUILES-STATE-CODE:MX-JAL
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:KCD Guadalajara|KCD Guadalajara 2026|México|Jalisco
-DTSTART:20260228T080000
-CATEGORIES:cloud,conferencia,devops,kubernetes
-DESCRIPTION:Kubernetes Community Days Guadalajara\, un evento para profesi
- onales de la nube y Kubernetes.
-LOCATION:Holiday Inn Guadalajara Expo\, an IHG Hotel 2500 Avenida Adolfo L
- ópez Mateos Sur\, Zapopan\, 45050
-X-CRONQUILES-ADDRESS:Holiday Inn Guadalajara Expo\, an IHG Hotel 2500 Aven
- ida Adolfo López Mateos Sur\, Zapopan\, 45050
-X-CRONQUILES-CITY:Guadalajara
-X-CRONQUILES-CITY-CODE:guadalajara
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Jalisco
-X-CRONQUILES-STATE-CODE:MX-JAL
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:HackGDL|HackGDL 2026|México|Jalisco
 DTSTART:20260314T090000
 DESCRIPTION:¡Acompáñanos en la tercera edición de HackGD! Será un eve
@@ -276,6 +259,23 @@ LOCATION:Jardín Americana\, 1305 Avenida Ignacio L Vallarta\, Guadalajara
  \, JAL
 X-CRONQUILES-ADDRESS:Av. Ignacio L Vallarta 1305\, Col Americana\, America
  na\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:KCD Guadalajara|KCD Guadalajara 2026|México|Jalisco
+DTSTART:20260418T080000
+CATEGORIES:cloud,conferencia,devops,kubernetes
+DESCRIPTION:Kubernetes Community Days Guadalajara\, un evento para profesi
+ onales de la nube y Kubernetes.
+LOCATION:Holiday Inn Guadalajara Expo\, an IHG Hotel 2500 Avenida Adolfo L
+ ópez Mateos Sur\, Zapopan\, 45050
+X-CRONQUILES-ADDRESS:Holiday Inn Guadalajara Expo\, an IHG Hotel 2500 Aven
+ ida Adolfo López Mateos Sur\, Zapopan\, 45050
 X-CRONQUILES-CITY:Guadalajara
 X-CRONQUILES-CITY-CODE:guadalajara
 X-CRONQUILES-COUNTRY:México

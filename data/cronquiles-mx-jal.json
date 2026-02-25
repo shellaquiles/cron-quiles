@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T03:04:20.344946+00:00",
+  "generated_at": "2026-02-25T03:05:02.093512+00:00",
   "total_events": 15,
   "city": "Jalisco",
   "communities": [
@@ -419,38 +419,6 @@
       "hash_key": "evento pospuesto interfaz web y agentes _2026-02-28T00:00:00+00:00"
     },
     {
-      "title": "KCD Guadalajara|KCD Guadalajara 2026|México|Jalisco",
-      "description": "Kubernetes Community Days Guadalajara, un evento para profesionales de la nube y Kubernetes.",
-      "url": "https://community.cncf.io/kcd-guadalajara/",
-      "sources": [
-        {
-          "platform": "website",
-          "url": "https://community.cncf.io/kcd-guadalajara/",
-          "label": "Ver sitio web"
-        }
-      ],
-      "location": "Holiday Inn Guadalajara Expo, an IHG Hotel 2500 Avenida Adolfo López Mateos Sur, Zapopan, 45050",
-      "online": false,
-      "organizer": "KCD Guadalajara",
-      "dtstart": "2026-02-28T08:00:00-06:00",
-      "dtend": "2026-02-28T19:00:00-06:00",
-      "tags": [
-        "cloud",
-        "conferencia",
-        "devops",
-        "kubernetes"
-      ],
-      "source": "Manual",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Jalisco",
-      "state_code": "MX-JAL",
-      "city": "Guadalajara",
-      "city_code": "guadalajara",
-      "address": "Holiday Inn Guadalajara Expo, an IHG Hotel 2500 Avenida Adolfo López Mateos Sur, Zapopan, 45050",
-      "hash_key": "kcd guadalajara 2026_2026-02-28T14:00:00+00:00"
-    },
-    {
       "title": "HackGDL|HackGDL 2026|México|Jalisco",
       "description": "¡Acompáñanos en la tercera edición de HackGD! Será un evento lleno de contenido técnico, así como actividades sociales y",
       "url": "https://www.eventbrite.com.mx/e/hackgdl-2026-tickets-1816894182409",
@@ -476,6 +444,38 @@
       "city_code": "guadalajara",
       "address": "Av. Ignacio L Vallarta 1305, Col Americana, Americana, 44160 Guadalajara, Jal., México",
       "hash_key": "hackgdl 2026_2026-03-14T14:00:00+00:00"
+    },
+    {
+      "title": "KCD Guadalajara|KCD Guadalajara 2026|México|Jalisco",
+      "description": "Kubernetes Community Days Guadalajara, un evento para profesionales de la nube y Kubernetes.",
+      "url": "https://community.cncf.io/kcd-guadalajara/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://community.cncf.io/kcd-guadalajara/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Holiday Inn Guadalajara Expo, an IHG Hotel 2500 Avenida Adolfo López Mateos Sur, Zapopan, 45050",
+      "online": false,
+      "organizer": "KCD Guadalajara",
+      "dtstart": "2026-04-18T08:00:00-06:00",
+      "dtend": "2026-04-18T19:00:00-06:00",
+      "tags": [
+        "cloud",
+        "conferencia",
+        "devops",
+        "kubernetes"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Jalisco",
+      "state_code": "MX-JAL",
+      "city": "Guadalajara",
+      "city_code": "guadalajara",
+      "address": "Holiday Inn Guadalajara Expo, an IHG Hotel 2500 Avenida Adolfo López Mateos Sur, Zapopan, 45050",
+      "hash_key": "kcd guadalajara 2026_2026-04-18T14:00:00+00:00"
     }
   ]
 }
