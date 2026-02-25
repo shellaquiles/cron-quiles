@@ -96,14 +96,6 @@ feeds:
   name: Fvckup Nights
   description: Gestión del Fracaso para la productividad e innovación. Solo eventos en México (filtrado por país en el pipeline).
   # -----------------------------------
-- url: https://www.meetup.com/gdg-ciudad-de-mexico/events/ical
-  name: GDG Ciudad de México
-  description: Google Developer Group CDMX. Eventos sobre tecnologías de Google y desarrollo en general.
-  # -----------------------------------
-- url: https://www.meetup.com/gdg-guadalajara/events/ical
-  name: GDG Guadalajara
-  description: Google Developer Group Guadalajara. Eventos sobre tecnologías de Google y desarrollo.
-  # -----------------------------------
 - url: https://www.meetup.com/gittogether-cdmx/events/ical
   name: GitTogether CDMX
   description: GitHub GitTogether CDMX es un evento mensual creado por desarrolladores para desarrolladores para aprender acerca de GitHub y Open Source.
@@ -328,10 +320,66 @@ feeds:
   name: Talavera Valley
   description: Comunidad que está construyendo el ecosistema de startups más ambicioso y robusto de la región de Puebla. Eventos para startups, talento emergente y capital.
   # -----------------------------------
-- url: https://www.meetup.com/cloudmx/events/ical
-  name: GDG CloudMX
-  description: Google Developer Group CloudMX. Eventos sobre tecnologías de Google Cloud y desarrollo en la nube.
-  # -----------------------------------
 - url: https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical
   name: México City AI, Machine Learning and Computer Vision Meetup
   description: Comunidad de AI, Machine Learning y Computer Vision en Ciudad de México. Charlas técnicas, networking y eventos sobre inteligencia artificial.
+- url: https://gdg.community.dev/gdg-cdmx/
+  name: GDG CDMX
+  description: Google Developer Group CDMX. Eventos sobre tecnologías de Google y desarrollo en general.
+  # -----------------------------------
+- url: https://gdg.community.dev/gdg-cancun/
+  name: GDG Cancún
+  description: "Disclaimer: GDG Cancún is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg/"
+  # -----------------------------------
+- url: https://gdg.community.dev/gdg-cloud-mexico-city/
+  name: GDG Cloud Mexico City
+  description: Google Developer Group CloudMX. Eventos sobre tecnologías de Google Cloud y desarrollo en la nube.
+  # -----------------------------------
+- url: https://gdg.community.dev/gdg-guadalajara/
+  name: GDG Guadalajara
+  description: GDG Guadalajara es una comunidad abierta de entusiastas y profesionales de la tecnología apasionados por el aprendizaje colaborativo. Como parte de la red global de Google Developer Groups, nuestro objetivo es conectar a desarrolladores locales para compartir conocimientos sobre el ecosistema de Google y las tendencias tecnológicas más actuales (AI, Cloud, Mobile, Web). Fomentamos un espacio inclusivo donde la innovación y el crecimiento profesional se impulsan a través de talleres, charlas y eventos de gran escala como el DevFest.
+  # -----------------------------------
+- url: https://gdg.community.dev/gdg-hermosillo/
+  name: GDG Hermosillo
+  description: "Disclaimer: GDG Hermosillo is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg "
+  # -----------------------------------
+- url: https://gdg.community.dev/gdg-heroica-veracruz/
+  name: GDG Heroica Veracruz
+  description: "GDG Veracruz is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg"
+  # -----------------------------------
+- url: https://gdg.community.dev/gdg-ipn/
+  name: GDG IPN
+  description: "Disclaimer: GDG IPN is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg/"
+  # -----------------------------------
+- url: https://gdg.community.dev/gdg-monterrey/
+  name: GDG Monterrey
+  description: "Disclaimer: GDG Monterrey is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg"
+  # -----------------------------------
+- url: https://gdg.community.dev/gdg-orizaba/
+  name: GDG Orizaba
+  description: "Si eres estudiante, profesor o alguien que le interesa la tecnología, únete a GDG Orizaba, se parte de los eventos que haremos de manera virtual o presencial en la región de Orizaba, Veracruz.\nRegístrate dando clic en el botón de arriba: 'Join us' para unirte a la comunidad y llena el siguiente formulario que nos será de ayuda para los próximos eventos: https://forms.gle/n1UDaaDWq42MeBXV8\nSíguenos en redes sociales: https://beacons.ai/gdgorizaba\nDisclaimer: GDG Orizaba is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg"
+  # -----------------------------------
+- url: https://gdg.community.dev/gdg-queretaro/
+  name: GDG Querétaro
+  description: "GDG es la plataforma comunitaria oficial de Google for Developers que nos motiva a reunirnos en Querétaro para hablar sobre las tecnologías con las que queremos construir el futuro del Ecosistema de Software.\nGDG Querétaro es un capítulo que busca reunir talento de la ciudad para conversar sobre Desarrollo de Software, Open Source, Diseño, Crecimiento Profesional y también Tecnologías Google.\n¡Da click en ÚNASE A NOSOTROS para conocer los próximos eventos en la ciudad!"
+  # -----------------------------------
+- url: https://gdg.community.dev/gdg-san-francisco-de-campeche/
+  name: GDG San Francisco de Campeche
+  description: El Grupo de Desarrolladores de Google (GDG) en San Francisco de Campeche es un colectivo de entusiastas de la tecnología dedicado a fomentar el aprendizaje, la colaboración y la productividad entre los desarrolladores en Campeche y sus alrededores. Fundado en mayo de 2019, nuestra comunidad es un hervidero de innovación y creatividad tecnológica.
+  # -----------------------------------
+- url: https://gdg.community.dev/gdg-tapachula-chiapas/
+  name: GDG Tapachula Chiapas
+  description: "Creamos, Enseñamos y Compartimos.. Únete a nosotros para seguir generando comunidad.\nRegístrate dando clic en el botón de arriba: 'Join us' para unirte a la comunidad y llena el siguiente formulario que será de ayuda para próximos eventos:  https://docs.google.com/forms/d/e/1FAIpQLScOBbSBK-edOrnZ7KUuOv9iji1Ctfkp6j4Ro7MCOo13B5CVxg/viewform\nSíguenos en redes sociales: https://linkr.bio/gdgtapachula\nDisclaimer: GDG Tapachula is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg"
+  # -----------------------------------
+- url: https://gdg.community.dev/gdg-tepic/
+  name: GDG Tepic
+  description: "GDG Tepic is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg"
+  # -----------------------------------
+- url: https://gdg.community.dev/gdg-tijuana/
+  name: GDG Tijuana
+  description: Buscamos impulsar el desarrollo tecnológico en Tijuana, a través de la conformación de una comunidad de programadores y perfiles afines al uso de la Tecnología. To learn more about the GDG program, visit https://developers.google.com/community/gdg
+  # -----------------------------------
+- url: https://gdg.community.dev/gdg-villahermosa/
+  name: GDG Villahermosa
+  description: "Somos una comunidad que busca desarrollar e impulsar al talento local, mediante actividades constantes y mentorias. Este programa está dedicado a ayudar a los organizadores individuales de comunidades activas de desarrolladores móviles, web, en la nube y de inteligencia artificial en su viaje, liderando grupos exitosos y comprometidos a través de capacitación en línea, materiales de reunión, oportunidades de redes y más.\nIniciada en 2014 por desarrolladores locales.\nDescargo de responsabilidad: GDG Villahermosa es un grupo independiente; Nuestras actividades y las opiniones expresadas aquí no deben estar vinculadas de ninguna manera a Google, la corporación. Para obtener más información sobre el programa GDG, visite https://developers.google.com/community/gdg/"
+  # -----------------------------------
