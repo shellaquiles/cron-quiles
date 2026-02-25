@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-25T03:05:02.172744+00:00",
-  "total_events": 168,
+  "generated_at": "2026-02-25T03:05:14.963474+00:00",
+  "total_events": 183,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -26,11 +26,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
+      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/eofagheq",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -50,6 +50,17 @@
       "name": "Mexico Tech Week",
       "description": "Calendario oficial de Mexico Tech Week 2025.",
       "links": []
+    },
+    {
+      "name": "Mobil3",
+      "description": "Canal de Luma de la comunidad de Mobil3.",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mobil3",
+          "label": "Luma"
+        }
+      ]
     },
     {
       "name": "Python CDMX",
@@ -103,6 +114,11 @@
     {
       "name": "Vive Codding Cafe",
       "description": "Un espacio para juntarnos a echar código y compartir lo que estamos descubriendo en el mundo de la IA.",
+      "links": []
+    },
+    {
+      "name": "Java Mexico",
+      "description": "Comunidad de Java en México. Eventos, charlas técnicas y networking para desarrolladores Java.",
       "links": []
     },
     {
@@ -479,6 +495,95 @@
       "city_code": "cdmx",
       "address": "Ciudad de México, CDMX, México",
       "hash_key": "tacos beer and gen ai_2024-10-21T18:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Fintech Feast:  Luncheon with Pygma, Mastercard, Google & This Week in Fintech|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/8o2qc0sg\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week, Andrés Cano & Jorge Gonzalez Soler",
+      "url": "https://luma.com/8o2qc0sg",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/8o2qc0sg",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-21T21:00:00+00:00",
+      "dtend": "2024-10-21T23:00:00+00:00",
+      "tags": [
+        "ai",
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "fintech feast luncheon with pygma master_2024-10-21T20:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Emprelatam Connect Day CDMX|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/rk2rp5gp\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week, Emprelatam & Denisse Galindo",
+      "url": "https://luma.com/rk2rp5gp",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/rk2rp5gp",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-21T21:30:00+00:00",
+      "dtend": "2024-10-22T02:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "emprelatam connect day cdmx_2024-10-21T20:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Founders & Drinks by Startup Grind #MexicoTechWeek|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/cranm43m\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week, Guillermo Vizcaino & Carlos Zárate",
+      "url": "https://luma.com/cranm43m",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/cranm43m",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-21T23:00:00+00:00",
+      "dtend": "2024-10-22T01:00:00+00:00",
+      "tags": [
+        "ai",
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "founders drinks by startup grind mexicot_2024-10-21T22:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|México|Ciudad de México",
@@ -2222,6 +2327,35 @@
       "hash_key": "growth gains founders cfos night by webu_2024-11-21T00:00:00+00:00"
     },
     {
+      "title": "Mobil3|Mobil3 meetup: Camino a Devconnect|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/phxdpdq2\n\nAddress:\nCheck event page for more details.",
+      "url": "https://luma.com/phxdpdq2",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/phxdpdq2",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Mobil3",
+      "dtstart": "2025-06-12T23:30:00+00:00",
+      "dtend": "2025-06-13T03:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/mobil3",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "mobil3 meetup camino a devconnect_2025-06-12T22:00:00+00:00"
+    },
+    {
       "title": "Frutero Club|Coworking Frutal #4|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/rhoz6d8c\n\nAddress:\nChez Vous #Timecafé\nCiudad de México, Ciudad de México\nMexico\n\nHosted by René Hernández, mel & Anthony Morales",
       "url": "https://luma.com/rhoz6d8c",
@@ -2274,6 +2408,37 @@
       "city_code": "cdmx",
       "address": "Av. Insurgentes Centro 1188, Tlacoquemecatl del Valle, Benito Juárez, 03200 Ciudad de México, CDMX, México",
       "hash_key": "coworking frutal 7_2025-07-16T16:00:00+00:00"
+    },
+    {
+      "title": "Java Mexico|Arquitecturas Modernas en Java: Hacia Servicios Escalables y Flexibles|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/83si3bw5\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Benek",
+      "url": "https://luma.com/83si3bw5",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/83si3bw5",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Java Mexico",
+      "dtstart": "2025-07-30T00:30:00+00:00",
+      "dtend": "2025-07-30T04:00:00+00:00",
+      "tags": [
+        "ai",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "arquitecturas modernas en java hacia ser_2025-07-30T00:00:00+00:00"
     },
     {
       "title": "Frutero Club|Coworking Frutal #9🥑|México|Ciudad de México",
@@ -2357,6 +2522,119 @@
       "city_code": "cdmx",
       "address": "Av. Benjamín Franklin 45, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX, México",
       "hash_key": "dojo de codificacin global ciudad de mxi_2025-08-14T00:00:00+00:00"
+    },
+    {
+      "title": "Mobil3|Pre-Registro: Mobil3 Hackathon|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/3rpalo5b\n\nAddress:\nAv. P.º de la Reforma 333\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Mobil3",
+      "url": "https://luma.com/3rpalo5b",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/3rpalo5b",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mobil3",
+      "dtstart": "2025-08-20T16:00:00+00:00",
+      "dtend": "2025-08-25T00:30:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/mobil3",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
+      "hash_key": "pre registro mobil3 hackathon_2025-08-20T16:00:00+00:00"
+    },
+    {
+      "title": "Mobil3|Coworking & Builders - Mobil3, Powered by Monad.|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/guukonik\n\nAddress:\nCheck event page for more details.\n\nHosted by Monad Foundation & Mobil3",
+      "url": "https://luma.com/guukonik",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/guukonik",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Mobil3",
+      "dtstart": "2025-08-20T16:00:00+00:00",
+      "dtend": "2025-08-21T21:00:00+00:00",
+      "tags": [
+        "ai",
+        "frontend"
+      ],
+      "source": "https://luma.com/mobil3",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "coworking builders mobil3 powered by mon_2025-08-20T16:00:00+00:00"
+    },
+    {
+      "title": "Mobil3|SheFi x Mobil3 - She leads Finance|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/qbdndnx7\n\nAddress:\nPÚBLICO Reforma\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Diana HR, SheFi & SheFi México",
+      "url": "https://luma.com/qbdndnx7",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/qbdndnx7",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "PÚBLICO Reforma, Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mobil3",
+      "dtstart": "2025-08-21T16:30:00+00:00",
+      "dtend": "2025-08-21T17:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/mobil3",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
+      "hash_key": "shefi x mobil3 she leads finance_2025-08-21T16:00:00+00:00"
+    },
+    {
+      "title": "Mobil3|Monad & Friends: Cena Estratégica en CDMX|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/7pf61h99\n\nAddress:\nCheck event page for more details.\n\nHosted by Monad Foundation & Mobil3",
+      "url": "https://luma.com/7pf61h99",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/7pf61h99",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Mobil3",
+      "dtstart": "2025-08-22T01:00:00+00:00",
+      "dtend": "2025-08-22T04:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/mobil3",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "monad friends cena estratgica en cdmx_2025-08-22T00:00:00+00:00"
     },
     {
       "title": "EPAM|EPAM Tech Talks Mexico City|México|Ciudad de México",
@@ -2568,7 +2846,7 @@
       "dtstart": "2025-09-29T18:00:00+00:00",
       "dtend": "2025-09-29T19:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3212,7 +3490,7 @@
       "dtstart": "2025-11-18T23:00:00+00:00",
       "dtend": "2025-11-19T01:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3649,6 +3927,35 @@
       "hash_key": "coworking frutal work and chill 1_2026-01-30T16:00:00+00:00"
     },
     {
+      "title": "v0 Prompt to Production Mexico City|v0 Prompt to Production – Mexico City|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/fdg8riz2\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero & Ben Kim",
+      "url": "https://luma.com/fdg8riz2",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/fdg8riz2",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Hipódromo, Ciudad de México",
+      "online": false,
+      "organizer": "v0 Prompt to Production Mexico City",
+      "dtstart": "2026-01-31T15:00:00+00:00",
+      "dtend": "2026-01-31T18:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/fdg8riz2",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Hipódromo, 06100 Ciudad de México, CDMX, México",
+      "hash_key": "v0 prompt to production mexico city_2026-01-31T14:00:00+00:00"
+    },
+    {
       "title": "Frutero Club|Casa Frutero - Coworking Frutal #5|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/uh5wt1t4\n\nAddress:\nAv. Insurgentes Sur 1877\nÁlvaro Obregón, Ciudad de México\nMexico\n\nHosted by Frutero",
       "url": "https://luma.com/uh5wt1t4",
@@ -3869,6 +4176,35 @@
       "hash_key": "coworking frutal work and chill 3_2026-02-20T16:00:00+00:00"
     },
     {
+      "title": "Mobil3|Monad Blitz Ciudad de México|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/6pk4opdb\n\nAddress:\nCheck event page for more details.\n\nHosted by Monad Foundation & 3 others",
+      "url": "https://luma.com/6pk4opdb",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/6pk4opdb",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Colonia del Valle Centro, Ciudad de México",
+      "online": false,
+      "organizer": "Mobil3",
+      "dtstart": "2026-02-21T15:30:00+00:00",
+      "dtend": "2026-02-22T02:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/mobil3",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Col del Valle Centro, Ciudad de México, CDMX, México",
+      "hash_key": "monad blitz ciudad de mxico_2026-02-21T14:00:00+00:00"
+    },
+    {
       "title": "FinTech México|Connect Day: Fintech Coffee Mixer by Pygma, LATAM Fintech Hub, Oracle, and Cometa VC|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/6b18ulh8\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & 3 others",
       "url": "https://luma.com/6b18ulh8",
@@ -3888,7 +4224,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3915,7 +4251,7 @@
       "dtstart": "2026-02-23T17:00:00+00:00",
       "dtend": "2026-02-23T18:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3942,7 +4278,7 @@
       "dtstart": "2026-02-23T18:00:00+00:00",
       "dtend": "2026-02-23T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3969,7 +4305,7 @@
       "dtstart": "2026-02-23T19:00:00+00:00",
       "dtend": "2026-02-23T20:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3999,7 +4335,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4029,7 +4365,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4056,7 +4392,7 @@
       "dtstart": "2026-02-24T00:00:00+00:00",
       "dtend": "2026-02-24T02:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4085,7 +4421,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4114,7 +4450,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4141,7 +4477,7 @@
       "dtstart": "2026-02-24T14:30:00+00:00",
       "dtend": "2026-02-24T16:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4170,7 +4506,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4179,6 +4515,95 @@
       "city_code": "cdmx",
       "address": "Polanco, Polanco I Secc, 11510 Ciudad de México, CDMX, México",
       "hash_key": "estado del crdito en mxico y tendencias _2026-02-24T14:00:00+00:00"
+    },
+    {
+      "title": "FinTech México|Fintech Luncheon Vol.3 by Pygma, AMG Block Ventures  and Morrison Foerster|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/uwjfgnlj\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & Andrés Cano",
+      "url": "https://luma.com/uwjfgnlj",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/uwjfgnlj",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Hipódromo Condesa, Ciudad de México",
+      "online": false,
+      "organizer": "FinTech México",
+      "dtstart": "2026-02-24T19:00:00+00:00",
+      "dtend": "2026-02-24T21:00:00+00:00",
+      "tags": [
+        "ai",
+        "python"
+      ],
+      "source": "https://luma.com/02t893pf",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Hipódromo Condesa, 06170 Ciudad de México, CDMX, México",
+      "hash_key": "fintech luncheon vol 3 by pygma amg bloc_2026-02-24T18:00:00+00:00"
+    },
+    {
+      "title": "FinTech México|Futuro de Pagos entre Cortes by tapi|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/robjv7n2\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & 3 others",
+      "url": "https://luma.com/robjv7n2",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/robjv7n2",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Chapultepec Morales, Ciudad de México",
+      "online": false,
+      "organizer": "FinTech México",
+      "dtstart": "2026-02-24T20:30:00+00:00",
+      "dtend": "2026-02-24T23:00:00+00:00",
+      "tags": [
+        "ai",
+        "backend"
+      ],
+      "source": "https://luma.com/02t893pf",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Chapultepec Morales, Polanco V Secc, Ciudad de México, CDMX, México",
+      "hash_key": "futuro de pagos entre cortes by tapi_2026-02-24T20:00:00+00:00"
+    },
+    {
+      "title": "FinTech México|AML & Financial Crime Intelligence by  IKIEXPERTS|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/qr2wspo0\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México, JOSE ESPIRITU & Erika Postel",
+      "url": "https://luma.com/qr2wspo0",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/qr2wspo0",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Colonia Cuauhtémoc, Ciudad de México",
+      "online": false,
+      "organizer": "FinTech México",
+      "dtstart": "2026-02-24T22:30:00+00:00",
+      "dtend": "2026-02-25T01:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/02t893pf",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
+      "hash_key": "aml financial crime intelligence by ikie_2026-02-24T22:00:00+00:00"
     },
     {
       "title": "This Week in Fintech|Fintech Innovation Call by AWS Startups, Puntored and Sumsub @ Mexico Fintech Week 2026|México|Ciudad de México",
@@ -4226,7 +4651,7 @@
       "dtstart": "2026-02-25T15:00:00+00:00",
       "dtend": "2026-02-25T16:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4282,7 +4707,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4311,7 +4736,7 @@
       "tags": [
         "mobile"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4338,7 +4763,7 @@
       "dtstart": "2026-02-25T22:00:00+00:00",
       "dtend": "2026-02-25T23:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4365,7 +4790,7 @@
       "dtstart": "2026-02-26T00:00:00+00:00",
       "dtend": "2026-02-26T03:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4392,7 +4817,7 @@
       "dtstart": "2026-02-26T01:00:00+00:00",
       "dtend": "2026-02-26T04:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4481,7 +4906,7 @@
       "dtstart": "2026-02-27T15:00:00+00:00",
       "dtend": "2026-02-27T17:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4508,7 +4933,7 @@
       "dtstart": "2026-03-01T17:00:00+00:00",
       "dtend": "2026-03-01T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4585,6 +5010,35 @@
       "city_code": "cdmx",
       "address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
       "hash_key": "sin specs no hay paraso no specs no para_2026-03-18T00:00:00+00:00"
+    },
+    {
+      "title": "Mobil3|Monad Blitz Ciudad de México #2|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/javtbl3n\n\nAddress:\nCheck event page for more details.\n\nHosted by Monad Foundation & 3 others",
+      "url": "https://luma.com/javtbl3n",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/javtbl3n",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Roma Norte, Ciudad de México",
+      "online": false,
+      "organizer": "Mobil3",
+      "dtstart": "2026-03-28T15:30:00+00:00",
+      "dtend": "2026-03-29T02:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/mobil3",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Roma Nte., 06700 Ciudad de México, CDMX, México",
+      "hash_key": "monad blitz ciudad de mxico 2_2026-03-28T14:00:00+00:00"
     },
     {
       "title": "v0 Prompt to Production Mexico City|OpenAI Codex – Mexico City|México|Ciudad de México",

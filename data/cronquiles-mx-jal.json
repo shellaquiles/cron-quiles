@@ -1,12 +1,23 @@
 {
-  "generated_at": "2026-02-25T03:05:02.093512+00:00",
-  "total_events": 15,
+  "generated_at": "2026-02-25T03:05:14.889761+00:00",
+  "total_events": 16,
   "city": "Jalisco",
   "communities": [
     {
       "name": "Claude Users Group",
       "description": "",
       "links": []
+    },
+    {
+      "name": "Mobil3",
+      "description": "Canal de Luma de la comunidad de Mobil3.",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mobil3",
+          "label": "Luma"
+        }
+      ]
     },
     {
       "name": "Pythonistas GDL",
@@ -444,6 +455,33 @@
       "city_code": "guadalajara",
       "address": "Av. Ignacio L Vallarta 1305, Col Americana, Americana, 44160 Guadalajara, Jal., México",
       "hash_key": "hackgdl 2026_2026-03-14T14:00:00+00:00"
+    },
+    {
+      "title": "Mobil3|Monad Blitz Guadalajara|México|Jalisco",
+      "description": "Get up-to-date information at: https://luma.com/xem9rhtm\n\nAddress:\nFirst Complex Creative\nTorre C, Piso 2, Primer Complejo.\nGuadalajara, Jalisco\nMexico\n\nHosted by Monad Foundation & 3 others",
+      "url": "https://luma.com/xem9rhtm",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/xem9rhtm",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "First Complex Creative, C. Independencia 55, Zona Centro, 44100 Guadalajara, Jal., Mexico",
+      "online": false,
+      "organizer": "Mobil3",
+      "dtstart": "2026-03-14T15:30:00+00:00",
+      "dtend": "2026-03-15T02:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/mobil3",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Jalisco",
+      "state_code": "MX-JAL",
+      "city": "Guadalajara",
+      "city_code": "guadalajara",
+      "address": "C. Independencia 55, Zona Centro, 44100 Guadalajara, Jal., México",
+      "hash_key": "monad blitz guadalajara_2026-03-14T14:00:00+00:00"
     },
     {
       "title": "KCD Guadalajara|KCD Guadalajara 2026|México|Jalisco",
