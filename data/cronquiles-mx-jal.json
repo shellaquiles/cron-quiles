@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-25T03:03:46.982360+00:00",
-  "total_events": 14,
+  "generated_at": "2026-02-25T03:04:11.101212+00:00",
+  "total_events": 15,
   "city": "Jalisco",
   "communities": [
     {
@@ -27,6 +27,11 @@
     {
       "name": "Mobile Developer Community / Linuxeros Zapopan",
       "description": "Organizador de eventos manuales (ej: Coding Sessions – MDC x Linuxeros Zapopan)",
+      "links": []
+    },
+    {
+      "name": "Linuxcabal",
+      "description": "Organizador de eventos manuales (ej: Linuxcabal celebra 30 aniversario)",
       "links": []
     },
     {
@@ -344,6 +349,42 @@
       "city_code": "guadalajara",
       "address": "Av San Francisco 3205, Chapalita, 44500 Guadalajara, Jal., México",
       "hash_key": "codeworking day_2026-02-18T18:00:00+00:00"
+    },
+    {
+      "title": "Linuxcabal|Linuxcabal celebra 30 aniversario|México|Jalisco",
+      "description": "Festival de Instalación de GNU & Linux y F/OSS ****** Presentación Especial ****** Celebrando nuestro 30 aniversario y también el año nuevo del caballo de fuego Con una Comida Asiatica",
+      "url": "https://groups.google.com/g/linuxcabal/c/SlPzGz2S3ws/m/YPaW-34cAAAJ",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://groups.google.com/g/linuxcabal/c/SlPzGz2S3ws/m/YPaW-34cAAAJ",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Linuxcabal, Calle 14 #2184-A, Col. Ferrocarril, C.P. 44440, Guadalajara, Jalisco, Mexico",
+      "online": false,
+      "organizer": "Linuxcabal",
+      "dtstart": "2026-02-21T15:00:00-06:00",
+      "dtend": "2026-02-21T21:00:00-06:00",
+      "tags": [
+        "community",
+        "dev",
+        "floss",
+        "food",
+        "frontend",
+        "gnu",
+        "linux",
+        "open-source"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Jalisco",
+      "state_code": "MX-JAL",
+      "city": "Guadalajara",
+      "city_code": "guadalajara",
+      "address": "Linuxcabal, Calle 14 #2184-A, Col. Ferrocarril, C.P. 44440, Guadalajara, Jalisco, Mexico",
+      "hash_key": "linuxcabal celebra 30 aniversario_2026-02-21T20:00:00+00:00"
     },
     {
       "title": "Pythonistas GDL|EVENTO POSPUESTO Interfaz web y agentes autónomos|México|Jalisco",
