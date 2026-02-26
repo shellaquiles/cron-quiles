@@ -1207,61 +1207,6 @@ LOCATION:https://luma.com/event/evt-gJdCFiMrQ4I5wWp
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-gJdCFiMrQ4I5wWp
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rust-AICollective|AI Collective Harare Chapter - Governance Sub-Tr
- ack Paper Discussion (w/ The AI Collective)|Online
-DTSTART:20260226T170000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/governancezw\n
- \nHosted by The AI Collective & 5 others
-LOCATION:https://luma.com/event/evt-MLHmt6ur8AtltIk
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-MLHmt6ur8AtltIk
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Unity User Group CDMX|Skillshare #3: Our Favorite Advocacy Assets 
- and Sample Packages|Online
-DTSTART:20260226T110000
-CATEGORIES:backend
-DESCRIPTION:Unity User Group - Ciudad de México\nJoin us for our 3rd Skil
- lshare Thursday session with Corrie Green!\n\nOn this call\, we will be lo
- ading up our favorite assets from the asset store and showcasing their fea
- tures to level up your game from character controllers to HDRP forests.\n\
- nWe will also be taking a look at some sample packages from old to new to 
- dive into and learn from including assets from *Keijiro Takahashi*. With p
- otential time at the end for a bonus peak at future content.\n\nHope to se
- e you there!
-LOCATION:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Feb 
- 26 - Exploring Video Datasets with FiftyOne and Vision-Language Models|Onl
- ine
-DTSTART:20260226T110000
-CATEGORIES:ai,data,frontend
-DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
- nJoin [Harpreet Sahota](https://www.linkedin.com/in/harpreetsahota204/) fo
- r a virtual workshop to learn how to use Facebook's Action100M dataset and
-  FiftyOne to build an end-to-end workflow.\n\n**Date\, Time and Location**
- \n\nFeb 26\, 2026\n9am - 10am Pacific\nOnline. **[Register for the Zoom!](
- https://voxel51.com/events/exploring-video-datasets-with-fiftyone-and-visi
- on-language-models-february-26-2026)**\n\nVideo is the hardest modality to
-  work with. You're dealing with more data\, temporal complexity\, and anno
- tation workflows that don't scale. This hands-on workshop tackles a practi
- cal question: given a large video dataset\, how do you understand what's i
- n it without manually watching thousands of clips?\n\nIn this workshop you
- 'll learn how to:\n\n* **Navigate and explore** video data in the FiftyOne
-  App\, filter samples\, and understand dataset structure\n* **Compute embe
- ddings** with Qwen3-VL to enable semantic search\, zero-shot classificatio
- n\, and clustering\n* **Generate descriptions and localize events** using 
- vision-language models like Qwen3-VL and Molmo2\n* **Visualize patterns** 
- in your data through embedding projections and the FiftyOne App\n* **Evalu
- ate model outputs** against Action100M's hierarchical annotations to valid
- ate what the models actually capture\n\nBy the end of the session\, you'll
-  have a reusable toolkit for understanding any video dataset at scale\, wh
- ether you're curating training data\, debugging model performance\, or exp
- loring a new domain.
-LOCATION:Online
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Founder Friends Mexico|Venture Bites: Understanding Advisory Share
  s and the story of Webflow|Online
 DTSTART:20260226T180000Z
@@ -1290,18 +1235,6 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/din1zna2\n\nHo
  sted by The AI Collective & 3 others
 LOCATION:https://luma.com/event/evt-NAcCQRPRtQhzYKa
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-NAcCQRPRtQhzYKa
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GDG IPN|Build With AI: Explorando Gemini y Antigravity|Online
-DTSTART:20260303T122519
-CATEGORIES:AI,AI - Gemini,AI - Gemma,Build with AI,Workshop / hands-on ses
- sion,ai,frontend
-DESCRIPTION:Únase a nosotros para un emocionante taller titulado "Build W
- ith AI"\, donde exploraremos las capacidades innovadoras de ...
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kong Mexico City|Governance across the AI Data Path: Enforce Zero-
@@ -1419,6 +1352,18 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  d modernization\, and applied AI programs across insurance\, financial ser
  vices\, and global eCommerce.
 LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GDG IPN|Build With AI: Explorando Vertex AI|Online
+DTSTART:20260305T122519
+CATEGORIES:AI,AI - Gemini,AI - Gemma,Build with AI,Workshop / hands-on ses
+ sion,ai,frontend
+DESCRIPTION:Únase a nosotros para un emocionante taller titulado "Build W
+ ith AI"\, donde exploraremos las capacidades innovadoras de ...
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #4: OpenClaw|Onli
@@ -1932,6 +1877,37 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/aidatagh\n\nHo
  a
 LOCATION:https://luma.com/event/evt-rI9mxNqygqodV1R
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-rI9mxNqygqodV1R
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|May 
+ 6 - Building Composable Computer Vision Workflows in FiftyOne|Online
+DTSTART:20260506T110000
+CATEGORIES:ai,backend,data,frontend,python
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nThis workshop explores the [FiftyOne](https://docs.voxel51.com/) plugin f
+ ramework to build custom computer vision applications. You’ll learn to e
+ xtend the open source FiftyOne App with Python based panels and server sid
+ e operators\, as well as integrate external tools for labeling\, vector se
+ arch\, and model inference into your dataset views.\n\n**Date\, Time and L
+ ocation**\n\nMay 6\, 2026\n10 AM - 11 AM PST\nOnline. **[Register for the 
+ Zoom!](https://voxel51.com/events/building-composable-vision-workflows-in-
+ fiftyone-may-6-2026)**\n\n**What You'll Learn**\n\n* **Build Python plugin
+ s.** Define plugin manifests and directory structures to register custom f
+ unctionality within the FiftyOne ecosystem.\n* **Develop server side opera
+ tors.** Write functions to execute model inference\, data cleaning\, or me
+ tadata updates from the App interface.\n* **Build interactive panels.** Cr
+ eate custom UI dashboards using to visualize model metrics or specialized 
+ dataset distributions.\n* **Manage operator execution contexts.** Pass dat
+ a between the App front end and your backend to build dynamic user workflo
+ ws.\n* **Implement delegated execution.** Configure background workers to 
+ handle long running data processing tasks without blocking the user interf
+ ace.\n* **Build labeling integrations.** Streamline the flow of data betwe
+ en FiftyOne and annotation platforms through custom triggers and ingestion
+  scripts.\n* **Extend vector database support**. Program custom connectors
+  for external vector stores to enable semantic search across large sample 
+ datasets.\n* **Package and share plugins**. Distribute your extensions int
+ ernally and externally
+LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|Predictive Neurotechnologies\, Criminal Risk and
