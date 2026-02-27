@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-27T01:15:02.432359+00:00",
-  "total_events": 153,
+  "generated_at": "2026-02-27T06:44:01.870378+00:00",
+  "total_events": 154,
   "city": "Online",
   "communities": [
     {
@@ -86,11 +86,11 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
+          "url": "https://luma.com/e17fbtoo",
           "label": "Luma"
         }
       ]
@@ -130,6 +130,17 @@
           "platform": "meetup",
           "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup",
           "label": "Meetup"
+        }
+      ]
+    },
+    {
+      "name": "GDG IPN",
+      "description": "Disclaimer: GDG IPN is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg/",
+      "links": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/gdg-ipn/",
+          "label": "Sitio web"
         }
       ]
     }
@@ -3346,7 +3357,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3511,7 +3522,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3700,7 +3711,7 @@
       "dtstart": "2026-01-19T18:00:00+00:00",
       "dtend": "2026-01-28T20:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3978,6 +3989,41 @@
       "city_code": "",
       "address": "",
       "hash_key": "march 5 ai ml and computer vision meetup_2026-03-05T16:00:00+00:00"
+    },
+    {
+      "title": "GDG IPN|Build With AI: Explorando Vertex AI|Online",
+      "description": "Únase a nosotros para un emocionante taller titulado \"Build With AI\", donde exploraremos las capacidades innovadoras de ...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-ipn-presents-build-with-ai-explorando-vertex-ai/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-ipn-presents-build-with-ai-explorando-vertex-ai/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG IPN",
+      "dtstart": "2026-03-05T12:25:19-06:00",
+      "dtend": "2026-03-05T13:25:19-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "AI - Gemma",
+        "Build with AI",
+        "Workshop / hands-on session",
+        "ai",
+        "frontend"
+      ],
+      "source": "https://gdg.community.dev/gdg-ipn/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "build with ai explorando vertex ai_2026-03-05T18:00:00+00:00"
     },
     {
       "title": "v0 Prompt to Production Mexico City|How I Use AI #4: OpenClaw|Online",

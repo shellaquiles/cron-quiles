@@ -633,22 +633,6 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mexico Tech Week|Tacos\, Beer and Gen AI|México|Ciudad de México
-DTSTART:20241021T193000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/heroguest\n\nA
- ddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week 
- & 3 others
-LOCATION:Ciudad de México
-X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|M
  éxico|Ciudad de México
 DTSTART:20241022T143000Z
@@ -4539,24 +4523,6 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FinTech México|Fintech Luncheon Vol.3 by Pygma\, AMG Block Ventur
- es  and Morrison Foerster|México|Ciudad de México
-DTSTART:20260224T190000Z
-CATEGORIES:ai,python
-DESCRIPTION:Get up-to-date information at: https://luma.com/uwjfgnlj\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by FinTech México & 
- Andrés Cano
-LOCATION:Hipódromo Condesa\, Ciudad de México
-X-CRONQUILES-ADDRESS:Hipódromo Condesa\, 06170 Ciudad de México\, CDMX\,
-  México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Python CDMX|Meetup Febrero 2026  -  Clara & PythonCDMX|Online
 DTSTART:20260225T004500Z
 CATEGORIES:python
@@ -4766,6 +4732,24 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Frutero Club|Coworking Frutal - Work and Chill #4|México|Ciudad d
+ e México
+DTSTART:20260227T170000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/n9wukrtp\n\nAd
+ dress:\nAv. Insurgentes Sur 1877\nÁlvaro Obregón\, Ciudad de México\nMe
+ xico\n\nHosted by Emmanuel Martínez
+LOCATION:Av. Insurgentes Sur 1877\, Guadalupe Inn\, Álvaro Obregón\, 010
+ 20 Álvaro Obregón\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Av. Insurgentes Sur 1877\, Guadalupe Inn\, Álvaro Ob
+ regón\, 01020 Álvaro Obregón\, CDMX\, México
+X-CRONQUILES-CITY:Álvaro Obregón
+X-CRONQUILES-CITY-CODE:alvaroobregon
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Pythonistas GDL|EVENTO POSPUESTO Interfaz web y agentes autónomos
  |México|Jalisco
 DTSTART:20260228T003000Z
@@ -4925,6 +4909,18 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  d modernization\, and applied AI programs across insurance\, financial ser
  vices\, and global eCommerce.
 LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GDG IPN|Build With AI: Explorando Vertex AI|Online
+DTSTART:20260305T122519
+CATEGORIES:AI,AI - Gemini,AI - Gemma,Build with AI,Workshop / hands-on ses
+ sion,ai,frontend
+DESCRIPTION:Únase a nosotros para un emocionante taller titulado "Build W
+ ith AI"\, donde exploraremos las capacidades innovadoras de ...
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #4: OpenClaw|Onli
