@@ -205,6 +205,200 @@
       "restaurant"
     ]
   },
+  "#Hashtag Gallery Ltd, Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "A",
+        "short_name": "A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "151",
+        "short_name": "151",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Benjamín Franklin",
+        "short_name": "Av. Benjamín Franklin",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Hipódromo",
+        "short_name": "Hipódromo",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06140",
+        "short_name": "06140",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4053361,
+        "lng": -99.1758565
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4066391802915,
+          "lng": -99.17452806970849
+        },
+        "southwest": {
+          "lat": 19.4039412197085,
+          "lng": -99.17722603029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4053023,
+          "longitude": -99.1758716
+        }
+      }
+    ],
+    "place_id": "ChIJE-pL1-P_0YURxYWBe7yGbEs",
+    "plus_code": {
+      "compound_code": "CR4F+4M Ciudad de México, CDMX, México",
+      "global_code": "76F2CR4F+4M"
+    },
+    "types": [
+      "art_gallery",
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "Casa Rafael Galvan, Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "94",
+        "short_name": "94",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Zacatecas",
+        "short_name": "Zacatecas",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Roma Norte",
+        "short_name": "Roma Nte.",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06700",
+        "short_name": "06700",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4159281,
+        "lng": -99.1586478
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4173300802915,
+          "lng": -99.1573109197085
+        },
+        "southwest": {
+          "lat": 19.4146321197085,
+          "lng": -99.1600088802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4159725,
+          "longitude": -99.1586579
+        }
+      }
+    ],
+    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
+    "plus_code": {
+      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
+      "global_code": "76F2CR8R+9G"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
   "PASEO MILEX, Carretera Torreón-San Pedro, Torreón, COA": {
     "address_components": [
       {
@@ -887,200 +1081,6 @@
       "food",
       "point_of_interest",
       "restaurant"
-    ]
-  },
-  "#Hashtag Gallery Ltd, Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "A",
-        "short_name": "A",
-        "types": [
-          "subpremise"
-        ]
-      },
-      {
-        "long_name": "151",
-        "short_name": "151",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Benjamín Franklin",
-        "short_name": "Av. Benjamín Franklin",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Hipódromo",
-        "short_name": "Hipódromo",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06140",
-        "short_name": "06140",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4053361,
-        "lng": -99.1758565
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4066391802915,
-          "lng": -99.17452806970849
-        },
-        "southwest": {
-          "lat": 19.4039412197085,
-          "lng": -99.17722603029151
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4053023,
-          "longitude": -99.1758716
-        }
-      }
-    ],
-    "place_id": "ChIJE-pL1-P_0YURxYWBe7yGbEs",
-    "plus_code": {
-      "compound_code": "CR4F+4M Ciudad de México, CDMX, México",
-      "global_code": "76F2CR4F+4M"
-    },
-    "types": [
-      "art_gallery",
-      "establishment",
-      "point_of_interest"
-    ]
-  },
-  "Casa Rafael Galvan, Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "94",
-        "short_name": "94",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Zacatecas",
-        "short_name": "Zacatecas",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Roma Norte",
-        "short_name": "Roma Nte.",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06700",
-        "short_name": "06700",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4159281,
-        "lng": -99.1586478
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4173300802915,
-          "lng": -99.1573109197085
-        },
-        "southwest": {
-          "lat": 19.4146321197085,
-          "lng": -99.1600088802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4159725,
-          "longitude": -99.1586579
-        }
-      }
-    ],
-    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
-    "plus_code": {
-      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
-      "global_code": "76F2CR8R+9G"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
     ]
   },
   "Jardín Americana, 1305 Avenida Ignacio L Vallarta, Guadalajara, JAL": {
@@ -1770,180 +1770,6 @@
       "point_of_interest"
     ]
   },
-  "Ciudad de México": {
-    "address_components": [
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      }
-    ],
-    "formatted_address": "Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.5927571,
-          "lng": -98.9604482
-        },
-        "southwest": {
-          "lat": 19.1887101,
-          "lng": -99.3267771
-        }
-      },
-      "location": {
-        "lat": 19.4326077,
-        "lng": -99.133208
-      },
-      "location_type": "APPROXIMATE",
-      "viewport": {
-        "northeast": {
-          "lat": 19.5927571,
-          "lng": -98.9604482
-        },
-        "southwest": {
-          "lat": 19.1887101,
-          "lng": -99.3267771
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4305936,
-          "longitude": -99.1371496
-        }
-      }
-    ],
-    "place_id": "ChIJB3UJ2yYAzoURQeheJnYQBlQ",
-    "types": [
-      "locality",
-      "political"
-    ]
-  },
-  "Pinterest México, Av. P.º de la Reforma 509, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "509",
-        "short_name": "509",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Paseo de la Reforma",
-        "short_name": "Av. P.º de la Reforma",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Cuauhtémoc",
-        "short_name": "Cuauhtémoc",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06500",
-        "short_name": "06500",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. P.º de la Reforma 509, Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.423797,
-        "lng": -99.1756078
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4252479302915,
-          "lng": -99.1744070197085
-        },
-        "southwest": {
-          "lat": 19.4225499697085,
-          "lng": -99.1771049802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4241726,
-          "longitude": -99.1759562
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 19.423679,
-          "longitude": -99.1755309
-        },
-        "restricted_travel_modes": [
-          "DRIVE"
-        ]
-      }
-    ],
-    "place_id": "ChIJL-v51oP_0YUReDLKU3ltQnc",
-    "plus_code": {
-      "compound_code": "CRFF+GQ Ciudad de México, CDMX, México",
-      "global_code": "76F2CRFF+GQ"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
-    ]
-  },
   "Openhub Coworking Condesa, 6 Diagonal Patriotismo, Ciudad de México, CMX": {
     "address_components": [
       {
@@ -2130,6 +1956,180 @@
       "establishment",
       "point_of_interest",
       "university"
+    ]
+  },
+  "Ciudad de México": {
+    "address_components": [
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.5927571,
+          "lng": -98.9604482
+        },
+        "southwest": {
+          "lat": 19.1887101,
+          "lng": -99.3267771
+        }
+      },
+      "location": {
+        "lat": 19.4326077,
+        "lng": -99.133208
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.5927571,
+          "lng": -98.9604482
+        },
+        "southwest": {
+          "lat": 19.1887101,
+          "lng": -99.3267771
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4305936,
+          "longitude": -99.1371496
+        }
+      }
+    ],
+    "place_id": "ChIJB3UJ2yYAzoURQeheJnYQBlQ",
+    "types": [
+      "locality",
+      "political"
+    ]
+  },
+  "Pinterest México, Av. P.º de la Reforma 509, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "509",
+        "short_name": "509",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Paseo de la Reforma",
+        "short_name": "Av. P.º de la Reforma",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Cuauhtémoc",
+        "short_name": "Cuauhtémoc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06500",
+        "short_name": "06500",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. P.º de la Reforma 509, Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.423797,
+        "lng": -99.1756078
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4252479302915,
+          "lng": -99.1744070197085
+        },
+        "southwest": {
+          "lat": 19.4225499697085,
+          "lng": -99.1771049802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4241726,
+          "longitude": -99.1759562
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 19.423679,
+          "longitude": -99.1755309
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
+      }
+    ],
+    "place_id": "ChIJL-v51oP_0YUReDLKU3ltQnc",
+    "plus_code": {
+      "compound_code": "CRFF+GQ Ciudad de México, CDMX, México",
+      "global_code": "76F2CRFF+GQ"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
     ]
   },
   "UNAM - Facultad De Ciencias, Investigación Científica, C.U., Coyoacán, 04510 Ciudad de México, CDMX, Mexico": {
@@ -2336,100 +2336,6 @@
       "establishment",
       "point_of_interest",
       "university"
-    ]
-  },
-  "Casa Rafael Galván, Zacatecas 94, Col Roma Norte, Mexico City, Mexico City": {
-    "address_components": [
-      {
-        "long_name": "94",
-        "short_name": "94",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Zacatecas",
-        "short_name": "Zacatecas",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Roma Norte",
-        "short_name": "Roma Nte.",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06700",
-        "short_name": "06700",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4159281,
-        "lng": -99.1586478
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4173300802915,
-          "lng": -99.1573109197085
-        },
-        "southwest": {
-          "lat": 19.4146321197085,
-          "lng": -99.1600088802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4159725,
-          "longitude": -99.1586579
-        }
-      }
-    ],
-    "partial_match": true,
-    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
-    "plus_code": {
-      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
-      "global_code": "76F2CR8R+9G"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
     ]
   },
   "HackerGarage, Calle Marsella 155-Int 105 A, Col Americana, Lafayette, 44160 Guadalajara, Jal., Mexico": {
@@ -2886,21 +2792,33 @@
       "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 19.4293254802915,
-          "lng": -99.1664554697085
+          "lat": 19.4293131802915,
+          "lng": -99.16628181970852
         },
         "southwest": {
-          "lat": 19.4266275197085,
-          "lng": -99.1691534302915
+          "lat": 19.42661521970849,
+          "lng": -99.16897978029152
         }
       }
     },
     "navigation_points": [
       {
         "location": {
+          "latitude": 19.4278639,
+          "longitude": -99.1674444
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
           "latitude": 19.4278916,
           "longitude": -99.1677971
-        }
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
       }
     ],
     "place_id": "ChIJsZ23ZyD_0YURCD_BrsgM1pQ",
@@ -3077,6 +2995,84 @@
       "point_of_interest"
     ]
   },
+  "Roma Norte, Ciudad de México": {
+    "address_components": [
+      {
+        "long_name": "Roma Norte",
+        "short_name": "Roma Nte.",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06700",
+        "short_name": "06700",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Roma Nte., 06700 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.4258513,
+          "lng": -99.153658
+        },
+        "southwest": {
+          "lat": 19.4104546,
+          "lng": -99.1767447
+        }
+      },
+      "location": {
+        "lat": 19.4195256,
+        "lng": -99.162549
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4258513,
+          "lng": -99.153658
+        },
+        "southwest": {
+          "lat": 19.4104546,
+          "lng": -99.1767447
+        }
+      }
+    },
+    "place_id": "ChIJzeSi8jn_0YURMiXDZ-gzmi0",
+    "types": [
+      "political",
+      "sublocality",
+      "sublocality_level_1"
+    ]
+  },
   "Plaza Carso, Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, Mexico": {
     "address_components": [
       {
@@ -3160,25 +3156,25 @@
       "route"
     ]
   },
-  "Workósfera Coworking @ Cerro de La Paz, Puebla, Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., Mexico": {
+  "Casa Rafael Galván, Zacatecas 94, Col Roma Norte, Mexico City, Mexico City": {
     "address_components": [
       {
-        "long_name": "35",
-        "short_name": "35",
+        "long_name": "94",
+        "short_name": "94",
         "types": [
           "street_number"
         ]
       },
       {
-        "long_name": "Cholula",
-        "short_name": "Cholula",
+        "long_name": "Zacatecas",
+        "short_name": "Zacatecas",
         "types": [
           "route"
         ]
       },
       {
-        "long_name": "La Paz",
-        "short_name": "La Paz",
+        "long_name": "Roma Norte",
+        "short_name": "Roma Nte.",
         "types": [
           "political",
           "sublocality",
@@ -3186,16 +3182,16 @@
         ]
       },
       {
-        "long_name": "Heroica Puebla de Zaragoza",
-        "short_name": "Heroica Puebla de Zaragoza",
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Puebla",
-        "short_name": "Pue.",
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
         "types": [
           "administrative_area_level_1",
           "political"
@@ -3210,43 +3206,44 @@
         ]
       },
       {
-        "long_name": "72160",
-        "short_name": "72160",
+        "long_name": "06700",
+        "short_name": "06700",
         "types": [
           "postal_code"
         ]
       }
     ],
-    "formatted_address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
     "geometry": {
       "location": {
-        "lat": 19.0536482,
-        "lng": -98.2273264
+        "lat": 19.4159281,
+        "lng": -99.1586478
       },
       "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 19.0549712802915,
-          "lng": -98.2259923197085
+          "lat": 19.4173300802915,
+          "lng": -99.1573109197085
         },
         "southwest": {
-          "lat": 19.0522733197085,
-          "lng": -98.2286902802915
+          "lat": 19.4146321197085,
+          "lng": -99.1600088802915
         }
       }
     },
     "navigation_points": [
       {
         "location": {
-          "latitude": 19.0536512,
-          "longitude": -98.2273296
+          "latitude": 19.4159725,
+          "longitude": -99.1586579
         }
       }
     ],
-    "place_id": "ChIJfQ0djR_Hz4URQhDsTxlXJdQ",
+    "partial_match": true,
+    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
     "plus_code": {
-      "compound_code": "3Q3F+F3 Heroica Puebla de Zaragoza, Pue., México",
-      "global_code": "76F33Q3F+F3"
+      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
+      "global_code": "76F2CR8R+9G"
     },
     "types": [
       "establishment",
@@ -3854,84 +3851,6 @@
     "types": [
       "establishment",
       "point_of_interest"
-    ]
-  },
-  "Roma Norte, Ciudad de México": {
-    "address_components": [
-      {
-        "long_name": "Roma Norte",
-        "short_name": "Roma Nte.",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06700",
-        "short_name": "06700",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Roma Nte., 06700 Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.4258513,
-          "lng": -99.153658
-        },
-        "southwest": {
-          "lat": 19.4104546,
-          "lng": -99.1767447
-        }
-      },
-      "location": {
-        "lat": 19.4195256,
-        "lng": -99.162549
-      },
-      "location_type": "APPROXIMATE",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4258513,
-          "lng": -99.153658
-        },
-        "southwest": {
-          "lat": 19.4104546,
-          "lng": -99.1767447
-        }
-      }
-    },
-    "place_id": "ChIJzeSi8jn_0YURMiXDZ-gzmi0",
-    "types": [
-      "political",
-      "sublocality",
-      "sublocality_level_1"
     ]
   },
   "Dalia, Monte Líbano 215, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX, Mexico": {
@@ -4799,6 +4718,99 @@
     "plus_code": {
       "compound_code": "8QMQ+9R Ciudad de México, CDMX, México",
       "global_code": "76F28QMQ+9R"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "Workósfera Coworking @ Cerro de La Paz, Puebla, Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., Mexico": {
+    "address_components": [
+      {
+        "long_name": "35",
+        "short_name": "35",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Cholula",
+        "short_name": "Cholula",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "La Paz",
+        "short_name": "La Paz",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Heroica Puebla de Zaragoza",
+        "short_name": "Heroica Puebla de Zaragoza",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Puebla",
+        "short_name": "Pue.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "72160",
+        "short_name": "72160",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+    "geometry": {
+      "location": {
+        "lat": 19.0536482,
+        "lng": -98.2273264
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.0549712802915,
+          "lng": -98.2259923197085
+        },
+        "southwest": {
+          "lat": 19.0522733197085,
+          "lng": -98.2286902802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.0536512,
+          "longitude": -98.2273296
+        }
+      }
+    ],
+    "place_id": "ChIJfQ0djR_Hz4URQhDsTxlXJdQ",
+    "plus_code": {
+      "compound_code": "3Q3F+F3 Heroica Puebla de Zaragoza, Pue., México",
+      "global_code": "76F33Q3F+F3"
     },
     "types": [
       "establishment",

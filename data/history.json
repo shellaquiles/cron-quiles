@@ -573,6 +573,35 @@
     "hash_key": "april 2 ai ml and computer vision meetup_2026-04-02T16:00:00+00:00"
   },
   {
+    "title": "Mobil3|Monad Blitz Ciudad de México #2|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/javtbl3n\n\nAddress:\nCheck event page for more details.\n\nHosted by Monad Foundation & 3 others",
+    "url": "https://luma.com/javtbl3n",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/javtbl3n",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Roma Norte, Ciudad de México",
+    "online": false,
+    "organizer": "Mobil3",
+    "dtstart": "2026-03-28T15:30:00+00:00",
+    "dtend": "2026-03-29T02:00:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://luma.com/mobil3",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Roma Nte., 06700 Ciudad de México, CDMX, México",
+    "hash_key": "monad blitz ciudad de mxico 2_2026-03-28T14:00:00+00:00"
+  },
+  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|March 26 - Advances in AI at Northeastern University|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin us to hear about the latest advances in AI at Northeastern University!\n\n**Date, Time and Location**\n\nMarch 26, 2026\n9 - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/advances-in-ai-at-northeastern-university-march-26-2026)**\n\n**Scalable and Efficient Deep Learning: From Understanding to Generation**\n\nIn an era where model complexity and deployment constraints increasingly collide, achieving both scalability and efficiency in deep learning has become essential. Scalable and efficient deep learning ensures that powerful models can be trained, deployed, and adapted under limited computational and data resources, enabling broader accessibility and practical application. From understanding to generation, this talk unifies methods that cut costs while preserving capability.\n\n*About the Speaker*\n\n[Yitian Zhang](https://www.linkedin.com/in/yitian-zhang-b54642201/) is a fifth-year PhD student at Northeastern University, advised by Prof. Yun Raymond Fu. His research interests center around Efficient and Scalable AI, spanning Generative Models, Multimodal Large Language Models, and Foundation Models.\n\n**Grounding Visual AI Models in Real-World Physics**\n\nGenerative video models have made rapid progress in visual realism, yet they frequently violate basic physical laws, producing implausible motion and incorrect cause-effect relationships. This talk presents MoReGen, a physics-grounded, agentic text-to-video generation framework that integrates Newtonian physics directly into the generation process via executable physics-engine code.\n\nBy coupling vision–language models with trajectory-based physical evaluation and iterative feedback, MoReGen produces videos that are both visually coherent and physically consistent. We further introduce MoRe Metrics and MoReSet, a benchmark and dataset designed to evaluate physics fidelity beyond appearance-based metrics such as FID and FVD. Together, this work demonstrates a path toward visual AI systems that reason about motion, interaction, and causality in the real world rather than hallucinating them.\n\n*About the Speaker*\n\n[Professor Sarah Ostadabbas](https://www.linkedin.com/in/sarah-ostadabbas-02606b37/) is an Associate Professor of Electrical and Computer Engineering at Northeastern University, where she directs the Augmented Cognition Lab (ACLab) and serves as Director of Women in Engineering. Her research focuses on computer vision and machine learning, with an emphasis on motion-centric representation learning, small-data AI, and applications in healthcare, defense, and behavior understanding under privacy and data constraints. She has authored over 130 peer-reviewed publications and received numerous honors, including the NSF CAREER Award, Sony Faculty Innovation Award, and the Cade Prize for Inventivity, along with multiple industry and federal research awards.\n\n**WorldFormer: Diffusion Transformer World Models with Mixture-of-Experts for Embodied Physical Intelligence**\n\nWorld models have emerged as a foundational paradigm for enabling agents to simulate, predict, and reason about complex environments. Recent advances driven by diffusion transformer (DiT) architectures have dramatically expanded the fidelity, scalability, and physical plausibility of learned world models. In this work, we present a world model framework built upon the diffusion transformer paradigm, following the design philosophy of state-of-the-art systems such as NVIDIA Cosmos. Our approach comprises three core components: (1) a spatiotemporal variational autoencoder (VAE) that compresses high-resolution video into a compact continuous latent space with strong temporal causality, enabling efficient encoding and decoding of long-horizon video sequences; (2) a transformer-based diffusion backbone that operates on 3D-patchified latent tokens, leveraging self-attention and cross-attention with text embeddings to iteratively denoise Gaussian noise into physically coherent future video states using a flow matching objective; and (3) a scalable pre-training and post-training pipeline that first trains a generalist world foundation model on large-scale, diverse video data and then specializes it to target physical AI domains — such as robotic manipulation, autonomous driving, or embodied navigation — through task-specific fine-tuning.\n\nOur model supports both text-to-world and video-to-world generation, enabling action-conditioned future state prediction for downstream planning and policy learning. We discuss implications for synthetic data generation, sim-to-real transfer, and the integration of world models into vision-language-action (VLA) pipelines for physical AI.\n\n*About the Speaker*\n\n[Yanzhi Wang](https://www.linkedin.com/in/yanzhi-wang-9677a562/) joined the Electrical & Computer Engineering department in August 2018 as an Assistant Professor. He earned his PhD at University of Southern California. His research interests include energy-efficient and high-performance implementations of deep learning and artificial intelligence systems; neuromorphic computing and non-von Neumann computing paradigms; cyber-security in deep learning systems; emerging deep learning algorithms/systems such as Bayesian neural networks, generative adversarial networks (GANs) and deep reinforcement learning.\n\n**Physical AI Research (PAIR) Center: Foundational Pairing of Digital Intelligence & Physical World Deployment at Northeastern University and Beyond**\n\nThe Physical AI Research (PAIR) initiative advances the next frontier of artificial intelligence: enabling systems that can perceive, reason, and act reliably in the physical world. By uniting expertise across engineering, computer science, health sciences, and the social sciences, PAIR develops safe, transparent, and human-aligned AI that bridges digital models with real-world dynamics. The initiative is organized around three intellectual pillars: Learning and Modeling the World, through physics-informed multimodal learning, realistic simulations, and digital twins; Reasoning in the World, by integrating multimodal evidence to support grounded decision-making under uncertainty; and Acting in the World, by ensuring AI systems are verifiable, explainable, energy-efficient, and trustworthy. Together, these efforts position Physical AI as a foundational science driving innovation in health, sustainability, and security.\n\n*About the Speaker*\n\n[Edmund Yeh](https://www.linkedin.com/in/edmund-yeh-5a3a976/) is the Department Chair of Electrical and Computer Engineering at Northeastern University.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313563421/",
@@ -1154,7 +1183,7 @@
     "dtstart": "2026-03-01T17:00:00+00:00",
     "dtend": "2026-03-01T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1163,35 +1192,6 @@
     "city_code": "cdmx",
     "address": "Periférico Sur, Cir. Unidad Independencia 3400, Independencia Batan Sur, San Jerónimo Lídice, La Magdalena Contreras, 10100 Ciudad de México, CDMX, México",
     "hash_key": "mega clase de criptomonedas con bitso y _2026-03-01T16:00:00+00:00"
-  },
-  {
-    "title": "Rust-AICollective|IWD ⭕ Women & A.I. Circle  -  The AI Collective - Event Organizers Meetup|Online",
-    "description": "Get up-to-date information at: https://luma.com/women-and-ai-event-organizers\n\nHosted by The AI Collective & Keerthana Mahadevan",
-    "url": "https://luma.com/women-and-ai-event-organizers",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/women-and-ai-event-organizers",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "https://luma.com/event/evt-0JraIjXZQQpKEZz",
-    "online": true,
-    "organizer": "Rust-AICollective",
-    "dtstart": "2026-02-28T15:00:00+00:00",
-    "dtend": "2026-02-28T16:00:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://luma.com/rust-ios-ai",
-    "country": "",
-    "country_code": "",
-    "state": "",
-    "state_code": "",
-    "city": "",
-    "city_code": "",
-    "address": "https://luma.com/event/evt-0JraIjXZQQpKEZz",
-    "hash_key": "iwd women a i circle the ai collective e_2026-02-28T14:00:00+00:00"
   },
   {
     "title": "Pythonistas GDL|EVENTO POSPUESTO Interfaz web y agentes autónomos|México|Jalisco",
@@ -1269,7 +1269,7 @@
     "dtstart": "2026-02-27T15:00:00+00:00",
     "dtend": "2026-02-27T17:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1325,7 +1325,7 @@
     "dtstart": "2026-02-26T01:00:00+00:00",
     "dtend": "2026-02-26T04:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1334,6 +1334,33 @@
     "city_code": "cdmx",
     "address": "Lago Iseo 296, Anáhuac I Secc, Miguel Hidalgo, 11320 Ciudad de México, CDMX, México",
     "hash_key": "fuckup nights x fintech mxico week_2026-02-26T00:00:00+00:00"
+  },
+  {
+    "title": "FinTech México|Drinks, Not Decks @ Fintech Mexico Week|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/4hy9286c\n\nAddress:\nbiberón\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Maria Paula Lopera & 4 others",
+    "url": "https://luma.com/4hy9286c",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/4hy9286c",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "biberón, Durango 219, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+    "online": false,
+    "organizer": "FinTech México",
+    "dtstart": "2026-02-26T00:00:00+00:00",
+    "dtend": "2026-02-26T03:00:00+00:00",
+    "tags": [],
+    "source": "https://luma.com/02t893pf",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Durango 219, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+    "hash_key": "drinks not decks fintech mexico week_2026-02-26T00:00:00+00:00"
   },
   {
     "title": "Talavera Valley|🔥🚀 Kick Off Talavera Valley Hub  -  EL evento que enciende el ecosistema ✨|México|Puebla",
@@ -1363,33 +1390,6 @@
     "hash_key": "kick off talavera valley hub el evento q_2026-02-26T00:00:00+00:00"
   },
   {
-    "title": "FinTech México|Drinks, Not Decks @ Fintech Mexico Week|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/4hy9286c\n\nAddress:\nbiberón\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Maria Paula Lopera & 4 others",
-    "url": "https://luma.com/4hy9286c",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/4hy9286c",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "biberón, Durango 219, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
-    "online": false,
-    "organizer": "FinTech México",
-    "dtstart": "2026-02-26T00:00:00+00:00",
-    "dtend": "2026-02-26T03:00:00+00:00",
-    "tags": [],
-    "source": "https://luma.com/eofagheq",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Durango 219, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
-    "hash_key": "drinks not decks fintech mexico week_2026-02-26T00:00:00+00:00"
-  },
-  {
     "title": "FinTech México|Hacia una política pública para la inclusión financiera: Oportunidades y retos para México by Finabien|México|Ciudad de México",
     "description": "Get up-to-date information at: https://luma.com/hc8p9gq9\n\nAddress:\nMuseo del Telégrafo\nCiudad de México, Ciudad de México\nMexico\n\nHosted by FinTech México & 3 others",
     "url": "https://luma.com/hc8p9gq9",
@@ -1406,7 +1406,7 @@
     "dtstart": "2026-02-25T22:00:00+00:00",
     "dtend": "2026-02-25T23:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1435,7 +1435,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1464,7 +1464,7 @@
     "tags": [
       "mobile"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1518,7 +1518,7 @@
     "dtstart": "2026-02-25T15:00:00+00:00",
     "dtend": "2026-02-25T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1606,7 +1606,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1635,7 +1635,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1662,7 +1662,7 @@
     "dtstart": "2026-02-24T14:30:00+00:00",
     "dtend": "2026-02-24T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1691,7 +1691,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1718,7 +1718,7 @@
     "dtstart": "2026-02-24T00:00:00+00:00",
     "dtend": "2026-02-24T02:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1747,7 +1747,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1777,7 +1777,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1807,7 +1807,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1834,7 +1834,7 @@
     "dtstart": "2026-02-23T19:00:00+00:00",
     "dtend": "2026-02-23T20:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1861,7 +1861,7 @@
     "dtstart": "2026-02-23T18:00:00+00:00",
     "dtend": "2026-02-23T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1888,7 +1888,7 @@
     "dtstart": "2026-02-23T17:00:00+00:00",
     "dtend": "2026-02-23T18:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1918,7 +1918,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -3331,7 +3331,7 @@
     "dtstart": "2025-11-18T23:00:00+00:00",
     "dtend": "2025-11-19T01:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -4337,7 +4337,7 @@
     "dtstart": "2025-09-29T18:00:00+00:00",
     "dtend": "2025-09-29T19:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
