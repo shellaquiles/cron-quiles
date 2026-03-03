@@ -642,35 +642,6 @@
     "hash_key": "april 2 ai ml and computer vision meetup_2026-04-02T16:00:00+00:00"
   },
   {
-    "title": "Mobil3|Monad Blitz Ciudad de México #2|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/javtbl3n\n\nAddress:\nCheck event page for more details.\n\nHosted by Monad Foundation & 3 others",
-    "url": "https://luma.com/javtbl3n",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/javtbl3n",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Roma Norte, Ciudad de México",
-    "online": false,
-    "organizer": "Mobil3",
-    "dtstart": "2026-03-28T15:30:00+00:00",
-    "dtend": "2026-03-29T02:00:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://luma.com/mobil3",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Roma Nte., 06700 Ciudad de México, CDMX, México",
-    "hash_key": "monad blitz ciudad de mxico 2_2026-03-28T14:00:00+00:00"
-  },
-  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|March 26 - Advances in AI at Northeastern University|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin us to hear about the latest advances in AI at Northeastern University!\n\n**Date, Time and Location**\n\nMarch 26, 2026\n9 - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/advances-in-ai-at-northeastern-university-march-26-2026)**\n\n**Scalable and Efficient Deep Learning: From Understanding to Generation**\n\nIn an era where model complexity and deployment constraints increasingly collide, achieving both scalability and efficiency in deep learning has become essential. Scalable and efficient deep learning ensures that powerful models can be trained, deployed, and adapted under limited computational and data resources, enabling broader accessibility and practical application. From understanding to generation, this talk unifies methods that cut costs while preserving capability.\n\n*About the Speaker*\n\n[Yitian Zhang](https://www.linkedin.com/in/yitian-zhang-b54642201/) is a fifth-year PhD student at Northeastern University, advised by Prof. Yun Raymond Fu. His research interests center around Efficient and Scalable AI, spanning Generative Models, Multimodal Large Language Models, and Foundation Models.\n\n**Grounding Visual AI Models in Real-World Physics**\n\nGenerative video models have made rapid progress in visual realism, yet they frequently violate basic physical laws, producing implausible motion and incorrect cause-effect relationships. This talk presents MoReGen, a physics-grounded, agentic text-to-video generation framework that integrates Newtonian physics directly into the generation process via executable physics-engine code.\n\nBy coupling vision–language models with trajectory-based physical evaluation and iterative feedback, MoReGen produces videos that are both visually coherent and physically consistent. We further introduce MoRe Metrics and MoReSet, a benchmark and dataset designed to evaluate physics fidelity beyond appearance-based metrics such as FID and FVD. Together, this work demonstrates a path toward visual AI systems that reason about motion, interaction, and causality in the real world rather than hallucinating them.\n\n*About the Speakers*\n\n[Professor Sarah Ostadabbas](https://www.linkedin.com/in/sarah-ostadabbas-02606b37/) is an Associate Professor of Electrical and Computer Engineering at Northeastern University, where she directs the Augmented Cognition Lab (ACLab) and serves as Director of Women in Engineering. Her research focuses on computer vision and machine learning, with an emphasis on motion-centric representation learning, small-data AI, and applications in healthcare, defense, and behavior understanding under privacy and data constraints. She has authored over 130 peer-reviewed publications and received numerous honors, including the NSF CAREER Award, Sony Faculty Innovation Award, and the Cade Prize for Inventivity, along with multiple industry and federal research awards.\n\n[Xiangyu Bai](https://www.linkedin.com/in/xiangyu-bai/) is a third-year PhD student in the ACLab and leads the lab's work on physics-aware visual intelligence, with several publications in top-tier computer vision and robotics conferences.\n\n**WorldFormer: Diffusion Transformer World Models with Mixture-of-Experts for Embodied Physical Intelligence**\n\nWorld models have emerged as a foundational paradigm for enabling agents to simulate, predict, and reason about complex environments. Recent advances driven by diffusion transformer (DiT) architectures have dramatically expanded the fidelity, scalability, and physical plausibility of learned world models. In this work, we present a world model framework built upon the diffusion transformer paradigm, following the design philosophy of state-of-the-art systems such as NVIDIA Cosmos. Our approach comprises three core components: (1) a spatiotemporal variational autoencoder (VAE) that compresses high-resolution video into a compact continuous latent space with strong temporal causality, enabling efficient encoding and decoding of long-horizon video sequences; (2) a transformer-based diffusion backbone that operates on 3D-patchified latent tokens, leveraging self-attention and cross-attention with text embeddings to iteratively denoise Gaussian noise into physically coherent future video states using a flow matching objective; and (3) a scalable pre-training and post-training pipeline that first trains a generalist world foundation model on large-scale, diverse video data and then specializes it to target physical AI domains — such as robotic manipulation, autonomous driving, or embodied navigation — through task-specific fine-tuning.\n\nOur model supports both text-to-world and video-to-world generation, enabling action-conditioned future state prediction for downstream planning and policy learning. We discuss implications for synthetic data generation, sim-to-real transfer, and the integration of world models into vision-language-action (VLA) pipelines for physical AI.\n\n*About the Speaker*\n\n[Yanzhi Wang](https://www.linkedin.com/in/yanzhi-wang-9677a562/) joined the Electrical & Computer Engineering department in August 2018 as an Assistant Professor. He earned his PhD at University of Southern California. His research interests include energy-efficient and high-performance implementations of deep learning and artificial intelligence systems; neuromorphic computing and non-von Neumann computing paradigms; cyber-security in deep learning systems; emerging deep learning algorithms/systems such as Bayesian neural networks, generative adversarial networks (GANs) and deep reinforcement learning.\n\n**Physical AI Research (PAIR) Center: Foundational Pairing of Digital Intelligence & Physical World Deployment at Northeastern University and Beyond**\n\nThe Physical AI Research (PAIR) initiative advances the next frontier of artificial intelligence: enabling systems that can perceive, reason, and act reliably in the physical world. By uniting expertise across engineering, computer science, health sciences, and the social sciences, PAIR develops safe, transparent, and human-aligned AI that bridges digital models with real-world dynamics. The initiative is organized around three intellectual pillars: Learning and Modeling the World, through physics-informed multimodal learning, realistic simulations, and digital twins; Reasoning in the World, by integrating multimodal evidence to support grounded decision-making under uncertainty; and Acting in the World, by ensuring AI systems are verifiable, explainable, energy-efficient, and trustworthy. Together, these efforts position Physical AI as a foundational science driving innovation in health, sustainability, and security.\n\n*About the Speaker*\n\n[Edmund Yeh](https://www.linkedin.com/in/edmund-yeh-5a3a976/) is the Department Chair of Electrical and Computer Engineering at Northeastern University.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313563421/",
@@ -1068,6 +1039,35 @@
     "hash_key": "march 11 strategies for validating world_2026-03-11T16:00:00+00:00"
   },
   {
+    "title": "Rust-AICollective|AIC KC Roundtable #21: Responsible AI in Practice - From Principles to Real-World Decisions|Online",
+    "description": "Get up-to-date information at: https://luma.com/aic-kc-roundtable21\n\nHosted by The AI Collective & 4 others",
+    "url": "https://luma.com/aic-kc-roundtable21",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/aic-kc-roundtable21",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "https://luma.com/event/evt-7QjtJNiB93oczPS",
+    "online": true,
+    "organizer": "Rust-AICollective",
+    "dtstart": "2026-03-09T17:00:00+00:00",
+    "dtend": "2026-03-09T18:00:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://luma.com/rust-ios-ai",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "https://luma.com/event/evt-7QjtJNiB93oczPS",
+    "hash_key": "aic kc roundtable 21 responsible ai in p_2026-03-09T16:00:00+00:00"
+  },
+  {
     "title": "Rust-AICollective|IWD ⭕ Women & A.I. Circle  -  The AI Collective - Event Organizers Meetup|Online",
     "description": "Get up-to-date information at: https://luma.com/women-and-ai-event-organizers\n\nHosted by The AI Collective & Keerthana Mahadevan",
     "url": "https://luma.com/women-and-ai-event-organizers",
@@ -1117,7 +1117,7 @@
       "cloud",
       "python"
     ],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -1768,6 +1768,36 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-gJdCFiMrQ4I5wWp",
     "hash_key": "meetup febrero 2026 clara pythoncdmx_2026-02-25T00:00:00+00:00"
+  },
+  {
+    "title": "FinTech México|Fintech Luncheon Vol.3 by Pygma, AMG Block Ventures  and Morrison Foerster|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/uwjfgnlj\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & Andrés Cano",
+    "url": "https://luma.com/uwjfgnlj",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/uwjfgnlj",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Hipódromo Condesa, Ciudad de México",
+    "online": false,
+    "organizer": "FinTech México",
+    "dtstart": "2026-02-24T19:00:00+00:00",
+    "dtend": "2026-02-24T21:00:00+00:00",
+    "tags": [
+      "ai",
+      "python"
+    ],
+    "source": "https://luma.com/02t893pf",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Hipódromo Condesa, 06170 Ciudad de México, CDMX, México",
+    "hash_key": "fintech luncheon vol 3 by pygma amg bloc_2026-02-24T18:00:00+00:00"
   },
   {
     "title": "FinTech México|Estado del crédito en México y tendencias 2026 by uFlow & Círculo de Credito|México|Ciudad de México",
@@ -2476,7 +2506,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -2903,7 +2933,7 @@
     "dtstart": "2026-01-19T18:00:00+00:00",
     "dtend": "2026-01-28T20:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "",
     "country_code": "",
     "state": "",
@@ -3347,7 +3377,7 @@
       "devops",
       "frontend"
     ],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "",
     "country_code": "",
     "state": "",
@@ -4321,7 +4351,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "",
     "country_code": "",
     "state": "",
@@ -4544,7 +4574,7 @@
     "dtstart": "2025-09-19T22:00:00+00:00",
     "dtend": "2025-09-20T00:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
