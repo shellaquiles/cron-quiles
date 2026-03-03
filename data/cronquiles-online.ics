@@ -1665,68 +1665,71 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  appearance-based metrics such as FID and FVD. Together\, this work demonst
  rates a path toward visual AI systems that reason about motion\, interacti
  on\, and causality in the real world rather than hallucinating them.\n\n*A
- bout the Speaker*\n\n[Professor Sarah Ostadabbas](https://www.linkedin.com
- /in/sarah-ostadabbas-02606b37/) is an Associate Professor of Electrical an
- d Computer Engineering at Northeastern University\, where she directs the 
- Augmented Cognition Lab (ACLab) and serves as Director of Women in Enginee
- ring. Her research focuses on computer vision and machine learning\, with 
- an emphasis on motion-centric representation learning\, small-data AI\, an
- d applications in healthcare\, defense\, and behavior understanding under 
- privacy and data constraints. She has authored over 130 peer-reviewed publ
- ications and received numerous honors\, including the NSF CAREER Award\, S
- ony Faculty Innovation Award\, and the Cade Prize for Inventivity\, along 
- with multiple industry and federal research awards.\n\n**WorldFormer: Diff
- usion Transformer World Models with Mixture-of-Experts for Embodied Physic
- al Intelligence**\n\nWorld models have emerged as a foundational paradigm 
- for enabling agents to simulate\, predict\, and reason about complex envir
- onments. Recent advances driven by diffusion transformer (DiT) architectur
- es have dramatically expanded the fidelity\, scalability\, and physical pl
- ausibility of learned world models. In this work\, we present a world mode
- l framework built upon the diffusion transformer paradigm\, following the 
- design philosophy of state-of-the-art systems such as NVIDIA Cosmos. Our a
- pproach comprises three core components: (1) a spatiotemporal variational 
- autoencoder (VAE) that compresses high-resolution video into a compact con
- tinuous latent space with strong temporal causality\, enabling efficient e
- ncoding and decoding of long-horizon video sequences\; (2) a transformer-b
- ased diffusion backbone that operates on 3D-patchified latent tokens\, lev
- eraging self-attention and cross-attention with text embeddings to iterati
- vely denoise Gaussian noise into physically coherent future video states u
- sing a flow matching objective\; and (3) a scalable pre-training and post-
- training pipeline that first trains a generalist world foundation model on
-  large-scale\, diverse video data and then specializes it to target physic
- al AI domains — such as robotic manipulation\, autonomous driving\, or e
- mbodied navigation — through task-specific fine-tuning.\n\nOur model sup
- ports both text-to-world and video-to-world generation\, enabling action-c
- onditioned future state prediction for downstream planning and policy lear
- ning. We discuss implications for synthetic data generation\, sim-to-real 
- transfer\, and the integration of world models into vision-language-action
-  (VLA) pipelines for physical AI.\n\n*About the Speaker*\n\n[Yanzhi Wang](
- https://www.linkedin.com/in/yanzhi-wang-9677a562/) joined the Electrical &
-  Computer Engineering department in August 2018 as an Assistant Professor.
-  He earned his PhD at University of Southern California. His research inte
- rests include energy-efficient and high-performance implementations of dee
- p learning and artificial intelligence systems\; neuromorphic computing an
- d non-von Neumann computing paradigms\; cyber-security in deep learning sy
- stems\; emerging deep learning algorithms/systems such as Bayesian neural 
- networks\, generative adversarial networks (GANs) and deep reinforcement l
- earning.\n\n**Physical AI Research (PAIR) Center: Foundational Pairing of 
- Digital Intelligence & Physical World Deployment at Northeastern Universit
- y and Beyond**\n\nThe Physical AI Research (PAIR) initiative advances the 
- next frontier of artificial intelligence: enabling systems that can percei
- ve\, reason\, and act reliably in the physical world. By uniting expertise
-  across engineering\, computer science\, health sciences\, and the social 
- sciences\, PAIR develops safe\, transparent\, and human-aligned AI that br
- idges digital models with real-world dynamics. The initiative is organized
-  around three intellectual pillars: Learning and Modeling the World\, thro
- ugh physics-informed multimodal learning\, realistic simulations\, and dig
- ital twins\; Reasoning in the World\, by integrating multimodal evidence t
- o support grounded decision-making under uncertainty\; and Acting in the W
- orld\, by ensuring AI systems are verifiable\, explainable\, energy-effici
- ent\, and trustworthy. Together\, these efforts position Physical AI as a 
- foundational science driving innovation in health\, sustainability\, and s
- ecurity.\n\n*About the Speaker*\n\n[Edmund Yeh](https://www.linkedin.com/i
- n/edmund-yeh-5a3a976/) is the Department Chair of Electrical and Computer 
- Engineering at Northeastern University.
+ bout the Speakers*\n\n[Professor Sarah Ostadabbas](https://www.linkedin.co
+ m/in/sarah-ostadabbas-02606b37/) is an Associate Professor of Electrical a
+ nd Computer Engineering at Northeastern University\, where she directs the
+  Augmented Cognition Lab (ACLab) and serves as Director of Women in Engine
+ ering. Her research focuses on computer vision and machine learning\, with
+  an emphasis on motion-centric representation learning\, small-data AI\, a
+ nd applications in healthcare\, defense\, and behavior understanding under
+  privacy and data constraints. She has authored over 130 peer-reviewed pub
+ lications and received numerous honors\, including the NSF CAREER Award\, 
+ Sony Faculty Innovation Award\, and the Cade Prize for Inventivity\, along
+  with multiple industry and federal research awards.\n\n[Xiangyu Bai](http
+ s://www.linkedin.com/in/xiangyu-bai/) is a third-year PhD student in the A
+ CLab and leads the lab's work on physics-aware visual intelligence\, with 
+ several publications in top-tier computer vision and robotics conferences.
+ \n\n**WorldFormer: Diffusion Transformer World Models with Mixture-of-Expe
+ rts for Embodied Physical Intelligence**\n\nWorld models have emerged as a
+  foundational paradigm for enabling agents to simulate\, predict\, and rea
+ son about complex environments. Recent advances driven by diffusion transf
+ ormer (DiT) architectures have dramatically expanded the fidelity\, scalab
+ ility\, and physical plausibility of learned world models. In this work\, 
+ we present a world model framework built upon the diffusion transformer pa
+ radigm\, following the design philosophy of state-of-the-art systems such 
+ as NVIDIA Cosmos. Our approach comprises three core components: (1) a spat
+ iotemporal variational autoencoder (VAE) that compresses high-resolution v
+ ideo into a compact continuous latent space with strong temporal causality
+ \, enabling efficient encoding and decoding of long-horizon video sequence
+ s\; (2) a transformer-based diffusion backbone that operates on 3D-patchif
+ ied latent tokens\, leveraging self-attention and cross-attention with tex
+ t embeddings to iteratively denoise Gaussian noise into physically coheren
+ t future video states using a flow matching objective\; and (3) a scalable
+  pre-training and post-training pipeline that first trains a generalist wo
+ rld foundation model on large-scale\, diverse video data and then speciali
+ zes it to target physical AI domains — such as robotic manipulation\, au
+ tonomous driving\, or embodied navigation — through task-specific fine-t
+ uning.\n\nOur model supports both text-to-world and video-to-world generat
+ ion\, enabling action-conditioned future state prediction for downstream p
+ lanning and policy learning. We discuss implications for synthetic data ge
+ neration\, sim-to-real transfer\, and the integration of world models into
+  vision-language-action (VLA) pipelines for physical AI.\n\n*About the Spe
+ aker*\n\n[Yanzhi Wang](https://www.linkedin.com/in/yanzhi-wang-9677a562/) 
+ joined the Electrical & Computer Engineering department in August 2018 as 
+ an Assistant Professor. He earned his PhD at University of Southern Califo
+ rnia. His research interests include energy-efficient and high-performance
+  implementations of deep learning and artificial intelligence systems\; ne
+ uromorphic computing and non-von Neumann computing paradigms\; cyber-secur
+ ity in deep learning systems\; emerging deep learning algorithms/systems s
+ uch as Bayesian neural networks\, generative adversarial networks (GANs) a
+ nd deep reinforcement learning.\n\n**Physical AI Research (PAIR) Center: F
+ oundational Pairing of Digital Intelligence & Physical World Deployment at
+  Northeastern University and Beyond**\n\nThe Physical AI Research (PAIR) i
+ nitiative advances the next frontier of artificial intelligence: enabling 
+ systems that can perceive\, reason\, and act reliably in the physical worl
+ d. By uniting expertise across engineering\, computer science\, health sci
+ ences\, and the social sciences\, PAIR develops safe\, transparent\, and h
+ uman-aligned AI that bridges digital models with real-world dynamics. The 
+ initiative is organized around three intellectual pillars: Learning and Mo
+ deling the World\, through physics-informed multimodal learning\, realisti
+ c simulations\, and digital twins\; Reasoning in the World\, by integratin
+ g multimodal evidence to support grounded decision-making under uncertaint
+ y\; and Acting in the World\, by ensuring AI systems are verifiable\, expl
+ ainable\, energy-efficient\, and trustworthy. Together\, these efforts pos
+ ition Physical AI as a foundational science driving innovation in health\,
+  sustainability\, and security.\n\n*About the Speaker*\n\n[Edmund Yeh](htt
+ ps://www.linkedin.com/in/edmund-yeh-5a3a976/) is the Department Chair of E
+ lectrical and Computer Engineering at Northeastern University.
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
