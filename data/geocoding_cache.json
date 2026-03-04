@@ -205,6 +205,200 @@
       "restaurant"
     ]
   },
+  "#Hashtag Gallery Ltd, Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "A",
+        "short_name": "A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "151",
+        "short_name": "151",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Benjamín Franklin",
+        "short_name": "Av. Benjamín Franklin",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Hipódromo",
+        "short_name": "Hipódromo",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06140",
+        "short_name": "06140",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4053361,
+        "lng": -99.1758565
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4066391802915,
+          "lng": -99.17452806970849
+        },
+        "southwest": {
+          "lat": 19.4039412197085,
+          "lng": -99.17722603029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4053023,
+          "longitude": -99.1758716
+        }
+      }
+    ],
+    "place_id": "ChIJE-pL1-P_0YURxYWBe7yGbEs",
+    "plus_code": {
+      "compound_code": "CR4F+4M Ciudad de México, CDMX, México",
+      "global_code": "76F2CR4F+4M"
+    },
+    "types": [
+      "art_gallery",
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "Casa Rafael Galvan, Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "94",
+        "short_name": "94",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Zacatecas",
+        "short_name": "Zacatecas",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Roma Norte",
+        "short_name": "Roma Nte.",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06700",
+        "short_name": "06700",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4159281,
+        "lng": -99.1586478
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4173300802915,
+          "lng": -99.1573109197085
+        },
+        "southwest": {
+          "lat": 19.4146321197085,
+          "lng": -99.1600088802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4159725,
+          "longitude": -99.1586579
+        }
+      }
+    ],
+    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
+    "plus_code": {
+      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
+      "global_code": "76F2CR8R+9G"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
   "PASEO MILEX, Carretera Torreón-San Pedro, Torreón, COA": {
     "address_components": [
       {
@@ -889,119 +1083,18 @@
       "restaurant"
     ]
   },
-  "#Hashtag Gallery Ltd, Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico": {
+  "Jardín Chapultepec, Av Chapultepec 398, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
     "address_components": [
       {
-        "long_name": "A",
-        "short_name": "A",
-        "types": [
-          "subpremise"
-        ]
-      },
-      {
-        "long_name": "151",
-        "short_name": "151",
+        "long_name": "398",
+        "short_name": "398",
         "types": [
           "street_number"
         ]
       },
       {
-        "long_name": "Avenida Benjamín Franklin",
-        "short_name": "Av. Benjamín Franklin",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Hipódromo",
-        "short_name": "Hipódromo",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06140",
-        "short_name": "06140",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4053361,
-        "lng": -99.1758565
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4066391802915,
-          "lng": -99.17452806970849
-        },
-        "southwest": {
-          "lat": 19.4039412197085,
-          "lng": -99.17722603029151
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4053023,
-          "longitude": -99.1758716
-        }
-      }
-    ],
-    "place_id": "ChIJE-pL1-P_0YURxYWBe7yGbEs",
-    "plus_code": {
-      "compound_code": "CR4F+4M Ciudad de México, CDMX, México",
-      "global_code": "76F2CR4F+4M"
-    },
-    "types": [
-      "art_gallery",
-      "establishment",
-      "point_of_interest"
-    ]
-  },
-  "Casa Rafael Galvan, Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "94",
-        "short_name": "94",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Zacatecas",
-        "short_name": "Zacatecas",
+        "long_name": "Avenida Chapultepec",
+        "short_name": "Av Chapultepec",
         "types": [
           "route"
         ]
@@ -1047,40 +1140,43 @@
         ]
       }
     ],
-    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+    "formatted_address": "Av Chapultepec 398, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
     "geometry": {
       "location": {
-        "lat": 19.4159281,
-        "lng": -99.1586478
+        "lat": 19.4223248,
+        "lng": -99.16752480000001
       },
       "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 19.4173300802915,
-          "lng": -99.1573109197085
+          "lat": 19.4236471802915,
+          "lng": -99.1662054197085
         },
         "southwest": {
-          "lat": 19.4146321197085,
-          "lng": -99.1600088802915
+          "lat": 19.4209492197085,
+          "lng": -99.16890338029151
         }
       }
     },
     "navigation_points": [
       {
         "location": {
-          "latitude": 19.4159725,
-          "longitude": -99.1586579
+          "latitude": 19.4222823,
+          "longitude": -99.1675215
         }
       }
     ],
-    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
+    "place_id": "ChIJGTtf1jf_0YURktkkv31oFSo",
     "plus_code": {
-      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
-      "global_code": "76F2CR8R+9G"
+      "compound_code": "CRCJ+WX Ciudad de México, CDMX, México",
+      "global_code": "76F2CRCJ+WX"
     },
     "types": [
+      "bar",
       "establishment",
-      "point_of_interest"
+      "food",
+      "point_of_interest",
+      "restaurant"
     ]
   },
   "Jardín Americana, 1305 Avenida Ignacio L Vallarta, Guadalajara, JAL": {
@@ -1182,102 +1278,6 @@
     "types": [
       "establishment",
       "point_of_interest"
-    ]
-  },
-  "Jardín Chapultepec, Av Chapultepec 398, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "398",
-        "short_name": "398",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Chapultepec",
-        "short_name": "Av Chapultepec",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Roma Norte",
-        "short_name": "Roma Nte.",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06700",
-        "short_name": "06700",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av Chapultepec 398, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4223248,
-        "lng": -99.16752480000001
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4236471802915,
-          "lng": -99.1662054197085
-        },
-        "southwest": {
-          "lat": 19.4209492197085,
-          "lng": -99.16890338029151
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4222823,
-          "longitude": -99.1675215
-        }
-      }
-    ],
-    "place_id": "ChIJGTtf1jf_0YURktkkv31oFSo",
-    "plus_code": {
-      "compound_code": "CRCJ+WX Ciudad de México, CDMX, México",
-      "global_code": "76F2CRCJ+WX"
-    },
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "point_of_interest",
-      "restaurant"
     ]
   },
   "Grid Dynamics, Av. de las Américas 1545-Piso 6, Providencia, Guadalajara, Jalisco, MX": {
@@ -1610,6 +1610,279 @@
     "types": [
       "establishment",
       "point_of_interest"
+    ]
+  },
+  "Ciudad de México": {
+    "address_components": [
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.5927571,
+          "lng": -98.9604482
+        },
+        "southwest": {
+          "lat": 19.1887101,
+          "lng": -99.3267771
+        }
+      },
+      "location": {
+        "lat": 19.4326077,
+        "lng": -99.133208
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.5927571,
+          "lng": -98.9604482
+        },
+        "southwest": {
+          "lat": 19.1887101,
+          "lng": -99.3267771
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4305936,
+          "longitude": -99.1371496
+        }
+      }
+    ],
+    "place_id": "ChIJB3UJ2yYAzoURQeheJnYQBlQ",
+    "types": [
+      "locality",
+      "political"
+    ]
+  },
+  "Pinterest México, Av. P.º de la Reforma 509, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "509",
+        "short_name": "509",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Paseo de la Reforma",
+        "short_name": "Av. P.º de la Reforma",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Cuauhtémoc",
+        "short_name": "Cuauhtémoc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06500",
+        "short_name": "06500",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. P.º de la Reforma 509, Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.423797,
+        "lng": -99.1756078
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4252479302915,
+          "lng": -99.1744070197085
+        },
+        "southwest": {
+          "lat": 19.4225499697085,
+          "lng": -99.1771049802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4241726,
+          "longitude": -99.1759562
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 19.423679,
+          "longitude": -99.1755309
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
+      }
+    ],
+    "place_id": "ChIJL-v51oP_0YUReDLKU3ltQnc",
+    "plus_code": {
+      "compound_code": "CRFF+GQ Ciudad de México, CDMX, México",
+      "global_code": "76F2CRFF+GQ"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "Londres 61, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "61",
+        "short_name": "61",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Londres",
+        "short_name": "Londres",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Juárez",
+        "short_name": "Juárez",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06600",
+        "short_name": "06600",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Londres 61, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.427368,
+          "lng": -99.1605896
+        },
+        "southwest": {
+          "lat": 19.4270242,
+          "lng": -99.16104299999999
+        }
+      },
+      "location": {
+        "lat": 19.42717,
+        "lng": -99.1609062
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4285220802915,
+          "lng": -99.15946731970848
+        },
+        "southwest": {
+          "lat": 19.4258241197085,
+          "lng": -99.16216528029149
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4270344,
+          "longitude": -99.1608316
+        }
+      }
+    ],
+    "place_id": "ChIJxarp6TP_0YUR75UtibG100w",
+    "types": [
+      "premise",
+      "street_address"
     ]
   },
   "Valenza Casa de Creativos - Plaza Dorada, Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., Mexico": {
@@ -2103,180 +2376,6 @@
       "university"
     ]
   },
-  "Ciudad de México": {
-    "address_components": [
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      }
-    ],
-    "formatted_address": "Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.5927571,
-          "lng": -98.9604482
-        },
-        "southwest": {
-          "lat": 19.1887101,
-          "lng": -99.3267771
-        }
-      },
-      "location": {
-        "lat": 19.4326077,
-        "lng": -99.133208
-      },
-      "location_type": "APPROXIMATE",
-      "viewport": {
-        "northeast": {
-          "lat": 19.5927571,
-          "lng": -98.9604482
-        },
-        "southwest": {
-          "lat": 19.1887101,
-          "lng": -99.3267771
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4305936,
-          "longitude": -99.1371496
-        }
-      }
-    ],
-    "place_id": "ChIJB3UJ2yYAzoURQeheJnYQBlQ",
-    "types": [
-      "locality",
-      "political"
-    ]
-  },
-  "Pinterest México, Av. P.º de la Reforma 509, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "509",
-        "short_name": "509",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Paseo de la Reforma",
-        "short_name": "Av. P.º de la Reforma",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Cuauhtémoc",
-        "short_name": "Cuauhtémoc",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06500",
-        "short_name": "06500",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. P.º de la Reforma 509, Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.423797,
-        "lng": -99.1756078
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4252479302915,
-          "lng": -99.1744070197085
-        },
-        "southwest": {
-          "lat": 19.4225499697085,
-          "lng": -99.1771049802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4241726,
-          "longitude": -99.1759562
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 19.423679,
-          "longitude": -99.1755309
-        },
-        "restricted_travel_modes": [
-          "DRIVE"
-        ]
-      }
-    ],
-    "place_id": "ChIJL-v51oP_0YUReDLKU3ltQnc",
-    "plus_code": {
-      "compound_code": "CRFF+GQ Ciudad de México, CDMX, México",
-      "global_code": "76F2CRFF+GQ"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
-    ]
-  },
   "UNAM - Facultad De Ciencias, Investigación Científica, C.U., Coyoacán, 04510 Ciudad de México, CDMX, Mexico": {
     "address_components": [
       {
@@ -2481,6 +2580,374 @@
       "establishment",
       "point_of_interest",
       "university"
+    ]
+  },
+  "Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "333",
+        "short_name": "333",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Paseo de la Reforma",
+        "short_name": "Av. P.º de la Reforma",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Cuauhtémoc",
+        "short_name": "Cuauhtémoc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06500",
+        "short_name": "06500",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.4282234,
+          "lng": -99.1674738
+        },
+        "southwest": {
+          "lat": 19.4279729,
+          "lng": -99.1677801
+        }
+      },
+      "location": {
+        "lat": 19.4280893,
+        "lng": -99.1676248
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4293721302915,
+          "lng": -99.16627796970849
+        },
+        "southwest": {
+          "lat": 19.42667416970849,
+          "lng": -99.1689759302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4278853,
+          "longitude": -99.1675228
+        }
+      }
+    ],
+    "place_id": "ChIJL4q3hzX_0YURgf2Z3IgiQ_4",
+    "types": [
+      "premise",
+      "street_address"
+    ]
+  },
+  "PÚBLICO Reforma, Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "333",
+        "short_name": "333",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Paseo de la Reforma",
+        "short_name": "Av. P.º de la Reforma",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Cuauhtémoc",
+        "short_name": "Cuauhtémoc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06500",
+        "short_name": "06500",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4281242,
+        "lng": -99.1678172
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4293131802915,
+          "lng": -99.16628181970852
+        },
+        "southwest": {
+          "lat": 19.42661521970849,
+          "lng": -99.16897978029152
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4278639,
+          "longitude": -99.1674444
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 19.4278916,
+          "longitude": -99.1677971
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
+      }
+    ],
+    "place_id": "ChIJsZ23ZyD_0YURCD_BrsgM1pQ",
+    "plus_code": {
+      "compound_code": "CRHJ+6V Ciudad de México, CDMX, México",
+      "global_code": "76F2CRHJ+6V"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "Colonia del Valle Centro, Ciudad de México": {
+    "address_components": [
+      {
+        "long_name": "Colonia del Valle Centro",
+        "short_name": "Col del Valle Centro",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "Col del Valle Centro, Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.3911386,
+          "lng": -99.1591026
+        },
+        "southwest": {
+          "lat": 19.3766613,
+          "lng": -99.1763652
+        }
+      },
+      "location": {
+        "lat": 19.3797151,
+        "lng": -99.1677132
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.3911386,
+          "lng": -99.1591026
+        },
+        "southwest": {
+          "lat": 19.3766613,
+          "lng": -99.1763652
+        }
+      }
+    },
+    "place_id": "ChIJb71fGp__0YURlFI_hvidEKE",
+    "types": [
+      "political",
+      "sublocality",
+      "sublocality_level_1"
+    ]
+  },
+  "First Complex Creative, C. Independencia 55, Zona Centro, 44100 Guadalajara, Jal., Mexico": {
+    "address_components": [
+      {
+        "long_name": "55",
+        "short_name": "55",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Calle Independencia",
+        "short_name": "C. Independencia",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Zona Centro",
+        "short_name": "Zona Centro",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Guadalajara",
+        "short_name": "Guadalajara",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Jalisco",
+        "short_name": "Jal.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "44100",
+        "short_name": "44100",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "C. Independencia 55, Zona Centro, 44100 Guadalajara, Jal., México",
+    "geometry": {
+      "location": {
+        "lat": 20.677895,
+        "lng": -103.3419802
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 20.6794272802915,
+          "lng": -103.3406426197085
+        },
+        "southwest": {
+          "lat": 20.6767293197085,
+          "lng": -103.3433405802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 20.6781987,
+          "longitude": -103.3419991
+        }
+      }
+    ],
+    "place_id": "ChIJv8NRG-6xKIQRCS3IsjzGUmg",
+    "plus_code": {
+      "compound_code": "MMH5+56 Guadalajara, Jal., México",
+      "global_code": "75GRMMH5+56"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
     ]
   },
   "Casa Rafael Galván, Zacatecas 94, Col Roma Norte, Mexico City, Mexico City": {
@@ -2866,452 +3333,6 @@
       "store"
     ]
   },
-  "Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "333",
-        "short_name": "333",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Paseo de la Reforma",
-        "short_name": "Av. P.º de la Reforma",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Cuauhtémoc",
-        "short_name": "Cuauhtémoc",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06500",
-        "short_name": "06500",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.4282234,
-          "lng": -99.1674738
-        },
-        "southwest": {
-          "lat": 19.4279729,
-          "lng": -99.1677801
-        }
-      },
-      "location": {
-        "lat": 19.4280893,
-        "lng": -99.1676248
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4293721302915,
-          "lng": -99.16627796970849
-        },
-        "southwest": {
-          "lat": 19.42667416970849,
-          "lng": -99.1689759302915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4278853,
-          "longitude": -99.1675228
-        }
-      }
-    ],
-    "place_id": "ChIJL4q3hzX_0YURgf2Z3IgiQ_4",
-    "types": [
-      "premise",
-      "street_address"
-    ]
-  },
-  "PÚBLICO Reforma, Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "333",
-        "short_name": "333",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Paseo de la Reforma",
-        "short_name": "Av. P.º de la Reforma",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Cuauhtémoc",
-        "short_name": "Cuauhtémoc",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06500",
-        "short_name": "06500",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4281242,
-        "lng": -99.1678172
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4293131802915,
-          "lng": -99.16628181970852
-        },
-        "southwest": {
-          "lat": 19.42661521970849,
-          "lng": -99.16897978029152
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4278639,
-          "longitude": -99.1674444
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 19.4278916,
-          "longitude": -99.1677971
-        },
-        "restricted_travel_modes": [
-          "DRIVE"
-        ]
-      }
-    ],
-    "place_id": "ChIJsZ23ZyD_0YURCD_BrsgM1pQ",
-    "plus_code": {
-      "compound_code": "CRHJ+6V Ciudad de México, CDMX, México",
-      "global_code": "76F2CRHJ+6V"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
-    ]
-  },
-  "Colonia del Valle Centro, Ciudad de México": {
-    "address_components": [
-      {
-        "long_name": "Colonia del Valle Centro",
-        "short_name": "Col del Valle Centro",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      }
-    ],
-    "formatted_address": "Col del Valle Centro, Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.3911386,
-          "lng": -99.1591026
-        },
-        "southwest": {
-          "lat": 19.3766613,
-          "lng": -99.1763652
-        }
-      },
-      "location": {
-        "lat": 19.3797151,
-        "lng": -99.1677132
-      },
-      "location_type": "APPROXIMATE",
-      "viewport": {
-        "northeast": {
-          "lat": 19.3911386,
-          "lng": -99.1591026
-        },
-        "southwest": {
-          "lat": 19.3766613,
-          "lng": -99.1763652
-        }
-      }
-    },
-    "place_id": "ChIJb71fGp__0YURlFI_hvidEKE",
-    "types": [
-      "political",
-      "sublocality",
-      "sublocality_level_1"
-    ]
-  },
-  "First Complex Creative, C. Independencia 55, Zona Centro, 44100 Guadalajara, Jal., Mexico": {
-    "address_components": [
-      {
-        "long_name": "55",
-        "short_name": "55",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Calle Independencia",
-        "short_name": "C. Independencia",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Zona Centro",
-        "short_name": "Zona Centro",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Guadalajara",
-        "short_name": "Guadalajara",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Jalisco",
-        "short_name": "Jal.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "44100",
-        "short_name": "44100",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "C. Independencia 55, Zona Centro, 44100 Guadalajara, Jal., México",
-    "geometry": {
-      "location": {
-        "lat": 20.677895,
-        "lng": -103.3419802
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 20.6794272802915,
-          "lng": -103.3406426197085
-        },
-        "southwest": {
-          "lat": 20.6767293197085,
-          "lng": -103.3433405802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 20.6781987,
-          "longitude": -103.3419991
-        }
-      }
-    ],
-    "place_id": "ChIJv8NRG-6xKIQRCS3IsjzGUmg",
-    "plus_code": {
-      "compound_code": "MMH5+56 Guadalajara, Jal., México",
-      "global_code": "75GRMMH5+56"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
-    ]
-  },
-  "Roma Norte, Ciudad de México": {
-    "address_components": [
-      {
-        "long_name": "Roma Norte",
-        "short_name": "Roma Nte.",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06700",
-        "short_name": "06700",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Roma Nte., 06700 Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.4258513,
-          "lng": -99.153658
-        },
-        "southwest": {
-          "lat": 19.4104546,
-          "lng": -99.1767447
-        }
-      },
-      "location": {
-        "lat": 19.4195256,
-        "lng": -99.162549
-      },
-      "location_type": "APPROXIMATE",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4258513,
-          "lng": -99.153658
-        },
-        "southwest": {
-          "lat": 19.4104546,
-          "lng": -99.1767447
-        }
-      }
-    },
-    "place_id": "ChIJzeSi8jn_0YURMiXDZ-gzmi0",
-    "types": [
-      "political",
-      "sublocality",
-      "sublocality_level_1"
-    ]
-  },
   "Plaza Carso, Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, Mexico": {
     "address_components": [
       {
@@ -3393,99 +3414,6 @@
     "place_id": "ChIJ9SxomBAC0oURRHoHGIi4yBM",
     "types": [
       "route"
-    ]
-  },
-  "Workósfera Coworking @ Cerro de La Paz, Puebla, Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., Mexico": {
-    "address_components": [
-      {
-        "long_name": "35",
-        "short_name": "35",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Cholula",
-        "short_name": "Cholula",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "La Paz",
-        "short_name": "La Paz",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Heroica Puebla de Zaragoza",
-        "short_name": "Heroica Puebla de Zaragoza",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Puebla",
-        "short_name": "Pue.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "72160",
-        "short_name": "72160",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
-    "geometry": {
-      "location": {
-        "lat": 19.0536482,
-        "lng": -98.2273264
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.0549712802915,
-          "lng": -98.2259923197085
-        },
-        "southwest": {
-          "lat": 19.0522733197085,
-          "lng": -98.2286902802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.0536512,
-          "longitude": -98.2273296
-        }
-      }
-    ],
-    "place_id": "ChIJfQ0djR_Hz4URQhDsTxlXJdQ",
-    "plus_code": {
-      "compound_code": "3Q3F+F3 Heroica Puebla de Zaragoza, Pue., México",
-      "global_code": "76F33Q3F+F3"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
     ]
   },
   "Lincoln Offices & Cowork, Anatole France 51, Polanco, Polanco III Secc, Miguel Hidalgo, 11540 Ciudad de México, CDMX, Mexico": {
@@ -4091,6 +4019,84 @@
       "point_of_interest"
     ]
   },
+  "Roma Norte, Ciudad de México": {
+    "address_components": [
+      {
+        "long_name": "Roma Norte",
+        "short_name": "Roma Nte.",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06700",
+        "short_name": "06700",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Roma Nte., 06700 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.4258513,
+          "lng": -99.153658
+        },
+        "southwest": {
+          "lat": 19.4104546,
+          "lng": -99.1767447
+        }
+      },
+      "location": {
+        "lat": 19.4195256,
+        "lng": -99.162549
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4258513,
+          "lng": -99.153658
+        },
+        "southwest": {
+          "lat": 19.4104546,
+          "lng": -99.1767447
+        }
+      }
+    },
+    "place_id": "ChIJzeSi8jn_0YURMiXDZ-gzmi0",
+    "types": [
+      "political",
+      "sublocality",
+      "sublocality_level_1"
+    ]
+  },
   "Dalia, Monte Líbano 215, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX, Mexico": {
     "address_components": [
       {
@@ -4265,84 +4271,6 @@
       }
     },
     "place_id": "ChIJkaCv6BgC0oUReBIVz9H0tsA",
-    "types": [
-      "political",
-      "sublocality",
-      "sublocality_level_1"
-    ]
-  },
-  "Hipódromo Condesa, Ciudad de México": {
-    "address_components": [
-      {
-        "long_name": "Hipódromo Condesa",
-        "short_name": "Hipódromo Condesa",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06170",
-        "short_name": "06170",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Hipódromo Condesa, 06170 Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.4114912,
-          "lng": -99.1739767
-        },
-        "southwest": {
-          "lat": 19.4066373,
-          "lng": -99.1843038
-        }
-      },
-      "location": {
-        "lat": 19.4089477,
-        "lng": -99.1802147
-      },
-      "location_type": "APPROXIMATE",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4114912,
-          "lng": -99.1739767
-        },
-        "southwest": {
-          "lat": 19.4066373,
-          "lng": -99.1843038
-        }
-      }
-    },
-    "place_id": "ChIJ6dgzxUL_0YURxkotJx1lIvk",
     "types": [
       "political",
       "sublocality",
@@ -4962,6 +4890,99 @@
       "point_of_interest"
     ]
   },
+  "Workósfera Coworking @ Cerro de La Paz, Puebla, Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., Mexico": {
+    "address_components": [
+      {
+        "long_name": "35",
+        "short_name": "35",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Cholula",
+        "short_name": "Cholula",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "La Paz",
+        "short_name": "La Paz",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Heroica Puebla de Zaragoza",
+        "short_name": "Heroica Puebla de Zaragoza",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Puebla",
+        "short_name": "Pue.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "72160",
+        "short_name": "72160",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+    "geometry": {
+      "location": {
+        "lat": 19.0536482,
+        "lng": -98.2273264
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.0549712802915,
+          "lng": -98.2259923197085
+        },
+        "southwest": {
+          "lat": 19.0522733197085,
+          "lng": -98.2286902802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.0536512,
+          "longitude": -98.2273296
+        }
+      }
+    ],
+    "place_id": "ChIJfQ0djR_Hz4URQhDsTxlXJdQ",
+    "plus_code": {
+      "compound_code": "3Q3F+F3 Heroica Puebla de Zaragoza, Pue., México",
+      "global_code": "76F33Q3F+F3"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
   "Universidad Cristóbal Colón, Paseo de Los Cedros, Veracruz": {
     "address_components": [
       {
@@ -5046,6 +5067,109 @@
     "types": [
       "establishment",
       "point_of_interest",
+      "university"
+    ]
+  },
+  "Instituto Tecnológico Superior de Macuspana, s/n Lerdo de Tejada, Macuspana": {
+    "address_components": [
+      {
+        "long_name": "Avenida Tecnológico",
+        "short_name": "Avenida Tecnológico",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "s/n",
+        "short_name": "s/n",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Lerdo de Tejada",
+        "short_name": "Lerdo de Tejada",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "1ra Secc",
+        "short_name": "1ra Secc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Macuspana",
+        "short_name": "Macuspana",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tabasco",
+        "short_name": "Tab.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "86719",
+        "short_name": "86719",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Avenida Tecnológico, Lerdo de Tejada s/n, 1ra Secc, 86719 Macuspana, Tab., México",
+    "geometry": {
+      "location": {
+        "lat": 17.7774972,
+        "lng": -92.6085243
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 17.7787596802915,
+          "lng": -92.6072965697085
+        },
+        "southwest": {
+          "lat": 17.7760617197085,
+          "lng": -92.6099945302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 17.7773614,
+          "longitude": -92.6087134
+        }
+      }
+    ],
+    "place_id": "ChIJVVVVyMTx7YUR0am8r75I2XU",
+    "plus_code": {
+      "compound_code": "Q9GR+XH Macuspana, Tab., México",
+      "global_code": "7699Q9GR+XH"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "school",
       "university"
     ]
   },
@@ -5591,33 +5715,25 @@
       "street_address"
     ]
   },
-  "Instituto Tecnológico Superior de Macuspana, s/n Lerdo de Tejada, Macuspana": {
+  "Vicente Asador de Brasa - CDMX, Mayorazgo Higuera 40, Xoco, Benito Juárez, 03330 Ciudad de México, CDMX, Mexico": {
     "address_components": [
       {
-        "long_name": "Avenida Tecnológico",
-        "short_name": "Avenida Tecnológico",
-        "types": [
-          "establishment",
-          "point_of_interest"
-        ]
-      },
-      {
-        "long_name": "s/n",
-        "short_name": "s/n",
+        "long_name": "40",
+        "short_name": "40",
         "types": [
           "street_number"
         ]
       },
       {
-        "long_name": "Lerdo de Tejada",
-        "short_name": "Lerdo de Tejada",
+        "long_name": "Mayorazgo Higuera",
+        "short_name": "Mayorazgo Higuera",
         "types": [
           "route"
         ]
       },
       {
-        "long_name": "1ra Secc",
-        "short_name": "1ra Secc",
+        "long_name": "Xoco",
+        "short_name": "Xoco",
         "types": [
           "political",
           "sublocality",
@@ -5625,16 +5741,16 @@
         ]
       },
       {
-        "long_name": "Macuspana",
-        "short_name": "Macuspana",
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Tabasco",
-        "short_name": "Tab.",
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
         "types": [
           "administrative_area_level_1",
           "political"
@@ -5649,49 +5765,268 @@
         ]
       },
       {
-        "long_name": "86719",
-        "short_name": "86719",
+        "long_name": "03330",
+        "short_name": "03330",
         "types": [
           "postal_code"
         ]
       }
     ],
-    "formatted_address": "Avenida Tecnológico, Lerdo de Tejada s/n, 1ra Secc, 86719 Macuspana, Tab., México",
+    "formatted_address": "Mayorazgo Higuera 40, Xoco, Benito Juárez, 03330 Ciudad de México, CDMX, México",
     "geometry": {
       "location": {
-        "lat": 17.7774972,
-        "lng": -92.6085243
+        "lat": 19.3603993,
+        "lng": -99.1676393
       },
       "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 17.7787596802915,
-          "lng": -92.6072965697085
+          "lat": 19.3620072802915,
+          "lng": -99.16644741970849
         },
         "southwest": {
-          "lat": 17.7760617197085,
-          "lng": -92.6099945302915
+          "lat": 19.35930931970849,
+          "lng": -99.1691453802915
         }
       }
     },
     "navigation_points": [
       {
         "location": {
-          "latitude": 17.7773614,
-          "longitude": -92.6087134
-        }
+          "latitude": 19.3608543,
+          "longitude": -99.1680363
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 19.3607146,
+          "longitude": -99.1675681
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
       }
     ],
-    "place_id": "ChIJVVVVyMTx7YUR0am8r75I2XU",
+    "place_id": "ChIJVVVF6b__0YURm-dGmPc9Xdg",
     "plus_code": {
-      "compound_code": "Q9GR+XH Macuspana, Tab., México",
-      "global_code": "7699Q9GR+XH"
+      "compound_code": "9R6J+5W Ciudad de México, CDMX, México",
+      "global_code": "76F29R6J+5W"
     },
     "types": [
       "establishment",
+      "food",
       "point_of_interest",
-      "school",
-      "university"
+      "restaurant"
+    ]
+  },
+  "Torre Punta Reforma, Reforma 180, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "180",
+        "short_name": "180",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Reforma",
+        "short_name": "Reforma",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Juárez",
+        "short_name": "Juárez",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06600",
+        "short_name": "06600",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Reforma 180, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4296135,
+        "lng": -99.1605786
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4310517302915,
+          "lng": -99.15921271970849
+        },
+        "southwest": {
+          "lat": 19.4283537697085,
+          "lng": -99.16191068029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4297989,
+          "longitude": -99.1606754
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 19.4295745,
+          "longitude": -99.1604801
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
+      }
+    ],
+    "place_id": "ChIJkWdaDDP_0YURoxGWr55kSv8",
+    "plus_code": {
+      "compound_code": "CRHQ+RQ Ciudad de México, CDMX, México",
+      "global_code": "76F2CRHQ+RQ"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "CASO, Jose, C. José Rosas Moreno 142, San Rafael, Cuauhtémoc, 06470 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "Jose",
+        "short_name": "Jose",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "142",
+        "short_name": "142",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Calle José Rosas Moreno",
+        "short_name": "C. José Rosas Moreno",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "San Rafael",
+        "short_name": "San Rafael",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06470",
+        "short_name": "06470",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Jose, C. José Rosas Moreno 142, San Rafael, Cuauhtémoc, 06470 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4347624,
+        "lng": -99.16225
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4361208302915,
+          "lng": -99.1609473197085
+        },
+        "southwest": {
+          "lat": 19.4334228697085,
+          "lng": -99.1636452802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.434768,
+          "longitude": -99.1622773
+        }
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJnSKQ9Mj50YURI5Vkv2rgibQ",
+    "plus_code": {
+      "compound_code": "CRMQ+W3 Ciudad de México, CDMX, México",
+      "global_code": "76F2CRMQ+W3"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
     ]
   },
   "mexico tech week": {
@@ -11562,320 +11897,6 @@
     "types": [
       "premise",
       "street_address"
-    ]
-  },
-  "Vicente Asador de Brasa - CDMX, Mayorazgo Higuera 40, Xoco, Benito Juárez, 03330 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "40",
-        "short_name": "40",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Mayorazgo Higuera",
-        "short_name": "Mayorazgo Higuera",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Xoco",
-        "short_name": "Xoco",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "03330",
-        "short_name": "03330",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Mayorazgo Higuera 40, Xoco, Benito Juárez, 03330 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.3603993,
-        "lng": -99.1676393
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.3620072802915,
-          "lng": -99.16644741970849
-        },
-        "southwest": {
-          "lat": 19.35930931970849,
-          "lng": -99.1691453802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.3608543,
-          "longitude": -99.1680363
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 19.3607146,
-          "longitude": -99.1675681
-        },
-        "restricted_travel_modes": [
-          "DRIVE"
-        ]
-      }
-    ],
-    "place_id": "ChIJVVVF6b__0YURm-dGmPc9Xdg",
-    "plus_code": {
-      "compound_code": "9R6J+5W Ciudad de México, CDMX, México",
-      "global_code": "76F29R6J+5W"
-    },
-    "types": [
-      "establishment",
-      "food",
-      "point_of_interest",
-      "restaurant"
-    ]
-  },
-  "Torre Punta Reforma, Reforma 180, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "180",
-        "short_name": "180",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Reforma",
-        "short_name": "Reforma",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Juárez",
-        "short_name": "Juárez",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06600",
-        "short_name": "06600",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Reforma 180, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4296135,
-        "lng": -99.1605786
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4310517302915,
-          "lng": -99.15921271970849
-        },
-        "southwest": {
-          "lat": 19.4283537697085,
-          "lng": -99.16191068029151
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4297989,
-          "longitude": -99.1606754
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 19.4295745,
-          "longitude": -99.1604801
-        },
-        "restricted_travel_modes": [
-          "DRIVE"
-        ]
-      }
-    ],
-    "place_id": "ChIJkWdaDDP_0YURoxGWr55kSv8",
-    "plus_code": {
-      "compound_code": "CRHQ+RQ Ciudad de México, CDMX, México",
-      "global_code": "76F2CRHQ+RQ"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
-    ]
-  },
-  "CASO, Jose, C. José Rosas Moreno 142, San Rafael, Cuauhtémoc, 06470 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "Jose",
-        "short_name": "Jose",
-        "types": [
-          "establishment",
-          "point_of_interest"
-        ]
-      },
-      {
-        "long_name": "142",
-        "short_name": "142",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Calle José Rosas Moreno",
-        "short_name": "C. José Rosas Moreno",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "San Rafael",
-        "short_name": "San Rafael",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06470",
-        "short_name": "06470",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Jose, C. José Rosas Moreno 142, San Rafael, Cuauhtémoc, 06470 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4347624,
-        "lng": -99.16225
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4361208302915,
-          "lng": -99.1609473197085
-        },
-        "southwest": {
-          "lat": 19.4334228697085,
-          "lng": -99.1636452802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.434768,
-          "longitude": -99.1622773
-        }
-      }
-    ],
-    "partial_match": true,
-    "place_id": "ChIJnSKQ9Mj50YURI5Vkv2rgibQ",
-    "plus_code": {
-      "compound_code": "CRMQ+W3 Ciudad de México, CDMX, México",
-      "global_code": "76F2CRMQ+W3"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
     ]
   },
   "Online": {}
