@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-05T12:41:49.170739+00:00",
+  "generated_at": "2026-03-05T19:12:35.123262+00:00",
   "total_events": 162,
   "city": "Online",
   "communities": [
@@ -60,17 +60,6 @@
           "platform": "luma",
           "url": "https://luma.com/FFMexico2026",
           "label": "Luma"
-        }
-      ]
-    },
-    {
-      "name": "Kong Mexico City",
-      "description": "Eventos sobre APIs, Microservicios, Service Mesh e Insomnia.",
-      "links": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/kong-mexico-city",
-          "label": "Meetup"
         }
       ]
     },
@@ -3945,74 +3934,6 @@
       "hash_key": "venture bites understanding advisory sha_2026-02-26T18:00:00+00:00"
     },
     {
-      "title": "Kong Mexico City|Governance across the AI Data Path: Enforce Zero-Trust API Security with Kong|Online",
-      "description": "Kong/MEXICO-CITY\nZero-trust is the essential security model for the AI era. As organizations transition to agentic architectures, AI agents autonomously invoke tools and trigger service-to-service workflows, creating complex data paths that can bypass traditional oversight. Zero-trust offers the right framework: every caller proves who it is, policy is enforced at every hop, and nothing is implicitly trusted.\nIn this session, we demonstrate how to develop and enforce consistent security policies across the entire AI lifecycle. We'll walk through a real request as it traverses the full AI data path — and show identity-based policy enforcement at every hop. You’ll experience a unified identity chain in action: from OIDC user authentication and AI Gateway routing (with token limits and prompt guards) to MCP-based tool invocation and secure east-west mesh communication via mTLS and OPA—all in a single trace.\nIf you're responsible for API security, platform engineering, or architecture — and you need a repeatable model for enforcing API security across gateways, AI workloads, and service meshes — this session is built to be immediately actionable.\n**Key Takeaways:**\n\n1. **Unified Governance Across the Stack:** Move beyond edge security to a \"continuous enforcement\" model. Use Kong to apply identity-based access (OIDC/mTLS) at the API Gateway, AI Gateway, Event Gateway, and Service Mesh layers.\n2. **Policy Enforcement, Not Friction:** Design granular and automated policies for routes, tools, and services that can be seamlessly implemented as APIs, agents, and teams scale.\n3. **End-to-End Visibility & Control:** Apply practical, repeatable patterns to enforce security from north-south ingress through east-west service communication — covering LLM access, tool invocation, and service-to-service calls in a single policy model.",
-      "url": "https://www.meetup.com/kong-mexico-city/events/313525447/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/kong-mexico-city/events/313525447/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "Online",
-      "online": true,
-      "organizer": "Kong Mexico City",
-      "dtstart": "2026-03-05T10:00:00-06:00",
-      "dtend": "2026-03-05T11:00:00-06:00",
-      "tags": [
-        "ai",
-        "backend",
-        "data",
-        "frontend",
-        "security"
-      ],
-      "source": "https://www.meetup.com/kong-mexico-city/events/ical",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "",
-      "hash_key": "governance across the ai data path enfor_2026-03-05T16:00:00+00:00"
-    },
-    {
-      "title": "México City AI, Machine Learning and Computer Vision Meetup|March 5 - AI, ML and Computer Vision Meetup|Online",
-      "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.\n\n**Date and Location**\n\nMar 5, 2026\n9 - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-march-5-2026)**\n\n**MOSPA: Human Motion Generation Driven by Spatial Audio**\n\nEnabling virtual humans to dynamically and realistically respond to diverse auditory stimuli remains a key challenge in character animation, demanding the integration of perceptual modeling and motion synthesis. Despite its significance, this task remains largely unexplored. Most previous works have primarily focused on mapping modalities like speech, audio, and music to generate human motion. As of yet, these models typically overlook the impact of spatial features encoded in spatial audio signals on human motion.\n\nTo bridge this gap and enable high-quality modeling of human movements in response to spatial audio, we introduce the first comprehensive Spatial Audio-Driven Human Motion (SAM) dataset, which contains diverse and high-quality spatial audio and motion data. For benchmarking, we develop a simple yet effective diffusion-based generative framework for human MOtion generation driven by SPatial Audio, termed MOSPA, which faithfully captures the relationship between body motion and spatial audio through an effective fusion mechanism. Once trained, MOSPA can generate diverse, realistic human motions conditioned on varying spatial audio inputs. We perform a thorough investigation of the proposed dataset and conduct extensive experiments for benchmarking, where our method achieves state-of-the-art performance on this task.\n\n*About the Speaker*\n\n[Zhiyang (Frank) Dou](https://www.linkedin.com/in/zhiyang-frank-dou-0259111b3/) is a Ph.D. student at MIT CSAIL, advised by Prof. Wojciech Matusik. I work with the Computational Design and Fabrication Group and the Computer Graphics Group.\n\n**Securing the Autonomous Future: Navigating the Intersection of Agentic AI, Connected Devices, and Cyber Resilience**\n\nWith billions of devices now in our infrastructure and emerging as autonomous agents (AI), we face a very real question: How can we create intelligent systems that are both secure and trusted? This talk will explore the intersection of agentic AI and IoT and demonstrate how the same AI systems can provide robust defense mechanisms. At its core, however, this is a challenge about trusting people with technology, ensuring their safety, and providing accountability. Therefore, creating a new way of thinking is required, one in which security is built in, and where autonomous action has oversight; and, ultimately, innovation leads to greater human well-being.\n\n*About the Speaker*\n\n[Samaresh Kumar Singh](https://www.linkedin.com/in/samaresh-singh-9772ba23/) is an engineering principal at HP Inc. with more than 21 years of experience in designing and implementing large-scale distributed systems, cloud native platform systems, and edge AI / ML systems. His expertise includes agentic AI systems, GenAI / LLMs, Edge AI, federated and privacy preserving learning, and secure hybrid cloud / edge computing.\n\n**Plugins as Products: Bringing Visual AI Research into Real-World Workflows with FiftyOne**\n\nVisual AI research often introduces new datasets, models, and analysis methods, but integrating these advances into everyday workflows can be challenging. FiftyOne is a data-centric platform designed to help teams explore, evaluate, and improve visual AI, and its plugin ecosystem is how the platform scales beyond the core. In this talk, we explore the FiftyOne plugin ecosystem from both perspectives: how users apply plugins to accelerate data-centric workflows, and how researchers and engineers can package their work as plugins to make it easier to share, reproduce, and build upon. Through practical examples, we show how plugins turn research artifacts into reusable components that integrate naturally into real-world visual AI workflows.\n\n*About the Speaker*\n\n[Adonai Vera](https://www.linkedin.com/in/adonai-vera/) \\- Machine Learning Engineer & DevRel at Voxel51\\. With over 7 years of experience building computer vision and machine learning models using TensorFlow, Docker, and OpenCV\\.\n\n**Transforming Business with Agentic AI**\n\nAgentic AI is reshaping business operations by employing autonomous systems that learn, adapt, and optimize processes independently of human input. This session examines the essential differences between traditional AI agents and Agentic AI, emphasizing their significance for project professionals overseeing digital transformation initiatives. Real-world examples from eCommerce, insurance, and healthcare illustrate how autonomous AI achieves measurable outcomes across industries. The session addresses practical orchestration patterns in which specialized AI agents collaborate to resolve complex business challenges and enhance operational efficiency. Attendees will receive a practical framework for identifying high-impact use cases, developing infrastructure, establishing governance, and scaling Agentic AI within their organizations.\n\n*About the Speaker*\n\n[Joyjit Roy](https://www.linkedin.com/in/royjoyjit/) is a senior technology and program management leader with over 21 years of experience delivering enterprise digital transformation, cloud modernization, and applied AI programs across insurance, financial services, and global eCommerce.",
-      "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/312769338/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/312769338/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "Online",
-      "online": true,
-      "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
-      "dtstart": "2026-03-05T11:00:00-06:00",
-      "dtend": "2026-03-05T13:00:00-06:00",
-      "tags": [
-        "ai",
-        "backend",
-        "cloud",
-        "data",
-        "devops",
-        "frontend",
-        "security"
-      ],
-      "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "",
-      "hash_key": "march 5 ai ml and computer vision meetup_2026-03-05T16:00:00+00:00"
-    },
-    {
       "title": "GDG IPN|Build With AI: Explorando Vertex AI|Online",
       "description": "Únase a nosotros para un emocionante taller titulado \"Build With AI\", donde exploraremos las capacidades innovadoras de ...",
       "url": "https://gdg.community.dev/events/details/google-gdg-ipn-presents-build-with-ai-explorando-vertex-ai/",
@@ -4471,6 +4392,35 @@
       "hash_key": "robots that build friendships ai compani_2026-03-19T16:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|When AI Agents Invent Religion?|Online",
+      "description": "Get up-to-date information at: https://luma.com/eri2i0r5\n\nHosted by Amir Kiani & 4 others",
+      "url": "https://luma.com/eri2i0r5",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/eri2i0r5",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-QGIFgRt0gawY8hE",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-03-19T21:00:00+00:00",
+      "dtend": "2026-03-19T22:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-QGIFgRt0gawY8hE",
+      "hash_key": "when ai agents invent religion_2026-03-19T20:00:00+00:00"
+    },
+    {
       "title": "Rust-AICollective|AI Literacy Series: The AI  Safety Switch (w/ The AI Collective)|Online",
       "description": "Get up-to-date information at: https://luma.com/aic-literacy-safety-switch\n\nHosted by AI Collective & Neelima Misra",
       "url": "https://luma.com/aic-literacy-safety-switch",
@@ -4780,6 +4730,39 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-rI9mxNqygqodV1R",
       "hash_key": "responsible ai and data protection align_2026-04-30T18:00:00+00:00"
+    },
+    {
+      "title": "México City AI, Machine Learning and Computer Vision Meetup|May 6 - Building Composable Computer Vision Workflows in FiftyOne|Online",
+      "description": "México City AI, Machine Learning and Computer Vision Meetup\nThis workshop explores the [FiftyOne](https://docs.voxel51.com/) plugin framework to build custom computer vision applications. You’ll learn to extend the open source FiftyOne App with Python based panels and server side operators, as well as integrate external tools for labeling, vector search, and model inference into your dataset views.\n\n**Date, Time and Location**\n\nMay 6, 2026\n10 AM - 11 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/building-composable-vision-workflows-in-fiftyone-may-6-2026)**\n\n**What You'll Learn**\n\n* **Build Python plugins.** Define plugin manifests and directory structures to register custom functionality within the FiftyOne ecosystem.\n* **Develop server side operators.** Write functions to execute model inference, data cleaning, or metadata updates from the App interface.\n* **Build interactive panels.** Create custom UI dashboards using to visualize model metrics or specialized dataset distributions.\n* **Manage operator execution contexts.** Pass data between the App front end and your backend to build dynamic user workflows.\n* **Implement delegated execution.** Configure background workers to handle long running data processing tasks without blocking the user interface.\n* **Build labeling integrations.** Streamline the flow of data between FiftyOne and annotation platforms through custom triggers and ingestion scripts.\n* **Extend vector database support**. Program custom connectors for external vector stores to enable semantic search across large sample datasets.\n* **Package and share plugins**. Distribute your extensions internally and externally",
+      "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313313226/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313313226/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
+      "dtstart": "2026-05-06T11:00:00-06:00",
+      "dtend": "2026-05-06T12:00:00-06:00",
+      "tags": [
+        "ai",
+        "backend",
+        "data",
+        "frontend",
+        "python"
+      ],
+      "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "may 6 building composable computer visio_2026-05-06T16:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|Predictive Neurotechnologies, Criminal Risk and the Future of the Presumption of Innocence|Online",
