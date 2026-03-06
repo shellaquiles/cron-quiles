@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-06T01:21:33.980987+00:00",
-  "total_events": 17,
+  "generated_at": "2026-03-06T06:39:50.919004+00:00",
+  "total_events": 18,
   "city": "Jalisco",
   "communities": [
     {
@@ -532,6 +532,33 @@
       "city_code": "guadalajara",
       "address": "Holiday Inn Guadalajara Expo, an IHG Hotel 2500 Avenida Adolfo López Mateos Sur, Zapopan, 45050",
       "hash_key": "kcd guadalajara 2026_2026-04-18T14:00:00+00:00"
+    },
+    {
+      "title": "Vive Codding Cafe|Cursor Cafe Guadalajara|México|Jalisco",
+      "description": "Get up-to-date information at: https://luma.com/o9kjjum9\n\nAddress:\nVentura Café\nGuadalajara, Jalisco\nMexico\n\nHosted by Rogelio Hernandez & Juan Martinez",
+      "url": "https://luma.com/o9kjjum9",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/o9kjjum9",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ventura Café, Av San Francisco 3205, Chapalita, 44500 Guadalajara, Jal., Mexico",
+      "online": false,
+      "organizer": "Vive Codding Cafe",
+      "dtstart": "2026-04-26T04:00:00+00:00",
+      "dtend": "2026-04-26T10:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-W2sKbYqVIxmPXxw",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Jalisco",
+      "state_code": "MX-JAL",
+      "city": "Guadalajara",
+      "city_code": "guadalajara",
+      "address": "Av San Francisco 3205, Chapalita, 44500 Guadalajara, Jal., México",
+      "hash_key": "cursor cafe guadalajara_2026-04-26T04:00:00+00:00"
     }
   ]
 }

@@ -205,200 +205,6 @@
       "restaurant"
     ]
   },
-  "#Hashtag Gallery Ltd, Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "A",
-        "short_name": "A",
-        "types": [
-          "subpremise"
-        ]
-      },
-      {
-        "long_name": "151",
-        "short_name": "151",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Benjamín Franklin",
-        "short_name": "Av. Benjamín Franklin",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Hipódromo",
-        "short_name": "Hipódromo",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06140",
-        "short_name": "06140",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4053361,
-        "lng": -99.1758565
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4066391802915,
-          "lng": -99.17452806970849
-        },
-        "southwest": {
-          "lat": 19.4039412197085,
-          "lng": -99.17722603029151
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4053023,
-          "longitude": -99.1758716
-        }
-      }
-    ],
-    "place_id": "ChIJE-pL1-P_0YURxYWBe7yGbEs",
-    "plus_code": {
-      "compound_code": "CR4F+4M Ciudad de México, CDMX, México",
-      "global_code": "76F2CR4F+4M"
-    },
-    "types": [
-      "art_gallery",
-      "establishment",
-      "point_of_interest"
-    ]
-  },
-  "Casa Rafael Galvan, Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "94",
-        "short_name": "94",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Zacatecas",
-        "short_name": "Zacatecas",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Roma Norte",
-        "short_name": "Roma Nte.",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06700",
-        "short_name": "06700",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4159281,
-        "lng": -99.1586478
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4173300802915,
-          "lng": -99.1573109197085
-        },
-        "southwest": {
-          "lat": 19.4146321197085,
-          "lng": -99.1600088802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4159725,
-          "longitude": -99.1586579
-        }
-      }
-    ],
-    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
-    "plus_code": {
-      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
-      "global_code": "76F2CR8R+9G"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
-    ]
-  },
   "PASEO MILEX, Carretera Torreón-San Pedro, Torreón, COA": {
     "address_components": [
       {
@@ -1081,6 +887,200 @@
       "food",
       "point_of_interest",
       "restaurant"
+    ]
+  },
+  "#Hashtag Gallery Ltd, Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "A",
+        "short_name": "A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "151",
+        "short_name": "151",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Benjamín Franklin",
+        "short_name": "Av. Benjamín Franklin",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Hipódromo",
+        "short_name": "Hipódromo",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06140",
+        "short_name": "06140",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4053361,
+        "lng": -99.1758565
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4066391802915,
+          "lng": -99.17452806970849
+        },
+        "southwest": {
+          "lat": 19.4039412197085,
+          "lng": -99.17722603029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4053023,
+          "longitude": -99.1758716
+        }
+      }
+    ],
+    "place_id": "ChIJE-pL1-P_0YURxYWBe7yGbEs",
+    "plus_code": {
+      "compound_code": "CR4F+4M Ciudad de México, CDMX, México",
+      "global_code": "76F2CR4F+4M"
+    },
+    "types": [
+      "art_gallery",
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "Casa Rafael Galvan, Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "94",
+        "short_name": "94",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Zacatecas",
+        "short_name": "Zacatecas",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Roma Norte",
+        "short_name": "Roma Nte.",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06700",
+        "short_name": "06700",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4159281,
+        "lng": -99.1586478
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4173300802915,
+          "lng": -99.1573109197085
+        },
+        "southwest": {
+          "lat": 19.4146321197085,
+          "lng": -99.1600088802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4159725,
+          "longitude": -99.1586579
+        }
+      }
+    ],
+    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
+    "plus_code": {
+      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
+      "global_code": "76F2CR8R+9G"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
     ]
   },
   "Jardín Chapultepec, Av Chapultepec 398, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
@@ -2376,6 +2376,212 @@
       "university"
     ]
   },
+  "UNAM - Facultad De Ciencias, Investigación Científica, C.U., Coyoacán, 04510 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "Investigación Científica",
+        "short_name": "Investigación Científica",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ciudad Universitaria",
+        "short_name": "CU",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "04510",
+        "short_name": "04510",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Investigación Científica, C.U., Coyoacán, 04510 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.3242765,
+        "lng": -99.1791318
+      },
+      "location_type": "GEOMETRIC_CENTER",
+      "viewport": {
+        "northeast": {
+          "lat": 19.3251920302915,
+          "lng": -99.17882329999999
+        },
+        "southwest": {
+          "lat": 19.3224940697085,
+          "lng": -99.1818673
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.322541,
+          "longitude": -99.1788233
+        }
+      },
+      {
+        "location": {
+          "latitude": 19.3248653,
+          "longitude": -99.1818389
+        }
+      },
+      {
+        "location": {
+          "latitude": 19.3251533,
+          "longitude": -99.1816072
+        }
+      }
+    ],
+    "place_id": "ChIJjyiW3Q8AzoURjdMDW5uvlhA",
+    "plus_code": {
+      "compound_code": "8RFC+P8 Ciudad de México, CDMX, México",
+      "global_code": "76F28RFC+P8"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "university"
+    ]
+  },
+  "National Autonomous University of Mexico, Ciudad de México": {
+    "address_components": [
+      {
+        "long_name": "3004",
+        "short_name": "3004",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Universidad",
+        "short_name": "Av. Universidad",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Copilco Universidad",
+        "short_name": "Copilco Universidad",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "04510",
+        "short_name": "04510",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Universidad 3004, Copilco Universidad, Coyoacán, 04510 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.332795,
+        "lng": -99.1876103
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.3346566302915,
+          "lng": -99.18630251970849
+        },
+        "southwest": {
+          "lat": 19.3319586697085,
+          "lng": -99.18900048029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.3337614,
+          "longitude": -99.1877108
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 19.3327912,
+          "longitude": -99.1876522
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJoVxf4P__0YUR2vJ4ww77744",
+    "plus_code": {
+      "compound_code": "8RM6+4X Ciudad de México, CDMX, México",
+      "global_code": "76F28RM6+4X"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "university"
+    ]
+  },
   "Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico": {
     "address_components": [
       {
@@ -2649,212 +2855,6 @@
       "political",
       "sublocality",
       "sublocality_level_1"
-    ]
-  },
-  "UNAM - Facultad De Ciencias, Investigación Científica, C.U., Coyoacán, 04510 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "Investigación Científica",
-        "short_name": "Investigación Científica",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Ciudad Universitaria",
-        "short_name": "CU",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "04510",
-        "short_name": "04510",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Investigación Científica, C.U., Coyoacán, 04510 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.3242765,
-        "lng": -99.1791318
-      },
-      "location_type": "GEOMETRIC_CENTER",
-      "viewport": {
-        "northeast": {
-          "lat": 19.3251920302915,
-          "lng": -99.17882329999999
-        },
-        "southwest": {
-          "lat": 19.3224940697085,
-          "lng": -99.1818673
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.322541,
-          "longitude": -99.1788233
-        }
-      },
-      {
-        "location": {
-          "latitude": 19.3248653,
-          "longitude": -99.1818389
-        }
-      },
-      {
-        "location": {
-          "latitude": 19.3251533,
-          "longitude": -99.1816072
-        }
-      }
-    ],
-    "place_id": "ChIJjyiW3Q8AzoURjdMDW5uvlhA",
-    "plus_code": {
-      "compound_code": "8RFC+P8 Ciudad de México, CDMX, México",
-      "global_code": "76F28RFC+P8"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest",
-      "university"
-    ]
-  },
-  "National Autonomous University of Mexico, Ciudad de México": {
-    "address_components": [
-      {
-        "long_name": "3004",
-        "short_name": "3004",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Universidad",
-        "short_name": "Av. Universidad",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Copilco Universidad",
-        "short_name": "Copilco Universidad",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "04510",
-        "short_name": "04510",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. Universidad 3004, Copilco Universidad, Coyoacán, 04510 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.332795,
-        "lng": -99.1876103
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.3346566302915,
-          "lng": -99.18630251970849
-        },
-        "southwest": {
-          "lat": 19.3319586697085,
-          "lng": -99.18900048029151
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.3337614,
-          "longitude": -99.1877108
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 19.3327912,
-          "longitude": -99.1876522
-        },
-        "restricted_travel_modes": [
-          "DRIVE"
-        ]
-      }
-    ],
-    "partial_match": true,
-    "place_id": "ChIJoVxf4P__0YUR2vJ4ww77744",
-    "plus_code": {
-      "compound_code": "8RM6+4X Ciudad de México, CDMX, México",
-      "global_code": "76F28RM6+4X"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest",
-      "university"
     ]
   },
   "HackerGarage, Calle Marsella 155-Int 105 A, Col Americana, Lafayette, 44160 Guadalajara, Jal., Mexico": {
@@ -3240,84 +3240,6 @@
       "point_of_interest"
     ]
   },
-  "Hipódromo, Ciudad de México": {
-    "address_components": [
-      {
-        "long_name": "Hipódromo",
-        "short_name": "Hipódromo",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06100",
-        "short_name": "06100",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Hipódromo, 06100 Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.4167765,
-          "lng": -99.16540409999999
-        },
-        "southwest": {
-          "lat": 19.4002009,
-          "lng": -99.18068219999999
-        }
-      },
-      "location": {
-        "lat": 19.4093682,
-        "lng": -99.1719095
-      },
-      "location_type": "APPROXIMATE",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4167765,
-          "lng": -99.16540409999999
-        },
-        "southwest": {
-          "lat": 19.4002009,
-          "lng": -99.18068219999999
-        }
-      }
-    },
-    "place_id": "ChIJIb7VFUL_0YURABkbMjDDqqQ",
-    "types": [
-      "political",
-      "sublocality",
-      "sublocality_level_1"
-    ]
-  },
   "Plaza Carso, Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, Mexico": {
     "address_components": [
       {
@@ -3399,84 +3321,6 @@
     "place_id": "ChIJ9SxomBAC0oURRHoHGIi4yBM",
     "types": [
       "route"
-    ]
-  },
-  "Juárez, Ciudad de México": {
-    "address_components": [
-      {
-        "long_name": "Juárez",
-        "short_name": "Juárez",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06600",
-        "short_name": "06600",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Juárez, 06600 Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.4355288,
-          "lng": -99.149745
-        },
-        "southwest": {
-          "lat": 19.420806,
-          "lng": -99.1764159
-        }
-      },
-      "location": {
-        "lat": 19.426753,
-        "lng": -99.16184489999999
-      },
-      "location_type": "APPROXIMATE",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4355288,
-          "lng": -99.149745
-        },
-        "southwest": {
-          "lat": 19.420806,
-          "lng": -99.1764159
-        }
-      }
-    },
-    "place_id": "ChIJBwSKbzT_0YURL8cF7c7Nctk",
-    "types": [
-      "political",
-      "sublocality",
-      "sublocality_level_1"
     ]
   },
   "Workósfera Coworking @ Cerro de La Paz, Puebla, Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., Mexico": {
@@ -3950,6 +3794,84 @@
       "establishment",
       "point_of_interest",
       "real_estate_agency"
+    ]
+  },
+  "Juárez, Ciudad de México": {
+    "address_components": [
+      {
+        "long_name": "Juárez",
+        "short_name": "Juárez",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06600",
+        "short_name": "06600",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Juárez, 06600 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.4355288,
+          "lng": -99.149745
+        },
+        "southwest": {
+          "lat": 19.420806,
+          "lng": -99.1764159
+        }
+      },
+      "location": {
+        "lat": 19.426753,
+        "lng": -99.16184489999999
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4355288,
+          "lng": -99.149745
+        },
+        "southwest": {
+          "lat": 19.420806,
+          "lng": -99.1764159
+        }
+      }
+    },
+    "place_id": "ChIJBwSKbzT_0YURL8cF7c7Nctk",
+    "types": [
+      "political",
+      "sublocality",
+      "sublocality_level_1"
     ]
   },
   "Foro GBM, Plaza I, Av. Javier Barros Sierra 540-Planta Baja, Santa Fe, Zedec Sta Fé, Álvaro Obregón, 01219 Ciudad de México, CDMX, Mexico": {
@@ -4427,170 +4349,6 @@
       }
     },
     "place_id": "ChIJ6dgzxUL_0YURxkotJx1lIvk",
-    "types": [
-      "political",
-      "sublocality",
-      "sublocality_level_1"
-    ]
-  },
-  "Chapultepec Morales, Ciudad de México": {
-    "address_components": [
-      {
-        "long_name": "Chapultepec Morales",
-        "short_name": "Chapultepec Morales",
-        "types": [
-          "neighborhood",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Polanco V Sección",
-        "short_name": "Polanco V Secc",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      }
-    ],
-    "formatted_address": "Chapultepec Morales, Polanco V Secc, Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.4389102,
-          "lng": -99.1807766
-        },
-        "southwest": {
-          "lat": 19.4293638,
-          "lng": -99.1914223
-        }
-      },
-      "location": {
-        "lat": 19.4351828,
-        "lng": -99.185752
-      },
-      "location_type": "APPROXIMATE",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4389102,
-          "lng": -99.1807766
-        },
-        "southwest": {
-          "lat": 19.4293638,
-          "lng": -99.1914223
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4352435,
-          "longitude": -99.1857509
-        }
-      }
-    ],
-    "place_id": "ChIJYTrrgKn40YURm2IiNlAbOTc",
-    "types": [
-      "neighborhood",
-      "political"
-    ]
-  },
-  "Colonia Cuauhtémoc, Ciudad de México": {
-    "address_components": [
-      {
-        "long_name": "Cuauhtémoc",
-        "short_name": "Cuauhtémoc",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06500",
-        "short_name": "06500",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.4363254,
-          "lng": -99.1590379
-        },
-        "southwest": {
-          "lat": 19.4233319,
-          "lng": -99.1776362
-        }
-      },
-      "location": {
-        "lat": 19.4301322,
-        "lng": -99.16914129999999
-      },
-      "location_type": "APPROXIMATE",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4363254,
-          "lng": -99.1590379
-        },
-        "southwest": {
-          "lat": 19.4233319,
-          "lng": -99.1776362
-        }
-      }
-    },
-    "place_id": "ChIJ_YE7tMr40YURtHtXg6cgsOU",
     "types": [
       "political",
       "sublocality",
@@ -5391,6 +5149,109 @@
       "point_of_interest"
     ]
   },
+  "Instituto Tecnológico Superior de Macuspana, s/n Lerdo de Tejada, Macuspana": {
+    "address_components": [
+      {
+        "long_name": "Avenida Tecnológico",
+        "short_name": "Avenida Tecnológico",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "s/n",
+        "short_name": "s/n",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Lerdo de Tejada",
+        "short_name": "Lerdo de Tejada",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "1ra Secc",
+        "short_name": "1ra Secc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Macuspana",
+        "short_name": "Macuspana",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tabasco",
+        "short_name": "Tab.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "86719",
+        "short_name": "86719",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Avenida Tecnológico, Lerdo de Tejada s/n, 1ra Secc, 86719 Macuspana, Tab., México",
+    "geometry": {
+      "location": {
+        "lat": 17.7774972,
+        "lng": -92.6085243
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 17.7787596802915,
+          "lng": -92.6072965697085
+        },
+        "southwest": {
+          "lat": 17.7760617197085,
+          "lng": -92.6099945302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 17.7773614,
+          "longitude": -92.6087134
+        }
+      }
+    ],
+    "place_id": "ChIJVVVVyMTx7YUR0am8r75I2XU",
+    "plus_code": {
+      "compound_code": "Q9GR+XH Macuspana, Tab., México",
+      "global_code": "7699Q9GR+XH"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "school",
+      "university"
+    ]
+  },
   "Merida, Yucatan, Mexico": {
     "address_components": [
       {
@@ -5931,109 +5792,6 @@
     "types": [
       "premise",
       "street_address"
-    ]
-  },
-  "Instituto Tecnológico Superior de Macuspana, s/n Lerdo de Tejada, Macuspana": {
-    "address_components": [
-      {
-        "long_name": "Avenida Tecnológico",
-        "short_name": "Avenida Tecnológico",
-        "types": [
-          "establishment",
-          "point_of_interest"
-        ]
-      },
-      {
-        "long_name": "s/n",
-        "short_name": "s/n",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Lerdo de Tejada",
-        "short_name": "Lerdo de Tejada",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "1ra Secc",
-        "short_name": "1ra Secc",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Macuspana",
-        "short_name": "Macuspana",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Tabasco",
-        "short_name": "Tab.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "86719",
-        "short_name": "86719",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Avenida Tecnológico, Lerdo de Tejada s/n, 1ra Secc, 86719 Macuspana, Tab., México",
-    "geometry": {
-      "location": {
-        "lat": 17.7774972,
-        "lng": -92.6085243
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 17.7787596802915,
-          "lng": -92.6072965697085
-        },
-        "southwest": {
-          "lat": 17.7760617197085,
-          "lng": -92.6099945302915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 17.7773614,
-          "longitude": -92.6087134
-        }
-      }
-    ],
-    "place_id": "ChIJVVVVyMTx7YUR0am8r75I2XU",
-    "plus_code": {
-      "compound_code": "Q9GR+XH Macuspana, Tab., México",
-      "global_code": "7699Q9GR+XH"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest",
-      "school",
-      "university"
     ]
   },
   "mexico tech week": {
@@ -12219,6 +11977,5 @@
       "establishment",
       "point_of_interest"
     ]
-  },
-  "Online": {}
+  }
 }
