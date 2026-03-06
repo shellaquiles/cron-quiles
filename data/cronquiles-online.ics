@@ -1217,18 +1217,6 @@ LOCATION:https://luma.com/event/evt-T9DwqyfaoViKf9K
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-T9DwqyfaoViKf9K
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:GDG IPN|Build With AI: Explorando Vertex AI|Online
-DTSTART:20260305T122519
-CATEGORIES:AI,AI - Gemini,AI - Gemma,Build with AI,Workshop / hands-on ses
- sion,ai,frontend
-DESCRIPTION:Únase a nosotros para un emocionante taller titulado "Build W
- ith AI"\, donde exploraremos las capacidades innovadoras de ...
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #4: OpenClaw|Onli
  ne
 DTSTART:20260306T000000Z
@@ -1431,6 +1419,35 @@ LOCATION:https://luma.com/event/evt-n65JCssY5ywfh8x
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-n65JCssY5ywfh8x
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Kong Mexico City|Shifting From Prompt-First to Context-First|Onlin
+ e
+DTSTART:20260319T090000
+CATEGORIES:ai,backend,data,frontend,web
+DESCRIPTION:Kong/MEXICO-CITY\nAI is moving from prompt-first to context-fi
+ rst—and your API platform needs to keep up. Register to learn how to fut
+ ure-proof your API and AI connectivity strategy with practical guidance fr
+ om industry experts.\n\nAs AI and ML workloads accelerate\, organizations 
+ are shifting from prompt-first experimentation to context-first systems gr
+ ounded in the right data\, APIs\, and policies. This webinar explores how 
+ AI\, edge computing\, and platform engineering are converging to redefine 
+ API management—and why context engineering is becoming a core responsibi
+ lity of your connectivity platform\, not just your AI team. You’ll hear 
+ market insights and lessons learned from Fortune 500 transformations\, plu
+ s a pragmatic framework for designing resilient API and AI connectivity ar
+ chitectures. We’ll also share how Kong is innovating with distributed AP
+ I and AI gateway capabilities to support real-time inference at the edge a
+ nd self-service developer platforms.\n**What you’ll learn:**\n\n* How co
+ ntext-first AI changes requirements for API and AI connectivity architectu
+ re\n* What “context engineering” means in practice—and how to operat
+ ionalize it with policies and governance\n* Key emerging trends (LLM gatew
+ ays\, vector-aware routing\, edge inference) and how to assess them for yo
+ ur roadmap\n* How to design a scalable platform approach that supports dev
+ eloper self-service and consistent controls\n* A practical framework to fu
+ ture-proof your API and AI strategy amid evolving data and regulatory dema
+ nds
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:GDG Villahermosa|Build with AI Sureste de México Virtual|Online
 DTSTART:20260319T090043
 CATEGORIES:Build with AI,ai,backend,frontend
@@ -1551,6 +1568,16 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/eri2i0r5\n\nHo
  sted by Amir Kiani & 4 others
 LOCATION:https://luma.com/event/evt-QGIFgRt0gawY8hE
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-QGIFgRt0gawY8hE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rust-AICollective|⭕ Women & A.I. Circle LATAM  -  Un espacio par
+ a conocernos|Online
+DTSTART:20260319T220000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-latam\n\nH
+ osted by AI Collective & Sthefany Diaz Arias
+LOCATION:https://luma.com/event/evt-1aBtkclQzcD7DNi
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-1aBtkclQzcD7DNi
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|AI Literacy Series: The AI  Safety Switch (w/ Th
