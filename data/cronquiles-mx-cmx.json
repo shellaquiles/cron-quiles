@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-08T12:31:58.565253+00:00",
+  "generated_at": "2026-03-08T18:24:44.746044+00:00",
   "total_events": 175,
   "city": "Ciudad de México",
   "communities": [
@@ -26,8 +26,13 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/eofagheq",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/02t893pf",
@@ -439,35 +444,6 @@
       "city_code": "cdmx",
       "address": "Ciudad de México, CDMX, México",
       "hash_key": "fintech frenzy future web3 panel burger _2024-10-21T18:00:00+00:00"
-    },
-    {
-      "title": "Mexico Tech Week|Tacos, Beer and Gen AI|México|Ciudad de México",
-      "description": "Get up-to-date information at: https://luma.com/heroguest\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week & 3 others",
-      "url": "https://luma.com/heroguest",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/heroguest",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "Ciudad de México",
-      "online": false,
-      "organizer": "Mexico Tech Week",
-      "dtstart": "2024-10-21T19:30:00+00:00",
-      "dtend": "2024-10-21T22:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "Ciudad de México, CDMX, México",
-      "hash_key": "tacos beer and gen ai_2024-10-21T18:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|México|Ciudad de México",
@@ -4310,6 +4286,36 @@
       "city_code": "cdmx",
       "address": "Polanco, Polanco I Secc, 11510 Ciudad de México, CDMX, México",
       "hash_key": "estado del crdito en mxico y tendencias _2026-02-24T14:00:00+00:00"
+    },
+    {
+      "title": "FinTech México|Fintech Luncheon Vol.3 by Pygma, AMG Block Ventures  and Morrison Foerster|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/uwjfgnlj\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & Andrés Cano",
+      "url": "https://luma.com/uwjfgnlj",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/uwjfgnlj",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Hipódromo Condesa, Ciudad de México",
+      "online": false,
+      "organizer": "FinTech México",
+      "dtstart": "2026-02-24T19:00:00+00:00",
+      "dtend": "2026-02-24T21:00:00+00:00",
+      "tags": [
+        "ai",
+        "python"
+      ],
+      "source": "https://luma.com/eofagheq",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Hipódromo Condesa, 06170 Ciudad de México, CDMX, México",
+      "hash_key": "fintech luncheon vol 3 by pygma amg bloc_2026-02-24T18:00:00+00:00"
     },
     {
       "title": "This Week in Fintech|Fintech Innovation Call by AWS Startups, Puntored and Sumsub @ Mexico Fintech Week 2026|México|Ciudad de México",
