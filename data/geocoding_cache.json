@@ -1179,6 +1179,107 @@
       "restaurant"
     ]
   },
+  "REDi AMG, 1505 Calle Manuel López Cotilla, Guadalajara, JAL": {
+    "address_components": [
+      {
+        "long_name": "1505",
+        "short_name": "1505",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Calle Manuel López Cotilla",
+        "short_name": "C. Manuel López Cotilla",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Colonia Americana",
+        "short_name": "Col Americana",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Lafayette",
+        "short_name": "Lafayette",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Guadalajara",
+        "short_name": "Guadalajara",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Jalisco",
+        "short_name": "Jal.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "44160",
+        "short_name": "44160",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "C. Manuel López Cotilla 1505, Col Americana, Lafayette, 44160 Guadalajara, Jal., México",
+    "geometry": {
+      "location": {
+        "lat": 20.6733567,
+        "lng": -103.3696153
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 20.6748814302915,
+          "lng": -103.3682715697085
+        },
+        "southwest": {
+          "lat": 20.6721834697085,
+          "lng": -103.3709695302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 20.6736452,
+          "longitude": -103.3696239
+        }
+      }
+    ],
+    "place_id": "ChIJY6b0DOOvKIQRwBm3vF9wjdw",
+    "plus_code": {
+      "compound_code": "MJFJ+85 Guadalajara, Jal., México",
+      "global_code": "75GRMJFJ+85"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
   "Jardín Americana, 1305 Avenida Ignacio L Vallarta, Guadalajara, JAL": {
     "address_components": [
       {
@@ -5085,100 +5186,6 @@
       "university"
     ]
   },
-  "Centro Queretano De La Imagen (Casa De Los Leones), 66 Calle Benito Juárez Sur, Santiago de Querétaro": {
-    "address_components": [
-      {
-        "long_name": "66",
-        "short_name": "66",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Calle Benito Juárez Sur",
-        "short_name": "C. Benito Juárez Sur",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Centro",
-        "short_name": "Centro",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Santiago de Querétaro",
-        "short_name": "Santiago de Querétaro",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Querétaro",
-        "short_name": "Qro.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "76000",
-        "short_name": "76000",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "C. Benito Juárez Sur 66, Centro, 76000 Santiago de Querétaro, Qro., México",
-    "geometry": {
-      "location": {
-        "lat": 20.5894078,
-        "lng": -100.3907841
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 20.5907623802915,
-          "lng": -100.3894223697085
-        },
-        "southwest": {
-          "lat": 20.58806441970849,
-          "lng": -100.3921203302915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 20.5894,
-          "longitude": -100.3908018
-        }
-      }
-    ],
-    "place_id": "ChIJHxFbNCtb04URssa-CFtPYmc",
-    "plus_code": {
-      "compound_code": "HJQ5+QM Santiago de Querétaro, Qro., México",
-      "global_code": "75GXHJQ5+QM"
-    },
-    "types": [
-      "establishment",
-      "museum",
-      "point_of_interest"
-    ]
-  },
   "Merida, Yucatan, Mexico": {
     "address_components": [
       {
@@ -5721,132 +5728,25 @@
       "street_address"
     ]
   },
-  "La República de Hops - Pasaje Sonia, zona centro, Tijuana": {
+  "Centro Queretano De La Imagen (Casa De Los Leones), 66 Calle Benito Juárez Sur, Santiago de Querétaro": {
     "address_components": [
       {
-        "long_name": "Av. Revolucion 1025 int 16,17 y 18",
-        "short_name": "",
-        "types": []
-      },
-      {
-        "long_name": "Zona Centro",
-        "short_name": "Zona Centro",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Tijuana",
-        "short_name": "Tijuana",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Baja California",
-        "short_name": "B.C.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "22000",
-        "short_name": "22000",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. Revolucion 1025 int 16,17 y 18, Zona Centro, 22000 Tijuana, B.C., México",
-    "geometry": {
-      "location": {
-        "lat": 32.5323528,
-        "lng": -117.0368423
-      },
-      "location_type": "GEOMETRIC_CENTER",
-      "viewport": {
-        "northeast": {
-          "lat": 32.53390503029149,
-          "lng": -117.0353943697085
-        },
-        "southwest": {
-          "lat": 32.5312070697085,
-          "lng": -117.0380923302915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 32.5326966,
-          "longitude": -117.0368442
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 32.5323738,
-          "longitude": -117.0367093
-        },
-        "restricted_travel_modes": [
-          "DRIVE"
-        ]
-      }
-    ],
-    "place_id": "ChIJ1WKek3lJ2YARsMabZwwHZI8",
-    "plus_code": {
-      "compound_code": "GXJ7+W7 Tijuana, B.C., México",
-      "global_code": "8544GXJ7+W7"
-    },
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "point_of_interest",
-      "restaurant"
-    ]
-  },
-  "Instituto Tecnológico Superior de Macuspana, s/n Lerdo de Tejada, Macuspana": {
-    "address_components": [
-      {
-        "long_name": "Avenida Tecnológico",
-        "short_name": "Avenida Tecnológico",
-        "types": [
-          "establishment",
-          "point_of_interest"
-        ]
-      },
-      {
-        "long_name": "s/n",
-        "short_name": "s/n",
+        "long_name": "66",
+        "short_name": "66",
         "types": [
           "street_number"
         ]
       },
       {
-        "long_name": "Lerdo de Tejada",
-        "short_name": "Lerdo de Tejada",
+        "long_name": "Calle Benito Juárez Sur",
+        "short_name": "C. Benito Juárez Sur",
         "types": [
           "route"
         ]
       },
       {
-        "long_name": "1ra Secc",
-        "short_name": "1ra Secc",
+        "long_name": "Centro",
+        "short_name": "Centro",
         "types": [
           "political",
           "sublocality",
@@ -5854,16 +5754,16 @@
         ]
       },
       {
-        "long_name": "Macuspana",
-        "short_name": "Macuspana",
+        "long_name": "Santiago de Querétaro",
+        "short_name": "Santiago de Querétaro",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Tabasco",
-        "short_name": "Tab.",
+        "long_name": "Querétaro",
+        "short_name": "Qro.",
         "types": [
           "administrative_area_level_1",
           "political"
@@ -5878,49 +5778,48 @@
         ]
       },
       {
-        "long_name": "86719",
-        "short_name": "86719",
+        "long_name": "76000",
+        "short_name": "76000",
         "types": [
           "postal_code"
         ]
       }
     ],
-    "formatted_address": "Avenida Tecnológico, Lerdo de Tejada s/n, 1ra Secc, 86719 Macuspana, Tab., México",
+    "formatted_address": "C. Benito Juárez Sur 66, Centro, 76000 Santiago de Querétaro, Qro., México",
     "geometry": {
       "location": {
-        "lat": 17.7774972,
-        "lng": -92.6085243
+        "lat": 20.5894078,
+        "lng": -100.3907841
       },
       "location_type": "ROOFTOP",
       "viewport": {
         "northeast": {
-          "lat": 17.7787596802915,
-          "lng": -92.6072965697085
+          "lat": 20.5907623802915,
+          "lng": -100.3894223697085
         },
         "southwest": {
-          "lat": 17.7760617197085,
-          "lng": -92.6099945302915
+          "lat": 20.58806441970849,
+          "lng": -100.3921203302915
         }
       }
     },
     "navigation_points": [
       {
         "location": {
-          "latitude": 17.7773614,
-          "longitude": -92.6087134
+          "latitude": 20.5894,
+          "longitude": -100.3908018
         }
       }
     ],
-    "place_id": "ChIJVVVVyMTx7YUR0am8r75I2XU",
+    "place_id": "ChIJHxFbNCtb04URssa-CFtPYmc",
     "plus_code": {
-      "compound_code": "Q9GR+XH Macuspana, Tab., México",
-      "global_code": "7699Q9GR+XH"
+      "compound_code": "HJQ5+QM Santiago de Querétaro, Qro., México",
+      "global_code": "75GXHJQ5+QM"
     },
     "types": [
       "establishment",
-      "point_of_interest",
-      "school",
-      "university"
+      "museum",
+      "point_of_interest"
     ]
   },
   "Guadalajara, Jalisco, Mexico": {
@@ -11854,6 +11753,105 @@
       "street_address"
     ]
   },
+  "La República de Hops - Pasaje Sonia, zona centro, Tijuana": {
+    "address_components": [
+      {
+        "long_name": "Av. Revolucion 1025 int 16,17 y 18",
+        "short_name": "",
+        "types": []
+      },
+      {
+        "long_name": "Zona Centro",
+        "short_name": "Zona Centro",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Tijuana",
+        "short_name": "Tijuana",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Baja California",
+        "short_name": "B.C.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "22000",
+        "short_name": "22000",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Revolucion 1025 int 16,17 y 18, Zona Centro, 22000 Tijuana, B.C., México",
+    "geometry": {
+      "location": {
+        "lat": 32.5323528,
+        "lng": -117.0368423
+      },
+      "location_type": "GEOMETRIC_CENTER",
+      "viewport": {
+        "northeast": {
+          "lat": 32.53390503029149,
+          "lng": -117.0353943697085
+        },
+        "southwest": {
+          "lat": 32.5312070697085,
+          "lng": -117.0380923302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 32.5326966,
+          "longitude": -117.0368442
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 32.5323738,
+          "longitude": -117.0367093
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
+      }
+    ],
+    "place_id": "ChIJ1WKek3lJ2YARsMabZwwHZI8",
+    "plus_code": {
+      "compound_code": "GXJ7+W7 Tijuana, B.C., México",
+      "global_code": "8544GXJ7+W7"
+    },
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant"
+    ]
+  },
   "Vicente Asador de Brasa - CDMX, Mayorazgo Higuera 40, Xoco, Benito Juárez, 03330 Ciudad de México, CDMX, Mexico": {
     "address_components": [
       {
@@ -12166,6 +12164,109 @@
     "types": [
       "establishment",
       "point_of_interest"
+    ]
+  },
+  "Instituto Tecnológico Superior de Macuspana, s/n Lerdo de Tejada, Macuspana": {
+    "address_components": [
+      {
+        "long_name": "Avenida Tecnológico",
+        "short_name": "Avenida Tecnológico",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "s/n",
+        "short_name": "s/n",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Lerdo de Tejada",
+        "short_name": "Lerdo de Tejada",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "1ra Secc",
+        "short_name": "1ra Secc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Macuspana",
+        "short_name": "Macuspana",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tabasco",
+        "short_name": "Tab.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "86719",
+        "short_name": "86719",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Avenida Tecnológico, Lerdo de Tejada s/n, 1ra Secc, 86719 Macuspana, Tab., México",
+    "geometry": {
+      "location": {
+        "lat": 17.7774972,
+        "lng": -92.6085243
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 17.7787596802915,
+          "lng": -92.6072965697085
+        },
+        "southwest": {
+          "lat": 17.7760617197085,
+          "lng": -92.6099945302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 17.7773614,
+          "longitude": -92.6087134
+        }
+      }
+    ],
+    "place_id": "ChIJVVVVyMTx7YUR0am8r75I2XU",
+    "plus_code": {
+      "compound_code": "Q9GR+XH Macuspana, Tab., México",
+      "global_code": "7699Q9GR+XH"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "school",
+      "university"
     ]
   }
 }
