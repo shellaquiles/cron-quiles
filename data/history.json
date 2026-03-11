@@ -222,7 +222,7 @@
   },
   {
     "title": "Rust-AICollective|Predictive Neurotechnologies, Criminal Risk and the Future of the Presumption of Innocence|Online",
-    "description": "Get up-to-date information at: https://luma.com/aic-gl-6-3\n\nHosted by AI Collective & 3 others",
+    "description": "Get up-to-date information at: https://luma.com/aic-gl-6-3\n\nHosted by The AI Collective & 3 others",
     "url": "https://luma.com/aic-gl-6-3",
     "sources": [
       {
@@ -248,6 +248,39 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-CORCUTzJrvpRzSw",
     "hash_key": "predictive neurotechnologies criminal ri_2026-06-03T06:00:00+00:00"
+  },
+  {
+    "title": "México City AI, Machine Learning and Computer Vision Meetup|May 20 - Getting Started with FiftyOne|Online",
+    "description": "México City AI, Machine Learning and Computer Vision Meetup\nThis workshop provides a technical foundation for managing large scale computer vision datasets. You will learn to curate, visualize, and evaluate models using the [open source FiftyOne app](https://docs.voxel51.com/).\n\n**Date, Time and Location**\n\nMay 20, 2026\n10 AM PST - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/getting-started-with-fiftyone-may-20-2026)**\n\nThe session covers data ingestion, embedding visualization, and model failure analysis. You will build workflows to identify dataset bias, find annotation errors, and select informative samples for training. Attendees leave with a framework for data centric AI for research and production pipelines, prioritizing data quality over pure model iteration.\n\nWhat you'll learn\n\n* **Structure unstructured data.** Map data and metadata into a queryable schema for images, videos, and point clouds.\n* **Query datasets with the FiftyOne SDK**. Create complex views based on model predictions, labels, and custom tags. Use the FiftyOne to filter data based on logical conditions and confidence scores.\n* **Visualize high dimensional embeddings**. Project features into lower dimensions to find clusters of similar samples. Identify data gaps and outliers using FiftyOne Brain.\n* **Automate data curation.** Implement algorithmic measures to select diverse subsets for training. Reduce labeling costs by prioritizing high entropy samples.\n* **Debug model performance.** Run evaluation routines to generate confusion matrices and precision recall curves. Visualize false positives and false negatives directly in the App to understand model failures.\n* **Customize FiftyOne**. Build custom dashboards and interactive panels. Create specialized views for domain specific tasks.\n\n**Prerequisites:**\n\n* Working knowledge of Python and machine learning and/or computer vision fundamentals.\n* All attendees will get access to the tutorials and code examples used in the workshop.",
+    "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313299039/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313299039/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online",
+    "online": true,
+    "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
+    "dtstart": "2026-05-20T11:00:00-06:00",
+    "dtend": "2026-05-20T12:00:00-06:00",
+    "tags": [
+      "ai",
+      "cloud",
+      "data",
+      "frontend",
+      "python"
+    ],
+    "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "may 20 getting started with fiftyone_2026-05-20T16:00:00+00:00"
   },
   {
     "title": "AI/IA CDMX|El Turista Tiene Alma, el Algoritmo No - The Tourist Has a Soul, the Algorithm D|México|Ciudad de México",
@@ -359,7 +392,7 @@
   },
   {
     "title": "Rust-AICollective|Responsible AI and Data Protection: Aligning Ghana’s Data Protection Act with Emerging AI Use Cases|Online",
-    "description": "Get up-to-date information at: https://luma.com/aidatagh\n\nHosted by AI Collective, Knowledge Innovations & Gen Ai Collective Ghana",
+    "description": "Get up-to-date information at: https://luma.com/aidatagh\n\nHosted by The AI Collective, Knowledge Innovations & Gen Ai Collective Ghana",
     "url": "https://luma.com/aidatagh",
     "sources": [
       {
@@ -389,7 +422,7 @@
   },
   {
     "title": "Rust-AICollective|How AI and Neurotechnology Are Transforming the Workplace|Online",
-    "description": "Get up-to-date information at: https://luma.com/aic-gl-4-27\n\nHosted by AI Collective & 4 others",
+    "description": "Get up-to-date information at: https://luma.com/aic-gl-4-27\n\nHosted by The AI Collective & 4 others",
     "url": "https://luma.com/aic-gl-4-27",
     "sources": [
       {
@@ -851,8 +884,8 @@
     "hash_key": "march 26 advances in ai at northeastern _2026-03-26T16:00:00+00:00"
   },
   {
-    "title": "Rust-AICollective|Women & A.I. Circle  -  From Techxiety to Tech Clarity|Online",
-    "description": "Get up-to-date information at: https://luma.com/iwdpdc\n\nHosted by AI Collective & Gigi George",
+    "title": "Rust-AICollective|Women & A.I. Circle  -  From Techxiety to Tech Clarity.|Online",
+    "description": "Get up-to-date information at: https://luma.com/iwdpdc\n\nHosted by The AI Collective & Gigi George",
     "url": "https://luma.com/iwdpdc",
     "sources": [
       {
@@ -864,8 +897,8 @@
     "location": "https://luma.com/event/evt-f0L9M1SOkWdmmJJ",
     "online": true,
     "organizer": "Rust-AICollective",
-    "dtstart": "2026-03-24T22:00:00+00:00",
-    "dtend": "2026-03-24T23:30:00+00:00",
+    "dtstart": "2026-03-24T23:00:00+00:00",
+    "dtend": "2026-03-25T00:30:00+00:00",
     "tags": [
       "ai"
     ],
@@ -881,7 +914,7 @@
   },
   {
     "title": "Rust-AICollective|Who Owns Your Mind? AI, Neurotechnologies and the Future of Mental Autonomy|Online",
-    "description": "Get up-to-date information at: https://luma.com/aic-gl-3-23\n\nHosted by AI Collective & 4 others",
+    "description": "Get up-to-date information at: https://luma.com/aic-gl-3-23\n\nHosted by The AI Collective & 4 others",
     "url": "https://luma.com/aic-gl-3-23",
     "sources": [
       {
@@ -1035,7 +1068,7 @@
   },
   {
     "title": "Rust-AICollective|AI Literacy Series: The AI  Safety Switch (w/ The AI Collective)|Online",
-    "description": "Get up-to-date information at: https://luma.com/aic-literacy-safety-switch\n\nHosted by AI Collective & Neelima Misra",
+    "description": "Get up-to-date information at: https://luma.com/aic-literacy-safety-switch\n\nHosted by The AI Collective & Neelima Misra",
     "url": "https://luma.com/aic-literacy-safety-switch",
     "sources": [
       {
@@ -1064,7 +1097,7 @@
   },
   {
     "title": "Rust-AICollective|⭕ Women & A.I. Circle LATAM  -  Un espacio para conocernos|Online",
-    "description": "Get up-to-date information at: https://luma.com/aic-latam\n\nHosted by AI Collective & Sthefany Diaz Arias",
+    "description": "Get up-to-date information at: https://luma.com/aic-latam\n\nHosted by The AI Collective & Sthefany Diaz Arias",
     "url": "https://luma.com/aic-latam",
     "sources": [
       {
@@ -1093,7 +1126,7 @@
   },
   {
     "title": "Rust-AICollective|🧠 The AI Collective  -  ⭕ Women & A.I. Circle – Open to Women Worldwide|Online",
-    "description": "Get up-to-date information at: https://luma.com/aic-to-women-in-ai-feb-2026\n\nHosted by AI Collective & Keerthana Mahadevan",
+    "description": "Get up-to-date information at: https://luma.com/aic-to-women-in-ai-feb-2026\n\nHosted by The AI Collective & Keerthana Mahadevan",
     "url": "https://luma.com/aic-to-women-in-ai-feb-2026",
     "sources": [
       {
@@ -1178,7 +1211,7 @@
   },
   {
     "title": "Rust-AICollective|Robots That Build Friendships: AI, Companionship, and New Questions for Society — The Case of Fawn Friends|Online",
-    "description": "Get up-to-date information at: https://luma.com/aic-gl-3-19\n\nHosted by AI Collective & 3 others",
+    "description": "Get up-to-date information at: https://luma.com/aic-gl-3-19\n\nHosted by The AI Collective & 5 others",
     "url": "https://luma.com/aic-gl-3-19",
     "sources": [
       {
@@ -1304,7 +1337,7 @@
   },
   {
     "title": "Rust-AICollective|Prompt Power – AI Collective Rio  -  Edição Mulheres (w/ The AI Collective)|Online",
-    "description": "Get up-to-date information at: https://luma.com/aic-ri-3-11\n\nHosted by AI Collective & 3 others",
+    "description": "Get up-to-date information at: https://luma.com/aic-ri-3-11\n\nHosted by The AI Collective & 3 others",
     "url": "https://luma.com/aic-ri-3-11",
     "sources": [
       {
@@ -1630,6 +1663,33 @@
     "hash_key": "cloud pentesting 101 how to survive in t_2026-03-13T16:00:00+00:00"
   },
   {
+    "title": "HackGDL|Hackeando la IA: Cómo Envenenar las Herramientas que Usan los LLMs|México|Jalisco",
+    "description": "Workshop",
+    "url": "https://www.eventbrite.com.mx/e/hackeando-la-ia-como-envenenar-las-herramientas-que-usan-los-llms-tickets-1984985276396",
+    "sources": [
+      {
+        "platform": "eventbrite",
+        "url": "https://www.eventbrite.com.mx/e/hackeando-la-ia-como-envenenar-las-herramientas-que-usan-los-llms-tickets-1984985276396",
+        "label": "Ver en Eventbrite"
+      }
+    ],
+    "location": "REDi AMG, 1505 Calle Manuel López Cotilla, Guadalajara, JAL",
+    "online": false,
+    "organizer": "HackGDL",
+    "dtstart": "2026-03-13T10:00:00-06:00",
+    "dtend": "2026-03-13T12:00:00-06:00",
+    "tags": [],
+    "source": "Eventbrite",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Jalisco",
+    "state_code": "MX-JAL",
+    "city": "Guadalajara",
+    "city_code": "guadalajara",
+    "address": "C. Manuel López Cotilla 1505, Col Americana, Lafayette, 44160 Guadalajara, Jal., México",
+    "hash_key": "hackeando la ia cmo envenenar las herram_2026-03-13T16:00:00+00:00"
+  },
+  {
     "title": "EPAM|EPAM Tech Talks Torreón|México|Coahuila de Zaragoza",
     "description": "Acompáñanos en nuestras Tech Talks en Torreón para compartir y discutir conocimientos sobre",
     "url": "https://www.eventbrite.com.mx/e/entradas-epam-tech-talks-torreon-1983382549597",
@@ -1716,39 +1776,6 @@
     "city_code": "alvaroobregon",
     "address": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, México",
     "hash_key": "casa frutero coworking frutal 10_2026-03-11T16:00:00+00:00"
-  },
-  {
-    "title": "México City AI, Machine Learning and Computer Vision Meetup|March 11 - Strategies for Validating World Models and Action-Conditioned Video|Online",
-    "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin us for a one hour hands-on workshop where we will explore emerging challenges in developing and validating world foundation models and video-generation AI systems for robotics and autonomous vehicles.\n\n**Time and Location**\n\nMar 11, 2026\n10-11am PST\nOnline, **[Register for the Zoom!](https://voxel51.com/events/debugging-the-future-strategies-for-validating-world-models-and-action-conditioned-video-march)**\n\nIndustries from robotics to autonomous vehicles are converging on world foundation models (WFMs) and action-conditioned video generation, where the challenge is predicting physics, causality, and intent. But this shift has created a massive new bottleneck: validation.\n\nHow do you debug a model that imagines the future? How do you curate petabyte-scale video datasets to capture the \"long tail\" of rare events without drowning in storage costs? And how do you ensure temporal consistency when your training data lives in scattered data lakes?\n\nIn this session, we explore technical workflows for the next generation of Visual AI. We will dissect the \"Video Data Monster,\" demonstrating how to build feedback loops that bridge the gap between generative imagination and physical reality. Learn how leading teams are using federated data strategies and collaborative evaluation to turn video from a storage burden into a structured, queryable asset for embodied intelligence.\n\n*About the Speaker*\n\n[Nick Lotz](https://www.linkedin.com/in/nicholaslotz/) is chemical process engineer-turned-developer who is currently a Technical Marketing Engineer at Voxel51. He is particularly interested in bringing observability and security to all layers of the AI stack.",
-    "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313022944/",
-    "sources": [
-      {
-        "platform": "meetup",
-        "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313022944/",
-        "label": "Ver en Meetup"
-      }
-    ],
-    "location": "Online",
-    "online": true,
-    "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
-    "dtstart": "2026-03-11T11:00:00-06:00",
-    "dtend": "2026-03-11T12:00:00-06:00",
-    "tags": [
-      "ai",
-      "backend",
-      "data",
-      "frontend",
-      "security"
-    ],
-    "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
-    "country": "",
-    "country_code": "",
-    "state": "",
-    "state_code": "",
-    "city": "",
-    "city_code": "",
-    "address": "",
-    "hash_key": "march 11 strategies for validating world_2026-03-11T16:00:00+00:00"
   },
   {
     "title": "Python CDMX|Meetup Marzo 2026  -  Payjoy & PythonCDMX|México|Ciudad de México",
@@ -2039,33 +2066,6 @@
     "hash_key": "fuckup nights x fintech mxico week_2026-02-26T00:00:00+00:00"
   },
   {
-    "title": "Talavera Valley|🔥🚀 Kick Off Talavera Valley Hub  -  EL evento que enciende el ecosistema ✨|México|Puebla",
-    "description": "Get up-to-date information at: https://luma.com/r706j72y\n\nAddress:\nWorkósfera Coworking @ Cerro de La Paz, Puebla\nHeroica Puebla de Zaragoza, Puebla\nMexico\n\nHosted by Talavera Valley",
-    "url": "https://luma.com/r706j72y",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/r706j72y",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Workósfera Coworking @ Cerro de La Paz, Puebla, Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., Mexico",
-    "online": false,
-    "organizer": "Talavera Valley",
-    "dtstart": "2026-02-26T00:00:00+00:00",
-    "dtend": "2026-02-26T02:00:00+00:00",
-    "tags": [],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-KqGqtx1zbUKDXTy",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Puebla",
-    "state_code": "MX-PUE",
-    "city": "Heroica Puebla de Zaragoza",
-    "city_code": "heroicapuebladezaragoza",
-    "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
-    "hash_key": "kick off talavera valley hub el evento q_2026-02-26T00:00:00+00:00"
-  },
-  {
     "title": "FinTech México|Drinks, Not Decks @ Fintech Mexico Week|México|Ciudad de México",
     "description": "Get up-to-date information at: https://luma.com/4hy9286c\n\nAddress:\nbiberón\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Maria Paula Lopera & 4 others",
     "url": "https://luma.com/4hy9286c",
@@ -2091,6 +2091,33 @@
     "city_code": "cdmx",
     "address": "Durango 219, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
     "hash_key": "drinks not decks fintech mexico week_2026-02-26T00:00:00+00:00"
+  },
+  {
+    "title": "Talavera Valley|🔥🚀 Kick Off Talavera Valley Hub  -  EL evento que enciende el ecosistema ✨|México|Puebla",
+    "description": "Get up-to-date information at: https://luma.com/r706j72y\n\nAddress:\nWorkósfera Coworking @ Cerro de La Paz, Puebla\nHeroica Puebla de Zaragoza, Puebla\nMexico\n\nHosted by Talavera Valley",
+    "url": "https://luma.com/r706j72y",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/r706j72y",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Workósfera Coworking @ Cerro de La Paz, Puebla, Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., Mexico",
+    "online": false,
+    "organizer": "Talavera Valley",
+    "dtstart": "2026-02-26T00:00:00+00:00",
+    "dtend": "2026-02-26T02:00:00+00:00",
+    "tags": [],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-KqGqtx1zbUKDXTy",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Puebla",
+    "state_code": "MX-PUE",
+    "city": "Heroica Puebla de Zaragoza",
+    "city_code": "heroicapuebladezaragoza",
+    "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+    "hash_key": "kick off talavera valley hub el evento q_2026-02-26T00:00:00+00:00"
   },
   {
     "title": "FinTech México|Hacia una política pública para la inclusión financiera: Oportunidades y retos para México by Finabien|México|Ciudad de México",
@@ -2288,6 +2315,36 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-gJdCFiMrQ4I5wWp",
     "hash_key": "meetup febrero 2026 clara pythoncdmx_2026-02-25T00:00:00+00:00"
+  },
+  {
+    "title": "FinTech México|Fintech Luncheon Vol.3 by Pygma, AMG Block Ventures  and Morrison Foerster|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/uwjfgnlj\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & Andrés Cano",
+    "url": "https://luma.com/uwjfgnlj",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/uwjfgnlj",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Hipódromo Condesa, Ciudad de México",
+    "online": false,
+    "organizer": "FinTech México",
+    "dtstart": "2026-02-24T19:00:00+00:00",
+    "dtend": "2026-02-24T21:00:00+00:00",
+    "tags": [
+      "ai",
+      "python"
+    ],
+    "source": "https://luma.com/02t893pf",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Hipódromo Condesa, 06170 Ciudad de México, CDMX, México",
+    "hash_key": "fintech luncheon vol 3 by pygma amg bloc_2026-02-24T18:00:00+00:00"
   },
   {
     "title": "FinTech México|Estado del crédito en México y tendencias 2026 by uFlow & Círculo de Credito|México|Ciudad de México",
@@ -6078,7 +6135,7 @@
   },
   {
     "title": "Rust-AICollective|AI Collective Worldwide Launch Party 🚀|Online",
-    "description": "Get up-to-date information at: https://luma.com/aic-global\n\nHosted by AI Collective & 8 others",
+    "description": "Get up-to-date information at: https://luma.com/aic-global\n\nHosted by The AI Collective & 8 others",
     "url": "https://luma.com/aic-global",
     "sources": [
       {
@@ -6279,7 +6336,7 @@
   },
   {
     "title": "Rust-AICollective|AI Fireside Chat 🧠 GenAI Collective x Brett Berhoff 🧠|Online",
-    "description": "Get up-to-date information at: https://luma.com/AIfireside\n\nHosted by AI Collective & ⚡️BRETT BERHOFF⚡️",
+    "description": "Get up-to-date information at: https://luma.com/AIfireside\n\nHosted by The AI Collective & ⚡️BRETT BERHOFF⚡️",
     "url": "https://luma.com/AIfireside",
     "sources": [
       {
@@ -7185,7 +7242,7 @@
   },
   {
     "title": "Rust-AICollective|ONLINE! 🧠 GenAI Collective 🧠 AI Tools & Hacks! 🤖|Online",
-    "description": "Get up-to-date information at: https://luma.com/tools\n\nHosted by AI Collective & 4 others",
+    "description": "Get up-to-date information at: https://luma.com/tools\n\nHosted by The AI Collective & 4 others",
     "url": "https://luma.com/tools",
     "sources": [
       {
@@ -9439,36 +9496,6 @@
     "hash_key": "mxtw transformacin digital para fundador_2024-10-22T14:00:00+00:00"
   },
   {
-    "title": "Mexico Tech Week|Fintech Frenzy Future: Web3 Panel & Burger Lunch|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/vadiMXTW2024\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week & 3 others",
-    "url": "https://luma.com/vadiMXTW2024",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/vadiMXTW2024",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Mexico Tech Week",
-    "dtstart": "2024-10-21T19:00:00+00:00",
-    "dtend": "2024-10-21T22:00:00+00:00",
-    "tags": [
-      "ai",
-      "web"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "fintech frenzy future web3 panel burger _2024-10-21T18:00:00+00:00"
-  },
-  {
     "title": "Mexico Tech Week|Mastering Fundraising: Building a Strong Foundation for Growth|México|Ciudad de México",
     "description": "Get up-to-date information at: https://luma.com/1vedoug6\n\nAddress:\nBBVA\nFloor 33rd\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Mexico Tech Week & Andrea López",
     "url": "https://luma.com/1vedoug6",
@@ -10093,7 +10120,7 @@
   },
   {
     "title": "Rust-AICollective|🧠 The GenAI Collective 🧠 Office Hours 👨‍🏫|Online",
-    "description": "Get up-to-date information at: https://luma.com/0n3ukaid\n\nHosted by AI Collective, Mihir Somaiya & Naomi Chetrit Band",
+    "description": "Get up-to-date information at: https://luma.com/0n3ukaid\n\nHosted by The AI Collective, Mihir Somaiya & Naomi Chetrit Band",
     "url": "https://luma.com/0n3ukaid",
     "sources": [
       {
@@ -10122,7 +10149,7 @@
   },
   {
     "title": "Rust-AICollective|🧠 GenAI Collective x OctoAI 🐙 All About Fine-Tuning LLMs|Online",
-    "description": "Get up-to-date information at: https://luma.com/roundtable-6-25\n\nHosted by AI Collective, OctoAI & Naomi Chetrit Band",
+    "description": "Get up-to-date information at: https://luma.com/roundtable-6-25\n\nHosted by The AI Collective, OctoAI & Naomi Chetrit Band",
     "url": "https://luma.com/roundtable-6-25",
     "sources": [
       {
@@ -10205,7 +10232,7 @@
   },
   {
     "title": "Rust-AICollective|🧠 GenAI Collective 🧠  Community Town Hall 🏛️|Online",
-    "description": "Get up-to-date information at: https://luma.com/4-24\n\nHosted by AI Collective & 3 others",
+    "description": "Get up-to-date information at: https://luma.com/4-24\n\nHosted by The AI Collective & 3 others",
     "url": "https://luma.com/4-24",
     "sources": [
       {
@@ -10261,7 +10288,7 @@
   },
   {
     "title": "Rust-AICollective|🧠 GenAI Collective 🧠  Community Town Hall 🏛️|Online",
-    "description": "Get up-to-date information at: https://luma.com/2-22\n\nHosted by AI Collective & 7 others",
+    "description": "Get up-to-date information at: https://luma.com/2-22\n\nHosted by The AI Collective & 7 others",
     "url": "https://luma.com/2-22",
     "sources": [
       {
@@ -10317,7 +10344,7 @@
   },
   {
     "title": "Rust-AICollective|🧠 GenAI Collective 🧠 Virtual Friendsgiving! 🦃|Online",
-    "description": "Get up-to-date information at: https://luma.com/11-21\n\nHosted by AI Collective & 4 others",
+    "description": "Get up-to-date information at: https://luma.com/11-21\n\nHosted by The AI Collective & 4 others",
     "url": "https://luma.com/11-21",
     "sources": [
       {
@@ -10346,7 +10373,7 @@
   },
   {
     "title": "Rust-AICollective|🧠 GenAI Collective x OctoML 🐙 Builder's Roundtable: Domain Aware LLMs|Online",
-    "description": "Get up-to-date information at: https://luma.com/roundtable-10-26\n\nHosted by AI Collective & OctoAI",
+    "description": "Get up-to-date information at: https://luma.com/roundtable-10-26\n\nHosted by The AI Collective & OctoAI",
     "url": "https://luma.com/roundtable-10-26",
     "sources": [
       {
