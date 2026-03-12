@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-12T12:40:36.038538+00:00",
-  "total_events": 162,
+  "generated_at": "2026-03-12T18:44:02.394856+00:00",
+  "total_events": 163,
   "city": "Online",
   "communities": [
     {
@@ -1030,7 +1030,7 @@
       "state_code": "",
       "city": "",
       "city_code": "",
-      "address": "México",
+      "address": "hosted by mexico tech week",
       "hash_key": "m8l event 2_2024-05-01T08:00:00+00:00"
     },
     {
@@ -1425,6 +1425,35 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-JPlGJsTWuDfNz1f",
       "hash_key": "sesin 5 cmo hacer tu demo_2024-10-11T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Michelin Star Culinary Tour ✴✴✴ CDMX|México|",
+      "description": "Get up-to-date information at: https://luma.com/ux91ykez\n\nAddress:\n\n\nHosted by Mexico Tech Week & Hi Ventures",
+      "url": "https://luma.com/ux91ykez",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/ux91ykez",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "hosted by mexico tech week & hi ventures",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-22T15:00:00+00:00",
+      "dtend": "2024-10-23T04:00:00+00:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "México",
+      "hash_key": "michelin star culinary tour cdmx_2024-10-22T14:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|AI for Devs|Online",
