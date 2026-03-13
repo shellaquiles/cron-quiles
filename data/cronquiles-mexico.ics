@@ -2389,22 +2389,6 @@ LOCATION:https://luma.com/event/evt-O1E8LIYm2GaxY4U
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-O1E8LIYm2GaxY4U
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:EPAM|EPAM Tech Talks Aguascalientes|México|Aguascalientes
-DTSTART:20250604T183000
-DESCRIPTION:Acompáñanos en nuestras Tech Talks en Aguascalientes para co
- mpartir y discutir conocimientos sobre
-LOCATION:Microcervecería La Legendaria\, 788d Boulevard Luis Donaldo Colo
- sio Murrieta\, Aguascalientes\, AGU
-X-CRONQUILES-ADDRESS:Blvd. Luis Donaldo Colosio Murrieta 788d\, Desarrollo
-  Especial Galerías\, 20120 Aguascalientes\, Ags.\, México
-X-CRONQUILES-CITY:Aguascalientes
-X-CRONQUILES-CITY-CODE:aguascalientes
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Aguascalientes
-X-CRONQUILES-STATE-CODE:MX-AGS
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rust-AICollective|AI Collective Worldwide Launch Party 🚀|Online
 DTSTART:20250605T170000Z
 CATEGORIES:ai
@@ -2851,6 +2835,22 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/vhw2j6z1\n\nHo
  sted by Wael Jabir & Nicole DeTommaso
 LOCATION:https://luma.com/event/evt-bCXzW5aarpAQHid
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-bCXzW5aarpAQHid
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:v0 Prompt to Production Mexico City|From Idea to MVP: Construye tu
+  propia app usando AI|México|Ciudad de México
+DTSTART:20250911T230000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/r8rwqnn9\n\nAd
+ dress:\nCheck event page for more details.\n\nHosted by Javier Rivero
+LOCATION:Ciudad de México
+X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Claude Users Group|Build with Claude Code|Online
@@ -4510,24 +4510,6 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/bzhhm85f\n\nAd
 LOCATION:Polanco I Sección\, Mexico City
 X-CRONQUILES-ADDRESS:Polanco\, Polanco I Secc\, 11510 Ciudad de México\, 
  CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FinTech México|Fintech Luncheon Vol.3 by Pygma\, AMG Block Ventur
- es  and Morrison Foerster|México|Ciudad de México
-DTSTART:20260224T190000Z
-CATEGORIES:ai,python
-DESCRIPTION:Get up-to-date information at: https://luma.com/uwjfgnlj\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by FinTech México & 
- Andrés Cano
-LOCATION:Hipódromo Condesa\, Ciudad de México
-X-CRONQUILES-ADDRESS:Hipódromo Condesa\, 06170 Ciudad de México\, CDMX\,
-  México
 X-CRONQUILES-CITY:Ciudad de México
 X-CRONQUILES-CITY-CODE:cdmx
 X-CRONQUILES-COUNTRY:México
