@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-13T12:39:46.009668+00:00",
-  "total_events": 25,
+  "generated_at": "2026-03-14T01:15:38.343033+00:00",
+  "total_events": 24,
   "city": "Jalisco",
   "communities": [
     {
@@ -34,11 +34,6 @@
           "label": "Sitio web"
         }
       ]
-    },
-    {
-      "name": "ClawCon Guadalajara",
-      "description": "ClawCon, surgida de la comunidad OpenClaw y su misión de otorgar poder a las personas y su soberanía sobre la IA personal, es un encuentro abierto y socialmente prioritario; no una conferencia exclusiva para desarrolladores ni una feria comercial corporativa tradicional.",
-      "links": []
     },
     {
       "name": "Mobile Developer Community / Linuxeros Zapopan",
@@ -747,33 +742,6 @@
       "city_code": "guadalajara",
       "address": "Holiday Inn Guadalajara Expo, an IHG Hotel 2500 Avenida Adolfo López Mateos Sur, Zapopan, 45050",
       "hash_key": "kcd guadalajara 2026_2026-04-18T14:00:00+00:00"
-    },
-    {
-      "title": "ClawCon Guadalajara|ClawCon Guadalajara|México|Jalisco",
-      "description": "Get up-to-date information at: https://luma.com/clawconguad\n\nAddress:\nGuadalajara\nGuadalajara, Jalisco\nMexico\n\nHosted by Michael Galpert & 3 others",
-      "url": "https://luma.com/clawconguad",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/clawconguad",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "Guadalajara, Jalisco, Mexico",
-      "online": false,
-      "organizer": "ClawCon Guadalajara",
-      "dtstart": "2026-04-19T00:00:00+00:00",
-      "dtend": "2026-04-19T03:00:00+00:00",
-      "tags": [],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-e5mvjF86anukzOt",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Jalisco",
-      "state_code": "MX-JAL",
-      "city": "Guadalajara",
-      "city_code": "guadalajara",
-      "address": "Guadalajara, Jal., México",
-      "hash_key": "clawcon guadalajara_2026-04-19T00:00:00+00:00"
     }
   ]
 }

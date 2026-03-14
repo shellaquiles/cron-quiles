@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cron-Quiles//ICS Aggregator//EN
+CALSCALE:GREGORIAN
+X-WR-CALDESC:Calendario unificado de eventos tech en Sonora\, México
+X-WR-CALNAME:Eventos Tech Sonora - cronquiles
+X-WR-TIMEZONE:America/Mexico_City
+BEGIN:VEVENT
+SUMMARY:GDG Hermosillo|Introducción a Firebase para Principiantes|México
+ |Sonora
+DTSTART:20260318T100000
+CATEGORIES:frontend
+DESCRIPTION:Esta plática te guiará a través de los conceptos básicos d
+ e Firebase\, la plataforma de desarrollo de aplicaciones de Goo...
+LOCATION:Aviada\, 40 Avenida Doctor Ignacio Pesqueira\, Hermosillo
+X-CRONQUILES-ADDRESS:Av. Dr. Ignacio Pesqueira 40\, El Centenario\, 83260 
+ Hermosillo\, Son.\, México
+X-CRONQUILES-CITY:Hermosillo
+X-CRONQUILES-CITY-CODE:hermosillo
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Sonora
+X-CRONQUILES-STATE-CODE:MX-SON
+END:VEVENT
+END:VCALENDAR
