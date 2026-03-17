@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-16T18:53:35.079198+00:00",
-  "total_events": 177,
+  "generated_at": "2026-03-17T01:19:09.885009+00:00",
+  "total_events": 180,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -26,11 +26,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -80,11 +80,11 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/e17fbtoo",
+          "url": "https://luma.com/sudo_fciencias_2026",
           "label": "Luma"
         }
       ]
@@ -101,13 +101,19 @@
       ]
     },
     {
-      "name": "Vive Codding Cafe",
-      "description": "Un espacio para juntarnos a echar código y compartir lo que estamos descubriendo en el mundo de la IA.",
-      "links": []
+      "name": "v0 Prompt to Production Mexico City",
+      "description": "Evento oficial de v0 (Vercel) en México. AI builders, hackathon global. Hosted by aibuilders.mx (Ciudad de México).",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/fdg8riz2",
+          "label": "Luma"
+        }
+      ]
     },
     {
-      "name": "AI Builders MX",
-      "description": "Comunidad de AI builders en México. Eventos sobre inteligencia artificial, desarrollo y hackathons.",
+      "name": "Vive Codding Cafe",
+      "description": "Un espacio para juntarnos a echar código y compartir lo que estamos descubriendo en el mundo de la IA.",
       "links": []
     },
     {
@@ -2578,6 +2584,35 @@
       "hash_key": "coworking frutal 12_2025-09-10T16:00:00+00:00"
     },
     {
+      "title": "v0 Prompt to Production Mexico City|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/r8rwqnn9\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero",
+      "url": "https://luma.com/r8rwqnn9",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/r8rwqnn9",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "v0 Prompt to Production Mexico City",
+      "dtstart": "2025-09-11T23:00:00+00:00",
+      "dtend": "2025-09-12T02:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/fdg8riz2",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "from idea to mvp construye tu propia app_2025-09-11T22:00:00+00:00"
+    },
+    {
       "title": "Frutero Club|Coworking Frutal #13 🍏|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/lzug9x8c\n\nAddress:\nChez Vous #Timecafé\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Emmanuel Martínez",
       "url": "https://luma.com/lzug9x8c",
@@ -2621,7 +2656,7 @@
       "dtstart": "2025-09-19T22:00:00+00:00",
       "dtend": "2025-09-20T00:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -2675,7 +2710,7 @@
       "dtstart": "2025-09-29T18:00:00+00:00",
       "dtend": "2025-09-29T19:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3319,7 +3354,7 @@
       "dtstart": "2025-11-18T23:00:00+00:00",
       "dtend": "2025-11-19T01:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3828,7 +3863,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4024,7 +4059,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4051,7 +4086,7 @@
       "dtstart": "2026-02-23T17:00:00+00:00",
       "dtend": "2026-02-23T18:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4078,7 +4113,7 @@
       "dtstart": "2026-02-23T18:00:00+00:00",
       "dtend": "2026-02-23T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4105,7 +4140,7 @@
       "dtstart": "2026-02-23T19:00:00+00:00",
       "dtend": "2026-02-23T20:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4135,7 +4170,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4165,7 +4200,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4192,7 +4227,7 @@
       "dtstart": "2026-02-24T00:00:00+00:00",
       "dtend": "2026-02-24T02:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4221,7 +4256,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4250,7 +4285,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4277,7 +4312,7 @@
       "dtstart": "2026-02-24T14:30:00+00:00",
       "dtend": "2026-02-24T16:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4306,7 +4341,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4315,6 +4350,36 @@
       "city_code": "cdmx",
       "address": "Polanco, Polanco I Secc, 11510 Ciudad de México, CDMX, México",
       "hash_key": "estado del crdito en mxico y tendencias _2026-02-24T14:00:00+00:00"
+    },
+    {
+      "title": "FinTech México|Fintech Luncheon Vol.3 by Pygma, AMG Block Ventures  and Morrison Foerster|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/uwjfgnlj\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & Andrés Cano",
+      "url": "https://luma.com/uwjfgnlj",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/uwjfgnlj",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Hipódromo Condesa, Ciudad de México",
+      "online": false,
+      "organizer": "FinTech México",
+      "dtstart": "2026-02-24T19:00:00+00:00",
+      "dtend": "2026-02-24T21:00:00+00:00",
+      "tags": [
+        "ai",
+        "python"
+      ],
+      "source": "https://luma.com/eofagheq",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Hipódromo Condesa, 06170 Ciudad de México, CDMX, México",
+      "hash_key": "fintech luncheon vol 3 by pygma amg bloc_2026-02-24T18:00:00+00:00"
     },
     {
       "title": "This Week in Fintech|Fintech Innovation Call by AWS Startups, Puntored and Sumsub @ Mexico Fintech Week 2026|México|Ciudad de México",
@@ -4362,7 +4427,7 @@
       "dtstart": "2026-02-25T15:00:00+00:00",
       "dtend": "2026-02-25T16:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4418,7 +4483,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4447,7 +4512,7 @@
       "tags": [
         "mobile"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4474,7 +4539,7 @@
       "dtstart": "2026-02-25T22:00:00+00:00",
       "dtend": "2026-02-25T23:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4501,7 +4566,7 @@
       "dtstart": "2026-02-26T00:00:00+00:00",
       "dtend": "2026-02-26T03:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4528,7 +4593,7 @@
       "dtstart": "2026-02-26T01:00:00+00:00",
       "dtend": "2026-02-26T04:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4555,7 +4620,7 @@
       "dtstart": "2026-02-27T15:00:00+00:00",
       "dtend": "2026-02-27T17:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4609,7 +4674,7 @@
       "dtstart": "2026-03-01T17:00:00+00:00",
       "dtend": "2026-03-01T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4669,7 +4734,7 @@
         "cloud",
         "python"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4774,6 +4839,33 @@
       "hash_key": "sin specs no hay paraso no specs no para_2026-03-18T00:00:00+00:00"
     },
     {
+      "title": "Frutero Club|Casa Frutero - Coworking Frutal #11|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/rd58a412\n\nAddress:\nAv. Insurgentes Sur 1877\nÁlvaro Obregón, Ciudad de México\nMexico\n\nHosted by Frutero",
+      "url": "https://luma.com/rd58a412",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/rd58a412",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, Mexico",
+      "online": false,
+      "organizer": "Frutero Club",
+      "dtstart": "2026-03-18T17:00:00+00:00",
+      "dtend": "2026-03-19T02:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Álvaro Obregón",
+      "city_code": "alvaroobregon",
+      "address": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, México",
+      "hash_key": "casa frutero coworking frutal 11_2026-03-18T16:00:00+00:00"
+    },
+    {
       "title": "Product Management Society | CDMX Chapter| CDMX Chapter|México|Ciudad de México",
       "description": "Product Management Society | CDMX Chapter\n**Llamando a toda la comunidad de Producto!** Estamos reuniendo a PMs, founders, diseñadores, mercadólogos e ingenieros para una tarde relajada de networking. Si estás en el mundo del producto o quieres empezar en él, ¡ven a conectar con tu comunidad!\n\n**¿Qué puedes esperar?**\n**Dinámicas rompehielos:** Te ayudaremos a saltarte las típicas pláticas incómodas para empezar conversaciones interesantes y valiosas sin esfuerzo. **Networking relajado:** Un formato sin presiones para convivir, compartir ideas y hacer crecer tu red de contactos. **Un ambiente súper amigable:** ¡Cualquiera con interés en Producto es bienvenido! Habrá una gran mezcla de perfiles y asistentes que hablan tanto inglés como español. :)\n\n* **Síguenos en LinkedIn:** [https://www.linkedin.com/company/product-management-society/](https://www.linkedin.com/company/product-management-society/)\n* **Únete a nuestro canal de Slack:** [https://join.slack.com/t/product-mgmt-society/shared_invite/zt-2t477uzhc-0RWKnexUEQLmjlymeZ3_bg](https://join.slack.com/t/product-mgmt-society/shared_invite/zt-2t477uzhc-0RWKnexUEQLmjlymeZ3_bg)\n* **Suscríbete a nuestro blog:** [https://blog.productmanagementsociety.com/](https://blog.productmanagementsociety.com/)\n* **Conecta con la fundadora:** [https://www.linkedin.com/in/gabrielanaumnik?utm_source=share_via&utm_content=profile&utm_medium=memb](https://www.linkedin.com/in/gabrielanaumnik?utm_source=share_via&utm_content=profile&utm_medium=memb)\n\n***\n\n**Calling all Product People!** We're bringing together PMs, founders, designers, marketers, and engineers for a relaxed evening of networking. If you're in the product world or want to be, come connect with your community!\n\n**What to expect:**\n**Interactive Icebreakers:** We’ll help you bypass the awkward small talk and start meaningful conversations effortlessly. **Relaxed Networking:** A low-pressure format to mingle, share ideas, and build your network. **A Welcoming Crowd:** Anyone interested in Product is welcome! Expect a great mix of roles and both English and Spanish speakers. :)\n\n* **Follow us on LinkedIn:** [https://www.linkedin.com/company/product-management-society/](https://www.linkedin.com/company/product-management-society/)\n* **Join our Slack channel:** [https://join.slack.com/t/product-mgmt-society/shared_invite/zt-2t477uzhc-0RWKnexUEQLmjlymeZ3_bg](https://join.slack.com/t/product-mgmt-society/shared_invite/zt-2t477uzhc-0RWKnexUEQLmjlymeZ3_bg)\n* **Subscribe to our blog:** [https://blog.productmanagementsociety.com/](https://blog.productmanagementsociety.com/)\n* **Connect with the Founder:** [https://www.linkedin.com/in/gabrielanaumnik?utm_source=share_via&utm_content=profile&utm_medium=memb](https://www.linkedin.com/in/gabrielanaumnik?utm_source=share_via&utm_content=profile&utm_medium=memb)",
       "url": "https://www.meetup.com/product-management-society-cdmx-chapter/events/313725782/",
@@ -4805,7 +4897,7 @@
       "hash_key": "cdmx chapter_2026-03-27T00:00:00+00:00"
     },
     {
-      "title": "AI Builders MX|OpenAI Codex – Mexico City|México|Ciudad de México",
+      "title": "v0 Prompt to Production Mexico City|OpenAI Codex – Mexico City|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/suipk589\n\nAddress:\nPlaza Carso\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/suipk589",
       "sources": [
@@ -4817,14 +4909,14 @@
       ],
       "location": "Plaza Carso, Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, Mexico",
       "online": false,
-      "organizer": "AI Builders MX",
+      "organizer": "v0 Prompt to Production Mexico City",
       "dtstart": "2026-04-08T23:00:00+00:00",
       "dtend": "2026-04-09T02:00:00+00:00",
       "tags": [
         "ai",
         "frontend"
       ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+      "source": "https://luma.com/fdg8riz2",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4887,7 +4979,7 @@
       "dtstart": "2026-04-23T15:00:00+00:00",
       "dtend": "2026-04-23T21:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
