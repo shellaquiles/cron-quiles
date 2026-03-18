@@ -227,23 +227,6 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mexico Tech Week|Fintech Feast:  Luncheon with Pygma\, Mastercard\
- , Google & This Week in Fintech|México|Ciudad de México
-DTSTART:20241021T210000Z
-CATEGORIES:ai,python
-DESCRIPTION:Get up-to-date information at: https://luma.com/8o2qc0sg\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week\,
-  Andrés Cano & Jorge Gonzalez Soler
-LOCATION:Ciudad de México
-X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|M
  éxico|Ciudad de México
 DTSTART:20241022T143000Z
@@ -2802,42 +2785,6 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FinTech México|Futuro de Pagos entre Cortes by tapi|México|Ciuda
- d de México
-DTSTART:20260224T203000Z
-CATEGORIES:ai,backend
-DESCRIPTION:Get up-to-date information at: https://luma.com/robjv7n2\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by FinTech México & 
- 3 others
-LOCATION:Chapultepec Morales\, Ciudad de México
-X-CRONQUILES-ADDRESS:Chapultepec Morales\, Polanco V Secc\, Ciudad de Méx
- ico\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FinTech México|AML & Financial Crime Intelligence by  IKIEXPERTS|
- México|Ciudad de México
-DTSTART:20260224T223000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/qr2wspo0\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by FinTech México\, 
- JOSE ESPIRITU & Erika Postel
-LOCATION:Colonia Cuauhtémoc\, Ciudad de México
-X-CRONQUILES-ADDRESS:Cuauhtémoc\, 06500 Ciudad de México\, CDMX\, Méxic
- o
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:This Week in Fintech|Fintech Innovation Call by AWS Startups\, Pun
  tored and Sumsub @ Mexico Fintech Week 2026|México|Ciudad de México
 DTSTART:20260225T143000Z
@@ -3124,82 +3071,13 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|Sin Specs No Hay Paraíso - No Specs No Paradise|Méxic
  o|Ciudad de México
-DTSTART:20260317T180000
-CATEGORIES:ai,frontend,mobile,security
-DESCRIPTION:AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nSpani
- sh with live English subtitles\nEste evento será en español con subtítu
- los en inglés en vivo.\n\\*\\*Presencial y en vivo en YouTube/In-person a
- nd live on YouTube:\\*\\*\nhttps://www.youtube.com/@AICDMX\n\nEnglish Vers
- ion Below\n\n6:00 p.m. Apertura y registro\n6:30 p.m. Arranca la conversac
- ión\n7:15 p.m. Preguntas y respuestas con el público\n7:30 p.m. Networki
- ng\n8:00–9:30 p.m. After party en un lugar cercano (a 5 min caminando\; 
- hay\nespacio interior/exterior\, trae chamarra y zapatos para comer y bebe
- r)\n\n"Hagamos un chatbot" se convirtió en el nuevo "ponle blockchain." C
- ualquier problema\, cualquier producto\, cualquier idea a medio cocinar. P
- onle una caja de texto\, conéctale un LLM y llámale innovación. ¿El re
- sultado? Interfaces flojas\, prompts ambiguos y wrappers caros generando t
- exto sin ningún criterio real. Mucha AI\, cero producto.\n\nPedro Ortiz h
- a construido su carrera en la intersección de machine learning y producto
- \, y viene a decir lo que muchos ya piensan: el problema nunca fue el mode
- lo. Fue la falta de intención. Cuando todo es un prompt\, nada está real
- mente diseñado. Y seguimos llamándole innovación mientras le dejamos al
-  usuario la responsabilidad de saber qué preguntar.\n\nEsta charla avanza
-  hacia una idea más incómoda: construir AI products\, no chatbots. Produ
- ctos donde la AI no conversa por convivir\, sino que está integrada en fl
- ujos\, decisiones e interfaces que sí resuelven algo. En el camino aparec
- en el vibe coding y los coding agents\, la promesa de velocidad absurda y 
- de que una sola persona construya lo que antes requería un equipo entero.
-  Spoiler: funciona… hasta que no.\n\nPorque hay una ley inquebrantable: 
- trash in\, trash out. Un LLM puede escribir código limpio\, modular y ele
- gante\, o puede generar el espagueti más sofisticado jamás visto. Todo d
- epende de la claridad del pensamiento detrás. Sin arquitectura\, sin crit
- erio y sin buenas specs\, la AI no acelera el desarrollo: acelera el caos.
- \n\n\\#\\# Vamos a explorar\n\n• \\*\\*Por qué la mayoría de los AI pr
- oducts son solo wrappers caros\\*\\* y qué los separa de productos que re
- almente funcionan\n\n• \\*\\*Vibe coding: ¿superpoder o trampa?\\*\\* Q
- ué pasa cuando la velocidad supera al diseño\, y por qué pensar en spec
- s importa más que nunca\n\n• \\*\\*El terreno cambiante para ingenieros
- .\\*\\* Si una persona ahora puede hacer el trabajo de un equipo\, ¿qué 
- significa eso para los roles junior\, las expectativas y las habilidades q
- ue realmente importan?\n\n• \\*\\*Fundamentos sobre frameworks.\\*\\* Po
- r qué principios sólidos\, pensamiento de producto y specs claras le gan
- an a saberse el framework de moda\n\n\\#\\# Sobre Pedro\nhttps://www.linke
- din.com/in/pomx/\nPedro Ortiz · Machine Learning Engineer\, GBM\n\n\\*\\*
- Schedule\\*\\*\n6:00 p.m. Doors & check-in\n6:30 p.m. Conversation begins\
- n7:15 p.m. Audience Q&A\n7:30 p.m. Networking\n8:00–9:30 p.m. After part
- y at a nearby spot (5 min walk\; indoor/outdoor\, bring a jacket and your 
- drinking/eating shoes)\n\n"Let's just make a chatbot" became the new "put 
- it on the blockchain." Every problem\, every product\, every half-baked id
- ea. Slap a text box on it\, wire up an LLM\, and call it innovation. The r
- esult? Lazy interfaces\, vague prompts\, and expensive wrappers generating
-  text with no real purpose. Lots of AI\, zero product.\n\nPedro Ortiz has 
- spent his career at the intersection of machine learning and product\, and
-  he's here to say what many are thinking: the problem was never the model.
-  It was the lack of intention. When everything is a prompt\, nothing is tr
- uly designed. And we keep calling it innovation while leaving users to fig
- ure out what to ask.\n\nThis talk moves toward a more uncomfortable idea: 
- building AI products\, not chatbots. Products where AI isn't conversing fo
- r the sake of it\, but integrated into flows\, decisions\, and interfaces 
- that actually solve something. Along the way\, we'll confront vibe coding 
- and coding agents\, the promise of absurd speed and one-person teams shipp
- ing what used to take ten. Spoiler: it works... until it doesn't.\n\nBecau
- se one law remains unbreakable: trash in\, trash out. An LLM can write cle
- an\, modular\, elegant code\, or generate the most sophisticated spaghetti
-  ever seen. It all depends on the clarity of the thinking behind it. Witho
- ut architecture\, without criteria\, without solid specs\, AI doesn't acce
- lerate development. It accelerates chaos.\n\n\\#\\# We'll explore\n\n• \
- \*\\*Why most AI products are just expensive wrappers\\*\\* and what separ
- ates them from products that actually work\n\n• \\*\\*Vibe coding: super
- power or trap?\\*\\* What happens when speed outpaces design\, and why spe
- c-driven thinking matters more than ever\n\n• \\*\\*The shifting ground 
- for engineers.\\*\\* If one person can now do the work of a team\, what do
- es that mean for junior roles\, expectations\, and the skills that actuall
- y matter?\n\n• \\*\\*Foundations over frameworks.\\*\\* Why solid princi
- ples\, product thinking\, and clear specs beat knowing the trendy library 
- of the month\n\n\\#\\# About Pedro\nhttps://www.linkedin.com/in/pomx/\nPed
- ro Ortiz · Machine Learning Engineer\, GBM
-LOCATION:Casa Rafael Galván\, Zacatecas 94\, Col Roma Norte\,\, Mexico Ci
- ty\, Mexico City
+DTSTART:20260318T000000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/owb7324u\n\nAd
+ dress:\nCasa Rafael Galvan\nCiudad de México\, Ciudad de México\nMexico\
+ n\nHosted by Ben AI CDMX
+LOCATION:Casa Rafael Galvan\, Zacatecas 94\, Roma Nte.\, Cuauhtémoc\, 067
+ 00 Ciudad de México\, CDMX\, Mexico
 X-CRONQUILES-ADDRESS:Zacatecas 94\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad
   de México\, CDMX\, México
 X-CRONQUILES-CITY:Ciudad de México
@@ -3210,8 +3088,8 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Frutero Club|Casa Frutero - Coworking Frutal #11|México|Ciudad de
-  México
+SUMMARY:Frutero Club|Coworking Frutal #11 - Synthesis Hackathon CDMX|Méxi
+ co|Ciudad de México
 DTSTART:20260318T170000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/rd58a412\n\nAd
  dress:\nAv. Insurgentes Sur 1877\nÁlvaro Obregón\, Ciudad de México\nMe
@@ -3284,8 +3162,8 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|OpenAI Codex – Mexico City|M
- éxico|Ciudad de México
+SUMMARY:AI Builders MX|OpenAI Codex – Mexico City|México|Ciudad de Méx
+ ico
 DTSTART:20260408T230000Z
 CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/suipk589\n\nAd
