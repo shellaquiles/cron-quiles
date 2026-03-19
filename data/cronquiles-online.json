@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-19T01:22:40.186088+00:00",
-  "total_events": 163,
+  "generated_at": "2026-03-19T06:49:34.235399+00:00",
+  "total_events": 164,
   "city": "Online",
   "communities": [
     {
@@ -72,6 +72,17 @@
       "name": "Python CDMX",
       "description": "Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles.",
       "links": []
+    },
+    {
+      "name": "Pythonista",
+      "description": "Una de las comunidades de Python más grandes y activas de México. Charlas y talleres para todos los niveles.",
+      "links": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/pythonista",
+          "label": "Meetup"
+        }
+      ]
     },
     {
       "name": "Rust-AICollective",
@@ -4476,6 +4487,38 @@
       "city_code": "",
       "address": "",
       "hash_key": "april 2 ai ml and computer vision meetup_2026-04-02T16:00:00+00:00"
+    },
+    {
+      "title": "Pythonista|Introducción a la Programación con Python|Online",
+      "description": "Pythonista®\n## 🐍 Taller: Introducción a la Programación con Python\n\n¿Quieres aprender Python desde cero con una base sólida y profesional? Únete a este taller práctico de 24 horas donde irás desde los fundamentos del lenguaje hasta la creación de programas completos, código modular y gestión de entornos virtuales como lo hacen los desarrolladores en la industria.\nNo necesitas experiencia previa en programación — solo ganas de aprender y una conexión a Internet.\n💰 Precio del Taller\n\n* Precio regular: $23.50 USD\n* 🎁 **Precio especial Meetup:** **$18.00** USD (Solo para los primeros 25 inscritos)\n\n📅 Detalles del Evento\n\n* Fechas: Del 6 al 23 de abril.\n* Sesiones: Lunes a jueves (12 sesiones en total).\n* Horario: 18:30 a 20:30 horas (CST - CDMX).\n* Modalidad: Online en vivo (incluye acceso a grabaciones y notebooks ejecutables).\n\n🛠️ ¿Qué aprenderás?\nEl taller está dividido en 6 módulos progresivos:\n\n1. **Primeros Pasos:** Entorno de trabajo con IPython/Jupyter, sintaxis básica de Python, introspección y ayuda.\n2. **Datos y Operaciones Básicas:** Tipos de datos, colecciones, conversión de tipos y operadores.\n3. **Control de Flujo:** Condicionales, ciclos, iteraciones y entrada/salida estándar.\n4. **Funciones y Tipos Estructurados:** Funciones, listas, tuplas, strings, f-strings, diccionarios y conjuntos.\n5. **Programación Avanzada:** Programación funcional, match/case, excepciones, iteradores, generadores y comprehensions.\n6. **I/O y Modularización:** Lectura/escritura de archivos, módulos, paquetes, distribución de código y entornos virtuales.\n\n📋 Requisitos\n\n* No se requieren conocimientos previos de programación.\n* Acceso estable a Internet.\n* Cuenta de GitHub (trabajaremos en la nube con Codespaces).\n* Cuenta de Google (las evaluaciones se realizan en Google Classroom).\n\n🎓 Certificación\nSe otorgará un diploma a quienes aprueben cada evaluación con al menos 70% de aciertos y hayan asistido al mínimo al 80% de las sesiones.\n🔗 Cómo inscribirse\n\n1. Realiza tu pago con el descuento de Meetup aquí.\n2. Una vez realizado, completa tu registro oficial en: [https://forms.gle/GiBpy5jMyrzPwtHw7](https://forms.gle/GiBpy5jMyrzPwtHw7)\n\n¡Corre! El cupo para el descuento de $18.00 USD es limitado a los primeros 25.\n¿Dudas? Escríbenos a [contacto@pythonista.io](mailto:contacto@pythonista.io)",
+      "url": "https://www.meetup.com/pythonista/events/313845096/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/pythonista/events/313845096/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "Pythonista",
+      "dtstart": "2026-04-06T18:30:00-06:00",
+      "dtend": "2026-04-06T20:30:00-06:00",
+      "tags": [
+        "ai",
+        "frontend",
+        "mobile",
+        "python"
+      ],
+      "source": "https://www.meetup.com/pythonista/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "introduccin a la programacin con python_2026-04-07T00:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|April 8 - Getting Started with FiftyOne|Online",

@@ -795,6 +795,38 @@
     "hash_key": "april 8 getting started with fiftyone_2026-04-08T16:00:00+00:00"
   },
   {
+    "title": "Pythonista|Introducción a la Programación con Python|Online",
+    "description": "Pythonista®\n## 🐍 Taller: Introducción a la Programación con Python\n\n¿Quieres aprender Python desde cero con una base sólida y profesional? Únete a este taller práctico de 24 horas donde irás desde los fundamentos del lenguaje hasta la creación de programas completos, código modular y gestión de entornos virtuales como lo hacen los desarrolladores en la industria.\nNo necesitas experiencia previa en programación — solo ganas de aprender y una conexión a Internet.\n💰 Precio del Taller\n\n* Precio regular: $23.50 USD\n* 🎁 **Precio especial Meetup:** **$18.00** USD (Solo para los primeros 25 inscritos)\n\n📅 Detalles del Evento\n\n* Fechas: Del 6 al 23 de abril.\n* Sesiones: Lunes a jueves (12 sesiones en total).\n* Horario: 18:30 a 20:30 horas (CST - CDMX).\n* Modalidad: Online en vivo (incluye acceso a grabaciones y notebooks ejecutables).\n\n🛠️ ¿Qué aprenderás?\nEl taller está dividido en 6 módulos progresivos:\n\n1. **Primeros Pasos:** Entorno de trabajo con IPython/Jupyter, sintaxis básica de Python, introspección y ayuda.\n2. **Datos y Operaciones Básicas:** Tipos de datos, colecciones, conversión de tipos y operadores.\n3. **Control de Flujo:** Condicionales, ciclos, iteraciones y entrada/salida estándar.\n4. **Funciones y Tipos Estructurados:** Funciones, listas, tuplas, strings, f-strings, diccionarios y conjuntos.\n5. **Programación Avanzada:** Programación funcional, match/case, excepciones, iteradores, generadores y comprehensions.\n6. **I/O y Modularización:** Lectura/escritura de archivos, módulos, paquetes, distribución de código y entornos virtuales.\n\n📋 Requisitos\n\n* No se requieren conocimientos previos de programación.\n* Acceso estable a Internet.\n* Cuenta de GitHub (trabajaremos en la nube con Codespaces).\n* Cuenta de Google (las evaluaciones se realizan en Google Classroom).\n\n🎓 Certificación\nSe otorgará un diploma a quienes aprueben cada evaluación con al menos 70% de aciertos y hayan asistido al mínimo al 80% de las sesiones.\n🔗 Cómo inscribirse\n\n1. Realiza tu pago con el descuento de Meetup aquí.\n2. Una vez realizado, completa tu registro oficial en: [https://forms.gle/GiBpy5jMyrzPwtHw7](https://forms.gle/GiBpy5jMyrzPwtHw7)\n\n¡Corre! El cupo para el descuento de $18.00 USD es limitado a los primeros 25.\n¿Dudas? Escríbenos a [contacto@pythonista.io](mailto:contacto@pythonista.io)",
+    "url": "https://www.meetup.com/pythonista/events/313845096/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/pythonista/events/313845096/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online",
+    "online": true,
+    "organizer": "Pythonista",
+    "dtstart": "2026-04-06T18:30:00-06:00",
+    "dtend": "2026-04-06T20:30:00-06:00",
+    "tags": [
+      "ai",
+      "frontend",
+      "mobile",
+      "python"
+    ],
+    "source": "https://www.meetup.com/pythonista/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "introduccin a la programacin con python_2026-04-07T00:00:00+00:00"
+  },
+  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|April 2 - AI, ML and Computer Vision Meetup|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual Meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.\n\n**Date, Time and Location**\n\nApr 2, 2026\n9 - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-april-2-2026)**\n\n**Async Agents in Production: Failure Modes and Fixes**\n\nAs models improve, we are starting to build long-running, asynchronous agents such as deep research agents and browser agents that can execute multi-step workflows autonomously. These systems unlock new use cases, but they fail in ways that short-lived agents do not.\n\nThe longer an agent runs, the more early mistakes compound, and the more token usage grows through extended reasoning, retries, and tool calls. Patterns that work for request-response agents often break down, leading to unreliable behaviour and unpredictable costs.\n\nThis talk is aimed at use case developers, with secondary relevance for platform engineers. It covers the most common failure modes in async agents and practical design patterns for reducing error compounding and keeping token costs bounded in production.\n\n*About the Speaker*\n\n[Meryem Arik](https://www.linkedin.com/in/meryemarik/) is the co-founder and CEO of Doubleword, where she works on large-scale LLM inference and production AI systems. She studied theoretical physics and philosophy at the University of Oxford. Meryem is a frequent conference speaker, including a TEDx speaker and a four-time highly rated speaker at QCon conferences. She was named to the Forbes 30 Under 30 list for her work in AI infrastructure.\n\n**Visual AI at the Edge: Beyond the Model**\n\nEdge-based visual AI promises low latency, privacy, and real-time decision-making, but many projects struggle to move beyond successful demos. This talk explores what deploying visual AI at the edge really involves, shifting the focus from models to complete, operational systems. We will discuss common pitfalls teams encounter when moving from lab to field. Attendees will leave with a practical mental model for approaching edge vision projects more effectively.\n\n*About the Speaker*\n\n[David Moser](https://www.linkedin.com/in/david-moser-dm/) is an AI/Computer Vision expert and Founding Engineer with a strong track record of building and deploying safety-critical visual AI systems in real-world environments. As Co-Founder of Orella Vision, he is building Visual AI for Autonomy on the Edge - going from data and models to production-grade edge deployments.\n\n**Sanitizing Evaluation Datasets: From Detection to Correction**\n\nWe generally accept that gold standard evaluation sets contain label noise, yet we rarely fix them because the engineering friction is too high. This talk presents a workflow to operationalize ground-truth auditing. We will demonstrate how to bridge the gap between algorithmic error detection and manual rectification. Specifically, we will show how to inspect discordant ground truth labels and correct them directly in-situ. The goal is to move to a fully trusted end-to-end evaluation pipeline.\n\n*About the Speaker*\n\n[Nick Lotz](https://www.linkedin.com/in/nicholaslotz) is an engineer on the Voxel51 community team. With a background in open source infrastructure and a passion for developer enablement, Nick focuses on helping teams understand their tools and how to use them to ship faster.\n\n**Building enterprise agentic systems that scale**\n\nBuilding AI agents that work in demos is easy, building true assistants that make people genuinely productive takes a different set of patterns. This talk shares lessons from a multi-agent system at Cisco used by 2,000+ sellers daily, where we moved past \"chat with your data\" to encoding business workflows into true agentic systems people actually rely on to get work done.\n\nWe'll cover multi-agent orchestration patterns for complex workflows, the personalization and productivity features that drive adoption, and the enterprise foundations that helped us earn user trust at scale. You'll leave with an architecture and set of patterns that have been battle tested at enterprise scale.\n\n*About the Speaker*\n\n[Aman Sardana](https://www.linkedin.com/in/amansardana/) is a Senior Engineering Architect at Cisco, I lead the design and deployment of enterprise AI systems that blend LLMs, data infrastructure, and customer experience to solve high‑stakes, real-world problems at scale. I’m also an open-source contributor and active mentor in the AI community, helping teams move from AI experimentation to reliable agentic applications in production.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313081560/",
@@ -912,36 +944,6 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-jt5V4yxPYdBrFqY",
     "hash_key": "ai education ai agent memory system work_2026-03-27T14:00:00+00:00"
-  },
-  {
-    "title": "Java Mexico|Desarrollo de Aplicaciones Cloud Native usando Dapr y Testcontainers|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/0fk7og78\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Benek, Eduardo Zarate Mejia & Clara Community",
-    "url": "https://luma.com/0fk7og78",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/0fk7og78",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Roma Norte, Ciudad de México",
-    "online": false,
-    "organizer": "Java Mexico",
-    "dtstart": "2026-03-27T00:30:00+00:00",
-    "dtend": "2026-03-27T04:00:00+00:00",
-    "tags": [
-      "ai",
-      "cloud"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Roma Nte., 06700 Ciudad de México, CDMX, México",
-    "hash_key": "desarrollo de aplicaciones cloud native _2026-03-27T00:00:00+00:00"
   },
   {
     "title": "Rust-AICollective|AI Education  -  From Workflow to AI Agent: A Live Build Session with MuleRun|Online",
@@ -2240,33 +2242,6 @@
     "hash_key": "fuckup nights x fintech mxico week_2026-02-26T00:00:00+00:00"
   },
   {
-    "title": "FinTech México|Drinks, Not Decks @ Fintech Mexico Week|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/4hy9286c\n\nAddress:\nbiberón\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Maria Paula Lopera & 4 others",
-    "url": "https://luma.com/4hy9286c",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/4hy9286c",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "biberón, Durango 219, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
-    "online": false,
-    "organizer": "FinTech México",
-    "dtstart": "2026-02-26T00:00:00+00:00",
-    "dtend": "2026-02-26T03:00:00+00:00",
-    "tags": [],
-    "source": "https://luma.com/02t893pf",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Durango 219, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
-    "hash_key": "drinks not decks fintech mexico week_2026-02-26T00:00:00+00:00"
-  },
-  {
     "title": "Talavera Valley|🔥🚀 Kick Off Talavera Valley Hub  -  EL evento que enciende el ecosistema ✨|México|Puebla",
     "description": "Get up-to-date information at: https://luma.com/r706j72y\n\nAddress:\nWorkósfera Coworking @ Cerro de La Paz, Puebla\nHeroica Puebla de Zaragoza, Puebla\nMexico\n\nHosted by Talavera Valley",
     "url": "https://luma.com/r706j72y",
@@ -2292,6 +2267,33 @@
     "city_code": "heroicapuebladezaragoza",
     "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
     "hash_key": "kick off talavera valley hub el evento q_2026-02-26T00:00:00+00:00"
+  },
+  {
+    "title": "FinTech México|Drinks, Not Decks @ Fintech Mexico Week|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/4hy9286c\n\nAddress:\nbiberón\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Maria Paula Lopera & 4 others",
+    "url": "https://luma.com/4hy9286c",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/4hy9286c",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "biberón, Durango 219, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+    "online": false,
+    "organizer": "FinTech México",
+    "dtstart": "2026-02-26T00:00:00+00:00",
+    "dtend": "2026-02-26T03:00:00+00:00",
+    "tags": [],
+    "source": "https://luma.com/02t893pf",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Durango 219, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+    "hash_key": "drinks not decks fintech mexico week_2026-02-26T00:00:00+00:00"
   },
   {
     "title": "FinTech México|Hacia una política pública para la inclusión financiera: Oportunidades y retos para México by Finabien|México|Ciudad de México",
@@ -2489,65 +2491,6 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-gJdCFiMrQ4I5wWp",
     "hash_key": "meetup febrero 2026 clara pythoncdmx_2026-02-25T00:00:00+00:00"
-  },
-  {
-    "title": "FinTech México|AML & Financial Crime Intelligence by  IKIEXPERTS|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/qr2wspo0\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México, JOSE ESPIRITU & Erika Postel",
-    "url": "https://luma.com/qr2wspo0",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/qr2wspo0",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Colonia Cuauhtémoc, Ciudad de México",
-    "online": false,
-    "organizer": "FinTech México",
-    "dtstart": "2026-02-24T22:30:00+00:00",
-    "dtend": "2026-02-25T01:30:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://luma.com/02t893pf",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
-    "hash_key": "aml financial crime intelligence by ikie_2026-02-24T22:00:00+00:00"
-  },
-  {
-    "title": "FinTech México|Futuro de Pagos entre Cortes by tapi|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/robjv7n2\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & 3 others",
-    "url": "https://luma.com/robjv7n2",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/robjv7n2",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Chapultepec Morales, Ciudad de México",
-    "online": false,
-    "organizer": "FinTech México",
-    "dtstart": "2026-02-24T20:30:00+00:00",
-    "dtend": "2026-02-24T23:00:00+00:00",
-    "tags": [
-      "ai",
-      "backend"
-    ],
-    "source": "https://luma.com/02t893pf",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Chapultepec Morales, Polanco V Secc, Ciudad de México, CDMX, México",
-    "hash_key": "futuro de pagos entre cortes by tapi_2026-02-24T20:00:00+00:00"
   },
   {
     "title": "FinTech México|Fintech Luncheon Vol.3 by Pygma, AMG Block Ventures  and Morrison Foerster|México|Ciudad de México",
@@ -3407,35 +3350,6 @@
     "hash_key": "casa frutero coworking frutal 5_2026-02-04T16:00:00+00:00"
   },
   {
-    "title": "v0 Prompt to Production Mexico City|v0 Prompt to Production – Mexico City|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/fdg8riz2\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero & Ben Kim",
-    "url": "https://luma.com/fdg8riz2",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/fdg8riz2",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Hipódromo, Ciudad de México",
-    "online": false,
-    "organizer": "v0 Prompt to Production Mexico City",
-    "dtstart": "2026-01-31T15:00:00+00:00",
-    "dtend": "2026-01-31T18:30:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://luma.com/fdg8riz2",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Hipódromo, 06100 Ciudad de México, CDMX, México",
-    "hash_key": "v0 prompt to production mexico city_2026-01-31T14:00:00+00:00"
-  },
-  {
     "title": "Pythonistas GDL|Personalización de LLMs y CLIs en Python|México|Jalisco",
     "description": "<ul><li><p style=\"margin:0.5em 0px;\">🚪 Recepción a partir de las 6:30</p></li><li><p style=\"margin:0.5em 0px;\">⏰ Evento 7:00</p></li><li><p style=\"margin:0.5em 0px;\">🗣️ Creando una CLI en Python <br /><em>¿Para qué?</em><br /><strong>Por Patricio Páez</strong></p></li><li><p style=\"margin:0.5em 0px;\">🗣️ Técnicas para personalizar LLMs<br /><em>Más allá del prompt</em><br /><strong>Por Dario Flores</strong></p></li><li><p style=\"margin:0.5em 0px;\">🪩 Networking </p></li></ul>",
     "url": "https://reuniones.pythonistas-gdl.org/event/1/personalizacion-de-llms-y-clis-en-python",
@@ -3490,35 +3404,6 @@
     "city_code": "alvaroobregon",
     "address": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, México",
     "hash_key": "coworking frutal work and chill 1_2026-01-30T16:00:00+00:00"
-  },
-  {
-    "title": "Java Mexico|30 Años Programando: Lecciones Aprendidas  -  Por Enrique Zamudio|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/ksvsiu3v\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Benek & Eduardo Zarate Mejia",
-    "url": "https://luma.com/ksvsiu3v",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/ksvsiu3v",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Juárez, Ciudad de México",
-    "online": false,
-    "organizer": "Java Mexico",
-    "dtstart": "2026-01-29T00:30:00+00:00",
-    "dtend": "2026-01-29T04:00:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Juárez, 06600 Ciudad de México, CDMX, México",
-    "hash_key": "30 aos programando lecciones aprendidas _2026-01-29T00:00:00+00:00"
   },
   {
     "title": "v0 Prompt to Production Mexico City|Diseña usando AI|Online",
@@ -4226,36 +4111,6 @@
     "hash_key": "kubernetes 101 w victor morales_2025-12-06T18:00:00+00:00"
   },
   {
-    "title": "Java Mexico|Cucumber y BDD en el mundo Java: Más allá de las pruebas|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/08equxao\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Benek & Eduardo Zarate Mejia",
-    "url": "https://luma.com/08equxao",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/08equxao",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Java Mexico",
-    "dtstart": "2025-12-04T00:30:00+00:00",
-    "dtend": "2025-12-04T04:00:00+00:00",
-    "tags": [
-      "ai",
-      "frontend"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "cucumber y bdd en el mundo java ms all d_2025-12-04T00:00:00+00:00"
-  },
-  {
     "title": "Frutero Club|Coworking Frutal #24🍇|México|Ciudad de México",
     "description": "Get up-to-date information at: https://luma.com/853fahdd\n\nAddress:\nChez Vous #Timecafé\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Frutero",
     "url": "https://luma.com/853fahdd",
@@ -4475,35 +4330,6 @@
     "city_code": "cdmx",
     "address": "Ciudad de México, CDMX, México",
     "hash_key": "sysadmin horror story historias de techr_2025-11-12T00:00:00+00:00"
-  },
-  {
-    "title": "Java Mexico|javaMéxico Meetup++; Doble charla 06 nov 👻🎃|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/l1sbcrs8\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Benek",
-    "url": "https://luma.com/l1sbcrs8",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/l1sbcrs8",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Java Mexico",
-    "dtstart": "2025-11-07T00:30:00+00:00",
-    "dtend": "2025-11-07T04:00:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "javamxico meetup doble charla 06 nov_2025-11-07T00:00:00+00:00"
   },
   {
     "title": "Founder Friends Mexico|10 Minute Blitz with Ankur Nagpal: Avoiding Tax Pitfalls as an Angel Investor|Online",
@@ -5594,35 +5420,6 @@
     "hash_key": "build with claude code_2025-09-12T00:00:00+00:00"
   },
   {
-    "title": "v0 Prompt to Production Mexico City|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/r8rwqnn9\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero",
-    "url": "https://luma.com/r8rwqnn9",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/r8rwqnn9",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "v0 Prompt to Production Mexico City",
-    "dtstart": "2025-09-11T23:00:00+00:00",
-    "dtend": "2025-09-12T02:30:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://luma.com/fdg8riz2",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "from idea to mvp construye tu propia app_2025-09-11T22:00:00+00:00"
-  },
-  {
     "title": "Founder Friends Mexico|10 Minute Blitz with Nicole DeTommaso: How to Break into VC as an Angel Investor|Online",
     "description": "Get up-to-date information at: https://luma.com/vhw2j6z1\n\nHosted by Wael Jabir & Nicole DeTommaso",
     "url": "https://luma.com/vhw2j6z1",
@@ -6069,37 +5866,6 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-jAbrAB2UuAtd9ay",
     "hash_key": "venture bites why founders should angel _2025-07-31T18:00:00+00:00"
-  },
-  {
-    "title": "Java Mexico|Arquitecturas Modernas en Java: Hacia Servicios Escalables y Flexibles|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/83si3bw5\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Benek",
-    "url": "https://luma.com/83si3bw5",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/83si3bw5",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Java Mexico",
-    "dtstart": "2025-07-30T00:30:00+00:00",
-    "dtend": "2025-07-30T04:00:00+00:00",
-    "tags": [
-      "ai",
-      "frontend",
-      "mobile"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "arquitecturas modernas en java hacia ser_2025-07-30T00:00:00+00:00"
   },
   {
     "title": "Frutero Club|Coworking Frutal #7|México|Ciudad de México",
@@ -9879,95 +9645,6 @@
     "hash_key": "mxtw transformacin digital para fundador_2024-10-22T14:00:00+00:00"
   },
   {
-    "title": "Mexico Tech Week|Founders & Drinks by Startup Grind #MexicoTechWeek|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/cranm43m\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week, Guillermo Vizcaino & Carlos Zárate",
-    "url": "https://luma.com/cranm43m",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/cranm43m",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Mexico Tech Week",
-    "dtstart": "2024-10-21T23:00:00+00:00",
-    "dtend": "2024-10-22T01:00:00+00:00",
-    "tags": [
-      "ai",
-      "frontend"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "founders drinks by startup grind mexicot_2024-10-21T22:00:00+00:00"
-  },
-  {
-    "title": "Mexico Tech Week|Emprelatam Connect Day CDMX|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/rk2rp5gp\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week, Emprelatam & Denisse Galindo",
-    "url": "https://luma.com/rk2rp5gp",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/rk2rp5gp",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Mexico Tech Week",
-    "dtstart": "2024-10-21T21:30:00+00:00",
-    "dtend": "2024-10-22T02:00:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "emprelatam connect day cdmx_2024-10-21T20:00:00+00:00"
-  },
-  {
-    "title": "Mexico Tech Week|Fintech Feast:  Luncheon with Pygma, Mastercard, Google & This Week in Fintech|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/8o2qc0sg\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week, Andrés Cano & Jorge Gonzalez Soler",
-    "url": "https://luma.com/8o2qc0sg",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/8o2qc0sg",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "Mexico Tech Week",
-    "dtstart": "2024-10-21T21:00:00+00:00",
-    "dtend": "2024-10-21T23:00:00+00:00",
-    "tags": [
-      "ai",
-      "python"
-    ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "fintech feast luncheon with pygma master_2024-10-21T20:00:00+00:00"
-  },
-  {
     "title": "Mexico Tech Week|Tacos, Beer and Gen AI|México|Ciudad de México",
     "description": "Get up-to-date information at: https://luma.com/heroguest\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week & 3 others",
     "url": "https://luma.com/heroguest",
@@ -11213,35 +10890,6 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-4Krdqb6f3DP2OBn",
     "hash_key": "get more lps_2023-08-09T16:00:00+00:00"
-  },
-  {
-    "title": "This Week in Fintech|This Week in Fintech x Palenca x Visa: Mexico City Summer Social 🇲🇽|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/cdmx727\n\nAddress:\nCheck event page for more details.\n\nHosted by This Week in Fintech",
-    "url": "https://luma.com/cdmx727",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/cdmx727",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "Ciudad de México",
-    "online": false,
-    "organizer": "This Week in Fintech",
-    "dtstart": "2023-07-27T00:00:00+00:00",
-    "dtend": "2023-07-27T03:00:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://luma.com/lkn7cfxz",
-    "country": "México",
-    "country_code": "MX",
-    "state": "Ciudad de México",
-    "state_code": "MX-CMX",
-    "city": "Ciudad de México",
-    "city_code": "cdmx",
-    "address": "Ciudad de México, CDMX, México",
-    "hash_key": "this week in fintech x palenca x visa me_2023-07-27T00:00:00+00:00"
   },
   {
     "title": "Founder Friends Mexico|Everything is storytelling|Online",
