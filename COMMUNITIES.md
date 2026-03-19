@@ -45,7 +45,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🔴 [**HackrobotsMX**](https://www.meetup.com/hackrobotsmx) | HackrobotsMX es la primera y única comunidad en América sin fines de lucro dedicada a la formación y capacitación en robótica. | Online |
 | 🔴 [**HTML5 CDMX**](https://www.meetup.com/html5-ciudad-de-mexico) | Desarrollo web, estándares W3C y tecnologías de frontend. | Online |
 | 🔴 [**j4Guanatos**](https://www.meetup.com/j4guanatos) | Comunidad de Java en Guadalajara. Eventos sobre Java y tecnologías relacionadas. | Online |
-| 🟢 [**Kong Mexico City**](https://www.meetup.com/kong-mexico-city) | Eventos sobre APIs, Microservicios, Service Mesh e Insomnia. | Online |
+| 🔴 [**Kong Mexico City**](https://www.meetup.com/kong-mexico-city) | Eventos sobre APIs, Microservicios, Service Mesh e Insomnia. | Online |
 | 🟢 [**Management In Tech**](https://luma.com/qhszdqs3) | Conversaciones sobre liderazgo y gestión de equipos en tech. Hosted by Jyr Gaxiola & Daniel Zavala. | Ciudad de México |
 | 🔴 [**Meetup de Network Orquestrators, Creating Unicorns**](https://www.meetup.com/meetup-de-network-orquestrators-creating-unicorns) | En este grupo estamos intentando construir empresas Unicornio. Queremos contactar con startuperos interesados en intercambiar ideas y contactos. | Online |
 | 🔴 [**Meetup México**](https://www.meetup.com/meetup-mexico) | Comunidad general de usuarios y organizadores de Meetup en México. | Online |
