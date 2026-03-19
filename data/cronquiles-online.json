@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T18:49:11.521834+00:00",
+  "generated_at": "2026-03-19T01:22:40.186088+00:00",
   "total_events": 163,
   "city": "Online",
   "communities": [
@@ -130,6 +130,17 @@
           "platform": "meetup",
           "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup",
           "label": "Meetup"
+        }
+      ]
+    },
+    {
+      "name": "GDG Heroica Veracruz",
+      "description": "GDG Veracruz is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg",
+      "links": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/gdg-heroica-veracruz/",
+          "label": "Sitio web"
         }
       ]
     },
@@ -3952,35 +3963,6 @@
       "hash_key": "how i use ai 4 openclaw_2026-03-06T00:00:00+00:00"
     },
     {
-      "title": "Rust-AICollective|Prompt Power – AI Collective Rio  -  Edição Mulheres (w/ The AI Collective)|Online",
-      "description": "Get up-to-date information at: https://luma.com/aic-ri-3-11\n\nHosted by The AI Collective & 3 others",
-      "url": "https://luma.com/aic-ri-3-11",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/aic-ri-3-11",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "https://luma.com/event/evt-n65JCssY5ywfh8x",
-      "online": true,
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-03-18T21:30:00+00:00",
-      "dtend": "2026-03-18T23:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "https://luma.com/event/evt-n65JCssY5ywfh8x",
-      "hash_key": "prompt power ai collective rio edio mulh_2026-03-18T20:00:00+00:00"
-    },
-    {
       "title": "Kong Mexico City|Shifting From Prompt-First to Context-First|Online",
       "description": "Kong/MEXICO-CITY\nAI is moving from prompt-first to context-first—and your API platform needs to keep up. Register to learn how to future-proof your API and AI connectivity strategy with practical guidance from industry experts.\n\nAs AI and ML workloads accelerate, organizations are shifting from prompt-first experimentation to context-first systems grounded in the right data, APIs, and policies. This webinar explores how AI, edge computing, and platform engineering are converging to redefine API management—and why context engineering is becoming a core responsibility of your connectivity platform, not just your AI team. You’ll hear market insights and lessons learned from Fortune 500 transformations, plus a pragmatic framework for designing resilient API and AI connectivity architectures. We’ll also share how Kong is innovating with distributed API and AI gateway capabilities to support real-time inference at the edge and self-service developer platforms.\n**What you’ll learn:**\n\n* How context-first AI changes requirements for API and AI connectivity architecture\n* What “context engineering” means in practice—and how to operationalize it with policies and governance\n* Key emerging trends (LLM gateways, vector-aware routing, edge inference) and how to assess them for your roadmap\n* How to design a scalable platform approach that supports developer self-service and consistent controls\n* A practical framework to future-proof your API and AI strategy amid evolving data and regulatory demands",
       "url": "https://www.meetup.com/kong-mexico-city/events/313655586/",
@@ -4306,6 +4288,40 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-f0L9M1SOkWdmmJJ",
       "hash_key": "women a i circle from techxiety to tech _2026-03-24T22:00:00+00:00"
+    },
+    {
+      "title": "GDG Heroica Veracruz|[Workshop] Build with AI 2026: Experimentando creando extensiones para Gemini y Plugins para Claude Code|Online",
+      "description": "Únete a nuestro emocionante taller donde descubrirás cómo desplegar tu propia extensión de Gemini CLI. Aprende a crear h...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-heroica-veracruz-presents-workshop-build-with-ai-2026-experimentando-creando-extensiones-para-gemini-y-plugins-para-claude-code/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-heroica-veracruz-presents-workshop-build-with-ai-2026-experimentando-creando-extensiones-para-gemini-y-plugins-para-claude-code/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG Heroica Veracruz",
+      "dtstart": "2026-03-25T11:00:00-06:00",
+      "dtend": "2026-03-25T12:30:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Workshop / hands-on session",
+        "ai",
+        "frontend"
+      ],
+      "source": "https://gdg.community.dev/gdg-heroica-veracruz/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "workshop build with ai 2026 experimentan_2026-03-25T16:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|March 26 - Advances in AI at Northeastern University|Online",
