@@ -1083,6 +1083,76 @@
       "restaurant"
     ]
   },
+  "Location TBA, TBA, Mexico City": {
+    "address_components": [
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.5927571,
+          "lng": -98.9604482
+        },
+        "southwest": {
+          "lat": 19.1887101,
+          "lng": -99.3267771
+        }
+      },
+      "location": {
+        "lat": 19.4326077,
+        "lng": -99.133208
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.5927571,
+          "lng": -98.9604482
+        },
+        "southwest": {
+          "lat": 19.1887101,
+          "lng": -99.3267771
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4305936,
+          "longitude": -99.1371496
+        }
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJB3UJ2yYAzoURQeheJnYQBlQ",
+    "types": [
+      "locality",
+      "political"
+    ]
+  },
   "Jardín Americana, 1305 Avenida Ignacio L Vallarta, Guadalajara, JAL": {
     "address_components": [
       {
@@ -1283,76 +1353,6 @@
     "types": [
       "establishment",
       "point_of_interest"
-    ]
-  },
-  "Location TBA, TBA, Mexico City": {
-    "address_components": [
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      }
-    ],
-    "formatted_address": "Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.5927571,
-          "lng": -98.9604482
-        },
-        "southwest": {
-          "lat": 19.1887101,
-          "lng": -99.3267771
-        }
-      },
-      "location": {
-        "lat": 19.4326077,
-        "lng": -99.133208
-      },
-      "location_type": "APPROXIMATE",
-      "viewport": {
-        "northeast": {
-          "lat": 19.5927571,
-          "lng": -98.9604482
-        },
-        "southwest": {
-          "lat": 19.1887101,
-          "lng": -99.3267771
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4305936,
-          "longitude": -99.1371496
-        }
-      }
-    ],
-    "partial_match": true,
-    "place_id": "ChIJB3UJ2yYAzoURQeheJnYQBlQ",
-    "types": [
-      "locality",
-      "political"
     ]
   },
   "Taproom Dos Aves, Zacatecas 195, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
@@ -3086,100 +3086,6 @@
       "university"
     ]
   },
-  "Casa Rafael Galván, Zacatecas 94, Col Roma Norte, Mexico City, Mexico City": {
-    "address_components": [
-      {
-        "long_name": "94",
-        "short_name": "94",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Zacatecas",
-        "short_name": "Zacatecas",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Roma Norte",
-        "short_name": "Roma Nte.",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06700",
-        "short_name": "06700",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4159281,
-        "lng": -99.1586478
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4173300802915,
-          "lng": -99.1573109197085
-        },
-        "southwest": {
-          "lat": 19.4146321197085,
-          "lng": -99.1600088802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4159725,
-          "longitude": -99.1586579
-        }
-      }
-    ],
-    "partial_match": true,
-    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
-    "plus_code": {
-      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
-      "global_code": "76F2CR8R+9G"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
-    ]
-  },
   "HackerGarage, Calle Marsella 155-Int 105 A, Col Americana, Lafayette, 44160 Guadalajara, Jal., Mexico": {
     "address_components": [
       {
@@ -3467,6 +3373,100 @@
       "food",
       "point_of_interest",
       "store"
+    ]
+  },
+  "Casa Rafael Galván, Zacatecas 94, Col Roma Norte, Mexico City, Mexico City": {
+    "address_components": [
+      {
+        "long_name": "94",
+        "short_name": "94",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Zacatecas",
+        "short_name": "Zacatecas",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Roma Norte",
+        "short_name": "Roma Nte.",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06700",
+        "short_name": "06700",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4159281,
+        "lng": -99.1586478
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4173300802915,
+          "lng": -99.1573109197085
+        },
+        "southwest": {
+          "lat": 19.4146321197085,
+          "lng": -99.1600088802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4159725,
+          "longitude": -99.1586579
+        }
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
+    "plus_code": {
+      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
+      "global_code": "76F2CR8R+9G"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
     ]
   },
   "Plaza Carso, Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, Mexico": {
@@ -5227,6 +5227,93 @@
       "point_of_interest"
     ]
   },
+  "Universidad Cristóbal Colón, Paseo de Los Cedros, Veracruz": {
+    "address_components": [
+      {
+        "long_name": "Paseo de Los Cedros",
+        "short_name": "P.º de Los Cedros",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Floresta",
+        "short_name": "Floresta",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Veracruz",
+        "short_name": "Veracruz",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Veracruz",
+        "short_name": "Ver.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "91930",
+        "short_name": "91930",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "P.º de Los Cedros, Floresta, 91930 Veracruz, Ver., México",
+    "geometry": {
+      "location": {
+        "lat": 19.1556199,
+        "lng": -96.1324149
+      },
+      "location_type": "GEOMETRIC_CENTER",
+      "viewport": {
+        "northeast": {
+          "lat": 19.1569374302915,
+          "lng": -96.13106396970849
+        },
+        "southwest": {
+          "lat": 19.1542394697085,
+          "lng": -96.1337619302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.155557,
+          "longitude": -96.132411
+        }
+      }
+    ],
+    "place_id": "ChIJOb5NSABBw4URMc0EEanCEIw",
+    "plus_code": {
+      "compound_code": "5V49+62 Veracruz, Ver., México",
+      "global_code": "76F55V49+62"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "university"
+    ]
+  },
   "Centro Queretano De La Imagen (Casa De Los Leones), 66 Calle Benito Juárez Sur, Santiago de Querétaro": {
     "address_components": [
       {
@@ -5319,295 +5406,6 @@
       "establishment",
       "museum",
       "point_of_interest"
-    ]
-  },
-  "Universidad Cristóbal Colón, Paseo de Los Cedros, Veracruz": {
-    "address_components": [
-      {
-        "long_name": "Paseo de Los Cedros",
-        "short_name": "P.º de Los Cedros",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Floresta",
-        "short_name": "Floresta",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Veracruz",
-        "short_name": "Veracruz",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Veracruz",
-        "short_name": "Ver.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "91930",
-        "short_name": "91930",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "P.º de Los Cedros, Floresta, 91930 Veracruz, Ver., México",
-    "geometry": {
-      "location": {
-        "lat": 19.1556199,
-        "lng": -96.1324149
-      },
-      "location_type": "GEOMETRIC_CENTER",
-      "viewport": {
-        "northeast": {
-          "lat": 19.1569374302915,
-          "lng": -96.13106396970849
-        },
-        "southwest": {
-          "lat": 19.1542394697085,
-          "lng": -96.1337619302915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.155557,
-          "longitude": -96.132411
-        }
-      }
-    ],
-    "place_id": "ChIJOb5NSABBw4URMc0EEanCEIw",
-    "plus_code": {
-      "compound_code": "5V49+62 Veracruz, Ver., México",
-      "global_code": "76F55V49+62"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest",
-      "university"
-    ]
-  },
-  "La República de Hops - Pasaje Sonia, zona centro, Tijuana": {
-    "address_components": [
-      {
-        "long_name": "Av. Revolucion 1025 int 16,17 y 18",
-        "short_name": "",
-        "types": []
-      },
-      {
-        "long_name": "Zona Centro",
-        "short_name": "Zona Centro",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Tijuana",
-        "short_name": "Tijuana",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Baja California",
-        "short_name": "B.C.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "22000",
-        "short_name": "22000",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. Revolucion 1025 int 16,17 y 18, Zona Centro, 22000 Tijuana, B.C., México",
-    "geometry": {
-      "location": {
-        "lat": 32.5323528,
-        "lng": -117.0368423
-      },
-      "location_type": "GEOMETRIC_CENTER",
-      "viewport": {
-        "northeast": {
-          "lat": 32.53390503029149,
-          "lng": -117.0353943697085
-        },
-        "southwest": {
-          "lat": 32.5312070697085,
-          "lng": -117.0380923302915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 32.5326966,
-          "longitude": -117.0368442
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 32.5323738,
-          "longitude": -117.0367093
-        },
-        "restricted_travel_modes": [
-          "DRIVE"
-        ]
-      }
-    ],
-    "place_id": "ChIJ1WKek3lJ2YARsMabZwwHZI8",
-    "plus_code": {
-      "compound_code": "GXJ7+W7 Tijuana, B.C., México",
-      "global_code": "8544GXJ7+W7"
-    },
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "point_of_interest",
-      "restaurant"
-    ]
-  },
-  "Instituto Tecnológico Superior de Macuspana, s/n Lerdo de Tejada, Macuspana": {
-    "address_components": [
-      {
-        "long_name": "Avenida Tecnológico",
-        "short_name": "Avenida Tecnológico",
-        "types": [
-          "establishment",
-          "point_of_interest"
-        ]
-      },
-      {
-        "long_name": "s/n",
-        "short_name": "s/n",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Lerdo de Tejada",
-        "short_name": "Lerdo de Tejada",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "1ra Secc",
-        "short_name": "1ra Secc",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Macuspana",
-        "short_name": "Macuspana",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Tabasco",
-        "short_name": "Tab.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "86719",
-        "short_name": "86719",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Avenida Tecnológico, Lerdo de Tejada s/n, 1ra Secc, 86719 Macuspana, Tab., México",
-    "geometry": {
-      "location": {
-        "lat": 17.7774972,
-        "lng": -92.6085243
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 17.7787596802915,
-          "lng": -92.6072965697085
-        },
-        "southwest": {
-          "lat": 17.7760617197085,
-          "lng": -92.6099945302915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 17.7773614,
-          "longitude": -92.6087134
-        }
-      }
-    ],
-    "place_id": "ChIJVVVVyMTx7YUR0am8r75I2XU",
-    "plus_code": {
-      "compound_code": "Q9GR+XH Macuspana, Tab., México",
-      "global_code": "7699Q9GR+XH"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest",
-      "school",
-      "university"
     ]
   },
   "Merida, Yucatan, Mexico": {
@@ -6150,6 +5948,105 @@
     "types": [
       "premise",
       "street_address"
+    ]
+  },
+  "La República de Hops - Pasaje Sonia, zona centro, Tijuana": {
+    "address_components": [
+      {
+        "long_name": "Av. Revolucion 1025 int 16,17 y 18",
+        "short_name": "",
+        "types": []
+      },
+      {
+        "long_name": "Zona Centro",
+        "short_name": "Zona Centro",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Tijuana",
+        "short_name": "Tijuana",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Baja California",
+        "short_name": "B.C.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "22000",
+        "short_name": "22000",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Revolucion 1025 int 16,17 y 18, Zona Centro, 22000 Tijuana, B.C., México",
+    "geometry": {
+      "location": {
+        "lat": 32.5323528,
+        "lng": -117.0368423
+      },
+      "location_type": "GEOMETRIC_CENTER",
+      "viewport": {
+        "northeast": {
+          "lat": 32.53390503029149,
+          "lng": -117.0353943697085
+        },
+        "southwest": {
+          "lat": 32.5312070697085,
+          "lng": -117.0380923302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 32.5326966,
+          "longitude": -117.0368442
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 32.5323738,
+          "longitude": -117.0367093
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
+      }
+    ],
+    "place_id": "ChIJ1WKek3lJ2YARsMabZwwHZI8",
+    "plus_code": {
+      "compound_code": "GXJ7+W7 Tijuana, B.C., México",
+      "global_code": "8544GXJ7+W7"
+    },
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant"
     ]
   },
   "mexico tech week": {

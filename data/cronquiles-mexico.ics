@@ -633,22 +633,6 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mexico Tech Week|Tacos\, Beer and Gen AI|México|Ciudad de México
-DTSTART:20241021T193000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/heroguest\n\nA
- ddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week 
- & 3 others
-LOCATION:Ciudad de México
-X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|M
  éxico|Ciudad de México
 DTSTART:20241022T143000Z
@@ -5060,27 +5044,6 @@ LOCATION:https://luma.com/event/evt-pmvhHCOkAUvSvaw
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-pmvhHCOkAUvSvaw
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:GDG Villahermosa|Build with AI Sureste de México Sede TecNM de Ma
- cuspana|México|Tabasco
-DTSTART:20260320T100000
-CATEGORIES:Build with AI,ai,backend,frontend
-DESCRIPTION:"Evento exclusivo para la comunidad del TecNM de Macuspana"\n\
- n\nAprenderás a dominar Gemini 3 y las herramientas de Google AI Studio e
- n un entorno colaborativo. No solo vendrás a escuchar\; saldrás de aquí
-  habiendo creado tu propia solución funcional con la tecnología más ava
- nzada de Google.
-LOCATION:Instituto Tecnológico Superior de Macuspana\, s/n Lerdo de Tejad
- a\, Macuspana
-X-CRONQUILES-ADDRESS:Avenida Tecnológico\, Lerdo de Tejada s/n\, 1ra Secc
- \, 86719 Macuspana\, Tab.\, México
-X-CRONQUILES-CITY:Macuspana
-X-CRONQUILES-CITY-CODE:macuspana
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Tabasco
-X-CRONQUILES-STATE-CODE:MX-TAB
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Frutero Club|AI & Agents IRL Building Session (Synthesis Hackathon
  )|México|Ciudad de México
 DTSTART:20260320T170000Z
@@ -5452,6 +5415,39 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/wsj293yt\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-3QmmiVDsImuKFFB
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-3QmmiVDsImuKFFB
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kong Mexico City|MCP Best Practices: A Guide for Devs and Governan
+ ce Teams|Online
+DTSTART:20260402T090000
+CATEGORIES:ai,backend,frontend,security
+DESCRIPTION:Kong/MEXICO-CITY\nThe Model Context Protocol is rapidly becomi
+ ng the standard interface between AI agents and enterprise systems. But mo
+ ving MCP from prototype to production means solving hard problems that the
+  spec alone doesn't address. How do agents discover available MCP servers 
+ in the first place? How do you authenticate and authorize access with your
+  existing identity provider? How do you control which tools each user or a
+ gent can invoke? And how do you govern both internal and third-party MCP s
+ ervers while maintaining visibility across it all?\n\nIn this session\, we
+ 'll share practical best practices for both sides of the house. For develo
+ pers\, we'll cover how to choose the right approach for your MCP servers\,
+  from rapid API-to-MCP conversion for straightforward use cases to governi
+ ng complex\, custom-built servers and third-party integrations like GitHub
+  through a centralized gateway. For governance and platform teams\, we'll 
+ walk through layered security with OAuth 2.1 authentication and role-based
+  tool-level authorization.\n\nWe'll also tackle what happens at scale. Whe
+ n your organization has dozens or hundreds of MCP servers\, how do you mov
+ e beyond hardcoded agent configurations to centralized\, governed discover
+ y? And once agents can find all those servers\, how do you prevent hundred
+ s of tool definitions from bloating the LLM's context window\, driving up 
+ costs and degrading tool selection accuracy? We'll cover how tool filterin
+ g and context optimization keep agent interactions efficient and cost-effe
+ ctive\, even as your MCP footprint grows.\n\nWe'll demo everything live on
+  Kong AI Gateway and walk through real-world implementation patterns. You'
+ ll leave with a clear understanding of what's production-ready today\, wha
+ t's still maturing in the MCP ecosystem\, and how to build a governance st
+ rategy that scales from your first MCP server to your hundredth.
+LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Apri
