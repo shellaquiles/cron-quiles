@@ -5056,24 +5056,6 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:GDG Orizaba|Focus Leadership and Success|México|Veracruz
-DTSTART:20260319T083000
-CATEGORIES:Career Development,Community Building,Networking,frontend
-DESCRIPTION:🚀 ¡Lleva tu carrera al siguiente nivel en "Focus: Leadersh
- ip and Success"!
-LOCATION:Universidad Anáhuac Veracruz Campus Córdoba-Orizaba\, 1 Avenida
-  Eugenio Garza Sada\, Córdoba
-X-CRONQUILES-ADDRESS:Calle Universidad 100\, Colonia Rancho San Emigdio\, 
- Córdoba\, Ver\, C.P. 94500\, Av. Eugenio Garza Sada 1\, Las Quintas\, 945
- 00 Córdoba\, Ver.\, México
-X-CRONQUILES-CITY:Córdoba
-X-CRONQUILES-CITY-CODE:cordoba
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Veracruz
-X-CRONQUILES-STATE-CODE:MX-VER
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:GDG Villahermosa|Build with AI Sureste de México Virtual|Online
 DTSTART:20260319T090043
 CATEGORIES:Build with AI,ai,backend,frontend
@@ -5092,26 +5074,6 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/t6n3x6kl\n\nHo
  sted by Wael Jabir & Brian Nichols
 LOCATION:https://luma.com/event/evt-pmvhHCOkAUvSvaw
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-pmvhHCOkAUvSvaw
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|⭕ Women & A.I. Circle LATAM  -  Un espacio par
- a conocernos|Online
-DTSTART:20260319T220000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-latam\n\nH
- osted by The AI Collective & Sthefany Diaz Arias
-LOCATION:https://luma.com/event/evt-1aBtkclQzcD7DNi
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-1aBtkclQzcD7DNi
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|🧠 The AI Collective  -  ⭕ Women & A.I. Circ
- le – Open to Women Worldwide|Online
-DTSTART:20260319T220000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-to-women-i
- n-ai-feb-2026\n\nHosted by The AI Collective & Keerthana Mahadevan
-LOCATION:https://luma.com/event/evt-FrukWLvk4WWaOt1
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-FrukWLvk4WWaOt1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|AI Literacy Series: The AI  Safety Switch (w/ Th
@@ -5145,13 +5107,13 @@ X-CRONQUILES-STATE:Tabasco
 X-CRONQUILES-STATE-CODE:MX-TAB
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Frutero Club|The Synthesis Coworking - IRL Building Session|Méxic
- o|Ciudad de México
+SUMMARY:Frutero Club|AI & Agents IRL Building Session (Synthesis Hackathon
+ )|México|Ciudad de México
 DTSTART:20260320T170000Z
-CATEGORIES:frontend
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/sz21p1t8\n\nAd
  dress:\nAv. Insurgentes Sur 1877\nÁlvaro Obregón\, Ciudad de México\nMe
- xico\n\nHosted by Frutero
+ xico\n\nHosted by Frutero & Nico Gallardo
 LOCATION:Av. Insurgentes Sur 1877\, Guadalupe Inn\, Álvaro Obregón\, 010
  20 Álvaro Obregón\, CDMX\, Mexico
 X-CRONQUILES-ADDRESS:Av. Insurgentes Sur 1877\, Guadalupe Inn\, Álvaro Ob
@@ -5245,8 +5207,8 @@ LOCATION:https://luma.com/event/evt-f0L9M1SOkWdmmJJ
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-f0L9M1SOkWdmmJJ
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:GDG Heroica Veracruz|[Workshop] Build with AI 2026: Experimentando
-  creando extensiones para Gemini y Plugins para Claude Code|Online
+SUMMARY:GDG Heroica Veracruz|[Workshop] Build with AI 2026: Crea extension
+ es para Gemini y plugins para Claude Code desde cero|Online
 DTSTART:20260325T110000
 CATEGORIES:AI,AI - Gemini,Build with AI,Workshop / hands-on session,ai,fro
  ntend
@@ -6348,6 +6310,21 @@ LOCATION:Casa Rafael Galván\, Zacatecas 94\, Col Roma Norte\,\, Mexico Ci
  ty\, Mexico City
 X-CRONQUILES-ADDRESS:Zacatecas 94\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad
   de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Global Startup Ecosystem|Mexico Tech Summit|México|Ciudad de Méx
+ ico
+DTSTART:20260730T100000
+DESCRIPTION:MexicoTech Summit is an international program featuring globa
+ l speakers and partners passionate about the future of Mexico. The central
+LOCATION:Location TBA\, TBA\, Mexico City
+X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
 X-CRONQUILES-CITY:Ciudad de México
 X-CRONQUILES-CITY-CODE:cdmx
 X-CRONQUILES-COUNTRY:México

@@ -3088,13 +3088,13 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Frutero Club|The Synthesis Coworking - IRL Building Session|Méxic
- o|Ciudad de México
+SUMMARY:Frutero Club|AI & Agents IRL Building Session (Synthesis Hackathon
+ )|México|Ciudad de México
 DTSTART:20260320T170000Z
-CATEGORIES:frontend
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/sz21p1t8\n\nAd
  dress:\nAv. Insurgentes Sur 1877\nÁlvaro Obregón\, Ciudad de México\nMe
- xico\n\nHosted by Frutero
+ xico\n\nHosted by Frutero & Nico Gallardo
 LOCATION:Av. Insurgentes Sur 1877\, Guadalupe Inn\, Álvaro Obregón\, 010
  20 Álvaro Obregón\, CDMX\, Mexico
 X-CRONQUILES-ADDRESS:Av. Insurgentes Sur 1877\, Guadalupe Inn\, Álvaro Ob
@@ -3524,6 +3524,21 @@ LOCATION:Casa Rafael Galván\, Zacatecas 94\, Col Roma Norte\,\, Mexico Ci
  ty\, Mexico City
 X-CRONQUILES-ADDRESS:Zacatecas 94\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad
   de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Global Startup Ecosystem|Mexico Tech Summit|México|Ciudad de Méx
+ ico
+DTSTART:20260730T100000
+DESCRIPTION:MexicoTech Summit is an international program featuring globa
+ l speakers and partners passionate about the future of Mexico. The central
+LOCATION:Location TBA\, TBA\, Mexico City
+X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
 X-CRONQUILES-CITY:Ciudad de México
 X-CRONQUILES-CITY-CODE:cdmx
 X-CRONQUILES-COUNTRY:México

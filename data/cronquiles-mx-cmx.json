@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-19T18:46:29.344827+00:00",
-  "total_events": 181,
+  "generated_at": "2026-03-20T01:18:05.781691+00:00",
+  "total_events": 182,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -80,11 +80,11 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/e17fbtoo",
+          "url": "https://luma.com/sudo_fciencias_2026",
           "label": "Luma"
         }
       ]
@@ -2667,7 +2667,7 @@
       "dtstart": "2025-09-19T22:00:00+00:00",
       "dtend": "2025-09-20T00:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3874,7 +3874,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4715,7 +4715,7 @@
         "cloud",
         "python"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4839,8 +4839,8 @@
       "hash_key": "coworking frutal 11 synthesis hackathon _2026-03-18T16:00:00+00:00"
     },
     {
-      "title": "Frutero Club|The Synthesis Coworking - IRL Building Session|México|Ciudad de México",
-      "description": "Get up-to-date information at: https://luma.com/sz21p1t8\n\nAddress:\nAv. Insurgentes Sur 1877\nÁlvaro Obregón, Ciudad de México\nMexico\n\nHosted by Frutero",
+      "title": "Frutero Club|AI & Agents IRL Building Session (Synthesis Hackathon)|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/sz21p1t8\n\nAddress:\nAv. Insurgentes Sur 1877\nÁlvaro Obregón, Ciudad de México\nMexico\n\nHosted by Frutero & Nico Gallardo",
       "url": "https://luma.com/sz21p1t8",
       "sources": [
         {
@@ -4855,6 +4855,7 @@
       "dtstart": "2026-03-20T17:00:00+00:00",
       "dtend": "2026-03-21T02:00:00+00:00",
       "tags": [
+        "ai",
         "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
@@ -4865,7 +4866,7 @@
       "city": "Álvaro Obregón",
       "city_code": "alvaroobregon",
       "address": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, México",
-      "hash_key": "the synthesis coworking irl building ses_2026-03-20T16:00:00+00:00"
+      "hash_key": "ai agents irl building session synthesis_2026-03-20T16:00:00+00:00"
     },
     {
       "title": "The Data Pub|Data Pub Marzo: Fundamentos que mueven millones, una lección de humildad técnica|México|Ciudad de México",
@@ -5013,7 +5014,7 @@
       "dtstart": "2026-04-23T15:00:00+00:00",
       "dtend": "2026-04-23T21:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5134,6 +5135,33 @@
       "city_code": "cdmx",
       "address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
       "hash_key": "del oro negro al oro digital from black _2026-07-22T00:00:00+00:00"
+    },
+    {
+      "title": "Global Startup Ecosystem|Mexico Tech Summit|México|Ciudad de México",
+      "description": "MexicoTech Summit is an international program featuring global speakers and partners passionate about the future of Mexico. The central",
+      "url": "https://www.eventbrite.com/e/mexico-tech-summit-tickets-96326080901",
+      "sources": [
+        {
+          "platform": "eventbrite",
+          "url": "https://www.eventbrite.com/e/mexico-tech-summit-tickets-96326080901",
+          "label": "Ver en Eventbrite"
+        }
+      ],
+      "location": "Location TBA, TBA, Mexico City",
+      "online": false,
+      "organizer": "Global Startup Ecosystem",
+      "dtstart": "2026-07-30T10:00:00-06:00",
+      "dtend": "2026-07-30T15:00:00-06:00",
+      "tags": [],
+      "source": "Eventbrite",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "mexico tech summit_2026-07-30T16:00:00+00:00"
     },
     {
       "title": "AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México",
