@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cron-Quiles//ICS Aggregator//EN
+CALSCALE:GREGORIAN
+X-WR-CALDESC:Calendario unificado de eventos tech en Tabasco\, México
+X-WR-CALNAME:Eventos Tech Tabasco - cronquiles
+X-WR-TIMEZONE:America/Mexico_City
+BEGIN:VEVENT
+SUMMARY:GDG Villahermosa|Build with AI Sureste de México Sede TecNM de Vi
+ llahermosa|México|Tabasco
+DTSTART:20260416T120000
+CATEGORIES:Build with AI,ai,backend,frontend
+DESCRIPTION:"Evento exclusivo para la comunidad de TecNM de Villahermosa"T
+ endrás acceso a herramientas de vanguardia\, como Gemini CL...
+LOCATION:TecNM - Campus Villahermosa\, Villahermosa - Frontera\, Villaherm
+ osa
+X-CRONQUILES-ADDRESS:Km. 3.5 Carretera\, Villahermosa - Frontera\, Cd Indu
+ strial\, 86010 Villahermosa\, Tab.\, México
+X-CRONQUILES-CITY:Villahermosa
+X-CRONQUILES-CITY-CODE:villahermosa
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Tabasco
+X-CRONQUILES-STATE-CODE:MX-TAB
+END:VEVENT
+END:VCALENDAR
