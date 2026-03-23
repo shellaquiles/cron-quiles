@@ -1247,16 +1247,6 @@ LOCATION:https://luma.com/event/evt-pmvhHCOkAUvSvaw
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-pmvhHCOkAUvSvaw
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rust-AICollective|Who Owns Your Mind? AI\, Neurotechnologies and t
- he Future of Mental Autonomy|Online
-DTSTART:20260323T160000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-gl-3-23\n\
- nHosted by The AI Collective & 4 others
-LOCATION:https://luma.com/event/evt-Wsru160A7sqZvBL
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-Wsru160A7sqZvBL
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rust-AICollective|Women & A.I. Circle  -  From Techxiety to Tech C
  larity.|Online
 DTSTART:20260324T230000Z
@@ -1417,7 +1407,7 @@ SUMMARY:Rust-AICollective|Oversharing with AI: The Cybersecurity Risks You
 DTSTART:20260331T150000Z
 CATEGORIES:ai,security
 DESCRIPTION:Get up-to-date information at: https://luma.com/aic-co-3-31\n\
- nHosted by The AI Collective & 3 others
+ nHosted by The AI Collective & 7 others
 LOCATION:https://luma.com/event/evt-NK9sWzteTtzXhJe
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-NK9sWzteTtzXhJe
 END:VEVENT
@@ -1433,6 +1423,16 @@ LOCATION:https://luma.com/event/evt-vMsPxZVsqtdMHE2
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-vMsPxZVsqtdMHE2
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Rust-AICollective|AI Founders & Startups: How to Get Early Adoptio
+ n in Healthcare AI|Online
+DTSTART:20260401T160000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-gl-4-1\n\n
+ Hosted by The AI Collective & 3 others
+LOCATION:https://luma.com/event/evt-cokstgZsYIvbIk8
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-cokstgZsYIvbIk8
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #5: Image Manipul
  ation|Online
 DTSTART:20260401T230000Z
@@ -1441,6 +1441,16 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/wsj293yt\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-3QmmiVDsImuKFFB
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-3QmmiVDsImuKFFB
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rust-AICollective|AI Education Executive Track: AI-Driven Value Cr
+ eation: What Actually Works for Senior Leaders|Online
+DTSTART:20260402T150000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/oqxpco88\n\nHo
+ sted by Abraham & 3 others
+LOCATION:https://luma.com/event/evt-gqsXiYAhs11NvEY
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-gqsXiYAhs11NvEY
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kong Mexico City|MCP Best Practices: A Guide for Devs and Governan
@@ -1586,6 +1596,16 @@ DESCRIPTION:Pythonista®\n## 🐍 Taller: Introducción a la Programación
  s 25.\n¿Dudas? Escríbenos a [contacto@pythonista.io](mailto:contacto@pyt
  honista.io)
 LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rust-AICollective|AI Education  -  Application Developer to Agent 
+ Builder [Workshop]|Online
+DTSTART:20260407T223000Z
+CATEGORIES:ai,frontend
+DESCRIPTION:Get up-to-date information at: https://luma.com/57mblfh6\n\nHo
+ sted by Abraham & 4 others
+LOCATION:https://luma.com/event/evt-sDQpesoAylVEeZl
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-sDQpesoAylVEeZl
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Apri
@@ -1828,6 +1848,86 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
   for external vector stores to enable semantic search across large sample 
  datasets.\n* **Package and share plugins**. Distribute your extensions int
  ernally and externally
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|May 
+ 14 - AI\, ML and Computer Vision Meetup|Online
+DTSTART:20260514T100000
+CATEGORIES:ai,backend,data,devops,frontend,mobile,web
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nJoin our virtual meetup to hear talks from experts on cutting-edge topics
+  across AI\, ML\, and computer vision.\n\n**Day\, Time\, Location**\n\nMay
+  14\, 2026\n9:00-11:00 AM Pacific\nOnline. **[Register for the Zoom!](http
+ s://voxel51.com/events/ai-ml-and-computer-vision-meetup-may-14-2026)**\n\n
+ **Concept-Aware Batch Sampling Improves Language-Image Pretraining**\n\nWh
+ at data should a vision-language model be trained on\, and who gets to dec
+ ide what “good data” even means? Most existing curation pipelines are 
+ limited because they are offline (they produce a static dataset from a set
+  of predetermined filtering criteria) and concept-agnostic (they rely on m
+ odel-based scores that can silently introduce new biases in what concepts 
+ the model sees). In this talk\, I will discuss our new work CABS that tack
+ les both these problems with large-scale sample-level concept annotations 
+ and flexible online batch sampling.\n\nFirst\, we construct DataConcept\, 
+ a 128M web-crawled image–text collection annotated with fine-grained con
+ cept composition\, and show how this enables Concept-Aware Batch Sampling 
+ (CABS)—a simple online method that constructs training batches on-the-fl
+ y to match target concept distributions. We develop two variants\, CABS-DM
+  for maximizing concept coverage and CABS-FM for prioritizing high object 
+ multiplicity\, and demonstrate consistent gains for CLIP/SigLIP-style mode
+ ls across 28 benchmarks.\n\nFinally\, I’ll show that these improvements 
+ translate into strong vision encoders for training generative multimodal m
+ odels\, including autoregressive systems like LLaVA\, where the encoder qu
+ ality materially affects downstream capability.\n\n*About the Speaker*\n\n
+ [Adhiraj Ghosh](https://www.linkedin.com/in/adhiraj-ghosh/) is a first yea
+ r ELLIS PhD student\, working with Matthias Bethge at The University of T
+ übingen. He completed his undergraduate degree in Electrical and Electron
+ ics Engineering jointly at the Manipal Institute of Technology and SMU Sin
+ gapore from 2016 to 2020\, and his masters in Machine Learning at The Univ
+ ersity of Tübingen from 2022 to 2024.\n\n**Do Your Agents Actually Work? 
+ Measuring Skills and MCP in Practice**\n\nThis talk shows how to evaluate 
+ agent performance in real scenarios using FiftyOne Skills and MCP. We will
+  cover practical ways to design scenarios\, run agents\, and measure how t
+ hey use tools\, including signals like latency\, token usage\, and output 
+ quality. The goal is to move beyond final outputs and better understand ag
+ ent behavior\, helping teams build more reliable and measurable agent syst
+ ems.\n\n*About the Speaker*\n\n[Adonai Vera](https://www.linkedin.com/in/a
+ donai-vera/) \\- Machine Learning Engineer & DevRel at Voxel51\\. With ove
+ r 7 years of experience building computer vision and machine learning mode
+ ls using TensorFlow\, Docker\, and OpenCV\\.\n\n**The last mile of OCR [in
+  2026]**\n\nOCR is nailing it in benchmarks but the real work lies in The 
+ Long Tail of IDP. Large tables\, old scans\, mixed-language docs\, handwri
+ ting\, complex layouts is where most enterprise and real-world document wo
+ rk happens. This is where the best benchmarked models still struggle. In t
+ his talk\, we will go through how LandingAI’s Agentic Document Extractio
+ n (ADE) goes beyond OCR and Parsing to enable real-world document AI use c
+ ases and workloads.\n\nWe'll cover:\n\n* The pillars of Agentic Document E
+ xtraction\n* Building document processing pipelines with ADE API/SDK\n* Us
+ ing Skills to have Coding Agents build for you\n* How ADE gives LLMs the l
+ ast mile - Analysing LLM performance on large table\, scanned docs\, compl
+ ex layouts and enabling them with the structured output from ADE\n\n*About
+  the Speaker*\n\n[Ankit Khare](https://www.linkedin.com/in/deeplearnerak) 
+ has been building Developer Relations function at high-growth startups lik
+ e Rockset (a world-class retrieval system\, later acquired by OpenAI)\, Tw
+ elve Labs (a video intelligence startup backed by Index Ventures\, Radical
+  Ventures\, and NEA)\, and Abacus.AI (an AI Super Assistant backed by Inde
+ x Ventures\, Eric Schmidt\, and Ram Shriram). Before that\, he was an AI e
+ ngineer at third insight and an AI researcher at the LEARN Lab at UT-Arlin
+ gton\, working on visual scene understanding and image captioning agents.\
+ n\n**How token costs and volume quietly shape AI product strategy**\n\nTea
+ ms building AI applications often focus on prompts\, frameworks\, and mode
+ l capabilities. In practice\, many real constraints appear deeper in the i
+ nfrastructure layer: inference cost volatility\, routing across models\, l
+ atency tradeoffs\, and reliability under production workloads. This talk s
+ hares patterns emerging from teams building multi-model and agent-driven s
+ ystems\, highlighting architectural decisions engineers are making as they
+  move from experimentation to production AI.\n\n*About the Speaker*\n\n[Ge
+ orge Nie](https://www.linkedin.com/in/muyi-george-nie/) is Product Marketi
+ ng Strategist at LōD Technologies\, where he explores how AI infrastructu
+ re quietly shapes the way products are built and shipped. He partners with
+  engineering and business leadership to translate emerging shifts in AI in
+ ference into narratives that empower developers to move from experimentati
+ on to real-world impact.
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
