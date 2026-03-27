@@ -1,11 +1,16 @@
 {
-  "generated_at": "2026-03-26T18:56:53.602107+00:00",
-  "total_events": 13,
+  "generated_at": "2026-03-27T01:26:20.896868+00:00",
+  "total_events": 14,
   "city": "Puebla",
   "communities": [
     {
       "name": "PyTalavera",
       "description": "Comunidad Pythonista en Puebla. Eventos, charlas y networking para entusiastas de Python en la región.",
+      "links": []
+    },
+    {
+      "name": "Frutero Club",
+      "description": "Comunidad y plataforma enfocada en formar, conectar y activar talento tecnológico en América Latina. Eventos de builders, Web3 y desarrollo.",
       "links": []
     },
     {
@@ -390,6 +395,33 @@
       "city_code": "heroicapuebladezaragoza",
       "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
       "hash_key": "kick off talavera valley hub el evento q_2026-02-26T00:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Meetups Frutales Q1 2026: ¡Bienvenidos a Ethereum! Puebla|México|Puebla",
+      "description": "Get up-to-date information at: https://luma.com/aanwxamq\n\nAddress:\nUniversidad de Oriente\nHeroica Puebla de Zaragoza, Puebla\nMexico\n\nHosted by Frutero",
+      "url": "https://luma.com/aanwxamq",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aanwxamq",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Universidad de Oriente, Av. 21 Ote. 1816, Zona Sin Asignación de Nombre de Col 39, Azcarate, 72501 Heroica Puebla de Zaragoza, Pue., Mexico",
+      "online": false,
+      "organizer": "Frutero Club",
+      "dtstart": "2026-04-13T16:00:00+00:00",
+      "dtend": "2026-04-13T19:30:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Av. 21 Ote. 1816, Zona Sin Asignación de Nombre de Col 39, Azcarate, 72501 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "meetups frutales q1 2026 bienvenidos a e_2026-04-13T16:00:00+00:00"
     }
   ]
 }
