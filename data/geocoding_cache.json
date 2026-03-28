@@ -3279,6 +3279,89 @@
       "point_of_interest"
     ]
   },
+  "Plaza Carso, Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "Plaza Carso",
+        "short_name": "Pl. Carso",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ampliación Granada",
+        "short_name": "Amp Granada",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "11529",
+        "short_name": "11529",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.4415958,
+          "lng": -99.2029503
+        },
+        "southwest": {
+          "lat": 19.4413273,
+          "lng": -99.2031883
+        }
+      },
+      "location": {
+        "lat": 19.4413546,
+        "lng": -99.2031496
+      },
+      "location_type": "GEOMETRIC_CENTER",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4428105302915,
+          "lng": -99.2017203197085
+        },
+        "southwest": {
+          "lat": 19.4401125697085,
+          "lng": -99.2044182802915
+        }
+      }
+    },
+    "place_id": "ChIJ9SxomBAC0oURRHoHGIi4yBM",
+    "types": [
+      "route"
+    ]
+  },
   "Lincoln Offices & Cowork, Anatole France 51, Polanco, Polanco III Secc, Miguel Hidalgo, 11540 Ciudad de México, CDMX, Mexico": {
     "address_components": [
       {
@@ -4753,89 +4836,6 @@
       "point_of_interest"
     ]
   },
-  "Plaza Carso, Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "Plaza Carso",
-        "short_name": "Pl. Carso",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Ampliación Granada",
-        "short_name": "Amp Granada",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "11529",
-        "short_name": "11529",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.4415958,
-          "lng": -99.2029503
-        },
-        "southwest": {
-          "lat": 19.4413273,
-          "lng": -99.2031883
-        }
-      },
-      "location": {
-        "lat": 19.4413546,
-        "lng": -99.2031496
-      },
-      "location_type": "GEOMETRIC_CENTER",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4428105302915,
-          "lng": -99.2017203197085
-        },
-        "southwest": {
-          "lat": 19.4401125697085,
-          "lng": -99.2044182802915
-        }
-      }
-    },
-    "place_id": "ChIJ9SxomBAC0oURRHoHGIi4yBM",
-    "types": [
-      "route"
-    ]
-  },
   "Workósfera Coworking @ Cerro de La Paz, Puebla, Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., Mexico": {
     "address_components": [
       {
@@ -4927,93 +4927,6 @@
     "types": [
       "establishment",
       "point_of_interest"
-    ]
-  },
-  "Universidad Cristóbal Colón, Paseo de Los Cedros, Veracruz": {
-    "address_components": [
-      {
-        "long_name": "Paseo de Los Cedros",
-        "short_name": "P.º de Los Cedros",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Floresta",
-        "short_name": "Floresta",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Veracruz",
-        "short_name": "Veracruz",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Veracruz",
-        "short_name": "Ver.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "91930",
-        "short_name": "91930",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "P.º de Los Cedros, Floresta, 91930 Veracruz, Ver., México",
-    "geometry": {
-      "location": {
-        "lat": 19.1556199,
-        "lng": -96.1324149
-      },
-      "location_type": "GEOMETRIC_CENTER",
-      "viewport": {
-        "northeast": {
-          "lat": 19.1569374302915,
-          "lng": -96.13106396970849
-        },
-        "southwest": {
-          "lat": 19.1542394697085,
-          "lng": -96.1337619302915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.155557,
-          "longitude": -96.132411
-        }
-      }
-    ],
-    "place_id": "ChIJOb5NSABBw4URMc0EEanCEIw",
-    "plus_code": {
-      "compound_code": "5V49+62 Veracruz, Ver., México",
-      "global_code": "76F55V49+62"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest",
-      "university"
     ]
   },
   "Merida, Yucatan, Mexico": {
@@ -5660,23 +5573,18 @@
       "university"
     ]
   },
-  "TecNM - Campus Villahermosa, Villahermosa - Frontera, Villahermosa": {
+  "Universidad Cristóbal Colón, Paseo de Los Cedros, Veracruz": {
     "address_components": [
       {
-        "long_name": "Km. 3.5 Carretera",
-        "short_name": "",
-        "types": []
-      },
-      {
-        "long_name": "Villahermosa - Frontera",
-        "short_name": "Villahermosa - Frontera",
+        "long_name": "Paseo de Los Cedros",
+        "short_name": "P.º de Los Cedros",
         "types": [
           "route"
         ]
       },
       {
-        "long_name": "Ciudad Industrial",
-        "short_name": "Cd Industrial",
+        "long_name": "Floresta",
+        "short_name": "Floresta",
         "types": [
           "political",
           "sublocality",
@@ -5684,16 +5592,16 @@
         ]
       },
       {
-        "long_name": "Villahermosa",
-        "short_name": "Villahermosa",
+        "long_name": "Veracruz",
+        "short_name": "Veracruz",
         "types": [
           "locality",
           "political"
         ]
       },
       {
-        "long_name": "Tabasco",
-        "short_name": "Tab.",
+        "long_name": "Veracruz",
+        "short_name": "Ver.",
         "types": [
           "administrative_area_level_1",
           "political"
@@ -5708,101 +5616,43 @@
         ]
       },
       {
-        "long_name": "86010",
-        "short_name": "86010",
+        "long_name": "91930",
+        "short_name": "91930",
         "types": [
           "postal_code"
         ]
       }
     ],
-    "formatted_address": "Km. 3.5 Carretera, Villahermosa - Frontera, Cd Industrial, 86010 Villahermosa, Tab., México",
+    "formatted_address": "P.º de Los Cedros, Floresta, 91930 Veracruz, Ver., México",
     "geometry": {
       "location": {
-        "lat": 18.0230511,
-        "lng": -92.90364029999999
+        "lat": 19.1556199,
+        "lng": -96.1324149
       },
       "location_type": "GEOMETRIC_CENTER",
       "viewport": {
         "northeast": {
-          "lat": 18.0244987,
-          "lng": -92.9032945197085
+          "lat": 19.1569374302915,
+          "lng": -96.13106396970849
         },
         "southwest": {
-          "lat": 18.0217999,
-          "lng": -92.9059924802915
+          "lat": 19.1542394697085,
+          "lng": -96.1337619302915
         }
       }
     },
     "navigation_points": [
       {
         "location": {
-          "latitude": 18.0218238,
-          "longitude": -92.9046386
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 18.0226904,
-          "longitude": -92.9057818
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 18.022914,
-          "longitude": -92.9056499
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 18.0236222,
-          "longitude": -92.90527
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 18.0242314,
-          "longitude": -92.9049454
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 18.0244973,
-          "longitude": -92.9034916
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 18.0220745,
-          "longitude": -92.9039784
-        },
-        "restricted_travel_modes": [
-          "DRIVE"
-        ]
+          "latitude": 19.155557,
+          "longitude": -96.132411
+        }
       }
     ],
-    "partial_match": true,
-    "place_id": "ChIJvXGRI3nY7YUR06ooQn4Vnq4",
+    "place_id": "ChIJOb5NSABBw4URMc0EEanCEIw",
     "plus_code": {
-      "compound_code": "23FW+6G Villahermosa, Tab., México",
-      "global_code": "76C923FW+6G"
+      "compound_code": "5V49+62 Veracruz, Ver., México",
+      "global_code": "76F55V49+62"
     },
     "types": [
       "establishment",
@@ -11988,6 +11838,156 @@
     "types": [
       "premise",
       "street_address"
+    ]
+  },
+  "TecNM - Campus Villahermosa, Villahermosa - Frontera, Villahermosa": {
+    "address_components": [
+      {
+        "long_name": "Km. 3.5 Carretera",
+        "short_name": "",
+        "types": []
+      },
+      {
+        "long_name": "Villahermosa - Frontera",
+        "short_name": "Villahermosa - Frontera",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ciudad Industrial",
+        "short_name": "Cd Industrial",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Villahermosa",
+        "short_name": "Villahermosa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tabasco",
+        "short_name": "Tab.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "86010",
+        "short_name": "86010",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Km. 3.5 Carretera, Villahermosa - Frontera, Cd Industrial, 86010 Villahermosa, Tab., México",
+    "geometry": {
+      "location": {
+        "lat": 18.0230511,
+        "lng": -92.90364029999999
+      },
+      "location_type": "GEOMETRIC_CENTER",
+      "viewport": {
+        "northeast": {
+          "lat": 18.0244987,
+          "lng": -92.9032945197085
+        },
+        "southwest": {
+          "lat": 18.0217999,
+          "lng": -92.9059924802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 18.0218238,
+          "longitude": -92.9046386
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 18.0226904,
+          "longitude": -92.9057818
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 18.022914,
+          "longitude": -92.9056499
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 18.0236222,
+          "longitude": -92.90527
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 18.0242314,
+          "longitude": -92.9049454
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 18.0244973,
+          "longitude": -92.9034916
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 18.0220745,
+          "longitude": -92.9039784
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJvXGRI3nY7YUR06ooQn4Vnq4",
+    "plus_code": {
+      "compound_code": "23FW+6G Villahermosa, Tab., México",
+      "global_code": "76C923FW+6G"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "university"
     ]
   }
 }
