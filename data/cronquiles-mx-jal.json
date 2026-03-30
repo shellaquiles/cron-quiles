@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-30T12:59:09.555901+00:00",
-  "total_events": 23,
+  "generated_at": "2026-03-30T18:50:17.293330+00:00",
+  "total_events": 24,
   "city": "Jalisco",
   "communities": [
     {
@@ -701,6 +701,38 @@
       "city_code": "guadalajara",
       "address": "Holiday Inn Guadalajara Expo, an IHG Hotel 2500 Avenida Adolfo López Mateos Sur, Zapopan, 45050",
       "hash_key": "kcd guadalajara 2026_2026-04-18T14:00:00+00:00"
+    },
+    {
+      "title": "Pythonistas GDL|Interfaz web y agentes autónomos|México|Jalisco",
+      "description": "<h2><strong>Tenemos cupo para 50 personas, <br />Regístrate si tienes la certeza de asistir y llega temprano para asegurar tu lugar.</strong></h2><ul><li><p style=\"margin:0.5em 0px;\">🚪 Recepción a partir de las 6:30</p></li><li><p style=\"margin:0.5em 0px;\">⏰ Evento 7:00</p></li><li><p style=\"margin:0.5em 0px;\">🗣️ NiceGUI<br /><em>interfaz web para tu código Python</em><br /><strong>Por Juan Carlos Sedano</strong></p></li><li><p style=\"margin:0.5em 0px;\">🗣️ Mas allá del chat<br /><em>construyendo agentes autónomos con Python y Google Cloud</em><br /><strong>Por José Muñoz</strong></p></li><li><p style=\"margin:0.5em 0px;\">🪩 Networking </p></li></ul>",
+      "url": "https://reuniones.pythonistas-gdl.org/event/4/interfaz-web-y-agentes-autonomos",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://reuniones.pythonistas-gdl.org/event/4/interfaz-web-y-agentes-autonomos",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Stak Novena, Av. México 3040, Auditorio piso 12, Guadalajara, Jalisco, MX",
+      "online": false,
+      "organizer": "Pythonistas GDL",
+      "dtstart": "2026-04-25T00:30:00+00:00",
+      "dtend": "2026-04-25T04:00:00+00:00",
+      "tags": [
+        "cloud",
+        "frontend",
+        "python",
+        "web"
+      ],
+      "source": "https://reuniones.pythonistas-gdl.org/events/1/pythonistas-gdl",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Jalisco",
+      "state_code": "MX-JAL",
+      "city": "Guadalajara",
+      "city_code": "guadalajara",
+      "address": "Av. México 3040-piso 12, Juan Manuel Vallarta, 44680 Guadalajara, Jal., México",
+      "hash_key": "interfaz web y agentes autnomos_2026-04-25T00:00:00+00:00"
     }
   ]
 }
