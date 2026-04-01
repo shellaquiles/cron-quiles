@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-04-01T13:00:07.311790+00:00",
+  "total_events": 2,
+  "city": "MX-MÉX",
+  "communities": [
+    {
+      "name": "Mexico Tech Week",
+      "description": "Calendario oficial de Mexico Tech Week 2025.",
+      "links": []
+    }
+  ],
+  "events": [
+    {
+      "title": "Mexico Tech Week|Despecho night!|México|Estado de México",
+      "description": "Get up-to-date information at: https://luma.com/pwl9jnw8\n\nAddress:\nDespecho Satélite\nSatélite, Estado de México\nMexico\n\nHosted by Mexico Tech Week, azalea & Héctor Cancela",
+      "url": "https://luma.com/pwl9jnw8",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/pwl9jnw8",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Despecho Satélite, Cto Centro Comercial 29, Cd. Satélite, Naucalpan de Juárez, Manzana 034, Cd. Satélite, 53100 Satélite, Méx., Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-26T02:00:00+00:00",
+      "dtend": "2024-10-26T09:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Estado de México",
+      "state_code": "MX-MÉX",
+      "city": "Naucalpan de Juárez",
+      "city_code": "naucalpandejuarez",
+      "address": "Cto Centro Comercial 16-Int RE-03, Cd. Satélite, 53100 Naucalpan de Juárez, Méx., México",
+      "hash_key": "despecho night_2024-10-26T02:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Zero to One: Building a Tech Company in Mexico|México|Estado de México",
+      "description": "Get up-to-date information at: https://luma.com/2um65vk3\n\nAddress:\nPerif. Blvd. Manuel Ávila Camacho 261\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Mexico Tech Week & 4 others",
+      "url": "https://luma.com/2um65vk3",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/2um65vk3",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Perif. Blvd. Manuel Ávila Camacho 261, Polanco, Militar, Miguel Hidalgo, 11510 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2025-10-20T18:00:00+00:00",
+      "dtend": "2025-10-20T19:00:00+00:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Estado de México",
+      "state_code": "MX-MÉX",
+      "city": "Naucalpan de Juárez",
+      "city_code": "naucalpandejuarez",
+      "address": "Perif. Blvd. Manuel Ávila Camacho 261, Naucalpan, 53519 Naucalpan de Juárez, Méx., México",
+      "hash_key": "zero to one building a tech company in m_2025-10-20T18:00:00+00:00"
+    }
+  ]
+}

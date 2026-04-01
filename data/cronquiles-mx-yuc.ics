@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cron-Quiles//ICS Aggregator//EN
+CALSCALE:GREGORIAN
+X-WR-CALDESC:Calendario unificado de eventos tech en Yucatán\, México
+X-WR-CALNAME:Eventos Tech Yucatán - cronquiles
+X-WR-TIMEZONE:America/Mexico_City
+BEGIN:VEVENT
+SUMMARY:Frutero Club|$XOC en Ethereum México - Dinámica Sep 11 a Sep 16|
+ México|Yucatán
+DTSTART:20240911T190000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/nx1c3b6i\n\nAd
+ dress:\nMerida\nBusca a los miembros de LaDAO durante los side events y ev
+ ento principal de Ethereum México 2024\nMerida\, Yucatan\nMexico\n\nHoste
+ d by mel
+LOCATION:Merida\, Yucatan\, Mexico
+X-CRONQUILES-ADDRESS:Mérida\, Yuc.\, México
+X-CRONQUILES-CITY:Mérida
+X-CRONQUILES-CITY-CODE:merida
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Yucatán
+X-CRONQUILES-STATE-CODE:MX-YUC
+END:VEVENT
+END:VCALENDAR

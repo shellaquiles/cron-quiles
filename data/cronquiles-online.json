@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-01T07:09:00.078759+00:00",
-  "total_events": 22,
+  "generated_at": "2026-04-01T13:00:07.226464+00:00",
+  "total_events": 160,
   "city": "Online",
   "communities": [
     {
@@ -11,6 +11,44 @@
           "platform": "meetup",
           "url": "https://www.meetup.com/agilility-talks",
           "label": "Meetup"
+        }
+      ]
+    },
+    {
+      "name": "AI/IA CDMX",
+      "description": "Canal de Luma de la comunidad de IA en Ciudad de México.",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/ai-cdmx",
+          "label": "Luma"
+        }
+      ]
+    },
+    {
+      "name": "Claude Users Group",
+      "description": "",
+      "links": []
+    },
+    {
+      "name": "CHIDAS TECH",
+      "description": "Comunidad tech. Eventos sobre redes, infraestructura y desarrollo (ej. Networking 101, Fundamentos de Redes).",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/nc2fac44",
+          "label": "Luma"
+        }
+      ]
+    },
+    {
+      "name": "Founder Friends Mexico",
+      "description": "Comunidad de founders en México por Hustle Fund. Conexión, historias y networking (Ciudad de México).",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/FFMexico2026",
+          "label": "Luma"
         }
       ]
     },
@@ -26,6 +64,16 @@
       ]
     },
     {
+      "name": "Mexico Tech Week",
+      "description": "Calendario oficial de Mexico Tech Week 2025.",
+      "links": []
+    },
+    {
+      "name": "Python CDMX",
+      "description": "Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles.",
+      "links": []
+    },
+    {
       "name": "Pythonista",
       "description": "Una de las comunidades de Python más grandes y activas de México. Charlas y talleres para todos los niveles.",
       "links": [
@@ -35,6 +83,55 @@
           "label": "Meetup"
         }
       ]
+    },
+    {
+      "name": "Rust-AICollective",
+      "description": "Comunidad de Rust y AI en Ciudad de México. Eventos sobre desarrollo en Rust, inteligencia artificial y desafíos técnicos.",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/rust-ios-ai",
+          "label": "Luma"
+        }
+      ]
+    },
+    {
+      "name": "Sudo FCiencias",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/e17fbtoo",
+          "label": "Luma"
+        }
+      ]
+    },
+    {
+      "name": "This Week in Fintech",
+      "description": "AI x Fintech Talks, Mexico Fintech Week 2026. Eventos sobre IA y fintech (Ciudad de México).",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/lkn7cfxz",
+          "label": "Luma"
+        }
+      ]
+    },
+    {
+      "name": "v0 Prompt to Production Mexico City",
+      "description": "Evento oficial de v0 (Vercel) en México. AI builders, hackathon global. Hosted by aibuilders.mx (Ciudad de México).",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/fdg8riz2",
+          "label": "Luma"
+        }
+      ]
+    },
+    {
+      "name": "Frutero Club",
+      "description": "Comunidad y plataforma enfocada en formar, conectar y activar talento tecnológico en América Latina. Eventos de builders, Web3 y desarrollo.",
+      "links": []
     },
     {
       "name": "México City AI, Machine Learning and Computer Vision Meetup",
@@ -185,6 +282,913 @@
       "hash_key": "agile dojojanuary 6 2022_2022-01-06T22:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|SF GAI Meetup 2/9|Online",
+      "description": "Find more information on https://luma.com/genai-collective",
+      "url": "https://luma.com/genai-collective",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/genai-collective",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://partiful.com/e/fduy3TJ8t7xQYw06HEPU",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2023-02-10T03:00:00+00:00",
+      "dtend": "2023-02-10T05:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://partiful.com/e/fduy3TJ8t7xQYw06HEPU",
+      "hash_key": "sf gai meetup 2 9_2023-02-10T02:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|SF GAI Meetup 3/6|Online",
+      "description": "Find more information on https://luma.com/genai-collective",
+      "url": "https://luma.com/genai-collective",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/genai-collective",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://partiful.com/e/ZWZxvHkihKn7JOkHg9HK",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2023-03-07T02:30:00+00:00",
+      "dtend": "2023-03-07T05:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://partiful.com/e/ZWZxvHkihKn7JOkHg9HK",
+      "hash_key": "sf gai meetup 3 6_2023-03-07T02:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|SF GAI Meetup 3/13|Online",
+      "description": "Find more information on https://luma.com/genai-collective",
+      "url": "https://luma.com/genai-collective",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/genai-collective",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://partiful.com/e/UFH62eStseylh4HrNMI8",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2023-03-14T01:30:00+00:00",
+      "dtend": "2023-03-14T04:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://partiful.com/e/UFH62eStseylh4HrNMI8",
+      "hash_key": "sf gai meetup 3 13_2023-03-14T00:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|SF GAI Meetup 3/22|Online",
+      "description": "Find more information on https://luma.com/genai-collective",
+      "url": "https://luma.com/genai-collective",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/genai-collective",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://partiful.com/e/JbxFICGdJXG7Dyq4bWDp",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2023-03-23T01:30:00+00:00",
+      "dtend": "2023-03-23T04:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://partiful.com/e/JbxFICGdJXG7Dyq4bWDp",
+      "hash_key": "sf gai meetup 3 22_2023-03-23T00:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|SF GAI Summit 3/29|Online",
+      "description": "Find more information on https://luma.com/genai-collective",
+      "url": "https://luma.com/genai-collective",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/genai-collective",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://partiful.com/e/1F4eel3HqIgOA90tuAYF",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2023-03-30T01:30:00+00:00",
+      "dtend": "2023-03-30T04:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://partiful.com/e/1F4eel3HqIgOA90tuAYF",
+      "hash_key": "sf gai summit 3 29_2023-03-30T00:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|SF GAI Meetup 4/12|Online",
+      "description": "Find more information on https://luma.com/genai-collective",
+      "url": "https://luma.com/genai-collective",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/genai-collective",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://partiful.com/e/nQKICydAsKOIIeLwRlrB",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2023-04-13T01:30:00+00:00",
+      "dtend": "2023-04-13T04:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://partiful.com/e/nQKICydAsKOIIeLwRlrB",
+      "hash_key": "sf gai meetup 4 12_2023-04-13T00:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|Silicon Valley GAI Meetup 4/19|Online",
+      "description": "Find more information on https://luma.com/genai-collective",
+      "url": "https://luma.com/genai-collective",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/genai-collective",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://partiful.com/e/95vwcLJIrDHuw38dpPf4",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2023-04-20T01:30:00+00:00",
+      "dtend": "2023-04-20T04:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://partiful.com/e/95vwcLJIrDHuw38dpPf4",
+      "hash_key": "silicon valley gai meetup 4 19_2023-04-20T00:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|GAICo Meetup 5/3|Online",
+      "description": "Find more information on https://luma.com/genai-collective",
+      "url": "https://luma.com/genai-collective",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/genai-collective",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://partiful.com/e/5970i3bKnumiFfJ8sA4w",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2023-05-04T01:30:00+00:00",
+      "dtend": "2023-05-04T04:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://partiful.com/e/5970i3bKnumiFfJ8sA4w",
+      "hash_key": "gaico meetup 5 3_2023-05-04T00:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|SF #TechWeek AI in eCommerce Meetup 5/31|Online",
+      "description": "Find more information on https://luma.com/genai-collective",
+      "url": "https://luma.com/genai-collective",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/genai-collective",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://partiful.com/e/QRNMpghsgVNorMn7AbCd",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2023-06-01T01:30:00+00:00",
+      "dtend": "2023-06-01T04:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://partiful.com/e/QRNMpghsgVNorMn7AbCd",
+      "hash_key": "sf techweek ai in ecommerce meetup 5 31_2023-06-01T00:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Everything is storytelling|Online",
+      "description": "Get up-to-date information at: https://luma.com/everythingisstorytelling\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/everythingisstorytelling",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/everythingisstorytelling",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-e9MnPdmeIZDwZ6k",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2023-07-26T19:00:00+00:00",
+      "dtend": "2023-07-26T20:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-e9MnPdmeIZDwZ6k",
+      "hash_key": "everything is storytelling_2023-07-26T18:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Get more LPs|Online",
+      "description": "Get up-to-date information at: https://luma.com/getmorelps\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/getmorelps",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/getmorelps",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-4Krdqb6f3DP2OBn",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2023-08-09T16:30:00+00:00",
+      "dtend": "2023-08-09T20:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-4Krdqb6f3DP2OBn",
+      "hash_key": "get more lps_2023-08-09T16:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Selling the Dream: How to explain your awesome market and opportunity to investors (no BS allowed)|Online",
+      "description": "Get up-to-date information at: https://luma.com/sellingthedream\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/sellingthedream",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sellingthedream",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-uuo2blcOSr9Yggx",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2023-08-29T17:00:00+00:00",
+      "dtend": "2023-08-29T18:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-uuo2blcOSr9Yggx",
+      "hash_key": "selling the dream how to explain your aw_2023-08-29T16:00:00+00:00"
+    },
+    {
+      "title": "This Week in Fintech|The Fintech Job Fair|Online",
+      "description": "Get up-to-date information at: https://luma.com/fintech-job-fair\n\nHosted by This Week in Fintech",
+      "url": "https://luma.com/fintech-job-fair",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/fintech-job-fair",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-3QJRnwHwI46eunH",
+      "online": true,
+      "organizer": "This Week in Fintech",
+      "dtstart": "2023-09-06T13:00:00+00:00",
+      "dtend": "2023-09-06T21:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/lkn7cfxz",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-3QJRnwHwI46eunH",
+      "hash_key": "the fintech job fair_2023-09-06T12:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|AI Investors & Networking|Online",
+      "description": "Find more information on https://luma.com/genai-collective",
+      "url": "https://luma.com/genai-collective",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/genai-collective",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://www.eventbrite.com/e/ai-investors-networking-tickets-707083233987?aff=ebdsoporgprofile",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2023-09-11T23:00:00+00:00",
+      "dtend": "2023-09-12T01:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://www.eventbrite.com/e/ai-investors-networking-tickets-707083233987?aff=ebdsoporgprofile",
+      "hash_key": "ai investors networking_2023-09-11T22:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Understanding the Secondary Market in Venture|Online",
+      "description": "Get up-to-date information at: https://luma.com/secondarymarket\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/secondarymarket",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/secondarymarket",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-SjfBmp6y8g6CsAE",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2023-09-12T17:00:00+00:00",
+      "dtend": "2023-09-12T18:00:00+00:00",
+      "tags": [
+        "security"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-SjfBmp6y8g6CsAE",
+      "hash_key": "understanding the secondary market in ve_2023-09-12T16:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|LLM x Law Hackathon #2 @Stanford|Online",
+      "description": "Find more information on https://luma.com/genai-collective",
+      "url": "https://luma.com/genai-collective",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/genai-collective",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://partiful.com/e/xlVcg6ApMYiun8yt4pTp",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2023-09-23T16:00:00+00:00",
+      "dtend": "2023-09-24T04:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://partiful.com/e/xlVcg6ApMYiun8yt4pTp",
+      "hash_key": "llm x law hackathon 2 stanford_2023-09-23T16:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Automate your lead gen (and earn more revenue!)|Online",
+      "description": "Get up-to-date information at: https://luma.com/automateyourleadgen\n\nHosted by Janel Spilker & Hustle Fund",
+      "url": "https://luma.com/automateyourleadgen",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/automateyourleadgen",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-Q6y8rwqE52I1uFP",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2023-09-27T17:00:00+00:00",
+      "dtend": "2023-09-27T18:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-Q6y8rwqE52I1uFP",
+      "hash_key": "automate your lead gen and earn more rev_2023-09-27T16:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Founder-Led Sales with Pete Kazanjy|Online",
+      "description": "Get up-to-date information at: https://luma.com/founderledsaleswithpete\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/founderledsaleswithpete",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/founderledsaleswithpete",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-HzmhZEXVPYHTRRS",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2023-09-29T17:00:00+00:00",
+      "dtend": "2023-09-29T18:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-HzmhZEXVPYHTRRS",
+      "hash_key": "founder led sales with pete kazanjy_2023-09-29T16:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Storytelling for Startups|Online",
+      "description": "Get up-to-date information at: https://luma.com/storytellingforstartups\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/storytellingforstartups",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/storytellingforstartups",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-qYPgUR0h87hL9sT",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2023-10-03T17:00:00+00:00",
+      "dtend": "2023-10-03T18:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-qYPgUR0h87hL9sT",
+      "hash_key": "storytelling for startups_2023-10-03T16:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|TedAI Hackathon|Online",
+      "description": "Find more information on https://luma.com/genai-collective",
+      "url": "https://luma.com/genai-collective",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/genai-collective",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://www.ai-event.ted.com/hackathon",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2023-10-14T17:00:00+00:00",
+      "dtend": "2023-10-15T23:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://www.ai-event.ted.com/hackathon",
+      "hash_key": "tedai hackathon_2023-10-14T16:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|🧠 GenAI Collective x OctoML 🐙 Builder's Roundtable: Domain Aware LLMs|Online",
+      "description": "Get up-to-date information at: https://luma.com/roundtable-10-26\n\nHosted by The AI Collective & OctoAI",
+      "url": "https://luma.com/roundtable-10-26",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/roundtable-10-26",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-aDp3qqDCBoYt9mn",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2023-10-26T18:00:52+00:00",
+      "dtend": "2023-10-26T19:00:52+00:00",
+      "tags": [
+        "ai",
+        "frontend"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-aDp3qqDCBoYt9mn",
+      "hash_key": "genai collective x octoml builder s roun_2023-10-26T18:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|🧠 GenAI Collective 🧠 Virtual Friendsgiving! 🦃|Online",
+      "description": "Get up-to-date information at: https://luma.com/11-21\n\nHosted by The AI Collective & 4 others",
+      "url": "https://luma.com/11-21",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/11-21",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-YDkpPkYuPBXIpCH",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2023-11-21T19:00:41+00:00",
+      "dtend": "2023-11-21T20:00:41+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-YDkpPkYuPBXIpCH",
+      "hash_key": "genai collective virtual friendsgiving_2023-11-21T18:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Testing|Online",
+      "description": "Get up-to-date information at: https://luma.com/vyftgrfp\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/vyftgrfp",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/vyftgrfp",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-LqbycCMZit3K7Uq",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2024-02-07T00:30:00+00:00",
+      "dtend": "2024-02-07T01:30:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-LqbycCMZit3K7Uq",
+      "hash_key": "testing_2024-02-07T00:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|🧠 GenAI Collective 🧠  Community Town Hall 🏛️|Online",
+      "description": "Get up-to-date information at: https://luma.com/2-22\n\nHosted by The AI Collective & 7 others",
+      "url": "https://luma.com/2-22",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/2-22",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-lL0WgU68uQsc3nv",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2024-02-23T02:00:36+00:00",
+      "dtend": "2024-02-23T03:00:36+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-lL0WgU68uQsc3nv",
+      "hash_key": "genai collective community town hall_2024-02-23T02:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|🧠 GenAI Collective 🧠  Community Town Hall 🏛️|Online",
+      "description": "Get up-to-date information at: https://luma.com/4-24\n\nHosted by The AI Collective & 3 others",
+      "url": "https://luma.com/4-24",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/4-24",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-k2eD6VPeC0cHy5B",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2024-04-25T01:00:56+00:00",
+      "dtend": "2024-04-25T02:00:56+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-k2eD6VPeC0cHy5B",
+      "hash_key": "genai collective community town hall_2024-04-25T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|M8l Event 2|México|",
+      "description": "Get up-to-date information at: https://luma.com/9reeuyax\n\nAddress:\n\n\nHosted by Mexico Tech Week",
+      "url": "https://luma.com/9reeuyax",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/9reeuyax",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "hosted by mexico tech week",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-05-01T08:10:00+00:00",
+      "dtend": "2024-05-01T09:10:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "México",
+      "hash_key": "m8l event 2_2024-05-01T08:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Scaling Sales Beyond the Founder|Online",
+      "description": "Get up-to-date information at: https://luma.com/r0nbpfhv\n\nHosted by Hustle Fund, Pat Reyes & Elizabeth Yin",
+      "url": "https://luma.com/r0nbpfhv",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/r0nbpfhv",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-vbiSPvRJkL1Jiip",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2024-06-17T17:00:00+00:00",
+      "dtend": "2024-06-17T18:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-vbiSPvRJkL1Jiip",
+      "hash_key": "scaling sales beyond the founder_2024-06-17T16:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|🧠 GenAI Collective x OctoAI 🐙 All About Fine-Tuning LLMs|Online",
+      "description": "Get up-to-date information at: https://luma.com/roundtable-6-25\n\nHosted by The AI Collective, OctoAI & Naomi Chetrit Band",
+      "url": "https://luma.com/roundtable-6-25",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/roundtable-6-25",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-PnNrccCrDJx3C2W",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2024-06-25T18:00:50+00:00",
+      "dtend": "2024-06-25T19:00:50+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-PnNrccCrDJx3C2W",
+      "hash_key": "genai collective x octoai all about fine_2024-06-25T18:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|🧠 The GenAI Collective 🧠 Office Hours 👨‍🏫|Online",
+      "description": "Get up-to-date information at: https://luma.com/0n3ukaid\n\nHosted by The AI Collective, Mihir Somaiya & Naomi Chetrit Band",
+      "url": "https://luma.com/0n3ukaid",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/0n3ukaid",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-BAYYJfemJabkiKB",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2024-07-18T21:00:00+00:00",
+      "dtend": "2024-07-18T22:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-BAYYJfemJabkiKB",
+      "hash_key": "the genai collective office hours_2024-07-18T20:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Early-Stage Startup Funding: Business Strategies and Legal Essentials|Online",
+      "description": "Get up-to-date information at: https://luma.com/dmk1wcbz\n\nHosted by Kristina Subbotina - Startup Lawyer",
+      "url": "https://luma.com/dmk1wcbz",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/dmk1wcbz",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-RGWOnuPO4uiDS3G",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2024-07-25T17:00:00+00:00",
+      "dtend": "2024-07-25T18:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-RGWOnuPO4uiDS3G",
+      "hash_key": "early stage startup funding business str_2024-07-25T16:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Frutero Club F5|Online",
+      "description": "Get up-to-date information at: https://luma.com/r517q0h2\n\nHosted by mel",
+      "url": "https://luma.com/r517q0h2",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/r517q0h2",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-6vq7fAy6FXHzWOU",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2024-08-30T00:00:00+00:00",
+      "dtend": "2024-08-30T02:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-6vq7fAy6FXHzWOU",
+      "hash_key": "frutero club f5_2024-08-30T00:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|How to Get 70K+ Monthly Visits With SEO in Less Than 5 Months|Online",
+      "description": "Get up-to-date information at: https://luma.com/7k7tjh5h\n\nHosted by Wesley Sheh & 3 others",
+      "url": "https://luma.com/7k7tjh5h",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/7k7tjh5h",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-aeVCMMiEAJSX0aF",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2024-09-03T17:00:00+00:00",
+      "dtend": "2024-09-03T18:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-aeVCMMiEAJSX0aF",
+      "hash_key": "how to get 70k monthly visits with seo i_2024-09-03T16:00:00+00:00"
+    },
+    {
       "title": "Richard Kasperowski|Global Office Hours with Richard Kasperowski - Fall 2024|Online",
       "description": "Global Office Hours with Richard Kasperowski: Agile Insights & Open Conversations - Fall",
       "url": "https://www.eventbrite.com/e/global-office-hours-with-richard-kasperowski-fall-2024-tickets-1005948417797",
@@ -241,6 +1245,121 @@
       "hash_key": "dojo de codificacin global en lnea_2024-09-18T18:00:00+00:00"
     },
     {
+      "title": "Frutero Club|Sesiones Co-work: Lluvia de Ideas|Online",
+      "description": "Get up-to-date information at: https://luma.com/11vugz6k\n\nHosted by mel",
+      "url": "https://luma.com/11vugz6k",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/11vugz6k",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-HZp5M0UnfCVBPNE",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2024-09-27T00:00:00+00:00",
+      "dtend": "2024-09-27T01:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-HZp5M0UnfCVBPNE",
+      "hash_key": "sesiones co work lluvia de ideas_2024-09-27T00:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Sesión 2: Crea una app de juguete|Online",
+      "description": "Get up-to-date information at: https://luma.com/1dbfhgas\n\nHosted by joaquin",
+      "url": "https://luma.com/1dbfhgas",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/1dbfhgas",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-Be7y58Q2AGJfo97",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2024-10-01T00:00:00+00:00",
+      "dtend": "2024-10-01T01:00:00+00:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-Be7y58Q2AGJfo97",
+      "hash_key": "sesin 2 crea una app de juguete_2024-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Sesión 3: Cómo hablar con tus usuarios|Online",
+      "description": "Get up-to-date information at: https://luma.com/pfg8a6hu\n\nHosted by joaquin",
+      "url": "https://luma.com/pfg8a6hu",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/pfg8a6hu",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-SaS8LzSa0mUNpOX",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2024-10-04T00:00:00+00:00",
+      "dtend": "2024-10-04T01:00:00+00:00",
+      "tags": [
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-SaS8LzSa0mUNpOX",
+      "hash_key": "sesin 3 cmo hablar con tus usuarios_2024-10-04T00:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Sesión 4: Cómo iterar con feedback|Online",
+      "description": "Get up-to-date information at: https://luma.com/rx9gcv9r\n\nHosted by joaquin",
+      "url": "https://luma.com/rx9gcv9r",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/rx9gcv9r",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-TEkdvol4ZI55xWN",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2024-10-09T00:00:00+00:00",
+      "dtend": "2024-10-09T01:00:00+00:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-TEkdvol4ZI55xWN",
+      "hash_key": "sesin 4 cmo iterar con feedback_2024-10-09T00:00:00+00:00"
+    },
+    {
       "title": "Richard Kasperowski|¡Dojo de Codificación Global en Línea!|Online",
       "description": "¡Únete a nuestra sesión online de código! Practicaremos programación en parejas, TDD y más. ¡No te lo",
       "url": "https://www.eventbrite.com/e/dojo-de-codificacion-global-en-linea-tickets-1029203895557",
@@ -266,6 +1385,294 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "dojo de codificacin global en lnea_2024-10-09T14:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Sesión 5: Cómo hacer tu demo|Online",
+      "description": "Get up-to-date information at: https://luma.com/1bof57mf\n\nHosted by joaquin",
+      "url": "https://luma.com/1bof57mf",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/1bof57mf",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-JPlGJsTWuDfNz1f",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2024-10-11T00:00:00+00:00",
+      "dtend": "2024-10-11T01:00:00+00:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-JPlGJsTWuDfNz1f",
+      "hash_key": "sesin 5 cmo hacer tu demo_2024-10-11T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|AI for Devs|Online",
+      "description": "Get up-to-date information at: https://luma.com/soyhenry\n\nHosted by Mexico Tech Week & Julieta",
+      "url": "https://luma.com/soyhenry",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/soyhenry",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-tPsCHgtWHxx5GsJ",
+      "online": true,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-23T00:00:00+00:00",
+      "dtend": "2024-10-23T01:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-tPsCHgtWHxx5GsJ",
+      "hash_key": "ai for devs_2024-10-23T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|The AORA Model: How Startups can use Social Impact as a  Competitive Advantage|Online",
+      "description": "Get up-to-date information at: https://luma.com/n81oj29u\n\nHosted by Mexico Tech Week & Luciano Moya",
+      "url": "https://luma.com/n81oj29u",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/n81oj29u",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-JyNlPZhKKSXkkXG",
+      "online": true,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-23T00:00:00+00:00",
+      "dtend": "2024-10-23T01:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-JyNlPZhKKSXkkXG",
+      "hash_key": "the aora model how startups can use soci_2024-10-23T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|🌞Community Day powered by Milia⚡#MexicoTechWeek|Online",
+      "description": "Get up-to-date information at: https://luma.com/b1z4i3en\n\nHosted by Mexico Tech Week & Guillermo Vizcaino",
+      "url": "https://luma.com/b1z4i3en",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/b1z4i3en",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-gpAIOkVpeUyDNIZ",
+      "online": true,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-23T17:00:00+00:00",
+      "dtend": "2024-10-23T18:30:00+00:00",
+      "tags": [
+        "ai",
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-gpAIOkVpeUyDNIZ",
+      "hash_key": "community day powered by milia mexicotec_2024-10-23T16:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Online Speed Networking by Milia⚡️#MexicoTechWeek|Online",
+      "description": "Get up-to-date information at: https://luma.com/ry8nt8ii\n\nHosted by Mexico Tech Week & Guillermo Vizcaino",
+      "url": "https://luma.com/ry8nt8ii",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/ry8nt8ii",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-mRO6US6iBsyPg8p",
+      "online": true,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-23T18:00:00+00:00",
+      "dtend": "2024-10-23T18:30:00+00:00",
+      "tags": [
+        "ai",
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-mRO6US6iBsyPg8p",
+      "hash_key": "online speed networking by milia mexicot_2024-10-23T18:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Generative AI: Arquitectura, Funcionamiento y Aplicaciones en la Nube|Online",
+      "description": "Get up-to-date information at: https://luma.com/nbegq0w4\n\nHosted by Mexico Tech Week, Craftech & Jesus Liernur",
+      "url": "https://luma.com/nbegq0w4",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/nbegq0w4",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-r02QQbE0hAcpo3X",
+      "online": true,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-24T17:00:00+00:00",
+      "dtend": "2024-10-24T18:00:00+00:00",
+      "tags": [
+        "ai",
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-r02QQbE0hAcpo3X",
+      "hash_key": "generative ai arquitectura funcionamient_2024-10-24T16:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|\"Corporativos, Academia e Inversión para Mexico como el Hub Tecnológico de Latinoamérica\"|México|",
+      "description": "Get up-to-date information at: https://luma.com/qbmnn3zn\n\nAddress:\n\n\nHosted by Mexico Tech Week & Maria Beltran",
+      "url": "https://luma.com/qbmnn3zn",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/qbmnn3zn",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "hosted by mexico tech week & maria beltran",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-24T18:00:00+00:00",
+      "dtend": "2024-10-24T20:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "México",
+      "hash_key": "corporativos academia e inversin para me_2024-10-24T18:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Mexico Venture Capital Report: An Overview for 2024|Online",
+      "description": "Get up-to-date information at: https://luma.com/8h9xrdh8\n\nHosted by Cuantico VP, Mexico Tech Week & Startuplinks Community",
+      "url": "https://luma.com/8h9xrdh8",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/8h9xrdh8",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-PrP4i8wg2oKljAl",
+      "online": true,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-25T16:00:00+00:00",
+      "dtend": "2024-10-25T17:00:00+00:00",
+      "tags": [
+        "backend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-PrP4i8wg2oKljAl",
+      "hash_key": "mexico venture capital report an overvie_2024-10-25T16:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Disconnect to connect con Tally|México|",
+      "description": "Get up-to-date information at: https://luma.com/lq8qr9ji\n\nAddress:\n\n\nHosted by Mexico Tech Week & Carlos Dávila",
+      "url": "https://luma.com/lq8qr9ji",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/lq8qr9ji",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "hosted by mexico tech week & carlos dávila",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-26T14:00:00+00:00",
+      "dtend": "2024-10-26T18:30:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "México",
+      "hash_key": "disconnect to connect con tally_2024-10-26T14:00:00+00:00"
+    },
+    {
+      "title": "AI/IA CDMX|Building the Right Product: Lessons from an AI Startup Founder|Online",
+      "description": "Find more information on https://luma.com/ai-cdmx",
+      "url": "https://luma.com/ai-cdmx",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/ai-cdmx",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://www.meetup.com/ai-cdmx/events/303644420/",
+      "online": true,
+      "organizer": "AI/IA CDMX",
+      "dtstart": "2024-11-13T01:00:00+00:00",
+      "dtend": "2024-11-13T03:00:00+00:00",
+      "tags": [
+        "ai",
+        "frontend"
+      ],
+      "source": "https://luma.com/ai-cdmx",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://www.meetup.com/ai-cdmx/events/303644420/",
+      "hash_key": "building the right product lessons from _2024-11-13T00:00:00+00:00"
     },
     {
       "title": "Richard Kasperowski|Global Coding Dojo!|Online",
@@ -324,6 +1731,91 @@
       "hash_key": "dojo de codificacin global en lnea_2024-12-11T16:00:00+00:00"
     },
     {
+      "title": "Founder Friends Mexico|Second Opinion Live Podcast|Online",
+      "description": "Get up-to-date information at: https://luma.com/second-opinion-live-podcast-dec172024\n\nHosted by Hustle Fund, Mark Golub & Deck Doctors",
+      "url": "https://luma.com/second-opinion-live-podcast-dec172024",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/second-opinion-live-podcast-dec172024",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-EeNZEoYwKDTVe7W",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2024-12-17T20:00:00+00:00",
+      "dtend": "2024-12-17T21:00:00+00:00",
+      "tags": [
+        "security"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-EeNZEoYwKDTVe7W",
+      "hash_key": "second opinion live podcast_2024-12-17T20:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Frutero Explora x Dabl Club Capítulo 1: Agentes IA|Online",
+      "description": "Get up-to-date information at: https://luma.com/i4i7jeai\n\nHosted by mel & Monica Talan",
+      "url": "https://luma.com/i4i7jeai",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/i4i7jeai",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-WObm3WXaenN0vjG",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2024-12-21T17:00:00+00:00",
+      "dtend": "2024-12-21T20:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-WObm3WXaenN0vjG",
+      "hash_key": "frutero explora x dabl club captulo 1 ag_2024-12-21T16:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Frutero Explora x Dabl Club Capítulo 1.5: Crea tu propio Agente|Online",
+      "description": "Get up-to-date information at: https://luma.com/7we6w057\n\nHosted by Frutero & Moni",
+      "url": "https://luma.com/7we6w057",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/7we6w057",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-cvMmP8ARx0lFqul",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2024-12-28T16:30:00+00:00",
+      "dtend": "2024-12-28T19:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-cvMmP8ARx0lFqul",
+      "hash_key": "frutero explora x dabl club captulo 1 5 _2024-12-28T16:00:00+00:00"
+    },
+    {
       "title": "Richard Kasperowski|Global Coding Dojo!|Online",
       "description": "Join us to practice mob programming, TDD, and AI-assisted coding with tools like Claude Code! Connect with developers",
       "url": "https://www.eventbrite.com/e/global-coding-dojo-tickets-1114576240539",
@@ -351,6 +1843,2284 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "global coding dojo_2025-01-08T16:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|ONLINE! 🧠 GenAI Collective 🧠 AI Tools & Hacks! 🤖|Online",
+      "description": "Get up-to-date information at: https://luma.com/tools\n\nHosted by The AI Collective & 4 others",
+      "url": "https://luma.com/tools",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/tools",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-ym2AbkiWvE726p8",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2025-01-16T01:00:00+00:00",
+      "dtend": "2025-01-16T02:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-ym2AbkiWvE726p8",
+      "hash_key": "online genai collective ai tools hacks_2025-01-16T00:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Rancho staking y Obol en la casa de Frutero Club|Online",
+      "description": "Get up-to-date information at: https://luma.com/mn4sr99r\n\nHosted by Carlos Rodríguez",
+      "url": "https://luma.com/mn4sr99r",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mn4sr99r",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-VXu6GIzeagI0jLA",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-01-22T01:00:00+00:00",
+      "dtend": "2025-01-22T02:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-VXu6GIzeagI0jLA",
+      "hash_key": "rancho staking y obol en la casa de frut_2025-01-22T00:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|DAOs 101 junto a JuanRah & CryptoReuMd|Online",
+      "description": "Get up-to-date information at: https://luma.com/fvq1u887\n\nHosted by Carlos Rodríguez",
+      "url": "https://luma.com/fvq1u887",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/fvq1u887",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-fQ4spf468xauodZ",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-01-29T01:00:00+00:00",
+      "dtend": "2025-01-29T02:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-fQ4spf468xauodZ",
+      "hash_key": "daos 101 junto a juanrah cryptoreumd_2025-01-29T00:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Second Opinion Live Podcast|Online",
+      "description": "Get up-to-date information at: https://luma.com/second-opinion-live-podcast-feb112024\n\nHosted by Hustle Fund, Mark Golub & Deck Doctors",
+      "url": "https://luma.com/second-opinion-live-podcast-feb112024",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/second-opinion-live-podcast-feb112024",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-2r6lEgBHXt58nHR",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-02-11T18:00:00+00:00",
+      "dtend": "2025-02-11T19:00:00+00:00",
+      "tags": [
+        "security"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-2r6lEgBHXt58nHR",
+      "hash_key": "second opinion live podcast_2025-02-11T18:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Secretos de un CTO para llegar a Y Combinator|Online",
+      "description": "Get up-to-date information at: https://luma.com/rdp227jq\n\nHosted by Carlos Rodríguez",
+      "url": "https://luma.com/rdp227jq",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/rdp227jq",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-FX2R8RqkJ78zBt9",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-02-11T20:30:00+00:00",
+      "dtend": "2025-02-11T22:00:00+00:00",
+      "tags": [
+        "security"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-FX2R8RqkJ78zBt9",
+      "hash_key": "secretos de un cto para llegar a y combi_2025-02-11T20:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|De Dev a Chief Technology Officer - Frutero Talk #004|Online",
+      "description": "Get up-to-date information at: https://luma.com/wu405ojf\n\nHosted by Carlos Rodríguez",
+      "url": "https://luma.com/wu405ojf",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/wu405ojf",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-IHEUTUJR8G4DTEy",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-02-18T23:00:00+00:00",
+      "dtend": "2025-02-19T00:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-IHEUTUJR8G4DTEy",
+      "hash_key": "de dev a chief technology officer fruter_2025-02-18T22:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Frutero Talk #005 - ¿Cómo ser el próximo Anonymous Hacker?|Online",
+      "description": "Get up-to-date information at: https://luma.com/7cvwwr5r\n\nHosted by Carlos Rodríguez",
+      "url": "https://luma.com/7cvwwr5r",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/7cvwwr5r",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-jmspavqQTcj4OmB",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-02-19T23:00:00+00:00",
+      "dtend": "2025-02-20T00:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-jmspavqQTcj4OmB",
+      "hash_key": "frutero talk 005 cmo ser el prximo anony_2025-02-19T22:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Frutero Talk #006 - What the duck Be-DAO?|Online",
+      "description": "Get up-to-date information at: https://luma.com/70bqipob\n\nHosted by Carlos Rodríguez",
+      "url": "https://luma.com/70bqipob",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/70bqipob",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-ln64ZgDHMef2d2L",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-02-20T18:00:00+00:00",
+      "dtend": "2025-02-20T19:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-ln64ZgDHMef2d2L",
+      "hash_key": "frutero talk 006 what the duck be dao_2025-02-20T18:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|AgentCamp - Demo Day|Online",
+      "description": "Get up-to-date information at: https://luma.com/t4lxzpe1\n\nHosted by Carlos Rodríguez",
+      "url": "https://luma.com/t4lxzpe1",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/t4lxzpe1",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-WVzlUvTLaPbtmoV",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-02-21T22:00:00+00:00",
+      "dtend": "2025-02-21T23:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-WVzlUvTLaPbtmoV",
+      "hash_key": "agentcamp demo day_2025-02-21T22:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Frutero Talk #007 - Agentes AI en gaming → Guerrero Maya|Online",
+      "description": "Get up-to-date information at: https://luma.com/ws71h62t\n\nHosted by Carlos Rodríguez",
+      "url": "https://luma.com/ws71h62t",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/ws71h62t",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-cyzCaJh2IIGv1sY",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-02-25T23:00:00+00:00",
+      "dtend": "2025-02-26T00:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-cyzCaJh2IIGv1sY",
+      "hash_key": "frutero talk 007 agentes ai en gaming gu_2025-02-25T22:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Frutero Talk #008 - Codifica un AI Agent sin saber programar|Online",
+      "description": "Get up-to-date information at: https://luma.com/wa0w94u0\n\nHosted by Carlos Rodríguez",
+      "url": "https://luma.com/wa0w94u0",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/wa0w94u0",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-4D9hLnBTR87hLPk",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-03-04T23:00:00+00:00",
+      "dtend": "2025-03-05T00:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-4D9hLnBTR87hLPk",
+      "hash_key": "frutero talk 008 codifica un ai agent si_2025-03-04T22:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Frutero Talk #009 → The Graph: todo lo que necesitas saber 💡|Online",
+      "description": "Get up-to-date information at: https://luma.com/ir6wvcoy\n\nHosted by Carlos Rodríguez",
+      "url": "https://luma.com/ir6wvcoy",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/ir6wvcoy",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-4KOLIHsMA7MwFel",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-03-18T23:00:00+00:00",
+      "dtend": "2025-03-19T00:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-4KOLIHsMA7MwFel",
+      "hash_key": "frutero talk 009 the graph todo lo que n_2025-03-18T22:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Angel Squad Open House 🏠|Online",
+      "description": "Get up-to-date information at: https://luma.com/9mlyylbt\n\nHosted by Wael Jabir",
+      "url": "https://luma.com/9mlyylbt",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/9mlyylbt",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-JM9GL3h39SANuOV",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-03-25T17:00:00+00:00",
+      "dtend": "2025-03-25T17:50:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-JM9GL3h39SANuOV",
+      "hash_key": "angel squad open house_2025-03-25T16:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|NYC: Claim your 30 day Angel Squad Guest Pass|Online",
+      "description": "Get up-to-date information at: https://luma.com/j5lbeu61\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/j5lbeu61",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/j5lbeu61",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-bHDiEzXv77L67gr",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-03-27T17:30:00+00:00",
+      "dtend": "2025-03-29T03:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-bHDiEzXv77L67gr",
+      "hash_key": "nyc claim your 30 day angel squad guest _2025-03-27T16:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Frutero Talk #010 - Salud mental en Web3|Online",
+      "description": "Get up-to-date information at: https://luma.com/yfuw3uyq\n\nHosted by Carlos Rodríguez",
+      "url": "https://luma.com/yfuw3uyq",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/yfuw3uyq",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-052JxsIkPKeELUu",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-04-01T23:00:00+00:00",
+      "dtend": "2025-04-02T00:00:00+00:00",
+      "tags": [
+        "web"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-052JxsIkPKeELUu",
+      "hash_key": "frutero talk 010 salud mental en web3_2025-04-01T22:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Frutero Talk #011 - ¿Valió la pena no ir a ETHGlobal Taipei?|Online",
+      "description": "Get up-to-date information at: https://luma.com/460qx20o\n\nHosted by René Hernández",
+      "url": "https://luma.com/460qx20o",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/460qx20o",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-T0z9nCR0hg3IwkX",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-04-08T23:00:00+00:00",
+      "dtend": "2025-04-09T00:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-T0z9nCR0hg3IwkX",
+      "hash_key": "frutero talk 011 vali la pena no ir a et_2025-04-08T22:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Miami: Claim your 30 day Angel Squad Guest Pass|Online",
+      "description": "Get up-to-date information at: https://luma.com/5lge3xpl\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/5lge3xpl",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/5lge3xpl",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-ENIluEGEp0Z68wh",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-04-15T17:30:00+00:00",
+      "dtend": "2025-04-17T03:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-ENIluEGEp0Z68wh",
+      "hash_key": "miami claim your 30 day angel squad gues_2025-04-15T16:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Los Angeles: Claim your 30 day Angel Squad Guest Pass|Online",
+      "description": "Get up-to-date information at: https://luma.com/un8oavbt\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/un8oavbt",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/un8oavbt",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-gv4JtT4E33xU9zm",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-04-15T17:30:00+00:00",
+      "dtend": "2025-04-17T03:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-gv4JtT4E33xU9zm",
+      "hash_key": "los angeles claim your 30 day angel squa_2025-04-15T16:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|DC: Claim your 30 day Angel Squad Guest Pass|Online",
+      "description": "Get up-to-date information at: https://luma.com/bzs5xfd3\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/bzs5xfd3",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/bzs5xfd3",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-nGBjHQD3BtaqYCv",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-04-15T17:30:00+00:00",
+      "dtend": "2025-04-17T03:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-nGBjHQD3BtaqYCv",
+      "hash_key": "dc claim your 30 day angel squad guest p_2025-04-15T16:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Frutero Talk #012 - Mantle Network en Latam|Online",
+      "description": "Get up-to-date information at: https://luma.com/wjgm1fz4\n\nHosted by René Hernández",
+      "url": "https://luma.com/wjgm1fz4",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/wjgm1fz4",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-8OrYQANLSFuy9Yj",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-04-15T23:00:00+00:00",
+      "dtend": "2025-04-16T00:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-8OrYQANLSFuy9Yj",
+      "hash_key": "frutero talk 012 mantle network en latam_2025-04-15T22:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Nashville: Claim your 30 day Angel Squad Guest Pass|Online",
+      "description": "Get up-to-date information at: https://luma.com/rvsmtv11\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/rvsmtv11",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/rvsmtv11",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-Swr4Skt7ZMAhiPK",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-04-22T15:30:00+00:00",
+      "dtend": "2025-04-24T03:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-Swr4Skt7ZMAhiPK",
+      "hash_key": "nashville claim your 30 day angel squad _2025-04-22T14:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Austin: Claim your 30 day Angel Squad Guest Pass|Online",
+      "description": "Get up-to-date information at: https://luma.com/yjdcys3a\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/yjdcys3a",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/yjdcys3a",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-HuQ0D9BpuZXJBRH",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-04-22T15:30:00+00:00",
+      "dtend": "2025-04-24T03:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-HuQ0D9BpuZXJBRH",
+      "hash_key": "austin claim your 30 day angel squad gue_2025-04-22T14:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Toronto: Claim your 30 day Angel Squad Guest Pass|Online",
+      "description": "Get up-to-date information at: https://luma.com/688vnl5n\n\nHosted by Hustle Fund & Wael Jabir",
+      "url": "https://luma.com/688vnl5n",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/688vnl5n",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-4p0qcU7yuzMcRPG",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-04-22T15:30:00+00:00",
+      "dtend": "2025-04-24T03:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-4p0qcU7yuzMcRPG",
+      "hash_key": "toronto claim your 30 day angel squad gu_2025-04-22T14:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Frutero Talk #013 - ¿Qué es Ledger Leaders Week? con Isaac López|Online",
+      "description": "Get up-to-date information at: https://luma.com/stg092q8\n\nHosted by René Hernández",
+      "url": "https://luma.com/stg092q8",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/stg092q8",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-xgjYW4xbSlteRrg",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-04-22T23:00:00+00:00",
+      "dtend": "2025-04-23T00:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-xgjYW4xbSlteRrg",
+      "hash_key": "frutero talk 013 qu es ledger leaders we_2025-04-22T22:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Venture Bites: The #1 Mistake Eric Bahn Sees Angel Investors Make|Online",
+      "description": "Get up-to-date information at: https://luma.com/iqdyq2l7\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/iqdyq2l7",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/iqdyq2l7",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-bwps12cQsGU0CQt",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-04-24T17:00:00+00:00",
+      "dtend": "2025-04-24T17:10:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-bwps12cQsGU0CQt",
+      "hash_key": "venture bites the 1 mistake eric bahn se_2025-04-24T16:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Singapore: Claim your 30 day Angel Squad Guest Pass|Online",
+      "description": "Get up-to-date information at: https://luma.com/jba3nyqn\n\nHosted by Hustle Fund & Wael Jabir",
+      "url": "https://luma.com/jba3nyqn",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/jba3nyqn",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-Sj9muIZAl50PxWp",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-04-29T20:00:00+00:00",
+      "dtend": "2025-05-01T20:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-Sj9muIZAl50PxWp",
+      "hash_key": "singapore claim your 30 day angel squad _2025-04-29T20:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Boston: Claim your 30 day Angel Squad Guest Pass|Online",
+      "description": "Get up-to-date information at: https://luma.com/udlg3jpu\n\nHosted by Hustle Fund & Wael Jabir",
+      "url": "https://luma.com/udlg3jpu",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/udlg3jpu",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-g4Kv6EARAbhC5MX",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-04-29T20:00:00+00:00",
+      "dtend": "2025-05-01T20:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-g4Kv6EARAbhC5MX",
+      "hash_key": "boston claim your 30 day angel squad gue_2025-04-29T20:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Seattle: Claim your 30 day Angel Squad Guest Pass|Online",
+      "description": "Get up-to-date information at: https://luma.com/8xwugnsb\n\nHosted by Hustle Fund & Wael Jabir",
+      "url": "https://luma.com/8xwugnsb",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/8xwugnsb",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-IUNr9mkqIu8MRu9",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-04-29T20:00:00+00:00",
+      "dtend": "2025-05-01T20:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-IUNr9mkqIu8MRu9",
+      "hash_key": "seattle claim your 30 day angel squad gu_2025-04-29T20:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|AI Fireside Chat 🧠 GenAI Collective x Brett Berhoff 🧠|Online",
+      "description": "Get up-to-date information at: https://luma.com/AIfireside\n\nHosted by The AI Collective & ⚡️BRETT BERHOFF⚡️",
+      "url": "https://luma.com/AIfireside",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/AIfireside",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-9BZaij9bfy1TBnw",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2025-05-07T17:00:00+00:00",
+      "dtend": "2025-05-07T18:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-9BZaij9bfy1TBnw",
+      "hash_key": "ai fireside chat genai collective x bret_2025-05-07T16:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Jakarta: Claim your 30 day Angel Squad Guest Pass|Online",
+      "description": "Get up-to-date information at: https://luma.com/sfubyqdf\n\nHosted by Hustle Fund & Wael Jabir",
+      "url": "https://luma.com/sfubyqdf",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sfubyqdf",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-j1aDDbfGqmRAIgQ",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-05-07T18:00:00+00:00",
+      "dtend": "2025-05-09T18:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-j1aDDbfGqmRAIgQ",
+      "hash_key": "jakarta claim your 30 day angel squad gu_2025-05-07T18:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Tulsa: Claim your 30 day Angel Squad Guest Pass|Online",
+      "description": "Get up-to-date information at: https://luma.com/7nph0txt\n\nHosted by Hustle Fund & Wael Jabir",
+      "url": "https://luma.com/7nph0txt",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/7nph0txt",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-YlybcBFhJGGiGBu",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-05-07T18:00:00+00:00",
+      "dtend": "2025-05-09T18:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-YlybcBFhJGGiGBu",
+      "hash_key": "tulsa claim your 30 day angel squad gues_2025-05-07T18:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|San Francisco: Claim your 30 day Angel Squad Guest Pass|Online",
+      "description": "Get up-to-date information at: https://luma.com/lshwpvf2\n\nHosted by Hustle Fund & Wael Jabir",
+      "url": "https://luma.com/lshwpvf2",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/lshwpvf2",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-780stbyofbBC3HN",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-05-07T18:00:00+00:00",
+      "dtend": "2025-05-09T18:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-780stbyofbBC3HN",
+      "hash_key": "san francisco claim your 30 day angel sq_2025-05-07T18:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Bentonville: Claim your 30 day Angel Squad Guest Pass|Online",
+      "description": "Get up-to-date information at: https://luma.com/7dbnny8t\n\nHosted by Hustle Fund & Wael Jabir",
+      "url": "https://luma.com/7dbnny8t",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/7dbnny8t",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-wlqBonvCpwTIP13",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-05-07T18:00:00+00:00",
+      "dtend": "2025-05-09T18:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-wlqBonvCpwTIP13",
+      "hash_key": "bentonville claim your 30 day angel squa_2025-05-07T18:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Hustle Fund / Angel Squad: Claim your 30 day Guest Pass|Online",
+      "description": "Get up-to-date information at: https://luma.com/6ijtp2mp\n\nHosted by Hustle Fund & Wael Jabir",
+      "url": "https://luma.com/6ijtp2mp",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/6ijtp2mp",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-O1E8LIYm2GaxY4U",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-05-28T18:00:00+00:00",
+      "dtend": "2025-05-31T06:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-O1E8LIYm2GaxY4U",
+      "hash_key": "hustle fund angel squad claim your 30 da_2025-05-28T18:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|AI Collective Worldwide Launch Party 🚀|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-global\n\nHosted by The AI Collective & 8 others",
+      "url": "https://luma.com/aic-global",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-global",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-yUFvH8opGCUohJL",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2025-06-05T17:00:00+00:00",
+      "dtend": "2025-06-05T18:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-yUFvH8opGCUohJL",
+      "hash_key": "ai collective worldwide launch party_2025-06-05T16:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Sesión 3 - Uniswap Lab con Frutero Club|Online",
+      "description": "Get up-to-date information at: https://luma.com/9bcp2hpm\n\nHosted by René Hernández & 3 others",
+      "url": "https://luma.com/9bcp2hpm",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/9bcp2hpm",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-4FtP8DvJ24YwAEK",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-06-20T00:30:00+00:00",
+      "dtend": "2025-06-20T01:30:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-4FtP8DvJ24YwAEK",
+      "hash_key": "sesin 3 uniswap lab con frutero club_2025-06-20T00:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|vibe coding para el hackatón de @Bitso|Online",
+      "description": "Get up-to-date information at: https://luma.com/7d0h7x3m\n\nHosted by Frutero",
+      "url": "https://luma.com/7d0h7x3m",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/7d0h7x3m",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-BdnWzeaUTboIfh0",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-06-22T16:30:00+00:00",
+      "dtend": "2025-06-22T18:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-BdnWzeaUTboIfh0",
+      "hash_key": "vibe coding para el hackatn de bitso_2025-06-22T16:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|How Notion’s AI Lead Runs a High-Velocity Eng Team with AI|Online",
+      "description": "Get up-to-date information at: https://luma.com/lead-team-with-ai\n\nHosted by Hustle Fund, Janel Spilker & Elizabeth Yin",
+      "url": "https://luma.com/lead-team-with-ai",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/lead-team-with-ai",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-dCeH8TBWdAjUwcI",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-06-23T17:00:00+00:00",
+      "dtend": "2025-06-23T18:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-dCeH8TBWdAjUwcI",
+      "hash_key": "how notions ai lead runs a high velocity_2025-06-23T16:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Sesión 4 - Uniswap Lab con Frutero Club|Online",
+      "description": "Get up-to-date information at: https://luma.com/v1csn6b1\n\nHosted by René Hernández & 3 others",
+      "url": "https://luma.com/v1csn6b1",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/v1csn6b1",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-puEQsNioFj40AOB",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-06-24T00:30:00+00:00",
+      "dtend": "2025-06-24T01:30:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-puEQsNioFj40AOB",
+      "hash_key": "sesin 4 uniswap lab con frutero club_2025-06-24T00:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Venture Bites: Behind the Scenes of Hustle Fund's Venture Fellowship|Online",
+      "description": "Get up-to-date information at: https://luma.com/ccsyx1mn\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/ccsyx1mn",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/ccsyx1mn",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-ViGYdQ695VpOohB",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-06-25T17:00:00+00:00",
+      "dtend": "2025-06-25T17:10:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-ViGYdQ695VpOohB",
+      "hash_key": "venture bites behind the scenes of hustl_2025-06-25T16:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Sesión 5 - Uniswap Lab con Frutero Club|Online",
+      "description": "Get up-to-date information at: https://luma.com/htz4m3cv\n\nHosted by René Hernández, mel & Garo Sanchez",
+      "url": "https://luma.com/htz4m3cv",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/htz4m3cv",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-TlQXEoC9kVJCsMZ",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-06-27T00:30:00+00:00",
+      "dtend": "2025-06-27T01:30:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-TlQXEoC9kVJCsMZ",
+      "hash_key": "sesin 5 uniswap lab con frutero club_2025-06-27T00:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Sesión 6 - Uniswap Lab con Frutero Club|Online",
+      "description": "Get up-to-date information at: https://luma.com/idteel2o\n\nHosted by René Hernández, mel & Garo Sanchez",
+      "url": "https://luma.com/idteel2o",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/idteel2o",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-OmEFmQgWu38vswM",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-07-01T00:30:00+00:00",
+      "dtend": "2025-07-01T01:30:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-OmEFmQgWu38vswM",
+      "hash_key": "sesin 6 uniswap lab con frutero club_2025-07-01T00:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Frutero Talk #17 con Mel|Online",
+      "description": "Get up-to-date information at: https://luma.com/cpeixs8f\n\nHosted by René Hernández",
+      "url": "https://luma.com/cpeixs8f",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/cpeixs8f",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-I1EDwiNNv575r4W",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-07-08T22:00:00+00:00",
+      "dtend": "2025-07-08T23:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-I1EDwiNNv575r4W",
+      "hash_key": "frutero talk 17 con mel_2025-07-08T22:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Bienvenidos a la Revolución IA x Web3|Online",
+      "description": "Get up-to-date information at: https://luma.com/tp89xe6r\n\nHosted by Anthony Morales & mel",
+      "url": "https://luma.com/tp89xe6r",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/tp89xe6r",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-p5A1dRnckTaCgoA",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-07-15T17:00:00+00:00",
+      "dtend": "2025-07-15T18:30:00+00:00",
+      "tags": [
+        "web"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-p5A1dRnckTaCgoA",
+      "hash_key": "bienvenidos a la revolucin ia x web3_2025-07-15T16:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Frutero Talk #18 con Álvaro Sierra|Online",
+      "description": "Get up-to-date information at: https://luma.com/fhqx04j2\n\nHosted by René Hernández, mel & Anthony Morales",
+      "url": "https://luma.com/fhqx04j2",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/fhqx04j2",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-LTnWJzF64Tke7e8",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-07-15T21:45:00+00:00",
+      "dtend": "2025-07-15T22:45:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-LTnWJzF64Tke7e8",
+      "hash_key": "frutero talk 18 con lvaro sierra_2025-07-15T20:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Venture Bites: Why Founders Should Angel Invest Micro-Checks|Online",
+      "description": "Get up-to-date information at: https://luma.com/ze2bsy6l\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/ze2bsy6l",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/ze2bsy6l",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-jAbrAB2UuAtd9ay",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-07-31T18:00:00+00:00",
+      "dtend": "2025-07-31T18:10:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-jAbrAB2UuAtd9ay",
+      "hash_key": "venture bites why founders should angel _2025-07-31T18:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Venture Bites: Why Product Leaders Make Great Angel Investors|Online",
+      "description": "Get up-to-date information at: https://luma.com/swaxoorh\n\nHosted by Hustle Fund & Brian Nichols",
+      "url": "https://luma.com/swaxoorh",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/swaxoorh",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-lBIaSzT6l1fN3SQ",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-08-14T18:00:00+00:00",
+      "dtend": "2025-08-14T18:10:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-lBIaSzT6l1fN3SQ",
+      "hash_key": "venture bites why product leaders make g_2025-08-14T18:00:00+00:00"
+    },
+    {
+      "title": "AI/IA CDMX|Beyond the Plateau: Rethinking AI in 2025|Online",
+      "description": "Find more information on https://luma.com/ai-cdmx",
+      "url": "https://luma.com/ai-cdmx",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/ai-cdmx",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://www.meetup.com/ai-cdmx/events/310087422/",
+      "online": true,
+      "organizer": "AI/IA CDMX",
+      "dtstart": "2025-08-20T01:00:00+00:00",
+      "dtend": "2025-08-20T03:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/ai-cdmx",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://www.meetup.com/ai-cdmx/events/310087422/",
+      "hash_key": "beyond the plateau rethinking ai in 2025_2025-08-20T00:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|10 Minute Blitz with Nicole DeTommaso: How to Break into VC as an Angel Investor|Online",
+      "description": "Get up-to-date information at: https://luma.com/vhw2j6z1\n\nHosted by Wael Jabir & Nicole DeTommaso",
+      "url": "https://luma.com/vhw2j6z1",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/vhw2j6z1",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-bCXzW5aarpAQHid",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-09-10T17:00:00+00:00",
+      "dtend": "2025-09-10T17:10:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-bCXzW5aarpAQHid",
+      "hash_key": "10 minute blitz with nicole detommaso ho_2025-09-10T16:00:00+00:00"
+    },
+    {
+      "title": "Claude Users Group|Build with Claude Code|Online",
+      "description": "Get up-to-date information at: https://luma.com/z4d0punf\n\nHosted by Martin Manriquez Leon",
+      "url": "https://luma.com/z4d0punf",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/z4d0punf",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-T9Ma1BnBItT1Yb2",
+      "online": true,
+      "organizer": "Claude Users Group",
+      "dtstart": "2025-09-12T01:00:00+00:00",
+      "dtend": "2025-09-12T02:30:00+00:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-gKhhS6fDDrX3mqz",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-T9Ma1BnBItT1Yb2",
+      "hash_key": "build with claude code_2025-09-12T00:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Byldd x Angel Squad Present: The 5 Most Effective Techniques to Use AI for Building at Startups and Small Businesses|Online",
+      "description": "Get up-to-date information at: https://luma.com/lu0cezoe\n\nHosted by Wael Jabir",
+      "url": "https://luma.com/lu0cezoe",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/lu0cezoe",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-5bzZksYMsetVmKD",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-10-02T16:00:00+00:00",
+      "dtend": "2025-10-02T16:30:00+00:00",
+      "tags": [
+        "ai",
+        "frontend"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-5bzZksYMsetVmKD",
+      "hash_key": "byldd x angel squad present the 5 most e_2025-10-02T16:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|BATTER UP! REGIONAL PITCH COMPETITION 2025 - #SFTechWeek|Online",
+      "description": "Find more information on https://luma.com/hustlefund",
+      "url": "https://luma.com/hustlefund",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/hustlefund",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://partiful.com/e/b0uCIPkiXO9lph7mTQ8S",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-10-06T17:30:00+00:00",
+      "dtend": "2025-10-07T00:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://partiful.com/e/b0uCIPkiXO9lph7mTQ8S",
+      "hash_key": "batter up regional pitch competition 202_2025-10-06T16:00:00+00:00"
+    },
+    {
+      "title": "v0 Prompt to Production Mexico City|How I Use AI – Vol 1|Online",
+      "description": "Get up-to-date information at: https://luma.com/pi3ebsn2\n\nHosted by Javier Rivero",
+      "url": "https://luma.com/pi3ebsn2",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/pi3ebsn2",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-gCpfBqRDQhEOJf9",
+      "online": true,
+      "organizer": "v0 Prompt to Production Mexico City",
+      "dtstart": "2025-10-07T22:00:00+00:00",
+      "dtend": "2025-10-07T23:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/fdg8riz2",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-gCpfBqRDQhEOJf9",
+      "hash_key": "how i use ai vol 1_2025-10-07T22:00:00+00:00"
+    },
+    {
+      "title": "Sudo FCiencias|Ricing: El arte de personalizar Linux|Online",
+      "description": "Get up-to-date information at: https://luma.com/elv412dg\n\nHosted by Sudo FCiencias & Daniel Paredes",
+      "url": "https://luma.com/elv412dg",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/elv412dg",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-J4Et3DBgzVr7ieI",
+      "online": true,
+      "organizer": "Sudo FCiencias",
+      "dtstart": "2025-10-10T22:00:00+00:00",
+      "dtend": "2025-10-10T23:30:00+00:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://luma.com/e17fbtoo",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-J4Et3DBgzVr7ieI",
+      "hash_key": "ricing el arte de personalizar linux_2025-10-10T22:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|10 Minute Blitz with Turner Novak: How to Break into VC through Personal Branding|Online",
+      "description": "Get up-to-date information at: https://luma.com/1fa14671\n\nHosted by Wael Jabir",
+      "url": "https://luma.com/1fa14671",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/1fa14671",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-crhnVKntad1hufu",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-10-16T17:00:00+00:00",
+      "dtend": "2025-10-16T17:10:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-crhnVKntad1hufu",
+      "hash_key": "10 minute blitz with turner novak how to_2025-10-16T16:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|10 Minute Blitz with Ann Miura-Ko: Pattern Recognition in Early Stage Investing|Online",
+      "description": "Get up-to-date information at: https://luma.com/4giedi1j\n\nHosted by Wael Jabir",
+      "url": "https://luma.com/4giedi1j",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/4giedi1j",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-vz1LMNtWMjcyQiF",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-10-24T18:00:00+00:00",
+      "dtend": "2025-10-24T18:10:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-vz1LMNtWMjcyQiF",
+      "hash_key": "10 minute blitz with ann miura ko patter_2025-10-24T18:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|10 Minute Blitz with Ankur Nagpal: Avoiding Tax Pitfalls as an Angel Investor|Online",
+      "description": "Get up-to-date information at: https://luma.com/nj9b0s5n\n\nHosted by Wael Jabir",
+      "url": "https://luma.com/nj9b0s5n",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/nj9b0s5n",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-FmCBjqaT7Bx4B0i",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-11-06T18:30:00+00:00",
+      "dtend": "2025-11-06T18:40:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-FmCBjqaT7Bx4B0i",
+      "hash_key": "10 minute blitz with ankur nagpal avoidi_2025-11-06T18:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Angel Squad x Nicole DeTommaso, Bootcamp: How to Break into VC Through Angel Investing|Online",
+      "description": "Get up-to-date information at: https://luma.com/2hyeeggr\n\nHosted by Wael Jabir, Nicole DeTommaso & Brian Nichols",
+      "url": "https://luma.com/2hyeeggr",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/2hyeeggr",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-Nxe2wxIrRaHFmwm",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-11-13T18:00:00+00:00",
+      "dtend": "2025-11-13T18:45:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-Nxe2wxIrRaHFmwm",
+      "hash_key": "angel squad x nicole detommaso bootcamp _2025-11-13T18:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|10 Minute Blitz with Melissa Perri: Why Product Leaders Make Phenomenal Angel Investors|Online",
+      "description": "Get up-to-date information at: https://luma.com/wje7wfw4\n\nHosted by Wael Jabir",
+      "url": "https://luma.com/wje7wfw4",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/wje7wfw4",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-Oa0s1kPFFR8VtCh",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-11-20T19:00:00+00:00",
+      "dtend": "2025-11-20T19:10:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-Oa0s1kPFFR8VtCh",
+      "hash_key": "10 minute blitz with melissa perri why p_2025-11-20T18:00:00+00:00"
+    },
+    {
+      "title": "Sudo FCiencias|Kubernetes 101 (w/Victor Morales)|Online",
+      "description": "Get up-to-date information at: https://luma.com/f5w8173w\n\nHosted by Daniel Paredes & Sudo FCiencias",
+      "url": "https://luma.com/f5w8173w",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/f5w8173w",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-4FVaazO3gHVsG8I",
+      "online": true,
+      "organizer": "Sudo FCiencias",
+      "dtstart": "2025-12-06T18:00:00+00:00",
+      "dtend": "2025-12-06T19:00:00+00:00",
+      "tags": [
+        "devops"
+      ],
+      "source": "https://luma.com/e17fbtoo",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-4FVaazO3gHVsG8I",
+      "hash_key": "kubernetes 101 w victor morales_2025-12-06T18:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Coworking Frutal #25 Gather Edition|Online",
+      "description": "Get up-to-date information at: https://luma.com/iua7mn3t\n\nHosted by Frutero",
+      "url": "https://luma.com/iua7mn3t",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/iua7mn3t",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-OugMCae81OaArCd",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-12-10T15:00:00+00:00",
+      "dtend": "2025-12-10T21:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-OugMCae81OaArCd",
+      "hash_key": "coworking frutal 25 gather edition_2025-12-10T14:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Venture Bites: How small check writers drive big impact|Online",
+      "description": "Get up-to-date information at: https://luma.com/4f9mrnkg\n\nHosted by Wael Jabir",
+      "url": "https://luma.com/4f9mrnkg",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/4f9mrnkg",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-slbZ24DNKXrv76g",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-12-10T19:00:00+00:00",
+      "dtend": "2025-12-10T19:10:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-slbZ24DNKXrv76g",
+      "hash_key": "venture bites how small check writers dr_2025-12-10T18:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Coworking Frutal #26 Gather Edition|Online",
+      "description": "Get up-to-date information at: https://luma.com/qwkzsekx\n\nHosted by Frutero",
+      "url": "https://luma.com/qwkzsekx",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/qwkzsekx",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-dCijW1iczXlhBFD",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-12-17T16:00:00+00:00",
+      "dtend": "2025-12-17T22:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-dCijW1iczXlhBFD",
+      "hash_key": "coworking frutal 26 gather edition_2025-12-17T16:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Uncapped Notes Live|Online",
+      "description": "Get up-to-date information at: https://luma.com/uncapped-notes-live-dec-2025\n\nHosted by Hustle Fund",
+      "url": "https://luma.com/uncapped-notes-live-dec-2025",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/uncapped-notes-live-dec-2025",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-MNA5eK2UuxsFKxQ",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2025-12-17T20:00:00+00:00",
+      "dtend": "2025-12-18T19:59:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-MNA5eK2UuxsFKxQ",
+      "hash_key": "uncapped notes live_2025-12-17T20:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Coworking Frutal #27 Gather Edition|Online",
+      "description": "Get up-to-date information at: https://luma.com/y4tih9jk\n\nHosted by Frutero",
+      "url": "https://luma.com/y4tih9jk",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/y4tih9jk",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-wmlyAspxIRnO3uX",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-12-24T16:00:00+00:00",
+      "dtend": "2025-12-24T22:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-wmlyAspxIRnO3uX",
+      "hash_key": "coworking frutal 27 gather edition_2025-12-24T16:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Coworking Frutal #28 Fin de Año Gather Edition|Online",
+      "description": "Get up-to-date information at: https://luma.com/vxr9gvx5\n\nHosted by Frutero",
+      "url": "https://luma.com/vxr9gvx5",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/vxr9gvx5",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-SJHvte10cToetQW",
+      "online": true,
+      "organizer": "Frutero Club",
+      "dtstart": "2025-12-31T16:00:00+00:00",
+      "dtend": "2025-12-31T22:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-SJHvte10cToetQW",
+      "hash_key": "coworking frutal 28 fin de ao gather edi_2025-12-31T16:00:00+00:00"
+    },
+    {
+      "title": "Sudo FCiencias|TICs: Aprende a Hackear con Agentes de IA|Online",
+      "description": "Get up-to-date information at: https://luma.com/jov35dwo\n\nHosted by Sudo FCiencias",
+      "url": "https://luma.com/jov35dwo",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/jov35dwo",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-ZXwz0O5pF5DLIB9",
+      "online": true,
+      "organizer": "Sudo FCiencias",
+      "dtstart": "2026-01-19T18:00:00+00:00",
+      "dtend": "2026-01-28T20:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/e17fbtoo",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-ZXwz0O5pF5DLIB9",
+      "hash_key": "tics aprende a hackear con agentes de ia_2026-01-19T18:00:00+00:00"
+    },
+    {
+      "title": "v0 Prompt to Production Mexico City|Diseña usando AI|Online",
+      "description": "Get up-to-date information at: https://luma.com/ubxd600w\n\nHosted by Javier Rivero",
+      "url": "https://luma.com/ubxd600w",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/ubxd600w",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-IWVh1A0cdphlpRP",
+      "online": true,
+      "organizer": "v0 Prompt to Production Mexico City",
+      "dtstart": "2026-01-27T23:00:00+00:00",
+      "dtend": "2026-01-28T02:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/fdg8riz2",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-IWVh1A0cdphlpRP",
+      "hash_key": "disea usando ai_2026-01-27T22:00:00+00:00"
+    },
+    {
+      "title": "v0 Prompt to Production Mexico City|Diseña usando AI|Online",
+      "description": "Get up-to-date information at: https://luma.com/5nq96pxw\n\nHosted by Javier Rivero",
+      "url": "https://luma.com/5nq96pxw",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/5nq96pxw",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-H4WPxCoPFcne2bC",
+      "online": true,
+      "organizer": "v0 Prompt to Production Mexico City",
+      "dtstart": "2026-01-28T23:00:00+00:00",
+      "dtend": "2026-01-29T02:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/fdg8riz2",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-H4WPxCoPFcne2bC",
+      "hash_key": "disea usando ai_2026-01-28T22:00:00+00:00"
+    },
+    {
+      "title": "CHIDAS TECH|Networking 101: Fundamentos de Redes|Online",
+      "description": "Get up-to-date information at: https://luma.com/nc2fac44\n\nHosted by CHIDAS TECH",
+      "url": "https://luma.com/nc2fac44",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/nc2fac44",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-cegDtZZOBpe2Ah4",
+      "online": true,
+      "organizer": "CHIDAS TECH",
+      "dtstart": "2026-02-06T01:00:00+00:00",
+      "dtend": "2026-02-27T01:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/nc2fac44",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-cegDtZZOBpe2Ah4",
+      "hash_key": "networking 101 fundamentos de redes_2026-02-06T00:00:00+00:00"
+    },
+    {
+      "title": "v0 Prompt to Production Mexico City|How I Use AI – Vol 2|Online",
+      "description": "Get up-to-date information at: https://luma.com/lgd37763\n\nHosted by Javier Rivero & 3 others",
+      "url": "https://luma.com/lgd37763",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/lgd37763",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-rYB4HiifBPDm7LU",
+      "online": true,
+      "organizer": "v0 Prompt to Production Mexico City",
+      "dtstart": "2026-02-13T00:00:00+00:00",
+      "dtend": "2026-02-13T00:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/fdg8riz2",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-rYB4HiifBPDm7LU",
+      "hash_key": "how i use ai vol 2_2026-02-13T00:00:00+00:00"
+    },
+    {
+      "title": "v0 Prompt to Production Mexico City|How I Use AI #3: Midjourney|Online",
+      "description": "Get up-to-date information at: https://luma.com/d342anny\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
+      "url": "https://luma.com/d342anny",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/d342anny",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-WUg9IsqZP5MKL4B",
+      "online": true,
+      "organizer": "v0 Prompt to Production Mexico City",
+      "dtstart": "2026-02-19T23:30:00+00:00",
+      "dtend": "2026-02-20T00:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/fdg8riz2",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-WUg9IsqZP5MKL4B",
+      "hash_key": "how i use ai 3 midjourney_2026-02-19T22:00:00+00:00"
+    },
+    {
+      "title": "Python CDMX|Meetup Febrero 2026  -  Clara & PythonCDMX|Online",
+      "description": "Get up-to-date information at: https://luma.com/b2j4qyjy\n\nHosted by PythonCDMX & Clara Community",
+      "url": "https://luma.com/b2j4qyjy",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/b2j4qyjy",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-gJdCFiMrQ4I5wWp",
+      "online": true,
+      "organizer": "Python CDMX",
+      "dtstart": "2026-02-25T00:45:00+00:00",
+      "dtend": "2026-02-25T03:00:00+00:00",
+      "tags": [
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-f8GxWvNMvBvvuLb",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-gJdCFiMrQ4I5wWp",
+      "hash_key": "meetup febrero 2026 clara pythoncdmx_2026-02-25T00:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|Venture Bites: Understanding Advisory Shares and the story of Webflow|Online",
+      "description": "Get up-to-date information at: https://luma.com/n7qh2wkf\n\nHosted by Wael Jabir",
+      "url": "https://luma.com/n7qh2wkf",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/n7qh2wkf",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-T9DwqyfaoViKf9K",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2026-02-26T18:00:00+00:00",
+      "dtend": "2026-02-26T18:10:00+00:00",
+      "tags": [
+        "web"
+      ],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-T9DwqyfaoViKf9K",
+      "hash_key": "venture bites understanding advisory sha_2026-02-26T18:00:00+00:00"
+    },
+    {
+      "title": "v0 Prompt to Production Mexico City|How I Use AI #4: OpenClaw|Online",
+      "description": "Get up-to-date information at: https://luma.com/5ivardas\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
+      "url": "https://luma.com/5ivardas",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/5ivardas",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-utuQiZ6tlVbHWXw",
+      "online": true,
+      "organizer": "v0 Prompt to Production Mexico City",
+      "dtstart": "2026-03-06T00:00:00+00:00",
+      "dtend": "2026-03-06T01:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/fdg8riz2",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-utuQiZ6tlVbHWXw",
+      "hash_key": "how i use ai 4 openclaw_2026-03-06T00:00:00+00:00"
+    },
+    {
+      "title": "Founder Friends Mexico|🎥 Small Bets LIVE: Angel Investing 101 Bootcamp|Online",
+      "description": "Get up-to-date information at: https://luma.com/t6n3x6kl\n\nHosted by Wael Jabir & Brian Nichols",
+      "url": "https://luma.com/t6n3x6kl",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/t6n3x6kl",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-pmvhHCOkAUvSvaw",
+      "online": true,
+      "organizer": "Founder Friends Mexico",
+      "dtstart": "2026-03-19T17:00:00+00:00",
+      "dtend": "2026-03-19T17:45:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/FFMexico2026",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-pmvhHCOkAUvSvaw",
+      "hash_key": "small bets live angel investing 101 boot_2026-03-19T16:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|🚀 The Uneven Future: Will AI Close or Widen the Gap?🚀|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-ma-3-26\n\nHosted by The AI Collective, Roberta Nicholls Official & Roberta Nicholls",
+      "url": "https://luma.com/aic-ma-3-26",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-ma-3-26",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-vMsPxZVsqtdMHE2",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-04-01T13:00:00+00:00",
+      "dtend": "2026-04-01T14:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-vMsPxZVsqtdMHE2",
+      "hash_key": "the uneven future will ai close or widen_2026-04-01T12:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|AI Founders & Startups: How to Get Early Adoption in Healthcare AI|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-gl-4-1\n\nHosted by The AI Collective & 4 others",
+      "url": "https://luma.com/aic-gl-4-1",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-gl-4-1",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-cokstgZsYIvbIk8",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-04-01T16:00:00+00:00",
+      "dtend": "2026-04-01T17:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-cokstgZsYIvbIk8",
+      "hash_key": "ai founders startups how to get early ad_2026-04-01T16:00:00+00:00"
+    },
+    {
+      "title": "v0 Prompt to Production Mexico City|How I Use AI #5: Image Manipulation|Online",
+      "description": "Get up-to-date information at: https://luma.com/wsj293yt\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
+      "url": "https://luma.com/wsj293yt",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/wsj293yt",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-3QmmiVDsImuKFFB",
+      "online": true,
+      "organizer": "v0 Prompt to Production Mexico City",
+      "dtstart": "2026-04-01T23:00:00+00:00",
+      "dtend": "2026-04-02T00:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/fdg8riz2",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-3QmmiVDsImuKFFB",
+      "hash_key": "how i use ai 5 image manipulation_2026-04-01T22:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|World Autism Day (w/ The AI Collective)|Online",
+      "description": "Get up-to-date information at: https://luma.com/neurodivergent-01\n\nHosted by The AI Collective, Yauvan H & Alex Barnes",
+      "url": "https://luma.com/neurodivergent-01",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/neurodivergent-01",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-hBnAVY8QY2FDOeG",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-04-02T12:00:00+00:00",
+      "dtend": "2026-04-02T13:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-hBnAVY8QY2FDOeG",
+      "hash_key": "world autism day w the ai collective_2026-04-02T12:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|AI Education Executive Track: AI-Driven Value Creation: What Actually Works for Senior Leaders|Online",
+      "description": "Get up-to-date information at: https://luma.com/oqxpco88\n\nHosted by Abraham & 3 others",
+      "url": "https://luma.com/oqxpco88",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/oqxpco88",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-gqsXiYAhs11NvEY",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-04-02T15:00:00+00:00",
+      "dtend": "2026-04-02T16:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-gqsXiYAhs11NvEY",
+      "hash_key": "ai education executive track ai driven v_2026-04-02T14:00:00+00:00"
     },
     {
       "title": "Kong Mexico City|MCP Best Practices: A Guide for Devs and Governance Teams|Online",
@@ -417,6 +4187,35 @@
       "hash_key": "april 2 ai ml and computer vision meetup_2026-04-02T16:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|Leveling up: MuleRun AI Productivity Workshop|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-gl-3-25\n\nHosted by The AI Collective & 5 others",
+      "url": "https://luma.com/aic-gl-3-25",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-gl-3-25",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-RU11t2SZx9sTXsx",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-04-02T20:00:00+00:00",
+      "dtend": "2026-04-02T22:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-RU11t2SZx9sTXsx",
+      "hash_key": "leveling up mulerun ai productivity work_2026-04-02T20:00:00+00:00"
+    },
+    {
       "title": "Pythonista|Introducción a la Programación con Python|Online",
       "description": "Pythonista®\n## 🐍 Taller: Introducción a la Programación con Python\n\n¿Quieres aprender Python desde cero con una base sólida y profesional? Únete a este taller práctico de 24 horas donde irás desde los fundamentos del lenguaje hasta la creación de programas completos, código modular y gestión de entornos virtuales como lo hacen los desarrolladores en la industria.\nNo necesitas experiencia previa en programación — solo ganas de aprender y una conexión a Internet.\n💰 Precio del Taller\n\n* Precio regular: $23.50 USD\n* 🎁 **Precio especial Meetup:** **$18.00** USD (Solo para los primeros 25 inscritos)\n\n📅 Detalles del Evento\n\n* Fechas: Del 6 al 23 de abril.\n* Sesiones: Lunes a jueves (12 sesiones en total).\n* Horario: 18:30 a 20:30 horas (CST - CDMX).\n* Modalidad: Online en vivo (incluye acceso a grabaciones y notebooks ejecutables).\n\n🛠️ ¿Qué aprenderás?\nEl taller está dividido en 6 módulos progresivos:\n\n1. **Primeros Pasos:** Entorno de trabajo con IPython/Jupyter, sintaxis básica de Python, introspección y ayuda.\n2. **Datos y Operaciones Básicas:** Tipos de datos, colecciones, conversión de tipos y operadores.\n3. **Control de Flujo:** Condicionales, ciclos, iteraciones y entrada/salida estándar.\n4. **Funciones y Tipos Estructurados:** Funciones, listas, tuplas, strings, f-strings, diccionarios y conjuntos.\n5. **Programación Avanzada:** Programación funcional, match/case, excepciones, iteradores, generadores y comprehensions.\n6. **I/O y Modularización:** Lectura/escritura de archivos, módulos, paquetes, distribución de código y entornos virtuales.\n\n📋 Requisitos\n\n* No se requieren conocimientos previos de programación.\n* Acceso estable a Internet.\n* Cuenta de GitHub (trabajaremos en la nube con Codespaces).\n* Cuenta de Google (las evaluaciones se realizan en Google Classroom).\n\n🎓 Certificación\nSe otorgará un diploma a quienes aprueben cada evaluación con al menos 70% de aciertos y hayan asistido al mínimo al 80% de las sesiones.\n🔗 Cómo inscribirse\n\n1. Realiza tu pago con el descuento de Meetup aquí.\n2. Una vez realizado, completa tu registro oficial en: [https://forms.gle/GiBpy5jMyrzPwtHw7](https://forms.gle/GiBpy5jMyrzPwtHw7)\n\n¡Corre! El cupo para el descuento de $18.00 USD es limitado a los primeros 25.\n¿Dudas? Escríbenos a [contacto@pythonista.io](mailto:contacto@pythonista.io)",
       "url": "https://www.meetup.com/pythonista/events/313845096/",
@@ -447,6 +4246,36 @@
       "city_code": "",
       "address": "",
       "hash_key": "introduccin a la programacin con python_2026-04-07T00:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|AI Education  -  Application Developer to Agent Builder [Workshop]|Online",
+      "description": "Get up-to-date information at: https://luma.com/57mblfh6\n\nHosted by Abraham & 4 others",
+      "url": "https://luma.com/57mblfh6",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/57mblfh6",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-sDQpesoAylVEeZl",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-04-07T22:30:00+00:00",
+      "dtend": "2026-04-08T00:00:00+00:00",
+      "tags": [
+        "ai",
+        "frontend"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-sDQpesoAylVEeZl",
+      "hash_key": "ai education application developer to ag_2026-04-07T22:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|April 8 - Getting Started with FiftyOne|Online",
@@ -545,6 +4374,64 @@
       "hash_key": "april 9 workshop build a visual agent th_2026-04-09T16:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|AI Roundtable #22: “This Meeting is Being Recorded” Do AI transcription tools help or hinder work? (w/ AI Collective & Voyage Consulting)|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-kc-roundtable22\n\nHosted by The AI Collective & 4 others",
+      "url": "https://luma.com/aic-kc-roundtable22",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-kc-roundtable22",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-2nEOxOL5t7nareA",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-04-13T17:00:00+00:00",
+      "dtend": "2026-04-13T18:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-2nEOxOL5t7nareA",
+      "hash_key": "ai roundtable 22 this meeting is being r_2026-04-13T16:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|Leadership and the New Competitive Advantage|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-gl-3-31\n\nHosted by Eileen Wu & 3 others",
+      "url": "https://luma.com/aic-gl-3-31",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-gl-3-31",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-UMAxssbXjR651Fc",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-04-14T18:00:00+00:00",
+      "dtend": "2026-04-14T19:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-UMAxssbXjR651Fc",
+      "hash_key": "leadership and the new competitive advan_2026-04-14T18:00:00+00:00"
+    },
+    {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|April 16 - AI, ML and Computer Vision Meetup en Español|Online",
       "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision en Español .\n\n**Date, Time and Location**\n\nApr 16, 2026\n9 - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-en-espanol-april-16-2026)**\n\n**Uncertainty in Large Vision-Language Models and Computer Vision**\n\nWhat if we train a model to classify dogs and cats, but it is later tested with an image of a human? Generally the model will output either dog or cat, and has no ability to signal that the image has no class that it can recognize.\n\nMachine learning models by default do not provide estimates of their confidence or uncertainty, which hinders their use in applications involving humans. Possible solutions is the use of Bayesian Neural Networks or similar models.\n\nIn this talk I will show research applications of neural networks with uncertainty quantification, covering Computer Vision, Large Language Models and Vision-Language Models. This includes super-resolution, frame generation, verbalized uncertainty, robustness to corrupted inputs, and input uncertainty.\n\n*About the Speaker*\n\n[Dr. Matias Valdenegro](https://www.linkedin.com/in/matias-valdenegro-toro-29383717/) is Tenured Assistant Professor of Machine Learning at the Department of Artificial Intelligence, Bernoulli Institute, University of Groningen since 2022. He studied Computer Science, Autonomous Systems, and Electrical Engineering in Chile, Germany, and Scotland, holding a PhD from Heriot-Watt University on a thesis in detecting marine debris in sonar images. As a Researcher at the German Research Center for Artificial Intelligence in Bremen he conducted research in Computer Vision and Uncertainty Quantification from 2018 to 2022.\n\n**Deep Generative Modeling for Multimodal Human Trajectory Prediction**\n\nIn this talk, I plan to show how deep generative models can be used as powerful multiple-hypothesis predictive models, in human trajectory prediction. This kind of problem arises in particular in autonomous driving. I will show a few works we have done in the past and a few ongoing works in my team.\n\n*About the Speaker*\n\n[Jean-Bernard Hayet](https://www.linkedin.com/in/jean-bernard-hayet-a988381/) studied my engineering degree at Ecole Nationale Supérieure de Techniques Avancées (ENSTA) in Paris, and obtained my master degree in artificial intelligence at University Paris VI. I got my Ph.D. degree from University of Toulouse in 2003, at LAAS-CNRS, in Toulouse.\n\n**Cuando el conocimiento es Open la Innovación se acelera**\n\nEn esta charla mostraremos cómo, cuando el conocimiento es abierto, la innovación se acelera al volverse accesible para cualquier colaborador y no solo para unos pocos expertos. Presentare Promptotyper, una plataforma creada por Innovaitors que integra modelos open source y librerías como LangChain y LangGraph para habilitar soluciones agénticas que guían desde el planteamiento del problema hasta el prototipado.\n\nA través de agentes expertos en innovación, los equipos pueden estructurar retos empresariales y avanzar hacia soluciones en áreas como automatización (por ejemplo con n8n), prototipado de aplicaciones web y analítica de datos. El enfoque democratiza el “saber hacer” innovación en empresas de Latinoamérica, reduciendo la fricción y aumentando la velocidad de aprendizaje y ejecución. Al final, verás cómo convertir el expertise en un sistema reutilizable que escala capacidades de innovación en toda la organización.\n\n*About the Speaker*\n\n[Alejandro Uribe](https://www.linkedin.com/in/dauribel/) es científico de datos, cofundador de Innovaitors y consultor en industria 4.0. Magíster en Inteligencia Artificial (U. Javeriana), profesor en la U. Externado e investigador en IA en la Javeriana, con 6 años desarrollando soluciones de IA y analítica de datos.\n\nFrom Using Open Source to Contributing: A Practical Guide to Getting Started\n\nOpen source is one of the best ways to learn faster, build real experience, and grow your career, but many people don’t know how to start. In this talk, I share a very practical approach to contributing to open source, based on real experience. We’ll cover how to choose the right project, understand large codebases, start with small contributions, and communicate clearly with maintainers. Using FiftyOne as a real example (but keeping everything general), I’ll show how small actions like fixing docs, improving tooling, or opening a simple PR can lead to long-term impact, visibility, and growth.\n\n*About the Speaker*\n\n[Adonai Vera](https://www.linkedin.com/in/adonai-vera/) \\- Machine Learning Engineer & DevRel at Voxel51\\. With over 7 years of experience building computer vision and machine learning models using TensorFlow, Docker, and OpenCV\\. I started as a software developer, moved into AI, led teams, and served as CTO\\.",
       "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/312994586/",
@@ -575,6 +4462,94 @@
       "city_code": "",
       "address": "",
       "hash_key": "april 16 ai ml and computer vision meetu_2026-04-16T16:00:00+00:00"
+    },
+    {
+      "title": "v0 Prompt to Production Mexico City|How I Use AI #6: Scaling to 1M users|Online",
+      "description": "Get up-to-date information at: https://luma.com/11fz6ef5\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
+      "url": "https://luma.com/11fz6ef5",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/11fz6ef5",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-SBK5c7p9LXcCYFE",
+      "online": true,
+      "organizer": "v0 Prompt to Production Mexico City",
+      "dtstart": "2026-04-16T23:00:00+00:00",
+      "dtend": "2026-04-17T00:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/fdg8riz2",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-SBK5c7p9LXcCYFE",
+      "hash_key": "how i use ai 6 scaling to 1m users_2026-04-16T22:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|How AI and Neurotechnology Are Transforming the Workplace|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-gl-4-27\n\nHosted by The AI Collective & 4 others",
+      "url": "https://luma.com/aic-gl-4-27",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-gl-4-27",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-jhD9wm18SZgzfLV",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-04-27T15:00:00+00:00",
+      "dtend": "2026-04-27T16:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-jhD9wm18SZgzfLV",
+      "hash_key": "how ai and neurotechnology are transform_2026-04-27T14:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|Responsible AI and Data Protection: Aligning Ghana’s Data Protection Act with Emerging AI Use Cases|Online",
+      "description": "Get up-to-date information at: https://luma.com/aidatagh\n\nHosted by The AI Collective, Knowledge Innovations & Gen Ai Collective Ghana",
+      "url": "https://luma.com/aidatagh",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aidatagh",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-rI9mxNqygqodV1R",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-04-30T19:00:00+00:00",
+      "dtend": "2026-04-30T21:30:00+00:00",
+      "tags": [
+        "ai",
+        "data"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-rI9mxNqygqodV1R",
+      "hash_key": "responsible ai and data protection align_2026-04-30T18:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|May 6 - Building Composable Computer Vision Workflows in FiftyOne|Online",
@@ -709,6 +4684,35 @@
       "city_code": "",
       "address": "",
       "hash_key": "may 21 women in ai meetup_2026-05-21T16:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|Predictive Neurotechnologies, Criminal Risk and the Future of the Presumption of Innocence|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-gl-6-3\n\nHosted by The AI Collective & 3 others",
+      "url": "https://luma.com/aic-gl-6-3",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-gl-6-3",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-CORCUTzJrvpRzSw",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-06-03T06:00:00+00:00",
+      "dtend": "2026-06-03T07:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-CORCUTzJrvpRzSw",
+      "hash_key": "predictive neurotechnologies criminal ri_2026-06-03T06:00:00+00:00"
     }
   ]
 }
