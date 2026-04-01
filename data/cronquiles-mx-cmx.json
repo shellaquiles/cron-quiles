@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-01T13:00:07.301927+00:00",
-  "total_events": 183,
+  "generated_at": "2026-04-01T18:50:27.352055+00:00",
+  "total_events": 184,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -109,6 +109,17 @@
       "name": "Frutero Club",
       "description": "Comunidad y plataforma enfocada en formar, conectar y activar talento tecnológico en América Latina. Eventos de builders, Web3 y desarrollo.",
       "links": []
+    },
+    {
+      "name": "GDG CDMX",
+      "description": "Google Developer Group CDMX. Eventos sobre tecnologías de Google y desarrollo en general.",
+      "links": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/gdg-cdmx/",
+          "label": "Sitio web"
+        }
+      ]
     },
     {
       "name": "PayJoy",
@@ -4899,6 +4910,42 @@
       "city_code": "alvaroobregon",
       "address": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, México",
       "hash_key": "casa frutero coworking frutal 13_2026-04-01T16:00:00+00:00"
+    },
+    {
+      "title": "GDG CDMX|Google Cloud: El Círculo de IA.|México|Ciudad de México",
+      "description": "Mensaje importante para la comunidad por parte de equipo de Cloud AI de Google Cloud:\n\n¡Tenemos grandes noticias! 🚀 Nace una nueva iniciativa impulsada directamente por Google Cloud: El Círculo de IA.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-google-cloud-el-circulo-de-ia/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-google-cloud-el-circulo-de-ia/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Google México, 445 Calle Montes Urales, Ciudad de México",
+      "online": false,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-04-07T17:00:44-06:00",
+      "dtend": "2026-04-07T19:30:44-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "AI - Gemma",
+        "AI - Vertex AI",
+        "Community Building",
+        "ai",
+        "cloud",
+        "frontend"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "C. Montes Urales 445, Lomas - Virreyes, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX, México",
+      "hash_key": "google cloud el crculo de ia_2026-04-07T22:00:00+00:00"
     },
     {
       "title": "v0 Prompt to Production Mexico City|OpenAI Codex – Mexico City|México|Ciudad de México",
