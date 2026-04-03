@@ -16,7 +16,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🔴 [**Ajolotes en la Nube**](https://www.meetup.com/ajolotesenlanube) | Grupo dedicado a Cloud Computing y arquitecturas modernas en la nube. | Online |
 | 🔴 [**Apache Spark Mexico City**](https://www.meetup.com/apache-spark-mexicocity) | Grupo dedicado a Apache Spark y el ecosistema de procesamiento de Big Data. | Online |
 | 🔴 [**AWS Ajolotes Ciudad de México**](https://www.meetup.com/aws-cdmx) | User Group oficial de AWS en CDMX. Eventos sobre servicios en la nube de Amazon. | Online |
-| 🔴 [**AWS Cloud Club at Universidad Nacional Autonoma de México**](https://www.meetup.com/aws-cloud-club-at-unam) | El AWS Cloud Club de la UNAM es un grupo de usuarios dirigido e impulsado por estudiantes que se enfoca en aprender sobre la Nube. | Online |
+| 🟢 [**AWS Cloud Club at Universidad Nacional Autonoma de México**](https://www.meetup.com/aws-cloud-club-at-unam) | El AWS Cloud Club de la UNAM es un grupo de usuarios dirigido e impulsado por estudiantes que se enfoca en aprender sobre la Nube. | Ciudad de México |
 | 🔴 [**AWS User Group Jalisco**](https://www.meetup.com/amazon-web-services-jalisco) | Comunidad de usuarios de AWS en Guadalajara. Eventos sobre servicios en la nube de Amazon. | Online |
 | 🔴 [**AWS User Group Mixtli**](https://www.meetup.com/awsugmixtli/) | Comunidad de usuarios de AWS en Puebla. Eventos sobre servicios en la nube de Amazon. | Online |
 | 🟢 [**CHIDAS TECH**](https://luma.com/nc2fac44) | Comunidad tech. Eventos sobre redes, infraestructura y desarrollo (ej. Networking 101, Fundamentos de Redes). | Online |
