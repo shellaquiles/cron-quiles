@@ -1246,16 +1246,6 @@ LOCATION:https://luma.com/event/evt-3QmmiVDsImuKFFB
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-3QmmiVDsImuKFFB
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rust-AICollective|Leveling up: MuleRun AI Productivity Workshop|On
- line
-DTSTART:20260402T200000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/aic-gl-3-25\n\
- nHosted by The AI Collective & 5 others
-LOCATION:https://luma.com/event/evt-RU11t2SZx9sTXsx
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-RU11t2SZx9sTXsx
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pythonista|Introducción a la Programación con Python|Online
 DTSTART:20260406T183000
 CATEGORIES:ai,frontend,mobile,python
@@ -1508,6 +1498,16 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Founder Friends Mexico|How Bolt.new Went From Failure to $40 Milli
+ on in 5 Months|Online
+DTSTART:20260416T180000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/avlsopx3\n\nHo
+ sted by Hustle Fund & bolt.new livestreams
+LOCATION:https://luma.com/event/evt-wEESZoB8PeWTxQo
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-wEESZoB8PeWTxQo
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #6: Scaling to 1M
   users|Online
 DTSTART:20260416T230000Z
@@ -1609,7 +1609,25 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
   two clinical data science internships at Johnson & Johnson MedTech and ha
  s published extensively in venues including Nature Modern Pathology\, Natu
  re Digital Medicine\, MIDL\, and IEEE WACV\, accumulating over 8\,500 cita
- tions and recognition in Stanford's Top 2% Scientists ranking.
+ tions and recognition in Stanford's Top 2% Scientists ranking.\n\n**Toward
+ s trustworthy AI under real world data challenges**\n\nThe current paradig
+ m of training AI models relies on fundamental assumptions that the data we
+  have is clean\, properly annotated\, and sufficiently diverse across doma
+ ins. However\, this is not always true for the real world. In practice\, d
+ ata is may be physically corrupt\, incompletely annotated\, and specific t
+ o certain domains. As me move towards large scale general purpose models l
+ ike LLMs and foundation models\, it is even more important to address thes
+ e data challenges so that we can train trustworthy AI models even with noi
+ sy real world data. In this presentation\, we discuss some methods to tack
+ le these potential issues.\n\nAbout the Speaker\n\n[Ayush Gupta](https://w
+ ww.linkedin.com/in/ayush-gupta-491b891a2/) is a Ph.D. student at the AIEM 
+ lab\, Johns Hopkins University in the department of Computer Science. He i
+ s advised by Prof. Rama Chellappa and is working on problems in Computer V
+ ision and Deep Learning. His research has two focus points - general-purpo
+ se vision language models\, where he works on multimodal LLMs on tasks lik
+ e VQA\, Video Grounding and LLM interpretability\; and on fine-grained com
+ puter vision problems\, where he works on person re-identification and gai
+ t recognition.
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
