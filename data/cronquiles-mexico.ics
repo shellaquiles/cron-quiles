@@ -649,6 +649,23 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|Fintech Feast:  Luncheon with Pygma\, Mastercard\
+ , Google & This Week in Fintech|México|Ciudad de México
+DTSTART:20241021T210000Z
+CATEGORIES:ai,python
+DESCRIPTION:Get up-to-date information at: https://luma.com/8o2qc0sg\n\nAd
+ dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week\,
+  Andrés Cano & Jorge Gonzalez Soler
+LOCATION:Ciudad de México
+X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|M
  éxico|Ciudad de México
 DTSTART:20241022T143000Z
@@ -4650,24 +4667,6 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FinTech México|Drinks\, Not Decks @ Fintech Mexico Week|México|C
- iudad de México
-DTSTART:20260226T000000Z
-DESCRIPTION:Get up-to-date information at: https://luma.com/4hy9286c\n\nAd
- dress:\nbiberón\nCiudad de México\, Ciudad de México\nMexico\n\nHosted 
- by Maria Paula Lopera & 4 others
-LOCATION:biberón\, Durango 219\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad d
- e México\, CDMX\, Mexico
-X-CRONQUILES-ADDRESS:Durango 219\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad 
- de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Talavera Valley|🔥🚀 Kick Off Talavera Valley Hub  -  EL event
  o que enciende el ecosistema ✨|México|Puebla
 DTSTART:20260226T000000Z
@@ -4684,6 +4683,24 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Puebla
 X-CRONQUILES-STATE-CODE:MX-PUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FinTech México|Drinks\, Not Decks @ Fintech Mexico Week|México|C
+ iudad de México
+DTSTART:20260226T000000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/4hy9286c\n\nAd
+ dress:\nbiberón\nCiudad de México\, Ciudad de México\nMexico\n\nHosted 
+ by Maria Paula Lopera & 4 others
+LOCATION:biberón\, Durango 219\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad d
+ e México\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Durango 219\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad 
+ de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FinTech México|Fuckup Nights x FinTech México Week|México|Ciuda
@@ -5984,6 +6001,79 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|May 
+ 7 - Visual AI in Healthcare|Online
+DTSTART:20260507T100000
+CATEGORIES:ai,data,frontend,security
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nJoin us to hear experts on cutting-edge topics at the intersection of AI\
+ , ML\, computer vision and healthcare.\n\n**Date\, Time\, and Location**\n
+ \nMay 07\, 2026\n9AM PST\nOnline. **[Register for the Zoom!](https://voxel
+ 51.com/events/visual-ai-in-healthcare-may-7-2026)**\n\n**Efficient and Rel
+ iable AI for Real-World Healthcare Deployment**\n\nHealthcare is one of th
+ e highest-impact domains for AI\, yet reliable deployment at scale remains
+  difficult. To truly improve patient care and clinical workflows\, AI must
+  operate under real clinical constraints\, not just in ideal lab settings.
+  In practice\, deployment is limited by high compute and memory costs\, sc
+ arce labeled data\, and distribution shifts across sites and time. Many cl
+ inically important findings are also rare and long-tailed\, which makes ge
+ neralization especially challenging. My research makes deployability a des
+ ign objective by developing methods that stay accurate under strict resour
+ ce and data constraints.\n\nIn this talk\, I will first discuss high-perfo
+ rmance lightweight deep learning architectures built by redesigning core b
+ uilding blocks. I will then present training-time generative supervision s
+ trategies that improve data efficiency and generalization to rare and long
+ -tailed cases with no inference overhead. I will conclude with a forward-l
+ ooking direction toward real-time perception for surgical assistance\, whe
+ re reliable performance under strict constraints is non-negotiable.\n\n*Ab
+ out the Speaker*\n\n[Md Mostafijur Rahman](https://www.linkedin.com/in/mos
+ tafij-rahman/) is a Ph.D. candidate at The University of Texas at Austin\,
+  advised by Radu Marculescu. His research sits at the intersection of AI\,
+  biomedical imaging\, and computer vision\, with a focus on building effic
+ ient\, reliable\, and scalable AI systems for deployment in healthcare und
+ er real-world constraints. His work has been translated to practice throug
+ h research internships at GE Healthcare\, the National Institutes of Healt
+ h (NIH)\, and Bosch Research.\n\n**VIGIL: Vectors of Intelligent Guidance 
+ in Long-Reach Rural Healthcare**\n\nVIGIL (Vectors of Intelligent Guidance
+  in Long-Reach Rural Healthcare) is an AI-driven system designed to suppor
+ t generalist clinicians through interactive\, multimodal guidance. The sys
+ tem combines perception\, language understanding\, and tool use to assist 
+ with tasks such as ultrasound acquisition and interpretation in real time.
+  In this talk\, we focus on the overall system architecture\, highlighting
+  how individual components—ranging from visual models to medical reasoni
+ ng agents—interact to produce coherent guidance. We also discuss key cha
+ llenges we have encountered\, including tool orchestration\, latency\, and
+  robustness across components. This presentation aims to provide a systems
+ -level perspective on building embodied AI agents for real-world healthcar
+ e settings.\n\n*About the Speaker*\n\n[Andrew Krikorian](https://linkedin.
+ com/in/andrew-krikorian) is a Ph.D. student in Robotics at the University 
+ of Michigan\, where he is a member of the Corso Group (COG). His research 
+ focuses on building physically grounded AI agents that combine perception\
+ , tool use\, and planning to operate effectively in real-world environment
+ s\, with a particular emphasis on healthcare applications. He is actively 
+ involved in the ARPA-H PARADIGM program\, developing intelligent systems f
+ or rural clinical settings.\n\n**Scaling Healthcare AI with Synthetic Data
+  and World Models**\n\nThe scarcity of labeled\, privacy-compliant medical
+  imaging data remains one of the biggest bottlenecks in healthcare AI deve
+ lopment. Emerging world models are changing this landscape by generating h
+ igh-fidelity synthetic data — from radiology scans to surgical scene sim
+ ulations — that can augment real-world datasets without compromising pat
+ ient privacy. However\, synthetic data is only as valuable as your ability
+  to curate\, validate\, and evaluate it alongside real clinical data. In t
+ his talk\, we explore how teams are using FiftyOne to build rigorous quali
+ ty pipelines around synthetic medical imagery\, enabling them to detect di
+ stribution gaps\, measure model performance across rare pathologies\, and 
+ ensure that generated samples meaningfully improve downstream diagnostics.
+  We'll walk through practical workflows that combine world model outputs w
+ ith real-world medical datasets to accelerate Visual AI in healthcare — 
+ responsibly and at scale.\n\n*About the Speaker*\n\n[Daniel Gural ](https:
+ //www.linkedin.com/in/daniel-gural/)is an expert in Physical AI and has be
+ en working in the field for over 8 years. Working across healthcare he has
+  experience in both operating use case as well as using Visual AI as an ai
+ d in psychology applications as well.
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:GDG Heroica Veracruz|Build with AI Veracruz Workshop Hands On 2026
  |México|Veracruz
 DTSTART:20260508T100000
@@ -6080,7 +6170,7 @@ BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|May 
  13 - Best of 3DV 2026|Online
 DTSTART:20260513T100000
-CATEGORIES:ai,backend,frontend,mobile
+CATEGORIES:ai,backend,cloud,frontend,mobile,security
 DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  nWelcome to the Best of 3DV series\, your virtual pass to some of the grou
  ndbreaking research\, insights\, and innovations that defined this year’
@@ -6135,7 +6225,19 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  lefeys. His research focuses on human-centric machine perception\, includi
  ng 3D human reconstruction\, human modeling\, and pose estimation. The goa
  l is to push the boundary of human and machine interaction on future human
- -centric reasoning and physical AI.
+ -centric reasoning and physical AI.\n\n**Consistency Models for 3D Point C
+ loud Generation**\n\nConTiCoM-3D is a new method for creating 3D point clo
+ uds. It works directly with 3D points and can generate shapes very quickly
+  in only one or two steps. Unlike many older methods\, it does not need a 
+ separate teacher model or a complex latent space. Tests on typical benchma
+ rks show that it can produce high-quality 3D shapes while being faster tha
+ n many existing approaches.\n\n*About the Speaker*\n\n[Sebastian Eilermann
+ ](https://www.linkedin.com/in/sebastian-eilermann-a83339151) is a PhD stud
+ ent specialising in 3D generative AI. My research focuses on developing ad
+ vanced methods for creating and understanding three-dimensional content. I
+  explore the intersection of machine learning\, computer vision and genera
+ tive modelling to enable the generation of more realistic and efficient 3D
+  assets.
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
@@ -6286,41 +6388,6 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|May 
- 20 - Getting Started with FiftyOne|Online
-DTSTART:20260520T110000
-CATEGORIES:ai,cloud,data,frontend,python
-DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
- nThis workshop provides a technical foundation for managing large scale co
- mputer vision datasets. You will learn to curate\, visualize\, and evaluat
- e models using the [open source FiftyOne app](https://docs.voxel51.com/).\
- n\n**Date\, Time and Location**\n\nMay 20\, 2026\n10 AM PST - 11 AM Pacifi
- c\nOnline. **[Register for the Zoom!](https://voxel51.com/events/getting-s
- tarted-with-fiftyone-may-20-2026)**\n\nThe session covers data ingestion\,
-  embedding visualization\, and model failure analysis. You will build work
- flows to identify dataset bias\, find annotation errors\, and select infor
- mative samples for training. Attendees leave with a framework for data cen
- tric AI for research and production pipelines\, prioritizing data quality 
- over pure model iteration.\n\nWhat you'll learn\n\n* **Structure unstructu
- red data.** Map data and metadata into a queryable schema for images\, vid
- eos\, and point clouds.\n* **Query datasets with the FiftyOne SDK**. Creat
- e complex views based on model predictions\, labels\, and custom tags. Use
-  the FiftyOne to filter data based on logical conditions and confidence sc
- ores.\n* **Visualize high dimensional embeddings**. Project features into 
- lower dimensions to find clusters of similar samples. Identify data gaps a
- nd outliers using FiftyOne Brain.\n* **Automate data curation.** Implement
-  algorithmic measures to select diverse subsets for training. Reduce label
- ing costs by prioritizing high entropy samples.\n* **Debug model performan
- ce.** Run evaluation routines to generate confusion matrices and precision
-  recall curves. Visualize false positives and false negatives directly in 
- the App to understand model failures.\n* **Customize FiftyOne**. Build cus
- tom dashboards and interactive panels. Create specialized views for domain
-  specific tasks.\n\n**Prerequisites:**\n\n* Working knowledge of Python an
- d machine learning and/or computer vision fundamentals.\n* All attendees w
- ill get access to the tutorials and code examples used in the workshop.
-LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|Predictive Neurotechnologies\, Criminal Risk and
