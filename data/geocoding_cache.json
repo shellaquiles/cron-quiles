@@ -272,6 +272,200 @@
       "route"
     ]
   },
+  "#Hashtag Gallery Ltd, Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "A",
+        "short_name": "A",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "151",
+        "short_name": "151",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Benjamín Franklin",
+        "short_name": "Av. Benjamín Franklin",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Hipódromo",
+        "short_name": "Hipódromo",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06140",
+        "short_name": "06140",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4053361,
+        "lng": -99.1758565
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4066391802915,
+          "lng": -99.17452806970849
+        },
+        "southwest": {
+          "lat": 19.4039412197085,
+          "lng": -99.17722603029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4053023,
+          "longitude": -99.1758716
+        }
+      }
+    ],
+    "place_id": "ChIJE-pL1-P_0YURxYWBe7yGbEs",
+    "plus_code": {
+      "compound_code": "CR4F+4M Ciudad de México, CDMX, México",
+      "global_code": "76F2CR4F+4M"
+    },
+    "types": [
+      "art_gallery",
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "Casa Rafael Galvan, Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "94",
+        "short_name": "94",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Zacatecas",
+        "short_name": "Zacatecas",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Roma Norte",
+        "short_name": "Roma Nte.",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06700",
+        "short_name": "06700",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4159281,
+        "lng": -99.1586478
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4173300802915,
+          "lng": -99.1573109197085
+        },
+        "southwest": {
+          "lat": 19.4146321197085,
+          "lng": -99.1600088802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4159725,
+          "longitude": -99.1586579
+        }
+      }
+    ],
+    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
+    "plus_code": {
+      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
+      "global_code": "76F2CR8R+9G"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
   "PASEO MILEX, Carretera Torreón-San Pedro, Torreón, COA": {
     "address_components": [
       {
@@ -919,366 +1113,6 @@
       "real_estate_agency"
     ]
   },
-  "#Hashtag Gallery Ltd, Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "A",
-        "short_name": "A",
-        "types": [
-          "subpremise"
-        ]
-      },
-      {
-        "long_name": "151",
-        "short_name": "151",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Benjamín Franklin",
-        "short_name": "Av. Benjamín Franklin",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Hipódromo",
-        "short_name": "Hipódromo",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06140",
-        "short_name": "06140",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4053361,
-        "lng": -99.1758565
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4066391802915,
-          "lng": -99.17452806970849
-        },
-        "southwest": {
-          "lat": 19.4039412197085,
-          "lng": -99.17722603029151
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4053023,
-          "longitude": -99.1758716
-        }
-      }
-    ],
-    "place_id": "ChIJE-pL1-P_0YURxYWBe7yGbEs",
-    "plus_code": {
-      "compound_code": "CR4F+4M Ciudad de México, CDMX, México",
-      "global_code": "76F2CR4F+4M"
-    },
-    "types": [
-      "art_gallery",
-      "establishment",
-      "point_of_interest"
-    ]
-  },
-  "Casa Rafael Galvan, Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "94",
-        "short_name": "94",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Zacatecas",
-        "short_name": "Zacatecas",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Roma Norte",
-        "short_name": "Roma Nte.",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06700",
-        "short_name": "06700",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4159281,
-        "lng": -99.1586478
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4173300802915,
-          "lng": -99.1573109197085
-        },
-        "southwest": {
-          "lat": 19.4146321197085,
-          "lng": -99.1600088802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4159725,
-          "longitude": -99.1586579
-        }
-      }
-    ],
-    "place_id": "ChIJkUbYEjv_0YURsLlpDi3PDC4",
-    "plus_code": {
-      "compound_code": "CR8R+9G Ciudad de México, CDMX, México",
-      "global_code": "76F2CR8R+9G"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
-    ]
-  },
-  "Jardín Chapultepec, Av Chapultepec 398, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "398",
-        "short_name": "398",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Chapultepec",
-        "short_name": "Av Chapultepec",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Roma Norte",
-        "short_name": "Roma Nte.",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "06700",
-        "short_name": "06700",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av Chapultepec 398, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4223248,
-        "lng": -99.16752480000001
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4236471802915,
-          "lng": -99.1662054197085
-        },
-        "southwest": {
-          "lat": 19.4209492197085,
-          "lng": -99.16890338029151
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4222823,
-          "longitude": -99.1675215
-        }
-      }
-    ],
-    "place_id": "ChIJGTtf1jf_0YURktkkv31oFSo",
-    "plus_code": {
-      "compound_code": "CRCJ+WX Ciudad de México, CDMX, México",
-      "global_code": "76F2CRCJ+WX"
-    },
-    "types": [
-      "bar",
-      "establishment",
-      "food",
-      "point_of_interest",
-      "restaurant"
-    ]
-  },
-  "Location TBA, TBA, Mexico City": {
-    "address_components": [
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      }
-    ],
-    "formatted_address": "Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.5927571,
-          "lng": -98.9604482
-        },
-        "southwest": {
-          "lat": 19.1887101,
-          "lng": -99.3267771
-        }
-      },
-      "location": {
-        "lat": 19.4326077,
-        "lng": -99.133208
-      },
-      "location_type": "APPROXIMATE",
-      "viewport": {
-        "northeast": {
-          "lat": 19.5927571,
-          "lng": -98.9604482
-        },
-        "southwest": {
-          "lat": 19.1887101,
-          "lng": -99.3267771
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4305936,
-          "longitude": -99.1371496
-        }
-      }
-    ],
-    "partial_match": true,
-    "place_id": "ChIJB3UJ2yYAzoURQeheJnYQBlQ",
-    "types": [
-      "locality",
-      "political"
-    ]
-  },
   "Jardín Americana, 1305 Avenida Ignacio L Vallarta, Guadalajara, JAL": {
     "address_components": [
       {
@@ -1479,6 +1313,172 @@
     "types": [
       "establishment",
       "point_of_interest"
+    ]
+  },
+  "Jardín Chapultepec, Av Chapultepec 398, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "398",
+        "short_name": "398",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Chapultepec",
+        "short_name": "Av Chapultepec",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Roma Norte",
+        "short_name": "Roma Nte.",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06700",
+        "short_name": "06700",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av Chapultepec 398, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4223248,
+        "lng": -99.16752480000001
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4236471802915,
+          "lng": -99.1662054197085
+        },
+        "southwest": {
+          "lat": 19.4209492197085,
+          "lng": -99.16890338029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4222823,
+          "longitude": -99.1675215
+        }
+      }
+    ],
+    "place_id": "ChIJGTtf1jf_0YURktkkv31oFSo",
+    "plus_code": {
+      "compound_code": "CRCJ+WX Ciudad de México, CDMX, México",
+      "global_code": "76F2CRCJ+WX"
+    },
+    "types": [
+      "bar",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant"
+    ]
+  },
+  "Location TBA, TBA, Mexico City": {
+    "address_components": [
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.5927571,
+          "lng": -98.9604482
+        },
+        "southwest": {
+          "lat": 19.1887101,
+          "lng": -99.3267771
+        }
+      },
+      "location": {
+        "lat": 19.4326077,
+        "lng": -99.133208
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.5927571,
+          "lng": -98.9604482
+        },
+        "southwest": {
+          "lat": 19.1887101,
+          "lng": -99.3267771
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4305936,
+          "longitude": -99.1371496
+        }
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJB3UJ2yYAzoURQeheJnYQBlQ",
+    "types": [
+      "locality",
+      "political"
     ]
   },
   "Grid Dynamics, Av. de las Américas 1545-Piso 6, Providencia, Guadalajara, Jalisco, MX": {
