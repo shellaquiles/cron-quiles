@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-06T07:21:12.149963+00:00",
-  "total_events": 184,
+  "generated_at": "2026-04-06T12:52:28.828469+00:00",
+  "total_events": 185,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -43,6 +43,11 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
+          "label": "Luma"
         }
       ]
     },
@@ -80,11 +85,11 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/e17fbtoo",
+          "url": "https://luma.com/sudo_fciencias_2026",
           "label": "Luma"
         }
       ]
@@ -461,6 +466,35 @@
       "city_code": "cdmx",
       "address": "Ciudad de México, CDMX, México",
       "hash_key": "fintech frenzy future web3 panel burger _2024-10-21T18:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Tacos, Beer and Gen AI|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/heroguest\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week & 3 others",
+      "url": "https://luma.com/heroguest",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/heroguest",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-21T19:30:00+00:00",
+      "dtend": "2024-10-21T22:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "tacos beer and gen ai_2024-10-21T18:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|México|Ciudad de México",
@@ -2566,35 +2600,6 @@
       "hash_key": "coworking frutal 12_2025-09-10T16:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
-      "description": "Get up-to-date information at: https://luma.com/r8rwqnn9\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero",
-      "url": "https://luma.com/r8rwqnn9",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/r8rwqnn9",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "Ciudad de México",
-      "online": false,
-      "organizer": "v0 Prompt to Production Mexico City",
-      "dtstart": "2025-09-11T23:00:00+00:00",
-      "dtend": "2025-09-12T02:30:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://luma.com/fdg8riz2",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "Ciudad de México, CDMX, México",
-      "hash_key": "from idea to mvp construye tu propia app_2025-09-11T22:00:00+00:00"
-    },
-    {
       "title": "Frutero Club|Coworking Frutal #13 🍏|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/lzug9x8c\n\nAddress:\nChez Vous #Timecafé\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Emmanuel Martínez",
       "url": "https://luma.com/lzug9x8c",
@@ -2638,7 +2643,7 @@
       "dtstart": "2025-09-19T22:00:00+00:00",
       "dtend": "2025-09-20T00:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3845,7 +3850,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4323,7 +4328,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4686,7 +4691,7 @@
         "cloud",
         "python"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4894,6 +4899,38 @@
       "hash_key": "casa frutero coworking frutal 13_2026-04-01T16:00:00+00:00"
     },
     {
+      "title": "GDG CDMX|Build with AI: Hackathon TalentLand CDMX 2026|México|Ciudad de México",
+      "description": "Impulsa tu proyecto con la potencia de la IA de Google¿Vas a participar en los retos de Talent Land y necesitas poder de...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-build-with-ai-hackathon-talentland-cdmx-2026/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-build-with-ai-hackathon-talentland-cdmx-2026/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Expo Santa Fe Mexico, 270 Avenida Santa Fe, Ciudad de México",
+      "online": false,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-04-07T05:40:33-06:00",
+      "dtend": "2026-04-11T06:40:33-06:00",
+      "tags": [
+        "Build with AI",
+        "Google Cloud",
+        "ai",
+        "frontend"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Av. Santa Fe 270, Santa Fe, Zedec Sta Fé, Álvaro Obregón, 01210 Ciudad de México, CDMX, México",
+      "hash_key": "build with ai hackathon talentland cdmx _2026-04-07T10:00:00+00:00"
+    },
+    {
       "title": "GDG CDMX|Google Cloud: El Círculo de IA.|México|Ciudad de México",
       "description": "Mensaje importante para la comunidad por parte de equipo de Cloud AI de Google Cloud:\n\n¡Tenemos grandes noticias! 🚀 Nace una nueva iniciativa impulsada directamente por Google Cloud: El Círculo de IA.",
       "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-google-cloud-el-circulo-de-ia/",
@@ -5041,7 +5078,7 @@
       "dtstart": "2026-04-23T15:00:00+00:00",
       "dtend": "2026-04-23T21:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
