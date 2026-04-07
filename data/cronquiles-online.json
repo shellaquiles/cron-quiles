@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-07T01:28:46.700371+00:00",
-  "total_events": 168,
+  "generated_at": "2026-04-07T07:09:43.361190+00:00",
+  "total_events": 167,
   "city": "Online",
   "communities": [
     {
@@ -63,17 +63,6 @@
       "links": []
     },
     {
-      "name": "Pythonista",
-      "description": "Una de las comunidades de Python más grandes y activas de México. Charlas y talleres para todos los niveles.",
-      "links": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/pythonista",
-          "label": "Meetup"
-        }
-      ]
-    },
-    {
       "name": "Rust-AICollective",
       "description": "Comunidad de Rust y AI en Ciudad de México. Eventos sobre desarrollo en Rust, inteligencia artificial y desafíos técnicos.",
       "links": [
@@ -118,9 +107,15 @@
       ]
     },
     {
-      "name": "AI Builders MX",
-      "description": "Comunidad de AI builders en México. Eventos sobre inteligencia artificial, desarrollo y hackathons.",
-      "links": []
+      "name": "v0 Prompt to Production Mexico City",
+      "description": "Evento oficial de v0 (Vercel) en México. AI builders, hackathon global. Hosted by aibuilders.mx (Ciudad de México).",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/fdg8riz2",
+          "label": "Luma"
+        }
+      ]
     },
     {
       "name": "Frutero Club",
@@ -3315,7 +3310,7 @@
       "hash_key": "batter up regional pitch competition 202_2025-10-06T16:00:00+00:00"
     },
     {
-      "title": "AI Builders MX|How I Use AI – Vol 1|Online",
+      "title": "v0 Prompt to Production Mexico City|How I Use AI – Vol 1|Online",
       "description": "Get up-to-date information at: https://luma.com/pi3ebsn2\n\nHosted by Javier Rivero",
       "url": "https://luma.com/pi3ebsn2",
       "sources": [
@@ -3327,14 +3322,13 @@
       ],
       "location": "https://luma.com/event/evt-gCpfBqRDQhEOJf9",
       "online": true,
-      "organizer": "AI Builders MX",
+      "organizer": "v0 Prompt to Production Mexico City",
       "dtstart": "2025-10-07T22:00:00+00:00",
       "dtend": "2025-10-07T23:00:00+00:00",
       "tags": [
-        "ai",
-        "frontend"
+        "ai"
       ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+      "source": "https://luma.com/fdg8riz2",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3727,7 +3721,7 @@
       "hash_key": "tics aprende a hackear con agentes de ia_2026-01-19T18:00:00+00:00"
     },
     {
-      "title": "AI Builders MX|Diseña usando AI|Online",
+      "title": "v0 Prompt to Production Mexico City|Diseña usando AI|Online",
       "description": "Get up-to-date information at: https://luma.com/ubxd600w\n\nHosted by Javier Rivero",
       "url": "https://luma.com/ubxd600w",
       "sources": [
@@ -3739,14 +3733,13 @@
       ],
       "location": "https://luma.com/event/evt-IWVh1A0cdphlpRP",
       "online": true,
-      "organizer": "AI Builders MX",
+      "organizer": "v0 Prompt to Production Mexico City",
       "dtstart": "2026-01-27T23:00:00+00:00",
       "dtend": "2026-01-28T02:00:00+00:00",
       "tags": [
-        "ai",
-        "frontend"
+        "ai"
       ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+      "source": "https://luma.com/fdg8riz2",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3757,7 +3750,7 @@
       "hash_key": "disea usando ai_2026-01-27T22:00:00+00:00"
     },
     {
-      "title": "AI Builders MX|Diseña usando AI|Online",
+      "title": "v0 Prompt to Production Mexico City|Diseña usando AI|Online",
       "description": "Get up-to-date information at: https://luma.com/5nq96pxw\n\nHosted by Javier Rivero",
       "url": "https://luma.com/5nq96pxw",
       "sources": [
@@ -3769,14 +3762,13 @@
       ],
       "location": "https://luma.com/event/evt-H4WPxCoPFcne2bC",
       "online": true,
-      "organizer": "AI Builders MX",
+      "organizer": "v0 Prompt to Production Mexico City",
       "dtstart": "2026-01-28T23:00:00+00:00",
       "dtend": "2026-01-29T02:00:00+00:00",
       "tags": [
-        "ai",
-        "frontend"
+        "ai"
       ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+      "source": "https://luma.com/fdg8riz2",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3814,7 +3806,7 @@
       "hash_key": "networking 101 fundamentos de redes_2026-02-06T00:00:00+00:00"
     },
     {
-      "title": "AI Builders MX|How I Use AI – Vol 2|Online",
+      "title": "v0 Prompt to Production Mexico City|How I Use AI – Vol 2|Online",
       "description": "Get up-to-date information at: https://luma.com/lgd37763\n\nHosted by Javier Rivero & 3 others",
       "url": "https://luma.com/lgd37763",
       "sources": [
@@ -3826,14 +3818,13 @@
       ],
       "location": "https://luma.com/event/evt-rYB4HiifBPDm7LU",
       "online": true,
-      "organizer": "AI Builders MX",
+      "organizer": "v0 Prompt to Production Mexico City",
       "dtstart": "2026-02-13T00:00:00+00:00",
       "dtend": "2026-02-13T00:30:00+00:00",
       "tags": [
-        "ai",
-        "frontend"
+        "ai"
       ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+      "source": "https://luma.com/fdg8riz2",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3844,7 +3835,7 @@
       "hash_key": "how i use ai vol 2_2026-02-13T00:00:00+00:00"
     },
     {
-      "title": "AI Builders MX|How I Use AI #3: Midjourney|Online",
+      "title": "v0 Prompt to Production Mexico City|How I Use AI #3: Midjourney|Online",
       "description": "Get up-to-date information at: https://luma.com/d342anny\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/d342anny",
       "sources": [
@@ -3856,14 +3847,13 @@
       ],
       "location": "https://luma.com/event/evt-WUg9IsqZP5MKL4B",
       "online": true,
-      "organizer": "AI Builders MX",
+      "organizer": "v0 Prompt to Production Mexico City",
       "dtstart": "2026-02-19T23:30:00+00:00",
       "dtend": "2026-02-20T00:00:00+00:00",
       "tags": [
-        "ai",
-        "frontend"
+        "ai"
       ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+      "source": "https://luma.com/fdg8riz2",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3932,7 +3922,7 @@
       "hash_key": "venture bites understanding advisory sha_2026-02-26T18:00:00+00:00"
     },
     {
-      "title": "AI Builders MX|How I Use AI #4: OpenClaw|Online",
+      "title": "v0 Prompt to Production Mexico City|How I Use AI #4: OpenClaw|Online",
       "description": "Get up-to-date information at: https://luma.com/5ivardas\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/5ivardas",
       "sources": [
@@ -3944,14 +3934,13 @@
       ],
       "location": "https://luma.com/event/evt-utuQiZ6tlVbHWXw",
       "online": true,
-      "organizer": "AI Builders MX",
+      "organizer": "v0 Prompt to Production Mexico City",
       "dtstart": "2026-03-06T00:00:00+00:00",
       "dtend": "2026-03-06T01:00:00+00:00",
       "tags": [
-        "ai",
-        "frontend"
+        "ai"
       ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+      "source": "https://luma.com/fdg8riz2",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3989,7 +3978,7 @@
       "hash_key": "small bets live angel investing 101 boot_2026-03-19T16:00:00+00:00"
     },
     {
-      "title": "AI Builders MX|How I Use AI #5: Image Manipulation|Online",
+      "title": "v0 Prompt to Production Mexico City|How I Use AI #5: Image Manipulation|Online",
       "description": "Get up-to-date information at: https://luma.com/wsj293yt\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/wsj293yt",
       "sources": [
@@ -4001,14 +3990,13 @@
       ],
       "location": "https://luma.com/event/evt-3QmmiVDsImuKFFB",
       "online": true,
-      "organizer": "AI Builders MX",
+      "organizer": "v0 Prompt to Production Mexico City",
       "dtstart": "2026-04-01T23:00:00+00:00",
       "dtend": "2026-04-02T00:00:00+00:00",
       "tags": [
-        "ai",
-        "frontend"
+        "ai"
       ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+      "source": "https://luma.com/fdg8riz2",
       "country": "",
       "country_code": "",
       "state": "",
@@ -4017,38 +4005,6 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-3QmmiVDsImuKFFB",
       "hash_key": "how i use ai 5 image manipulation_2026-04-01T22:00:00+00:00"
-    },
-    {
-      "title": "Pythonista|Introducción a la Programación con Python|Online",
-      "description": "Pythonista®\n## 🐍 Taller: Introducción a la Programación con Python\n\n¿Quieres aprender Python desde cero con una base sólida y profesional? Únete a este taller práctico de 24 horas donde irás desde los fundamentos del lenguaje hasta la creación de programas completos, código modular y gestión de entornos virtuales como lo hacen los desarrolladores en la industria.\nNo necesitas experiencia previa en programación — solo ganas de aprender y una conexión a Internet.\n💰 Precio del Taller\n\n* Precio regular: $23.50 USD\n* 🎁 **Precio especial Meetup:** **$18.00** USD (Solo para los primeros 25 inscritos)\n\n📅 Detalles del Evento\n\n* Fechas: Del 6 al 23 de abril.\n* Sesiones: Lunes a jueves (12 sesiones en total).\n* Horario: 18:30 a 20:30 horas (CST - CDMX).\n* Modalidad: Online en vivo (incluye acceso a grabaciones y notebooks ejecutables).\n\n🛠️ ¿Qué aprenderás?\nEl taller está dividido en 6 módulos progresivos:\n\n1. **Primeros Pasos:** Entorno de trabajo con IPython/Jupyter, sintaxis básica de Python, introspección y ayuda.\n2. **Datos y Operaciones Básicas:** Tipos de datos, colecciones, conversión de tipos y operadores.\n3. **Control de Flujo:** Condicionales, ciclos, iteraciones y entrada/salida estándar.\n4. **Funciones y Tipos Estructurados:** Funciones, listas, tuplas, strings, f-strings, diccionarios y conjuntos.\n5. **Programación Avanzada:** Programación funcional, match/case, excepciones, iteradores, generadores y comprehensions.\n6. **I/O y Modularización:** Lectura/escritura de archivos, módulos, paquetes, distribución de código y entornos virtuales.\n\n📋 Requisitos\n\n* No se requieren conocimientos previos de programación.\n* Acceso estable a Internet.\n* Cuenta de GitHub (trabajaremos en la nube con Codespaces).\n* Cuenta de Google (las evaluaciones se realizan en Google Classroom).\n\n🎓 Certificación\nSe otorgará un diploma a quienes aprueben cada evaluación con al menos 70% de aciertos y hayan asistido al mínimo al 80% de las sesiones.\n🔗 Cómo inscribirse\n\n1. Realiza tu pago con el descuento de Meetup aquí.\n2. Una vez realizado, completa tu registro oficial en: [https://forms.gle/GiBpy5jMyrzPwtHw7](https://forms.gle/GiBpy5jMyrzPwtHw7)\n\n¡Corre! El cupo para el descuento de $18.00 USD es limitado a los primeros 25.\n¿Dudas? Escríbenos a [contacto@pythonista.io](mailto:contacto@pythonista.io)",
-      "url": "https://www.meetup.com/pythonista/events/313845096/",
-      "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/pythonista/events/313845096/",
-          "label": "Ver en Meetup"
-        }
-      ],
-      "location": "Online",
-      "online": true,
-      "organizer": "Pythonista",
-      "dtstart": "2026-04-06T18:30:00-06:00",
-      "dtend": "2026-04-06T20:30:00-06:00",
-      "tags": [
-        "ai",
-        "frontend",
-        "mobile",
-        "python"
-      ],
-      "source": "https://www.meetup.com/pythonista/events/ical",
-      "country": "",
-      "country_code": "",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "",
-      "hash_key": "introduccin a la programacin con python_2026-04-07T00:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|AI Education  -  Application Developer to Agent Builder [Workshop]|Online",
@@ -4416,7 +4372,7 @@
       "hash_key": "how bolt new went from failure to 40 mil_2026-04-16T18:00:00+00:00"
     },
     {
-      "title": "AI Builders MX|How I Use AI #6: Scaling to 1M users|Online",
+      "title": "v0 Prompt to Production Mexico City|How I Use AI #6: Scaling to 1M users|Online",
       "description": "Get up-to-date information at: https://luma.com/11fz6ef5\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/11fz6ef5",
       "sources": [
@@ -4428,14 +4384,13 @@
       ],
       "location": "https://luma.com/event/evt-SBK5c7p9LXcCYFE",
       "online": true,
-      "organizer": "AI Builders MX",
+      "organizer": "v0 Prompt to Production Mexico City",
       "dtstart": "2026-04-16T23:00:00+00:00",
       "dtend": "2026-04-17T00:00:00+00:00",
       "tags": [
-        "ai",
-        "frontend"
+        "ai"
       ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+      "source": "https://luma.com/fdg8riz2",
       "country": "",
       "country_code": "",
       "state": "",
