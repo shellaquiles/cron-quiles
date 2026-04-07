@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-06T18:47:05.205756+00:00",
-  "total_events": 197,
+  "generated_at": "2026-04-07T01:28:46.787535+00:00",
+  "total_events": 201,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -42,6 +42,11 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
+          "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -119,6 +124,11 @@
     {
       "name": "Java Mexico",
       "description": "Comunidad de Java en México. Eventos, charlas técnicas y networking para desarrolladores Java.",
+      "links": []
+    },
+    {
+      "name": "AI Builders MX",
+      "description": "Comunidad de AI builders en México. Eventos sobre inteligencia artificial, desarrollo y hackathons.",
       "links": []
     },
     {
@@ -584,6 +594,36 @@
       "city_code": "cdmx",
       "address": "Ciudad de México, CDMX, México",
       "hash_key": "founders drinks by startup grind mexicot_2024-10-21T22:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Diving deep on AI in Mexico: In Conversation with Rest of World|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/2ts08m45\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week & Rest of World",
+      "url": "https://luma.com/2ts08m45",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/2ts08m45",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-21T23:00:00+00:00",
+      "dtend": "2024-10-22T02:00:00+00:00",
+      "tags": [
+        "ai",
+        "backend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "diving deep on ai in mexico in conversat_2024-10-21T22:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|México|Ciudad de México",
@@ -2720,7 +2760,7 @@
       "hash_key": "coworking frutal 12_2025-09-10T16:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
+      "title": "AI Builders MX|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/r8rwqnn9\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero",
       "url": "https://luma.com/r8rwqnn9",
       "sources": [
@@ -2732,13 +2772,14 @@
       ],
       "location": "Ciudad de México",
       "online": false,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2025-09-11T23:00:00+00:00",
       "dtend": "2025-09-12T02:30:00+00:00",
       "tags": [
-        "ai"
+        "ai",
+        "frontend"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -2846,7 +2887,7 @@
       "dtstart": "2025-09-29T18:00:00+00:00",
       "dtend": "2025-09-29T19:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3519,7 +3560,7 @@
       "dtstart": "2025-11-18T23:00:00+00:00",
       "dtend": "2025-11-19T01:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3959,6 +4000,35 @@
       "hash_key": "casa frutero coworking frutal 4_2026-01-28T16:00:00+00:00"
     },
     {
+      "title": "Java Mexico|30 Años Programando: Lecciones Aprendidas  -  Por Enrique Zamudio|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/ksvsiu3v\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Benek & Eduardo Zarate Mejia",
+      "url": "https://luma.com/ksvsiu3v",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/ksvsiu3v",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Juárez, Ciudad de México",
+      "online": false,
+      "organizer": "Java Mexico",
+      "dtstart": "2026-01-29T00:30:00+00:00",
+      "dtend": "2026-01-29T04:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Juárez, 06600 Ciudad de México, CDMX, México",
+      "hash_key": "30 aos programando lecciones aprendidas _2026-01-29T00:00:00+00:00"
+    },
+    {
       "title": "Frutero Club|Coworking Frutal - Work and Chill #1|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/y2araht0\n\nAddress:\nAv. Insurgentes Sur 1877\nÁlvaro Obregón, Ciudad de México\nMexico\n\nHosted by Frutero",
       "url": "https://luma.com/y2araht0",
@@ -3986,7 +4056,7 @@
       "hash_key": "coworking frutal work and chill 1_2026-01-30T16:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|v0 Prompt to Production – Mexico City|México|Ciudad de México",
+      "title": "AI Builders MX|v0 Prompt to Production – Mexico City|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/fdg8riz2\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero & Ben Kim",
       "url": "https://luma.com/fdg8riz2",
       "sources": [
@@ -3998,13 +4068,14 @@
       ],
       "location": "Hipódromo, Ciudad de México",
       "online": false,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2026-01-31T15:00:00+00:00",
       "dtend": "2026-01-31T18:30:00+00:00",
       "tags": [
-        "ai"
+        "ai",
+        "frontend"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4283,7 +4354,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4310,7 +4381,7 @@
       "dtstart": "2026-02-23T17:00:00+00:00",
       "dtend": "2026-02-23T18:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4337,7 +4408,7 @@
       "dtstart": "2026-02-23T18:00:00+00:00",
       "dtend": "2026-02-23T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4364,7 +4435,7 @@
       "dtstart": "2026-02-23T19:00:00+00:00",
       "dtend": "2026-02-23T20:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4394,7 +4465,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4424,7 +4495,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4451,7 +4522,7 @@
       "dtstart": "2026-02-24T00:00:00+00:00",
       "dtend": "2026-02-24T02:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4480,7 +4551,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4509,7 +4580,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4536,7 +4607,7 @@
       "dtstart": "2026-02-24T14:30:00+00:00",
       "dtend": "2026-02-24T16:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4565,7 +4636,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4595,7 +4666,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4625,7 +4696,7 @@
         "ai",
         "backend"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4654,7 +4725,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4684,7 +4755,7 @@
         "ai",
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4693,6 +4764,35 @@
       "city_code": "cdmx",
       "address": "Juárez, 06600 Ciudad de México, CDMX, México",
       "hash_key": "security circle mxico ciberseguridad by _2026-02-24T22:00:00+00:00"
+    },
+    {
+      "title": "FinTech México|Crédito + IA en México by Gail&Truora|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/6k4mvgpi\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & 3 others",
+      "url": "https://luma.com/6k4mvgpi",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/6k4mvgpi",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Hipódromo, Ciudad de México",
+      "online": false,
+      "organizer": "FinTech México",
+      "dtstart": "2026-02-25T00:00:00+00:00",
+      "dtend": "2026-02-25T02:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/eofagheq",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Hipódromo, 06100 Ciudad de México, CDMX, México",
+      "hash_key": "crdito ia en mxico by gail truora_2026-02-25T00:00:00+00:00"
     },
     {
       "title": "This Week in Fintech|Fintech Innovation Call by AWS Startups, Puntored and Sumsub @ Mexico Fintech Week 2026|México|Ciudad de México",
@@ -4740,7 +4840,7 @@
       "dtstart": "2026-02-25T15:00:00+00:00",
       "dtend": "2026-02-25T16:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4796,7 +4896,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4825,7 +4925,7 @@
       "tags": [
         "mobile"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4852,7 +4952,7 @@
       "dtstart": "2026-02-25T22:00:00+00:00",
       "dtend": "2026-02-25T23:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4879,7 +4979,7 @@
       "dtstart": "2026-02-26T00:00:00+00:00",
       "dtend": "2026-02-26T03:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4906,7 +5006,7 @@
       "dtstart": "2026-02-26T01:00:00+00:00",
       "dtend": "2026-02-26T04:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4933,7 +5033,7 @@
       "dtstart": "2026-02-27T15:00:00+00:00",
       "dtend": "2026-02-27T17:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4987,7 +5087,7 @@
       "dtstart": "2026-03-01T17:00:00+00:00",
       "dtend": "2026-03-01T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5307,6 +5407,7 @@
         "AI - Gemini",
         "AI - Gemma",
         "AI - Vertex AI",
+        "Build with AI",
         "Community Building",
         "ai",
         "cloud",
@@ -5323,7 +5424,7 @@
       "hash_key": "google cloud el crculo de ia_2026-04-07T22:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|OpenAI Codex – Mexico City|México|Ciudad de México",
+      "title": "AI Builders MX|OpenAI Codex – Mexico City|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/suipk589\n\nAddress:\nPlaza Carso\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/suipk589",
       "sources": [
@@ -5335,14 +5436,14 @@
       ],
       "location": "Plaza Carso, Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, Mexico",
       "online": false,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2026-04-08T23:00:00+00:00",
       "dtend": "2026-04-09T02:00:00+00:00",
       "tags": [
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5476,6 +5577,35 @@
       "city_code": "cdmx",
       "address": "Cto. Exterior, Ciudad de México, CDMX, México",
       "hash_key": "compufest 1_2026-04-23T14:00:00+00:00"
+    },
+    {
+      "title": "v0 Prompt to Production Mexico City|Zero to Agent: Mexico City|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/wp947zvj\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
+      "url": "https://luma.com/wp947zvj",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/wp947zvj",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Polanco IV Sección, Ciudad de México",
+      "online": false,
+      "organizer": "v0 Prompt to Production Mexico City",
+      "dtstart": "2026-05-02T15:00:00+00:00",
+      "dtend": "2026-05-02T19:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/fdg8riz2",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Polanco, Polanco IV Secc, 11550 Ciudad de México, CDMX, México",
+      "hash_key": "zero to agent mexico city_2026-05-02T14:00:00+00:00"
     },
     {
       "title": "AI/IA CDMX|El Turista Tiene Alma, el Algoritmo No - The Tourist Has a Soul, the Algorithm D|México|Ciudad de México",
