@@ -1246,41 +1246,6 @@ LOCATION:https://luma.com/event/evt-3QmmiVDsImuKFFB
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-3QmmiVDsImuKFFB
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Apri
- l 8 - Getting Started with FiftyOne|Online
-DTSTART:20260408T110000
-CATEGORIES:ai,cloud,data,frontend,python
-DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
- nThis workshop provides a technical foundation for managing large scale co
- mputer vision datasets. You will learn to curate\, visualize\, and evaluat
- e models using the [open source FiftyOne app](https://docs.voxel51.com/).\
- n\n**Date\, Time and Location**\n\nApr 8\, 2026\n10 AM PST - 11 AM Pacific
- \nOnline. **[Register for the Zoom!](https://voxel51.com/events/getting-st
- arted-with-fiftyone-april-8-2026)**\n\nThe session covers data ingestion\,
-  embedding visualization\, and model failure analysis. You will build work
- flows to identify dataset bias\, find annotation errors\, and select infor
- mative samples for training. Attendees leave with a framework for data cen
- tric AI for research and production pipelines\, prioritizing data quality 
- over pure model iteration.\n\nWhat you'll learn\n\n* **Structure unstructu
- red data.** Map data and metadata into a queryable schema for images\, vid
- eos\, and point clouds.\n* **Query datasets with the FiftyOne SDK**. Creat
- e complex views based on model predictions\, labels\, and custom tags. Use
-  the FiftyOne to filter data based on logical conditions and confidence sc
- ores.\n* **Visualize high dimensional embeddings**. Project features into 
- lower dimensions to find clusters of similar samples. Identify data gaps a
- nd outliers using FiftyOne Brain.\n* **Automate data curation.** Implement
-  algorithmic measures to select diverse subsets for training. Reduce label
- ing costs by prioritizing high entropy samples.\n* **Debug model performan
- ce.** Run evaluation routines to generate confusion matrices and precision
-  recall curves. Visualize false positives and false negatives directly in 
- the App to understand model failures.\n* **Customize FiftyOne**. Build cus
- tom dashboards and interactive panels. Create specialized views for domain
-  specific tasks.\n\n**Prerequisites:**\n\n* Working knowledge of Python an
- d machine learning and/or computer vision fundamentals.\n* All attendees w
- ill get access to the tutorials and code examples used in the workshop.
-LOCATION:Online
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rust-AICollective|Toronto Chapter Organizing|Online
 DTSTART:20260408T200000Z
 CATEGORIES:ai
@@ -1382,7 +1347,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GDG Tepic|Evento Especial: Programación 10x con IA|Online
 DTSTART:20260412T080000
-CATEGORIES:AI,AI - Gemini,Build with AI,backend
+CATEGORIES:AI,AI - Gemini,Build with AI,Workshop / hands-on session,backen
+ d
 DESCRIPTION:Únete a nosotros para una sesión inspiradora sobre 'Programa
  ción 10x: Cómo la IA redefine la rapidez del desarrollador m...
 LOCATION:Online
@@ -1522,7 +1488,7 @@ SUMMARY:Rust-AICollective|Achieve more with Microsoft Copilot|Online
 DTSTART:20260421T050000Z
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/aic-fi-copilot
- -intro\n\nHosted by The AI Collective & Michael Vonlanthen
+ -intro\n\nHosted by The AI Collective & 3 others
 LOCATION:https://luma.com/event/evt-Hc0ymyGFX93dXRU
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-Hc0ymyGFX93dXRU
 END:VEVENT
@@ -2137,6 +2103,41 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  ing specializing in control and power systems\, Medi brings deep technical
   expertise to the challenge of scaling AI within real-time grid constraint
  s.
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|May 
+ 20 - Getting Started with FiftyOne|Online
+DTSTART:20260520T110000
+CATEGORIES:ai,cloud,data,frontend,python
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nThis workshop provides a technical foundation for managing large scale co
+ mputer vision datasets. You will learn to curate\, visualize\, and evaluat
+ e models using the [open source FiftyOne app](https://docs.voxel51.com/).\
+ n\n**Date\, Time and Location**\n\nMay 20\, 2026\n10 AM PST - 11 AM Pacifi
+ c\nOnline. **[Register for the Zoom!](https://voxel51.com/events/getting-s
+ tarted-with-fiftyone-may-20-2026)**\n\nThe session covers data ingestion\,
+  embedding visualization\, and model failure analysis. You will build work
+ flows to identify dataset bias\, find annotation errors\, and select infor
+ mative samples for training. Attendees leave with a framework for data cen
+ tric AI for research and production pipelines\, prioritizing data quality 
+ over pure model iteration.\n\nWhat you'll learn\n\n* **Structure unstructu
+ red data.** Map data and metadata into a queryable schema for images\, vid
+ eos\, and point clouds.\n* **Query datasets with the FiftyOne SDK**. Creat
+ e complex views based on model predictions\, labels\, and custom tags. Use
+  the FiftyOne to filter data based on logical conditions and confidence sc
+ ores.\n* **Visualize high dimensional embeddings**. Project features into 
+ lower dimensions to find clusters of similar samples. Identify data gaps a
+ nd outliers using FiftyOne Brain.\n* **Automate data curation.** Implement
+  algorithmic measures to select diverse subsets for training. Reduce label
+ ing costs by prioritizing high entropy samples.\n* **Debug model performan
+ ce.** Run evaluation routines to generate confusion matrices and precision
+  recall curves. Visualize false positives and false negatives directly in 
+ the App to understand model failures.\n* **Customize FiftyOne**. Build cus
+ tom dashboards and interactive panels. Create specialized views for domain
+  specific tasks.\n\n**Prerequisites:**\n\n* Working knowledge of Python an
+ d machine learning and/or computer vision fundamentals.\n* All attendees w
+ ill get access to the tutorials and code examples used in the workshop.
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
