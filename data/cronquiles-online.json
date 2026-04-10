@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-09T18:54:53.345739+00:00",
-  "total_events": 167,
+  "generated_at": "2026-04-10T01:30:08.256815+00:00",
+  "total_events": 170,
   "city": "Online",
   "communities": [
     {
@@ -75,11 +75,11 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/e17fbtoo",
+          "url": "https://luma.com/sudo_fciencias_2026",
           "label": "Luma"
         }
       ]
@@ -130,6 +130,17 @@
           "platform": "meetup",
           "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup",
           "label": "Meetup"
+        }
+      ]
+    },
+    {
+      "name": "GDG CDMX",
+      "description": "Google Developer Group CDMX. Eventos sobre tecnologías de Google y desarrollo en general.",
+      "links": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/gdg-cdmx/",
+          "label": "Sitio web"
         }
       ]
     },
@@ -3357,7 +3368,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3521,7 +3532,7 @@
       "tags": [
         "devops"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3710,7 +3721,7 @@
       "dtstart": "2026-01-19T18:00:00+00:00",
       "dtend": "2026-01-28T20:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -4007,33 +4018,36 @@
       "hash_key": "how i use ai 5 image manipulation_2026-04-01T22:00:00+00:00"
     },
     {
-      "title": "Rust-AICollective|🧜‍♀️ The AI Collective Hampton Roads  -  Claude Code: From Setup to Agentic Workflows|Online",
-      "description": "Get up-to-date information at: https://luma.com/qc21frt9\n\nHosted by 🧜‍♀️ The AI Collective Hampton Roads, The AI Collective & Andrew Stafford",
-      "url": "https://luma.com/qc21frt9",
+      "title": "GDG CDMX|Taller: De Promptear por convivir a convertirte en Context Engineer.|Online",
+      "description": "Únete a nosotros en este divertido, inclusivo y productivo taller donde exploraremos el mundo de la Ingeniería de Contex...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-taller-de-promptear-por-convivir-a-convertirte-en-context-engineer-2026-04-09/",
       "sources": [
         {
-          "platform": "luma",
-          "url": "https://luma.com/qc21frt9",
-          "label": "Ver en Luma"
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-taller-de-promptear-por-convivir-a-convertirte-en-context-engineer-2026-04-09/",
+          "label": "Ver sitio web"
         }
       ],
-      "location": "https://luma.com/event/evt-ltHYaAk82DZAIUm",
+      "location": "Online",
       "online": true,
-      "organizer": "Rust-AICollective",
-      "dtstart": "2026-04-09T22:30:00+00:00",
-      "dtend": "2026-04-09T23:30:00+00:00",
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-04-09T19:00:00-06:00",
+      "dtend": "2026-04-09T20:00:00-06:00",
       "tags": [
-        "ai"
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Workshop / hands-on session"
       ],
-      "source": "https://luma.com/rust-ios-ai",
-      "country": "",
-      "country_code": "",
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
       "state": "",
       "state_code": "",
       "city": "",
       "city_code": "",
-      "address": "https://luma.com/event/evt-ltHYaAk82DZAIUm",
-      "hash_key": "the ai collective hampton roads claude c_2026-04-09T22:00:00+00:00"
+      "address": "Online",
+      "hash_key": "taller de promptear por convivir a conve_2026-04-10T00:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|Vibe Hours: Unhinged Builds Only|Online",
@@ -4261,7 +4275,7 @@
       "online": true,
       "organizer": "Rust-AICollective",
       "dtstart": "2026-04-16T20:00:00+00:00",
-      "dtend": "2026-04-16T22:30:00+00:00",
+      "dtend": "2026-04-16T21:00:00+00:00",
       "tags": [
         "ai"
       ],
@@ -4303,6 +4317,38 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-SBK5c7p9LXcCYFE",
       "hash_key": "how i use ai 6 scaling to 1m users_2026-04-16T22:00:00+00:00"
+    },
+    {
+      "title": "GDG CDMX|Taller: De Promptear por convivir a convertirte en Context Engineer.|Online",
+      "description": "Únete a nosotros en este divertido, inclusivo y productivo taller donde exploraremos el mundo de la Ingeniería de Contex...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-taller-de-promptear-por-convivir-a-convertirte-en-context-engineer-2026-04-16/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-taller-de-promptear-por-convivir-a-convertirte-en-context-engineer-2026-04-16/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-04-16T19:00:00-06:00",
+      "dtend": "2026-04-16T20:00:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Workshop / hands-on session"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "taller de promptear por convivir a conve_2026-04-17T00:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|🧜‍♀️ The AI Collective Hampton Roads  -  Claude Code: From Setup to Agentic Workflows|Online",
@@ -4395,7 +4441,7 @@
       "hash_key": "you can t ai your way out of a governanc_2026-04-23T14:00:00+00:00"
     },
     {
-      "title": "Unity User Group CDMX|Skillshare Thursday #4: From Code to Nodes|Online",
+      "title": "Unity User Group CDMX|Skillshare Thursday #4: From Code to Nodes - Unity Visual Scripting|Online",
       "description": "Unity User Group - Ciudad de México\nIn this Skillshare Thursday, we will be exploring Unity Visual Scripting and how to get started with it. We'll dive into what Unity Visual Scripting is, how to use it to do common Unity development tasks, and how to use it alongside traditional C# Scripting. By the end of this talk, you should have the confidence and knowledge to use Unity Visual Scripting in your personal and professional projects.\n\nThere will be time at the end of the presentation for a brief Q&A.\n\nWe look forward to seeing you on the call!",
       "url": "https://www.meetup.com/mexico-city-unity-user-group/events/314148355/",
       "sources": [
@@ -4483,6 +4529,38 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-L0E2isH6dAQSg3x",
       "hash_key": "the ai collective hampton roads claude a_2026-04-23T22:00:00+00:00"
+    },
+    {
+      "title": "GDG CDMX|Taller: De Promptear por convivir a convertirte en Context Engineer.|Online",
+      "description": "Únete a nosotros en este divertido, inclusivo y productivo taller donde exploraremos el mundo de la Ingeniería de Contex...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-taller-de-promptear-por-convivir-a-convertirte-en-context-engineer-2026-04-23/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-taller-de-promptear-por-convivir-a-convertirte-en-context-engineer-2026-04-23/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-04-23T19:00:00-06:00",
+      "dtend": "2026-04-23T20:00:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Workshop / hands-on session"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "taller de promptear por convivir a conve_2026-04-24T00:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|How AI and Neurotechnology Are Transforming the Workplace|Online",
@@ -4633,6 +4711,38 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-tGBTfWbV3nhiOhc",
       "hash_key": "parenting with ai w the ai collective ka_2026-05-01T00:00:00+00:00"
+    },
+    {
+      "title": "GDG CDMX|Taller: De Promptear por convivir a convertirte en Context Engineer.|Online",
+      "description": "Únete a nosotros en este divertido, inclusivo y productivo taller donde exploraremos el mundo de la Ingeniería de Contex...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-taller-de-promptear-por-convivir-a-convertirte-en-context-engineer-2026-04-30/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-taller-de-promptear-por-convivir-a-convertirte-en-context-engineer-2026-04-30/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-04-30T19:00:00-06:00",
+      "dtend": "2026-04-30T20:00:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Workshop / hands-on session"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "taller de promptear por convivir a conve_2026-05-01T00:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|Spirals of Connection: Science, AI, and the Felt Experience of Being Seen|Online",

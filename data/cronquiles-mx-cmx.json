@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T18:54:53.424499+00:00",
+  "generated_at": "2026-04-10T01:30:08.338194+00:00",
   "total_events": 189,
   "city": "Ciudad de México",
   "communities": [
@@ -87,15 +87,21 @@
     {
       "name": "Python CDMX",
       "description": "Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles.",
-      "links": []
+      "links": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/python-mexico",
+          "label": "Meetup"
+        }
+      ]
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/e17fbtoo",
+          "url": "https://luma.com/sudo_fciencias_2026",
           "label": "Luma"
         }
       ]
@@ -501,36 +507,6 @@
       "city_code": "cdmx",
       "address": "Ciudad de México, CDMX, México",
       "hash_key": "tacos beer and gen ai_2024-10-21T18:00:00+00:00"
-    },
-    {
-      "title": "Mexico Tech Week|Fintech Feast:  Luncheon with Pygma, Mastercard, Google & This Week in Fintech|México|Ciudad de México",
-      "description": "Get up-to-date information at: https://luma.com/8o2qc0sg\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week, Andrés Cano & Jorge Gonzalez Soler",
-      "url": "https://luma.com/8o2qc0sg",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/8o2qc0sg",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "Ciudad de México",
-      "online": false,
-      "organizer": "Mexico Tech Week",
-      "dtstart": "2024-10-21T21:00:00+00:00",
-      "dtend": "2024-10-21T23:00:00+00:00",
-      "tags": [
-        "ai",
-        "python"
-      ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "Ciudad de México, CDMX, México",
-      "hash_key": "fintech feast luncheon with pygma master_2024-10-21T20:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|México|Ciudad de México",
@@ -2708,7 +2684,7 @@
       "dtstart": "2025-09-19T22:00:00+00:00",
       "dtend": "2025-09-20T00:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3915,7 +3891,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4786,7 +4762,7 @@
         "cloud",
         "python"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5112,6 +5088,42 @@
       "hash_key": "meetup abril 2026 pythoncdmx_2026-04-15T00:00:00+00:00"
     },
     {
+      "title": "Python CDMX|PythonCDMX 🐍 Abr2026  -  Analytics with Python|México|Ciudad de México",
+      "description": "Python CDMX\n**#PythonCDMX** 🐍 es un grupo de personas interesadas en aprender y compartir conocimientos sobre el lenguaje de programación Python. El objetivo es mantener el contacto con más personas interesadas en innovación y tecnología.\n\n**🚨 IMPORTANTE: NUEVO SISTEMA DE REGISTRO**\n**A partir de ahora ya no se aceptarán registros en Meetup.**\n**Estamos migrando a Luma, nuestra nueva plataforma de registro y comunidad.**\n**👉 Regístrate aquí para obtener tu QR de acceso:**\n**🔗 [https://luma.com/wzwaau42](https://luma.com/wzwaau42)**\n\n## ​¡Bienvenidx al Meetup de Abril de PythonCDMX! 🐍💻\n\n​Abril llega como una página que cruje al abrirse 📖✨\n​No es un mes cualquiera. Es ese punto exacto del año donde la curiosidad despierta y la comunidad decide moverse 🚶‍♂️🚶‍♀️💡\n​Este abril cambiamos de escenario 🎭\n​Nos alejamos de los espacios de siempre para encontrarnos en un lugar inesperado, poco común para las charlas técnicas… y precisamente por eso inolvidable 🌱🧠\n​Porque cuando el entorno cambia, las ideas también lo hacen ⚡️\n​🔥 La charla: *Analytics con Python + AWS Lambda y S3 - Alec Jonathan Montaño Romero (Lynx Pardelle)*\n​Todos hemos estado ahí 👀\n​Frente a un proyecto web, preguntándonos en silencio: ¿De verdad es tan complicado extraer datos útiles de aquí? 🤔📊\n​La respuesta es más simple de lo que imaginas.\n​En esta sesión descubrirás, paso a paso, cómo extraer datos de tus proyectos web usando Python y servicios de AWS ☁️🐍\n​Sin fórmulas mágicas. Sin humo. Solo práctica real, directa y aplicable desde el primer día 🚀\n​🧩 Temas: Python · Web · Data · AWS · Lambda · S3 · API Gateway · Analytics · Apps\n​🧭 Nivel: Principiante 🌱\n​Porque todo gran viaje empieza con una primera línea de código.\n​Este encuentro existe gracias a quienes creen que el conocimiento crece cuando se comparte 🤝✨\n​Gracias a ITGAM, Python Software Foundation y JetBrains, aliados de las comunidades vivas, curiosas y en constante movimiento 💙🐍\n​Ven. Aprende. Conecta.\n​Porque las mejores historias tecnológicas no se leen… se viven 💥💻\n\n**--> Transmisión en vivo <--**\n[YouTube](https://www.youtube.com/@PythonMexico/streams)\n\n**--> Unete al grupo de telegram y platica con más pythonistas <--**\n[https://t.me/PythonCDMX](https://t.me/PythonCDMX)",
+      "url": "https://www.meetup.com/python-mexico/events/314203465/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/python-mexico/events/314203465/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Instituto Tecnológico de Gustavo A. Madero, Calle 608 No. 300 y Av. 412, Col. San Juan de Aragón, Deleg. Gustavo A. Madero, C.P. 07470, México City, México City",
+      "online": false,
+      "organizer": "Python CDMX",
+      "dtstart": "2026-04-14T18:00:00-06:00",
+      "dtend": "2026-04-14T21:00:00-06:00",
+      "tags": [
+        "ai",
+        "backend",
+        "cloud",
+        "data",
+        "frontend",
+        "mobile",
+        "python",
+        "web"
+      ],
+      "source": "https://www.meetup.com/python-mexico/events/ical",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Av. 412 300, San Juan de Aragón VI Secc, Gustavo A. Madero, 07918 Ciudad de México, CDMX, México",
+      "hash_key": "pythoncdmx abr2026 analytics with python_2026-04-15T00:00:00+00:00"
+    },
+    {
       "title": "AI/IA CDMX|Témele al Shoggoth - Fear the Shoggoth|México|Ciudad de México",
       "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nSpanish with live English subtitles\nEste evento será en español con subtítulos en inglés en vivo.\n**Presencial y en vivo en YouTube/In-person and live on YouTube:**\nhttps://www.youtube.com/@AICDMX\n\nEnglish Version Below\n\n6:00 p.m. Apertura y registro\n6:30 p.m. Arranca la conversación\n7:15 p.m. Preguntas y respuestas con el público\n7:30 p.m. Networking\n8:00–9:30 p.m. After party en un lugar cercano (a 5 min caminando; hay\nespacio interior/exterior, trae chamarra y zapatos para comer y beber)\n\nLos maximalistas van a empujar la AI hacia adelante sin importar qué. Eso no es una advertencia. Es simplemente el terreno. La verdadera pregunta es quién más está en la sala.\n\nDavid Sol es Cloud Architect en Caylent y lleva años viendo cómo la tecnología transforma industrias desde adentro. Su posición es simple: necesitamos que más gente que le tiene miedo a la AI se involucre de lleno. No para frenarla (ese barco ya zarpó) sino porque las voces críticas y cautelosas son el único contrapeso a un futuro moldeado enteramente por el hype.\n\n## Vamos a explorar\n\n• **El problema de la silla vacía.** Qué pasa con las industrias y las políticas cuando solo los entusiastas aparecen\n\n• **Involucrarte sin comprar el cuento.** Cómo trabajar con una tecnología que te genera desconfianza sin perder tu escepticismo\n\n• **Dónde está la palanca real.** Los lugares específicos donde las voces críticas todavía pueden cambiar el resultado\n\n• **Qué requiere realmente \"hacerlo mejor\".** Pasar de la preocupación vaga a la participación concreta\n\n## Sobre David\nhttps://www.linkedin.com/in/soldavidcloud/\nDavid Sol · Cloud Architect, Caylent\n\n**Schedule**\n6:00 p.m. Doors & check-in\n6:30 p.m. Conversation begins\n7:15 p.m. Audience Q&A\n7:30 p.m. Networking\n8:00–9:30 p.m. After party at a nearby spot (5 min walk; indoor/outdoor, bring a jacket and your drinking/eating shoes)\n\nThe maximalists are going to push AI forward no matter what. That's not a warning. It's just the reality. The real question is who else is in the room.\n\nDavid Sol is a Cloud Architect at Caylent who's spent years watching technology reshape industries from the inside. His position is simple: we need more people who are scared of AI to actually get involved with it. Not to slow it down (that ship has sailed) but because cautious, critical voices are the only counterweight to a future shaped entirely by hype.\n\n## We'll dig into\n\n• **The empty chair problem.** What happens to industries and policy when only enthusiasts show up\n\n• **Engaging without buying in.** How to work with a technology you distrust without losing your skepticism\n\n• **Where the real influence is.** The specific places where critical voices can still change outcomes\n\n• **What \"making it better\" actually requires.** Moving past vague concern into concrete participation\n\n## About David\nhttps://www.linkedin.com/in/soldavidcloud/\nDavid Sol · Cloud Architect, Caylent",
       "url": "https://www.meetup.com/ai-cdmx/events/313073151/",
@@ -5164,7 +5176,7 @@
       "dtstart": "2026-04-23T15:00:00+00:00",
       "dtend": "2026-04-23T21:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
