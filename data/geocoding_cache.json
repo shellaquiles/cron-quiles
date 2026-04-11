@@ -1,4 +1,152 @@
 {
+  "Facultad de Ciencias UNAM, Circuito Exterior s/n, Coyoacán, Cd. Universitaria, 04510 Ciudad de México, CDMX, Mexico City, Mexico City": {
+    "address_components": [
+      {
+        "long_name": "Circuito Exterior",
+        "short_name": "Cto. Exterior",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "Cto. Exterior, Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.333967,
+          "lng": -99.17744619999999
+        },
+        "southwest": {
+          "lat": 19.3215555,
+          "lng": -99.1899052
+        }
+      },
+      "location": {
+        "lat": 19.3263754,
+        "lng": -99.1813823
+      },
+      "location_type": "GEOMETRIC_CENTER",
+      "viewport": {
+        "northeast": {
+          "lat": 19.333967,
+          "lng": -99.17744619999999
+        },
+        "southwest": {
+          "lat": 19.3215555,
+          "lng": -99.1899052
+        }
+      }
+    },
+    "place_id": "ChIJv_eI0QUAzoURYteCtSMjfgY",
+    "types": [
+      "route"
+    ]
+  },
+  "Instituto Tecnológico de Gustavo A. Madero, Calle 608 No. 300 y Av. 412, Col. San Juan de Aragón, Deleg. Gustavo A. Madero, C.P. 07470, México City, México City": {
+    "address_components": [
+      {
+        "long_name": "300",
+        "short_name": "300",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida 412",
+        "short_name": "Av. 412",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "San Juan de Aragón VI Sección",
+        "short_name": "San Juan de Aragón VI Secc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "07918",
+        "short_name": "07918",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. 412 300, San Juan de Aragón VI Secc, Gustavo A. Madero, 07918 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4652903,
+        "lng": -99.06789339999999
+      },
+      "location_type": "RANGE_INTERPOLATED",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4666392802915,
+          "lng": -99.06654441970848
+        },
+        "southwest": {
+          "lat": 19.4639413197085,
+          "lng": -99.0692423802915
+        }
+      }
+    },
+    "partial_match": true,
+    "place_id": "EmJBdi4gNDEyIDMwMCwgU2FuIEp1YW4gZGUgQXJhZ8OzbiBWSSBTZWNjLCBHdXN0YXZvIEEuIE1hZGVybywgMDc5MTggQ2l1ZGFkIGRlIE3DqXhpY28sIENETVgsIE1leGljbyIxEi8KFAoSCZcbkk6j-9GFEaNABp_lY-u9EKwCKhQKEgml_uppx_vRhRH8k0F6dZkTYg",
+    "types": [
+      "street_address"
+    ]
+  },
   "Rock It Chapultepec, Av. Chapultepec Sur 389, Col Americana, Americana, 44140 Guadalajara, Jal., Mexico": {
     "address_components": [
       {
@@ -203,154 +351,6 @@
       "food",
       "point_of_interest",
       "restaurant"
-    ]
-  },
-  "Instituto Tecnológico de Gustavo A. Madero, Calle 608 No. 300 y Av. 412, Col. San Juan de Aragón, Deleg. Gustavo A. Madero, C.P. 07470, México City, México City": {
-    "address_components": [
-      {
-        "long_name": "300",
-        "short_name": "300",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida 412",
-        "short_name": "Av. 412",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "San Juan de Aragón VI Sección",
-        "short_name": "San Juan de Aragón VI Secc",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "07918",
-        "short_name": "07918",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. 412 300, San Juan de Aragón VI Secc, Gustavo A. Madero, 07918 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4652903,
-        "lng": -99.06789339999999
-      },
-      "location_type": "RANGE_INTERPOLATED",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4666392802915,
-          "lng": -99.06654441970848
-        },
-        "southwest": {
-          "lat": 19.4639413197085,
-          "lng": -99.0692423802915
-        }
-      }
-    },
-    "partial_match": true,
-    "place_id": "EmJBdi4gNDEyIDMwMCwgU2FuIEp1YW4gZGUgQXJhZ8OzbiBWSSBTZWNjLCBHdXN0YXZvIEEuIE1hZGVybywgMDc5MTggQ2l1ZGFkIGRlIE3DqXhpY28sIENETVgsIE1leGljbyIxEi8KFAoSCZcbkk6j-9GFEaNABp_lY-u9EKwCKhQKEgml_uppx_vRhRH8k0F6dZkTYg",
-    "types": [
-      "street_address"
-    ]
-  },
-  "Facultad de Ciencias UNAM, Circuito Exterior s/n, Coyoacán, Cd. Universitaria, 04510 Ciudad de México, CDMX, Mexico City, Mexico City": {
-    "address_components": [
-      {
-        "long_name": "Circuito Exterior",
-        "short_name": "Cto. Exterior",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      }
-    ],
-    "formatted_address": "Cto. Exterior, Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.333967,
-          "lng": -99.17744619999999
-        },
-        "southwest": {
-          "lat": 19.3215555,
-          "lng": -99.1899052
-        }
-      },
-      "location": {
-        "lat": 19.3263754,
-        "lng": -99.1813823
-      },
-      "location_type": "GEOMETRIC_CENTER",
-      "viewport": {
-        "northeast": {
-          "lat": 19.333967,
-          "lng": -99.17744619999999
-        },
-        "southwest": {
-          "lat": 19.3215555,
-          "lng": -99.1899052
-        }
-      }
-    },
-    "place_id": "ChIJv_eI0QUAzoURYteCtSMjfgY",
-    "types": [
-      "route"
     ]
   },
   "PASEO MILEX, Carretera Torreón-San Pedro, Torreón, COA": {
@@ -5407,137 +5407,6 @@
       "political",
       "sublocality",
       "sublocality_level_1"
-    ]
-  },
-  "Expo Santa Fe Mexico, 270 Avenida Santa Fe, Ciudad de México": {
-    "address_components": [
-      {
-        "long_name": "270",
-        "short_name": "270",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Santa Fe",
-        "short_name": "Av. Santa Fe",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Santa Fe",
-        "short_name": "Santa Fe",
-        "types": [
-          "neighborhood",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Zedec Santa Fé",
-        "short_name": "Zedec Sta Fé",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "01210",
-        "short_name": "01210",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. Santa Fe 270, Santa Fe, Zedec Sta Fé, Álvaro Obregón, 01210 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.3632049,
-        "lng": -99.2629078
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.3645421302915,
-          "lng": -99.2612608
-        },
-        "southwest": {
-          "lat": 19.3618441697085,
-          "lng": -99.26435180000001
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.3625246,
-          "longitude": -99.2636699
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 19.3637318,
-          "longitude": -99.2643009
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 19.3638493,
-          "longitude": -99.2612843
-        },
-        "restricted_travel_modes": [
-          "WALK"
-        ]
-      },
-      {
-        "location": {
-          "latitude": 19.3625209,
-          "longitude": -99.2636428
-        },
-        "restricted_travel_modes": [
-          "DRIVE"
-        ]
-      }
-    ],
-    "place_id": "ChIJqzPAw7MB0oURSd1gtCvGNPg",
-    "plus_code": {
-      "compound_code": "9P7P+7R Ciudad de México, CDMX, México",
-      "global_code": "76F29P7P+7R"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
     ]
   },
   "Universidad Cristóbal Colón, Paseo de Los Cedros, Veracruz": {
