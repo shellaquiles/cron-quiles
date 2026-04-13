@@ -27,7 +27,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🔴 [**DigitalOcean México City**](https://www.meetup.com/digitaloceanmex) | Meet software developers of all skill levels to share resources, learn, and form discussions around cloud and devops topics. | Online |
 | 🔴 [**Elixir Mexico City**](https://www.meetup.com/elixir-mexico-city) | Comunidad enfocada en el lenguaje de programación Elixir y el framework Phoenix. | Online |
 | 🔴 [**Embajadoras Cloud**](https://www.meetup.com/embajadoras-cloud) | Comunidad dedicada a impulsar a mujeres hispanohablantes en cloud computing. Enfocada en AWS, aprendizaje colaborativo y desarrollo profesional. | Online |
-| 🟢 [**EPAM**](https://www.eventbrite.com.mx/o/epam-27283356907) | EPAM Tech Talks Mexico City | Ciudad de México, Coahuila de Zaragoza, Nuevo León, Querétaro |
+| 🔴 [**EPAM**](https://www.eventbrite.com.mx/o/epam-27283356907) | EPAM Tech Talks Mexico City | Online |
 | 🔴 [**Eventloop**](https://www.meetup.com/eventloop) | La comunidad de JavaScript de la Ciudad de México es una organización sin fines de lucro con el objetivo de elevar la competitividad técnica de la ciudad. | Online |
 | 🟢 [**FinTech México**](https://luma.com/eofagheq) | Comunidad FinTech México. FinTech México Week, sistemas transaccionales, Fuckup Nights (Ciudad de México). | Ciudad de México |
 | 🔴 [**Flutter Mexico City**](https://www.meetup.com/flutter-mexico-city) | Desarrollo multiplataforma con Flutter. Charlas técnicas y talleres. | Online |
@@ -41,7 +41,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🔴 [**GNU / SysAdmin Linux en Ciudad de México**](https://www.meetup.com/grupo-de-meetup-de-linux-en-ciudad-de-mexico) | Comunidad de Sysadmins que se dedican a dar soporte con Software Libre. | Online |
 | 🔴 [**Gophers MX**](https://www.meetup.com/gophersmx) | Comunidad de desarrolladores del lenguaje Go en México. | Online |
 | 🔴 [**Guadalajara Apache Kafka**](https://www.meetup.com/guadalajara-kafka) | Guadalajara Apache Kafka Meetup. | Online |
-| 🟢 [**HackGDL**](https://www.eventbrite.com.mx/o/hackgdl-72541932683) | Comunidad de tecnología e innovación en Guadalajara. | Jalisco |
+| 🔴 [**HackGDL**](https://www.eventbrite.com.mx/o/hackgdl-72541932683) | Comunidad de tecnología e innovación en Guadalajara. | Online |
 | 🔴 [**HackrobotsMX**](https://www.meetup.com/hackrobotsmx) | HackrobotsMX es la primera y única comunidad en América sin fines de lucro dedicada a la formación y capacitación en robótica. | Online |
 | 🔴 [**HTML5 CDMX**](https://www.meetup.com/html5-ciudad-de-mexico) | Desarrollo web, estándares W3C y tecnologías de frontend. | Online |
 | 🔴 [**j4Guanatos**](https://www.meetup.com/j4guanatos) | Comunidad de Java en Guadalajara. Eventos sobre Java y tecnologías relacionadas. | Online |
