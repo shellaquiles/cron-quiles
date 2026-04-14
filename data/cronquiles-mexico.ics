@@ -6,44 +6,6 @@ X-WR-CALDESC:Calendario unificado de eventos tech en México\, México
 X-WR-CALNAME:Eventos Tech México - cronquiles
 X-WR-TIMEZONE:America/Mexico_City
 BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Agile Dojo 2021|Online
-DTSTART:20210107T174500
-DESCRIPTION:The Agile Dojo: your home to learn and practice
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Office Hours with Richard Kasperowski - Spring
-  2021|Online
-DTSTART:20210203T110000
-DESCRIPTION:Office Hours with Richard
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Postponed - Grow Together: How to Learn Your W
- ay to a Great Team|Online
-DTSTART:20210318T110000
-DESCRIPTION:Become the superstar leader you've always wanted to
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Office Hours with Richard Kasperowski - Fall 2
- 021|Online
-DTSTART:20210908T110000
-DESCRIPTION:Office Hours with Richard
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Agile Dojo—January 6\, 2022|Online
-DTSTART:20220106T174500
-DESCRIPTION:The Agile Dojo: your home to learn and practice
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rust-AICollective|SF GAI Meetup 2/9|Online
 DTSTART:20230210T030000Z
 CATEGORIES:ai
@@ -340,15 +302,6 @@ LOCATION:https://luma.com/event/evt-aeVCMMiEAJSX0aF
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-aeVCMMiEAJSX0aF
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Global Office Hours with Richard Kasperowski -
-  Fall 2024|Online
-DTSTART:20240911T113000
-DESCRIPTION:Global Office Hours with Richard Kasperowski: Agile Insights &
-  Open Conversations - Fall
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Frutero Club|$XOC en Ethereum México - Dinámica Sep 11 a Sep 16|
  México|Yucatán
 DTSTART:20240911T190000Z
@@ -364,16 +317,6 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Yucatán
 X-CRONQUILES-STATE-CODE:MX-YUC
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski| ¡Dojo de Codificación Global en Línea!|Onl
- ine
-DTSTART:20240918T150000
-CATEGORIES:ai
-DESCRIPTION:Join us for a dynamic online coding session where we'll practi
- ce pair programming\, Test-Driven Development (TDD)\, and
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:This Week in Fintech|Fintech Happy Hour by TWIF & Ripple|México|C
@@ -448,15 +391,6 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/rx9gcv9r\n\nHo
  sted by joaquin
 LOCATION:https://luma.com/event/evt-TEkdvol4ZI55xWN
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-TEkdvol4ZI55xWN
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|¡Dojo de Codificación Global en Línea!|Onli
- ne
-DTSTART:20241009T110000
-DESCRIPTION:¡Únete a nuestra sesión online de código! Practicaremos pr
- ogramación en parejas\, TDD y más. ¡No te lo
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Conexión de visionarios|México|Ciudad de Méxic
@@ -639,74 +573,6 @@ CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/heroguest\n\nA
  ddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week 
  & 3 others
-LOCATION:Ciudad de México
-X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Mexico Tech Week|Fintech Feast:  Luncheon with Pygma\, Mastercard\
- , Google & This Week in Fintech|México|Ciudad de México
-DTSTART:20241021T210000Z
-CATEGORIES:ai,python
-DESCRIPTION:Get up-to-date information at: https://luma.com/8o2qc0sg\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week\,
-  Andrés Cano & Jorge Gonzalez Soler
-LOCATION:Ciudad de México
-X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Mexico Tech Week|Emprelatam Connect Day CDMX|México|Ciudad de Mé
- xico
-DTSTART:20241021T213000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/rk2rp5gp\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week\,
-  Emprelatam & Denisse Galindo
-LOCATION:Ciudad de México
-X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Mexico Tech Week|Founders & Drinks by Startup Grind #MexicoTechWee
- k|México|Ciudad de México
-DTSTART:20241021T230000Z
-CATEGORIES:ai,frontend
-DESCRIPTION:Get up-to-date information at: https://luma.com/cranm43m\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week\,
-  Guillermo Vizcaino & Carlos Zárate
-LOCATION:Ciudad de México
-X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Mexico Tech Week|Diving deep on AI in Mexico: In Conversation with
-  Rest of World|México|Ciudad de México
-DTSTART:20241021T230000Z
-CATEGORIES:ai,backend
-DESCRIPTION:Get up-to-date information at: https://luma.com/2ts08m45\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week &
-  Rest of World
 LOCATION:Ciudad de México
 X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
 X-CRONQUILES-CITY:Ciudad de México
@@ -1972,15 +1838,6 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Global Coding Dojo!|Online
-DTSTART:20241113T110000
-CATEGORIES:ai
-DESCRIPTION:Join us for a dynamic online coding session where we'll practi
- ce pair programming\, Test-Driven Development (TDD)\, and
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:This Week in Fintech|Growth & Gains: Founders & CFOs Night by Webu
  ll & TWIF|México|Ciudad de México
 DTSTART:20241121T010000Z
@@ -1998,15 +1855,6 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|¡Dojo de Codificación Global en Línea!|Onli
- ne
-DTSTART:20241211T110000
-DESCRIPTION:¡Únete a nuestra sesión online de código! Practicaremos pr
- ogramación en parejas\, TDD y más. ¡No te lo
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Founder Friends Mexico|Second Opinion Live Podcast|Online
@@ -2036,15 +1884,6 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/7we6w057\n\nHo
  sted by Frutero & Moni
 LOCATION:https://luma.com/event/evt-cvMmP8ARx0lFqul
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-cvMmP8ARx0lFqul
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Global Coding Dojo!|Online
-DTSTART:20250108T110000
-CATEGORIES:ai
-DESCRIPTION:Join us to practice mob programming\, TDD\, and AI-assisted co
- ding with tools like Claude Code! Connect with developers
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PyTalavera|Charlas de Python y partida de Rosca|México|Puebla
@@ -2660,22 +2499,6 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Java Mexico|Arquitecturas Modernas en Java: Hacia Servicios Escala
- bles y Flexibles|México|Ciudad de México
-DTSTART:20250730T003000Z
-CATEGORIES:ai,frontend,mobile
-DESCRIPTION:Get up-to-date information at: https://luma.com/83si3bw5\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by Javier Benek
-LOCATION:Ciudad de México
-X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Founder Friends Mexico|Venture Bites: Why Founders Should Angel In
  vest Micro-Checks|Online
 DTSTART:20250731T180000Z
@@ -2733,23 +2556,6 @@ LOCATION:Chez Vous #Timecafé\, Av. de los Insurgentes Sur 1188\, Tlacoque
  o
 X-CRONQUILES-ADDRESS:Av. Insurgentes Centro 1188\, Tlacoquemecatl del Vall
  e\, Benito Juárez\, 03200 Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|¡Dojo de Codificación Global - Ciudad de Mé
- xico!|México|Ciudad de México
-DTSTART:20250813T180000
-DESCRIPTION:¡Únete a nosotros para una sesión de codificación presenci
- al donde practicaremos programación en parejas\, TDD\, y
-LOCATION:Universidad La Salle\, 45 Avenida Benjamín Franklin\, Cuauhtémo
- c\, CMX
-X-CRONQUILES-ADDRESS:Av. Benjamín Franklin 45\, Colonia Condesa\, Cuauht
- émoc\, 06140 Ciudad de México\, CDMX\, México
 X-CRONQUILES-CITY:Ciudad de México
 X-CRONQUILES-CITY-CODE:cdmx
 X-CRONQUILES-COUNTRY:México
@@ -2927,10 +2733,10 @@ LOCATION:https://luma.com/event/evt-bCXzW5aarpAQHid
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-bCXzW5aarpAQHid
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AI Builders MX|From Idea to MVP: Construye tu propia app usando AI
- |México|Ciudad de México
+SUMMARY:v0 Prompt to Production Mexico City|From Idea to MVP: Construye tu
+  propia app usando AI|México|Ciudad de México
 DTSTART:20250911T230000Z
-CATEGORIES:ai,frontend
+CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/r8rwqnn9\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Javier Rivero
 LOCATION:Ciudad de México
@@ -3586,22 +3392,6 @@ LOCATION:https://luma.com/event/evt-FmCBjqaT7Bx4B0i
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-FmCBjqaT7Bx4B0i
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Java Mexico|javaMéxico Meetup++\; Doble charla 06 nov 👻🎃|M
- éxico|Ciudad de México
-DTSTART:20251107T003000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/l1sbcrs8\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by Javier Benek
-LOCATION:Ciudad de México
-X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Python CDMX|Sysadmin Horror Story - Historias de TECHrror para Sys
  dmins|México|Ciudad de México
 DTSTART:20251112T003000Z
@@ -3716,23 +3506,6 @@ LOCATION:Chez Vous #Timecafé\, Av. Insurgentes Centro 1188\, Tlacoquemeca
  tl del Valle\, Benito Juárez\, 03200 Ciudad de México\, CDMX\, Mexico
 X-CRONQUILES-ADDRESS:Av. Insurgentes Centro 1188\, Tlacoquemecatl del Vall
  e\, Benito Juárez\, 03200 Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Java Mexico|Cucumber y BDD en el mundo Java: Más allá de las pru
- ebas|México|Ciudad de México
-DTSTART:20251204T003000Z
-CATEGORIES:ai,frontend
-DESCRIPTION:Get up-to-date information at: https://luma.com/08equxao\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by Javier Benek & Edu
- ardo Zarate Mejia
-LOCATION:Ciudad de México
-X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
 X-CRONQUILES-CITY:Ciudad de México
 X-CRONQUILES-CITY-CODE:cdmx
 X-CRONQUILES-COUNTRY:México
@@ -3904,23 +3677,6 @@ X-CRONQUILES-ADDRESS:Av. Insurgentes Sur 1877\, Guadalupe Inn\, Álvaro Ob
  regón\, 01020 Álvaro Obregón\, CDMX\, México
 X-CRONQUILES-CITY:Álvaro Obregón
 X-CRONQUILES-CITY-CODE:alvaroobregon
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Global Coding Dojo! - Ciudad de México|Méxic
- o|Ciudad de México
-DTSTART:20260114T183000
-DESCRIPTION:Practica TDD y mob programming con IA. Presencial en La Condes
- a. Gratis. TypeScript. ¡Grupo pequeño y amigable! Todos los niveles
-LOCATION:Openhub Coworking Condesa\, 6 Diagonal Patriotismo\, Ciudad de M
- éxico\, CMX
-X-CRONQUILES-ADDRESS:Diagonal Patriotismo 6\, Hipódromo Condesa\, Cuauht
- émoc\, 06170 Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Ciudad de México
@@ -4101,23 +3857,6 @@ LOCATION:https://luma.com/event/evt-H4WPxCoPFcne2bC
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-H4WPxCoPFcne2bC
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Java Mexico|30 Años Programando: Lecciones Aprendidas  -  Por Enr
- ique Zamudio|México|Ciudad de México
-DTSTART:20260129T003000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/ksvsiu3v\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by Javier Benek & Edu
- ardo Zarate Mejia
-LOCATION:Juárez\, Ciudad de México
-X-CRONQUILES-ADDRESS:Juárez\, 06600 Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Frutero Club|Coworking Frutal - Work and Chill #1|México|Ciudad d
  e México
 DTSTART:20260130T160000Z
@@ -4158,23 +3897,6 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Jalisco
 X-CRONQUILES-STATE-CODE:MX-JAL
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:AI Builders MX|v0 Prompt to Production – Mexico City|México|Ciu
- dad de México
-DTSTART:20260131T150000Z
-CATEGORIES:ai,frontend
-DESCRIPTION:Get up-to-date information at: https://luma.com/fdg8riz2\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by Javier Rivero & Be
- n Kim
-LOCATION:Hipódromo\, Ciudad de México
-X-CRONQUILES-ADDRESS:Hipódromo\, 06100 Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Frutero Club|Casa Frutero - Coworking Frutal #5|México|Ciudad de 
@@ -4685,59 +4407,6 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/uwjfgnlj\n\nAd
 LOCATION:Hipódromo Condesa\, Ciudad de México
 X-CRONQUILES-ADDRESS:Hipódromo Condesa\, 06170 Ciudad de México\, CDMX\,
   México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FinTech México|Futuro de Pagos entre Cortes by tapi|México|Ciuda
- d de México
-DTSTART:20260224T203000Z
-CATEGORIES:ai,backend
-DESCRIPTION:Get up-to-date information at: https://luma.com/robjv7n2\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by FinTech México & 
- 3 others
-LOCATION:Chapultepec Morales\, Ciudad de México
-X-CRONQUILES-ADDRESS:Chapultepec Morales\, Polanco V Secc\, Ciudad de Méx
- ico\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FinTech México|AML & Financial Crime Intelligence by  IKIEXPERTS|
- México|Ciudad de México
-DTSTART:20260224T223000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/qr2wspo0\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by FinTech México\, 
- JOSE ESPIRITU & Erika Postel
-LOCATION:Colonia Cuauhtémoc\, Ciudad de México
-X-CRONQUILES-ADDRESS:Cuauhtémoc\, 06500 Ciudad de México\, CDMX\, Méxic
- o
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FinTech México|Security Circle México – Ciberseguridad by Mast
- ercard|México|Ciudad de México
-DTSTART:20260224T233000Z
-CATEGORIES:ai,security
-DESCRIPTION:Get up-to-date information at: https://luma.com/5he7wkf5\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by FinTech México\, 
- Maura Crocker & Santiago Fuentes
-LOCATION:Juárez\, Ciudad de México
-X-CRONQUILES-ADDRESS:Juárez\, 06600 Ciudad de México\, CDMX\, México
 X-CRONQUILES-CITY:Ciudad de México
 X-CRONQUILES-CITY-CODE:cdmx
 X-CRONQUILES-COUNTRY:México
@@ -6223,6 +5892,17 @@ LOCATION:https://luma.com/event/evt-bUaSwV7S9gBpY9i
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-bUaSwV7S9gBpY9i
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Rust-AICollective|Responsible AI and Data Protection: Aligning Gha
+ na’s Data Protection Act with Emerging AI Use Cases|Online
+DTSTART:20260430T153000Z
+CATEGORIES:ai,data
+DESCRIPTION:Get up-to-date information at: https://luma.com/aidatagh\n\nHo
+ sted by The AI Collective\, Knowledge Innovations & Gen Ai Collective Ghan
+ a
+LOCATION:https://luma.com/event/evt-rI9mxNqygqodV1R
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-rI9mxNqygqodV1R
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Apri
  l 30 - Best of WACV 2026|México|CDMX
 DTSTART:20260430T100000
@@ -6312,35 +5992,6 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  State University. His research revolves around Multimodal Model Evaluation
   and Benchmarking\, Machine Unlearning\, and Structured Reasoning.
 LOCATION:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|Responsible AI and Data Protection: Aligning Gha
- na’s Data Protection Act with Emerging AI Use Cases|Online
-DTSTART:20260430T190000Z
-CATEGORIES:ai,data
-DESCRIPTION:Get up-to-date information at: https://luma.com/aidatagh\n\nHo
- sted by The AI Collective\, Knowledge Innovations & Gen Ai Collective Ghan
- a
-LOCATION:https://luma.com/event/evt-rI9mxNqygqodV1R
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-rI9mxNqygqodV1R
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|Zero to Agent: Mexico City|Mé
- xico|Ciudad de México
-DTSTART:20260430T223000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/wp947zvj\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by Javier Rivero & 3 
- others
-LOCATION:Polanco\, Ciudad de México
-X-CRONQUILES-ADDRESS:Polanco\, Polanco I Secc\, Ciudad de México\, CDMX\,
-  México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|Parenting with AI (w/ The AI Collective Kansas C
