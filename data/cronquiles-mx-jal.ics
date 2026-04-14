@@ -6,6 +6,38 @@ X-WR-CALDESC:Calendario unificado de eventos tech en Jalisco\, México
 X-WR-CALNAME:Eventos Tech Jalisco - cronquiles
 X-WR-TIMEZONE:America/Mexico_City
 BEGIN:VEVENT
+SUMMARY:HackGDL|HackGDL 2024|México|Jalisco
+DTSTART:20240316T100000
+DESCRIPTION:¡Acompáñanos en la primera edición! En HackGDL\, adem´as 
+ de las pláticas y talleres\, tendremos actividades sociales y dinámicas
+LOCATION:Jardín Americana\, 1305 Avenida Ignacio L Vallarta\, Guadalajara
+ \, JAL
+X-CRONQUILES-ADDRESS:Av. Ignacio L Vallarta 1305\, Col Americana\, America
+ na\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HackGDL|HackGDL 2025|México|Jalisco
+DTSTART:20250301T090000
+DESCRIPTION:¡Acompáñanos en la segunda edición de HackGD! Será un eve
+ nto lleno de contenido técnico\, así como actividades sociales y
+LOCATION:Jardín Americana\, 1305 Avenida Ignacio L Vallarta\, Guadalajara
+ \, JAL
+X-CRONQUILES-ADDRESS:Av. Ignacio L Vallarta 1305\, Col Americana\, America
+ na\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Vive Codding Cafe|Vibe Coding Café @HackerGarage|México|Jalisco
 DTSTART:20250912T220000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/jqsicipx\n\nAd
@@ -219,6 +251,98 @@ X-CRONQUILES-STATE:Jalisco
 X-CRONQUILES-STATE-CODE:MX-JAL
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:HackGDL|Cloud Pentesting 101: How to survive in the clouds.|Méxic
+ o|Jalisco
+DTSTART:20260313T100000
+CATEGORIES:cloud,security
+DESCRIPTION:Workshop
+LOCATION:REDi AMG\, 1505 Calle Manuel López Cotilla\, Guadalajara\, JAL
+X-CRONQUILES-ADDRESS:C. Manuel López Cotilla 1505\, Col Americana\, Lafay
+ ette\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HackGDL|Hackeando la IA: Cómo Envenenar las Herramientas que Usan
+  los LLMs|México|Jalisco
+DTSTART:20260313T100000
+DESCRIPTION:Workshop
+LOCATION:REDi AMG\, 1505 Calle Manuel López Cotilla\, Guadalajara\, JAL
+X-CRONQUILES-ADDRESS:C. Manuel López Cotilla 1505\, Col Americana\, Lafay
+ ette\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HackGDL|Using legitimate Services to bypass AV/EDR|México|Jalisco
+DTSTART:20260313T120000
+DESCRIPTION:Workshop
+LOCATION:REDi AMG\, 1505 Calle Manuel López Cotilla\, Guadalajara\, JAL
+X-CRONQUILES-ADDRESS:C. Manuel López Cotilla 1505\, Col Americana\, Lafay
+ ette\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HackGDL|Craf Your Cyber Identity & Ace Your Interviews|México|Jal
+ isco
+DTSTART:20260313T120000
+DESCRIPTION:Workshop
+LOCATION:REDi AMG\, 1505 Calle Manuel López Cotilla\, Guadalajara\, JAL
+X-CRONQUILES-ADDRESS:C. Manuel López Cotilla 1505\, Col Americana\, Lafay
+ ette\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HackGDL|Unpacking the Bundle - Weaponizing Webpack & Source Maps f
+ or Critical Info|México|Jalisco
+DTSTART:20260313T140000
+CATEGORIES:web
+DESCRIPTION:Workshop
+LOCATION:REDi AMG\, 1505 Calle Manuel López Cotilla\, Guadalajara\, JAL
+X-CRONQUILES-ADDRESS:C. Manuel López Cotilla 1505\, Col Americana\, Lafay
+ ette\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HackGDL|Debug to Root: A Friendly Introduction to Hardware Hacking
+ |México|Jalisco
+DTSTART:20260313T140000
+CATEGORIES:security
+DESCRIPTION:Workshop
+LOCATION:REDi AMG\, 1505 Calle Manuel López Cotilla\, Guadalajara\, JAL
+X-CRONQUILES-ADDRESS:C. Manuel López Cotilla 1505\, Col Americana\, Lafay
+ ette\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Vive Codding Cafe|Vibe Coding Café — v0 Edition|México|Jalisco
 DTSTART:20260313T220000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/wwa2mpwd\n\nAd
@@ -228,6 +352,22 @@ LOCATION:HackerGarage\, Calle Marsella 155-Int 105 A\, Col Americana\, Laf
  ayette\, 44160 Guadalajara\, Jal.\, Mexico
 X-CRONQUILES-ADDRESS:Calle Marsella 155-Int 105 A\, Col Americana\, Lafaye
  tte\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HackGDL|HackGDL 2026|México|Jalisco
+DTSTART:20260314T090000
+DESCRIPTION:¡Acompáñanos en la tercera edición de HackGD! Será un eve
+ nto lleno de contenido técnico\, así como actividades sociales y
+LOCATION:Jardín Americana\, 1305 Avenida Ignacio L Vallarta\, Guadalajara
+ \, JAL
+X-CRONQUILES-ADDRESS:Av. Ignacio L Vallarta 1305\, Col Americana\, America
+ na\, 44160 Guadalajara\, Jal.\, México
 X-CRONQUILES-CITY:Guadalajara
 X-CRONQUILES-CITY-CODE:guadalajara
 X-CRONQUILES-COUNTRY:México

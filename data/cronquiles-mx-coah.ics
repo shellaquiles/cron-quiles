@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cron-Quiles//ICS Aggregator//EN
+CALSCALE:GREGORIAN
+X-WR-CALDESC:Calendario unificado de eventos tech en MX-COAH\, México
+X-WR-CALNAME:Eventos Tech MX-COAH - cronquiles
+X-WR-TIMEZONE:America/Mexico_City
+BEGIN:VEVENT
+SUMMARY:EPAM|EPAM Tech Talks Torreón|México|Coahuila de Zaragoza
+DTSTART:20260312T184500
+CATEGORIES:frontend
+DESCRIPTION:Acompáñanos en nuestras Tech Talks en Torreón para comparti
+ r y discutir conocimientos sobre
+LOCATION:PASEO MILEX\, Carretera Torreón-San Pedro\, Torreón\, COA
+X-CRONQUILES-ADDRESS:Carr. Torreón - San Pedro De las Colonias 2200\, Eji
+ do la Unión\, 27420 Torreón\, Coah.\, México
+X-CRONQUILES-CITY:Torreón
+X-CRONQUILES-CITY-CODE:torreon
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Coahuila de Zaragoza
+X-CRONQUILES-STATE-CODE:MX-COAH
+END:VEVENT
+END:VCALENDAR

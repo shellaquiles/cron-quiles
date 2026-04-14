@@ -6,6 +6,44 @@ X-WR-CALDESC:Calendario unificado de eventos tech en México\, México
 X-WR-CALNAME:Eventos Tech México - cronquiles
 X-WR-TIMEZONE:America/Mexico_City
 BEGIN:VEVENT
+SUMMARY:Richard Kasperowski|Agile Dojo 2021|Online
+DTSTART:20210107T174500
+DESCRIPTION:The Agile Dojo: your home to learn and practice
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Richard Kasperowski|Office Hours with Richard Kasperowski - Spring
+  2021|Online
+DTSTART:20210203T110000
+DESCRIPTION:Office Hours with Richard
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Richard Kasperowski|Postponed - Grow Together: How to Learn Your W
+ ay to a Great Team|Online
+DTSTART:20210318T110000
+DESCRIPTION:Become the superstar leader you've always wanted to
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Richard Kasperowski|Office Hours with Richard Kasperowski - Fall 2
+ 021|Online
+DTSTART:20210908T110000
+DESCRIPTION:Office Hours with Richard
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Richard Kasperowski|Agile Dojo—January 6\, 2022|Online
+DTSTART:20220106T174500
+DESCRIPTION:The Agile Dojo: your home to learn and practice
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rust-AICollective|SF GAI Meetup 2/9|Online
 DTSTART:20230210T030000Z
 CATEGORIES:ai
@@ -212,6 +250,22 @@ LOCATION:https://luma.com/event/evt-lL0WgU68uQsc3nv
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-lL0WgU68uQsc3nv
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:HackGDL|HackGDL 2024|México|Jalisco
+DTSTART:20240316T100000
+DESCRIPTION:¡Acompáñanos en la primera edición! En HackGDL\, adem´as 
+ de las pláticas y talleres\, tendremos actividades sociales y dinámicas
+LOCATION:Jardín Americana\, 1305 Avenida Ignacio L Vallarta\, Guadalajara
+ \, JAL
+X-CRONQUILES-ADDRESS:Av. Ignacio L Vallarta 1305\, Col Americana\, America
+ na\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rust-AICollective|🧠 GenAI Collective 🧠  Community Town Hall 
  🏛️|Online
 DTSTART:20240425T010056Z
@@ -286,6 +340,15 @@ LOCATION:https://luma.com/event/evt-aeVCMMiEAJSX0aF
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-aeVCMMiEAJSX0aF
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Richard Kasperowski|Global Office Hours with Richard Kasperowski -
+  Fall 2024|Online
+DTSTART:20240911T113000
+DESCRIPTION:Global Office Hours with Richard Kasperowski: Agile Insights &
+  Open Conversations - Fall
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Frutero Club|$XOC en Ethereum México - Dinámica Sep 11 a Sep 16|
  México|Yucatán
 DTSTART:20240911T190000Z
@@ -301,6 +364,16 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Yucatán
 X-CRONQUILES-STATE-CODE:MX-YUC
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Richard Kasperowski| ¡Dojo de Codificación Global en Línea!|Onl
+ ine
+DTSTART:20240918T150000
+CATEGORIES:ai
+DESCRIPTION:Join us for a dynamic online coding session where we'll practi
+ ce pair programming\, Test-Driven Development (TDD)\, and
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:This Week in Fintech|Fintech Happy Hour by TWIF & Ripple|México|C
@@ -375,6 +448,15 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/rx9gcv9r\n\nHo
  sted by joaquin
 LOCATION:https://luma.com/event/evt-TEkdvol4ZI55xWN
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-TEkdvol4ZI55xWN
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Richard Kasperowski|¡Dojo de Codificación Global en Línea!|Onli
+ ne
+DTSTART:20241009T110000
+DESCRIPTION:¡Únete a nuestra sesión online de código! Practicaremos pr
+ ogramación en parejas\, TDD y más. ¡No te lo
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Conexión de visionarios|México|Ciudad de Méxic
@@ -1806,6 +1888,15 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Richard Kasperowski|Global Coding Dojo!|Online
+DTSTART:20241113T110000
+CATEGORIES:ai
+DESCRIPTION:Join us for a dynamic online coding session where we'll practi
+ ce pair programming\, Test-Driven Development (TDD)\, and
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:This Week in Fintech|Growth & Gains: Founders & CFOs Night by Webu
  ll & TWIF|México|Ciudad de México
 DTSTART:20241121T010000Z
@@ -1823,6 +1914,15 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Richard Kasperowski|¡Dojo de Codificación Global en Línea!|Onli
+ ne
+DTSTART:20241211T110000
+DESCRIPTION:¡Únete a nuestra sesión online de código! Practicaremos pr
+ ogramación en parejas\, TDD y más. ¡No te lo
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Founder Friends Mexico|Second Opinion Live Podcast|Online
@@ -1852,6 +1952,15 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/7we6w057\n\nHo
  sted by Frutero & Moni
 LOCATION:https://luma.com/event/evt-cvMmP8ARx0lFqul
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-cvMmP8ARx0lFqul
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Richard Kasperowski|Global Coding Dojo!|Online
+DTSTART:20250108T110000
+CATEGORIES:ai
+DESCRIPTION:Join us to practice mob programming\, TDD\, and AI-assisted co
+ ding with tools like Claude Code! Connect with developers
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PyTalavera|Charlas de Python y partida de Rosca|México|Puebla
@@ -1980,6 +2089,22 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/ws71h62t\n\nHo
  sted by Carlos Rodríguez
 LOCATION:https://luma.com/event/evt-cyzCaJh2IIGv1sY
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-cyzCaJh2IIGv1sY
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HackGDL|HackGDL 2025|México|Jalisco
+DTSTART:20250301T090000
+DESCRIPTION:¡Acompáñanos en la segunda edición de HackGD! Será un eve
+ nto lleno de contenido técnico\, así como actividades sociales y
+LOCATION:Jardín Americana\, 1305 Avenida Ignacio L Vallarta\, Guadalajara
+ \, JAL
+X-CRONQUILES-ADDRESS:Av. Ignacio L Vallarta 1305\, Col Americana\, America
+ na\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Frutero Club|Frutero Talk #008 - Codifica un AI Agent sin saber pr
@@ -2373,6 +2498,22 @@ LOCATION:https://luma.com/event/evt-OmEFmQgWu38vswM
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-OmEFmQgWu38vswM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:EPAM|EPAM Tech Talks Monterrey|México|Nuevo León
+DTSTART:20250703T183000
+DESCRIPTION:Acompáñanos en nuestras Tech Talks en Monterrey para compart
+ ir y discutir conocimientos sobre
+LOCATION:NEORIS\, Blv. Gustavo Díaz Ordaz 333\, San Pedro Garza García\,
+  NLE
+X-CRONQUILES-ADDRESS:Av. 2 de Octubre 333-Lote 2\, Unidad\, San Pedro\, 66
+ 215 San Pedro Garza García\, N.L.\, México
+X-CRONQUILES-CITY:San Pedro Garza García
+X-CRONQUILES-CITY-CODE:sanpedrogarzagarcia
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Frutero Club|Frutero Talk #17 con Mel|Online
 DTSTART:20250708T220000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/cpeixs8f\n\nHo
@@ -2500,6 +2641,23 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Richard Kasperowski|¡Dojo de Codificación Global - Ciudad de Mé
+ xico!|México|Ciudad de México
+DTSTART:20250813T180000
+DESCRIPTION:¡Únete a nosotros para una sesión de codificación presenci
+ al donde practicaremos programación en parejas\, TDD\, y
+LOCATION:Universidad La Salle\, 45 Avenida Benjamín Franklin\, Cuauhtémo
+ c\, CMX
+X-CRONQUILES-ADDRESS:Av. Benjamín Franklin 45\, Colonia Condesa\, Cuauht
+ émoc\, 06140 Ciudad de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Founder Friends Mexico|Venture Bites: Why Product Leaders Make Gre
  at Angel Investors|Online
 DTSTART:20250814T180000Z
@@ -2588,6 +2746,21 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:EPAM|EPAM Tech Talks Mexico City|México|Ciudad de México
+DTSTART:20250828T183000
+DESCRIPTION:Acompáñanos en nuestras Tech Talks en Ciudad de México para
+  compartir y discutir conocimientos sobre
+LOCATION:WeWork Varsovia\, Calle Varsovia 36\, Ciudad de México\, CMX
+X-CRONQUILES-ADDRESS:C. Varsovia 36\, Juárez\, Cuauhtémoc\, 06600 Ciudad
+  de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Frutero Club|Coworking Frutal #11🍎|México|Ciudad de México
 DTSTART:20250903T160000Z
 CATEGORIES:frontend
@@ -2652,22 +2825,6 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/vhw2j6z1\n\nHo
  sted by Wael Jabir & Nicole DeTommaso
 LOCATION:https://luma.com/event/evt-bCXzW5aarpAQHid
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-bCXzW5aarpAQHid
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|From Idea to MVP: Construye tu
-  propia app usando AI|México|Ciudad de México
-DTSTART:20250911T230000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/r8rwqnn9\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by Javier Rivero
-LOCATION:Ciudad de México
-X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Claude Users Group|Build with Claude Code|Online
@@ -2844,9 +3001,9 @@ LOCATION:https://partiful.com/e/b0uCIPkiXO9lph7mTQ8S
 X-CRONQUILES-ADDRESS:https://partiful.com/e/b0uCIPkiXO9lph7mTQ8S
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|How I Use AI – Vol 1|Online
+SUMMARY:AI Builders MX|How I Use AI – Vol 1|Online
 DTSTART:20251007T220000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/pi3ebsn2\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-gCpfBqRDQhEOJf9
@@ -2869,6 +3026,22 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/1fa14671\n\nHo
  sted by Wael Jabir
 LOCATION:https://luma.com/event/evt-crhnVKntad1hufu
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-crhnVKntad1hufu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EPAM|EPAM Tech Talks Monterrey|México|Nuevo León
+DTSTART:20251016T183000
+DESCRIPTION:Acompáñanos en nuestras Tech Talks en Monterrey para compart
+ ir y discutir conocimientos sobre
+LOCATION:NEORIS\, Blv. Gustavo Díaz Ordaz 333\, San Pedro Garza García\,
+  NLE
+X-CRONQUILES-ADDRESS:Av. 2 de Octubre 333-Lote 2\, Unidad\, San Pedro\, 66
+ 215 San Pedro Garza García\, N.L.\, México
+X-CRONQUILES-CITY:San Pedro Garza García
+X-CRONQUILES-CITY-CODE:sanpedrogarzagarcia
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Vive Codding Cafe|Vibe Coding Café ☕️|México|Jalisco
@@ -3322,6 +3495,22 @@ LOCATION:https://luma.com/event/evt-Nxe2wxIrRaHFmwm
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-Nxe2wxIrRaHFmwm
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:EPAM|EPAM Tech Talks Querétaro|México|Querétaro
+DTSTART:20251113T183000
+DESCRIPTION:Acompáñanos en nuestras Tech Talks en Querétaro para compar
+ tir y discutir conocimientos sobre
+LOCATION:KROW\, Calle Héroe de Nacozari 25B\, Santiago de Querétaro\, QU
+ E
+X-CRONQUILES-ADDRESS:C. Héroe de Nacozari 25B\, Centro\, 76000 Santiago d
+ e Querétaro\, Qro.\, México
+X-CRONQUILES-CITY:Santiago de Querétaro
+X-CRONQUILES-CITY-CODE:santiagodequeretaro
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Querétaro
+X-CRONQUILES-STATE-CODE:MX-QRO
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FinTech México|Presentación de propuestas de los candidatos al C
  onsejo 2026–2028.|México|Ciudad de México
 DTSTART:20251118T230000Z
@@ -3572,6 +3761,23 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Richard Kasperowski|Global Coding Dojo! - Ciudad de México|Méxic
+ o|Ciudad de México
+DTSTART:20260114T183000
+DESCRIPTION:Practica TDD y mob programming con IA. Presencial en La Condes
+ a. Gratis. TypeScript. ¡Grupo pequeño y amigable! Todos los niveles
+LOCATION:Openhub Coworking Condesa\, 6 Diagonal Patriotismo\, Ciudad de M
+ éxico\, CMX
+X-CRONQUILES-ADDRESS:Diagonal Patriotismo 6\, Hipódromo Condesa\, Cuauht
+ émoc\, 06170 Ciudad de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:PyTalavera|Meetup Enero Python Puebla|México|Puebla
 DTSTART:20260116T003000Z
 CATEGORIES:python
@@ -3674,9 +3880,25 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|Diseña usando AI|Online
+SUMMARY:EPAM|EPAM Tech Talks Mexico City|México|Ciudad de México
+DTSTART:20260122T183000
+DESCRIPTION:Acompáñanos en nuestras Tech Talks en Ciudad de México para
+  compartir y discutir conocimientos sobre
+LOCATION:WeWork Espacio de Oficinas & Coworking\, 296 Avenida Paseo de la 
+ Reforma\, Ciudad de México\, CMX
+X-CRONQUILES-ADDRESS:Av. P.º de la Reforma 296-Piso 25\, Juárez\, Cuauht
+ émoc\, 06600 Ciudad de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI Builders MX|Diseña usando AI|Online
 DTSTART:20260127T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/ubxd600w\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-IWVh1A0cdphlpRP
@@ -3721,9 +3943,9 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|Diseña usando AI|Online
+SUMMARY:AI Builders MX|Diseña usando AI|Online
 DTSTART:20260128T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/5nq96pxw\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-H4WPxCoPFcne2bC
@@ -3897,9 +4119,9 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|How I Use AI – Vol 2|Online
+SUMMARY:AI Builders MX|How I Use AI – Vol 2|Online
 DTSTART:20260213T000000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/lgd37763\n\nHo
  sted by Javier Rivero & 3 others
 LOCATION:https://luma.com/event/evt-rYB4HiifBPDm7LU
@@ -3995,14 +4217,29 @@ X-CRONQUILES-STATE:Jalisco
 X-CRONQUILES-STATE-CODE:MX-JAL
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #3: Midjourney|On
- line
+SUMMARY:AI Builders MX|How I Use AI #3: Midjourney|Online
 DTSTART:20260219T233000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/d342anny\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-WUg9IsqZP5MKL4B
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-WUg9IsqZP5MKL4B
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EPAM|EPAM Tech Talks Monterrey|México|Nuevo León
+DTSTART:20260219T183000
+DESCRIPTION:Acompáñanos en nuestras Tech Talks en Monterrey para compart
+ ir y discutir conocimientos sobre
+LOCATION:EPAM NEORIS\, Av. 2 de Octubre 333\, San Pedro Garza García\, NL
+ E
+X-CRONQUILES-ADDRESS:Av. 2 de Octubre 333-Lote 2\, Unidad\, San Pedro\, 66
+ 215 San Pedro Garza García\, N.L.\, México
+X-CRONQUILES-CITY:San Pedro Garza García
+X-CRONQUILES-CITY-CODE:sanpedrogarzagarcia
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Frutero Club|Coworking Frutal - Work and Chill #3|México|Ciudad d
@@ -4398,24 +4635,6 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Talavera Valley|🔥🚀 Kick Off Talavera Valley Hub  -  EL event
- o que enciende el ecosistema ✨|México|Puebla
-DTSTART:20260226T000000Z
-DESCRIPTION:Get up-to-date information at: https://luma.com/r706j72y\n\nAd
- dress:\nWorkósfera Coworking @ Cerro de La Paz\, Puebla\nHeroica Puebla d
- e Zaragoza\, Puebla\nMexico\n\nHosted by Talavera Valley
-LOCATION:Workósfera Coworking @ Cerro de La Paz\, Puebla\, Cholula 35\, L
- a Paz\, 72160 Heroica Puebla de Zaragoza\, Pue.\, Mexico
-X-CRONQUILES-ADDRESS:Cholula 35\, La Paz\, 72160 Heroica Puebla de Zaragoz
- a\, Pue.\, México
-X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
-X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Puebla
-X-CRONQUILES-STATE-CODE:MX-PUE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FinTech México|Drinks\, Not Decks @ Fintech Mexico Week|México|C
  iudad de México
 DTSTART:20260226T000000Z
@@ -4432,6 +4651,24 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Talavera Valley|🔥🚀 Kick Off Talavera Valley Hub  -  EL event
+ o que enciende el ecosistema ✨|México|Puebla
+DTSTART:20260226T000000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/r706j72y\n\nAd
+ dress:\nWorkósfera Coworking @ Cerro de La Paz\, Puebla\nHeroica Puebla d
+ e Zaragoza\, Puebla\nMexico\n\nHosted by Talavera Valley
+LOCATION:Workósfera Coworking @ Cerro de La Paz\, Puebla\, Cholula 35\, L
+ a Paz\, 72160 Heroica Puebla de Zaragoza\, Pue.\, Mexico
+X-CRONQUILES-ADDRESS:Cholula 35\, La Paz\, 72160 Heroica Puebla de Zaragoz
+ a\, Pue.\, México
+X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
+X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Puebla
+X-CRONQUILES-STATE-CODE:MX-PUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FinTech México|Fuckup Nights x FinTech México Week|México|Ciuda
@@ -4563,10 +4800,9 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #4: OpenClaw|Onli
- ne
+SUMMARY:AI Builders MX|How I Use AI #4: OpenClaw|Online
 DTSTART:20260306T000000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/5ivardas\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-utuQiZ6tlVbHWXw
@@ -4628,6 +4864,114 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:EPAM|EPAM Tech Talks Torreón|México|Coahuila de Zaragoza
+DTSTART:20260312T184500
+CATEGORIES:frontend
+DESCRIPTION:Acompáñanos en nuestras Tech Talks en Torreón para comparti
+ r y discutir conocimientos sobre
+LOCATION:PASEO MILEX\, Carretera Torreón-San Pedro\, Torreón\, COA
+X-CRONQUILES-ADDRESS:Carr. Torreón - San Pedro De las Colonias 2200\, Eji
+ do la Unión\, 27420 Torreón\, Coah.\, México
+X-CRONQUILES-CITY:Torreón
+X-CRONQUILES-CITY-CODE:torreon
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Coahuila de Zaragoza
+X-CRONQUILES-STATE-CODE:MX-COAH
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HackGDL|Cloud Pentesting 101: How to survive in the clouds.|Méxic
+ o|Jalisco
+DTSTART:20260313T100000
+CATEGORIES:cloud,security
+DESCRIPTION:Workshop
+LOCATION:REDi AMG\, 1505 Calle Manuel López Cotilla\, Guadalajara\, JAL
+X-CRONQUILES-ADDRESS:C. Manuel López Cotilla 1505\, Col Americana\, Lafay
+ ette\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HackGDL|Hackeando la IA: Cómo Envenenar las Herramientas que Usan
+  los LLMs|México|Jalisco
+DTSTART:20260313T100000
+DESCRIPTION:Workshop
+LOCATION:REDi AMG\, 1505 Calle Manuel López Cotilla\, Guadalajara\, JAL
+X-CRONQUILES-ADDRESS:C. Manuel López Cotilla 1505\, Col Americana\, Lafay
+ ette\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HackGDL|Using legitimate Services to bypass AV/EDR|México|Jalisco
+DTSTART:20260313T120000
+DESCRIPTION:Workshop
+LOCATION:REDi AMG\, 1505 Calle Manuel López Cotilla\, Guadalajara\, JAL
+X-CRONQUILES-ADDRESS:C. Manuel López Cotilla 1505\, Col Americana\, Lafay
+ ette\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HackGDL|Craf Your Cyber Identity & Ace Your Interviews|México|Jal
+ isco
+DTSTART:20260313T120000
+DESCRIPTION:Workshop
+LOCATION:REDi AMG\, 1505 Calle Manuel López Cotilla\, Guadalajara\, JAL
+X-CRONQUILES-ADDRESS:C. Manuel López Cotilla 1505\, Col Americana\, Lafay
+ ette\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HackGDL|Unpacking the Bundle - Weaponizing Webpack & Source Maps f
+ or Critical Info|México|Jalisco
+DTSTART:20260313T140000
+CATEGORIES:web
+DESCRIPTION:Workshop
+LOCATION:REDi AMG\, 1505 Calle Manuel López Cotilla\, Guadalajara\, JAL
+X-CRONQUILES-ADDRESS:C. Manuel López Cotilla 1505\, Col Americana\, Lafay
+ ette\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HackGDL|Debug to Root: A Friendly Introduction to Hardware Hacking
+ |México|Jalisco
+DTSTART:20260313T140000
+CATEGORIES:security
+DESCRIPTION:Workshop
+LOCATION:REDi AMG\, 1505 Calle Manuel López Cotilla\, Guadalajara\, JAL
+X-CRONQUILES-ADDRESS:C. Manuel López Cotilla 1505\, Col Americana\, Lafay
+ ette\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Vive Codding Cafe|Vibe Coding Café — v0 Edition|México|Jalisco
 DTSTART:20260313T220000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/wwa2mpwd\n\nAd
@@ -4637,6 +4981,22 @@ LOCATION:HackerGarage\, Calle Marsella 155-Int 105 A\, Col Americana\, Laf
  ayette\, 44160 Guadalajara\, Jal.\, Mexico
 X-CRONQUILES-ADDRESS:Calle Marsella 155-Int 105 A\, Col Americana\, Lafaye
  tte\, 44160 Guadalajara\, Jal.\, México
+X-CRONQUILES-CITY:Guadalajara
+X-CRONQUILES-CITY-CODE:guadalajara
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HackGDL|HackGDL 2026|México|Jalisco
+DTSTART:20260314T090000
+DESCRIPTION:¡Acompáñanos en la tercera edición de HackGD! Será un eve
+ nto lleno de contenido técnico\, así como actividades sociales y
+LOCATION:Jardín Americana\, 1305 Avenida Ignacio L Vallarta\, Guadalajara
+ \, JAL
+X-CRONQUILES-ADDRESS:Av. Ignacio L Vallarta 1305\, Col Americana\, America
+ na\, 44160 Guadalajara\, Jal.\, México
 X-CRONQUILES-CITY:Guadalajara
 X-CRONQUILES-CITY-CODE:guadalajara
 X-CRONQUILES-COUNTRY:México
@@ -4769,10 +5129,9 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #5: Image Manipul
- ation|Online
+SUMMARY:AI Builders MX|How I Use AI #5: Image Manipulation|Online
 DTSTART:20260401T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/wsj293yt\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-3QmmiVDsImuKFFB
@@ -4797,8 +5156,8 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|OpenAI Codex – Mexico City|M
- éxico|Ciudad de México
+SUMMARY:AI Builders MX|OpenAI Codex – Mexico City|México|Ciudad de Méx
+ ico
 DTSTART:20260408T230000Z
 CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/suipk589\n\nAd
@@ -4833,15 +5192,6 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Puebla
 X-CRONQUILES-STATE-CODE:MX-PUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Rust-AICollective|ChapterX (w/ The AI Collective)|Online
-DTSTART:20260414T010000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/chx\n\nHosted 
- by Alex Barnes\, Yauvan H & The AI Collective
-LOCATION:https://luma.com/event/evt-6BiZf4ywq6qj8kU
-X-CRONQUILES-ADDRESS:https://luma.com/event/evt-6BiZf4ywq6qj8kU
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|Leadership and the New Competitive Advantage|Onl
@@ -5079,10 +5429,9 @@ LOCATION:https://luma.com/event/evt-Pp3Ze8dwpiHrmwP
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-Pp3Ze8dwpiHrmwP
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #6: Scaling to 1M
-  users|Online
+SUMMARY:AI Builders MX|How I Use AI #6: Scaling to 1M users|Online
 DTSTART:20260416T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/11fz6ef5\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-SBK5c7p9LXcCYFE
@@ -5142,6 +5491,31 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Jalisco
 X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pythonista|Taller gratuito de Git|Online
+DTSTART:20260418T090000
+CATEGORIES:frontend,mobile,python,web
+DESCRIPTION:Pythonista®\nEn este taller 100% práctico y gratuito\, pasar
+ emos de los conceptos básicos hasta flujos de trabajo que se usan todos l
+ os días en la industria\, trabajando sobre un repositorio real.\nNo neces
+ itas instalar herramientas pesadas ni configurar tu entorno local\; trabaj
+ aremos directamente en la nube utilizando **Codespaces**\, por lo que podr
+ ás enfocarte completamente en aprender los comandos y la lógica de Git.\
+ n**🗓️ Agenda del Taller:**\n\n* **Fundamentos:** Configuración inici
+ al y primeros pasos con Git.\n* **Control total:** Dominando `commit`\, `s
+ tatus`\, `log`.\n* **Viajes en el tiempo y universos paralelos:** Manejo d
+ e ramas (*branching*)\, *tags* y el uso de `git stash`.\n* **Resolución d
+ e conflictos:** Cómo arreglar problemas sin perder la cabeza.\n* **Colabo
+ ración:** Trabajo con repositorios remotos y flujos de trabajo profesiona
+ les.\n\n**💻 Requisitos (¿Qué necesitas traer?):**\n\n* Una computador
+ a con conexión a internet.\n* Una cuenta activa de **GitHub** (totalmente
+  gratis).\n* No necesitas conocimientos previos de Git\, pero sí saber mo
+ verte en un navegador web.\n\n**📍 Cuande nos vemos:** 9:00 AM a 1:00 PM
+  (Llega unos 5 minutos antes para empezar puntuales).\n¡Confirma tu asist
+ encia (RSVP) para que te llegue el recordatorio! Nos vemos el sábado para
+  escribir un código más seguro y ordenado.
+LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|🧜‍♀️ The AI Collective Hampton Roads  -
@@ -6481,6 +6855,21 @@ LOCATION:Casa Rafael Galván\, Zacatecas 94\, Col Roma Norte\,\, Mexico Ci
  ty\, Mexico City
 X-CRONQUILES-ADDRESS:Zacatecas 94\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad
   de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Global Startup Ecosystem|Mexico Tech Summit|México|Ciudad de Méx
+ ico
+DTSTART:20260730T100000
+DESCRIPTION:MexicoTech Summit is an international program featuring globa
+ l speakers and partners passionate about the future of Mexico. The central
+LOCATION:Location TBA\, TBA\, Mexico City
+X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
 X-CRONQUILES-CITY:Ciudad de México
 X-CRONQUILES-CITY-CODE:cdmx
 X-CRONQUILES-COUNTRY:México
