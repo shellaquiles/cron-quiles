@@ -277,6 +277,48 @@
     "hash_key": "predictive neurotechnologies criminal ri_2026-06-03T06:00:00+00:00"
   },
   {
+    "title": "GDG Cloud Mexico City|Build with AI Week: Gira Universitaria Sur de Tamaulipas 2026|México|Tamaulipas",
+    "description": "¡La IA de Google aterriza en el sur de Tamaulipas! 🚀¡La gira tecnológica que estabas esperando ya está aquí! Build with ...",
+    "url": "https://gdg.community.dev/events/details/google-gdg-cloud-mexico-city-presents-build-with-ai-week-gira-universitaria-sur-de-tamaulipas-2026/",
+    "sources": [
+      {
+        "platform": "website",
+        "url": "https://gdg.community.dev/events/details/google-gdg-cloud-mexico-city-presents-build-with-ai-week-gira-universitaria-sur-de-tamaulipas-2026/",
+        "label": "Ver sitio web"
+      }
+    ],
+    "location": "Multiple Venues - University Roadshow, South Tamaulipas, Tampico, Madero y Altamira",
+    "online": false,
+    "organizer": "GDG Cloud Mexico City",
+    "dtstart": "2026-05-25T09:00:00-06:00",
+    "dtend": "2026-05-29T18:00:00-06:00",
+    "tags": [
+      "AI",
+      "AI - Gemini",
+      "AI - Gemma",
+      "AI - Vertex AI",
+      "Build with AI",
+      "Community Building",
+      "Google Cloud",
+      "Google Workspace",
+      "Networking",
+      "Tech Talk / Meetup",
+      "Workshop / hands-on session",
+      "ai",
+      "cloud",
+      "frontend"
+    ],
+    "source": "https://gdg.community.dev/gdg-cloud-mexico-city/",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Tamaulipas",
+    "state_code": "MX-TAMPS",
+    "city": "Tampico",
+    "city_code": "tampico",
+    "address": "Calle Cristobal Colon 201 Norte, zona centro de Tampico, Tamaulipas Despacho No. 210 segundo piso del edificio C.I.S.A, Zona Centro, 89000 Tampico, Tamps., México",
+    "hash_key": "build with ai week gira universitaria su_2026-05-25T14:00:00+00:00"
+  },
+  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|May 21 - Women in AI Meetup|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nHear talks from experts on the latest topics in AI, ML, and computer vision on May 21.\n\n**Date, Time and Location**\n\nMay 21, 2026\n9 - 11 AM pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/women-in-ai-meetup-may-21-2026)**\n\n**Beyond Models: LLM-Guided Reinforcement Learning for Real-World Wireless Systems**\n\nReinforcement learning agents often perform well in simulation but break down when deployed in real, non-stationary, constraint-driven environments such as wireless systems. This work explores using large language models not as annotators or reward hacks, but as a reasoning layer that guides RL decision-making with domain logic, scenario interpretation, and adaptive constraints.\n\nWe present an architecture where the LLM provides structured, high-level advisory signals while the RL policy remains the final action authority to avoid hallucination-driven failures. Early experiments show that this hybrid setup improves robustness under distribution shifts and complex constraint scenarios where standard RL collapses. The goal is not to replace RL with LLMs, but to combine learning and reasoning into a more deployable control-intelligence framework.\n\n*About the Speaker*\n\n[Fatemeh Lotfi ](https://www.linkedin.com/in/fatemeh-lotfi-1a860359/?skipRedirect=true)is a Ph.D. researcher focused on integrating large language models and reinforcement learning for adaptive wireless control systems. Her work targets the limitations of classical RL under real-world uncertainty by introducing reasoning-driven guidance mechanisms using LLMs. She has contributed to multiple AI-for-infrastructure projects, including advanced O-RAN automation.\n\n**Responsible and Ethical AI in Healthcare: Building Trustworthy and Inclusive Intelligent Systems**\n\nIn this session, I will discuss how Responsible AI principles: including fairness, transparency, accountability, and reliability can be practically embedded into healthcare AI systems. Key discussion points will include:\n\n* Addressing bias and equity challenges in healthcare datasets and model training.\n* Building explainable and interpretable AI to strengthen clinician trust and adoption.\n* Ensuring ethical deployment of generative AI models within regulated healthcare environments.\n* Establishing governance frameworks for data privacy, model monitoring, and regulatory compliance.\n\n*About the Speaker*\n\n[Jahnavi Kachhia](https://www.linkedin.com/in/jk186/?skipRedirect=true) is the Global Product Owner, AI & ML at Abbott, leading large-scale AI initiatives for the FreeStyle Libre platform to enhance clinical decision-making and patient outcomes. Previously at Meta’s Reality Labs, she advanced AR/VR innovation and LLM-based intelligent systems. An active contributor to the AI research community, she serves on the IJCAI 2025 Program Committee and reviews for AAAI, IJCNN, and IEEE conferences.\n\n**AI Applications in Drug Repurposing**\n\nDrug repurposing is increasingly important because it offers a faster, lower-cost path to therapeutic discovery compared to de novo drug development, especially in oncology where many cancers still lack effective targeted options. In under-studied cancers such as endometrial cancer, the challenge is often a lack of large, high-quality clinical or response datasets, making purely data-dependent approaches difficult to scale reliably. This motivates combining data-independent strategies (e.g., pathway- and mechanism-driven modeling) with data-dependent learning when interaction evidence is available. A practical and scalable direction is drug–target interaction (DTI) prediction, where AI models can leverage molecular and protein representations to prioritize mechanistically plausible drug candidates for repurposing.\n\n*About the Speaker*\n\n[Madhurima Mondal's](https://www.linkedin.com/in/madhurima-mondal-65a59882/) academic journey has been shaped by strong foundations in mathematical and scientific problem-solving, including multiple national-level achievements such as Regional Mathematics Olympiad (RMO), NTSE, and the KVPY fellowship. She completed my B.Tech and M.Tech in Electronics & Electrical Communication Engineering from IIT Kharagpur, and I am currently a PhD candidate in Electrical & Computer Engineering at Texas A&M University,\n\n**Mapping to Belonging: How Ethically Governed AI Can Make Real Places More Accessible, Legible, and Human**\n\nCan AI help people belong in the places where they live, work, travel, and get together?\n\nThis talk explores that question through real-world work at the intersection of accessibility, computer vision mapping, civic data, and ethically governed AI. I will show how AI can support the collection and interpretation of pedestrian accessibility data, reduce the burden of documenting barriers, and help transform lived experience into structured information that can be used across routing tools, planning systems, and public decision-making. I will also argue that public-interest AI only works when it is governed well. In accessibility work, the risks are clear: over-averaging, hidden bias, false completeness, and systems that optimize for efficiency while overlooking the people most affected by missing or poor-quality data. Ethically governed AI must therefore be designed to preserve local context, support transparency, include community participation, and make room for experiences that conventional systems often ignore.\n\n*About the Speaker*\n\n[Anat Caspi](https://www.linkedin.com/in/anat-caspi-phd-8b0a161/) is Director of the Taskar Center for Accessible Technology at the University of Washington, where she leads research and public-interest technology efforts focused on accessibility, mobility, and inclusive transportation data.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313082635/",
@@ -1813,35 +1855,6 @@
     "hash_key": "build with ai sureste de mxico sede tecn_2026-04-16T18:00:00+00:00"
   },
   {
-    "title": "Rust-AICollective|ChapterX #2|Online",
-    "description": "Get up-to-date information at: https://luma.com/chx2\n\nHosted by Alex Barnes",
-    "url": "https://luma.com/chx2",
-    "sources": [
-      {
-        "platform": "luma",
-        "url": "https://luma.com/chx2",
-        "label": "Ver en Luma"
-      }
-    ],
-    "location": "https://luma.com/event/evt-rUTrhxkwMA453q3",
-    "online": true,
-    "organizer": "Rust-AICollective",
-    "dtstart": "2026-04-16T11:30:00+00:00",
-    "dtend": "2026-04-16T12:30:00+00:00",
-    "tags": [
-      "ai"
-    ],
-    "source": "https://luma.com/rust-ios-ai",
-    "country": "",
-    "country_code": "",
-    "state": "",
-    "state_code": "",
-    "city": "",
-    "city_code": "",
-    "address": "https://luma.com/event/evt-rUTrhxkwMA453q3",
-    "hash_key": "chapterx 2_2026-04-16T10:00:00+00:00"
-  },
-  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|April 16 - AI, ML and Computer Vision Meetup en Español|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision en Español .\n\n**Date, Time and Location**\n\nApr 16, 2026\n9 - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-en-espanol-april-16-2026)**\n\n**Uncertainty in Large Vision-Language Models and Computer Vision**\n\nWhat if we train a model to classify dogs and cats, but it is later tested with an image of a human? Generally the model will output either dog or cat, and has no ability to signal that the image has no class that it can recognize.\n\nMachine learning models by default do not provide estimates of their confidence or uncertainty, which hinders their use in applications involving humans. Possible solutions is the use of Bayesian Neural Networks or similar models.\n\nIn this talk I will show research applications of neural networks with uncertainty quantification, covering Computer Vision, Large Language Models and Vision-Language Models. This includes super-resolution, frame generation, verbalized uncertainty, robustness to corrupted inputs, and input uncertainty.\n\n*About the Speaker*\n\n[Dr. Matias Valdenegro](https://www.linkedin.com/in/matias-valdenegro-toro-29383717/) is Tenured Assistant Professor of Machine Learning at the Department of Artificial Intelligence, Bernoulli Institute, University of Groningen since 2022. He studied Computer Science, Autonomous Systems, and Electrical Engineering in Chile, Germany, and Scotland, holding a PhD from Heriot-Watt University on a thesis in detecting marine debris in sonar images. As a Researcher at the German Research Center for Artificial Intelligence in Bremen he conducted research in Computer Vision and Uncertainty Quantification from 2018 to 2022.\n\n**Deep Generative Modeling for Multimodal Human Trajectory Prediction**\n\nIn this talk, I plan to show how deep generative models can be used as powerful multiple-hypothesis predictive models, in human trajectory prediction. This kind of problem arises in particular in autonomous driving. I will show a few works we have done in the past and a few ongoing works in my team.\n\n*About the Speaker*\n\n[Jean-Bernard Hayet](https://www.linkedin.com/in/jean-bernard-hayet-a988381/) studied my engineering degree at Ecole Nationale Supérieure de Techniques Avancées (ENSTA) in Paris, and obtained my master degree in artificial intelligence at University Paris VI. I got my Ph.D. degree from University of Toulouse in 2003, at LAAS-CNRS, in Toulouse.\n\n**Cuando el conocimiento es Open la Innovación se acelera**\n\nEn esta charla mostraremos cómo, cuando el conocimiento es abierto, la innovación se acelera al volverse accesible para cualquier colaborador y no solo para unos pocos expertos. Presentare Promptotyper, una plataforma creada por Innovaitors que integra modelos open source y librerías como LangChain y LangGraph para habilitar soluciones agénticas que guían desde el planteamiento del problema hasta el prototipado.\n\nA través de agentes expertos en innovación, los equipos pueden estructurar retos empresariales y avanzar hacia soluciones en áreas como automatización (por ejemplo con n8n), prototipado de aplicaciones web y analítica de datos. El enfoque democratiza el “saber hacer” innovación en empresas de Latinoamérica, reduciendo la fricción y aumentando la velocidad de aprendizaje y ejecución. Al final, verás cómo convertir el expertise en un sistema reutilizable que escala capacidades de innovación en toda la organización.\n\n*About the Speaker*\n\n[Alejandro Uribe](https://www.linkedin.com/in/dauribel/) es científico de datos, cofundador de Innovaitors y consultor en industria 4.0. Magíster en Inteligencia Artificial (U. Javeriana), profesor en la U. Externado e investigador en IA en la Javeriana, con 6 años desarrollando soluciones de IA y analítica de datos.\n\nFrom Using Open Source to Contributing: A Practical Guide to Getting Started\n\nOpen source is one of the best ways to learn faster, build real experience, and grow your career, but many people don’t know how to start. In this talk, I share a very practical approach to contributing to open source, based on real experience. We’ll cover how to choose the right project, understand large codebases, start with small contributions, and communicate clearly with maintainers. Using FiftyOne as a real example (but keeping everything general), I’ll show how small actions like fixing docs, improving tooling, or opening a simple PR can lead to long-term impact, visibility, and growth.\n\n*About the Speaker*\n\n[Adonai Vera](https://www.linkedin.com/in/adonai-vera/) \\- Machine Learning Engineer & DevRel at Voxel51\\. With over 7 years of experience building computer vision and machine learning models using TensorFlow, Docker, and OpenCV\\. I started as a software developer, moved into AI, led teams, and served as CTO\\.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/312994586/",
@@ -2655,7 +2668,7 @@
     "dtstart": "2026-03-01T17:00:00+00:00",
     "dtend": "2026-03-01T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -2741,7 +2754,7 @@
     "dtstart": "2026-02-27T15:00:00+00:00",
     "dtend": "2026-02-27T17:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -2797,7 +2810,7 @@
     "dtstart": "2026-02-26T01:00:00+00:00",
     "dtend": "2026-02-26T04:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -2851,7 +2864,7 @@
     "dtstart": "2026-02-26T00:00:00+00:00",
     "dtend": "2026-02-26T03:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -2878,7 +2891,7 @@
     "dtstart": "2026-02-25T22:00:00+00:00",
     "dtend": "2026-02-25T23:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -2907,7 +2920,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -2936,7 +2949,7 @@
     "tags": [
       "mobile"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -2990,7 +3003,7 @@
     "dtstart": "2026-02-25T15:00:00+00:00",
     "dtend": "2026-02-25T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -3059,6 +3072,95 @@
     "hash_key": "meetup febrero 2026 clara pythoncdmx_2026-02-25T00:00:00+00:00"
   },
   {
+    "title": "FinTech México|AML & Financial Crime Intelligence by  IKIEXPERTS|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/qr2wspo0\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México, JOSE ESPIRITU & Erika Postel",
+    "url": "https://luma.com/qr2wspo0",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/qr2wspo0",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Colonia Cuauhtémoc, Ciudad de México",
+    "online": false,
+    "organizer": "FinTech México",
+    "dtstart": "2026-02-24T22:30:00+00:00",
+    "dtend": "2026-02-25T01:30:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://luma.com/eofagheq",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
+    "hash_key": "aml financial crime intelligence by ikie_2026-02-24T22:00:00+00:00"
+  },
+  {
+    "title": "FinTech México|Futuro de Pagos entre Cortes by tapi|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/robjv7n2\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & 3 others",
+    "url": "https://luma.com/robjv7n2",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/robjv7n2",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Chapultepec Morales, Ciudad de México",
+    "online": false,
+    "organizer": "FinTech México",
+    "dtstart": "2026-02-24T20:30:00+00:00",
+    "dtend": "2026-02-24T23:00:00+00:00",
+    "tags": [
+      "ai",
+      "backend"
+    ],
+    "source": "https://luma.com/eofagheq",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Chapultepec Morales, Polanco V Secc, Ciudad de México, CDMX, México",
+    "hash_key": "futuro de pagos entre cortes by tapi_2026-02-24T20:00:00+00:00"
+  },
+  {
+    "title": "FinTech México|Fintech Luncheon Vol.3 by Pygma, AMG Block Ventures  and Morrison Foerster|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/uwjfgnlj\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & Andrés Cano",
+    "url": "https://luma.com/uwjfgnlj",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/uwjfgnlj",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Hipódromo Condesa, Ciudad de México",
+    "online": false,
+    "organizer": "FinTech México",
+    "dtstart": "2026-02-24T19:00:00+00:00",
+    "dtend": "2026-02-24T21:00:00+00:00",
+    "tags": [
+      "ai",
+      "python"
+    ],
+    "source": "https://luma.com/eofagheq",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Hipódromo Condesa, 06170 Ciudad de México, CDMX, México",
+    "hash_key": "fintech luncheon vol 3 by pygma amg bloc_2026-02-24T18:00:00+00:00"
+  },
+  {
     "title": "FinTech México|Estado del crédito en México y tendencias 2026 by uFlow & Círculo de Credito|México|Ciudad de México",
     "description": "Get up-to-date information at: https://luma.com/bzhhm85f\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & Marina Lucía Mero",
     "url": "https://luma.com/bzhhm85f",
@@ -3104,7 +3206,7 @@
     "dtstart": "2026-02-24T14:30:00+00:00",
     "dtend": "2026-02-24T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -3133,7 +3235,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -3160,7 +3262,7 @@
     "dtstart": "2026-02-24T00:00:00+00:00",
     "dtend": "2026-02-24T02:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -3189,7 +3291,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -3219,7 +3321,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -3249,7 +3351,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -3276,7 +3378,7 @@
     "dtstart": "2026-02-23T19:00:00+00:00",
     "dtend": "2026-02-23T20:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -3303,7 +3405,7 @@
     "dtstart": "2026-02-23T18:00:00+00:00",
     "dtend": "2026-02-23T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -3330,7 +3432,7 @@
     "dtstart": "2026-02-23T17:00:00+00:00",
     "dtend": "2026-02-23T18:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -3360,7 +3462,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -4772,7 +4874,7 @@
     "dtstart": "2025-11-18T23:00:00+00:00",
     "dtend": "2025-11-19T01:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -5778,7 +5880,7 @@
     "dtstart": "2025-09-29T18:00:00+00:00",
     "dtend": "2025-09-29T19:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6430,6 +6532,37 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-jAbrAB2UuAtd9ay",
     "hash_key": "venture bites why founders should angel _2025-07-31T18:00:00+00:00"
+  },
+  {
+    "title": "Java Mexico|Arquitecturas Modernas en Java: Hacia Servicios Escalables y Flexibles|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/83si3bw5\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Benek",
+    "url": "https://luma.com/83si3bw5",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/83si3bw5",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Ciudad de México",
+    "online": false,
+    "organizer": "Java Mexico",
+    "dtstart": "2025-07-30T00:30:00+00:00",
+    "dtend": "2025-07-30T04:00:00+00:00",
+    "tags": [
+      "ai",
+      "frontend",
+      "mobile"
+    ],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Ciudad de México, CDMX, México",
+    "hash_key": "arquitecturas modernas en java hacia ser_2025-07-30T00:00:00+00:00"
   },
   {
     "title": "Frutero Club|Coworking Frutal #7|México|Ciudad de México",
@@ -10180,6 +10313,65 @@
     "city_code": "cdmx",
     "address": "C. Montes Urales 445, Lomas - Virreyes, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX, México",
     "hash_key": "mxtw transformacin digital para fundador_2024-10-22T14:00:00+00:00"
+  },
+  {
+    "title": "Mexico Tech Week|Emprelatam Connect Day CDMX|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/rk2rp5gp\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week, Emprelatam & Denisse Galindo",
+    "url": "https://luma.com/rk2rp5gp",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/rk2rp5gp",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Ciudad de México",
+    "online": false,
+    "organizer": "Mexico Tech Week",
+    "dtstart": "2024-10-21T21:30:00+00:00",
+    "dtend": "2024-10-22T02:00:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Ciudad de México, CDMX, México",
+    "hash_key": "emprelatam connect day cdmx_2024-10-21T20:00:00+00:00"
+  },
+  {
+    "title": "Mexico Tech Week|Fintech Feast:  Luncheon with Pygma, Mastercard, Google & This Week in Fintech|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/8o2qc0sg\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week, Andrés Cano & Jorge Gonzalez Soler",
+    "url": "https://luma.com/8o2qc0sg",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/8o2qc0sg",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Ciudad de México",
+    "online": false,
+    "organizer": "Mexico Tech Week",
+    "dtstart": "2024-10-21T21:00:00+00:00",
+    "dtend": "2024-10-21T23:00:00+00:00",
+    "tags": [
+      "ai",
+      "python"
+    ],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Ciudad de México, CDMX, México",
+    "hash_key": "fintech feast luncheon with pygma master_2024-10-21T20:00:00+00:00"
   },
   {
     "title": "Mexico Tech Week|Tacos, Beer and Gen AI|México|Ciudad de México",

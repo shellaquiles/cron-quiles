@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cron-Quiles//ICS Aggregator//EN
+CALSCALE:GREGORIAN
+X-WR-CALDESC:Calendario unificado de eventos tech en MX-TAMPS\, México
+X-WR-CALNAME:Eventos Tech MX-TAMPS - cronquiles
+X-WR-TIMEZONE:America/Mexico_City
+BEGIN:VEVENT
+SUMMARY:GDG Cloud Mexico City|Build with AI Week: Gira Universitaria Sur d
+ e Tamaulipas 2026|México|Tamaulipas
+DTSTART:20260525T090000
+CATEGORIES:AI,AI - Gemini,AI - Gemma,AI - Vertex AI,Build with AI,Communit
+ y Building,Google Cloud,Google Workspace,Networking,Tech Talk / Meetup,Wor
+ kshop / hands-on session,ai,cloud,frontend
+DESCRIPTION:¡La IA de Google aterriza en el sur de Tamaulipas! 🚀¡La g
+ ira tecnológica que estabas esperando ya está aquí! Build with ...
+LOCATION:Multiple Venues - University Roadshow\, South Tamaulipas\, Tampic
+ o\, Madero y Altamira
+X-CRONQUILES-ADDRESS:Calle Cristobal Colon 201 Norte\, zona centro de Tamp
+ ico\, Tamaulipas Despacho No. 210 segundo piso del edificio C.I.S.A\, Zona
+  Centro\, 89000 Tampico\, Tamps.\, México
+X-CRONQUILES-CITY:Tampico
+X-CRONQUILES-CITY-CODE:tampico
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Tamaulipas
+X-CRONQUILES-STATE-CODE:MX-TAMPS
+END:VEVENT
+END:VCALENDAR
