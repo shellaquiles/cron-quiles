@@ -6,44 +6,6 @@ X-WR-CALDESC:Calendario unificado de eventos tech en Online\, México
 X-WR-CALNAME:Eventos Tech Online - cronquiles
 X-WR-TIMEZONE:America/Mexico_City
 BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Agile Dojo 2021|Online
-DTSTART:20210107T174500
-DESCRIPTION:The Agile Dojo: your home to learn and practice
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Office Hours with Richard Kasperowski - Spring
-  2021|Online
-DTSTART:20210203T110000
-DESCRIPTION:Office Hours with Richard
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Postponed - Grow Together: How to Learn Your W
- ay to a Great Team|Online
-DTSTART:20210318T110000
-DESCRIPTION:Become the superstar leader you've always wanted to
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Office Hours with Richard Kasperowski - Fall 2
- 021|Online
-DTSTART:20210908T110000
-DESCRIPTION:Office Hours with Richard
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Agile Dojo—January 6\, 2022|Online
-DTSTART:20220106T174500
-DESCRIPTION:The Agile Dojo: your home to learn and practice
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rust-AICollective|SF GAI Meetup 2/9|Online
 DTSTART:20230210T030000Z
 CATEGORIES:ai
@@ -324,25 +286,6 @@ LOCATION:https://luma.com/event/evt-aeVCMMiEAJSX0aF
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-aeVCMMiEAJSX0aF
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Global Office Hours with Richard Kasperowski -
-  Fall 2024|Online
-DTSTART:20240911T113000
-DESCRIPTION:Global Office Hours with Richard Kasperowski: Agile Insights &
-  Open Conversations - Fall
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski| ¡Dojo de Codificación Global en Línea!|Onl
- ine
-DTSTART:20240918T150000
-CATEGORIES:ai
-DESCRIPTION:Join us for a dynamic online coding session where we'll practi
- ce pair programming\, Test-Driven Development (TDD)\, and
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Frutero Club|Sesiones Co-work: Lluvia de Ideas|Online
 DTSTART:20240927T000000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/11vugz6k\n\nHo
@@ -376,15 +319,6 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/rx9gcv9r\n\nHo
  sted by joaquin
 LOCATION:https://luma.com/event/evt-TEkdvol4ZI55xWN
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-TEkdvol4ZI55xWN
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|¡Dojo de Codificación Global en Línea!|Onli
- ne
-DTSTART:20241009T110000
-DESCRIPTION:¡Únete a nuestra sesión online de código! Practicaremos pr
- ogramación en parejas\, TDD y más. ¡No te lo
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Frutero Club|Sesión 5: Cómo hacer tu demo|Online
@@ -486,24 +420,6 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Global Coding Dojo!|Online
-DTSTART:20241113T110000
-CATEGORIES:ai
-DESCRIPTION:Join us for a dynamic online coding session where we'll practi
- ce pair programming\, Test-Driven Development (TDD)\, and
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|¡Dojo de Codificación Global en Línea!|Onli
- ne
-DTSTART:20241211T110000
-DESCRIPTION:¡Únete a nuestra sesión online de código! Practicaremos pr
- ogramación en parejas\, TDD y más. ¡No te lo
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Founder Friends Mexico|Second Opinion Live Podcast|Online
 DTSTART:20241217T200000Z
 CATEGORIES:security
@@ -531,15 +447,6 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/7we6w057\n\nHo
  sted by Frutero & Moni
 LOCATION:https://luma.com/event/evt-cvMmP8ARx0lFqul
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-cvMmP8ARx0lFqul
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Richard Kasperowski|Global Coding Dojo!|Online
-DTSTART:20250108T110000
-CATEGORIES:ai
-DESCRIPTION:Join us to practice mob programming\, TDD\, and AI-assisted co
- ding with tools like Claude Code! Connect with developers
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|ONLINE! 🧠 GenAI Collective 🧠 AI Tools & Ha
@@ -1244,82 +1151,6 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/wsj293yt\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-3QmmiVDsImuKFFB
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-3QmmiVDsImuKFFB
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Apri
- l 16 - AI\, ML and Computer Vision Meetup en Español|Online
-DTSTART:20260416T100000
-CATEGORIES:ai,devops,frontend,web
-DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
- nJoin our virtual meetup to hear talks from experts on cutting-edge topics
-  across AI\, ML\, and computer vision en Español .\n\n**Date\, Time and L
- ocation**\n\nApr 16\, 2026\n9 - 11 AM Pacific\nOnline. **[Register for the
-  Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-en-esp
- anol-april-16-2026)**\n\n**Uncertainty in Large Vision-Language Models and
-  Computer Vision**\n\nWhat if we train a model to classify dogs and cats\,
-  but it is later tested with an image of a human? Generally the model will
-  output either dog or cat\, and has no ability to signal that the image ha
- s no class that it can recognize.\n\nMachine learning models by default do
-  not provide estimates of their confidence or uncertainty\, which hinders 
- their use in applications involving humans. Possible solutions is the use 
- of Bayesian Neural Networks or similar models.\n\nIn this talk I will show
-  research applications of neural networks with uncertainty quantification\
- , covering Computer Vision\, Large Language Models and Vision-Language Mod
- els. This includes super-resolution\, frame generation\, verbalized uncert
- ainty\, robustness to corrupted inputs\, and input uncertainty.\n\n*About 
- the Speaker*\n\n[Dr. Matias Valdenegro](https://www.linkedin.com/in/matias
- -valdenegro-toro-29383717/) is Tenured Assistant Professor of Machine Lear
- ning at the Department of Artificial Intelligence\, Bernoulli Institute\, 
- University of Groningen since 2022. He studied Computer Science\, Autonomo
- us Systems\, and Electrical Engineering in Chile\, Germany\, and Scotland\
- , holding a PhD from Heriot-Watt University on a thesis in detecting marin
- e debris in sonar images. As a Researcher at the German Research Center fo
- r Artificial Intelligence in Bremen he conducted research in Computer Visi
- on and Uncertainty Quantification from 2018 to 2022.\n\n**Deep Generative 
- Modeling for Multimodal Human Trajectory Prediction**\n\nIn this talk\, I 
- plan to show how deep generative models can be used as powerful multiple-h
- ypothesis predictive models\, in human trajectory prediction. This kind of
-  problem arises in particular in autonomous driving. I will show a few wor
- ks we have done in the past and a few ongoing works in my team.\n\n*About 
- the Speaker*\n\n[Jean-Bernard Hayet](https://www.linkedin.com/in/jean-bern
- ard-hayet-a988381/) studied my engineering degree at Ecole Nationale Supé
- rieure de Techniques Avancées (ENSTA) in Paris\, and obtained my master d
- egree in artificial intelligence at University Paris VI. I got my Ph.D. de
- gree from University of Toulouse in 2003\, at LAAS-CNRS\, in Toulouse.\n\n
- **Cuando el conocimiento es Open la Innovación se acelera**\n\nEn esta ch
- arla mostraremos cómo\, cuando el conocimiento es abierto\, la innovació
- n se acelera al volverse accesible para cualquier colaborador y no solo pa
- ra unos pocos expertos. Presentare Promptotyper\, una plataforma creada po
- r Innovaitors que integra modelos open source y librerías como LangChain 
- y LangGraph para habilitar soluciones agénticas que guían desde el plant
- eamiento del problema hasta el prototipado.\n\nA través de agentes expert
- os en innovación\, los equipos pueden estructurar retos empresariales y a
- vanzar hacia soluciones en áreas como automatización (por ejemplo con n8
- n)\, prototipado de aplicaciones web y analítica de datos. El enfoque dem
- ocratiza el “saber hacer” innovación en empresas de Latinoamérica\, 
- reduciendo la fricción y aumentando la velocidad de aprendizaje y ejecuci
- ón. Al final\, verás cómo convertir el expertise en un sistema reutiliz
- able que escala capacidades de innovación en toda la organización.\n\n*A
- bout the Speaker*\n\n[Alejandro Uribe](https://www.linkedin.com/in/dauribe
- l/) es científico de datos\, cofundador de Innovaitors y consultor en ind
- ustria 4.0. Magíster en Inteligencia Artificial (U. Javeriana)\, profesor
-  en la U. Externado e investigador en IA en la Javeriana\, con 6 años des
- arrollando soluciones de IA y analítica de datos.\n\nFrom Using Open Sour
- ce to Contributing: A Practical Guide to Getting Started\n\nOpen source is
-  one of the best ways to learn faster\, build real experience\, and grow y
- our career\, but many people don’t know how to start. In this talk\, I s
- hare a very practical approach to contributing to open source\, based on r
- eal experience. We’ll cover how to choose the right project\, understand
-  large codebases\, start with small contributions\, and communicate clearl
- y with maintainers. Using FiftyOne as a real example (but keeping everythi
- ng general)\, I’ll show how small actions like fixing docs\, improving t
- ooling\, or opening a simple PR can lead to long-term impact\, visibility\
- , and growth.\n\n*About the Speaker*\n\n[Adonai Vera](https://www.linkedin
- .com/in/adonai-vera/) \\- Machine Learning Engineer & DevRel at Voxel51\\.
-  With over 7 years of experience building computer vision and machine lear
- ning models using TensorFlow\, Docker\, and OpenCV\\. I started as a softw
- are developer\, moved into AI\, led teams\, and served as CTO\\.
-LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Founder Friends Mexico|How Bolt.new Went From Failure to $40 Milli
@@ -2317,5 +2148,47 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/aic-gl-6-3\n\n
  Hosted by The AI Collective & 3 others
 LOCATION:https://luma.com/event/evt-CORCUTzJrvpRzSw
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-CORCUTzJrvpRzSw
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|June
+  17 - How to Build Vision Data Agents with Tools\, Skills\, and MCP Worksh
+ op|Online
+DTSTART:20260617T100000
+CATEGORIES:ai,backend,data,frontend
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nIn this session\, you’ll learn how to build production-ready AI agents 
+ that can reason over your data\, automate complex tasks\, and integrate se
+ amlessly into your existing stack using tools\, skills\, and the Model Con
+ text Protocol (MCP).\n\n**Time\, Date and Location**\n\nJun 17\, 2026\n9 A
+ M Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/h
+ ow-to-build-vision-data-agents-with-tools-skills-and-mcp-june-17-2026)**\n
+ \nAI agents are rapidly changing how teams build and scale machine learnin
+ g workflows—but most implementations still rely on fragmented tools\, ma
+ nual processes\, and brittle integrations.\n\nWe’ll walk through how mod
+ ern agentic systems move beyond simple prompts—leveraging structured too
+ ls like dataset operations\, embeddings\, evaluation pipelines\, and model
+  execution to take real action. You’ll see how these agents can tag data
+ \, run inference\, evaluate performance\, and surface insights automatical
+ ly\, all within a unified workflow.\n\nBy combining natural language inter
+ faces with programmable building blocks\, teams can dramatically reduce ma
+ nual effort\, accelerate experimentation\, and unlock faster decision-maki
+ ng across the ML lifecycle.\n\nWhether you're building data-centric AI sys
+ tems\, managing large-scale vision datasets\, or exploring agentic workflo
+ ws for the first time\, this session will give you a practical blueprint f
+ or getting started.\n\nWhat you’ll learn:\n\n* **How AI agents actually 
+ work in production:** Move beyond hype—understand how agents use tools\,
+  memory\, and structured workflows to execute real tasks\n* **Using tools 
+ to take action on your data:** Program agents to run operations like filte
+ ring labels\, computing embeddings\, evaluating detections\, and more\n* *
+ *What “skills” are and how they enable multi-step workflows:** Learn h
+ ow to package complex logic into reusable capabilities your agents can cal
+ l on demand\n* **How MCP connects your models\, tools\, and agents:** See 
+ how MCP standardizes communication between LLMs and external systems for s
+ calable\, flexible architectures\n* **Automating the ML lifecycle with age
+ nts:** From data curation to model evaluation\, discover how to eliminate 
+ repetitive workflows and accelerate iteration\n* **Best practices for buil
+ ding reliable agentic systems:** Design patterns\, guardrails\, and practi
+ cal tips for deploying agents in real-world environments
+LOCATION:Online
 END:VEVENT
 END:VCALENDAR
