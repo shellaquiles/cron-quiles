@@ -448,8 +448,8 @@ SUMMARY:Mexico Tech Week|"Corporativos\, Academia e Inversión para Mexico
   como el Hub Tecnológico de Latinoamérica"|México|
 DTSTART:20241024T180000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/qbmnn3zn\n\nAd
- dress:\n\n\nHosted by Mexico Tech Week & Maria Beltran
-LOCATION:hosted by mexico tech week & maria beltran
+ dress:\n\n\nHosted by Mexico Tech Week & Andrea Rodriguez
+LOCATION:hosted by mexico tech week & andrea rodriguez
 X-CRONQUILES-ADDRESS:México
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
@@ -1246,17 +1246,6 @@ LOCATION:https://luma.com/event/evt-3QmmiVDsImuKFFB
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-3QmmiVDsImuKFFB
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:GDG Cloud Mexico City|Responsible AI Use|Online
-DTSTART:20260415T190000
-CATEGORIES:Google Workspace,ai,cloud
-DESCRIPTION:Únete a nosotros para explorar las iniciativas éticas de Goo
- gle en el uso de la Inteligencia Artificial. Descubre recome...
-LOCATION:Online
-X-CRONQUILES-ADDRESS:Online
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rust-AICollective|ChapterX #2|Online
 DTSTART:20260416T113000Z
 CATEGORIES:ai
@@ -1817,6 +1806,16 @@ LOCATION:Online
 X-CRONQUILES-ADDRESS:Online
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rust-AICollective|Next Horizon: Mastering Skills for Building AI r
+ eady data foundation: Part 1 (w/ The AI Collective)|Online
+DTSTART:20260505T080000Z
+CATEGORIES:ai,data,frontend
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-ai-ready-d
+ ata-foundation-1\n\nHosted by The AI Collective & Neelima Misra
+LOCATION:https://luma.com/event/evt-LOd5P3mZaooCed5
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-LOd5P3mZaooCed5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|Spirals of Connection: Science\, AI\, and the Fe

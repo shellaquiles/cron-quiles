@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T01:51:40.891423+00:00",
+  "generated_at": "2026-04-16T07:23:34.232768+00:00",
   "total_events": 175,
   "city": "Online",
   "communities": [
@@ -86,11 +86,11 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/e17fbtoo",
+          "url": "https://luma.com/sudo_fciencias_2026",
           "label": "Luma"
         }
       ]
@@ -151,17 +151,6 @@
         {
           "platform": "website",
           "url": "https://gdg.community.dev/gdg-cdmx/",
-          "label": "Sitio web"
-        }
-      ]
-    },
-    {
-      "name": "GDG Cloud Mexico City",
-      "description": "Google Developer Group CloudMX. Eventos sobre tecnologías de Google Cloud y desarrollo en la nube.",
-      "links": [
-        {
-          "platform": "website",
-          "url": "https://gdg.community.dev/gdg-cloud-mexico-city/",
           "label": "Sitio web"
         }
       ]
@@ -1596,7 +1585,7 @@
     },
     {
       "title": "Mexico Tech Week|\"Corporativos, Academia e Inversión para Mexico como el Hub Tecnológico de Latinoamérica\"|México|",
-      "description": "Get up-to-date information at: https://luma.com/qbmnn3zn\n\nAddress:\n\n\nHosted by Mexico Tech Week & Maria Beltran",
+      "description": "Get up-to-date information at: https://luma.com/qbmnn3zn\n\nAddress:\n\n\nHosted by Mexico Tech Week & Andrea Rodriguez",
       "url": "https://luma.com/qbmnn3zn",
       "sources": [
         {
@@ -1605,7 +1594,7 @@
           "label": "Ver en Luma"
         }
       ],
-      "location": "hosted by mexico tech week & maria beltran",
+      "location": "hosted by mexico tech week & andrea rodriguez",
       "online": false,
       "organizer": "Mexico Tech Week",
       "dtstart": "2024-10-24T18:00:00+00:00",
@@ -3390,7 +3379,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3554,7 +3543,7 @@
       "tags": [
         "devops"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3743,7 +3732,7 @@
       "dtstart": "2026-01-19T18:00:00+00:00",
       "dtend": "2026-01-28T20:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -4038,37 +4027,6 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-3QmmiVDsImuKFFB",
       "hash_key": "how i use ai 5 image manipulation_2026-04-01T22:00:00+00:00"
-    },
-    {
-      "title": "GDG Cloud Mexico City|Responsible AI Use|Online",
-      "description": "Únete a nosotros para explorar las iniciativas éticas de Google en el uso de la Inteligencia Artificial. Descubre recome...",
-      "url": "https://gdg.community.dev/events/details/google-gdg-cloud-mexico-city-presents-responsible-ai-use/",
-      "sources": [
-        {
-          "platform": "website",
-          "url": "https://gdg.community.dev/events/details/google-gdg-cloud-mexico-city-presents-responsible-ai-use/",
-          "label": "Ver sitio web"
-        }
-      ],
-      "location": "Online",
-      "online": true,
-      "organizer": "GDG Cloud Mexico City",
-      "dtstart": "2026-04-15T19:00:00-06:00",
-      "dtend": "2026-04-15T20:00:00-06:00",
-      "tags": [
-        "Google Workspace",
-        "ai",
-        "cloud"
-      ],
-      "source": "https://gdg.community.dev/gdg-cloud-mexico-city/",
-      "country": "México",
-      "country_code": "MX",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "Online",
-      "hash_key": "responsible ai use_2026-04-16T00:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|ChapterX #2|Online",
@@ -4914,6 +4872,37 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "taller de promptear por convivir a conve_2026-05-01T00:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|Next Horizon: Mastering Skills for Building AI ready data foundation: Part 1 (w/ The AI Collective)|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-ai-ready-data-foundation-1\n\nHosted by The AI Collective & Neelima Misra",
+      "url": "https://luma.com/aic-ai-ready-data-foundation-1",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-ai-ready-data-foundation-1",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-LOd5P3mZaooCed5",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-05-05T08:00:00+00:00",
+      "dtend": "2026-05-05T08:45:00+00:00",
+      "tags": [
+        "ai",
+        "data",
+        "frontend"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-LOd5P3mZaooCed5",
+      "hash_key": "next horizon mastering skills for buildi_2026-05-05T08:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|Spirals of Connection: Science, AI, and the Felt Experience of Being Seen|Online",
