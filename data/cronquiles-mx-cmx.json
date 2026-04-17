@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-17T07:23:46.664872+00:00",
-  "total_events": 184,
+  "generated_at": "2026-04-17T13:00:46.376163+00:00",
+  "total_events": 183,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -48,13 +48,8 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
+      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/eofagheq",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/02t893pf",
@@ -130,6 +125,11 @@
     {
       "name": "Vive Codding Cafe",
       "description": "Un espacio para juntarnos a echar código y compartir lo que estamos descubriendo en el mundo de la IA.",
+      "links": []
+    },
+    {
+      "name": "AI Builders MX",
+      "description": "Comunidad de AI builders en México. Eventos sobre inteligencia artificial, desarrollo y hackathons.",
       "links": []
     },
     {
@@ -466,6 +466,65 @@
       "city_code": "cdmx",
       "address": "Ciudad de México, CDMX, México",
       "hash_key": "fintech frenzy future web3 panel burger _2024-10-21T18:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Tacos, Beer and Gen AI|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/heroguest\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week & 3 others",
+      "url": "https://luma.com/heroguest",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/heroguest",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-21T19:30:00+00:00",
+      "dtend": "2024-10-21T22:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "tacos beer and gen ai_2024-10-21T18:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Fintech Feast:  Luncheon with Pygma, Mastercard, Google & This Week in Fintech|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/8o2qc0sg\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week, Andrés Cano & Jorge Gonzalez Soler",
+      "url": "https://luma.com/8o2qc0sg",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/8o2qc0sg",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-21T21:00:00+00:00",
+      "dtend": "2024-10-21T23:00:00+00:00",
+      "tags": [
+        "ai",
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "fintech feast luncheon with pygma master_2024-10-21T20:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|México|Ciudad de México",
@@ -2461,33 +2520,6 @@
       "hash_key": "monad friends cena estratgica en cdmx_2025-08-22T00:00:00+00:00"
     },
     {
-      "title": "EPAM|EPAM Tech Talks Mexico City|México|Ciudad de México",
-      "description": "Acompáñanos en nuestras Tech Talks en Ciudad de México para compartir y discutir conocimientos sobre",
-      "url": "https://www.eventbrite.com.mx/e/entradas-epam-tech-talks-mexico-city-1530580801379",
-      "sources": [
-        {
-          "platform": "eventbrite",
-          "url": "https://www.eventbrite.com.mx/e/entradas-epam-tech-talks-mexico-city-1530580801379",
-          "label": "Ver en Eventbrite"
-        }
-      ],
-      "location": "WeWork Varsovia, Calle Varsovia 36, Ciudad de México, CMX",
-      "online": false,
-      "organizer": "EPAM",
-      "dtstart": "2025-08-28T18:30:00-06:00",
-      "dtend": "2025-08-28T21:30:00-06:00",
-      "tags": [],
-      "source": "Eventbrite",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "C. Varsovia 36, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
-      "hash_key": "epam tech talks mexico city_2025-08-29T00:00:00+00:00"
-    },
-    {
       "title": "Frutero Club|Coworking Frutal #11🍎|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/11lsuxdy\n\nAddress:\nChez Vous #Timecafé\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Frutero Club",
       "url": "https://luma.com/11lsuxdy",
@@ -2542,6 +2574,35 @@
       "city_code": "cdmx",
       "address": "Av. Insurgentes Centro 1188, Tlacoquemecatl del Valle, Benito Juárez, 03200 Ciudad de México, CDMX, México",
       "hash_key": "coworking frutal 12_2025-09-10T16:00:00+00:00"
+    },
+    {
+      "title": "v0 Prompt to Production Mexico City|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/r8rwqnn9\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero",
+      "url": "https://luma.com/r8rwqnn9",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/r8rwqnn9",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "v0 Prompt to Production Mexico City",
+      "dtstart": "2025-09-11T23:00:00+00:00",
+      "dtend": "2025-09-12T02:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/fdg8riz2",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "from idea to mvp construye tu propia app_2025-09-11T22:00:00+00:00"
     },
     {
       "title": "Frutero Club|Coworking Frutal #13 🍏|México|Ciudad de México",
@@ -3581,33 +3642,6 @@
       "hash_key": "casa frutero coworking frutal 3_2026-01-21T16:00:00+00:00"
     },
     {
-      "title": "EPAM|EPAM Tech Talks Mexico City|México|Ciudad de México",
-      "description": "Acompáñanos en nuestras Tech Talks en Ciudad de México para compartir y discutir conocimientos sobre",
-      "url": "https://www.eventbrite.com.mx/e/entradas-epam-tech-talks-mexico-city-1979557364365",
-      "sources": [
-        {
-          "platform": "eventbrite",
-          "url": "https://www.eventbrite.com.mx/e/entradas-epam-tech-talks-mexico-city-1979557364365",
-          "label": "Ver en Eventbrite"
-        }
-      ],
-      "location": "WeWork Espacio de Oficinas & Coworking, 296 Avenida Paseo de la Reforma, Ciudad de México, CMX",
-      "online": false,
-      "organizer": "EPAM",
-      "dtstart": "2026-01-22T18:30:00-06:00",
-      "dtend": "2026-01-22T21:30:00-06:00",
-      "tags": [],
-      "source": "Eventbrite",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "Av. P.º de la Reforma 296-Piso 25, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
-      "hash_key": "epam tech talks mexico city_2026-01-23T00:00:00+00:00"
-    },
-    {
       "title": "Rust-AICollective / The AI Collective|Primer Meetup: Retos de la Posada de Código 2025|Online",
       "description": "En este primer meetup, la comunidad de RustMX dará la primera charla.\n\nEl tópico es relacionado sobre como se resolvieron los retos de la Posada de Código 2025 y donde Daniel Ceballos fue uno de los desarrolladores que acabo entre los 10 primeros competidores\n\nEn esta sesión, Daniel nos va a platicar sobre como resolvió cada reto y explicar el código que desarrollo",
       "url": "https://luma.com/rust-ios-ai",
@@ -4256,36 +4290,6 @@
       "hash_key": "estado del crdito en mxico y tendencias _2026-02-24T14:00:00+00:00"
     },
     {
-      "title": "FinTech México|Fintech Luncheon Vol.3 by Pygma, AMG Block Ventures  and Morrison Foerster|México|Ciudad de México",
-      "description": "Get up-to-date information at: https://luma.com/uwjfgnlj\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & Andrés Cano",
-      "url": "https://luma.com/uwjfgnlj",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/uwjfgnlj",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "Hipódromo Condesa, Ciudad de México",
-      "online": false,
-      "organizer": "FinTech México",
-      "dtstart": "2026-02-24T19:00:00+00:00",
-      "dtend": "2026-02-24T21:00:00+00:00",
-      "tags": [
-        "ai",
-        "python"
-      ],
-      "source": "https://luma.com/eofagheq",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "Hipódromo Condesa, 06170 Ciudad de México, CDMX, México",
-      "hash_key": "fintech luncheon vol 3 by pygma amg bloc_2026-02-24T18:00:00+00:00"
-    },
-    {
       "title": "This Week in Fintech|Fintech Innovation Call by AWS Startups, Puntored and Sumsub @ Mexico Fintech Week 2026|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/vyus42oq\n\nAddress:\nCASO\nTWIF House\nCiudad de México, Ciudad de México\nMexico\n\nHosted by This Week in Fintech & Jose Boullosa Salceda",
       "url": "https://luma.com/vyus42oq",
@@ -4873,7 +4877,7 @@
       "hash_key": "casa frutero coworking frutal 14_2026-04-08T22:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|OpenAI Codex – Mexico City|México|Ciudad de México",
+      "title": "AI Builders MX|OpenAI Codex – Mexico City|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/suipk589\n\nAddress:\nPlaza Carso\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/suipk589",
       "sources": [
@@ -4885,14 +4889,14 @@
       ],
       "location": "Plaza Carso, Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, Mexico",
       "online": false,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2026-04-08T23:00:00+00:00",
       "dtend": "2026-04-09T02:00:00+00:00",
       "tags": [
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5196,33 +5200,6 @@
       "city_code": "cdmx",
       "address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
       "hash_key": "del oro negro al oro digital from black _2026-07-22T00:00:00+00:00"
-    },
-    {
-      "title": "Global Startup Ecosystem|Mexico Tech Summit|México|Ciudad de México",
-      "description": "MexicoTech Summit is an international program featuring global speakers and partners passionate about the future of Mexico. The central",
-      "url": "https://www.eventbrite.com/e/mexico-tech-summit-tickets-96326080901",
-      "sources": [
-        {
-          "platform": "eventbrite",
-          "url": "https://www.eventbrite.com/e/mexico-tech-summit-tickets-96326080901",
-          "label": "Ver en Eventbrite"
-        }
-      ],
-      "location": "Location TBA, TBA, Mexico City",
-      "online": false,
-      "organizer": "Global Startup Ecosystem",
-      "dtstart": "2026-07-30T10:00:00-06:00",
-      "dtend": "2026-07-30T15:00:00-06:00",
-      "tags": [],
-      "source": "Eventbrite",
-      "country": "México",
-      "country_code": "MX",
-      "state": "Ciudad de México",
-      "state_code": "MX-CMX",
-      "city": "Ciudad de México",
-      "city_code": "cdmx",
-      "address": "Ciudad de México, CDMX, México",
-      "hash_key": "mexico tech summit_2026-07-30T16:00:00+00:00"
     },
     {
       "title": "AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México",
