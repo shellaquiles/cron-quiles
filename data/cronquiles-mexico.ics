@@ -600,23 +600,6 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mexico Tech Week|Emprelatam Connect Day CDMX|México|Ciudad de Mé
- xico
-DTSTART:20241021T213000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/rk2rp5gp\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week\,
-  Emprelatam & Denisse Galindo
-LOCATION:Ciudad de México
-X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|M
  éxico|Ciudad de México
 DTSTART:20241022T143000Z
@@ -2517,22 +2500,6 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Java Mexico|Arquitecturas Modernas en Java: Hacia Servicios Escala
- bles y Flexibles|México|Ciudad de México
-DTSTART:20250730T003000Z
-CATEGORIES:ai,frontend,mobile
-DESCRIPTION:Get up-to-date information at: https://luma.com/83si3bw5\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by Javier Benek
-LOCATION:Ciudad de México
-X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Founder Friends Mexico|Venture Bites: Why Founders Should Angel In
  vest Micro-Checks|Online
 DTSTART:20250731T180000Z
@@ -3870,23 +3837,6 @@ X-CRONQUILES-STATE:Jalisco
 X-CRONQUILES-STATE-CODE:MX-JAL
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|v0 Prompt to Production – Me
- xico City|México|Ciudad de México
-DTSTART:20260131T150000Z
-CATEGORIES:ai
-DESCRIPTION:Get up-to-date information at: https://luma.com/fdg8riz2\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by Javier Rivero & Be
- n Kim
-LOCATION:Hipódromo\, Ciudad de México
-X-CRONQUILES-ADDRESS:Hipódromo\, 06100 Ciudad de México\, CDMX\, México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Frutero Club|Casa Frutero - Coworking Frutal #5|México|Ciudad de 
  México
 DTSTART:20260204T160000Z
@@ -4380,24 +4330,6 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/uwjfgnlj\n\nAd
 LOCATION:Hipódromo Condesa\, Ciudad de México
 X-CRONQUILES-ADDRESS:Hipódromo Condesa\, 06170 Ciudad de México\, CDMX\,
   México
-X-CRONQUILES-CITY:Ciudad de México
-X-CRONQUILES-CITY-CODE:cdmx
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Ciudad de México
-X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FinTech México|Futuro de Pagos entre Cortes by tapi|México|Ciuda
- d de México
-DTSTART:20260224T203000Z
-CATEGORIES:ai,backend
-DESCRIPTION:Get up-to-date information at: https://luma.com/robjv7n2\n\nAd
- dress:\nCheck event page for more details.\n\nHosted by FinTech México & 
- 3 others
-LOCATION:Chapultepec Morales\, Ciudad de México
-X-CRONQUILES-ADDRESS:Chapultepec Morales\, Polanco V Secc\, Ciudad de Méx
- ico\, CDMX\, México
 X-CRONQUILES-CITY:Ciudad de México
 X-CRONQUILES-CITY-CODE:cdmx
 X-CRONQUILES-COUNTRY:México
@@ -5360,6 +5292,34 @@ LOCATION:https://luma.com/event/evt-tlD9VhdzwTwG62h
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-tlD9VhdzwTwG62h
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Kong Mexico City|You Can't AI Your Way Out of a Governance Problem
+ |México|CDMX
+DTSTART:20260423T090000
+CATEGORIES:ai,backend,devops,frontend
+DESCRIPTION:Kong/MEXICO-CITY\nEvery enterprise wants to move fast on AI. M
+ ost are held back by the same three things: incomplete inventory\, manual 
+ governance\, and no cost visibility. A gateway is a start\, but it's not t
+ he full answer. In this session\, Kong experts will show how platform team
+ s are laying the groundwork for safe\, scalable AI adoption by solving thr
+ ee foundational challenges: establishing a complete\, discoverable API and
+  AI service inventory that gives every team and every agent a single\, gov
+ erned entry point\; implementing APIOps to automate policy enforcement acr
+ oss the full API lifecycle\; and building Metering & Billing capabilities 
+ that bring cost visibility and revenue potential to every AI and API inter
+ action. Come away with an understanding of the Kong Konnect platform can e
+ nable your organization to build a solid Agentic-ready foundation.\n\nWhat
+  you'll learn:\nIn this session\, Kong experts will show how platform team
+ s are laying the groundwork for safe\, scalable AI adoption by solving thr
+ ee foundational challenges:\n\n* Inventory: Establish a complete\, discove
+ rable API and AI service catalog that gives every team — and every agent
+  — a single\, governed entry point.\n* Automation: Implement APIOps to e
+ nforce policy across the full API lifecycle and embed governance directly 
+ into CI/CD pipelines.\n* Monetization: Build metering and billing capabili
+ ties that bring cost visibility and revenue potential to every AI and API 
+ interaction.
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:AWS Cloud Club at Universidad Nacional Autonoma de México|compufe
  st[1]|México|Ciudad de México
 DTSTART:20260423T090000
@@ -5398,34 +5358,6 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kong Mexico City|You Can't AI Your Way Out of a Governance Problem
- |México|CDMX
-DTSTART:20260423T090000
-CATEGORIES:ai,backend,devops,frontend
-DESCRIPTION:Kong/MEXICO-CITY\nEvery enterprise wants to move fast on AI. M
- ost are held back by the same three things: incomplete inventory\, manual 
- governance\, and no cost visibility. A gateway is a start\, but it's not t
- he full answer. In this session\, Kong experts will show how platform team
- s are laying the groundwork for safe\, scalable AI adoption by solving thr
- ee foundational challenges: establishing a complete\, discoverable API and
-  AI service inventory that gives every team and every agent a single\, gov
- erned entry point\; implementing APIOps to automate policy enforcement acr
- oss the full API lifecycle\; and building Metering & Billing capabilities 
- that bring cost visibility and revenue potential to every AI and API inter
- action. Come away with an understanding of the Kong Konnect platform can e
- nable your organization to build a solid Agentic-ready foundation.\n\nWhat
-  you'll learn:\nIn this session\, Kong experts will show how platform team
- s are laying the groundwork for safe\, scalable AI adoption by solving thr
- ee foundational challenges:\n\n* Inventory: Establish a complete\, discove
- rable API and AI service catalog that gives every team — and every agent
-  — a single\, governed entry point.\n* Automation: Implement APIOps to e
- nforce policy across the full API lifecycle and embed governance directly 
- into CI/CD pipelines.\n* Monetization: Build metering and billing capabili
- ties that bring cost visibility and revenue potential to every AI and API 
- interaction.
-LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Unity User Group CDMX|Skillshare Thursday #4: From Code to Nodes -
