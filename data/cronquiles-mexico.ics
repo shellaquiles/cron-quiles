@@ -2702,6 +2702,22 @@ LOCATION:https://luma.com/event/evt-bCXzW5aarpAQHid
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-bCXzW5aarpAQHid
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:v0 Prompt to Production Mexico City|From Idea to MVP: Construye tu
+  propia app usando AI|México|Ciudad de México
+DTSTART:20250911T230000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/r8rwqnn9\n\nAd
+ dress:\nCheck event page for more details.\n\nHosted by Javier Rivero
+LOCATION:Ciudad de México
+X-CRONQUILES-ADDRESS:Ciudad de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Claude Users Group|Build with Claude Code|Online
 DTSTART:20250912T010000Z
 CATEGORIES:frontend
@@ -2876,9 +2892,9 @@ LOCATION:https://partiful.com/e/b0uCIPkiXO9lph7mTQ8S
 X-CRONQUILES-ADDRESS:https://partiful.com/e/b0uCIPkiXO9lph7mTQ8S
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|How I Use AI – Vol 1|Online
+SUMMARY:AI Builders MX|How I Use AI – Vol 1|Online
 DTSTART:20251007T220000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/pi3ebsn2\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-gCpfBqRDQhEOJf9
@@ -3706,9 +3722,9 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|Diseña usando AI|Online
+SUMMARY:AI Builders MX|Diseña usando AI|Online
 DTSTART:20260127T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/ubxd600w\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-IWVh1A0cdphlpRP
@@ -3753,9 +3769,9 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|Diseña usando AI|Online
+SUMMARY:AI Builders MX|Diseña usando AI|Online
 DTSTART:20260128T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/5nq96pxw\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-H4WPxCoPFcne2bC
@@ -3929,9 +3945,9 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|How I Use AI – Vol 2|Online
+SUMMARY:AI Builders MX|How I Use AI – Vol 2|Online
 DTSTART:20260213T000000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/lgd37763\n\nHo
  sted by Javier Rivero & 3 others
 LOCATION:https://luma.com/event/evt-rYB4HiifBPDm7LU
@@ -4027,10 +4043,9 @@ X-CRONQUILES-STATE:Jalisco
 X-CRONQUILES-STATE-CODE:MX-JAL
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #3: Midjourney|On
- line
+SUMMARY:AI Builders MX|How I Use AI #3: Midjourney|Online
 DTSTART:20260219T233000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/d342anny\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-WUg9IsqZP5MKL4B
@@ -4412,24 +4427,6 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Talavera Valley|🔥🚀 Kick Off Talavera Valley Hub  -  EL event
- o que enciende el ecosistema ✨|México|Puebla
-DTSTART:20260226T000000Z
-DESCRIPTION:Get up-to-date information at: https://luma.com/r706j72y\n\nAd
- dress:\nWorkósfera Coworking @ Cerro de La Paz\, Puebla\nHeroica Puebla d
- e Zaragoza\, Puebla\nMexico\n\nHosted by Talavera Valley
-LOCATION:Workósfera Coworking @ Cerro de La Paz\, Puebla\, Cholula 35\, L
- a Paz\, 72160 Heroica Puebla de Zaragoza\, Pue.\, Mexico
-X-CRONQUILES-ADDRESS:Cholula 35\, La Paz\, 72160 Heroica Puebla de Zaragoz
- a\, Pue.\, México
-X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
-X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
-X-CRONQUILES-COUNTRY:México
-X-CRONQUILES-COUNTRY-CODE:MX
-X-CRONQUILES-STATE:Puebla
-X-CRONQUILES-STATE-CODE:MX-PUE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FinTech México|Drinks\, Not Decks @ Fintech Mexico Week|México|C
  iudad de México
 DTSTART:20260226T000000Z
@@ -4446,6 +4443,24 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Talavera Valley|🔥🚀 Kick Off Talavera Valley Hub  -  EL event
+ o que enciende el ecosistema ✨|México|Puebla
+DTSTART:20260226T000000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/r706j72y\n\nAd
+ dress:\nWorkósfera Coworking @ Cerro de La Paz\, Puebla\nHeroica Puebla d
+ e Zaragoza\, Puebla\nMexico\n\nHosted by Talavera Valley
+LOCATION:Workósfera Coworking @ Cerro de La Paz\, Puebla\, Cholula 35\, L
+ a Paz\, 72160 Heroica Puebla de Zaragoza\, Pue.\, Mexico
+X-CRONQUILES-ADDRESS:Cholula 35\, La Paz\, 72160 Heroica Puebla de Zaragoz
+ a\, Pue.\, México
+X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
+X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Puebla
+X-CRONQUILES-STATE-CODE:MX-PUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FinTech México|Fuckup Nights x FinTech México Week|México|Ciuda
@@ -4577,10 +4592,9 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #4: OpenClaw|Onli
- ne
+SUMMARY:AI Builders MX|How I Use AI #4: OpenClaw|Online
 DTSTART:20260306T000000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/5ivardas\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-utuQiZ6tlVbHWXw
@@ -4891,10 +4905,9 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #5: Image Manipul
- ation|Online
+SUMMARY:AI Builders MX|How I Use AI #5: Image Manipulation|Online
 DTSTART:20260401T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/wsj293yt\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-3QmmiVDsImuKFFB
@@ -4919,8 +4932,8 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|OpenAI Codex – Mexico City|M
- éxico|Ciudad de México
+SUMMARY:AI Builders MX|OpenAI Codex – Mexico City|México|Ciudad de Méx
+ ico
 DTSTART:20260408T230000Z
 CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/suipk589\n\nAd
@@ -5007,10 +5020,9 @@ LOCATION:https://luma.com/event/evt-wEESZoB8PeWTxQo
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-wEESZoB8PeWTxQo
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #6: Scaling to 1M
-  users|Online
+SUMMARY:AI Builders MX|How I Use AI #6: Scaling to 1M users|Online
 DTSTART:20260416T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/11fz6ef5\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-SBK5c7p9LXcCYFE
@@ -5049,31 +5061,6 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Jalisco
 X-CRONQUILES-STATE-CODE:MX-JAL
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Pythonista|Taller gratuito de Git|Online
-DTSTART:20260418T090000
-CATEGORIES:frontend,mobile,python,web
-DESCRIPTION:Pythonista®\nEn este taller 100% práctico y gratuito\, pasar
- emos de los conceptos básicos hasta flujos de trabajo que se usan todos l
- os días en la industria\, trabajando sobre un repositorio real.\nNo neces
- itas instalar herramientas pesadas ni configurar tu entorno local\; trabaj
- aremos directamente en la nube utilizando **Codespaces**\, por lo que podr
- ás enfocarte completamente en aprender los comandos y la lógica de Git.\
- n**🗓️ Agenda del Taller:**\n\n* **Fundamentos:** Configuración inici
- al y primeros pasos con Git.\n* **Control total:** Dominando `commit`\, `s
- tatus`\, `log`.\n* **Viajes en el tiempo y universos paralelos:** Manejo d
- e ramas (*branching*)\, *tags* y el uso de `git stash`.\n* **Resolución d
- e conflictos:** Cómo arreglar problemas sin perder la cabeza.\n* **Colabo
- ración:** Trabajo con repositorios remotos y flujos de trabajo profesiona
- les.\n\n**💻 Requisitos (¿Qué necesitas traer?):**\n\n* Una computador
- a con conexión a internet.\n* Una cuenta activa de **GitHub** (totalmente
-  gratis).\n* No necesitas conocimientos previos de Git\, pero sí saber mo
- verte en un navegador web.\n\n**📍 Cuande nos vemos:** 9:00 AM a 1:00 PM
-  (Llega unos 5 minutos antes para empezar puntuales).\n¡Confirma tu asist
- encia (RSVP) para que te llegue el recordatorio! Nos vemos el sábado para
-  escribir un código más seguro y ordenado.
-LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GDG Tepic|Evento Especial: Programación 10x con IA|Online
@@ -6459,10 +6446,9 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:v0 Prompt to Production Mexico City|How I Use AI #7: WhatsApp Voic
- ebots|Online
+SUMMARY:AI Builders MX|How I Use AI #7: WhatsApp Voicebots|Online
 DTSTART:20260618T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/vhwcyvjr\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-PwXKYGUxITnF5Ku
