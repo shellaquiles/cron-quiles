@@ -1,4 +1,152 @@
 {
+  "Facultad de Ciencias UNAM, Circuito Exterior s/n, Coyoacán, Cd. Universitaria, 04510 Ciudad de México, CDMX, Mexico City, Mexico City": {
+    "address_components": [
+      {
+        "long_name": "Circuito Exterior",
+        "short_name": "Cto. Exterior",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "Cto. Exterior, Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.333967,
+          "lng": -99.17744619999999
+        },
+        "southwest": {
+          "lat": 19.3215555,
+          "lng": -99.1899052
+        }
+      },
+      "location": {
+        "lat": 19.3263754,
+        "lng": -99.1813823
+      },
+      "location_type": "GEOMETRIC_CENTER",
+      "viewport": {
+        "northeast": {
+          "lat": 19.333967,
+          "lng": -99.17744619999999
+        },
+        "southwest": {
+          "lat": 19.3215555,
+          "lng": -99.1899052
+        }
+      }
+    },
+    "place_id": "ChIJv_eI0QUAzoURYteCtSMjfgY",
+    "types": [
+      "route"
+    ]
+  },
+  "Instituto Tecnológico de Gustavo A. Madero, Calle 608 No. 300 y Av. 412, Col. San Juan de Aragón, Deleg. Gustavo A. Madero, C.P. 07470, México City, México City": {
+    "address_components": [
+      {
+        "long_name": "300",
+        "short_name": "300",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida 412",
+        "short_name": "Av. 412",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "San Juan de Aragón VI Sección",
+        "short_name": "San Juan de Aragón VI Secc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "07918",
+        "short_name": "07918",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. 412 300, San Juan de Aragón VI Secc, Gustavo A. Madero, 07918 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4652903,
+        "lng": -99.06789339999999
+      },
+      "location_type": "RANGE_INTERPOLATED",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4666392802915,
+          "lng": -99.06654441970848
+        },
+        "southwest": {
+          "lat": 19.4639413197085,
+          "lng": -99.0692423802915
+        }
+      }
+    },
+    "partial_match": true,
+    "place_id": "EmJBdi4gNDEyIDMwMCwgU2FuIEp1YW4gZGUgQXJhZ8OzbiBWSSBTZWNjLCBHdXN0YXZvIEEuIE1hZGVybywgMDc5MTggQ2l1ZGFkIGRlIE3DqXhpY28sIENETVgsIE1leGljbyIxEi8KFAoSCZcbkk6j-9GFEaNABp_lY-u9EKwCKhQKEgml_uppx_vRhRH8k0F6dZkTYg",
+    "types": [
+      "street_address"
+    ]
+  },
   "Rock It Chapultepec, Av. Chapultepec Sur 389, Col Americana, Americana, 44140 Guadalajara, Jal., Mexico": {
     "address_components": [
       {
@@ -205,87 +353,6 @@
       "restaurant"
     ]
   },
-  "Instituto Tecnológico de Gustavo A. Madero, Calle 608 No. 300 y Av. 412, Col. San Juan de Aragón, Deleg. Gustavo A. Madero, C.P. 07470, México City, México City": {
-    "address_components": [
-      {
-        "long_name": "300",
-        "short_name": "300",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida 412",
-        "short_name": "Av. 412",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "San Juan de Aragón VI Sección",
-        "short_name": "San Juan de Aragón VI Secc",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "07918",
-        "short_name": "07918",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. 412 300, San Juan de Aragón VI Secc, Gustavo A. Madero, 07918 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4652903,
-        "lng": -99.06789339999999
-      },
-      "location_type": "RANGE_INTERPOLATED",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4666392802915,
-          "lng": -99.06654441970848
-        },
-        "southwest": {
-          "lat": 19.4639413197085,
-          "lng": -99.0692423802915
-        }
-      }
-    },
-    "partial_match": true,
-    "place_id": "EmJBdi4gNDEyIDMwMCwgU2FuIEp1YW4gZGUgQXJhZ8OzbiBWSSBTZWNjLCBHdXN0YXZvIEEuIE1hZGVybywgMDc5MTggQ2l1ZGFkIGRlIE3DqXhpY28sIENETVgsIE1leGljbyIxEi8KFAoSCZcbkk6j-9GFEaNABp_lY-u9EKwCKhQKEgml_uppx_vRhRH8k0F6dZkTYg",
-    "types": [
-      "street_address"
-    ]
-  },
   "#Hashtag Gallery Ltd, Av. Benjamín Franklin 151-A, Hipódromo, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico": {
     "address_components": [
       {
@@ -478,73 +545,6 @@
     "types": [
       "establishment",
       "point_of_interest"
-    ]
-  },
-  "Facultad de Ciencias UNAM, Circuito Exterior s/n, Coyoacán, Cd. Universitaria, 04510 Ciudad de México, CDMX, Mexico City, Mexico City": {
-    "address_components": [
-      {
-        "long_name": "Circuito Exterior",
-        "short_name": "Cto. Exterior",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      }
-    ],
-    "formatted_address": "Cto. Exterior, Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.333967,
-          "lng": -99.17744619999999
-        },
-        "southwest": {
-          "lat": 19.3215555,
-          "lng": -99.1899052
-        }
-      },
-      "location": {
-        "lat": 19.3263754,
-        "lng": -99.1813823
-      },
-      "location_type": "GEOMETRIC_CENTER",
-      "viewport": {
-        "northeast": {
-          "lat": 19.333967,
-          "lng": -99.17744619999999
-        },
-        "southwest": {
-          "lat": 19.3215555,
-          "lng": -99.1899052
-        }
-      }
-    },
-    "place_id": "ChIJv_eI0QUAzoURYteCtSMjfgY",
-    "types": [
-      "route"
     ]
   },
   "Jardín Chapultepec, Av Chapultepec 398, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico": {
@@ -2764,6 +2764,260 @@
       "point_of_interest"
     ]
   },
+  "Hipódromo, Ciudad de México": {
+    "address_components": [
+      {
+        "long_name": "Hipódromo",
+        "short_name": "Hipódromo",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06100",
+        "short_name": "06100",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Hipódromo, 06100 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.4167765,
+          "lng": -99.16540409999999
+        },
+        "southwest": {
+          "lat": 19.4002009,
+          "lng": -99.18068219999999
+        }
+      },
+      "location": {
+        "lat": 19.4093682,
+        "lng": -99.1719095
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4167765,
+          "lng": -99.16540409999999
+        },
+        "southwest": {
+          "lat": 19.4002009,
+          "lng": -99.18068219999999
+        }
+      }
+    },
+    "place_id": "ChIJIb7VFUL_0YURABkbMjDDqqQ",
+    "types": [
+      "political",
+      "sublocality",
+      "sublocality_level_1"
+    ]
+  },
+  "Plaza Carso, Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "Plaza Carso",
+        "short_name": "Pl. Carso",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ampliación Granada",
+        "short_name": "Amp Granada",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "11529",
+        "short_name": "11529",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.4415958,
+          "lng": -99.2029503
+        },
+        "southwest": {
+          "lat": 19.4413273,
+          "lng": -99.2031883
+        }
+      },
+      "location": {
+        "lat": 19.4413546,
+        "lng": -99.2031496
+      },
+      "location_type": "GEOMETRIC_CENTER",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4428105302915,
+          "lng": -99.2017203197085
+        },
+        "southwest": {
+          "lat": 19.4401125697085,
+          "lng": -99.2044182802915
+        }
+      }
+    },
+    "place_id": "ChIJ9SxomBAC0oURRHoHGIi4yBM",
+    "types": [
+      "route"
+    ]
+  },
+  "Workósfera Coworking @ Cerro de La Paz, Puebla, Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., Mexico": {
+    "address_components": [
+      {
+        "long_name": "35",
+        "short_name": "35",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Cholula",
+        "short_name": "Cholula",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "La Paz",
+        "short_name": "La Paz",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Heroica Puebla de Zaragoza",
+        "short_name": "Heroica Puebla de Zaragoza",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Puebla",
+        "short_name": "Pue.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "72160",
+        "short_name": "72160",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+    "geometry": {
+      "location": {
+        "lat": 19.0536482,
+        "lng": -98.2273264
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.0549712802915,
+          "lng": -98.2259923197085
+        },
+        "southwest": {
+          "lat": 19.0522733197085,
+          "lng": -98.2286902802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.0536512,
+          "longitude": -98.2273296
+        }
+      }
+    ],
+    "place_id": "ChIJfQ0djR_Hz4URQhDsTxlXJdQ",
+    "plus_code": {
+      "compound_code": "3Q3F+F3 Heroica Puebla de Zaragoza, Pue., México",
+      "global_code": "76F33Q3F+F3"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
   "Lincoln Offices & Cowork, Anatole France 51, Polanco, Polanco III Secc, Miguel Hidalgo, 11540 Ciudad de México, CDMX, Mexico": {
     "address_components": [
       {
@@ -3625,6 +3879,248 @@
       "sublocality_level_1"
     ]
   },
+  "Hipódromo Condesa, Ciudad de México": {
+    "address_components": [
+      {
+        "long_name": "Hipódromo Condesa",
+        "short_name": "Hipódromo Condesa",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06170",
+        "short_name": "06170",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Hipódromo Condesa, 06170 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.4114912,
+          "lng": -99.1739767
+        },
+        "southwest": {
+          "lat": 19.4066373,
+          "lng": -99.1843038
+        }
+      },
+      "location": {
+        "lat": 19.4089477,
+        "lng": -99.1802147
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4114912,
+          "lng": -99.1739767
+        },
+        "southwest": {
+          "lat": 19.4066373,
+          "lng": -99.1843038
+        }
+      }
+    },
+    "place_id": "ChIJ6dgzxUL_0YURxkotJx1lIvk",
+    "types": [
+      "political",
+      "sublocality",
+      "sublocality_level_1"
+    ]
+  },
+  "Chapultepec Morales, Ciudad de México": {
+    "address_components": [
+      {
+        "long_name": "Chapultepec Morales",
+        "short_name": "Chapultepec Morales",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Polanco V Sección",
+        "short_name": "Polanco V Secc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "Chapultepec Morales, Polanco V Secc, Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.4389102,
+          "lng": -99.1807766
+        },
+        "southwest": {
+          "lat": 19.4293638,
+          "lng": -99.1914223
+        }
+      },
+      "location": {
+        "lat": 19.4351828,
+        "lng": -99.185752
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4389102,
+          "lng": -99.1807766
+        },
+        "southwest": {
+          "lat": 19.4293638,
+          "lng": -99.1914223
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4352435,
+          "longitude": -99.1857509
+        }
+      }
+    ],
+    "place_id": "ChIJYTrrgKn40YURm2IiNlAbOTc",
+    "types": [
+      "neighborhood",
+      "political"
+    ]
+  },
+  "Colonia Cuauhtémoc, Ciudad de México": {
+    "address_components": [
+      {
+        "long_name": "Cuauhtémoc",
+        "short_name": "Cuauhtémoc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06500",
+        "short_name": "06500",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.4363254,
+          "lng": -99.1590379
+        },
+        "southwest": {
+          "lat": 19.4233319,
+          "lng": -99.1776362
+        }
+      },
+      "location": {
+        "lat": 19.4301322,
+        "lng": -99.16914129999999
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4363254,
+          "lng": -99.1590379
+        },
+        "southwest": {
+          "lat": 19.4233319,
+          "lng": -99.1776362
+        }
+      }
+    },
+    "place_id": "ChIJ_YE7tMr40YURtHtXg6cgsOU",
+    "types": [
+      "political",
+      "sublocality",
+      "sublocality_level_1"
+    ]
+  },
   "Torre BBVA Bancomer, Av. P.º de la Reforma 506, Cuauhtémoc, 06600 Juárez, CDMX, Mexico": {
     "address_components": [
       {
@@ -4250,182 +4746,6 @@
       "point_of_interest"
     ]
   },
-  "Workósfera Coworking @ Cerro de La Paz, Puebla, Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., Mexico": {
-    "address_components": [
-      {
-        "long_name": "35",
-        "short_name": "35",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Cholula",
-        "short_name": "Cholula",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "La Paz",
-        "short_name": "La Paz",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Heroica Puebla de Zaragoza",
-        "short_name": "Heroica Puebla de Zaragoza",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Puebla",
-        "short_name": "Pue.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "72160",
-        "short_name": "72160",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
-    "geometry": {
-      "location": {
-        "lat": 19.0536482,
-        "lng": -98.2273264
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.0549712802915,
-          "lng": -98.2259923197085
-        },
-        "southwest": {
-          "lat": 19.0522733197085,
-          "lng": -98.2286902802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.0536512,
-          "longitude": -98.2273296
-        }
-      }
-    ],
-    "place_id": "ChIJfQ0djR_Hz4URQhDsTxlXJdQ",
-    "plus_code": {
-      "compound_code": "3Q3F+F3 Heroica Puebla de Zaragoza, Pue., México",
-      "global_code": "76F33Q3F+F3"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
-    ]
-  },
-  "Plaza Carso, Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "Plaza Carso",
-        "short_name": "Pl. Carso",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Ampliación Granada",
-        "short_name": "Amp Granada",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "11529",
-        "short_name": "11529",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.4415958,
-          "lng": -99.2029503
-        },
-        "southwest": {
-          "lat": 19.4413273,
-          "lng": -99.2031883
-        }
-      },
-      "location": {
-        "lat": 19.4413546,
-        "lng": -99.2031496
-      },
-      "location_type": "GEOMETRIC_CENTER",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4428105302915,
-          "lng": -99.2017203197085
-        },
-        "southwest": {
-          "lat": 19.4401125697085,
-          "lng": -99.2044182802915
-        }
-      }
-    },
-    "place_id": "ChIJ9SxomBAC0oURRHoHGIi4yBM",
-    "types": [
-      "route"
-    ]
-  },
   "Multiple Venues - University Roadshow, South Tamaulipas, Tampico, Madero y Altamira": {
     "address_components": [
       {
@@ -4784,6 +5104,651 @@
       "bar",
       "establishment",
       "point_of_interest"
+    ]
+  },
+  "Merida, Yucatan, Mexico": {
+    "address_components": [
+      {
+        "long_name": "Mérida",
+        "short_name": "Mérida",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Yucatán",
+        "short_name": "Yuc.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "Mérida, Yuc., México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 21.0925361,
+          "lng": -89.52509979999999
+        },
+        "southwest": {
+          "lat": 20.8797278,
+          "lng": -89.7319431
+        }
+      },
+      "location": {
+        "lat": 20.9673702,
+        "lng": -89.5925857
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 21.0925361,
+          "lng": -89.52509979999999
+        },
+        "southwest": {
+          "lat": 20.8797278,
+          "lng": -89.7319431
+        }
+      }
+    },
+    "place_id": "ChIJFw1Fq1xxVo8RCeurFVcV_F0",
+    "types": [
+      "locality",
+      "political"
+    ]
+  },
+  "Chez Vous #Timecafé, Av. de los Insurgentes Sur 1188, Tlacoquemecatl del Valle, Benito Juárez, 03200 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "1188",
+        "short_name": "1188",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Insurgentes Centro",
+        "short_name": "Av. Insurgentes Centro",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Tlacoquemecatl del Valle",
+        "short_name": "Tlacoquemecatl del Valle",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "03200",
+        "short_name": "03200",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Insurgentes Centro 1188, Tlacoquemecatl del Valle, Benito Juárez, 03200 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.3776093,
+        "lng": -99.1773845
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.3789925802915,
+          "lng": -99.1761530197085
+        },
+        "southwest": {
+          "lat": 19.3762946197085,
+          "lng": -99.1788509802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.3776593,
+          "longitude": -99.1775557
+        }
+      }
+    ],
+    "place_id": "ChIJ-dTJOXH_0YURmLnJwHj7lGs",
+    "plus_code": {
+      "compound_code": "9RHF+22 Ciudad de México, CDMX, México",
+      "global_code": "76F29RHF+22"
+    },
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ]
+  },
+  "San Francisco 1845, Actipan, Benito Juárez, 03230 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "1845",
+        "short_name": "1845",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "San Francisco",
+        "short_name": "San Francisco",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Actipan",
+        "short_name": "Actipan",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "03230",
+        "short_name": "03230",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "San Francisco 1845, Actipan, Benito Juárez, 03230 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.3669772,
+          "lng": -99.1772477
+        },
+        "southwest": {
+          "lat": 19.3668195,
+          "lng": -99.1774973
+        }
+      },
+      "location": {
+        "lat": 19.3669066,
+        "lng": -99.177261
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.3682473302915,
+          "lng": -99.17594941970849
+        },
+        "southwest": {
+          "lat": 19.3655493697085,
+          "lng": -99.1786473802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.3668861,
+          "longitude": -99.1771646
+        }
+      }
+    ],
+    "place_id": "ChIJt_LmjJH_0YUR1Jdtp0bOb_s",
+    "types": [
+      "premise",
+      "street_address"
+    ]
+  },
+  "Flemish Pixel, FlemishPixel, Av. Ejército Nacional Mexicano 6, Anzures, Miguel Hidalgo, 11590 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "FlemishPixel",
+        "short_name": "FlemishPixel",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "6",
+        "short_name": "6",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Ejército Nacional Mexicano",
+        "short_name": "Av. Ejército Nacional Mexicano",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Anzures",
+        "short_name": "Anzures",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "11590",
+        "short_name": "11590",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "FlemishPixel, Av. Ejército Nacional Mexicano 6, Anzures, Miguel Hidalgo, 11590 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4322368,
+        "lng": -99.17280699999999
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4336457302915,
+          "lng": -99.17141786970849
+        },
+        "southwest": {
+          "lat": 19.4309477697085,
+          "lng": -99.1741158302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4323034,
+          "longitude": -99.1727624
+        }
+      }
+    ],
+    "place_id": "ChIJi3dEEQD50YURR0OWhHwzZjE",
+    "plus_code": {
+      "compound_code": "CRJG+VV Ciudad de México, CDMX, México",
+      "global_code": "76F2CRJG+VV"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "Chez Vous #Timecafé, Av. Insurgentes Centro 1188, Tlacoquemecatl del Valle, Benito Juárez, 03200 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "1188",
+        "short_name": "1188",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Insurgentes Centro",
+        "short_name": "Av. Insurgentes Centro",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Tlacoquemecatl del Valle",
+        "short_name": "Tlacoquemecatl del Valle",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "03200",
+        "short_name": "03200",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Insurgentes Centro 1188, Tlacoquemecatl del Valle, Benito Juárez, 03200 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.3776093,
+        "lng": -99.1773845
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.3789925802915,
+          "lng": -99.1761530197085
+        },
+        "southwest": {
+          "lat": 19.3762946197085,
+          "lng": -99.1788509802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.3776593,
+          "longitude": -99.1775557
+        }
+      }
+    ],
+    "place_id": "ChIJ-dTJOXH_0YURmLnJwHj7lGs",
+    "plus_code": {
+      "compound_code": "9RHF+22 Ciudad de México, CDMX, México",
+      "global_code": "76F29RHF+22"
+    },
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ]
+  },
+  "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "1877",
+        "short_name": "1877",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Insurgentes Sur",
+        "short_name": "Av. Insurgentes Sur",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Guadalupe Inn",
+        "short_name": "Guadalupe Inn",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Álvaro Obregón",
+        "short_name": "Álvaro Obregón",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "01020",
+        "short_name": "01020",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.3545006,
+        "lng": -99.18553569999999
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.3558162302915,
+          "lng": -99.1840738697085
+        },
+        "southwest": {
+          "lat": 19.3531182697085,
+          "lng": -99.1867718302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.3544528,
+          "longitude": -99.1853737
+        }
+      }
+    ],
+    "place_id": "ChIJT8UYHPT_0YURekbxjiZ0LBE",
+    "types": [
+      "premise",
+      "street_address"
+    ]
+  },
+  "Universidad de Oriente, Av. 21 Ote. 1816, Zona Sin Asignación de Nombre de Col 39, Azcarate, 72501 Heroica Puebla de Zaragoza, Pue., Mexico": {
+    "address_components": [
+      {
+        "long_name": "1816",
+        "short_name": "1816",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida 21 Oriente",
+        "short_name": "Av. 21 Ote.",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Zona Sin Asignación de Nombre de Colonia 39",
+        "short_name": "Zona Sin Asignación de Nombre de Col 39",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Azcarate",
+        "short_name": "Azcarate",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Heroica Puebla de Zaragoza",
+        "short_name": "Heroica Puebla de Zaragoza",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Puebla",
+        "short_name": "Pue.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "72501",
+        "short_name": "72501",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. 21 Ote. 1816, Zona Sin Asignación de Nombre de Col 39, Azcarate, 72501 Heroica Puebla de Zaragoza, Pue., México",
+    "geometry": {
+      "location": {
+        "lat": 19.0303925,
+        "lng": -98.1903494
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.0316539802915,
+          "lng": -98.18904011970851
+        },
+        "southwest": {
+          "lat": 19.0289560197085,
+          "lng": -98.19173808029151
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.0302721,
+          "longitude": -98.1903956
+        }
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJt0cuMu3Az4URYrJBgKFhDaU",
+    "plus_code": {
+      "compound_code": "2RJ5+5V Heroica Puebla de Zaragoza, Pue., México",
+      "global_code": "76F32RJ5+5V"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "university"
     ]
   },
   "mexico tech week": {
@@ -10667,651 +11632,6 @@
     "types": [
       "premise",
       "street_address"
-    ]
-  },
-  "Merida, Yucatan, Mexico": {
-    "address_components": [
-      {
-        "long_name": "Mérida",
-        "short_name": "Mérida",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Yucatán",
-        "short_name": "Yuc.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      }
-    ],
-    "formatted_address": "Mérida, Yuc., México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 21.0925361,
-          "lng": -89.52509979999999
-        },
-        "southwest": {
-          "lat": 20.8797278,
-          "lng": -89.7319431
-        }
-      },
-      "location": {
-        "lat": 20.9673702,
-        "lng": -89.5925857
-      },
-      "location_type": "APPROXIMATE",
-      "viewport": {
-        "northeast": {
-          "lat": 21.0925361,
-          "lng": -89.52509979999999
-        },
-        "southwest": {
-          "lat": 20.8797278,
-          "lng": -89.7319431
-        }
-      }
-    },
-    "place_id": "ChIJFw1Fq1xxVo8RCeurFVcV_F0",
-    "types": [
-      "locality",
-      "political"
-    ]
-  },
-  "Chez Vous #Timecafé, Av. de los Insurgentes Sur 1188, Tlacoquemecatl del Valle, Benito Juárez, 03200 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "1188",
-        "short_name": "1188",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Insurgentes Centro",
-        "short_name": "Av. Insurgentes Centro",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Tlacoquemecatl del Valle",
-        "short_name": "Tlacoquemecatl del Valle",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "03200",
-        "short_name": "03200",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. Insurgentes Centro 1188, Tlacoquemecatl del Valle, Benito Juárez, 03200 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.3776093,
-        "lng": -99.1773845
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.3789925802915,
-          "lng": -99.1761530197085
-        },
-        "southwest": {
-          "lat": 19.3762946197085,
-          "lng": -99.1788509802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.3776593,
-          "longitude": -99.1775557
-        }
-      }
-    ],
-    "place_id": "ChIJ-dTJOXH_0YURmLnJwHj7lGs",
-    "plus_code": {
-      "compound_code": "9RHF+22 Ciudad de México, CDMX, México",
-      "global_code": "76F29RHF+22"
-    },
-    "types": [
-      "cafe",
-      "establishment",
-      "food",
-      "point_of_interest",
-      "store"
-    ]
-  },
-  "San Francisco 1845, Actipan, Benito Juárez, 03230 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "1845",
-        "short_name": "1845",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "San Francisco",
-        "short_name": "San Francisco",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Actipan",
-        "short_name": "Actipan",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "03230",
-        "short_name": "03230",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "San Francisco 1845, Actipan, Benito Juárez, 03230 Ciudad de México, CDMX, México",
-    "geometry": {
-      "bounds": {
-        "northeast": {
-          "lat": 19.3669772,
-          "lng": -99.1772477
-        },
-        "southwest": {
-          "lat": 19.3668195,
-          "lng": -99.1774973
-        }
-      },
-      "location": {
-        "lat": 19.3669066,
-        "lng": -99.177261
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.3682473302915,
-          "lng": -99.17594941970849
-        },
-        "southwest": {
-          "lat": 19.3655493697085,
-          "lng": -99.1786473802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.3668861,
-          "longitude": -99.1771646
-        }
-      }
-    ],
-    "place_id": "ChIJt_LmjJH_0YUR1Jdtp0bOb_s",
-    "types": [
-      "premise",
-      "street_address"
-    ]
-  },
-  "Flemish Pixel, FlemishPixel, Av. Ejército Nacional Mexicano 6, Anzures, Miguel Hidalgo, 11590 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "FlemishPixel",
-        "short_name": "FlemishPixel",
-        "types": [
-          "establishment",
-          "point_of_interest"
-        ]
-      },
-      {
-        "long_name": "6",
-        "short_name": "6",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Ejército Nacional Mexicano",
-        "short_name": "Av. Ejército Nacional Mexicano",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Anzures",
-        "short_name": "Anzures",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "11590",
-        "short_name": "11590",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "FlemishPixel, Av. Ejército Nacional Mexicano 6, Anzures, Miguel Hidalgo, 11590 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.4322368,
-        "lng": -99.17280699999999
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.4336457302915,
-          "lng": -99.17141786970849
-        },
-        "southwest": {
-          "lat": 19.4309477697085,
-          "lng": -99.1741158302915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.4323034,
-          "longitude": -99.1727624
-        }
-      }
-    ],
-    "place_id": "ChIJi3dEEQD50YURR0OWhHwzZjE",
-    "plus_code": {
-      "compound_code": "CRJG+VV Ciudad de México, CDMX, México",
-      "global_code": "76F2CRJG+VV"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest"
-    ]
-  },
-  "Chez Vous #Timecafé, Av. Insurgentes Centro 1188, Tlacoquemecatl del Valle, Benito Juárez, 03200 Ciudad de México, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "1188",
-        "short_name": "1188",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Insurgentes Centro",
-        "short_name": "Av. Insurgentes Centro",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Tlacoquemecatl del Valle",
-        "short_name": "Tlacoquemecatl del Valle",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "México D.F.",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "03200",
-        "short_name": "03200",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. Insurgentes Centro 1188, Tlacoquemecatl del Valle, Benito Juárez, 03200 Ciudad de México, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.3776093,
-        "lng": -99.1773845
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.3789925802915,
-          "lng": -99.1761530197085
-        },
-        "southwest": {
-          "lat": 19.3762946197085,
-          "lng": -99.1788509802915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.3776593,
-          "longitude": -99.1775557
-        }
-      }
-    ],
-    "place_id": "ChIJ-dTJOXH_0YURmLnJwHj7lGs",
-    "plus_code": {
-      "compound_code": "9RHF+22 Ciudad de México, CDMX, México",
-      "global_code": "76F29RHF+22"
-    },
-    "types": [
-      "cafe",
-      "establishment",
-      "food",
-      "point_of_interest",
-      "store"
-    ]
-  },
-  "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, Mexico": {
-    "address_components": [
-      {
-        "long_name": "1877",
-        "short_name": "1877",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida Insurgentes Sur",
-        "short_name": "Av. Insurgentes Sur",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Guadalupe Inn",
-        "short_name": "Guadalupe Inn",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Álvaro Obregón",
-        "short_name": "Álvaro Obregón",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Ciudad de México",
-        "short_name": "CDMX",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "01020",
-        "short_name": "01020",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, México",
-    "geometry": {
-      "location": {
-        "lat": 19.3545006,
-        "lng": -99.18553569999999
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.3558162302915,
-          "lng": -99.1840738697085
-        },
-        "southwest": {
-          "lat": 19.3531182697085,
-          "lng": -99.1867718302915
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.3544528,
-          "longitude": -99.1853737
-        }
-      }
-    ],
-    "place_id": "ChIJT8UYHPT_0YURekbxjiZ0LBE",
-    "types": [
-      "premise",
-      "street_address"
-    ]
-  },
-  "Universidad de Oriente, Av. 21 Ote. 1816, Zona Sin Asignación de Nombre de Col 39, Azcarate, 72501 Heroica Puebla de Zaragoza, Pue., Mexico": {
-    "address_components": [
-      {
-        "long_name": "1816",
-        "short_name": "1816",
-        "types": [
-          "street_number"
-        ]
-      },
-      {
-        "long_name": "Avenida 21 Oriente",
-        "short_name": "Av. 21 Ote.",
-        "types": [
-          "route"
-        ]
-      },
-      {
-        "long_name": "Zona Sin Asignación de Nombre de Colonia 39",
-        "short_name": "Zona Sin Asignación de Nombre de Col 39",
-        "types": [
-          "neighborhood",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Azcarate",
-        "short_name": "Azcarate",
-        "types": [
-          "political",
-          "sublocality",
-          "sublocality_level_1"
-        ]
-      },
-      {
-        "long_name": "Heroica Puebla de Zaragoza",
-        "short_name": "Heroica Puebla de Zaragoza",
-        "types": [
-          "locality",
-          "political"
-        ]
-      },
-      {
-        "long_name": "Puebla",
-        "short_name": "Pue.",
-        "types": [
-          "administrative_area_level_1",
-          "political"
-        ]
-      },
-      {
-        "long_name": "México",
-        "short_name": "MX",
-        "types": [
-          "country",
-          "political"
-        ]
-      },
-      {
-        "long_name": "72501",
-        "short_name": "72501",
-        "types": [
-          "postal_code"
-        ]
-      }
-    ],
-    "formatted_address": "Av. 21 Ote. 1816, Zona Sin Asignación de Nombre de Col 39, Azcarate, 72501 Heroica Puebla de Zaragoza, Pue., México",
-    "geometry": {
-      "location": {
-        "lat": 19.0303925,
-        "lng": -98.1903494
-      },
-      "location_type": "ROOFTOP",
-      "viewport": {
-        "northeast": {
-          "lat": 19.0316539802915,
-          "lng": -98.18904011970851
-        },
-        "southwest": {
-          "lat": 19.0289560197085,
-          "lng": -98.19173808029151
-        }
-      }
-    },
-    "navigation_points": [
-      {
-        "location": {
-          "latitude": 19.0302721,
-          "longitude": -98.1903956
-        }
-      }
-    ],
-    "partial_match": true,
-    "place_id": "ChIJt0cuMu3Az4URYrJBgKFhDaU",
-    "plus_code": {
-      "compound_code": "2RJ5+5V Heroica Puebla de Zaragoza, Pue., México",
-      "global_code": "76F32RJ5+5V"
-    },
-    "types": [
-      "establishment",
-      "point_of_interest",
-      "university"
     ]
   },
   "Vicente Asador de Brasa - CDMX, Mayorazgo Higuera 40, Xoco, Benito Juárez, 03330 Ciudad de México, CDMX, Mexico": {
