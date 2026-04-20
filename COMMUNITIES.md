@@ -41,7 +41,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🔴 [**GNU / SysAdmin Linux en Ciudad de México**](https://www.meetup.com/grupo-de-meetup-de-linux-en-ciudad-de-mexico) | Comunidad de Sysadmins que se dedican a dar soporte con Software Libre. | Online |
 | 🔴 [**Gophers MX**](https://www.meetup.com/gophersmx) | Comunidad de desarrolladores del lenguaje Go en México. | Online |
 | 🔴 [**Guadalajara Apache Kafka**](https://www.meetup.com/guadalajara-kafka) | Guadalajara Apache Kafka Meetup. | Online |
-| 🟢 [**HackGDL**](https://www.eventbrite.com.mx/o/hackgdl-72541932683) | Comunidad de tecnología e innovación en Guadalajara. | Jalisco |
+| 🔴 [**HackGDL**](https://www.eventbrite.com.mx/o/hackgdl-72541932683) | Comunidad de tecnología e innovación en Guadalajara. | Online |
 | 🔴 [**HackrobotsMX**](https://www.meetup.com/hackrobotsmx) | HackrobotsMX es la primera y única comunidad en América sin fines de lucro dedicada a la formación y capacitación en robótica. | Online |
 | 🔴 [**HTML5 CDMX**](https://www.meetup.com/html5-ciudad-de-mexico) | Desarrollo web, estándares W3C y tecnologías de frontend. | Online |
 | 🔴 [**j4Guanatos**](https://www.meetup.com/j4guanatos) | Comunidad de Java en Guadalajara. Eventos sobre Java y tecnologías relacionadas. | Online |
