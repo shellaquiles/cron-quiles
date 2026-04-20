@@ -63,7 +63,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🟢 [**Python CDMX**](https://www.meetup.com/python-mexico) | Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles. | Ciudad de México |
 | 🔴 [**Python Monterrey**](https://www.meetup.com/pythonmty) | Comunidad de Python en la ciudad de Monterrey. | Online |
 | 🔴 [**Python Puebla**](https://www.meetup.com/grupo-de-python-en-puebla) | Comunidad de Python en el estado de Puebla. Charlas y talleres. | Online |
-| 🔴 [**Pythonista**](https://www.meetup.com/pythonista) | Una de las comunidades de Python más grandes y activas de México. Charlas y talleres para todos los niveles. | Online |
+| 🟢 [**Pythonista**](https://www.meetup.com/pythonista) | Una de las comunidades de Python más grandes y activas de México. Charlas y talleres para todos los niveles. | Online |
 | 🟢 [**Pythonistas GDL**](https://reuniones.pythonistas-gdl.org/events/1/pythonistas-gdl) | Comunidad de entusiastas de Python en Guadalajara. Reuniones mensuales, charlas técnicas y networking. | Jalisco |
 | 🔴 [**Red Hat User Group**](https://www.meetup.com/red-hat-user-group-mexico) | Tecnologías Red Hat, Linux Enterprise y OpenShift. | Online |
 | 🔴 [**Rust MX**](https://www.meetup.com/rust-mx) | Comunidad dedicada al lenguaje Rust. Enfoque en seguridad, velocidad y concurrencia. | Online |
