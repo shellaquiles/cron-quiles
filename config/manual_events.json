@@ -241,5 +241,39 @@
         "dtend": "2026-04-26T18:00:00-06:00",
         "tags": ["floss", "gnu", "linux", "open-source", "community"],
         "source": "Manual"
+    },
+    {
+        "title": "ClawCon Guadalajara",
+        "description": "¿Qué es ClawCon? ClawCon, surgida de la comunidad OpenClaw y su misión de otorgar poder a las personas y su soberanía sobre la IA personal, es un encuentro comunitario.",
+        "url": "https://luma.com/clawconguad",
+        "location": "Guadalajara, Jalisco",
+        "country": "México",
+        "country_code": "MX",
+        "city": "Guadalajara",
+        "city_code": "guadalajara",
+        "state": "Jalisco",
+        "state_code": "MX-JAL",
+        "organizer": "OpenClaw Community",
+        "dtstart": "2026-04-25T18:00:00-06:00",
+        "dtend": "2026-04-25T21:00:00-06:00",
+        "tags": ["ai", "openclaw", "community"],
+        "source": "Manual"
+    },
+    {
+        "title": "ClawCon CDMX",
+        "description": "¿Qué es ClawCon? ClawCon, surgida de la comunidad OpenClaw y su misión de otorgar poder a las personas y su soberanía sobre la IA personal, es un encuentro comunitario.",
+        "url": "https://luma.com/clawconcdmx",
+        "location": "Ciudad de México",
+        "country": "México",
+        "country_code": "MX",
+        "city": "Ciudad de México",
+        "city_code": "cdmx",
+        "state": "Ciudad de México",
+        "state_code": "MX-CMX",
+        "organizer": "OpenClaw Community",
+        "dtstart": "2026-05-09T17:00:00-06:00",
+        "dtend": "2026-05-09T20:00:00-06:00",
+        "tags": ["ai", "openclaw", "community"],
+        "source": "Manual"
     }
 ]
