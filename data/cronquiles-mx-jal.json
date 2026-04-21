@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-20T18:56:19.468980+00:00",
-  "total_events": 16,
+  "generated_at": "2026-04-21T00:34:04.710267+00:00",
+  "total_events": 17,
   "city": "Jalisco",
   "communities": [
     {
@@ -510,6 +510,43 @@
       "city_code": "guadalajara",
       "address": "Av. México 3040-piso 12, Juan Manuel Vallarta, 44680 Guadalajara, Jal., México",
       "hash_key": "interfaz web y agentes autnomos_2026-04-25T00:00:00+00:00"
+    },
+    {
+      "title": "Linuxcabal|Linuxcabal celebra FLISoL 2026 en Guadalajara|México|Jalisco",
+      "description": "Es un evento a nivel Latinoamericano para la instalación de F/OSS (Free y Open Source Software) distribuido en eventos en cada país. Tiene como propósito promover el uso de F/OSS y la integración de comunidades de usuarios de F/OSS en todos los países de Latinoamerica. FLISoL - 2026",
+      "url": "http://www.linuxcabal.org/FLISoL20260425.php?Lang=es&From=Eventos",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "http://www.linuxcabal.org/FLISoL20260425.php?Lang=es&From=Eventos",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Linuxcabal, Calle 14 #2184-A, Col. Ferrocarril, C.P. 44440, Guadalajara, Jalisco, Mexico",
+      "online": false,
+      "organizer": "Linuxcabal",
+      "dtstart": "2026-04-25T15:00:00-06:00",
+      "dtend": "2026-04-25T21:00:00-06:00",
+      "tags": [
+        "community",
+        "dev",
+        "floss",
+        "food",
+        "frontend",
+        "gnu",
+        "linux",
+        "mobile",
+        "open-source"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Jalisco",
+      "state_code": "MX-JAL",
+      "city": "Guadalajara",
+      "city_code": "guadalajara",
+      "address": "Linuxcabal, Calle 14 #2184-A, Col. Ferrocarril, C.P. 44440, Guadalajara, Jalisco, Mexico",
+      "hash_key": "linuxcabal celebra flisol 2026 en guadal_2026-04-25T20:00:00+00:00"
     }
   ]
 }
