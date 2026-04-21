@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-21T13:13:02.332759+00:00",
-  "total_events": 381,
+  "generated_at": "2026-04-21T16:34:57.121733+00:00",
+  "total_events": 394,
   "city": "México",
   "communities": [
     {
@@ -991,6 +991,17 @@
       "name": "ClawCon",
       "description": "ClawCon, surgida de la comunidad OpenClaw y su misión de otorgar poder a las personas y su soberanía sobre la IA personal, es un encuentro abierto y socialmente prioritario; no una conferencia exclusiva para desarrolladores ni una feria comercial corporativa tradicional.",
       "links": []
+    },
+    {
+      "name": "Claude Community Luma",
+      "description": "Comunidad de Claude AI (Luma).",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claudecommunity",
+          "label": "Luma"
+        }
+      ]
     }
   ],
   "events": [
@@ -2418,6 +2429,36 @@
       "city_code": "cdmx",
       "address": "Ciudad de México, CDMX, México",
       "hash_key": "tacos beer and gen ai_2024-10-21T18:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Fintech Feast:  Luncheon with Pygma, Mastercard, Google & This Week in Fintech|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/8o2qc0sg\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week, Andrés Cano & Jorge Gonzalez Soler",
+      "url": "https://luma.com/8o2qc0sg",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/8o2qc0sg",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-21T21:00:00+00:00",
+      "dtend": "2024-10-21T23:00:00+00:00",
+      "tags": [
+        "ai",
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "fintech feast luncheon with pygma master_2024-10-21T20:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Finance for Hypergrowth - Measure What Matters|México|Ciudad de México",
@@ -6058,6 +6099,37 @@
       "hash_key": "coworking frutal 7_2025-07-16T16:00:00+00:00"
     },
     {
+      "title": "Java Mexico|Arquitecturas Modernas en Java: Hacia Servicios Escalables y Flexibles|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/83si3bw5\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Benek",
+      "url": "https://luma.com/83si3bw5",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/83si3bw5",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Java Mexico",
+      "dtstart": "2025-07-30T00:30:00+00:00",
+      "dtend": "2025-07-30T04:00:00+00:00",
+      "tags": [
+        "ai",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-0wqA0Q2KjW9OWbP",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "arquitecturas modernas en java hacia ser_2025-07-30T00:00:00+00:00"
+    },
+    {
       "title": "Founder Friends Mexico|Venture Bites: Why Founders Should Angel Invest Micro-Checks|Online",
       "description": "Get up-to-date information at: https://luma.com/ze2bsy6l\n\nHosted by Hustle Fund",
       "url": "https://luma.com/ze2bsy6l",
@@ -6450,6 +6522,35 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-bCXzW5aarpAQHid",
       "hash_key": "10 minute blitz with nicole detommaso ho_2025-09-10T16:00:00+00:00"
+    },
+    {
+      "title": "v0 Prompt to Production Mexico City|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/r8rwqnn9\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero",
+      "url": "https://luma.com/r8rwqnn9",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/r8rwqnn9",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "v0 Prompt to Production Mexico City",
+      "dtstart": "2025-09-11T23:00:00+00:00",
+      "dtend": "2025-09-12T02:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/fdg8riz2",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "from idea to mvp construye tu propia app_2025-09-11T22:00:00+00:00"
     },
     {
       "title": "Claude Users Group|Build with Claude Code|Online",
@@ -9213,6 +9314,36 @@
       "hash_key": "estado del crdito en mxico y tendencias _2026-02-24T14:00:00+00:00"
     },
     {
+      "title": "FinTech México|Fintech Luncheon Vol.3 by Pygma, AMG Block Ventures  and Morrison Foerster|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/uwjfgnlj\n\nAddress:\nCheck event page for more details.\n\nHosted by FinTech México & Andrés Cano",
+      "url": "https://luma.com/uwjfgnlj",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/uwjfgnlj",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Hipódromo Condesa, Ciudad de México",
+      "online": false,
+      "organizer": "FinTech México",
+      "dtstart": "2026-02-24T19:00:00+00:00",
+      "dtend": "2026-02-24T21:00:00+00:00",
+      "tags": [
+        "ai",
+        "python"
+      ],
+      "source": "https://luma.com/eofagheq",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Hipódromo Condesa, 06170 Ciudad de México, CDMX, México",
+      "hash_key": "fintech luncheon vol 3 by pygma amg bloc_2026-02-24T18:00:00+00:00"
+    },
+    {
       "title": "Python CDMX|Meetup Febrero 2026  -  Clara & PythonCDMX|Online",
       "description": "Get up-to-date information at: https://luma.com/b2j4qyjy\n\nHosted by PythonCDMX & Clara Community",
       "url": "https://luma.com/b2j4qyjy",
@@ -10258,6 +10389,37 @@
       "hash_key": "vibecoding caf_2026-04-17T22:00:00+00:00"
     },
     {
+      "title": "Claude Community Luma| Claude for Finance|México|Ciudad de México",
+      "description": "🏦 Claude for Finance — Ciudad de México\n¿Cómo están usando AI en finanzas las empresas en Latinoamérica ahora mismo?\nTres speakers. Tres historias reales.",
+      "url": "https://luma.com/claudemexicocityfinance",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claudemexicocityfinance",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Claude Community Luma",
+      "dtstart": "2026-04-17T18:00:00-06:00",
+      "dtend": "2026-04-17T21:00:00-06:00",
+      "tags": [
+        "ai",
+        "claude",
+        "finanzas"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México",
+      "hash_key": "claude for finance_2026-04-18T00:00:00+00:00"
+    },
+    {
       "title": "KCD Guadalajara|KCD Guadalajara 2026|México|Jalisco",
       "description": "Kubernetes Community Days Guadalajara, un evento para profesionales de la nube y Kubernetes.",
       "url": "https://community.cncf.io/kcd-guadalajara/",
@@ -10288,6 +10450,38 @@
       "city_code": "guadalajara",
       "address": "Holiday Inn Guadalajara Expo, an IHG Hotel 2500 Avenida Adolfo López Mateos Sur, Zapopan, 45050",
       "hash_key": "kcd guadalajara 2026_2026-04-18T14:00:00+00:00"
+    },
+    {
+      "title": "Claude Community Luma| Claude Impact Lab|México|Ciudad de México",
+      "description": "As Claude Impact Lab — Ciudad de México\n¿Qué puede construir una comunidad con los datos abiertos de su ciudad?\nUn día completo para construir apps y agentes…",
+      "url": "https://luma.com/claudemexicocitylab",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claudemexicocitylab",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "Claude Community Luma",
+      "dtstart": "2026-04-18T12:00:00-06:00",
+      "dtend": "2026-04-18T19:00:00-06:00",
+      "tags": [
+        "ai",
+        "claude",
+        "frontend",
+        "hackathon"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México",
+      "hash_key": "claude impact lab_2026-04-18T18:00:00+00:00"
     },
     {
       "title": "AI/IA CDMX|Témele al Shoggoth - Fear the Shoggoth|México|Ciudad de México",
@@ -10745,6 +10939,43 @@
       "hash_key": "achieve more with microsoft copilot_2026-04-24T04:00:00+00:00"
     },
     {
+      "title": "HTML5 CDMX|GitHub Copilot Dev Day CDMX|México|Ciudad de México",
+      "description": "HTML5 + JS  Ciudad de México\nBuen día,\n\nGitHub Copilot Dev Days 2026 es una serie global de talleres y charlas gratuitas , presenciales y dirigidos por la comunidad que se llevarán a cabo el próximo viernes 24 de abril en CDMX. Estos eventos de aproximadamente 3 horas ofrecen experiencia práctica con Copilot en VS Code/Visual Studio, centrados en flujos de trabajo asistidos por IA del mundo real, incluido el uso de la CLI y del Cloud Agent.\n\n12:00 - 12:15 Recepción\n12:15 - 15:15 Charlas y Demos\n15:00 - 16:00 Clausura y networking",
+      "url": "https://www.meetup.com/html5-ciudad-de-mexico/events/314399344/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/html5-ciudad-de-mexico/events/314399344/",
+          "label": "Ver en Meetup"
+        },
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/devops-workshop/events/314399264/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "KMMX BC146, Baja California 146 Oficina 501 Col.Roma Sur, Mexico City, Mexico City",
+      "online": false,
+      "organizer": "HTML5 CDMX",
+      "dtstart": "2026-04-24T12:00:00-06:00",
+      "dtend": "2026-04-24T15:00:00-06:00",
+      "tags": [
+        "ai",
+        "cloud",
+        "frontend",
+        "web"
+      ],
+      "source": "https://www.meetup.com/html5-ciudad-de-mexico/events/ical",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Av. Baja California 146, Roma Sur, Cuauhtémoc, 06760 Ciudad de México, CDMX, México",
+      "hash_key": "github copilot dev day cdmx_2026-04-24T18:00:00+00:00"
+    },
+    {
       "title": "Pythonistas GDL|Interfaz web y agentes autónomos|México|Jalisco",
       "description": "<h2><strong>Tenemos cupo para 50 personas, <br />Regístrate si tienes la certeza de asistir y llega temprano para asegurar tu lugar.</strong></h2><ul><li><p style=\"margin:0.5em 0px;\">🚪 Recepción a partir de las 6:30</p></li><li><p style=\"margin:0.5em 0px;\">⏰ Evento 7:00</p></li><li><p style=\"margin:0.5em 0px;\">🗣️ NiceGUI<br /><em>interfaz web para tu código Python</em><br /><strong>Por Juan Carlos Sedano</strong></p></li><li><p style=\"margin:0.5em 0px;\">🗣️ Mas allá del chat<br /><em>construyendo agentes autónomos con Python y Google Cloud</em><br /><strong>Por José Muñoz</strong></p></li><li><p style=\"margin:0.5em 0px;\">🪩 Networking </p></li></ul>",
       "url": "https://reuniones.pythonistas-gdl.org/event/4/interfaz-web-y-agentes-autonomos",
@@ -10775,6 +11006,139 @@
       "city_code": "guadalajara",
       "address": "Av. México 3040-piso 12, Juan Manuel Vallarta, 44680 Guadalajara, Jal., México",
       "hash_key": "interfaz web y agentes autnomos_2026-04-25T00:00:00+00:00"
+    },
+    {
+      "title": "TESOEM|FLISoL 2026 - Tesoem (La Paz, EdoMex)|México|Estado de México",
+      "description": "Festival Latinoamericano de Instalación de Software Libre 2026 en el Tecnológico de Estudios Superiores del Oriente del Estado de México (TESOEM). Un evento para aprender, compartir y decidir en libertad.",
+      "url": "https://flisol.info/FLISOL2026/Mexico/EdoMex/La%20Paz/Tesoem",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://flisol.info/FLISOL2026/Mexico/EdoMex/La%20Paz/Tesoem",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "TESOEM. Paraje San Isidro S/N, Barrio de Tecamachalco, La Paz, Estado de México.",
+      "online": false,
+      "organizer": "TESOEM",
+      "dtstart": "2026-04-25T09:30:00-06:00",
+      "dtend": "2026-04-25T16:00:00-06:00",
+      "tags": [
+        "community",
+        "floss",
+        "gnu",
+        "linux",
+        "mobile",
+        "open-source"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Estado de México",
+      "state_code": "MX-MEX",
+      "city": "La Paz",
+      "city_code": "la-paz",
+      "address": "TESOEM. Paraje San Isidro S/N, Barrio de Tecamachalco, La Paz, Estado de México.",
+      "hash_key": "flisol 2026 tesoem la paz edomex_2026-04-25T14:00:00+00:00"
+    },
+    {
+      "title": "FLISOL CDMX|FLISOL 2026 CDMX - Sede El Rule|México|Ciudad de México",
+      "description": "Festival Latinoamericano de Instalación de Software Libre 2026 en el Centro Cultural El Rule. Jornada completa de ponencias sobre software libre, Linux, ciberseguridad y Kubernetes.",
+      "url": "https://flisol.info/FLISOL2026/Mexico/CDMX/ElRule",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://flisol.info/FLISOL2026/Mexico/CDMX/ElRule",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Centro Cultural El Rule Eje Central Lázaro Cárdenas 6, Col. Centro C.P. 06000, Alcaldía Cuahutémoc, Ciudad de México",
+      "online": false,
+      "organizer": "FLISOL CDMX",
+      "dtstart": "2026-04-25T10:00:00-06:00",
+      "dtend": "2026-04-25T18:00:00-06:00",
+      "tags": [
+        "community",
+        "devops",
+        "floss",
+        "frontend",
+        "gnu",
+        "linux",
+        "open-source"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Centro Cultural El Rule Eje Central Lázaro Cárdenas 6, Col. Centro C.P. 06000, Alcaldía Cuahutémoc, Ciudad de México",
+      "hash_key": "flisol 2026 cdmx sede el rule_2026-04-25T16:00:00+00:00"
+    },
+    {
+      "title": "OpenClaw Community|ClawCon Guadalajara|México|Jalisco",
+      "description": "¿Qué es ClawCon? ClawCon, surgida de la comunidad OpenClaw y su misión de otorgar poder a las personas y su soberanía sobre la IA personal, es un encuentro comunitario.",
+      "url": "https://luma.com/clawconguad",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/clawconguad",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Guadalajara, Jalisco",
+      "online": false,
+      "organizer": "OpenClaw Community",
+      "dtstart": "2026-04-25T18:00:00-06:00",
+      "dtend": "2026-04-25T21:00:00-06:00",
+      "tags": [
+        "ai",
+        "community",
+        "openclaw"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Jalisco",
+      "state_code": "MX-JAL",
+      "city": "Guadalajara",
+      "city_code": "guadalajara",
+      "address": "Guadalajara, Jalisco",
+      "hash_key": "clawcon guadalajara_2026-04-26T00:00:00+00:00"
+    },
+    {
+      "title": "FLISOL Ecatepec|FLISoL 2026 - Ecatepec|México|Estado de México",
+      "description": "Festival Latinoamericano de Instalación de Software Libre 2026 en Ecatepec. Centro de Cultura 'Emiliano Zapata'. Jornada de instalación, pláticas y comunidad.",
+      "url": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=19.515122%2C-99.036043%3B19.510665%2C-99.020315#map=17/19.512283/-99.028165",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=19.515122%2C-99.036043%3B19.510665%2C-99.020315#map=17/19.512283/-99.028165",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Centro de Cultura 'Emiliano Zapata'. Calle Josefa Ortiz de Dominguez esquina Urano. Col. Sauces 1. Por metro Ecatepec, Estado de México.",
+      "online": false,
+      "organizer": "FLISOL Ecatepec",
+      "dtstart": "2026-04-26T14:00:00-06:00",
+      "dtend": "2026-04-26T18:00:00-06:00",
+      "tags": [
+        "community",
+        "floss",
+        "gnu",
+        "linux",
+        "open-source"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Estado de México",
+      "state_code": "MX-MEX",
+      "city": "Ecatepec",
+      "city_code": "ecatepec",
+      "address": "Centro de Cultura 'Emiliano Zapata'. Calle Josefa Ortiz de Dominguez esquina Urano. Col. Sauces 1. Por metro Ecatepec, Estado de México.",
+      "hash_key": "flisol 2026 ecatepec_2026-04-26T20:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|How AI and Neurotechnology Are Transforming the Workplace|Online",
@@ -11319,6 +11683,39 @@
       "hash_key": "may 7 visual ai in healthcare_2026-05-07T16:00:00+00:00"
     },
     {
+      "title": "LIDSoL UNAM|FLISoL 2026 - Sede LIDSoL UNAM|México|Ciudad de México",
+      "description": "LIDSoL los invita a la edición 2026 del Festival Latinoamericano de Software Libre en la UNAM. Call for Speakers disponible.",
+      "url": "https://lidsol.unam.mx/#events/14",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://lidsol.unam.mx/#events/14",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Conjunto Norte de la Facultad de Ingeniería - Edificio I, Quiosco PC-Puma (Facultad de Ingeniería, UNAM), Ciudad de México",
+      "online": false,
+      "organizer": "LIDSoL UNAM",
+      "dtstart": "2026-05-07T10:00:00-06:00",
+      "dtend": "2026-05-08T18:00:00-06:00",
+      "tags": [
+        "community",
+        "floss",
+        "gnu",
+        "linux",
+        "open-source"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Conjunto Norte de la Facultad de Ingeniería - Edificio I, Quiosco PC-Puma (Facultad de Ingeniería, UNAM), Ciudad de México",
+      "hash_key": "flisol 2026 sede lidsol unam_2026-05-07T16:00:00+00:00"
+    },
+    {
       "title": "Rust-AICollective|AI Literacy Series: Me, Myself & AI: Vattenfall (w/ The AI Collective)|Online",
       "description": "Get up-to-date information at: https://luma.com/aic-ai-literacy-vanttenfall\n\nHosted by The AI Collective, Neelima Misra & Kajsa Grip",
       "url": "https://luma.com/aic-ai-literacy-vanttenfall",
@@ -11386,6 +11783,37 @@
       "city_code": "veracruz",
       "address": "P.º de Los Cedros, Floresta, 91930 Veracruz, Ver., México",
       "hash_key": "build with ai veracruz workshop hands on_2026-05-08T16:00:00+00:00"
+    },
+    {
+      "title": "OpenClaw Community|ClawCon CDMX|México|Ciudad de México",
+      "description": "¿Qué es ClawCon? ClawCon, surgida de la comunidad OpenClaw y su misión de otorgar poder a las personas y su soberanía sobre la IA personal, es un encuentro comunitario.",
+      "url": "https://luma.com/clawconcdmx",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/clawconcdmx",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ciudad de México",
+      "online": false,
+      "organizer": "OpenClaw Community",
+      "dtstart": "2026-05-09T17:00:00-06:00",
+      "dtend": "2026-05-09T20:00:00-06:00",
+      "tags": [
+        "ai",
+        "community",
+        "openclaw"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México",
+      "hash_key": "clawcon cdmx_2026-05-09T22:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|May 11 - Best of 3DV 2026|México|CDMX",

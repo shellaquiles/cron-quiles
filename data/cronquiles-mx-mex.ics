@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cron-Quiles//ICS Aggregator//EN
+CALSCALE:GREGORIAN
+X-WR-CALDESC:Calendario unificado de eventos tech en México\, México
+X-WR-CALNAME:Eventos Tech México - cronquiles
+X-WR-TIMEZONE:America/Mexico_City
+BEGIN:VEVENT
+SUMMARY:TESOEM|FLISoL 2026 - Tesoem (La Paz\, EdoMex)|México|Estado de M
+ éxico
+DTSTART:20260425T093000
+CATEGORIES:community,floss,gnu,linux,mobile,open-source
+DESCRIPTION:Festival Latinoamericano de Instalación de Software Libre 202
+ 6 en el Tecnológico de Estudios Superiores del Oriente del Estado de Méx
+ ico (TESOEM). Un evento para aprender\, compartir y decidir en libertad.
+LOCATION:TESOEM. Paraje San Isidro S/N\, Barrio de Tecamachalco\, La Paz\,
+  Estado de México.
+X-CRONQUILES-ADDRESS:TESOEM. Paraje San Isidro S/N\, Barrio de Tecamachalc
+ o\, La Paz\, Estado de México.
+X-CRONQUILES-CITY:La Paz
+X-CRONQUILES-CITY-CODE:la-paz
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Estado de México
+X-CRONQUILES-STATE-CODE:MX-MEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FLISOL Ecatepec|FLISoL 2026 - Ecatepec|México|Estado de México
+DTSTART:20260426T140000
+CATEGORIES:community,floss,gnu,linux,open-source
+DESCRIPTION:Festival Latinoamericano de Instalación de Software Libre 202
+ 6 en Ecatepec. Centro de Cultura 'Emiliano Zapata'. Jornada de instalació
+ n\, pláticas y comunidad.
+LOCATION:Centro de Cultura 'Emiliano Zapata'. Calle Josefa Ortiz de Doming
+ uez esquina Urano. Col. Sauces 1. Por metro Ecatepec\, Estado de México.
+X-CRONQUILES-ADDRESS:Centro de Cultura 'Emiliano Zapata'. Calle Josefa Ort
+ iz de Dominguez esquina Urano. Col. Sauces 1. Por metro Ecatepec\, Estado 
+ de México.
+X-CRONQUILES-CITY:Ecatepec
+X-CRONQUILES-CITY-CODE:ecatepec
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Estado de México
+X-CRONQUILES-STATE-CODE:MX-MEX
+END:VEVENT
+END:VCALENDAR

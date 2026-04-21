@@ -26,11 +26,28 @@ class MyHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
                          self.log_date_time_string(),
                          format%args))
 
+def free_port(port):
+    import subprocess
+    import time
+    try:
+        # Intentar liberar el puerto matando el proceso que lo usa (Linux/macOS)
+        subprocess.run(f"fuser -k {port}/tcp", shell=True, stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL)
+        subprocess.run(f"lsof -ti:{port} | xargs kill -9", shell=True, stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL)
+        time.sleep(0.5) # Esperar a que el sistema operativo libere el socket
+    except Exception:
+        pass
+
 def main():
     # Cambiar al directorio del script
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
+    # Intentar liberar el puerto antes de iniciar
+    free_port(PORT)
+
     Handler = MyHTTPRequestHandler
+    
+    # Habilitar la reutilización de direcciones para evitar el estado TIME_WAIT
+    socketserver.TCPServer.allow_reuse_address = True
 
     try:
         with socketserver.TCPServer(("", PORT), Handler) as httpd:

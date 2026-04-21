@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-04-21T16:34:57.265641+00:00",
+  "total_events": 2,
+  "city": "México",
+  "communities": [
+    {
+      "name": "TESOEM",
+      "description": "Organizador de eventos manuales (ej: FLISoL 2026 - Tesoem (La Paz, EdoMex))",
+      "links": []
+    },
+    {
+      "name": "FLISOL Ecatepec",
+      "description": "Organizador de eventos manuales (ej: FLISoL 2026 - Ecatepec)",
+      "links": []
+    }
+  ],
+  "events": [
+    {
+      "title": "TESOEM|FLISoL 2026 - Tesoem (La Paz, EdoMex)|México|Estado de México",
+      "description": "Festival Latinoamericano de Instalación de Software Libre 2026 en el Tecnológico de Estudios Superiores del Oriente del Estado de México (TESOEM). Un evento para aprender, compartir y decidir en libertad.",
+      "url": "https://flisol.info/FLISOL2026/Mexico/EdoMex/La%20Paz/Tesoem",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://flisol.info/FLISOL2026/Mexico/EdoMex/La%20Paz/Tesoem",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "TESOEM. Paraje San Isidro S/N, Barrio de Tecamachalco, La Paz, Estado de México.",
+      "online": false,
+      "organizer": "TESOEM",
+      "dtstart": "2026-04-25T09:30:00-06:00",
+      "dtend": "2026-04-25T16:00:00-06:00",
+      "tags": [
+        "community",
+        "floss",
+        "gnu",
+        "linux",
+        "mobile",
+        "open-source"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Estado de México",
+      "state_code": "MX-MEX",
+      "city": "La Paz",
+      "city_code": "la-paz",
+      "address": "TESOEM. Paraje San Isidro S/N, Barrio de Tecamachalco, La Paz, Estado de México.",
+      "hash_key": "flisol 2026 tesoem la paz edomex_2026-04-25T14:00:00+00:00"
+    },
+    {
+      "title": "FLISOL Ecatepec|FLISoL 2026 - Ecatepec|México|Estado de México",
+      "description": "Festival Latinoamericano de Instalación de Software Libre 2026 en Ecatepec. Centro de Cultura 'Emiliano Zapata'. Jornada de instalación, pláticas y comunidad.",
+      "url": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=19.515122%2C-99.036043%3B19.510665%2C-99.020315#map=17/19.512283/-99.028165",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=19.515122%2C-99.036043%3B19.510665%2C-99.020315#map=17/19.512283/-99.028165",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Centro de Cultura 'Emiliano Zapata'. Calle Josefa Ortiz de Dominguez esquina Urano. Col. Sauces 1. Por metro Ecatepec, Estado de México.",
+      "online": false,
+      "organizer": "FLISOL Ecatepec",
+      "dtstart": "2026-04-26T14:00:00-06:00",
+      "dtend": "2026-04-26T18:00:00-06:00",
+      "tags": [
+        "community",
+        "floss",
+        "gnu",
+        "linux",
+        "open-source"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Estado de México",
+      "state_code": "MX-MEX",
+      "city": "Ecatepec",
+      "city_code": "ecatepec",
+      "address": "Centro de Cultura 'Emiliano Zapata'. Calle Josefa Ortiz de Dominguez esquina Urano. Col. Sauces 1. Por metro Ecatepec, Estado de México.",
+      "hash_key": "flisol 2026 ecatepec_2026-04-26T20:00:00+00:00"
+    }
+  ]
+}

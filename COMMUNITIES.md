@@ -21,6 +21,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🔴 [**AWS User Group Mixtli**](https://www.meetup.com/awsugmixtli/) | Comunidad de usuarios de AWS en Puebla. Eventos sobre servicios en la nube de Amazon. | Online |
 | 🟢 [**CHIDAS TECH**](https://luma.com/nc2fac44) | Comunidad tech. Eventos sobre redes, infraestructura y desarrollo (ej. Networking 101, Fundamentos de Redes). | Online |
 | 🔴 [**Claude Community**](https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu) | Events for the Claude AI community. | Online |
+| 🟢 [**Claude Community Luma**](https://luma.com/claudecommunity) | Comunidad de Claude AI (Luma). | Ciudad de México |
 | 🔴 [**Data, Cloud and AI in Mexico City**](https://www.meetup.com/big-data-developers-in-mexico-city) | IBM sponsored Meetup group geared towards developers, data scientists, data engineers, and ALL Big Data, Cloud and AI enthusiasts. | Online |
 | 🔴 [**Desarrollo de Aplicaciones Móviles México**](https://www.meetup.com/mobile-development-mexico) | Bienvenidos a la comunidad de desarrolladores móviles en iOS y Android, un espacio donde la innovación, la colaboración y el aprendizaje son clave. | Online |
 | 🔴 [**DevOps Workshop**](https://www.meetup.com/devops-workshop) | Aprende cómo aplicar diferentes tecnologías para construir un producto. En este grupo vas a mejorar tu conocimiento de diferentes sistemas operativos. | Online |
@@ -43,7 +44,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🔴 [**Guadalajara Apache Kafka**](https://www.meetup.com/guadalajara-kafka) | Guadalajara Apache Kafka Meetup. | Online |
 | 🔴 [**HackGDL**](https://www.eventbrite.com.mx/o/hackgdl-72541932683) | Comunidad de tecnología e innovación en Guadalajara. | Online |
 | 🔴 [**HackrobotsMX**](https://www.meetup.com/hackrobotsmx) | HackrobotsMX es la primera y única comunidad en América sin fines de lucro dedicada a la formación y capacitación en robótica. | Online |
-| 🔴 [**HTML5 CDMX**](https://www.meetup.com/html5-ciudad-de-mexico) | Desarrollo web, estándares W3C y tecnologías de frontend. | Online |
+| 🟢 [**HTML5 CDMX**](https://www.meetup.com/html5-ciudad-de-mexico) | Desarrollo web, estándares W3C y tecnologías de frontend. | Ciudad de México |
 | 🔴 [**j4Guanatos**](https://www.meetup.com/j4guanatos) | Comunidad de Java en Guadalajara. Eventos sobre Java y tecnologías relacionadas. | Online |
 | 🟢 [**Kong Mexico City**](https://www.meetup.com/kong-mexico-city) | Eventos sobre APIs, Microservicios, Service Mesh e Insomnia. | Online |
 | 🟢 [**Management In Tech**](https://luma.com/qhszdqs3) | Conversaciones sobre liderazgo y gestión de equipos en tech. Hosted by Jyr Gaxiola & Daniel Zavala. | Ciudad de México |
