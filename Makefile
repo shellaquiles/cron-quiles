@@ -1,13 +1,15 @@
-.PHONY: help install install-dev sync test test-file test-filter lint format format-check run run-all serve clean update check
+.PHONY: help install install-dev sync test test-file test-filter lint format format-check run run-all run-fast serve clean update check
 .PHONY: tools-deduplicate tools-populate-cache tools-scan-feeds tools-scrape-meetup requirements-freeze deploy-gh-pages
+.PHONY: agent-audit agent-publish
 
 UV := uv
 OUTPUT_DIR := gh-pages/data
 
 help:  ## Muestra este mensaje de ayuda
-	@echo "Comandos disponibles para Cron-Quiles:"
-	@echo ""
-	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-20s\033[0m %s\n", $$1, $$2}'
+	@echo "🤖 \033[1mCron-Quiles Makefile\033[0m"
+	@awk 'BEGIN {FS = ":.*##"; printf "\nUsage:\n  make \033[36m<target>\033[0m\n"} /^[a-zA-Z_-]+:.*?##/ { printf "  \033[36m%-25s\033[0m %s\n", $$1, $$2 } /^##@/ { printf "\n\033[1m%s\033[0m\n", substr($$0, 5) } ' $(MAKEFILE_LIST)
+
+##@ ⚙️  Entorno y Dependencias
 
 install:  ## Instala dependencias de producción
 	$(UV) sync --frozen
@@ -17,6 +19,19 @@ install-dev:  ## Instala todas las dependencias (prod + dev)
 
 sync:  ## Sincroniza entorno con lockfile
 	$(UV) sync --frozen
+
+update:  ## Actualiza dependencias (regenera lockfile)
+	$(UV) lock --upgrade
+
+check:  ## Verifica integridad del entorno
+	$(UV) run python -c "import cronquiles; print('✓ Paquete importado correctamente')"
+	@echo "✓ Entorno configurado correctamente"
+
+requirements-freeze:  ## Genera requirements.txt (compatibilidad temporal)
+	$(UV) pip freeze > requirements.txt
+	@echo "⚠️  requirements.txt generado para compatibilidad"
+
+##@ 🧪 Testing y Calidad
 
 test:  ## Ejecuta todos los tests
 	$(UV) run pytest tests/ -v
@@ -36,13 +51,15 @@ format:  ## Formatea código con black
 format-check:  ## Verifica formato sin modificar
 	$(UV) run black --check src/ tests/
 
+##@ 🚀 Ejecución del Pipeline
+
 run:  ## Ejecuta pipeline (uso: make run ARGS="--city cdmx --json")
 	$(UV) run python -m cronquiles.main $(ARGS)
 
 run-all:  ## Ejecuta pipeline completo para todas las ciudades
 	$(UV) run python -m cronquiles.main --all-cities --json --output-dir $(OUTPUT_DIR)/
 
-run-fast:  ## Ejecuta pipeline en modo rápido (--fast: sin enrich ni geocoding de historial)
+run-fast:  ## Ejecuta pipeline en modo rápido (--fast: sin enrich ni geocoding)
 	$(UV) run python -m cronquiles.main --all-cities --json --output-dir $(OUTPUT_DIR)/ --fast
 
 serve:  ## Inicia servidor local en gh-pages/
@@ -55,14 +72,8 @@ clean:  ## Limpia archivos generados
 	find . -type d -name "*.egg-info" -exec rm -rf {} + 2>/dev/null || true
 	find . -type d -name ".pytest_cache" -exec rm -rf {} + 2>/dev/null || true
 
-update:  ## Actualiza dependencias (regenera lockfile)
-	$(UV) lock --upgrade
+##@ 🛠️  Herramientas de Mantenimiento
 
-check:  ## Verifica integridad del entorno
-	$(UV) run python -c "import cronquiles; print('✓ Paquete importado correctamente')"
-	@echo "✓ Entorno configurado correctamente"
-
-# Herramientas de mantenimiento
 tools-deduplicate:  ## Deduplica eventos
 	$(UV) run python tools/deduplicate_events.py
 
@@ -75,11 +86,24 @@ tools-scan-feeds:  ## Escanea feeds
 tools-scrape-meetup:  ## Scraping histórico
 	$(UV) run python tools/scrape_meetup_history.py
 
-requirements-freeze:  ## Genera requirements.txt (compatibilidad temporal)
-	$(UV) pip freeze > requirements.txt
-	@echo "⚠️  requirements.txt generado para compatibilidad"
+##@ 🤖 Agent Workflows (AI Tasks)
 
-# Despliegue a rama orphan gh-pages
+agent-audit:  ## Ejecuta el workflow de auditoría y deduplicación
+	@echo "🤖 Ejecutando Workflow: Auditoría de Deduplicación..."
+	$(MAKE) clean
+	$(MAKE) tools-deduplicate
+	@echo "✅ Auditoría completada. Revisa data/history.json para colisiones."
+
+agent-publish:  ## Ejecuta la simulación local de pipeline antes de merge
+	@echo "🤖 Ejecutando Workflow: Publish Test..."
+	$(MAKE) tools-populate-cache
+	$(MAKE) run ARGS="--fast"
+	$(MAKE) lint
+	$(MAKE) format-check
+	@echo "✅ Publish Test completado. Todo listo para QA/Main."
+
+##@ 📦 Despliegue
+
 deploy-gh-pages:  ## Publica gh-pages/ y data/ en la rama orphan gh-pages
 	@echo "Publicando en rama orphan gh-pages..."
 	$(eval TMPDIR := $(shell mktemp -d))
