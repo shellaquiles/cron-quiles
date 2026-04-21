@@ -65,13 +65,12 @@ export class Calendar {
             return this.events;
         }
 
-        // Retornar solo eventos de hoy en adelante
-        const today = new Date();
-        today.setHours(0, 0, 0, 0);
+        // Retornar solo eventos desde el inicio del mes que estamos visualizando
+        const startOfMonth = new Date(this.currentDate.getFullYear(), this.currentDate.getMonth(), 1);
 
         return this.events.filter(e => {
             if (!e.dtstart) return false;
-            return new Date(e.dtstart) >= today;
+            return new Date(e.dtstart) >= startOfMonth;
         });
     }
 
