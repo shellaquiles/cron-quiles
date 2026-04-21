@@ -1,7 +1,7 @@
 # 🐢 Cron-Quiles
 
-**The Centralized Tech Calendar for Mexico.**
-Aggregating public ICS feeds, Meetup, Luma, and Eventbrite into a single, unified, and deduplicated event stream.
+**El Calendario Tecnológico Centralizado para México.**
+Agregando feeds públicos ICS, Meetup, Luma y Eventbrite en un único flujo de eventos unificado y sin duplicados.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -9,30 +9,40 @@ Aggregating public ICS feeds, Meetup, Luma, and Eventbrite into a single, unifie
 
 [![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=☕&slug=pixelead0&button_colour=FFDD00&font_colour=000000&font_family=Inter&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/pixelead0)
 
+> 🤖 **Asistentes de IA & LLMs:** Antes de sugerir cambios o escribir código, por favor sigan estrictamente las pautas en [`AI.md`](AI.md).
+
 ---
 
-## 🚀 Overview
+## 🚀 Resumen
 
-Cron-Quiles is an open-source tool designed to unify the fragmented landscape of tech event calendars in Mexico. It consumes various feed formats, normalizes the data, deduplicates events, and generates a clean, usable output for the community.
+Cron-Quiles es una herramienta de código abierto diseñada para unificar el fragmentado ecosistema de calendarios de eventos tecnológicos en México. Consume varios formatos de feeds, normaliza los datos, elimina eventos duplicados y genera una salida limpia y utilizable para la comunidad.
 
-**Live Calendar:** [https://shellaquiles.github.io/cron-quiles/](https://shellaquiles.github.io/cron-quiles/)
+**Calendario en Vivo:** [https://shellaquiles.github.io/cron-quiles/](https://shellaquiles.github.io/cron-quiles/)
 
-## ✨ Key Features
+## ✨ Características Principales
 
-- **Multi-Source Aggregation**:
-  - **ICS Feeds**: Standard generic calendars.
-  - **Meetup**: Automatic location enrichment via JSON-LD/Next.js extraction.
-  - **Luma**: Deep integration with location cleaning (URL-only fixes).
-  - **Eventbrite**: Native extraction (Organizer & Single Event support).
-  - **Hi.Events**: Support for custom tech community platforms (e.g., Pythonistas GDL) via API extraction.
-  - **Manual**: JSON-based injection for events without public feeds.
-- **Smart Deduplication**: Merges duplicate events (same title/time) and consolidates alternative URLs from multiple platforms (Meetup, Luma, Eventbrite).
-- **Multi-Source Events**: Events can have multiple URLs from different platforms, displayed with platform-specific buttons in the frontend.
-- **Dynamic State Generation**: Automatically categorizes events by state (e.g., `MX-CMX`, `MX-JAL`) using geocoding.
-- **Automated Pipeline**: runs on GitHub Actions to keep data fresh every 6 hours.
-- **Modern Web Interface**: Terminal-styled UI with embedded visual calendar.
+- **Agregación Multi-Fuente**:
+  - **Feeds ICS**: Calendarios genéricos estándar.
+  - **Meetup**: Enriquecimiento automático de ubicación mediante extracción JSON-LD/Next.js.
+  - **Luma**: Integración profunda con limpieza de ubicaciones (correcciones solo con URL).
+  - **Eventbrite**: Extracción nativa (Soporte para organizadores y eventos individuales).
+  - **Hi.Events**: Soporte para plataformas personalizadas de comunidades tech (ej. Pythonistas GDL) vía extracción de API.
+  - **Manual**: Inyección basada en JSON para eventos sin feeds públicos.
+- **Deduplicación Inteligente**: Fusiona eventos duplicados (mismo título/hora) y consolida URLs alternativas de múltiples plataformas (Meetup, Luma, Eventbrite).
+- **Eventos Multi-Fuente**: Los eventos pueden tener múltiples URLs de diferentes plataformas, mostradas con botones específicos de cada plataforma en el frontend.
+- **Generación Dinámica de Estados**: Categoriza automáticamente los eventos por estado (ej. `MX-CMX`, `MX-JAL`) usando geocodificación.
+- **Pipeline Automatizado**: Se ejecuta en GitHub Actions para mantener los datos actualizados cada 6 horas.
+- **Interfaz Web Moderna**: UI con estilo de terminal con calendario visual integrado.
 
-## 🛠️ Quick Start
+## ⚙️ Cómo Funciona (Pipeline)
+
+Para entender la arquitectura central en 30 segundos:
+1. **Entrada:** El script lee una lista plana de URLs objetivo desde `config/feeds.yaml` y entradas manuales opcionales.
+2. **Extracción:** Delega la descarga en paralelo a Extractores específicos (Meetup, Luma, Eventbrite, Generic ICS).
+3. **Procesamiento:** Los eventos se normalizan, geocodifican para determinar su Estado/Región, y se deduplican usando Hash Keys estrictas (Título + Bloque de Tiempo).
+4. **Salida:** Se exportan archivos limpios ICS y JSON a `gh-pages/data/` (calendarios Unificados y por Estado) y se despliegan vía GitHub Actions.
+
+## 🛠️ Inicio Rápido
 
 ### Requisitos
 
@@ -68,29 +78,31 @@ make run-all
 make help
 ```
 
-This generates:
-- `cronquiles-mexico.ics` (Unified)
-- `cronquiles-mx-cmx.ics` (Mexico City)
+Esto genera:
+- `cronquiles-mexico.ics` (Unificado)
+- `cronquiles-mx-cmx.ics` (Ciudad de México)
 - `cronquiles-mx-jal.ics` (Jalisco)
-- `states_metadata.json` (Frontend Manifest)
+- `states_metadata.json` (Manifiesto del Frontend)
 
-## 📚 Documentation
+## 📚 Documentación
 
-Detailed documentation is available in the `docs/` directory:
+La documentación detallada está disponible en los directorios `.agents/instructions/` y `docs/`:
 
-| Topic | Description | Link |
+| Tema | Descripción | Enlace |
 | :--- | :--- | :--- |
-| **Architecture** | Technical specifications and logic details | [AGENTS.md](docs/AGENTS.md) |
-| **Structure** | Directory layout and module explanation | [PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md) |
-| **Communities** | List of integrated communities and their status | [COMMUNITIES.md](docs/COMMUNITIES.md) |
-| **Manual Events** | Guide to adding events manually via JSON | [MANUAL_EVENTS.md](docs/MANUAL_EVENTS.md) |
-| **Deployment** | GitHub Pages & Actions setup guide | [GITHUB_PAGES_SETUP.md](docs/GITHUB_PAGES_SETUP.md) |
+| **Arquitectura del Pipeline** | Especificaciones técnicas y detalles lógicos | [08-pipeline-architecture.md](.agents/instructions/08-pipeline-architecture.md) |
+| **Estructura** | Disposición de directorios y explicación de módulos | [09-project-structure.md](.agents/instructions/09-project-structure.md) |
+| **Comunidades** | Lista de comunidades integradas y su estado | [COMMUNITIES.md](docs/COMMUNITIES.md) |
+| **Eventos Manuales** | Guía para agregar eventos manualmente vía JSON | [MANUAL_EVENTS.md](docs/MANUAL_EVENTS.md) |
+| **Despliegue** | Guía de configuración de GitHub Pages & Actions | [GITHUB_PAGES_SETUP.md](docs/GITHUB_PAGES_SETUP.md) |
 
-## 🤝 Contributing
+## 🤝 Contribución
 
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to propose changes.
+¡Agradecemos las contribuciones! Por favor, consulta [CONTRIBUTING.md](CONTRIBUTING.md) para más detalles sobre cómo proponer cambios.
 
-## 👥 Contributors
+**🤖 Agentic Workspace:** Este repositorio está estructurado como un espacio de trabajo listo para IA. Si utilizas asistentes de IA (Cursor, Windsurf, Copilot, Claude), estos leerán automáticamente nuestro archivo `AI.md` y navegarán por nuestra base de conocimiento `.agents/` para asegurar que su código cumpla con nuestros estrictos estándares arquitectónicos.
+
+## 👥 Contribuidores
 
 - **Ricardo Lira** ([@richlira](https://github.com/richlira))
 - **Ivan Galaviz** ([@ivanovishado](https://github.com/ivanovishado))
@@ -102,4 +114,4 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for deta
 
 ---
 
-*Built with ❤️ for the Mexican Tech Community.*
+*Hecho con ❤️ para la Comunidad Tecnológica de México.*

@@ -8,7 +8,7 @@ import { i18n } from './core/I18n.js';
 import { appStore } from './core/Store.js';
 import { DataService } from './services/DataService.js';
 import { Storage } from './services/Storage.js';
-import { Calendar } from './ui/Calendar.js';
+import { Calendar } from './ui/Calendar.js?v=2';
 import { CommunityList } from './ui/CommunityList.js';
 import { Header } from './ui/Header.js';
 
