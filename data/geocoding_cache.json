@@ -13136,5 +13136,91 @@
       "sublocality",
       "sublocality_level_1"
     ]
+  },
+  "Polanco I Sección, Ciudad de México, México": {
+    "address_components": [
+      {
+        "long_name": "Polanco I Sección",
+        "short_name": "Polanco I Secc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Polanco",
+        "short_name": "Polanco",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "11510",
+        "short_name": "11510",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Polanco, Polanco I Secc, 11510 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.4388936,
+          "lng": -99.2059754
+        },
+        "southwest": {
+          "lat": 19.4328328,
+          "lng": -99.2141599
+        }
+      },
+      "location": {
+        "lat": 19.4376344,
+        "lng": -99.20998209999999
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4388936,
+          "lng": -99.2059754
+        },
+        "southwest": {
+          "lat": 19.4328328,
+          "lng": -99.2141599
+        }
+      }
+    },
+    "place_id": "ChIJkaCv6BgC0oUReBIVz9H0tsA",
+    "types": [
+      "political",
+      "sublocality",
+      "sublocality_level_1"
+    ]
   }
 }
