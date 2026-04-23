@@ -13,3 +13,6 @@ Todo Pull Request o modificación hecha por humanos o Agentes en `cron-quiles` d
 
 4. Archivos generados:
    Bajo ningún motivo debes comitear el resultado de `/data/` (especialmente `cronquiles-mexico.ics` o `.json`) dentro de un PR. Estas salidas son administradas y comiteadas exclusivamente por el pipeline de GitHub Actions en la rama de despliegue.
+
+5. **Pull Requests**:
+   Cada vez que se cree un Pull Request (PR), es **obligatorio** utilizar el template ubicado en `.github/PULL_REQUEST_TEMPLATE.md`. El Agente debe leer este archivo y completar todas las secciones correspondientes (Descripción, Tipo de Cambio, Checklist, etc.) para asegurar la consistencia y calidad de la documentación del cambio.
