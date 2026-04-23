@@ -13058,5 +13058,83 @@
       "sublocality",
       "sublocality_level_1"
     ]
+  },
+  "Juárez, Ciudad de México, México": {
+    "address_components": [
+      {
+        "long_name": "Juárez",
+        "short_name": "Juárez",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06600",
+        "short_name": "06600",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Juárez, 06600 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.4355288,
+          "lng": -99.149745
+        },
+        "southwest": {
+          "lat": 19.420806,
+          "lng": -99.1764159
+        }
+      },
+      "location": {
+        "lat": 19.426753,
+        "lng": -99.16184489999999
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4355288,
+          "lng": -99.149745
+        },
+        "southwest": {
+          "lat": 19.420806,
+          "lng": -99.1764159
+        }
+      }
+    },
+    "place_id": "ChIJBwSKbzT_0YURL8cF7c7Nctk",
+    "types": [
+      "political",
+      "sublocality",
+      "sublocality_level_1"
+    ]
   }
 }
