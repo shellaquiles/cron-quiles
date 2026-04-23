@@ -11,6 +11,7 @@ import { Storage } from './services/Storage.js';
 import { Calendar } from './ui/Calendar.js?v=2';
 import { CommunityList } from './ui/CommunityList.js';
 import { Header } from './ui/Header.js';
+import { Terminal } from './ui/Terminal.js';
 
 function getPage() {
     const p = (window.location.pathname || '').toLowerCase();
@@ -24,6 +25,7 @@ class App {
     constructor() {
         this.page = getPage();
         this.header = new Header();
+        this.terminal = new Terminal();
         this.calendar = document.getElementById('calendar-container') ? new Calendar('calendar-container') : null;
         this.communityList = document.getElementById('communities-grid') ? new CommunityList('communities-grid') : null;
 

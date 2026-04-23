@@ -27,7 +27,8 @@ export class DataService {
      * @returns {Promise<Object>} Datos del JSON
      */
     static async getCityData(city) {
-        const url = CONFIG.PATHS.getDataUrl(city);
+        const citySlug = (city || '').toLowerCase();
+        const url = CONFIG.PATHS.getDataUrl(citySlug);
 
         try {
             const response = await fetch(url);
@@ -50,7 +51,8 @@ export class DataService {
      * @returns {Promise<Date|null>}
      */
     static async getLastModified(city) {
-        const url = CONFIG.PATHS.getIcsUrl(city);
+        const citySlug = (city || '').toLowerCase();
+        const url = CONFIG.PATHS.getIcsUrl(citySlug);
         try {
             const response = await fetch(url, { method: 'HEAD' });
             const lastModified = response.headers.get('last-modified');

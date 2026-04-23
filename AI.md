@@ -29,4 +29,5 @@ make install-dev  # Install uv dependencies
 make run-all      # Run full aggregation locally
 make test         # Run test suite
 make format       # Format code (Black)
+make serve        # Serve UI locally (use browser console 'eventos' to debug)
 ```

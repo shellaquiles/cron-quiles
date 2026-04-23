@@ -33,6 +33,7 @@ Cron-Quiles es una herramienta de código abierto diseñada para unificar el fra
 - **Generación Dinámica de Estados**: Categoriza automáticamente los eventos por estado (ej. `MX-CMX`, `MX-JAL`) usando geocodificación.
 - **Pipeline Automatizado**: Se ejecuta en GitHub Actions para mantener los datos actualizados cada 6 horas.
 - **Interfaz Web Moderna**: UI con estilo de terminal con calendario visual integrado.
+- **Consola para Desarrolladores**: Interfaz interactiva vía DevTools para consultas rápidas de eventos y comunidades (ej: escribe `eventos` o `eventos.next` en la consola del navegador).
 
 ## ⚙️ Cómo Funciona (Pipeline)
 

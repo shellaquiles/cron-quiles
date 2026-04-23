@@ -9,7 +9,10 @@
     font-weight: bold;
     display: flex;
     align-items: center;
-    animation: fadeIn 0.5s ease-in;
+}
+
+.prompt.fade-in {
+    animation: fadeIn 0.5s ease-in forwards;
 }
 
 .prompt .cursor {
@@ -27,10 +30,22 @@
     color: var(--terminal-green);
     margin-bottom: var(--spacing-xl);
     white-space: pre-line;
-    animation: fadeIn 1s ease-in;
     padding-left: var(--spacing-lg);
     border-left: 2px solid var(--terminal-green);
     margin-left: var(--spacing-lg);
+}
+
+.output.fade-in {
+    animation: fadeIn 1s ease-in forwards;
+}
+/* Animated Terminal (Landing Page) */
+.home-content .output {
+    display: none;
+    opacity: 0;
+}
+
+.home-content .command-text {
+    visibility: hidden;
 }
 
 .output h2 {
