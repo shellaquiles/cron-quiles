@@ -104,11 +104,21 @@ class HistoryManager:
                     merged_event["location"] = old_loc
 
                 # Regla 2: Preservar metadatos geográficos si el nuevo está vacío o es menos detallado
-                geo_fields = ["address", "city", "city_code", "state", "state_code", "country", "country_code"]
+                geo_fields = [
+                    "address",
+                    "city",
+                    "city_code",
+                    "state",
+                    "state_code",
+                    "country",
+                    "country_code",
+                ]
                 for field in geo_fields:
                     old_val = existing_event.get(field, "")
                     new_val = merged_event.get(field, "")
-                    if old_val and (not new_val or len(str(old_val)) > len(str(new_val))):
+                    if old_val and (
+                        not new_val or len(str(old_val)) > len(str(new_val))
+                    ):
                         merged_event[field] = old_val
 
                 # Regla 3: Preservar título si es más detallado (ej. incluye ciudad)

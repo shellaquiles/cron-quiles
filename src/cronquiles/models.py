@@ -103,7 +103,7 @@ def get_platform_label(platform: str) -> str:
         "meetup": "Ver en Meetup",
         "luma": "Ver en Luma",
         "eventbrite": "Ver en Eventbrite",
-        "website": "Ver sitio web"
+        "website": "Ver sitio web",
     }
     return labels.get(platform, "Ver sitio web")
 
@@ -1380,11 +1380,13 @@ class EventNormalized:
         sources_with_platform = []
         for source_url in self.sources:
             platform = detect_platform(source_url)
-            sources_with_platform.append({
-                "platform": platform,
-                "url": source_url,
-                "label": get_platform_label(platform)
-            })
+            sources_with_platform.append(
+                {
+                    "platform": platform,
+                    "url": source_url,
+                    "label": get_platform_label(platform),
+                }
+            )
 
         return {
             "title": self._format_title(),

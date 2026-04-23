@@ -366,7 +366,10 @@ def main():
     parser.add_argument(
         "--fast",
         action="store_true",
-        help="Modo rápido: sin enriquecimiento de ubicación (Luma/Meetup) y sin geocoding de historial. Reduce tiempo de ejecución.",
+        help=(
+            "Modo rápido: sin enriquecimiento de ubicación (Luma/Meetup) y sin geocoding de historial. "
+            "Reduce tiempo de ejecución."
+        ),
     )
 
     parser.add_argument(

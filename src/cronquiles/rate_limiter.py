@@ -25,7 +25,9 @@ class RateLimiter:
             self._last_request = time.monotonic()
 
 
-def enrich_with_backoff(event, enrich_fn, rate_limiter: RateLimiter, max_retries: int = 3):
+def enrich_with_backoff(
+    event, enrich_fn, rate_limiter: RateLimiter, max_retries: int = 3
+):
     """
     Ejecuta una función de enriquecimiento con rate limiting y backoff exponencial.
 
@@ -42,8 +44,12 @@ def enrich_with_backoff(event, enrich_fn, rate_limiter: RateLimiter, max_retries
             return
         except Exception as e:
             if attempt < max_retries - 1:
-                wait = 2 ** attempt
-                logger.debug(f"Reintentando enriquecimiento (intento {attempt + 1}): {e}")
+                wait = 2**attempt
+                logger.debug(
+                    f"Reintentando enriquecimiento (intento {attempt + 1}): {e}"
+                )
                 time.sleep(wait)
             else:
-                logger.warning(f"Error enriqueciendo después de {max_retries} intentos: {e}")
+                logger.warning(
+                    f"Error enriqueciendo después de {max_retries} intentos: {e}"
+                )

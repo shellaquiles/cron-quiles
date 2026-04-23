@@ -21,7 +21,7 @@ from cronquiles.ics_aggregator import (
     ICSAggregator,
     extract_community_url,
     detect_platform_from_url,
-    get_platform_label_for_community
+    get_platform_label_for_community,
 )
 
 
@@ -129,12 +129,16 @@ class TestCommunityURLExtraction(unittest.TestCase):
         result = extract_community_url("https://www.meetup.com/ai-cdmx/events/ical")
         self.assertEqual(result, "https://www.meetup.com/ai-cdmx")
 
-        result = extract_community_url("https://www.meetup.com/python-mexico/events/ical")
+        result = extract_community_url(
+            "https://www.meetup.com/python-mexico/events/ical"
+        )
         self.assertEqual(result, "https://www.meetup.com/python-mexico")
 
     def test_extract_luma_api_url(self):
         """Test de extracción de URL de Luma desde la API ICS."""
-        result = extract_community_url("https://api2.luma.com/ics/get?entity=calendar&id=cal-gKhhS6fDDrX3mqz")
+        result = extract_community_url(
+            "https://api2.luma.com/ics/get?entity=calendar&id=cal-gKhhS6fDDrX3mqz"
+        )
         self.assertEqual(result, "https://lu.ma/cal-gKhhS6fDDrX3mqz")
 
     def test_extract_luma_direct_url(self):
@@ -147,17 +151,28 @@ class TestCommunityURLExtraction(unittest.TestCase):
 
     def test_extract_eventbrite_url(self):
         """Test de URLs de Eventbrite (sin transformación)."""
-        result = extract_community_url("https://www.eventbrite.com.mx/o/epam-27283356907")
+        result = extract_community_url(
+            "https://www.eventbrite.com.mx/o/epam-27283356907"
+        )
         self.assertEqual(result, "https://www.eventbrite.com.mx/o/epam-27283356907")
 
     def test_detect_platform(self):
         """Test de detección de plataforma desde URL."""
-        self.assertEqual(detect_platform_from_url("https://www.meetup.com/ai-cdmx"), "meetup")
+        self.assertEqual(
+            detect_platform_from_url("https://www.meetup.com/ai-cdmx"), "meetup"
+        )
         self.assertEqual(detect_platform_from_url("https://lu.ma/cal-123"), "luma")
         self.assertEqual(detect_platform_from_url("https://luma.com/ai-cdmx"), "luma")
-        self.assertEqual(detect_platform_from_url("https://api2.luma.com/ics/get?id=123"), "luma")
-        self.assertEqual(detect_platform_from_url("https://www.eventbrite.com.mx/o/123"), "eventbrite")
-        self.assertEqual(detect_platform_from_url("https://other-site.com/events"), "website")
+        self.assertEqual(
+            detect_platform_from_url("https://api2.luma.com/ics/get?id=123"), "luma"
+        )
+        self.assertEqual(
+            detect_platform_from_url("https://www.eventbrite.com.mx/o/123"),
+            "eventbrite",
+        )
+        self.assertEqual(
+            detect_platform_from_url("https://other-site.com/events"), "website"
+        )
 
     def test_get_platform_label(self):
         """Test de etiquetas de plataforma para comunidades."""

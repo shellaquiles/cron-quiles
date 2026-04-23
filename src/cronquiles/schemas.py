@@ -7,6 +7,7 @@ from typing import TypedDict, List, Optional
 
 class CommunityLinkSchema(TypedDict):
     """Esquema de un enlace a la plataforma de una comunidad."""
+
     platform: str  # "meetup", "luma", "eventbrite", "website"
     url: str
     label: str  # "Ver en Meetup", etc.
@@ -14,6 +15,7 @@ class CommunityLinkSchema(TypedDict):
 
 class SourceSchema(TypedDict):
     """Esquema de una fuente/plataforma de un evento."""
+
     platform: str  # "meetup", "luma", "eventbrite", "website"
     url: str
     label: str  # "Ver en Meetup", etc.

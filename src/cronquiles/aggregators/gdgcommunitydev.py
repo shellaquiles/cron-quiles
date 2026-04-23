@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 class GdgCommunityDev(BaseAggregator):
     """
-    Extractor de eventos de GdgCommunityDev que utilizan los GDG. 
+    Extractor de eventos de GdgCommunityDev que utilizan los GDG.
     Usa el api publico para recabar los eventos.
     """
 
@@ -33,8 +33,7 @@ class GdgCommunityDev(BaseAggregator):
             List of normalized events
         """
         url = source if isinstance(source, str) else source.get("url")
-        name = feed_name or (source.get(
-            "name") if isinstance(source, dict) else None)
+        name = feed_name or (source.get("name") if isinstance(source, dict) else None)
 
         if not url:
             return []
@@ -44,18 +43,22 @@ class GdgCommunityDev(BaseAggregator):
             response = self.session.get(url, timeout=20)
             response.raise_for_status()
             data = response.text
-            match = re.search(
-                r"Globals\.chapter_id\s*=\s*['\"](\d+)['\"]", data)
+            match = re.search(r"Globals\.chapter_id\s*=\s*['\"](\d+)['\"]", data)
             if not match:
                 logger.warning(f"No chapter_id found in HTML for {name}")
                 return []
             chapter_id = match.group(1)
-            api_url = f'https://gdg.community.dev/api/event_slim/for_chapter/{chapter_id}?status=Live&include_cohosted_events=true&visible_on_parent_chapter_only=true&order=start_date&fields=title,start_date_iso,end_date_iso,event_type_title,url,description_short,venue_name,venue_address,venue_city,venue_zip_code,chapter_title,audience_type,tags'
+            api_url = (
+                f"https://gdg.community.dev/api/event_slim/for_chapter/{chapter_id}?"
+                "status=Live&include_cohosted_events=true&visible_on_parent_chapter_only=true&"
+                "order=start_date&fields=title,start_date_iso,end_date_iso,event_type_title,url,"
+                "description_short,venue_name,venue_address,venue_city,venue_zip_code,chapter_title,audience_type,tags"
+            )
             response = self.session.get(api_url, timeout=20)
             response.raise_for_status()
             data = response.json()
 
-            if data['count'] == 0:
+            if data["count"] == 0:
                 return []
             events = []
             raw_events = data.get("results", [])
@@ -65,7 +68,8 @@ class GdgCommunityDev(BaseAggregator):
                     events.append(event_norm)
                 except Exception as e:
                     logger.error(
-                        f"Error converting GdgCommunityDev event from {url}: {e}")
+                        f"Error converting GdgCommunityDev event from {url}: {e}"
+                    )
             return events
         except Exception as e:
             logger.error(f"Failed to process GdgCommunityDev feed {url}: {e}")
@@ -78,7 +82,7 @@ class GdgCommunityDev(BaseAggregator):
 
         location_str = None
         audience_type = raw.get("audience_type")
-        if audience_type and audience_type in ['IN_PERSON', 'HYBRID']:
+        if audience_type and audience_type in ["IN_PERSON", "HYBRID"]:
             loc_parts = []
             if raw.get("venue_name"):
                 loc_parts.append(raw["venue_name"])
@@ -87,9 +91,9 @@ class GdgCommunityDev(BaseAggregator):
             if raw.get("venue_city"):
                 loc_parts.append(raw["venue_city"])
             if loc_parts:
-                location_str = ", ".join(loc_parts) 
-        
-        if location_str is None and audience_type in ['VIRTUAL', 'HYBRID']:
+                location_str = ", ".join(loc_parts)
+
+        if location_str is None and audience_type in ["VIRTUAL", "HYBRID"]:
             location_str = "Online"
 
         mapped_data = {
@@ -98,12 +102,12 @@ class GdgCommunityDev(BaseAggregator):
             "dtstart": raw.get("start_date_iso"),
             "dtend": raw.get("end_date_iso"),
             "location": location_str,
-            "url": raw.get('url'),
+            "url": raw.get("url"),
             "source": "GdgCommunityDev",
-            "organizer": raw.get('chapter_title'),
+            "organizer": raw.get("chapter_title"),
             "tags": raw.get("tags", []),
             # Hay que asegurarnos de solo agregar GDG de México
-            "country_code": "MX"
+            "country_code": "MX",
         }
 
         event_norm = EventNormalized.from_dict(mapped_data)

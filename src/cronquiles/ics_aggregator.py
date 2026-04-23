@@ -11,7 +11,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional
 import requests
 from dateutil import tz
 from icalendar import Calendar
@@ -67,19 +67,19 @@ def extract_community_url(feed_url: str) -> str:
     # Meetup: extraer slug del grupo
     if "meetup.com" in host:
         # Patrón: /slug/events/ical o /slug/events/
-        match = re.match(r'^/([^/]+)/events/?(?:ical)?$', path)
+        match = re.match(r"^/([^/]+)/events/?(?:ical)?$", path)
         if match:
             slug = match.group(1)
             return f"https://www.meetup.com/{slug}"
         # Si no coincide, devolver la URL sin /events/ical
-        clean_path = re.sub(r'/events/?(?:ical)?$', '', path)
+        clean_path = re.sub(r"/events/?(?:ical)?$", "", path)
         return f"https://www.meetup.com{clean_path}"
 
     # Luma API: extraer ID del calendario
     if "api2.luma.com" in host:
         # Patrón: /ics/get?entity=calendar&id={id}
         query_params = parse_qs(parsed.query)
-        calendar_id = query_params.get('id', [''])[0]
+        calendar_id = query_params.get("id", [""])[0]
         if calendar_id:
             return f"https://lu.ma/{calendar_id}"
         return feed_url
@@ -132,7 +132,7 @@ def get_platform_label_for_community(platform: str) -> str:
         "meetup": "Meetup",
         "luma": "Luma",
         "eventbrite": "Eventbrite",
-        "website": "Sitio web"
+        "website": "Sitio web",
     }
     return labels.get(platform, "Sitio web")
 
@@ -148,9 +148,7 @@ def _aggregator_key_for_url(url: str) -> str:
         and "ical" not in url
     ):
         return "eventbrite"
-    if "eventbrite." in url and (
-        "eventbrite.com" in url or "eventbrite.com.mx" in url
-    ):
+    if "eventbrite." in url and ("eventbrite.com" in url or "eventbrite.com.mx" in url):
         return "eventbrite"
     if "lu.ma" in url or "luma.com" in url:
         return "luma"
@@ -185,9 +183,7 @@ def _extract_one_feed(
             session, timeout, max_retries, luma_url_cache, skip_enrich=skip_enrich
         )
     elif agg_key == "meetup":
-        agg = MeetupAggregator(
-            session, timeout, max_retries, skip_enrich=skip_enrich
-        )
+        agg = MeetupAggregator(session, timeout, max_retries, skip_enrich=skip_enrich)
     elif agg_key == "hievents":
         agg = HiEventsAggregator(session)
     elif agg_key == "gdgcommunitydev":
@@ -554,7 +550,7 @@ class ICSAggregator:
                 if name not in community_data:
                     community_data[name] = {
                         "description": f.get("description", ""),
-                        "links": []
+                        "links": [],
                     }
 
                 # Extraer URL navegable y detectar plataforma
@@ -567,7 +563,9 @@ class ICSAggregator:
                         community_url = luma_vanity_cache[feed_url]
                     else:
                         community_url = extract_community_url(feed_url)
-                    platform = detect_platform_from_url(explicit_community_url or feed_url)
+                    platform = detect_platform_from_url(
+                        explicit_community_url or feed_url
+                    )
                     label = get_platform_label_for_community(platform)
 
                     # No agregar links de Luma con formato cal-xxx (no funcionan como landing pages)
@@ -575,22 +573,20 @@ class ICSAggregator:
                         continue
 
                     # Agregar link solo si no existe ya (evitar duplicados)
-                    existing_urls = [link["url"] for link in community_data[name]["links"]]
+                    existing_urls = [
+                        link["url"] for link in community_data[name]["links"]
+                    ]
                     if community_url and community_url not in existing_urls:
                         community_data[name]["links"].append(
                             CommunityLinkSchema(
-                                platform=platform,
-                                url=community_url,
-                                label=label
+                                platform=platform, url=community_url, label=label
                             )
                         )
 
         # Construir lista de comunidades con sus enlaces
         communities_list = [
             CommunitySchema(
-                name=name,
-                description=data["description"],
-                links=data["links"]
+                name=name, description=data["description"], links=data["links"]
             )
             for name, data in community_data.items()
         ]

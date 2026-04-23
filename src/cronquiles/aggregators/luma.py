@@ -23,7 +23,11 @@ class LumaAggregator(GenericICSAggregator):
         super().__init__(session, timeout, max_retries)
         self.skip_enrich = skip_enrich
         # Cache persistente compartido con ICSAggregator
-        self.url_cache = url_cache if url_cache is not None else {"url_conversions": {}, "vanity_urls": {}}
+        self.url_cache = (
+            url_cache
+            if url_cache is not None
+            else {"url_conversions": {}, "vanity_urls": {}}
+        )
         # Mantener referencia directa para compatibilidad
         self.vanity_url_cache: Dict[str, str] = self.url_cache["vanity_urls"]
 
@@ -49,7 +53,7 @@ class LumaAggregator(GenericICSAggregator):
 
             # Extraer calendar ID
             query_params = parse_qs(parsed.query)
-            calendar_id = query_params.get('id', [''])[0]
+            calendar_id = query_params.get("id", [""])[0]
             if not calendar_id:
                 return None
 
@@ -57,7 +61,9 @@ class LumaAggregator(GenericICSAggregator):
             calendar_page_url = f"https://lu.ma/{calendar_id}"
             logger.info(f"Buscando URL vanity para: {calendar_page_url}")
 
-            response = self.session.get(calendar_page_url, timeout=self.timeout, allow_redirects=True)
+            response = self.session.get(
+                calendar_page_url, timeout=self.timeout, allow_redirects=True
+            )
             if response.status_code != 200:
                 return None
 
@@ -72,7 +78,9 @@ class LumaAggregator(GenericICSAggregator):
             html = response.text
 
             # Buscar <link rel="canonical" href="...">
-            canonical_match = re.search(r'<link[^>]+rel=["\']canonical["\'][^>]+href=["\']([^"\']+)["\']', html)
+            canonical_match = re.search(
+                r'<link[^>]+rel=["\']canonical["\'][^>]+href=["\']([^"\']+)["\']', html
+            )
             if canonical_match:
                 canonical_url = canonical_match.group(1)
                 if calendar_id not in canonical_url:
@@ -80,7 +88,10 @@ class LumaAggregator(GenericICSAggregator):
                     return canonical_url
 
             # Buscar og:url meta tag
-            og_match = re.search(r'<meta[^>]+property=["\']og:url["\'][^>]+content=["\']([^"\']+)["\']', html)
+            og_match = re.search(
+                r'<meta[^>]+property=["\']og:url["\'][^>]+content=["\']([^"\']+)["\']',
+                html,
+            )
             if og_match:
                 og_url = og_match.group(1)
                 if calendar_id not in og_url:
@@ -107,7 +118,9 @@ class LumaAggregator(GenericICSAggregator):
             conversion_cache = self.url_cache.get("url_conversions", {})
             if url in conversion_cache:
                 cached_api_url = conversion_cache[url]
-                logger.info(f"URL de Luma encontrada en cache: {url} -> {cached_api_url}")
+                logger.info(
+                    f"URL de Luma encontrada en cache: {url} -> {cached_api_url}"
+                )
                 return cached_api_url
 
             # 2. Cache miss: obtener del HTML
@@ -118,14 +131,18 @@ class LumaAggregator(GenericICSAggregator):
                     html = response.text
                     # Buscar calendar ID en el HTML
                     # Patrón 1: app-argument=luma://calendar/cal-XXXXX
-                    match = re.search(r'app-argument=luma://calendar/(cal-[a-zA-Z0-9]+)', html)
+                    match = re.search(
+                        r"app-argument=luma://calendar/(cal-[a-zA-Z0-9]+)", html
+                    )
                     if not match:
                         # Patrón 2: cal-XXXXX en el HTML (puede estar en varios lugares)
                         # Buscar todos los calendar IDs y tomar el primero que sea válido
-                        all_cal_ids = re.findall(r'\b(cal-[a-zA-Z0-9]{15,})\b', html)
+                        all_cal_ids = re.findall(r"\b(cal-[a-zA-Z0-9]{15,})\b", html)
                         if all_cal_ids:
                             # Usar el primer calendar ID encontrado
-                            match = type('Match', (), {'group': lambda self, n: all_cal_ids[0]})()
+                            match = type(
+                                "Match", (), {"group": lambda self, n: all_cal_ids[0]}
+                            )()
                     if match:
                         calendar_id = match.group(1)
                         ics_url = f"https://api2.luma.com/ics/get?entity=calendar&id={calendar_id}"
