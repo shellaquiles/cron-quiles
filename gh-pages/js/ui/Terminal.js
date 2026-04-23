@@ -47,10 +47,9 @@ export class Terminal {
 
         const about = () => {
             setTimeout(() => {
-                logShellaquiles();
                 console.log(logo, 'color: #00ff00;');
                 console.log(`%c🐢 Cron-Quiles v1.1.0 | El Eslabón Perdido de los Meetups en México`, 'color: #00ff00; font-weight: bold; font-size: 1.2em;');
-                console.log(`%cEste es un proyecto de shellaquiles.org para centralizar la sabiduría colectiva.`, 'color: #00ff00; font-style: italic;');
+                console.log(`%cCentralizando la sabiduría colectiva de la comunidad tech.`, 'color: #00ff00; font-style: italic;');
                 console.log(`%cFuentes actuales: %cMeetup.com, Luma.com, Eventbrite, Google Calendar, iCal Feeds.`, 'color: #aaa;', 'color: #00ff00;');
             }, 0);
             return "Propiedad de Shellaquiles.org - Colaboración o Muerte.";
@@ -71,10 +70,12 @@ export class Terminal {
                 const data = await DataService.getCityData(citySlug);
                 const events = Array.isArray(data) ? data : (data.events || []);
                 
-                // Filter events by the target month
+                // Filter events by the target month and exclude online events
                 const filteredEvents = events.filter(e => {
                     const d = new Date(e.dtstart);
-                    return d.getFullYear() === targetDate.getFullYear() && d.getMonth() === targetDate.getMonth();
+                    const isSameMonth = d.getFullYear() === targetDate.getFullYear() && d.getMonth() === targetDate.getMonth();
+                    const isPresencial = !e.online;
+                    return isSameMonth && isPresencial;
                 }).sort((a, b) => new Date(a.dtstart) - new Date(b.dtstart));
 
                 if (filteredEvents.length === 0) {
@@ -102,7 +103,7 @@ export class Terminal {
                         };
                     });
 
-                    console.log(`%c[DATA] Se encontraron ${filteredEvents.length} eventos en ${monthName}:`, 'color: #00ff00;');
+                    console.log(`%c[DATA] Se encontraron ${filteredEvents.length} eventos presenciales en ${monthName}:`, 'color: #00ff00;');
                     console.table(formattedEvents);
                     console.log(`%cComandos: %ceventos.next%c (sig) | %ceventos.last%c (prev) | %ceventos.reset%c (actual)`, "color: #aaa;", "color: #00ff00;", "color: #aaa;", "color: #00ff00;", "color: #aaa;", "color: #00ff00;", "color: #aaa;");
                 }
@@ -132,6 +133,30 @@ export class Terminal {
             return listEvents(0);
         };
 
+        const regiones = async () => {
+            try {
+                const states = await DataService.getStatesMetadata();
+                console.log("%c🌍 Regiones disponibles:", "color: #00ff00; font-weight: bold;");
+                const list = states.map(s => ({
+                    slug: s.slug,
+                    nombre: s.name,
+                    eventos: s.event_count || s.count || '?'
+                }));
+                list.unshift({ slug: 'mexico', nombre: 'Todo México', eventos: 'Global' });
+                console.table(list);
+            } catch (e) {
+                console.log("%c[ERROR] No se pudieron cargar las regiones.", "color: #ff0000;");
+            }
+            return "Usa eventos.region('slug') para cambiar.";
+        };
+
+        const region = (slug) => {
+            if (!slug) return regiones();
+            appStore.set('city', slug.toLowerCase());
+            this.consoleMonthOffset = 0;
+            return listEvents(0);
+        };
+
         eventos.next = () => {
             this.consoleMonthOffset++;
             return listEvents(this.consoleMonthOffset);
@@ -143,6 +168,9 @@ export class Terminal {
         };
 
         eventos.last = eventos.prev; // Alias requested by user
+
+        eventos.region = region;
+        eventos.regiones = regiones;
 
         eventos.reset = () => {
             this.consoleMonthOffset = 0;
@@ -174,7 +202,6 @@ export class Terminal {
 
         const help = () => {
             setTimeout(() => {
-                logShellaquiles();
                 console.log(`
 %c┌──────────────────────────────────────────────────────────┐
 │            COMANDOS DE CONSOLA CRON-QUILES               │
@@ -184,6 +211,8 @@ export class Terminal {
 │  %ceventos("YYYY-MM")%c - Ir a un mes específico             │
 │  %ceventos.next()%c- Ver el mes siguiente                    │
 │  %ceventos.last()%c- Ver el mes anterior                     │
+│  %ceventos.region("slug")%c - Cambiar región (ej: "mexico") │
+│  %ceventos.regiones()%c     - Listar regiones disponibles   │
 │  %ccomunidades()%c- Los gremios tecnológicos                 │
 │  %csuscribir()%c  - Únete al flujo de datos                  │
 │  %cshellaquiles()%c - El logo sagrado                   │
@@ -230,12 +259,29 @@ export class Terminal {
             cronquiles: about
         };
 
+        const logProjectHeader = () => {
+            console.log(`%cCron-Quiles es un proyecto de %c{{ %cshell%caquiles%c.org %c}}`,
+                'color: #00ff00; font-weight: bold;',
+                'color: #9CA3AF; font-weight: bold;',
+                'color: #22C55E; font-weight: bold;',
+                'color: #E5E7EB; font-weight: bold;',
+                'color: #F43F5E; font-weight: bold;',
+                'color: #9CA3AF; font-weight: bold;'
+            );
+        };
+
         /**
          * Creates a console-friendly command wrapper
          */
         const createCommand = (name, cmdFunc) => {
             const wrapper = function(...args) {
-                return cmdFunc(...args);
+                const result = cmdFunc(...args);
+                if (result instanceof Promise) {
+                    result.finally(() => logProjectHeader());
+                } else {
+                    logProjectHeader();
+                }
+                return result;
             };
 
             // Recursively wrap sub-commands (like .next, .last) as GETTERS
@@ -255,8 +301,10 @@ export class Terminal {
             wrapper.toString = function() {
                 const result = cmdFunc();
                 if (result instanceof Promise) {
+                    result.finally(() => logProjectHeader());
                     return `[COMMAND] Ejecutando ${name}...`;
                 }
+                logProjectHeader();
                 return result || "";
             };
             
