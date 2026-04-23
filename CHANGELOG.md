@@ -8,7 +8,14 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 ## [Unreleased]
 
 ### Added
-- **Documentación del flujo**: Nuevo `docs/FLUJO.md` con el flujo completo del pipeline (entrada → agregación → salida) y actualización de la página (schedule, push, workflow). Actualizados `docs/PROJECT_STRUCTURE.md`, `docs/GITHUB_PAGES_SETUP.md`, `.github/workflows/README.md`, `gh-pages/README.md` y `gh-pages/README-LOCAL.md` para referenciar el flujo actual y corregir URLs/ejemplos.
+- **Terminal CLI (DX/UX)**:
+  - Consolidación del sistema de comandos con navegación mensual robusta (`eventos.next`, `eventos.last`, `eventos.reset`).
+  - Soporte multi-región dinámico (`eventos.region`, `eventos.regiones`) para alternar entre vista nacional y estados.
+  - Filtrado automático de eventos online en consola (ahora solo muestra actividades presenciales).
+  - Wrapper de comandos recursivo para eliminar errores de referencia y previsualización de funciones.
+  - Firma obligatoria de marca (Shellaquiles.org) al final de cada ejecución de comando.
+- **Identidad Visual**: Integración del logo sagrado triple-color en la consola y actualización del arte ASCII.
+- **Mantenimiento**: Corrección de linting (Python E501/F401) y formateo estricto con Black.
 - **Frontend / UX (gh-pages)**:
   - **Calendario interactivo**: Al hacer clic en un día del mes se desplaza la vista a la lista de eventos de ese día (scroll suave y resaltado breve). La lista de eventos se agrupa por día con anclas `#day-YYYY-MM-DD`.
   - **Fichas de evento**: Fecha visible primero (pill "día mes" + hora), badge de categoría/organizador, título, ubicación única (sin repetir Address ni Hosted by en la descripción). Reducción de redundancia bilingüe en descripciones.
