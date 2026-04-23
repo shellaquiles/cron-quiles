@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T13:03:29.605108+00:00",
+  "generated_at": "2026-04-23T18:57:03.781374+00:00",
   "total_events": 205,
   "city": "Ciudad de México",
   "communities": [
@@ -47,6 +47,17 @@
       "links": []
     },
     {
+      "name": "DevOps Workshop",
+      "description": "Aprende cómo aplicar diferentes tecnologías para construir un producto. En este grupo vas a mejorar tu conocimiento de diferentes sistemas operativos.",
+      "links": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/devops-workshop",
+          "label": "Meetup"
+        }
+      ]
+    },
+    {
       "name": "FinTech México",
       "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
@@ -59,17 +70,6 @@
           "platform": "luma",
           "url": "https://luma.com/02t893pf",
           "label": "Luma"
-        }
-      ]
-    },
-    {
-      "name": "HTML5 CDMX",
-      "description": "Desarrollo web, estándares W3C y tecnologías de frontend.",
-      "links": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/html5-ciudad-de-mexico",
-          "label": "Meetup"
         }
       ]
     },
@@ -118,11 +118,11 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
+          "url": "https://luma.com/e17fbtoo",
           "label": "Luma"
         }
       ]
@@ -2820,7 +2820,7 @@
       "dtstart": "2025-09-19T22:00:00+00:00",
       "dtend": "2025-09-20T00:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -2874,7 +2874,7 @@
       "dtstart": "2025-09-29T18:00:00+00:00",
       "dtend": "2025-09-29T19:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3547,7 +3547,7 @@
       "dtstart": "2025-11-18T23:00:00+00:00",
       "dtend": "2025-11-19T01:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4090,7 +4090,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4286,7 +4286,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4313,7 +4313,7 @@
       "dtstart": "2026-02-23T17:00:00+00:00",
       "dtend": "2026-02-23T18:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4340,7 +4340,7 @@
       "dtstart": "2026-02-23T18:00:00+00:00",
       "dtend": "2026-02-23T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4367,7 +4367,7 @@
       "dtstart": "2026-02-23T19:00:00+00:00",
       "dtend": "2026-02-23T20:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4397,7 +4397,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4427,7 +4427,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4454,7 +4454,7 @@
       "dtstart": "2026-02-24T00:00:00+00:00",
       "dtend": "2026-02-24T02:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4483,7 +4483,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4512,7 +4512,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4539,7 +4539,7 @@
       "dtstart": "2026-02-24T14:30:00+00:00",
       "dtend": "2026-02-24T16:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4568,7 +4568,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4598,7 +4598,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4743,7 +4743,7 @@
       "dtstart": "2026-02-25T15:00:00+00:00",
       "dtend": "2026-02-25T16:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4799,7 +4799,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4828,7 +4828,7 @@
       "tags": [
         "mobile"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4855,7 +4855,7 @@
       "dtstart": "2026-02-25T22:00:00+00:00",
       "dtend": "2026-02-25T23:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4882,7 +4882,7 @@
       "dtstart": "2026-02-26T00:00:00+00:00",
       "dtend": "2026-02-26T03:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4909,7 +4909,7 @@
       "dtstart": "2026-02-26T01:00:00+00:00",
       "dtend": "2026-02-26T04:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4936,7 +4936,7 @@
       "dtstart": "2026-02-27T15:00:00+00:00",
       "dtend": "2026-02-27T17:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4990,7 +4990,7 @@
       "dtstart": "2026-03-01T17:00:00+00:00",
       "dtend": "2026-03-01T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5050,7 +5050,7 @@
         "cloud",
         "python"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5526,7 +5526,7 @@
     },
     {
       "title": "Sudo FCiencias|compufest[1] - Charlas & Talleres|México|Ciudad de México",
-      "description": "Get up-to-date information at: https://luma.com/nlyxj7sm\n\nAddress:\nUNAM - Facultad De Ciencias\nAuditorio Barajas Celis + Por Definir\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Sudo FCiencias & 4 others",
+      "description": "Get up-to-date information at: https://luma.com/nlyxj7sm\n\nAddress:\nUNAM - Facultad De Ciencias\nAuditorio Barajas Celis + Por Definir\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Sudo FCiencias & 9 others",
       "url": "https://luma.com/nlyxj7sm",
       "sources": [
         {
@@ -5541,7 +5541,7 @@
       "dtstart": "2026-04-23T15:00:00+00:00",
       "dtend": "2026-04-23T21:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5585,33 +5585,32 @@
       "hash_key": "compufest 1_2026-04-23T14:00:00+00:00"
     },
     {
-      "title": "HTML5 CDMX|GitHub Copilot Dev Day CDMX|México|Ciudad de México",
-      "description": "HTML5 + JS  Ciudad de México\nBuen día,\n\nGitHub Copilot Dev Days 2026 es una serie global de talleres y charlas gratuitas , presenciales y dirigidos por la comunidad que se llevarán a cabo el próximo viernes 24 de abril en CDMX. Estos eventos de aproximadamente 3 horas ofrecen experiencia práctica con Copilot en VS Code/Visual Studio, centrados en flujos de trabajo asistidos por IA del mundo real, incluido el uso de la CLI y del Cloud Agent.\n\n12:00 - 12:15 Recepción\n12:15 - 15:15 Charlas y Demos\n15:00 - 16:00 Clausura y networking",
-      "url": "https://www.meetup.com/html5-ciudad-de-mexico/events/314399344/",
+      "title": "DevOps Workshop|GitHub Copilot Dev Day CDMX|México|Ciudad de México",
+      "description": "DevOps Workshop\nBuen día,\n\nGitHub Copilot Dev Days 2026 es una serie global de talleres y charlas gratuitas , presenciales y dirigidos por la comunidad que se llevarán a cabo el próximo viernes 24 de abril en CDMX. Estos eventos de aproximadamente 3 horas ofrecen experiencia práctica con Copilot en VS Code/Visual Studio, centrados en flujos de trabajo asistidos por IA del mundo real, incluido el uso de la CLI y del Cloud Agent.\n\n12:00 - 12:15 Recepción\n12:15 - 15:15 Charlas y Demos\n15:00 - 16:00 Clausura y networking\n\nLleven su máquina con Visual Studio Code, de preferencia, abran su cuenta de Copilot, la cual les da acceso a créditos.\nCafé, galletas y stickers cortesía de GitHub.",
+      "url": "https://www.meetup.com/devops-workshop/events/314399264/",
       "sources": [
-        {
-          "platform": "meetup",
-          "url": "https://www.meetup.com/html5-ciudad-de-mexico/events/314399344/",
-          "label": "Ver en Meetup"
-        },
         {
           "platform": "meetup",
           "url": "https://www.meetup.com/devops-workshop/events/314399264/",
           "label": "Ver en Meetup"
+        },
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/html5-ciudad-de-mexico/events/314399344/",
+          "label": "Ver en Meetup"
         }
       ],
-      "location": "KMMX BC146, Baja California 146 Oficina 501 Col.Roma Sur, Mexico City, Mexico City",
+      "location": "KMMX BC146, Eje 3 Baja California 146 Oficina 501 Col. Roma Sur, Mexico City, Mexico City",
       "online": false,
-      "organizer": "HTML5 CDMX",
+      "organizer": "DevOps Workshop",
       "dtstart": "2026-04-24T12:00:00-06:00",
       "dtend": "2026-04-24T15:00:00-06:00",
       "tags": [
-        "ai",
         "cloud",
-        "frontend",
-        "web"
+        "devops",
+        "frontend"
       ],
-      "source": "https://www.meetup.com/html5-ciudad-de-mexico/events/ical",
+      "source": "https://www.meetup.com/devops-workshop/events/ical",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
