@@ -13222,5 +13222,66 @@
       "sublocality",
       "sublocality_level_1"
     ]
+  },
+  "Villahermosa, Villahermosa, Villahermosa": {
+    "address_components": [
+      {
+        "long_name": "Villahermosa",
+        "short_name": "Villahermosa",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Tabasco",
+        "short_name": "Tab.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "Villahermosa, Tab., México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 18.0472195,
+          "lng": -92.8851237
+        },
+        "southwest": {
+          "lat": 17.937849,
+          "lng": -93.02133769999999
+        }
+      },
+      "location": {
+        "lat": 17.989456,
+        "lng": -92.9475061
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 18.0472195,
+          "lng": -92.8851237
+        },
+        "southwest": {
+          "lat": 17.937849,
+          "lng": -93.02133769999999
+        }
+      }
+    },
+    "place_id": "ChIJUwZC15bX7YURlOiKVWJ7YPU",
+    "types": [
+      "locality",
+      "political"
+    ]
   }
 }

@@ -3,8 +3,8 @@
     "code": "mexico",
     "name": "México",
     "slug": "mexico",
-    "event_count": 417,
-    "future_event_count": 54,
+    "event_count": 420,
+    "future_event_count": 55,
     "active_months": [
       "2023-02",
       "2023-03",
@@ -57,8 +57,8 @@
     "code": "MX-CMX",
     "name": "Ciudad de México",
     "slug": "mx-cmx",
-    "event_count": 205,
-    "future_event_count": 15,
+    "event_count": 206,
+    "future_event_count": 16,
     "active_months": [
       "2024-09",
       "2024-10",
@@ -108,7 +108,7 @@
     "name": "MX-BC",
     "slug": "mx-bc",
     "event_count": 1,
-    "future_event_count": 1,
+    "future_event_count": 0,
     "active_months": [
       "2026-04"
     ],
@@ -153,7 +153,7 @@
     "name": "Online",
     "slug": "online",
     "event_count": 167,
-    "future_event_count": 28,
+    "future_event_count": 27,
     "active_months": [
       "2023-02",
       "2023-03",
@@ -219,6 +219,17 @@
       "2026-04"
     ],
     "emoji": "🌋"
+  },
+  {
+    "code": "MX-TAB",
+    "name": "Tabasco",
+    "slug": "mx-tab",
+    "event_count": 2,
+    "future_event_count": 2,
+    "active_months": [
+      "2026-05"
+    ],
+    "emoji": "🌵"
   },
   {
     "code": "MX-VER",

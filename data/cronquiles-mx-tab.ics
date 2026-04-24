@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cron-Quiles//ICS Aggregator//EN
+CALSCALE:GREGORIAN
+X-WR-CALDESC:Calendario unificado de eventos tech en Tabasco\, México
+X-WR-CALNAME:Eventos Tech Tabasco - cronquiles
+X-WR-TIMEZONE:America/Mexico_City
+BEGIN:VEVENT
+SUMMARY:GDG Villahermosa|Build with AI Sureste de México Academia|México
+ |Tabasco
+DTSTART:20260521T090000
+CATEGORIES:Build with AI,ai,backend,frontend
+DESCRIPTION:Bienvenidas todas las IES de la región SuresteTendrás acceso
+  a herramientas de vanguardia\, como Gemini CLI y Google Anti...
+LOCATION:Villahermosa\, Villahermosa\, Villahermosa
+X-CRONQUILES-ADDRESS:Villahermosa\, Tab.\, México
+X-CRONQUILES-CITY:Villahermosa
+X-CRONQUILES-CITY-CODE:villahermosa
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Tabasco
+X-CRONQUILES-STATE-CODE:MX-TAB
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GDG Villahermosa|Build with AI Sureste de México MiPyMES|México|
+ Tabasco
+DTSTART:20260528T090000
+CATEGORIES:Build with AI,ai,backend,frontend,python
+DESCRIPTION:Bienvenidas todas las MiPyMES de la región SuresteTendrás ac
+ ceso a herramientas de vanguardia\, como Gemini CLI y Google ...
+LOCATION:Villahermosa\, Villahermosa\, Villahermosa
+X-CRONQUILES-ADDRESS:Villahermosa\, Tab.\, México
+X-CRONQUILES-CITY:Villahermosa
+X-CRONQUILES-CITY-CODE:villahermosa
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Tabasco
+X-CRONQUILES-STATE-CODE:MX-TAB
+END:VEVENT
+END:VCALENDAR
