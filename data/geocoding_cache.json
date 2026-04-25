@@ -13361,5 +13361,106 @@
       "sublocality",
       "sublocality_level_1"
     ]
+  },
+  "FlemishPixel (FPX), FlemishPixel, Av. Ejército Nacional Mexicano 6, Anzures, Miguel Hidalgo, 11590 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "FlemishPixel",
+        "short_name": "FlemishPixel",
+        "types": [
+          "establishment",
+          "point_of_interest"
+        ]
+      },
+      {
+        "long_name": "6",
+        "short_name": "6",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Ejército Nacional Mexicano",
+        "short_name": "Av. Ejército Nacional Mexicano",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Anzures",
+        "short_name": "Anzures",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "11590",
+        "short_name": "11590",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "FlemishPixel, Av. Ejército Nacional Mexicano 6, Anzures, Miguel Hidalgo, 11590 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4322368,
+        "lng": -99.17280699999999
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4336457302915,
+          "lng": -99.17141786970849
+        },
+        "southwest": {
+          "lat": 19.4309477697085,
+          "lng": -99.1741158302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4323034,
+          "longitude": -99.1727624
+        }
+      }
+    ],
+    "place_id": "ChIJi3dEEQD50YURR0OWhHwzZjE",
+    "plus_code": {
+      "compound_code": "CRJG+VV Ciudad de México, CDMX, México",
+      "global_code": "76F2CRJG+VV"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
   }
 }
