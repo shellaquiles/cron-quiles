@@ -13540,5 +13540,83 @@
       "sublocality",
       "sublocality_level_1"
     ]
+  },
+  "Polanco, Ciudad de México, Mexico": {
+    "address_components": [
+      {
+        "long_name": "Polanco",
+        "short_name": "Polanco",
+        "types": [
+          "neighborhood",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Polanco I Sección",
+        "short_name": "Polanco I Secc",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "Polanco, Polanco I Secc, Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.4388936,
+          "lng": -99.17796380000001
+        },
+        "southwest": {
+          "lat": 19.4236099,
+          "lng": -99.2141599
+        }
+      },
+      "location": {
+        "lat": 19.4340199,
+        "lng": -99.19560120000001
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4388936,
+          "lng": -99.17796380000001
+        },
+        "southwest": {
+          "lat": 19.4236099,
+          "lng": -99.2141599
+        }
+      }
+    },
+    "place_id": "ChIJ-UNIbQMC0oURdqnTwDJ30-Q",
+    "types": [
+      "neighborhood",
+      "political"
+    ]
   }
 }
