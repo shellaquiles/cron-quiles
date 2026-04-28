@@ -1263,6 +1263,36 @@
     "hash_key": "prompting is table stakes judgement is t_2026-05-01T14:00:00+00:00"
   },
   {
+    "title": "Rust-AICollective|Build with AI Series (w/ AI Collective Mumbai)|Online",
+    "description": "Get up-to-date information at: https://luma.com/build1-aic-mum\n\nHosted by The AI Collective, Kumar Jhuremalani & Kumar Jhuremalani",
+    "url": "https://luma.com/build1-aic-mum",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/build1-aic-mum",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "https://luma.com/event/evt-mnzS4GGGbghHAeH",
+    "online": true,
+    "organizer": "Rust-AICollective",
+    "dtstart": "2026-05-01T13:00:00+00:00",
+    "dtend": "2026-05-01T14:30:00+00:00",
+    "tags": [
+      "ai",
+      "frontend"
+    ],
+    "source": "https://luma.com/rust-ios-ai",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "https://luma.com/event/evt-mnzS4GGGbghHAeH",
+    "hash_key": "build with ai series w ai collective mum_2026-05-01T12:00:00+00:00"
+  },
+  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|May 1 - Best of WACV (Day 2)|México|CDMX",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nWelcome to the Best of WACV series, your virtual pass to some of the groundbreaking research, insights, and innovations that defined this year’s conference. Live streaming from the authors to you.\n\n**Date, Time and Location**\n\nMay 01, 2026\n9 AM - 11 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/best-of-wacv-2026-may-1-2026)**\n\n**Beyond Pixels: Type-Aware Contrastive Learning for Global Urban Similarity**\n\nStandard visual models often fail to distinguish between superficial appearances and meaningful structural variations in urban environments. We present a type-aware contrastive learning framework that measures city similarity by explicitly modeling infrastructure elements like intersections and bus lanes. Our framework integrates a type-conditioned Vision Transformer that actively fuses visual features with CLIP-derived semantic embeddings via a novel adaptive per-type contrastive loss. This allows the model to dynamically prioritize the most discriminative infrastructure categories while down-weighting less informative visual noise. We demonstrate that this method significantly improves clustering quality and generalizes to unseen cities, providing a scalable, interpretable foundation for urban analysis.\n\n*About the Speaker*\n\n[Idan Kligvasser](https://www.linkedin.com/in/idan-kligvasser-668ab083/) is a Ph.D. researcher and Machine Learning Engineer specializing in multimodal generative AI and large-scale ML systems. With a background in developing state-of-the-art diffusion models and VLMs, his work has been recognized at top-tier venues including CVPR, NeurIPS, and ICLR.\n\n**Perceptually Guided 3DGS Streaming and Rendering for Mixed Reality**\n\nRecent advances in 3D Gaussian Splatting (3DGS) enable high-quality rendering but fall short of mixed reality's demanding requirements for high refresh rates, stereo viewing, and limited compute budgets. We propose a perception-guided, continuous level-of-detail framework that exploits human visual system limitations through a lightweight, gaze-contingent model to predict and adaptively modulate rendering quality across the visual field, maximizing perceived quality under compute constraints.\n\nCombined with an edge-cloud collaborative rendering framework for untethered MR devices, our method achieves superior computational efficiency with minimal perceptual quality loss compared to vanilla and foveated baselines, validated through objective metrics and user studies.\n\n*About the Speaker*\n\n[Sai Harsha Mupparaju](https://www.linkedin.com/in/harsha-mupparaju/) is an MS Computer Science student at NYU working in the Immersive Computing Lab with Prof. Qi Sun, where he focuses on 3D Gaussian Splatting, neural rendering, and perceptual VR/MR systems. He previously earned his undergraduate degree from BITS Pilani and conducted research at the Indian Institute of Science (IISc). His research has been published at IEEE WACV 2026, ACM Transactions on Graphics, and ACM SIGGRAPH 2024.\n\n**SAVIOR: Sample-efficient Adaptation of Vision-Language Models for OCR Representation**\n\nOCR pipelines and vision-language models systematically underperform on document patterns critical to financial workflows, such as vertical text, logo-embedded vendor names, degraded scans, and complex multi-column layouts. While underrepresented in public datasets, these patterns constitute a substantial portion of real-world failure cases.\n\nWe introduce SAVIOR, a sample-efficient data curation methodology that targets such high-impact failure scenarios to adapt vision-language models for robust financial OCR, and PaIRS, a structure-aware evaluation metric that measures layout fidelity by comparing pairwise spatial relationships between tokens. When fine-tuned with SAVIOR-Train, Qwen2.5-VL-Instruct demonstrates robust financial OCR performance, outperforming both open and closed-source baselines including GPT-4o, Mistral-OCR, PaddleOCR-VL, and DeepSeek-OCR.\n\n*About the Speaker*\n\n[Akshata Bhat](https://www.linkedin.com/in/akshataabhat/) is an AI/ML Research Engineer at Hyprbots Inc. Her research interests include multimodal learning, vision-language models, and large-scale document understanding systems.\n\n**SynthForm: Towards a DLA-free E2E Form understanding model**\n\nWe present SynthForm-3k, the first large-scale publicly available dataset of synthetically perturbed forms, comprising 3,417 samples across six domains: taxation, immigration, finance, healthcare, dental, and insurance. Ground-truth Markdown is constructed via an intermediate HTML representation generated by GPT-5 under high-reasoning inference, followed by deterministic HTML-to-Markdown conversion and scan-like perturbations (dust, scan lines, blur, rotation) that simulate real-world faxed and scanned documents.\n\nWe further introduce SynthForm-VL, a family of 2B, 4B, and 8B models obtained via full-parameter supervised fine-tuning of Qwen3-VL on this dataset. All three variants outperform their respective baselines, yielding ANLS improvements of +5.8, +9.3, and +10.3, with the fine-tuned 2B model exceeding the performance of the 4× larger Qwen3-VL-8B baseline — demonstrating that targeted domain adaptation on perturbation-robust data offers a more favorable cost–performance tradeoff than scale alone for structured form understanding.\n\n*About the Speaker*\n\n[Andre Fu](https://www.linkedin.com/in/andre-fu/) is an ML researcher and founder whose work spans multimodal learning, GPU inference infrastructure, and document understanding, with prior publications at NeurIPS, ICCV, CVPR, and WACV. He has worked in document processing and ML for the last 4 years, specializing in InsurTech, FinTech & HealthTech use cases.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314389157/",
@@ -3864,7 +3894,7 @@
       "ai",
       "backend"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -4086,7 +4116,7 @@
         "label": "Ver en Luma"
       }
     ],
-    "location": "Juárez, Ciudad de México, México",
+    "location": "Juárez, Ciudad de México, Mexico",
     "online": false,
     "organizer": "FinTech México",
     "dtstart": "2026-02-23T22:00:00+00:00",
