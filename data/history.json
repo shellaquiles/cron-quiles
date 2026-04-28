@@ -320,6 +320,35 @@
     "hash_key": "predictive neurotechnologies criminal ri_2026-06-03T06:00:00+00:00"
   },
   {
+    "title": "Rust-AICollective|TEST - please ignore|Online",
+    "description": "Get up-to-date information at: https://luma.com/21goc39i\n\nHosted by The AI Collective",
+    "url": "https://luma.com/21goc39i",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/21goc39i",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "https://luma.com/event/evt-Gy4ZAxJMzAFTm1N",
+    "online": true,
+    "organizer": "Rust-AICollective",
+    "dtstart": "2026-06-01T18:00:00+00:00",
+    "dtend": "2026-06-01T20:30:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://luma.com/rust-ios-ai",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "https://luma.com/event/evt-Gy4ZAxJMzAFTm1N",
+    "hash_key": "test please ignore_2026-06-01T18:00:00+00:00"
+  },
+  {
     "title": "Pythonistas GDL|Mayo: Odoo, Workflows|México|Jalisco",
     "description": "<p style=\"margin:0.5em 0px;\">Celebraremos nuestro primer aniversario haciendo lo que mas nos gusta: hablar de Python y compartir con las personas que han hecho posible este logro. </p><p style=\"margin:0.5em 0px;\"></p><ul><li><p style=\"margin:0.5em 0px;\">🚪 Recepción a partir de las 6:30</p></li><li><p style=\"margin:0.5em 0px;\">⏰ Evento 7:00</p></li><li><p style=\"margin:0.5em 0px;\">🗣️ Muy pronto actualizaremos la información de las charlas</p></li><li><p style=\"margin:0.5em 0px;\">🪩 Networking </p></li></ul>",
     "url": "https://reuniones.pythonistas-gdl.org/event/5/mayo-odoo-workflows",
@@ -915,6 +944,36 @@
     "hash_key": "cumplir sin frenar el negocio by iqsec_2026-05-08T00:00:00+00:00"
   },
   {
+    "title": "Rust-AICollective|Early Traction in Enterprise AI & Data Infrastructure|Online",
+    "description": "Get up-to-date information at: https://luma.com/xmho4b27\n\nHosted by Abraham & 4 others",
+    "url": "https://luma.com/xmho4b27",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/xmho4b27",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "https://luma.com/event/evt-QoRIfNHIgxQ5AL1",
+    "online": true,
+    "organizer": "Rust-AICollective",
+    "dtstart": "2026-05-07T17:00:00+00:00",
+    "dtend": "2026-05-07T18:00:00+00:00",
+    "tags": [
+      "ai",
+      "data"
+    ],
+    "source": "https://luma.com/rust-ios-ai",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "https://luma.com/event/evt-QoRIfNHIgxQ5AL1",
+    "hash_key": "early traction in enterprise ai data inf_2026-05-07T16:00:00+00:00"
+  },
+  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|May 7 - Visual AI in Healthcare|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin us to hear experts on cutting-edge topics at the intersection of AI, ML, computer vision and healthcare.\n\n**Date, Time, and Location**\n\nMay 07, 2026\n9AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/visual-ai-in-healthcare-may-7-2026)**\n\n**Representation Learning Under Weak Supervision in Computational Pathology**\n\nComputational pathology has advanced rapidly with deep learning and, more recently, pathology foundation models that provide strong transferable representations from whole-slide images. Yet important gaps remain: pretrained features often retain domain shift relative to downstream clinical datasets, and most existing pipelines do not explicitly model the geometric organization of tissue architecture that underlies disease progression.\n\nIn this talk, I will present our work on weak- and semi-supervised representation learning methods designed to address these challenges, including adaptive stain separation for contrastive learning, bag-label-aware contrastive pretraining for multiple-instance learning, and distance-aware spatial modeling that injects tissue geometry into slide-level prediction. These methods reduce dependence on dense annotations while improving the quality, robustness, and clinical relevance of learned representations in histopathology. Across kidney and prostate cancer studies, they produce stronger downstream performance than standard self-supervised, semi-supervised, and MIL baselines, including improved classification on ccRCC datasets and more accurate prediction of metastatic risk from diagnostic prostate biopsies.\n\n*About the Speaker*\n\n[Dr. Tolga Tasdizen](https://www.linkedin.com/in/tolgatasdizen/) is Professor and Associate Chair of Electrical and Computer Engineering and a faculty member of the Scientific Computing and Imaging Institute at the University of Utah, where he works on AI and machine learning for image analysis with applications in biomedical imaging, public health, and materials science. His research spans self- and semi-supervised learning, domain adaptation, and interpretability.\n\n**Efficient and Reliable AI for Real-World Healthcare Deployment**\n\nHealthcare is one of the highest-impact domains for AI, yet reliable deployment at scale remains difficult. To truly improve patient care and clinical workflows, AI must operate under real clinical constraints, not just in ideal lab settings. In practice, deployment is limited by high compute and memory costs, scarce labeled data, and distribution shifts across sites and time. Many clinically important findings are also rare and long-tailed, which makes generalization especially challenging. My research makes deployability a design objective by developing methods that stay accurate under strict resource and data constraints.\n\nIn this talk, I will first discuss high-performance lightweight deep learning architectures built by redesigning core building blocks. I will then present training-time generative supervision strategies that improve data efficiency and generalization to rare and long-tailed cases with no inference overhead. I will conclude with a forward-looking direction toward real-time perception for surgical assistance, where reliable performance under strict constraints is non-negotiable.\n\n*About the Speaker*\n\n[Md Mostafijur Rahman](https://www.linkedin.com/in/mostafij-rahman/) is a Ph.D. candidate at The University of Texas at Austin, advised by Radu Marculescu. His research sits at the intersection of AI, biomedical imaging, and computer vision, with a focus on building efficient, reliable, and scalable AI systems for deployment in healthcare under real-world constraints. His work has been translated to practice through research internships at GE Healthcare, the National Institutes of Health (NIH), and Bosch Research.\n\n**VIGIL: Vectors of Intelligent Guidance in Long-Reach Rural Healthcare**\n\nVIGIL (Vectors of Intelligent Guidance in Long-Reach Rural Healthcare) is an AI-driven system designed to support generalist clinicians through interactive, multimodal guidance. The system combines perception, language understanding, and tool use to assist with tasks such as ultrasound acquisition and interpretation in real time. In this talk, we focus on the overall system architecture, highlighting how individual components—ranging from visual models to medical reasoning agents—interact to produce coherent guidance. We also discuss key challenges we have encountered, including tool orchestration, latency, and robustness across components. This presentation aims to provide a systems-level perspective on building embodied AI agents for real-world healthcare settings.\n\n*About the Speaker*\n\n[Andrew Krikorian](https://linkedin.com/in/andrew-krikorian) is a Ph.D. student in Robotics at the University of Michigan, where he is a member of the Corso Group (COG). His research focuses on building physically grounded AI agents that combine perception, tool use, and planning to operate effectively in real-world environments, with a particular emphasis on healthcare applications. He is actively involved in the ARPA-H PARADIGM program, developing intelligent systems for rural clinical settings.\n\n**Scaling Healthcare AI with Synthetic Data and World Models**\n\nThe scarcity of labeled, privacy-compliant medical imaging data remains one of the biggest bottlenecks in healthcare AI development. Emerging world models are changing this landscape by generating high-fidelity synthetic data — from radiology scans to surgical scene simulations — that can augment real-world datasets without compromising patient privacy. However, synthetic data is only as valuable as your ability to curate, validate, and evaluate it alongside real clinical data. In this talk, we explore how teams are using FiftyOne to build rigorous quality pipelines around synthetic medical imagery, enabling them to detect distribution gaps, measure model performance across rare pathologies, and ensure that generated samples meaningfully improve downstream diagnostics. We'll walk through practical workflows that combine world model outputs with real-world medical datasets to accelerate Visual AI in healthcare — responsibly and at scale.\n\n*About the Speaker*\n\n[Daniel Gural ](https://www.linkedin.com/in/daniel-gural/)is an expert in Physical AI and has been working in the field for over 8 years. Working across healthcare he has experience in both operating use case as well as using Visual AI as an aid in psychology applications as well.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314110411/",
@@ -1041,6 +1100,35 @@
     "city_code": "",
     "address": "",
     "hash_key": "may 6 building composable computer visio_2026-05-06T16:00:00+00:00"
+  },
+  {
+    "title": "Rust-AICollective|Live Executive Teardowns: Scaling Your Voice Without the Noise|Online",
+    "description": "Get up-to-date information at: https://luma.com/aic-gl-5-5\n\nHosted by The AI Collective & 3 others",
+    "url": "https://luma.com/aic-gl-5-5",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/aic-gl-5-5",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "https://luma.com/event/evt-A4CakvU9fhYqczk",
+    "online": true,
+    "organizer": "Rust-AICollective",
+    "dtstart": "2026-05-05T18:00:00+00:00",
+    "dtend": "2026-05-05T19:30:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://luma.com/rust-ios-ai",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "https://luma.com/event/evt-A4CakvU9fhYqczk",
+    "hash_key": "live executive teardowns scaling your vo_2026-05-05T18:00:00+00:00"
   },
   {
     "title": "Rust-AICollective|Next Horizon: Mastering Skills for Building AI ready data foundation: Part 1 (w/ The AI Collective)|Online",
@@ -1423,6 +1511,33 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-bUaSwV7S9gBpY9i",
     "hash_key": "toronto chapter organizing_2026-04-29T20:00:00+00:00"
+  },
+  {
+    "title": "Frutero Club|Casa Frutero - Coworking Frutal #15|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/h9wl63gl\n\nAddress:\nAv. Insurgentes Sur 1877\nÁlvaro Obregón, Mexico\n\nHosted by Frutero",
+    "url": "https://luma.com/h9wl63gl",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/h9wl63gl",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, Mexico",
+    "online": false,
+    "organizer": "Frutero Club",
+    "dtstart": "2026-04-29T17:00:00+00:00",
+    "dtend": "2026-04-30T02:00:00+00:00",
+    "tags": [],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Álvaro Obregón",
+    "city_code": "alvaroobregon",
+    "address": "Av. Insurgentes Sur 1877, Guadalupe Inn, Álvaro Obregón, 01020 Álvaro Obregón, CDMX, México",
+    "hash_key": "casa frutero coworking frutal 15_2026-04-29T16:00:00+00:00"
   },
   {
     "title": "Rust-AICollective|Build with AI Series (w/ AI Collective Mumbai)|Online",
