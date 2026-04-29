@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cron-Quiles//ICS Aggregator//EN
+CALSCALE:GREGORIAN
+X-WR-CALDESC:Calendario unificado de eventos tech en Nuevo León\, México
+X-WR-CALNAME:Eventos Tech Nuevo León - cronquiles
+X-WR-TIMEZONE:America/Mexico_City
+BEGIN:VEVENT
+SUMMARY:GDG Monterrey|Build with AI Monterrey|México|Nuevo León
+DTSTART:20260528T180000
+CATEGORIES:Build with AI,Google Cloud,Web,ai,frontend
+DESCRIPTION:Únete a nuestro evento comunitario Build with AI el 28 de may
+ o en Apex Systems. Este meetup está diseñado para desarroll...
+LOCATION:Apex Systems Helice\, 1104 Avenida San Jerónimo\, Monterrey
+X-CRONQUILES-ADDRESS:Av San Jerónimo 1104\, San Jeronimo\, 64640 Monterre
+ y\, N.L.\, México
+X-CRONQUILES-CITY:Monterrey
+X-CRONQUILES-CITY-CODE:monterrey
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Nuevo León
+X-CRONQUILES-STATE-CODE:MX-NLE
+END:VEVENT
+END:VCALENDAR

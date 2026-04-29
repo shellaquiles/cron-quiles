@@ -13618,5 +13618,98 @@
       "neighborhood",
       "political"
     ]
+  },
+  "Apex Systems Helice, 1104 Avenida San Jerónimo, Monterrey": {
+    "address_components": [
+      {
+        "long_name": "1104",
+        "short_name": "1104",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida San Jerónimo",
+        "short_name": "Av San Jerónimo",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "San Jeronimo",
+        "short_name": "San Jeronimo",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Monterrey",
+        "short_name": "Monterrey",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Nuevo León",
+        "short_name": "N.L.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "64640",
+        "short_name": "64640",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av San Jerónimo 1104, San Jeronimo, 64640 Monterrey, N.L., México",
+    "geometry": {
+      "location": {
+        "lat": 25.6744531,
+        "lng": -100.3648083
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 25.6758020802915,
+          "lng": -100.3633483197085
+        },
+        "southwest": {
+          "lat": 25.67310411970849,
+          "lng": -100.3660462802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 25.6744531,
+          "longitude": -100.3646562
+        }
+      }
+    ],
+    "place_id": "ChIJHfZI4VW9YoYRixyvuJ6mM9c",
+    "plus_code": {
+      "compound_code": "MJFP+Q3 Monterrey, N.L., México",
+      "global_code": "75QXMJFP+Q3"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
   }
 }
