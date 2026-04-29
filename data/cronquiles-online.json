@@ -1,8 +1,19 @@
 {
-  "generated_at": "2026-04-29T13:24:25.167832+00:00",
-  "total_events": 180,
+  "generated_at": "2026-04-29T19:10:54.033798+00:00",
+  "total_events": 182,
   "city": "Online",
   "communities": [
+    {
+      "name": "Agility Talks",
+      "description": "Espacio para compartir conocimientos sobre metodologías ágiles, Scrum, Kanban y transformación digital.",
+      "links": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/agilility-talks",
+          "label": "Meetup"
+        }
+      ]
+    },
     {
       "name": "AI/IA CDMX",
       "description": "Canal de Luma de la comunidad de IA en Ciudad de México.",
@@ -97,11 +108,11 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/e17fbtoo",
+          "url": "https://luma.com/sudo_fciencias_2026",
           "label": "Luma"
         }
       ]
@@ -3076,7 +3087,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3240,7 +3251,7 @@
       "tags": [
         "devops"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3429,7 +3440,7 @@
       "dtstart": "2026-01-19T18:00:00+00:00",
       "dtend": "2026-01-28T20:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -4818,6 +4829,36 @@
       "hash_key": "early traction in enterprise ai data inf_2026-05-07T16:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|AI Education  -  Early Traction in Enterprise AI & Data Infrastructure|Online",
+      "description": "Get up-to-date information at: https://luma.com/xmho4b27\n\nHosted by Abraham & 4 others",
+      "url": "https://luma.com/xmho4b27",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/xmho4b27",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-QoRIfNHIgxQ5AL1",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-05-07T17:00:00+00:00",
+      "dtend": "2026-05-07T18:00:00+00:00",
+      "tags": [
+        "ai",
+        "data"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-QoRIfNHIgxQ5AL1",
+      "hash_key": "ai education early traction in enterpris_2026-05-07T16:00:00+00:00"
+    },
+    {
       "title": "FinTech México|Cumplir sin frenar el negocio by IQSEC|Online",
       "description": "Get up-to-date information at: https://luma.com/4rpv0o2p\n\nHosted by FinTech México",
       "url": "https://luma.com/4rpv0o2p",
@@ -4848,7 +4889,7 @@
     },
     {
       "title": "Rust-AICollective|Vibe Hours v3: Unhinged Builds in Claude Design|Online",
-      "description": "Get up-to-date information at: https://luma.com/3dcegc6j\n\nHosted by Abraham & The AI Collective",
+      "description": "Get up-to-date information at: https://luma.com/3dcegc6j\n\nHosted by Abraham, The AI Collective & Alexandria Hamilton",
       "url": "https://luma.com/3dcegc6j",
       "sources": [
         {
@@ -5316,6 +5357,35 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-nj1HAmXQ6B7kh72",
       "hash_key": "the copilot effect microsoft s ai and wh_2026-06-10T08:00:00+00:00"
+    },
+    {
+      "title": "Agility Talks|Evolución de Prácticas de Entrega Continua en tiempos de IA|Online",
+      "description": "Agile Talks - Difundiendo la agilidad\n**Evolución de Prácticas de Entrega Continua en tiempos de Desarrollo de software con IA**\n\nLa entrega continua de software sigue siendo el modo de máximo flujo de valor para el negocio en desarrollo de software, a pesar de que a muchas organizaciones todavía les cueste implementar muchas de sus prácticas centrales, como integración continua, automatización de pruebas de aceptación y entregas frecuentes.\nAl mismo tiempo, el cambio acelerado en la capacidad de producir software utilizando prácticas y herramientas de IA pone en discusión qué cambia, y qué sigue siendo igual, en nuestras prácticas y procesos. El balance entre responsabilidad, capacidad y calidad nos desafía a explorar nuevas formas de desarrollar mientras mantenemos los avances que hemos logrado. En este contexto de incertidumbre, nos encontramos para compartir preguntas, experiencias y algunas de las respuestas que están emergiendo.\n\n**Patrocinado por ScrumAlliance.**\n\n**Diego Fontdevila** es consultor, profesor e investigador con una trayectoria centrada en elevar el nivel de la práctica en la comunidad de desarrollo de software. A lo largo de su carrera, ha trabajado impulsando enfoques que combinan agilidad y excelencia técnica, convencido de que la agilidad sin una base sólida es solo una ilusión.\nPara Diego, la calidad no es un lujo, sino un principio fundamental para garantizar la continuidad del negocio y la sostenibilidad de las organizaciones.\nForma parte de Grupo Esfera, donde desde hace más de 20 años colaboran con líderes de TI y CTOs en procesos de transformación organizacional, apoyándose no en soluciones mágicas, sino en un enfoque estructurado y probado: el **Esfera Way**.",
+      "url": "https://www.meetup.com/agilility-talks/events/314544766/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/agilility-talks/events/314544766/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Online event,",
+      "online": true,
+      "organizer": "Agility Talks",
+      "dtstart": "2026-06-16T18:30:00-06:00",
+      "dtend": "2026-06-16T20:00:00-06:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/agilility-talks/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "evolucin de prcticas de entrega continua_2026-06-17T00:00:00+00:00"
     },
     {
       "title": "v0 Prompt to Production Mexico City|How I Use AI #7: WhatsApp Voicebots|Online",

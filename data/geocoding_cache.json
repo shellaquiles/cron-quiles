@@ -13711,5 +13711,76 @@
       "establishment",
       "point_of_interest"
     ]
+  },
+  "Universidad Nacional Autónoma de México, Ciudad de México, México": {
+    "address_components": [
+      {
+        "long_name": "Ciudad Universitaria",
+        "short_name": "CU",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "C.U., Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.336989,
+          "lng": -99.16908760000001
+        },
+        "southwest": {
+          "lat": 19.3063059,
+          "lng": -99.20122920000001
+        }
+      },
+      "location": {
+        "lat": 19.3188895,
+        "lng": -99.1843676
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.336989,
+          "lng": -99.16908760000001
+        },
+        "southwest": {
+          "lat": 19.3063059,
+          "lng": -99.20122920000001
+        }
+      }
+    },
+    "place_id": "ChIJG5qXIAkAzoURTYC6BwI8n3w",
+    "types": [
+      "political",
+      "sublocality",
+      "sublocality_level_1"
+    ]
   }
 }
