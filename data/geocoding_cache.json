@@ -13860,5 +13860,83 @@
       "sublocality",
       "sublocality_level_1"
     ]
+  },
+  "Roma Sur, Ciudad de México, México": {
+    "address_components": [
+      {
+        "long_name": "Roma Sur",
+        "short_name": "Roma Sur",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06760",
+        "short_name": "06760",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Roma Sur, 06760 Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.4119235,
+          "lng": -99.1548299
+        },
+        "southwest": {
+          "lat": 19.3997898,
+          "lng": -99.1704355
+        }
+      },
+      "location": {
+        "lat": 19.405299,
+        "lng": -99.16498910000001
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4119235,
+          "lng": -99.1548299
+        },
+        "southwest": {
+          "lat": 19.3997898,
+          "lng": -99.1704355
+        }
+      }
+    },
+    "place_id": "ChIJyyddzhX_0YUR4yDkBQlv1OM",
+    "types": [
+      "political",
+      "sublocality",
+      "sublocality_level_1"
+    ]
   }
 }
