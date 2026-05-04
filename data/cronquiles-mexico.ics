@@ -2962,7 +2962,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI – Vol 1|Online
 DTSTART:20251007T220000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/pi3ebsn2\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-gCpfBqRDQhEOJf9
@@ -3825,7 +3825,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|Diseña usando AI|Online
 DTSTART:20260127T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/ubxd600w\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-IWVh1A0cdphlpRP
@@ -3872,7 +3872,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|Diseña usando AI|Online
 DTSTART:20260128T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/5nq96pxw\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-H4WPxCoPFcne2bC
@@ -4082,7 +4082,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI – Vol 2|Online
 DTSTART:20260213T000000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/lgd37763\n\nHo
  sted by Javier Rivero & 3 others
 LOCATION:https://luma.com/event/evt-rYB4HiifBPDm7LU
@@ -4180,7 +4180,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI #3: Midjourney|Online
 DTSTART:20260219T233000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/d342anny\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-WUg9IsqZP5MKL4B
@@ -4800,7 +4800,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI #4: OpenClaw|Online
 DTSTART:20260306T000000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/5ivardas\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-utuQiZ6tlVbHWXw
@@ -5023,7 +5023,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI #5: Image Manipulation|Online
 DTSTART:20260401T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/wsj293yt\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-3QmmiVDsImuKFFB
@@ -5138,7 +5138,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI #6: Scaling to 1M users|Online
 DTSTART:20260416T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/11fz6ef5\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-SBK5c7p9LXcCYFE
@@ -7061,6 +7061,23 @@ LOCATION:https://luma.com/event/evt-b08xpdnvWOYi4Os
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-b08xpdnvWOYi4Os
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:GDG Tijuana|Build With AI - Tecnología con propósito: cómo apli
+ car IA en problemas reales del medio ambiente|México|Baja California
+DTSTART:20260516T190000
+CATEGORIES:AI - Gemini,Build with AI,Tech Talk / Meetup,Workshop / hands-o
+ n session,ai,frontend
+DESCRIPTION:En esta charla exploraremos cómo la inteligencia artificial p
+ uede aplicarse a problemas reales del medio ambiente\, desde...
+LOCATION:por definir\, Av. revolución\, Tijuana
+X-CRONQUILES-ADDRESS:Av. Revolución\, Tijuana\, B.C.\, México
+X-CRONQUILES-CITY:Tijuana
+X-CRONQUILES-CITY-CODE:tijuana
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Baja California
+X-CRONQUILES-STATE-CODE:MX-BC
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Pythonista|CI/CD endurecido para aplicaciones en Python|Online
 DTSTART:20260518T183000
 CATEGORIES:cloud,devops,frontend,python
@@ -7399,6 +7416,23 @@ LOCATION:https://luma.com/event/evt-nj1HAmXQ6B7kh72
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-nj1HAmXQ6B7kh72
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:FinTech México|Town Hall|México|Ciudad de México
+DTSTART:20260610T233000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/mw0fc2k4\n\nAd
+ dress:\nCírculo de Crédito\nCiudad de México\, Mexico\n\nHosted by FinT
+ ech México
+LOCATION:Círculo de Crédito\, Blvd. Miguel de Cervantes Saavedra 301-pis
+ o 10\, Granada\, Miguel Hidalgo\, 11520 Ciudad de México\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Blvd. Miguel de Cervantes Saavedra 301-piso 10\, Gran
+ ada\, Miguel Hidalgo\, 11520 Ciudad de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|IoT: El Espía Que Me Compré - IoT: The Spy I Bought M
  yself|México|Ciudad de México
 DTSTART:20260617T000000Z
@@ -7494,7 +7528,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI #7: WhatsApp Voicebots|Online
 DTSTART:20260618T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/vhwcyvjr\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-PwXKYGUxITnF5Ku

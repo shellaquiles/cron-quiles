@@ -14024,5 +14024,186 @@
       "neighborhood",
       "political"
     ]
+  },
+  "Círculo de Crédito, Blvd. Miguel de Cervantes Saavedra 301-piso 10, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "piso 10",
+        "short_name": "piso 10",
+        "types": [
+          "subpremise"
+        ]
+      },
+      {
+        "long_name": "301",
+        "short_name": "301",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Boulevard Miguel de Cervantes Saavedra",
+        "short_name": "Blvd. Miguel de Cervantes Saavedra",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Granada",
+        "short_name": "Granada",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "11520",
+        "short_name": "11520",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Blvd. Miguel de Cervantes Saavedra 301-piso 10, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4408493,
+        "lng": -99.2024612
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4419848802915,
+          "lng": -99.20095596970849
+        },
+        "southwest": {
+          "lat": 19.4392869197085,
+          "lng": -99.2036539302915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 19.4402314,
+          "longitude": -99.2020765
+        },
+        "restricted_travel_modes": [
+          "WALK"
+        ]
+      },
+      {
+        "location": {
+          "latitude": 19.4410425,
+          "longitude": -99.2025234
+        },
+        "restricted_travel_modes": [
+          "DRIVE"
+        ]
+      }
+    ],
+    "partial_match": true,
+    "place_id": "ChIJKzPVqBsC0oUR8gmbuHKlatU",
+    "plus_code": {
+      "compound_code": "CQRX+82 Ciudad de México, CDMX, México",
+      "global_code": "76F2CQRX+82"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
+  },
+  "por definir, Av. revolución, Tijuana": {
+    "address_components": [
+      {
+        "long_name": "Avenida Revolución",
+        "short_name": "Av. Revolución",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Tijuana",
+        "short_name": "Tijuana",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Baja California",
+        "short_name": "B.C.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Revolución, Tijuana, B.C., México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 32.5409194,
+          "lng": -117.0338018
+        },
+        "southwest": {
+          "lat": 32.5228544,
+          "lng": -117.0382158
+        }
+      },
+      "location": {
+        "lat": 32.5314237,
+        "lng": -117.0365326
+      },
+      "location_type": "GEOMETRIC_CENTER",
+      "viewport": {
+        "northeast": {
+          "lat": 32.5409194,
+          "lng": -117.0338018
+        },
+        "southwest": {
+          "lat": 32.5228544,
+          "lng": -117.0382158
+        }
+      }
+    },
+    "partial_match": true,
+    "place_id": "ChIJzxbOrKtJ2YARN6jpq4hU_xk",
+    "types": [
+      "route"
+    ]
   }
 }
