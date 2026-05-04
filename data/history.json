@@ -1015,6 +1015,35 @@
     "hash_key": "may 12 best of 3dv 2026_2026-05-12T16:00:00+00:00"
   },
   {
+    "title": "Rust-AICollective|AI Roundtable #23: AI Stigma at Work: Easy Button or Essential? (w/ AI Collective & Voyage Consulting)|Online",
+    "description": "Get up-to-date information at: https://luma.com/aic-kc-roundtable23\n\nHosted by The AI Collective & 4 others",
+    "url": "https://luma.com/aic-kc-roundtable23",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/aic-kc-roundtable23",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "https://luma.com/event/evt-Z7CfWOS7DWouOCM",
+    "online": true,
+    "organizer": "Rust-AICollective",
+    "dtstart": "2026-05-11T17:00:00+00:00",
+    "dtend": "2026-05-11T18:00:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://luma.com/rust-ios-ai",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "https://luma.com/event/evt-Z7CfWOS7DWouOCM",
+    "hash_key": "ai roundtable 23 ai stigma at work easy _2026-05-11T16:00:00+00:00"
+  },
+  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|May 11 - Best of 3DV 2026|México|CDMX",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nWelcome to the Best of 3DV series, your virtual pass to some of the groundbreaking research, insights, and innovations that defined this year’s conference. Live streaming from the authors to you.\n\n**Date, Time and Location**\n\nMay 11, 2026\n9AM Pacific\nOnline. **[Register for Zoom!](https://voxel51.com/events/best-of-3dv-2026-may-11-2026)**\n\n**Navigating a 3D Vision Conference with VLMs and Embeddings**\n\nAttending the 3D Vision Conference means confronting 177 accepted papers across 3.5 days, far more than any one person can absorb. Skimming titles the night before isn't enough.\n\nThis talk shows how to build a systematic, interactive map of an entire conference using modern open-source tools. We load all 177 papers from 3DV 2026 (full PDF page images plus metadata) into a FiftyOne grouped dataset. We then run three annotation passes using Qwen3.5-9B on each cover page: topic classification, author affiliation extraction, and project page detection. Document embeddings from Jina v4 are computed across all 3,019 page images, pooled to paper-level vectors, and fed into FiftyOne Brain for UMAP visualization, similarity search, representativeness scoring, and uniqueness scoring.\n\nThe result is an interactive dataset you can query, filter, and explore in the FiftyOne App. Sort by uniqueness to find distinctive work, filter by topic and sort by representativeness to understand each research area, and cross-reference with scheduling metadata to build a personal agenda.\n\nI demonstrate the end-to-end pipeline and discuss design decisions regarding grouped datasets, reasoning model output parsing, and embedding pooling strategies.\n\n*About the Speaker*\n\n[Harpreet Sahota](https://www.linkedin.com/in/harpreetsahota204/) is a hacker-in-residence and machine learning engineer with a passion for deep learning and generative AI. He’s got a deep interest in VLMs, Visual Agents, Document AI, and Physical AI.\n\n**Seeing Through Clutter: Structured 3D Scene Reconstruction via Iterative Object Removal**\n\nWe present SeeingThroughClutter, a method for reconstructing structured 3D representations from single images by segmenting and modeling objects individually. Prior approaches rely on intermediate tasks such as semantic segmentation and depth estimation, which often underperform in complex scenes, particularly in the presence of occlusion and clutter.\n\nWe address this by introducing an iterative object removal and reconstruction pipeline that decomposes complex scenes into a sequence of simpler subtasks. Using VLMs as orchestrators, foreground objects are removed one at a time via detection, segmentation, object removal, and 3D fitting. We show that removing objects allows for cleaner segmentations of subsequent objects, even in highly occluded scenes. Our method requires no task-specific training and benefits directly from ongoing advances in foundation models. We demonstrate state-of-the-art robustness on 3D-Front and ADE20K datasets.\n\n*About the Speaker*\n\n[Rio Aguina-Kang](https://www.linkedin.com/in/raguinak/) is currently a Machine Learning Engineer at Drafted AI, a startup focused on generative architecture. He has previously worked at Adobe Research, Brown Visual Computing, and the Stanford Institute for Human-Centered Artificial Intelligence. He is broadly interested in building systems that let users generate and control visual content through structured representations that reflect their intent.\n\n**Physical Realistic 4D Generation**\n\nGenerating dynamic 3D content that moves and deforms over time is a key frontier in visual computing, with applications in VR/AR, robotics, and digital humans. In this talk, I present our series of works on physically realistic 4D generation: from neural surface deformation with explicit velocity fields (ICLR 2025) to our 4Deform framework for robust shape interpolation (CVPR 2025). Both methods use implicit neural representations with physically constrained velocity fields that enforce volume preservation, spatial smoothness, and geometric consistency. I will also introduce TwoSquared (3DV 2026, oral), which achieves full 4D generation from just two 2D image pairs — demonstrating a practical path toward controllable, physically plausible 4D content creation.\n\n*About the Speaker*\n\n[⁠Lu Sang ](https://www.linkedin.com/in/lu-sang-tum/)is a PhD researcher in Computer Vision at TU Munich (Prof. Daniel Cremers), specializing in 3D/4D reconstruction, neural implicit surfaces, and inverse rendering, with serveral publications at top venues including CVPR, ICLR, and ECCV. She is currently a research intern at Google XR in Zurich. With a strong mathematical foundation and a track record spanning photometric stereo to 4D generation, she brings both theoretical depth and hands-on engineering to cutting-edge visual computing research.\n\n**Finding NeMO: A Geometry-Aware Representation of Template Views for Few-Shot Perception**\n\nHow can we use and perceive objects without training a new model given only a few images? We present NeMO, a novel object representation that allows 6DoF object pose estimation, detection and segmentation given only a hand full of RGB images of an unknown object.\n\n*About the Speaker*\n\n[Sebastian Jung](https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav) studied physics at the LMU munich. He started his PhD in Computer Science at the german aerospace center (DLR) in 2025 and focuses on object centric few shot perception with a focus on robotic applications. Additionally, he's a student researcher at google, focusing on computer vision algorithms for XR.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314090335/",
@@ -1431,6 +1460,36 @@
     "hash_key": "you secured your apis then you added ai_2026-05-07T14:00:00+00:00"
   },
   {
+    "title": "AI/IA CDMX|¿Quién Apretó Enter? - Who Pressed Enter?|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/ikle08uc\n\nAddress:\nFlemishPixel (FPX)\nCiudad de México, Mexico\n\nHosted by Ben AI CDMX",
+    "url": "https://luma.com/ikle08uc",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/ikle08uc",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "FlemishPixel (FPX), FlemishPixel, Av. Ejército Nacional Mexicano 6, Anzures, Miguel Hidalgo, 11590 Ciudad de México, CDMX, Mexico",
+    "online": false,
+    "organizer": "AI/IA CDMX",
+    "dtstart": "2026-05-07T01:00:00+00:00",
+    "dtend": "2026-05-07T03:00:00+00:00",
+    "tags": [
+      "ai",
+      "frontend"
+    ],
+    "source": "https://luma.com/ai-cdmx",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "FlemishPixel, Av. Ejército Nacional Mexicano 6, Anzures, Miguel Hidalgo, 11590 Ciudad de México, CDMX, México",
+    "hash_key": "quin apret enter who pressed enter_2026-05-07T00:00:00+00:00"
+  },
+  {
     "title": "Rust-AICollective|Spirals of Connection: Science, AI, and the Felt Experience of Being Seen|Online",
     "description": "Get up-to-date information at: https://luma.com/aic-gl-4-277\n\nHosted by The AI Collective & 3 others",
     "url": "https://luma.com/aic-gl-4-277",
@@ -1491,6 +1550,35 @@
     "city_code": "",
     "address": "",
     "hash_key": "may 6 building composable computer visio_2026-05-06T16:00:00+00:00"
+  },
+  {
+    "title": "Rust-AICollective|GPT-5.5 on 5/5: Consolation Party (Virtual)|Online",
+    "description": "Get up-to-date information at: https://luma.com/55-988\n\nHosted by The AI Collective & Daniel Green",
+    "url": "https://luma.com/55-988",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/55-988",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "https://luma.com/event/evt-cifHqZlVIMFc8yU",
+    "online": true,
+    "organizer": "Rust-AICollective",
+    "dtstart": "2026-05-06T00:55:00+00:00",
+    "dtend": "2026-05-06T02:55:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://luma.com/rust-ios-ai",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "https://luma.com/event/evt-cifHqZlVIMFc8yU",
+    "hash_key": "gpt 5 5 on 5 5 consolation party virtual_2026-05-06T00:00:00+00:00"
   },
   {
     "title": "Rust-AICollective|Live Executive Teardowns: Scaling Your Voice Without the Noise|Online",
