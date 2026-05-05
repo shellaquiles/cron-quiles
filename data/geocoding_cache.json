@@ -14205,5 +14205,76 @@
     "types": [
       "route"
     ]
+  },
+  "Colonia del Valle Centro, Ciudad de México, México": {
+    "address_components": [
+      {
+        "long_name": "Colonia del Valle Centro",
+        "short_name": "Col del Valle Centro",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "Col del Valle Centro, Ciudad de México, CDMX, México",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 19.3911386,
+          "lng": -99.1591026
+        },
+        "southwest": {
+          "lat": 19.3766613,
+          "lng": -99.1763652
+        }
+      },
+      "location": {
+        "lat": 19.3797151,
+        "lng": -99.1677132
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "northeast": {
+          "lat": 19.3911386,
+          "lng": -99.1591026
+        },
+        "southwest": {
+          "lat": 19.3766613,
+          "lng": -99.1763652
+        }
+      }
+    },
+    "place_id": "ChIJb71fGp__0YURlFI_hvidEKE",
+    "types": [
+      "political",
+      "sublocality",
+      "sublocality_level_1"
+    ]
   }
 }
