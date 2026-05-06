@@ -4248,7 +4248,7 @@ CATEGORIES:ai,python
 DESCRIPTION:Get up-to-date information at: https://luma.com/6b18ulh8\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by FinTech México & 
  3 others
-LOCATION:Roma Sur\, Ciudad de México\, México
+LOCATION:Roma Sur\, Ciudad de México\, Mexico
 X-CRONQUILES-ADDRESS:Roma Sur\, 06760 Ciudad de México\, CDMX\, México
 X-CRONQUILES-CITY:Ciudad de México
 X-CRONQUILES-CITY-CODE:cdmx
@@ -6575,6 +6575,23 @@ LOCATION:https://luma.com/event/evt-16GG6BkdIGXqAfQ
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-16GG6BkdIGXqAfQ
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|Pitch and Run CDMX|México|Ciudad de México
+DTSTART:20260508T133000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/bx480zhp\n\nAd
+ dress:\nMercado de Flores\nCiudad de México\, Mexico\n\nHosted by Eleanor
+  Davies & 4 others
+LOCATION:Mercado de Flores\, Av Constituyentes\, Bosque de Chapultepec I S
+ ecc\, Miguel Hidalgo\, 11580 Ciudad de México\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Av Constituyentes\, Bosque de Chapultepec I Secc\, Mi
+ guel Hidalgo\, 11580 Ciudad de México\, CDMX\, México
+X-CRONQUILES-CITY:Ciudad de México
+X-CRONQUILES-CITY-CODE:cdmx
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Ciudad de México
+X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:GDG Heroica Veracruz|Build with AI Veracruz Workshop Hands On 2026
  |México|Veracruz
 DTSTART:20260508T100000
@@ -7577,6 +7594,89 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|July
+  23 - AI\, ML\, and Computer Vision Meetup|Online
+DTSTART:20260723T100000
+CATEGORIES:ai,backend,data,devops,frontend,security
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nJoin our virtual meetup to hear talks from experts on cutting-edge topics
+  across AI\, ML\, and computer vision.\n\n**Date\, Time and Location**\n\n
+ Jul 23\, 2026\n9:00 AM - 11:00 AM PST\n**[Online. Register for the Zoom!](
+ https://voxel51.com/events/ai-ml-and-computer-vision-meetup-july-23-2026)*
+ *\n\n**Generative AI for Video Trailer Synthesis: From Extractive Heuristi
+ cs to Autoregressive Creativity**\n\nThe domain of automatic video trailer
+  generation is currently undergoing a profound paradigm shift\, transition
+ ing from heuristicbased extraction methods to deep generative synthesis. W
+ hile early methodologies relied heavily on low-level feature engineering\,
+  visual saliency\, and rule-based heuristics to select representative shot
+ s\, recent advancements in Large Language Models (LLMs)\, Multimodal Large
+  Language Models (MLLMs)\, and diffusion-based video synthesis have enable
+ d systems that not only identify key moments but also construct coherent\,
+  emotionally resonant narratives.\n\nThis survey provides a comprehensive 
+ technical review of this evolution\, with a specific focus on generative t
+ echniques including autoregressive Transformers\, LLM-orchestrated pipelin
+ es\, and text-to-video foundation models like OpenAI's Sora and Google's V
+ eo. We analyze the architectural progression from Graph Convolutional Netw
+ orks (GCNs) to Trailer Generation Transformers (TGT)\, evaluate the econom
+ ic implications of automated content velocity on User-Generated Content (U
+ GC) platforms\, and discuss the ethical challenges posed by high-fidelity 
+ neural synthesis.\n\nBy synthesizing insights from recent literature\, thi
+ s report establishes a new taxonomy for AI-driven trailer generation in th
+ e era of foundation models\, suggesting that future promotional video syst
+ ems will move beyond extractive selection toward controllable generative e
+ diting and semantic reconstruction of trailers.\n\n*About the Speaker*\n\n
+ [Abhishek Dharmaratnakar](https://www.linkedin.com/in/abhid95/?isSelfProfi
+ le=false) is an Engineering Leader at Google leading YouTube Premium. His 
+ work focuses on the intersection of hyperscale media infrastructure and ge
+ nerative artificial intelligence\, directing cross-functional engineering 
+ organizations to redefine how billions of users consume and create content
+ \n\n**Making Agent Systems Observable\, Reliable\, and Testable**\n\nIn th
+ is talk\, I’ll share practical lessons from building real agent systems 
+ in computer vision workflows\, focusing on how to design evaluation loops\
+ , observability pipelines\, and sandboxed environments that make agents re
+ liable in practice. We’ll explore how to measure behavior end-to-end\, t
+ est components independently\, and build feedback loops that help agents i
+ mprove over time\, even as tools\, models\, and pipelines evolve. This tal
+ k is for engineers and builders who want to move beyond demos and learn ho
+ w to make agent systems production-ready.\n\n*About the Speaker*\n\n[Adona
+ i Vera](https://www.linkedin.com/in/adonai-vera/) \\- Machine Learning Eng
+ ineer & DevRel at Voxel51\\. With over 7 years of experience building comp
+ uter vision and machine learning models using TensorFlow\, Docker\, and Op
+ enCV\\.\n\n**Training-Free Object and Associated Effect Removal in Videos*
+ *\n\nI will be presenting our recent work\, Object-WIPER\, which focuses o
+ n removing objects and their associated effects from videos. Instead of fi
+ ne-tuning models for each editing task\, our method reuses the priors of p
+ re-trained text-to-video models to perform object and effect removal in a 
+ training-free manner. We also curate a real world associated-effect benchm
+ ark and evaluation metric for more realistic assessment of video object re
+ moval.\n\n*About the Speaker*\n\n[Saksham Singh Kushwaha](https://www.link
+ edin.com/in/saksham-singh-kushwaha/) is a candidate at UT Dallas\, with re
+ search interests in audio-visual learning\, spatial audio\, and computer v
+ ision. I received my master’s degree from NYU and bachelor’s degree fr
+ om IIT Delhi.\n\n**Turning Models into Systems: AI Architecture That Works
+ **\n\nThis talk explores what it really takes to make "intelligent systems
+ " work in the messy\, high-stakes reality of production environments – n
+ ot just in demos or pilots. Most AI initiatives do not fail because the al
+ gorithms are weak\, but because the surrounding system is not designed to 
+ handle uncertainty\, change\, and operational demands.\n\nThe session show
+ s how to separate the concerns of building and improving models from their
+  use in daily operations\, and how to create a stable core of rules\, safe
+ ty\, and business meaning around which smarter components can evolve.\n\nI
+ nstead of treating AI as a magic add-on\, the talk frames it as a capabili
+ ty that must be grounded in the organization's language\, workflows\, and 
+ responsibilities. It demonstrates how to design that core so that new mode
+ ls\, tools\, and data sources can be plugged in\, compared\, and replaced 
+ without breaking trust.\n\nAttendees will leave with a clear mental model 
+ and a set of practical design ideas for turning clever prototypes into rob
+ ust\, understandable\, and adaptable intelligent systems that people on th
+ e ground are willing to rely on.\n\n*About the Speaker*\n\n[Dr. Nikita Gol
+ ovko](https://www.linkedin.com/in/dr-nikita-golovko/) is a seasoned Soluti
+ on Architect with over 16 years of experience in designing scalable\, secu
+ re\, and cost-effective software architectures for industrial and business
+ -critical systems.
+LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México
