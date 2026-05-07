@@ -14374,5 +14374,98 @@
       "establishment",
       "point_of_interest"
     ]
+  },
+  "Sala ACDA, 980 Avenida Revolución, Tijuana": {
+    "address_components": [
+      {
+        "long_name": "980",
+        "short_name": "980",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Avenida Revolución",
+        "short_name": "Av. Revolución",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Zona Centro",
+        "short_name": "Zona Centro",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Tijuana",
+        "short_name": "Tijuana",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Baja California",
+        "short_name": "B.C.",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "22000",
+        "short_name": "22000",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Av. Revolución 980, Zona Centro, 22000 Tijuana, B.C., México",
+    "geometry": {
+      "location": {
+        "lat": 32.5258063,
+        "lng": -117.036109
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 32.5271630302915,
+          "lng": -117.0346528197085
+        },
+        "southwest": {
+          "lat": 32.5244650697085,
+          "lng": -117.0373507802915
+        }
+      }
+    },
+    "navigation_points": [
+      {
+        "location": {
+          "latitude": 32.5258177,
+          "longitude": -117.035969
+        }
+      }
+    ],
+    "place_id": "ChIJt3pLKjBJ2YAR7iwI17wPyq4",
+    "plus_code": {
+      "compound_code": "GXG7+8H Tijuana, B.C., México",
+      "global_code": "8544GXG7+8H"
+    },
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ]
   }
 }
