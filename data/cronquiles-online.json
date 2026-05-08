@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-07T19:27:52.662900+00:00",
-  "total_events": 195,
+  "generated_at": "2026-05-08T02:07:41.773396+00:00",
+  "total_events": 197,
   "city": "Online",
   "communities": [
     {
@@ -43,11 +43,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -4999,7 +4999,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5038,6 +5038,38 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-1n6rmlkPcOH7PFK",
       "hash_key": "vibe hours v3 unhinged builds in claude _2026-05-08T00:00:00+00:00"
+    },
+    {
+      "title": "GDG CDMX|Taller: Crea agentes sin código con Gemini Enterprise|Online",
+      "description": "Únete a nosotros en este divertido, inclusivo y productivo taller donde exploraremos Gemini Enterprise para crear agente...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-taller-crea-agentes-sin-codigo-con-gemini-enterprise/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-taller-crea-agentes-sin-codigo-con-gemini-enterprise/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-05-07T19:00:00-06:00",
+      "dtend": "2026-05-08T20:30:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Workshop / hands-on session"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "taller crea agentes sin cdigo con gemini_2026-05-08T00:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|AI Literacy Series: Me, Myself & AI: Vattenfall (w/ The AI Collective)|Online",
@@ -5258,6 +5290,36 @@
       "hash_key": "may 12 best of 3dv 2026_2026-05-12T18:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|Vibe Hours v3: Unhinged Builds in Claude Design|Online",
+      "description": "Get up-to-date information at: https://luma.com/3dcegc6j\n\nHosted by Abraham, Alexandria Hamilton & The AI Collective",
+      "url": "https://luma.com/3dcegc6j",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/3dcegc6j",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-1n6rmlkPcOH7PFK",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-05-13T00:00:00+00:00",
+      "dtend": "2026-05-13T01:00:00+00:00",
+      "tags": [
+        "ai",
+        "frontend"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-1n6rmlkPcOH7PFK",
+      "hash_key": "vibe hours v3 unhinged builds in claude _2026-05-13T00:00:00+00:00"
+    },
+    {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|May 13 - Best of 3DV 2026|Online",
       "description": "México City AI, Machine Learning and Computer Vision Meetup\nWelcome to the Best of 3DV series, your virtual pass to some of the groundbreaking research, insights, and innovations that defined this year’s conference. Live streaming from the authors to you.\n\n**Date, Time and Location**\n\nMay 13, 2026\n9AM Pacific\nOnline. **[Register for Zoom!](https://voxel51.com/events/best-of-3dv-2026-may-13-2026)**\n\n**Material selection in 2D and beyond - methods, tricks and applications**\n\nIn this talk, we'll explore image understanding from a material-centric perspective, namely through the lens of material understanding. Materials distinguish themselves by their response to light, which is governed and modelled through physical properties like roughness or gloss - however, understanding such properties is a non-trivial task for current models and network architectures. We'll see how we can select materials similar to a given query material, significantly improve selection fidelity and eventually even venture beyond 2D, to enable selection in the 3D domain.\n\n*About the Speaker*\n\n[Michael Fischer](https://www.linkedin.com/in/michael-fischer-32b43b1a4/) is a research scientist at Adobe research London. He obtained his PhD from University College London (UCL), advised by Niloy Mitra and Tobias Ritschel. Michael has authored several top-tier publications (CVPR, ICCV, SIGGRAPH, ...) and is a recipient of both the Meta PhD scholarship and the Rabin Ezra scholarship. His research interests focus on image- and scene-understanding, material perception, selection and editing and efficient optimization.\n\n**Look Around and Pay Attention: Multi-camera Point Tracking Reimagined with Transformers**\n\nThis paper presents LAPA (Look Around and Pay Attention), a novel end-to-end transformer-based architecture for multi-camera point tracking that integrates appearance-based matching with geometric constraints. Traditional pipelines decouple detection, association, and tracking, leading to error propagation and temporal inconsistency in challenging scenarios. LAPA addresses these limitations by leveraging attention mechanisms to jointly reason across views and time, establishing soft correspondences through a cross-view attention mechanism enhanced with geometric priors. Instead of relying on classical triangulation, we construct 3D point representations via attention-weighted aggregation, inherently accommodating uncertainty and partial observations.\n\n*About the Speaker*\n\n[Bishoy Galoaa](https://www.linkedin.com/in/bishoy-galoaa-153668149) is a PhD Student in Northeastern University\n\n**Gaussian Wardrobe: Compositional 3D Gaussian Avatars for Free-Form Virtual Try-On**\n\nWe introduce Gaussian Wardrobe, a novel framework to digitalize compositional 3D neural avatars from multi-view videos. Existing methods for 3D neural avatars typically treat the human body and clothing as an inseparable entity, which fails to capture the dynamics of complex free-form garments and limits the reuse of clothing across different subjects. To overcome these problems, our method decomposes neural avatars into bodies and layers of shape-agnostic neural garments. Our framework learns the geometry and deformations of each garment layer from multi-view videos and normalizes them into a shape-independent space using 3D Gaussians. We demonstrate that these compositional garments contribute to a versatile digital wardrobe, enabling a practical 3D virtual try-on application where clothing can be freely transferred to new subjects.\n\n*About the Speaker*\n\n[Hsuan-I Ho](https://www.linkedin.com/in/hohs) obtained his doctoral degree from ETH Zurich, supervised by Prof. Otmar Hilliges and Prof. Marc Pollefeys. His research focuses on human-centric machine perception, including 3D human reconstruction, human modeling, and pose estimation. The goal is to push the boundary of human and machine interaction on future human-centric reasoning and physical AI.\n\n**Consistency Models for 3D Point Cloud Generation**\n\nConTiCoM-3D is a new method for creating 3D point clouds. It works directly with 3D points and can generate shapes very quickly in only one or two steps. Unlike many older methods, it does not need a separate teacher model or a complex latent space. Tests on typical benchmarks show that it can produce high-quality 3D shapes while being faster than many existing approaches.\n\n*About the Speaker*\n\n[Sebastian Eilermann](https://www.linkedin.com/in/sebastian-eilermann-a83339151) is a PhD student specialising in 3D generative AI. My research focuses on developing advanced methods for creating and understanding three-dimensional content. I explore the intersection of machine learning, computer vision and generative modelling to enable the generation of more realistic and efficient 3D assets.",
       "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314074703/",
@@ -5343,7 +5405,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
