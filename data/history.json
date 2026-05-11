@@ -237,6 +237,40 @@
     "hash_key": "del oro negro al oro digital from black _2026-07-22T00:00:00+00:00"
   },
   {
+    "title": "México City AI, Machine Learning and Computer Vision Meetup|June 24 - Building Composable Vision Workflows in FiftyOne|Online",
+    "description": "México City AI, Machine Learning and Computer Vision Meetup\nThis workshop explores the [FiftyOne plugin framework](https://docs.voxel51.com/plugins/index.html) to build custom computer vision applications. You’ll learn to extend the FiftyOne App with Python based panels and server side operators, as well as integrate external tools for labeling, vector search, and model inference into your dataset views.\n\n**Time, Date and Location**\n\nJun 24, 2026\n9 AM - 10 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/building-composable-vision-workflows-in-fiftyone-june-24-2026)**\n\n**What you'll learn:**\n\n* **Build Python plugins.** Define plugin manifests and directory structures to register custom functionality within the FiftyOne ecosystem.\n* **Develop server side operators.** Write functions to execute model inference, data cleaning, or metadata updates from the App interface.\n* **Build interactive panels.** Create custom UI dashboards using to visualize model metrics or specialized dataset distributions.\n* **Manage operator execution contexts.** Pass data between the App front end and your backend to build dynamic user workflows.\n* **Implement delegated execution**. Configure background workers to handle long running data processing tasks without blocking the user interface.\n* **Build labeling integrations**. Streamline the flow of data between FiftyOne and annotation platforms through custom triggers and ingestion scripts.\n* **Extend vector database support.** Program custom connectors for external vector stores to enable semantic search across large sample datasets.\n* **Package and share plugins**. Distribute your extensions internally and externally",
+    "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314739717/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314739717/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online event,",
+    "online": true,
+    "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
+    "dtstart": "2026-06-24T10:00:00-06:00",
+    "dtend": "2026-06-24T12:00:00-06:00",
+    "tags": [
+      "ai",
+      "backend",
+      "data",
+      "frontend",
+      "python",
+      "web"
+    ],
+    "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "june 24 building composable vision workf_2026-06-24T16:00:00+00:00"
+  },
+  {
     "title": "v0 Prompt to Production Mexico City|How I Use AI #7: WhatsApp Voicebots|Online",
     "description": "Get up-to-date information at: https://luma.com/vhwcyvjr\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
     "url": "https://luma.com/vhwcyvjr",
@@ -382,6 +416,33 @@
     "city_code": "cdmx",
     "address": "Blvd. Miguel de Cervantes Saavedra 301-piso 10, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX, México",
     "hash_key": "town hall_2026-06-10T22:00:00+00:00"
+  },
+  {
+    "title": "FinTech México|Segundo Town Hall 2026 de FinTech México|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/mw0fc2k4\n\nAddress:\nCírculo de Crédito\nCiudad de México, Mexico\n\nHosted by FinTech México",
+    "url": "https://luma.com/mw0fc2k4",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/mw0fc2k4",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Círculo de Crédito, Blvd. Miguel de Cervantes Saavedra 301-piso 10, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX, Mexico",
+    "online": false,
+    "organizer": "FinTech México",
+    "dtstart": "2026-06-10T23:30:00+00:00",
+    "dtend": "2026-06-11T02:30:00+00:00",
+    "tags": [],
+    "source": "https://luma.com/eofagheq",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Blvd. Miguel de Cervantes Saavedra 301-piso 10, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX, México",
+    "hash_key": "segundo town hall 2026 de fintech mxico_2026-06-10T22:00:00+00:00"
   },
   {
     "title": "Rust-AICollective|The Copilot Effect: Microsoft's AI and What It Means for Your Business (w/ The AI Collective)|Online",
@@ -630,6 +691,39 @@
     "hash_key": "build with ai sureste de mxico mipymes_2026-05-28T14:00:00+00:00"
   },
   {
+    "title": "México City AI, Machine Learning and Computer Vision Meetup|May 27 - Perceptron AI and FiftyOne for Video Understanding Workshop|Online",
+    "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin us for a hands-on virtual session on May 27 exploring video-native multimodal AI and how to integrate cutting-edge video understanding models into your computer vision workflows.\n\n**Date, Time and Location**\n\nMay 27, 2026\n9:00 AM - 11:00 AM PST\n**[Online. Register for Zoom!](https://voxel51.com/events/getting-started-perceptron-ai-fiftyone-video-understanding-may-27-2026)**\n\n**Video-Native Multimodal Models for Video and Image Understanding**\n\nIn this 20-minute talk, Akshat will introduce Perceptron’s latest release, a video-native multimodal model that matches or exceeds frontier models from Google and Alibaba on video and image understanding at a fraction of their inference cost. He’ll walk through the capabilities that move the needle for real video workloads: temporal grounding to clip precise events from long streams, egocentric reasoning for first-person and wearable contexts, and structured “thinking traces” that reason over motion and physical space. He’ll also cover the image-side advances production perception teams care about: reliable pointing, point-by-example one-shot visual search, dense counting, dial/gauge/clock reading, and structured document extraction.\n\n*About the Speaker*\n\n[Akshat Shrivastava](https://www.linkedin.com/in/akshatsh/) is the CTO and co-founder of Perceptron, previously leading AR On-Device at Meta and conducting research at UW.\n\n**Getting Started with Perceptron AI in FiftyOne**\n\nIn the second half of the session, Harpreet Sahota will walk through how to get started using Perceptron’s video-native multimodal model within FiftyOne for real-world video understanding workflows. He’ll demonstrate how to connect to the API, explore multimodal outputs inside FiftyOne, and build practical workflows for tasks like temporal event analysis, visual search, and video dataset inspection. Attendees will leave with a hands-on understanding of how to integrate state-of-the-art video perception models into their existing computer vision pipelines.\n\n*About the Speaker*\n\n[Harpreet Sahota](https://www.linkedin.com/in/harpreetsahota204/) is a hacker-in-residence and machine learning engineer with a passion for deep learning and generative AI. He’s got a deep interest in VLMs, Visual Agents, Document AI, and Physical AI.",
+    "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314738082/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314738082/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online event,",
+    "online": true,
+    "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
+    "dtstart": "2026-05-27T10:00:00-06:00",
+    "dtend": "2026-05-27T12:00:00-06:00",
+    "tags": [
+      "ai",
+      "backend",
+      "data",
+      "frontend",
+      "security"
+    ],
+    "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "may 27 perceptron ai and fiftyone for vi_2026-05-27T16:00:00+00:00"
+  },
+  {
     "title": "GDG Cloud Mexico City|Build with AI Week: Gira Universitaria Sur de Tamaulipas 2026|México|Tamaulipas",
     "description": "¡La IA de Google aterriza en el sur de Tamaulipas! 🚀¡La gira tecnológica que estabas esperando ya está aquí! Build with ...",
     "url": "https://gdg.community.dev/events/details/google-gdg-cloud-mexico-city-presents-build-with-ai-week-gira-universitaria-sur-de-tamaulipas-2026/",
@@ -760,6 +854,43 @@
     "hash_key": "ai collective descript how leaders make _2026-05-21T18:00:00+00:00"
   },
   {
+    "title": "GDG Heroica Veracruz|[Hands on] Build with AI: De la curiosidad con Gemini App a construir con Google AI Studio|Online",
+    "description": "Una introducción diseñada para aprender a integrar los modelos de AI de Google en tus apps y productos. Iniciaremos expl...",
+    "url": "https://gdg.community.dev/events/details/google-gdg-heroica-veracruz-presents-hands-on-build-with-ai-de-la-curiosidad-con-gemini-app-a-construir-con-google-ai-studio/",
+    "sources": [
+      {
+        "platform": "website",
+        "url": "https://gdg.community.dev/events/details/google-gdg-heroica-veracruz-presents-hands-on-build-with-ai-de-la-curiosidad-con-gemini-app-a-construir-con-google-ai-studio/",
+        "label": "Ver sitio web"
+      }
+    ],
+    "location": "Online",
+    "online": true,
+    "organizer": "GDG Heroica Veracruz",
+    "dtstart": "2026-05-21T18:30:00-06:00",
+    "dtend": "2026-05-21T20:30:00-06:00",
+    "tags": [
+      "AI",
+      "AI - Gemini",
+      "Build with AI",
+      "Community Building",
+      "Google Cloud",
+      "Workshop / hands-on session",
+      "ai",
+      "frontend",
+      "mobile"
+    ],
+    "source": "https://gdg.community.dev/gdg-heroica-veracruz/",
+    "country": "México",
+    "country_code": "MX",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "Online",
+    "hash_key": "hands on build with ai de la curiosidad _2026-05-22T00:00:00+00:00"
+  },
+  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|May 21 - Women in AI Meetup|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nHear talks from experts on the latest topics in AI, ML, and computer vision on May 21.\n\n**Date, Time and Location**\n\nMay 21, 2026\n9 - 11 AM pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/women-in-ai-meetup-may-21-2026)**\n\n**Beyond Models: LLM-Guided Reinforcement Learning for Real-World Wireless Systems**\n\nReinforcement learning agents often perform well in simulation but break down when deployed in real, non-stationary, constraint-driven environments such as wireless systems. This work explores using large language models not as annotators or reward hacks, but as a reasoning layer that guides RL decision-making with domain logic, scenario interpretation, and adaptive constraints.\n\nWe present an architecture where the LLM provides structured, high-level advisory signals while the RL policy remains the final action authority to avoid hallucination-driven failures. Early experiments show that this hybrid setup improves robustness under distribution shifts and complex constraint scenarios where standard RL collapses. The goal is not to replace RL with LLMs, but to combine learning and reasoning into a more deployable control-intelligence framework.\n\n*About the Speaker*\n\n[Fatemeh Lotfi ](https://www.linkedin.com/in/fatemeh-lotfi-1a860359/?skipRedirect=true)is a Ph.D. researcher focused on integrating large language models and reinforcement learning for adaptive wireless control systems. Her work targets the limitations of classical RL under real-world uncertainty by introducing reasoning-driven guidance mechanisms using LLMs. She has contributed to multiple AI-for-infrastructure projects, including advanced O-RAN automation.\n\n**Responsible and Ethical AI in Healthcare: Building Trustworthy and Inclusive Intelligent Systems**\n\nIn this session, I will discuss how Responsible AI principles: including fairness, transparency, accountability, and reliability can be practically embedded into healthcare AI systems. Key discussion points will include:\n\n* Addressing bias and equity challenges in healthcare datasets and model training.\n* Building explainable and interpretable AI to strengthen clinician trust and adoption.\n* Ensuring ethical deployment of generative AI models within regulated healthcare environments.\n* Establishing governance frameworks for data privacy, model monitoring, and regulatory compliance.\n\n*About the Speaker*\n\n[Jahnavi Kachhia](https://www.linkedin.com/in/jk186/?skipRedirect=true) is the Global Product Owner, AI & ML at Abbott, leading large-scale AI initiatives for the FreeStyle Libre platform to enhance clinical decision-making and patient outcomes. Previously at Meta’s Reality Labs, she advanced AR/VR innovation and LLM-based intelligent systems. An active contributor to the AI research community, she serves on the IJCAI 2025 Program Committee and reviews for AAAI, IJCNN, and IEEE conferences.\n\n**AI Applications in Drug Repurposing**\n\nDrug repurposing is increasingly important because it offers a faster, lower-cost path to therapeutic discovery compared to de novo drug development, especially in oncology where many cancers still lack effective targeted options. In under-studied cancers such as endometrial cancer, the challenge is often a lack of large, high-quality clinical or response datasets, making purely data-dependent approaches difficult to scale reliably. This motivates combining data-independent strategies (e.g., pathway- and mechanism-driven modeling) with data-dependent learning when interaction evidence is available. A practical and scalable direction is drug–target interaction (DTI) prediction, where AI models can leverage molecular and protein representations to prioritize mechanistically plausible drug candidates for repurposing.\n\n*About the Speaker*\n\n[Madhurima Mondal's](https://www.linkedin.com/in/madhurima-mondal-65a59882/) academic journey has been shaped by strong foundations in mathematical and scientific problem-solving, including multiple national-level achievements such as Regional Mathematics Olympiad (RMO), NTSE, and the KVPY fellowship. She completed my B.Tech and M.Tech in Electronics & Electrical Communication Engineering from IIT Kharagpur, and I am currently a PhD candidate in Electrical & Computer Engineering at Texas A&M University,\n\n**Mapping to Belonging: How Ethically Governed AI Can Make Real Places More Accessible, Legible, and Human**\n\nCan AI help people belong in the places where they live, work, travel, and get together?\n\nThis talk explores that question through real-world work at the intersection of accessibility, computer vision mapping, civic data, and ethically governed AI. I will show how AI can support the collection and interpretation of pedestrian accessibility data, reduce the burden of documenting barriers, and help transform lived experience into structured information that can be used across routing tools, planning systems, and public decision-making. I will also argue that public-interest AI only works when it is governed well. In accessibility work, the risks are clear: over-averaging, hidden bias, false completeness, and systems that optimize for efficiency while overlooking the people most affected by missing or poor-quality data. Ethically governed AI must therefore be designed to preserve local context, support transparency, include community participation, and make room for experiences that conventional systems often ignore.\n\n*About the Speaker*\n\n[Anat Caspi](https://www.linkedin.com/in/anat-caspi-phd-8b0a161/) is Director of the Taskar Center for Accessible Technology at the University of Washington, where she leads research and public-interest technology efforts focused on accessibility, mobility, and inclusive transportation data.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/313082635/",
@@ -825,6 +956,38 @@
     "city_code": "villahermosa",
     "address": "Villahermosa, Tab., México",
     "hash_key": "build with ai sureste de mxico academia_2026-05-21T14:00:00+00:00"
+  },
+  {
+    "title": "Kong Mexico City|Agentic AI Cost Control for the CFO: Attribution & Visibility|Online",
+    "description": "Kong/MEXICO-CITY\nAs agentic AI deployments scale, so do the costs and most CFOs are flying blind. Token usage is fragmented across teams, attribution is murky, and finance has no seat at the table when AI budgets spiral. This webinar shows finance and platform leaders how to bring structure to AI spending with real-time visibility, policy enforcement, and cost attribution across every model, agent, and workflow powered by Kong AI Gateway.\n**Key Takeaways**\n\n1. **Understand the CFO's AI blind spot** — Why traditional cost centers break down with agentic AI, and what a modern attribution model looks like across teams, workflows, and LLM providers.\n2. **See how Kong AI Gateway enables token-level visibility** — Get a practical look at how platform and finance teams can track consumption, set budget guardrails, and enforce spend policies at the gateway layer.\n3. **Build a shared accountability model between Finance and Engineering** — Learn the organizational and technical steps to create a unified AI cost control plane that gives both teams the data they need to make smarter decisions",
+    "url": "https://www.meetup.com/kong-mexico-city/events/314738951/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/kong-mexico-city/events/314738951/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online event,",
+    "online": true,
+    "organizer": "Kong Mexico City",
+    "dtstart": "2026-05-21T09:00:00-06:00",
+    "dtend": "2026-05-21T10:00:00-06:00",
+    "tags": [
+      "ai",
+      "data",
+      "frontend",
+      "web"
+    ],
+    "source": "https://www.meetup.com/kong-mexico-city/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "agentic ai cost control for the cfo attr_2026-05-21T14:00:00+00:00"
   },
   {
     "title": "Rust-AICollective|Live Executive Teardowns: Scaling Your Voice Without the Noise|Online",
@@ -1032,7 +1195,7 @@
     "dtstart": "2026-05-15T00:00:00+00:00",
     "dtend": "2026-05-15T00:50:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "",
     "country_code": "",
     "state": "",
@@ -1636,7 +1799,7 @@
     "tags": [
       "security"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "",
     "country_code": "",
     "state": "",
@@ -3060,7 +3223,7 @@
     "dtstart": "2026-04-24T15:00:00+00:00",
     "dtend": "2026-04-24T21:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -4333,7 +4496,7 @@
       "cloud",
       "python"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -4418,7 +4581,7 @@
     "dtstart": "2026-03-01T17:00:00+00:00",
     "dtend": "2026-03-01T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -4504,7 +4667,7 @@
     "dtstart": "2026-02-27T15:00:00+00:00",
     "dtend": "2026-02-27T17:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -4560,7 +4723,7 @@
     "dtstart": "2026-02-26T01:00:00+00:00",
     "dtend": "2026-02-26T04:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -4614,7 +4777,7 @@
     "dtstart": "2026-02-26T00:00:00+00:00",
     "dtend": "2026-02-26T03:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -4641,7 +4804,7 @@
     "dtstart": "2026-02-25T22:00:00+00:00",
     "dtend": "2026-02-25T23:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -4670,7 +4833,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -4699,7 +4862,7 @@
     "tags": [
       "mobile"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -4753,7 +4916,7 @@
     "dtstart": "2026-02-25T15:00:00+00:00",
     "dtend": "2026-02-25T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -4988,7 +5151,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -5015,7 +5178,7 @@
     "dtstart": "2026-02-24T14:30:00+00:00",
     "dtend": "2026-02-24T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -5044,7 +5207,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -5071,7 +5234,7 @@
     "dtstart": "2026-02-24T00:00:00+00:00",
     "dtend": "2026-02-24T02:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -5100,7 +5263,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -5130,7 +5293,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -5160,7 +5323,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -5187,7 +5350,7 @@
     "dtstart": "2026-02-23T19:00:00+00:00",
     "dtend": "2026-02-23T20:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -5214,7 +5377,7 @@
     "dtstart": "2026-02-23T18:00:00+00:00",
     "dtend": "2026-02-23T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -5241,7 +5404,7 @@
     "dtstart": "2026-02-23T17:00:00+00:00",
     "dtend": "2026-02-23T18:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -5271,7 +5434,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -5649,7 +5812,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6523,7 +6686,7 @@
     "tags": [
       "devops"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
@@ -6690,7 +6853,7 @@
     "dtstart": "2025-11-18T23:00:00+00:00",
     "dtend": "2025-11-19T01:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -7502,7 +7665,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
@@ -7671,7 +7834,7 @@
     "dtstart": "2025-09-29T18:00:00+00:00",
     "dtend": "2025-09-29T19:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -7725,7 +7888,7 @@
     "dtstart": "2025-09-19T22:00:00+00:00",
     "dtend": "2025-09-20T00:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -13584,7 +13747,7 @@
     "dtstart": null,
     "dtend": null,
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
