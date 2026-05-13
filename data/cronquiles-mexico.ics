@@ -7371,7 +7371,7 @@ SUMMARY:Rust-AICollective|Live Executive Teardowns: Scaling Your Voice Wit
 DTSTART:20260520T180000Z
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/2uyzceoo\n\nHo
- sted by Abraham & 3 others
+ sted by Abraham & 4 others
 LOCATION:https://luma.com/event/evt-juNiYiKaeEVT857
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-juNiYiKaeEVT857
 END:VEVENT
@@ -7542,6 +7542,16 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/aic-gl-4-30\n\
  nHosted by Eileen Wu & 3 others
 LOCATION:https://luma.com/event/evt-UwmVlsfq54OZNGj
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-UwmVlsfq54OZNGj
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rust-AICollective|Papo de Founders - Dilson\, da CertiFace - Encon
+ tro #11 AI Collective São Paulo|Online
+DTSTART:20260521T220000Z
+CATEGORIES:ai,frontend
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-sa-5-21\n\
+ nHosted by The AI Collective\, Alexandre Mandl & Luiz Real
+LOCATION:https://luma.com/event/evt-5vkWHGOMiVuCCXT
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-5vkWHGOMiVuCCXT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GDG Heroica Veracruz|[Hands on] Build with AI: De la curiosidad co
@@ -7803,7 +7813,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GDG Monterrey|Build with AI Monterrey|México|Nuevo León
 DTSTART:20260528T180000
-CATEGORIES:Build with AI,Google Cloud,Web,ai,frontend
+CATEGORIES:AI - Gemini,Build with AI,Google Cloud,Web,Workshop / hands-on 
+ session,ai,frontend
 DESCRIPTION:Únete a nuestro evento comunitario Build with AI el 28 de may
  o en Apex Systems. Este meetup está diseñado para desarroll...
 LOCATION:Apex Systems Helice\, 1104 Avenida San Jerónimo\, Monterrey
@@ -8435,6 +8446,31 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Aug 
+ 20 - Cold Pool to Hot Queue: Annotation Curation with FiftyOne|Online
+DTSTART:20260820T100000
+CATEGORIES:ai,data
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nIn this hands-on workshop\, you'll use [FiftyOne ](https://docs.voxel51.c
+ om/)to run the full rare-class mining loop end-to-end on a large unlabeled
+  image pool: compress the pool with near-duplicate detection\, embed image
+ s with a modern vision backbone\, mine candidate positives via seeded simi
+ larity from a tiny labeled set\, confirm them through targeted human revie
+ w\, and prioritize the survivors for annotation using representativeness a
+ nd uniqueness scores.\n\n**Time\, Date and Location**\n\nAug 20\, 2026\n9:
+ 00 AM - 11:00 AM PST\, 2026\nOnline. **[Register for the Zoom!](https://vo
+ xel51.com/events/from-cold-pool-to-hot-queue-annotation-curation-with-fift
+ yone-august-20-2026)**\n\n**What You'll Walk Away With**\n\n* A working Fi
+ ftyOne pipeline for finding rare classes in any visual dataset you own\n* 
+ A repeatable four-stage funnel — compress\, mine\, confirm\, prioritize 
+ — with a clear objective at each stage\n* A fine-tuned detector that dem
+ onstrably outperforms one trained on the same number of randomly sampled i
+ mages\n* The mental model that data curation — not architecture or hyper
+ parameters — is the highest-leverage thing you can do to improve a rare-
+ class detector
+LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México
