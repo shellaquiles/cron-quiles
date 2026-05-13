@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-13T02:12:28.273200+00:00",
-  "total_events": 242,
+  "generated_at": "2026-05-13T08:34:56.717099+00:00",
+  "total_events": 247,
   "city": "Online",
   "communities": [
     {
@@ -65,11 +65,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
+      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/eofagheq",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -217,6 +217,17 @@
         {
           "platform": "website",
           "url": "https://gdg.community.dev/gdg-heroica-veracruz/",
+          "label": "Sitio web"
+        }
+      ]
+    },
+    {
+      "name": "GDG Tijuana",
+      "description": "Buscamos impulsar el desarrollo tecnológico en Tijuana, a través de la conformación de una comunidad de programadores y perfiles afines al uso de la Tecnología. To learn more about the GDG program, visit https://developers.google.com/community/gdg",
+      "links": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/gdg-tijuana/",
           "label": "Sitio web"
         }
       ]
@@ -5043,7 +5054,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5607,7 +5618,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -6148,6 +6159,188 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "grupo de estudio lenguaje de programacin_2026-05-28T02:00:00+00:00"
+    },
+    {
+      "title": "GDG Tijuana|BUILD WITH AI - HACKFOX 2026|México|",
+      "description": "BUILD WITH AI - HACKFOX 2026 es el hackathon más emocionante de Tijuana. ¡Crea, innova y programa durante 26 horas para ...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-build-with-ai-hackfox-2026/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-build-with-ai-hackfox-2026/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Pixeland Arcade, 1120 Avenida Revolución, Tijuana",
+      "online": false,
+      "organizer": "GDG Tijuana",
+      "dtstart": "2026-05-28T08:00:00-07:00",
+      "dtend": "2026-05-29T14:00:00-07:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "AI - Gemma",
+        "Build with AI",
+        "Firebase",
+        "Google Cloud",
+        "Hackathon",
+        "Networking",
+        "Workshop / hands-on session",
+        "ai",
+        "frontend"
+      ],
+      "source": "https://gdg.community.dev/gdg-tijuana/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Pixeland Arcade, 1120 Avenida Revolución, Tijuana",
+      "hash_key": "build with ai hackfox 2026_2026-05-28T14:00:00+00:00"
+    },
+    {
+      "title": "GDG Tijuana|BUILD WITH AI - Crea tu propio chatbot con vertex AI|México|",
+      "description": "¡Únase a nosotros en un emocionante taller práctico donde aprenderá a crear su propio chatbot con tecnología de intelige...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-build-with-ai-crea-tu-propio-chatbot-con-vertex-ai/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-build-with-ai-crea-tu-propio-chatbot-con-vertex-ai/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Pixeland Arcade, 1120 Avenida Revolución, Tijuana",
+      "online": false,
+      "organizer": "GDG Tijuana",
+      "dtstart": "2026-05-28T09:00:00-07:00",
+      "dtend": "2026-05-28T14:00:00-07:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Google Cloud",
+        "Web",
+        "ai",
+        "frontend"
+      ],
+      "source": "https://gdg.community.dev/gdg-tijuana/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Pixeland Arcade, 1120 Avenida Revolución, Tijuana",
+      "hash_key": "build with ai crea tu propio chatbot con_2026-05-28T16:00:00+00:00"
+    },
+    {
+      "title": "GDG Tijuana|BUILD WITH AI - Filtrado Inteligente de Videos con la API de YouTube|México|",
+      "description": "Aprende a utilizar la YouTube Data API de Google para buscar, filtrar y analizar videos de manera automatizada. En esta ...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-build-with-ai-filtrado-inteligente-de-videos-con-la-api-de-youtube/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-build-with-ai-filtrado-inteligente-de-videos-con-la-api-de-youtube/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Pixeland Arcade, 1120 Avenida Revolución, Tijuana",
+      "online": false,
+      "organizer": "GDG Tijuana",
+      "dtstart": "2026-05-28T09:00:00-07:00",
+      "dtend": "2026-05-29T14:30:00-07:00",
+      "tags": [
+        "Build with AI",
+        "Google Cloud",
+        "Web",
+        "ai",
+        "backend",
+        "data",
+        "frontend"
+      ],
+      "source": "https://gdg.community.dev/gdg-tijuana/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Pixeland Arcade, 1120 Avenida Revolución, Tijuana",
+      "hash_key": "build with ai filtrado inteligente de vi_2026-05-28T16:00:00+00:00"
+    },
+    {
+      "title": "GDG Tijuana|BUILD WITH AI - Aplicaciones Inteligentes con Google Maps|México|",
+      "description": "Descubre cómo desarrollar soluciones innovadoras utilizando las APIs de Google Maps Platform de Google. Durante esta cha...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-build-with-ai-aplicaciones-inteligentes-con-google-maps/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-build-with-ai-aplicaciones-inteligentes-con-google-maps/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Pixeland Arcade, 1120 Avenida Revolución, Tijuana",
+      "online": false,
+      "organizer": "GDG Tijuana",
+      "dtstart": "2026-05-28T09:00:00-07:00",
+      "dtend": "2026-05-29T14:30:00-07:00",
+      "tags": [
+        "Build with AI",
+        "Google Cloud",
+        "Google Maps Platform",
+        "Web",
+        "Workshop / hands-on session",
+        "ai",
+        "backend",
+        "frontend"
+      ],
+      "source": "https://gdg.community.dev/gdg-tijuana/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Pixeland Arcade, 1120 Avenida Revolución, Tijuana",
+      "hash_key": "build with ai aplicaciones inteligentes _2026-05-28T16:00:00+00:00"
+    },
+    {
+      "title": "GDG Tijuana|Build with AI: Construye tu primer app con IA: De la Idea a Producción|México|",
+      "description": "El desarrollo ha evolucionado y la IA es hoy nuestra mejor aliada. Acompáñame a construir una web app de principio a fin. Exploraremos metodologías reales de producto: aprenderás a definir restricciones, usar IA para pulir el diseño del sistema y desplegar a producción. Una experiencia inmersiva para dominar el arte de crear software inteligente.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-build-with-ai-construye-tu-primer-app-con-ia-de-la-idea-a-produccion/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-build-with-ai-construye-tu-primer-app-con-ia-de-la-idea-a-produccion/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Pixeland Arcade, 1120 Avenida Revolución, Tijuana",
+      "online": false,
+      "organizer": "GDG Tijuana",
+      "dtstart": "2026-05-28T09:30:00-07:00",
+      "dtend": "2026-05-28T10:30:00-07:00",
+      "tags": [
+        "AI - Gemini",
+        "Build with AI",
+        "Google Cloud",
+        "Web",
+        "Workshop / hands-on session",
+        "ai",
+        "backend",
+        "frontend",
+        "web"
+      ],
+      "source": "https://gdg.community.dev/gdg-tijuana/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Pixeland Arcade, 1120 Avenida Revolución, Tijuana",
+      "hash_key": "build with ai construye tu primer app co_2026-05-28T16:00:00+00:00"
     },
     {
       "title": "AWS User Group Jalisco|🔐 Security & Compliance in the AI Era|Online",
