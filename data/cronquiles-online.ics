@@ -3382,6 +3382,48 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|June
+  30 - Beyond Annotation Tools: Building a Complete Physical AI Data Engine
+ |Online
+DTSTART:20260630T100000
+CATEGORIES:ai,backend,data,frontend
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nIn this workshop we’ll demonstrate workflows for image and video annota
+ tion\, instance segmentation\, polylines\, QA and review\, collaborative l
+ abeling operations in [FiftyOne](https://docs.voxel51.com/)\, and smart da
+ ta selection strategies that help teams reduce wasted labeling spend.\n\n*
+ *Date\, Time and Location**\n\nJun 30\, 2026\n9 AM PST\nOnline. **[Registe
+ r for the Zoom!](https://voxel51.com/events/beyond-annotation-tools-buildi
+ ng-a-complete-physical-ai-data-engine-with-fiftyone-june-30-2026)**\n\nAnn
+ otation is no longer just about drawing boxes. Modern physical AI teams ne
+ ed an end-to-end system for labeling\, QA\, dataset curation\, project man
+ agement\, auto-labeling\, and video understanding — all tightly integrat
+ ed into the workflows where models are actually built and evaluated.\n\nYo
+ u’ll also get an early look at new agentic labeling workflows powered by
+  “Labeling Agents” — intelligent systems that can learn from text pr
+ ompts and visual examples to automatically label datasets at scale. We’l
+ l walk through how teams can rapidly create reusable labeling agents\, val
+ idate outputs\, and apply them across large datasets as background tasks.\
+ n\nWhether you’re building computer vision models for robotics\, autonom
+ ous systems\, manufacturing\, retail\, or multimodal AI applications\, thi
+ s session will show how integrated annotation and data-centric workflows c
+ an dramatically accelerate iteration speed while improving dataset quality
+ .\n\n**What You’ll Learn**\n\n* How smart data selection strategies redu
+ ce annotation costs and improve model performance\n* Why integrated annota
+ tion is becoming a core requirement for modern physical AI platforms\n* Ho
+ w to unify data curation\, annotation\, evaluation\, and model iteration i
+ nside a single workflow\n* How FiftyOne supports annotation workflows for 
+ Classification\, Object detection\, Instance segmentation\, Polylines\, Vi
+ deo detection and tracking\n* How to create\, edit\, QA\, and manage 2D an
+ d 3D labels directly in context\n* How annotation project management workf
+ lows help coordinate labeling teams and reviews\n* How SAM2-powered click-
+ to-segment workflows enable fast browser-based segmentation\n* How agentic
+  labeling works\, including training reusable “Labeling Agents”\, prom
+ pting with text + visual examples\, iterating on outputs before deployment
+  and running large-scale auto-labeling workflows
+LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:GDG CDMX|Club de estudio: Fundamentos Matemáticos de la Inteligen
  cia Artificial|Online
 DTSTART:20260630T200000
