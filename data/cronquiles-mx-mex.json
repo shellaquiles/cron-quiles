@@ -1,19 +1,8 @@
 {
-  "generated_at": "2026-05-16T18:52:25.543393+00:00",
-  "total_events": 3,
+  "generated_at": "2026-05-17T02:07:26.123871+00:00",
+  "total_events": 2,
   "city": "México",
   "communities": [
-    {
-      "name": "Pythonistas GDL",
-      "description": "Comunidad de entusiastas de Python en Guadalajara. Reuniones mensuales, charlas técnicas y networking.",
-      "links": [
-        {
-          "platform": "website",
-          "url": "https://reuniones.pythonistas-gdl.org/events/1/pythonistas-gdl",
-          "label": "Sitio web"
-        }
-      ]
-    },
     {
       "name": "TESOEM",
       "description": "Organizador de eventos manuales (ej: FLISoL 2026 - Tesoem (La Paz, EdoMex))",
@@ -92,37 +81,6 @@
       "city_code": "ecatepec",
       "address": "Centro de Cultura 'Emiliano Zapata'. Calle Josefa Ortiz de Dominguez esquina Urano. Col. Sauces 1. Por metro Ecatepec, Estado de México.",
       "hash_key": "flisol 2026 ecatepec_2026-04-26T20:00:00+00:00"
-    },
-    {
-      "title": "Pythonistas GDL|Python desde cero|México|México",
-      "description": "<p style=\"margin:0.5em 0px;\">Ven a aprender Python desde cero con la comunidad Pythonistas GDL en un ambiente relajado. </p><p style=\"margin:0.5em 0px;\">Contaremos con sesiones guiadas, evaluaciones para medir el conocimiento adquirido y ejercicios para llevar a casa.</p><p style=\"margin:0.5em 0px;\">Los sábados 13, 20 y 27 de junio de 10am a 3pm. </p><p style=\"margin:0.5em 0px;\"></p><p style=\"margin:0.5em 0px;\">Costo de recuperación $450.</p>",
-      "url": "https://reuniones.pythonistas-gdl.org/event/12/python-desde-cero",
-      "sources": [
-        {
-          "platform": "website",
-          "url": "https://reuniones.pythonistas-gdl.org/event/12/python-desde-cero",
-          "label": "Ver sitio web"
-        }
-      ],
-      "location": "México",
-      "online": false,
-      "organizer": "Pythonistas GDL",
-      "dtstart": "2026-06-13T16:00:00+00:00",
-      "dtend": "2026-06-27T21:00:00+00:00",
-      "tags": [
-        "frontend",
-        "mobile",
-        "python"
-      ],
-      "source": "https://reuniones.pythonistas-gdl.org/events/1/pythonistas-gdl",
-      "country": "México",
-      "country_code": "MX",
-      "state": "México",
-      "state_code": "MX-MEX",
-      "city": "",
-      "city_code": "",
-      "address": "México",
-      "hash_key": "python desde cero_2026-06-13T16:00:00+00:00"
     }
   ]
 }
