@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-18T14:55:38.291027+00:00",
-  "total_events": 257,
+  "generated_at": "2026-05-18T19:26:27.519179+00:00",
+  "total_events": 258,
   "city": "Online",
   "communities": [
     {
@@ -65,11 +65,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -130,8 +130,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -217,6 +222,17 @@
         {
           "platform": "website",
           "url": "https://gdg.community.dev/gdg-heroica-veracruz/",
+          "label": "Sitio web"
+        }
+      ]
+    },
+    {
+      "name": "GDG San Francisco de Campeche",
+      "description": "El Grupo de Desarrolladores de Google (GDG) en San Francisco de Campeche es un colectivo de entusiastas de la tecnología dedicado a fomentar el aprendizaje, la colaboración y la productividad entre los desarrolladores en Campeche y sus alrededores. Fundado en mayo de 2019, nuestra comunidad es un hervidero de innovación y creatividad tecnológica.",
+      "links": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/gdg-san-francisco-de-campeche/",
           "label": "Sitio web"
         }
       ]
@@ -3142,7 +3158,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3306,7 +3322,7 @@
       "tags": [
         "devops"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5081,7 +5097,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5645,7 +5661,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -6589,6 +6605,35 @@
       "city_code": "",
       "address": "",
       "hash_key": "security compliance in the ai era_2026-05-29T00:00:00+00:00"
+    },
+    {
+      "title": "GDG San Francisco de Campeche|LLM, Modelos, Tokens, Agentes y Más|Online",
+      "description": "Únete a nosotros para un emocionante evento titulado \"Explorando el Futuro: LLM, Modelos, Tokens, Agentes y Más\", donde ...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-san-francisco-de-campeche-presents-llm-modelos-tokens-agentes-y-mas/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-san-francisco-de-campeche-presents-llm-modelos-tokens-agentes-y-mas/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG San Francisco de Campeche",
+      "dtstart": "2026-05-28T19:30:00-06:00",
+      "dtend": "2026-05-28T20:30:00-06:00",
+      "tags": [
+        "AI - Gemini"
+      ],
+      "source": "https://gdg.community.dev/gdg-san-francisco-de-campeche/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "llm modelos tokens agentes y ms_2026-05-29T00:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|TEST - please ignore|Online",
@@ -7595,7 +7640,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
