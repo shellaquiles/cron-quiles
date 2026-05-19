@@ -7376,7 +7376,7 @@ SUMMARY:Rust-AICollective|All The Things: IT & AI In Action|Online
 DTSTART:20260520T170000Z
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/it_ai_action\n
- \nHosted by AJ Bustamante | NWCSI | Your Managed IT Department & 4 others
+ \nHosted by AJ Bustamante | NWCSI | Your Managed IT Department & 3 others
 LOCATION:https://luma.com/event/evt-GYAIu8AsLQQDwmP
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-GYAIu8AsLQQDwmP
 END:VEVENT
@@ -7891,7 +7891,7 @@ BEGIN:VEVENT
 SUMMARY:AWS User Group Jalisco|🔐 Security & Compliance in the AI Era|On
  line
 DTSTART:20260528T190000
-CATEGORIES:ai,cloud,data,frontend,security
+CATEGORIES:ai,cloud,data,devops,frontend,security
 DESCRIPTION:AWS User Group Jalisco\nLa Inteligencia Artificial está trans
  formando la manera en que construimos aplicaciones y procesamos datos… p
  ero también está cambiando la forma en que pensamos sobre seguridad\, pr
@@ -7906,11 +7906,12 @@ DESCRIPTION:AWS User Group Jalisco\nLa Inteligencia Artificial está trans
  les** – *Senior AI Engineer*\n**“RAG Is the New SQL Injection: Data as
   an Attack Vector and Influence in AI Systems on AWS”**\n✨ **Efra Flor
  es** – *SR Data Engineer & Profesor Universitario de ML+DL*\n**“Health
- Tech Compliance: IA\, Embeddings y Privacidad de Datos”**\n👀 Y tendre
- mos un **speaker sorpresa** por anunciar próximamente.\n\n📅 **Fecha:**
-  28 de mayo\n🕖 **Hora:** 7:00 PM\n💻 **Modalidad:** Online\n\nÚnete 
- a nosotros para conversar sobre cómo construir soluciones de IA más segu
- ras\, responsables y preparadas para el futuro 🚀
+ Tech Compliance: IA\, Embeddings y Privacidad de Datos”**\n✨ **Adolfo 
+ Cabrera** – *GCP DevOps Engineer*\n**"From Users to Non-Human Identities
+ : Designing Auth for Agentic Systems"**\n\n📅 **Fecha:** 28 de mayo\n
+ 🕖 **Hora:** 7:00 PM\n💻 **Modalidad:** Online\n\nÚnete a nosotros pa
+ ra conversar sobre cómo construir soluciones de IA más seguras\, respons
+ ables y preparadas para el futuro 🚀
 LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
@@ -7924,6 +7925,17 @@ LOCATION:Online
 X-CRONQUILES-ADDRESS:Online
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rust-AICollective|From Cocoa to Code: How AI Can Diversify Ghana
+ ’s Economy|Online
+DTSTART:20260529T150000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/aieconomy\n\nH
+ osted by The AI Collective\, Knowledge Innovations & Gen Ai Collective Gha
+ na
+LOCATION:https://luma.com/event/evt-UvaQSerb7Ugd2Pv
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-UvaQSerb7Ugd2Pv
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pythonistas GDL|Mayo: Odoo\, Workflows|México|Jalisco
