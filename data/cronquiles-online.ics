@@ -3460,6 +3460,35 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|July
+  1 - Getting Started with FiftyOne|Online
+DTSTART:20260701T100000
+CATEGORIES:ai,cloud,data,frontend,python
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nhis workshop is part of our Getting Started with FiftyOne monthly series 
+ — a recurring session designed to help you build a strong foundation in 
+ data-centric AI workflows.This workshop is part of our Getting Started wit
+ h FiftyOne monthly series — a recurring session designed to help you bui
+ ld a strong foundation in data-centric AI workflows.\n\n**Time\, Place and
+  Location**\n\nJuly 1\, 2026\n9 AM PST - 10 AM PST\nOnline. **[Register fo
+ r the Zoom!](https://voxel51.com/events/getting-started-with-fiftyone-july
+ -1-2026)**\n\nIn this session\, you’ll learn how to manage large-scale c
+ omputer vision datasets using open source FiftyOne. We’ll cover how to c
+ urate\, visualize\, and evaluate your data and models — with a focus on 
+ improving data quality over brute-force model iteration.\n\nYou’ll walk 
+ away with a repeatable framework for building data-centric AI pipelines ac
+ ross research and production.\n\n**What you’ll learn:**\n\n* Structure u
+ nstructured data into queryable schemas (images\, video\, point clouds)\n*
+  Query datasets using the FiftyOne SDK with filters\, tags\, and confidenc
+ e thresholds\n* Visualize high-dimensional embeddings to identify clusters
+ \, gaps\, and outliers\n* Automate data curation and prioritize high-value
+  samples for labeling\n* Debug model performance using evaluation tools (c
+ onfusion matrices\, PR curves)\n* Customize FiftyOne with dashboards and i
+ nteractive panels\n\n**Prerequisites:**\n\n* Working knowledge of Python\n
+ * Familiarity with machine learning and/or computer vision fundamentals
+LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:GDG CDMX|Grupo de Estudio: Lenguaje de Programación Python Parte 
  II|Online
 DTSTART:20260701T200000
