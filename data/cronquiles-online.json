@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-21T19:44:50.275307+00:00",
-  "total_events": 260,
+  "generated_at": "2026-05-22T02:30:44.600614+00:00",
+  "total_events": 261,
   "city": "Online",
   "communities": [
     {
@@ -130,8 +130,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3153,7 +3158,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3317,7 +3322,7 @@
       "tags": [
         "devops"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -6231,6 +6236,36 @@
       "hash_key": "hands on build with ai de la curiosidad _2026-05-22T00:00:00+00:00"
     },
     {
+      "title": "GDG CDMX|Club de estudio: Fundamentos Matemáticos de la Inteligencia Artificial|Online",
+      "description": " Les invitamos a participar en un taller excepcionalmente interesante titulado \"Club de estudio: Fundamentos Matemáticos...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-club-de-estudio-fundamentos-matematicos-de-la-inteligencia-artificial-4/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-club-de-estudio-fundamentos-matematicos-de-la-inteligencia-artificial-4/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-05-21T20:00:00-06:00",
+      "dtend": "2026-05-22T21:30:00-06:00",
+      "tags": [
+        "Build with AI",
+        "Career Development"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "club de estudio fundamentos matemticos d_2026-05-22T02:00:00+00:00"
+    },
+    {
       "title": "GDG CDMX|Grupo de Estudio: Estructuras de Control de Flujo|Online",
       "description": "Únete a nosotros para la segunda parte de nuestro grupo de estudio enfocado en potenciar tus habilidades en el Lenguaje ...",
       "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-grupo-de-estudio-estructuras-de-control-de-flujo-2026-05-25/",
@@ -7698,7 +7733,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
