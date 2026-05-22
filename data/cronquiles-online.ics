@@ -3537,6 +3537,70 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|July
+  8 - Best of CVPR (Day 1)|Online
+DTSTART:20260708T100000
+CATEGORIES:ai,backend,cloud,frontend,mobile,security
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nWelcome to the Best of CVPR series — your virtual front row to groundbr
+ eaking research\, insights\, and innovations from one of computer vision's
+  premier conferences. Live from the authors to you.\n\n**Date\, Time and L
+ ocation**\n\nJul 08\, 2026\n9 AM - 11 AM PT\nOnline. **[Register for Zoom!
+ ](https://voxel51.com/events/best-of-cvpr-july-8-2026)**\n\n**Some Modalit
+ ies Are More Equal Than Others: Understanding and Improving Multimodal Int
+ egration in MLLMs**\n\nMultimodal large language models can process vision
+ \, audio\, and text\, but it remains unclear whether they truly integrate 
+ these modalities or rely on shortcut cues. In this talk\, I will present o
+ ur recent work\, [“Some Modalities Are More Equal Than Others\,](https:/
+ /arxiv.org/abs/2511.22826)” where we introduce MMA-Bench\, a benchmark d
+ esigned to probe MLLMs under controlled audio–visual conflict\, misleadi
+ ng text\, and modality-specific queries. Through black-box evaluation and 
+ white-box attention analysis\, we show that current MLLMs often struggle w
+ hen modalities disagree\, exhibit model-specific modality biases\, and can
+  be distracted by irrelevant textual context. We further propose an alignm
+ ent-aware tuning strategy that trains models to answer based on the querie
+ d modality\, improving robustness and multimodal grounding. This talk will
+  highlight both the failure modes of current MLLMs and practical direction
+ s toward more reliable cross-modal reasoning.\n\n*About the Speaker*\n\n[T
+ ianle Chen](https://www.linkedin.com/in/tianle-chen-1811341b7/) is a Ph.D.
+  student in Computer Science at Boston University\, advised by Prof. Deept
+ i Ghadiyaram. His research focuses on multimodal large language models\, a
+ udio–visual reasoning\, robustness\, and trustworthy multimodal AI. He i
+ s interested in understanding how models allocate evidence across modaliti
+ es and designing methods that improve reliable multimodal reasoning.\n\n**
+ LinkedOut: Linking World Knowledge Out of Video LLMs for Next-Generation V
+ ideo Recommendation**\n\n[This CVPR 2026 wor](https://arxiv.org/abs/2512.1
+ 6891)k links structured world knowledge representations out of Video LLMs 
+ for next-generation video recommendation\, covering how large vision-langu
+ age models can provide rich semantic priors for video understanding while 
+ addressing efficiency and deployment challenges in real recommendation sys
+ tems.\n\n*About the Speaker*\n\n[Haichao Zhang](https://www.linkedin.com/i
+ n/haichao-zhang/) is a Ph.D. candidate in Computer Engineering at Northeas
+ tern University. His research focuses on computer vision\, vision-language
+  models\, video understanding and generation\, and efficient multimodal fo
+ undation models. He has research experience at Google CoreML\, Meta Realit
+ y Labs\, LinkedIn Video AI\, Amazon AWS AI Labs\, and Tencent.\n\n**Cylind
+ erDepth: Cylindrical Spatial Attention for Multi-View Consistent Self-Supe
+ rvised Surround Depth Estimation**\n\nThis paper presents [CylinderDepth](
+ https://arxiv.org/abs/2511.16428)\, a self-supervised surround depth estim
+ ation method leveraging cylindrical spatial attention for multi-view consi
+ stency across camera rigs.\n\n*About the Speaker*\n\nSamer Abualhanud is a
+  PhD student and research staff member at Leibniz University Hannover\, Ge
+ rmany\, supervised by Dr.-Ing. Max Mehltretter and Prof. Christian Heipke.
+  Research focuses on multi-view consistency in 3D reconstruction.\n\n**You
+ r ViT is Secretly Also a Video Segmentation Model**\n\nExisting online vid
+ eo segmentation models typically combine a per-frame segmentation module w
+ ith complex\, specialized tracking modules. This work shows that a plain V
+ ision Transformer encoder with a lightweight temporal module can match tha
+ t performance\, resulting in VidEoMT — up to 5–10x faster\, running at
+  up to 160 FPS with a ViT-L encoder.\n\n*About the Speaker*\n\n[Daan de Ge
+ us](https://www.linkedin.com/in/ddegeus/) is an Assistant Professor in the
+  Mobile Perception Systems Lab at TU/e. He received his PhD (cum laude) fr
+ om TU/e in 2024\, and his research focuses on machine learning for visual 
+ and multimodal scene understanding.
+LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:GDG CDMX|Grupo de Estudio: Lenguaje de Programación Python Parte 
  II|Online
 DTSTART:20260708T200000
@@ -3548,6 +3612,71 @@ LOCATION:Online
 X-CRONQUILES-ADDRESS:Online
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|July
+  10 - Best of CVPR (Day 3)|Online
+DTSTART:20260710T100000
+CATEGORIES:ai,data,frontend,python
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nWelcome to the Best of CVPR series — your virtual front row to groundbr
+ eaking research\, insights\, and innovations from one of computer vision's
+  premier conferences. Live from the authors to you.\n\n**Date\, Time and L
+ ocation**\n\nJul 10\, 2026\n9 AM - 11 AM PT\nOnline. **[Register for Zoom!
+ ](https://voxel51.com/events/best-of-cvpr-july-10-2026)**\n\n**Advancing G
+ enerative Quality and Reasoning in Multimodal AI**\n\nThis talk exposes hi
+ dden limitations of frontier multimodal models across reasoning and visual
+  generation\, demonstrates the inherent brittleness of VLMs and audio-visu
+ al MLLMs\, and introduces simple yet effective techniques to build robustn
+ ess. It also covers human-centric metrics for perceptually accurate evalua
+ tion of generative media.\n\n*About the Speaker*\n\n[Deepti Ghadiyaram](ht
+ tps://www.linkedin.com/in/deeptigp/) is an Assistant Professor of Computer
+  Science at Boston University. Her research focuses on building safe\, int
+ erpretable\, and robust computer vision systems with advanced reasoning ca
+ pabilities. Before joining BU she was at Runway and Meta AI\, and earned h
+ er PhD from UT Austin in 2017.\n\n**HyperRealm: Hyperbolic Vision Language
+  Models for Real-World Hierarchical Multimodal Understanding**\n\nReal-wor
+ ld multimodal data naturally exhibits hierarchical structure\, yet standar
+ d VLMs like CLIP align images and text in Euclidean space\, which cannot p
+ reserve tree-like hierarchies. HyperRealm embeds images and text in a Poin
+ caré ball to encode hierarchical relationships\, introducing an adaptive 
+ entropy-driven entailment loss. Evaluated on 18 zero-shot classification b
+ enchmarks\, it shows consistent improvements over Euclidean CLIP baselines
+ .\n\n*About the Speaker*\n\n[Kathy Wu](https://www.linkedin.com/in/kathy-w
+ u-ph-d-a8155563/) holds a Ph.D. in Applied Mathematics from USC. She is cu
+ rrently an Applied Scientist at Amazon within the Global Store organizatio
+ n\, leading projects in e-commerce recommendation\, multimodal VLMs\, and 
+ LLM/GenAI applications. Her research has been published at ICCV\, CVPR\, I
+ CLR\, SIGIR\, and WACV.\n\n**Cross-Modal Domain Adaptation using Semantic 
+ Parametric Mapping**\n\nXD-MAP is a framework that transfers semantic know
+ ledge from image datasets to LiDAR by constructing semantic parametric map
+ s from monocular detections and geometric priors. Unlike previous approach
+ es\, XD-MAP does not require overlapping sensor views and enables scalable
+  360° supervision for LiDAR perception without manual annotation.\n\n*Abo
+ ut the Speaker*\n\n[Frank Bieder](https://www.linkedin.com/in/franklynjey/
+ ) is a researcher in computer vision and autonomous systems\, leading the 
+ Visual and Spatial Learning group at FZI Research Center for Information T
+ echnology. His research covers multimodal perception\, map-based learning\
+ , and cross-sensor domain adaptation for autonomous driving. He received h
+ is Ph.D. from KIT in 2026.\n\n**WalkGPT: Pixel-Grounded Navigation Guidanc
+ e for Pedestrians**\n\nPedestrian navigation requires more than generic sc
+ ene description\; users need to understand walkable areas\, obstacles\, an
+ d the distance of surrounding objects. In this talk\, I will present WalkG
+ PT\, a grounded vision-language model for accessibility-aware pedestrian n
+ avigation. WalkGPT connects language reasoning with segmentation masks and
+  object-level distance estimates to generate grounded navigation guidance 
+ from pedestrian-view images. I will also introduce PAVE\, a 41k-sample ben
+ chmark for depth-aware accessibility reasoning in real pedestrian environm
+ ents. The talk will highlight how grounded multimodal AI can support safer
+  and more interpretable pedestrian assistance.\n\n*About the Speaker*\n\n[
+ Rafi Ibn Sultan](https://www.linkedin.com/in/rafi-ibn-sultan/) is a Ph.D. 
+ researcher in Computer Science at Wayne State University\, working on comp
+ uter vision\, multimodal AI\, and vision-language models. His research foc
+ uses on grounded and interpretable AI systems for real-world visual reason
+ ing\, including pedestrian navigation and medical image segmentation. His 
+ recent work includes WalkGPT\, accepted at CVPR 2026\, and GeoSAM\, accept
+ ed at ECAI 2025.
+LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|July

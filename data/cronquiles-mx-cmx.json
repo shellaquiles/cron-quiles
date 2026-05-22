@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-22T14:18:12.584105+00:00",
-  "total_events": 218,
+  "generated_at": "2026-05-22T19:24:57.137466+00:00",
+  "total_events": 219,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -59,8 +59,13 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/eofagheq",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/02t893pf",
@@ -113,13 +118,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -2820,7 +2820,7 @@
       "dtstart": "2025-09-19T22:00:00+00:00",
       "dtend": "2025-09-20T00:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -2874,7 +2874,7 @@
       "dtstart": "2025-09-29T18:00:00+00:00",
       "dtend": "2025-09-29T19:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3547,7 +3547,7 @@
       "dtstart": "2025-11-18T23:00:00+00:00",
       "dtend": "2025-11-19T01:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4090,7 +4090,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4286,7 +4286,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4313,7 +4313,7 @@
       "dtstart": "2026-02-23T17:00:00+00:00",
       "dtend": "2026-02-23T18:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4340,7 +4340,7 @@
       "dtstart": "2026-02-23T18:00:00+00:00",
       "dtend": "2026-02-23T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4367,7 +4367,7 @@
       "dtstart": "2026-02-23T19:00:00+00:00",
       "dtend": "2026-02-23T20:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4397,7 +4397,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4427,7 +4427,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4454,7 +4454,7 @@
       "dtstart": "2026-02-24T00:00:00+00:00",
       "dtend": "2026-02-24T02:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4483,7 +4483,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4512,7 +4512,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4539,7 +4539,7 @@
       "dtstart": "2026-02-24T14:30:00+00:00",
       "dtend": "2026-02-24T16:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4568,7 +4568,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4598,7 +4598,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4772,7 +4772,7 @@
       "dtstart": "2026-02-25T15:00:00+00:00",
       "dtend": "2026-02-25T16:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4828,7 +4828,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4857,7 +4857,7 @@
       "tags": [
         "mobile"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4884,7 +4884,7 @@
       "dtstart": "2026-02-25T22:00:00+00:00",
       "dtend": "2026-02-25T23:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4911,7 +4911,7 @@
       "dtstart": "2026-02-26T00:00:00+00:00",
       "dtend": "2026-02-26T03:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4938,7 +4938,7 @@
       "dtstart": "2026-02-26T01:00:00+00:00",
       "dtend": "2026-02-26T04:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4965,7 +4965,7 @@
       "dtstart": "2026-02-27T15:00:00+00:00",
       "dtend": "2026-02-27T17:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5019,7 +5019,7 @@
       "dtstart": "2026-03-01T17:00:00+00:00",
       "dtend": "2026-03-01T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5079,7 +5079,7 @@
         "cloud",
         "python"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5630,7 +5630,7 @@
       "dtstart": "2026-04-24T15:00:00+00:00",
       "dtend": "2026-04-24T21:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -6142,7 +6142,7 @@
       "dtstart": "2026-06-10T23:30:00+00:00",
       "dtend": "2026-06-11T02:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -6151,6 +6151,35 @@
       "city_code": "cdmx",
       "address": "Blvd. Miguel de Cervantes Saavedra 301-piso 10, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX, México",
       "hash_key": "segundo town hall 2026 de fintech mxico_2026-06-10T22:00:00+00:00"
+    },
+    {
+      "title": "This Week in Fintech|Stablecoin Exclusive Cocktail|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/pomeloxstablecoin\n\nAddress:\nSoho House Mexico City\nCiudad de México, Mexico\n\nHosted by This Week in Fintech, Pomelo & Monato",
+      "url": "https://luma.com/pomeloxstablecoin",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/pomeloxstablecoin",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Soho House Mexico City, C. Versalles 28, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "This Week in Fintech",
+      "dtstart": "2026-06-16T01:00:00+00:00",
+      "dtend": "2026-06-16T05:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/lkn7cfxz",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "C. Versalles 28, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
+      "hash_key": "stablecoin exclusive cocktail_2026-06-16T00:00:00+00:00"
     },
     {
       "title": "AI/IA CDMX|IoT: El Espía Que Me Compré - IoT: The Spy I Bought Myself|México|Ciudad de México",
