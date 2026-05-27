@@ -329,6 +329,39 @@
     "hash_key": "july 10 best of cvpr day 3_2026-07-10T16:00:00+00:00"
   },
   {
+    "title": "México City AI, Machine Learning and Computer Vision Meetup|July 9 - Best of CVPR (Day 2)|Online",
+    "description": "México City AI, Machine Learning and Computer Vision Meetup\nThe Best of CVPR is a three-day virtual meetup series featuring researchers presenting their accepted papers from the 2026 Conference on Computer Vision and Pattern Recognition (CVPR).\n\n**Date, Time and Location**\n\nJul 09, 2026\n9 AM - 11 AM PT\nOnline. **[Register for Zoom!](https://voxel51.com/events/best-of-cvpr-july-9-2026)**\n\n**Efficient Representation and Coding of Dynamic Light Fields**\n\nThis talk presents a data-driven approach that integrates aperture and pixel-wise exposure coding with Dynamic Mode Decomposition (DMD) to achieve compact representation of dynamic light fields. By modeling them as mathematical dynamical systems, the framework captures coherent structures across all dimensions and achieves scalable compression, bitrate savings, and high-quality reconstructions.\n\n*About the Speaker*\n\n[Joshitha Ravishanker](https://www.linkedin.com/in/joshitharavishanker/) is a PhD scholar in the Department of Electrical Engineering at IIT Madras, supervised by Dr. Mansi Sharma and Dr. Kaushik Mitra. She is a Prime Minister's Research Fellow and her doctoral research focuses on the efficient representation and compression of light fields for display applications.\n\n**PHANTOM: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics**\n\nRecent video generation models can produce visually striking results, but they often fail to capture the physical dynamics that govern how real-world scenes evolve. In this talk, I will present PHANTOM, a physics-infused video generation model that jointly predicts visual content and latent physical dynamics. PHANTOM uses a physics-aware video representation to guide generation toward videos that are both visually realistic and physically consistent, without requiring explicit simulator-based physical specifications. I will discuss the model design, key results on standard and physics-aware video generation benchmarks, and how this work supports broader progress toward multimodal world models for physical AI and embodied reasoning.\n\n*About the Speaker*\n\n[Ismini Lourentzou](https://www.linkedin.com/in/isminilourentzou) is an Assistant Professor at the University of Illinois Urbana-Champaign and Director of the Perception and LANguage Lab. Her research focuses on multimodal machine learning, vision-language models, generative modeling, and embodied AI, with applications in physical reasoning, robotics, healthcare, and trustworthy AI.\n\n**LoST: Level of Semantics Tokenization for 3D Shapes**\n\nTokenization is fundamental to generative modeling and especially important for autoregressive 3D generation. However, current 3D shape tokenizers rely on geometric level-of-detail hierarchies that are token-inefficient and poorly aligned with semantic structure. We propose Level-of-Semantics Tokenization (LoST), which orders tokens by semantic salience so early tokens produce complete, plausible shapes and later tokens refine detailed geometry and semantics.\n\nLoST is trained with Relational Inter-Distance Alignment (RIDA), a semantic alignment loss that matches relationships in 3D shape latent space to those in DINO feature space. Experiments show that LoST achieves state-of-the-art reconstruction and efficient high-quality AR 3D generation while using only 0.1%–10% of the tokens required by prior methods.\n\n*About the Speaker*\n\n[Niladri Dutt](https://www.linkedin.com/in/niladridutt) is an ELLIS PhD student at University College London (UCL), sponsored by Adobe Research. He is advised by Prof Niloy Mitra (UCL) and Duygu Ceylan (Adobe). His research interests are in representation learning for 3D and multimodal learning.\n\n**3D Reconstruction Improves Weakly-Supervised Semantic Segmentation**\n\nSemantic segmentation typically requires expensive, dense annotations, making large-scale training a significant bottleneck. We address this by introducing a framework that leverages recent advances in feed-forward 3D reconstruction to improve weakly supervised semantic segmentation on 2D images, using only sparse labels such as points, scribbles, or coarse masks.\n\nOur core insight is that 3D geometric structure recovered directly from casual 2D video sequences provides powerful cross-view consistency constraints that can propagate sparse annotations across entire scenes. A dual student-teacher architecture enforces semantic consistency between 2D images and reconstructed 3D point clouds, injecting geometric supervision into the learning process while keeping inference purely 2D. Our solution achieves state-of-the-art performance, outperforming existing methods by 2–7% across a range of datasets and annotation types, without requiring additional labels or inference overhead.\n\n*About the Speaker*\n\n[Wolfgang Boettcher](https://www.linkedin.com/in/wolfgang-boettcher/) is an ELLIS doctoral researcher in the Computer Vision and Machine Learning group at the Max Planck Institute for Informatics. Since his master's degree at ETH Zurich, his research focuses on visual perception, semantic scene understanding, and dynamic 3D reconstruction. He is particularly interested in models that can reason about the physical environment for applications in autonomous systems and robotics.",
+    "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314981974/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314981974/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online event,",
+    "online": true,
+    "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
+    "dtstart": "2026-07-09T10:00:00-06:00",
+    "dtend": "2026-07-09T12:00:00-06:00",
+    "tags": [
+      "ai",
+      "backend",
+      "cloud",
+      "data",
+      "frontend"
+    ],
+    "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "july 9 best of cvpr day 2_2026-07-09T16:00:00+00:00"
+  },
+  {
     "title": "GDG CDMX|Grupo de Estudio: Lenguaje de Programación Python Parte II|Online",
     "description": "Únete a nosotros para la segunda parte de nuestro grupo de estudio enfocado en potenciar tus habilidades en el Lenguaje ...",
     "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-grupo-de-estudio-lenguaje-de-programacion-python-parte-ii-2026-07-08/",
@@ -1461,6 +1494,35 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-CORCUTzJrvpRzSw",
     "hash_key": "predictive neurotechnologies criminal ri_2026-06-03T06:00:00+00:00"
+  },
+  {
+    "title": "Rust-AICollective|Micro Meetup Women Brazil AIC (w/ The AI Collective)|Online",
+    "description": "Get up-to-date information at: https://luma.com/aic-be-6-2\n\nHosted by The AI Collective & Priscila",
+    "url": "https://luma.com/aic-be-6-2",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/aic-be-6-2",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "https://luma.com/event/evt-mE1iWVSlHn2AJs5",
+    "online": true,
+    "organizer": "Rust-AICollective",
+    "dtstart": "2026-06-02T22:30:00+00:00",
+    "dtend": "2026-06-03T00:00:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://luma.com/rust-ios-ai",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "https://luma.com/event/evt-mE1iWVSlHn2AJs5",
+    "hash_key": "micro meetup women brazil aic w the ai c_2026-06-02T22:00:00+00:00"
   },
   {
     "title": "GDG CDMX|Club de estudio: Fundamentos Matemáticos de la Inteligencia Artificial|Online",
@@ -2918,7 +2980,7 @@
     "dtstart": "2026-05-15T00:00:00+00:00",
     "dtend": "2026-05-15T00:50:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "",
     "country_code": "",
     "state": "",
@@ -3644,7 +3706,7 @@
     "tags": [
       "security"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "",
     "country_code": "",
     "state": "",
@@ -5068,7 +5130,7 @@
     "dtstart": "2026-04-24T15:00:00+00:00",
     "dtend": "2026-04-24T21:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6341,7 +6403,7 @@
       "cloud",
       "python"
     ],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6426,7 +6488,7 @@
     "dtstart": "2026-03-01T17:00:00+00:00",
     "dtend": "2026-03-01T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6512,7 +6574,7 @@
     "dtstart": "2026-02-27T15:00:00+00:00",
     "dtend": "2026-02-27T17:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6568,7 +6630,7 @@
     "dtstart": "2026-02-26T01:00:00+00:00",
     "dtend": "2026-02-26T04:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6622,7 +6684,7 @@
     "dtstart": "2026-02-26T00:00:00+00:00",
     "dtend": "2026-02-26T03:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6649,7 +6711,7 @@
     "dtstart": "2026-02-25T22:00:00+00:00",
     "dtend": "2026-02-25T23:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6678,7 +6740,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6707,7 +6769,7 @@
     "tags": [
       "mobile"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6761,7 +6823,7 @@
     "dtstart": "2026-02-25T15:00:00+00:00",
     "dtend": "2026-02-25T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6878,7 +6940,7 @@
       "ai",
       "security"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6907,7 +6969,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6937,7 +6999,7 @@
       "ai",
       "backend"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6967,7 +7029,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -6996,7 +7058,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -7023,7 +7085,7 @@
     "dtstart": "2026-02-24T14:30:00+00:00",
     "dtend": "2026-02-24T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -7052,7 +7114,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -7079,7 +7141,7 @@
     "dtstart": "2026-02-24T00:00:00+00:00",
     "dtend": "2026-02-24T02:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -7108,7 +7170,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -7138,7 +7200,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -7168,7 +7230,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -7195,7 +7257,7 @@
     "dtstart": "2026-02-23T19:00:00+00:00",
     "dtend": "2026-02-23T20:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -7222,7 +7284,7 @@
     "dtstart": "2026-02-23T18:00:00+00:00",
     "dtend": "2026-02-23T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -7249,7 +7311,7 @@
     "dtstart": "2026-02-23T17:00:00+00:00",
     "dtend": "2026-02-23T18:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -7279,7 +7341,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -7657,7 +7719,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8558,7 +8620,7 @@
     "tags": [
       "devops"
     ],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "",
     "country_code": "",
     "state": "",
@@ -8725,7 +8787,7 @@
     "dtstart": "2025-11-18T23:00:00+00:00",
     "dtend": "2025-11-19T01:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9537,7 +9599,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "",
     "country_code": "",
     "state": "",
@@ -9706,7 +9768,7 @@
     "dtstart": "2025-09-29T18:00:00+00:00",
     "dtend": "2025-09-29T19:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9760,7 +9822,7 @@
     "dtstart": "2025-09-19T22:00:00+00:00",
     "dtend": "2025-09-20T00:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -15619,7 +15681,7 @@
     "dtstart": null,
     "dtend": null,
     "tags": [],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "",
     "country_code": "",
     "state": "",

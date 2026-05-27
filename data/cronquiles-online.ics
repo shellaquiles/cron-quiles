@@ -3136,6 +3136,16 @@ LOCATION:https://luma.com/event/evt-hMOL4KEGzaYApay
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-hMOL4KEGzaYApay
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Rust-AICollective|Micro Meetup Women Brazil AIC (w/ The AI Collect
+ ive)|Online
+DTSTART:20260602T223000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-be-6-2\n\n
+ Hosted by The AI Collective & Priscila
+LOCATION:https://luma.com/event/evt-mE1iWVSlHn2AJs5
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-mE1iWVSlHn2AJs5
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:GDG CDMX|Club de estudio: Fundamentos Matemáticos de la Inteligen
  cia Artificial|Online
 DTSTART:20260602T200000
@@ -3686,6 +3696,86 @@ LOCATION:Online
 X-CRONQUILES-ADDRESS:Online
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|July
+  9 - Best of CVPR (Day 2)|Online
+DTSTART:20260709T100000
+CATEGORIES:ai,backend,cloud,data,frontend
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nThe Best of CVPR is a three-day virtual meetup series featuring researche
+ rs presenting their accepted papers from the 2026 Conference on Computer V
+ ision and Pattern Recognition (CVPR).\n\n**Date\, Time and Location**\n\nJ
+ ul 09\, 2026\n9 AM - 11 AM PT\nOnline. **[Register for Zoom!](https://voxe
+ l51.com/events/best-of-cvpr-july-9-2026)**\n\n**Efficient Representation a
+ nd Coding of Dynamic Light Fields**\n\nThis talk presents a data-driven ap
+ proach that integrates aperture and pixel-wise exposure coding with Dynami
+ c Mode Decomposition (DMD) to achieve compact representation of dynamic li
+ ght fields. By modeling them as mathematical dynamical systems\, the frame
+ work captures coherent structures across all dimensions and achieves scala
+ ble compression\, bitrate savings\, and high-quality reconstructions.\n\n*
+ About the Speaker*\n\n[Joshitha Ravishanker](https://www.linkedin.com/in/j
+ oshitharavishanker/) is a PhD scholar in the Department of Electrical Engi
+ neering at IIT Madras\, supervised by Dr. Mansi Sharma and Dr. Kaushik Mit
+ ra. She is a Prime Minister's Research Fellow and her doctoral research fo
+ cuses on the efficient representation and compression of light fields for 
+ display applications.\n\n**PHANTOM: Physics-Infused Video Generation via J
+ oint Modeling of Visual and Latent Physical Dynamics**\n\nRecent video gen
+ eration models can produce visually striking results\, but they often fail
+  to capture the physical dynamics that govern how real-world scenes evolve
+ . In this talk\, I will present PHANTOM\, a physics-infused video generati
+ on model that jointly predicts visual content and latent physical dynamics
+ . PHANTOM uses a physics-aware video representation to guide generation to
+ ward videos that are both visually realistic and physically consistent\, w
+ ithout requiring explicit simulator-based physical specifications. I will 
+ discuss the model design\, key results on standard and physics-aware video
+  generation benchmarks\, and how this work supports broader progress towar
+ d multimodal world models for physical AI and embodied reasoning.\n\n*Abou
+ t the Speaker*\n\n[Ismini Lourentzou](https://www.linkedin.com/in/isminilo
+ urentzou) is an Assistant Professor at the University of Illinois Urbana-C
+ hampaign and Director of the Perception and LANguage Lab. Her research foc
+ uses on multimodal machine learning\, vision-language models\, generative 
+ modeling\, and embodied AI\, with applications in physical reasoning\, rob
+ otics\, healthcare\, and trustworthy AI.\n\n**LoST: Level of Semantics Tok
+ enization for 3D Shapes**\n\nTokenization is fundamental to generative mod
+ eling and especially important for autoregressive 3D generation. However\,
+  current 3D shape tokenizers rely on geometric level-of-detail hierarchies
+  that are token-inefficient and poorly aligned with semantic structure. We
+  propose Level-of-Semantics Tokenization (LoST)\, which orders tokens by s
+ emantic salience so early tokens produce complete\, plausible shapes and l
+ ater tokens refine detailed geometry and semantics.\n\nLoST is trained wit
+ h Relational Inter-Distance Alignment (RIDA)\, a semantic alignment loss t
+ hat matches relationships in 3D shape latent space to those in DINO featur
+ e space. Experiments show that LoST achieves state-of-the-art reconstructi
+ on and efficient high-quality AR 3D generation while using only 0.1%–10%
+  of the tokens required by prior methods.\n\n*About the Speaker*\n\n[Nilad
+ ri Dutt](https://www.linkedin.com/in/niladridutt) is an ELLIS PhD student 
+ at University College London (UCL)\, sponsored by Adobe Research. He is ad
+ vised by Prof Niloy Mitra (UCL) and Duygu Ceylan (Adobe). His research int
+ erests are in representation learning for 3D and multimodal learning.\n\n*
+ *3D Reconstruction Improves Weakly-Supervised Semantic Segmentation**\n\nS
+ emantic segmentation typically requires expensive\, dense annotations\, ma
+ king large-scale training a significant bottleneck. We address this by int
+ roducing a framework that leverages recent advances in feed-forward 3D rec
+ onstruction to improve weakly supervised semantic segmentation on 2D image
+ s\, using only sparse labels such as points\, scribbles\, or coarse masks.
+ \n\nOur core insight is that 3D geometric structure recovered directly fro
+ m casual 2D video sequences provides powerful cross-view consistency const
+ raints that can propagate sparse annotations across entire scenes. A dual 
+ student-teacher architecture enforces semantic consistency between 2D imag
+ es and reconstructed 3D point clouds\, injecting geometric supervision int
+ o the learning process while keeping inference purely 2D. Our solution ach
+ ieves state-of-the-art performance\, outperforming existing methods by 2
+ –7% across a range of datasets and annotation types\, without requiring 
+ additional labels or inference overhead.\n\n*About the Speaker*\n\n[Wolfga
+ ng Boettcher](https://www.linkedin.com/in/wolfgang-boettcher/) is an ELLIS
+  doctoral researcher in the Computer Vision and Machine Learning group at 
+ the Max Planck Institute for Informatics. Since his master's degree at ETH
+  Zurich\, his research focuses on visual perception\, semantic scene under
+ standing\, and dynamic 3D reconstruction. He is particularly interested in
+  models that can reason about the physical environment for applications in
+  autonomous systems and robotics.
+LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|July
