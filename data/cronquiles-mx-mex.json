@@ -1,8 +1,13 @@
 {
-  "generated_at": "2026-05-28T09:46:28.990480+00:00",
-  "total_events": 2,
+  "generated_at": "2026-05-28T15:29:48.382934+00:00",
+  "total_events": 3,
   "city": "México",
   "communities": [
+    {
+      "name": "Mexico Tech Week",
+      "description": "Calendario oficial de Mexico Tech Week 2025.",
+      "links": []
+    },
     {
       "name": "TESOEM",
       "description": "Organizador de eventos manuales (ej: FLISoL 2026 - Tesoem (La Paz, EdoMex))",
@@ -15,6 +20,35 @@
     }
   ],
   "events": [
+    {
+      "title": "Mexico Tech Week|KASZEK Day|México|México",
+      "description": "Get up-to-date information at: https://luma.com/kaszekmtw2024\n\nAddress:\nCheck event page for more details.\n\nHosted by Mexico Tech Week, Mariano Bomaggio & Julia Salles",
+      "url": "https://luma.com/kaszekmtw2024",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/kaszekmtw2024",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Mexico City, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2024-10-22T13:30:00+00:00",
+      "dtend": "2024-10-22T23:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Mexico City, Mexico",
+      "hash_key": "kaszek day_2024-10-22T12:00:00+00:00"
+    },
     {
       "title": "TESOEM|FLISoL 2026 - Tesoem (La Paz, EdoMex)|México|Estado de México",
       "description": "Festival Latinoamericano de Instalación de Software Libre 2026 en el Tecnológico de Estudios Superiores del Oriente del Estado de México (TESOEM). Un evento para aprender, compartir y decidir en libertad.",
