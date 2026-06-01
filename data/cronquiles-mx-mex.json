@@ -1,11 +1,16 @@
 {
-  "generated_at": "2026-06-01T17:18:37.284369+00:00",
-  "total_events": 3,
+  "generated_at": "2026-06-01T21:22:20.869140+00:00",
+  "total_events": 5,
   "city": "México",
   "communities": [
     {
       "name": "Mexico Tech Week",
       "description": "Calendario oficial de Mexico Tech Week 2025.",
+      "links": []
+    },
+    {
+      "name": "Python CDMX",
+      "description": "Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles.",
       "links": []
     },
     {
@@ -115,6 +120,64 @@
       "city_code": "ecatepec",
       "address": "Centro de Cultura 'Emiliano Zapata'. Calle Josefa Ortiz de Dominguez esquina Urano. Col. Sauces 1. Por metro Ecatepec, Estado de México.",
       "hash_key": "flisol 2026 ecatepec_2026-04-26T20:00:00+00:00"
+    },
+    {
+      "title": "Python CDMX|Meetup Junio 2026  -  PythonCDMX|México|México",
+      "description": "Get up-to-date information at: https://luma.com/gq7ok14t\n\nAddress:\nVinneren Tech Hub\nCiudad de México, Mexico\n\nHosted by PythonCDMX",
+      "url": "https://luma.com/gq7ok14t",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/gq7ok14t",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Vinneren Tech Hub, Vito Alessio Robles 82, Florida, Álvaro Obregón, 01030 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Python CDMX",
+      "dtstart": "2026-06-10T00:30:00+00:00",
+      "dtend": "2026-06-10T03:00:00+00:00",
+      "tags": [
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-f8GxWvNMvBvvuLb",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Vinneren Tech Hub, Vito Alessio Robles 82, Florida, Álvaro Obregón, 01030 Ciudad de México, CDMX, Mexico",
+      "hash_key": "meetup junio 2026 pythoncdmx_2026-06-10T00:00:00+00:00"
+    },
+    {
+      "title": "Python CDMX|Meetup Extra Junio 2026  -  PythonCDMX|México|México",
+      "description": "Get up-to-date information at: https://luma.com/cwx3twz1\n\nAddress:\nUniversidad Autónoma Metropolitana Cuajimalpa Campus\nCiudad de México, Mexico\n\nHosted by PythonCDMX",
+      "url": "https://luma.com/cwx3twz1",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/cwx3twz1",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Universidad Autónoma Metropolitana Cuajimalpa Campus, Vasco de Quiroga 4871, Contadero, Cuajimalpa de Morelos, 05348 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Python CDMX",
+      "dtstart": "2026-06-16T20:00:00+00:00",
+      "dtend": "2026-06-16T22:00:00+00:00",
+      "tags": [
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-f8GxWvNMvBvvuLb",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Universidad Autónoma Metropolitana Cuajimalpa Campus, Vasco de Quiroga 4871, Contadero, Cuajimalpa de Morelos, 05348 Ciudad de México, CDMX, Mexico",
+      "hash_key": "meetup extra junio 2026 pythoncdmx_2026-06-16T20:00:00+00:00"
     }
   ]
 }
