@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T11:10:46.998449+00:00",
+  "generated_at": "2026-06-01T17:18:37.269670+00:00",
   "total_events": 221,
   "city": "Ciudad de México",
   "communities": [
@@ -118,8 +118,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -157,6 +162,11 @@
     {
       "name": "Java Mexico",
       "description": "Comunidad de Java en México. Eventos, charlas técnicas y networking para desarrolladores Java.",
+      "links": []
+    },
+    {
+      "name": "AI Builders MX",
+      "description": "Comunidad de AI builders en México. Eventos sobre inteligencia artificial, desarrollo y hackathons.",
       "links": []
     },
     {
@@ -2777,7 +2787,7 @@
       "hash_key": "coworking frutal 12_2025-09-10T16:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
+      "title": "AI Builders MX|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/r8rwqnn9\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero",
       "url": "https://luma.com/r8rwqnn9",
       "sources": [
@@ -2789,13 +2799,13 @@
       ],
       "location": "Ciudad de México, Mexico",
       "online": false,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2025-09-11T23:00:00+00:00",
       "dtend": "2025-09-12T02:30:00+00:00",
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -2849,7 +2859,7 @@
       "dtstart": "2025-09-19T22:00:00+00:00",
       "dtend": "2025-09-20T00:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -2903,7 +2913,7 @@
       "dtstart": "2025-09-29T18:00:00+00:00",
       "dtend": "2025-09-29T19:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3576,7 +3586,7 @@
       "dtstart": "2025-11-18T23:00:00+00:00",
       "dtend": "2025-11-19T01:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4119,7 +4129,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4315,7 +4325,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4342,7 +4352,7 @@
       "dtstart": "2026-02-23T17:00:00+00:00",
       "dtend": "2026-02-23T18:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4369,7 +4379,7 @@
       "dtstart": "2026-02-23T18:00:00+00:00",
       "dtend": "2026-02-23T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4396,7 +4406,7 @@
       "dtstart": "2026-02-23T19:00:00+00:00",
       "dtend": "2026-02-23T20:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4426,7 +4436,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4456,7 +4466,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4483,7 +4493,7 @@
       "dtstart": "2026-02-24T00:00:00+00:00",
       "dtend": "2026-02-24T02:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4512,7 +4522,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4541,7 +4551,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4568,7 +4578,7 @@
       "dtstart": "2026-02-24T14:30:00+00:00",
       "dtend": "2026-02-24T16:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4597,7 +4607,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4627,7 +4637,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4657,7 +4667,7 @@
         "ai",
         "backend"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4830,7 +4840,7 @@
       "dtstart": "2026-02-25T15:00:00+00:00",
       "dtend": "2026-02-25T16:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4886,7 +4896,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4915,7 +4925,7 @@
       "tags": [
         "mobile"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4942,7 +4952,7 @@
       "dtstart": "2026-02-25T22:00:00+00:00",
       "dtend": "2026-02-25T23:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4969,7 +4979,7 @@
       "dtstart": "2026-02-26T00:00:00+00:00",
       "dtend": "2026-02-26T03:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4996,7 +5006,7 @@
       "dtstart": "2026-02-26T01:00:00+00:00",
       "dtend": "2026-02-26T04:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5023,7 +5033,7 @@
       "dtstart": "2026-02-27T15:00:00+00:00",
       "dtend": "2026-02-27T17:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5077,7 +5087,7 @@
       "dtstart": "2026-03-01T17:00:00+00:00",
       "dtend": "2026-03-01T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5137,7 +5147,7 @@
         "cloud",
         "python"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5402,7 +5412,7 @@
       "hash_key": "casa frutero coworking frutal 14_2026-04-08T22:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|OpenAI Codex – Mexico City|México|Ciudad de México",
+      "title": "AI Builders MX|OpenAI Codex – Mexico City|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/suipk589\n\nAddress:\nPlaza Carso\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/suipk589",
       "sources": [
@@ -5414,14 +5424,14 @@
       ],
       "location": "Plaza Carso, Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, Mexico",
       "online": false,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2026-04-08T23:00:00+00:00",
       "dtend": "2026-04-09T02:00:00+00:00",
       "tags": [
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5688,7 +5698,7 @@
       "dtstart": "2026-04-24T15:00:00+00:00",
       "dtend": "2026-04-24T21:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
