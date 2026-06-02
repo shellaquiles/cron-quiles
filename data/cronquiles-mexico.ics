@@ -3985,10 +3985,10 @@ X-CRONQUILES-STATE:Jalisco
 X-CRONQUILES-STATE-CODE:MX-JAL
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AI Builders MX|v0 Prompt to Production – Mexico City|México|Ciu
- dad de México
+SUMMARY:v0 Prompt to Production Mexico City|v0 Prompt to Production – Me
+ xico City|México|Ciudad de México
 DTSTART:20260131T150000Z
-CATEGORIES:ai,frontend
+CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/fdg8riz2\n\nAd
  dress:\nCheck event page for more details.\n\nHosted by Javier Rivero & Be
  n Kim
@@ -8217,6 +8217,16 @@ LOCATION:https://luma.com/event/evt-HJBner1SZGlYQYc
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-HJBner1SZGlYQYc
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Rust-AICollective|Build to Last: Cybersecurity Strategies for AI S
+ tartup Founders (w/ The AI Collective)|Online
+DTSTART:20260605T160000Z
+CATEGORIES:ai,frontend,security
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-to-6-5\n\n
+ Hosted by The AI Collective & 5 others
+LOCATION:https://luma.com/event/evt-AMFqhCdF0vKIYPr
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-AMFqhCdF0vKIYPr
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rust-AICollective|The AI Collective London  -  Humans in AI Week|O
  nline
 DTSTART:20260607T063000Z
@@ -8240,7 +8250,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GDG CDMX|Grupo de Estudio: Estructuras de Control de Flujo|Online
 DTSTART:20260608T200000
-CATEGORIES:Build with AI,Career Development
+CATEGORIES:AI,AI - Gemini,Build with AI,Career Development,Workshop / hand
+ s-on session
 DESCRIPTION:Únete a nosotros para la segunda parte de nuestro grupo de es
  tudio enfocado en potenciar tus habilidades en el Lenguaje ...
 LOCATION:Online
@@ -8385,7 +8396,8 @@ BEGIN:VEVENT
 SUMMARY:GDG CDMX|Grupo de Estudio: Lenguaje de Programación Python Parte 
  II|Online
 DTSTART:20260610T200000
-CATEGORIES:Build with AI,Career Development,python
+CATEGORIES:AI,AI - Gemini,Build with AI,Career Development,Workshop / hand
+ s-on session,python
 DESCRIPTION:Únete a nosotros para la segunda parte de nuestro grupo de es
  tudio enfocado en potenciar tus habilidades en el Lenguaje ...
 LOCATION:Online
