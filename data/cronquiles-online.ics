@@ -3481,7 +3481,8 @@ BEGIN:VEVENT
 SUMMARY:GDG CDMX|Club de estudio: Fundamentos Matemáticos de la Inteligen
  cia Artificial|Online
 DTSTART:20260616T200000
-CATEGORIES:Build with AI,Career Development
+CATEGORIES:AI,AI - Gemini,Build with AI,Career Development,Workshop / hand
+ s-on session
 DESCRIPTION:Les invitamos a participar en un taller excepcionalmente inter
  esante titulado "Club de estudio: Fundamentos Matemáticos...
 LOCATION:Online
@@ -3679,6 +3680,45 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/aic-gl-6-25\n\
  nHosted by The AI Collective\, Adelina Martiniuc & Ash Kumra
 LOCATION:https://luma.com/event/evt-HsAyldd3TWeTEkZ
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-HsAyldd3TWeTEkZ
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Embajadoras Cloud|☁️🌈 AWS Embajadoras Cloud te invita a AWS
+ pectrum: Hello\, Community|México|
+DTSTART:20260628T110000
+CATEGORIES:cloud,frontend,mobile,security,web
+DESCRIPTION:Embajadoras Cloud\n**☁️🌈 AWS Embajadoras Cloud te invit
+ a a AWSpectrum: Hello\, Community**\n\nEn **AWS Embajadoras Cloud** creemo
+ s en el poder de las comunidades para abrir caminos\, crear oportunidades 
+ y acercar a más personas al mundo de la tecnología. Por eso\, hoy querem
+ os invitarte a ser parte de una experiencia que une aprendizaje\, colabora
+ ción e innovación.\n\nEl próximo **28 de junio**\, en el marco del Día
+  del Orgullo\, se llevará a cabo **AWSpectrum: Hello\, Community\, el pri
+ mer meetup presencial de AWSpectrum**\, un evento realizado en colaboraci
+ ón con la SECTEI\, que conecta el mundo del cloud computing\, el ecosiste
+ ma de Amazon Web Services y la diversidad LGBTQ+.\n\nDesde AWS Embajadoras
+  Cloud nos emociona especialmente compartirte una de las actividades princ
+ ipales del evento:\n\n**⚡ Mini Hackathon con Kiro**\n\nEste hackathon es
+  una invitación abierta para que te registres y participes construyendo s
+ oluciones reales en equipo\, explorando ideas\, retándote técnicamente y
+  conectando con otras personas apasionadas por la tecnología y la nube.\n
+ \n👉 Regístrate y participa en el hackathon con Kiro para formar parte 
+ de esta experiencia práctica donde la creatividad y la innovación son el
+  centro.\n\nAdemás del hackathon\, el evento contará con:\n\n🎤 **Ligh
+ tning Talks** con historias y experiencias de la comunidad\n🌐 **Network
+ ing** para conectar con personas del ecosistema tech\n\nNo importa si est
+ ás dando tus primeros pasos en tecnología o ya tienes experiencia: este 
+ espacio está diseñado para aprender\, colaborar y construir comunidad.\n
+ \n**📅 28 de junio \\| Día del Orgullo**\n**🕐 11:00 - 15:00 h**\n**
+ 📍 CEDAC\, Utopía Ceylán \\| Ciudad de México**\n\nDesde **AWS Embaja
+ doras Cloud** te invitamos a no perderte esta oportunidad de ser parte del
+  hackathon y de este primer encuentro de **AWSpectrum**\, donde seguimos i
+ mpulsando espacios de inclusión\, aprendizaje y crecimiento en la nube.\n
+ \n**¡Regístrate y acompáñanos en AWSpectrum: Hello\, Community! ☁️
+ 🌈🚀**
+LOCATION:Utopia CEYLAN\, Calle Norte 45\, esquina con blvd Ferrocarriles y
+ \, Avenida Ceylan\, Azcapotzalco\, 02660 Ciudad de México\, CDMX
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|Música com IA - The Sound of IA (w/ The AI Coll
