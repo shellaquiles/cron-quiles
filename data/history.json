@@ -944,6 +944,38 @@
     "hash_key": "june 30 beyond annotation tools building_2026-06-30T16:00:00+00:00"
   },
   {
+    "title": "Kong Mexico City|Why API modernization is the prerequisite to full data path governance|Online",
+    "description": "Kong/MEXICO-CITY\nEnterprise AI is moving fast. But speed alone is a fast way to fail.\n\nTwo AI workloads are reshaping enterprise infrastructure right now — GenAI and Agentic AI — and both bring a completely different set of connectivity, cost, and governance challenges. But before you can govern AI, you have to modernize the API layer underneath it. Most enterprise APIs weren't built for AI and were never designed to serve ephemeral agents making real-time decisions.\n\nCustom LLM wiring is slowing teams down. Uncapped token consumption is quietly destroying margins. Agents acting autonomously without guardrails are creating cascading failures. And 86% of organizations are completely blind to their AI data flows.\n\nThe root cause isn't the models. It's fragmentation. API sprawl means policies are scattered, visibility is siloed, and there's no single enforcement point when an agent calls a service, invokes a tool, or queries a model. Governance is scattered across API gateways, agent frameworks, MCP routers, event pipelines, and context stores — each with its own policies, visibility, and failure modes. None of them talk to each other. None of them give you the full picture.\n\nIn this session, we'll break down what full data path governance actually means — and what it takes to unify it across every layer of the stack.\n\n**We'll cover:**\n\n* **Why API modernization is the prerequisite for AI governance** — how legacy APIs, gateway bypass patterns, and API sprawl create the fragmentation that makes governing GenAI and Agentic AI impossible at scale\n* **Why fragmentation is the governance killer** — how siloed tools, teams, and context stores make production AI impossible to manage at scale\n* **The full AI data path** — from APIs and events to LLMs, agents, context, and memory — and every control point in between\n* **Cost, speed, and risk at every layer** — token consumption, PII exposure, prompt injection, and the margins math that makes ungoverned AI unsustainable\n* **A unified AI control tower** — how to bring LLM governance, MCP and agent governance, API management, and context management under one platform",
+    "url": "https://www.meetup.com/kong-mexico-city/events/315284961/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/kong-mexico-city/events/315284961/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online event,",
+    "online": true,
+    "organizer": "Kong Mexico City",
+    "dtstart": "2026-06-30T09:00:00-06:00",
+    "dtend": "2026-06-30T10:00:00-06:00",
+    "tags": [
+      "ai",
+      "backend",
+      "data",
+      "frontend"
+    ],
+    "source": "https://www.meetup.com/kong-mexico-city/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "why api modernization is the prerequisit_2026-06-30T14:00:00+00:00"
+  },
+  {
     "title": "Rust-AICollective|Música com IA - The Sound of IA (w/ The AI Collective)|Online",
     "description": "Get up-to-date information at: https://luma.com/aic-bel-musicia\n\nHosted by The AI Collective & Priscila",
     "url": "https://luma.com/aic-bel-musicia",
@@ -6218,7 +6250,7 @@
     "dtstart": "2026-04-24T15:00:00+00:00",
     "dtend": "2026-04-24T21:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -7491,7 +7523,7 @@
       "cloud",
       "python"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8836,7 +8868,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9737,7 +9769,7 @@
     "tags": [
       "devops"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
@@ -10716,7 +10748,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
@@ -10939,7 +10971,7 @@
     "dtstart": "2025-09-19T22:00:00+00:00",
     "dtend": "2025-09-20T00:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -16885,7 +16917,7 @@
     "dtstart": null,
     "dtend": null,
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",

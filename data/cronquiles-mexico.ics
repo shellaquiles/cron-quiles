@@ -8984,6 +8984,43 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Kong Mexico City|Why API modernization is the prerequisite to full
+  data path governance|Online
+DTSTART:20260630T090000
+CATEGORIES:ai,backend,data,frontend
+DESCRIPTION:Kong/MEXICO-CITY\nEnterprise AI is moving fast. But speed alon
+ e is a fast way to fail.\n\nTwo AI workloads are reshaping enterprise infr
+ astructure right now — GenAI and Agentic AI — and both bring a complet
+ ely different set of connectivity\, cost\, and governance challenges. But 
+ before you can govern AI\, you have to modernize the API layer underneath 
+ it. Most enterprise APIs weren't built for AI and were never designed to s
+ erve ephemeral agents making real-time decisions.\n\nCustom LLM wiring is 
+ slowing teams down. Uncapped token consumption is quietly destroying margi
+ ns. Agents acting autonomously without guardrails are creating cascading f
+ ailures. And 86% of organizations are completely blind to their AI data fl
+ ows.\n\nThe root cause isn't the models. It's fragmentation. API sprawl me
+ ans policies are scattered\, visibility is siloed\, and there's no single 
+ enforcement point when an agent calls a service\, invokes a tool\, or quer
+ ies a model. Governance is scattered across API gateways\, agent framework
+ s\, MCP routers\, event pipelines\, and context stores — each with its o
+ wn policies\, visibility\, and failure modes. None of them talk to each ot
+ her. None of them give you the full picture.\n\nIn this session\, we'll br
+ eak down what full data path governance actually means — and what it tak
+ es to unify it across every layer of the stack.\n\n**We'll cover:**\n\n* *
+ *Why API modernization is the prerequisite for AI governance** — how leg
+ acy APIs\, gateway bypass patterns\, and API sprawl create the fragmentati
+ on that makes governing GenAI and Agentic AI impossible at scale\n* **Why 
+ fragmentation is the governance killer** — how siloed tools\, teams\, an
+ d context stores make production AI impossible to manage at scale\n* **The
+  full AI data path** — from APIs and events to LLMs\, agents\, context\,
+  and memory — and every control point in between\n* **Cost\, speed\, and
+  risk at every layer** — token consumption\, PII exposure\, prompt injec
+ tion\, and the margins math that makes ungoverned AI unsustainable\n* **A 
+ unified AI control tower** — how to bring LLM governance\, MCP and agent
+  governance\, API management\, and context management under one platform
+LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|June
   30 - Beyond Annotation Tools: Building a Complete Physical AI Data Engine
  |Online

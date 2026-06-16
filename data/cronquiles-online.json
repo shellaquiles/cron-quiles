@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-16T10:54:42.511292+00:00",
-  "total_events": 304,
+  "generated_at": "2026-06-16T16:24:22.483606+00:00",
+  "total_events": 305,
   "city": "Online",
   "communities": [
     {
@@ -141,8 +141,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3164,7 +3169,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3328,7 +3333,7 @@
       "tags": [
         "devops"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -8202,6 +8207,38 @@
       "hash_key": "grupo de estudio estructuras de control _2026-06-30T02:00:00+00:00"
     },
     {
+      "title": "Kong Mexico City|Why API modernization is the prerequisite to full data path governance|Online",
+      "description": "Kong/MEXICO-CITY\nEnterprise AI is moving fast. But speed alone is a fast way to fail.\n\nTwo AI workloads are reshaping enterprise infrastructure right now — GenAI and Agentic AI — and both bring a completely different set of connectivity, cost, and governance challenges. But before you can govern AI, you have to modernize the API layer underneath it. Most enterprise APIs weren't built for AI and were never designed to serve ephemeral agents making real-time decisions.\n\nCustom LLM wiring is slowing teams down. Uncapped token consumption is quietly destroying margins. Agents acting autonomously without guardrails are creating cascading failures. And 86% of organizations are completely blind to their AI data flows.\n\nThe root cause isn't the models. It's fragmentation. API sprawl means policies are scattered, visibility is siloed, and there's no single enforcement point when an agent calls a service, invokes a tool, or queries a model. Governance is scattered across API gateways, agent frameworks, MCP routers, event pipelines, and context stores — each with its own policies, visibility, and failure modes. None of them talk to each other. None of them give you the full picture.\n\nIn this session, we'll break down what full data path governance actually means — and what it takes to unify it across every layer of the stack.\n\n**We'll cover:**\n\n* **Why API modernization is the prerequisite for AI governance** — how legacy APIs, gateway bypass patterns, and API sprawl create the fragmentation that makes governing GenAI and Agentic AI impossible at scale\n* **Why fragmentation is the governance killer** — how siloed tools, teams, and context stores make production AI impossible to manage at scale\n* **The full AI data path** — from APIs and events to LLMs, agents, context, and memory — and every control point in between\n* **Cost, speed, and risk at every layer** — token consumption, PII exposure, prompt injection, and the margins math that makes ungoverned AI unsustainable\n* **A unified AI control tower** — how to bring LLM governance, MCP and agent governance, API management, and context management under one platform",
+      "url": "https://www.meetup.com/kong-mexico-city/events/315284961/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/kong-mexico-city/events/315284961/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Online event,",
+      "online": true,
+      "organizer": "Kong Mexico City",
+      "dtstart": "2026-06-30T09:00:00-06:00",
+      "dtend": "2026-06-30T10:00:00-06:00",
+      "tags": [
+        "ai",
+        "backend",
+        "data",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/kong-mexico-city/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "why api modernization is the prerequisit_2026-06-30T14:00:00+00:00"
+    },
+    {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|June 30 - Beyond Annotation Tools: Building a Complete Physical AI Data Engine|Online",
       "description": "México City AI, Machine Learning and Computer Vision Meetup\nIn this workshop we’ll demonstrate workflows for image and video annotation, instance segmentation, polylines, QA and review, collaborative labeling operations in [FiftyOne](https://docs.voxel51.com/), and smart data selection strategies that help teams reduce wasted labeling spend.\n\n**Date, Time and Location**\n\nJun 30, 2026\n9 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/beyond-annotation-tools-building-a-complete-physical-ai-data-engine-with-fiftyone-june-30-2026)**\n\nAnnotation is no longer just about drawing boxes. Modern physical AI teams need an end-to-end system for labeling, QA, dataset curation, project management, auto-labeling, and video understanding — all tightly integrated into the workflows where models are actually built and evaluated.\n\nYou’ll also get an early look at new agentic labeling workflows powered by “Labeling Agents” — intelligent systems that can learn from text prompts and visual examples to automatically label datasets at scale. We’ll walk through how teams can rapidly create reusable labeling agents, validate outputs, and apply them across large datasets as background tasks.\n\nWhether you’re building computer vision models for robotics, autonomous systems, manufacturing, retail, or multimodal AI applications, this session will show how integrated annotation and data-centric workflows can dramatically accelerate iteration speed while improving dataset quality.\n\n**What You’ll Learn**\n\n* How smart data selection strategies reduce annotation costs and improve model performance\n* Why integrated annotation is becoming a core requirement for modern physical AI platforms\n* How to unify data curation, annotation, evaluation, and model iteration inside a single workflow\n* How FiftyOne supports annotation workflows for Classification, Object detection, Instance segmentation, Polylines, Video detection and tracking\n* How to create, edit, QA, and manage 2D and 3D labels directly in context\n* How annotation project management workflows help coordinate labeling teams and reviews\n* How SAM2-powered click-to-segment workflows enable fast browser-based segmentation\n* How agentic labeling works, including training reusable “Labeling Agents”, prompting with text + visual examples, iterating on outputs before deployment and running large-scale auto-labeling workflows",
       "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314807274/",
@@ -9015,7 +9052,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
