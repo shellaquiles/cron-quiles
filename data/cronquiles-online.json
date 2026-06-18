@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-18T14:48:10.979909+00:00",
-  "total_events": 306,
+  "generated_at": "2026-06-18T20:11:54.992519+00:00",
+  "total_events": 307,
   "city": "Online",
   "communities": [
     {
@@ -22,6 +22,17 @@
           "platform": "luma",
           "url": "https://luma.com/ai-cdmx",
           "label": "Luma"
+        }
+      ]
+    },
+    {
+      "name": "AWS Cloud Club at Universidad Nacional Autonoma de México",
+      "description": "El AWS Cloud Club de la UNAM es un grupo de usuarios dirigido e impulsado por estudiantes que se enfoca en aprender sobre la Nube.",
+      "links": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/aws-cloud-club-at-unam",
+          "label": "Meetup"
         }
       ]
     },
@@ -141,13 +152,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3169,7 +3175,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3333,7 +3339,7 @@
       "tags": [
         "devops"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -8423,6 +8429,36 @@
       "hash_key": "ai sandboxes how is ai being tested in t_2026-07-02T16:00:00+00:00"
     },
     {
+      "title": "AWS Cloud Club at Universidad Nacional Autonoma de México|De lo Clásico a lo Cuántico al re:Invent|México|",
+      "description": "AWS SBG at Universidad Nacional Autónoma de México\nNuevo nombre, nuevo equipo, misma meta. El futuro de la nube empieza en **mx-central-unam-1!**\n\nY que mejor manera de empezar no solo con dos speakers, si no también en las oficinas de Amazon México!\n\nNuestra primera charla corre a cargo de **Joselyn Lagunas**, mejor conocida como **Shel.** Ella es ingeniera en desarrollo de software, **AWS Community Builder** y fundadora de **AWSpectrum.** En su charla \"**De lo Clásico a lo Cuántico con AWS**\" veremos como gracias a la nube de AWS cualquier persona puede comenzar a explorar la **computación cuántica**, descubriendo qué es un qubit y de qué manera podemos incorporar ideas cuánticas mediante enfoques inspirados, modelos híbridos y algoritmos accesibles.\n\nY para continuar la noche, tendremos a **Roberto Flores**, líder del **AWS UG Playa Vicente** y **All Builders Welcome Granteer** que con su charla \"**De carpintero a re:Invent**\" nos viene a contar su experiencia consiguiendo ésta beca, lo que no te cuentan y algunos tips de supervivencia una vez consiguiéndola\n\nLa cita es el **Viernes 3 de Julio a las 18:00 horas** en las oficinas de **Amazon México**, nos vemos pronto!",
+      "url": "https://www.meetup.com/aws-sbg-at-unam/events/315272328/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/aws-sbg-at-unam/events/315272328/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Amazon México, Periférico Blvrd Manuel Ávila Camacho 261, Polanco, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11510",
+      "online": false,
+      "organizer": "AWS Cloud Club at Universidad Nacional Autonoma de México",
+      "dtstart": "2026-07-03T18:00:00-06:00",
+      "dtend": "2026-07-03T21:00:00-06:00",
+      "tags": [
+        "cloud",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/aws-cloud-club-at-unam/events/ical",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "de lo clsico a lo cuntico al re invent_2026-07-04T00:00:00+00:00"
+    },
+    {
       "title": "GDG CDMX|Club de lectura de papers de ML: The Illusion of Thinking|Online",
       "description": "Únete al Club de Lectura de Papers de ML, donde exploraremos en esta ocasión el paper llamado: \"The Illusion of Thinking...",
       "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-club-de-lectura-de-papers-de-ml-the-illusion-of-thinking/",
@@ -9081,7 +9117,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
