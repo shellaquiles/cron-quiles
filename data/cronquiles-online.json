@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-21T13:49:10.109925+00:00",
-  "total_events": 310,
+  "generated_at": "2026-06-21T19:16:01.652565+00:00",
+  "total_events": 311,
   "city": "Online",
   "communities": [
     {
@@ -152,8 +152,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3175,7 +3180,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3339,7 +3344,7 @@
       "tags": [
         "devops"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -8150,6 +8155,35 @@
       "hash_key": "build with ai del prototipo a produccin _2026-06-26T00:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|AI Collective Colombo Chapter Launch : GitHub Copilot CLI|Online",
+      "description": "Get up-to-date information at: https://luma.com/github-copilot-colombo\n\nHosted by The AI Collective & 4 others",
+      "url": "https://luma.com/github-copilot-colombo",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/github-copilot-colombo",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-YeLmZcZ5CTzGZcD",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-06-27T12:30:00+00:00",
+      "dtend": "2026-06-27T14:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-YeLmZcZ5CTzGZcD",
+      "hash_key": "ai collective colombo chapter launch git_2026-06-27T12:00:00+00:00"
+    },
+    {
       "title": "Rust-AICollective|Office Hours: AI & Civic Tech (w/ The AI Collective)|Online",
       "description": "Get up-to-date information at: https://luma.com/aic-de-6-27\n\nHosted by The AI Collective & 6 others",
       "url": "https://luma.com/aic-de-6-27",
@@ -9223,7 +9257,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
