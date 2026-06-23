@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-22T20:35:01.193880+00:00",
-  "total_events": 313,
+  "generated_at": "2026-06-23T02:14:59.381133+00:00",
+  "total_events": 315,
   "city": "Online",
   "communities": [
     {
@@ -152,13 +152,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -244,6 +239,17 @@
         {
           "platform": "website",
           "url": "https://gdg.community.dev/gdg-heroica-veracruz/",
+          "label": "Sitio web"
+        }
+      ]
+    },
+    {
+      "name": "GDG Monterrey",
+      "description": "Disclaimer: GDG Monterrey is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg",
+      "links": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/gdg-monterrey/",
           "label": "Sitio web"
         }
       ]
@@ -3180,7 +3186,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3344,7 +3350,7 @@
       "tags": [
         "devops"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -8243,6 +8249,40 @@
       "hash_key": "ai collective colombo chapter launch git_2026-06-27T12:00:00+00:00"
     },
     {
+      "title": "GDG Monterrey|Build with AI Monterrey v2|México|",
+      "description": "​Únete a nuestro evento comunitario Build with AI el 27 de Junio en Tecnologico de Monterrey. Este evento está diseñado ...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-monterrey-presents-build-with-ai-monterrey-v2/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-monterrey-presents-build-with-ai-monterrey-v2/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Tecnológico de Monterrey, 2501 Sur Avenida Eugenio Garza Sada, Monterrey",
+      "online": false,
+      "organizer": "GDG Monterrey",
+      "dtstart": "2026-06-27T09:00:00-06:00",
+      "dtend": "2026-06-27T19:00:00-06:00",
+      "tags": [
+        "AI - Gemini",
+        "Build with AI",
+        "Google Cloud",
+        "Workshop / hands-on session",
+        "ai",
+        "frontend"
+      ],
+      "source": "https://gdg.community.dev/gdg-monterrey/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Tecnológico de Monterrey, 2501 Sur Avenida Eugenio Garza Sada, Monterrey",
+      "hash_key": "build with ai monterrey v2_2026-06-27T14:00:00+00:00"
+    },
+    {
       "title": "Rust-AICollective|Office Hours: AI & Civic Tech (w/ The AI Collective)|Online",
       "description": "Get up-to-date information at: https://luma.com/aic-de-6-27\n\nHosted by The AI Collective & 6 others",
       "url": "https://luma.com/aic-de-6-27",
@@ -8301,6 +8341,36 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-9vZHCc8ZVGVOP8Y",
       "hash_key": "civic data ai the underbuilt opportunity_2026-06-27T14:00:00+00:00"
+    },
+    {
+      "title": "GDG CDMX|Grupo de Estudio: Estructuras de Control de Flujo|Online",
+      "description": "Únete a nosotros para la segunda parte de nuestro grupo de estudio enfocado en potenciar tus habilidades en el Lenguaje ...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-grupo-de-estudio-estructuras-de-control-de-flujo-2026-06-27/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-grupo-de-estudio-estructuras-de-control-de-flujo-2026-06-27/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-06-27T20:00:00-06:00",
+      "dtend": "2026-06-27T21:30:00-06:00",
+      "tags": [
+        "Build with AI",
+        "Career Development"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "grupo de estudio estructuras de control _2026-06-28T02:00:00+00:00"
     },
     {
       "title": "Embajadoras Cloud|☁️🌈 AWS Embajadoras Cloud te invita a AWSpectrum: Hello, Community|México|",
@@ -9316,7 +9386,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
