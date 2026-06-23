@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-23T14:28:49.419846+00:00",
-  "total_events": 315,
+  "generated_at": "2026-06-23T19:51:09.968718+00:00",
+  "total_events": 316,
   "city": "Online",
   "communities": [
     {
@@ -152,8 +152,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3186,7 +3191,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3350,7 +3355,7 @@
       "tags": [
         "devops"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -8343,6 +8348,37 @@
       "hash_key": "civic data ai the underbuilt opportunity_2026-06-27T14:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|Civic Data + AI: An Underbuilt Opportunity|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-de-6-27\n\nHosted by The AI Collective & 6 others",
+      "url": "https://luma.com/aic-de-6-27",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-de-6-27",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-9vZHCc8ZVGVOP8Y",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-06-27T15:30:00+00:00",
+      "dtend": "2026-06-27T16:30:00+00:00",
+      "tags": [
+        "ai",
+        "data",
+        "frontend"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-9vZHCc8ZVGVOP8Y",
+      "hash_key": "civic data ai an underbuilt opportunity_2026-06-27T14:00:00+00:00"
+    },
+    {
       "title": "GDG CDMX|Grupo de Estudio: Estructuras de Control de Flujo|Online",
       "description": "Únete a nosotros para la segunda parte de nuestro grupo de estudio enfocado en potenciar tus habilidades en el Lenguaje ...",
       "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-grupo-de-estudio-estructuras-de-control-de-flujo-2026-06-27/",
@@ -9386,7 +9422,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
