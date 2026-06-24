@@ -4322,6 +4322,86 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
 LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|July
+  21 - Best of ICRA|Online
+DTSTART:20260721T100000
+CATEGORIES:ai,data,frontend,mobile
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nThe Best of ICRA is a three-day virtual meetup series featuring researche
+ rs presenting their accepted papers from the 2026 International Conference
+  on Robotics and Automation (ICRA).\n\n**Date\, Time and Location**\n\nJul
+  21\, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](htt
+ ps://voxel51.com/events/best-of-icra-july-21-2026)**\n\n**Outdoor Robot Na
+ vigation in the Unstructured World: From Traversability to Physical Scene 
+ Understanding**\n\nOutdoor robot navigation in the unstructured world requ
+ ires robots to reason about more than obstacles: they must understand wher
+ e they can move\, what terrain is suitable\, and how scene context affects
+  navigation decisions. In sidewalks\, campuses\, trails\, and off-road env
+ ironments\, these decisions depend on geometric structure\, terrain condit
+ ions\, semantic cues\, and robot-environment interaction.\n\nIn this talk\
+ , I will present our recent work on scene understanding for outdoor naviga
+ tion\, including a large-scale multimodal dataset for studying outdoor tra
+ versability\, approaches for trajectory generation and selection\, vision-
+ language reasoning for contextual navigation\, and Gaussian-based 3D scene
+  modeling. I will also discuss how physical reasoning can extend scene und
+ erstanding from visual and geometric perception toward terrain properties 
+ and interaction cues.\n\nTogether\, these works explore how robots can bet
+ ter interpret unstructured outdoor environments and use that understanding
+  for navigation decision-making.\n\n*About the Speaker*\n\n[Jing Liang](ht
+ tps://voxel51.com/events/www.linkedin.com/in/jingliangcgm) is a postdoctor
+ al researcher at the Stanford Robotics Center\, working on robot navigatio
+ n\, perception\, and human-centered autonomy in complex real-world environ
+ ments.\n\n**Scene Graphs and the Future of Mapping**\n\nIn this talk\, I w
+ ill question whether 3D reconstruction is still a necessary part of mappin
+ g in the age of feedforward models and present some alternatives. Then\, I
+  discuss scene graphs as an alternative map representation and their appli
+ cations for mobile manipulation.\n\n*About the Speaker*\n\n[Hermann Blum ]
+ (https://www.linkedin.com/in/hermann-bl/)is a Junior Professor at the Univ
+ ersity of Bonn and the Lamarr Institute. Hermann's research focuses on mac
+ hine learning for robotic perception and scene understanding\, developing 
+ models and methods to understand an agent's environment semantically and g
+ eometrically.\n\n**Toward Zero-Shot 6D Pose Estimation and Tracking of Clu
+ ttered Objects on Edge Devices**\n\nRobust 6D pose estimation of textured 
+ objects under diverse illumination conditions remains a significant challe
+ nge\, often requiring a trade-off between accurate initial pose estimation
+  and efficient real-time tracking. We present a unified framework explicit
+ ly designed for efficient execution on edge devices\, which fuses a robust
+  initial estimation module with a fast motion-based tracker.\n\nThe key to
+  our approach is a shared\, lighting-invariant color-pair feature represen
+ tation that forms a consistent foundation for both stages. For initial est
+ imation\, this representation facilitates robust registration between the 
+ live RGB-D view and the object's 3D mesh.\n\nFor tracking\, the same repre
+ sentation validates temporal correspondences\, enabling a lightweight mode
+ l to reliably regress the object's pose. Experiments on benchmark datasets
+  demonstrate that our integrated approach is both effective and robust\, p
+ roviding competitive pose estimation accuracy while maintaining high-fidel
+ ity tracking even through abrupt pose changes.\n\nThis is joint work with 
+ Xingjian Yang.\n\n*About the Speaker*\n\n[Ashis Banerjee](https://www.link
+ edin.com/in/ashisbanerjee/) is an Associate Professor of Industrial & Syst
+ ems Engineering and Mechanical Engineering at the University of Washington
+ \, Seattle. Prior to joining UW\, he was a Research Scientist at GE Global
+  Research and a Postdoctoral Associate at MIT.\n\n**Trustworthy Geometric 
+ Perception: Certifiable Optimization and Robust Estimation**\n\nAutonomous
+  robots in safety-critical settings require geometric perception that is n
+ ot merely accurate on average\, but provably correct under adversarial con
+ ditions. Yet most pipelines rely on local optimization methods that fail s
+ ilently when poorly initialized.\n\nThis talk presents GlobustVP\, a certi
+ fiably optimal vanishing point estimator that reformulates joint VP locali
+ zation and line association as a quadratically constrained quadratic progr
+ am (QCQP) and relaxes it to a tight semidefinite program (SDP)\, achieving
+  the first globally optimal and outlier-robust solution to this problem. R
+ ecognized as a Best Paper Award Candidate at CVPR 2025 (top 0.1%\, 14 of 1
+ 3\,008 submissions)\, GlobustVP demonstrates that certifiable global optim
+ ization is both practically feasible and highly competitive.\n\nMore broad
+ ly\, this work is part of a research program toward trustworthy geometric 
+ perception: systems that know when they are wrong\, and can communicate th
+ at to the robots and humans that depend on them.\n\n*About the Speaker*\n\
+ n[Zhenjun Zhao](https://www.linkedin.com/in/zhenjun-zhao-513a3617b/) I am 
+ a postdoctoral researcher at University of Zaragoza\, working with Javier 
+ Civera.
+LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rust-AICollective|The Copilot Effect: Microsoft Fabric Copilot (w/
   The AI Collective)|Online
 DTSTART:20260722T090000Z
@@ -4330,6 +4410,90 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/aic-du-7-22\n\
  nHosted by The AI Collective & Kaamil Motala
 LOCATION:https://luma.com/event/evt-eRH6P56lxw25Lvw
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-eRH6P56lxw25Lvw
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|July
+  22 - Best of ICRA|Online
+DTSTART:20260722T100000
+CATEGORIES:ai,cloud,data,frontend,mobile,security
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nThe Best of ICRA is a three-day virtual meetup series featuring researche
+ rs presenting their accepted papers from the 2026 International Conference
+  on Robotics and Automation (ICRA).\n\n**Date\, Time and Location**\n\nJul
+  22\, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](htt
+ ps://voxel51.com/events/best-of-icra-july-22-2026)**\n\n**Contrastive lear
+ ning on 3d point clouds for geometric defect detection**\n\nReliable 3D de
+ fect detection in manufacturing is hard: the input is a point cloud — an
+  unordered set that standard neural backbones cannot process directly\; hi
+ gh-quality training data is scarce\; and real scans are noisy and arrive i
+ n arbitrary orientations. We address these challenges in COSARAD\, a contr
+ astive learning framework that learns highly discriminative representation
+ s of object surface geometry under weak supervision.\n\nWhen a test object
+  arrives\, we extract its features and compare them against a library of d
+ efect-free reference shapes for precise\, interpretable defect localizatio
+ n — achieving state-of-the-art accuracy on industrial benchmarks such as
+  Real3D-AD. In my talk\, I'll cover the design choices behind the system\,
+  why contrastive representation learning is the right fit for sparse 3D da
+ ta\, and open problems in scaling inspection to production.\n\n*About the 
+ Speaker*\n\n[Alexander Tarvo](https://www.linkedin.com/in/alexander-tarvo/
+ ) is a researcher at the University of Washington's MACS Lab\, where he wo
+ rks on computer vision with applications in robotics. He holds a PhD in So
+ ftware Engineering from Brown University and previously held research and 
+ engineering roles at Google\, Microsoft\, and IBM Research. His current re
+ search focuses on 3D vision and reinforcement learning for industrial robo
+ tics.\n\n**A Semantic and Occlusion-Aware Gaussian Mixture Probability Hyp
+ othesis Density Filter**\n\nReliable and resilient multi-target tracking i
+ s foundational for safe autonomous driving\, yet most perception pipelines
+  frequently struggle with sensor noise\, heavy clutter\, and severe enviro
+ nmental occlusions. To resolve these limitations\, this talk presents a no
+ vel Semantic-Occlusion Aware (S-OA) Gaussian Mixture Probability Hypothesi
+ s Density (GM-PHD) filter.\n\nBy combining geometric occlusion reasoning w
+ ith deep learning-derived environmental semantics\, the proposed framework
+  adaptively initializes target tracking in regions where new targets are l
+ ikely to appear. Evaluations demonstrate that this context-aware tracking 
+ system minimizes track initiation latency and preserves high tracking prec
+ ision even under intense clutter.\n\nUltimately\, this work demonstrates h
+ ow embedding spatial and semantic structure into filtering yields a signif
+ icantly more robust and resilient perception stack for autonomous navigati
+ on.\n\n*About the Speaker*\n\n[Jovan Menezes](https://www.linkedin.com/in/
+ jovanmenezes/) is a PhD student at Cornell University\, advised by Prof. M
+ ark Campbell. His research focuses on developing scalable and resilient pe
+ rception algorithms for autonomous driving. By leveraging concepts from pr
+ obabilistic estimation and deep learning-based computer vision\, the goal 
+ is to enable autonomous vehicles to perceive and navigate in challenging e
+ nvironments.\n\n**An Annotation-to-Detection Framework for Autonomous and 
+ Robust Vine Trunk Localization in the Field by Mobile Agricultural Robots*
+ *\n\nAutonomous robots struggle to detect objects in unstructured fields\,
+  requiring in-domain tuning with laborious manual data collection. In this
+  work\, we introduce a comprehensive annotation-to-detection framework des
+ igned to train a robust multi-modal detector using limited and partially l
+ abeled training data.\n\nOur method combines cross-modal annotation transf
+ er\, early sensor fusion\, and a multi-stage detection architecture to tra
+ in and enhance multi-modal detection. Validated on vineyard trunk detectio
+ n and paired with a custom LOAM algorithm\, it localised over 70% of trees
+  in one pass with under 0.37 m mean error.\n\nOur system demonstrated that
+  robust detection is achievable even with minimal initial annotations and 
+ human intervention.\n\n*About the Speaker*\n\n[Dimitrios Chatziparaschis](
+ https://www.linkedin.com/in/dimitrios-chatziparaschis-1280757b/) is a PhD 
+ candidate in EE\, in University of California\, Riverside. His main resear
+ ch lies at the intersection of computer vision\, machine learning\, and ro
+ botics. Main topics include 3D perception\, multi-modal sensing\, landmark
+  detection\, and localization in outdoor and dynamic settings.\n\n**vS-Gra
+ phs: Tightly Coupling Visual SLAM and 3D Scene Graphs Exploiting Hierarchi
+ cal Scene Understanding**\n\nWe introduce vS-Graphs\, a novel real-time VS
+ LAM framework that integrates vision-based scene understanding with map re
+ construction and comprehensible graph-based representation. The framework 
+ infers structural elements (i.e.\, rooms and floors) from detected buildin
+ g components (i.e.\, walls and ground surfaces) and incorporates them into
+  optimizable 3D scene graphs.\n\nThis solution enhances the reconstructed 
+ map's semantic richness\, comprehensibility\, and localization accuracy.\n
+ \n*About the Speaker*\n\n[Ali Tourani](https://www.linkedin.com/in/alitour
+ ani/) an R&D Specialist and a Senior Software Engineer with 8+ years of ex
+ perience in practical computer vision and AI system design and deployment.
+  Currently\, he holds a Postdoctoral Research Associate position at the Un
+ iversity of Luxembourg\, where he develops vision-language models and gene
+ rative AI solutions for real-world robotic applications.
+LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|July

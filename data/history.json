@@ -477,6 +477,40 @@
     "hash_key": "july 23 ai ml and computer vision meetup_2026-07-23T16:00:00+00:00"
   },
   {
+    "title": "México City AI, Machine Learning and Computer Vision Meetup|July 22 - Best of ICRA|Online",
+    "description": "México City AI, Machine Learning and Computer Vision Meetup\nThe Best of ICRA is a three-day virtual meetup series featuring researchers presenting their accepted papers from the 2026 International Conference on Robotics and Automation (ICRA).\n\n**Date, Time and Location**\n\nJul 22, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/best-of-icra-july-22-2026)**\n\n**Contrastive learning on 3d point clouds for geometric defect detection**\n\nReliable 3D defect detection in manufacturing is hard: the input is a point cloud — an unordered set that standard neural backbones cannot process directly; high-quality training data is scarce; and real scans are noisy and arrive in arbitrary orientations. We address these challenges in COSARAD, a contrastive learning framework that learns highly discriminative representations of object surface geometry under weak supervision.\n\nWhen a test object arrives, we extract its features and compare them against a library of defect-free reference shapes for precise, interpretable defect localization — achieving state-of-the-art accuracy on industrial benchmarks such as Real3D-AD. In my talk, I'll cover the design choices behind the system, why contrastive representation learning is the right fit for sparse 3D data, and open problems in scaling inspection to production.\n\n*About the Speaker*\n\n[Alexander Tarvo](https://www.linkedin.com/in/alexander-tarvo/) is a researcher at the University of Washington's MACS Lab, where he works on computer vision with applications in robotics. He holds a PhD in Software Engineering from Brown University and previously held research and engineering roles at Google, Microsoft, and IBM Research. His current research focuses on 3D vision and reinforcement learning for industrial robotics.\n\n**A Semantic and Occlusion-Aware Gaussian Mixture Probability Hypothesis Density Filter**\n\nReliable and resilient multi-target tracking is foundational for safe autonomous driving, yet most perception pipelines frequently struggle with sensor noise, heavy clutter, and severe environmental occlusions. To resolve these limitations, this talk presents a novel Semantic-Occlusion Aware (S-OA) Gaussian Mixture Probability Hypothesis Density (GM-PHD) filter.\n\nBy combining geometric occlusion reasoning with deep learning-derived environmental semantics, the proposed framework adaptively initializes target tracking in regions where new targets are likely to appear. Evaluations demonstrate that this context-aware tracking system minimizes track initiation latency and preserves high tracking precision even under intense clutter.\n\nUltimately, this work demonstrates how embedding spatial and semantic structure into filtering yields a significantly more robust and resilient perception stack for autonomous navigation.\n\n*About the Speaker*\n\n[Jovan Menezes](https://www.linkedin.com/in/jovanmenezes/) is a PhD student at Cornell University, advised by Prof. Mark Campbell. His research focuses on developing scalable and resilient perception algorithms for autonomous driving. By leveraging concepts from probabilistic estimation and deep learning-based computer vision, the goal is to enable autonomous vehicles to perceive and navigate in challenging environments.\n\n**An Annotation-to-Detection Framework for Autonomous and Robust Vine Trunk Localization in the Field by Mobile Agricultural Robots**\n\nAutonomous robots struggle to detect objects in unstructured fields, requiring in-domain tuning with laborious manual data collection. In this work, we introduce a comprehensive annotation-to-detection framework designed to train a robust multi-modal detector using limited and partially labeled training data.\n\nOur method combines cross-modal annotation transfer, early sensor fusion, and a multi-stage detection architecture to train and enhance multi-modal detection. Validated on vineyard trunk detection and paired with a custom LOAM algorithm, it localised over 70% of trees in one pass with under 0.37 m mean error.\n\nOur system demonstrated that robust detection is achievable even with minimal initial annotations and human intervention.\n\n*About the Speaker*\n\n[Dimitrios Chatziparaschis](https://www.linkedin.com/in/dimitrios-chatziparaschis-1280757b/) is a PhD candidate in EE, in University of California, Riverside. His main research lies at the intersection of computer vision, machine learning, and robotics. Main topics include 3D perception, multi-modal sensing, landmark detection, and localization in outdoor and dynamic settings.\n\n**vS-Graphs: Tightly Coupling Visual SLAM and 3D Scene Graphs Exploiting Hierarchical Scene Understanding**\n\nWe introduce vS-Graphs, a novel real-time VSLAM framework that integrates vision-based scene understanding with map reconstruction and comprehensible graph-based representation. The framework infers structural elements (i.e., rooms and floors) from detected building components (i.e., walls and ground surfaces) and incorporates them into optimizable 3D scene graphs.\n\nThis solution enhances the reconstructed map's semantic richness, comprehensibility, and localization accuracy.\n\n*About the Speaker*\n\n[Ali Tourani](https://www.linkedin.com/in/alitourani/) an R&D Specialist and a Senior Software Engineer with 8+ years of experience in practical computer vision and AI system design and deployment. Currently, he holds a Postdoctoral Research Associate position at the University of Luxembourg, where he develops vision-language models and generative AI solutions for real-world robotic applications.",
+    "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/315399957/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/315399957/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online event,",
+    "online": true,
+    "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
+    "dtstart": "2026-07-22T10:00:00-06:00",
+    "dtend": "2026-07-22T12:00:00-06:00",
+    "tags": [
+      "ai",
+      "cloud",
+      "data",
+      "frontend",
+      "mobile",
+      "security"
+    ],
+    "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "july 22 best of icra_2026-07-22T16:00:00+00:00"
+  },
+  {
     "title": "Rust-AICollective|The Copilot Effect: Microsoft Fabric Copilot (w/ The AI Collective)|Online",
     "description": "Get up-to-date information at: https://luma.com/aic-du-7-22\n\nHosted by The AI Collective & Kaamil Motala",
     "url": "https://luma.com/aic-du-7-22",
@@ -533,6 +567,38 @@
     "city_code": "cdmx",
     "address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
     "hash_key": "del oro negro al oro digital from black _2026-07-22T00:00:00+00:00"
+  },
+  {
+    "title": "México City AI, Machine Learning and Computer Vision Meetup|July 21 - Best of ICRA|Online",
+    "description": "México City AI, Machine Learning and Computer Vision Meetup\nThe Best of ICRA is a three-day virtual meetup series featuring researchers presenting their accepted papers from the 2026 International Conference on Robotics and Automation (ICRA).\n\n**Date, Time and Location**\n\nJul 21, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/best-of-icra-july-21-2026)**\n\n**Outdoor Robot Navigation in the Unstructured World: From Traversability to Physical Scene Understanding**\n\nOutdoor robot navigation in the unstructured world requires robots to reason about more than obstacles: they must understand where they can move, what terrain is suitable, and how scene context affects navigation decisions. In sidewalks, campuses, trails, and off-road environments, these decisions depend on geometric structure, terrain conditions, semantic cues, and robot-environment interaction.\n\nIn this talk, I will present our recent work on scene understanding for outdoor navigation, including a large-scale multimodal dataset for studying outdoor traversability, approaches for trajectory generation and selection, vision-language reasoning for contextual navigation, and Gaussian-based 3D scene modeling. I will also discuss how physical reasoning can extend scene understanding from visual and geometric perception toward terrain properties and interaction cues.\n\nTogether, these works explore how robots can better interpret unstructured outdoor environments and use that understanding for navigation decision-making.\n\n*About the Speaker*\n\n[Jing Liang](https://voxel51.com/events/www.linkedin.com/in/jingliangcgm) is a postdoctoral researcher at the Stanford Robotics Center, working on robot navigation, perception, and human-centered autonomy in complex real-world environments.\n\n**Scene Graphs and the Future of Mapping**\n\nIn this talk, I will question whether 3D reconstruction is still a necessary part of mapping in the age of feedforward models and present some alternatives. Then, I discuss scene graphs as an alternative map representation and their applications for mobile manipulation.\n\n*About the Speaker*\n\n[Hermann Blum ](https://www.linkedin.com/in/hermann-bl/)is a Junior Professor at the University of Bonn and the Lamarr Institute. Hermann's research focuses on machine learning for robotic perception and scene understanding, developing models and methods to understand an agent's environment semantically and geometrically.\n\n**Toward Zero-Shot 6D Pose Estimation and Tracking of Cluttered Objects on Edge Devices**\n\nRobust 6D pose estimation of textured objects under diverse illumination conditions remains a significant challenge, often requiring a trade-off between accurate initial pose estimation and efficient real-time tracking. We present a unified framework explicitly designed for efficient execution on edge devices, which fuses a robust initial estimation module with a fast motion-based tracker.\n\nThe key to our approach is a shared, lighting-invariant color-pair feature representation that forms a consistent foundation for both stages. For initial estimation, this representation facilitates robust registration between the live RGB-D view and the object's 3D mesh.\n\nFor tracking, the same representation validates temporal correspondences, enabling a lightweight model to reliably regress the object's pose. Experiments on benchmark datasets demonstrate that our integrated approach is both effective and robust, providing competitive pose estimation accuracy while maintaining high-fidelity tracking even through abrupt pose changes.\n\nThis is joint work with Xingjian Yang.\n\n*About the Speaker*\n\n[Ashis Banerjee](https://www.linkedin.com/in/ashisbanerjee/) is an Associate Professor of Industrial & Systems Engineering and Mechanical Engineering at the University of Washington, Seattle. Prior to joining UW, he was a Research Scientist at GE Global Research and a Postdoctoral Associate at MIT.\n\n**Trustworthy Geometric Perception: Certifiable Optimization and Robust Estimation**\n\nAutonomous robots in safety-critical settings require geometric perception that is not merely accurate on average, but provably correct under adversarial conditions. Yet most pipelines rely on local optimization methods that fail silently when poorly initialized.\n\nThis talk presents GlobustVP, a certifiably optimal vanishing point estimator that reformulates joint VP localization and line association as a quadratically constrained quadratic program (QCQP) and relaxes it to a tight semidefinite program (SDP), achieving the first globally optimal and outlier-robust solution to this problem. Recognized as a Best Paper Award Candidate at CVPR 2025 (top 0.1%, 14 of 13,008 submissions), GlobustVP demonstrates that certifiable global optimization is both practically feasible and highly competitive.\n\nMore broadly, this work is part of a research program toward trustworthy geometric perception: systems that know when they are wrong, and can communicate that to the robots and humans that depend on them.\n\n*About the Speaker*\n\n[Zhenjun Zhao](https://www.linkedin.com/in/zhenjun-zhao-513a3617b/) I am a postdoctoral researcher at University of Zaragoza, working with Javier Civera.",
+    "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/315398869/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/315398869/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online event,",
+    "online": true,
+    "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
+    "dtstart": "2026-07-21T10:00:00-06:00",
+    "dtend": "2026-07-21T12:00:00-06:00",
+    "tags": [
+      "ai",
+      "data",
+      "frontend",
+      "mobile"
+    ],
+    "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "july 21 best of icra_2026-07-21T16:00:00+00:00"
   },
   {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|July 10 - Best of CVPR (Day 3)|Online",
@@ -4509,7 +4575,7 @@
     "dtstart": "2026-05-15T00:00:00+00:00",
     "dtend": "2026-05-15T00:50:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "",
     "country_code": "",
     "state": "",
@@ -5235,7 +5301,7 @@
     "tags": [
       "security"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "",
     "country_code": "",
     "state": "",
@@ -8017,7 +8083,7 @@
     "dtstart": "2026-03-01T17:00:00+00:00",
     "dtend": "2026-03-01T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8103,7 +8169,7 @@
     "dtstart": "2026-02-27T15:00:00+00:00",
     "dtend": "2026-02-27T17:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8159,7 +8225,7 @@
     "dtstart": "2026-02-26T01:00:00+00:00",
     "dtend": "2026-02-26T04:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8213,7 +8279,7 @@
     "dtstart": "2026-02-26T00:00:00+00:00",
     "dtend": "2026-02-26T03:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8240,7 +8306,7 @@
     "dtstart": "2026-02-25T22:00:00+00:00",
     "dtend": "2026-02-25T23:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8269,7 +8335,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8298,7 +8364,7 @@
     "tags": [
       "mobile"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8352,7 +8418,7 @@
     "dtstart": "2026-02-25T15:00:00+00:00",
     "dtend": "2026-02-25T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8587,7 +8653,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8616,7 +8682,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8643,7 +8709,7 @@
     "dtstart": "2026-02-24T14:30:00+00:00",
     "dtend": "2026-02-24T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8672,7 +8738,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8699,7 +8765,7 @@
     "dtstart": "2026-02-24T00:00:00+00:00",
     "dtend": "2026-02-24T02:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8728,7 +8794,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8758,7 +8824,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8788,7 +8854,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8815,7 +8881,7 @@
     "dtstart": "2026-02-23T19:00:00+00:00",
     "dtend": "2026-02-23T20:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8842,7 +8908,7 @@
     "dtstart": "2026-02-23T18:00:00+00:00",
     "dtend": "2026-02-23T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8869,7 +8935,7 @@
     "dtstart": "2026-02-23T17:00:00+00:00",
     "dtend": "2026-02-23T18:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8899,7 +8965,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -10345,7 +10411,7 @@
     "dtstart": "2025-11-18T23:00:00+00:00",
     "dtend": "2025-11-19T01:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11326,7 +11392,7 @@
     "dtstart": "2025-09-29T18:00:00+00:00",
     "dtend": "2025-09-29T19:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
