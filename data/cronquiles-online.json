@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-30T19:43:30.732829+00:00",
-  "total_events": 329,
+  "generated_at": "2026-07-01T02:36:24.284663+00:00",
+  "total_events": 330,
   "city": "Online",
   "communities": [
     {
@@ -87,11 +87,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
+      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/eofagheq",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -152,13 +152,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3191,7 +3186,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3355,7 +3350,7 @@
       "tags": [
         "devops"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5130,7 +5125,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5694,7 +5689,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -9350,6 +9345,35 @@
       "hash_key": "trust is the new moat the hidden buying _2026-07-14T18:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|AI HR Roundtable with The AI Collective KC|Online",
+      "description": "Get up-to-date information at: https://luma.com/AIHR-01\n\nHosted by The AI Collective, Daniel Green & Scott Holsman",
+      "url": "https://luma.com/AIHR-01",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/AIHR-01",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-qph2hwy7q4uUKHJ",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-07-20T17:00:00+00:00",
+      "dtend": "2026-07-20T18:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-qph2hwy7q4uUKHJ",
+      "hash_key": "ai hr roundtable with the ai collective _2026-07-20T16:00:00+00:00"
+    },
+    {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|July 21 - Best of ICRA|Online",
       "description": "México City AI, Machine Learning and Computer Vision Meetup\nThe Best of ICRA is a three-day virtual meetup series featuring researchers presenting their accepted papers from the 2026 International Conference on Robotics and Automation (ICRA).\n\n**Date, Time and Location**\n\nJul 21, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/best-of-icra-july-21-2026)**\n\n**Outdoor Robot Navigation in the Unstructured World: From Traversability to Physical Scene Understanding**\n\nOutdoor robot navigation in the unstructured world requires robots to reason about more than obstacles: they must understand where they can move, what terrain is suitable, and how scene context affects navigation decisions. In sidewalks, campuses, trails, and off-road environments, these decisions depend on geometric structure, terrain conditions, semantic cues, and robot-environment interaction.\n\nIn this talk, I will present our recent work on scene understanding for outdoor navigation, including a large-scale multimodal dataset for studying outdoor traversability, approaches for trajectory generation and selection, vision-language reasoning for contextual navigation, and Gaussian-based 3D scene modeling. I will also discuss how physical reasoning can extend scene understanding from visual and geometric perception toward terrain properties and interaction cues.\n\nTogether, these works explore how robots can better interpret unstructured outdoor environments and use that understanding for navigation decision-making.\n\n*About the Speaker*\n\n[Jing Liang](https://voxel51.com/events/www.linkedin.com/in/jingliangcgm) is a postdoctoral researcher at the Stanford Robotics Center, working on robot navigation, perception, and human-centered autonomy in complex real-world environments.\n\n**Scene Graphs and the Future of Mapping**\n\nIn this talk, I will question whether 3D reconstruction is still a necessary part of mapping in the age of feedforward models and present some alternatives. Then, I discuss scene graphs as an alternative map representation and their applications for mobile manipulation.\n\n*About the Speaker*\n\n[Hermann Blum ](https://www.linkedin.com/in/hermann-bl/)is a Junior Professor at the University of Bonn and the Lamarr Institute. Hermann's research focuses on machine learning for robotic perception and scene understanding, developing models and methods to understand an agent's environment semantically and geometrically.\n\n**Toward Zero-Shot 6D Pose Estimation and Tracking of Cluttered Objects on Edge Devices**\n\nRobust 6D pose estimation of textured objects under diverse illumination conditions remains a significant challenge, often requiring a trade-off between accurate initial pose estimation and efficient real-time tracking. We present a unified framework explicitly designed for efficient execution on edge devices, which fuses a robust initial estimation module with a fast motion-based tracker.\n\nThe key to our approach is a shared, lighting-invariant color-pair feature representation that forms a consistent foundation for both stages. For initial estimation, this representation facilitates robust registration between the live RGB-D view and the object's 3D mesh.\n\nFor tracking, the same representation validates temporal correspondences, enabling a lightweight model to reliably regress the object's pose. Experiments on benchmark datasets demonstrate that our integrated approach is both effective and robust, providing competitive pose estimation accuracy while maintaining high-fidelity tracking even through abrupt pose changes.\n\nThis is joint work with Xingjian Yang.\n\n*About the Speaker*\n\n[Ashis Banerjee](https://www.linkedin.com/in/ashisbanerjee/) is an Associate Professor of Industrial & Systems Engineering and Mechanical Engineering at the University of Washington, Seattle. Prior to joining UW, he was a Research Scientist at GE Global Research and a Postdoctoral Associate at MIT.\n\n**Trustworthy Geometric Perception: Certifiable Optimization and Robust Estimation**\n\nAutonomous robots in safety-critical settings require geometric perception that is not merely accurate on average, but provably correct under adversarial conditions. Yet most pipelines rely on local optimization methods that fail silently when poorly initialized.\n\nThis talk presents GlobustVP, a certifiably optimal vanishing point estimator that reformulates joint VP localization and line association as a quadratically constrained quadratic program (QCQP) and relaxes it to a tight semidefinite program (SDP), achieving the first globally optimal and outlier-robust solution to this problem. Recognized as a Best Paper Award Candidate at CVPR 2025 (top 0.1%, 14 of 13,008 submissions), GlobustVP demonstrates that certifiable global optimization is both practically feasible and highly competitive.\n\nMore broadly, this work is part of a research program toward trustworthy geometric perception: systems that know when they are wrong, and can communicate that to the robots and humans that depend on them.\n\n*About the Speaker*\n\n[Zhenjun Zhao](https://www.linkedin.com/in/zhenjun-zhao-513a3617b/) I am a postdoctoral researcher at University of Zaragoza, working with Javier Civera.",
       "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/315398869/",
@@ -9820,7 +9844,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
