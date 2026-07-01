@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-01T14:09:29.762358+00:00",
-  "total_events": 225,
+  "generated_at": "2026-07-01T19:31:09.030697+00:00",
+  "total_events": 227,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -139,17 +139,6 @@
         {
           "platform": "luma",
           "url": "https://luma.com/lkn7cfxz",
-          "label": "Luma"
-        }
-      ]
-    },
-    {
-      "name": "v0 Prompt to Production Mexico City",
-      "description": "Evento oficial de v0 (Vercel) en México. AI builders, hackathon global. Hosted by aibuilders.mx (Ciudad de México).",
-      "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/fdg8riz2",
           "label": "Luma"
         }
       ]
@@ -2874,7 +2863,7 @@
       "hash_key": "coworking frutal 12_2025-09-10T16:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
+      "title": "AI Builders MX|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/r8rwqnn9\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero",
       "url": "https://luma.com/r8rwqnn9",
       "sources": [
@@ -2886,13 +2875,13 @@
       ],
       "location": "Ciudad de México, Mexico",
       "online": false,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2025-09-11T23:00:00+00:00",
       "dtend": "2025-09-12T02:30:00+00:00",
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4725,7 +4714,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5500,7 +5489,7 @@
       "hash_key": "casa frutero coworking frutal 14_2026-04-08T22:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|OpenAI Codex – Mexico City|México|Ciudad de México",
+      "title": "AI Builders MX|OpenAI Codex – Mexico City|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/suipk589\n\nAddress:\nPlaza Carso\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/suipk589",
       "sources": [
@@ -5512,14 +5501,14 @@
       ],
       "location": "Plaza Carso, Pl. Carso, Amp Granada, 11529 Ciudad de México, CDMX, Mexico",
       "online": false,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2026-04-08T23:00:00+00:00",
       "dtend": "2026-04-09T02:00:00+00:00",
       "tags": [
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -6430,6 +6419,35 @@
       "hash_key": "cdmx chapter_2026-06-26T00:00:00+00:00"
     },
     {
+      "title": "Python CDMX|Meetup Julio 2026  -  PythonCDMX|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/zyp0pstx\n\nAddress:\nCasa Rafael Galvan\nCiudad de México, Mexico\n\nHosted by Daniel Paredes",
+      "url": "https://luma.com/zyp0pstx",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/zyp0pstx",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Casa Rafael Galvan, Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Python CDMX",
+      "dtstart": "2026-07-15T00:00:00+00:00",
+      "dtend": "2026-07-15T02:30:00+00:00",
+      "tags": [
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-f8GxWvNMvBvvuLb",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
+      "hash_key": "meetup julio 2026 pythoncdmx_2026-07-15T00:00:00+00:00"
+    },
+    {
       "title": "AI/IA CDMX|Del Oro Negro al Oro Digital - From Black Gold to Digital Gold|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/wxbcu28i\n\nAddress:\nCasa Rafael Galvan\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Ben AI CDMX",
       "url": "https://luma.com/wxbcu28i",
@@ -6457,6 +6475,36 @@
       "city_code": "cdmx",
       "address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
       "hash_key": "del oro negro al oro digital from black _2026-07-22T00:00:00+00:00"
+    },
+    {
+      "title": "Python CDMX|Meetup Agosto 2026  -  PythonCDMX|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/q2qklcb8\n\nAddress:\nPinterest México\nCiudad de México, Mexico",
+      "url": "https://luma.com/q2qklcb8",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/q2qklcb8",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Pinterest México, Av. P.º de la Reforma 509, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Python CDMX",
+      "dtstart": "2026-08-12T00:00:00+00:00",
+      "dtend": "2026-08-12T02:30:00+00:00",
+      "tags": [
+        "backend",
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-f8GxWvNMvBvvuLb",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Av. P.º de la Reforma 509, Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
+      "hash_key": "meetup agosto 2026 pythoncdmx_2026-08-12T00:00:00+00:00"
     },
     {
       "title": "AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México",
