@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-01T19:31:09.048626+00:00",
-  "total_events": 13,
+  "generated_at": "2026-07-02T02:15:33.743637+00:00",
+  "total_events": 14,
   "city": "México",
   "communities": [
     {
@@ -11,6 +11,11 @@
     {
       "name": "Python CDMX",
       "description": "Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles.",
+      "links": []
+    },
+    {
+      "name": "Frutero Club",
+      "description": "Comunidad y plataforma enfocada en formar, conectar y activar talento tecnológico en América Latina. Eventos de builders, Web3 y desarrollo.",
       "links": []
     },
     {
@@ -418,6 +423,33 @@
       "city_code": "",
       "address": "Universidad Autónoma Metropolitana Cuajimalpa Campus, Vasco de Quiroga 4871, Contadero, Cuajimalpa de Morelos, 05348 Ciudad de México, CDMX, Mexico",
       "hash_key": "meetup extra junio 2026 pythoncdmx_2026-06-16T20:00:00+00:00"
+    },
+    {
+      "title": "Frutero Club|Coworking Frutal x ETH Cinco de Mayo|México|México",
+      "description": "Get up-to-date information at: https://luma.com/m0nd7yfw\n\nAddress:\nJosé María Izazaga 8\nCiudad de México, Mexico\n\nHosted by mel & ETH Cinco de Mayo",
+      "url": "https://luma.com/m0nd7yfw",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/m0nd7yfw",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "José María Izazaga 8, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06080 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Frutero Club",
+      "dtstart": "2026-07-09T14:00:00+00:00",
+      "dtend": "2026-07-09T18:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-Mx4mOoMyOkMGEz0",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "José María Izazaga 8, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06080 Ciudad de México, CDMX, Mexico",
+      "hash_key": "coworking frutal x eth cinco de mayo_2026-07-09T14:00:00+00:00"
     }
   ]
 }
