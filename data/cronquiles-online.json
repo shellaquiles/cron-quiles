@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-04T08:24:46.258430+00:00",
-  "total_events": 337,
+  "generated_at": "2026-07-04T13:01:27.561187+00:00",
+  "total_events": 338,
   "city": "Online",
   "communities": [
     {
@@ -87,11 +87,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -5141,7 +5141,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5705,7 +5705,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -9391,6 +9391,35 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-y0BVDr92UTCS8q3",
       "hash_key": "ai roundtable 25 trust on trial w the ai_2026-07-13T16:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|MIcro Meetup Women Brazil (w/ The AI Collective)|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-be-7-13\n\nHosted by The AI Collective & Priscila",
+      "url": "https://luma.com/aic-be-7-13",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-be-7-13",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-Gyo8tGrmilPg35D",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-07-13T22:30:00+00:00",
+      "dtend": "2026-07-13T23:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-Gyo8tGrmilPg35D",
+      "hash_key": "micro meetup women brazil w the ai colle_2026-07-13T22:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|Trust Is the New Moat. The Hidden Buying and Investing Criteria for Enterprise AI. (w/ The AI Collective)|Online",
