@@ -116,7 +116,7 @@
     "hash_key": "devfest 2026 congreso internacional de i_2026-10-21T14:00:00+00:00"
   },
   {
-    "title": "GDG Villahermosa|Devfest 2026: Sureste de México|México|",
+    "title": "GDG Villahermosa|DevFest 2026: Sureste de México|México|",
     "description": "Únete a nosotros en el Devfest 2026. Este evento emblemático es una oportunidad única para sumergirse en las tendencias ...",
     "url": "https://gdg.community.dev/events/details/google-gdg-villahermosa-presents-devfest-2026-sureste-de-mexico/",
     "sources": [
@@ -132,7 +132,12 @@
     "dtstart": "2026-10-21T08:00:00-06:00",
     "dtend": "2026-10-23T13:00:00-06:00",
     "tags": [
+      "AI",
+      "Conference",
       "DevFest",
+      "Google Cloud",
+      "Web",
+      "Workshop / hands-on session",
       "backend"
     ],
     "source": "https://gdg.community.dev/gdg-villahermosa/",
@@ -535,7 +540,7 @@
     "hash_key": "july 29 mcp agents and skills meetup_2026-07-29T16:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI: Andres Matte, Kapso.ai|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI: Andres Matte, Kapso.ai|Online",
     "description": "Get up-to-date information at: https://luma.com/6liqe957\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
     "url": "https://luma.com/6liqe957",
     "sources": [
@@ -547,14 +552,13 @@
     ],
     "location": "https://luma.com/event/evt-OfU4EZmg85DhiSI",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-07-23T23:30:00+00:00",
     "dtend": "2026-07-24T00:00:00+00:00",
     "tags": [
-      "ai",
-      "frontend"
+      "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -723,6 +727,36 @@
     "hash_key": "july 21 best of icra_2026-07-21T16:00:00+00:00"
   },
   {
+    "title": "Kong Mexico City|Token Cost Management: Bringing Spend Under Control|Online",
+    "description": "Kong/MEXICO-CITY\nAI projects get approved on capability. They get killed on cost.\nNot because the technology doesn't deliver, but because token spend is hard to predict, harder to control, and almost impossible to explain after the fact. One model swap, one prompt change, one team that doubled their request volume last sprint. The bill moves and nobody saw it coming.\nToken cost management isn't about spending less. It's about spending intentionally. Knowing which requests justify a frontier model and which ones don't. Catching runaway consumption before it becomes a budget conversation. Giving teams the feedback they need to make better decisions without slowing them down.\nIn this session, we'll walk through how to build cost intelligence directly into your AI platform, at the layer where every request passes through, so spend becomes a first-class signal, not a monthly surprise.\nWe'll cover:\n\n* **Model selection policies** — routing requests to cost-appropriate models based on task type, request complexity, or team-defined thresholds\n* **Real-time cost signals** — surfacing token spend per request as it happens, not in a report three weeks later\n* **Cost vs. quality tradeoffs** — how to evaluate whether a cheaper model is actually cheaper when you factor in retry rates and output quality\n* **Per-consumer cost visibility** — giving individual teams a live view of their own usage so they can self-correct without a central bottleneck\n\nIf your AI platform is scaling and your cost controls aren't keeping pace, this is where to start.",
+    "url": "https://www.meetup.com/kong-mexico-city/events/315576594/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/kong-mexico-city/events/315576594/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online event,",
+    "online": true,
+    "organizer": "Kong Mexico City",
+    "dtstart": "2026-07-21T09:00:00-06:00",
+    "dtend": "2026-07-21T10:00:00-06:00",
+    "tags": [
+      "ai",
+      "frontend"
+    ],
+    "source": "https://www.meetup.com/kong-mexico-city/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "token cost management bringing spend und_2026-07-21T14:00:00+00:00"
+  },
+  {
     "title": "Rust-AICollective|AI HR Roundtable with The AI Collective KC|Online",
     "description": "Get up-to-date information at: https://luma.com/AIHR-01\n\nHosted by The AI Collective, Daniel Green & Scott Holsman",
     "url": "https://luma.com/AIHR-01",
@@ -813,7 +847,7 @@
   },
   {
     "title": "Python CDMX|Meetup Julio 2026  -  PythonCDMX|México|Ciudad de México",
-    "description": "Get up-to-date information at: https://luma.com/zyp0pstx\n\nAddress:\nCasa Rafael Galvan\nCiudad de México, Mexico\n\nHosted by Daniel Paredes & PythonCDMX",
+    "description": "Get up-to-date information at: https://luma.com/zyp0pstx\n\nAddress:\nCasa Rafael Galvan\nCiudad de México, Mexico\n\nHosted by PythonCDMX",
     "url": "https://luma.com/zyp0pstx",
     "sources": [
       {
@@ -899,7 +933,7 @@
     "hash_key": "micro meetup women brazil w the ai colle_2026-07-13T22:00:00+00:00"
   },
   {
-    "title": "Rust-AICollective|AI Roundtable #25 - Trust on Trial: 𝗔𝗜 𝗢𝘂𝘁𝗽𝘂𝘁, 𝗛𝘂𝗺𝗮𝗻 𝗝𝘂𝗱𝗴𝗺𝗲 (w/ The AI Collective & Voyage Consulting)|Online",
+    "title": "Rust-AICollective|AI Roundtable #25 - Trust on Trial: ūĚóĒūĚóú ūĚóĘūĚėāūĚėĀūĚóĹūĚėāūĚėĀ, ūĚóõūĚėāūĚóļūĚóģūĚóĽ ūĚóĚūĚėāūĚóĪūĚóīūĚóļūĚó≤ (w/ The AI Collective & Voyage Consulting)|Online",
     "description": "Get up-to-date information at: https://luma.com/aic-kc-roundtable25\n\nHosted by The AI Collective & 4 others",
     "url": "https://luma.com/aic-kc-roundtable25",
     "sources": [
@@ -1019,7 +1053,7 @@
     "hash_key": "july 10 best of cvpr day 3_2026-07-10T16:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI: Juan Martínez|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI: Juan Martínez|Online",
     "description": "Get up-to-date information at: https://luma.com/3iyi3bsr\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
     "url": "https://luma.com/3iyi3bsr",
     "sources": [
@@ -1031,14 +1065,13 @@
     ],
     "location": "https://luma.com/event/evt-MVGGctuBiHzWfUZ",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-07-09T23:30:00+00:00",
     "dtend": "2026-07-10T00:00:00+00:00",
     "tags": [
-      "ai",
-      "frontend"
+      "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -2320,7 +2353,7 @@
     "hash_key": "ai education why we built this 3 founder_2026-06-25T14:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI #7: WhatsApp Voicebots|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI #7: WhatsApp Voicebots|Online",
     "description": "Get up-to-date information at: https://luma.com/vhwcyvjr\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
     "url": "https://luma.com/vhwcyvjr",
     "sources": [
@@ -2332,14 +2365,13 @@
     ],
     "location": "https://luma.com/event/evt-PwXKYGUxITnF5Ku",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-06-24T23:00:00+00:00",
     "dtend": "2026-06-25T00:00:00+00:00",
     "tags": [
-      "ai",
-      "frontend"
+      "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -5261,7 +5293,7 @@
     "dtstart": "2026-05-15T00:00:00+00:00",
     "dtend": "2026-05-15T00:50:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "",
     "country_code": "",
     "state": "",
@@ -5987,7 +6019,7 @@
     "tags": [
       "security"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "",
     "country_code": "",
     "state": "",
@@ -8181,7 +8213,7 @@
     "hash_key": "claude for finance_2026-04-18T00:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI #6: Scaling to 1M users|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI #6: Scaling to 1M users|Online",
     "description": "Get up-to-date information at: https://luma.com/11fz6ef5\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
     "url": "https://luma.com/11fz6ef5",
     "sources": [
@@ -8193,14 +8225,13 @@
     ],
     "location": "https://luma.com/event/evt-SBK5c7p9LXcCYFE",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-04-16T23:00:00+00:00",
     "dtend": "2026-04-17T00:00:00+00:00",
     "tags": [
-      "ai",
-      "frontend"
+      "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -8382,7 +8413,7 @@
     "hash_key": "casa frutero coworking frutal 14_2026-04-08T22:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI #5: Image Manipulation|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI #5: Image Manipulation|Online",
     "description": "Get up-to-date information at: https://luma.com/wsj293yt\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
     "url": "https://luma.com/wsj293yt",
     "sources": [
@@ -8394,14 +8425,13 @@
     ],
     "location": "https://luma.com/event/evt-3QmmiVDsImuKFFB",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-04-01T23:00:00+00:00",
     "dtend": "2026-04-02T00:00:00+00:00",
     "tags": [
-      "ai",
-      "frontend"
+      "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -8753,7 +8783,7 @@
     "hash_key": "pytonotion serpientes nubes y guas de es_2026-03-06T22:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI #4: OpenClaw|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI #4: OpenClaw|Online",
     "description": "Get up-to-date information at: https://luma.com/5ivardas\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
     "url": "https://luma.com/5ivardas",
     "sources": [
@@ -8765,14 +8795,13 @@
     ],
     "location": "https://luma.com/event/evt-utuQiZ6tlVbHWXw",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-03-06T00:00:00+00:00",
     "dtend": "2026-03-06T01:00:00+00:00",
     "tags": [
-      "ai",
-      "frontend"
+      "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -8858,7 +8887,7 @@
     "dtstart": "2026-03-01T17:00:00+00:00",
     "dtend": "2026-03-01T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8944,7 +8973,7 @@
     "dtstart": "2026-02-27T15:00:00+00:00",
     "dtend": "2026-02-27T17:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9000,7 +9029,7 @@
     "dtstart": "2026-02-26T01:00:00+00:00",
     "dtend": "2026-02-26T04:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9054,7 +9083,7 @@
     "dtstart": "2026-02-26T00:00:00+00:00",
     "dtend": "2026-02-26T03:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9081,7 +9110,7 @@
     "dtstart": "2026-02-25T22:00:00+00:00",
     "dtend": "2026-02-25T23:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9110,7 +9139,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9139,7 +9168,7 @@
     "tags": [
       "mobile"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9193,7 +9222,7 @@
     "dtstart": "2026-02-25T15:00:00+00:00",
     "dtend": "2026-02-25T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9487,7 +9516,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9514,7 +9543,7 @@
     "dtstart": "2026-02-24T14:30:00+00:00",
     "dtend": "2026-02-24T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9543,7 +9572,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9570,7 +9599,7 @@
     "dtstart": "2026-02-24T00:00:00+00:00",
     "dtend": "2026-02-24T02:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9599,7 +9628,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9629,7 +9658,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9659,7 +9688,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9686,7 +9715,7 @@
     "dtstart": "2026-02-23T19:00:00+00:00",
     "dtend": "2026-02-23T20:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9713,7 +9742,7 @@
     "dtstart": "2026-02-23T18:00:00+00:00",
     "dtend": "2026-02-23T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9740,7 +9769,7 @@
     "dtstart": "2026-02-23T17:00:00+00:00",
     "dtend": "2026-02-23T18:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9770,7 +9799,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9873,7 +9902,7 @@
     "hash_key": "coworking frutal work and chill 3_2026-02-20T16:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI #3: Midjourney|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI #3: Midjourney|Online",
     "description": "Get up-to-date information at: https://luma.com/d342anny\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
     "url": "https://luma.com/d342anny",
     "sources": [
@@ -9885,14 +9914,13 @@
     ],
     "location": "https://luma.com/event/evt-WUg9IsqZP5MKL4B",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-02-19T23:30:00+00:00",
     "dtend": "2026-02-20T00:00:00+00:00",
     "tags": [
-      "ai",
-      "frontend"
+      "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -10099,7 +10127,7 @@
     "hash_key": "coworking frutal work and chill 2_2026-02-13T16:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI – Vol 2|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI – Vol 2|Online",
     "description": "Get up-to-date information at: https://luma.com/lgd37763\n\nHosted by Javier Rivero & 3 others",
     "url": "https://luma.com/lgd37763",
     "sources": [
@@ -10111,14 +10139,13 @@
     ],
     "location": "https://luma.com/event/evt-rYB4HiifBPDm7LU",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-02-13T00:00:00+00:00",
     "dtend": "2026-02-13T00:30:00+00:00",
     "tags": [
-      "ai",
-      "frontend"
+      "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -10471,7 +10498,7 @@
     "hash_key": "30 aos programando lecciones aprendidas _2026-01-29T00:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|Diseña usando AI|Online",
+    "title": "v0 Prompt to Production Mexico City|Diseña usando AI|Online",
     "description": "Get up-to-date information at: https://luma.com/5nq96pxw\n\nHosted by Javier Rivero",
     "url": "https://luma.com/5nq96pxw",
     "sources": [
@@ -10483,14 +10510,13 @@
     ],
     "location": "https://luma.com/event/evt-H4WPxCoPFcne2bC",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-01-28T23:00:00+00:00",
     "dtend": "2026-01-29T02:00:00+00:00",
     "tags": [
-      "ai",
-      "frontend"
+      "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -10528,7 +10554,7 @@
     "hash_key": "casa frutero coworking frutal 4_2026-01-28T16:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|Diseña usando AI|Online",
+    "title": "v0 Prompt to Production Mexico City|Diseña usando AI|Online",
     "description": "Get up-to-date information at: https://luma.com/ubxd600w\n\nHosted by Javier Rivero",
     "url": "https://luma.com/ubxd600w",
     "sources": [
@@ -10540,14 +10566,13 @@
     ],
     "location": "https://luma.com/event/evt-IWVh1A0cdphlpRP",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-01-27T23:00:00+00:00",
     "dtend": "2026-01-28T02:00:00+00:00",
     "tags": [
-      "ai",
-      "frontend"
+      "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -11279,7 +11304,7 @@
     "dtstart": "2025-11-18T23:00:00+00:00",
     "dtend": "2025-11-19T01:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -12156,7 +12181,7 @@
     "hash_key": "ricing el arte de personalizar linux_2025-10-10T22:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI – Vol 1|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI – Vol 1|Online",
     "description": "Get up-to-date information at: https://luma.com/pi3ebsn2\n\nHosted by Javier Rivero",
     "url": "https://luma.com/pi3ebsn2",
     "sources": [
@@ -12168,14 +12193,13 @@
     ],
     "location": "https://luma.com/event/evt-gCpfBqRDQhEOJf9",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2025-10-07T22:00:00+00:00",
     "dtend": "2025-10-07T23:00:00+00:00",
     "tags": [
-      "ai",
-      "frontend"
+      "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -12315,7 +12339,7 @@
     "dtstart": "2025-09-29T18:00:00+00:00",
     "dtend": "2025-09-29T19:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -12492,7 +12516,7 @@
     "hash_key": "build with claude code_2025-09-12T00:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
+    "title": "v0 Prompt to Production Mexico City|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
     "description": "Get up-to-date information at: https://luma.com/r8rwqnn9\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero",
     "url": "https://luma.com/r8rwqnn9",
     "sources": [
@@ -12504,14 +12528,13 @@
     ],
     "location": "Ciudad de México, Mexico",
     "online": false,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2025-09-11T23:00:00+00:00",
     "dtend": "2025-09-12T02:30:00+00:00",
     "tags": [
-      "ai",
-      "frontend"
+      "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -13420,7 +13443,7 @@
     "hash_key": "mobil3 meetup camino a devconnect_2025-06-12T22:00:00+00:00"
   },
   {
-    "title": "Rust-AICollective|AI Collective Worldwide Launch Party 🚀|Online",
+    "title": "Rust-AICollective|AI Collective Worldwide Launch Party ūüöÄ|Online",
     "description": "Get up-to-date information at: https://luma.com/aic-global\n\nHosted by The AI Collective & 8 others",
     "url": "https://luma.com/aic-global",
     "sources": [
@@ -13624,8 +13647,8 @@
     "hash_key": "bentonville claim your 30 day angel squa_2025-05-07T18:00:00+00:00"
   },
   {
-    "title": "Rust-AICollective|AI Fireside Chat 🧠 GenAI Collective x Brett Berhoff 🧠|Online",
-    "description": "Get up-to-date information at: https://luma.com/AIfireside\n\nHosted by The AI Collective & ⚡️BRETT BERHOFF⚡️",
+    "title": "Rust-AICollective|AI Fireside Chat ūüß† GenAI Collective x Brett Berhoff ūüß†|Online",
+    "description": "Get up-to-date information at: https://luma.com/AIfireside\n\nHosted by The AI Collective & ‚ö°ÔłŹBRETT BERHOFF‚ö°ÔłŹ",
     "url": "https://luma.com/AIfireside",
     "sources": [
       {
@@ -14503,7 +14526,7 @@
     "hash_key": "rancho staking y obol en la casa de frut_2025-01-22T00:00:00+00:00"
   },
   {
-    "title": "Rust-AICollective|ONLINE! 🧠 GenAI Collective 🧠 AI Tools & Hacks! 🤖|Online",
+    "title": "Rust-AICollective|ONLINE! ūüß† GenAI Collective ūüß† AI Tools & Hacks! ūü§Ė|Online",
     "description": "Get up-to-date information at: https://luma.com/tools\n\nHosted by The AI Collective & 4 others",
     "url": "https://luma.com/tools",
     "sources": [
@@ -17449,7 +17472,7 @@
     "hash_key": "early stage startup funding business str_2024-07-25T16:00:00+00:00"
   },
   {
-    "title": "Rust-AICollective|🧠 The GenAI Collective 🧠 Office Hours 👨‍🏫|Online",
+    "title": "Rust-AICollective|ūüß† The GenAI Collective ūüß† Office Hours ūüĎ®‚ÄćūüŹę|Online",
     "description": "Get up-to-date information at: https://luma.com/0n3ukaid\n\nHosted by The AI Collective, Mihir Somaiya & Naomi Chetrit Band",
     "url": "https://luma.com/0n3ukaid",
     "sources": [
@@ -17478,7 +17501,7 @@
     "hash_key": "the genai collective office hours_2024-07-18T20:00:00+00:00"
   },
   {
-    "title": "Rust-AICollective|🧠 GenAI Collective x OctoAI 🐙 All About Fine-Tuning LLMs|Online",
+    "title": "Rust-AICollective|ūüß† GenAI Collective x OctoAI ūüźô All About Fine-Tuning LLMs|Online",
     "description": "Get up-to-date information at: https://luma.com/roundtable-6-25\n\nHosted by The AI Collective, OctoAI & Naomi Chetrit Band",
     "url": "https://luma.com/roundtable-6-25",
     "sources": [
@@ -17561,7 +17584,7 @@
     "hash_key": "m8l event 2_2024-05-01T08:00:00+00:00"
   },
   {
-    "title": "Rust-AICollective|🧠 GenAI Collective 🧠  Community Town Hall 🏛️|Online",
+    "title": "Rust-AICollective|ūüß† GenAI Collective ūüß†  Community Town Hall ūüŹõÔłŹ|Online",
     "description": "Get up-to-date information at: https://luma.com/4-24\n\nHosted by The AI Collective & 3 others",
     "url": "https://luma.com/4-24",
     "sources": [
@@ -17590,7 +17613,7 @@
     "hash_key": "genai collective community town hall_2024-04-25T00:00:00+00:00"
   },
   {
-    "title": "Rust-AICollective|🧠 GenAI Collective 🧠  Community Town Hall 🏛️|Online",
+    "title": "Rust-AICollective|ūüß† GenAI Collective ūüß†  Community Town Hall ūüŹõÔłŹ|Online",
     "description": "Get up-to-date information at: https://luma.com/2-22\n\nHosted by The AI Collective & 7 others",
     "url": "https://luma.com/2-22",
     "sources": [
@@ -17646,7 +17669,7 @@
     "hash_key": "testing_2024-02-07T00:00:00+00:00"
   },
   {
-    "title": "Rust-AICollective|🧠 GenAI Collective 🧠 Virtual Friendsgiving! 🦃|Online",
+    "title": "Rust-AICollective|ūüß† GenAI Collective ūüß† Virtual Friendsgiving! ūü¶É|Online",
     "description": "Get up-to-date information at: https://luma.com/11-21\n\nHosted by The AI Collective & 4 others",
     "url": "https://luma.com/11-21",
     "sources": [
@@ -17675,7 +17698,7 @@
     "hash_key": "genai collective virtual friendsgiving_2023-11-21T18:00:00+00:00"
   },
   {
-    "title": "Rust-AICollective|🧠 GenAI Collective x OctoML 🐙 Builder's Roundtable: Domain Aware LLMs|Online",
+    "title": "Rust-AICollective|ūüß† GenAI Collective x OctoML ūüźô Builder's Roundtable: Domain Aware LLMs|Online",
     "description": "Get up-to-date information at: https://luma.com/roundtable-10-26\n\nHosted by The AI Collective & OctoAI",
     "url": "https://luma.com/roundtable-10-26",
     "sources": [
