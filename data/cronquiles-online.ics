@@ -4464,6 +4464,16 @@ LOCATION:https://luma.com/event/evt-cPCWSYrfDEBO1AF
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-cPCWSYrfDEBO1AF
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Rust-AICollective|Agentic AI series: Multi Agent Orchestration - P
+ hinite x AI Collective Dallas|Online
+DTSTART:20260715T230000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/aic-dallas-7-1
+ 5\n\nHosted by The AI Collective & 5 others
+LOCATION:https://luma.com/event/evt-cH8Lh9LnMnwxF4M
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-cH8Lh9LnMnwxF4M
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Embajadoras Cloud|☁️ AWS: Ciberseguridad\, Nube e IA ☁️  -
    AWS Community 🚀|México|
 DTSTART:20260716T180000
@@ -5140,6 +5150,83 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/aic-gl-9-23\n\
  nHosted by The AI Collective & 4 others
 LOCATION:https://luma.com/event/evt-ZkkbMV6KFF2UJ4b
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-ZkkbMV6KFF2UJ4b
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Sept
+  24 - AI\, ML and Computer Vision Meetup|Online
+DTSTART:20260924T100000
+CATEGORIES:ai,backend,data,frontend,mobile,security
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nJoin our virtual meetup on September 24 to hear talks from experts on cut
+ ting-edge topics across AI\, ML\, and computer vision.\n\n**Date\, Time an
+ d Location**\n\nSep 24\, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register
+  for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetu
+ p-september-24-2026)**\n\n**How Do Mercedes-Benz AI Principles Drive our I
+ nnovation?**\n\nAt Mercedes-Benz\, our AI Principles guide every step of i
+ nnovation\, emphasizing responsible use\, safety and reliability\, explain
+ ability\, and the protection of privacy. These principles go beyond statem
+ ents and actively shape how we design\, test\, and deploy AI systems in re
+ al-world automotive and enterprise settings. In this talk\, I will present
+  how these principles inspired our recent research on when reusing LoRA (L
+ ow-Rank Adaptation) is effective. By combining theoretical analysis with s
+ ynthetic data as a proxy for enterprise scenarios\, we uncovered the stren
+ gths and limitations of modular AI components under constrained data acces
+ s. Our findings provide practical guidance on when reused LoRAs could deli
+ ver high-quality results.\n\n*About the Speaker*\n\n[Mei-Yen Chen](https:/
+ /www.linkedin.com/in/mei-yen-chen-22937787) is a Senior Data Scientist at 
+ Mercedes-Benz Tech Innovation GmbH in Germany with 10 years of industry ex
+ perience in AI and data solutions. She leads early-stage AI projects acros
+ s business functions and collaborates with research institutions on machin
+ e learning and responsible AI.\n\n**Region Tokens as the Visual Primitive:
+  From Recognition to World Modeling**\n\nPatch-based tokenization has beco
+ me the default interface between vision encoders and downstream models\, y
+ et patches carry no semantic structure and scale poorly with resolution an
+ d temporal extent. This talk presents a research program centered on repla
+ cing patch tokens with region-level representations — semantically dense
+  tokens grounded in visual entities rather than arbitrary grid crops.\n\nI
+  will describe RELOCATE\, REN\, and T-REN\, a progression of methods that 
+ produce region tokens via pooling\, train them with region-level objective
+ s\, and extend them to video with temporal coherence. I will then present 
+ ongoing work integrating region tokens into VLMs to directly expand visual
+  context capacity\, and preliminary results on future region trajectory pr
+ ediction as a foundation for world modeling.\n\nThe broader thesis is that
+  region-level tokens are a more natural unit of visual computation than pa
+ tches\, and their advantage compounds as task complexity\, resolution\, an
+ d temporal horizon increase.\n\n*About the Speaker*\n\n[Savya Khosla](http
+ s://www.linkedin.com/in/savyakhosla/) is a second-year Ph.D. student at th
+ e University of Illinois Urbana-Champaign\, advised by Prof. Derek Hoiem a
+ nd Prof. Alex Schwing.\n\n**Leveraging Text-To-Image Diffusion Models for 
+ Consistent Set-to-Set Generation**\n\nImage collections are humans' primar
+ y way of capturing the world\, yet advances in generative editing remain l
+ argely inapplicable to this modality. We address this gap by introducing M
+ atch-and-Fuse - a zero-shot\, training-free method for consistent set-to-s
+ et generation from image collections that share a common visual element bu
+ t differ in viewpoint\, capture time\, and surrounding content.\nOur key i
+ dea is a unified graph-based framework that combines dense correspondences
+  with an emergent prior in text-to-image diffusion models to generate cohe
+ rent canvases. We achieve state-of-the-art consistency and visual quality\
+ , and unlock new creative capabilities for content generation.\n\n*About t
+ he Speaker*\n\n[Kate Feingold](https://www.linkedin.com/in/katefeingold/) 
+ is a PhD student in Computer Vision at the Weizmann Institute of Science. 
+ Her research sits at the intersection of generative models\, 3D/4D percept
+ ion\, and multimodal learning\, focusing on problems where vision meets ot
+ her modalities or paradigms in creative tasks.\n\n**Yield Estimation of a 
+ Coffee in a dense environment**\n\nThis presentation provides a detailed w
+ orkflow related to coffee yield estimation in a dense environment. With ph
+ otos of pre-harvest coffee plants from a couple of coffee estates\, detail
+ s related to pre-processing\, annotation to detect regions of interest (RO
+ I)\, object detection training and inferencing results with various Yolo m
+ odels and finally segmentation with SAM2 and Yolo\\*-seg with training and
+  inference results to determine the count of raw\, pre-mature\, mature and
+  over-mature coffee berries and finally the yield of the entire estate. Al
+ l this is based on real world data captured on iPhone and android phones.\
+ n\n*About the Speaker*\n\n[Raghu M. Rao](http://www.linkedin.com/in/raghum
+ rao) is a consultant working on applications of computer vision AI models.
+  He was previously with AMD and Xilinx. He has a Ph.D. in Wireless Communi
+ cations from UCLA and is a Senior Member\, IEEE. His current interests are
+  in applications of AI for agriculture\, health care and wireless communic
+ ations.
+LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|Can AI Help Prevent Toxic Relationships and Gend
