@@ -5023,6 +5023,66 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
 LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Aug 
+ 4 - Visual AI in Manufacturing|Online
+DTSTART:20260804T100000
+CATEGORIES:ai,cloud,data,frontend,mobile,security
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nJoin our virtual meetup to hear talks from experts on cutting-edge topics
+  at the intersection of manufacturing\, AI\, ML\, and computer vision.\n\n
+ **Date\, Time and Location**\n\nAug 04\, 2026\n9:00 AM - 11:00 AM PST\nOnl
+ ine. **[Register for the Zoom!](https://voxel51.com/events/visual-ai-in-ma
+ nufacturing-meetup-august-4-2026)**\n\n**Enabling Multimodal Agents on the
+  Edge**\n\nThe next generation of AI agents is moving beyond cloud-based t
+ ext-only models and will interact with the physical multimodal world in re
+ al-time. For example in the vision domain\, AI agents rely on Vision-Langu
+ age Models (VLMs) in their backbone. However\, deploying massive VLMs with
+  billions of parameters on the edge devices remains a significant engineer
+ ing hurdle.\n\nDrawing on our recent ICML and CVPR research papers\, this 
+ session explores advancements in agentic model optimizations\, specificall
+ y how distillation and pruning transform 'heavyweight' models into lean\, 
+ edge-ready engines. Lastly\, I present our UI agent running on the actual 
+ phone that is being developed by our lab's team.\n\n*About the Speaker*\n\
+ n[Denis Gudovskiy](https://www.linkedin.com/in/gudovskiy/) is a Distinguis
+ hed AI Engineer at Panasonic North America where he conducts R&D activitie
+ s of various core AI methods\, including multimodal and hardware-efficient
+  agents\, supervised and RL training pipelines\, and robustness to out-of-
+ distribution scenarios.\n\n**When the Camera Can’t Be Trusted: Health-Aw
+ are Visual AI for Reliable Near-Miss Detection**\n\nNear-miss detection sy
+ stems are often evaluated as though every camera frame is equally trustwor
+ thy\, even though blur\, poor exposure\, occlusion\, contamination\, and c
+ hanging lighting can silently degrade the visual evidence used to make saf
+ ety decisions. This talk presents an online camera-health framework that e
+ stimates visual reliability before downstream perception performance signi
+ ficantly deteriorates.\n\nI will discuss how camera-health signals can sup
+ port condition-aware evaluation\, prioritize human review\, reduce unrelia
+ ble alerts\, and trigger appropriate fallback behavior. Drawing from resea
+ rch in safety-critical visual perception\, the talk will demonstrate how t
+ hese principles can be adapted to industrial video systems operating acros
+ s different cameras\, shifts\, layouts\, and environmental conditions.\n\n
+ The presentation will also connect camera-health monitoring with rare-even
+ t discovery and failure-driven dataset improvement for more trustworthy ne
+ ar-miss detection.\n\n*About the Speaker*\n\n[Shiva Aher](https://www.link
+ edin.com/in/shivaaher/) is a computer vision researcher with a graduate ba
+ ckground in computer science from the Georgia Institute of Technology\, sp
+ ecializing in artificial intelligence.\n\n**Agentic VLM applications in ma
+ nufacturing**\n\nVision Language Models (VLMs) introduce net-new functiona
+ lity to vision workloads in manufacturing that traditional computer vision
+  models simply do not offer (e.g.\, open-vocabulary detection\, in-context
+ -learning). Even so\, fine-tuned models like YOLO offer a level of precisi
+ on and recall that today's VLMs struggle to match out-of-the-box.\n\nThrou
+ gh agentic harnesses that coordinate calls to VLMs\, we can start to deliv
+ er similar reliability on manufacturing-relevant tasks (e.g.\, many-class\
+ , many-instance detection)\, while also supporting the net new functionali
+ ties (e.g.\, multimodal search) that make VLMs distinct. In this talk\, we
+  walk through the design of these harnesses\, how you serve them efficient
+ ly\, and how they deliver value in manufacturing.\n\n*About the Speaker*\n
+ \n[Subraiz Ahmed](https://www.linkedin.com/in/subraiz/) is a member of the
+  Technical Staff at Perceptron AI. He builds the infrastructure to serve f
+ rontier vision models. He previously founded a series of startups.
+LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rust-AICollective|The Copilot Effect: Power Platform Copilot (w/ T
  he AI Collective)|Online
 DTSTART:20260805T090000Z
@@ -5099,6 +5159,35 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/claude-fwy0\n\
  nHosted by Justin Elliott
 LOCATION:https://luma.com/event/evt-GgPSy6ZZuRjwiJy
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-GgPSy6ZZuRjwiJy
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Aug 
+ 11 - Debugging Physical AI Models at Scale with Multimodal Data Workshop|O
+ nline
+DTSTART:20260811T100000
+CATEGORIES:ai,data,frontend,mobile
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nJoin Voxel51 for a live workshop on how multimodal data workflows in Fift
+ yOne help teams inspect\, search\, and debug complex Physical AI datasets 
+ and explain black-box model behavior at scale. We’ll show how teams can 
+ work with synchronized video and sensor data\, query for similar scenarios
+  across their datasets\, and uncover patterns behind model failures faster
+  than playback-only visualization tools allow.\n\n**Date\, Time and Locati
+ on**\n\nAug 11\, 2026\n9:00 AM - 10:00 AM PST\nOnline. **[Register for the
+  Zoom!](https://voxel51.com/events/debugging-physical-ai-models-at-scale-w
+ ith-multimodal-data-august-11-2026)**\n\nAs robotics and autonomous vehicl
+ e teams move from traditional perception models to end-to-end Physical AI 
+ systems\, understanding model behavior is becoming harder than ever. These
+  models ingest synchronized inputs from cameras\, sensors\, and other data
+  streams\, but their decisions can be difficult to explain\, reproduce\, a
+ nd improve.\n\nYou’ll learn how to use multimodal data to investigate qu
+ estions like: when did the model swerve\, miss an object\, misinterpret a 
+ scene\, or behave unexpectedly — and how can you find every similar mome
+ nt across your dataset?\n\nDesigned for robotics\, AV\, and machine learni
+ ng teams\, this session will show how FiftyOne helps turn multimodal data 
+ into a scalable workflow for model evaluation\, debugging\, and improvemen
+ t.
+LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Aug 
