@@ -603,7 +603,7 @@
     "hash_key": "pnp business matching omnichannel gt mt _2026-07-25T02:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI: Andres Matte, Kapso.ai|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI: Andres Matte, Kapso.ai|Online",
     "description": "Get up-to-date information at: https://luma.com/6liqe957\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
     "url": "https://luma.com/6liqe957",
     "sources": [
@@ -615,13 +615,13 @@
     ],
     "location": "https://luma.com/event/evt-OfU4EZmg85DhiSI",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-07-23T23:30:00+00:00",
     "dtend": "2026-07-24T00:00:00+00:00",
     "tags": [
       "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -905,6 +905,41 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-qph2hwy7q4uUKHJ",
     "hash_key": "ai hr forum 01 w the ai collective kc_2026-07-20T16:00:00+00:00"
+  },
+  {
+    "title": "México City AI, Machine Learning and Computer Vision Meetup|July 20 - Best of ICRA (Day One)|Online",
+    "description": "México City AI, Machine Learning and Computer Vision Meetup\nThe Best of ICRA is a three-day virtual meetup series featuring researchers presenting their accepted papers from the 2026 International Conference on Robotics and Automation (ICRA).\n\n**[Register for the Zoom](https://voxel51.com/events/best-of-icra-july-20-2026)** to get access to all three days of the Best of ICRA.\n\nEach session features a curated lineup of speakers sharing cutting-edge research across robotics, computer vision, and AI — straight from papers accepted at one of the field's top conferences.\n\n**Towards Versatile Opti-Acoustic Sensor Fusion and Volumetric Mapping for Safe Underwater Navigation​**\n\nAccurate sensing and mapping are critical for autonomous underwater vehicles operating in obstacle-rich environments. While vision provides high-resolution data, it fails in turbid water, and whereas sonar is robust to turbidity, it suffers from low resolution and elevation ambiguity.\n\nTo overcome these limitations, our recent work introduces an opti-acoustic sensor fusion framework that pairs a monocular camera with a stereo sonar to resolve elevation ambiguity and produce fully defined 3D point clouds. These multi-modal points are then fused using a confidence-weighted Gaussian Process Volumetric Mapping framework that prioritizes high-confidence, safety-critical data.\n\nUltimately, field trials and experimental results validate that this framework successfully captures complex geometries to ensure reliable navigation under degraded sensing conditions.\n\n*About the Speaker*\n\n[Ivana Collado Gonzalez ](https://www.linkedin.com/in/ivana-collado/)is a Ph.D. candidate at Stevens Institute of Technology, holding an M.S. in Robotics from Stevens and a B.S. in Mechatronics Engineering from Tecnológico de Monterrey, Mexico. Her industry experience includes developing autonomous mobile robots at Xlab Protexa R&D. Ivana’s research focuses on mobile robot exploration, localization, and mapping, specifically advancing marine robotics and perception within complex underwater environments.\n\n**Teaching Drones to See What Matters with Reinforcement Learning**\n\nAutonomous inspection of industrial environments requires robots to identify and prioritize specific objects of interest, rather than exhaustively exploring their surroundings. This talk presents a deep reinforcement learning framework which enables aerial robots to simultaneously locate, visually inspect semantic targets, and navigate collision-free in unknown environments using only onboard sensors.\n\nThe policy generalizes from training on primitive shapes to inspecting complex, real-world structures in real-world settings. The talk also covers a second line of work on active perception, where the the flying agent learns to actively steer its camera sensor during navigation to maximize situational awareness.\n\nTogether, these approaches push toward truly autonomous robots that understand not just where to go, but what to look at.\n\n*About the Speaker*\n\n[Grzegorz Malczyk](https://www.linkedin.com/in/grzegorz-malczyk/) is a PhD candidate at the Autonomous Robots Lab, Norwegian University of Science and Technology (NTNU), where he researches reinforcement learning for autonomous robotic navigation and inspection of industrial environments. He holds an MSc in Robotics, Systems and Control from ETH Zurich and has published across IEEE RA-L, ICRA, and IROS. His work spans semantics-aware path planning, active perception, and sim-to-real transfer for aerial robots.\n\n**Gameplay With a Socially Supportive Virtual Robot Enhances Children’s Global Self-Esteem, Peer Relationships, Interest and Engagement**\n\nThis work investigates whether a socially supportive virtual robot can enhance children's self-esteem and social engagement through game-based interactions. We conducted a month-long study with 23 children in India, where participants played a video game with or without a virtual robot that provided positive reinforcement.\nOur results showed that children interacting with the robot demonstrated significant improvements in global self-esteem, friendship quality and quantity, and sustained motivation and enjoyment. These findings highlight the potential of socially supportive virtual robots as tools for promoting children's psychological well-being and social development.\n\n*About the Speaker*\n\n[Devasena Pasupuleti](https://www.linkedin.com/in/devasena-pasupuleti/) is a researcher in Human-Robot Interaction at the University of Osaka in Japan. Her research focuses on social robotics, conversational AI, and game-based technologies to support and assess children's well-being, learning, and social development. She has authored over 20 publications in leading IEEE and ACM conferences and journals, received multiple Best Presenter and Best Research awards, and is a frequent guest speaker at international research events. Outside her research, she is an author of children's books, reflecting her passion for making robotics accessible and engaging for young audiences.\n\n**Safe and Stable Neural Dynamical Systems for Robust Motion Planning**\n\nLearning safe and stable robot motions from demonstrations remains a challenge, especially in complex, nonlinear tasks involving dynamic, obstacle-rich environments. In this talk, I will present neural dynamical systems that can help in achieving robust motion plans directly from robot demonstrations.\n\nMoreover, in environments with static algorithms, the framework will yield safe motions with certified confidence bounds.\n\n*About the Speaker*\n\n[Mahathi Anand](https://www.linkedin.com/in/mahathi-anand/) is a postdoctoral researcher at the Learning Systems and Robotics Lab, Technical University of Germany. She had previously obtained her PhD (Dr. rer. nat.) from LMU Munich, Germany, in 2023. Prior to that, she graduated with a Bachelors in Technology in Electrical and Electronics Engineering from SRM Institute of Science and Technology, India in 2016 and completed her Masters of Technology in Electrical Engineering with specialization in System and Control from Indian Institute of Technology Roorkee, India in 2019.",
+    "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/315673056/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/315673056/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online event,",
+    "online": true,
+    "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
+    "dtstart": "2026-07-20T10:00:00-06:00",
+    "dtend": "2026-07-20T12:00:00-06:00",
+    "tags": [
+      "ai",
+      "backend",
+      "cloud",
+      "data",
+      "frontend",
+      "mobile",
+      "security"
+    ],
+    "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "july 20 best of icra day one_2026-07-20T16:00:00+00:00"
   },
   {
     "title": "Embajadoras Cloud|☁️ AWS: Ciberseguridad, Nube e IA ☁️  -  AWS Community 🚀|México|",
@@ -1204,7 +1239,7 @@
     "hash_key": "july 10 best of cvpr day 3_2026-07-10T16:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI: Juan Martínez|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI: Juan Martínez|Online",
     "description": "Get up-to-date information at: https://luma.com/3iyi3bsr\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
     "url": "https://luma.com/3iyi3bsr",
     "sources": [
@@ -1216,13 +1251,13 @@
     ],
     "location": "https://luma.com/event/evt-MVGGctuBiHzWfUZ",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-07-09T23:30:00+00:00",
     "dtend": "2026-07-10T00:00:00+00:00",
     "tags": [
       "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -2504,7 +2539,7 @@
     "hash_key": "ai education why we built this 3 founder_2026-06-25T14:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI #7: WhatsApp Voicebots|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI #7: WhatsApp Voicebots|Online",
     "description": "Get up-to-date information at: https://luma.com/vhwcyvjr\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
     "url": "https://luma.com/vhwcyvjr",
     "sources": [
@@ -2516,13 +2551,13 @@
     ],
     "location": "https://luma.com/event/evt-PwXKYGUxITnF5Ku",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-06-24T23:00:00+00:00",
     "dtend": "2026-06-25T00:00:00+00:00",
     "tags": [
       "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -7650,7 +7685,7 @@
     "dtstart": "2026-04-24T15:00:00+00:00",
     "dtend": "2026-04-24T21:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8364,7 +8399,7 @@
     "hash_key": "claude for finance_2026-04-18T00:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI #6: Scaling to 1M users|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI #6: Scaling to 1M users|Online",
     "description": "Get up-to-date information at: https://luma.com/11fz6ef5\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
     "url": "https://luma.com/11fz6ef5",
     "sources": [
@@ -8376,13 +8411,13 @@
     ],
     "location": "https://luma.com/event/evt-SBK5c7p9LXcCYFE",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-04-16T23:00:00+00:00",
     "dtend": "2026-04-17T00:00:00+00:00",
     "tags": [
       "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -8564,7 +8599,7 @@
     "hash_key": "casa frutero coworking frutal 14_2026-04-08T22:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI #5: Image Manipulation|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI #5: Image Manipulation|Online",
     "description": "Get up-to-date information at: https://luma.com/wsj293yt\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
     "url": "https://luma.com/wsj293yt",
     "sources": [
@@ -8576,13 +8611,13 @@
     ],
     "location": "https://luma.com/event/evt-3QmmiVDsImuKFFB",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-04-01T23:00:00+00:00",
     "dtend": "2026-04-02T00:00:00+00:00",
     "tags": [
       "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -8923,7 +8958,7 @@
       "cloud",
       "python"
     ],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8934,7 +8969,7 @@
     "hash_key": "pytonotion serpientes nubes y guas de es_2026-03-06T22:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI #4: OpenClaw|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI #4: OpenClaw|Online",
     "description": "Get up-to-date information at: https://luma.com/5ivardas\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
     "url": "https://luma.com/5ivardas",
     "sources": [
@@ -8946,13 +8981,13 @@
     ],
     "location": "https://luma.com/event/evt-utuQiZ6tlVbHWXw",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-03-06T00:00:00+00:00",
     "dtend": "2026-03-06T01:00:00+00:00",
     "tags": [
       "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -10053,7 +10088,7 @@
     "hash_key": "coworking frutal work and chill 3_2026-02-20T16:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI #3: Midjourney|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI #3: Midjourney|Online",
     "description": "Get up-to-date information at: https://luma.com/d342anny\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
     "url": "https://luma.com/d342anny",
     "sources": [
@@ -10065,13 +10100,13 @@
     ],
     "location": "https://luma.com/event/evt-WUg9IsqZP5MKL4B",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-02-19T23:30:00+00:00",
     "dtend": "2026-02-20T00:00:00+00:00",
     "tags": [
       "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -10278,7 +10313,7 @@
     "hash_key": "coworking frutal work and chill 2_2026-02-13T16:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI – Vol 2|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI – Vol 2|Online",
     "description": "Get up-to-date information at: https://luma.com/lgd37763\n\nHosted by Javier Rivero & 3 others",
     "url": "https://luma.com/lgd37763",
     "sources": [
@@ -10290,13 +10325,13 @@
     ],
     "location": "https://luma.com/event/evt-rYB4HiifBPDm7LU",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-02-13T00:00:00+00:00",
     "dtend": "2026-02-13T00:30:00+00:00",
     "tags": [
       "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -10387,7 +10422,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -10649,7 +10684,7 @@
     "hash_key": "30 aos programando lecciones aprendidas _2026-01-29T00:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|Diseña usando AI|Online",
+    "title": "v0 Prompt to Production Mexico City|Diseña usando AI|Online",
     "description": "Get up-to-date information at: https://luma.com/5nq96pxw\n\nHosted by Javier Rivero",
     "url": "https://luma.com/5nq96pxw",
     "sources": [
@@ -10661,13 +10696,13 @@
     ],
     "location": "https://luma.com/event/evt-H4WPxCoPFcne2bC",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-01-28T23:00:00+00:00",
     "dtend": "2026-01-29T02:00:00+00:00",
     "tags": [
       "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -10705,7 +10740,7 @@
     "hash_key": "casa frutero coworking frutal 4_2026-01-28T16:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|Diseña usando AI|Online",
+    "title": "v0 Prompt to Production Mexico City|Diseña usando AI|Online",
     "description": "Get up-to-date information at: https://luma.com/ubxd600w\n\nHosted by Javier Rivero",
     "url": "https://luma.com/ubxd600w",
     "sources": [
@@ -10717,13 +10752,13 @@
     ],
     "location": "https://luma.com/event/evt-IWVh1A0cdphlpRP",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2026-01-27T23:00:00+00:00",
     "dtend": "2026-01-28T02:00:00+00:00",
     "tags": [
       "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -11288,7 +11323,7 @@
     "tags": [
       "devops"
     ],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "",
     "country_code": "",
     "state": "",
@@ -12321,7 +12356,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "",
     "country_code": "",
     "state": "",
@@ -12332,7 +12367,7 @@
     "hash_key": "ricing el arte de personalizar linux_2025-10-10T22:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|How I Use AI – Vol 1|Online",
+    "title": "v0 Prompt to Production Mexico City|How I Use AI – Vol 1|Online",
     "description": "Get up-to-date information at: https://luma.com/pi3ebsn2\n\nHosted by Javier Rivero",
     "url": "https://luma.com/pi3ebsn2",
     "sources": [
@@ -12344,13 +12379,13 @@
     ],
     "location": "https://luma.com/event/evt-gCpfBqRDQhEOJf9",
     "online": true,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2025-10-07T22:00:00+00:00",
     "dtend": "2025-10-07T23:00:00+00:00",
     "tags": [
       "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "",
     "country_code": "",
     "state": "",
@@ -12544,7 +12579,7 @@
     "dtstart": "2025-09-19T22:00:00+00:00",
     "dtend": "2025-09-20T00:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -12667,7 +12702,7 @@
     "hash_key": "build with claude code_2025-09-12T00:00:00+00:00"
   },
   {
-    "title": "AI Builders MX|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
+    "title": "v0 Prompt to Production Mexico City|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
     "description": "Get up-to-date information at: https://luma.com/r8rwqnn9\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero",
     "url": "https://luma.com/r8rwqnn9",
     "sources": [
@@ -12679,13 +12714,13 @@
     ],
     "location": "Ciudad de México, Mexico",
     "online": false,
-    "organizer": "AI Builders MX",
+    "organizer": "v0 Prompt to Production Mexico City",
     "dtstart": "2025-09-11T23:00:00+00:00",
     "dtend": "2025-09-12T02:30:00+00:00",
     "tags": [
       "ai"
     ],
-    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
+    "source": "https://luma.com/fdg8riz2",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -18548,7 +18583,7 @@
     "dtstart": null,
     "dtend": null,
     "tags": [],
-    "source": "https://luma.com/sudo_fciencias_2026",
+    "source": "https://luma.com/e17fbtoo",
     "country": "",
     "country_code": "",
     "state": "",
