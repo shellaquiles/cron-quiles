@@ -481,6 +481,33 @@
     "hash_key": "meetup agosto 2026 pythoncdmx_2026-08-12T00:00:00+00:00"
   },
   {
+    "title": "Claude Community|New York  -  Claude Impact Lab|Online",
+    "description": "Get up-to-date information at: https://luma.com/claude-fwy0\n\nHosted by Justin Elliott",
+    "url": "https://luma.com/claude-fwy0",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/claude-fwy0",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "https://luma.com/event/evt-GgPSy6ZZuRjwiJy",
+    "online": true,
+    "organizer": "Claude Community",
+    "dtstart": "2026-08-07T21:00:00+00:00",
+    "dtend": "2026-08-08T01:00:00+00:00",
+    "tags": [],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "https://luma.com/event/evt-GgPSy6ZZuRjwiJy",
+    "hash_key": "new york claude impact lab_2026-08-07T20:00:00+00:00"
+  },
+  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|Aug 6 - Audio and AI Meetup|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.\n\n**Date, Time and Location**\n\nAug 06, 2026\n9:00 AM - 11:00 AM PST\n**[Online. Register for the Zoom!](https://voxel51.com/events/audio-and-ai-meetup-august-6-2026)**\n\n**Do Speech Models Actually Understand Speech? Evaluating Speech LLMs Under Realistic Spoken Instruction Conditions**\n\nSpeech Large Language Models (SLLMs) are increasingly capable; but are we evaluating them the right way? Most benchmarks rely on text prompts, yet real users interact with these systems through speech, a modality that introduces noise, disfluencies, and stylistic variation that text simply doesn't capture.\nIn this talk, we present findings from a systematic study across 11 tasks, 12 languages, and five prompt styles, examining how prompt modality, language, and task type shape SLLM performance.\n\n*About the Speaker*\n\n[Maike Züfle ](https://voxel51.com/events/www.linkedin.com/in/maike-z%C3%BCfle)is a PhD student at the Karlsruhe Institute of Technology (KIT), working in Prof. Jan Niehues's group on interactive speech systems for more natural human–machine communication. Her research focuses on instruction-following speech models with speech as both input and output, with a recent emphasis on full-duplex systems. Beyond her research, she co-organises the instruction-following and speech translation metrics shared tasks at IWSLT. She is a 2026 Apple Scholar in AI/ML.\n\n**AI based Audio Forensics**\n\nIn this presentation, attendees will discover several modules developed by Gradiant for the detection and analysis of synthetically generated or manipulated audio. The session will be delivered by one of the developers involved in the design and implementation of these technologies, providing first-hand insight into their capabilities and underlying methodology.\n\nThe presentation will cover the traceability module, which helps identify the origin of AI-generated content. It will also cover the segment detection tool, designed to locate manipulated regions within an audio recording, as well as the complete audio detection tool, which assesses whether an entire recording has been synthetically generated.\n\n*About the Speaker*\n\n[Daniel Paniagua Ares ](https://voxel51.com/events/www.linkedin.com/in/daniel-paniagua-ares-96252918a)is a research engineer at Gradiant. Graduated in computer engineering from the FIC and with a master's degree in AI from the VIU.\n\n**Curating, Searching, and Evaluating Audio Datasets in FiftyOne**\n\nIn this talk, we'll start with the ESC-50 environmental-sound dataset to show how FiftyOne represents audio: browsing clips in the tabular view, rendering spectrograms directly in the sample grid with a custom renderer, and turning sounds into searchable vectors with CLAP embeddings. Then we'll demo a similarity-search panel that lets you query an entire audio collection by example clip or a natural-language prompt to quickly find matching sounds.\n\nWe'll conclude with a live research problem: Audio Moment Retrieval from the DCASE 2026 Challenge, where the goal is to localize the exact moment in a long recording that matches a text query. We'll frame this as temporal detection, evaluate predictions, and visualize ground-truth vs. predicted moments on an interactive timeline to intuitively expose model failure modes.\n\nAttendees will leave with a concrete blueprint and open code for applying visual data-centric AI practices to their own audio and multimodal datasets.\n\n*About the Speaker*\n\n[John Duncan](https://www.linkedin.com/in/john-a-duncan/) is a Machine Learning Engineer, Customer Success at Voxel51. His research interests include vision, LiDAR, and audio perception for robots and intelligent systems.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/315389157/",
@@ -5479,7 +5506,7 @@
     "dtstart": "2026-05-15T00:00:00+00:00",
     "dtend": "2026-05-15T00:50:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "",
     "country_code": "",
     "state": "",
@@ -6205,7 +6232,7 @@
     "tags": [
       "security"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "",
     "country_code": "",
     "state": "",
@@ -7685,7 +7712,7 @@
     "dtstart": "2026-04-24T15:00:00+00:00",
     "dtend": "2026-04-24T21:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -8958,7 +8985,7 @@
       "cloud",
       "python"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9073,7 +9100,7 @@
     "dtstart": "2026-03-01T17:00:00+00:00",
     "dtend": "2026-03-01T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9159,7 +9186,7 @@
     "dtstart": "2026-02-27T15:00:00+00:00",
     "dtend": "2026-02-27T17:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9215,7 +9242,7 @@
     "dtstart": "2026-02-26T01:00:00+00:00",
     "dtend": "2026-02-26T04:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9269,7 +9296,7 @@
     "dtstart": "2026-02-26T00:00:00+00:00",
     "dtend": "2026-02-26T03:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9296,7 +9323,7 @@
     "dtstart": "2026-02-25T22:00:00+00:00",
     "dtend": "2026-02-25T23:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9325,7 +9352,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9354,7 +9381,7 @@
     "tags": [
       "mobile"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9408,7 +9435,7 @@
     "dtstart": "2026-02-25T15:00:00+00:00",
     "dtend": "2026-02-25T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9583,7 +9610,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9673,7 +9700,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9702,7 +9729,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9729,7 +9756,7 @@
     "dtstart": "2026-02-24T14:30:00+00:00",
     "dtend": "2026-02-24T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9758,7 +9785,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9785,7 +9812,7 @@
     "dtstart": "2026-02-24T00:00:00+00:00",
     "dtend": "2026-02-24T02:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9814,7 +9841,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9844,7 +9871,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9874,7 +9901,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9901,7 +9928,7 @@
     "dtstart": "2026-02-23T19:00:00+00:00",
     "dtend": "2026-02-23T20:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9928,7 +9955,7 @@
     "dtstart": "2026-02-23T18:00:00+00:00",
     "dtend": "2026-02-23T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9955,7 +9982,7 @@
     "dtstart": "2026-02-23T17:00:00+00:00",
     "dtend": "2026-02-23T18:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9985,7 +10012,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -10422,7 +10449,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11323,7 +11350,7 @@
     "tags": [
       "devops"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
@@ -11490,7 +11517,7 @@
     "dtstart": "2025-11-18T23:00:00+00:00",
     "dtend": "2025-11-19T01:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -12356,7 +12383,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
@@ -12525,7 +12552,7 @@
     "dtstart": "2025-09-29T18:00:00+00:00",
     "dtend": "2025-09-29T19:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -12579,7 +12606,7 @@
     "dtstart": "2025-09-19T22:00:00+00:00",
     "dtend": "2025-09-20T00:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -18583,7 +18610,7 @@
     "dtstart": null,
     "dtend": null,
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",

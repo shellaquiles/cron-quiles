@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-14T01:28:38.030895+00:00",
-  "total_events": 345,
+  "generated_at": "2026-07-14T07:48:06.001189+00:00",
+  "total_events": 346,
   "city": "Online",
   "communities": [
     {
@@ -87,11 +87,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -152,8 +152,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -193,6 +198,11 @@
           "label": "Luma"
         }
       ]
+    },
+    {
+      "name": "Claude Community",
+      "description": "Eventos de la comunidad de Claude AI.",
+      "links": []
     },
     {
       "name": "Frutero Club",
@@ -3197,7 +3207,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3361,7 +3371,7 @@
       "tags": [
         "devops"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5136,7 +5146,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5700,7 +5710,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -9968,6 +9978,33 @@
       "hash_key": "aug 6 audio and ai meetup_2026-08-06T16:00:00+00:00"
     },
     {
+      "title": "Claude Community|New York  -  Claude Impact Lab|Online",
+      "description": "Get up-to-date information at: https://luma.com/claude-fwy0\n\nHosted by Justin Elliott",
+      "url": "https://luma.com/claude-fwy0",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claude-fwy0",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-GgPSy6ZZuRjwiJy",
+      "online": true,
+      "organizer": "Claude Community",
+      "dtstart": "2026-08-07T21:00:00+00:00",
+      "dtend": "2026-08-08T01:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-GgPSy6ZZuRjwiJy",
+      "hash_key": "new york claude impact lab_2026-08-07T20:00:00+00:00"
+    },
+    {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Aug 20 - Cold Pool to Hot Queue: Annotation Curation with FiftyOne|Online",
       "description": "México City AI, Machine Learning and Computer Vision Meetup\nIn this hands-on workshop, you'll use [FiftyOne ](https://docs.voxel51.com/)to run the full rare-class mining loop end-to-end on a large unlabeled image pool: compress the pool with near-duplicate detection, embed images with a modern vision backbone, mine candidate positives via seeded similarity from a tiny labeled set, confirm them through targeted human review, and prioritize the survivors for annotation using representativeness and uniqueness scores.\n\n**Time, Date and Location**\n\nAug 20, 2026\n9:00 AM - 11:00 AM PST, 2026\nOnline. **[Register for the Zoom!](https://voxel51.com/events/from-cold-pool-to-hot-queue-annotation-curation-with-fiftyone-august-20-2026)**\n\n**What You'll Walk Away With**\n\n* A working FiftyOne pipeline for finding rare classes in any visual dataset you own\n* A repeatable four-stage funnel — compress, mine, confirm, prioritize — with a clear objective at each stage\n* A fine-tuned detector that demonstrably outperforms one trained on the same number of randomly sampled images\n* The mental model that data curation — not architecture or hyperparameters — is the highest-leverage thing you can do to improve a rare-class detector",
       "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314739409/",
@@ -10317,7 +10354,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
