@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T13:13:34.475636+00:00",
-  "total_events": 350,
+  "generated_at": "2026-07-15T18:56:23.617832+00:00",
+  "total_events": 351,
   "city": "Online",
   "communities": [
     {
@@ -152,13 +152,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3207,7 +3202,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3371,7 +3366,7 @@
       "tags": [
         "devops"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -9639,6 +9634,37 @@
       "hash_key": "ai hr forum 01 w the ai collective kc_2026-07-20T16:00:00+00:00"
     },
     {
+      "title": "GDG Tijuana|Informática Forense : Análisis Técnico de Antenas y Triangulación|México|",
+      "description": "Únete a nuestro taller de  Análisis Técnico de Antenas, Triangulación y Datos Conservados\". Aprende de la mano del Ing. ...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-informatica-forense-analisis-tecnico-de-antenas-y-triangulacion/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-informatica-forense-analisis-tecnico-de-antenas-y-triangulacion/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "La Tradicion, 721 Santiago Argüello, Tijuana",
+      "online": false,
+      "organizer": "GDG Tijuana",
+      "dtstart": "2026-07-20T19:00:00-07:00",
+      "dtend": "2026-07-20T20:00:00-07:00",
+      "tags": [
+        "Conference",
+        "Networking",
+        "Tech Talk / Meetup"
+      ],
+      "source": "https://gdg.community.dev/gdg-tijuana/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "La Tradicion, 721 Santiago Argüello, Tijuana",
+      "hash_key": "informtica forense anlisis tcnico de ant_2026-07-21T02:00:00+00:00"
+    },
+    {
       "title": "Kong Mexico City|Token Cost Management: Bringing Spend Under Control|Online",
       "description": "Kong/MEXICO-CITY\nAI projects get approved on capability. They get killed on cost.\nNot because the technology doesn't deliver, but because token spend is hard to predict, harder to control, and almost impossible to explain after the fact. One model swap, one prompt change, one team that doubled their request volume last sprint. The bill moves and nobody saw it coming.\nToken cost management isn't about spending less. It's about spending intentionally. Knowing which requests justify a frontier model and which ones don't. Catching runaway consumption before it becomes a budget conversation. Giving teams the feedback they need to make better decisions without slowing them down.\nIn this session, we'll walk through how to build cost intelligence directly into your AI platform, at the layer where every request passes through, so spend becomes a first-class signal, not a monthly surprise.\nWe'll cover:\n\n* **Model selection policies** — routing requests to cost-appropriate models based on task type, request complexity, or team-defined thresholds\n* **Real-time cost signals** — surfacing token spend per request as it happens, not in a report three weeks later\n* **Cost vs. quality tradeoffs** — how to evaluate whether a cheaper model is actually cheaper when you factor in retry rates and output quality\n* **Per-consumer cost visibility** — giving individual teams a live view of their own usage so they can self-correct without a central bottleneck\n\nIf your AI platform is scaling and your cost controls aren't keeping pace, this is where to start.",
       "url": "https://www.meetup.com/kong-mexico-city/events/315576594/",
@@ -10481,7 +10507,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
