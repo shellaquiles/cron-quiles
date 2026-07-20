@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T02:28:32.067059+00:00",
-  "total_events": 16,
+  "generated_at": "2026-07-20T08:41:26.131642+00:00",
+  "total_events": 18,
   "city": "México",
   "communities": [
     {
@@ -11,6 +11,11 @@
     {
       "name": "Python CDMX",
       "description": "Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles.",
+      "links": []
+    },
+    {
+      "name": "Claude Community",
+      "description": "Eventos de la comunidad de Claude AI.",
       "links": []
     },
     {
@@ -517,6 +522,60 @@
       "city_code": "",
       "address": "José María Izazaga 8, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06080 Ciudad de México, CDMX, Mexico",
       "hash_key": "coworking frutal x eth cinco de mayo_2026-07-09T14:00:00+00:00"
+    },
+    {
+      "title": "Claude Community|Mexico City  -  Cafecito Claude · Open Workshop|México|México",
+      "description": "Get up-to-date information at: https://luma.com/cafecitoclaude\n\nAddress:\nBrewers Cafetería Experimental\nCiudad de México, Mexico\n\nHosted by Claude Community, Ricardo Lira de la Vega & Brewers Cafetería Experimental",
+      "url": "https://luma.com/cafecitoclaude",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/cafecitoclaude",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Brewers Cafetería Experimental, Tuxpan 74, Roma Sur, Cuauhtémoc, 06760 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Claude Community",
+      "dtstart": "2026-08-13T18:00:00+00:00",
+      "dtend": "2026-08-13T22:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Brewers Cafetería Experimental, Tuxpan 74, Roma Sur, Cuauhtémoc, 06760 Ciudad de México, CDMX, Mexico",
+      "hash_key": "mexico city cafecito claude open worksho_2026-08-13T18:00:00+00:00"
+    },
+    {
+      "title": "Claude Community|Mexico City  -  Claude for Healthcare|México|México",
+      "description": "Get up-to-date information at: https://luma.com/claudemexicocityhealthcare\n\nAddress:\nNovartis Farmacéutica SA de CV\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega, Angelina Mendoza & Cesar Méndez",
+      "url": "https://luma.com/claudemexicocityhealthcare",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claudemexicocityhealthcare",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Novartis Farmacéutica SA de CV, Av. Insurgentes Sur 2475, Tizapán San Ángel, San Ángel, Álvaro Obregón, 01000 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Claude Community",
+      "dtstart": "2026-08-15T00:00:00+00:00",
+      "dtend": "2026-08-15T03:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Novartis Farmacéutica SA de CV, Av. Insurgentes Sur 2475, Tizapán San Ángel, San Ángel, Álvaro Obregón, 01000 Ciudad de México, CDMX, Mexico",
+      "hash_key": "mexico city claude for healthcare_2026-08-15T00:00:00+00:00"
     }
   ]
 }
