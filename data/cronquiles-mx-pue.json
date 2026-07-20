@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-19T18:52:16.238107+00:00",
-  "total_events": 17,
+  "generated_at": "2026-07-20T02:28:32.075644+00:00",
+  "total_events": 18,
   "city": "Puebla",
   "communities": [
     {
@@ -17,6 +17,17 @@
       "name": "Talavera Valley",
       "description": "Comunidad que está construyendo el ecosistema de startups más ambicioso y robusto de la región de Puebla. Eventos para startups, talento emergente y capital.",
       "links": []
+    },
+    {
+      "name": "Cafe Cursor Puebla",
+      "description": "¡Puebla, prepárate para una tarde de construcción y comunidad! Cafe Cursor llega a la ciudad para transformar una tarde cualquiera en un espacio de creación.",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/8pzsf330",
+          "label": "Luma"
+        }
+      ]
     }
   ],
   "events": [
@@ -481,6 +492,33 @@
       "city_code": "heroicapuebladezaragoza",
       "address": "Av. Venustiano Carranza 205, San Baltazar Campeche, 72550 Heroica Puebla de Zaragoza, Pue., México",
       "hash_key": "python puebla meetup abril_2026-04-16T00:00:00+00:00"
+    },
+    {
+      "title": "Cafe Cursor Puebla|Cafe Cursor Puebla|México|Puebla",
+      "description": "Get up-to-date information at: https://luma.com/8pzsf330\n\nAddress:\nWorkósfera Coworking @ Cerro de La Paz, Puebla\nHeroica Puebla de Zaragoza, Puebla\nMexico\n\nHosted by Kevin Jiménez & 3 others",
+      "url": "https://luma.com/8pzsf330",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/8pzsf330",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Workósfera Coworking @ Cerro de La Paz, Puebla, Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., Mexico",
+      "online": false,
+      "organizer": "Cafe Cursor Puebla",
+      "dtstart": "2026-05-15T00:00:00+00:00",
+      "dtend": "2026-05-15T03:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/8pzsf330",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "cafe cursor puebla_2026-05-15T00:00:00+00:00"
     },
     {
       "title": "PyTalavera|Python Meetup Puebla Junio 2026|México|Puebla",

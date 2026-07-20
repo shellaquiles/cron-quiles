@@ -755,6 +755,40 @@
     "hash_key": "aug 4 visual ai in manufacturing_2026-08-04T16:00:00+00:00"
   },
   {
+    "title": "GDG CDMX|Build with Gemma - GDG CDMX Hackday|México|",
+    "description": "La nueva generación de modelos abiertos ya está aquí. Bienvenida/os al Hackday de Gemma 4 by Google Developer Group CDMX...",
+    "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-build-with-gemma-gdg-cdmx-hackday/",
+    "sources": [
+      {
+        "platform": "website",
+        "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-build-with-gemma-gdg-cdmx-hackday/",
+        "label": "Ver sitio web"
+      }
+    ],
+    "location": "TBD, Avenida Amsterdam 162, CDMX",
+    "online": false,
+    "organizer": "GDG CDMX",
+    "dtstart": "2026-07-31T09:00:00-06:00",
+    "dtend": "2026-07-31T18:00:00-06:00",
+    "tags": [
+      "AI",
+      "AI - Gemma",
+      "AI - Vertex AI",
+      "Build with AI",
+      "Hackathon",
+      "frontend"
+    ],
+    "source": "https://gdg.community.dev/gdg-cdmx/",
+    "country": "México",
+    "country_code": "MX",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "TBD, Avenida Amsterdam 162, CDMX",
+    "hash_key": "build with gemma gdg cdmx hackday_2026-07-31T14:00:00+00:00"
+  },
+  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|July 29 - MCP, Agents and Skills Meetup|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics across MCP, Agents and Skills.\n\n**Date, Time and Location**\n\nJul 29, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/mcp-agents-skills-meetup-july-29-2026)**\n\n**The Agent Control Plane: Turning Coding Agents into Reliable Engineering Workflows**\n\nAI coding agents are powerful but often unreliable — they hallucinate, lose context, and produce inconsistent results across runs. In this talk, Alex introduces Atomic, an open-source control plane that adds persistent memory, deterministic workflow phases (Research → Specify → Implement → Ship), and human-in-the-loop gates around coding agents like Claude Code and GitHub Copilot. The result: repeatable, auditable engineering workflows that teams can actually trust in production.\n\n*About the Speaker*\n\n[Alex Lavaee](https://www.linkedin.com/in/alexlavaee/) is an Applied AI engineer at Microsoft Research and the creator of Atomic, an open-source SDK that wraps deterministic, research-to-execution workflows around AI coding agents. He previously conducted AI research at Harvard Medical School and Boston University, and has worked as an MLE and data scientist at companies including Boeing and Themis AI, an MIT CSAIL spinoff.\n\n**UISurf: Toward Universal UI Automation with Cross-Environment Agents**\n\nIn this talk, we introduce UISurf, an open-source multimodal agentic UI automation platform in which agents can perceive, reason, and collaborate across browser and desktop environments to complete end-to-end tasks that require interaction with multiple user interfaces.\n\nUISurf comprises three main components: uisurf-agent, the runtime for UI automation agents; uisurf-admin, the session orchestration and management service; and uisurf-app, the full-stack user application. Its multi-agent architecture includes a planning_agent that transforms natural-language requests into structured execution plans, specialized Browser and Desktop Agents for environment-specific interaction, an automation_agent that coordinates execution and inter-agent handoff through Agent-to-Agent (A2A) communication, and a summarization_agent that produces the final task summary for the user. UISurf supports both autonomous execution and human-in-the-loop supervision, offering a practical and extensible framework for studying and deploying cross-environment UI automation.\n\n*About the Speaker*\n\n[Dr. Henry Ruiz](https://www.linkedin.com/in/haruiz/) is a Research Scientist at Texas A&M University @ AgriLife Research, specializing in Artificial Intelligence (AI) and Remote Sensing. His work focuses on the development of advanced software systems and computational algorithms for analyzing multi-source remote sensing data, including satellite imagery, UAVs (Unmanned Aerial Vehicles), LiDAR (Light Detection and Ranging), and Ground Penetrating Radar (GPR).\n\n**From Manual Workflows to AI-Assisted Skills: Building Reliable Internal Automation**\n\nIn this session, I will discuss how teams can turn repetitive manual workflows into reliable AI-assisted and automation-driven “skills.” I will share practical lessons from building internal tools for CAD and engineering workflows, including how automation can reduce manual effort, improve consistency, and support better process control. The talk will also cover why many AI/agent experiments fail when they are not connected to real team workflows, standards, and validation steps. Attendees will walk away with a practical framework for identifying repeatable workflows, designing useful internal tools, and adopting AI assistance without losing accuracy or trust.\n\n*About the Speaker*\n\n[Janvi Vijaykumar Saddi](https://voxel51.com/events/www.linkedin.com/in/janvi-saddi) \\- Janvi Saddi is a Computer Science graduate and CAD/Data Automation professional with experience in data center design workflows, AutoCAD automation, process improvement, and data analytics\\. She currently works as a CAD Tech 2 at Astreya, supporting Google data center design workflows by building internal tools that reduce manual effort, improve accuracy, and streamline engineering processes\\. Her background also includes SQL, Power BI, market research analytics, and AI\\-assisted development\\.\n\n**Building Safe Agent Sandboxes: Let Agents Act Without Breaking Production**\n\nAI agents become truly useful when they can take action, not just generate text. But giving agents access to code, data, and systems raises an important question: how do you let them explore, execute, fail, and improve without putting production at risk?\n\nIn this talk, we'll explore the sandbox pattern for agent systems and how to equip agents with tools to read, write, execute, and iterate within controlled environments while using permissions, human approval, and safety guardrails to keep them reliable. We'll cover practical architectures and lessons learned for building agents that can safely evolve from experimentation to production..\n\n*About the Speaker*\n\n[Adonai Vera](https://www.linkedin.com/in/adonai-vera/) \\- Adonai Vera \\- Machine Learning Engineer & DevRel at Voxel51\\. With over 7 years of experience building computer vision and machine learning models using TensorFlow, Docker, and OpenCV\\.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314912798/",
@@ -5781,7 +5815,7 @@
     "dtstart": "2026-05-15T00:00:00+00:00",
     "dtend": "2026-05-15T00:50:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "",
     "country_code": "",
     "state": "",
@@ -5790,6 +5824,33 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-b08xpdnvWOYi4Os",
     "hash_key": "frameiq hacia una banca impulsada por in_2026-05-15T00:00:00+00:00"
+  },
+  {
+    "title": "Cafe Cursor Puebla|Cafe Cursor Puebla|México|Puebla",
+    "description": "Get up-to-date information at: https://luma.com/8pzsf330\n\nAddress:\nWorkósfera Coworking @ Cerro de La Paz, Puebla\nHeroica Puebla de Zaragoza, Puebla\nMexico\n\nHosted by Kevin Jiménez & 3 others",
+    "url": "https://luma.com/8pzsf330",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/8pzsf330",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Workósfera Coworking @ Cerro de La Paz, Puebla, Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., Mexico",
+    "online": false,
+    "organizer": "Cafe Cursor Puebla",
+    "dtstart": "2026-05-15T00:00:00+00:00",
+    "dtend": "2026-05-15T03:00:00+00:00",
+    "tags": [],
+    "source": "https://luma.com/8pzsf330",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Puebla",
+    "state_code": "MX-PUE",
+    "city": "Heroica Puebla de Zaragoza",
+    "city_code": "heroicapuebladezaragoza",
+    "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+    "hash_key": "cafe cursor puebla_2026-05-15T00:00:00+00:00"
   },
   {
     "title": "GDG CDMX|Club de estudio: Fundamentos Matemáticos de la Inteligencia Artificial|Online",
@@ -6507,7 +6568,7 @@
     "tags": [
       "security"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "",
     "country_code": "",
     "state": "",
@@ -7987,7 +8048,7 @@
     "dtstart": "2026-04-24T15:00:00+00:00",
     "dtend": "2026-04-24T21:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9260,7 +9321,7 @@
       "cloud",
       "python"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9375,7 +9436,7 @@
     "dtstart": "2026-03-01T17:00:00+00:00",
     "dtend": "2026-03-01T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9461,7 +9522,7 @@
     "dtstart": "2026-02-27T15:00:00+00:00",
     "dtend": "2026-02-27T17:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9517,7 +9578,7 @@
     "dtstart": "2026-02-26T01:00:00+00:00",
     "dtend": "2026-02-26T04:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9571,7 +9632,7 @@
     "dtstart": "2026-02-26T00:00:00+00:00",
     "dtend": "2026-02-26T03:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9598,7 +9659,7 @@
     "dtstart": "2026-02-25T22:00:00+00:00",
     "dtend": "2026-02-25T23:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9627,7 +9688,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9656,7 +9717,7 @@
     "tags": [
       "mobile"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9710,7 +9771,7 @@
     "dtstart": "2026-02-25T15:00:00+00:00",
     "dtend": "2026-02-25T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9945,7 +10006,7 @@
       "ai",
       "backend"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -9975,7 +10036,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -10004,7 +10065,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -10031,7 +10092,7 @@
     "dtstart": "2026-02-24T14:30:00+00:00",
     "dtend": "2026-02-24T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -10060,7 +10121,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -10087,7 +10148,7 @@
     "dtstart": "2026-02-24T00:00:00+00:00",
     "dtend": "2026-02-24T02:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -10116,7 +10177,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -10146,7 +10207,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -10176,7 +10237,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -10203,7 +10264,7 @@
     "dtstart": "2026-02-23T19:00:00+00:00",
     "dtend": "2026-02-23T20:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -10230,7 +10291,7 @@
     "dtstart": "2026-02-23T18:00:00+00:00",
     "dtend": "2026-02-23T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -10257,7 +10318,7 @@
     "dtstart": "2026-02-23T17:00:00+00:00",
     "dtend": "2026-02-23T18:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -10287,7 +10348,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -10615,6 +10676,33 @@
     "hash_key": "coworking frutal work and chill 2_2026-02-13T16:00:00+00:00"
   },
   {
+    "title": "Cafe Cursor Puebla|Cursor Meetup Puebla|México|México",
+    "description": "Get up-to-date information at: https://luma.com/q9bc3n2f\n\nAddress:\nOfficium coworking\nHeroica Puebla de Zaragoza, Puebla\nMexico\n\nHosted by Kevin Jiménez & Vahagn Chavushyan",
+    "url": "https://luma.com/q9bc3n2f",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/q9bc3n2f",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Officium coworking, Priv. 25 Sur 3921, Reserva Territorial Atlixcáyotl, La Noria, 72410 Heroica Puebla de Zaragoza, Pue., Mexico",
+    "online": false,
+    "organizer": "Cafe Cursor Puebla",
+    "dtstart": "2026-02-13T01:00:00+00:00",
+    "dtend": "2026-02-13T03:00:00+00:00",
+    "tags": [],
+    "source": "https://luma.com/8pzsf330",
+    "country": "México",
+    "country_code": "MX",
+    "state": "México",
+    "state_code": "MX-MEX",
+    "city": "",
+    "city_code": "",
+    "address": "Officium coworking, Priv. 25 Sur 3921, Reserva Territorial Atlixcáyotl, La Noria, 72410 Heroica Puebla de Zaragoza, Pue., Mexico",
+    "hash_key": "cursor meetup puebla_2026-02-13T00:00:00+00:00"
+  },
+  {
     "title": "v0 Prompt to Production Mexico City|How I Use AI – Vol 2|Online",
     "description": "Get up-to-date information at: https://luma.com/lgd37763\n\nHosted by Javier Rivero & 3 others",
     "url": "https://luma.com/lgd37763",
@@ -10724,7 +10812,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11625,7 +11713,7 @@
     "tags": [
       "devops"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
@@ -11792,7 +11880,7 @@
     "dtstart": "2025-11-18T23:00:00+00:00",
     "dtend": "2025-11-19T01:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11828,6 +11916,35 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-Nxe2wxIrRaHFmwm",
     "hash_key": "angel squad x nicole detommaso bootcamp _2025-11-13T18:00:00+00:00"
+  },
+  {
+    "title": "Cafe Cursor Puebla|Cursor Meetup Tlaxcala|México|México",
+    "description": "Get up-to-date information at: https://luma.com/cwuio3cv\n\nAddress:\nPolytechnic University of Tlaxcala\nSi no eres estudiante, contactarme en X: @Jiokso para avisar de tu ingreso a la universidad\nSan Pedro Xalcaltzinco, Tlaxcala\nMexico\n\nHosted by Kevin Jiménez",
+    "url": "https://luma.com/cwuio3cv",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/cwuio3cv",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Polytechnic University of Tlaxcala, A. Universidad Politecnica, No.1, San Pedro Xalcaltzinco, 90180 San Pedro Xalcaltzinco, Tlax., Mexico",
+    "online": false,
+    "organizer": "Cafe Cursor Puebla",
+    "dtstart": "2025-11-12T18:00:00+00:00",
+    "dtend": "2025-11-12T20:00:00+00:00",
+    "tags": [
+      "frontend"
+    ],
+    "source": "https://luma.com/8pzsf330",
+    "country": "México",
+    "country_code": "MX",
+    "state": "México",
+    "state_code": "MX-MEX",
+    "city": "",
+    "city_code": "",
+    "address": "Polytechnic University of Tlaxcala, A. Universidad Politecnica, No.1, San Pedro Xalcaltzinco, 90180 San Pedro Xalcaltzinco, Tlax., Mexico",
+    "hash_key": "cursor meetup tlaxcala_2025-11-12T18:00:00+00:00"
   },
   {
     "title": "Python CDMX|Sysadmin Horror Story - Historias de TECHrror para Sysdmins|México|Ciudad de México",
@@ -12658,7 +12775,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
@@ -12827,7 +12944,7 @@
     "dtstart": "2025-09-29T18:00:00+00:00",
     "dtend": "2025-09-29T19:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -12881,7 +12998,7 @@
     "dtstart": "2025-09-19T22:00:00+00:00",
     "dtend": "2025-09-20T00:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -18072,6 +18189,36 @@
     "hash_key": "m8l event 2_2024-05-01T08:00:00+00:00"
   },
   {
+    "title": "This Week in Fintech|This Week in Fintech: Fintech Happy Hour in Mexico City 🇲🇽|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/e7i2sumw\n\nAddress:\nCheck event page for more details.\n\nHosted by This Week in Fintech",
+    "url": "https://luma.com/e7i2sumw",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/e7i2sumw",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Ciudad de México, Mexico",
+    "online": false,
+    "organizer": "This Week in Fintech",
+    "dtstart": "2024-05-01T00:00:00+00:00",
+    "dtend": "2024-05-01T03:00:00+00:00",
+    "tags": [
+      "ai",
+      "python"
+    ],
+    "source": "https://luma.com/lkn7cfxz",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Ciudad de México, CDMX, México",
+    "hash_key": "this week in fintech fintech happy hour _2024-05-01T00:00:00+00:00"
+  },
+  {
     "title": "Rust-AICollective|ūüß† GenAI Collective ūüß†  Community Town Hall ūüŹõÔłŹ|Online",
     "description": "Get up-to-date information at: https://luma.com/4-24\n\nHosted by The AI Collective & 3 others",
     "url": "https://luma.com/4-24",
@@ -18157,6 +18304,35 @@
     "hash_key": "testing_2024-02-07T00:00:00+00:00"
   },
   {
+    "title": "This Week in Fintech|This Week in Fintech x Taktile x Belvo: Fintech Mixer in Mexico City 🇲🇽|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/cdmx0201\n\nAddress:\nCheck event page for more details.\n\nHosted by This Week in Fintech & Kate Kiewel",
+    "url": "https://luma.com/cdmx0201",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/cdmx0201",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Ciudad de México, Mexico",
+    "online": false,
+    "organizer": "This Week in Fintech",
+    "dtstart": "2024-02-02T00:30:45+00:00",
+    "dtend": "2024-02-02T03:30:45+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://luma.com/lkn7cfxz",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Ciudad de México, CDMX, México",
+    "hash_key": "this week in fintech x taktile x belvo f_2024-02-02T00:00:00+00:00"
+  },
+  {
     "title": "Rust-AICollective|ūüß† GenAI Collective ūüß† Virtual Friendsgiving! ūü¶É|Online",
     "description": "Get up-to-date information at: https://luma.com/11-21\n\nHosted by The AI Collective & 4 others",
     "url": "https://luma.com/11-21",
@@ -18184,6 +18360,37 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-YDkpPkYuPBXIpCH",
     "hash_key": "genai collective virtual friendsgiving_2023-11-21T18:00:00+00:00"
+  },
+  {
+    "title": "This Week in Fintech|TWIF x Clara x Clouxter Fintech Happy Hour - Mexico Tech Week|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/cdmx1026\n\nAddress:\nCheck event page for more details.\n\nHosted by This Week in Fintech & 3 others",
+    "url": "https://luma.com/cdmx1026",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/cdmx1026",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Ciudad de México, Mexico",
+    "online": false,
+    "organizer": "This Week in Fintech",
+    "dtstart": "2023-10-27T00:30:00+00:00",
+    "dtend": "2023-10-27T03:30:00+00:00",
+    "tags": [
+      "ai",
+      "frontend",
+      "python"
+    ],
+    "source": "https://luma.com/lkn7cfxz",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Ciudad de México, CDMX, México",
+    "hash_key": "twif x clara x clouxter fintech happy ho_2023-10-27T00:00:00+00:00"
   },
   {
     "title": "Rust-AICollective|ūüß† GenAI Collective x OctoML ūüźô Builder's Roundtable: Domain Aware LLMs|Online",
@@ -18214,6 +18421,37 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-aDp3qqDCBoYt9mn",
     "hash_key": "genai collective x octoml builder s roun_2023-10-26T18:00:00+00:00"
+  },
+  {
+    "title": "This Week in Fintech|CDMX Fintech Happy Hour, presented by Ensemblex & AWS|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/cdmxtrek\n\nAddress:\nCheck event page for more details.\n\nHosted by This Week in Fintech",
+    "url": "https://luma.com/cdmxtrek",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/cdmxtrek",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Ciudad de México, Mexico",
+    "online": false,
+    "organizer": "This Week in Fintech",
+    "dtstart": "2023-10-20T01:00:00+00:00",
+    "dtend": "2023-10-20T04:00:00+00:00",
+    "tags": [
+      "ai",
+      "cloud",
+      "python"
+    ],
+    "source": "https://luma.com/lkn7cfxz",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Ciudad de México, CDMX, México",
+    "hash_key": "cdmx fintech happy hour presented by ens_2023-10-20T00:00:00+00:00"
   },
   {
     "title": "Rust-AICollective|TedAI Hackathon|Online",
@@ -18324,6 +18562,35 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-Q6y8rwqE52I1uFP",
     "hash_key": "automate your lead gen and earn more rev_2023-09-27T16:00:00+00:00"
+  },
+  {
+    "title": "This Week in Fintech|This Week in Fintech x BGBG: Fintech Kickoff Mixer in Mexico City 🇲🇽|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/cdmx925\n\nAddress:\nCheck event page for more details.\n\nHosted by This Week in Fintech",
+    "url": "https://luma.com/cdmx925",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/cdmx925",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Ciudad de México, Mexico",
+    "online": false,
+    "organizer": "This Week in Fintech",
+    "dtstart": "2023-09-26T00:30:00+00:00",
+    "dtend": "2023-09-26T03:30:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://luma.com/lkn7cfxz",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Ciudad de México, CDMX, México",
+    "hash_key": "this week in fintech x bgbg fintech kick_2023-09-26T00:00:00+00:00"
   },
   {
     "title": "Rust-AICollective|LLM x Law Hackathon #2 @Stanford|Online",
@@ -18885,7 +19152,7 @@
     "dtstart": null,
     "dtend": null,
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",

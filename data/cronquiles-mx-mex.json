@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-19T18:52:16.231716+00:00",
-  "total_events": 14,
+  "generated_at": "2026-07-20T02:28:32.067059+00:00",
+  "total_events": 16,
   "city": "México",
   "communities": [
     {
@@ -17,6 +17,17 @@
       "name": "Frutero Club",
       "description": "Comunidad y plataforma enfocada en formar, conectar y activar talento tecnológico en América Latina. Eventos de builders, Web3 y desarrollo.",
       "links": []
+    },
+    {
+      "name": "Cafe Cursor Puebla",
+      "description": "¡Puebla, prepárate para una tarde de construcción y comunidad! Cafe Cursor llega a la ciudad para transformar una tarde cualquiera en un espacio de creación.",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/8pzsf330",
+          "label": "Luma"
+        }
+      ]
     },
     {
       "name": "Avalanche Institutional Hackathon Info Session UNAM",
@@ -123,6 +134,62 @@
       "city_code": "",
       "address": "University City, Mexico City, CDMX, Mexico",
       "hash_key": "road to devconnect unam_2025-10-16T18:00:00+00:00"
+    },
+    {
+      "title": "Cafe Cursor Puebla|Cursor Meetup Tlaxcala|México|México",
+      "description": "Get up-to-date information at: https://luma.com/cwuio3cv\n\nAddress:\nPolytechnic University of Tlaxcala\nSi no eres estudiante, contactarme en X: @Jiokso para avisar de tu ingreso a la universidad\nSan Pedro Xalcaltzinco, Tlaxcala\nMexico\n\nHosted by Kevin Jiménez",
+      "url": "https://luma.com/cwuio3cv",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/cwuio3cv",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Polytechnic University of Tlaxcala, A. Universidad Politecnica, No.1, San Pedro Xalcaltzinco, 90180 San Pedro Xalcaltzinco, Tlax., Mexico",
+      "online": false,
+      "organizer": "Cafe Cursor Puebla",
+      "dtstart": "2025-11-12T18:00:00+00:00",
+      "dtend": "2025-11-12T20:00:00+00:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://luma.com/8pzsf330",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Polytechnic University of Tlaxcala, A. Universidad Politecnica, No.1, San Pedro Xalcaltzinco, 90180 San Pedro Xalcaltzinco, Tlax., Mexico",
+      "hash_key": "cursor meetup tlaxcala_2025-11-12T18:00:00+00:00"
+    },
+    {
+      "title": "Cafe Cursor Puebla|Cursor Meetup Puebla|México|México",
+      "description": "Get up-to-date information at: https://luma.com/q9bc3n2f\n\nAddress:\nOfficium coworking\nHeroica Puebla de Zaragoza, Puebla\nMexico\n\nHosted by Kevin Jiménez & Vahagn Chavushyan",
+      "url": "https://luma.com/q9bc3n2f",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/q9bc3n2f",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Officium coworking, Priv. 25 Sur 3921, Reserva Territorial Atlixcáyotl, La Noria, 72410 Heroica Puebla de Zaragoza, Pue., Mexico",
+      "online": false,
+      "organizer": "Cafe Cursor Puebla",
+      "dtstart": "2026-02-13T01:00:00+00:00",
+      "dtend": "2026-02-13T03:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/8pzsf330",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Officium coworking, Priv. 25 Sur 3921, Reserva Territorial Atlixcáyotl, La Noria, 72410 Heroica Puebla de Zaragoza, Pue., Mexico",
+      "hash_key": "cursor meetup puebla_2026-02-13T00:00:00+00:00"
     },
     {
       "title": "Avalanche Institutional Hackathon Info Session UNAM|Bootcamp Economía y Blockchain 101- UNAM <> Stellar|México|México",
