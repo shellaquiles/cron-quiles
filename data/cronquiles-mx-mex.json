@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T01:47:09.153911+00:00",
-  "total_events": 18,
+  "generated_at": "2026-07-21T08:08:29.290142+00:00",
+  "total_events": 19,
   "city": "México",
   "communities": [
     {
@@ -576,6 +576,33 @@
       "city_code": "",
       "address": "Novartis Farmacéutica SA de CV, Av. Insurgentes Sur 2475, Tizapán San Ángel, San Ángel, Álvaro Obregón, 01000 Ciudad de México, CDMX, Mexico",
       "hash_key": "mexico city claude for healthcare_2026-08-15T00:00:00+00:00"
+    },
+    {
+      "title": "Claude Community|Mexico City  -  Claude for Finance|México|México",
+      "description": "Get up-to-date information at: https://luma.com/claudemexicocityfinance\n\nAddress:\nBanco Santander\nCiudad de México, Mexico\n\nHosted by Claude Community & 3 others",
+      "url": "https://luma.com/claudemexicocityfinance",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claudemexicocityfinance",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Banco Santander, Prol. P.º de la Reforma 500, Santa Fe, Zedec Sta Fé, Álvaro Obregón, 01219 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Claude Community",
+      "dtstart": "2026-08-26T23:30:00+00:00",
+      "dtend": "2026-08-27T02:30:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Banco Santander, Prol. P.º de la Reforma 500, Santa Fe, Zedec Sta Fé, Álvaro Obregón, 01219 Ciudad de México, CDMX, Mexico",
+      "hash_key": "mexico city claude for finance_2026-08-26T22:00:00+00:00"
     }
   ]
 }
