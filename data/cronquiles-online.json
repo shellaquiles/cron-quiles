@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T13:18:00.719571+00:00",
-  "total_events": 358,
+  "generated_at": "2026-07-21T19:04:38.873000+00:00",
+  "total_events": 361,
   "city": "Online",
   "communities": [
     {
@@ -9824,6 +9824,36 @@
       "hash_key": "july 22 best of icra_2026-07-22T16:00:00+00:00"
     },
     {
+      "title": "Kong Mexico City|Token Cost Management: Bringing Spend Under Control|Online",
+      "description": "Kong/MEXICO-CITY\nAI projects get approved on capability. They get killed on cost.\nNot because the technology doesn't deliver, but because token spend is hard to predict, harder to control, and almost impossible to explain after the fact. One model swap, one prompt change, one team that doubled their request volume last sprint. The bill moves and nobody saw it coming.\nToken cost management isn't about spending less. It's about spending intentionally. Knowing which requests justify a frontier model and which ones don't. Catching runaway consumption before it becomes a budget conversation. Giving teams the feedback they need to make better decisions without slowing them down.\nIn this session, we'll walk through how to build cost intelligence directly into your AI platform, at the layer where every request passes through, so spend becomes a first-class signal, not a monthly surprise.\nWe'll cover:\n\n* **Model selection policies** — routing requests to cost-appropriate models based on task type, request complexity, or team-defined thresholds\n* **Real-time cost signals** — surfacing token spend per request as it happens, not in a report three weeks later\n* **Cost vs. quality tradeoffs** — how to evaluate whether a cheaper model is actually cheaper when you factor in retry rates and output quality\n* **Per-consumer cost visibility** — giving individual teams a live view of their own usage so they can self-correct without a central bottleneck\n\nIf your AI platform is scaling and your cost controls aren't keeping pace, this is where to start.",
+      "url": "https://www.meetup.com/kong-mexico-city/events/315576594/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/kong-mexico-city/events/315576594/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Online event,",
+      "online": true,
+      "organizer": "Kong Mexico City",
+      "dtstart": "2026-07-23T09:00:00-06:00",
+      "dtend": "2026-07-23T10:00:00-06:00",
+      "tags": [
+        "ai",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/kong-mexico-city/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "token cost management bringing spend und_2026-07-23T14:00:00+00:00"
+    },
+    {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|July 23 - AI, ML, and Computer Vision Meetup|Online",
       "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.\n\n**Date, Time and Location**\n\nJul 23, 2026\n9:00 AM - 11:00 AM PST\n**[Online. Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-july-23-2026)**\n\n**Generative AI for Video Trailer Synthesis: From Extractive Heuristics to Autoregressive Creativity**\n\nThe domain of automatic video trailer generation is currently undergoing a profound paradigm shift, transitioning from heuristicbased extraction methods to deep generative synthesis. While early methodologies relied heavily on low-level feature engineering, visual saliency, and rule-based heuristics to select representative shots, recent advancements in Large Language Models (LLMs), Multimodal Large Language Models (MLLMs), and diffusion-based video synthesis have enabled systems that not only identify key moments but also construct coherent, emotionally resonant narratives.\n\nThis survey provides a comprehensive technical review of this evolution, with a specific focus on generative techniques including autoregressive Transformers, LLM-orchestrated pipelines, and text-to-video foundation models like OpenAI's Sora and Google's Veo. We analyze the architectural progression from Graph Convolutional Networks (GCNs) to Trailer Generation Transformers (TGT), evaluate the economic implications of automated content velocity on User-Generated Content (UGC) platforms, and discuss the ethical challenges posed by high-fidelity neural synthesis.\n\nBy synthesizing insights from recent literature, this report establishes a new taxonomy for AI-driven trailer generation in the era of foundation models, suggesting that future promotional video systems will move beyond extractive selection toward controllable generative editing and semantic reconstruction of trailers.\n\n*About the Speaker*\n\n[Abhishek Dharmaratnakar](https://www.linkedin.com/in/abhid95/?isSelfProfile=false) is an Engineering Leader at Google leading YouTube Premium. His work focuses on the intersection of hyperscale media infrastructure and generative artificial intelligence, directing cross-functional engineering organizations to redefine how billions of users consume and create content\n\n**Making Agent Systems Observable, Reliable, and Testable**\n\nIn this talk, I’ll share practical lessons from building real agent systems in computer vision workflows, focusing on how to design evaluation loops, observability pipelines, and sandboxed environments that make agents reliable in practice. We’ll explore how to measure behavior end-to-end, test components independently, and build feedback loops that help agents improve over time, even as tools, models, and pipelines evolve. This talk is for engineers and builders who want to move beyond demos and learn how to make agent systems production-ready.\n\n*About the Speaker*\n\n[Adonai Vera](https://www.linkedin.com/in/adonai-vera/) \\- Machine Learning Engineer & DevRel at Voxel51\\. With over 7 years of experience building computer vision and machine learning models using TensorFlow, Docker, and OpenCV\\.\n\n**Training-Free Object and Associated Effect Removal in Videos**\n\nI will be presenting our recent work, Object-WIPER, which focuses on removing objects and their associated effects from videos. Instead of fine-tuning models for each editing task, our method reuses the priors of pre-trained text-to-video models to perform object and effect removal in a training-free manner. We also curate a real world associated-effect benchmark and evaluation metric for more realistic assessment of video object removal.\n\n*About the Speaker*\n\n[Saksham Singh Kushwaha](https://www.linkedin.com/in/saksham-singh-kushwaha/) is a candidate at UT Dallas, with research interests in audio-visual learning, spatial audio, and computer vision. I received my master’s degree from NYU and bachelor’s degree from IIT Delhi.\n\n**Turning Models into Systems: AI Architecture That Works**\n\nThis talk explores what it really takes to make \"intelligent systems\" work in the messy, high-stakes reality of production environments – not just in demos or pilots. Most AI initiatives do not fail because the algorithms are weak, but because the surrounding system is not designed to handle uncertainty, change, and operational demands.\n\nThe session shows how to separate the concerns of building and improving models from their use in daily operations, and how to create a stable core of rules, safety, and business meaning around which smarter components can evolve.\n\nInstead of treating AI as a magic add-on, the talk frames it as a capability that must be grounded in the organization's language, workflows, and responsibilities. It demonstrates how to design that core so that new models, tools, and data sources can be plugged in, compared, and replaced without breaking trust.\n\nAttendees will leave with a clear mental model and a set of practical design ideas for turning clever prototypes into robust, understandable, and adaptable intelligent systems that people on the ground are willing to rely on.\n\n*About the Speaker*\n\n[Dr. Nikita Golovko](https://www.linkedin.com/in/dr-nikita-golovko/) is a seasoned Solution Architect with over 16 years of experience in designing scalable, secure, and cost-effective software architectures for industrial and business-critical systems.",
       "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314662548/",
@@ -10279,6 +10309,39 @@
       "hash_key": "new york claude impact lab_2026-08-07T20:00:00+00:00"
     },
     {
+      "title": "GDG Heroica Veracruz|Café y código.|México|",
+      "description": "Únete a nosotros para una reunión casual en una cafetería local para hablar de temas de inteligencia artificial.Es una e...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-heroica-veracruz-presents-cafe-y-codigo/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-heroica-veracruz-presents-cafe-y-codigo/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Veracruz, Paseo Jose Martí, Veracruz",
+      "online": false,
+      "organizer": "GDG Heroica Veracruz",
+      "dtstart": "2026-08-08T17:30:00-06:00",
+      "dtend": "2026-08-08T20:00:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Networking",
+        "Web"
+      ],
+      "source": "https://gdg.community.dev/gdg-heroica-veracruz/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Veracruz, Paseo Jose Martí, Veracruz",
+      "hash_key": "caf y cdigo_2026-08-08T22:00:00+00:00"
+    },
+    {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Aug 11 - Debugging Physical AI Models at Scale with Multimodal Data Workshop|Online",
       "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin Voxel51 for a live workshop on how multimodal data workflows in FiftyOne help teams inspect, search, and debug complex Physical AI datasets and explain black-box model behavior at scale. We’ll show how teams can work with synchronized video and sensor data, query for similar scenarios across their datasets, and uncover patterns behind model failures faster than playback-only visualization tools allow.\n\n**Date, Time and Location**\n\nAug 11, 2026\n9:00 AM - 10:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/debugging-physical-ai-models-at-scale-with-multimodal-data-august-11-2026)**\n\nAs robotics and autonomous vehicle teams move from traditional perception models to end-to-end Physical AI systems, understanding model behavior is becoming harder than ever. These models ingest synchronized inputs from cameras, sensors, and other data streams, but their decisions can be difficult to explain, reproduce, and improve.\n\nYou’ll learn how to use multimodal data to investigate questions like: when did the model swerve, miss an object, misinterpret a scene, or behave unexpectedly — and how can you find every similar moment across your dataset?\n\nDesigned for robotics, AV, and machine learning teams, this session will show how FiftyOne helps turn multimodal data into a scalable workflow for model evaluation, debugging, and improvement.",
       "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/315683226/",
@@ -10371,6 +10434,37 @@
       "city_code": "",
       "address": "",
       "hash_key": "aug 20 cold pool to hot queue annotation_2026-08-20T16:00:00+00:00"
+    },
+    {
+      "title": "México City AI, Machine Learning and Computer Vision Meetup|Aug 25 - Advances in AI at NYU|Online",
+      "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from researchers at NYU on cutting-edge topics across AI, ML, and computer vision.\n\n**Date, Time and Location**\n\nAug 25, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/advances-in-ai-at-nyu-august-25-2026)**\n\n**Using Computer Vision to Advance the Sciences**\n\nI'll present some of our ongoing work on using computer vision to create impact in the sciences. These target a two areas, solar physics and evolutionary biology, that deal with objects of radically different sizes but are unified by a need for high quality, trustworthy data.\n\nI'll show off our efforts, done in collaboration with domain experts, that aim to produce the best possible maps of the Sun's powerful magnetic field and have created some of the world's largest repositories of data about bird morphology.\n\n*About the Speaker*\n\n[David Fouhey](https://www.linkedin.com/in/david-fouhey-642120379/) is an Associate Professor at New York University and a research scientist at Polymathic AI. Before joining NYU, he received a PhD in robotics from Carnegie Mellon, was a postdoc at UC Berkeley, and was a professor at University of Michigan.\n\n**Solaris: Building a Multiplayer Video World Model in Minecraft**\n\nThis talk will introduce Solaris: a multiplayer video world model in Minecraft. I will first present SolarisEngine, the software platform we built to simulate realistic multiplayer gameplay between bots at scale, enabling us to collect a large training dataset of aligned multiplayer actions and frames.\n\nI will then discuss our staged training pipeline, starting with single-player pre-training before converting the model into a long-horizon multiplayer generator through bidirectional training, followed by causal training, and concluding with Self Forcing. I will also cover our memory-efficient implementation of Self Forcing, called Checkpointed Self Forcing.\n\nFinally, I will showcase generated videos illustrating how Solaris maintains coherent long-horizon multiplayer interactions.\n\n*About the Speaker*\n\n[Oscar Michel ](https://www.linkedin.com/in/oscar-michel-82a162145/)is a PhD student at NYU advised by Prof. Saining Xie. His research studies world models: generative models of agents interacting in an environment.\n\n**Closing the human to robot gap for dexterous hands**\n\nCollecting task-specific robot data for multi-fingered hands is challenging due to the many difficulties that arise in teleoperation. That is why recently there has been a major focus on learning robot policies directly from human demonstrations. However, human demonstrations are difficult to work with; there is a major morphological and visual gap between human and robot hands, as well as between the environments they operate in.\n\nIn this talk, I'd like to discuss my efforts on closing this gap.\n\n*About the Speaker*\n\n[Irmak Guzey](https://www.linkedin.com/in/irmak-guzey-6a9010175) I'm Irmak (she/her), a rising 3rd year PhD student at New York University, currently advised by Lerrel Pinto. My research focuses on robot learning for dexterous manipulation. I have been awarded a Fulbright scholarship and NYU's Best Master's Thesis Award in the past.",
+      "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/315684996/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/315684996/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Online event,",
+      "online": true,
+      "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
+      "dtstart": "2026-08-25T10:00:00-06:00",
+      "dtend": "2026-08-25T12:00:00-06:00",
+      "tags": [
+        "ai",
+        "data",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "aug 25 advances in ai at nyu_2026-08-25T16:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|Parenting with AI (w/ The AI Collective Kansas City)|Online",

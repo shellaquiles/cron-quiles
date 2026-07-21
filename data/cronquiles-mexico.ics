@@ -10482,6 +10482,35 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
 LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Kong Mexico City|Token Cost Management: Bringing Spend Under Contr
+ ol|Online
+DTSTART:20260723T090000
+CATEGORIES:ai,frontend
+DESCRIPTION:Kong/MEXICO-CITY\nAI projects get approved on capability. They
+  get killed on cost.\nNot because the technology doesn't deliver\, but bec
+ ause token spend is hard to predict\, harder to control\, and almost impos
+ sible to explain after the fact. One model swap\, one prompt change\, one 
+ team that doubled their request volume last sprint. The bill moves and nob
+ ody saw it coming.\nToken cost management isn't about spending less. It's 
+ about spending intentionally. Knowing which requests justify a frontier mo
+ del and which ones don't. Catching runaway consumption before it becomes a
+  budget conversation. Giving teams the feedback they need to make better d
+ ecisions without slowing them down.\nIn this session\, we'll walk through 
+ how to build cost intelligence directly into your AI platform\, at the lay
+ er where every request passes through\, so spend becomes a first-class sig
+ nal\, not a monthly surprise.\nWe'll cover:\n\n* **Model selection policie
+ s** — routing requests to cost-appropriate models based on task type\, r
+ equest complexity\, or team-defined thresholds\n* **Real-time cost signals
+ ** — surfacing token spend per request as it happens\, not in a report t
+ hree weeks later\n* **Cost vs. quality tradeoffs** — how to evaluate whe
+ ther a cheaper model is actually cheaper when you factor in retry rates an
+ d output quality\n* **Per-consumer cost visibility** — giving individual
+  teams a live view of their own usage so they can self-correct without a c
+ entral bottleneck\n\nIf your AI platform is scaling and your cost controls
+  aren't keeping pace\, this is where to start.
+LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|July
   23 - AI\, ML\, and Computer Vision Meetup|Online
 DTSTART:20260723T100000
@@ -10889,6 +10918,32 @@ LOCATION:https://luma.com/event/evt-GgPSy6ZZuRjwiJy
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-GgPSy6ZZuRjwiJy
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:GDG Heroica Veracruz|Café y código.|México|
+DTSTART:20260808T173000
+CATEGORIES:AI,AI - Gemini,Build with AI,Networking,Web
+DESCRIPTION:Únete a nosotros para una reunión casual en una cafetería l
+ ocal para hablar de temas de inteligencia artificial.Es una e...
+LOCATION:Veracruz\, Paseo Jose Martí\, Veracruz
+X-CRONQUILES-ADDRESS:Veracruz\, Paseo Jose Martí\, Veracruz
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python CDMX|Meetup Agosto 2026  -  PythonCDMX|México|México
+DTSTART:20260811T000000Z
+CATEGORIES:ai,python
+DESCRIPTION:Get up-to-date information at: https://luma.com/q2qklcb8\n\nAd
+ dress:\nCreai\nCiudad de México\, Mexico\n\nHosted by PythonCDMX
+LOCATION:Creai\, Valladolid 50\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad de
+  México\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Creai\, Valladolid 50\, Roma Nte.\, Cuauhtémoc\, 067
+ 00 Ciudad de México\, CDMX\, Mexico
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:México
+X-CRONQUILES-STATE-CODE:MX-MEX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Aug 
  11 - Debugging Physical AI Models at Scale with Multimodal Data Workshop|O
  nline
@@ -11050,6 +11105,59 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  mages\n* The mental model that data curation — not architecture or hyper
  parameters — is the highest-leverage thing you can do to improve a rare-
  class detector
+LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Aug 
+ 25 - Advances in AI at NYU|Online
+DTSTART:20260825T100000
+CATEGORIES:ai,data,frontend
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nJoin our virtual meetup to hear talks from researchers at NYU on cutting-
+ edge topics across AI\, ML\, and computer vision.\n\n**Date\, Time and Loc
+ ation**\n\nAug 25\, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for 
+ the Zoom!](https://voxel51.com/events/advances-in-ai-at-nyu-august-25-2026
+ )**\n\n**Using Computer Vision to Advance the Sciences**\n\nI'll present s
+ ome of our ongoing work on using computer vision to create impact in the s
+ ciences. These target a two areas\, solar physics and evolutionary biology
+ \, that deal with objects of radically different sizes but are unified by 
+ a need for high quality\, trustworthy data.\n\nI'll show off our efforts\,
+  done in collaboration with domain experts\, that aim to produce the best 
+ possible maps of the Sun's powerful magnetic field and have created some o
+ f the world's largest repositories of data about bird morphology.\n\n*Abou
+ t the Speaker*\n\n[David Fouhey](https://www.linkedin.com/in/david-fouhey-
+ 642120379/) is an Associate Professor at New York University and a researc
+ h scientist at Polymathic AI. Before joining NYU\, he received a PhD in ro
+ botics from Carnegie Mellon\, was a postdoc at UC Berkeley\, and was a pro
+ fessor at University of Michigan.\n\n**Solaris: Building a Multiplayer Vid
+ eo World Model in Minecraft**\n\nThis talk will introduce Solaris: a multi
+ player video world model in Minecraft. I will first present SolarisEngine\
+ , the software platform we built to simulate realistic multiplayer gamepla
+ y between bots at scale\, enabling us to collect a large training dataset 
+ of aligned multiplayer actions and frames.\n\nI will then discuss our stag
+ ed training pipeline\, starting with single-player pre-training before con
+ verting the model into a long-horizon multiplayer generator through bidire
+ ctional training\, followed by causal training\, and concluding with Self 
+ Forcing. I will also cover our memory-efficient implementation of Self For
+ cing\, called Checkpointed Self Forcing.\n\nFinally\, I will showcase gene
+ rated videos illustrating how Solaris maintains coherent long-horizon mult
+ iplayer interactions.\n\n*About the Speaker*\n\n[Oscar Michel ](https://ww
+ w.linkedin.com/in/oscar-michel-82a162145/)is a PhD student at NYU advised 
+ by Prof. Saining Xie. His research studies world models: generative models
+  of agents interacting in an environment.\n\n**Closing the human to robot 
+ gap for dexterous hands**\n\nCollecting task-specific robot data for multi
+ -fingered hands is challenging due to the many difficulties that arise in 
+ teleoperation. That is why recently there has been a major focus on learni
+ ng robot policies directly from human demonstrations. However\, human demo
+ nstrations are difficult to work with\; there is a major morphological and
+  visual gap between human and robot hands\, as well as between the environ
+ ments they operate in.\n\nIn this talk\, I'd like to discuss my efforts on
+  closing this gap.\n\n*About the Speaker*\n\n[Irmak Guzey](https://www.lin
+ kedin.com/in/irmak-guzey-6a9010175) I'm Irmak (she/her)\, a rising 3rd yea
+ r PhD student at New York University\, currently advised by Lerrel Pinto. 
+ My research focuses on robot learning for dexterous manipulation. I have b
+ een awarded a Fulbright scholarship and NYU's Best Master's Thesis Award i
+ n the past.
 LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT

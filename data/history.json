@@ -448,6 +448,37 @@
     "hash_key": "parenting with ai w the ai collective ka_2026-08-26T00:00:00+00:00"
   },
   {
+    "title": "México City AI, Machine Learning and Computer Vision Meetup|Aug 25 - Advances in AI at NYU|Online",
+    "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from researchers at NYU on cutting-edge topics across AI, ML, and computer vision.\n\n**Date, Time and Location**\n\nAug 25, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/advances-in-ai-at-nyu-august-25-2026)**\n\n**Using Computer Vision to Advance the Sciences**\n\nI'll present some of our ongoing work on using computer vision to create impact in the sciences. These target a two areas, solar physics and evolutionary biology, that deal with objects of radically different sizes but are unified by a need for high quality, trustworthy data.\n\nI'll show off our efforts, done in collaboration with domain experts, that aim to produce the best possible maps of the Sun's powerful magnetic field and have created some of the world's largest repositories of data about bird morphology.\n\n*About the Speaker*\n\n[David Fouhey](https://www.linkedin.com/in/david-fouhey-642120379/) is an Associate Professor at New York University and a research scientist at Polymathic AI. Before joining NYU, he received a PhD in robotics from Carnegie Mellon, was a postdoc at UC Berkeley, and was a professor at University of Michigan.\n\n**Solaris: Building a Multiplayer Video World Model in Minecraft**\n\nThis talk will introduce Solaris: a multiplayer video world model in Minecraft. I will first present SolarisEngine, the software platform we built to simulate realistic multiplayer gameplay between bots at scale, enabling us to collect a large training dataset of aligned multiplayer actions and frames.\n\nI will then discuss our staged training pipeline, starting with single-player pre-training before converting the model into a long-horizon multiplayer generator through bidirectional training, followed by causal training, and concluding with Self Forcing. I will also cover our memory-efficient implementation of Self Forcing, called Checkpointed Self Forcing.\n\nFinally, I will showcase generated videos illustrating how Solaris maintains coherent long-horizon multiplayer interactions.\n\n*About the Speaker*\n\n[Oscar Michel ](https://www.linkedin.com/in/oscar-michel-82a162145/)is a PhD student at NYU advised by Prof. Saining Xie. His research studies world models: generative models of agents interacting in an environment.\n\n**Closing the human to robot gap for dexterous hands**\n\nCollecting task-specific robot data for multi-fingered hands is challenging due to the many difficulties that arise in teleoperation. That is why recently there has been a major focus on learning robot policies directly from human demonstrations. However, human demonstrations are difficult to work with; there is a major morphological and visual gap between human and robot hands, as well as between the environments they operate in.\n\nIn this talk, I'd like to discuss my efforts on closing this gap.\n\n*About the Speaker*\n\n[Irmak Guzey](https://www.linkedin.com/in/irmak-guzey-6a9010175) I'm Irmak (she/her), a rising 3rd year PhD student at New York University, currently advised by Lerrel Pinto. My research focuses on robot learning for dexterous manipulation. I have been awarded a Fulbright scholarship and NYU's Best Master's Thesis Award in the past.",
+    "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/315684996/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/315684996/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online event,",
+    "online": true,
+    "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
+    "dtstart": "2026-08-25T10:00:00-06:00",
+    "dtend": "2026-08-25T12:00:00-06:00",
+    "tags": [
+      "ai",
+      "data",
+      "frontend"
+    ],
+    "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "aug 25 advances in ai at nyu_2026-08-25T16:00:00+00:00"
+  },
+  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|Aug 20 - Cold Pool to Hot Queue: Annotation Curation with FiftyOne|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nIn this hands-on workshop, you'll use [FiftyOne ](https://docs.voxel51.com/)to run the full rare-class mining loop end-to-end on a large unlabeled image pool: compress the pool with near-duplicate detection, embed images with a modern vision backbone, mine candidate positives via seeded similarity from a tiny labeled set, confirm them through targeted human review, and prioritize the survivors for annotation using representativeness and uniqueness scores.\n\n**Time, Date and Location**\n\nAug 20, 2026\n9:00 AM - 11:00 AM PST, 2026\nOnline. **[Register for the Zoom!](https://voxel51.com/events/from-cold-pool-to-hot-queue-annotation-curation-with-fiftyone-august-20-2026)**\n\n**What You'll Walk Away With**\n\n* A working FiftyOne pipeline for finding rare classes in any visual dataset you own\n* A repeatable four-stage funnel — compress, mine, confirm, prioritize — with a clear objective at each stage\n* A fine-tuned detector that demonstrably outperforms one trained on the same number of randomly sampled images\n* The mental model that data curation — not architecture or hyperparameters — is the highest-leverage thing you can do to improve a rare-class detector",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314739409/",
@@ -653,6 +684,69 @@
     "city_code": "",
     "address": "",
     "hash_key": "aug 11 debugging physical ai models at s_2026-08-11T16:00:00+00:00"
+  },
+  {
+    "title": "Python CDMX|Meetup Agosto 2026  -  PythonCDMX|México|México",
+    "description": "Get up-to-date information at: https://luma.com/q2qklcb8\n\nAddress:\nCreai\nCiudad de México, Mexico\n\nHosted by PythonCDMX",
+    "url": "https://luma.com/q2qklcb8",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/q2qklcb8",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Creai, Valladolid 50, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+    "online": false,
+    "organizer": "Python CDMX",
+    "dtstart": "2026-08-11T00:00:00+00:00",
+    "dtend": "2026-08-11T03:00:00+00:00",
+    "tags": [
+      "ai",
+      "python"
+    ],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-f8GxWvNMvBvvuLb",
+    "country": "México",
+    "country_code": "MX",
+    "state": "México",
+    "state_code": "MX-MEX",
+    "city": "",
+    "city_code": "",
+    "address": "Creai, Valladolid 50, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+    "hash_key": "meetup agosto 2026 pythoncdmx_2026-08-11T00:00:00+00:00"
+  },
+  {
+    "title": "GDG Heroica Veracruz|Café y código.|México|",
+    "description": "Únete a nosotros para una reunión casual en una cafetería local para hablar de temas de inteligencia artificial.Es una e...",
+    "url": "https://gdg.community.dev/events/details/google-gdg-heroica-veracruz-presents-cafe-y-codigo/",
+    "sources": [
+      {
+        "platform": "website",
+        "url": "https://gdg.community.dev/events/details/google-gdg-heroica-veracruz-presents-cafe-y-codigo/",
+        "label": "Ver sitio web"
+      }
+    ],
+    "location": "Veracruz, Paseo Jose Martí, Veracruz",
+    "online": false,
+    "organizer": "GDG Heroica Veracruz",
+    "dtstart": "2026-08-08T17:30:00-06:00",
+    "dtend": "2026-08-08T20:00:00-06:00",
+    "tags": [
+      "AI",
+      "AI - Gemini",
+      "Build with AI",
+      "Networking",
+      "Web"
+    ],
+    "source": "https://gdg.community.dev/gdg-heroica-veracruz/",
+    "country": "México",
+    "country_code": "MX",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "Veracruz, Paseo Jose Martí, Veracruz",
+    "hash_key": "caf y cdigo_2026-08-08T22:00:00+00:00"
   },
   {
     "title": "Claude Community|New York  -  Claude Impact Lab|Online",
@@ -1108,6 +1202,36 @@
     "city_code": "",
     "address": "",
     "hash_key": "july 23 ai ml and computer vision meetup_2026-07-23T16:00:00+00:00"
+  },
+  {
+    "title": "Kong Mexico City|Token Cost Management: Bringing Spend Under Control|Online",
+    "description": "Kong/MEXICO-CITY\nAI projects get approved on capability. They get killed on cost.\nNot because the technology doesn't deliver, but because token spend is hard to predict, harder to control, and almost impossible to explain after the fact. One model swap, one prompt change, one team that doubled their request volume last sprint. The bill moves and nobody saw it coming.\nToken cost management isn't about spending less. It's about spending intentionally. Knowing which requests justify a frontier model and which ones don't. Catching runaway consumption before it becomes a budget conversation. Giving teams the feedback they need to make better decisions without slowing them down.\nIn this session, we'll walk through how to build cost intelligence directly into your AI platform, at the layer where every request passes through, so spend becomes a first-class signal, not a monthly surprise.\nWe'll cover:\n\n* **Model selection policies** — routing requests to cost-appropriate models based on task type, request complexity, or team-defined thresholds\n* **Real-time cost signals** — surfacing token spend per request as it happens, not in a report three weeks later\n* **Cost vs. quality tradeoffs** — how to evaluate whether a cheaper model is actually cheaper when you factor in retry rates and output quality\n* **Per-consumer cost visibility** — giving individual teams a live view of their own usage so they can self-correct without a central bottleneck\n\nIf your AI platform is scaling and your cost controls aren't keeping pace, this is where to start.",
+    "url": "https://www.meetup.com/kong-mexico-city/events/315576594/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/kong-mexico-city/events/315576594/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online event,",
+    "online": true,
+    "organizer": "Kong Mexico City",
+    "dtstart": "2026-07-23T09:00:00-06:00",
+    "dtend": "2026-07-23T10:00:00-06:00",
+    "tags": [
+      "ai",
+      "frontend"
+    ],
+    "source": "https://www.meetup.com/kong-mexico-city/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "token cost management bringing spend und_2026-07-23T14:00:00+00:00"
   },
   {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|July 22 - Best of ICRA|Online",
