@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T01:49:26.990338+00:00",
-  "total_events": 368,
+  "generated_at": "2026-07-24T08:08:31.182663+00:00",
+  "total_events": 369,
   "city": "Online",
   "communities": [
     {
@@ -152,8 +152,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3213,7 +3218,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3377,7 +3382,7 @@
       "tags": [
         "devops"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10270,7 +10275,7 @@
       "dtstart": "2026-08-01T18:00:00+00:00",
       "dtend": "2026-08-01T19:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10587,6 +10592,33 @@
       "city_code": "",
       "address": "",
       "hash_key": "aug 13 how to build vision data agents w_2026-08-13T16:00:00+00:00"
+    },
+    {
+      "title": "Claude Community|Melbourne  -  Claude Impact Lab|Online",
+      "description": "Get up-to-date information at: https://luma.com/claude-ggvx\n\nHosted by Rye Smith & Claude Community Australia",
+      "url": "https://luma.com/claude-ggvx",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claude-ggvx",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-jn8SqIdUF7kdPdZ",
+      "online": true,
+      "organizer": "Claude Community",
+      "dtstart": "2026-08-15T14:00:00+00:00",
+      "dtend": "2026-08-15T21:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-jn8SqIdUF7kdPdZ",
+      "hash_key": "melbourne claude impact lab_2026-08-15T14:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Aug 20 - Cold Pool to Hot Queue: Annotation Curation with FiftyOne|Online",
@@ -11028,7 +11060,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
