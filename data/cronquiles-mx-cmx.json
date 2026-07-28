@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T01:42:58.268757+00:00",
-  "total_events": 232,
+  "generated_at": "2026-07-28T08:15:14.431397+00:00",
+  "total_events": 233,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -118,13 +118,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -157,6 +152,11 @@
     {
       "name": "Vive Codding Cafe",
       "description": "Un espacio para juntarnos a echar código y compartir lo que estamos descubriendo en el mundo de la IA.",
+      "links": []
+    },
+    {
+      "name": "Claude Community",
+      "description": "Eventos de la comunidad de Claude AI.",
       "links": []
     },
     {
@@ -3091,7 +3091,7 @@
       "dtstart": "2025-09-19T22:00:00+00:00",
       "dtend": "2025-09-20T00:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4361,7 +4361,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5379,7 +5379,7 @@
         "cloud",
         "python"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5930,7 +5930,7 @@
       "dtstart": "2026-04-24T15:00:00+00:00",
       "dtend": "2026-04-24T21:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -6746,6 +6746,35 @@
       "city_code": "cdmx",
       "address": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, México",
       "hash_key": "to be announced por anunciar_2026-10-21T00:00:00+00:00"
+    },
+    {
+      "title": "Claude Community|Mexico City  -  Claude for Marketers|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/claudemexicocitymarketing\n\nAddress:\nPinterest México\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega & Francisco Navarrete",
+      "url": "https://luma.com/claudemexicocitymarketing",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claudemexicocitymarketing",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Pinterest México, Av. P.º de la Reforma 509, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Claude Community",
+      "dtstart": "2026-10-22T23:30:00+00:00",
+      "dtend": "2026-10-23T02:30:00+00:00",
+      "tags": [
+        "backend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Av. P.º de la Reforma 509, Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
+      "hash_key": "mexico city claude for marketers_2026-10-22T22:00:00+00:00"
     },
     {
       "title": "AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México",
