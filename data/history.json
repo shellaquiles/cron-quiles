@@ -656,7 +656,7 @@
   },
   {
     "title": "Claude Community|Mexico City  -  Claude for Educators & Content Creators: Workshop|México|México",
-    "description": "Get up-to-date information at: https://luma.com/claudemexicocityeducators\n\nAddress:\nPlatzi México\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega & Platzi Team",
+    "description": "Get up-to-date information at: https://luma.com/claudemexicocityeducators\n\nAddress:\nPlatzi México\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega, Platzi Team & Gabriel Ramirez",
     "url": "https://luma.com/claudemexicocityeducators",
     "sources": [
       {
@@ -998,6 +998,38 @@
     "city_code": "",
     "address": "",
     "hash_key": "aug 13 how to build vision data agents w_2026-08-13T16:00:00+00:00"
+  },
+  {
+    "title": "Kong Mexico City|The Data Control AI Gateway: How Kong and Skyflow Secure Enterprise AI|Online",
+    "description": "Kong/MEXICO-CITY\nMany tools can remove sensitive data in an AI POC. But in production, redaction alone doesn't solve the problem of sensitive data leakage.\nAI agents need context to reason. Policies shift dynamically based on who's asking and what they're accessing. Sensitive data must stay in your perimeter, even as it flows across regions and integrations to help AI make better decisions. Enterprises need full visibility and control of this data. This isn't a masking problem. It's a data control problem. It requires a data control layer. The real problem isn't compliance, it's architecture. Engineering needs an architectural layer that controls what data AI agents actually access.\nKong and Skyflow have built it. Kong routes and governs every AI request, agents, models, integrations, through zero-trust infrastructure. Skyflow provides runtime data control through policy-based, stateful redaction and tokenization. Skyflow ensures sensitive data is protected at real time before it reaches a model. Skyflow is stateful, enforcing data sovereignty and policy-driven access control that stateless redaction tools cannot provide.\nTogether, they form a Data Control AI Gateway: one rule, defined once, enforced everywhere, across every datastore, every agent, every request. Join Kong and Skyflow to see how this works in practice, and what it takes to move from POC to production without turning your data into a liability.\n**What you'll learn:**\n\n* How to split the problem: AI gateway orchestration by Kong and runtime data control by Skyflow\n* How unified fine-grained governance works with policy-based, stateful redaction\n* How to get from POC to production in weeks, with audit trails and compliance built-in from the start",
+    "url": "https://www.meetup.com/kong-mexico-city/events/315892929/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/kong-mexico-city/events/315892929/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online event,",
+    "online": true,
+    "organizer": "Kong Mexico City",
+    "dtstart": "2026-08-13T09:00:00-06:00",
+    "dtend": "2026-08-13T10:00:00-06:00",
+    "tags": [
+      "ai",
+      "data",
+      "frontend",
+      "security"
+    ],
+    "source": "https://www.meetup.com/kong-mexico-city/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "the data control ai gateway how kong and_2026-08-13T14:00:00+00:00"
   },
   {
     "title": "Rust-AICollective|Practical AI at Work: Build an Automated Inbox Hero|Online",
@@ -1423,6 +1455,35 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-zueI8ehzOHTiydR",
     "hash_key": "de imgen a texto introduccin a paddleocr_2026-08-01T18:00:00+00:00"
+  },
+  {
+    "title": "Rust-AICollective|PNP BUSINESS MATCHING 2026 - Mastering Distribution Channels GT • MT • E-Commerce • Export × AI|Online",
+    "description": "Get up-to-date information at: https://luma.com/4ujxu576\n\nHosted by Lê Uyên Thảo & 8 others",
+    "url": "https://luma.com/4ujxu576",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/4ujxu576",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "https://luma.com/event/evt-IdPTWqREbnL4njL",
+    "online": true,
+    "organizer": "Rust-AICollective",
+    "dtstart": "2026-08-01T02:30:00+00:00",
+    "dtend": "2026-08-01T04:00:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://luma.com/rust-ios-ai",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "https://luma.com/event/evt-IdPTWqREbnL4njL",
+    "hash_key": "pnp business matching 2026 mastering dis_2026-08-01T02:00:00+00:00"
   },
   {
     "title": "Rust-AICollective|PNP - BUSINESS MATCHING OMNICHANNEL GT-MT-ECOM 2026 X AI AGENT|Online",
@@ -10978,7 +11039,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
