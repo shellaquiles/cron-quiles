@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T13:41:29.453109+00:00",
+  "generated_at": "2026-07-31T19:09:09.245189+00:00",
   "total_events": 233,
   "city": "Ciudad de México",
   "communities": [
@@ -155,25 +155,24 @@
       "links": []
     },
     {
+      "name": "Claude Community",
+      "description": "Eventos de la comunidad de Claude AI.",
+      "links": []
+    },
+    {
       "name": "Java Mexico",
       "description": "Comunidad de Java en México. Eventos, charlas técnicas y networking para desarrolladores Java.",
+      "links": []
+    },
+    {
+      "name": "AI Builders MX",
+      "description": "Comunidad de AI builders en México. Eventos sobre inteligencia artificial, desarrollo y hackathons.",
       "links": []
     },
     {
       "name": "Frutero Club",
       "description": "Comunidad y plataforma enfocada en formar, conectar y activar talento tecnológico en América Latina. Eventos de builders, Web3 y desarrollo.",
       "links": []
-    },
-    {
-      "name": "Claude Community Luma",
-      "description": "Comunidad de Claude AI (Luma).",
-      "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/claudecommunity",
-          "label": "Luma"
-        }
-      ]
     },
     {
       "name": "PayJoy",
@@ -183,6 +182,11 @@
     {
       "name": "Rust-AICollective / The AI Collective",
       "description": "Organizador de eventos manuales (ej: Primer Meetup: Retos de la Posada de Código 2025)",
+      "links": []
+    },
+    {
+      "name": "Claude Community Luma",
+      "description": "Organizador de eventos manuales (ej:  Claude for Finance)",
       "links": []
     },
     {
@@ -3020,7 +3024,7 @@
       "hash_key": "coworking frutal 12_2025-09-10T16:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
+      "title": "AI Builders MX|From Idea to MVP: Construye tu propia app usando AI|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/r8rwqnn9\n\nAddress:\nCheck event page for more details.\n\nHosted by Javier Rivero",
       "url": "https://luma.com/r8rwqnn9",
       "sources": [
@@ -3032,13 +3036,13 @@
       ],
       "location": "Ciudad de México, Mexico",
       "online": false,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2025-09-11T23:00:00+00:00",
       "dtend": "2025-09-12T02:30:00+00:00",
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -6749,7 +6753,7 @@
       "hash_key": "to be announced por anunciar_2026-10-21T00:00:00+00:00"
     },
     {
-      "title": "Claude Community Luma|Mexico City  -  Claude for Marketers|México|Ciudad de México",
+      "title": "Claude Community|Mexico City  -  Claude for Marketers|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/claudemexicocitymarketing\n\nAddress:\nPinterest México\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega & Francisco Navarrete",
       "url": "https://luma.com/claudemexicocitymarketing",
       "sources": [
@@ -6761,13 +6765,13 @@
       ],
       "location": "Pinterest México, Av. P.º de la Reforma 509, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico",
       "online": false,
-      "organizer": "Claude Community Luma",
+      "organizer": "Claude Community",
       "dtstart": "2026-10-22T23:30:00+00:00",
       "dtend": "2026-10-23T02:30:00+00:00",
       "tags": [
         "backend"
       ],
-      "source": "https://luma.com/claudecommunity",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
