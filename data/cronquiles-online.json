@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T01:53:53.161711+00:00",
-  "total_events": 382,
+  "generated_at": "2026-07-31T08:34:34.292242+00:00",
+  "total_events": 383,
   "city": "Online",
   "communities": [
     {
@@ -87,11 +87,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -152,8 +152,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3213,7 +3218,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3378,7 +3383,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5153,7 +5158,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5717,7 +5722,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10399,7 +10404,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10565,6 +10570,39 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-cH8Lh9LnMnwxF4M",
       "hash_key": "agentic ai series multi agent orchestrat_2026-08-06T22:00:00+00:00"
+    },
+    {
+      "title": "GDG Cloud Mexico City|Construyendo con IA: MediaPipe & Gemini CLI|Online",
+      "description": "El desarrollo de software y la Inteligencia Artificial están evolucionando a pasos agigantados, y hoy en día no necesita...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cloud-mexico-city-presents-construyendo-con-ia-mediapipe-amp-gemini-cli/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cloud-mexico-city-presents-construyendo-con-ia-mediapipe-amp-gemini-cli/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG Cloud Mexico City",
+      "dtstart": "2026-08-06T19:00:00-06:00",
+      "dtend": "2026-08-06T20:30:00-06:00",
+      "tags": [
+        "AI",
+        "Google Cloud",
+        "Workshop / hands-on session",
+        "backend",
+        "cloud"
+      ],
+      "source": "https://gdg.community.dev/gdg-cloud-mexico-city/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "construyendo con ia mediapipe gemini cli_2026-08-07T00:00:00+00:00"
     },
     {
       "title": "Claude Community|Chicago  -  Claude Impact Lab|Online",
@@ -11457,7 +11495,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
