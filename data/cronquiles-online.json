@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T08:34:34.292242+00:00",
+  "generated_at": "2026-07-31T13:41:29.377697+00:00",
   "total_events": 383,
   "city": "Online",
   "communities": [
@@ -87,11 +87,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
+      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/eofagheq",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -152,13 +152,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -305,6 +300,17 @@
           "platform": "website",
           "url": "https://gdg.community.dev/gdg-villahermosa/",
           "label": "Sitio web"
+        }
+      ]
+    },
+    {
+      "name": "Claude Community Luma",
+      "description": "Comunidad de Claude AI (Luma).",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claudecommunity",
+          "label": "Luma"
         }
       ]
     }
@@ -3218,7 +3224,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3383,7 +3389,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5158,7 +5164,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5722,7 +5728,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10404,7 +10410,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10449,7 +10455,7 @@
       "hash_key": "aug 4 visual ai in manufacturing_2026-08-04T16:00:00+00:00"
     },
     {
-      "title": "Claude Community|Atlanta  -  Claude Impact Lab|Online",
+      "title": "Claude Community Luma|Atlanta  -  Claude Impact Lab|Online",
       "description": "Get up-to-date information at: https://luma.com/claude-v1jl\n\nHosted by Tyler Sztuka",
       "url": "https://luma.com/claude-v1jl",
       "sources": [
@@ -10461,11 +10467,11 @@
       ],
       "location": "https://luma.com/event/evt-SArRvbXM7jpdxB2",
       "online": true,
-      "organizer": "Claude Community",
+      "organizer": "Claude Community Luma",
       "dtstart": "2026-08-04T21:00:00+00:00",
       "dtend": "2026-08-05T01:00:00+00:00",
       "tags": [],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "source": "https://luma.com/claudecommunity",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10909,7 +10915,7 @@
       "hash_key": "lunch hack online series decision making_2026-08-13T16:00:00+00:00"
     },
     {
-      "title": "Claude Community|Melbourne  -  Claude Impact Lab|Online",
+      "title": "Claude Community Luma|Melbourne  -  Claude Impact Lab|Online",
       "description": "Get up-to-date information at: https://luma.com/claude-ggvx\n\nHosted by Rye Smith & Claude Community Australia",
       "url": "https://luma.com/claude-ggvx",
       "sources": [
@@ -10921,11 +10927,11 @@
       ],
       "location": "https://luma.com/event/evt-jn8SqIdUF7kdPdZ",
       "online": true,
-      "organizer": "Claude Community",
+      "organizer": "Claude Community Luma",
       "dtstart": "2026-08-15T14:00:00+00:00",
       "dtend": "2026-08-15T21:00:00+00:00",
       "tags": [],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "source": "https://luma.com/claudecommunity",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11495,7 +11501,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
