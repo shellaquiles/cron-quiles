@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T13:00:02.195584+00:00",
-  "total_events": 18,
+  "generated_at": "2026-08-02T18:55:49.181266+00:00",
+  "total_events": 19,
   "city": "Puebla",
   "communities": [
     {
@@ -548,6 +548,35 @@
       "city_code": "heroicapuebladezaragoza",
       "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
       "hash_key": "python meetup puebla junio 2026_2026-06-05T00:00:00+00:00"
+    },
+    {
+      "title": "PyTalavera|Python en Puebla + Networking|México|Puebla",
+      "description": "Get up-to-date information at: https://luma.com/bxvdj7qa\n\nAddress:\nWorkósfera Coworking @ Cerro de La Paz, Puebla\nHeroica Puebla de Zaragoza, Mexico\n\nHosted by Gabriel Gómez Téllez",
+      "url": "https://luma.com/bxvdj7qa",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/bxvdj7qa",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Workósfera Coworking @ Cerro de La Paz, Puebla, Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., Mexico",
+      "online": false,
+      "organizer": "PyTalavera",
+      "dtstart": "2026-08-07T00:30:00+00:00",
+      "dtend": "2026-08-07T04:00:00+00:00",
+      "tags": [
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Puebla",
+      "state_code": "MX-PUE",
+      "city": "Heroica Puebla de Zaragoza",
+      "city_code": "heroicapuebladezaragoza",
+      "address": "Cholula 35, La Paz, 72160 Heroica Puebla de Zaragoza, Pue., México",
+      "hash_key": "python en puebla networking_2026-08-07T00:00:00+00:00"
     }
   ]
 }
