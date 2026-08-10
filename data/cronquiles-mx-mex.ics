@@ -370,6 +370,25 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Claude Community|Mexico City  -  Claude for Healthcare|México|Mé
  xico
+DTSTART:20260814T233000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/claudemexicoci
+ tyhealthcare\n\nAddress:\nNovartis Farmacéutica SA de CV\nCiudad de Méxi
+ co\, Mexico\n\nHosted by Ricardo Lira de la Vega\, Angelina Mendoza & Cesa
+ r Méndez
+LOCATION:Novartis Farmacéutica SA de CV\, Av. Insurgentes Sur 2475\, Tiza
+ pán San Ángel\, San Ángel\, Álvaro Obregón\, 01000 Ciudad de México\
+ , CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Novartis Farmacéutica SA de CV\, Av. Insurgentes Sur
+  2475\, Tizapán San Ángel\, San Ángel\, Álvaro Obregón\, 01000 Ciudad
+  de México\, CDMX\, Mexico
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:México
+X-CRONQUILES-STATE-CODE:MX-MEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Claude Community|Mexico City  -  Claude for Healthcare|México|Mé
+ xico
 DTSTART:20260815T000000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/claudemexicoci
  tyhealthcare\n\nAddress:\nNovartis Farmacéutica SA de CV\nCiudad de Méxi
@@ -425,13 +444,15 @@ SUMMARY:Claude Community|Mexico City  -  Claude for Finance|México|Méxic
 DTSTART:20260826T233000Z
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/claudemexicoci
- tyfinance\n\nAddress:\nBanco Santander\nCiudad de México\, Mexico\n\nHost
- ed by Ricardo Lira de la Vega\, Santander AI MX & Carlos Alberto Haro
-LOCATION:Banco Santander\, Prol. P.º de la Reforma 500\, Santa Fe\, Zedec
-  Sta Fé\, Álvaro Obregón\, 01219 Ciudad de México\, CDMX\, Mexico
-X-CRONQUILES-ADDRESS:Banco Santander\, Prol. P.º de la Reforma 500\, Sant
- a Fe\, Zedec Sta Fé\, Álvaro Obregón\, 01219 Ciudad de México\, CDMX\,
-  Mexico
+ tyfinance\n\nAddress:\nBanco Santander Work Lab México\nCiudad de México
+ \, Mexico\n\nHosted by Ricardo Lira de la Vega\, Santander AI MX & Carlos 
+ Alberto Haro
+LOCATION:Banco Santander Work Lab México\, Prol. P.º de la Reforma 400\,
+  Santa Fe\, Zedec Sta Fé\, Álvaro Obregón\, 01219 Ciudad de México\, C
+ DMX\, Mexico
+X-CRONQUILES-ADDRESS:Banco Santander Work Lab México\, Prol. P.º de la R
+ eforma 400\, Santa Fe\, Zedec Sta Fé\, Álvaro Obregón\, 01219 Ciudad de
+  México\, CDMX\, Mexico
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:México
