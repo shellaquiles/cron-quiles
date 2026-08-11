@@ -358,6 +358,40 @@
     "hash_key": "oct 8 mcp agents and skills meetup meetu_2026-10-08T16:00:00+00:00"
   },
   {
+    "title": "México City AI, Machine Learning and Computer Vision Meetup|Sept 30 - Building Composable Vision Workflows in FiftyOne|Online",
+    "description": "México City AI, Machine Learning and Computer Vision Meetup\nThis workshop explores the [FiftyOne](https://docs.voxel51.com/index.html) plugin framework to build custom computer vision applications. You’ll learn to extend the FiftyOne App with Python based panels and server side operators, as well as integrate external tools for labeling, vector search, and model inference into your dataset views.\n\n**Date, Time and Location**\n\nSep 30, 2026\n9 AM - 10 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/building-composable-vision-workflows-in-fiftyone-september-30-2026)**\n\nYou’ll also automate repetitive tasks by writing custom workflows executing within the FiftyOne environment. Attendees will learn to transform FiftyOne from a visualization tool into a central hub for your vision stack.\n\nWhat you'll learn:\n\n* **Build Python plugins.** Define plugin manifests and directory structures to register custom functionality within the FiftyOne ecosystem.\n* **Develop server side operators.** Write functions to execute model inference, data cleaning, or metadata updates from the App interface.\n* **Build interactive panels.** Create custom UI dashboards using to visualize model metrics or specialized dataset distributions.\n* **Manage operator execution contexts.** Pass data between the App front end and your backend to build dynamic user workflows.\n* **Implement delegated execution.** Configure background workers to handle long running data processing tasks without blocking the user interface.\n* **Build labeling integrations.** Streamline the flow of data between FiftyOne and annotation platforms through custom triggers and ingestion scripts.\n* **Extend vector database support.** Program custom connectors for external vector stores to enable semantic search across large sample datasets.\n* **Package and share plugins.** Distribute your extensions internally and externally",
+    "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/316064682/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/316064682/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online event,",
+    "online": true,
+    "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
+    "dtstart": "2026-09-30T10:00:00-06:00",
+    "dtend": "2026-09-30T12:00:00-06:00",
+    "tags": [
+      "ai",
+      "backend",
+      "data",
+      "frontend",
+      "python",
+      "web"
+    ],
+    "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "sept 30 building composable vision workf_2026-09-30T16:00:00+00:00"
+  },
+  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|Sept 24 - AI, ML and Computer Vision Meetup|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup on September 24 to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.\n\n**Date, Time and Location**\n\nSep 24, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-september-24-2026)**\n\n**How Do Mercedes-Benz AI Principles Drive our Innovation?**\n\nAt Mercedes-Benz, our AI Principles guide every step of innovation, emphasizing responsible use, safety and reliability, explainability, and the protection of privacy. These principles go beyond statements and actively shape how we design, test, and deploy AI systems in real-world automotive and enterprise settings. In this talk, I will present how these principles inspired our recent research on when reusing LoRA (Low-Rank Adaptation) is effective. By combining theoretical analysis with synthetic data as a proxy for enterprise scenarios, we uncovered the strengths and limitations of modular AI components under constrained data access. Our findings provide practical guidance on when reused LoRAs could deliver high-quality results.\n\n*About the Speaker*\n\n[Mei-Yen Chen](https://www.linkedin.com/in/mei-yen-chen-22937787) is a Senior Data Scientist at Mercedes-Benz Tech Innovation GmbH in Germany with 10 years of industry experience in AI and data solutions. She leads early-stage AI projects across business functions and collaborates with research institutions on machine learning and responsible AI.\n\n**Region Tokens as the Visual Primitive: From Recognition to World Modeling**\n\nPatch-based tokenization has become the default interface between vision encoders and downstream models, yet patches carry no semantic structure and scale poorly with resolution and temporal extent. This talk presents a research program centered on replacing patch tokens with region-level representations — semantically dense tokens grounded in visual entities rather than arbitrary grid crops.\n\nI will describe RELOCATE, REN, and T-REN, a progression of methods that produce region tokens via pooling, train them with region-level objectives, and extend them to video with temporal coherence. I will then present ongoing work integrating region tokens into VLMs to directly expand visual context capacity, and preliminary results on future region trajectory prediction as a foundation for world modeling.\n\nThe broader thesis is that region-level tokens are a more natural unit of visual computation than patches, and their advantage compounds as task complexity, resolution, and temporal horizon increase.\n\n*About the Speaker*\n\n[Savya Khosla](https://www.linkedin.com/in/savyakhosla/) is a second-year Ph.D. student at the University of Illinois Urbana-Champaign, advised by Prof. Derek Hoiem and Prof. Alex Schwing.\n\n**Leveraging Text-To-Image Diffusion Models for Consistent Set-to-Set Generation**\n\nImage collections are humans' primary way of capturing the world, yet advances in generative editing remain largely inapplicable to this modality. We address this gap by introducing Match-and-Fuse - a zero-shot, training-free method for consistent set-to-set generation from image collections that share a common visual element but differ in viewpoint, capture time, and surrounding content.\nOur key idea is a unified graph-based framework that combines dense correspondences with an emergent prior in text-to-image diffusion models to generate coherent canvases. We achieve state-of-the-art consistency and visual quality, and unlock new creative capabilities for content generation.\n\n*About the Speaker*\n\n[Kate Feingold](https://www.linkedin.com/in/katefeingold/) is a PhD student in Computer Vision at the Weizmann Institute of Science. Her research sits at the intersection of generative models, 3D/4D perception, and multimodal learning, focusing on problems where vision meets other modalities or paradigms in creative tasks.\n\n**Yield Estimation of a Coffee in a dense environment**\n\nThis presentation provides a detailed workflow related to coffee yield estimation in a dense environment. With photos of pre-harvest coffee plants from a couple of coffee estates, details related to pre-processing, annotation to detect regions of interest (ROI), object detection training and inferencing results with various Yolo models and finally segmentation with SAM2 and Yolo\\*-seg with training and inference results to determine the count of raw, pre-mature, mature and over-mature coffee berries and finally the yield of the entire estate. All this is based on real world data captured on iPhone and android phones.\n\n*About the Speaker*\n\n[Raghu M. Rao](http://www.linkedin.com/in/raghumrao) is a consultant working on applications of computer vision AI models. He was previously with AMD and Xilinx. He has a Ph.D. in Wireless Communications from UCLA and is a Senior Member, IEEE. His current interests are in applications of AI for agriculture, health care and wireless communications.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/315388185/",
@@ -448,6 +482,38 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-ZkkbMV6KFF2UJ4b",
     "hash_key": "technology ai and addictive behaviors ca_2026-09-23T16:00:00+00:00"
+  },
+  {
+    "title": "México City AI, Machine Learning and Computer Vision Meetup|Sept 22 - FiftyOne Agent: Automate Visual AI Workflows with Natural Language|Online",
+    "description": "México City AI, Machine Learning and Computer Vision Meetup\nLearn about FiftyOne Agent, an AI assistant built directly into FiftyOne that turns plain-language requests into real dataset operations.\n\n**Date, Time and Location**\n\nSep 22, 2026\n9:00 AM - 10:00 AM Pacific\nOnline. **[Register for the Zoom!](https://voxel51.com/events/meet-the-fiftyone-agent-automate-visual-ai-workflows-with-natural-language-september-22-2026)**\n\nAsk it to find and remove duplicate images, run object detection and surface low-confidence predictions, or evaluate a model and summarize where it fails, and the agent handles execution end to end.\n\nWe will also walk through the newest capabilities shipping with this release, including code generation and plugin generation. You will see how to go from a conversational prompt to a custom dashboard, visualization, or full FiftyOne application, and how to package multi-step workflows as reusable skills the agent can call on demand.\n\nBecause the agent runs inside FiftyOne's secure guardrails, teams keep full control. Connect your preferred models from over 100 LLM providers, route requests through your own enterprise gateway, and maintain audit logging and user attribution for every action the agent takes.",
+    "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/316064285/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/316064285/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Online event,",
+    "online": true,
+    "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
+    "dtstart": "2026-09-22T10:00:00-06:00",
+    "dtend": "2026-09-22T12:00:00-06:00",
+    "tags": [
+      "ai",
+      "data",
+      "frontend",
+      "security"
+    ],
+    "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "sept 22 fiftyone agent automate visual a_2026-09-22T16:00:00+00:00"
   },
   {
     "title": "AI/IA CDMX|¿Sueñan los Androides con Agujeros Negros? - Do Androids Dream of Black Holes?|México|Ciudad de México",
@@ -680,6 +746,33 @@
     "hash_key": "mexico city claude for legal workshop_2026-08-28T22:00:00+00:00"
   },
   {
+    "title": "FinTech México|Listening Sessions Vol. 2|Online",
+    "description": "Get up-to-date information at: https://luma.com/gu1wxfxp\n\nHosted by FinTech México",
+    "url": "https://luma.com/gu1wxfxp",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/gu1wxfxp",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "https://luma.com/event/evt-vnCi9woG6t4KUEq",
+    "online": true,
+    "organizer": "FinTech México",
+    "dtstart": "2026-08-28T22:00:00+00:00",
+    "dtend": "2026-08-28T23:30:00+00:00",
+    "tags": [],
+    "source": "https://luma.com/eofagheq",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "https://luma.com/event/evt-vnCi9woG6t4KUEq",
+    "hash_key": "listening sessions vol 2_2026-08-28T22:00:00+00:00"
+  },
+  {
     "title": "Rust-AICollective|Should we stop improving AI? (w/ The AI Collective)|Online",
     "description": "Get up-to-date information at: https://luma.com/aic-la-8-28\n\nHosted by The AI Collective & Harmony Abayomi",
     "url": "https://luma.com/aic-la-8-28",
@@ -767,7 +860,7 @@
   },
   {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|Aug 27 - AI, ML, and Computer Vision Meetup|Online",
-    "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.\n\nDate, Time, and Location\n\nAug 27, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-august-27-2026)**\n\n**Robust Concept Protection against Diffusion-Based Image Editing and Personalization**\n\nDiffusion-based image editing and personalization models have made it increasingly easy to manipulate and replicate visual concepts from only a few reference images. However, existing protection methods often overfit to a single attack model and fail to generalize across diverse editing pipelines.\n\nIn this presentation, I will discuss recent advances in concept protection for generative AI systems, focusing on targeted perturbation strategies and style-sensitive diffusion representations. I will also present experimental findings across multiple editing and fine-tuning scenarios, highlighting the challenges of robustness, transferability, and imperceptibility in practical protection settings. Finally, I will discuss open problems and future directions toward trustworthy generative content ownership.\n\n*About the Speaker*\n\n[Qiuyu Tang](https://www.linkedin.com/in/qiuyutang/) is a Ph.D. student in Computer Science and Engineering at Lehigh University. Her research focuses on trustworthy AI, media forensics, and robust protection methods against diffusion-based image editing and personalization systems. Her recent work explores concept protection, style safeguarding, semantic image manipulation, and generative AI robustness. She has contributed to multiple publications in computer vision and AI safety, including research on diffusion model protection and manipulation detection, and has also served as a conference workshop organizer.\n\n**From Pixels to the Planet: Building Scalable and Grounded AI for Science**\n\nAI has demonstrated a lot of new possibilities, from drafting emails to image editing and generation. The efficacy of AI models is largely built upon a standard machine learning pipeline, where data is fed into models to get representations and predictions, and the performance is evaluated with controlled benchmarks and metrics. However, the mismatch arises when we try to transit this pipeline to the interaction with the real world and use AI for scientific discovery. Beyond close-set decisions, scientists want to discover new categories and propose new hypotheses. In this talk, I will share how I address the challenges of AI for science from the perspectives of data-centric methods and interpretability approaches.\n\n*About the Speaker*\n\n[Jianyang Gu](https://www.linkedin.com/in/jianyang-gu-9235151b9/) is a postdoctoral scholar at The Ohio State University. His research focuses on using data-centric methods to build scalable and interpretable foundation models for science.\n\n**Beyond the Barn: Non-Invasive Acidosis Detection in Dairy Cattle Through Multimodal Gas Emission Intelligence**\n\nRumen acidosis silently costs the global dairy industry billions annually and compromises animal welfare, yet current detection methods remain invasive, delayed, and impractical at scale. Our lab has pioneered a fundamentally new approach: capturing and analyzing exhaled CO₂ and CH₄ gas emission patterns through synchronized RGB-thermal imaging, turning every breath into a diagnostic signal. We developed DualGasNet, a dual-stream deep learning architecture with cross-attention fusion that detects acidosis non-invasively and in real time, achieving state-of-the-art accuracy on a first-of-its-kind livestock gas emission dataset we constructed from scratch.\n\nTo push toward explainable, farm-ready AI, we integrate vision-language models — CLIP and LLaVA-1.5 — enabling zero-shot diagnostic reasoning that bridges the gap between deep learning predictions and actionable veterinary insight. This talk will walk through the full pipeline from custom dataset creation to multimodal fusion to VLM-powered interpretation, offering the audience a compelling case study in how computer vision can solve high-impact, real-world problems outside traditional benchmarks.\n\n*About the Speaker*\n\n[Taminul Islam](https://www.linkedin.com/in/taminul-islam/) is a Doctoral Research Fellow and PhD candidate at Southern Illinois University Carbondale with 40+ publications, 740+ citations, and an h-index of 16 — with publications in CVPR 2026, WACV 2026 (Oral), ICCV 2025, and Nature Scientific Reports, including a Highly Cited Paper for 2024–25.\n\n**Building Real-World Computer Vision Systems with Voxel51**\n\nThis talk will explore practical workflows for building, evaluating, and improving modern computer vision systems. We’ll dive into real-world approaches to dataset curation, model analysis, multimodal AI workflows, and production-ready vision pipelines using open-source technologies.\n\nThe session is designed for engineers, researchers, and AI practitioners looking to better understand how teams are developing and scaling computer vision applications today. Expect practical demos, technical insights, and discussions around the evolving AI tooling ecosystem.\n\n*About the Speaker*\n\n[Daniel Gural](https://www.linkedin.com/in/daniel-gural/) is an expert in Physical AI and has been working in the field for over 8 years. Working across healthcare he has experience in both operating use case as well as using Visual AI as an aid in psychology applications as well.",
+    "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.\n\nDate, Time, and Location\n\nAug 27, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-august-27-2026)**\n\n**Robust Concept Protection against Diffusion-Based Image Editing and Personalization**\n\nDiffusion-based image editing and personalization models have made it increasingly easy to manipulate and replicate visual concepts from only a few reference images. However, existing protection methods often overfit to a single attack model and fail to generalize across diverse editing pipelines.\n\nIn this presentation, I will discuss recent advances in concept protection for generative AI systems, focusing on targeted perturbation strategies and style-sensitive diffusion representations. I will also present experimental findings across multiple editing and fine-tuning scenarios, highlighting the challenges of robustness, transferability, and imperceptibility in practical protection settings. Finally, I will discuss open problems and future directions toward trustworthy generative content ownership.\n\n*About the Speaker*\n\n[Qiuyu Tang](https://www.linkedin.com/in/qiuyutang/) is a Ph.D. student in Computer Science and Engineering at Lehigh University. Her research focuses on trustworthy AI, media forensics, and robust protection methods against diffusion-based image editing and personalization systems. Her recent work explores concept protection, style safeguarding, semantic image manipulation, and generative AI robustness. She has contributed to multiple publications in computer vision and AI safety, including research on diffusion model protection and manipulation detection, and has also served as a conference workshop organizer.\n\n**From Pixels to the Planet: Building Scalable and Grounded AI for Science**\n\nAI has demonstrated a lot of new possibilities, from drafting emails to image editing and generation. The efficacy of AI models is largely built upon a standard machine learning pipeline, where data is fed into models to get representations and predictions, and the performance is evaluated with controlled benchmarks and metrics. However, the mismatch arises when we try to transit this pipeline to the interaction with the real world and use AI for scientific discovery. Beyond close-set decisions, scientists want to discover new categories and propose new hypotheses. In this talk, I will share how I address the challenges of AI for science from the perspectives of data-centric methods and interpretability approaches.\n\n*About the Speaker*\n\n[Jianyang Gu](https://www.linkedin.com/in/jianyang-gu-9235151b9/) is a postdoctoral scholar at The Ohio State University. His research focuses on using data-centric methods to build scalable and interpretable foundation models for science.\n\n**Building Real-World Computer Vision Systems with Voxel51**\n\nThis talk will explore practical workflows for building, evaluating, and improving modern computer vision systems. We’ll dive into real-world approaches to dataset curation, model analysis, multimodal AI workflows, and production-ready vision pipelines using open-source technologies.\n\nThe session is designed for engineers, researchers, and AI practitioners looking to better understand how teams are developing and scaling computer vision applications today. Expect practical demos, technical insights, and discussions around the evolving AI tooling ecosystem.\n\n*About the Speaker*\n\n[Daniel Gural](https://www.linkedin.com/in/daniel-gural/) is an expert in Physical AI and has been working in the field for over 8 years. Working across healthcare he has experience in both operating use case as well as using Visual AI as an aid in psychology applications as well.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/314999435/",
     "sources": [
       {
@@ -1367,7 +1460,7 @@
       "ai",
       "frontend"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "México",
@@ -7560,7 +7653,7 @@
     "dtstart": "2026-05-15T00:00:00+00:00",
     "dtend": "2026-05-15T00:50:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "",
     "country_code": "",
     "state": "",
@@ -8313,7 +8406,7 @@
     "tags": [
       "security"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "",
     "country_code": "",
     "state": "",
@@ -11181,7 +11274,7 @@
     "dtstart": "2026-03-01T17:00:00+00:00",
     "dtend": "2026-03-01T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11267,7 +11360,7 @@
     "dtstart": "2026-02-27T15:00:00+00:00",
     "dtend": "2026-02-27T17:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11323,7 +11416,7 @@
     "dtstart": "2026-02-26T01:00:00+00:00",
     "dtend": "2026-02-26T04:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11377,7 +11470,7 @@
     "dtstart": "2026-02-26T00:00:00+00:00",
     "dtend": "2026-02-26T03:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11404,7 +11497,7 @@
     "dtstart": "2026-02-25T22:00:00+00:00",
     "dtend": "2026-02-25T23:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11433,7 +11526,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11462,7 +11555,7 @@
     "tags": [
       "mobile"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11516,7 +11609,7 @@
     "dtstart": "2026-02-25T15:00:00+00:00",
     "dtend": "2026-02-25T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11810,7 +11903,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11837,7 +11930,7 @@
     "dtstart": "2026-02-24T14:30:00+00:00",
     "dtend": "2026-02-24T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11866,7 +11959,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11893,7 +11986,7 @@
     "dtstart": "2026-02-24T00:00:00+00:00",
     "dtend": "2026-02-24T02:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11922,7 +12015,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11952,7 +12045,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11982,7 +12075,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -12009,7 +12102,7 @@
     "dtstart": "2026-02-23T19:00:00+00:00",
     "dtend": "2026-02-23T20:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -12036,7 +12129,7 @@
     "dtstart": "2026-02-23T18:00:00+00:00",
     "dtend": "2026-02-23T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -12063,7 +12156,7 @@
     "dtstart": "2026-02-23T17:00:00+00:00",
     "dtend": "2026-02-23T18:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -12093,7 +12186,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -13626,7 +13719,7 @@
     "dtstart": "2025-11-18T23:00:00+00:00",
     "dtend": "2025-11-19T01:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -14690,7 +14783,7 @@
     "dtstart": "2025-09-29T18:00:00+00:00",
     "dtend": "2025-09-29T19:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
