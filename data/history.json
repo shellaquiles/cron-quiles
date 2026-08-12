@@ -691,7 +691,7 @@
   },
   {
     "title": "Pythonistas GDL|Viernes 28 de Agosto en el HackerGarage|México|Jalisco",
-    "description": "<ul><li><p style=\"margin:0.5em 0px;\">🚪 Recepción a partir de las 6:30</p></li><li><p style=\"margin:0.5em 0px;\">⏰ Evento 7:00</p></li><li><p style=\"margin:0.5em 0px;\">🗣️ Muy pronto anunciaremos las platicas </p></li><li><p style=\"margin:0.5em 0px;\">🪩 Networking </p></li></ul>",
+    "description": "<ul><li><p style=\"margin:0.5em 0px;\">🚪 Recepción a partir de las 6:30</p></li><li><p style=\"margin:0.5em 0px;\">⏰ Evento 7:00</p></li><li><p style=\"margin:0.5em 0px;\">🗣️ mck, Encuentra los ImportError ocultos <br /><em>mck es una herramienta que verifica si uno o más módulos se puedan importar individualmente. </em><br /><em>Veremos cómo se originó mck, un ejemplo de su uso y en qué casos te podría servir.</em><br /><strong>Por Patricio Páez</strong></p></li><li><p style=\"margin:0.5em 0px;\">🗣️ ¿Qué tan libre es el software libre?<br /><em>breve análisis de las diferentes licencias de código abierto y como identificar sus derechos y obligaciones</em><br /><strong>Por Luis Alvarez</strong></p></li><li><p style=\"margin:0.5em 0px;\">🪩 Networking </p></li></ul>",
     "url": "https://reuniones.pythonistas-gdl.org/event/8/viernes-28-de-agosto-en-el-hackergarage",
     "sources": [
       {
@@ -706,6 +706,7 @@
     "dtstart": "2026-08-29T00:30:00+00:00",
     "dtend": "2026-08-29T04:00:00+00:00",
     "tags": [
+      "frontend",
       "python"
     ],
     "source": "https://reuniones.pythonistas-gdl.org/events/1/pythonistas-gdl",
@@ -1414,6 +1415,44 @@
     "hash_key": "vibe coding caf_2026-08-14T22:00:00+00:00"
   },
   {
+    "title": "GDG CDMX|Construye tu portafolio personal en línea con Inteligencia Artificial|Online",
+    "description": "En este taller en vivo, construirás portfolio personal online. El agente de AI Studio escribirá el código de frontend por nosotras y nosotros. Una vez que la app esté lista, la implementaremos y desplegaremos en producción directamente en Cloud Run con un solo click.",
+    "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-construye-tu-portafolio-personal-en-linea-con-inteligencia-artificial/",
+    "sources": [
+      {
+        "platform": "website",
+        "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-construye-tu-portafolio-personal-en-linea-con-inteligencia-artificial/",
+        "label": "Ver sitio web"
+      }
+    ],
+    "location": "Online",
+    "online": true,
+    "organizer": "GDG CDMX",
+    "dtstart": "2026-08-14T19:30:00-06:00",
+    "dtend": "2026-08-14T20:30:00-06:00",
+    "tags": [
+      "AI",
+      "AI - Gemini",
+      "Build with AI",
+      "Conference",
+      "Google Cloud",
+      "Tech Talk / Meetup",
+      "Workshop / hands-on session",
+      "ai",
+      "cloud",
+      "frontend"
+    ],
+    "source": "https://gdg.community.dev/gdg-cdmx/",
+    "country": "México",
+    "country_code": "MX",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "Online",
+    "hash_key": "construye tu portafolio personal en lnea_2026-08-15T00:00:00+00:00"
+  },
+  {
     "title": "GDG Tijuana|Cómo construir una plataforma de e-commerce resiliente y no morir en el intento: Patrones de resiliencia para arquitecturas event-driven modernas.|Online",
     "description": "Únete a nosotros el 14 de agosto a las 6 pm para una charla inspiradora sobre cómo construir una plataforma de e-commerc...",
     "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-como-construir-una-plataforma-de-e-commerce-resiliente-y-no-morir-en-el-intento-patrones-de-resiliencia-para-arquitecturas-event-driven-modernas/",
@@ -1797,6 +1836,37 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-5EARsgVw6cewOn0",
     "hash_key": "practical ai at work build an automated _2026-08-12T18:00:00+00:00"
+  },
+  {
+    "title": "AWS Cloud Club at Universidad Nacional Autonoma de México|AWS Summit CDMX / mx-central-unam-ipn-1|México|",
+    "description": "AWS SBG at Universidad Nacional Autónoma de México\nPor primera vez en un **AWS Summit** habrá un escenario dedicado **por y para estudiantes**, liderado por **AWS Student Builder Group IPN** y **AWS Student Builder Group UNAM**.\n\nQueremos compartir con nuestra comunidad la agenda prevista para este espacio especial dentro del **AWS Summit Ciudad de México**, donde tendremos sesiones de cloud, GenAI, arquitectura serverless, comunidad y crecimiento profesional.\n\n**Importante:** **Este evento en Meetup es únicamente un anuncio informativo.**\n**Meetup NO funciona como enlace de registro ni garantiza acceso al AWS Summit.**\nEl registro oficial debe realizarse directamente en la página del Summit:\n**[https://aws.amazon.com/events/summits/mexico-city/](https://aws.amazon.com/events/summits/mexico-city/)**\n\n**¿Cómo encontrarnos?** Pregunta por el espacio \"*Zona Builders para estudiantes*\"\n\n**12:15 – 12:30 PM**\n**Bienvenidxs a mx-central-unam-ipn-1!**\nGrace Rojas + Daniel Paredes\n\n**12:30 – 1:00 PM**\n**¿La nube está en el cielo? Lo que necesitas saber antes de entrar al mundo Cloud**\nJonathan Sánchez\n\n**1:05 – 1:35 PM**\n**Construyendo la nube: Aprende AWS jugando BuilderCards**\nXimena Sánchez + Cristopher Carrada + David Alemán López\n\n**1:40 – 2:10 PM**\n**De la idea a la nube en minutos: GenAI**\nRodrigo Roldán\n\n**2:15 – 2:45 PM**\n**EnCore: Un agente serverless para el Instituto de GeoFísica, UNAM**\nSebastián Vázquez + Daniel Rodríguez\n\n**2:50 – 3:10 PM**\n**Sorteo, Parte I**\nFernanda Osorio\n\n**3:10 – 3:40 PM**\n**Computólogo por la universidad, Builder por la Comunidad**\nDaniel Paredes\n\n**3:45 – 4:20 PM**\n**Todos necesitamos un Tío Iroh**\nIrvin Soriano\n\n**4:25 – 4:55 PM**\n**Crecer en la era de la comparación constante**\nAlexa Joaquín\n\n**5:00 – 5:30 PM**\n**Sorteo, Parte II + Despedida**\nGrace Rojas + Daniel Paredes\n\nEste escenario representa una colaboración histórica entre dos comunidades universitarias que han trabajado para acercar **AWS, cloud computing e inteligencia artificial** a más estudiantes en México.\nSi asistirás al Summit, te invitamos a agregar **mx-central-unam-ipn-1** a tu agenda y acompañarnos durante esta jornada de aprendizaje, construcción y comunidad.\n\nNos vemos en el AWS Summit CDMX!",
+    "url": "https://www.meetup.com/aws-sbg-at-universidad-nacional-autonoma-de-mexico-cocoyan/events/316076006/",
+    "sources": [
+      {
+        "platform": "meetup",
+        "url": "https://www.meetup.com/aws-sbg-at-universidad-nacional-autonoma-de-mexico-cocoyan/events/316076006/",
+        "label": "Ver en Meetup"
+      }
+    ],
+    "location": "Centro Banamex Ciudad de México, Conscripto 311. Colonia Lomas de Sotelo. Delegación Miguel Hidalgo. 11200. México D.F.",
+    "online": false,
+    "organizer": "AWS Cloud Club at Universidad Nacional Autonoma de México",
+    "dtstart": "2026-08-12T12:00:00-06:00",
+    "dtend": "2026-08-12T17:30:00-06:00",
+    "tags": [
+      "ai",
+      "cloud",
+      "frontend"
+    ],
+    "source": "https://www.meetup.com/aws-cloud-club-at-unam/events/ical",
+    "country": "México",
+    "country_code": "MX",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "",
+    "hash_key": "aws summit cdmx mx central unam ipn 1_2026-08-12T18:00:00+00:00"
   },
   {
     "title": "Rust-AICollective|Next Horizon: Mastering Skills for Building AI ready data foundation: Part 2 (w/ The AI Collective)|Online",
@@ -2309,7 +2379,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
@@ -9947,7 +10017,7 @@
     "dtstart": "2026-04-24T15:00:00+00:00",
     "dtend": "2026-04-24T21:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11220,7 +11290,7 @@
       "cloud",
       "python"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11816,7 +11886,7 @@
       "ai",
       "security"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11905,7 +11975,7 @@
       "ai",
       "backend"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -11935,7 +12005,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -12711,7 +12781,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -13613,7 +13683,7 @@
       "devops",
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
@@ -14675,7 +14745,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
@@ -14898,7 +14968,7 @@
     "dtstart": "2025-09-19T22:00:00+00:00",
     "dtend": "2025-09-20T00:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -21052,7 +21122,7 @@
     "dtstart": null,
     "dtend": null,
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
