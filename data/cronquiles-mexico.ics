@@ -11926,7 +11926,7 @@ BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Aug 
  27 - AI\, ML\, and Computer Vision Meetup|Online
 DTSTART:20260827T100000
-CATEGORIES:ai,data,frontend,mobile
+CATEGORIES:ai,data,frontend,mobile,web
 DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  nJoin our virtual meetup to hear talks from experts on cutting-edge topics
   across AI\, ML\, and computer vision.\n\nDate\, Time\, and Location\n\nAu
@@ -11980,7 +11980,32 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  l](https://www.linkedin.com/in/daniel-gural/) is an expert in Physical AI 
  and has been working in the field for over 8 years. Working across healthc
  are he has experience in both operating use case as well as using Visual A
- I as an aid in psychology applications as well.
+ I as an aid in psychology applications as well.\n\n**Seeing Is Not Enough:
+  Visual Grounding\, World Models and Why Computer-Use Agents Fail at Step 
+ 17**\n\nComputer-use agents are a computer vision problem wearing an agent
+  costume: the model has to read a screen it has never seen\, locate the ri
+ ght control among hundreds of near-identical ones\, and understand what ch
+ anged after it clicked — thirty times in a row without drifting. This ta
+ lk covers the two things we built at Obin AI to make that work: a video-ba
+ sed world model that learns the latent dynamics of GUI and document enviro
+ nments\, so the agent can roll out a candidate workflow internally and pic
+ k the branch that doesn't dead-end\, and a checkpoint-based evaluation har
+ ness that scores verifiable intermediate states rather than required actio
+ n sequences.\n\nI'll be specific about the vision side — what the model 
+ needs to represent about an interface and what it can safely ignore\, why 
+ optimising for target-state reachability beat optimising for reconstructio
+ n fidelity\, and how we separate visual grounding failures from planning f
+ ailures\, since they look identical in the logs and need completely differ
+ ent fixes. The arithmetic that motivates all of it: at 90% per-step reliab
+ ility a thirty-step workflow completes 4% of the time\, which is why per-s
+ tep benchmarks flatter these systems so badly.\n\nI'll also cover what did
+ n't work — deep rollouts against an imperfect dynamics model\, and step-
+ level preference data that produced more plausible-looking actions and few
+ er completed tasks.\n\n*About the Speaker*\n\n[Nevasini Sasikumar](https:/
+ /www.linkedin.com/in/nevasini-sasikumar/) is a machine learning researcher
+  at Obin AI\, where she builds video-based world models and computer-use a
+ gents that read screens and operate desktop and web software autonomously\
+ , with finance back-office automation as the deployment domain.
 LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
@@ -12126,6 +12151,23 @@ LOCATION:Wizeline\, Amado Nervo 2200\, Jardines del Sol\, 45050 Zapopan\,
  Jal.\, Mexico
 X-CRONQUILES-ADDRESS:Wizeline\, Amado Nervo 2200\, Jardines del Sol\, 4505
  0 Zapopan\, Jal.\, Mexico
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:México
+X-CRONQUILES-STATE-CODE:MX-MEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|[Test] ticket types|México|México
+DTSTART:20260831T160000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-yhg5\n\nA
+ ddress:\nBanamex Center\nCiudad de México\, Mexico\n\nHosted by Mexico Te
+ ch Week
+LOCATION:Banamex Center\, Av. del Conscripto 311\, Lomas de Sotelo\, Hipó
+ dromo de las Américas\, Miguel Hidalgo\, 11610 Ciudad de México\, CDMX\,
+  Mexico
+X-CRONQUILES-ADDRESS:Banamex Center\, Av. del Conscripto 311\, Lomas de So
+ telo\, Hipódromo de las Américas\, Miguel Hidalgo\, 11610 Ciudad de Méx
+ ico\, CDMX\, Mexico
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:México
