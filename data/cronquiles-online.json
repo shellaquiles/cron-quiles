@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T18:26:13.691017+00:00",
-  "total_events": 417,
+  "generated_at": "2026-08-25T00:41:56.157461+00:00",
+  "total_events": 418,
   "city": "Online",
   "communities": [
     {
@@ -122,6 +122,17 @@
       "name": "Mexico Tech Week",
       "description": "Calendario oficial de Mexico Tech Week 2025.",
       "links": []
+    },
+    {
+      "name": "Product Management Society | CDMX Chapter",
+      "description": "A collective empowering Product Managers to connect, learn from one another and grow.",
+      "links": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/product-management-society-cdmx-chapter",
+          "label": "Meetup"
+        }
+      ]
     },
     {
       "name": "Python CDMX",
@@ -11581,7 +11592,7 @@
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Aug 25 - Advances in AI at NYU|Online",
-      "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from researchers at NYU on cutting-edge topics across AI, ML, and computer vision.\n\n**Date, Time and Location**\n\nAug 25, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/advances-in-ai-at-nyu-august-25-2026)**\n\n**Using Computer Vision to Advance the Sciences**\n\nI'll present some of our ongoing work on using computer vision to create impact in the sciences. These target a two areas, solar physics and evolutionary biology, that deal with objects of radically different sizes but are unified by a need for high quality, trustworthy data.\n\nI'll show off our efforts, done in collaboration with domain experts, that aim to produce the best possible maps of the Sun's powerful magnetic field and have created some of the world's largest repositories of data about bird morphology.\n\n*About the Speaker*\n\n[David Fouhey](https://www.linkedin.com/in/david-fouhey-642120379/) is an Associate Professor at New York University and a research scientist at Polymathic AI. Before joining NYU, he received a PhD in robotics from Carnegie Mellon, was a postdoc at UC Berkeley, and was a professor at University of Michigan.\n\n**Solaris: Building a Multiplayer Video World Model in Minecraft**\n\nThis talk will introduce Solaris: a multiplayer video world model in Minecraft. I will first present SolarisEngine, the software platform we built to simulate realistic multiplayer gameplay between bots at scale, enabling us to collect a large training dataset of aligned multiplayer actions and frames.\n\nI will then discuss our staged training pipeline, starting with single-player pre-training before converting the model into a long-horizon multiplayer generator through bidirectional training, followed by causal training, and concluding with Self Forcing. I will also cover our memory-efficient implementation of Self Forcing, called Checkpointed Self Forcing.\n\nFinally, I will showcase generated videos illustrating how Solaris maintains coherent long-horizon multiplayer interactions.\n\n*About the Speaker*\n\n[Oscar Michel ](https://www.linkedin.com/in/oscar-michel-82a162145/)is a PhD student at NYU advised by Prof. Saining Xie. His research studies world models: generative models of agents interacting in an environment.\n\n**Closing the human to robot gap for dexterous hands**\n\nCollecting task-specific robot data for multi-fingered hands is challenging due to the many difficulties that arise in teleoperation. That is why recently there has been a major focus on learning robot policies directly from human demonstrations. However, human demonstrations are difficult to work with; there is a major morphological and visual gap between human and robot hands, as well as between the environments they operate in.\n\nIn this talk, I'd like to discuss my efforts on closing this gap.\n\n*About the Speaker*\n\n[Irmak Guzey](https://www.linkedin.com/in/irmak-guzey-6a9010175) I'm Irmak (she/her), a rising 3rd year PhD student at New York University, currently advised by Lerrel Pinto. My research focuses on robot learning for dexterous manipulation. I have been awarded a Fulbright scholarship and NYU's Best Master's Thesis Award in the past.",
+      "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from researchers at NYU on cutting-edge topics across AI, ML, and computer vision.\n\n**Date, Time and Location**\n\nAug 25, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/advances-in-ai-at-nyu-august-25-2026)**\n\n**Using Computer Vision to Advance the Sciences**\n\nI'll present some of our ongoing work on using computer vision to create impact in the sciences. These target a two areas, solar physics and evolutionary biology, that deal with objects of radically different sizes but are unified by a need for high quality, trustworthy data.\n\nI'll show off our efforts, done in collaboration with domain experts, that aim to produce the best possible maps of the Sun's powerful magnetic field and have created some of the world's largest repositories of data about bird morphology.\n\n*About the Speaker*\n\n[David Fouhey](https://www.linkedin.com/in/david-fouhey-642120379/) is an Associate Professor at New York University and a research scientist at Polymathic AI. Before joining NYU, he received a PhD in robotics from Carnegie Mellon, was a postdoc at UC Berkeley, and was a professor at University of Michigan.\n\n**Dream to Assembly: Rebuilding the Broken by Imagining the Whole**\n\nGive an intelligent system a pile of broken pieces. Can it recover the object they once formed? And what if some pieces are missing? In this talk, I will present our recent work, from GARF to CRAG, on learning to reconstruct fragmented objects. GARF focuses on generalizing reassembly from synthetic training data to complex real-world fractures through large-scale fracture-aware pretraining and SE(3) flow matching. CRAG goes a step further by asking whether a model can imagine the whole in order to better assemble the parts. By jointly reasoning about fragment poses and complete object geometry, it uses global shape context to resolve ambiguous arrangements and recover missing geometry. Together, these works move 3D reassembly from matching visible pieces toward reasoning about the complete object behind incomplete observations.\n\n*About the Speaker*\n\n[Jing Zhang](https://www.linkedin.com/in/jing-zhang-4b7163285/) is an incoming Faculty Fellow at New York University and currently a postdoctoral researcher working at the intersection of embodied AI, 3D computer vision, robotics, and AI for science. Her research explores how intelligent systems can learn from real-world observations, reason about 3D space, imagine what is not directly observable, and use these capabilities to navigate, interact with, and reconstruct the physical world. Her work spans open-world robot navigation, spatial reasoning, generative world models, 3D reconstruction and reassembly, and computational methods for archaeological and paleoanthropological materials. She was selected as a 2025 Rising Star in EECS.\n\n**Solaris: Building a Multiplayer Video World Model in Minecraft**\n\nThis talk will introduce Solaris: a multiplayer video world model in Minecraft. I will first present SolarisEngine, the software platform we built to simulate realistic multiplayer gameplay between bots at scale, enabling us to collect a large training dataset of aligned multiplayer actions and frames.\n\nI will then discuss our staged training pipeline, starting with single-player pre-training before converting the model into a long-horizon multiplayer generator through bidirectional training, followed by causal training, and concluding with Self Forcing. I will also cover our memory-efficient implementation of Self Forcing, called Checkpointed Self Forcing.\n\nFinally, I will showcase generated videos illustrating how Solaris maintains coherent long-horizon multiplayer interactions.\n\n*About the Speaker*\n\n[Oscar Michel ](https://www.linkedin.com/in/oscar-michel-82a162145/)is a PhD student at NYU advised by Prof. Saining Xie. His research studies world models: generative models of agents interacting in an environment.\n\n**Closing the human to robot gap for dexterous hands**\n\nCollecting task-specific robot data for multi-fingered hands is challenging due to the many difficulties that arise in teleoperation. That is why recently there has been a major focus on learning robot policies directly from human demonstrations. However, human demonstrations are difficult to work with; there is a major morphological and visual gap between human and robot hands, as well as between the environments they operate in.\n\nIn this talk, I'd like to discuss my efforts on closing this gap.\n\n*About the Speaker*\n\n[Irmak Guzey](https://www.linkedin.com/in/irmak-guzey-6a9010175) I'm Irmak (she/her), a rising 3rd year PhD student at New York University, currently advised by Lerrel Pinto. My research focuses on robot learning for dexterous manipulation. I have been awarded a Fulbright scholarship and NYU's Best Master's Thesis Award in the past.",
       "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/315684996/",
       "sources": [
         {
@@ -11598,7 +11609,8 @@
       "tags": [
         "ai",
         "data",
-        "frontend"
+        "frontend",
+        "security"
       ],
       "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
       "country": "",
@@ -12305,6 +12317,37 @@
       "city_code": "",
       "address": "",
       "hash_key": "sept 24 ai ml and computer vision meetup_2026-09-24T16:00:00+00:00"
+    },
+    {
+      "title": "Product Management Society | CDMX Chapter| CDMX Chapter|Online",
+      "description": "Product Management Society | CDMX Chapter\n**Llamando a toda la comunidad de Producto!** Estamos reuniendo a PMs, founders, diseñadores, mercadólogos e ingenieros para una tarde relajada de networking. Si estás en el mundo del producto o quieres empezar en él, ¡ven a conectar con tu comunidad!\n\n**¿Qué puedes esperar?**\n**Dinámicas rompehielos:** Te ayudaremos a saltarte las típicas pláticas incómodas para empezar conversaciones interesantes y valiosas sin esfuerzo. **Networking relajado:** Un formato sin presiones para convivir, compartir ideas y hacer crecer tu red de contactos. **Un ambiente súper amigable:** ¡Cualquiera con interés en Producto es bienvenido! Habrá una gran mezcla de perfiles y asistentes que hablan tanto inglés como español. :)\n\n* **Síguenos en LinkedIn:** [https://www.linkedin.com/company/product-management-society/](https://www.linkedin.com/company/product-management-society/)\n* **Únete a nuestro canal de Slack:** [https://join.slack.com/t/product-mgmt-society/shared_invite/zt-2t477uzhc-0RWKnexUEQLmjlymeZ3_bg](https://join.slack.com/t/product-mgmt-society/shared_invite/zt-2t477uzhc-0RWKnexUEQLmjlymeZ3_bg)\n* **Suscríbete a nuestro blog:** [https://blog.productmanagementsociety.com/](https://blog.productmanagementsociety.com/)\n* **Conecta con la fundadora:** [https://www.linkedin.com/in/gabrielanaumnik?utm_source=share_via&utm_content=profile&utm_medium=memb](https://www.linkedin.com/in/gabrielanaumnik?utm_source=share_via&utm_content=profile&utm_medium=memb)\n\n***\n\n**Calling all Product People!** We're bringing together PMs, founders, designers, marketers, and engineers for a relaxed evening of networking. If you're in the product world or want to be, come connect with your community!\n\n**What to expect:**\n**Interactive Icebreakers:** We’ll help you bypass the awkward small talk and start meaningful conversations effortlessly. **Relaxed Networking:** A low-pressure format to mingle, share ideas, and build your network. **A Welcoming Crowd:** Anyone interested in Product is welcome! Expect a great mix of roles and both English and Spanish speakers. :)\n\n* **Follow us on LinkedIn:** [https://www.linkedin.com/company/product-management-society/](https://www.linkedin.com/company/product-management-society/)\n* **Join our Slack channel:** [https://join.slack.com/t/product-mgmt-society/shared_invite/zt-2t477uzhc-0RWKnexUEQLmjlymeZ3_bg](https://join.slack.com/t/product-mgmt-society/shared_invite/zt-2t477uzhc-0RWKnexUEQLmjlymeZ3_bg)\n* **Subscribe to our blog:** [https://blog.productmanagementsociety.com/](https://blog.productmanagementsociety.com/)\n* **Connect with the Founder:** [https://www.linkedin.com/in/gabrielanaumnik?utm_source=share_via&utm_content=profile&utm_medium=memb](https://www.linkedin.com/in/gabrielanaumnik?utm_source=share_via&utm_content=profile&utm_medium=memb)",
+      "url": "https://www.meetup.com/product-management-society-cdmx-chapter/events/316082500/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/product-management-society-cdmx-chapter/events/316082500/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "We will provide the location closer to the event date, We will provide the location closer to the event date",
+      "online": true,
+      "organizer": "Product Management Society | CDMX Chapter",
+      "dtstart": "2026-09-24T19:00:00-06:00",
+      "dtend": "2026-09-24T21:00:00-06:00",
+      "tags": [
+        "backend",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://www.meetup.com/product-management-society-cdmx-chapter/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "cdmx chapter_2026-09-25T00:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Sept 30 - Building Composable Vision Workflows in FiftyOne|Online",
