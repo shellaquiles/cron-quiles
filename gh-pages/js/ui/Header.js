@@ -165,14 +165,41 @@ export class Header {
         link.href = faviconDataUrl;
     }
 
+    initTypography() {
+        const savedTypo = localStorage.getItem('brand_typography') || 'mono';
+        this.applyTypography(savedTypo);
+    }
+
+    applyTypography(typoKey) {
+        const brandTitleEls = document.querySelectorAll('.brand-title');
+        brandTitleEls.forEach(el => {
+            el.classList.remove('brand-swiss', 'brand-mono');
+            if (typoKey === 'swiss') {
+                el.classList.add('brand-swiss');
+            } else {
+                el.classList.add('brand-mono');
+            }
+        });
+        localStorage.setItem('brand_typography', typoKey);
+    }
+
+    cycleTypography() {
+        const current = localStorage.getItem('brand_typography') || 'mono';
+        const next = current === 'mono' ? 'swiss' : 'mono';
+        this.applyTypography(next);
+    }
+
     applyLogo(logoKey) {
         const logoConfig = BRAND_LOGOS[logoKey] || BRAND_LOGOS.calendar;
         const brandTitleEls = document.querySelectorAll('.brand-title');
         
         brandTitleEls.forEach(el => {
-            el.innerHTML = `${logoConfig.svg}<span>CRON-QUILES</span>`;
-            el.setAttribute('title', `Logo activo: ${logoConfig.name} (Haz clic o pulsa 'L' para probar otro)`);
+            el.innerHTML = `${logoConfig.svg}<span class="brand-text">CRON-QUILES</span>`;
+            el.setAttribute('title', `Logo: ${logoConfig.name} (Clic/'L': cambiar logo | 'F': cambiar tipografía)`);
         });
+
+        const currentTypo = localStorage.getItem('brand_typography') || 'mono';
+        this.applyTypography(currentTypo);
 
         this.updateFavicon(logoConfig.id);
         localStorage.setItem('brand_logo', logoConfig.id);
@@ -187,20 +214,24 @@ export class Header {
     }
 
     bindEvents() {
-        // Clic en el logo para probar las 3 opciones de forma interactiva
+        // Clic en el logo para alternar logos de forma interactiva
         document.querySelectorAll('.brand-title').forEach(el => {
             el.addEventListener('click', (e) => {
-                // Si está en index.html o cualquier otra página, ciclar de forma experimental
                 e.preventDefault();
                 this.cycleLogo();
             });
         });
 
-        // Atajo de teclado: Tecla 'L' para alternar logos
+        // Atajos de teclado:
+        // 'L' -> Cambiar logo SVG
+        // 'F' -> Cambiar tipografía (Swiss Grotesk vs CLI Mono)
         document.addEventListener('keydown', (e) => {
             if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) return;
-            if (e.key.toLowerCase() === 'l') {
+            const key = e.key.toLowerCase();
+            if (key === 'l') {
                 this.cycleLogo();
+            } else if (key === 'f') {
+                this.cycleTypography();
             }
         });
 

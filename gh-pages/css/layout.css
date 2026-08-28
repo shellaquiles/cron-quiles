@@ -48,25 +48,52 @@ header, .site-header {
 }
 
 .brand-title {
-    font-size: 1.6rem;
-    font-weight: 900;
-    letter-spacing: -0.04em;
     display: inline-flex;
     align-items: center;
-    gap: 0.6rem;
+    gap: 0.55rem;
     text-decoration: none;
     color: var(--text);
     cursor: pointer;
     line-height: 1;
+    transition: opacity var(--transition-fast);
 }
 
+.brand-title:hover {
+    opacity: 0.85;
+}
+
+/* El SVG escala en proporción perfecta con la altura del texto */
 .brand-logo-svg {
-    width: 21px;
-    height: 21px;
+    width: 1.15rem;
+    height: 1.15rem;
     stroke: var(--text);
     flex-shrink: 0;
     vertical-align: middle;
     transition: transform 0.25s ease, stroke 0.15s ease;
+}
+
+/* Brand Typography: CLI Terminal Mono (Estilo Oficial Consola Hacker) */
+.brand-text,
+.brand-title .brand-text,
+.brand-title.brand-mono .brand-text,
+.brand-mono .brand-text {
+    font-family: var(--font-mono) !important;
+    font-weight: 700 !important;
+    font-size: 1.02rem !important;
+    letter-spacing: 0.04em !important;
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+/* Swiss Grotesk Alternativo (Opcional vía clase) */
+.brand-title.brand-swiss .brand-text,
+.brand-swiss .brand-text {
+    font-family: var(--font-sans) !important;
+    font-weight: 700 !important;
+    font-size: 1.05rem !important;
+    letter-spacing: -0.03em !important;
+    text-transform: uppercase;
+    color: var(--text);
 }
 
 /* Animación del cursor de consola */
@@ -80,15 +107,15 @@ header, .site-header {
 }
 
 .brand-title:hover .brand-logo-svg {
-    transform: rotate(12deg) scale(1.06);
+    transform: rotate(12deg) scale(1.08);
 }
 
 html.dark .brand-logo-svg {
     stroke: var(--matrix-bright);
-    filter: drop-shadow(0 0 3px rgba(0, 255, 102, 0.45));
+    filter: drop-shadow(0 0 4px rgba(0, 255, 102, 0.45));
 }
 
-.brand-title:hover {
+html.dark .brand-text {
     color: var(--text);
 }
 
