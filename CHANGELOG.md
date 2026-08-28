@@ -7,24 +7,34 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/), v
 
 ---
 
-## [1.9.1] - 2026-08-28
+## [2.0.0] - 2026-08-28
 
 ### Added
-- **Terminal CLI**: navegación mensual (`eventos.next/last/reset`), multi-región (`eventos.region`), filtrado de online, branding Shellaquiles.
-- **GdgCommunityDev Aggregator**: extracción de eventos de Google Developer Groups vía Bevy API.
-- **Frontend Feeds**: CHIDAS TECH, FinTech México, Founder Friends MX, Fvckup Nights, Management In Tech, This Week in Fintech, v0 Prompt to Production MX.
-- **Eventos Manuales**: RustMX, Linuxcabal, ClawCon CDMX/GDL, FLISOL, Mobil3, KCD, Senior Dev, Avalanche Hackathon.
-- **Identidad Visual**: logo triple-color en consola y arte ASCII actualizado.
-- **Footer Dinámico**: badge `VERSIÓN` en las 4 páginas, leído del JSON generado vía `DataService.getVersion()`.
-- **Archivo `VERSION`**: fuente única de verdad para la versión del proyecto.
+- **Rediseño Editorial y UI/UX Suizo**:
+  - Paleta de alto contraste fósforo Matrix (`#00ff66`), fondo azabache y tipografías Geist / Geist Mono.
+  - Footer de 2 columnas justificadas en extremos (`space-between`) con atribución de marca y badges de estado.
+  - Heatmap de densidad de eventos por mes y badges de estado territorial con codificación de color por región.
+  - Soporte integral de navegación por teclado y modal flotante de atajos (<kbd>U</kbd>, <kbd>←</kbd>, <kbd>→</kbd>, <kbd>T</kbd>, <kbd>D</kbd>, <kbd>?</kbd>).
+- **Internacionalización Completa (ES / EN)**:
+  - Diccionario simétrico en `I18n.js` con reactividad instantánea en DOM y cambio de locale (`es-MX` vs `en-US`).
+- **SEO Programático & Schema.org**:
+  - Inyección dinámica en runtime de `ItemList`, `Event`, `WebApplication` y `FAQPage` para Google Rich Results.
+- **Versionado Dinámico Unificado**:
+  - Archivo `VERSION` como fuente única de verdad para backend (`hatchling`), generación `.ics` (`PRODID`), `.json` (`version`) y frontend (`DataService.getVersion()`).
+- **Terminal CLI Integrada**:
+  - Consola técnica con navegación mensual (`eventos.next`, `eventos.last`, `eventos.reset`), filtrado presencial y gestión multi-región.
+- **GdgCommunityDev Aggregator**: extracción estructurada de Google Developer Groups vía Bevy Platform REST API.
+- **Nuevos Feeds y Eventos Manuales**:
+  - Feeds: CHIDAS TECH, FinTech México, Founder Friends MX, Fvckup Nights, Management In Tech, This Week in Fintech, v0 Prompt to Production MX.
+  - Manuales: RustMX, Linuxcabal, ClawCon CDMX/GDL, FLISOL, Mobil3, KCD, Senior Dev, Avalanche Hackathon.
 
 ### Changed
-- **Rendimiento**: `sleep` de rate-limit solo cuando hay request real (no en caché). Feeds descargados en paralelo (10 workers).
-- **Modo `--fast`**: omite enriquecimiento de ubicación y geocoding de historial.
-- **`PRODID` en `.ics`**: incluye número de versión `-//Shellaquiles//CronQuiles vX.Y.Z//ES`.
-- **JSON generado**: incluye campo `version` en todos los archivos de salida.
-- **`pyproject.toml`**: versión dinámica desde `VERSION` vía hatchling.
-- **`SECURITY.md`**: tabla de versiones soportadas actualizada a `1.9.x`.
+- **Rendimiento y Extracción Paralela**:
+  - Rate-limiting adaptativo (sleep solo en llamadas reales) y descarga paralela de feeds (10 workers).
+  - Modo `--fast` para omitir enriquecimiento de ubicación y geocoding de historial en desarrollo local.
+- **`PRODID` y JSON de Salida**:
+  - Inyección dinámica de versión en `.ics` (`-//Shellaquiles//CronQuiles v2.0.0//ES`) y campo `version` en todos los archivos `.json`.
+- **`SECURITY.md`**: tabla de versiones soportadas actualizada a `2.0.x`.
 
 ---
 
@@ -165,8 +175,8 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/), v
 
 ---
 
-[Unreleased]: https://github.com/shellaquiles/cron-quiles/compare/v1.9.1...HEAD
-[1.9.1]: https://github.com/shellaquiles/cron-quiles/compare/v1.9.0...v1.9.1
+[Unreleased]: https://github.com/shellaquiles/cron-quiles/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.9.0...v2.0.0
 [1.9.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.8.0...v1.9.0
 [1.8.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.7.0...v1.8.0
 [1.7.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.6.0...v1.7.0
