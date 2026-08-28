@@ -13,9 +13,6 @@ This repository uses an Agentic Workspace structure. Do NOT guess the architectu
 
 - **General Architecture & Pipeline:** Read `/.agents/instructions/08-pipeline-architecture.md`
 - **Project Structure & Layout:** Read `/.agents/instructions/09-project-structure.md`
-- **Testing & Quality Assurance:** Read `/.agents/instructions/05-testing-rules.md`
-- **Deployment & CI/CD Flow:** Read `/.agents/instructions/06-deployment-internals.md`
-- **Documentation Guidelines:** Read `/.agents/instructions/04-documentation-rules.md`
 
 ## 🛠️ Skills & Workflows
 If you are tasked with a specific operation, check the `.agents/skills/` and `.agents/workflows/` directories FIRST.

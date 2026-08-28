@@ -87,32 +87,15 @@ Esto genera:
 
 ## 📚 Documentación
 
-La documentación detallada está disponible en los directorios `.agents/instructions/` y `docs/`:
-
-| Tema | Descripción | Enlace |
-| :--- | :--- | :--- |
-| **Arquitectura del Pipeline** | Especificaciones técnicas y detalles lógicos | [08-pipeline-architecture.md](.agents/instructions/08-pipeline-architecture.md) |
-| **Estructura** | Disposición de directorios y explicación de módulos | [09-project-structure.md](.agents/instructions/09-project-structure.md) |
-| **Comunidades** | Lista de comunidades integradas y su estado | [COMMUNITIES.md](docs/COMMUNITIES.md) |
-| **Eventos Manuales** | Guía para agregar eventos manualmente vía JSON | [MANUAL_EVENTS.md](docs/MANUAL_EVENTS.md) |
-| **Despliegue** | Guía de configuración de GitHub Pages & Actions | [GITHUB_PAGES_SETUP.md](docs/GITHUB_PAGES_SETUP.md) |
+- **Comunidades Integradas:** [docs/COMMUNITIES.md](docs/COMMUNITIES.md)
+- **Eventos Manuales:** [docs/MANUAL_EVENTS.md](docs/MANUAL_EVENTS.md)
+- **Arquitectura del Pipeline:** [.agents/instructions/08-pipeline-architecture.md](.agents/instructions/08-pipeline-architecture.md)
+- **Estructura del Proyecto:** [.agents/instructions/09-project-structure.md](.agents/instructions/09-project-structure.md)
 
 ## 🤝 Contribución
 
-¡Agradecemos las contribuciones! Por favor, consulta [CONTRIBUTING.md](CONTRIBUTING.md) para más detalles sobre cómo proponer cambios.
-
-**🤖 Agentic Workspace:** Este repositorio está estructurado como un espacio de trabajo listo para IA. Si utilizas asistentes de IA (Cursor, Windsurf, Copilot, Claude), estos leerán automáticamente nuestro archivo `AI.md` y navegarán por nuestra base de conocimiento `.agents/` para asegurar que su código cumpla con nuestros estrictos estándares arquitectónicos.
-
-## 👥 Contribuidores
-
-- **Ricardo Lira** ([@richlira](https://github.com/richlira))
-- **Ivan Galaviz** ([@ivanovishado](https://github.com/ivanovishado))
-- **Raul Estrada** ([@uurl](https://github.com/uurl))
-- **Geronimo Orozco** ([@patux](https://github.com/patux))
-- **Daniel Paredes** ([@DanielParedes](https://github.com/DanielParedes))
-- **Mariano Rodríguez** ([@MarianoRD](https://github.com/MarianoRD))
-- **Ben** ([@dataforxyz](https://github.com/dataforxyz))
+¡Agradecemos las contribuciones! Por favor, consulta [CONTRIBUTING.md](CONTRIBUTING.md) para más detalles sobre cómo proponer cambios o integrar nuevos feeds en `config/feeds.yaml`.
 
 ---
 
-*Hecho con ❤️ para la Comunidad Tecnológica de México.*
+*Hecho con ❤️ para la Comunidad Tecnológica de México • [shellaquiles.org](https://shellaquiles.org)*
