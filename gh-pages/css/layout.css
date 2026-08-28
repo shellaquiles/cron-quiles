@@ -241,6 +241,17 @@ main {
     gap: 0.6rem;
 }
 
+.footer-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.footer-links {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
 .footer a {
     color: var(--text);
     text-decoration: underline;
@@ -249,7 +260,7 @@ main {
 }
 
 .footer a:hover {
-    color: var(--accent);
+    color: var(--matrix-bright);
 }
 
 /* ==========================================================================

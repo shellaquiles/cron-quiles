@@ -240,6 +240,9 @@ class App {
                 this.communityList.render(data.communities || []);
             }
 
+            // Inyectar Datos Estructurados Schema.org JSON-LD (Rich Snippets para Google)
+            this.injectSchemaOrgJsonLd(events);
+
         } catch (error) {
             console.error('Error in loadCityData:', error);
             if (calendarContainer && (!this.calendar || !this.calendar.events || this.calendar.events.length === 0)) {
@@ -247,6 +250,72 @@ class App {
                 calendarContainer.innerHTML = `<div class="events-error">${msg}</div>`;
             }
         }
+    }
+
+    injectSchemaOrgJsonLd(events) {
+        if (!events || !events.length) return;
+        
+        let schemaScript = document.getElementById('schema-events-ld');
+        if (!schemaScript) {
+            schemaScript = document.createElement('script');
+            schemaScript.id = 'schema-events-ld';
+            schemaScript.type = 'application/ld+json';
+            document.head.appendChild(schemaScript);
+        }
+
+        // Tomar hasta 50 eventos para el rich snippet
+        const relevant = events.slice(0, 50).map((e, index) => {
+            const isOnline = !e.location || e.online === true || (e.location && e.location.toLowerCase().includes('online'));
+            const mainUrl = e.url || (e.sources && e.sources[0]?.url) || 'https://cron-quiles.org';
+            
+            const eventSchema = {
+                "@type": "Event",
+                "name": e.title || e.summary || 'Evento Tech',
+                "startDate": e.dtstart,
+                "endDate": e.dtend || e.dtstart,
+                "eventStatus": "https://schema.org/EventScheduled",
+                "eventAttendanceMode": isOnline 
+                    ? "https://schema.org/OnlineEventAttendanceMode" 
+                    : "https://schema.org/OfflineEventAttendanceMode",
+                "description": e.description ? e.description.slice(0, 250) : (e.title || 'Evento tecnológico en México'),
+                "organizer": {
+                    "@type": "Organization",
+                    "name": e.organizer || "Comunidad Tech México",
+                    "url": mainUrl
+                }
+            };
+
+            if (isOnline) {
+                eventSchema.location = {
+                    "@type": "VirtualLocation",
+                    "url": mainUrl
+                };
+            } else {
+                eventSchema.location = {
+                    "@type": "Place",
+                    "name": e.location || "Sede por confirmar",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": e.city || "Ciudad de México",
+                        "addressCountry": "MX"
+                    }
+                };
+            }
+
+            return {
+                "@type": "ListItem",
+                "position": index + 1,
+                "item": eventSchema
+            };
+        });
+
+        const jsonLd = {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "itemListElement": relevant
+        };
+
+        schemaScript.textContent = JSON.stringify(jsonLd);
     }
 
     async loadFeaturedEvents(city) {
@@ -282,6 +351,9 @@ class App {
             upcoming.forEach(e => {
                 listContainer.appendChild(tempCalendar.createEventCard(e));
             });
+
+            // Inyectar Datos Estructurados Schema.org JSON-LD para la home
+            this.injectSchemaOrgJsonLd(events);
 
             // Actualizar contador en enlace 'Ver todos (N)'
             const totalCountLink = document.getElementById('linkAllEvents');
