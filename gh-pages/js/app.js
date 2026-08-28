@@ -93,11 +93,14 @@ class App {
         // 1. Selector Dropdown Compacto (Swiss Select)
         const citySelect = document.getElementById('city-select');
         if (citySelect && this.states.length) {
-            citySelect.innerHTML = visibleStates.map(state => `
-                <option value="${state.slug}" ${state.slug === currentCity ? 'selected' : ''}>
-                    ${state.name} (${state.event_count || 0})
-                </option>
-            `).join('');
+            citySelect.innerHTML = visibleStates.map(state => {
+                const displayName = state.slug === 'mexico' ? 'Todo México' : state.name;
+                return `
+                    <option value="${state.slug}" ${state.slug === currentCity ? 'selected' : ''}>
+                        ${displayName}
+                    </option>
+                `;
+            }).join('');
         }
 
         const formatSelect = document.getElementById('format-select');
