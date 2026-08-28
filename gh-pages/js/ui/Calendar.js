@@ -415,7 +415,11 @@ export class Calendar {
 
         const isOnline = this.isEventOnline(event);
         const stateCode = this.getStateBadge(event);
-        const stateBadge = DOM.create('span', { className: 'badge-state', text: stateCode });
+        const stateBadge = DOM.create('span', { 
+            className: `badge-state state-${stateCode.toLowerCase()}`, 
+            attributes: { 'data-state': stateCode.toLowerCase() },
+            text: stateCode 
+        });
         metaTop.appendChild(stateBadge);
 
         const isToday = DateUtils.isToday(event.dtstart);

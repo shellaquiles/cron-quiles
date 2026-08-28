@@ -575,16 +575,110 @@ html.dark .org-badge {
     color: var(--matrix-bright);
 }
 
-/* Badge de Estado / Ciudad */
+/* Badge de Estado / Ciudad con Código de Colores */
 .badge-state {
     font-family: var(--font-mono);
     font-size: 0.65rem;
-    font-weight: 700;
+    font-weight: 800;
     border: 1px solid var(--border);
-    padding: 0.1rem 0.35rem;
+    padding: 0.12rem 0.4rem;
     border-radius: 2px;
-    color: var(--text-muted);
+    color: var(--text);
     line-height: 1;
+    letter-spacing: 0.04em;
+    display: inline-flex;
+    align-items: center;
+    background: var(--bg-surface);
+    transition: all var(--transition-fast);
+}
+
+/* Código de Colores por Región / Estado */
+
+/* 1. CDMX - Cyan / Electric Teal */
+.badge-state.state-cdmx,
+.badge-state[data-state="cdmx"] {
+    color: #38bdf8;
+    border-color: rgba(56, 189, 248, 0.45);
+    background: rgba(56, 189, 248, 0.08);
+}
+
+/* 2. PUE (Puebla) - Ambar / Cálido */
+.badge-state.state-pue,
+.badge-state[data-state="pue"] {
+    color: #fbbf24;
+    border-color: rgba(251, 191, 36, 0.45);
+    background: rgba(251, 191, 36, 0.08);
+}
+
+/* 3. JAL (Jalisco / Guadalajara) - Violeta / Púrpura */
+.badge-state.state-jal,
+.badge-state[data-state="jal"] {
+    color: #c084fc;
+    border-color: rgba(192, 132, 252, 0.45);
+    background: rgba(192, 132, 252, 0.08);
+}
+
+/* 4. MTY / NLE (Nuevo León / Monterrey) - Fucsia / Coral */
+.badge-state.state-mty,
+.badge-state.state-nle,
+.badge-state[data-state="mty"],
+.badge-state[data-state="nle"] {
+    color: #fb7185;
+    border-color: rgba(251, 113, 133, 0.45);
+    background: rgba(251, 113, 133, 0.08);
+}
+
+/* 5. BCN (Baja California / Tijuana) - Azul Cobalto */
+.badge-state.state-bcn,
+.badge-state[data-state="bcn"] {
+    color: #60a5fa;
+    border-color: rgba(96, 165, 250, 0.45);
+    background: rgba(96, 165, 250, 0.08);
+}
+
+/* 6. YUC (Yucatán / Mérida) - Esmeralda / Jade */
+.badge-state.state-yuc,
+.badge-state[data-state="yuc"] {
+    color: #34d399;
+    border-color: rgba(52, 211, 153, 0.45);
+    background: rgba(52, 211, 153, 0.08);
+}
+
+/* 7. QRO (Querétaro) - Naranja / Sunset */
+.badge-state.state-qro,
+.badge-state[data-state="qro"] {
+    color: #fb923c;
+    border-color: rgba(251, 146, 60, 0.45);
+    background: rgba(251, 146, 60, 0.08);
+}
+
+/* 8. TLA (Tlaxcala) - Rosa Magenta */
+.badge-state.state-tla,
+.badge-state[data-state="tla"] {
+    color: #f472b6;
+    border-color: rgba(244, 114, 182, 0.45);
+    background: rgba(244, 114, 182, 0.08);
+}
+
+/* 9. MEX (Estado de México) - Verde Lima */
+.badge-state.state-mex,
+.badge-state[data-state="mex"] {
+    color: #a3e635;
+    border-color: rgba(163, 230, 53, 0.45);
+    background: rgba(163, 230, 53, 0.08);
+}
+
+/* 10. ONLINE - Matrix Bright Green */
+.badge-state.state-online,
+.badge-state[data-state="online"] {
+    color: var(--matrix-bright);
+    border-color: rgba(0, 255, 102, 0.45);
+    background: rgba(0, 255, 102, 0.08);
+}
+
+/* Hover con sutil glow técnico */
+html.dark .badge-state:hover {
+    box-shadow: 0 0 6px currentColor;
 }
 
 /* Hora */
