@@ -251,11 +251,13 @@ export class Header {
             });
         });
 
-        // Actualizar UI activa del idioma
+        // Actualizar UI activa del idioma y labels dependientes
         appStore.subscribe('lang', (currentLang) => {
             document.querySelectorAll('.lang-btn').forEach(btn => {
                 btn.classList.toggle('active', btn.dataset.lang === currentLang);
             });
+            this.updateThemeLabels();
+            this.updateLastModified();
         });
     }
 

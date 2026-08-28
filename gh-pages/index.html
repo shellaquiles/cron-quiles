@@ -155,44 +155,44 @@
         <main class="home-container">
             <!-- 1. Hero Minimalista y Directo: Enfoque Nacional -->
             <section class="hero-section">
-                <div class="hero-badge">EVENTOS TECH MÉXICO</div>
-                <h1 class="hero-title">El calendario unificado del ecosistema tecnológico en México.</h1>
-                <p class="hero-desc">
+                <div class="hero-badge" data-i18n="badge.hero">EVENTOS TECH MÉXICO</div>
+                <h1 class="hero-title" data-i18n="hero.title">El calendario unificado del ecosistema tecnológico en México.</h1>
+                <p class="hero-desc" data-i18n="hero.desc">
                     Monitoreamos y sincronizamos los eventos de las principales comunidades técnicas del país: desde Ciudad de México, Guadalajara y Monterrey hasta Puebla y modalidades remotas. Todo en un solo feed abierto y sin fines de lucro.
                 </p>
                 <div class="hero-actions">
-                    <a href="eventos.html" class="btn btn-main">Explorar eventos ↗</a>
-                    <a href="suscribir.html" class="btn btn-outline">+ Añadir a mi calendario</a>
+                    <a href="eventos.html" class="btn btn-main" data-i18n="landing.explorarEventos">Explorar eventos ↗</a>
+                    <a href="suscribir.html" class="btn btn-outline" data-i18n="landing.anadirCalendario">+ Añadir a mi calendario</a>
                 </div>
             </section>
 
             <!-- 2. Sección de Eventos Próximos (Listado real directo) -->
             <section class="featured-section">
                 <div class="section-header">
-                    <span class="section-title">PRÓXIMOS EVENTOS</span>
-                    <a href="eventos.html" class="link-all" id="linkAllEvents">VER CALENDARIO COMPLETO ↗</a>
+                    <span class="section-title" data-i18n="landing.proximosEventos">PRÓXIMOS EVENTOS</span>
+                    <a href="eventos.html" class="link-all" id="linkAllEvents" data-i18n="landing.verCalendarioCompleto">VER CALENDARIO COMPLETO ↗</a>
                 </div>
 
                 <!-- Lista compacta de eventos reales -->
                 <div id="featured-events-list" class="event-list">
-                    <div class="events-loading">Cargando eventos...</div>
+                    <div class="events-loading" data-i18n="calendar.loading">Cargando eventos...</div>
                 </div>
             </section>
 
             <!-- 3. Intención: ¿Organizas un evento? -->
             <section class="editorial-card">
-                <h2>¿Organizas un evento de tecnología en México?</h2>
-                <p>
+                <h2 data-i18n="landing.organizeTitle">¿Organizas un evento de tecnología en México?</h2>
+                <p data-i18n="landing.organizeDesc">
                     Comparte tu evento con miles de desarrolladores, ingenieros y entusiastas tech en todo el país. Ya sea presencial o en línea, añade la fecha de tu meetup, hackathon o workshop para sincronizarlo automáticamente con la red comunitaria.
                 </p>
                 <div style="margin-top: 1rem;">
-                    <a href="https://github.com/shellaquiles/cron-quiles/issues/new?template=proponer-evento.md" target="_blank" rel="noopener" class="btn btn-main">Proponer un Evento ↗</a>
+                    <a href="https://github.com/shellaquiles/cron-quiles/issues/new?template=proponer-evento.md" target="_blank" rel="noopener" class="btn btn-main" data-i18n="landing.proposeBtn">Proponer un Evento ↗</a>
                 </div>
             </section>
 
             <!-- 4. Preguntas Frecuentes (FAQ SEO & Rich Snippets) -->
             <section class="editorial-card faq-section">
-                <h2>Preguntas Frecuentes</h2>
+                <h2 data-i18n="faq.title">Preguntas Frecuentes</h2>
                 <div class="faq-list" style="display: flex; flex-direction: column; gap: 1.2rem; margin-top: 1rem;">
                     <div class="faq-item">
                         <strong style="color: var(--text); font-size: 0.95rem;">¿Qué es Cron-Quiles?</strong>
@@ -223,30 +223,30 @@
             <div class="footer-left">
                 <div class="footer-credits">
                     <span class="brand-sep">//</span>
-                    <span>un proyecto de</span>
+                    <span data-i18n="footer.project">un proyecto de</span>
                     <a href="https://shellaquiles.org" target="_blank" rel="noopener" class="footer-link"><strong>shellaquiles.org</strong></a>
                     <span class="sep">•</span>
-                    <span>por</span>
+                    <span data-i18n="footer.by">por</span>
                     <a href="https://github.com/pixelead0" target="_blank" rel="noopener" class="footer-link"><strong>pixelead0</strong></a>
                 </div>
                 <div class="footer-nav">
-                    <a href="https://github.com/shellaquiles/cron-quiles" target="_blank" rel="noopener" class="footer-sublink">GitHub</a>
+                    <a href="https://github.com/shellaquiles/cron-quiles" target="_blank" rel="noopener" class="footer-sublink" data-i18n="footer.github">GitHub</a>
                     <span class="sep">•</span>
                     <a href="https://shellaquiles.org" target="_blank" rel="noopener" class="footer-sublink">shellaquiles.org</a>
                     <span class="sep">•</span>
-                    <a href="comunidades.html" class="footer-sublink">Comunidades</a>
+                    <a href="comunidades.html" class="footer-sublink" data-i18n="footer.communities">Comunidades</a>
                 </div>
             </div>
 
             <!-- Columna Derecha: Timestamp Técnico -->
             <div class="footer-right">
                 <div class="sync-status">
-                    <span class="sync-label">VERSIÓN:</span>
+                    <span class="sync-label" data-i18n="footer.version">VERSIÓN:</span>
                     <span class="sync-badge" data-version>v1.9.1</span>
                 </div>
                 <div class="sync-status">
-                    <span class="sync-label">ÚLTIMA ACTUALIZACIÓN:</span>
-                    <span class="sync-badge" id="last-update">Cargando...</span>
+                    <span class="sync-label" data-i18n="footer.lastUpdate">ÚLTIMA ACTUALIZACIÓN:</span>
+                    <span class="sync-badge" id="last-update" data-i18n="footer.loading">Cargando...</span>
                 </div>
             </div>
         </footer>
