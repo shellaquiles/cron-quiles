@@ -343,28 +343,125 @@
     text-transform: uppercase;
 }
 
-/* Event Info Column */
+/* Contenedor central del evento */
 .event-content, .event-info {
     display: flex;
     flex-direction: column;
-    gap: 0.35rem;
+    gap: 0.45rem;
 }
 
-.event-meta, .event-metadata {
+/* Fila superior de metadatos */
+.event-meta-top {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.6rem;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    flex-wrap: wrap;
+}
+
+/* Nombre de la comunidad como etiqueta destacada */
+.org-badge {
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: 0.03em;
+}
+
+html.dark .org-badge {
+    color: var(--matrix-bright);
+}
+
+/* Badge de Estado / Ciudad */
+.badge-state {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    font-weight: 700;
+    border: 1px solid var(--border);
+    padding: 0.1rem 0.35rem;
+    border-radius: 2px;
+    color: var(--text-muted);
+    line-height: 1;
+}
+
+/* Hora */
+.meta-time {
+    font-family: var(--font-mono);
+    color: var(--text-muted);
+    font-size: 0.72rem;
+}
+
+/* Título */
+.event-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0.1rem 0;
+    color: var(--text);
+    letter-spacing: -0.01em;
+}
+
+.event-title a {
+    color: var(--text);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.event-title a:hover {
+    color: var(--matrix-bright);
+}
+
+/* Fila de Ubicación */
+.event-venue {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
     font-family: var(--font-mono);
     font-size: 0.75rem;
     color: var(--text-muted);
     flex-wrap: wrap;
 }
 
+.venue-name {
+    color: var(--text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 520px;
+}
+
+/* Enlace a mapa estilo botón técnico discreto */
+.map-link {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.1rem 0.4rem;
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    color: var(--text-muted);
+    transition: all 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    line-height: 1.3;
+}
+
+.map-link:hover {
+    color: var(--text);
+    border-color: var(--text);
+    background-color: var(--bg-subtle);
+}
+
+html.dark .map-link:hover {
+    border-color: var(--matrix-bright);
+    color: var(--matrix-bright);
+}
+
 .badge-live {
     display: inline-flex;
     align-items: center;
     gap: 0.35rem;
-    color: var(--accent);
+    color: var(--matrix-bright);
     font-weight: 700;
     font-family: var(--font-mono);
     font-size: 0.7rem;
@@ -373,7 +470,7 @@
 .live-dot {
     width: 6px;
     height: 6px;
-    background: var(--accent);
+    background: var(--matrix-bright);
     border-radius: 50%;
     animation: pulse 1.5s infinite;
 }
@@ -454,7 +551,15 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    min-width: 120px;
+    min-width: 130px;
+    align-items: stretch;
+}
+
+.event-actions .btn-action,
+.event-actions .btn-main,
+.event-actions .btn-outline {
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .btn-action, .btn-main {

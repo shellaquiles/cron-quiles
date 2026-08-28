@@ -317,67 +317,100 @@ export class Calendar {
         return firstLine.slice(0, maxLen - 1).trim() + '…';
     }
 
+    getPlatformName(url) {
+        if (!url || typeof url !== 'string') return 'Registro ↗';
+        const lower = url.toLowerCase();
+        if (lower.includes('lu.ma') || lower.includes('luma.com')) return 'Ver en Luma ↗';
+        if (lower.includes('meetup.com')) return 'Ver en Meetup ↗';
+        if (lower.includes('eventbrite.')) return 'Ver en Eventbrite ↗';
+        if (lower.includes('ticketmaster.')) return 'Boletos ↗';
+        if (lower.includes('github.com')) return 'Ver en GitHub ↗';
+        if (lower.includes('youtube.com') || lower.includes('youtu.be')) return 'Ver en YouTube ↗';
+        if (lower.includes('twitch.tv')) return 'Ver en Twitch ↗';
+        if (lower.includes('zoom.us')) return 'Entrar a Zoom ↗';
+        if (lower.includes('discord.')) return 'Unirse a Discord ↗';
+        return 'Registro ↗';
+    }
+
+    getStateBadge(event) {
+        if (this.isEventOnline(event)) return 'ONLINE';
+        const raw = (event.state || event.city_code || event.city || '').toUpperCase();
+        if (raw.includes('PUE') || raw.includes('PUEBLA')) return 'PUE';
+        if (raw.includes('CMX') || raw.includes('CDMX') || raw.includes('CIUDAD DE MÉXICO') || raw.includes('MEXICO CITY')) return 'CDMX';
+        if (raw.includes('JAL') || raw.includes('JALISCO') || raw.includes('GUADALAJARA')) return 'JAL';
+        if (raw.includes('BCN') || raw.includes('BAJA') || raw.includes('TIJUANA')) return 'BCN';
+        if (raw.includes('NLE') || raw.includes('NUEVO LEÓN') || raw.includes('MONTERREY')) return 'MTY';
+        if (raw.includes('YUC') || raw.includes('YUCATÁN') || raw.includes('MÉRIDA')) return 'YUC';
+        if (raw.includes('QRO') || raw.includes('QUERÉTARO')) return 'QRO';
+        if (raw.includes('TLA') || raw.includes('TLAXCALA')) return 'TLA';
+        if (raw.includes('MEX') || raw.includes('EDOMEX')) return 'MEX';
+        return raw.slice(0, 4) || 'MX';
+    }
+
     createEventCard(event) {
         const card = DOM.create('article', { className: 'event-item' });
         const d = new Date(event.dtstart);
         card.setAttribute('data-date', d.toLocaleDateString('en-CA', { timeZone: 'America/Mexico_City' }));
 
-        // 1. Badge Fecha
+        // 1. Badge de Fecha
         const dateBadgeInfo = DateUtils.formatDateBadge(event.dtstart);
         const dateCol = DOM.create('div', { className: 'date-badge' });
         dateCol.appendChild(DOM.create('span', { className: 'date-number', text: dateBadgeInfo.dayNumber }));
         dateCol.appendChild(DOM.create('span', { className: 'date-meta', text: dateBadgeInfo.dayMeta }));
         card.appendChild(dateCol);
 
-        // 2. Info de Evento
+        // 2. Información del Evento
         const infoCol = DOM.create('div', { className: 'event-content' });
 
-        const metaRow = DOM.create('div', { className: 'event-meta' });
-        const isToday = DateUtils.isToday(event.dtstart);
-        if (isToday) {
-            const liveBadge = DOM.create('span', { className: 'badge-live' });
-            liveBadge.innerHTML = `<span class="live-dot"></span>${i18n.t('badge.live') || 'HOY'}`;
-            metaRow.appendChild(liveBadge);
-            metaRow.appendChild(DOM.create('span', { text: '•' }));
-        }
-
-        const startStr = DateUtils.formatTime(event.dtstart);
-        const endStr = DateUtils.formatTime(event.dtend);
-        const timeStr = (startStr && endStr && startStr !== endStr) ? `${startStr} - ${endStr}` : startStr;
-        if (timeStr) {
-            metaRow.appendChild(DOM.create('span', { text: `${timeStr} CST` }));
-            metaRow.appendChild(DOM.create('span', { text: '•' }));
-        }
-
-        const isOnline = this.isEventOnline(event);
-        let locText = isOnline ? 'ONLINE' : (event.location ? this.shortenLocation(event.location) : (event.city || 'México'));
-        metaRow.appendChild(DOM.create('span', { text: locText.toUpperCase() }));
-
-        infoCol.appendChild(metaRow);
-
-        // Título
+        // Parsear Título y Organizador primero
         const rawTitle = event.title || event.summary || 'Evento sin título';
-        let categoryLabel = event.organizer || null;
+        let orgName = event.organizer || null;
         let displayName = rawTitle;
 
         if (rawTitle.includes('|')) {
             const parts = rawTitle.split('|').map(p => p.trim());
             if (parts.length >= 2) {
-                categoryLabel = parts[0];
+                orgName = parts[0];
                 displayName = parts[1];
             }
         }
 
-        if (categoryLabel) {
-            infoCol.appendChild(DOM.create('div', { className: 'event-organizer', text: categoryLabel }));
+        // Fila 1: Comunidad destacada + Estado/Ciudad + Hora + Live
+        const metaTop = DOM.create('div', { className: 'event-meta-top' });
+        
+        if (orgName) {
+            metaTop.appendChild(DOM.create('span', { className: 'org-badge', text: orgName.toUpperCase() }));
         }
 
+        const isOnline = this.isEventOnline(event);
+        const stateCode = this.getStateBadge(event);
+        const stateBadge = DOM.create('span', { className: 'badge-state', text: stateCode });
+        metaTop.appendChild(stateBadge);
+
+        const isToday = DateUtils.isToday(event.dtstart);
+        if (isToday) {
+            const liveBadge = DOM.create('span', { className: 'badge-live' });
+            liveBadge.innerHTML = `<span class="live-dot"></span>${i18n.t('badge.live') || 'HOY'}`;
+            metaTop.appendChild(liveBadge);
+        }
+
+        const startStr = DateUtils.formatTime(event.dtstart);
+        const endStr = DateUtils.formatTime(event.dtend);
+        const timeStr = (startStr && endStr && startStr !== endStr) ? `${startStr} – ${endStr} CST` : (startStr ? `${startStr} CST` : '');
+        if (timeStr) {
+            metaTop.appendChild(DOM.create('span', { className: 'meta-time', text: timeStr }));
+        }
+
+        infoCol.appendChild(metaTop);
+
+        // Fila 2: Título Principal
         const titleEl = DOM.create('h2', { className: 'event-title' });
-        if (event.url) {
+        const mainUrl = event.url || (event.sources && event.sources[0]?.url) || '#';
+        if (mainUrl && mainUrl !== '#') {
             const link = DOM.create('a', {
                 text: displayName,
                 attributes: {
-                    href: addUtmSource(event.url),
+                    href: addUtmSource(mainUrl),
                     target: '_blank',
                     rel: 'noopener'
                 }
@@ -388,7 +421,31 @@ export class Calendar {
         }
         infoCol.appendChild(titleEl);
 
-        // Tags
+        // Fila 3: Ubicación y Link de Mapa limpios
+        const venueRow = DOM.create('div', { className: 'event-venue' });
+        if (!isOnline && event.location) {
+            const venueName = DOM.create('span', { className: 'venue-name', text: this.shortenLocation(event.location) });
+            venueRow.appendChild(venueName);
+
+            const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.location)}`;
+            const mapLink = DOM.create('a', {
+                className: 'map-link',
+                text: 'MAPA ↗',
+                attributes: {
+                    href: mapUrl,
+                    target: '_blank',
+                    rel: 'noopener'
+                }
+            });
+            venueRow.appendChild(mapLink);
+            infoCol.appendChild(venueRow);
+        } else if (isOnline) {
+            const venueName = DOM.create('span', { className: 'venue-name', text: 'Evento Virtual / Remoto' });
+            venueRow.appendChild(venueName);
+            infoCol.appendChild(venueRow);
+        }
+
+        // Fila 4: Tags de Tecnología
         const tagsWrapper = DOM.create('div', { className: 'tag-container' });
         if (isOnline) {
             tagsWrapper.appendChild(DOM.create('span', { className: 'tag', text: '#online' }));
@@ -406,14 +463,13 @@ export class Calendar {
 
         card.appendChild(infoCol);
 
-        // 3. Acciones
+        // 3. Acciones con Plataforma Dinámica
         const actionsCol = DOM.create('div', { className: 'event-actions' });
-        const mainUrl = event.url || (event.sources && event.sources[0]?.url) || '#';
-        const actionLabel = isOnline ? (i18n.t('btn.join') || 'Unirse ↗') : (i18n.t('btn.register') || 'Registro ↗');
+        const platformLabel = this.getPlatformName(mainUrl);
         
         const regBtn = DOM.create('a', {
-            className: 'btn-action',
-            text: actionLabel,
+            className: 'btn-main',
+            text: platformLabel,
             attributes: {
                 href: addUtmSource(mainUrl),
                 target: '_blank',
