@@ -4,23 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐢</text></svg>">
-    <title>🐢 Cron-Quiles - Eventos Tech México</title>
+    <title>CRON-QUILES • Eventos Tech México</title>
+    
+    <!-- Google Fonts: Geist & Geist Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;600;700&family=Geist:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="terminal">
-        <div class="terminal-header">
-            <div class="terminal-title">🐢 Cron-Quiles</div>
-            <div class="terminal-subtitle" data-i18n="site.subtitle">Calendario unificado de eventos tech en México</div>
-            <div class="lang-switcher">
-                <button class="lang-btn active" data-lang="es" aria-label="Español">ES</button>
-                <span class="lang-separator">|</span>
-                <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+    <div class="container">
+        <header class="site-header">
+            <div class="header-brand">
+                <a href="index.html" class="brand-title">🐢 CRON-QUILES</a>
+                <p class="brand-subtitle" data-i18n="site.subtitle">Calendario unificado de eventos tech en México</p>
             </div>
-        </div>
+            
+            <div class="header-controls">
+                <div class="lang-switcher" aria-label="Idioma">
+                    <button class="lang-btn active" data-lang="es" aria-label="Español">ES</button>
+                    <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+                </div>
+                <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+                    <span id="themeIcon">◐</span>
+                    <span id="themeLabel">MODO OSCURO</span>
+                </button>
+            </div>
+        </header>
 
         <nav class="section-nav" aria-label="Navegación principal">
             <a href="index.html" class="section-nav-link active" data-i18n="nav.linkInicio">Inicio</a>
@@ -29,68 +40,61 @@
             <a href="comunidades.html" class="section-nav-link" data-i18n="nav.linkComunidades">Comunidades</a>
         </nav>
 
-        <p class="welcome-hint" data-i18n="hint.welcome">Elige tu ciudad para ver eventos.</p>
-
-        <div class="city-tabs">
-            <div class="events-loading">...</div>
-        </div>
-
-        <div class="home-content">
-            <!-- Comando 1: Qué es Cron-Quiles -->
-            <div class="prompt">
-                <span class="cursor">$</span>
-                <span class="command-text">cat info.txt</span>
-            </div>
-            <div class="output" id="section-info">
-                <p>Cron-Quiles es el agregador de eventos técnicos más audaz de México. 
-                Nuestra misión es que nadie se pierda un meetup por falta de visibilidad.</p>
+        <main>
+            <!-- Filtros de Ciudad -->
+            <div class="filter-section">
+                <div class="filter-row city-filter-group">
+                    <span class="filter-label" data-i18n="filter.city">CIUDAD:</span>
+                    <div class="filter-pills-scroll" id="cityPillsContainer">
+                        <div class="events-loading" style="padding: 0.2rem 0.5rem;">Cargando ciudades...</div>
+                    </div>
+                </div>
             </div>
 
-            <!-- Comando 2: Actividades -->
-            <div class="prompt">
-                <span class="cursor">$</span>
-                <span class="command-text">ls actividades/</span>
-            </div>
-            <div class="output" id="section-actividades">
-                <p>Explora meetups, talleres y conferencias en las principales ciudades tecnológicas del país.</p>
-            </div>
-            <!-- Comando 3: Organización -->
-            <div class="prompt">
-                <span class="cursor">$</span>
-                <span class="command-text">finger shellaquiles</span>
-            </div>
-            <div class="output" id="section-shellaquiles">
-                <p><strong>Shellaquiles</strong> es el gremio supremo que orquesta Cron-Quiles. 
-                Dedicados a la democratización del conocimiento técnico y el código abierto.</p>
-            </div>
-        </div>
+            <!-- Presentación Editorial -->
+            <section class="editorial-card">
+                <h2 data-i18n="hint.whatIsThis">¿Qué es esto?</h2>
+                <p data-i18n="desc.content">
+                    Este calendario agrega eventos de múltiples fuentes (Meetup, Luma, etc.) en un solo lugar. 
+                    Los eventos se actualizan automáticamente cada 6 horas.
+                </p>
+                <div class="btn-group">
+                    <a href="eventos.html" id="btn-ver-eventos" class="btn btn-main" data-i18n="landing.verEventos">Ver eventos ↗</a>
+                    <a href="suscribir.html" class="btn btn-outline" data-i18n="landing.anadirCalendario">Añadir a mi calendario</a>
+                </div>
+            </section>
 
-        <div class="landing-block output">
-            <h2 class="friendly-heading" data-i18n="hint.whatIsThis">¿Qué es esto?</h2>
-            <p data-i18n="desc.content">
-                Este calendario agrega eventos de múltiples fuentes (Meetup, Luma, etc.)
-                en un solo lugar. Los eventos se actualizan automáticamente cada 6 horas.
-            </p>
-            <div class="btn-group landing-ctas">
-                <a href="eventos.html" id="btn-ver-eventos" class="btn" data-i18n="landing.verEventos">Ver eventos</a>
-                <a href="suscribir.html" class="btn btn-secondary" data-i18n="landing.anadirCalendario">Añadir a mi calendario</a>
-            </div>
-        </div>
+            <!-- Próximos Eventos Destacados -->
+            <section style="margin-top: 2rem;">
+                <div class="month-group-header">
+                    <h3 class="month-group-title">Próximos Eventos</h3>
+                    <a href="eventos.html" class="btn btn-outline" style="font-size: 0.75rem;">Ver todos ↗</a>
+                </div>
+                <div id="featured-events-list" class="event-list">
+                    <div class="events-loading" data-i18n="calendar.loading">Cargando eventos...</div>
+                </div>
+            </section>
+        </main>
 
-        <div class="footer">
-            <p>
-                <span data-i18n="footer.project">Proyecto open source de la comunidad</span> <strong><a href="https://shellaquiles.org"> Shellaquiles</a></strong> 🐢
-            </p>
-            <p style="margin-top: var(--spacing-md);">
-                <a href="https://github.com/shellaquiles/cron-quiles" data-i18n="footer.github">Ver en GitHub</a> |
-                <a href="https://github.com/shellaquiles/cron-quiles/blob/main/README.md" data-i18n="footer.docs">Documentación</a>
-            </p>
-            <p style="margin-top: var(--spacing-md); font-size: 0.9em;">
-                <span data-i18n="footer.lastUpdate">Última actualización:</span> <span class="last-update" id="last-update" data-i18n="footer.loading">Cargando...</span>
-            </p>
-        </div>
+        <footer class="footer">
+            <div class="footer-meta">
+                <div>
+                    <span data-i18n="footer.project">Proyecto open source de la comunidad</span> 
+                    <strong><a href="https://shellaquiles.org" target="_blank" rel="noopener">Shellaquiles</a></strong> 🐢
+                </div>
+                <div>
+                    <span data-i18n="footer.lastUpdate">Última actualización:</span> 
+                    <span class="last-update" id="last-update" data-i18n="footer.loading">Cargando...</span>
+                </div>
+            </div>
+            <div>
+                <a href="https://github.com/shellaquiles/cron-quiles" target="_blank" rel="noopener" data-i18n="footer.github">GitHub</a> • 
+                <a href="https://github.com/shellaquiles/cron-quiles/blob/main/README.md" target="_blank" rel="noopener" data-i18n="footer.docs">Documentación</a> • 
+                <a href="https://shellaquiles.org" target="_blank" rel="noopener">Shellaquiles.org</a>
+            </div>
+        </footer>
     </div>
 
-    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/app.js?v=3"></script>
 </body>
 </html>

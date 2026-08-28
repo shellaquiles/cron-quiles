@@ -1,13 +1,9 @@
 /**
- * Componente Lista de Comunidades
+ * Componente Lista de Comunidades - Editorial Theme
  */
 import { DOM } from '../utils/dom.js';
+import { i18n } from '../core/I18n.js';
 
-/**
- * Agrega parámetros UTM a una URL para tracking.
- * @param {string} url - URL original
- * @returns {string} URL con parámetros UTM
- */
 function addUtmSource(url) {
     if (!url) return url;
     try {
@@ -30,40 +26,41 @@ export class CommunityList {
         DOM.clear(this.container);
 
         if (!communities || communities.length === 0) {
-            this.container.innerHTML = '<div class="events-loading">Cargando comunidades...</div>';
+            this.container.innerHTML = `<div class="events-empty">${i18n.t('calendar.empty')}</div>`;
             return;
         }
 
         const fragment = document.createDocumentFragment();
 
         communities.forEach(c => {
-            const children = [
-                DOM.create('div', { className: 'community-name', text: c.name }),
-                DOM.create('div', { className: 'community-description', text: c.description })
-            ];
+            const card = DOM.create('div', { className: 'community-card' });
 
-            // Agregar enlaces a plataformas si existen
+            const nameEl = DOM.create('div', { className: 'community-name', text: c.name });
+            card.appendChild(nameEl);
+
+            if (c.description) {
+                const descEl = DOM.create('div', { className: 'community-description', text: c.description });
+                card.appendChild(descEl);
+            }
+
             if (c.links && c.links.length > 0) {
                 const linksContainer = DOM.create('div', { className: 'community-links' });
                 c.links.forEach(link => {
                     const btn = DOM.create('a', {
-                        className: `event-source-btn event-source-${link.platform}`,
-                        text: link.label,
+                        className: 'btn btn-outline',
+                        text: `${link.label || 'Link'} ↗`,
                         attributes: {
                             href: addUtmSource(link.url),
                             target: '_blank',
-                            rel: 'noopener'
+                            rel: 'noopener',
+                            style: 'font-size: 0.7rem; padding: 0.25rem 0.6rem;'
                         }
                     });
                     linksContainer.appendChild(btn);
                 });
-                children.push(linksContainer);
+                card.appendChild(linksContainer);
             }
 
-            const card = DOM.create('div', {
-                className: 'community-card',
-                children: children
-            });
             fragment.appendChild(card);
         });
 

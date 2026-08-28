@@ -4,23 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐢</text></svg>">
-    <title>Añadir al calendario - Cron-Quiles</title>
+    <title>Añadir al calendario • CRON-QUILES</title>
+    
+    <!-- Google Fonts: Geist & Geist Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;600;700&family=Geist:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="terminal">
-        <div class="terminal-header">
-            <div class="terminal-title">🐢 Cron-Quiles</div>
-            <div class="terminal-subtitle" data-i18n="site.subtitle">Calendario unificado de eventos tech en México</div>
-            <div class="lang-switcher">
-                <button class="lang-btn active" data-lang="es" aria-label="Español">ES</button>
-                <span class="lang-separator">|</span>
-                <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+    <div class="container">
+        <header class="site-header">
+            <div class="header-brand">
+                <a href="index.html" class="brand-title">🐢 CRON-QUILES</a>
+                <p class="brand-subtitle" data-i18n="site.subtitle">Calendario unificado de eventos tech en México</p>
             </div>
-        </div>
+            
+            <div class="header-controls">
+                <div class="lang-switcher" aria-label="Idioma">
+                    <button class="lang-btn active" data-lang="es" aria-label="Español">ES</button>
+                    <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+                </div>
+                <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+                    <span id="themeIcon">◐</span>
+                    <span id="themeLabel">MODO OSCURO</span>
+                </button>
+            </div>
+        </header>
 
         <nav class="section-nav" aria-label="Navegación principal">
             <a href="index.html" class="section-nav-link" data-i18n="nav.linkInicio">Inicio</a>
@@ -29,42 +40,64 @@
             <a href="comunidades.html" class="section-nav-link" data-i18n="nav.linkComunidades">Comunidades</a>
         </nav>
 
-        <div class="output suscribir-block">
-            <h2 class="friendly-heading">📅 <span data-i18n="section.addCalendar">Añadir a mi calendario</span></h2>
-            <p data-i18n="section.addCalendarLead">
-                Para que los eventos se actualicen solos en Google Calendar, Apple Calendar o Outlook.
-            </p>
-            <div class="download-card">
-                <p class="download-hint" data-i18n="btn.copy.webcal.hint">Pega el enlace en tu app de calendario y los eventos se actualizarán solos.</p>
-                <div class="btn-group">
-                    <a href="#" id="webcal-btn" class="btn" data-i18n="btn.copy.webcal.plain">Copiar enlace para suscribirme</a>
-                    <a href="data/cronquiles-mexico.ics" id="download-ics-btn" class="btn btn-secondary" download data-i18n="btn.download.ics.plain">Descargar archivo (.ics)</a>
+        <main>
+            <!-- Filtro de Ciudad para Suscripción -->
+            <div class="filter-section">
+                <div class="filter-row city-filter-group">
+                    <span class="filter-label" data-i18n="filter.city">CIUDAD:</span>
+                    <div class="filter-pills-scroll" id="cityPillsContainer">
+                        <div class="events-loading" style="padding: 0.2rem 0.5rem;">Cargando ciudades...</div>
+                    </div>
                 </div>
             </div>
 
-            <h3 class="friendly-heading" style="margin-top: var(--spacing-xl);">📱 <span data-i18n="section.howto">Cómo usar</span></h3>
-            <p class="howto-lead" data-i18n="section.howtoLead">Pasos para tener los eventos en tu calendario:</p>
-            <ul>
-                <li><strong>Google Calendar:</strong> <span data-i18n="howto.google">Haz clic en "Copiar enlace" y pega la URL en Añadir calendario → Por URL</span></li>
-                <li><strong>Apple Calendar:</strong> <span data-i18n="howto.apple">Archivo → Nueva suscripción de calendario → pega la URL</span></li>
-                <li><strong>Outlook:</strong> <span data-i18n="howto.outlook">Agregar calendario → Suscribir desde web → pega la URL</span></li>
-            </ul>
-        </div>
+            <!-- Bloque de Suscripción -->
+            <section class="editorial-card">
+                <h2 data-i18n="section.addCalendar">Añadir a mi calendario</h2>
+                <p data-i18n="section.addCalendarLead">
+                    Sincroniza los eventos en tiempo real con Google Calendar, Apple Calendar o Outlook.
+                </p>
+                <p class="brand-subtitle" style="margin-bottom: 1.25rem;" data-i18n="btn.copy.webcal.hint">
+                    Pega el enlace en tu app de calendario favorita para sincronización continua.
+                </p>
+                <div class="btn-group">
+                    <a href="#" id="webcal-btn" class="btn btn-main" data-i18n="btn.copy.webcal.plain">Copiar enlace de suscripción</a>
+                    <a href="data/cronquiles-mexico.ics" id="download-ics-btn" class="btn btn-outline" download data-i18n="btn.download.ics.plain">Descargar archivo (.ics)</a>
+                    <a href="data/cronquiles-mexico.json" id="download-json-btn" class="btn btn-outline" download data-i18n="btn.download.json">Descargar JSON</a>
+                </div>
+            </section>
 
-        <div class="footer">
-            <p>
-                <span data-i18n="footer.project">Proyecto open source de la comunidad</span> <strong><a href="https://shellaquiles.org"> Shellaquiles</a></strong> 🐢
-            </p>
-            <p style="margin-top: var(--spacing-md);">
-                <a href="https://github.com/shellaquiles/cron-quiles" data-i18n="footer.github">Ver en GitHub</a> |
-                <a href="https://github.com/shellaquiles/cron-quiles/blob/main/README.md" data-i18n="footer.docs">Documentación</a>
-            </p>
-            <p style="margin-top: var(--spacing-md); font-size: 0.9em;">
-                <span data-i18n="footer.lastUpdate">Última actualización:</span> <span class="last-update" id="last-update" data-i18n="footer.loading">Cargando...</span>
-            </p>
-        </div>
+            <!-- Guía de Configuración -->
+            <section class="editorial-card">
+                <h3 data-i18n="section.howto">Cómo usar</h3>
+                <p data-i18n="section.howtoLead">Pasos para tener los eventos en tu calendario:</p>
+                <ul>
+                    <li><strong>Google Calendar:</strong> <span data-i18n="howto.google">Haz clic en "Copiar enlace" y pega la URL en Añadir calendario → Por URL</span></li>
+                    <li><strong>Apple Calendar:</strong> <span data-i18n="howto.apple">Archivo → Nueva suscripción de calendario → pega la URL</span></li>
+                    <li><strong>Outlook:</strong> <span data-i18n="howto.outlook">Agregar calendario → Suscribir desde web → pega la URL</span></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-meta">
+                <div>
+                    <span data-i18n="footer.project">Proyecto open source de la comunidad</span> 
+                    <strong><a href="https://shellaquiles.org" target="_blank" rel="noopener">Shellaquiles</a></strong> 🐢
+                </div>
+                <div>
+                    <span data-i18n="footer.lastUpdate">Última actualización:</span> 
+                    <span class="last-update" id="last-update" data-i18n="footer.loading">Cargando...</span>
+                </div>
+            </div>
+            <div>
+                <a href="https://github.com/shellaquiles/cron-quiles" target="_blank" rel="noopener" data-i18n="footer.github">GitHub</a> • 
+                <a href="https://github.com/shellaquiles/cron-quiles/blob/main/README.md" target="_blank" rel="noopener" data-i18n="footer.docs">Documentación</a> • 
+                <a href="https://shellaquiles.org" target="_blank" rel="noopener">Shellaquiles.org</a>
+            </div>
+        </footer>
     </div>
 
-    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/app.js?v=3"></script>
 </body>
 </html>

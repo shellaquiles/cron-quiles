@@ -4,23 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐢</text></svg>">
-    <title>Eventos - Cron-Quiles</title>
+    <title>Eventos • CRON-QUILES</title>
+    
+    <!-- Google Fonts: Geist & Geist Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;600;700&family=Geist:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="terminal">
-        <div class="terminal-header">
-            <div class="terminal-title">🐢 Cron-Quiles</div>
-            <div class="terminal-subtitle" data-i18n="site.subtitle">Calendario unificado de eventos tech en México</div>
-            <div class="lang-switcher">
-                <button class="lang-btn active" data-lang="es" aria-label="Español">ES</button>
-                <span class="lang-separator">|</span>
-                <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+    <div class="container">
+        <header class="site-header">
+            <div class="header-brand">
+                <a href="index.html" class="brand-title">🐢 CRON-QUILES</a>
+                <p class="brand-subtitle" data-i18n="site.subtitle">Calendario unificado de eventos tech en México</p>
             </div>
-        </div>
+            
+            <div class="header-controls">
+                <div class="lang-switcher" aria-label="Idioma">
+                    <button class="lang-btn active" data-lang="es" aria-label="Español">ES</button>
+                    <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+                </div>
+                <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+                    <span id="themeIcon">◐</span>
+                    <span id="themeLabel">MODO OSCURO</span>
+                </button>
+            </div>
+        </header>
 
         <nav class="section-nav" aria-label="Navegación principal">
             <a href="index.html" class="section-nav-link" data-i18n="nav.linkInicio">Inicio</a>
@@ -29,33 +40,88 @@
             <a href="comunidades.html" class="section-nav-link" data-i18n="nav.linkComunidades">Comunidades</a>
         </nav>
 
-        <p class="welcome-hint" data-i18n="hint.welcome">Elige tu ciudad para ver eventos.</p>
+        <main>
+            <div class="filter-section">
+                <div class="filter-row city-filter-group">
+                    <span class="filter-label" data-i18n="filter.city">CIUDAD:</span>
+                    <div class="filter-pills-scroll" id="cityPillsContainer">
+                        <div class="events-loading" style="padding: 0.2rem 0.5rem;">Cargando ciudades...</div>
+                    </div>
+                </div>
 
-        <div class="city-tabs">
-            <div class="events-loading">...</div>
+                <div class="filter-row format-filter-group">
+                    <span class="filter-label" data-i18n="filter.format">FORMATO:</span>
+                    <div class="filter-pills-scroll">
+                        <button class="filter-pill active" data-format="all" data-i18n="filter.all">TODOS</button>
+                        <button class="filter-pill" data-format="in-person" data-i18n="filter.inPerson">PRESENCIAL</button>
+                        <button class="filter-pill" data-format="online" data-i18n="filter.online">REMOTO</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="calendar-container">
+                <div class="events-loading" data-i18n="calendar.loading">Cargando eventos...</div>
+            </div>
+        </main>
+
+        <!-- Barra inferior de atajos de teclado -->
+        <div class="kbd-shortcuts-bar">
+            <span><kbd>←</kbd> <kbd>→</kbd> / <kbd>H</kbd> <kbd>L</kbd> Días</span>
+            <span><kbd>[</kbd> <kbd>]</kbd> Meses</span>
+            <span><kbd>T</kbd> Hoy</span>
+            <span><kbd>A</kbd> Ver todo el mes</span>
+            <span><kbd>D</kbd> Tema</span>
+            <span><kbd>?</kbd> Atajos</span>
         </div>
 
-        <div id="eventos" class="output">
-            <h2 data-i18n="calendar.title">📅 Calendario de Eventos</h2>
-            <div id="calendar-container" class="calendar-container">
-                <div class="events-loading" data-i18n="calendar.loading">Cargando calendario...</div>
+        <!-- Modal flotante de ayuda de atajos -->
+        <div class="modal-backdrop" id="helpModal">
+            <div class="modal-box">
+                <div class="modal-title">
+                    <span>ATAJOS DE TECLADO</span>
+                    <button class="btn-nav" id="closeHelpModal">ESC</button>
+                </div>
+                <div class="shortcut-row"><span>Día siguiente / anterior</span> <span><kbd>→</kbd> <kbd>←</kbd> / <kbd>L</kbd> <kbd>H</kbd></span></div>
+                <div class="shortcut-row"><span>Mes siguiente / anterior</span> <span><kbd>]</kbd> <kbd>[</kbd></span></div>
+                <div class="shortcut-row"><span>Saltar a Hoy</span> <span><kbd>T</kbd></span></div>
+                <div class="shortcut-row"><span>Ver todo el mes</span> <span><kbd>A</kbd> o <kbd>ESC</kbd></span></div>
+                <div class="shortcut-row"><span>Rotar paleta de color (Matrix/Ámbar/Cian/Obsidian/Claro)</span> <span><kbd>D</kbd></span></div>
+                <div class="shortcut-row"><span>Cerrar / Abrir ayuda</span> <span><kbd>?</kbd></span></div>
             </div>
         </div>
 
-        <div class="footer">
-            <p>
-                <span data-i18n="footer.project">Proyecto open source de la comunidad</span> <strong><a href="https://shellaquiles.org"> Shellaquiles</a></strong> 🐢
-            </p>
-            <p style="margin-top: var(--spacing-md);">
-                <a href="https://github.com/shellaquiles/cron-quiles" data-i18n="footer.github">Ver en GitHub</a> |
-                <a href="https://github.com/shellaquiles/cron-quiles/blob/main/README.md" data-i18n="footer.docs">Documentación</a>
-            </p>
-            <p style="margin-top: var(--spacing-md); font-size: 0.9em;">
-                <span data-i18n="footer.lastUpdate">Última actualización:</span> <span class="last-update" id="last-update" data-i18n="footer.loading">Cargando...</span>
-            </p>
-        </div>
+        <footer class="footer">
+            <div class="footer-meta">
+                <div>
+                    <span data-i18n="footer.project">Proyecto open source de la comunidad</span> 
+                    <strong><a href="https://shellaquiles.org" target="_blank" rel="noopener">Shellaquiles</a></strong> 🐢
+                </div>
+                <div>
+                    <span data-i18n="footer.lastUpdate">Última actualización:</span> 
+                    <span class="last-update" id="last-update" data-i18n="footer.loading">Cargando...</span>
+                </div>
+            </div>
+            <div>
+                <a href="https://github.com/shellaquiles/cron-quiles" target="_blank" rel="noopener" data-i18n="footer.github">GitHub</a> • 
+                <a href="https://github.com/shellaquiles/cron-quiles/blob/main/README.md" target="_blank" rel="noopener" data-i18n="footer.docs">Documentación</a> • 
+                <a href="https://shellaquiles.org" target="_blank" rel="noopener">Shellaquiles.org</a>
+            </div>
+        </footer>
     </div>
 
-    <script type="module" src="js/app.js?v=2"></script>
+    <script type="module" src="js/app.js?v=4"></script>
+    <script>
+        // Modal helper closing listener
+        document.addEventListener('DOMContentLoaded', () => {
+            const helpModal = document.getElementById('helpModal');
+            const closeHelpModal = document.getElementById('closeHelpModal');
+            if (closeHelpModal && helpModal) {
+                closeHelpModal.addEventListener('click', () => helpModal.classList.remove('open'));
+                helpModal.addEventListener('click', (e) => {
+                    if (e.target === helpModal) helpModal.classList.remove('open');
+                });
+            }
+        });
+    </script>
 </body>
 </html>

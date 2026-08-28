@@ -1,14 +1,12 @@
 /**
- * Cron-Quiles Frontend Entry Point
- *
- * Orquestador principal. Soporta multipágina: index (inicio), eventos, suscribir, comunidades.
+ * Cron-Quiles Frontend Entry Point - Editorial Theme
  */
 import { CONFIG } from './config.js';
 import { i18n } from './core/I18n.js';
 import { appStore } from './core/Store.js';
 import { DataService } from './services/DataService.js';
 import { Storage } from './services/Storage.js';
-import { Calendar } from './ui/Calendar.js?v=2';
+import { Calendar } from './ui/Calendar.js?v=3';
 import { CommunityList } from './ui/CommunityList.js';
 import { Header } from './ui/Header.js';
 import { Terminal } from './ui/Terminal.js';
@@ -38,6 +36,7 @@ class App {
         const urlParams = new URLSearchParams(window.location.search);
         const savedLang = urlParams.get('lang') || Storage.get(CONFIG.STORAGE_KEYS.LANG) || CONFIG.LANGUAGES.DEFAULT;
         let savedCity = urlParams.get('city') || Storage.get(CONFIG.STORAGE_KEYS.CITY) || CONFIG.CITIES.DEFAULT;
+        let savedFormat = urlParams.get('format') || 'all';
 
         if (this.states.length > 0 && !this.states.find(s => s.slug === savedCity)) {
             savedCity = CONFIG.CITIES.DEFAULT;
@@ -45,6 +44,7 @@ class App {
 
         appStore.set('lang', savedLang);
         appStore.set('city', savedCity);
+        appStore.set('formatFilter', savedFormat);
 
         this.updateUrlParams();
         this.renderTabs();
@@ -52,6 +52,7 @@ class App {
 
         if (this.page === 'index') {
             this.updateLandingLinks();
+            this.loadFeaturedEvents(savedCity);
         } else if (this.calendar || this.communityList) {
             this.loadCityData(savedCity);
         }
@@ -80,86 +81,59 @@ class App {
     }
 
     renderTabs() {
-        const container = document.querySelector('.city-tabs');
-        if (!container || !this.states.length) return;
-
-        const showPast = appStore.get('showPastEvents');
-        const viewDate = appStore.get('viewDate') || new Date();
-
-        // Format viewDate to YYYY-MM for comparison
-        const year = viewDate.getFullYear();
-        const month = String(viewDate.getMonth() + 1).padStart(2, '0');
-        const viewMonthStr = `${year}-${month}`;
+        const pillsContainer = document.getElementById('cityPillsContainer') || document.querySelector('.city-filter-group .filter-pills-scroll');
+        if (!pillsContainer || !this.states.length) return;
 
         const currentCity = appStore.get('city');
 
         const visibleStates = this.states.filter(state => {
-
             if (state.slug === 'mexico') return true;
-            if (state.slug === currentCity) return true; // Keep active tab visible
-
-            if (showPast) return true;
-
-            // Check if city has any active month >= viewMonthStr
-            if (!state.active_months || !Array.isArray(state.active_months)) {
-                // Fallback to future_event_count if active_months not present (compatibility)
-                return (state.future_event_count || 0) > 0;
-            }
-
-            // active_months is sorted, check if any is >= viewMonthStr
-            const isVisible = state.active_months.some(m => m >= viewMonthStr);
-            return isVisible;
+            if (state.slug === currentCity) return true;
+            return (state.event_count || 0) > 0;
         });
 
-        const isMobile = window.matchMedia('(max-width: 768px)').matches;
-
-        if (isMobile) {
-            container.innerHTML = `
-                <div class="city-select-wrapper">
-                    <label class="city-select-label" for="city-select">${i18n.t('hint.whereEvents')}</label>
-                    <select id="city-select" class="city-select" aria-label="${i18n.t('nav.cityLabel')}">
-                        ${visibleStates.map(state => `
-                            <option value="${state.slug}" ${state.slug === currentCity ? 'selected' : ''}>
-                                ${state.emoji || ''} ${state.name}
-                            </option>
-                        `).join('')}
-                    </select>
-                </div>
-            `;
-        } else {
-            container.innerHTML = visibleStates.map(state => `
-                <button class="city-tab ${state.slug === currentCity ? 'active' : ''}" data-city="${state.slug}" aria-label="${state.name}">
-                    ${state.emoji} ${state.name}
-                </button>
-            `).join('');
-        }
+        pillsContainer.innerHTML = visibleStates.map(state => `
+            <button class="filter-pill ${state.slug === currentCity ? 'active' : ''}" data-city="${state.slug}" aria-label="${state.name}">
+                ${state.name} (${state.event_count || 0})
+            </button>
+        `).join('');
     }
 
     bindEvents() {
-        const tabsContainer = document.querySelector('.city-tabs');
-        if (!tabsContainer) return;
+        // Filtro de Ciudad
+        const cityContainer = document.querySelector('.city-filter-group');
+        if (cityContainer) {
+            cityContainer.addEventListener('click', (e) => {
+                const pill = e.target.closest('.filter-pill');
+                if (pill && pill.dataset.city) {
+                    appStore.set('city', pill.dataset.city);
+                }
+            });
+            cityContainer.addEventListener('change', (e) => {
+                if (e.target.id === 'city-select') {
+                    appStore.set('city', e.target.value);
+                }
+            });
+        }
 
-        // Cambio de ciudad: tabs (desktop) o select (móvil)
-        tabsContainer.addEventListener('click', (e) => {
-            const tab = e.target.closest('.city-tab');
-            if (tab) {
-                const city = tab.dataset.city;
-                if (city) appStore.set('city', city);
-            }
-        });
-        tabsContainer.addEventListener('change', (e) => {
-            if (e.target.classList.contains('city-select')) {
-                appStore.set('city', e.target.value);
-            }
-        });
+        // Filtro de Formato (Presencial, Remoto, Todos)
+        const formatContainer = document.querySelector('.format-filter-group');
+        if (formatContainer) {
+            formatContainer.addEventListener('click', (e) => {
+                const pill = e.target.closest('.filter-pill');
+                if (pill && pill.dataset.format) {
+                    formatContainer.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+                    pill.classList.add('active');
+                    appStore.set('formatFilter', pill.dataset.format);
+                }
+            });
+        }
 
-        // Reacción a cambios de estado
+        // Subscripciones a store
         appStore.subscribe('city', (city) => this.onCityChange(city));
         appStore.subscribe('lang', (lang) => this.onLangChange(lang));
-        appStore.subscribe('showPastEvents', () => this.renderTabs());
-        appStore.subscribe('viewDate', () => this.renderTabs());
 
-        // Al redimensionar, alternar entre tabs (desktop) y select (móvil)
+        // Responsive resize
         let lastMobile = window.matchMedia('(max-width: 768px)').matches;
         window.addEventListener('resize', () => {
             const nowMobile = window.matchMedia('(max-width: 768px)').matches;
@@ -170,25 +144,20 @@ class App {
         });
     }
 
-    /**
-     * Actualiza los query params de la URL sin recargar la página.
-     */
     updateUrlParams() {
         const params = new URLSearchParams(window.location.search);
         const city = appStore.get('city');
         const lang = appStore.get('lang');
+        const format = appStore.get('formatFilter');
 
-        if (city) {
-            params.set('city', city);
-        } else {
-            params.delete('city');
-        }
+        if (city) params.set('city', city);
+        else params.delete('city');
 
-        if (lang && lang !== CONFIG.LANGUAGES.DEFAULT) {
-            params.set('lang', lang);
-        } else {
-            params.delete('lang');
-        }
+        if (lang && lang !== CONFIG.LANGUAGES.DEFAULT) params.set('lang', lang);
+        else params.delete('lang');
+
+        if (format && format !== 'all') params.set('format', format);
+        else params.delete('format');
 
         const qs = params.toString();
         const newUrl = window.location.pathname + (qs ? '?' + qs : '');
@@ -202,6 +171,7 @@ class App {
 
         if (this.page === 'index') {
             this.updateLandingLinks();
+            this.loadFeaturedEvents(city);
         } else if (this.calendar || this.communityList) {
             this.loadCityData(city);
             this.updateDownloadLinks(city);
@@ -215,6 +185,7 @@ class App {
     onLangChange(lang) {
         Storage.set(CONFIG.STORAGE_KEYS.LANG, lang);
         this.updateUrlParams();
+        this.renderTabs();
         if (this.calendar) this.calendar.render();
         this.header.updateLastModified();
     }
@@ -234,17 +205,40 @@ class App {
 
         } catch (error) {
             console.error(error);
-            const container = document.getElementById('calendar-container');
-            if (container) {
-                const isLocal = window.location.protocol === 'file:';
-                let msg;
-                if (isLocal) {
-                    msg = 'Error: No se puede cargar con file://. Usa un servidor local (make serve).';
-                } else {
-                    msg = `No hay datos para "${city}". En local ejecuta: make run-all`;
-                }
-                container.innerHTML = `<div class="events-error">${msg}</div>`;
+            if (calendarContainer) {
+                const msg = `No hay datos para "${city}". Ejecuta: make run-all`;
+                calendarContainer.innerHTML = `<div class="events-error">${msg}</div>`;
             }
+        }
+    }
+
+    async loadFeaturedEvents(city) {
+        const listContainer = document.getElementById('featured-events-list');
+        if (!listContainer) return;
+
+        try {
+            const data = await DataService.getCityData(city);
+            const events = Array.isArray(data) ? data : (data.events || []);
+            const now = new Date();
+            
+            // Tomar los próximos 4 eventos a partir de hoy
+            const upcoming = events.filter(e => {
+                if (!e.dtstart) return false;
+                return new Date(e.dtstart) >= new Date(now.getFullYear(), now.getMonth(), now.getDate());
+            }).sort((a, b) => new Date(a.dtstart) - new Date(b.dtstart)).slice(0, 4);
+
+            if (upcoming.length === 0) {
+                listContainer.innerHTML = `<div class="events-empty">${i18n.t('calendar.noEvents')}</div>`;
+                return;
+            }
+
+            const tempCalendar = new Calendar('featured-events-list');
+            listContainer.innerHTML = '';
+            upcoming.forEach(e => {
+                listContainer.appendChild(tempCalendar.createEventCard(e));
+            });
+        } catch (e) {
+            console.error(e);
         }
     }
 
@@ -252,7 +246,7 @@ class App {
         const setHref = (id, url) => {
             const el = document.getElementById(id);
             if (el) el.href = url;
-        }
+        };
 
         setHref('download-ics-btn', CONFIG.PATHS.getIcsUrl(city));
         setHref('download-json-btn', CONFIG.PATHS.getDataUrl(city));
@@ -265,7 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.app = new App();
 });
 
-// Copiar enlace WebCal al portapapeles (botón principal "Copiar enlace para suscribirme")
+// Clipboard WebCal
 document.addEventListener('DOMContentLoaded', () => {
     const webcalBtn = document.getElementById('webcal-btn');
     if (webcalBtn) {

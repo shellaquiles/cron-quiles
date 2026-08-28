@@ -1,17 +1,11 @@
 /**
- * Componente Calendario Complejo
- * Maneja la visualización de la cuadrícula, eventos y navegación.
+ * Componente Calendario y Navegación Multimes Suiza
  */
 import { i18n } from '../core/I18n.js';
 import { appStore } from '../core/Store.js';
 import { DateUtils } from '../utils/dates.js';
 import { DOM } from '../utils/dom.js';
 
-/**
- * Adds utm_source=cron-quiles to a URL for tracking outgoing links.
- * @param {string} url - The original URL
- * @returns {string} - URL with utm_source parameter added
- */
 function addUtmSource(url) {
     if (!url) return url;
     try {
@@ -23,19 +17,37 @@ function addUtmSource(url) {
     }
 }
 
+function getGoogleCalendarUrl(event) {
+    const title = event.title || event.summary || 'Evento Tech';
+    const desc = (event.description || '') + (event.url ? `\n\nRegistro: ${event.url}` : '');
+    const loc = event.location || (event.online ? 'Online' : '');
+    
+    let datesParam = '';
+    if (event.dtstart) {
+        const start = new Date(event.dtstart).toISOString().replace(/-|:|\.\d\d\d/g, '');
+        const end = event.dtend 
+            ? new Date(event.dtend).toISOString().replace(/-|:|\.\d\d\d/g, '')
+            : new Date(new Date(event.dtstart).getTime() + 2 * 60 * 60 * 1000).toISOString().replace(/-|:|\.\d\d\d/g, '');
+        datesParam = `&dates=${start}/${end}`;
+    }
+    
+    return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&details=${encodeURIComponent(desc)}&location=${encodeURIComponent(loc)}${datesParam}`;
+}
+
 export class Calendar {
     constructor(containerId) {
         this.container = document.getElementById(containerId);
-        // Local state removed, using appStore
-        this.currentDate = new Date(); // Initialize for local use, but sync with store
+        this.currentDate = new Date();
+        this.selectedDateStr = null; // YYYY-MM-DD o null si se ve todo el mes
+        this.currentWeekOffset = 0;  // Offset de semanas dentro del mes
+        this.events = [];
+        this.hasLoadedOnce = false;
 
-        // Initialize store with current view
-        appStore.set('viewDate', this.currentDate);
+        // Atajos de teclado registrados
+        this.initKeyboardShortcuts();
 
-        // Subscribe to global state changes
-        appStore.subscribe('showPastEvents', () => {
-            this.render();
-        });
+        // Suscribirse a cambios
+        appStore.subscribe('formatFilter', () => this.render());
     }
 
     setEvents(events) {
@@ -43,35 +55,45 @@ export class Calendar {
         this.render();
     }
 
-    /**
-     * Cambia el mes visualizado
-     * @param {number} direction -1 o 1
-     */
     changeMonth(direction) {
         this.currentDate.setMonth(this.currentDate.getMonth() + direction);
-        appStore.set('viewDate', new Date(this.currentDate)); // Update global view date (cloned)
+        this.selectedDateStr = null;
+        this.currentWeekOffset = 0;
+        appStore.set('viewDate', new Date(this.currentDate));
         this.render();
     }
 
+    setMonthDate(year, month) {
+        this.currentDate = new Date(year, month, 1);
+        this.selectedDateStr = null;
+        this.currentWeekOffset = 0;
+        appStore.set('viewDate', new Date(this.currentDate));
+        this.render();
+    }
 
-
-    /**
-     * Get events filtered by current policy
-     */
     getFilteredEvents() {
-        const showPastEvents = appStore.get('showPastEvents');
+        const formatFilter = appStore.get('formatFilter') || 'all';
+        let filtered = this.events;
 
-        if (showPastEvents) {
-            return this.events;
+        if (formatFilter === 'in-person') {
+            filtered = filtered.filter(e => !this.isEventOnline(e));
+        } else if (formatFilter === 'online') {
+            filtered = filtered.filter(e => this.isEventOnline(e));
         }
 
-        // Retornar solo eventos desde el inicio del mes que estamos visualizando
-        const startOfMonth = new Date(this.currentDate.getFullYear(), this.currentDate.getMonth(), 1);
+        return filtered;
+    }
 
-        return this.events.filter(e => {
-            if (!e.dtstart) return false;
-            return new Date(e.dtstart) >= startOfMonth;
+    getEventDatesSet() {
+        const dates = new Set();
+        this.events.forEach(e => {
+            if (e.dtstart) {
+                const d = new Date(e.dtstart);
+                const localeDateStr = d.toLocaleDateString('en-CA', { timeZone: 'America/Mexico_City' });
+                dates.add(localeDateStr);
+            }
         });
+        return dates;
     }
 
     render() {
@@ -87,258 +109,192 @@ export class Calendar {
         const year = this.currentDate.getFullYear();
         const month = this.currentDate.getMonth();
         const monthNames = i18n.t('months');
-        const dayNames = i18n.t('days');
 
-        // ==== Header del Calendario ====
-        const header = DOM.create('div', { className: 'calendar-header' });
+        // ==== 1. NAVEGADOR DE CALENDARIO SUIZO (PANEL SUPERIOR) ====
+        const navPanel = DOM.create('div', { className: 'calendar-nav-panel' });
 
-        const prevBtn = DOM.create('button', {
-            className: 'calendar-nav calendar-nav-prev',
-            attributes: { 'aria-label': i18n.t('cal.prev') }
+        // Nav Header
+        const navHeader = DOM.create('div', { className: 'nav-header' });
+        const monthDisplay = DOM.create('span', { 
+            className: 'month-display', 
+            id: 'currentMonthLabel',
+            text: `${monthNames[month]} ${year}` 
         });
-        prevBtn.innerHTML = '<span class="calendar-nav-icon" aria-hidden="true">←</span><span class="calendar-nav-text">' + i18n.t('cal.prev') + '</span>';
-        prevBtn.addEventListener('click', () => this.changeMonth(-1));
 
-        const nextBtn = DOM.create('button', {
-            className: 'calendar-nav calendar-nav-next',
-            attributes: { 'aria-label': i18n.t('cal.next') }
+        const navActions = DOM.create('div', { className: 'nav-actions' });
+        
+        const viewAllBtn = DOM.create('button', {
+            className: 'btn-nav',
+            id: 'viewAllBtn',
+            text: this.selectedDateStr ? i18n.t('cal.viewAllMonth') || 'VER TODO EL MES' : 'MES COMPLETO'
         });
-        nextBtn.innerHTML = '<span class="calendar-nav-icon" aria-hidden="true">→</span><span class="calendar-nav-text">' + i18n.t('cal.next') + '</span>';
-        nextBtn.addEventListener('click', () => this.changeMonth(1));
-
-        const todayBtn = DOM.create('button', { className: 'calendar-nav calendar-nav-today', text: i18n.t('cal.today') });
-        todayBtn.addEventListener('click', () => {
-            this.currentDate = new Date();
-            appStore.set('viewDate', new Date(this.currentDate));
+        viewAllBtn.addEventListener('click', () => {
+            this.selectedDateStr = null;
             this.render();
         });
 
-        const title = DOM.create('div', { className: 'calendar-title', text: `${monthNames[month]} ${year}` });
+        const prevMonthBtn = DOM.create('button', {
+            className: 'btn-nav',
+            id: 'prevMonthBtn',
+            text: '← MES ANTERIOR'
+        });
+        prevMonthBtn.addEventListener('click', () => this.changeMonth(-1));
 
-        header.append(prevBtn, nextBtn, title, todayBtn);
-        this.container.appendChild(header);
-
-
-
-
-        // ==== Grid del Calendario ====
-        const grid = DOM.create('div', { className: 'calendar-grid' });
-
-        // Cabeceras de días
-        dayNames.forEach(day => {
-            grid.appendChild(DOM.create('div', { className: 'calendar-day-header', text: day }));
+        const todayBtn = DOM.create('button', {
+            className: 'btn-nav',
+            id: 'todayBtn',
+            text: 'HOY'
+        });
+        todayBtn.addEventListener('click', () => {
+            const now = new Date();
+            this.currentDate = new Date(now.getFullYear(), now.getMonth(), 1);
+            this.selectedDateStr = now.toLocaleDateString('en-CA', { timeZone: 'America/Mexico_City' });
+            this.render();
         });
 
-        // Lógica de días
-        const firstDay = new Date(year, month, 1);
-        const lastDay = new Date(year, month + 1, 0);
-        const daysInMonth = lastDay.getDate();
-        const startingDayOfWeek = firstDay.getDay();
+        const nextMonthBtn = DOM.create('button', {
+            className: 'btn-nav',
+            id: 'nextMonthBtn',
+            text: 'SIG MES →'
+        });
+        nextMonthBtn.addEventListener('click', () => this.changeMonth(1));
 
-        // Días previos (mes anterior)
-        for (let i = 0; i < startingDayOfWeek; i++) {
-            const d = new Date(year, month, -startingDayOfWeek + i + 1);
-            grid.appendChild(DOM.create('div', {
-                className: 'calendar-day other-month',
-                text: d.getDate().toString()
-            }));
-        }
+        navActions.append(viewAllBtn, prevMonthBtn, todayBtn, nextMonthBtn);
+        navHeader.append(monthDisplay, navActions);
+        navPanel.appendChild(navHeader);
 
-        // Días actuales (clicables: desplazar a la lista del día)
-        const today = new Date();
-        today.setHours(0, 0, 0, 0);
+        // Tira de días (7 días de la semana activa o deslizador)
+        const stripContainer = DOM.create('div', { className: 'days-strip-container' });
+        const daysStrip = DOM.create('div', { className: 'days-strip', id: 'daysStrip' });
 
-        for (let day = 1; day <= daysInMonth; day++) {
-            const date = new Date(year, month, day);
-            date.setHours(0, 0, 0, 0);
+        const weekDays = this.getWeekDaysForMonth(year, month, this.currentWeekOffset);
+        const eventDates = this.getEventDatesSet();
 
-            const dayEvents = this.getEventsForDate(date);
-            let className = 'calendar-day';
+        weekDays.forEach(day => {
+            const cell = DOM.create('div', { className: 'day-cell' });
+            cell.setAttribute('data-date', day.dateStr);
 
-            if (date.getTime() === today.getTime()) className += ' today';
-            if (dayEvents.length > 0) className += ' has-events';
+            if (this.selectedDateStr === day.dateStr) {
+                cell.classList.add('active');
+            }
 
-            const dayKey = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
-            const dayCell = DOM.create('div', {
-                className,
-                text: day.toString(),
-                attributes: { 'data-date': dayKey }
+            if (eventDates.has(day.dateStr)) {
+                cell.classList.add('has-events');
+            }
+
+            const dayName = DOM.create('span', { className: 'day-name', text: day.name });
+            const dayNum = DOM.create('span', { className: 'day-num', text: day.num });
+            const indicator = DOM.create('span', { className: 'event-indicator' });
+
+            cell.append(dayName, dayNum, indicator);
+
+            cell.addEventListener('click', () => {
+                if (this.selectedDateStr === day.dateStr) {
+                    this.selectedDateStr = null; // Toggle off
+                } else {
+                    this.selectedDateStr = day.dateStr;
+                }
+                this.render();
             });
-            dayCell.addEventListener('click', () => this.scrollToDay(dayKey));
-            grid.appendChild(dayCell);
-        }
 
-        // Días siguientes (relleno)
-        const totalSlots = 42; // 6 filas de 7
-        const filledSlots = startingDayOfWeek + daysInMonth;
-        for (let i = 1; i <= (totalSlots - filledSlots); i++) {
-            grid.appendChild(DOM.create('div', {
-                className: 'calendar-day other-month',
-                text: i.toString()
-            }));
-        }
-
-        this.container.appendChild(grid);
-
-        // ==== Lista de Eventos ====
-        this.renderEventList(year, month);
-
-        // CTA: Llévate este calendario (multipágina → suscribir.html, single-page → #descargar)
-        const ctaWrap = DOM.create('div', { className: 'calendar-take-cta-wrap' });
-        const ctaHref = (window.location.pathname || '').includes('eventos') ? 'suscribir.html' : '#descargar';
-        const cta = DOM.create('a', {
-            className: 'calendar-take-cta btn btn-secondary',
-            text: i18n.t('cal.takeCalendar'),
-            attributes: { href: ctaHref }
+            daysStrip.appendChild(cell);
         });
-        ctaWrap.appendChild(cta);
-        this.container.appendChild(ctaWrap);
+
+        stripContainer.appendChild(daysStrip);
+        navPanel.appendChild(stripContainer);
+
+        // Barra de navegación entre semanas
+        const weekSwitcherBar = DOM.create('div', { className: 'week-switcher-bar' });
+        const prevWeekBtn = DOM.create('button', { text: '← Semana anterior' });
+        prevWeekBtn.addEventListener('click', () => {
+            this.currentWeekOffset--;
+            this.render();
+        });
+
+        const weekInfo = DOM.create('span', { 
+            text: `Días ${weekDays[0].num} - ${weekDays[weekDays.length - 1].num} de ${monthNames[month]}` 
+        });
+
+        const nextWeekBtn = DOM.create('button', { text: 'Semana siguiente →' });
+        nextWeekBtn.addEventListener('click', () => {
+            this.currentWeekOffset++;
+            this.render();
+        });
+
+        weekSwitcherBar.append(prevWeekBtn, weekInfo, nextWeekBtn);
+        navPanel.appendChild(weekSwitcherBar);
+
+        this.container.appendChild(navPanel);
+
+        // ==== 2. LISTA DE EVENTOS FILTRADOS ====
+        this.renderEventList(year, month);
+    }
+
+    getWeekDaysForMonth(year, month, weekOffset = 0) {
+        const firstDayOfMonth = new Date(year, month, 1);
+        const dayOfWeek = (firstDayOfMonth.getDay() + 6) % 7; // Lunes = 0
+        
+        // Empezar desde el lunes de la semana correspondiente
+        const startDay = new Date(year, month, 1 - dayOfWeek + (weekOffset * 7));
+        const days = [];
+        const dayNamesShort = ['LUN', 'MAR', 'MIÉ', 'JUE', 'VIE', 'SÁB', 'DOM'];
+
+        for (let i = 0; i < 7; i++) {
+            const d = new Date(startDay.getFullYear(), startDay.getMonth(), startDay.getDate() + i);
+            const dateStr = d.toLocaleDateString('en-CA', { timeZone: 'America/Mexico_City' });
+            days.push({
+                name: dayNamesShort[i],
+                num: d.getDate(),
+                dateStr: dateStr,
+                isCurrentMonth: d.getMonth() === month
+            });
+        }
+        return days;
     }
 
     renderEventList(year, month) {
-        const eventsListContainer = DOM.create('div', { className: 'calendar-events-list', id: 'calendar-events-list' });
-
-        // Rastrear el último mes cargado para "cargar más"
-        this.lastLoadedYear = year;
-        this.lastLoadedMonth = month;
-
-        this.appendMonthEvents(eventsListContainer, year, month);
-
-        this.container.appendChild(eventsListContainer);
-    }
-
-    /**
-     * Agrega los eventos de un mes al contenedor y un botón para cargar el siguiente mes.
-     */
-    appendMonthEvents(container, year, month) {
+        const eventsContainer = DOM.create('div', { className: 'event-list', id: 'eventList' });
         const relevantEvents = this.getFilteredEvents();
 
-        const monthEvents = relevantEvents.filter(e => {
-            if (!e.dtstart) return false;
-            const d = new Date(e.dtstart);
-            return d.getFullYear() === year && d.getMonth() === month;
-        }).sort((a, b) => new Date(a.dtstart) - new Date(b.dtstart));
+        let visibleEvents = [];
 
-        const monthNames = i18n.t('months');
-        const titleText = `${i18n.t('cal.eventsOf')} ${monthNames[month]} ${year}`;
-        container.appendChild(DOM.create('h3', { text: titleText }));
-
-        if (monthEvents.length > 0) {
-            // Agrupar por día para anclas de scroll (clic en el calendario)
-            const byDay = {};
-            monthEvents.forEach(event => {
-                const d = new Date(event.dtstart);
-                const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-                if (!byDay[key]) byDay[key] = [];
-                byDay[key].push(event);
-            });
-
-            const dayNamesShort = i18n.t('days');
-            Object.keys(byDay).sort().forEach(dayKey => {
-                const [y, m, day] = dayKey.split('-').map(Number);
-                const date = new Date(y, m - 1, day);
-                const dayName = dayNamesShort[date.getDay()];
-                const section = DOM.create('div', {
-                    className: 'calendar-day-events',
-                    attributes: { id: `day-${dayKey}` }
-                });
-                const heading = DOM.create('h4', {
-                    className: 'calendar-day-events-title',
-                    text: `${dayName} ${day}`
-                });
-                section.appendChild(heading);
-                const listWrapper = DOM.create('div', { className: 'calendar-month-events' });
-                byDay[dayKey].forEach(event => listWrapper.appendChild(this.createEventCard(event)));
-                section.appendChild(listWrapper);
-                container.appendChild(section);
-            });
-        } else {
-            container.appendChild(DOM.create('p', {
-                text: i18n.t('calendar.noEvents'),
-                attributes: { style: 'color: var(--terminal-gray); margin-bottom: var(--spacing-lg);' }
-            }));
-        }
-
-        // Verificar si hay eventos en meses posteriores
-        const nextMonthStart = new Date(year, month + 1, 1);
-        const hasMoreEvents = relevantEvents.some(e => {
-            if (!e.dtstart) return false;
-            return new Date(e.dtstart) >= nextMonthStart;
-        });
-
-        // Remover botón anterior si existe
-        const oldBtn = container.querySelector('.load-more-btn');
-        if (oldBtn) oldBtn.remove();
-
-        if (hasMoreEvents) {
-            const loadMoreBtn = DOM.create('button', {
-                className: 'load-more-btn',
-                text: i18n.t('cal.loadMore') || 'Cargar siguiente mes ▼'
-            });
-            loadMoreBtn.addEventListener('click', () => {
-                loadMoreBtn.remove();
-                // Avanzar al siguiente mes
-                const nextDate = new Date(this.lastLoadedYear, this.lastLoadedMonth + 1, 1);
-                this.lastLoadedYear = nextDate.getFullYear();
-                this.lastLoadedMonth = nextDate.getMonth();
-                this.appendMonthEvents(container, this.lastLoadedYear, this.lastLoadedMonth);
-            });
-            container.appendChild(loadMoreBtn);
-        }
-    }
-
-    /**
-     * Desplaza la vista hacia la sección del día en la lista de eventos.
-     * @param {string} dayKey - Formato YYYY-MM-DD
-     */
-    scrollToDay(dayKey) {
-        const el = document.getElementById(`day-${dayKey}`);
-        if (el) {
-            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            el.classList.add('calendar-day-events-highlight');
-            setTimeout(() => el.classList.remove('calendar-day-events-highlight'), 2000);
-        }
-    }
-
-    /**
-     * Get next N events after the specified month
-     */
-    getUpcomingEvents(currentYear, currentMonth, limit) {
-        // Create a date for the start of next month
-        const nextMonthStart = new Date(currentYear, currentMonth + 1, 1);
-
-        return this.events
-            .filter(e => {
+        if (this.selectedDateStr) {
+            // Filtrar exactamente el día seleccionado
+            visibleEvents = relevantEvents.filter(e => {
                 if (!e.dtstart) return false;
                 const d = new Date(e.dtstart);
-                return d >= nextMonthStart;
-            })
-            .sort((a, b) => new Date(a.dtstart) - new Date(b.dtstart))
-            .slice(0, limit);
+                const dStr = d.toLocaleDateString('en-CA', { timeZone: 'America/Mexico_City' });
+                return dStr === this.selectedDateStr;
+            });
+        } else {
+            // Mostrar todos los eventos del mes visualizado
+            visibleEvents = relevantEvents.filter(e => {
+                if (!e.dtstart) return false;
+                const d = new Date(e.dtstart);
+                return d.getFullYear() === year && d.getMonth() === month;
+            });
+        }
+
+        visibleEvents.sort((a, b) => new Date(a.dtstart) - new Date(b.dtstart));
+
+        if (visibleEvents.length > 0) {
+            visibleEvents.forEach(event => {
+                eventsContainer.appendChild(this.createEventCard(event));
+            });
+        } else {
+            const emptyMsg = DOM.create('div', {
+                className: 'no-events-msg',
+                attributes: { style: 'display: block;' },
+                text: this.selectedDateStr 
+                    ? `NO HAY EVENTOS PROGRAMADOS PARA EL ${this.selectedDateStr}` 
+                    : `NO HAY EVENTOS REGISTRADOS EN ESTE MES.`
+            });
+            eventsContainer.appendChild(emptyMsg);
+        }
+
+        this.container.appendChild(eventsContainer);
     }
 
-    /**
-     * Etiqueta corta de estado/ubicación para filtro visual al hacer scroll (ej. CDMX, Jal, En línea).
-     */
-    getPlaceLabel(event) {
-        if (this.isEventOnline(event)) return i18n.t('cal.online');
-        const code = (event.state_code || '').replace(/^MX-/, '').toUpperCase();
-        if (code === 'CMX') return 'CDMX';
-        if (code === 'JAL') return 'Jal';
-        if (code === 'NLE') return 'NL';
-        if (code === 'PUE') return 'Pue';
-        if (code === 'QRO') return 'Qro';
-        if (code === 'YUC') return 'Yuc';
-        if (code === 'AGS') return 'Ags';
-        if (code.length >= 2) return code.charAt(0) + code.slice(1).toLowerCase();
-        if (event.city) return event.city.trim().split(',')[0];
-        if (event.state) return event.state.trim().split(',')[0];
-        return '';
-    }
-
-    /**
-     * Detecta si el evento es online (URL como ubicación o flag del backend).
-     */
     isEventOnline(event) {
         if (event.online === true) return true;
         const loc = (event.location || '').trim();
@@ -350,19 +306,7 @@ export class Calendar {
         return false;
     }
 
-    /**
-     * URL de Google Maps para buscar la dirección (abre en nueva pestaña).
-     */
-    getMapsUrl(location) {
-        if (!location || typeof location !== 'string') return '#';
-        const query = location.split('\n')[0].trim().replace(/\s+/g, ' ');
-        return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
-    }
-
-    /**
-     * Acorta la ubicación para mostrar en una línea (evita bloques repetidos).
-     */
-    shortenLocation(location, maxLen = 90) {
+    shortenLocation(location, maxLen = 80) {
         if (!location || typeof location !== 'string') return '';
         const firstLine = location.split('\n')[0].trim();
         if (firstLine.length <= maxLen) return firstLine;
@@ -370,13 +314,46 @@ export class Calendar {
     }
 
     createEventCard(event) {
-        const dateStr = DateUtils.formatDate(event.dtstart);
+        const card = DOM.create('article', { className: 'event-item' });
+        const d = new Date(event.dtstart);
+        card.setAttribute('data-date', d.toLocaleDateString('en-CA', { timeZone: 'America/Mexico_City' }));
+
+        // 1. Badge Fecha
+        const dateBadgeInfo = DateUtils.formatDateBadge(event.dtstart);
+        const dateCol = DOM.create('div', { className: 'date-badge' });
+        dateCol.appendChild(DOM.create('span', { className: 'date-number', text: dateBadgeInfo.dayNumber }));
+        dateCol.appendChild(DOM.create('span', { className: 'date-meta', text: dateBadgeInfo.dayMeta }));
+        card.appendChild(dateCol);
+
+        // 2. Info de Evento
+        const infoCol = DOM.create('div', { className: 'event-content' });
+
+        const metaRow = DOM.create('div', { className: 'event-meta' });
+        const isToday = DateUtils.isToday(event.dtstart);
+        if (isToday) {
+            const liveBadge = DOM.create('span', { className: 'badge-live' });
+            liveBadge.innerHTML = `<span class="live-dot"></span>${i18n.t('badge.live') || 'HOY'}`;
+            metaRow.appendChild(liveBadge);
+            metaRow.appendChild(DOM.create('span', { text: '•' }));
+        }
+
         const startStr = DateUtils.formatTime(event.dtstart);
         const endStr = DateUtils.formatTime(event.dtend);
         const timeStr = (startStr && endStr && startStr !== endStr) ? `${startStr} - ${endStr}` : startStr;
+        if (timeStr) {
+            metaRow.appendChild(DOM.create('span', { text: `${timeStr} CST` }));
+            metaRow.appendChild(DOM.create('span', { text: '•' }));
+        }
 
+        const isOnline = this.isEventOnline(event);
+        let locText = isOnline ? 'ONLINE' : (event.location ? this.shortenLocation(event.location) : (event.city || 'México'));
+        metaRow.appendChild(DOM.create('span', { text: locText.toUpperCase() }));
+
+        infoCol.appendChild(metaRow);
+
+        // Título
         const rawTitle = event.title || event.summary || 'Evento sin título';
-        let categoryLabel = null;
+        let categoryLabel = event.organizer || null;
         let displayName = rawTitle;
 
         if (rawTitle.includes('|')) {
@@ -387,202 +364,150 @@ export class Calendar {
             }
         }
 
-        // Título: solo nombre del evento (sin duplicar ubicación en el título)
-        const titleContainer = DOM.create('div', { className: 'calendar-month-event-title' });
+        if (categoryLabel) {
+            infoCol.appendChild(DOM.create('div', { className: 'event-organizer', text: categoryLabel }));
+        }
+
+        const titleEl = DOM.create('h2', { className: 'event-title' });
         if (event.url) {
             const link = DOM.create('a', {
-                attributes: { href: addUtmSource(event.url), target: '_blank', rel: 'noopener' },
-                text: displayName
+                text: displayName,
+                attributes: {
+                    href: addUtmSource(event.url),
+                    target: '_blank',
+                    rel: 'noopener'
+                }
             });
-            titleContainer.appendChild(link);
+            titleEl.appendChild(link);
         } else {
-            titleContainer.textContent = displayName;
+            titleEl.textContent = displayName;
         }
-
-        // Ubicación: solo para presenciales (dirección + "Ver en mapa"). Online: "en línea" solo en la pill de estado.
-        const isOnline = this.isEventOnline(event);
-        const locationText = isOnline
-            ? ''
-            : (event.location ? this.shortenLocation(event.location) : (rawTitle.includes('|') ? rawTitle.split('|').slice(2).join(' | ').trim() : ''));
-        let locationNode = null;
-        if (locationText) {
-            locationNode = DOM.create('div', { className: 'calendar-month-event-location' });
-            const locationRow = DOM.create('div', { className: 'event-location-row' });
-            const locationSpan = DOM.create('span', { className: 'event-location-text', text: locationText });
-            locationRow.appendChild(locationSpan);
-            locationNode.appendChild(locationRow);
-            if (event.location) {
-                const mapsUrl = this.getMapsUrl(event.location);
-                const mapLink = DOM.create('a', {
-                    className: 'event-map-link',
-                    text: i18n.t('cal.viewOnMap'),
-                    attributes: {
-                        href: mapsUrl,
-                        target: '_blank',
-                        rel: 'noopener',
-                        'data-i18n': 'cal.viewOnMap'
-                    }
-                });
-                locationNode.appendChild(mapLink);
-            }
-        }
-
-        // Descripción (sin repetir Address ni Hosted by si ya los mostramos)
-        const descNode = this.createDescriptionNode(event.description, event.location, categoryLabel);
+        infoCol.appendChild(titleEl);
 
         // Tags
-        let tagsNode = null;
+        const tagsWrapper = DOM.create('div', { className: 'tag-container' });
+        if (isOnline) {
+            tagsWrapper.appendChild(DOM.create('span', { className: 'tag', text: '#online' }));
+        } else {
+            tagsWrapper.appendChild(DOM.create('span', { className: 'tag', text: '#presencial' }));
+        }
+
         if (event.tags && event.tags.length) {
-            tagsNode = DOM.create('div', { className: 'calendar-month-event-tags' });
-            event.tags.forEach(tag => {
-                tagsNode.appendChild(DOM.create('span', { className: 'calendar-month-event-tag', text: tag }));
+            event.tags.forEach(t => {
+                const tagText = t.startsWith('#') ? t : `#${t}`;
+                tagsWrapper.appendChild(DOM.create('span', { className: 'tag', text: tagText }));
             });
         }
+        infoCol.appendChild(tagsWrapper);
 
-        const card = DOM.create('div', { className: 'calendar-month-event' });
+        card.appendChild(infoCol);
 
-        // 1. Fecha + estado a primer vista (filtros visuales al hacer scroll)
-        const shortDate = DateUtils.formatShortDate(event.dtstart);
-        const placeLabel = this.getPlaceLabel(event);
-        const dateFirstBlock = DOM.create('div', { className: 'event-date-first' });
-        dateFirstBlock.appendChild(DOM.create('span', { className: 'event-date-pill', text: shortDate }));
-        if (timeStr) {
-            dateFirstBlock.appendChild(DOM.create('span', { className: 'event-time-pill', text: timeStr }));
-        }
-        if (placeLabel) {
-            const placePill = DOM.create('span', {
-                className: 'event-place-pill',
-                text: placeLabel,
-                attributes: placeLabel === i18n.t('cal.online') ? { 'data-i18n': 'cal.online' } : {}
-            });
-            dateFirstBlock.appendChild(placePill);
-        }
-        card.appendChild(dateFirstBlock);
+        // 3. Acciones
+        const actionsCol = DOM.create('div', { className: 'event-actions' });
+        const mainUrl = event.url || (event.sources && event.sources[0]?.url) || '#';
+        const actionLabel = isOnline ? (i18n.t('btn.join') || 'Unirse ↗') : (i18n.t('btn.register') || 'Registro ↗');
+        
+        const regBtn = DOM.create('a', {
+            className: 'btn-action',
+            text: actionLabel,
+            attributes: {
+                href: addUtmSource(mainUrl),
+                target: '_blank',
+                rel: 'noopener'
+            }
+        });
+        actionsCol.appendChild(regBtn);
 
-        // 2. Badge de categoría (si existe)
-        if (categoryLabel) {
-            const badge = DOM.create('div', { className: 'event-title-group', text: categoryLabel });
-            card.appendChild(badge);
-        }
+        const calBtn = DOM.create('a', {
+            className: 'btn-outline',
+            text: '+ Cal',
+            attributes: {
+                href: getGoogleCalendarUrl(event),
+                target: '_blank',
+                rel: 'noopener',
+                title: 'Añadir a Google Calendar'
+            }
+        });
+        actionsCol.appendChild(calBtn);
 
-        // 3. Título (nombre del evento)
-        card.appendChild(titleContainer);
-
-        // 4. Ubicación (una línea; sin repetir en descripción)
-        if (locationNode) card.appendChild(locationNode);
-
-        // 5. CTA: Ver en Luma / Meetup / etc.
-        if (event.sources && event.sources.length > 0) {
-            const sourcesContainer = DOM.create('div', { className: 'event-sources' });
-            event.sources.forEach(source => {
-                const btn = DOM.create('a', {
-                    className: `event-source-btn event-source-${source.platform}`,
-                    text: source.label,
-                    attributes: {
-                        href: addUtmSource(source.url),
-                        target: '_blank',
-                        rel: 'noopener'
-                    }
-                });
-                sourcesContainer.appendChild(btn);
-            });
-            card.appendChild(sourcesContainer);
-        } else if (event.url) {
-            const fallbackLink = DOM.create('a', {
-                className: 'event-source-btn event-source-website',
-                text: i18n.t('cal.viewEvent'),
-                attributes: { href: addUtmSource(event.url), target: '_blank', rel: 'noopener' }
-            });
-            card.appendChild(fallbackLink);
-        }
-
-        // 6. Descripción (colapsable; sin Address ni Hosted by repetidos)
-        if (descNode) card.appendChild(descNode);
-
-        // 7. Tags
-        if (tagsNode) card.appendChild(tagsNode);
-
+        card.appendChild(actionsCol);
         return card;
     }
 
-    createDescriptionNode(rawDesc, eventLocation, categoryLabel) {
-        if (!rawDesc) return null;
+    initKeyboardShortcuts() {
+        document.addEventListener('keydown', (e) => {
+            if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) return;
 
-        // Limpieza de descripción
-        let lines = rawDesc.split('\n');
-        const processed = lines.length > 1 ? lines.slice(1).map(l => l.trim()).join('\n') : rawDesc;
-        let clean = processed.replace(/(\n\s*){3,}/g, '\n\n').trim();
+            const key = e.key.toLowerCase();
+            const cells = Array.from(document.querySelectorAll('.day-cell'));
+            const activeIndex = cells.findIndex(c => c.classList.contains('active'));
 
-        // Quitar bloque "Address:" cuando ya mostramos ubicación arriba (evitar redundancia)
-        if (eventLocation && clean.includes('Address:')) {
-            const addrIdx = clean.indexOf('Address:');
-            const afterAddr = clean.slice(addrIdx + 'Address:'.length).trim();
-            const addrBlockEnd = afterAddr.indexOf('\n\n') >= 0 ? afterAddr.indexOf('\n\n') : afterAddr.length;
-            clean = (clean.slice(0, addrIdx).trim() + (afterAddr.slice(addrBlockEnd).trim() ? '\n\n' + afterAddr.slice(addrBlockEnd).trim() : '')).replace(/(\n\s*){3,}/g, '\n\n').trim();
-        }
-
-        // Quitar "Hosted by X" / "Organizado por X" cuando ya mostramos organizador en el badge
-        if (categoryLabel && clean) {
-            clean = clean
-                .replace(/Hosted by\s+[^\n]+/gi, '')
-                .replace(/Organizado por\s+[^\n]+/gi, '')
-                .replace(/(\n\s*){3,}/g, '\n\n')
-                .trim();
-        }
-
-        // Reducir redundancia bilingüe: dos líneas seguidas mismo mensaje (ej. idioma del evento)
-        const locale = (i18n.getLocale() || '').toLowerCase();
-        const preferEs = locale.startsWith('es');
-        const descLines = clean.split('\n').map(l => l.trim()).filter(Boolean);
-        if (descLines.length >= 2 && descLines[0].length < 120 && descLines[1].length < 120) {
-            const hasEn = (descLines[0].includes('Spanish') || descLines[0].includes('English') || descLines[0].includes('subtitles'));
-            const hasEs = (descLines[1].includes('español') || descLines[1].includes('inglés') || descLines[1].includes('subtítulos'));
-            if (hasEn && hasEs) {
-                clean = preferEs ? descLines[1] : descLines[0];
+            if (key === '?' || (e.shiftKey && e.key === '/')) {
+                e.preventDefault();
+                const modal = document.getElementById('helpModal');
+                if (modal) modal.classList.toggle('open');
+                return;
             }
-        }
 
-        if (!clean) return null;
+            switch (key) {
+                case 'arrowright':
+                case 'l':
+                    e.preventDefault();
+                    if (activeIndex !== -1 && activeIndex < cells.length - 1) {
+                        cells[activeIndex + 1].click();
+                    } else if (activeIndex === -1 && cells.length > 0) {
+                        cells[0].click();
+                    }
+                    break;
 
-        const isLong = clean.length > 300;
-        const wrapper = DOM.create('div');
+                case 'arrowleft':
+                case 'h':
+                    e.preventDefault();
+                    if (activeIndex > 0) {
+                        cells[activeIndex - 1].click();
+                    }
+                    break;
 
-        const textDiv = DOM.create('div', {
-            className: `calendar-month-event-description ${isLong ? 'collapsed' : ''}`,
-            text: clean
-        });
-        wrapper.appendChild(textDiv);
+                case ']':
+                    e.preventDefault();
+                    this.changeMonth(1);
+                    break;
 
-        if (isLong) {
-            const toggle = DOM.create('span', {
-                className: 'calendar-month-event-toggle',
-                text: i18n.t('cal.showMore')
-            });
-            toggle.onclick = () => {
-                const isCollapsed = textDiv.classList.contains('collapsed');
-                if (isCollapsed) {
-                    textDiv.classList.remove('collapsed');
-                    toggle.classList.add('expanded');
-                    toggle.textContent = i18n.t('cal.showLess');
-                } else {
-                    textDiv.classList.add('collapsed');
-                    toggle.classList.remove('expanded');
-                    toggle.textContent = i18n.t('cal.showMore');
-                }
-            };
-            wrapper.appendChild(toggle);
-        }
+                case '[':
+                    e.preventDefault();
+                    this.changeMonth(-1);
+                    break;
 
-        return wrapper;
+                case 't':
+                    e.preventDefault();
+                    const now = new Date();
+                    this.currentDate = new Date(now.getFullYear(), now.getMonth(), 1);
+                    this.selectedDateStr = now.toLocaleDateString('en-CA', { timeZone: 'America/Mexico_City' });
+                    this.render();
+                    break;
 
-    }
+                case 'd':
+                    e.preventDefault();
+                    if (window.app && window.app.header) {
+                        window.app.header.cycleTheme();
+                    } else {
+                        const themeBtn = document.getElementById('themeToggle');
+                        if (themeBtn) themeBtn.click();
+                    }
+                    break;
 
-    getEventsForDate(date) {
-        return this.events.filter(event => {
-            if (!event.dtstart) return false;
-            const d = new Date(event.dtstart);
-            d.setHours(0, 0, 0, 0);
-            return d.getTime() === date.getTime();
+                case 'a':
+                case 'escape':
+                    e.preventDefault();
+                    this.selectedDateStr = null;
+                    const modal = document.getElementById('helpModal');
+                    if (modal && modal.classList.contains('open')) {
+                        modal.classList.remove('open');
+                    } else {
+                        this.render();
+                    }
+                    break;
+            }
         });
     }
 }

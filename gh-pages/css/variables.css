@@ -1,60 +1,124 @@
 /**
- * Design Tokens
+ * Design Tokens & Variables - Multitema Swiss Cyber-Terminal
  */
 :root {
-    /* Terminal Colors */
-    --terminal-green: #00ff00;
-    --terminal-red: #ff0000;
-    --terminal-white: #ffffff;
-    --terminal-black: #0a0a0a;
-    --terminal-dark: #1a1a1a;
-    --terminal-gray: #666666;
+    --bg: #fafafa;
+    --bg-surface: #ffffff;
+    --bg-subtle: #f4f4f5;
+    --text: #09090b;
+    --text-muted: #71717a;
+    --border: #e4e4e7;
+    --accent: #eb3b2e;
+    --accent-subtle: rgba(235, 59, 46, 0.1);
+    --crt-glow: none;
+    --crt-glow-soft: none;
+    
+    /* Typography */
+    --font-sans: 'Geist', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: 'Geist Mono', monospace;
 
     /* Spacing */
-    --spacing-xs: 5px;
-    --spacing-sm: 10px;
-    --spacing-md: 15px;
-    --spacing-lg: 20px;
-    --spacing-xl: 30px;
-    --spacing-xxl: 40px;
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 48px;
 
-    /* Border Radius */
-    --radius-md: 8px;
-    --radius-lg: 10px;
+    /* Borders & Radius */
+    --radius-sm: 2px;
+    --radius-md: 4px;
+    --radius-lg: 6px;
 
     /* Transitions */
-    --transition-normal: 0.3s ease;
-    --transition-slow: 0.5s ease;
+    --transition-fast: 0.15s ease;
+    --transition-normal: 0.25s ease;
+}
 
-    /* Typography */
-    --font-family-mono: 'JetBrains Mono', 'Courier New', 'Monaco', 'Menlo', monospace;
+/* ==========================================================================
+   PALETAS DE COLOR CYBER-TERMINAL
+   ========================================================================== */
 
-    /* Event Card Typography */
-    --event-title-size: 0.95rem;
-    --event-group-size: 0.95rem;
-    --event-name-size: 0.9rem;
-    --event-meta-size: 0.85rem;
-    --event-body-size: 0.875rem;
-    --event-tag-size: 0.75rem;
+/* 1. MATRIX / P1 PHOSPHOR (Verde Clásico) - Default Dark */
+html.dark, html[data-theme="green"] {
+    --bg: #050a06;
+    --bg-surface: #0a140c;
+    --bg-subtle: #112215;
+    --text: #33ff66;
+    --text-muted: #1e8239;
+    --border: #133a1b;
+    --accent: #5cff85;
+    --accent-subtle: rgba(51, 255, 102, 0.15);
+    --crt-glow: 0 0 8px rgba(51, 255, 102, 0.45);
+    --crt-glow-soft: 0 0 4px rgba(51, 255, 102, 0.25);
+}
 
-    /* Event Card Colors - WCAG Compliant */
-    --event-text-primary: #ffffff;      /* 21:1 contrast - WCAG AAA */
-    --event-text-secondary: #d4d4d4;    /* 12:1 contrast - WCAG AAA */
-    --event-text-tertiary: #a8a8a8;     /* 6.4:1 contrast - WCAG AAA */
-    --event-text-quaternary: #8c8c8c;   /* 4.8:1 contrast - WCAG AA */
-    --event-accent: var(--terminal-green);
+/* 2. AMBER P3 (DEC VT220 / Cálido Retro) */
+html[data-theme="amber"] {
+    --bg: #0a0602;
+    --bg-surface: #140d05;
+    --bg-subtle: #241608;
+    --text: #ffb000;
+    --text-muted: #8a5a00;
+    --border: #3d2400;
+    --accent: #ffd066;
+    --accent-subtle: rgba(255, 176, 0, 0.15);
+    --crt-glow: 0 0 8px rgba(255, 176, 0, 0.45);
+    --crt-glow-soft: 0 0 4px rgba(255, 176, 0, 0.25);
+}
 
-    /* Event Card Spacing */
-    --event-padding-block: 18px;
-    --event-padding-inline: 20px;
-    --event-section-gap: 14px;
-    --event-item-gap: 8px;
-    --event-tag-gap: 6px;
+/* 3. CYBERPUNK / SYNTHWAVE (Cian & Neón Violeta) */
+html[data-theme="cyan"] {
+    --bg: #040810;
+    --bg-surface: #081120;
+    --bg-subtle: #0e1c33;
+    --text: #00f0ff;
+    --text-muted: #007a8a;
+    --border: #0d2e47;
+    --accent: #ff007f;
+    --accent-subtle: rgba(0, 240, 255, 0.15);
+    --crt-glow: 0 0 8px rgba(0, 240, 255, 0.45);
+    --crt-glow-soft: 0 0 4px rgba(0, 240, 255, 0.25);
+}
 
-    /* Event Card Layout */
-    --event-border-width: 1px;
-    --event-border-width-accent: 4px;
-    --event-line-height-tight: 1.4;
-    --event-line-height-normal: 1.5;
-    --event-line-height-relaxed: 1.6;
+/* 4. MONOCHROME EDITORIAL (Minimalista Vercel / Obsidian) */
+html[data-theme="obsidian"] {
+    --bg: #09090b;
+    --bg-surface: #121215;
+    --bg-subtle: #18181b;
+    --text: #f4f4f5;
+    --text-muted: #a1a1aa;
+    --border: #27272a;
+    --accent: #eb3b2e;
+    --accent-subtle: rgba(235, 59, 46, 0.15);
+    --crt-glow: 0 0 8px rgba(235, 59, 46, 0.35);
+    --crt-glow-soft: 0 0 4px rgba(235, 59, 46, 0.2);
+}
+
+/* 5. SOLARIZED DARK (Azul Petróleo Técnico) */
+html[data-theme="solarized"] {
+    --bg: #002b36;
+    --bg-surface: #073642;
+    --bg-subtle: #0d4654;
+    --text: #93a1a1;
+    --text-muted: #586e75;
+    --border: #135567;
+    --accent: #2aa198;
+    --accent-subtle: rgba(42, 161, 152, 0.15);
+    --crt-glow: 0 0 8px rgba(42, 161, 152, 0.45);
+    --crt-glow-soft: 0 0 4px rgba(42, 161, 152, 0.25);
+}
+
+/* MODO CLARO (Default / Light) */
+html[data-theme="light"] {
+    --bg: #fafafa;
+    --bg-surface: #ffffff;
+    --bg-subtle: #f4f4f5;
+    --text: #09090b;
+    --text-muted: #71717a;
+    --border: #e4e4e7;
+    --accent: #eb3b2e;
+    --accent-subtle: rgba(235, 59, 46, 0.1);
+    --crt-glow: none;
+    --crt-glow-soft: none;
 }
