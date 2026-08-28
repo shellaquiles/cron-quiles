@@ -331,13 +331,29 @@ html.dark .month-tab.active {
     background: rgba(0, 255, 102, 0.08);
 }
 
-/* Indicador de mes con eventos en la timeline */
+/* Indicador de mes con eventos en la timeline (Heatmap de Brillo) */
 .month-tab.has-events {
     font-weight: 700;
 }
 
-html.dark .month-tab.has-events:not(.active) {
-    color: var(--text);
+/* Densidad de calor según volumen de eventos en el mes */
+html.dark .month-tab.density-low:not(.active) {
+    color: #64748b; /* Densidad baja: tenue */
+}
+
+html.dark .month-tab.density-mid:not(.active) {
+    color: #cbd5e1; /* Densidad media: blanco suave */
+}
+
+html.dark .month-tab.density-high:not(.active) {
+    color: #7ee89d; /* Densidad alta: verde claro */
+    background: rgba(0, 255, 102, 0.03);
+}
+
+html.dark .month-tab.density-max:not(.active) {
+    color: var(--matrix-bright); /* Densidad máxima: verde matrix fosforescente */
+    background: rgba(0, 255, 102, 0.06);
+    text-shadow: 0 0 5px rgba(0, 255, 102, 0.4);
 }
 
 /* Cabecera de Resumen del Mes (Opción A: Feed Directo por Meses) */

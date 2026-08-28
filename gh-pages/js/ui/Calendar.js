@@ -163,7 +163,7 @@ export class Calendar {
 
         const monthShortNames = ['ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC'];
         
-        // Contar eventos por cada mes del año actual
+        // Contar eventos por cada mes del año actual y calcular densidad
         const monthEventCounts = new Array(12).fill(0);
         this.events.forEach(e => {
             if (e.dtstart) {
@@ -174,13 +174,28 @@ export class Calendar {
             }
         });
 
+        const maxEventsInYear = Math.max(...monthEventCounts, 1);
+
         monthShortNames.forEach((shortName, idx) => {
-            const hasEv = monthEventCounts[idx] > 0;
+            const count = monthEventCounts[idx];
+            const hasEv = count > 0;
+            
+            // Nivel de intensidad de calor (Heatmap)
+            let density = 'none';
+            if (count > 0) {
+                const ratio = count / maxEventsInYear;
+                if (ratio >= 0.7) density = 'max';
+                else if (ratio >= 0.35) density = 'high';
+                else if (ratio >= 0.15) density = 'mid';
+                else density = 'low';
+            }
+
             const monthTab = DOM.create('button', {
-                className: `month-tab ${idx === month ? 'active' : ''} ${hasEv ? 'has-events' : ''}`,
+                className: `month-tab ${idx === month ? 'active' : ''} ${hasEv ? 'has-events' : ''} density-${density}`,
                 attributes: { 
                     'data-month': idx,
-                    'title': `${monthNames[idx]} ${year}: ${monthEventCounts[idx]} eventos`
+                    'data-density': density,
+                    'title': `${monthNames[idx]} ${year}: ${count} eventos`
                 },
                 text: shortName
             });
