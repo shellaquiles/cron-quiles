@@ -19,6 +19,9 @@ If you are tasked with a specific operation, check the `.agents/skills/` and `.a
 - **Frontend / UI Changes:** Must read `/.agents/skills/frontend-development/SKILL.md`
 - **Data Maintenance / Geocoding:** Check `/.agents/skills/data-pipeline/`
 - **Adding/Managing Feeds:** Check `/.agents/skills/manage-aggregators/`
+- **Release / PR Checklist:** Execute workflow `/.agents/workflows/release-and-pr-checklist.md`
+- **Pipeline Test Simulation:** Execute workflow `/.agents/workflows/publish-test.md`
+- **Deduplication Audit:** Execute workflow `/.agents/workflows/audit-and-deduplication.md`
 
 ## 🚀 Quick Commands
 ```bash
