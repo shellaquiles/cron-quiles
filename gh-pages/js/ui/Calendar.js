@@ -123,10 +123,14 @@ export class Calendar {
 
         const navActions = DOM.create('div', { className: 'nav-actions' });
         
+        const btnLabel = this.selectedDateStr 
+            ? (i18n.t('cal.viewAllMonth') || 'VER TODO EL MES') 
+            : (i18n.t('cal.fullMonth') || 'MES COMPLETO');
+
         const viewAllBtn = DOM.create('button', {
             className: 'btn-nav',
             id: 'viewAllBtn',
-            text: this.selectedDateStr ? i18n.t('cal.viewAllMonth') || 'VER TODO EL MES' : 'MES COMPLETO'
+            text: btnLabel
         });
         viewAllBtn.addEventListener('click', () => {
             this.selectedDateStr = null;

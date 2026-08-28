@@ -1,6 +1,6 @@
 /**
  * Design Tokens & Variables - Cron-Quiles
- * Modo Claro (Editorial Minimalista) & Modo Oscuro (Matrix IDE / Hacker Terminal IDE)
+ * Modo Claro (Editorial Minimalista) & Modo Oscuro (Matrix Cyber-Terminal Pura / Gradación de Fósforo Verde)
  */
 :root {
     --bg: #fafafa;
@@ -10,18 +10,11 @@
     --text-muted: #71717a;
     --border: #e4e4e7;
     
-    /* Roles de sintaxis IDE (Modo Claro) */
-    --accent: #0969da;
-    --color-matrix: #00ff66;
-    --color-cyan: #0550ae;
-    --color-green: #1a7f37;
-    --color-purple: #8250df;
-    --color-yellow: #9a6700;
-    --color-orange: #cf222e;
-    --accent-subtle: rgba(9, 105, 218, 0.08);
-    
-    --crt-glow: none;
-    --crt-glow-soft: none;
+    /* Roles de color (Modo Claro) */
+    --accent: #eb3b2e;
+    --matrix-bright: #eb3b2e;
+    --matrix-accent: #ff453a;
+    --matrix-glow: none;
     
     /* Typography */
     --font-sans: 'Geist', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -36,9 +29,9 @@
     --spacing-xxl: 48px;
 
     /* Borders & Radius */
-    --radius-sm: 3px;
-    --radius-md: 6px;
-    --radius-lg: 8px;
+    --radius-sm: 2px;
+    --radius-md: 4px;
+    --radius-lg: 6px;
 
     /* Transitions */
     --transition-fast: 0.15s ease;
@@ -46,28 +39,23 @@
 }
 
 /* ==========================================================================
-   MODO OSCURO: MATRIX IDE (Verde Matrix Protagonista + Sintaxis IDE Combinada)
+   MODO MATRIX PURO (Gradación de Fósforo Verde - Zero Fatigue)
    ========================================================================== */
 html.dark {
-    /* Editor Dark Chrome con matiz Matrix profundo */
-    --bg: #090d0b;                 /* Fondo Editor Negro-Matrix Profundo */
-    --bg-surface: #101913;         /* Tarjeta / Panel Activo con profundidad */
-    --bg-subtle: #17241c;          /* Gutter, Badges & Superficies de Hover */
-    --border: #1f3d28;             /* Bordes de panel estilo editor técnico */
+    /* 1. Fondo oscuro con tinte de tubo apagado */
+    --bg: #040805;              /* Negro carbón con tinte verde mínimo */
+    --bg-surface: #0a110c;      /* Fondo de tarjetas y paneles */
+    --bg-subtle: #0f1c12;       /* Fondo de tags y hover */
+    --border: #16331e;          /* Líneas de 1px definidas pero atenuadas */
 
-    /* Tipografía nítida */
-    --text: #e2f7ea;               /* Texto principal / Títulos (Blanco-Menta nítido) */
-    --text-muted: #7da58b;         /* Comentarios / Metadatos (Gris Salvia de IDE) */
+    /* 2. Capas de texto (gradación de fósforo) */
+    --text: #c8ffd4;            /* Verde menta casi blanco: Títulos legibles */
+    --text-muted: #4e8c5d;      /* Verde medio opaco: Metadatos y descripciones */
 
-    /* Paleta Combinada: Verde Matrix + Sintaxis IDE */
-    --accent: #00ff66;             /* Verde Matrix Puro: Keywords, Fechas y Botón Principal */
-    --color-matrix: #00ff66;       /* Verde Matrix Fósforo */
-    --color-cyan: #70e0f2;        /* Funciones / Ubicaciones (Cian Suave) */
-    --color-yellow: #ffd166;      /* Constantes / HOY / Live (Ámbar Dorado) */
-    --color-purple: #c792ea;      /* Types / Tags (#python, #rust en Violeta IDE) */
-    --color-orange: #ff9e64;      /* Parámetros / Online (Naranja Suave) */
-    
-    --accent-subtle: rgba(0, 255, 102, 0.12);
-    --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-    --crt-glow: 0 0 10px rgba(0, 255, 102, 0.35);
+    /* 3. Fósforo Activo (Brillo alto para interactividad) */
+    --accent: #00ff66;
+    --matrix-bright: #00ff66;   /* Fósforo puro: Días activos y botones */
+    --matrix-accent: #22c55e;   /* Acento medio */
+    --matrix-glow: 0 0 10px rgba(0, 255, 102, 0.35);
+    --matrix-tag-text: #7ee89d; /* Verde intermedio */
 }

@@ -646,7 +646,7 @@ kbd {
 }
 
 .community-card {
-    background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-subtle) 100%);
+    background: var(--bg-surface);
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
     padding: 1.35rem;
@@ -654,32 +654,13 @@ kbd {
     flex-direction: column;
     justify-content: space-between;
     transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-    position: relative;
-    overflow: hidden;
-}
-
-.community-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 3px;
-    height: 100%;
-    background: var(--accent);
-    opacity: 0.6;
-    transition: opacity var(--transition-fast), width var(--transition-fast);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .community-card:hover {
-    border-color: var(--accent);
+    border-color: var(--color-cyan);
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35), 0 0 15px var(--accent-subtle);
-}
-
-.community-card:hover::before {
-    opacity: 1;
-    width: 4px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 .community-name {
@@ -738,61 +719,112 @@ kbd {
         font-size: 0.65rem;
     }
 /* ==========================================================================
-   MODO OSCURO: MATRIX IDE (Verde Matrix Protagonista + Sintaxis IDE)
+   MODO MATRIX PURO: GRADACIÓN DE FÓSFORO VERDE MONOCROMÁTICO
    ========================================================================== */
 
-/* 1. Botones y Celdas Activas (Verde Matrix Fósforo) */
+/* A. Títulos y Descripciones (Cero Fatiga) */
+html.dark .event-title,
+html.dark .community-name,
+html.dark .community-card h3 {
+    color: var(--text);
+    letter-spacing: -0.01em;
+}
+
+html.dark .event-meta,
+html.dark .community-description,
+html.dark .community-card p {
+    color: var(--text-muted);
+}
+
+/* B. Barra de Días y Fechas (Efecto Pantalla Encendida) */
+/* Número de día en fósforo vivo */
+html.dark .date-number {
+    color: var(--matrix-bright);
+    text-shadow: var(--matrix-glow);
+}
+
+/* Línea de acento lateral */
+html.dark .date-badge {
+    border-left-color: var(--matrix-bright);
+}
+
+/* Celda de día seleccionada en la tira horizontal y filtros activos */
 html.dark .day-cell.active,
 html.dark .filter-pill.active {
-    background-color: var(--accent-subtle);
-    color: var(--color-matrix);
-    border-color: var(--color-matrix);
-    box-shadow: 0 0 10px rgba(0, 255, 102, 0.25);
-    font-weight: 700;
+    background-color: var(--matrix-bright);
+    color: #040805;
+    box-shadow: var(--matrix-glow);
+    font-weight: 800;
+    border-color: var(--matrix-bright);
 }
 
-/* 2. Número de día (Verde Matrix Protagonista) y Barra Vertical */
-html.dark .date-number {
-    color: var(--color-matrix);
-    text-shadow: 0 0 8px rgba(0, 255, 102, 0.35);
-}
-
-html.dark .date-badge {
-    border-left: 3px solid var(--color-matrix);
-}
-
-/* 3. Indicadores de eventos en la tira de días (Ámbar Dorado) */
+/* Indicador de eventos */
 html.dark .day-cell.has-events .event-indicator {
-    background-color: var(--color-yellow);
-    box-shadow: 0 0 6px rgba(255, 209, 102, 0.7);
+    background-color: var(--matrix-bright);
+    box-shadow: 0 0 4px var(--matrix-bright);
 }
 
-/* Badge HOY / En Vivo (Ámbar Dorado con pulso) */
+/* Badge HOY / En Vivo */
 html.dark .badge-live {
-    color: var(--color-yellow);
+    color: var(--matrix-bright);
 }
 
 html.dark .live-dot {
-    background-color: var(--color-yellow);
-    box-shadow: 0 0 8px rgba(255, 209, 102, 0.8);
+    background-color: var(--matrix-bright);
+    box-shadow: 0 0 8px var(--matrix-bright);
 }
 
-/* 4. Botones de Acción (Verde Matrix Sólido con texto negro terminal) */
-html.dark .btn-action,
-html.dark .btn-main {
-    background-color: var(--color-matrix);
-    color: #090d0b;
-    border: 1px solid var(--color-matrix);
-    font-weight: 800;
-    box-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
+/* C. Tags y Badges (#python, #linux, etc.) */
+html.dark .tag {
+    background: rgba(0, 255, 102, 0.05);
+    border: 1px solid rgba(0, 255, 102, 0.2);
+    color: #7ee89d; /* Verde intermedio */
 }
 
-html.dark .btn-action:hover,
-html.dark .btn-main:hover {
-    background-color: #5cff85;
-    color: #090d0b;
-    border-color: #5cff85;
-    box-shadow: 0 0 16px rgba(92, 255, 133, 0.7);
+html.dark .tag:hover {
+    border-color: var(--matrix-bright);
+    color: var(--matrix-bright);
+}
+
+html.dark span.tag:first-child {
+    background: rgba(0, 255, 102, 0.08);
+    border-color: rgba(0, 255, 102, 0.3);
+    color: #7ee89d;
+}
+
+html.dark span.tag[data-type="online"] {
+    background: rgba(0, 255, 102, 0.05);
+    border-color: rgba(0, 255, 102, 0.2);
+    color: #7ee89d;
+}
+
+/* D. Tarjetas de Comunidades (comunidades.html) */
+html.dark .community-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    transition: all 0.15s ease;
+}
+
+html.dark .community-card:hover {
+    border-color: var(--matrix-bright);
+    box-shadow: var(--matrix-glow);
+}
+
+/* E. Botones de Acción (Unirse ↗ / Registro ↗) */
+html.dark .btn-main,
+html.dark .event-item .btn-action {
+    background-color: var(--matrix-bright);
+    color: #040805;
+    border: 1px solid var(--matrix-bright);
+    font-weight: 700;
+    box-shadow: var(--matrix-glow);
+}
+
+html.dark .btn-main:hover,
+html.dark .event-item .btn-action:hover {
+    background-color: #5cff95;
+    border-color: #5cff95;
+    color: #040805;
 }
 
 html.dark .btn-outline {
@@ -801,37 +833,12 @@ html.dark .btn-outline {
 }
 
 html.dark .btn-outline:hover {
-    border-color: var(--color-matrix);
-    color: var(--color-matrix);
+    border-color: var(--matrix-bright);
+    color: var(--matrix-bright);
     background-color: var(--bg-subtle);
 }
 
-/* 5. Tags de tecnología (#python, #rust en Violeta IDE #c792ea) */
-html.dark .tag {
-    background-color: rgba(199, 146, 234, 0.1);
-    border: 1px solid rgba(199, 146, 234, 0.25);
-    color: var(--color-purple);
-}
-
-html.dark .tag:hover {
-    background-color: rgba(199, 146, 234, 0.2);
-    border-color: var(--color-purple);
-}
-
-/* Modalidades: Presencial (Verde Matrix Suave) / Online (Naranja Parámetro #ff9e64) */
-html.dark span.tag:first-child {
-    background-color: rgba(0, 255, 102, 0.1);
-    border-color: rgba(0, 255, 102, 0.3);
-    color: var(--color-matrix);
-}
-
-html.dark span.tag[data-type="online"] {
-    background-color: rgba(255, 158, 100, 0.1);
-    border-color: rgba(255, 158, 100, 0.3);
-    color: var(--color-orange);
-}
-
-/* 6. Sin scanlines agresivos para mantener máxima comodidad visual */
+/* 6. Sin scanlines agresivos para lectura cómoda */
 html.dark body::before {
     display: none;
 }
