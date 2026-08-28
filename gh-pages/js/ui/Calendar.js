@@ -34,6 +34,61 @@ function getGoogleCalendarUrl(event) {
     return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&details=${encodeURIComponent(desc)}&location=${encodeURIComponent(loc)}${datesParam}`;
 }
 
+function getOutlookCalendarUrl(event) {
+    const title = event.title || event.summary || 'Evento Tech';
+    const desc = (event.description || '') + (event.url ? `\n\nRegistro: ${event.url}` : '');
+    const loc = event.location || (event.online ? 'Online' : '');
+
+    const start = event.dtstart ? new Date(event.dtstart).toISOString() : new Date().toISOString();
+    const end = event.dtend 
+        ? new Date(event.dtend).toISOString()
+        : new Date(new Date(start).getTime() + 2 * 60 * 60 * 1000).toISOString();
+
+    return `https://outlook.live.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&subject=${encodeURIComponent(title)}&body=${encodeURIComponent(desc)}&location=${encodeURIComponent(loc)}&startdt=${encodeURIComponent(start)}&enddt=${encodeURIComponent(end)}`;
+}
+
+function downloadEventIcs(event) {
+    const title = (event.title || event.summary || 'Evento Tech').replace(/,/g, '\\,');
+    const desc = ((event.description || '') + (event.url ? `\n\nRegistro: ${event.url}` : '')).replace(/\n/g, '\\n');
+    const loc = (event.location || (event.online ? 'Online' : '')).replace(/,/g, '\\,');
+    
+    const now = new Date().toISOString().replace(/-|:|\.\d\d\d/g, '');
+    const start = event.dtstart 
+        ? new Date(event.dtstart).toISOString().replace(/-|:|\.\d\d\d/g, '')
+        : now;
+    const end = event.dtend 
+        ? new Date(event.dtend).toISOString().replace(/-|:|\.\d\d\d/g, '')
+        : new Date(new Date(event.dtstart || Date.now()).getTime() + 2 * 60 * 60 * 1000).toISOString().replace(/-|:|\.\d\d\d/g, '');
+
+    const uid = event.uid || `cronquiles-${Date.now()}@cronquiles.org`;
+
+    const icsContent = [
+        'BEGIN:VCALENDAR',
+        'VERSION:2.0',
+        'PRODID:-//Cron-Quiles//MX',
+        'CALSCALE:GREGORIAN',
+        'BEGIN:VEVENT',
+        `UID:${uid}`,
+        `DTSTAMP:${now}`,
+        `DTSTART:${start}`,
+        `DTEND:${end}`,
+        `SUMMARY:${title}`,
+        `DESCRIPTION:${desc}`,
+        `LOCATION:${loc}`,
+        'STATUS:CONFIRMED',
+        'END:VEVENT',
+        'END:VCALENDAR'
+    ].join('\r\n');
+
+    const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+    const link = document.createElement('a');
+    link.href = window.URL.createObjectURL(blob);
+    link.setAttribute('download', `${(event.slug || 'evento-tech')}.ics`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
 export class Calendar {
     constructor(containerId) {
         this.container = document.getElementById(containerId);
@@ -614,17 +669,67 @@ export class Calendar {
         });
         actionsCol.appendChild(regBtn);
 
-        const calBtn = DOM.create('a', {
-            className: 'btn-outline',
-            text: '+ Cal',
+        // Menú Desplegable Universal para + Cal (Google, Outlook, Apple / ICS)
+        const calDropdownWrapper = DOM.create('div', { className: 'cal-dropdown-wrapper' });
+
+        const calBtn = DOM.create('button', {
+            className: 'btn-outline btn-cal-dropdown-trigger',
+            text: '+ Cal ▾',
+            attributes: {
+                type: 'button',
+                title: 'Añadir a Google Calendar, Outlook o Apple Calendar (.ics)'
+            }
+        });
+
+        const calDropdownMenu = DOM.create('div', { className: 'cal-dropdown-menu' });
+
+        // Opción 1: Google Calendar
+        const googleOpt = DOM.create('a', {
+            className: 'cal-dropdown-item',
+            text: 'Google Calendar',
             attributes: {
                 href: getGoogleCalendarUrl(event),
                 target: '_blank',
-                rel: 'noopener',
-                title: 'Añadir a Google Calendar'
+                rel: 'noopener'
             }
         });
-        actionsCol.appendChild(calBtn);
+
+        // Opción 2: Outlook / Office 365
+        const outlookOpt = DOM.create('a', {
+            className: 'cal-dropdown-item',
+            text: 'Outlook / 365',
+            attributes: {
+                href: getOutlookCalendarUrl(event),
+                target: '_blank',
+                rel: 'noopener'
+            }
+        });
+
+        // Opción 3: Apple Calendar / Archivo .ICS Local
+        const icsOpt = DOM.create('button', {
+            className: 'cal-dropdown-item',
+            text: 'Apple / Archivo .ics',
+            attributes: { type: 'button' }
+        });
+        icsOpt.addEventListener('click', (e) => {
+            e.stopPropagation();
+            downloadEventIcs(event);
+            calDropdownMenu.classList.remove('open');
+        });
+
+        calDropdownMenu.append(googleOpt, outlookOpt, icsOpt);
+
+        calBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            // Cerrar otros dropdowns abiertos
+            document.querySelectorAll('.cal-dropdown-menu.open').forEach(m => {
+                if (m !== calDropdownMenu) m.classList.remove('open');
+            });
+            calDropdownMenu.classList.toggle('open');
+        });
+
+        calDropdownWrapper.append(calBtn, calDropdownMenu);
+        actionsCol.appendChild(calDropdownWrapper);
 
         card.appendChild(actionsCol);
         return card;
@@ -730,6 +835,13 @@ export class Calendar {
                         this.render();
                     }
                     break;
+            }
+        });
+
+        // Cerrar menús desplegables de + Cal al hacer clic fuera
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.cal-dropdown-wrapper')) {
+                document.querySelectorAll('.cal-dropdown-menu.open').forEach(m => m.classList.remove('open'));
             }
         });
     }

@@ -1017,6 +1017,66 @@ html.dark .meta-row strong {
     background: var(--bg-subtle);
 }
 
+/* Dropdown Multi-Calendario (+ CAL) */
+.cal-dropdown-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.btn-cal-dropdown-trigger {
+    width: 100%;
+}
+
+.cal-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 4px);
+    right: 0;
+    min-width: 175px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    display: none;
+    flex-direction: column;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.cal-dropdown-menu.open {
+    display: flex;
+}
+
+.cal-dropdown-item {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text);
+    padding: 0.5rem 0.75rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    text-decoration: none;
+    text-align: left;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cal-dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.cal-dropdown-item:hover {
+    background: var(--bg-subtle);
+    color: var(--matrix-bright);
+}
+
+html.dark .cal-dropdown-item:hover {
+    background: rgba(0, 255, 102, 0.08);
+}
+
 .btn-group {
     display: flex;
     gap: 0.75rem;
