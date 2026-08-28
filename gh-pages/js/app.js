@@ -1,14 +1,12 @@
 /**
- * Cron-Quiles Frontend Entry Point
- *
- * Orquestador principal. Soporta multipágina: index (inicio), eventos, suscribir, comunidades.
+ * Cron-Quiles Frontend Entry Point - Editorial Theme
  */
 import { CONFIG } from './config.js';
 import { i18n } from './core/I18n.js';
 import { appStore } from './core/Store.js';
 import { DataService } from './services/DataService.js';
 import { Storage } from './services/Storage.js';
-import { Calendar } from './ui/Calendar.js?v=2';
+import { Calendar } from './ui/Calendar.js';
 import { CommunityList } from './ui/CommunityList.js';
 import { Header } from './ui/Header.js';
 import { Terminal } from './ui/Terminal.js';
@@ -38,6 +36,7 @@ class App {
         const urlParams = new URLSearchParams(window.location.search);
         const savedLang = urlParams.get('lang') || Storage.get(CONFIG.STORAGE_KEYS.LANG) || CONFIG.LANGUAGES.DEFAULT;
         let savedCity = urlParams.get('city') || Storage.get(CONFIG.STORAGE_KEYS.CITY) || CONFIG.CITIES.DEFAULT;
+        let savedFormat = urlParams.get('format') || 'all';
 
         if (this.states.length > 0 && !this.states.find(s => s.slug === savedCity)) {
             savedCity = CONFIG.CITIES.DEFAULT;
@@ -45,6 +44,7 @@ class App {
 
         appStore.set('lang', savedLang);
         appStore.set('city', savedCity);
+        appStore.set('formatFilter', savedFormat);
 
         this.updateUrlParams();
         this.renderTabs();
@@ -52,6 +52,7 @@ class App {
 
         if (this.page === 'index') {
             this.updateLandingLinks();
+            this.loadFeaturedEvents(savedCity);
         } else if (this.calendar || this.communityList) {
             this.loadCityData(savedCity);
         }
@@ -61,6 +62,7 @@ class App {
         }
 
         this.header.updateLastModified();
+        this.header.updateVersion();
     }
 
     updateLandingLinks() {
@@ -80,86 +82,92 @@ class App {
     }
 
     renderTabs() {
-        const container = document.querySelector('.city-tabs');
-        if (!container || !this.states.length) return;
-
-        const showPast = appStore.get('showPastEvents');
-        const viewDate = appStore.get('viewDate') || new Date();
-
-        // Format viewDate to YYYY-MM for comparison
-        const year = viewDate.getFullYear();
-        const month = String(viewDate.getMonth() + 1).padStart(2, '0');
-        const viewMonthStr = `${year}-${month}`;
-
         const currentCity = appStore.get('city');
+        const currentFormat = appStore.get('formatFilter') || 'all';
 
         const visibleStates = this.states.filter(state => {
-
             if (state.slug === 'mexico') return true;
-            if (state.slug === currentCity) return true; // Keep active tab visible
-
-            if (showPast) return true;
-
-            // Check if city has any active month >= viewMonthStr
-            if (!state.active_months || !Array.isArray(state.active_months)) {
-                // Fallback to future_event_count if active_months not present (compatibility)
-                return (state.future_event_count || 0) > 0;
-            }
-
-            // active_months is sorted, check if any is >= viewMonthStr
-            const isVisible = state.active_months.some(m => m >= viewMonthStr);
-            return isVisible;
+            if (state.slug === currentCity) return true;
+            return (state.event_count || 0) > 0;
         });
 
-        const isMobile = window.matchMedia('(max-width: 768px)').matches;
+        // 1. Selector Dropdown Compacto (Swiss Select)
+        const citySelect = document.getElementById('city-select');
+        if (citySelect && this.states.length) {
+            citySelect.innerHTML = visibleStates.map(state => {
+                const displayName = state.slug === 'mexico' ? 'Todo México' : state.name;
+                return `
+                    <option value="${state.slug}" ${state.slug === currentCity ? 'selected' : ''}>
+                        ${displayName}
+                    </option>
+                `;
+            }).join('');
+        }
 
-        if (isMobile) {
-            container.innerHTML = `
-                <div class="city-select-wrapper">
-                    <label class="city-select-label" for="city-select">${i18n.t('hint.whereEvents')}</label>
-                    <select id="city-select" class="city-select" aria-label="${i18n.t('nav.cityLabel')}">
-                        ${visibleStates.map(state => `
-                            <option value="${state.slug}" ${state.slug === currentCity ? 'selected' : ''}>
-                                ${state.emoji || ''} ${state.name}
-                            </option>
-                        `).join('')}
-                    </select>
-                </div>
-            `;
-        } else {
-            container.innerHTML = visibleStates.map(state => `
-                <button class="city-tab ${state.slug === currentCity ? 'active' : ''}" data-city="${state.slug}" aria-label="${state.name}">
-                    ${state.emoji} ${state.name}
+        const formatSelect = document.getElementById('format-select');
+        if (formatSelect) {
+            formatSelect.value = currentFormat;
+        }
+
+        // 2. Pastillas de píldoras clásicas (si existen en el DOM)
+        const pillsContainer = document.getElementById('cityPillsContainer') || document.querySelector('.city-filter-group .filter-pills-scroll');
+        if (pillsContainer && this.states.length) {
+            pillsContainer.innerHTML = visibleStates.map(state => `
+                <button class="filter-pill ${state.slug === currentCity ? 'active' : ''}" data-city="${state.slug}" aria-label="${state.name}">
+                    ${state.name} (${state.event_count || 0})
                 </button>
             `).join('');
         }
     }
 
     bindEvents() {
-        const tabsContainer = document.querySelector('.city-tabs');
-        if (!tabsContainer) return;
-
-        // Cambio de ciudad: tabs (desktop) o select (móvil)
-        tabsContainer.addEventListener('click', (e) => {
-            const tab = e.target.closest('.city-tab');
-            if (tab) {
-                const city = tab.dataset.city;
-                if (city) appStore.set('city', city);
-            }
-        });
-        tabsContainer.addEventListener('change', (e) => {
-            if (e.target.classList.contains('city-select')) {
+        // Filtro de Ciudad (Pills o Select)
+        const citySelect = document.getElementById('city-select');
+        if (citySelect) {
+            citySelect.addEventListener('change', (e) => {
                 appStore.set('city', e.target.value);
-            }
-        });
+            });
+        }
 
-        // Reacción a cambios de estado
+        const cityContainer = document.querySelector('.city-filter-group');
+        if (cityContainer) {
+            cityContainer.addEventListener('click', (e) => {
+                const pill = e.target.closest('.filter-pill');
+                if (pill && pill.dataset.city) {
+                    appStore.set('city', pill.dataset.city);
+                }
+            });
+        }
+
+        // Filtro de Formato (Pills o Select)
+        const formatSelect = document.getElementById('format-select');
+        if (formatSelect) {
+            formatSelect.addEventListener('change', (e) => {
+                appStore.set('formatFilter', e.target.value);
+            });
+        }
+
+        const formatContainer = document.querySelector('.format-filter-group');
+        if (formatContainer) {
+            formatContainer.addEventListener('click', (e) => {
+                const pill = e.target.closest('.filter-pill');
+                if (pill && pill.dataset.format) {
+                    formatContainer.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+                    pill.classList.add('active');
+                    appStore.set('formatFilter', pill.dataset.format);
+                }
+            });
+        }
+
+        // Subscripciones a store
         appStore.subscribe('city', (city) => this.onCityChange(city));
         appStore.subscribe('lang', (lang) => this.onLangChange(lang));
-        appStore.subscribe('showPastEvents', () => this.renderTabs());
-        appStore.subscribe('viewDate', () => this.renderTabs());
+        appStore.subscribe('formatFilter', (format) => {
+            const fs = document.getElementById('format-select');
+            if (fs && fs.value !== format) fs.value = format;
+        });
 
-        // Al redimensionar, alternar entre tabs (desktop) y select (móvil)
+        // Responsive resize
         let lastMobile = window.matchMedia('(max-width: 768px)').matches;
         window.addEventListener('resize', () => {
             const nowMobile = window.matchMedia('(max-width: 768px)').matches;
@@ -170,25 +178,20 @@ class App {
         });
     }
 
-    /**
-     * Actualiza los query params de la URL sin recargar la página.
-     */
     updateUrlParams() {
         const params = new URLSearchParams(window.location.search);
         const city = appStore.get('city');
         const lang = appStore.get('lang');
+        const format = appStore.get('formatFilter');
 
-        if (city) {
-            params.set('city', city);
-        } else {
-            params.delete('city');
-        }
+        if (city) params.set('city', city);
+        else params.delete('city');
 
-        if (lang && lang !== CONFIG.LANGUAGES.DEFAULT) {
-            params.set('lang', lang);
-        } else {
-            params.delete('lang');
-        }
+        if (lang && lang !== CONFIG.LANGUAGES.DEFAULT) params.set('lang', lang);
+        else params.delete('lang');
+
+        if (format && format !== 'all') params.set('format', format);
+        else params.delete('format');
 
         const qs = params.toString();
         const newUrl = window.location.pathname + (qs ? '?' + qs : '');
@@ -202,6 +205,7 @@ class App {
 
         if (this.page === 'index') {
             this.updateLandingLinks();
+            this.loadFeaturedEvents(city);
         } else if (this.calendar || this.communityList) {
             this.loadCityData(city);
             this.updateDownloadLinks(city);
@@ -215,36 +219,152 @@ class App {
     onLangChange(lang) {
         Storage.set(CONFIG.STORAGE_KEYS.LANG, lang);
         this.updateUrlParams();
+        this.renderTabs();
         if (this.calendar) this.calendar.render();
         this.header.updateLastModified();
+        this.header.updateVersion();
     }
 
     async loadCityData(city) {
         const calendarContainer = document.getElementById('calendar-container');
-        if (calendarContainer) {
+        if (calendarContainer && !this.calendar?.hasLoadedOnce) {
             calendarContainer.innerHTML = `<div class="events-loading">${i18n.t('calendar.loading')}</div>`;
         }
 
         try {
-            const data = await DataService.getCityData(city);
+            const data = await DataService.getCityData(city || 'mexico');
             const events = Array.isArray(data) ? data : (data.events || []);
 
-            if (this.calendar) this.calendar.setEvents(events);
-            if (this.communityList) this.communityList.render(data.communities || []);
+            if (this.calendar) {
+                this.calendar.setEvents(events);
+            }
+            if (this.communityList) {
+                this.communityList.render(data.communities || []);
+            }
+
+            // Inyectar Datos Estructurados Schema.org JSON-LD (Rich Snippets para Google)
+            this.injectSchemaOrgJsonLd(events);
 
         } catch (error) {
-            console.error(error);
-            const container = document.getElementById('calendar-container');
-            if (container) {
-                const isLocal = window.location.protocol === 'file:';
-                let msg;
-                if (isLocal) {
-                    msg = 'Error: No se puede cargar con file://. Usa un servidor local (make serve).';
-                } else {
-                    msg = `No hay datos para "${city}". En local ejecuta: make run-all`;
-                }
-                container.innerHTML = `<div class="events-error">${msg}</div>`;
+            console.error('Error in loadCityData:', error);
+            if (calendarContainer && (!this.calendar || !this.calendar.events || this.calendar.events.length === 0)) {
+                const msg = `No hay datos para "${city}". Ejecuta: make run-all`;
+                calendarContainer.innerHTML = `<div class="events-error">${msg}</div>`;
             }
+        }
+    }
+
+    injectSchemaOrgJsonLd(events) {
+        if (!events || !events.length) return;
+        
+        let schemaScript = document.getElementById('schema-events-ld');
+        if (!schemaScript) {
+            schemaScript = document.createElement('script');
+            schemaScript.id = 'schema-events-ld';
+            schemaScript.type = 'application/ld+json';
+            document.head.appendChild(schemaScript);
+        }
+
+        // Tomar hasta 50 eventos para el rich snippet
+        const relevant = events.slice(0, 50).map((e, index) => {
+            const isOnline = !e.location || e.online === true || (e.location && e.location.toLowerCase().includes('online'));
+            const mainUrl = e.url || (e.sources && e.sources[0]?.url) || 'https://shellaquiles.github.io/cron-quiles/';
+            
+            const eventSchema = {
+                "@type": "Event",
+                "name": e.title || e.summary || 'Evento Tech',
+                "startDate": e.dtstart,
+                "endDate": e.dtend || e.dtstart,
+                "eventStatus": "https://schema.org/EventScheduled",
+                "eventAttendanceMode": isOnline 
+                    ? "https://schema.org/OnlineEventAttendanceMode" 
+                    : "https://schema.org/OfflineEventAttendanceMode",
+                "description": e.description ? e.description.slice(0, 250) : (e.title || 'Evento tecnológico en México'),
+                "organizer": {
+                    "@type": "Organization",
+                    "name": e.organizer || "Comunidad Tech México",
+                    "url": mainUrl
+                }
+            };
+
+            if (isOnline) {
+                eventSchema.location = {
+                    "@type": "VirtualLocation",
+                    "url": mainUrl
+                };
+            } else {
+                eventSchema.location = {
+                    "@type": "Place",
+                    "name": e.location || "Sede por confirmar",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": e.city || "Ciudad de México",
+                        "addressCountry": "MX"
+                    }
+                };
+            }
+
+            return {
+                "@type": "ListItem",
+                "position": index + 1,
+                "item": eventSchema
+            };
+        });
+
+        const jsonLd = {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "itemListElement": relevant
+        };
+
+        schemaScript.textContent = JSON.stringify(jsonLd);
+    }
+
+    async loadFeaturedEvents(city) {
+        const listContainer = document.getElementById('featured-events-list') || document.getElementById('featuredEvents');
+        if (!listContainer) return;
+
+        try {
+            const data = await DataService.getCityData(city || 'mexico');
+            const events = Array.isArray(data) ? data : (data.events || []);
+            const now = new Date();
+            
+            // 1. Intentar tomar los próximos eventos a partir de hoy
+            let upcoming = events.filter(e => {
+                if (!e.dtstart) return false;
+                return new Date(e.dtstart) >= new Date(now.getFullYear(), now.getMonth(), now.getDate());
+            }).sort((a, b) => new Date(a.dtstart) - new Date(b.dtstart)).slice(0, 4);
+
+            // 2. Si no hay eventos a futuro en este instante, mostrar los más recientes del histórico
+            if (upcoming.length === 0 && events.length > 0) {
+                upcoming = [...events]
+                    .filter(e => e.dtstart)
+                    .sort((a, b) => new Date(b.dtstart) - new Date(a.dtstart))
+                    .slice(0, 4);
+            }
+
+            if (upcoming.length === 0) {
+                listContainer.innerHTML = `<div class="events-empty">${i18n.t('calendar.noEvents')}</div>`;
+                return;
+            }
+
+            const tempCalendar = new Calendar('featured-events-list');
+            listContainer.innerHTML = '';
+            upcoming.forEach(e => {
+                listContainer.appendChild(tempCalendar.createEventCard(e));
+            });
+
+            // Inyectar Datos Estructurados Schema.org JSON-LD para la home
+            this.injectSchemaOrgJsonLd(events);
+
+            // Actualizar contador en enlace 'Ver todos (N)'
+            const totalCountLink = document.getElementById('linkAllEvents');
+            if (totalCountLink) {
+                const total = events.length;
+                totalCountLink.textContent = `${i18n.t('landing.verTodos') || 'VER TODOS'} (${total}) ↗`;
+            }
+        } catch (e) {
+            console.error(e);
         }
     }
 
@@ -252,7 +372,7 @@ class App {
         const setHref = (id, url) => {
             const el = document.getElementById(id);
             if (el) el.href = url;
-        }
+        };
 
         setHref('download-ics-btn', CONFIG.PATHS.getIcsUrl(city));
         setHref('download-json-btn', CONFIG.PATHS.getDataUrl(city));
@@ -265,7 +385,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.app = new App();
 });
 
-// Copiar enlace WebCal al portapapeles (botón principal "Copiar enlace para suscribirme")
+// Clipboard WebCal
 document.addEventListener('DOMContentLoaded', () => {
     const webcalBtn = document.getElementById('webcal-btn');
     if (webcalBtn) {

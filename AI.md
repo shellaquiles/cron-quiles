@@ -13,15 +13,15 @@ This repository uses an Agentic Workspace structure. Do NOT guess the architectu
 
 - **General Architecture & Pipeline:** Read `/.agents/instructions/08-pipeline-architecture.md`
 - **Project Structure & Layout:** Read `/.agents/instructions/09-project-structure.md`
-- **Testing & Quality Assurance:** Read `/.agents/instructions/05-testing-rules.md`
-- **Deployment & CI/CD Flow:** Read `/.agents/instructions/06-deployment-internals.md`
-- **Documentation Guidelines:** Read `/.agents/instructions/04-documentation-rules.md`
 
 ## 🛠️ Skills & Workflows
 If you are tasked with a specific operation, check the `.agents/skills/` and `.agents/workflows/` directories FIRST.
 - **Frontend / UI Changes:** Must read `/.agents/skills/frontend-development/SKILL.md`
 - **Data Maintenance / Geocoding:** Check `/.agents/skills/data-pipeline/`
 - **Adding/Managing Feeds:** Check `/.agents/skills/manage-aggregators/`
+- **Release / PR Checklist:** Execute workflow `/.agents/workflows/release-and-pr-checklist.md`
+- **Pipeline Test Simulation:** Execute workflow `/.agents/workflows/publish-test.md`
+- **Deduplication Audit:** Execute workflow `/.agents/workflows/audit-and-deduplication.md`
 
 ## 🚀 Quick Commands
 ```bash

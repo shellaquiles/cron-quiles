@@ -6,7 +6,8 @@ Actualmente mantenemos las siguientes versiones con actualizaciones de seguridad
 
 | Versión | Soportada          |
 | ------- | ------------------ |
-| 1.0.x   | :white_check_mark: |
+| 2.0.x   | :white_check_mark: |
+| < 2.0   | :x:                |
 
 ## Reportar una Vulnerabilidad
 
