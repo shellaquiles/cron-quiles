@@ -214,6 +214,54 @@ main {
     color: var(--accent);
 }
 
+/* ==========================================================================
+   ESTILO DE MARCA OFICIAL SHELLAQUILES
+   {{ shellaquiles.org }} -> Brackets gris, 'shell' verde, 'aquiles' blanco, '.org' rojo/coral
+   ========================================================================== */
+.shellaquiles-brand {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 0.15rem 0.4rem;
+    border-radius: var(--radius-sm);
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    transition: all var(--transition-fast);
+}
+
+.shellaquiles-brand:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(0, 255, 102, 0.3);
+    box-shadow: 0 0 8px rgba(0, 255, 102, 0.2);
+}
+
+.sq-bracket {
+    color: #94a3b8; /* Gris brackets {{ }} */
+}
+
+.sq-shell {
+    color: #00ff66; /* Verde Matrix Fósforo */
+    text-shadow: 0 0 6px rgba(0, 255, 102, 0.4);
+}
+
+.sq-aquiles {
+    color: #f8fafc; /* Blanco limpio */
+}
+
+.sq-dot {
+    color: #ff4d6d; /* Punto rojo coral */
+}
+
+.sq-org {
+    color: #ff4d6d; /* Org rojo coral */
+    text-shadow: 0 0 6px rgba(255, 77, 109, 0.35);
+}
+
 .footer-meta {
     display: flex;
     justify-content: space-between;
