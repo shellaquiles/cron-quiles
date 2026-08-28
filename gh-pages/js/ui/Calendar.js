@@ -421,31 +421,41 @@ export class Calendar {
         }
         infoCol.appendChild(titleEl);
 
-        // Fila 3: Ubicación y Link de Mapa limpios
+        // Fila 3: Ubicación limpia
         const venueRow = DOM.create('div', { className: 'event-venue' });
         if (!isOnline && event.location) {
-            const venueName = DOM.create('span', { className: 'venue-name', text: this.shortenLocation(event.location) });
+            const venueName = DOM.create('span', { className: 'venue-name', text: `📍 ${this.shortenLocation(event.location)}` });
             venueRow.appendChild(venueName);
-
-            const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.location)}`;
-            const mapLink = DOM.create('a', {
-                className: 'map-link',
-                text: 'MAPA ↗',
-                attributes: {
-                    href: mapUrl,
-                    target: '_blank',
-                    rel: 'noopener'
-                }
-            });
-            venueRow.appendChild(mapLink);
             infoCol.appendChild(venueRow);
         } else if (isOnline) {
-            const venueName = DOM.create('span', { className: 'venue-name', text: 'Evento Virtual / Remoto' });
+            const venueName = DOM.create('span', { className: 'venue-name', text: '🌐 Evento Virtual / Remoto' });
             venueRow.appendChild(venueName);
             infoCol.appendChild(venueRow);
         }
 
-        // Fila 4: Tags de Tecnología
+        // Fila 4: Descripción / Resumen del Evento (si existe)
+        const descText = (event.description || '').trim();
+        if (descText && descText !== 'Sin descripción') {
+            const descEl = DOM.create('div', { className: 'event-description collapsed', text: descText });
+            infoCol.appendChild(descEl);
+
+            if (descText.length > 140) {
+                const toggleBtn = DOM.create('span', { 
+                    className: 'event-description-toggle', 
+                    text: i18n.t('cal.showMore') || 'Ver más ↓' 
+                });
+                toggleBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const isCollapsed = descEl.classList.toggle('collapsed');
+                    toggleBtn.textContent = isCollapsed 
+                        ? (i18n.t('cal.showMore') || 'Ver más ↓') 
+                        : (i18n.t('cal.showLess') || 'Ver menos ↑');
+                });
+                infoCol.appendChild(toggleBtn);
+            }
+        }
+
+        // Fila 5: Tags de Tecnología
         const tagsWrapper = DOM.create('div', { className: 'tag-container' });
         if (isOnline) {
             tagsWrapper.appendChild(DOM.create('span', { className: 'tag', text: '#online' }));
@@ -463,7 +473,7 @@ export class Calendar {
 
         card.appendChild(infoCol);
 
-        // 3. Acciones con Plataforma Dinámica
+        // 3. Acciones con Plataforma Dinámica + Calendario + Mapa
         const actionsCol = DOM.create('div', { className: 'event-actions' });
         const platformLabel = this.getPlatformName(mainUrl);
         
@@ -478,6 +488,7 @@ export class Calendar {
         });
         actionsCol.appendChild(regBtn);
 
+        // Botón Secundario de Calendario
         const calBtn = DOM.create('a', {
             className: 'btn-outline',
             text: '+ Cal',
@@ -489,6 +500,22 @@ export class Calendar {
             }
         });
         actionsCol.appendChild(calBtn);
+
+        // Botón de Mapa (si es presencial con ubicación)
+        if (!isOnline && event.location) {
+            const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.location)}`;
+            const mapBtn = DOM.create('a', {
+                className: 'btn-outline',
+                text: 'Mapa ↗',
+                attributes: {
+                    href: mapUrl,
+                    target: '_blank',
+                    rel: 'noopener',
+                    title: 'Ver ubicación en Google Maps'
+                }
+            });
+            actionsCol.appendChild(mapBtn);
+        }
 
         card.appendChild(actionsCol);
         return card;
