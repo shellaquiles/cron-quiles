@@ -48,14 +48,44 @@ header, .site-header {
 }
 
 .brand-title {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
     font-weight: 900;
     letter-spacing: -0.04em;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.6rem;
     text-decoration: none;
     color: var(--text);
+    cursor: pointer;
+    line-height: 1;
+}
+
+.brand-logo-svg {
+    width: 21px;
+    height: 21px;
+    stroke: var(--text);
+    flex-shrink: 0;
+    vertical-align: middle;
+    transition: transform 0.25s ease, stroke 0.15s ease;
+}
+
+/* Animación del cursor de consola */
+@keyframes blink-cursor {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.prompt-cursor {
+    animation: blink-cursor 1s step-end infinite;
+}
+
+.brand-title:hover .brand-logo-svg {
+    transform: rotate(12deg) scale(1.06);
+}
+
+html.dark .brand-logo-svg {
+    stroke: var(--matrix-bright);
+    filter: drop-shadow(0 0 3px rgba(0, 255, 102, 0.45));
 }
 
 .brand-title:hover {
