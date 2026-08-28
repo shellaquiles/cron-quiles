@@ -21,6 +21,7 @@
     text-decoration: none;
     padding: 0.4rem 0.8rem;
     border-radius: var(--radius-sm);
+    border: 1px solid transparent;
     transition: all var(--transition-fast);
     white-space: nowrap;
 }
@@ -28,11 +29,14 @@
 .section-nav-link:hover {
     color: var(--text);
     background-color: var(--bg-subtle);
+    border-color: var(--border);
 }
 
 .section-nav-link.active {
-    color: var(--bg);
-    background-color: var(--text);
+    color: var(--text);
+    background-color: var(--bg-subtle);
+    border-color: var(--accent);
+    font-weight: 700;
 }
 
 /* ==========================================================================
@@ -109,14 +113,14 @@
 
 .filter-pill:hover, .city-tab:hover {
     color: var(--text);
-    border-color: var(--text);
+    border-color: var(--accent);
     background-color: var(--bg-subtle);
 }
 
 .filter-pill.active, .city-tab.active {
-    background-color: var(--text);
-    color: var(--bg);
-    border-color: var(--text);
+    background-color: var(--accent-subtle);
+    color: var(--text);
+    border-color: var(--accent);
     font-weight: 700;
 }
 
@@ -594,11 +598,12 @@ kbd {
 
 /* Cards & Sections */
 .editorial-card {
-    background: var(--bg-surface);
+    background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-subtle) 100%);
     border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
+    border-radius: var(--radius-md);
     padding: 1.75rem;
     margin-bottom: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .editorial-card h2, .editorial-card h3 {
@@ -641,33 +646,55 @@ kbd {
 }
 
 .community-card {
-    background: var(--bg-surface);
+    background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-subtle) 100%);
     border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
-    padding: 1.25rem;
+    border-radius: var(--radius-md);
+    padding: 1.35rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: all var(--transition-fast);
+    transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.community-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--accent);
+    opacity: 0.6;
+    transition: opacity var(--transition-fast), width var(--transition-fast);
 }
 
 .community-card:hover {
-    border-color: var(--text);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35), 0 0 15px var(--accent-subtle);
+}
+
+.community-card:hover::before {
+    opacity: 1;
+    width: 4px;
 }
 
 .community-name {
-    font-size: 1.05rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-bottom: 0.6rem;
     color: var(--text);
+    letter-spacing: -0.01em;
 }
 
 .community-description {
-    font-size: 0.85rem;
+    font-size: 0.88rem;
     color: var(--text-muted);
-    line-height: 1.5;
-    margin-bottom: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
     flex-grow: 1;
 }
 
@@ -710,75 +737,101 @@ kbd {
     .filter-label {
         font-size: 0.65rem;
     }
-}
-
 /* ==========================================================================
-   EFECTOS SWISS CYBER-TERMINAL (CRT GLOW & SCANLINES)
+   MODO OSCURO: MATRIX IDE (Verde Matrix Protagonista + Sintaxis IDE)
    ========================================================================== */
 
-/* 1. Botones y Celdas Activas */
+/* 1. Botones y Celdas Activas (Verde Matrix Fósforo) */
 html.dark .day-cell.active,
 html.dark .filter-pill.active {
-    background-color: var(--text);
-    color: var(--bg);
-    box-shadow: var(--crt-glow);
-    font-weight: 800;
+    background-color: var(--accent-subtle);
+    color: var(--color-matrix);
+    border-color: var(--color-matrix);
+    box-shadow: 0 0 10px rgba(0, 255, 102, 0.25);
+    font-weight: 700;
 }
 
-/* 2. Número de día y títulos */
+/* 2. Número de día (Verde Matrix Protagonista) y Barra Vertical */
 html.dark .date-number {
-    color: var(--accent);
-    text-shadow: var(--crt-glow-soft);
+    color: var(--color-matrix);
+    text-shadow: 0 0 8px rgba(0, 255, 102, 0.35);
 }
 
-/* 3. Indicadores de eventos (puntos en la barra de días) */
+html.dark .date-badge {
+    border-left: 3px solid var(--color-matrix);
+}
+
+/* 3. Indicadores de eventos en la tira de días (Ámbar Dorado) */
 html.dark .day-cell.has-events .event-indicator {
-    background-color: var(--accent);
-    box-shadow: 0 0 6px var(--accent);
+    background-color: var(--color-yellow);
+    box-shadow: 0 0 6px rgba(255, 209, 102, 0.7);
 }
 
-/* 4. Enlaces y Botones de Acción */
+/* Badge HOY / En Vivo (Ámbar Dorado con pulso) */
+html.dark .badge-live {
+    color: var(--color-yellow);
+}
+
+html.dark .live-dot {
+    background-color: var(--color-yellow);
+    box-shadow: 0 0 8px rgba(255, 209, 102, 0.8);
+}
+
+/* 4. Botones de Acción (Verde Matrix Sólido con texto negro terminal) */
 html.dark .btn-action,
 html.dark .btn-main {
-    background-color: var(--text);
-    color: var(--bg);
-    border: 1px solid var(--text);
-    box-shadow: var(--crt-glow-soft);
+    background-color: var(--color-matrix);
+    color: #090d0b;
+    border: 1px solid var(--color-matrix);
+    font-weight: 800;
+    box-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
 }
 
 html.dark .btn-action:hover,
 html.dark .btn-main:hover {
-    background-color: var(--accent);
-    box-shadow: var(--crt-glow);
+    background-color: #5cff85;
+    color: #090d0b;
+    border-color: #5cff85;
+    box-shadow: 0 0 16px rgba(92, 255, 133, 0.7);
 }
 
-/* 5. Tags (#python, #linux) estilo bloque de datos */
-html.dark .tag {
-    background-color: var(--bg-subtle);
-    border: 1px solid var(--border);
+html.dark .btn-outline {
+    border-color: var(--border);
     color: var(--text-muted);
 }
 
-html.dark .tag:hover {
-    color: var(--text);
-    border-color: var(--text-muted);
+html.dark .btn-outline:hover {
+    border-color: var(--color-matrix);
+    color: var(--color-matrix);
+    background-color: var(--bg-subtle);
 }
 
-/* 6. Scanlines sutiles de monitor CRT */
+/* 5. Tags de tecnología (#python, #rust en Violeta IDE #c792ea) */
+html.dark .tag {
+    background-color: rgba(199, 146, 234, 0.1);
+    border: 1px solid rgba(199, 146, 234, 0.25);
+    color: var(--color-purple);
+}
+
+html.dark .tag:hover {
+    background-color: rgba(199, 146, 234, 0.2);
+    border-color: var(--color-purple);
+}
+
+/* Modalidades: Presencial (Verde Matrix Suave) / Online (Naranja Parámetro #ff9e64) */
+html.dark span.tag:first-child {
+    background-color: rgba(0, 255, 102, 0.1);
+    border-color: rgba(0, 255, 102, 0.3);
+    color: var(--color-matrix);
+}
+
+html.dark span.tag[data-type="online"] {
+    background-color: rgba(255, 158, 100, 0.1);
+    border-color: rgba(255, 158, 100, 0.3);
+    color: var(--color-orange);
+}
+
+/* 6. Sin scanlines agresivos para mantener máxima comodidad visual */
 html.dark body::before {
-    content: " ";
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: linear-gradient(
-        rgba(18, 16, 16, 0) 50%, 
-        rgba(0, 0, 0, 0.25) 50%
-    );
-    background-size: 100% 4px;
-    z-index: 999;
-    pointer-events: none;
-    opacity: 0.6;
+    display: none;
 }

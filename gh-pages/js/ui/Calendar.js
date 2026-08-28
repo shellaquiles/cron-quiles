@@ -489,7 +489,7 @@ export class Calendar {
                 case 'd':
                     e.preventDefault();
                     if (window.app && window.app.header) {
-                        window.app.header.cycleTheme();
+                        window.app.header.toggleTheme();
                     } else {
                         const themeBtn = document.getElementById('themeToggle');
                         if (themeBtn) themeBtn.click();

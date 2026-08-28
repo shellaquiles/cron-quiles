@@ -1,22 +1,12 @@
 /**
- * Componente Header con Selector Multitema
+ * Componente Header con Switcher Dual (Modo Claro / Modo Matrix)
  */
 import { i18n } from '../core/I18n.js';
 import { appStore } from '../core/Store.js';
 import { DataService } from '../services/DataService.js';
 
-export const THEMES = [
-    { id: 'green', name: 'VERDE MATRIX', icon: '🟢', isDark: true },
-    { id: 'amber', name: 'ÁMBAR VT220', icon: '🟠', isDark: true },
-    { id: 'cyan', name: 'CYBERPUNK', icon: '🔵', isDark: true },
-    { id: 'obsidian', name: 'OBSIDIAN', icon: '⚪', isDark: true },
-    { id: 'solarized', name: 'SOLARIZED', icon: '🔷', isDark: true },
-    { id: 'light', name: 'MODO CLARO', icon: '☀️', isDark: false }
-];
-
 export class Header {
     constructor() {
-        this.currentThemeIndex = 0;
         this.initTheme();
         this.bindEvents();
         
@@ -28,61 +18,55 @@ export class Header {
     }
 
     initTheme() {
-        const savedThemeId = localStorage.getItem('theme_preset') || (localStorage.getItem('theme') === 'light' ? 'light' : 'green');
-        const themeIdx = THEMES.findIndex(t => t.id === savedThemeId);
-        this.currentThemeIndex = themeIdx !== -1 ? themeIdx : 0;
-        this.applyTheme(THEMES[this.currentThemeIndex]);
+        const savedTheme = localStorage.getItem('theme');
+        const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const isDark = savedTheme ? savedTheme === 'dark' : (savedTheme === null ? true : systemPrefersDark);
+        this.applyTheme(isDark);
     }
 
-    applyTheme(themeObj) {
+    applyTheme(isDark) {
         const htmlElement = document.documentElement;
         const themeLabel = document.getElementById('themeLabel');
         const themeIcon = document.getElementById('themeIcon');
         
-        // Limpiar clases y asignar dataset
-        htmlElement.setAttribute('data-theme', themeObj.id);
-
-        if (themeObj.isDark) {
+        if (isDark) {
             htmlElement.classList.add('dark');
+            htmlElement.removeAttribute('data-theme');
+            if (themeLabel) themeLabel.textContent = i18n.t('theme.light') || 'MODO CLARO';
+            if (themeIcon) themeIcon.textContent = '☀️';
             localStorage.setItem('theme', 'dark');
         } else {
             htmlElement.classList.remove('dark');
+            htmlElement.removeAttribute('data-theme');
+            if (themeLabel) themeLabel.textContent = 'MATRIX OSCURO';
+            if (themeIcon) themeIcon.textContent = '🟢';
             localStorage.setItem('theme', 'light');
         }
-
-        localStorage.setItem('theme_preset', themeObj.id);
-
-        if (themeLabel) themeLabel.textContent = themeObj.name;
-        if (themeIcon) themeIcon.textContent = themeObj.icon;
     }
 
-    cycleTheme() {
-        this.currentThemeIndex = (this.currentThemeIndex + 1) % THEMES.length;
-        this.applyTheme(THEMES[this.currentThemeIndex]);
-    }
-
-    setThemeById(themeId) {
-        const idx = THEMES.findIndex(t => t.id === themeId);
-        if (idx !== -1) {
-            this.currentThemeIndex = idx;
-            this.applyTheme(THEMES[idx]);
-        }
+    toggleTheme() {
+        const isCurrentlyDark = document.documentElement.classList.contains('dark');
+        this.applyTheme(!isCurrentlyDark);
     }
 
     updateThemeLabels() {
-        const currentTheme = THEMES[this.currentThemeIndex];
+        const isDark = document.documentElement.classList.contains('dark');
         const themeLabel = document.getElementById('themeLabel');
-        if (themeLabel && currentTheme) {
-            themeLabel.textContent = currentTheme.name;
+        const themeIcon = document.getElementById('themeIcon');
+        if (themeLabel) {
+            themeLabel.textContent = isDark ? (i18n.t('theme.light') || 'MODO CLARO') : 'MATRIX OSCURO';
+        }
+        if (themeIcon) {
+            themeIcon.textContent = isDark ? '☀️' : '🟢';
         }
     }
 
     bindEvents() {
-        // Theme Toggle / Ciclo de Temas
+        // Theme Toggle (Alternar entre Claro y Matrix)
         const themeToggleBtn = document.getElementById('themeToggle');
         if (themeToggleBtn) {
             themeToggleBtn.addEventListener('click', () => {
-                this.cycleTheme();
+                this.toggleTheme();
             });
         }
 
