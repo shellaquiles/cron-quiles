@@ -222,20 +222,24 @@ class App {
 
     async loadCityData(city) {
         const calendarContainer = document.getElementById('calendar-container');
-        if (calendarContainer) {
+        if (calendarContainer && !this.calendar?.hasLoadedOnce) {
             calendarContainer.innerHTML = `<div class="events-loading">${i18n.t('calendar.loading')}</div>`;
         }
 
         try {
-            const data = await DataService.getCityData(city);
+            const data = await DataService.getCityData(city || 'mexico');
             const events = Array.isArray(data) ? data : (data.events || []);
 
-            if (this.calendar) this.calendar.setEvents(events);
-            if (this.communityList) this.communityList.render(data.communities || []);
+            if (this.calendar) {
+                this.calendar.setEvents(events);
+            }
+            if (this.communityList) {
+                this.communityList.render(data.communities || []);
+            }
 
         } catch (error) {
-            console.error(error);
-            if (calendarContainer) {
+            console.error('Error in loadCityData:', error);
+            if (calendarContainer && (!this.calendar || !this.calendar.events || this.calendar.events.length === 0)) {
                 const msg = `No hay datos para "${city}". Ejecuta: make run-all`;
                 calendarContainer.innerHTML = `<div class="events-error">${msg}</div>`;
             }
