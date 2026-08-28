@@ -10,9 +10,7 @@ export const DateUtils = {
      * @returns {string} Fecha formateada
      */
     formatDate(date) {
-        if (!date) return i18n.t('desc.content'); // Fallback string handling logic inherited...
-        // Actually return generic error string depending on lang if needed
-        // but simplest is to leverage i18n inside formatting
+        if (!date) return '';
         const d = new Date(date);
         return d.toLocaleDateString(i18n.getLocale(), {
             year: 'numeric',
@@ -32,9 +30,44 @@ export const DateUtils = {
         const d = new Date(date);
         const locale = i18n.getLocale();
         const day = d.getDate();
-        const monthStr = d.toLocaleDateString(locale, { month: 'short' }).replace(/\./g, '');
+        const monthStr = d.toLocaleDateString(locale, { month: 'short', timeZone: 'America/Mexico_City' }).replace(/\./g, '');
         const month = locale.startsWith('es') ? monthStr.toLowerCase() : monthStr;
         return locale.startsWith('es') ? `${day} ${month}` : `${month} ${day}`;
+    },
+
+    /**
+     * Retorna partes separadas para el badge de fecha editorial
+     * @param {string|Date} date 
+     * @returns {{dayNumber: string, dayMeta: string}} ej: { dayNumber: "28", dayMeta: "AGO / VIE" }
+     */
+    formatDateBadge(date) {
+        if (!date) return { dayNumber: '--', dayMeta: '' };
+        const d = new Date(date);
+        const locale = i18n.getLocale();
+        
+        const dayNumber = d.toLocaleDateString(locale, { day: '2-digit', timeZone: 'America/Mexico_City' });
+        const monthStr = d.toLocaleDateString(locale, { month: 'short', timeZone: 'America/Mexico_City' }).replace(/\./g, '').toUpperCase();
+        const weekdayStr = d.toLocaleDateString(locale, { weekday: 'short', timeZone: 'America/Mexico_City' }).replace(/\./g, '').toUpperCase();
+
+        return {
+            dayNumber,
+            dayMeta: `${monthStr} / ${weekdayStr}`
+        };
+    },
+
+    /**
+     * Verifica si una fecha corresponde al día de hoy en la zona horaria de México
+     * @param {string|Date} date 
+     * @returns {boolean}
+     */
+    isToday(date) {
+        if (!date) return false;
+        const d = new Date(date);
+        const now = new Date();
+        
+        const dStr = d.toLocaleDateString('en-CA', { timeZone: 'America/Mexico_City' });
+        const nowStr = now.toLocaleDateString('en-CA', { timeZone: 'America/Mexico_City' });
+        return dStr === nowStr;
     },
 
     /**

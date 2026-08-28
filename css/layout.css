@@ -1,131 +1,503 @@
 /**
- * Base Layout & Reset
+ * Base Layout & Reset - Editorial Theme
  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: var(--font-family-mono);
-    background: var(--terminal-black);
-    color: var(--terminal-green);
-    line-height: 1.6;
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+    transition: background-color var(--transition-fast), color var(--transition-fast);
+    -webkit-font-smoothing: antialiased;
     min-height: 100vh;
-    padding: var(--spacing-lg);
-    position: relative;
 }
 
-/* Terminal Background Effect */
-body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background:
-        radial-gradient(circle at 20% 80%, rgba(0, 255, 0, 0.03) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(255, 0, 0, 0.03) 0%, transparent 50%);
-    pointer-events: none;
-    z-index: -1;
-}
-
-.terminal {
-    max-width: 1200px;
+.container {
+    max-width: 1024px;
     margin: 0 auto;
-    padding: var(--spacing-lg);
+    padding: 2.5rem 1.5rem;
     min-height: 100vh;
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
-/* Terminal Header */
-.terminal-header {
-    text-align: center;
-    margin-bottom: var(--spacing-xxl);
-    padding: var(--spacing-lg);
-    border-bottom: 2px solid var(--terminal-green);
+/* Header & Switchers */
+header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1rem;
+    margin-bottom: 1.25rem;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
-.terminal-title {
-    font-size: 3em;
-    font-weight: bold;
-    margin-bottom: var(--spacing-sm);
-    color: var(--terminal-green);
-    text-shadow: 0 0 10px var(--terminal-green);
+.site-header-compact {
+    align-items: center;
+    padding-bottom: 0.85rem;
 }
 
-.terminal-subtitle {
-    color: var(--terminal-white);
-    font-size: 1.2em;
-    margin-top: var(--spacing-md);
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
-/* Footer */
-.footer {
-    margin-top: var(--spacing-xxl);
-    padding-top: var(--spacing-xl);
-    border-top: 1px solid var(--terminal-green);
-    text-align: center;
-    color: var(--terminal-white);
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    font-weight: 600;
 }
 
-.footer p {
-    margin-bottom: var(--spacing-md);
-}
-
-.footer strong {
-    color: var(--terminal-green);
-}
-
-.footer a {
-    color: var(--terminal-green);
+.main-nav .nav-link {
+    color: var(--text-muted);
     text-decoration: none;
-    font-weight: bold;
-    transition: all var(--transition-normal);
+    transition: color var(--transition-fast);
+    padding: 0.2rem 0;
 }
 
-.footer a:hover {
-    color: var(--terminal-white);
-    text-shadow: 0 0 10px var(--terminal-green);
+.main-nav .nav-link:hover {
+    color: var(--text);
+}
+
+.main-nav .nav-link.active {
+    color: var(--matrix-bright);
+    font-weight: 700;
+    border-bottom: 2px solid var(--matrix-bright);
+}
+
+.header-brand {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    text-decoration: none;
+    color: var(--text);
+    cursor: pointer;
+    line-height: 1;
+    transition: opacity var(--transition-fast);
+}
+
+.brand-title:hover {
+    opacity: 0.85;
+}
+
+/* El SVG escala en proporción perfecta con la altura del texto */
+.brand-logo-svg {
+    width: 1.15rem;
+    height: 1.15rem;
+    stroke: var(--text);
+    flex-shrink: 0;
+    vertical-align: middle;
+    transition: transform 0.25s ease, stroke 0.15s ease;
+}
+
+/* Brand Typography: CLI Terminal Mono (Estilo Oficial Consola Hacker) */
+.brand-text,
+.brand-title .brand-text,
+.brand-title.brand-mono .brand-text,
+.brand-mono .brand-text {
+    font-family: var(--font-mono) !important;
+    font-weight: 700 !important;
+    font-size: 1.02rem !important;
+    letter-spacing: 0.04em !important;
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+/* Swiss Grotesk Alternativo (Opcional vía clase) */
+.brand-title.brand-swiss .brand-text,
+.brand-swiss .brand-text {
+    font-family: var(--font-sans) !important;
+    font-weight: 700 !important;
+    font-size: 1.05rem !important;
+    letter-spacing: -0.03em !important;
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+/* Animación del cursor de consola */
+@keyframes blink-cursor {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.prompt-cursor {
+    animation: blink-cursor 1s step-end infinite;
+}
+
+.brand-title:hover .brand-logo-svg {
+    transform: rotate(12deg) scale(1.08);
+}
+
+html.dark .brand-logo-svg {
+    stroke: var(--matrix-bright);
+    filter: drop-shadow(0 0 4px rgba(0, 255, 102, 0.45));
+}
+
+html.dark .brand-text {
+    color: var(--text);
+}
+
+.brand-subtitle {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 0.25rem;
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.theme-toggle, .lang-toggle {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    border-radius: var(--radius-sm);
+    transition: all var(--transition-fast);
+    text-transform: uppercase;
+}
+
+.theme-toggle:hover, .lang-toggle:hover {
+    background: var(--bg-subtle);
+    border-color: var(--text);
+}
+
+/* Language switch buttons */
+.lang-switcher {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 2px;
+    background: transparent;
+}
+
+.lang-btn {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    border-radius: var(--radius-sm);
+    transition: all var(--transition-fast);
+}
+
+.lang-btn.active {
+    background: var(--text);
+    color: var(--bg);
+}
+
+/* Main Content Area */
+main {
+    flex: 1;
+}
+
+/* Footer Suizo: 2 Columnas Justificadas */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid var(--border);
+    padding: 1.5rem 0 2rem 0;
+    margin-top: 3rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.footer-credits {
+    color: var(--text-muted);
+    line-height: 1.4;
+}
+
+.footer-link {
+    color: var(--text);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+    transition: all 0.15s ease;
+}
+
+.footer-link:hover {
+    color: var(--matrix-bright);
+    border-bottom-color: var(--matrix-bright);
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+}
+
+.footer-sublink {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+
+.footer-sublink:hover {
+    color: var(--matrix-bright);
+}
+
+.sep {
+    color: var(--border);
+    user-select: none;
+}
+
+.brand-sep {
+    color: var(--matrix-bright);
+    font-weight: 700;
+    margin-right: 0.2rem;
+}
+
+/* Columna derecha: Status badge */
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.35rem;
+}
+
+.sync-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+}
+
+.sync-label {
+    color: var(--text-muted);
+    letter-spacing: 0.04em;
+}
+
+.sync-badge {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    padding: 0.2rem 0.45rem;
+    border-radius: 2px;
+    color: var(--matrix-bright);
+    font-weight: 600;
+}
+
+/* Adaptabilidad móvil */
+@media (max-width: 640px) {
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+    }
+}
+
+/* ==========================================================================
+   ESTILO DE MARCA OFICIAL SHELLAQUILES
+   {{ shellaquiles.org }} -> Brackets gris, 'shell' verde, 'aquiles' blanco, '.org' rojo/coral
+   ========================================================================== */
+.shellaquiles-brand {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 0.15rem 0.4rem;
+    border-radius: var(--radius-sm);
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    transition: all var(--transition-fast);
+}
+
+.shellaquiles-brand:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(0, 255, 102, 0.3);
+    box-shadow: 0 0 8px rgba(0, 255, 102, 0.2);
+}
+
+.sq-bracket {
+    color: #94a3b8; /* Gris brackets {{ }} */
+}
+
+.sq-shell {
+    color: #00ff66; /* Verde Matrix Fósforo */
+    text-shadow: 0 0 6px rgba(0, 255, 102, 0.4);
+}
+
+.sq-aquiles {
+    color: #f8fafc; /* Blanco limpio */
+}
+
+.sq-dot {
+    color: #ff4d6d; /* Punto rojo coral */
+}
+
+.sq-org {
+    color: #ff4d6d; /* Org rojo coral */
+    text-shadow: 0 0 6px rgba(255, 77, 109, 0.35);
+}
+
+/* ==========================================================================
+   PORTADA SUIZA MINIMALISTA (index.html Hero & Featured Section)
+   ========================================================================== */
+.home-container {
+    max-width: 880px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    padding: 1rem 0 2rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.hero-badge {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--matrix-bright);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.hero-title {
+    font-size: 2.1rem;
+    font-weight: 800;
+    line-height: 1.18;
+    letter-spacing: -0.035em;
+    color: var(--text);
+    max-width: 680px;
+}
+
+.hero-desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-muted);
+    max-width: 620px;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.featured-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.featured-section .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.section-title {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.link-all {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--matrix-bright);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.link-all:hover {
+    text-decoration: underline;
+}
+
+.footer-meta {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
 }
 
 .last-update {
     display: inline-block;
-    padding: var(--spacing-sm) var(--spacing-md);
-    background: rgba(0, 255, 0, 0.1);
-    border: 1px solid var(--terminal-green);
-    border-radius: var(--radius-md);
-    color: var(--terminal-green);
-    font-weight: bold;
-    font-family: var(--font-family-mono);
+    padding: 0.2rem 0.5rem;
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-weight: 600;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
-    body {
-        padding: 0;
+    .container {
+        padding: 1.5rem 1rem;
     }
-
-    .terminal {
-        padding: var(--spacing-sm) 0;
+    header, .site-header {
+        flex-direction: column;
+        align-items: stretch;
     }
-
-    .terminal-header {
-        margin-bottom: var(--spacing-lg);
-        padding: var(--spacing-md);
+    .header-controls {
+        justify-content: space-between;
     }
-
-    .terminal-title {
-        font-size: 2em;
-    }
-
-    .terminal-subtitle {
-        font-size: 1em;
+    .brand-title {
+        font-size: 1.5rem;
     }
 }
