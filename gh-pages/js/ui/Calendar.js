@@ -52,6 +52,43 @@ export class Calendar {
 
     setEvents(events) {
         this.events = events || [];
+        
+        // Auto-enfoque inteligente: Si el mes actual no tiene ningún evento,
+        // navegar automáticamente al mes más cercano con eventos (futuro o más reciente).
+        if (this.events.length > 0) {
+            const currentYear = this.currentDate.getFullYear();
+            const currentMonth = this.currentDate.getMonth();
+            const hasEventsInCurrentMonth = this.events.some(e => {
+                if (!e.dtstart) return false;
+                const d = new Date(e.dtstart);
+                return d.getFullYear() === currentYear && d.getMonth() === currentMonth;
+            });
+
+            if (!hasEventsInCurrentMonth) {
+                // Buscar eventos futuros o el evento más reciente
+                const now = new Date();
+                const futureEvents = this.events
+                    .filter(e => e.dtstart && new Date(e.dtstart) >= now)
+                    .sort((a, b) => new Date(a.dtstart) - new Date(b.dtstart));
+
+                if (futureEvents.length > 0) {
+                    const targetDate = new Date(futureEvents[0].dtstart);
+                    this.currentDate = new Date(targetDate.getFullYear(), targetDate.getMonth(), 1);
+                } else {
+                    // Si todos son pasados, ir al más reciente
+                    const sorted = [...this.events]
+                        .filter(e => e.dtstart)
+                        .sort((a, b) => new Date(b.dtstart) - new Date(a.dtstart));
+                    if (sorted.length > 0) {
+                        const targetDate = new Date(sorted[0].dtstart);
+                        this.currentDate = new Date(targetDate.getFullYear(), targetDate.getMonth(), 1);
+                    }
+                }
+                this.selectedDateStr = null;
+                this.currentWeekOffset = 0;
+            }
+        }
+
         this.render();
     }
 
@@ -286,14 +323,53 @@ export class Calendar {
                 eventsContainer.appendChild(this.createEventCard(event));
             });
         } else {
-            const emptyMsg = DOM.create('div', {
+            const emptyContainer = DOM.create('div', {
                 className: 'no-events-msg',
-                attributes: { style: 'display: block;' },
+                attributes: { style: 'display: block; text-align: center;' }
+            });
+
+            const msgText = DOM.create('p', {
                 text: this.selectedDateStr 
                     ? `NO HAY EVENTOS PROGRAMADOS PARA EL ${this.selectedDateStr}` 
-                    : `NO HAY EVENTOS REGISTRADOS EN ESTE MES.`
+                    : `NO HAY EVENTOS REGISTRADOS EN ESTE MES (${monthNames[month].toUpperCase()} ${year}).`
             });
-            eventsContainer.appendChild(emptyMsg);
+            emptyContainer.appendChild(msgText);
+
+            // Si hay eventos en otros meses, mostrar enlaces rápidos para saltar a ellos
+            if (relevantEvents.length > 0) {
+                const monthsWithEvents = new Map();
+                relevantEvents.forEach(e => {
+                    if (e.dtstart) {
+                        const d = new Date(e.dtstart);
+                        const k = `${d.getFullYear()}-${d.getMonth()}`;
+                        const label = `${monthNames[d.getMonth()]} ${d.getFullYear()}`;
+                        monthsWithEvents.set(k, { year: d.getFullYear(), month: d.getMonth(), label });
+                    }
+                });
+
+                if (monthsWithEvents.size > 0) {
+                    const jumpHint = DOM.create('div', { 
+                        style: 'margin-top: 0.8rem; font-size: 0.8rem; color: var(--text-muted);',
+                        text: 'MESES CON EVENTOS DISPONIBLES: ' 
+                    });
+                    
+                    monthsWithEvents.forEach(({ year: y, month: m, label }) => {
+                        const jumpBtn = DOM.create('button', {
+                            className: 'btn-nav',
+                            style: 'margin: 0.2rem 0.4rem; display: inline-block;',
+                            text: `${label} ↗`
+                        });
+                        jumpBtn.addEventListener('click', () => {
+                            this.setMonthDate(y, m);
+                        });
+                        jumpHint.appendChild(jumpBtn);
+                    });
+
+                    emptyContainer.appendChild(jumpHint);
+                }
+            }
+
+            eventsContainer.appendChild(emptyContainer);
         }
 
         this.container.appendChild(eventsContainer);
