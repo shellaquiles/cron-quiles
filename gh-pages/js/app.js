@@ -81,10 +81,8 @@ class App {
     }
 
     renderTabs() {
-        const pillsContainer = document.getElementById('cityPillsContainer') || document.querySelector('.city-filter-group .filter-pills-scroll');
-        if (!pillsContainer || !this.states.length) return;
-
         const currentCity = appStore.get('city');
+        const currentFormat = appStore.get('formatFilter') || 'all';
 
         const visibleStates = this.states.filter(state => {
             if (state.slug === 'mexico') return true;
@@ -92,15 +90,41 @@ class App {
             return (state.event_count || 0) > 0;
         });
 
-        pillsContainer.innerHTML = visibleStates.map(state => `
-            <button class="filter-pill ${state.slug === currentCity ? 'active' : ''}" data-city="${state.slug}" aria-label="${state.name}">
-                ${state.name} (${state.event_count || 0})
-            </button>
-        `).join('');
+        // 1. Selector Dropdown Compacto (Swiss Select)
+        const citySelect = document.getElementById('city-select');
+        if (citySelect && this.states.length) {
+            citySelect.innerHTML = visibleStates.map(state => `
+                <option value="${state.slug}" ${state.slug === currentCity ? 'selected' : ''}>
+                    ${state.name} (${state.event_count || 0})
+                </option>
+            `).join('');
+        }
+
+        const formatSelect = document.getElementById('format-select');
+        if (formatSelect) {
+            formatSelect.value = currentFormat;
+        }
+
+        // 2. Pastillas de píldoras clásicas (si existen en el DOM)
+        const pillsContainer = document.getElementById('cityPillsContainer') || document.querySelector('.city-filter-group .filter-pills-scroll');
+        if (pillsContainer && this.states.length) {
+            pillsContainer.innerHTML = visibleStates.map(state => `
+                <button class="filter-pill ${state.slug === currentCity ? 'active' : ''}" data-city="${state.slug}" aria-label="${state.name}">
+                    ${state.name} (${state.event_count || 0})
+                </button>
+            `).join('');
+        }
     }
 
     bindEvents() {
-        // Filtro de Ciudad
+        // Filtro de Ciudad (Pills o Select)
+        const citySelect = document.getElementById('city-select');
+        if (citySelect) {
+            citySelect.addEventListener('change', (e) => {
+                appStore.set('city', e.target.value);
+            });
+        }
+
         const cityContainer = document.querySelector('.city-filter-group');
         if (cityContainer) {
             cityContainer.addEventListener('click', (e) => {
@@ -109,14 +133,16 @@ class App {
                     appStore.set('city', pill.dataset.city);
                 }
             });
-            cityContainer.addEventListener('change', (e) => {
-                if (e.target.id === 'city-select') {
-                    appStore.set('city', e.target.value);
-                }
+        }
+
+        // Filtro de Formato (Pills o Select)
+        const formatSelect = document.getElementById('format-select');
+        if (formatSelect) {
+            formatSelect.addEventListener('change', (e) => {
+                appStore.set('formatFilter', e.target.value);
             });
         }
 
-        // Filtro de Formato (Presencial, Remoto, Todos)
         const formatContainer = document.querySelector('.format-filter-group');
         if (formatContainer) {
             formatContainer.addEventListener('click', (e) => {
@@ -132,6 +158,10 @@ class App {
         // Subscripciones a store
         appStore.subscribe('city', (city) => this.onCityChange(city));
         appStore.subscribe('lang', (lang) => this.onLangChange(lang));
+        appStore.subscribe('formatFilter', (format) => {
+            const fs = document.getElementById('format-select');
+            if (fs && fs.value !== format) fs.value = format;
+        });
 
         // Responsive resize
         let lastMobile = window.matchMedia('(max-width: 768px)').matches;

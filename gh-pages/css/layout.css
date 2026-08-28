@@ -34,12 +34,50 @@ body {
 header, .site-header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    border-bottom: 2px solid var(--text);
-    padding-bottom: 1.5rem;
-    margin-bottom: 1.5rem;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1rem;
+    margin-bottom: 1.25rem;
     gap: 1rem;
     flex-wrap: wrap;
+}
+
+.site-header-compact {
+    align-items: center;
+    padding-bottom: 0.85rem;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.main-nav .nav-link {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+    padding: 0.2rem 0;
+}
+
+.main-nav .nav-link:hover {
+    color: var(--text);
+}
+
+.main-nav .nav-link.active {
+    color: var(--matrix-bright);
+    font-weight: 700;
+    border-bottom: 2px solid var(--matrix-bright);
 }
 
 .header-brand {

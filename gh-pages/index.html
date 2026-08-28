@@ -27,19 +27,25 @@
 </head>
 <body>
     <div class="container">
-        <header class="site-header">
-            <div class="header-brand">
+        <header class="site-header site-header-compact">
+            <div class="header-left">
                 <a href="index.html" class="brand-title">
-                    <svg class="brand-logo-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 2L21 7.5V16.5L12 22L3 16.5V7.5L12 2Z"></path>
-                        <path d="M12 2V22"></path>
-                        <path d="M3 7.5L21 16.5"></path>
-                        <path d="M3 16.5L21 7.5"></path>
-                        <circle cx="12" cy="12" r="2.5" fill="currentColor"></circle>
+                    <svg class="brand-logo-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="4" width="18" height="17" rx="2"></rect>
+                        <line x1="8" y1="2" x2="8" y2="5"></line>
+                        <line x1="16" y1="2" x2="16" y2="5"></line>
+                        <line x1="3" y1="9" x2="21" y2="9"></line>
+                        <path d="M7 14l3 2-3 2"></path>
+                        <line x1="13" y1="18" x2="17" y2="18" class="prompt-cursor"></line>
                     </svg>
-                    <span>CRON-QUILES</span>
+                    <span class="brand-text">CRON-QUILES</span>
                 </a>
-                <p class="brand-subtitle" data-i18n="site.subtitle">Calendario unificado de eventos tech en México</p>
+                <nav class="main-nav" aria-label="Navegación principal">
+                    <a href="index.html" class="nav-link active" data-i18n="nav.linkInicio">Inicio</a>
+                    <a href="eventos.html" class="nav-link" data-i18n="nav.linkEventos">Eventos</a>
+                    <a href="suscribir.html" class="nav-link" data-i18n="nav.linkSuscribir">Añadir al cal</a>
+                    <a href="comunidades.html" class="nav-link" data-i18n="nav.linkComunidades">Comunidades</a>
+                </nav>
             </div>
 
             <div class="header-controls">
@@ -54,24 +60,7 @@
             </div>
         </header>
 
-        <nav class="section-nav" aria-label="Navegación principal">
-            <a href="index.html" class="section-nav-link active" data-i18n="nav.linkInicio">Inicio</a>
-            <a href="eventos.html" class="section-nav-link" data-i18n="nav.linkEventos">Eventos</a>
-            <a href="suscribir.html" class="section-nav-link" data-i18n="nav.linkSuscribir">Añadir al calendario</a>
-            <a href="comunidades.html" class="section-nav-link" data-i18n="nav.linkComunidades">Comunidades</a>
-        </nav>
-
         <main>
-            <!-- Filtros de Ciudad -->
-            <div class="filter-section">
-                <div class="filter-row city-filter-group">
-                    <span class="filter-label" data-i18n="filter.city">CIUDAD:</span>
-                    <div class="filter-pills-scroll" id="cityPillsContainer">
-                        <div class="events-loading" style="padding: 0.2rem 0.5rem;">Cargando ciudades...</div>
-                    </div>
-                </div>
-            </div>
-
             <!-- Presentación Editorial -->
             <section class="editorial-card">
                 <h2 data-i18n="hint.whatIsThis">¿Qué es esto?</h2>

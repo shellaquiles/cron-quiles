@@ -40,8 +40,63 @@
 }
 
 /* ==========================================================================
-   FILTROS: RETÍCULA SUIZA & HORIZONTAL SCROLL
+   FILTROS: TOOLBAR COMPACTA & SWISS SELECT
    ========================================================================== */
+
+.filter-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--border);
+    padding: 0.5rem 0.85rem;
+    background: var(--bg-surface);
+    margin-bottom: 1.5rem;
+    border-radius: var(--radius-sm);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.filter-dropdown-group {
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+    flex-wrap: wrap;
+}
+
+.filter-field {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.field-label {
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+}
+
+.swiss-select {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 0.3rem 0.6rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    outline: none;
+    transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.swiss-select:focus,
+.swiss-select:hover {
+    border-color: var(--matrix-bright);
+    box-shadow: 0 0 6px rgba(0, 255, 102, 0.2);
+}
 
 .filter-section {
     display: flex;
