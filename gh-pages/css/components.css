@@ -368,6 +368,13 @@ html.dark .month-tab.density-max:not(.active) {
     gap: 0.5rem;
 }
 
+.summary-left {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    flex-wrap: wrap;
+}
+
 .month-title-display {
     font-family: var(--font-mono);
     font-size: 0.88rem;
@@ -391,6 +398,43 @@ html.dark .month-title-display {
 
 html.dark .month-events-count {
     color: var(--matrix-bright);
+}
+
+/* Botón '⚡ TODOS LOS PRÓXIMOS' / '📅 VER POR MES' */
+.btn-upcoming-toggle {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.3rem 0.65rem;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    transition: all var(--transition-fast);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.btn-upcoming-toggle:hover {
+    background: var(--bg-subtle);
+    border-color: var(--text);
+    color: var(--matrix-bright);
+}
+
+.btn-upcoming-toggle.active {
+    background: var(--text);
+    color: var(--bg);
+    border-color: var(--text);
+}
+
+html.dark .btn-upcoming-toggle.active {
+    background: var(--matrix-bright);
+    color: #040805;
+    border-color: var(--matrix-bright);
+    box-shadow: 0 0 10px rgba(0, 255, 102, 0.35);
 }
 
 /* Responsive para pantallas pequeñas */

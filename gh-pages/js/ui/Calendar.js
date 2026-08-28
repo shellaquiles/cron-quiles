@@ -158,7 +158,10 @@ export class Calendar {
             title: `Año anterior (${year - 1})`,
             text: '◀'
         });
-        prevYearBtn.addEventListener('click', () => this.changeYear(-1));
+        prevYearBtn.addEventListener('click', () => {
+            this.isUpcomingView = false;
+            this.changeYear(-1);
+        });
         monthsTimeline.appendChild(prevYearBtn);
 
         const monthShortNames = ['ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC'];
@@ -190,8 +193,10 @@ export class Calendar {
                 else density = 'low';
             }
 
+            const isSelectedMonth = !this.isUpcomingView && idx === month;
+
             const monthTab = DOM.create('button', {
-                className: `month-tab ${idx === month ? 'active' : ''} ${hasEv ? 'has-events' : ''} density-${density}`,
+                className: `month-tab ${isSelectedMonth ? 'active' : ''} ${hasEv ? 'has-events' : ''} density-${density}`,
                 attributes: { 
                     'data-month': idx,
                     'data-density': density,
@@ -201,6 +206,7 @@ export class Calendar {
             });
 
             monthTab.addEventListener('click', () => {
+                this.isUpcomingView = false;
                 this.setMonthDate(year, idx);
             });
 
@@ -213,40 +219,108 @@ export class Calendar {
             title: `Año siguiente (${year + 1})`,
             text: '▶'
         });
-        nextYearBtn.addEventListener('click', () => this.changeYear(1));
+        nextYearBtn.addEventListener('click', () => {
+            this.isUpcomingView = false;
+            this.changeYear(1);
+        });
         monthsTimeline.appendChild(nextYearBtn);
 
         navPanel.appendChild(monthsTimeline);
 
-        // Cabecera Editorial del Mes Seleccionado (Título + Total de Eventos)
+        // Cabecera Editorial del Mes Seleccionado o Vista de Próximos Eventos
         const monthHeaderRow = DOM.create('div', { className: 'month-summary-bar' });
-        
+        const relevantEvents = this.getFilteredEvents();
+        const now = new Date();
+        const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+
+        let displayedEvents = [];
+        let headerTitleText = '';
+        let headerCountText = '';
+
+        if (this.isUpcomingView) {
+            // Filtrar todos los eventos desde hoy hacia el futuro
+            displayedEvents = relevantEvents.filter(e => {
+                if (!e.dtstart) return false;
+                return new Date(e.dtstart) >= startOfToday;
+            });
+
+            // Si no hay eventos a futuro, traer los más recientes del histórico
+            if (displayedEvents.length === 0 && relevantEvents.length > 0) {
+                displayedEvents = [...relevantEvents]
+                    .filter(e => e.dtstart)
+                    .sort((a, b) => new Date(b.dtstart) - new Date(a.dtstart))
+                    .slice(0, 30);
+            }
+
+            headerTitleText = 'PRÓXIMOS EVENTOS';
+            headerCountText = `${displayedEvents.length} eventos futuros`;
+        } else {
+            // Modo Mes Seleccionado
+            displayedEvents = relevantEvents.filter(e => {
+                if (!e.dtstart) return false;
+                const d = new Date(e.dtstart);
+                return d.getFullYear() === year && d.getMonth() === month;
+            });
+
+            headerTitleText = `${monthNames[month].toUpperCase()} ${year}`;
+            headerCountText = `${displayedEvents.length} eventos en total`;
+        }
+
+        const leftSummary = DOM.create('div', { className: 'summary-left' });
         const monthTitle = DOM.create('span', { 
             className: 'month-title-display', 
             id: 'currentMonthYear',
-            text: `${monthNames[month].toUpperCase()} ${year}` 
+            text: headerTitleText
         });
-
-        // Contar eventos del mes actual con filtros activos
-        const relevantEvents = this.getFilteredEvents();
-        const currentMonthEvents = relevantEvents.filter(e => {
-            if (!e.dtstart) return false;
-            const d = new Date(e.dtstart);
-            return d.getFullYear() === year && d.getMonth() === month;
-        });
-
         const totalCountSpan = DOM.create('span', {
             className: 'month-events-count',
-            text: `${currentMonthEvents.length} eventos en total`
+            text: headerCountText
+        });
+        leftSummary.append(monthTitle, totalCountSpan);
+
+        // Botón de alternar vista con iconos vectoriales Lucide
+        const toggleBtn = DOM.create('button', {
+            className: `btn-upcoming-toggle ${this.isUpcomingView ? 'active' : ''}`,
+            id: 'btnUpcomingToggle'
         });
 
-        monthHeaderRow.append(monthTitle, totalCountSpan);
+        if (this.isUpcomingView) {
+            // Icono Lucide Calendar
+            toggleBtn.innerHTML = `
+                <svg class="ui-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect>
+                    <line x1="16" x2="16" y1="2" y2="6"></line>
+                    <line x1="8" x2="8" y1="2" y2="6"></line>
+                    <line x1="3" x2="21" y1="10" y2="10"></line>
+                </svg>
+                <span>VER POR MES</span>
+            `;
+        } else {
+            // Icono Lucide Sparkles / Zap
+            toggleBtn.innerHTML = `
+                <svg class="ui-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path>
+                </svg>
+                <span>TODOS LOS PRÓXIMOS</span>
+            `;
+        }
+        toggleBtn.addEventListener('click', () => {
+            this.isUpcomingView = !this.isUpcomingView;
+            if (!this.isUpcomingView) {
+                // Volver a situar en el mes actual o con eventos
+                const nowDate = new Date();
+                this.currentDate = new Date(nowDate.getFullYear(), nowDate.getMonth(), 1);
+            }
+            this.render();
+        });
+
+        monthHeaderRow.append(leftSummary, toggleBtn);
         navPanel.appendChild(monthHeaderRow);
 
         this.container.appendChild(navPanel);
 
-        // ==== 2. LISTA DE EVENTOS DEL MES (FEED CRONOLÓGICO CONTINUO) ====
-        this.renderEventList(year, month, currentMonthEvents);
+        // ==== 2. LISTA DE EVENTOS (FEED CRONOLÓGICO CONTINUO) ====
+        this.renderEventList(year, month, displayedEvents);
     }
 
     renderEventList(year, month, visibleEvents = []) {
@@ -616,8 +690,16 @@ export class Calendar {
 
                 case 't':
                     e.preventDefault();
+                    this.isUpcomingView = false;
                     const nowT = new Date();
                     this.setMonthDate(nowT.getFullYear(), nowT.getMonth());
+                    break;
+
+                case 'u':
+                case 'p':
+                    e.preventDefault();
+                    this.isUpcomingView = !this.isUpcomingView;
+                    this.render();
                     break;
 
                 case 'd':
