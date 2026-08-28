@@ -227,40 +227,106 @@ main {
     flex: 1;
 }
 
-/* Footer */
+/* Footer Suizo: 2 Columnas Justificadas */
 .footer {
-    margin-top: auto;
-    padding-top: 2.5rem;
-    padding-bottom: 1.5rem;
-    border-top: 1px solid var(--border);
-    font-family: var(--font-mono);
-    font-size: 0.8rem;
-    color: var(--text-muted);
     display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid var(--border);
+    padding: 1.5rem 0 2rem 0;
+    margin-top: 3rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
 }
 
-.footer-meta {
+.footer-left {
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
 }
 
-.footer-links {
-    font-size: 0.8rem;
+.footer-credits {
     color: var(--text-muted);
+    line-height: 1.4;
 }
 
-.footer a {
+.footer-link {
     color: var(--text);
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    transition: color var(--transition-fast);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+    transition: all 0.15s ease;
 }
 
-.footer a:hover {
+.footer-link:hover {
     color: var(--matrix-bright);
+    border-bottom-color: var(--matrix-bright);
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+}
+
+.footer-sublink {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+
+.footer-sublink:hover {
+    color: var(--matrix-bright);
+}
+
+.sep {
+    color: var(--border);
+    user-select: none;
+}
+
+.brand-sep {
+    color: var(--matrix-bright);
+    font-weight: 700;
+    margin-right: 0.2rem;
+}
+
+/* Columna derecha: Status badge */
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.sync-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+}
+
+.sync-label {
+    color: var(--text-muted);
+    letter-spacing: 0.04em;
+}
+
+.sync-badge {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    padding: 0.2rem 0.45rem;
+    border-radius: 2px;
+    color: var(--matrix-bright);
+    font-weight: 600;
+}
+
+/* Adaptabilidad móvil */
+@media (max-width: 640px) {
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+    }
 }
 
 /* ==========================================================================

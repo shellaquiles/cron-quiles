@@ -383,6 +383,9 @@ export class Calendar {
 
         visibleEvents.sort((a, b) => new Date(a.dtstart) - new Date(b.dtstart));
 
+        // Inyección dinámica de Schema.org JSON-LD de los eventos visibles
+        this.injectSchemaOrgJsonLd(visibleEvents);
+
         if (visibleEvents.length > 0) {
             visibleEvents.forEach(event => {
                 eventsContainer.appendChild(this.createEventCard(event));
@@ -438,6 +441,71 @@ export class Calendar {
         }
 
         this.container.appendChild(eventsContainer);
+    }
+
+    injectSchemaOrgJsonLd(events) {
+        if (!events || !events.length) return;
+        
+        let schemaScript = document.getElementById('schema-events-ld');
+        if (!schemaScript) {
+            schemaScript = document.createElement('script');
+            schemaScript.id = 'schema-events-ld';
+            schemaScript.type = 'application/ld+json';
+            document.head.appendChild(schemaScript);
+        }
+
+        const relevant = events.slice(0, 50).map((e, index) => {
+            const isOnline = this.isEventOnline(e);
+            const mainUrl = e.url || (e.sources && e.sources[0]?.url) || 'https://shellaquiles.github.io/cron-quiles/';
+            
+            const eventSchema = {
+                "@type": "Event",
+                "name": e.title || e.summary || 'Evento Tech',
+                "startDate": e.dtstart,
+                "endDate": e.dtend || e.dtstart,
+                "eventStatus": "https://schema.org/EventScheduled",
+                "eventAttendanceMode": isOnline 
+                    ? "https://schema.org/OnlineEventAttendanceMode" 
+                    : "https://schema.org/OfflineEventAttendanceMode",
+                "description": e.description ? e.description.slice(0, 250) : (e.title || 'Evento tecnológico en México'),
+                "organizer": {
+                    "@type": "Organization",
+                    "name": e.organizer || "Comunidad Tech México",
+                    "url": mainUrl
+                }
+            };
+
+            if (isOnline) {
+                eventSchema.location = {
+                    "@type": "VirtualLocation",
+                    "url": mainUrl
+                };
+            } else {
+                eventSchema.location = {
+                    "@type": "Place",
+                    "name": e.location || "Sede por confirmar",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": e.city || "Ciudad de México",
+                        "addressCountry": "MX"
+                    }
+                };
+            }
+
+            return {
+                "@type": "ListItem",
+                "position": index + 1,
+                "item": eventSchema
+            };
+        });
+
+        const jsonLd = {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "itemListElement": relevant
+        };
+
+        schemaScript.textContent = JSON.stringify(jsonLd);
     }
 
     isEventOnline(event) {

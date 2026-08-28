@@ -266,7 +266,7 @@ class App {
         // Tomar hasta 50 eventos para el rich snippet
         const relevant = events.slice(0, 50).map((e, index) => {
             const isOnline = !e.location || e.online === true || (e.location && e.location.toLowerCase().includes('online'));
-            const mainUrl = e.url || (e.sources && e.sources[0]?.url) || 'https://cron-quiles.org';
+            const mainUrl = e.url || (e.sources && e.sources[0]?.url) || 'https://shellaquiles.github.io/cron-quiles/';
             
             const eventSchema = {
                 "@type": "Event",
