@@ -60,26 +60,28 @@
             </div>
         </header>
 
-        <main>
-            <!-- Presentación Editorial -->
-            <section class="editorial-card">
-                <h2 data-i18n="hint.whatIsThis">¿Qué es esto?</h2>
-                <p data-i18n="desc.content">
-                    Este calendario agrega eventos de múltiples fuentes (Meetup, Luma, etc.) en un solo lugar.
-                    Los eventos se actualizan automáticamente cada 6 horas.
+        <main class="home-container">
+            <!-- 1. Hero Minimalista y Directo -->
+            <section class="hero-section">
+                <div class="hero-badge">OPEN SOURCE • MÉXICO</div>
+                <h1 class="hero-title" data-i18n="hero.title">El calendario unificado del ecosistema tech en México.</h1>
+                <p class="hero-desc" data-i18n="hero.desc">
+                    Agregamos meetups, talleres y conferencias de múltiples plataformas (Meetup, Luma, Eventbrite) en una sola interfaz técnica, abierta y accesible.
                 </p>
-                <div class="btn-group">
-                    <a href="eventos.html" id="btn-ver-eventos" class="btn btn-main" data-i18n="landing.verEventos">Ver eventos ↗</a>
-                    <a href="suscribir.html" class="btn btn-outline" data-i18n="landing.anadirCalendario">Añadir a mi calendario</a>
+                <div class="hero-actions">
+                    <a href="eventos.html" class="btn btn-main" data-i18n="landing.explorarEventos">Explorar eventos ↗</a>
+                    <a href="suscribir.html" class="btn btn-outline" data-i18n="landing.anadirCalendario">+ Añadir a mi calendario</a>
                 </div>
             </section>
 
-            <!-- Próximos Eventos Destacados -->
-            <section style="margin-top: 2rem;">
-                <div class="month-group-header">
-                    <h3 class="month-group-title">Próximos Eventos</h3>
-                    <a href="eventos.html" class="btn btn-outline" style="font-size: 0.75rem;">Ver todos ↗</a>
+            <!-- 2. Sección de Eventos Próximos (Listado real directo) -->
+            <section class="featured-section">
+                <div class="section-header">
+                    <span class="section-title" data-i18n="landing.proximosEventos">PRÓXIMOS EVENTOS</span>
+                    <a href="eventos.html" class="link-all" id="linkAllEvents" data-i18n="landing.verCalendarioCompleto">VER CALENDARIO COMPLETO ↗</a>
                 </div>
+
+                <!-- Lista compacta de eventos reales -->
                 <div id="featured-events-list" class="event-list">
                     <div class="events-loading" data-i18n="calendar.loading">Cargando eventos...</div>
                 </div>

@@ -92,10 +92,53 @@
     transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
 }
 
-.swiss-select:focus,
-.swiss-select:hover {
-    border-color: var(--matrix-bright);
-    box-shadow: 0 0 6px rgba(0, 255, 102, 0.2);
+/* ==========================================================================
+   CLI TERMINAL BLOCKS (Landing & Info Sections)
+   ========================================================================== */
+
+.cli-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.cli-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-family: var(--font-mono);
+}
+
+.cli-prompt {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.cli-prompt-symbol {
+    color: var(--matrix-bright);
+}
+
+.cli-output {
+    border-left: 2px solid var(--border);
+    padding-left: 1rem;
+    margin-left: 0.35rem;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+html.dark .cli-output {
+    border-left-color: var(--matrix-bright);
+    color: var(--text);
+}
+
+html.dark .cli-output strong {
+    color: var(--matrix-bright);
 }
 
 .filter-section {
@@ -196,8 +239,9 @@
 }
 
 /* =========================================
-   BARRA DE NAVEGACIÓN TEMPORAL (SWISS PANEL)
+   BARRA DE NAVEGACIÓN TEMPORAL (SWISS TIMELINE & MESES)
    ========================================= */
+.calendar-controls-box,
 .calendar-nav-panel {
     border: 1px solid var(--border);
     background: var(--bg-surface);
@@ -206,45 +250,132 @@
     overflow: hidden;
 }
 
+/* Tira horizontal de los 12 meses (Year Timeline) */
+.months-timeline {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    border-bottom: 1px solid var(--border);
+    background: var(--bg);
+}
+
+.month-tab {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    border-right: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 0.55rem 0;
+    cursor: pointer;
+    text-align: center;
+    transition: all var(--transition-fast);
+    text-transform: uppercase;
+}
+
+.month-tab:last-child {
+    border-right: none;
+}
+
+.month-tab:hover {
+    color: var(--text);
+    background: var(--bg-subtle);
+}
+
+/* Mes Seleccionado */
+.month-tab.active {
+    background: var(--bg-subtle);
+    color: var(--text);
+    font-weight: 700;
+    box-shadow: inset 0 -2px 0 var(--matrix-bright);
+}
+
+html.dark .month-tab.active {
+    color: var(--matrix-bright);
+    background: rgba(0, 255, 102, 0.08);
+}
+
+/* Indicador de mes con eventos en la timeline */
+.month-tab.has-events {
+    font-weight: 700;
+}
+
+html.dark .month-tab.has-events:not(.active) {
+    color: var(--text);
+}
+
+/* Fila de controles de semana */
+.week-header-row,
 .nav-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.75rem 1rem;
+    padding: 0.5rem 0.85rem;
     border-bottom: 1px solid var(--border);
     flex-wrap: wrap;
-    gap: 0.75rem;
-}
-
-.month-display {
-    font-family: var(--font-mono);
-    font-size: 0.9rem;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-}
-
-.nav-actions {
-    display: flex;
-    align-items: center;
     gap: 0.5rem;
 }
 
+.current-month-display {
+    display: flex;
+    align-items: center;
+}
+
+.month-title,
+.month-display {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: var(--text);
+    text-transform: uppercase;
+}
+
+.nav-btn-group,
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.btn-cal-nav,
 .btn-nav {
     font-family: var(--font-mono);
-    font-size: 0.75rem;
+    font-size: 0.7rem;
+    font-weight: 600;
     background: transparent;
     border: 1px solid var(--border);
     color: var(--text);
-    padding: 0.35rem 0.65rem;
-    cursor: pointer;
+    padding: 0.3rem 0.55rem;
     border-radius: var(--radius-sm);
+    cursor: pointer;
     transition: all var(--transition-fast);
+    text-transform: uppercase;
 }
 
+.btn-cal-nav:hover,
 .btn-nav:hover:not(:disabled) {
-    background: var(--bg-subtle);
     border-color: var(--text);
+    background: var(--bg-subtle);
+}
+
+html.dark .btn-cal-nav:hover,
+html.dark .btn-nav:hover:not(:disabled) {
+    border-color: var(--matrix-bright);
+    color: var(--matrix-bright);
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+    .months-timeline {
+        display: flex;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+    .month-tab {
+        flex: 0 0 auto;
+        padding: 0.5rem 0.85rem;
+    }
 }
 
 .btn-nav:disabled {

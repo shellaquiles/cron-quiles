@@ -147,26 +147,59 @@ export class Calendar {
         const month = this.currentDate.getMonth();
         const monthNames = i18n.t('months');
 
-        // ==== 1. NAVEGADOR DE CALENDARIO SUIZO (PANEL SUPERIOR) ====
-        const navPanel = DOM.create('div', { className: 'calendar-nav-panel' });
+        // ==== 1. NAVEGADOR DE CALENDARIO SUIZO (PANEL SUPERIOR CON TIMELINE DE MESES) ====
+        const navPanel = DOM.create('div', { className: 'calendar-controls-box' });
 
-        // Nav Header
-        const navHeader = DOM.create('div', { className: 'nav-header' });
-        const monthDisplay = DOM.create('span', { 
-            className: 'month-display', 
-            id: 'currentMonthLabel',
-            text: `${monthNames[month]} ${year}` 
+        // Fila 1: Tira horizontal interactiva de los 12 meses del año
+        const monthsTimeline = DOM.create('div', { className: 'months-timeline', id: 'monthsTimeline' });
+        const monthShortNames = ['ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC'];
+        
+        // Determinar qué meses tienen eventos en el año actual
+        const monthsWithEventsSet = new Set();
+        this.events.forEach(e => {
+            if (e.dtstart) {
+                const d = new Date(e.dtstart);
+                if (d.getFullYear() === year) {
+                    monthsWithEventsSet.add(d.getMonth());
+                }
+            }
         });
 
-        const navActions = DOM.create('div', { className: 'nav-actions' });
+        monthShortNames.forEach((shortName, idx) => {
+            const monthTab = DOM.create('button', {
+                className: `month-tab ${idx === month ? 'active' : ''} ${monthsWithEventsSet.has(idx) ? 'has-events' : ''}`,
+                attributes: { 'data-month': idx },
+                text: shortName
+            });
+
+            monthTab.addEventListener('click', () => {
+                this.setMonthDate(year, idx);
+            });
+
+            monthsTimeline.appendChild(monthTab);
+        });
+        navPanel.appendChild(monthsTimeline);
+
+        // Fila 2: Fila de controles de Semana y Mes
+        const weekHeaderRow = DOM.create('div', { className: 'week-header-row' });
+        
+        const currentMonthDisplay = DOM.create('div', { className: 'current-month-display' });
+        const monthTitle = DOM.create('span', { 
+            className: 'month-title', 
+            id: 'currentMonthYear',
+            text: `${monthNames[month].toUpperCase()} ${year}` 
+        });
+        currentMonthDisplay.appendChild(monthTitle);
+
+        const navBtnGroup = DOM.create('div', { className: 'nav-btn-group' });
         
         const btnLabel = this.selectedDateStr 
             ? (i18n.t('cal.viewAllMonth') || 'VER TODO EL MES') 
             : (i18n.t('cal.fullMonth') || 'MES COMPLETO');
 
         const viewAllBtn = DOM.create('button', {
-            className: 'btn-nav',
-            id: 'viewAllBtn',
+            className: 'btn-cal-nav',
+            id: 'btnFullMonth',
             text: btnLabel
         });
         viewAllBtn.addEventListener('click', () => {
@@ -174,16 +207,19 @@ export class Calendar {
             this.render();
         });
 
-        const prevMonthBtn = DOM.create('button', {
-            className: 'btn-nav',
-            id: 'prevMonthBtn',
-            text: '← MES ANTERIOR'
+        const prevWeekBtn = DOM.create('button', {
+            className: 'btn-cal-nav',
+            id: 'btnPrevWeek',
+            text: '← SEMANA'
         });
-        prevMonthBtn.addEventListener('click', () => this.changeMonth(-1));
+        prevWeekBtn.addEventListener('click', () => {
+            this.currentWeekOffset--;
+            this.render();
+        });
 
         const todayBtn = DOM.create('button', {
-            className: 'btn-nav',
-            id: 'todayBtn',
+            className: 'btn-cal-nav',
+            id: 'btnToday',
             text: 'HOY'
         });
         todayBtn.addEventListener('click', () => {
@@ -193,18 +229,21 @@ export class Calendar {
             this.render();
         });
 
-        const nextMonthBtn = DOM.create('button', {
-            className: 'btn-nav',
-            id: 'nextMonthBtn',
-            text: 'SIG MES →'
+        const nextWeekBtn = DOM.create('button', {
+            className: 'btn-cal-nav',
+            id: 'btnNextWeek',
+            text: 'SEMANA →'
         });
-        nextMonthBtn.addEventListener('click', () => this.changeMonth(1));
+        nextWeekBtn.addEventListener('click', () => {
+            this.currentWeekOffset++;
+            this.render();
+        });
 
-        navActions.append(viewAllBtn, prevMonthBtn, todayBtn, nextMonthBtn);
-        navHeader.append(monthDisplay, navActions);
-        navPanel.appendChild(navHeader);
+        navBtnGroup.append(viewAllBtn, prevWeekBtn, todayBtn, nextWeekBtn);
+        weekHeaderRow.append(currentMonthDisplay, navBtnGroup);
+        navPanel.appendChild(weekHeaderRow);
 
-        // Tira de días (7 días de la semana activa o deslizador)
+        // Tira de días (7 días de la semana activa)
         const stripContainer = DOM.create('div', { className: 'days-strip-container' });
         const daysStrip = DOM.create('div', { className: 'days-strip', id: 'daysStrip' });
 
@@ -243,27 +282,6 @@ export class Calendar {
 
         stripContainer.appendChild(daysStrip);
         navPanel.appendChild(stripContainer);
-
-        // Barra de navegación entre semanas
-        const weekSwitcherBar = DOM.create('div', { className: 'week-switcher-bar' });
-        const prevWeekBtn = DOM.create('button', { text: '← Semana anterior' });
-        prevWeekBtn.addEventListener('click', () => {
-            this.currentWeekOffset--;
-            this.render();
-        });
-
-        const weekInfo = DOM.create('span', { 
-            text: `Días ${weekDays[0].num} - ${weekDays[weekDays.length - 1].num} de ${monthNames[month]}` 
-        });
-
-        const nextWeekBtn = DOM.create('button', { text: 'Semana siguiente →' });
-        nextWeekBtn.addEventListener('click', () => {
-            this.currentWeekOffset++;
-            this.render();
-        });
-
-        weekSwitcherBar.append(prevWeekBtn, weekInfo, nextWeekBtn);
-        navPanel.appendChild(weekSwitcherBar);
 
         this.container.appendChild(navPanel);
 

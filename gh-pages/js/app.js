@@ -6,7 +6,7 @@ import { i18n } from './core/I18n.js';
 import { appStore } from './core/Store.js';
 import { DataService } from './services/DataService.js';
 import { Storage } from './services/Storage.js';
-import { Calendar } from './ui/Calendar.js?v=3';
+import { Calendar } from './ui/Calendar.js';
 import { CommunityList } from './ui/CommunityList.js';
 import { Header } from './ui/Header.js';
 import { Terminal } from './ui/Terminal.js';
@@ -243,19 +243,27 @@ class App {
     }
 
     async loadFeaturedEvents(city) {
-        const listContainer = document.getElementById('featured-events-list');
+        const listContainer = document.getElementById('featured-events-list') || document.getElementById('featuredEvents');
         if (!listContainer) return;
 
         try {
-            const data = await DataService.getCityData(city);
+            const data = await DataService.getCityData(city || 'mexico');
             const events = Array.isArray(data) ? data : (data.events || []);
             const now = new Date();
             
-            // Tomar los próximos 4 eventos a partir de hoy
-            const upcoming = events.filter(e => {
+            // 1. Intentar tomar los próximos eventos a partir de hoy
+            let upcoming = events.filter(e => {
                 if (!e.dtstart) return false;
                 return new Date(e.dtstart) >= new Date(now.getFullYear(), now.getMonth(), now.getDate());
             }).sort((a, b) => new Date(a.dtstart) - new Date(b.dtstart)).slice(0, 4);
+
+            // 2. Si no hay eventos a futuro en este instante, mostrar los más recientes del histórico
+            if (upcoming.length === 0 && events.length > 0) {
+                upcoming = [...events]
+                    .filter(e => e.dtstart)
+                    .sort((a, b) => new Date(b.dtstart) - new Date(a.dtstart))
+                    .slice(0, 4);
+            }
 
             if (upcoming.length === 0) {
                 listContainer.innerHTML = `<div class="events-empty">${i18n.t('calendar.noEvents')}</div>`;
@@ -267,6 +275,13 @@ class App {
             upcoming.forEach(e => {
                 listContainer.appendChild(tempCalendar.createEventCard(e));
             });
+
+            // Actualizar contador en enlace 'Ver todos (N)'
+            const totalCountLink = document.getElementById('linkAllEvents');
+            if (totalCountLink) {
+                const total = events.length;
+                totalCountLink.textContent = `${i18n.t('landing.verTodos') || 'VER TODOS'} (${total}) ↗`;
+            }
         } catch (e) {
             console.error(e);
         }
