@@ -347,6 +347,40 @@ export class Calendar {
         return raw.slice(0, 4) || 'MX';
     }
 
+    formatMarkdown(text) {
+        if (!text || typeof text !== 'string') return '';
+        
+        // 1. Limpieza de textos redundantes y URLs de feeds
+        let clean = text
+            .replace(/Get up-to-date information at:\s*https?:\/\/\S+/gi, '')
+            .replace(/Find more information on\s*https?:\/\/\S+/gi, '')
+            .replace(/Hosted by.*/gi, '')
+            .replace(/https?:\/\/\S+/gi, '') // URLs sueltas repetitivas
+            .replace(/#{1,6}\s*/g, ' ')       // Títulos ### convertidos a espacio
+            .trim();
+
+        // 2. Escape básico de seguridad HTML
+        clean = clean
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;');
+
+        // 3. Renderizar Markdown enriquecido: Negrita (** o __), Cursiva (* o _), Código (`), Enlaces ([texto](url))
+        clean = clean
+            .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+            .replace(/__([^_]+)__/g, '<strong>$1</strong>')
+            .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+            .replace(/_([^_]+)_/g, '<em>$1</em>')
+            .replace(/`([^`]+)`/g, '<code>$1</code>')
+            .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+
+        return clean;
+    }
+
+    cleanDescription(text) {
+        return this.formatMarkdown(text);
+    }
+
     createEventCard(event) {
         const card = DOM.create('article', { className: 'event-item' });
         const d = new Date(event.dtstart);
@@ -375,7 +409,7 @@ export class Calendar {
             }
         }
 
-        // Fila 1: Comunidad destacada + Estado/Ciudad + Hora + Live
+        // Fila 1: Comunidad + Estado + Live
         const metaTop = DOM.create('div', { className: 'event-meta-top' });
         
         if (orgName) {
@@ -392,13 +426,6 @@ export class Calendar {
             const liveBadge = DOM.create('span', { className: 'badge-live' });
             liveBadge.innerHTML = `<span class="live-dot"></span>${i18n.t('badge.live') || 'HOY'}`;
             metaTop.appendChild(liveBadge);
-        }
-
-        const startStr = DateUtils.formatTime(event.dtstart);
-        const endStr = DateUtils.formatTime(event.dtend);
-        const timeStr = (startStr && endStr && startStr !== endStr) ? `${startStr} – ${endStr} CST` : (startStr ? `${startStr} CST` : '');
-        if (timeStr) {
-            metaTop.appendChild(DOM.create('span', { className: 'meta-time', text: timeStr }));
         }
 
         infoCol.appendChild(metaTop);
@@ -421,41 +448,50 @@ export class Calendar {
         }
         infoCol.appendChild(titleEl);
 
-        // Fila 3: Ubicación limpia
-        const venueRow = DOM.create('div', { className: 'event-venue' });
+        // Fila 3: CUÁNDO (Horario con Icono Lineal)
+        const startStr = DateUtils.formatTime(event.dtstart);
+        const endStr = DateUtils.formatTime(event.dtend);
+        const timeStr = (startStr && endStr && startStr !== endStr) ? `${startStr} – ${endStr} CST` : (startStr ? `${startStr} CST` : '');
+        if (timeStr) {
+            const timeRow = DOM.create('div', { className: 'meta-row' });
+            timeRow.innerHTML = `
+                <svg class="ui-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span class="meta-text"><strong>${timeStr}</strong></span>
+            `;
+            infoCol.appendChild(timeRow);
+        }
+
+        // Fila 4: DÓNDE (Sede + Link de Mapa Integrado con Icono Lineal)
+        const venueRow = DOM.create('div', { className: 'meta-row' });
         if (!isOnline && event.location) {
-            const venueName = DOM.create('span', { className: 'venue-name', text: `📍 ${this.shortenLocation(event.location)}` });
-            venueRow.appendChild(venueName);
+            const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.location)}`;
+            venueRow.innerHTML = `
+                <svg class="ui-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <a href="${mapUrl}" target="_blank" rel="noopener" class="venue-link" title="Abrir ubicación en Google Maps">
+                    <span>${this.shortenLocation(event.location)}</span>
+                    <span class="link-arrow">↗</span>
+                </a>
+            `;
             infoCol.appendChild(venueRow);
         } else if (isOnline) {
-            const venueName = DOM.create('span', { className: 'venue-name', text: '🌐 Evento Virtual / Remoto' });
-            venueRow.appendChild(venueName);
+            venueRow.innerHTML = `
+                <svg class="ui-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+                <span class="meta-text">Evento Virtual / Remoto</span>
+            `;
             infoCol.appendChild(venueRow);
         }
 
-        // Fila 4: Descripción / Resumen del Evento (si existe)
-        const descText = (event.description || '').trim();
-        if (descText && descText !== 'Sin descripción') {
-            const descEl = DOM.create('div', { className: 'event-description collapsed', text: descText });
-            infoCol.appendChild(descEl);
-
-            if (descText.length > 140) {
-                const toggleBtn = DOM.create('span', { 
-                    className: 'event-description-toggle', 
-                    text: i18n.t('cal.showMore') || 'Ver más ↓' 
-                });
-                toggleBtn.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    const isCollapsed = descEl.classList.toggle('collapsed');
-                    toggleBtn.textContent = isCollapsed 
-                        ? (i18n.t('cal.showMore') || 'Ver más ↓') 
-                        : (i18n.t('cal.showLess') || 'Ver menos ↑');
-                });
-                infoCol.appendChild(toggleBtn);
-            }
-        }
-
-        // Fila 5: Tags de Tecnología
+        // Fila 4: Tags de Tecnología
         const tagsWrapper = DOM.create('div', { className: 'tag-container' });
         if (isOnline) {
             tagsWrapper.appendChild(DOM.create('span', { className: 'tag', text: '#online' }));
@@ -473,7 +509,7 @@ export class Calendar {
 
         card.appendChild(infoCol);
 
-        // 3. Acciones con Plataforma Dinámica + Calendario + Mapa
+        // 3. Acciones (Exactamente 2 botones fijos)
         const actionsCol = DOM.create('div', { className: 'event-actions' });
         const platformLabel = this.getPlatformName(mainUrl);
         
@@ -488,7 +524,6 @@ export class Calendar {
         });
         actionsCol.appendChild(regBtn);
 
-        // Botón Secundario de Calendario
         const calBtn = DOM.create('a', {
             className: 'btn-outline',
             text: '+ Cal',
@@ -500,22 +535,6 @@ export class Calendar {
             }
         });
         actionsCol.appendChild(calBtn);
-
-        // Botón de Mapa (si es presencial con ubicación)
-        if (!isOnline && event.location) {
-            const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.location)}`;
-            const mapBtn = DOM.create('a', {
-                className: 'btn-outline',
-                text: 'Mapa ↗',
-                attributes: {
-                    href: mapUrl,
-                    target: '_blank',
-                    rel: 'noopener',
-                    title: 'Ver ubicación en Google Maps'
-                }
-            });
-            actionsCol.appendChild(mapBtn);
-        }
 
         card.appendChild(actionsCol);
         return card;
