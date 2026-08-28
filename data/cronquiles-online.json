@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T17:06:53.599168+00:00",
-  "total_events": 423,
+  "generated_at": "2026-08-28T01:55:29.723824+00:00",
+  "total_events": 424,
   "city": "Online",
   "communities": [
     {
@@ -92,11 +92,6 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
-          "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5185,7 +5180,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5749,7 +5744,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11733,7 +11728,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -12701,6 +12696,41 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-tGBTfWbV3nhiOhc",
       "hash_key": "parenting with ai w the ai collective ka_2026-10-28T00:00:00+00:00"
+    },
+    {
+      "title": "GDG Villahermosa|DevFest 2026: Sureste de México|México|",
+      "description": "Únete a nosotros en el Devfest 2026. Este evento emblemático es una oportunidad única para sumergirse en las tendencias ...",
+      "url": "https://gdg.community.dev/events/details/google-gdg-villahermosa-presents-devfest-2026-sureste-de-mexico/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-villahermosa-presents-devfest-2026-sureste-de-mexico/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Por Definir, Villahermosa, Villahermosa",
+      "online": false,
+      "organizer": "GDG Villahermosa",
+      "dtstart": "2026-11-11T08:00:00-06:00",
+      "dtend": "2026-11-13T13:00:00-06:00",
+      "tags": [
+        "AI",
+        "Conference",
+        "DevFest",
+        "Google Cloud",
+        "Web",
+        "Workshop / hands-on session",
+        "backend"
+      ],
+      "source": "https://gdg.community.dev/gdg-villahermosa/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Por Definir, Villahermosa, Villahermosa",
+      "hash_key": "devfest 2026 sureste de mxico_2026-11-11T14:00:00+00:00"
     },
     {
       "title": "GDG San Francisco de Campeche|DevFest Campeche 2026|México|",
