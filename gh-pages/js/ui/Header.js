@@ -285,13 +285,11 @@ export class Header {
         const elements = document.querySelectorAll('[data-version]');
         if (!elements.length) return;
 
-        try {
-            const res = await fetch('/cron-quiles/VERSION');
-            if (!res.ok) throw new Error('VERSION not found');
-            const version = (await res.text()).trim();
+        const city = appStore.get('city');
+        const version = await DataService.getVersion(city);
+        if (version) {
             elements.forEach(el => { el.textContent = `v${version}`; });
-        } catch {
-            // fallback: mantener el valor estático del HTML
         }
+        // Si no hay version en el JSON, el fallback estático del HTML permanece
     }
 }

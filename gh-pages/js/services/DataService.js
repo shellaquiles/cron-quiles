@@ -62,4 +62,18 @@ export class DataService {
             return null;
         }
     }
+
+    /**
+     * Obtiene la versión del pipeline desde el JSON de datos
+     * @param {string} city
+     * @returns {Promise<string|null>}
+     */
+    static async getVersion(city) {
+        try {
+            const data = await DataService.getCityData(city || 'mexico');
+            return data?.version ?? null;
+        } catch {
+            return null;
+        }
+    }
 }

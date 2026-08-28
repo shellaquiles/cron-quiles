@@ -56,6 +56,7 @@ class CommunitySchema(TypedDict):
 class JSONOutputSchema(TypedDict):
     """Esquema del archivo JSON final generado."""
 
+    version: str
     generated_at: str
     total_events: int
     city: Optional[str]

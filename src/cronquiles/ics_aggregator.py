@@ -22,6 +22,15 @@ import re
 from .models import EventNormalized
 from .history_manager import HistoryManager
 
+
+def _read_version() -> str:
+    """Lee la versión del archivo VERSION en la raíz del repositorio."""
+    try:
+        version_file = Path(__file__).parent.parent.parent / "VERSION"
+        return version_file.read_text(encoding="utf-8").strip()
+    except Exception:
+        return "0.0.0"
+
 # Import Aggregators
 from .aggregators.eventbrite import EventbriteAggregator
 from .aggregators.luma import LumaAggregator
@@ -501,7 +510,8 @@ class ICSAggregator:
         city_name: Optional[str] = None,
     ) -> str:
         calendar = Calendar()
-        calendar.add("prodid", "-//Cron-Quiles//ICS Aggregator//EN")
+        version = _read_version()
+        calendar.add("prodid", f"-//Shellaquiles//CronQuiles v{version}//ES")
         calendar.add("version", "2.0")
         calendar.add("calscale", "GREGORIAN")
 
@@ -592,6 +602,7 @@ class ICSAggregator:
         ]
 
         events_data: JSONOutputSchema = {
+            "version": _read_version(),
             "generated_at": datetime.now(tz.UTC).isoformat(),
             "total_events": len(events),
             "city": city_name,

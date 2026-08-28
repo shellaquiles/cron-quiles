@@ -2,9 +2,13 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[tool.hatch.version]
+path = "VERSION"
+pattern = "(?P<version>.+)"
+
 [project]
 name = "cron-quiles"
-version = "1.9.1"
+dynamic = ["version"]
 description = "Agregador de calendarios tech (Meetup, Luma, ICS) que se actualiza solo, como buen cron"
 readme = "README.md"
 requires-python = ">=3.10"
