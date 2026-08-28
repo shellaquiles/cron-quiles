@@ -3,18 +3,22 @@
  * Modo Claro (Editorial Minimalista) & Modo Oscuro (Matrix Cyber-Terminal Pura / Gradación de Fósforo Verde)
  */
 :root {
-    --bg: #fafafa;
-    --bg-surface: #ffffff;
-    --bg-subtle: #f4f4f5;
-    --text: #09090b;
-    --text-muted: #71717a;
-    --border: #e4e4e7;
-    
-    /* Roles de color (Modo Claro) */
-    --accent: #eb3b2e;
-    --matrix-bright: #eb3b2e;
-    --matrix-accent: #ff453a;
-    --matrix-glow: none;
+    /* Por defecto: MODO MATRIX OSCURO (Gradación de Fósforo Verde - Zero Fatigue) */
+    --bg: #040805;              /* Negro carbón con tinte verde mínimo */
+    --bg-surface: #0a110c;      /* Fondo de tarjetas y paneles */
+    --bg-subtle: #0f1c12;       /* Fondo de tags y hover */
+    --border: #16331e;          /* Líneas de 1px definidas pero atenuadas */
+
+    /* Capas de texto (gradación de fósforo) */
+    --text: #c8ffd4;            /* Verde menta casi blanco: Títulos legibles */
+    --text-muted: #4e8c5d;      /* Verde medio opaco: Metadatos y descripciones */
+
+    /* Fósforo Activo (Brillo alto para interactividad) */
+    --accent: #00ff66;
+    --matrix-bright: #00ff66;   /* Fósforo puro: Días activos y botones */
+    --matrix-accent: #22c55e;   /* Acento medio */
+    --matrix-glow: 0 0 10px rgba(0, 255, 102, 0.35);
+    --matrix-tag-text: #7ee89d; /* Verde intermedio */
     
     /* Typography */
     --font-sans: 'Geist', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -38,24 +42,32 @@
     --transition-normal: 0.25s ease;
 }
 
-/* ==========================================================================
-   MODO MATRIX PURO (Gradación de Fósforo Verde - Zero Fatigue)
-   ========================================================================== */
+/* Modo Matrix explícito (compatibilidad) */
 html.dark {
-    /* 1. Fondo oscuro con tinte de tubo apagado */
-    --bg: #040805;              /* Negro carbón con tinte verde mínimo */
-    --bg-surface: #0a110c;      /* Fondo de tarjetas y paneles */
-    --bg-subtle: #0f1c12;       /* Fondo de tags y hover */
-    --border: #16331e;          /* Líneas de 1px definidas pero atenuadas */
-
-    /* 2. Capas de texto (gradación de fósforo) */
-    --text: #c8ffd4;            /* Verde menta casi blanco: Títulos legibles */
-    --text-muted: #4e8c5d;      /* Verde medio opaco: Metadatos y descripciones */
-
-    /* 3. Fósforo Activo (Brillo alto para interactividad) */
+    --bg: #040805;
+    --bg-surface: #0a110c;
+    --bg-subtle: #0f1c12;
+    --border: #16331e;
+    --text: #c8ffd4;
+    --text-muted: #4e8c5d;
     --accent: #00ff66;
-    --matrix-bright: #00ff66;   /* Fósforo puro: Días activos y botones */
-    --matrix-accent: #22c55e;   /* Acento medio */
+    --matrix-bright: #00ff66;
+    --matrix-accent: #22c55e;
     --matrix-glow: 0 0 10px rgba(0, 255, 102, 0.35);
-    --matrix-tag-text: #7ee89d; /* Verde intermedio */
+    --matrix-tag-text: #7ee89d;
+}
+
+/* MODO CLARO (Opcional bajo selección explícita) */
+html.light {
+    --bg: #fafafa;
+    --bg-surface: #ffffff;
+    --bg-subtle: #f4f4f5;
+    --text: #09090b;
+    --text-muted: #71717a;
+    --border: #e4e4e7;
+    --accent: #eb3b2e;
+    --matrix-bright: #09090b;
+    --matrix-accent: #eb3b2e;
+    --matrix-glow: none;
+    --matrix-tag-text: #09090b;
 }

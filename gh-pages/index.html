@@ -5,13 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐢</text></svg>">
     <title>CRON-QUILES • Eventos Tech México</title>
-    
+
     <!-- Google Fonts: Geist & Geist Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;600;700&family=Geist:wght@400;500;600;700;900&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Anti-flicker Theme Init (Bloquea el flash blanco antes del primer renderizado) -->
+    <script>
+        (function() {
+            var saved = localStorage.getItem('theme');
+            var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (saved === 'dark' || (saved === null && systemDark) || saved === null) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        })();
+    </script>
 </head>
 <body>
     <div class="container">
@@ -20,7 +33,7 @@
                 <a href="index.html" class="brand-title">🐢 CRON-QUILES</a>
                 <p class="brand-subtitle" data-i18n="site.subtitle">Calendario unificado de eventos tech en México</p>
             </div>
-            
+
             <div class="header-controls">
                 <div class="lang-switcher" aria-label="Idioma">
                     <button class="lang-btn active" data-lang="es" aria-label="Español">ES</button>
@@ -55,7 +68,7 @@
             <section class="editorial-card">
                 <h2 data-i18n="hint.whatIsThis">¿Qué es esto?</h2>
                 <p data-i18n="desc.content">
-                    Este calendario agrega eventos de múltiples fuentes (Meetup, Luma, etc.) en un solo lugar. 
+                    Este calendario agrega eventos de múltiples fuentes (Meetup, Luma, etc.) en un solo lugar.
                     Los eventos se actualizan automáticamente cada 6 horas.
                 </p>
                 <div class="btn-group">
@@ -79,17 +92,17 @@
         <footer class="footer">
             <div class="footer-meta">
                 <div>
-                    <span data-i18n="footer.project">Proyecto open source de la comunidad</span> 
+                    <span data-i18n="footer.project">Proyecto open source de la comunidad</span>
                     <strong><a href="https://shellaquiles.org" target="_blank" rel="noopener">Shellaquiles</a></strong> 🐢
                 </div>
                 <div>
-                    <span data-i18n="footer.lastUpdate">Última actualización:</span> 
+                    <span data-i18n="footer.lastUpdate">Última actualización:</span>
                     <span class="last-update" id="last-update" data-i18n="footer.loading">Cargando...</span>
                 </div>
             </div>
             <div>
-                <a href="https://github.com/shellaquiles/cron-quiles" target="_blank" rel="noopener" data-i18n="footer.github">GitHub</a> • 
-                <a href="https://github.com/shellaquiles/cron-quiles/blob/main/README.md" target="_blank" rel="noopener" data-i18n="footer.docs">Documentación</a> • 
+                <a href="https://github.com/shellaquiles/cron-quiles" target="_blank" rel="noopener" data-i18n="footer.github">GitHub</a> •
+                <a href="https://github.com/shellaquiles/cron-quiles/blob/main/README.md" target="_blank" rel="noopener" data-i18n="footer.docs">Documentación</a> •
                 <a href="https://shellaquiles.org" target="_blank" rel="noopener">Shellaquiles.org</a>
             </div>
         </footer>

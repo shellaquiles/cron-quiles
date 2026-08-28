@@ -19,8 +19,8 @@ export class Header {
 
     initTheme() {
         const savedTheme = localStorage.getItem('theme');
-        const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const isDark = savedTheme ? savedTheme === 'dark' : (savedTheme === null ? true : systemPrefersDark);
+        // Por defecto SIEMPRE oscuro (salvo que se haya guardado explícitamente 'light')
+        const isDark = savedTheme !== 'light';
         this.applyTheme(isDark);
     }
 
@@ -31,13 +31,13 @@ export class Header {
         
         if (isDark) {
             htmlElement.classList.add('dark');
-            htmlElement.removeAttribute('data-theme');
+            htmlElement.classList.remove('light');
             if (themeLabel) themeLabel.textContent = i18n.t('theme.light') || 'MODO CLARO';
             if (themeIcon) themeIcon.textContent = '☀️';
             localStorage.setItem('theme', 'dark');
         } else {
             htmlElement.classList.remove('dark');
-            htmlElement.removeAttribute('data-theme');
+            htmlElement.classList.add('light');
             if (themeLabel) themeLabel.textContent = 'MATRIX OSCURO';
             if (themeIcon) themeIcon.textContent = '🟢';
             localStorage.setItem('theme', 'light');

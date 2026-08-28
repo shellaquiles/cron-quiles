@@ -12,6 +12,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;600;700&family=Geist:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Anti-flicker Theme Init (Bloquea el flash blanco antes del primer renderizado) -->
+    <script>
+        (function() {
+            var saved = localStorage.getItem('theme');
+            var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (saved === 'dark' || (saved === null && systemDark) || saved === null) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        })();
+    </script>
 </head>
 <body>
     <div class="container">
