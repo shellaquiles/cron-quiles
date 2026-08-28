@@ -146,13 +146,12 @@ export class Calendar {
         const month = this.currentDate.getMonth();
         const monthNames = i18n.t('months');
 
-        // ==== 1. NAVEGADOR DE CALENDARIO SUIZO (PANEL SUPERIOR CON TIMELINE DE MESES) ====
+        // ==== 1. NAVEGADOR DE 12 MESES (YEAR TIMELINE SUIZA) ====
         const navPanel = DOM.create('div', { className: 'calendar-controls-box' });
 
-        // Fila 1: Tira horizontal interactiva de los 12 meses del año flanqueada por botones de año [ ◀ ] y [ ▶ ]
+        // Tira horizontal interactiva de los 12 meses del año flanqueada por botones de año [ ◀ ] y [ ▶ ]
         const monthsTimeline = DOM.create('div', { className: 'months-timeline', id: 'monthsTimeline' });
         
-        // Botón Año Anterior en la línea de meses
         const prevYearBtn = DOM.create('button', {
             className: 'timeline-year-nav',
             id: 'btnPrevYear',
@@ -164,21 +163,25 @@ export class Calendar {
 
         const monthShortNames = ['ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC'];
         
-        // Determinar qué meses tienen eventos en el año actual
-        const monthsWithEventsSet = new Set();
+        // Contar eventos por cada mes del año actual
+        const monthEventCounts = new Array(12).fill(0);
         this.events.forEach(e => {
             if (e.dtstart) {
                 const d = new Date(e.dtstart);
                 if (d.getFullYear() === year) {
-                    monthsWithEventsSet.add(d.getMonth());
+                    monthEventCounts[d.getMonth()]++;
                 }
             }
         });
 
         monthShortNames.forEach((shortName, idx) => {
+            const hasEv = monthEventCounts[idx] > 0;
             const monthTab = DOM.create('button', {
-                className: `month-tab ${idx === month ? 'active' : ''} ${monthsWithEventsSet.has(idx) ? 'has-events' : ''}`,
-                attributes: { 'data-month': idx },
+                className: `month-tab ${idx === month ? 'active' : ''} ${hasEv ? 'has-events' : ''}`,
+                attributes: { 
+                    'data-month': idx,
+                    'title': `${monthNames[idx]} ${year}: ${monthEventCounts[idx]} eventos`
+                },
                 text: shortName
             });
 
@@ -189,7 +192,6 @@ export class Calendar {
             monthsTimeline.appendChild(monthTab);
         });
 
-        // Botón Año Siguiente en la línea de meses
         const nextYearBtn = DOM.create('button', {
             className: 'timeline-year-nav',
             id: 'btnNextYear',
@@ -201,196 +203,39 @@ export class Calendar {
 
         navPanel.appendChild(monthsTimeline);
 
-        // Fila 2: Barra de Control Intuitiva (Navegación Temporal a la izquierda + Switch de Vista a la derecha)
-        const weekHeaderRow = DOM.create('div', { className: 'week-header-row' });
+        // Cabecera Editorial del Mes Seleccionado (Título + Total de Eventos)
+        const monthHeaderRow = DOM.create('div', { className: 'month-summary-bar' });
         
-        // Navegación Temporal (Izquierda): [ ← ][ HOY ][ → ] + TÍTULO
-        const calNavLeft = DOM.create('div', { className: 'cal-nav-left' });
-        const btnGroupNav = DOM.create('div', { className: 'btn-group-nav' });
-
-        const prevBtn = DOM.create('button', {
-            className: 'btn-nav-arrow',
-            id: 'btnPrev',
-            title: 'Semana o periodo anterior',
-            text: '←'
-        });
-        prevBtn.addEventListener('click', () => {
-            this.currentWeekOffset--;
-            this.render();
-        });
-
-        const todayBtn = DOM.create('button', {
-            className: 'btn-nav-today',
-            id: 'btnToday',
-            text: 'HOY'
-        });
-        todayBtn.addEventListener('click', () => {
-            const now = new Date();
-            const todayYear = now.getFullYear();
-            const todayMonth = now.getMonth();
-            const todayDay = now.getDate();
-
-            this.currentDate = new Date(todayYear, todayMonth, 1);
-            this.selectedDateStr = now.toLocaleDateString('en-CA', { timeZone: 'America/Mexico_City' });
-            
-            // Calcular el offset exacto de semana para que el día de hoy sea visible en la tira
-            const firstDayOfMonth = new Date(todayYear, todayMonth, 1);
-            const firstDayOfWeek = (firstDayOfMonth.getDay() + 6) % 7; // Lunes = 0
-            this.currentWeekOffset = Math.floor((todayDay - 1 + firstDayOfWeek) / 7);
-            
-            this.isFullMonthActive = false;
-            this.render();
-        });
-
-        const nextBtn = DOM.create('button', {
-            className: 'btn-nav-arrow',
-            id: 'btnNext',
-            title: 'Semana o periodo siguiente',
-            text: '→'
-        });
-        nextBtn.addEventListener('click', () => {
-            this.currentWeekOffset++;
-            this.render();
-        });
-
-        btnGroupNav.append(prevBtn, todayBtn, nextBtn);
-
         const monthTitle = DOM.create('span', { 
-            className: 'month-title', 
+            className: 'month-title-display', 
             id: 'currentMonthYear',
             text: `${monthNames[month].toUpperCase()} ${year}` 
         });
 
-        calNavLeft.append(btnGroupNav, monthTitle);
-
-        // Switch de Modo de Vista (Derecha): [ SEMANA | TODO EL MES ]
-        const viewModeToggle = DOM.create('div', { className: 'view-mode-toggle' });
-        const isMonthView = this.selectedDateStr === null && this.currentWeekOffset === 0 && this.isFullMonthActive;
-
-        const weekViewBtn = DOM.create('button', {
-            className: `view-btn ${!this.isFullMonthActive ? 'active' : ''}`,
-            text: 'SEMANA'
-        });
-        weekViewBtn.addEventListener('click', () => {
-            this.isFullMonthActive = false;
-            this.render();
+        // Contar eventos del mes actual con filtros activos
+        const relevantEvents = this.getFilteredEvents();
+        const currentMonthEvents = relevantEvents.filter(e => {
+            if (!e.dtstart) return false;
+            const d = new Date(e.dtstart);
+            return d.getFullYear() === year && d.getMonth() === month;
         });
 
-        const fullMonthViewBtn = DOM.create('button', {
-            className: `view-btn ${this.isFullMonthActive ? 'active' : ''}`,
-            text: 'TODO EL MES'
-        });
-        fullMonthViewBtn.addEventListener('click', () => {
-            this.isFullMonthActive = true;
-            this.selectedDateStr = null;
-            this.render();
+        const totalCountSpan = DOM.create('span', {
+            className: 'month-events-count',
+            text: `${currentMonthEvents.length} eventos en total`
         });
 
-        viewModeToggle.append(weekViewBtn, fullMonthViewBtn);
-
-        weekHeaderRow.append(calNavLeft, viewModeToggle);
-        navPanel.appendChild(weekHeaderRow);
-
-        // Tira de días (7 días de la semana activa)
-        const stripContainer = DOM.create('div', { className: 'days-strip-container' });
-        const daysStrip = DOM.create('div', { className: 'days-strip', id: 'daysStrip' });
-
-        const weekDays = this.getWeekDaysForMonth(year, month, this.currentWeekOffset);
-        const eventDates = this.getEventDatesSet();
-
-        weekDays.forEach(day => {
-            const cell = DOM.create('div', { className: 'day-cell' });
-            cell.setAttribute('data-date', day.dateStr);
-
-            if (this.selectedDateStr === day.dateStr) {
-                cell.classList.add('active');
-            }
-
-            if (eventDates.has(day.dateStr)) {
-                cell.classList.add('has-events');
-            }
-
-            const dayName = DOM.create('span', { className: 'day-name', text: day.name });
-            const dayNum = DOM.create('span', { className: 'day-num', text: day.num });
-            const indicator = DOM.create('span', { className: 'event-indicator' });
-
-            cell.append(dayName, dayNum, indicator);
-
-            cell.addEventListener('click', () => {
-                if (this.selectedDateStr === day.dateStr) {
-                    this.selectedDateStr = null; // Toggle off
-                } else {
-                    this.selectedDateStr = day.dateStr;
-                }
-                this.render();
-            });
-
-            daysStrip.appendChild(cell);
-        });
-
-        stripContainer.appendChild(daysStrip);
-        navPanel.appendChild(stripContainer);
+        monthHeaderRow.append(monthTitle, totalCountSpan);
+        navPanel.appendChild(monthHeaderRow);
 
         this.container.appendChild(navPanel);
 
-        // ==== 2. LISTA DE EVENTOS FILTRADOS ====
-        this.renderEventList(year, month);
+        // ==== 2. LISTA DE EVENTOS DEL MES (FEED CRONOLÓGICO CONTINUO) ====
+        this.renderEventList(year, month, currentMonthEvents);
     }
 
-    getWeekDaysForMonth(year, month, weekOffset = 0) {
-        const firstDayOfMonth = new Date(year, month, 1);
-        const dayOfWeek = (firstDayOfMonth.getDay() + 6) % 7; // Lunes = 0
-        
-        // Empezar desde el lunes de la semana correspondiente
-        const startDay = new Date(year, month, 1 - dayOfWeek + (weekOffset * 7));
-        const days = [];
-        const dayNamesShort = ['LUN', 'MAR', 'MIÉ', 'JUE', 'VIE', 'SÁB', 'DOM'];
-
-        for (let i = 0; i < 7; i++) {
-            const d = new Date(startDay.getFullYear(), startDay.getMonth(), startDay.getDate() + i);
-            const dateStr = d.toLocaleDateString('en-CA', { timeZone: 'America/Mexico_City' });
-            days.push({
-                name: dayNamesShort[i],
-                num: d.getDate(),
-                dateStr: dateStr,
-                isCurrentMonth: d.getMonth() === month
-            });
-        }
-        return days;
-    }
-
-    renderEventList(year, month) {
+    renderEventList(year, month, visibleEvents = []) {
         const eventsContainer = DOM.create('div', { className: 'event-list', id: 'eventList' });
-        const relevantEvents = this.getFilteredEvents();
-
-        let visibleEvents = [];
-
-        if (this.selectedDateStr) {
-            // Filtrar exactamente el día seleccionado
-            visibleEvents = relevantEvents.filter(e => {
-                if (!e.dtstart) return false;
-                const d = new Date(e.dtstart);
-                const dStr = d.toLocaleDateString('en-CA', { timeZone: 'America/Mexico_City' });
-                return dStr === this.selectedDateStr;
-            });
-        } else if (!this.isFullMonthActive) {
-            // Modo SEMANA: Filtrar los eventos de los 7 días de la semana activa
-            const weekDays = this.getWeekDaysForMonth(year, month, this.currentWeekOffset);
-            const weekDatesSet = new Set(weekDays.map(w => w.dateStr));
-            visibleEvents = relevantEvents.filter(e => {
-                if (!e.dtstart) return false;
-                const d = new Date(e.dtstart);
-                const dStr = d.toLocaleDateString('en-CA', { timeZone: 'America/Mexico_City' });
-                return weekDatesSet.has(dStr);
-            });
-        } else {
-            // Modo TODO EL MES: Mostrar todos los eventos del mes visualizado
-            visibleEvents = relevantEvents.filter(e => {
-                if (!e.dtstart) return false;
-                const d = new Date(e.dtstart);
-                return d.getFullYear() === year && d.getMonth() === month;
-            });
-        }
 
         visibleEvents.sort((a, b) => new Date(a.dtstart) - new Date(b.dtstart));
 
@@ -736,11 +581,15 @@ export class Calendar {
                     this.changeYear(-1);
                     break;
 
+                case 'arrowright':
+                case 'l':
                 case ']':
                     e.preventDefault();
                     this.setMonthDate(this.currentDate.getFullYear(), (this.currentDate.getMonth() + 1) % 12);
                     break;
 
+                case 'arrowleft':
+                case 'h':
                 case '[':
                     e.preventDefault();
                     this.setMonthDate(this.currentDate.getFullYear(), (this.currentDate.getMonth() + 11) % 12);
@@ -749,19 +598,7 @@ export class Calendar {
                 case 't':
                     e.preventDefault();
                     const nowT = new Date();
-                    const todayYearT = nowT.getFullYear();
-                    const todayMonthT = nowT.getMonth();
-                    const todayDayT = nowT.getDate();
-
-                    this.currentDate = new Date(todayYearT, todayMonthT, 1);
-                    this.selectedDateStr = nowT.toLocaleDateString('en-CA', { timeZone: 'America/Mexico_City' });
-                    
-                    const firstDayOfMonthT = new Date(todayYearT, todayMonthT, 1);
-                    const firstDayOfWeekT = (firstDayOfMonthT.getDay() + 6) % 7;
-                    this.currentWeekOffset = Math.floor((todayDayT - 1 + firstDayOfWeekT) / 7);
-                    
-                    this.isFullMonthActive = false;
-                    this.render();
+                    this.setMonthDate(nowT.getFullYear(), nowT.getMonth());
                     break;
 
                 case 'd':
