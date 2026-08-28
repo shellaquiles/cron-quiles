@@ -7,6 +7,10 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ## [Unreleased]
 
+---
+
+## [1.9.1] - 2026-08-28
+
 ### Added
 - **Terminal CLI (DX/UX)**:
   - Consolidación del sistema de comandos con navegación mensual robusta (`eventos.next`, `eventos.last`, `eventos.reset`).
@@ -321,7 +325,9 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 - Documentación completa en README.md
 - Ejemplos de configuración
 
-[Unreleased]: https://github.com/shellaquiles/cron-quiles/compare/v1.8.0...HEAD
+[Unreleased]: https://github.com/shellaquiles/cron-quiles/compare/v1.9.1...HEAD
+[1.9.1]: https://github.com/shellaquiles/cron-quiles/compare/v1.9.0...v1.9.1
+[1.9.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.8.0...v1.9.0
 [1.8.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.7.0...v1.8.0
 [1.7.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.5.0...v1.6.0
