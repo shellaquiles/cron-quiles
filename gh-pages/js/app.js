@@ -62,6 +62,7 @@ class App {
         }
 
         this.header.updateLastModified();
+        this.header.updateVersion();
     }
 
     updateLandingLinks() {
@@ -221,6 +222,7 @@ class App {
         this.renderTabs();
         if (this.calendar) this.calendar.render();
         this.header.updateLastModified();
+        this.header.updateVersion();
     }
 
     async loadCityData(city) {

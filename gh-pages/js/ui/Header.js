@@ -280,4 +280,18 @@ export class Header {
             element.textContent = i18n.t('footer.notAvailable');
         }
     }
+
+    async updateVersion() {
+        const elements = document.querySelectorAll('[data-version]');
+        if (!elements.length) return;
+
+        try {
+            const res = await fetch('/cron-quiles/VERSION');
+            if (!res.ok) throw new Error('VERSION not found');
+            const version = (await res.text()).trim();
+            elements.forEach(el => { el.textContent = `v${version}`; });
+        } catch {
+            // fallback: mantener el valor estático del HTML
+        }
+    }
 }
