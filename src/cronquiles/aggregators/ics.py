@@ -1,4 +1,5 @@
 import logging
+import time
 import requests
 from typing import List, Optional, Dict
 from icalendar import Calendar
@@ -27,6 +28,16 @@ class GenericICSAggregator(BaseAggregator):
             try:
                 logger.info(f"Fetching feed: {url} (attempt {attempt + 1})")
                 response = self.session.get(url, timeout=self.timeout)
+                if response.status_code == 429:
+                    retry_after = int(
+                        response.headers.get("Retry-After", 2 * (attempt + 1))
+                    )
+                    logger.warning(
+                        f"Rate limit (429) on {url}. Waiting {retry_after}s before retry..."
+                    )
+                    time.sleep(retry_after)
+                    continue
+
                 response.raise_for_status()
                 response.encoding = response.apparent_encoding or "utf-8"
 
@@ -35,7 +46,9 @@ class GenericICSAggregator(BaseAggregator):
                 return calendar
             except Exception as e:
                 logger.warning(f"Error fetching {url} (attempt {attempt + 1}): {e}")
-                if attempt == self.max_retries - 1:
+                if attempt < self.max_retries - 1:
+                    time.sleep(1.5 * (attempt + 1))
+                else:
                     logger.error(
                         f"Failed to fetch feed after {self.max_retries} attempts: {url}"
                     )

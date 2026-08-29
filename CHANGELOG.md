@@ -7,6 +7,19 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/), v
 
 ---
 
+## [2.0.1] - 2026-08-29
+
+### Added
+- **OCGroupsAggregator (`ocgroups.py`)**: soporte e integración automática de eventos para [Open Community Groups](https://ocgroups.dev) (CNCF / Open Source communities).
+- **Nuevo Feed**: integración de la comunidad **Cloud Native Mexico City** (CNCF CDMX) desde `https://ocgroups.dev/cncf/group/e5vgp72` (#56).
+- Documentación técnica para agregadores de `ocgroups.dev` en `docs/OCGROUPS.md`.
+
+### Fixed
+- **Rate-limit y resiliencia en feeds**: reintento con backoff exponencial progresivo ante respuestas HTTP 429 (`Retry-After`) en agregadores ICS y resolución de URLs de Luma.
+- **Caché en cliente frontend**: adición de timestamps cache-buster en `DataService.js` para asegurar datos siempre actualizados en recargas de navegador.
+
+---
+
 ## [2.0.0] - 2026-08-28
 
 ### Added
@@ -175,7 +188,8 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/), v
 
 ---
 
-[Unreleased]: https://github.com/shellaquiles/cron-quiles/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/shellaquiles/cron-quiles/compare/v2.0.1...HEAD
+[2.0.1]: https://github.com/shellaquiles/cron-quiles/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.9.0...v2.0.0
 [1.9.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.8.0...v1.9.0
 [1.8.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.7.0...v1.8.0

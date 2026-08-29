@@ -30,6 +30,7 @@ from .aggregators.ics import GenericICSAggregator
 from .aggregators.manual import ManualAggregator
 from .aggregators.hievents import HiEventsAggregator
 from .aggregators.gdgcommunitydev import GdgCommunityDev
+from .aggregators.ocgroups import OCGroupsAggregator
 from .schemas import JSONOutputSchema, CommunitySchema, CommunityLinkSchema
 
 
@@ -102,6 +103,10 @@ def extract_community_url(feed_url: str) -> str:
     if "eventbrite." in host:
         return feed_url
 
+    # Open Community Groups (ocgroups.dev)
+    if "ocgroups.dev" in host:
+        return feed_url
+
     # Otros (ICS genérico, etc.): mantener como está
     return feed_url
 
@@ -114,7 +119,7 @@ def detect_platform_from_url(url: str) -> str:
         url: URL de la comunidad
 
     Returns:
-        Identificador de plataforma: "meetup", "luma", "eventbrite", o "website"
+        Identificador de plataforma: "meetup", "luma", "eventbrite", "ocgroups", o "website"
     """
     if not url:
         return "website"
@@ -125,6 +130,8 @@ def detect_platform_from_url(url: str) -> str:
         return "luma"
     if "eventbrite.com" in url_lower or "eventbrite.com.mx" in url_lower:
         return "eventbrite"
+    if "ocgroups.dev" in url_lower:
+        return "ocgroups"
     return "website"
 
 
@@ -142,13 +149,17 @@ def get_platform_label_for_community(platform: str) -> str:
         "meetup": "Meetup",
         "luma": "Luma",
         "eventbrite": "Eventbrite",
+        "ocgroups": "Open Community Groups",
         "website": "Sitio web",
     }
     return labels.get(platform, "Sitio web")
 
 
 def _aggregator_key_for_url(url: str) -> str:
-    """Devuelve la clave del agregador para una URL de feed (eventbrite, luma, meetup, hievents, ics)."""
+    """
+    Devuelve la clave del agregador para una URL de feed
+    (eventbrite, luma, meetup, hievents, gdgcommunitydev, ocgroups, ics).
+    """
     if not url:
         return "ics"
     if (
@@ -168,6 +179,8 @@ def _aggregator_key_for_url(url: str) -> str:
         return "hievents"
     if "gdg.community.dev" in url:
         return "gdgcommunitydev"
+    if "ocgroups.dev" in url:
+        return "ocgroups"
     return "ics"
 
 
@@ -198,6 +211,8 @@ def _extract_one_feed(
         agg = HiEventsAggregator(session)
     elif agg_key == "gdgcommunitydev":
         agg = GdgCommunityDev(session)
+    elif agg_key == "ocgroups":
+        agg = OCGroupsAggregator(session, timeout, max_retries)
     else:
         agg = GenericICSAggregator(session, timeout, max_retries)
     try:
@@ -250,6 +265,8 @@ class ICSAggregator:
             "ics": GenericICSAggregator(self.session, timeout, max_retries),
             "manual": ManualAggregator(self.session),
             "hievents": HiEventsAggregator(self.session),
+            "gdgcommunitydev": GdgCommunityDev(self.session),
+            "ocgroups": OCGroupsAggregator(self.session, timeout, max_retries),
         }
 
     def load_geocoding_cache(self):

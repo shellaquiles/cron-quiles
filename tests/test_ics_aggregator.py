@@ -173,12 +173,19 @@ class TestCommunityURLExtraction(unittest.TestCase):
         self.assertEqual(
             detect_platform_from_url("https://other-site.com/events"), "website"
         )
+        self.assertEqual(
+            detect_platform_from_url("https://ocgroups.dev/cncf/group/e5vgp72"),
+            "ocgroups",
+        )
 
     def test_get_platform_label(self):
         """Test de etiquetas de plataforma para comunidades."""
         self.assertEqual(get_platform_label_for_community("meetup"), "Meetup")
         self.assertEqual(get_platform_label_for_community("luma"), "Luma")
         self.assertEqual(get_platform_label_for_community("eventbrite"), "Eventbrite")
+        self.assertEqual(
+            get_platform_label_for_community("ocgroups"), "Open Community Groups"
+        )
         self.assertEqual(get_platform_label_for_community("website"), "Sitio web")
 
 
