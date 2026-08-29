@@ -124,37 +124,47 @@ class LumaAggregator(GenericICSAggregator):
                 return cached_api_url
 
             # 2. Cache miss: obtener del HTML
-            try:
-                logger.info(f"Convirtiendo URL de Luma a ICS: {url}")
-                response = self.session.get(url, timeout=self.timeout)
-                if response.status_code == 200:
-                    html = response.text
-                    # Buscar calendar ID en el HTML
-                    # Patrón 1: app-argument=luma://calendar/cal-XXXXX
-                    match = re.search(
-                        r"app-argument=luma://calendar/(cal-[a-zA-Z0-9]+)", html
-                    )
-                    if not match:
-                        # Patrón 2: cal-XXXXX en el HTML (puede estar en varios lugares)
-                        # Buscar todos los calendar IDs y tomar el primero que sea válido
-                        all_cal_ids = re.findall(r"\b(cal-[a-zA-Z0-9]{15,})\b", html)
-                        if all_cal_ids:
-                            # Usar el primer calendar ID encontrado
-                            match = type(
-                                "Match", (), {"group": lambda self, n: all_cal_ids[0]}
-                            )()
-                    if match:
-                        calendar_id = match.group(1)
-                        ics_url = f"https://api2.luma.com/ics/get?entity=calendar&id={calendar_id}"
-                        logger.info(f"Convertido a ICS URL: {ics_url}")
+            for attempt in range(self.max_retries):
+                try:
+                    logger.info(f"Convirtiendo URL de Luma a ICS: {url} (intento {attempt + 1})")
+                    response = self.session.get(url, timeout=self.timeout)
+                    if response.status_code == 429:
+                        retry_after = int(response.headers.get("Retry-After", 2 * (attempt + 1)))
+                        logger.warning(
+                            f"Rate limit (429) al convertir Luma {url}. Esperando {retry_after}s..."
+                        )
+                        time.sleep(retry_after)
+                        continue
 
-                        # 3. Guardar en cache para próxima vez
-                        conversion_cache[url] = ics_url
-                        logger.debug(f"Guardado en cache: {url} -> {ics_url}")
+                    if response.status_code == 200:
+                        html = response.text
+                        # Buscar calendar ID en el HTML
+                        # Patrón 1: app-argument=luma://calendar/cal-XXXXX
+                        match = re.search(
+                            r"app-argument=luma://calendar/(cal-[a-zA-Z0-9]+)", html
+                        )
+                        if not match:
+                            # Patrón 2: cal-XXXXX en el HTML (puede estar en varios lugares)
+                            all_cal_ids = re.findall(r"\b(cal-[a-zA-Z0-9]{15,})\b", html)
+                            if all_cal_ids:
+                                match = type(
+                                    "Match", (), {"group": lambda self, n: all_cal_ids[0]}
+                                )()
+                        if match:
+                            calendar_id = match.group(1)
+                            ics_url = f"https://api2.luma.com/ics/get?entity=calendar&id={calendar_id}"
+                            logger.info(f"Convertido a ICS URL: {ics_url}")
 
-                        return ics_url
-            except Exception as e:
-                logger.warning(f"Error convirtiendo URL de Luma {url}: {e}")
+                            # 3. Guardar en cache para próxima vez
+                            conversion_cache[url] = ics_url
+                            logger.debug(f"Guardado en cache: {url} -> {ics_url}")
+
+                            return ics_url
+                        break
+                except Exception as e:
+                    logger.warning(f"Error convirtiendo URL de Luma {url}: {e}")
+                    if attempt < self.max_retries - 1:
+                        time.sleep(1.5 * (attempt + 1))
 
         return url
 
