@@ -45,14 +45,16 @@ export class Terminal {
             );
         };
 
-        const about = () => {
+        const about = async () => {
+            const city = (appStore.get('city') || 'mexico').toLowerCase();
+            const version = await DataService.getVersion(city) || '2.0.1';
             setTimeout(() => {
                 console.log(logo, 'color: #00ff00;');
-                console.log(`%c🐢 Cron-Quiles v1.1.0 | El Eslabón Perdido de los Meetups en México`, 'color: #00ff00; font-weight: bold; font-size: 1.2em;');
-                console.log(`%cCentralizando la sabiduría colectiva de la comunidad tech.`, 'color: #00ff00; font-style: italic;');
-                console.log(`%cFuentes actuales: %cMeetup.com, Luma.com, Eventbrite, Google Calendar, iCal Feeds.`, 'color: #aaa;', 'color: #00ff00;');
+                console.log(`%c🐢 Cron-Quiles v${version} | Calendario Unificado de Eventos Tech en México`, 'color: #00ff00; font-weight: bold; font-size: 1.2em;');
+                console.log(`%cEl calendario unificado del ecosistema tecnológico en México.`, 'color: #00ff00; font-style: italic;');
+                console.log(`%cFuentes actuales: %cMeetup, Luma, Eventbrite, Google Developer Groups (GDG), Open Community Groups (OCGroups), HiEvents, iCal Feeds.`, 'color: #aaa;', 'color: #00ff00;');
             }, 0);
-            return "Propiedad de Shellaquiles.org - Colaboración o Muerte.";
+            return "Un proyecto de shellaquiles.org por pixelead0.";
         };
 
         // Terminal state for console navigation
@@ -113,11 +115,83 @@ export class Terminal {
             return `Vista: ${monthName}`;
         };
 
+        const searchEvents = async (query, includeAll = false) => {
+            if (!query || typeof query !== 'string' || !query.trim()) {
+                console.log("%c[ERROR] Especifica un término de búsqueda. Ej: %ceventos.buscar('python')%c o %ceventos('python')", "color: #ff0000;", "color: #00ff00;", "color: #ff0000;");
+                return "Búsqueda vacía.";
+            }
+
+            const cleanQuery = query.trim().toLowerCase();
+            const citySlug = (appStore.get('city') || 'mexico').toLowerCase();
+            const now = new Date();
+
+            const scope = includeAll ? 'todos los eventos' : 'próximos eventos';
+            console.log(`%c[SYSTEM] Buscando "${query}" en ${citySlug.toUpperCase()} (${scope})...`, 'color: #00ff00; font-family: monospace;');
+
+            try {
+                const data = await DataService.getCityData(citySlug);
+                const events = Array.isArray(data) ? data : (data.events || []);
+
+                const matchedEvents = events.filter(e => {
+                    // Por defecto solo proximos; .all incluye pasados también
+                    if (!includeAll && new Date(e.dtstart) < now) return false;
+
+                    const title = (e.title || '').toLowerCase();
+                    const organizer = (e.organizer || '').toLowerCase();
+                    const description = (e.description || '').toLowerCase();
+                    const location = (e.location || '').toLowerCase();
+                    return title.includes(cleanQuery) || organizer.includes(cleanQuery) || description.includes(cleanQuery) || location.includes(cleanQuery);
+                }).sort((a, b) => new Date(a.dtstart) - new Date(b.dtstart));
+
+                if (matchedEvents.length === 0) {
+                    const hint = includeAll
+                        ? `No se encontraron eventos para "${query}".`
+                        : `No se encontraron próximos eventos para "${query}". Prueba con %ceventos.buscar("${query}").all%c para ver el historial completo.`;
+                    console.log(`%c[EMPTY] ${hint}`, "color: #aaa;", "color: #00ff00;", "color: #aaa;");
+                } else {
+                    const formattedEvents = matchedEvents.map(e => {
+                        const dateObj = new Date(e.dtstart);
+                        let comunidad = e.organizer || 'Comunidad Desconocida';
+                        let titulo = e.title || 'Sin título';
+                        if (titulo.includes('|')) {
+                            const parts = titulo.split('|').map(p => p.trim());
+                            comunidad = parts[0];
+                            titulo = parts[1];
+                        }
+
+                        return {
+                            fecha: dateObj.toLocaleDateString('es-MX', { day: '2-digit', month: '2-digit', year: 'numeric' }),
+                            hora: dateObj.toLocaleTimeString('es-MX', { hour: '2-digit', minute: '2-digit' }),
+                            comunidad: comunidad,
+                            titulo: titulo,
+                            formato: e.online ? 'En Línea' : 'Presencial',
+                            ubicacion: e.location || (e.online ? 'En Línea' : 'Por confirmar'),
+                            registro: e.url || 'N/A'
+                        };
+                    });
+
+                    const label = includeAll ? `todos los eventos` : `próximos eventos`;
+                    console.log(`%c[DATA] ${matchedEvents.length} ${label} para "${query}":`, 'color: #00ff00;');
+                    console.table(formattedEvents);
+                    if (!includeAll) {
+                        console.log(`%cTip: Usa %ceventos.buscar("${query}").all%c para ver el historial completo.`, "color: #555;", "color: #00ff00;", "color: #555;");
+                    }
+                }
+            } catch (err) {
+                console.log(`%c[ERROR] Fallo en la matriz de datos (${err.message}).`, "color: #ff0000;");
+            }
+            return `Resultados (${scope}) para: "${query}"`;
+        };
+
+        // .all → devuelve un getter que ejecuta searchEvents con includeAll=true
+        searchEvents.all = null; // placeholder; se sobreescribe por query abajo
+
         const eventos = (target) => {
             if (target && typeof target === 'string') {
-                // Try to parse YYYY-MM
-                const parts = target.split('-');
-                if (parts.length >= 2) {
+                const trimmed = target.trim();
+                // Check if target is YYYY-MM
+                if (/^\d{4}-\d{2}$/.test(trimmed)) {
+                    const parts = trimmed.split('-');
                     const targetYear = parseInt(parts[0]);
                     const targetMonth = parseInt(parts[1]) - 1; // 0-indexed
                     const now = new Date();
@@ -127,6 +201,8 @@ export class Terminal {
                     this.consoleMonthOffset = (targetYear - currentYear) * 12 + (targetMonth - currentMonth);
                     return listEvents(this.consoleMonthOffset);
                 }
+                // Si es cualquier otro texto, ejecutar búsqueda por comunidad/término
+                return searchEvents(trimmed);
             }
             
             this.consoleMonthOffset = 0;
@@ -169,6 +245,27 @@ export class Terminal {
 
         eventos.last = eventos.prev; // Alias requested by user
 
+        /**
+         * makeSearch(query) → devuelve una Promise con getter .all
+         * Uso:
+         *   eventos.buscar("python")       → próximos eventos
+         *   eventos.buscar("python").all   → todos (historial incluido)
+         */
+        const makeSearch = (query) => {
+            // Ejecutar búsqueda próximos por defecto
+            const promise = searchEvents(query, false);
+
+            // Agregar getter .all a la promise para acceso tipo eventos.buscar("python").all
+            Object.defineProperty(promise, 'all', {
+                get: () => searchEvents(query, true),
+                configurable: true
+            });
+
+            return promise;
+        };
+
+        eventos.buscar = makeSearch;
+        eventos.comunidad = makeSearch;
         eventos.region = region;
         eventos.regiones = regiones;
 
@@ -203,25 +300,30 @@ export class Terminal {
         const help = () => {
             setTimeout(() => {
                 console.log(`
-%c┌──────────────────────────────────────────────────────────┐
-│            COMANDOS DE CONSOLA CRON-QUILES               │
-├──────────────────────────────────────────────────────────┤
-│  %cabout()%c      - El origen de la verdad                   │
-│  %ceventos()%c    - Actividades del mes actual               │
-│  %ceventos("YYYY-MM")%c - Ir a un mes específico             │
-│  %ceventos.next()%c- Ver el mes siguiente                    │
-│  %ceventos.last()%c- Ver el mes anterior                     │
-│  %ceventos.region("slug")%c - Cambiar región (ej: "mexico") │
-│  %ceventos.regiones()%c     - Listar regiones disponibles   │
-│  %ccomunidades()%c- Los gremios tecnológicos                 │
-│  %csuscribir()%c  - Únete al flujo de datos                  │
-│  %cshellaquiles()%c - El logo sagrado                   │
-│  %cclear()%c       - Purga la pantalla                        │
-│  %chelp()%c        - Esta guía de supervivencia               │
-└──────────────────────────────────────────────────────────┘
+%c┌─────────────────────────────────────────────────────────────────┐
+│                 COMANDOS DE CONSOLA CRON-QUILES                 │
+├─────────────────────────────────────────────────────────────────┤
+│  %cabout%c                          - Acerca del proyecto y versión │
+│  %ceventos%c                        - Actividades del mes actual    │
+│  %ceventos("YYYY-MM")%c             - Ir a un mes específico        │
+│  %ceventos("comunidad")%c           - Buscar por comunidad/tema     │
+│  %ceventos.buscar("query")%c        - Búsqueda directa de eventos   │
+│  %ceventos.next%c / %ceventos.last%c    - Mes siguiente / anterior      │
+│  %ceventos.region("slug")%c         - Cambiar región (ej: "mexico") │
+│  %ceventos.regiones()%c             - Listar regiones disponibles   │
+│  %ccomunidades%c                    - Directorio de comunidades     │
+│  %csuscribir%c                      - Enlaces de suscripción iCal   │
+│  %cclear%c                          - Limpiar la consola            │
+│  %chelp%c                           - Mostrar esta guía de comandos │
+└─────────────────────────────────────────────────────────────────┘
                 `, 
                 'color: #00ff00; font-weight: bold;',
                 'color: #00ff00;', 'color: inherit;',
+                'color: #00ff00;', 'color: inherit;',
+                'color: #00ff00;', 'color: inherit;',
+                'color: #00ff00;', 'color: inherit;',
+                'color: #00ff00;', 'color: inherit;',
+                'color: #00ff00;', 'color: inherit;', 'color: #00ff00;', 'color: inherit;',
                 'color: #00ff00;', 'color: inherit;',
                 'color: #00ff00;', 'color: inherit;',
                 'color: #00ff00;', 'color: inherit;',
@@ -230,20 +332,20 @@ export class Terminal {
                 'color: #00ff00;', 'color: inherit;'
                 );
             }, 0);
-            return "Cron-Quiles Console Interface Active.";
+            return "Consola interactiva de Cron-Quiles lista.";
         };
 
         const suscribir = () => {
-            console.log(`%c📅 Suscríbete al Calendario`, 'color: #00ff00; font-weight: bold;');
-            console.log(`%cNo te pierdas ningún evento. Añade el feed ICS a tu Google Calendar, Apple o Outlook.`, 'color: #fff;');
+            console.log(`%c📅 Suscripción al Calendario`, 'color: #00ff00; font-weight: bold;');
+            console.log(`%cSincroniza los eventos en tiempo real con Google Calendar, Apple Calendar u Outlook.`, 'color: #fff;');
             console.log(`%cURL: https://shellaquiles.github.io/cron-quiles/suscribir.html`, 'color: #00ff00; text-decoration: underline;');
-            return "Información de suscripción desplegada.";
+            return "Enlaces de suscripción disponibles en la web.";
         };
 
         const clear = () => {
             console.clear();
-            console.log("%c¡Consola de Cron-Quiles purgada! 🐢", "color: #00ff00; font-weight: bold; font-size: 1.2em;");
-            return "Listo para nuevas órdenes.";
+            console.log("%cConsola de Cron-Quiles limpia. 🐢", "color: #00ff00; font-weight: bold; font-size: 1.1em;");
+            return "";
         };
 
         // Assign to window object with getters for easy access (typing 'help' instead of 'help()')

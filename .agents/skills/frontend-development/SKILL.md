@@ -17,13 +17,16 @@ El proyecto cuenta con una interfaz de comandos directamente en la consola del n
 
 ### Comandos Disponibles
 - `about` / `cronquiles`: Muestra información general y el logo ASCII del proyecto.
-- `eventos(dateStr)`: Lista los eventos del mes.
-    - Sin argumentos: Muestra el mes actual.
+- `eventos(arg)`:
+    - Sin argumentos: Muestra los eventos del mes actual.
     - Argumento `"YYYY-MM"`: Salta a una fecha específica (ej. `eventos("2026-04")`).
+    - Argumento `"nombre / tema"`: Busca eventos por comunidad, tecnología o título (ej. `eventos("python")`, `eventos("rust")`, `eventos.buscar("ai")`).
 - `eventos.next`: Avanza al mes siguiente.
 - `eventos.last` / `eventos.prev`: Retrocede al mes anterior.
 - `eventos.reset`: Vuelve al mes actual.
-- `comunidades`: Lista los gremios técnicos de la ciudad activa.
+- `eventos.region(slug)`: Cambia la ciudad o estado activo.
+- `eventos.regiones`: Lista todas las regiones disponibles con su conteo.
+- `comunidades`: Lista las comunidades técnicas de la región activa.
 - `suscribir`: Muestra enlaces y ayuda para sincronizar calendarios ICS.
 - `clear`: Limpia la pantalla de la consola.
 - `help`: Muestra la guía de comandos.
