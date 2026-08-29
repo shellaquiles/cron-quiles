@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-08-28T17:54:53.347552+00:00",
-  "total_events": 36,
+  "generated_at": "2026-08-29T01:19:55.062388+00:00",
+  "total_events": 37,
   "city": "México",
   "communities": [
     {
@@ -17,11 +17,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -650,7 +650,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -941,7 +941,7 @@
     },
     {
       "title": "Claude Community|Guadalajara  -  Claude Code Workshop|México|México",
-      "description": "Get up-to-date information at: https://luma.com/claude-c78n\n\nAddress:\nWizeline\nZapopan, Mexico\n\nHosted by Miguel Oceguera & 5 others",
+      "description": "Get up-to-date information at: https://luma.com/claude-c78n\n\nAddress:\nWizeline\nZapopan, Mexico\n\nHosted by Miguel Oceguera & 7 others",
       "url": "https://luma.com/claude-c78n",
       "sources": [
         {
@@ -1019,6 +1019,33 @@
       "city_code": "",
       "address": "Carlos Graef Fernández, Cto. Bicipuma 3000, C.U., Coyoacán, 04510 Ciudad de México, CDMX, Mexico",
       "hash_key": "mexico city claude for healthcare unam_2026-09-18T20:00:00+00:00"
+    },
+    {
+      "title": "Claude Community|Mexico City  -  Claude for Research Meetup|México|México",
+      "description": "Get up-to-date information at: https://luma.com/claude-investigadores\n\nAddress:\nAnáhuac University\nSalón MBA 3\nLomas Anáhuac, Mexico\n\nHosted by Dr. Vinicius Covas",
+      "url": "https://luma.com/claude-investigadores",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claude-investigadores",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Anáhuac University, Av. Universidad Anáhuac 46, Lomas Anahuac, 52786 Lomas Anáhuac, Méx., Mexico",
+      "online": false,
+      "organizer": "Claude Community",
+      "dtstart": "2026-09-25T16:00:00+00:00",
+      "dtend": "2026-09-25T18:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Anáhuac University, Av. Universidad Anáhuac 46, Lomas Anahuac, 52786 Lomas Anáhuac, Méx., Mexico",
+      "hash_key": "mexico city claude for research meetup_2026-09-25T16:00:00+00:00"
     },
     {
       "title": "Claude Community|Mexico City  -  Claude for AI Engineering|México|México",
