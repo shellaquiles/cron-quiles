@@ -156,7 +156,10 @@ def get_platform_label_for_community(platform: str) -> str:
 
 
 def _aggregator_key_for_url(url: str) -> str:
-    """Devuelve la clave del agregador para una URL de feed (eventbrite, luma, meetup, hievents, gdgcommunitydev, ocgroups, ics)."""
+    """
+    Devuelve la clave del agregador para una URL de feed
+    (eventbrite, luma, meetup, hievents, gdgcommunitydev, ocgroups, ics).
+    """
     if not url:
         return "ics"
     if (

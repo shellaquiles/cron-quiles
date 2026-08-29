@@ -138,14 +138,12 @@ class OCGroupsAggregator(BaseAggregator):
             [t.strip() for t in date_panel.stripped_strings] if date_panel else []
         )
 
-        date_str = None
-        time_range_str = None
+        month_pattern = (
+            r"(?:January|February|March|April|May|June|July|August|September|October|November|December)"
+            r"\s+\d{1,2},\s+\d{4}"
+        )
         for t in panel_texts:
-            if re.search(
-                r"(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}",
-                t,
-                re.I,
-            ):
+            if re.search(month_pattern, t, re.I):
                 date_str = t
             elif re.search(
                 r"\d{1,2}:\d{2}\s*(?:AM|PM)\s*-\s*\d{1,2}:\d{2}\s*(?:AM|PM)", t, re.I

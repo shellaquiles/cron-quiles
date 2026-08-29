@@ -2,7 +2,6 @@ import unittest
 from unittest.mock import MagicMock
 from cronquiles.aggregators.ocgroups import OCGroupsAggregator
 
-
 SAMPLE_GROUP_HTML = """
 <!DOCTYPE html>
 <html>

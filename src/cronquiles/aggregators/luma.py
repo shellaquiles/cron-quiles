@@ -126,10 +126,14 @@ class LumaAggregator(GenericICSAggregator):
             # 2. Cache miss: obtener del HTML
             for attempt in range(self.max_retries):
                 try:
-                    logger.info(f"Convirtiendo URL de Luma a ICS: {url} (intento {attempt + 1})")
+                    logger.info(
+                        f"Convirtiendo URL de Luma a ICS: {url} (intento {attempt + 1})"
+                    )
                     response = self.session.get(url, timeout=self.timeout)
                     if response.status_code == 429:
-                        retry_after = int(response.headers.get("Retry-After", 2 * (attempt + 1)))
+                        retry_after = int(
+                            response.headers.get("Retry-After", 2 * (attempt + 1))
+                        )
                         logger.warning(
                             f"Rate limit (429) al convertir Luma {url}. Esperando {retry_after}s..."
                         )
@@ -145,10 +149,14 @@ class LumaAggregator(GenericICSAggregator):
                         )
                         if not match:
                             # Patrón 2: cal-XXXXX en el HTML (puede estar en varios lugares)
-                            all_cal_ids = re.findall(r"\b(cal-[a-zA-Z0-9]{15,})\b", html)
+                            all_cal_ids = re.findall(
+                                r"\b(cal-[a-zA-Z0-9]{15,})\b", html
+                            )
                             if all_cal_ids:
                                 match = type(
-                                    "Match", (), {"group": lambda self, n: all_cal_ids[0]}
+                                    "Match",
+                                    (),
+                                    {"group": lambda self, n: all_cal_ids[0]},
                                 )()
                         if match:
                             calendar_id = match.group(1)
