@@ -65,6 +65,7 @@ Cron-Quiles implementa agregadores modulares independientes en `src/cronquiles/a
 | **Meetup** | [`meetup.py`](src/cronquiles/aggregators/meetup.py) | `__NEXT_DATA__` Runtime & Feeds ICS | Deserialización de objetos `Venue` (dirección, lat/lon), organizadores y conversión a UTC. |
 | **Eventbrite** | [`eventbrite.py`](src/cronquiles/aggregators/eventbrite.py) | OpenGraph & Schema.org Scraping | Soporte para eventos únicos y perfiles completos de organizadores. |
 | **GDG Community** | [`gdgcommunitydev.py`](src/cronquiles/aggregators/gdgcommunitydev.py) | Bevy Platform REST API | Extracción estructurada de Google Developer Groups (GDG) y Google Cloud Chapters. |
+| **Open Community Groups** | [`ocgroups.py`](src/cronquiles/aggregators/ocgroups.py) | DOM Scraping & Schema.org | Extracción de comunidades de CNCF y ecosistema Open Source (`ocgroups.dev`). |
 | **Hi.Events** | [`hievents.py`](src/cronquiles/aggregators/hievents.py) | Direct REST Endpoints | Integración con plataformas de boletaje open source autohospedadas (ej. Pythonistas GDL). |
 | **Feeds Genéricos** | [`ics.py`](src/cronquiles/aggregators/ics.py) | RFC 5545 Deserializer | Conversión horaria estricta (`zoneinfo`), eventos recurrentes y compatibilidad `webcal://`. |
 | **Eventos Manuales** | [`manual.py`](src/cronquiles/aggregators/manual.py) | Local JSON Ingestion | Inyección de convocatorias comunitarias sin infraestructura de feed público. |
@@ -170,6 +171,7 @@ cron-quiles/
 │   │   ├── meetup.py               # Extractor Meetup (__NEXT_DATA__)
 │   │   ├── eventbrite.py           # Extractor Eventbrite
 │   │   ├── gdgcommunitydev.py      # Extractor GDG / Bevy
+│   │   ├── ocgroups.py             # Extractor Open Community Groups (CNCF)
 │   │   ├── hievents.py             # Extractor Hi.Events REST API
 │   │   ├── ics.py                  # Extractor Genérico RFC 5545
 │   │   └── manual.py               # Ingestión de eventos manuales
@@ -222,9 +224,10 @@ make serve
 | Comando | Acción |
 | :--- | :--- |
 | `make run-all` | Ejecuta el pipeline completo de ingestión, geocodificación y exportación. |
+| `make run-fast` | Ejecuta el pipeline en modo rápido (omite geocoding redundante en local). |
 | `make serve` | Inicia el servidor estático local en el puerto `8042`. |
 | `make test` | Ejecuta la suite de pruebas automatizadas con `pytest`. |
-| `make format` | Formatea el código con `black` y `isort`. |
+| `make format` | Formatea el código con `black`. |
 | `make lint` | Ejecuta análisis estático con `flake8`. |
 | `make clean` | Elimina archivos temporales, cachés de Python y artefactos de build. |
 
@@ -236,6 +239,7 @@ make serve
 > Para detalles arquitectónicos específicos y guías internas de mantenimiento:
 > - **Catálogo de Comunidades:** [`docs/COMMUNITIES.md`](docs/COMMUNITIES.md)
 > - **Especificación de Eventos Manuales:** [`docs/MANUAL_EVENTS.md`](docs/MANUAL_EVENTS.md)
+> - **Integración de Open Community Groups:** [`docs/OCGROUPS.md`](docs/OCGROUPS.md)
 > - **Arquitectura del Pipeline:** [`.agents/instructions/08-pipeline-architecture.md`](.agents/instructions/08-pipeline-architecture.md)
 > - **Estructura de Módulos:** [`.agents/instructions/09-project-structure.md`](.agents/instructions/09-project-structure.md)
 
