@@ -7,6 +7,27 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/), v
 
 ---
 
+## [2.0.2] - 2026-08-29
+
+### Changed
+- **Consola interactiva (`Terminal.js`)**: homologación completa de textos con la v2.0.x del frontend.
+  - `about()` ahora muestra la versión dinámica desde el dataset (`DataService.getVersion()`) con fallback a `2.0.x`.
+  - Catálogo de fuentes/agregadores actualizado: Meetup, Luma, Eventbrite, GDG, OCGroups, HiEvents, iCal Feeds.
+  - Lema y créditos alineados con el sitio: *"El calendario unificado del ecosistema tecnológico en México."*
+  - Tabla de `help` rediseñada: sin comandos obsoletos (`shellaquiles()`, `clear()` como *"Purga"*), descripciones claras y alineación visual mejorada.
+  - `suscribir()` y `clear()` con mensajes homologados al tono del proyecto.
+- **Fallback de versión estático** en todos los HTMLs (`index.html`, `eventos.html`, `comunidades.html`, `suscribir.html`): actualizado de `v1.9.1` → `v2.0.1`.
+
+### Added
+- **Búsqueda de eventos por comunidad / tema** en la consola:
+  - `eventos("python")` y `eventos.buscar("python")` → próximos eventos que coincidan con el término (título, comunidad, descripción o ubicación).
+  - `eventos.buscar("python").all` → búsqueda en el historial completo (sin filtro de fecha).
+  - Si no hay resultados próximos, el mensaje sugiere automáticamente `.all`.
+  - `eventos.comunidad("slug")` como alias semántico de `eventos.buscar()`.
+- **SKILL.md de Frontend** actualizado con documentación de todos los comandos disponibles.
+
+---
+
 ## [2.0.1] - 2026-08-29
 
 ### Added
@@ -188,7 +209,8 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/), v
 
 ---
 
-[Unreleased]: https://github.com/shellaquiles/cron-quiles/compare/v2.0.1...HEAD
+[Unreleased]: https://github.com/shellaquiles/cron-quiles/compare/v2.0.2...HEAD
+[2.0.2]: https://github.com/shellaquiles/cron-quiles/compare/v2.0.1...v2.0.2
 [2.0.1]: https://github.com/shellaquiles/cron-quiles/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.9.0...v2.0.0
 [1.9.0]: https://github.com/shellaquiles/cron-quiles/compare/v1.8.0...v1.9.0
