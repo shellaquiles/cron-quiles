@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Shellaquiles//CronQuiles v2.0.0//ES
+PRODID:-//Shellaquiles//CronQuiles v2.0.1//ES
 CALSCALE:GREGORIAN
 X-WR-CALDESC:Calendario unificado de eventos tech en México\, México
 X-WR-CALNAME:Eventos Tech México - cronquiles
@@ -65,6 +65,21 @@ LOCATION:Polytechnic University of Tlaxcala\, A. Universidad Politecnica\,
 X-CRONQUILES-ADDRESS:Polytechnic University of Tlaxcala\, A. Universidad P
  olitecnica\, No.1\, San Pedro Xalcaltzinco\, 90180 San Pedro Xalcaltzinco\
  , Tlax.\, Mexico
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:México
+X-CRONQUILES-STATE-CODE:MX-MEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Senior Dev|Launch|México|México
+DTSTART:20251128T013000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/1qdza8l1\n\nAd
+ dress:\nEl Hijo del Cuervo\nCiudad de México\, Ciudad de México\nMexico\
+ n\nHosted by Alberto Alcocer
+LOCATION:El Hijo del Cuervo\, Parque Centenario 17\, Coyoacán\, 04000 Ciu
+ dad de México\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:El Hijo del Cuervo\, Parque Centenario 17\, Coyoacán
+ \, 04000 Ciudad de México\, CDMX\, Mexico
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:México

@@ -1,7 +1,7 @@
 {
-  "version": "2.0.0",
-  "generated_at": "2026-08-29T20:10:55.137825+00:00",
-  "total_events": 37,
+  "version": "2.0.1",
+  "generated_at": "2026-08-29T23:23:23.306477+00:00",
+  "total_events": 38,
   "city": "México",
   "communities": [
     {
@@ -17,11 +17,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -64,6 +64,17 @@
         {
           "platform": "luma",
           "url": "https://luma.com/ko3wojfi",
+          "label": "Luma"
+        }
+      ]
+    },
+    {
+      "name": "Senior Dev",
+      "description": "Chelas entre gente de tech con muchos kilómetros recorridos.",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/4xpnaf0o",
           "label": "Luma"
         }
       ]
@@ -191,6 +202,33 @@
       "city_code": "",
       "address": "Polytechnic University of Tlaxcala, A. Universidad Politecnica, No.1, San Pedro Xalcaltzinco, 90180 San Pedro Xalcaltzinco, Tlax., Mexico",
       "hash_key": "cursor meetup tlaxcala_2025-11-12T18:00:00+00:00"
+    },
+    {
+      "title": "Senior Dev|Launch|México|México",
+      "description": "Get up-to-date information at: https://luma.com/1qdza8l1\n\nAddress:\nEl Hijo del Cuervo\nCiudad de México, Ciudad de México\nMexico\n\nHosted by Alberto Alcocer",
+      "url": "https://luma.com/1qdza8l1",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/1qdza8l1",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "El Hijo del Cuervo, Parque Centenario 17, Coyoacán, 04000 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Senior Dev",
+      "dtstart": "2025-11-28T01:30:00+00:00",
+      "dtend": "2025-11-28T07:00:00+00:00",
+      "tags": [],
+      "source": "https://luma.com/4xpnaf0o",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "El Hijo del Cuervo, Parque Centenario 17, Coyoacán, 04000 Ciudad de México, CDMX, Mexico",
+      "hash_key": "launch_2025-11-28T00:00:00+00:00"
     },
     {
       "title": "Cafe Cursor Puebla|Cursor Meetup Puebla|México|México",
@@ -650,7 +688,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "México",

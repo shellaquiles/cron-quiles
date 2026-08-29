@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Shellaquiles//CronQuiles v2.0.0//ES
+PRODID:-//Shellaquiles//CronQuiles v2.0.1//ES
 CALSCALE:GREGORIAN
 X-WR-CALDESC:Calendario unificado de eventos tech en México\, México
 X-WR-CALNAME:Eventos Tech México - cronquiles
@@ -3732,6 +3732,21 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Senior Dev|Launch|México|México
+DTSTART:20251128T013000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/1qdza8l1\n\nAd
+ dress:\nEl Hijo del Cuervo\nCiudad de México\, Ciudad de México\nMexico\
+ n\nHosted by Alberto Alcocer
+LOCATION:El Hijo del Cuervo\, Parque Centenario 17\, Coyoacán\, 04000 Ciu
+ dad de México\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:El Hijo del Cuervo\, Parque Centenario 17\, Coyoacán
+ \, 04000 Ciudad de México\, CDMX\, Mexico
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:México
+X-CRONQUILES-STATE-CODE:MX-MEX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Frutero Club|Coworking Frutal #24🍇|México|Ciudad de México
@@ -8644,6 +8659,73 @@ LOCATION:https://luma.com/event/evt-iMMePVQbnXbmSaO
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-iMMePVQbnXbmSaO
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Cloud Native Mexico City|Cloud Native CDMX - PostgreSQL + Kubernet
+ es: Operators en acción + IaC sin filtros|México|
+DTSTART:20260609T180000
+CATEGORIES:ai,backend,cloud,devops,frontend,mobile,python
+DESCRIPTION:🎬 ¡La cuarta edición de Cloud Native CDMX será una Watch
+  Party presencial!\nDebido al gran interés de la comunidad en este meetup
+ \, decidimos organizarnos para ver juntos esta charla en las oficinas de A
+ mazon. 🙌\nKubernetes desde la perspectiva de la base de datos\nEn esta 
+ sesión\,\nEdith Puclla\nnos llevará a ver Kubernetes desde la perspectiv
+ a de quien trabaja con bases de datos. Usando un clúster PostgreSQL de tr
+ es nodos desplegado en Google Kubernetes Engine (GKE) con el Kubernetes Op
+ erator para PostgreSQL\, conectaremos lo que se observa en psql con lo que
+  sucede detrás en kubectl.\nEn lugar de instalar y configurar PostgreSQL\
+ , la replicación o pgBouncer manualmente\, veremos cómo podemos describi
+ r lo que queremos en un archivo YAML y dejar que el Operator se encargue d
+ el resto.\n¿Qué aprenderás?\n☸️ Cómo un Operator gestiona desplieg
+ ues\, escalado y alta disponibilidad de PostgreSQL en Kubernetes\n☸️ C
+ ómo se manejan backups\, usuarios y certificados de forma declarativa\n
+ ☸️ Cómo reemplazar la configuración manual de PostgreSQL\, replicaci
+ ón y pgBouncer por un archivo YAML\n☸️ La conexión entre lo que ves 
+ como DBA en psql y lo que ocurre en el plano de Kubernetes con kubectl\n
+ ☸️ Todo con herramientas completamente open source\n¿Para quién es e
+ sta sesión?\n🔹 DBAs curiosos por Kubernetes que quieren entender cómo
+  la plataforma les facilita la vida\n🔹 Ingenieros DevOps/Platform que q
+ uieren ver cómo se vive Kubernetes desde el lado de los datos\n🔹 Cualq
+ uier persona interesada en el ecosistema Cloud Native y la gestión declar
+ ativa de infraestructura\nSobre la speaker:\nEdith Puclla es parte activa 
+ de la comunidad Cloud Native y cuenta con experiencia práctica en Kuberne
+ tes y bases de datos en entornos productivos.\nIaC sin filtros: errores\, 
+ deuda técnica y la evolución hacia platform engineering\nEn esta sesión
+ \,\nDavid Rosales\ncompartirá las lecciones aprendidas tras años trabaja
+ ndo con Infraestructura como Código en entornos reales. Más allá de los
+  tutoriales y las demos perfectas\, veremos los errores comunes\, la deuda
+  técnica que se acumula silenciosamente y cómo el enfoque de platform en
+ gineering ofrece un camino para salir del caos.\nEn lugar de mostrar únic
+ amente el "happy path"\, exploraremos los anti-patrones que surgen cuando 
+ los equipos adoptan IaC sin una estrategia clara\, y cómo la evolución h
+ acia plataformas internas puede transformar la forma en que gestionamos in
+ fraestructura.\n¿Qué aprenderás?\n☸️ Los errores más comunes al im
+ plementar IaC y cómo evitarlos\n☸️ Cómo se acumula la deuda técnica
+  en módulos\, pipelines y estados de Terraform (o similares)\n☸️ Por 
+ qué la automatización sin gobernanza genera más problemas de los que re
+ suelve\n☸️ Cómo platform engineering propone un modelo de self-servic
+ e que reduce fricción y mejora la confiabilidad\n☸️ Estrategias prác
+ ticas para migrar de "scripts que funcionan" a plataformas internas sosten
+ ibles\n¿Para quién es esta sesión?\n🔹 Ingenieros DevOps/SRE que han 
+ sufrido los dolores de mantener IaC en producción\n🔹 Equipos de plataf
+ orma que buscan evolucionar su enfoque hacia self-service sin sacrificar c
+ ontrol\n🔹 Cualquier persona interesada en entender cómo pasar de la au
+ tomatización ad-hoc a una estrategia de platform engineering\nSobre el sp
+ eaker:\nDavid Rosales\nes Consultor DevOps en ATDAC\, donde se especializa
+  en el desarrollo de soluciones y automatización de Infraestructura como 
+ Código. Con experiencia práctica en entornos productivos\, conoce de pri
+ mera mano los retos y las victorias de llevar IaC más allá del "terrafor
+ m apply".\nDetalles del evento:\n📅 Martes 9 de junio de 2026\n🕓 **18
+ :00 hrs (hora Ciudad de México) hora de ingreso\, 18:30 hrs (hora Ciudad 
+ de México) charla de Edith Puclla **\n📺 Formato: Watch Party presencia
+ l\n📍 Oficinas de Amazon — Av. Ejército Nacional Mexicano 843-B\, Gra
+ nada\, Miguel Hidalgo\, 11520 Ciudad de México\, CDMX (Puerta Polanco)\n
+ 🎟️ Entrada completamente gratuita -\nhttps://lnkd.in/g4N4H7Er\n¡Te e
+ speramos! 🚀🙌
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Python CDMX|Meetup Junio 2026  -  PythonCDMX|México|México
 DTSTART:20260610T003000Z
 CATEGORIES:python
@@ -9534,6 +9616,53 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Cloud Native Mexico City|Cloud Native CDMX: Self-hosted GitHub Run
+ ners en K8s|Online
+DTSTART:20260630T170000
+CATEGORIES:ai,backend,cloud,devops,frontend
+DESCRIPTION:🚀 ¡Cloud Native CDMX Online! Quinta edición de nuestro ca
+ pítulo ¡en formato virtual!\nSeguimos construyendo comunidad Cloud Nativ
+ e en Ciudad de México con una nueva noche de aprendizaje\, networking y t
+ ecnología\, esta vez desde la comodidad de tu hogar.\n📅 30 de Junio de
+  2026\n🕖 17:00 hrs (CST)\n💻 Evento en línea\n🎟️ ¡Entrada comp
+ letamente gratuita!\nEsta sesión contará con una ponencia de alto nivel 
+ técnico:\n🎤 Self-hosted GitHub Runners en K8s by\nVíctor Morales\nAun
+ que los runners administrados de GitHub funcionan bien para la mayoría de
+  los flujos de CI/CD\, presentan limitaciones importantes cuando se requie
+ ren entornos altamente personalizados\, mayor aislamiento o control total 
+ sobre la infraestructura. Casos como la ejecución de código no confiable
+ \, pruebas que dependen de módulos de kernel específicos\, o la necesida
+ d de soportar múltiples sistemas operativos\, exponen rápidamente estas 
+ restricciones.\nEn esta charla\, Víctor presentará un proyecto personal 
+ que propone una alternativa: runners self-hosted desplegados sobre Kuberne
+ tes\, utilizando KubeVirt para ejecutar cada job dentro de máquinas virtu
+ ales efímeras. Este enfoque permite crear entornos completamente personal
+ izados\, garantizando aislamiento real y seguridad a nivel de infraestruct
+ ura.\nCon ejemplos prácticos\, aprenderás a:\nDesplegar runners self-hos
+ ted en Kubernetes con aislamiento a nivel de máquina virtual usando KubeV
+ irt\nCrear entornos efímeros y completamente personalizados para cada job
+  de CI/CD\nEjecutar código no confiable de forma segura con aislamiento r
+ eal más allá de contenedores\nSoportar múltiples sistemas operativos y 
+ módulos de kernel específicos en tus pipelines\nEscalar tu infraestructu
+ ra de CI/CD con control total sobre recursos y configuración\nDiseñada p
+ ara ingenieros DevOps\, SREs y entusiastas del ecosistema Cloud Native\, e
+ sta sesión te mostrará cómo llevar tus pipelines de CI/CD al siguiente 
+ nivel con una arquitectura que prioriza la seguridad\, la flexibilidad y e
+ l control total.\n👨‍💻 Sobre\nVíctor Morales\n: Senior Staff Softw
+ are Engineer con más de 20 años de experiencia\, actualmente en el equip
+ o de Developer Experience (DevEx) y GenAI de Walmart. Participante activo 
+ en comunidades de código abierto como OpenInfra\, CNCF\, ONAP y LFN. Ex c
+ o-chair del CNF Working Group en la CNCF y cofundador de las comunidades O
+ penStackGDL\, Cloud-Native El Salvador y Cloud-Native Guadalajara.\nCloud 
+ Native CDMX sigue creciendo con la misión de construir una comunidad téc
+ nica sólida\, inclusiva y apasionada por el ecosistema Cloud Native en M
+ éxico.\n¡Sé parte de la comunidad! 🙌
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:GDG CDMX|Club de estudio: Fundamentos Matemáticos de la Inteligen
  cia Artificial|Online
 DTSTART:20260630T200000
@@ -9910,6 +10039,64 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
   models that can reason about the physical environment for applications in
   autonomous systems and robotics.
 LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Native Mexico City|Cloud Native CDMX: SRE\, Multi-Agentes y 
+ la Resiliencia del Ajolote  + Más allá del código|Online
+DTSTART:20260709T160000
+CATEGORIES:cloud,devops,frontend,mobile,web
+DESCRIPTION:🚀 ¡Cloud Native CDMX está de vuelta! ¡La sexta edición 
+ ahora en formato Watch Party!\nSeguimos construyendo comunidad Cloud Nativ
+ e en Ciudad de México con una nueva noche de aprendizaje\, networking y t
+ ecnología. Esta vez nos reunimos para disfrutar juntos la transmisión en
+  vivo.\n📅 9 de julio de 2026\n🚪 16:00 hrs - Acceso y networking\n
+ 🕖 18:00 hrs (Ciudad de México) - Hora de la charla\n📍 445 Calle Mon
+ tes Urales\, Ciudad de México\, 11000\n🎟️ ¡Entrada completamente gr
+ atuita!\nEsta sesión contará con ponencias de alto nivel técnico y de l
+ iderazgo:\n🎤\nSRE de Multi-Agentes en K8s: Un Ecosistema más Resilient
+ e que un Ajolote en Xochimilco\nby\nGerardo Falcon\nDescubre cómo la orqu
+ estación de múltiples agentes inteligentes en Kubernetes está redefinie
+ ndo las prácticas de Site Reliability Engineering\, creando ecosistemas q
+ ue se adaptan\, se auto-reparan y sobreviven a las condiciones más advers
+ as — igual que el ajolote en los canales de Xochimilco. En esta charla e
+ xploraremos cómo diseñar arquitecturas multi-agente resilientes sobre Ku
+ bernetes que eleven la confiabilidad de tus sistemas a otro nivel.\nCon ej
+ emplos prácticos\, aprenderás a:\nDiseñar arquitecturas multi-agente en
+  Kubernetes que colaboran para mantener la resiliencia del sistema\nImplem
+ entar estrategias de auto-remediación y recuperación autónoma inspirada
+ s en la regeneración del ajolote\nOrquestar agentes de IA para detección
+  proactiva de incidentes\, escalamiento inteligente y respuesta automatiza
+ da\nAplicar principios de SRE modernos para gestionar la complejidad de si
+ stemas distribuidos multi-agente\nDiseñada para SREs\, ingenieros de plat
+ aforma y entusiastas del ecosistema Cloud Native\, esta sesión te dará u
+ na visión práctica de cómo construir sistemas que no solo sobreviven al
+  caos\, sino que prosperan en él.\n🔗 Speaker:\nhttps://www.linkedin.co
+ m/in/gerardo-falcon/\n🎤\nMás allá del código: liderazgo\, comunidad 
+ e impacto en tecnología\nby\nAdriana Díaz Ávila\n🕖 19:00 hrs (Ciudad
+  de México)\nEl crecimiento en tecnología rara vez depende únicamente d
+ e las habilidades técnicas. En esta charla\, Adriana compartirá su exper
+ iencia evolucionando de roles técnicos a posiciones de liderazgo\, los ap
+ rendizajes obtenidos al liderar equipos e iniciativas tecnológicas\, y c
+ ómo las comunidades han sido un catalizador para generar impacto profesio
+ nal y personal.\nHablaremos sobre:\nLa importancia de desarrollar habilida
+ des más allá del código\nConstruir una red de apoyo y encontrar espacio
+ s para contribuir\nAprovechar las oportunidades que nacen cuando decidimos
+  involucrarnos activamente\nCómo ser líderes\, mentores y agentes de cam
+ bio dentro de nuestras organizaciones y comunidades\nUna invitación para 
+ quienes buscan crecer en tecnología no solo como especialistas\, sino tam
+ bién como líderes y agentes de cambio.\n🔗 Speaker:\nhttps://www.linke
+ din.com/in/adrianadiazavila/\n👩‍💻 Adriana Díaz Ávila es Engineer
+ ing Manager\, speaker y apasionada por el crecimiento de las personas a tr
+ avés de la tecnología. Con experiencia liderando equipos de ingeniería 
+ en empresas como Intel y actualmente en Lottus Education. Es cofundadora d
+ e Woman Diversity y AWS Community Builder en Inteligencia Artificial.\nClo
+ ud Native CDMX sigue creciendo con la misión de construir una comunidad t
+ écnica sólida\, inclusiva y apasionada por el ecosistema Cloud Native en
+  México.\n¡Únete a la Watch Party y sé parte de la comunidad! 🙌
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:v0 Prompt to Production Mexico City|How I Use AI: Juan Martínez|O
@@ -10672,6 +10859,56 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/4ujxu576\n\nHo
  sted by Lê Uyên Thảo & 7 others
 LOCATION:https://luma.com/event/evt-IdPTWqREbnL4njL
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-IdPTWqREbnL4njL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Native Mexico City|Cloud Native CDMX - Modern Network Automa
+ tion with eBPF + AI-Driven Platform Engineering|México|
+DTSTART:20260728T160000
+CATEGORIES:ai,cloud,devops,frontend,web
+DESCRIPTION:🚀 ¡Cloud Native CDMX está de vuelta! Séptima edición de
+  nuestro capítulo.\nSeguimos construyendo comunidad Cloud Native en Ciuda
+ d de México con una nueva noche de aprendizaje\, networking y tecnología
+ .\n📅 28 de julio de 2026\n🕖 16:00 - 20:00 hrs (CST)\n📍 C. Montes 
+ Urales 445\, Lomas de Chapultepec\, Ciudad de México\n🎟️ ¡Entrada c
+ ompletamente gratuita!\nEsta sesión contará con una ponencia de alto niv
+ el técnico:\n🎤\nModern Network Automation with eBPF\, Cilium\, and Ter
+ raform in GCP (Google Cloud Platform)\nby\nCamila Martins\nDescubre cómo 
+ Cilium y eBPF están revolucionando el networking en Kubernetes\, especial
+ mente cuando se integran con Terraform. En esta charla exploraremos cómo 
+ automatizar políticas de red avanzadas\, fortalecer la seguridad y mejora
+ r la observabilidad a través de Infrastructure as Code (IaC).\nCon ejempl
+ os prácticos\, aprenderás a:\nDesplegar clústeres de Kubernetes con con
+ figuraciones de red modernas\nConfigurar Cilium y aprovechar eBPF para net
+ working dinámico y de alto rendimiento\nAutomatizar políticas de red y m
+ ejorar la observabilidad con Hubble\nEscalar y gestionar infraestructuras 
+ modernas de forma eficiente\nDiseñada para ingenieros DevOps y entusiasta
+ s del ecosistema Cloud Native\, esta sesión te dará insights sobre cómo
+  estas herramientas de vanguardia pueden optimizar tu flujo de trabajo y e
+ levar tu arquitectura de red.\n🎤\nAI-Driven Platform Engineering: del o
+ ncall reactivo al sistema autónomo\nby\nAlejandro Parra\nDescubre cómo l
+ a inteligencia artificial está transformando la ingeniería de plataforma
+ s\, llevándonos de guardias reactivas y alertas interminables hacia siste
+ mas que se auto-diagnostican\, auto-reparan y escalan de forma autónoma. 
+ En esta charla exploraremos cómo integrar agentes de IA\, protocolos como
+  MCP/A2A y herramientas de observabilidad para construir plataformas que o
+ peran de manera inteligente.\nCon ejemplos prácticos\, aprenderás a:\nDi
+ señar plataformas self-service que incorporan IA para la detección y res
+ olución proactiva de incidentes\nImplementar agentes autónomos que inter
+ actúan con tu infraestructura Kubernetes mediante protocolos MCP y A2A\nI
+ ntegrar pipelines de observabilidad inteligente con Prometheus\, Grafana y
+  modelos de lenguaje para correlación de eventos\nEvolucionar tu modelo o
+ perativo: de runbooks manuales a sistemas de auto-remediación impulsados 
+ por IA\nDiseñada para ingenieros de plataforma\, SREs y entusiastas del e
+ cosistema Cloud Native\, esta sesión te dará una hoja de ruta clara para
+  transformar tus operaciones y construir la próxima generación de plataf
+ ormas autónomas.\n🔗 Regístrate aquí:\nhttps://ocgroups.dev/cncf/grou
+ p/e5vgp72/event/9vuzska\nCloud Native CDMX sigue creciendo con la misión 
+ de construir una comunidad técnica sólida\, inclusiva y apasionada por e
+ l ecosistema Cloud Native en México.\n¡Sé parte de la comunidad! 🙌
+LOCATION:C. Montes Urales 445\, Mexico City
+X-CRONQUILES-ADDRESS:C. Montes Urales 445\, Mexico City
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|July
@@ -11573,6 +11810,44 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Cloud Native Mexico City|Cloud Native CDMX - Construyendo Platafor
+ mas Inteligentes: IDPs y la Era Agentic|México|
+DTSTART:20260818T170000
+CATEGORIES:cloud,devops,frontend,security,web
+DESCRIPTION:🚀 ¡Cloud Native CDMX está de vuelta! Octava edición de n
+ uestro capítulo.\nSeguimos construyendo comunidad Cloud Native en Ciudad 
+ de México con una nueva noche de aprendizaje\, networking y tecnología.\
+ n📅 18 de agosto de 2026\n🕖 17:00 - 20:00 hrs (CST)\n📍 Av. Insurge
+ ntes Sur 1524\, Cuauhtémoc\, Benito Juárez\, 03940 Ciudad de México\, C
+ DMX — 📍\nVer mapa\n🎟️ ¡Entrada completamente gratuita!\nEsta se
+ sión contará con dos ponencias de alto nivel técnico centradas en Platf
+ orm Engineering:\n🎤 IDP: la columna vertebral de la Ingeniería de Plat
+ aforma by\nOscar Arcia\nDescubre cómo un Internal Developer Portal (IDP) 
+ transforma a la plataforma de un cuello de botella en un multiplicador de 
+ fuerza para toda la organización. En esta charla exploraremos cómo reduc
+ ir la fricción operativa\, eliminar el "ticket-ops" y construir golden pa
+ ths que entregan consistencia\, seguridad y velocidad por diseño.\nDiseñ
+ ada para platform engineers\, DevOps/DevSecOps\, SREs y arquitectos\, esta
+  sesión te dará una visión concreta de cómo un IDP puede acelerar tu o
+ nboarding de días a minutos y elevar la productividad de tus equipos.\n
+ 🎤 Platform Engineering in the Agentic Era by\nIzac Saúl Salazar Flores
+ \nLa ingeniería de plataformas está evolucionando: ya no basta con autom
+ atizar pipelines\, ahora los agentes de IA están redefiniendo cómo const
+ ruimos\, operamos y escalamos plataformas internas. En esta charla explora
+ remos cómo la era "agentic" está transformando el rol del platform engin
+ eer y qué significa para la adopción organizacional de DevOps.\nDiseñad
+ a para platform engineers\, DevOps\, SREs y entusiastas del ecosistema Clo
+ ud Native\, esta sesión te dará una perspectiva fresca sobre el futuro d
+ e la ingeniería de plataformas en la era de la inteligencia artificial.\n
+ Cloud Native CDMX sigue creciendo con la misión de construir una comunida
+ d técnica sólida\, inclusiva y apasionada por el ecosistema Cloud Native
+  en México.\n¡Sé parte de la comunidad! 🙌
+LOCATION:ATDAC\, Av. Insurgentes Sur 1524\, CDMX
+X-CRONQUILES-ADDRESS:ATDAC\, Av. Insurgentes Sur 1524\, CDMX
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México
 DTSTART:20260818T180000
 CATEGORIES:ai
@@ -11946,6 +12221,74 @@ LOCATION:https://luma.com/event/evt-vnCi9woG6t4KUEq
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-vnCi9woG6t4KUEq
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Cloud Native Mexico City|Cloud Native CDMX - Open Source\, Caching
+  & Service Mesh: Construyendo el Ecosistema Cloud Native|México|
+DTSTART:20260826T160000
+CATEGORIES:backend,cloud,data,devops,frontend,mobile,security
+DESCRIPTION:🚀 ¡Cloud Native CDMX continúa! Novena edición de nuestro
+  capítulo.\nSeguimos construyendo comunidad Cloud Native en Ciudad de Mé
+ xico con una nueva noche de aprendizaje\, networking y tecnología.\n📅 
+ Miércoles 26 de agosto de 2026\n🕖 16:00 - 20:00 hrs\n📍 C. Montes Ur
+ ales 445\, Lomas - Virreyes\, Lomas de Chapultepec\, Miguel Hidalgo\, 1100
+ 0 Ciudad de México\, CDMX\n🎟️ ¡Entrada completamente gratuita!\n
+ 🎤 𝗞𝗲𝘆𝗻𝗼𝘁𝗲: 𝗢𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰
+ 𝗲 𝗻𝗼 𝗲𝘀 𝗽𝗮𝗿𝗮 𝘁𝗼𝗱𝗼𝘀. (𝗬 𝗘
+ 𝘀𝗲 𝗘𝘀 𝗘𝗹 𝗣𝗿𝗼𝗯𝗹𝗲𝗺𝗮)\n🗣️\nFer
+  Osorio\nComputer Scientist\, Cloud Engineer y AWS Community Champion. Tra
+ baja desde la intersección entre cloud computing\, IA generativa y equida
+ d tecnológica. Impulsa activamente la participación de mujeres y grupos 
+ subrepresentados en tecnología\, desde comunidades universitarias hasta e
+ l Congreso mexicano. Speaker internacional con presencia en universidades 
+ y conferencias alrededor del mundo.\nEl open source promete ser abierto\, 
+ colaborativo y de todos. Pero la realidad es otra: barreras invisibles de 
+ idioma\, acceso\, representación y cultura siguen dejando fuera a quienes
+  más podrían aportar.\nUna charla que desafía la narrativa y nos invita
+  a preguntarnos: ¿para quién estamos construyendo el futuro del software
+ ?\nSaldrás con una perspectiva renovada sobre cómo contribuir a un ecosi
+ stema open source más justo\, y con herramientas para ser parte activa de
+ l cambio.\n🎤 𝗧𝗵𝗿𝗲𝗲 𝗪𝗮𝘆𝘀 𝘁𝗼 𝗗𝗲
+ 𝗽𝗹𝗼𝘆 𝗮 𝗖𝗮𝗰𝗵𝗲 𝗼𝗻 𝗞𝘂𝗯𝗲𝗿
+ 𝗻𝗲𝘁𝗲𝘀: 𝗦𝘁𝗮𝘁𝗲𝗳𝘂𝗹𝗦𝗲𝘁𝘀\, 
+ 𝗛𝗲𝗹𝗺 & 𝗢𝗽𝗲𝗿𝗮𝘁𝗼𝗿𝘀\n🗣️\nRoberto 
+ Luna\nCada consulta repetida a tu API te cuesta dos veces: una en latencia
+  y otra en la factura. En esta sesión aprenderás cómo Valkey un datasto
+ re key/value open source de alto rendimiento puede responder queries repet
+ idas desde memoria y ayudarte a reducir hasta un 55% en costos de base de 
+ datos.\nLo mejor: veremos tres formas de desplegarlo en Kubernetes con dem
+ os en vivo:\n⚙️ StatefulSet configurado manualmente + monitoreo con Gr
+ afana\n📦 Helm Chart de Valkey para instalaciones rápidas y repetibles\
+ n🤖 Valkey Operator para gestión completa del ciclo de vida\nSaldrás s
+ abiendo cómo reducir el costo de queries repetitivas y cómo correr Valke
+ y en Kubernetes de la forma que mejor se adapte a tu equipo.\n💡 Valkey 
+ es BSD licensed y respaldado por la Linux Foundation.\n🎤 𝗧𝗵𝗲 
+ 𝗜𝗻𝘃𝗶𝘀𝗶𝗯𝗹𝗲 𝗠𝗲𝘀𝗵: 𝗘𝗹 𝗮𝗿
+ 𝘁𝗲 𝗱𝗲 𝗼𝗿𝗾𝘂𝗲𝘀𝘁𝗮𝗿 𝗺𝗶𝗰𝗿
+ 𝗼𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼𝘀 𝗰𝗼𝗻 𝗜𝘀𝘁𝗶𝗼
+ \n🗣️\nSalvador Arreola\nCuando tus microservicios crecen\, el enrutam
+ iento\, la seguridad y la observabilidad dejan de caber en el código de t
+ u aplicación. Istio resuelve esto inyectando una capa de red programable 
+ entre tus servicios sin tocar una sola línea de tu app.\nEn esta sesión 
+ aprenderás:\n🕸️ Qué es un service mesh y por qué importa cuando es
+ calas microservicios\n🧠 Cómo funciona el plano de control y el plano d
+ e datos de Istio\n🚦 Traffic management con canary releases para desplie
+ gues seguros\n🔐 Autenticación con JWT y mTLS de extremo a extremo\n
+ 💪 Patrones de resiliencia como circuit breaking\n🚀 Hacia dónde va I
+ stio con Ambient Mode\nCerramos con una 𝗱𝗲𝗺𝗼 𝗲𝗻 𝘃𝗶
+ 𝘃𝗼 donde el público verá el tráfico dividirse entre versiones\, l
+ as peticiones sin token ser rechazadas y las conexiones cifradas en tiempo
+  real.\nSaldrás sabiendo cómo hacer que la red trabaje para ti de forma 
+ invisible: segura\, observable y resiliente sin modificar el código de tu
+ s aplicaciones.\n💡\nIstio\nes un proyecto graduado de la CNCF y uno de 
+ los service meshes más adoptados en producción a nivel mundial.\nCloud N
+ ative CDMX sigue creciendo con la misión de construir una comunidad técn
+ ica sólida\, inclusiva y apasionada por el ecosistema Cloud Native en Mé
+ xico.\n¡Sé parte de la comunidad! 🙌
+LOCATION:Montes Urales 445\, Mexico City
+X-CRONQUILES-ADDRESS:Montes Urales 445\, Mexico City
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Claude Community|Mexico City  -  Claude for Finance|México|Méxic
  o
 DTSTART:20260826T233000Z
@@ -12123,6 +12466,24 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:México
 X-CRONQUILES-STATE-CODE:MX-MEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cafe Cursor Puebla|Cursor Workshop - Puebla|México|Puebla
+DTSTART:20260828T000000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/puebla-oz8p\n\
+ nAddress:\nWorkósfera Coworking @ Cerro de La Paz\, Puebla\nHeroica Puebl
+ a de Zaragoza\, Mexico\n\nHosted by Kevin Jiménez\, Clúster de Startups 
+ Puebla & Vahagn Chavushyan
+LOCATION:Workósfera Coworking @ Cerro de La Paz\, Puebla\, Cholula 35\, L
+ a Paz\, 72160 Heroica Puebla de Zaragoza\, Pue.\, Mexico
+X-CRONQUILES-ADDRESS:Cholula 35\, La Paz\, 72160 Heroica Puebla de Zaragoz
+ a\, Pue.\, México
+X-CRONQUILES-CITY:Heroica Puebla de Zaragoza
+X-CRONQUILES-CITY-CODE:heroicapuebladezaragoza
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Puebla
+X-CRONQUILES-STATE-CODE:MX-PUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AWS User Group Mixtli|Sesión 3: Aplicaciones de Modelos Fundacion
@@ -12548,6 +12909,81 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
   bridge large-scale real-world mapping data with next-generation AI and mo
  bility systems.
 LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Native Mexico City|Cloud Native CDMX - Beyond Tool Sprawl: D
+ ynamic Multi-Cloud Operations|Online
+DTSTART:20260917T120000
+CATEGORIES:ai,cloud,data,devops,frontend,mobile,security
+DESCRIPTION:🚀 Cloud Native CDMX Online! in virtual format!\nWe continue
+  building the Cloud Native community in Mexico City with a new session of 
+ learning\, networking\, and technology\, this time from the comfort of you
+ r home.\n📅 Thursday\, September 17\, 2026\n🕛 12:00 PM (Mexico City\,
+  UTC-6) / 6:00 PM (UTC)\n💻 Online event\n🎟️ Completely free admiss
+ ion!\nThis session will feature a high-level technical talk:\n🎤 Beyond 
+ Tool Sprawl: An Event-Driven Approach to Dynamic Multi-Cloud Operations by
+ \nEleni Grosdouli\nLet's be honest we've all felt the pain of waiting for 
+ resources\, whether it's a database\, a secret\, or an application. And if
+  that wasn't enough\, tool sprawl is a real issue: juggling multiple tools
+ \, CLIs\, and workflows to get things done across different environments. 
+ But what if teams could create on-demand services across multi-cloud envir
+ onments using events\, without adding yet another tool to an already overl
+ oaded toolset?\nIn this talk\, Eleni will introduce an intuitive\, event-d
+ riven approach for efficient multi-cloud operations. We'll demonstrate how
+  Sveltos\, an open-source tool for declarative multi-cloud operations\, en
+ ables us to orchestrate on-demand services and resources in a dynamic\, sc
+ alable\, and straightforward manner all while adhering to GitOps best prac
+ tices.\nDesigned for DevOps engineers\, SREs\, Platform Engineers\, and Cl
+ oud Native enthusiasts\, this session will show you how to adopt a dynamic
+ \, event-driven approach that simplifies multi-cloud operations and elimin
+ ates tool sprawl complexity.\n👩‍💻 About Eleni Grosdouli: DevOps Co
+ nsulting Engineer at Cisco Systems\, a DevOps and GitOps expert passionate
+  about networking\, security\, and endpoint management. With hands-on expe
+ rience across diverse technical domains\, Eleni is a lifelong learner who 
+ loves experimenting with cutting-edge technology in her home lab and shari
+ ng her discoveries through blog posts. When she's not working on tech proj
+ ects\, she channels that same energy into sports she recently joined a loc
+ al rugby team. 🏉\nCloud Native CDMX continues to grow with the mission 
+ of building a strong\, inclusive\, and passionate technical community arou
+ nd the Cloud Native ecosystem in Mexico.\nBe part of the community! 🙌\n
+ 🚀 ¡Cloud Native CDMX Online! Sexta edición de nuestro capítulo ¡en 
+ formato virtual!\nSeguimos construyendo comunidad Cloud Native en Ciudad d
+ e México con una nueva sesión de aprendizaje\, networking y tecnología\
+ , esta vez desde la comodidad de tu hogar.\n📅 Jueves 17 de Septiembre d
+ e 2026\n🕛 12:00 hrs (Ciudad de México\, UTC-6) / 18:00 hrs (UTC)\n💻
+  Evento en línea\n🎟️ ¡Entrada completamente gratuita!\nEsta sesión
+  contará con una ponencia de alto nivel técnico:\n🎤 Beyond Tool Spraw
+ l: An Event-Driven Approach to Dynamic Multi-Cloud Operations by\nEleni Gr
+ osdouli\nSeamos honestos: todos hemos sentido la frustración de esperar p
+ or recursos\, ya sea una base de datos\, un secreto o una aplicación. Y s
+ i eso no fuera suficiente\, el tool sprawl es un problema real: malabarear
+  múltiples herramientas\, CLIs y workflows para hacer las cosas en difere
+ ntes entornos. Pero\, ¿qué pasaría si los equipos pudieran crear servic
+ ios bajo demanda en entornos multi-cloud usando eventos\, sin agregar otra
+  herramienta más a un toolset ya sobrecargado?\nEn esta charla\, Eleni pr
+ esentará un enfoque intuitivo y event-driven para operaciones multi-cloud
+  eficientes. Demostraremos cómo Sveltos\, una herramienta open-source par
+ a operaciones multi-cloud declarativas\, nos permite orquestar servicios y
+  recursos bajo demanda de manera dinámica\, escalable y directa\, todo mi
+ entras se adhiere a las mejores prácticas de GitOps.\nDiseñada para inge
+ nieros DevOps\, SREs\, Platform Engineers y entusiastas del ecosistema Clo
+ ud Native\, esta sesión te mostrará cómo adoptar un enfoque dinámico y
+  event-driven que simplifica las operaciones multi-cloud y elimina la comp
+ lejidad del tool sprawl.\n👩‍💻 Sobre Eleni Grosdouli: DevOps Consul
+ ting Engineer en Cisco Systems\, experta en DevOps y GitOps con pasión po
+ r networking\, seguridad y gestión de endpoints. Con experiencia práctic
+ a en diversos dominios técnicos\, Eleni es una aprendiz de por vida que d
+ isfruta experimentar con tecnología de vanguardia en su home lab y compar
+ tir sus descubrimientos a través de blog posts. Cuando no está trabajand
+ o en proyectos tech\, canaliza esa misma energía en el deporte\; reciente
+ mente se unió a un equipo local de rugby. 🏉\nCloud Native CDMX sigue c
+ reciendo con la misión de construir una comunidad técnica sólida\, incl
+ usiva y apasionada por el ecosistema Cloud Native en México.\n¡Sé parte
+  de la comunidad! 🙌
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Claude Community|Mexico City  -  Claude For Healthcare UNAM|Méxic
@@ -13024,6 +13460,42 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/ParentingWithA
  I\n\nHosted by The AI Collective & Jesse Bray
 LOCATION:https://luma.com/event/evt-tGBTfWbV3nhiOhc
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-tGBTfWbV3nhiOhc
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloud Native Mexico City|Cloud Native CDMX - Workshop + Panel de M
+ ujeres|México|
+DTSTART:20261028T160000
+CATEGORIES:ai,cloud,devops,frontend,web
+DESCRIPTION:🚀 ¡Cloud Native CDMX está de vuelta! Nueva edición de nu
+ estro capítulo.\nSeguimos construyendo comunidad Cloud Native en Ciudad d
+ e México con una nueva noche de aprendizaje\, networking y tecnología.\n
+ 📅 28 de Octubre de 2026\n🕖 16:00 - 20:00 hrs (CST)\n📍 C. Montes U
+ rales 445\, Mexico City\, 11000 — 📍\nVer mapa\n🎟️ ¡Entrada comp
+ letamente gratuita!\nEsta sesión contará con un workshop técnico y un p
+ anel especial:\n🎤 Google ADK on Kubernetes: Accelerate your AI Agents b
+ y\nCamila Martis\nDescubre cómo el Agent Development Kit (ADK) lanzado en
+  2025\, revoluciona el desarrollo de agentes inteligentes. Exploraremos c
+ ómo Kubernetes optimiza el despliegue y la gestión de estas aplicaciones
+  de IA. Construye y escala tus agentes de IA de formas innovadoras y efici
+ entes.\nDiseñada para profesionales de infraestructura\, DevOps y platafo
+ rmas cloud\, esta sesión te dará una visión práctica de cómo combinar
+  ADK con Kubernetes para llevar tus agentes de IA a producción.\n🎤 Pan
+ el: Mujeres en Cloud Native - Impacto\, Retos y Consejos para la Comunidad
+  Tech\nUn panel especial para destacar y celebrar las contribuciones de la
+ s mujeres al ecosistema Cloud Native en México y Latinoamérica. Escuchar
+ emos historias reales de mujeres transformando Cloud Native\, consejos pr
+ ácticos de carrera para quienes inician o avanzan en tecnologías cloud n
+ ative\, reflexiones sobre diversidad e inclusión en comunidades técnicas
+ \, y oportunidades de networking con líderes de la industria.\nDiseñado 
+ para toda la comunidad tech\, este panel te inspirará y te conectará con
+  referentes del ecosistema Cloud Native que están abriendo camino para la
+ s próximas generaciones.\nCloud Native CDMX sigue creciendo con la misió
+ n de construir una comunidad técnica sólida\, inclusiva y apasionada por
+  el ecosistema Cloud Native en México.\n¡Sé parte de la comunidad! 🙌
+LOCATION:Montes Urales 445\, Mexico City
+X-CRONQUILES-ADDRESS:Montes Urales 445\, Mexico City
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GDG Villahermosa|DevFest 2026: Sureste de México|México|

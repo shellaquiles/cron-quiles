@@ -28,7 +28,7 @@ export class DataService {
      */
     static async getCityData(city) {
         const citySlug = (city || '').toLowerCase();
-        const url = CONFIG.PATHS.getDataUrl(citySlug);
+        const url = CONFIG.PATHS.getDataUrl(citySlug) + '?t=' + new Date().getTime();
 
         try {
             const response = await fetch(url);
@@ -52,7 +52,7 @@ export class DataService {
      */
     static async getLastModified(city) {
         const citySlug = (city || '').toLowerCase();
-        const url = CONFIG.PATHS.getIcsUrl(citySlug);
+        const url = CONFIG.PATHS.getIcsUrl(citySlug) + '?t=' + new Date().getTime();
         try {
             const response = await fetch(url, { method: 'HEAD' });
             const lastModified = response.headers.get('last-modified');
