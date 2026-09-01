@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-08-31T22:12:41.432782+00:00",
-  "total_events": 38,
+  "generated_at": "2026-09-01T02:39:55.700945+00:00",
+  "total_events": 39,
   "city": "México",
   "communities": [
     {
@@ -1168,6 +1168,33 @@
       "city_code": "",
       "address": "Senate of the Republic, Av. P.º de la Reforma 135, Tabacalera, Cuauhtémoc, 06030 Ciudad de México, CDMX, Mexico",
       "hash_key": "mexico city claude en el senado de la re_2026-10-20T22:00:00+00:00"
+    },
+    {
+      "title": "Claude Community|Mexico City  -  Claude for Music|México|México",
+      "description": "Get up-to-date information at: https://luma.com/claudeformusic\n\nAddress:\nFuente de Cibeles\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega & Sunshine Vendetta",
+      "url": "https://luma.com/claudeformusic",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claudeformusic",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Fuente de Cibeles, Pl. Villa de Madrid, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Claude Community",
+      "dtstart": "2026-10-28T23:30:00+00:00",
+      "dtend": "2026-10-29T03:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Fuente de Cibeles, Pl. Villa de Madrid, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+      "hash_key": "mexico city claude for music_2026-10-28T22:00:00+00:00"
     }
   ]
 }
