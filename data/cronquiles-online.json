@@ -1,6 +1,6 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-01T02:39:55.573463+00:00",
+  "generated_at": "2026-09-01T09:19:00.435167+00:00",
   "total_events": 435,
   "city": "Online",
   "communities": [
@@ -94,11 +94,6 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
-          "label": "Luma"
         }
       ]
     },
@@ -169,8 +164,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3252,7 +3252,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3417,7 +3417,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5192,7 +5192,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5756,7 +5756,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10572,7 +10572,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11907,7 +11907,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -12444,7 +12444,7 @@
     },
     {
       "title": "Cloud Native Mexico City|Cloud Native CDMX - AI Security in Practice & Kubestronaut Experiences in LATAM|México|",
-      "description": "🚀 ¡Cloud Native CDMX está de vuelta! ¡Nueva sesión presencial!\nSeguimos construyendo comunidad Cloud Native en Ciudad de México con una nueva sesión de aprendizaje, networking y tecnología.\n📅 Miércoles 9 de Septiembre de 2026\n🕓 16:00 – 20:00 hrs (Ciudad de México, UTC-6)\n📍 Evento presencial\n🎟️ ¡Entrada completamente gratuita!\nEsta sesión contará con una ponencia de alto nivel técnico y un emocionante panel de discusión:\n🎤 Charla: \"AI Security in Practice: From Sandboxes to Best Practices\"\nSpeaker:\nIgor Eulalio\n🇧🇷\n👨‍💻 Sobre Igor Eulalio: Kubestronaut de Brasil, apasionado por la seguridad cloud native y Kubernetes. Igor trae experiencia práctica y profunda expertise en prácticas de seguridad de IA, desde técnicas de sandboxing hasta mejores prácticas listas para producción.\n🎙️ Panel: Experiencias Kubestronaut en LATAM\nUn panel con Kubestronauts de la región donde se compartirán experiencias, retos, consejos y el camino que cada uno recorrió para obtener la certificación.\nPanelistas:\n[Igor Eulalio](https://www.linkedin.com/in/igoreulalio/) 🇧🇷\n[Ricardo Garza](https://www.linkedin.com/in/ricardo-garzag/)  🇲🇽\n[Armand Cuevas](https://www.linkedin.com/in/armand-cuevas/)  🇲🇽\n[Abraham Alfaro](https://www.linkedin.com/in/abalso/)  🇲🇽\nCloud Native CDMX sigue creciendo con la misión de construir una comunidad técnica sólida, inclusiva y apasionada por el ecosistema Cloud Native en México.\n¡Sé parte de la comunidad! 🙌",
+      "description": "🚀 ¡Cloud Native CDMX está de vuelta! ¡Nueva sesión presencial!\nSeguimos construyendo comunidad Cloud Native en Ciudad de México con una nueva sesión de aprendizaje, networking y tecnología.\n📅 Miércoles 9 de Septiembre de 2026\n🕓 16:00 – 20:00 hrs (Ciudad de México, UTC-6)\n📍 Evento presencial\n🎟️ ¡Entrada completamente gratuita!\nEsta sesión contará con una ponencia de alto nivel técnico y un emocionante panel de discusión:\n🎤 Charla: \"AI Security in Practice: From Sandboxes to Best Practices\"\nSpeaker:\nIgor Eulalio\n🇧🇷\n👨‍💻 Sobre Igor Eulalio: Kubestronaut de Brasil, apasionado por la seguridad cloud native y Kubernetes. Igor trae experiencia práctica y profunda expertise en prácticas de seguridad de IA, desde técnicas de sandboxing hasta mejores prácticas listas para producción.\nCloud Native CDMX sigue creciendo con la misión de construir una comunidad técnica sólida, inclusiva y apasionada por el ecosistema Cloud Native en México.\n¡Sé parte de la comunidad! 🙌",
       "url": "https://ocgroups.dev/cncf/group/e5vgp72/event/a3pjstc",
       "sources": [
         {
@@ -13182,7 +13182,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
