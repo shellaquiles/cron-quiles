@@ -102,11 +102,10 @@ Workflow: `.github/workflows/update-events.yml`.
 3. Ejecutar el pipeline: `uv run python -m cronquiles.main --all-cities --json --output-dir gh-pages/data/`.
 4. **Verificar si hay cambios**: comparar los datos generados con los previos; si no hay diferencias, no se hace commit ni deploy.
 5. **Si hay cambios**:
-   - Copiar `gh-pages/*` (desde main) + `data/` + `docs/COMMUNITIES.md` a un directorio temporal.
-   - Hacer checkout a la rama `gh-pages` (orphan si no existe).
-   - Reemplazar el contenido de la rama con ese directorio.
+   - Copiar `gh-pages/*` (desde main) + `data/` + `docs/COMMUNITIES.md` a `${RUNNER_TEMP}/pages-to-deploy` (fuera del repo; no se commitea en `main`).
+   - Hacer checkout a la rama `gh-pages` (orphan si no existe), limpiar el working tree y reemplazar el contenido con esa copia.
    - Commit con mensaje tipo "🤖 Auto-update: Refresh events calendar & persist data [skip ci]" y push a `gh-pages`.
-   - Configurar Pages, subir artifact y desplegar con `deploy-pages`.
+   - Configurar Pages, subir el artifact desde `${RUNNER_TEMP}/pages-to-deploy` y desplegar con `deploy-pages`.
 
 La página que ves en `https://<usuario>.github.io/cron-quiles/` es el contenido de esa rama (o del artifact que sube el workflow). Se actualiza solo cuando el workflow corre y detecta cambios en los datos.
 
