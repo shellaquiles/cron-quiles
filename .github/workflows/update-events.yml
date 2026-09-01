@@ -91,13 +91,16 @@ jobs:
       - name: Publicar en rama orphan gh-pages
         if: steps.check-deploy.outputs.deploy == 'true'
         run: |
-          # Guardar archivos a publicar en directorio temporal
-          TMPDIR=$(mktemp -d)
-          cp -r gh-pages/* "$TMPDIR/"
-          mkdir -p "$TMPDIR/data"
-          cp data/history.json "$TMPDIR/data/" 2>/dev/null || true
-          cp data/geocoding_cache.json "$TMPDIR/data/" 2>/dev/null || true
-          cp docs/COMMUNITIES.md "$TMPDIR/" 2>/dev/null || true
+          # Copia del sitio fuera del repo (temp del runner). No toca main:
+          # el artifact de Pages se sube desde aquí tras el checkout de la rama.
+          PAGES_DEPLOY="${RUNNER_TEMP}/pages-to-deploy"
+          rm -rf "$PAGES_DEPLOY"
+          mkdir -p "$PAGES_DEPLOY"
+          cp -r gh-pages/* "$PAGES_DEPLOY/"
+          mkdir -p "$PAGES_DEPLOY/data"
+          cp data/history.json "$PAGES_DEPLOY/data/" 2>/dev/null || true
+          cp data/geocoding_cache.json "$PAGES_DEPLOY/data/" 2>/dev/null || true
+          cp docs/COMMUNITIES.md "$PAGES_DEPLOY/" 2>/dev/null || true
 
           # Configurar git
           git config --local user.email "action@github.com"
@@ -114,12 +117,12 @@ jobs:
             git rm -rf . 2>/dev/null || true
           fi
 
-          # Limpiar y copiar archivos nuevos
+          # Limpiar rastros del job (p. ej. __pycache__) y copiar solo el sitio
           git rm -rf . 2>/dev/null || true
-          cp -r "$TMPDIR"/* .
-          rm -rf "$TMPDIR"
+          git clean -fdx
+          cp -r "$PAGES_DEPLOY"/* .
 
-          # Commit y push
+          # Commit y push (solo rama gh-pages; no se hace push a main)
           git add -A
           git commit -m "🤖 Auto-update: Refresh events calendar & persist data [skip ci]" || exit 0
           git push origin gh-pages --force
@@ -132,7 +135,7 @@ jobs:
         if: steps.check-deploy.outputs.deploy == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'gh-pages'
+          path: ${{ runner.temp }}/pages-to-deploy
 
       - name: Deploy to GitHub Pages
         if: steps.check-deploy.outputs.deploy == 'true'

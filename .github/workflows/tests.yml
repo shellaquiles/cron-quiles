@@ -36,3 +36,18 @@ jobs:
         run: |
           uv run flake8 src/ --count --select=E9,F63,F7,F82 --show-source --statistics
           uv run flake8 src/ --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+  # Branch protection en main exige el contexto exacto "test".
+  # La matriz solo publica "test (3.10)", "test (3.11)", "test (3.12)".
+  test-gate:
+    name: test
+    needs: test
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirmar que la matriz pasó
+        run: |
+          if [ "${{ needs.test.result }}" != "success" ]; then
+            echo "La matriz de tests falló: ${{ needs.test.result }}"
+            exit 1
+          fi
