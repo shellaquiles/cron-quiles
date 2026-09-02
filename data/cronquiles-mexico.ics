@@ -12896,6 +12896,34 @@ X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Kong Mexico City|Migrating from Ingress to Gateway API on Kubernet
+ es|Online
+DTSTART:20260917T090000
+CATEGORIES:ai,backend,devops,security
+DESCRIPTION:Kong/MEXICO-CITY\nKubernetes SIG Network retired Ingress NGINX
+  this spring\; best-effort maintenance ended in March 2026\, and the proje
+ ct is now archived\, with no more releases\, bugfixes\, or security patche
+ s. For any platform team still running it\, that's not a future risk\, it'
+ s a current one. It's forcing a shift that's been coming anyway: the Ingre
+ ss API is stable and feature-frozen\, while the Gateway API is emerging as
+  the standard for expressive\, role-based traffic management.\n\nThis sess
+ ion shows platform engineers and SREs how to migrate from Ingress to Gatew
+ ay API\, using Kong Operator as the reference implementation\, including a
+  live demo converting a production-style Ingress resource with Kong's open
+ -source ingress2gateway tool and running it side-by-side with zero downtim
+ e.\n\nWe'll cover:\n\n* How the Gateway API's role-based model (GatewayCla
+ ss\, Gateway\, HTTPRoute) splits responsibilities between platform and app
+ lication teams\, and why it succeeds where Ingress annotations hit their l
+ imits\n* A phased\, zero-downtime cutover pattern: converting existing rul
+ es with ingress2gateway and running Ingress and Gateway API side by side u
+ ntil you're confident in the switch\n* How Kong Operator automates day-2 o
+ perations — certificate rotation\, latency-based autoscaling\, zero-down
+ time upgrades — once you're standardized on Gateway API\n\nYou'll leave 
+ with a concrete migration pattern you can start applying to your own clust
+ er right away.
+LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Sept
   17 - ADAS\, AV\, and AI Meetup|Online
 DTSTART:20260917T100000
