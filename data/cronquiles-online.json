@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-03T15:29:11.814374+00:00",
-  "total_events": 437,
+  "generated_at": "2026-09-03T20:18:04.719979+00:00",
+  "total_events": 439,
   "city": "Online",
   "communities": [
     {
@@ -93,6 +93,11 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
+          "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5187,7 +5192,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5751,7 +5756,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11902,7 +11907,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -12470,6 +12475,36 @@
       "city_code": "",
       "address": "ATDAC, Av. Insurgentes Sur 1524, CDMX, CDMX, México",
       "hash_key": "cloud native cdmx ai security in practic_2026-09-09T22:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|PDX AI Expo 4th Webinar|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-kul-20260910\n\nHosted by The AI Collective & Jean Ng",
+      "url": "https://luma.com/aic-kul-20260910",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-kul-20260910",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-GTKmBweYbQIflB7",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-09-10T02:00:00+00:00",
+      "dtend": "2026-09-10T08:30:00+00:00",
+      "tags": [
+        "ai",
+        "web"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-GTKmBweYbQIflB7",
+      "hash_key": "pdx ai expo 4th webinar_2026-09-10T02:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|Lunch & Hack: How AI Is Reshaping Industrial Operations (w/ The AI Collective)|Online",
@@ -13163,6 +13198,36 @@
       "city_code": "",
       "address": "Por Definir, Villahermosa, Villahermosa",
       "hash_key": "devfest 2026 sureste de mxico_2026-11-11T14:00:00+00:00"
+    },
+    {
+      "title": "GDG Tijuana|DevFest Tijuana 2026|México|",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+      "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-devfest-tijuana-2026/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-devfest-tijuana-2026/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "TBD, TBD, Tijuana",
+      "online": false,
+      "organizer": "GDG Tijuana",
+      "dtstart": "2026-11-13T13:00:00-08:00",
+      "dtend": "2026-11-13T17:00:00-08:00",
+      "tags": [
+        "DevFest",
+        "security"
+      ],
+      "source": "https://gdg.community.dev/gdg-tijuana/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "TBD, TBD, Tijuana",
+      "hash_key": "devfest tijuana 2026_2026-11-13T20:00:00+00:00"
     },
     {
       "title": "GDG San Francisco de Campeche|DevFest Campeche 2026|México|",
