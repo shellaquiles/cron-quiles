@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-04T20:03:09.716122+00:00",
-  "total_events": 440,
+  "generated_at": "2026-09-05T02:02:44.536618+00:00",
+  "total_events": 441,
   "city": "Online",
   "communities": [
     {
@@ -93,6 +93,11 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
+          "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5192,7 +5197,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5756,7 +5761,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11907,7 +11912,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -12379,6 +12384,41 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "creando un juego arcade con antigravity _2026-09-05T20:00:00+00:00"
+    },
+    {
+      "title": "GDG CDMX|Introducción al Cálculo Infinitesimal & Avanzado|Online",
+      "description": "Explora el cálculo infinitesimal y avanzado con una revisión de derivadas y optimización. Aprende sobre el gradiente, su aplicación en IA y codifica el algoritmo de descenso del gradiente en Python. Visualiza convergencias usando Matplotlib y Seaborn. Ideal para quienes buscan comprender la minimización de funciones de error y cómo usar SciPy para la optimización matemática.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-introduccion-al-calculo-infinitesimal-amp-avanzado/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-introduccion-al-calculo-infinitesimal-amp-avanzado/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-09-05T19:00:00-06:00",
+      "dtend": "2026-09-05T20:00:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Career Development",
+        "Workshop / hands-on session",
+        "frontend",
+        "python"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "introduccin al clculo infinitesimal avan_2026-09-06T00:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Sept 9 - Physical AI Has a Data Problem. It Isn't Collection Workshop|Online",

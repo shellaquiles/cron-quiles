@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-04T20:03:09.868026+00:00",
-  "total_events": 27,
+  "generated_at": "2026-09-05T02:02:44.667469+00:00",
+  "total_events": 28,
   "city": "Jalisco",
   "communities": [
     {
@@ -839,6 +839,35 @@
       "city_code": "guadalajara",
       "address": "Calle Marsella 155-Int 105 A, Col Americana, Lafayette, 44160 Guadalajara, Jal., México",
       "hash_key": "vibe coding caf_2026-09-18T22:00:00+00:00"
+    },
+    {
+      "title": "Pythonistas GDL|Septiembre|México|Jalisco",
+      "description": "<ul><li><p style=\"margin:0.5em 0px;\">🚪 Recepción a partir de las 6:30</p></li><li><p style=\"margin:0.5em 0px;\">⏰ Evento 7:00</p></li><li><p style=\"margin:0.5em 0px;\">🗣️ Detección automática de interferencia gramatical L1 en producción escrita de hispanohablantes<br /><em>Un motor GED basado en gramática de valencias y grafos de dependencia</em><br /><strong>Ana Jazmín Sossa González</strong></p></li><li><p style=\"margin:0.5em 0px;\">🗣️ Segunda charla por definir</p></li><li><p style=\"margin:0.5em 0px;\">🪩 Networking </p></li></ul>",
+      "url": "https://reuniones.pythonistas-gdl.org/event/9/septiembre",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://reuniones.pythonistas-gdl.org/event/9/septiembre",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Slalom, Avenida Américas 1500, Piso 16, UP 9, Guadalajara, Jalisco, MX",
+      "online": false,
+      "organizer": "Pythonistas GDL",
+      "dtstart": "2026-09-26T00:30:00+00:00",
+      "dtend": "2026-09-26T04:00:00+00:00",
+      "tags": [
+        "python"
+      ],
+      "source": "https://reuniones.pythonistas-gdl.org/events/1/pythonistas-gdl",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Jalisco",
+      "state_code": "MX-JAL",
+      "city": "",
+      "city_code": "",
+      "address": "Slalom, Avenida Américas 1500, Piso 16, UP 9, Guadalajara, Jalisco, MX",
+      "hash_key": "septiembre_2026-09-26T00:00:00+00:00"
     }
   ]
 }
