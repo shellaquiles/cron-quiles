@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-06T01:57:42.497572+00:00",
-  "total_events": 442,
+  "generated_at": "2026-09-06T09:55:28.488675+00:00",
+  "total_events": 443,
   "city": "Online",
   "communities": [
     {
@@ -94,6 +94,11 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
+          "label": "Luma"
         }
       ]
     },
@@ -164,8 +169,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3247,7 +3257,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3412,7 +3422,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5187,7 +5197,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5751,7 +5761,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10567,7 +10577,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11902,7 +11912,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -13295,6 +13305,44 @@
       "hash_key": "devfest 2026 sureste de mxico_2026-11-11T14:00:00+00:00"
     },
     {
+      "title": "GDG Cloud Mexico City|DevFest 2026: Innovación en Inteligencia Artificial|México|",
+      "description": "DevFest 2026 invita a quienes desean explorar las tendencias en Inteligencia Artificial y su impacto en la sociedad. Conoce cómo los modelos de IA transforman industrias mediante proyectos innovadores. Es una oportunidad única para aprender, conectar y crecer en comunidad. Participa y forma parte del futuro de la tecnología. ¡Reserva tu lugar hoy!",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cloud-mexico-city-presents-devfest-2026-innovacion-en-inteligencia-artificial/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cloud-mexico-city-presents-devfest-2026-innovacion-en-inteligencia-artificial/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "México, Mexico, Mexico",
+      "online": false,
+      "organizer": "GDG Cloud Mexico City",
+      "dtstart": "2026-11-13T09:00:00-06:00",
+      "dtend": "2026-11-14T17:00:00-06:00",
+      "tags": [
+        "Build with AI",
+        "Community Building",
+        "Conference",
+        "DevFest",
+        "Google Cloud",
+        "Google Workspace",
+        "Networking",
+        "Tech Talk / Meetup",
+        "cloud",
+        "frontend"
+      ],
+      "source": "https://gdg.community.dev/gdg-cloud-mexico-city/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "México, Mexico, Mexico",
+      "hash_key": "devfest 2026 innovacin en inteligencia a_2026-11-13T14:00:00+00:00"
+    },
+    {
       "title": "GDG Tijuana|DevFest Tijuana 2026|México|",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
       "url": "https://gdg.community.dev/events/details/google-gdg-tijuana-presents-devfest-tijuana-2026/",
@@ -13398,7 +13446,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
