@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-10T02:08:32.528988+00:00",
-  "total_events": 450,
+  "generated_at": "2026-09-10T10:16:45.965093+00:00",
+  "total_events": 451,
   "city": "Online",
   "communities": [
     {
@@ -94,6 +94,11 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
+          "label": "Luma"
         }
       ]
     },
@@ -164,8 +169,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3258,7 +3268,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3423,7 +3433,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5198,7 +5208,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5762,7 +5772,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10578,7 +10588,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11913,7 +11923,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -13627,6 +13637,40 @@
       "hash_key": "devfest 2026_2026-11-21T14:00:00+00:00"
     },
     {
+      "title": "GDG CDMX|Devfest 2026: Ciudad de México|México|",
+      "description": "Devfest 2026 en la Ciudad de México es el evento imperdible para desarrolladores, entusiastas de la tecnología e innovadores. Explora nuevas fronteras tecnológicas y conecta con otros apasionados. Únete a esta inspiradora comunidad y descubre las emocionantes propuestas. Reserva tu lugar hoy para no perder esta oportunidad única.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-devfest-2026-ciudad-de-mexico/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-devfest-2026-ciudad-de-mexico/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Tecnológico de Monterrey, Campus Ciudad de México, Prolongación Canal de Miramontes, Ciudad de México",
+      "online": false,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-12-07T08:00:00-06:00",
+      "dtend": "2026-12-07T21:00:00-06:00",
+      "tags": [
+        "AI",
+        "Community Building",
+        "DevFest",
+        "Google Cloud",
+        "Google Workspace",
+        "Web"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Tecnológico de Monterrey, Campus Ciudad de México, Prolongación Canal de Miramontes, Ciudad de México",
+      "hash_key": "devfest 2026 ciudad de mxico_2026-12-07T14:00:00+00:00"
+    },
+    {
       "title": "CHIDAS TECH|Networking 101: Fundamentos de Redes|Online",
       "description": "Get up-to-date information at: https://luma.com/nc2fac44\n\nHosted by CHIDAS TECH",
       "url": "https://luma.com/nc2fac44",
@@ -13670,7 +13714,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
