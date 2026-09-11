@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-11T02:05:26.148840+00:00",
-  "total_events": 796,
+  "generated_at": "2026-09-11T10:14:50.097300+00:00",
+  "total_events": 797,
   "city": "México",
   "communities": [
     {
@@ -10174,7 +10174,7 @@
         "ai",
         "backend"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -22830,6 +22830,36 @@
       "hash_key": "to be announced por anunciar_2026-09-16T00:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|PDX AI Expo: Final Webinar (w/ The AI Collective)|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-kul-20260917\n\nHosted by The AI Collective & Jean Ng",
+      "url": "https://luma.com/aic-kul-20260917",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-kul-20260917",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-toSVAwuemlzTGVJ",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-09-17T01:00:00+00:00",
+      "dtend": "2026-09-17T04:00:00+00:00",
+      "tags": [
+        "ai",
+        "web"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-toSVAwuemlzTGVJ",
+      "hash_key": "pdx ai expo final webinar w the ai colle_2026-09-17T00:00:00+00:00"
+    },
+    {
       "title": "Kong Mexico City|Migrating from Ingress to Gateway API on Kubernetes|Online",
       "description": "Kong/MEXICO-CITY\nKubernetes SIG Network retired Ingress NGINX this spring; best-effort maintenance ended in March 2026, and the project is now archived, with no more releases, bugfixes, or security patches. For any platform team still running it, that's not a future risk, it's a current one. It's forcing a shift that's been coming anyway: the Ingress API is stable and feature-frozen, while the Gateway API is emerging as the standard for expressive, role-based traffic management.\n\nThis session shows platform engineers and SREs how to migrate from Ingress to Gateway API, using Kong Operator as the reference implementation, including a live demo converting a production-style Ingress resource with Kong's open-source ingress2gateway tool and running it side-by-side with zero downtime.\n\nWe'll cover:\n\n* How the Gateway API's role-based model (GatewayClass, Gateway, HTTPRoute) splits responsibilities between platform and application teams, and why it succeeds where Ingress annotations hit their limits\n* A phased, zero-downtime cutover pattern: converting existing rules with ingress2gateway and running Ingress and Gateway API side by side until you're confident in the switch\n* How Kong Operator automates day-2 operations — certificate rotation, latency-based autoscaling, zero-downtime upgrades — once you're standardized on Gateway API\n\nYou'll leave with a concrete migration pattern you can start applying to your own cluster right away.",
       "url": "https://www.meetup.com/kong-mexico-city/events/316387546/",
@@ -22932,7 +22962,7 @@
     },
     {
       "title": "Claude Community|Mexico City  -  Claude Build Day|México|México",
-      "description": "Get up-to-date information at: https://luma.com/claudemexicocitybuildday\n\nAddress:\nUniversidad Iberoamericana Ciudad de México\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega & Andrés Guillermo Molano",
+      "description": "Get up-to-date information at: https://luma.com/claudemexicocitybuildday\n\nAddress:\nUniversidad Iberoamericana Ciudad de México\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega, Andrés Guillermo Molano & Ingeniería para la Innovación - IBERO",
       "url": "https://luma.com/claudemexicocitybuildday",
       "sources": [
         {
