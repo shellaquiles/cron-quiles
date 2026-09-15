@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-15T15:56:10.892835+00:00",
-  "total_events": 459,
+  "generated_at": "2026-09-15T20:40:12.688201+00:00",
+  "total_events": 461,
   "city": "Online",
   "communities": [
     {
@@ -94,6 +94,11 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
+          "label": "Luma"
         }
       ]
     },
@@ -164,13 +169,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -316,6 +316,17 @@
         {
           "platform": "website",
           "url": "https://gdg.community.dev/gdg-san-francisco-de-campeche/",
+          "label": "Sitio web"
+        }
+      ]
+    },
+    {
+      "name": "GDG Tepic",
+      "description": "GDG Tepic is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg",
+      "links": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/gdg-tepic/",
           "label": "Sitio web"
         }
       ]
@@ -3263,7 +3274,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3428,7 +3439,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5203,7 +5214,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5767,7 +5778,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10583,7 +10594,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11918,7 +11929,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -13210,6 +13221,36 @@
       "hash_key": "lunch hack ai agents vs agentic workflow_2026-09-24T16:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|Building Brands AI Can't Fake|Online",
+      "description": "Get up-to-date information at: https://luma.com/5a5dpr2w\n\nHosted by Cat Valverde & 3 others",
+      "url": "https://luma.com/5a5dpr2w",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/5a5dpr2w",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-CwB24PAcnCrnB2j",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-09-24T18:00:00+00:00",
+      "dtend": "2026-09-24T19:00:00+00:00",
+      "tags": [
+        "ai",
+        "frontend"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-CwB24PAcnCrnB2j",
+      "hash_key": "building brands ai can t fake_2026-09-24T18:00:00+00:00"
+    },
+    {
       "title": "Rust-AICollective|Practical AI at Work: Create a \"Write Emails Like Me\" Skill|Online",
       "description": "Get up-to-date information at: https://luma.com/xb9vlwe9\n\nHosted by Bill Raymond & The AI Collective",
       "url": "https://luma.com/xb9vlwe9",
@@ -13570,6 +13611,35 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-VqJLcNRFMluK5qx",
       "hash_key": "can ai help prevent toxic relationships _2026-10-14T16:00:00+00:00"
+    },
+    {
+      "title": "GDG Tepic|Dev Fest 2026: Collaborative Innovation|México|",
+      "description": "Dev Fest 2026 brings together GDG Tepic and Instituto Tecnológico de Tepic's Computer Systems Engineering department for a day of innovation and collaboration. Engage in workshops and networking with developers and tech enthusiasts. Be at the forefront of technology in Tepic by securing your spot today.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-tepic-presents-dev-fest-2026-collaborative-innovation/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-tepic-presents-dev-fest-2026-collaborative-innovation/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Museo interactivo de ciencias e innovación de Nayarit, s/n Avenida de la Salud, Tepic",
+      "online": false,
+      "organizer": "GDG Tepic",
+      "dtstart": "2026-10-15T12:30:00-07:00",
+      "dtend": "2026-10-17T16:30:00-07:00",
+      "tags": [
+        "security"
+      ],
+      "source": "https://gdg.community.dev/gdg-tepic/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Museo interactivo de ciencias e innovación de Nayarit, s/n Avenida de la Salud, Tepic",
+      "hash_key": "dev fest 2026 collaborative innovation_2026-10-15T18:00:00+00:00"
     },
     {
       "title": "GDG Villahermosa|Devfest 2026: Congreso Internacional de Informática y Sistemas DACYTI|México|",
@@ -13959,7 +14029,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
