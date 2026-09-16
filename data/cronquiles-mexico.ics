@@ -13617,6 +13617,49 @@ X-CRONQUILES-STATE:Jalisco
 X-CRONQUILES-STATE-CODE:MX-JAL
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Pythonistas GDL|Septiembre: Lingüística Computacional y Agentes 
+ de IA|México|Jalisco
+DTSTART:20260926T003000Z
+CATEGORIES:cloud,python
+DESCRIPTION:<ul><li><p style="margin:0.5em 0px\;">🚪 Recepción a partir
+  de las 6:30</p></li><li><p style="margin:0.5em 0px\;">⏰ Evento 7:00</p>
+ </li><li><p style="margin:0.5em 0px\;">🗣️ Detección automática de i
+ nterferencia gramatical L1 en producción escrita de hispanohablantes<br /
+ ><em>Un motor GED basado en gramática de valencias y grafos de dependenci
+ a</em><br /><strong>Ana Jazmín Sossa González</strong></p></li><li><p st
+ yle="margin:0.5em 0px\;">🗣️ Python + GCP + ADK<br /><em>Introducción
+  casual a Gemini Enterprise Agent Platform</em><br /><strong>Adrián Espin
+ oza</strong></p></li><li><p style="margin:0.5em 0px\;">🪩 Networking <sp
+ an style="color:rgba(0\,0\,0\,0.9)\;"> Python + GCP + ADK</span></p></li>
+ </ul>
+LOCATION:Slalom\, Avenida Américas 1500\, Piso 16\, UP 9\, Guadalajara\, 
+ Jalisco\, MX
+X-CRONQUILES-ADDRESS:Slalom\, Avenida Américas 1500\, Piso 16\, UP 9\, Gu
+ adalajara\, Jalisco\, MX
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Jalisco
+X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GDG Tijuana|Pruebas de seguridad OWASP con GitHub Actions y Playwr
+ ight|México|
+DTSTART:20260925T190029
+CATEGORIES:frontend,web
+DESCRIPTION:El Google Developer Group Tijuana invita al taller sobre cómo
+  integrar pruebas de seguridad en el desarrollo de aplicaciones web usando
+  OWASP\, Playwright y GitHub Actions. Guiado por Marco Maldonado\, aprende
+ rás a automatizar pruebas de seguridad y a mejorar la seguridad desde el 
+ desarrollo. Únete a desarrolladores de todos los niveles el 25 de septiem
+ bre de 2026 a las 7:00 PM en el Winchester Pub.
+LOCATION:Winchester Pub\, Av. Revolución 930\, Zona Centro\, 22000 Tijuan
+ a\, B.C.\, Tijuana
+X-CRONQUILES-ADDRESS:Winchester Pub\, Av. Revolución 930\, Zona Centro\, 
+ 22000 Tijuana\, B.C.\, Tijuana
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Sept
   30 - Building Composable Vision Workflows in FiftyOne|Online
 DTSTART:20260930T100000
@@ -13830,6 +13873,74 @@ LOCATION:https://luma.com/event/evt-VqJLcNRFMluK5qx
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-VqJLcNRFMluK5qx
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Oct 
+ 15 - AI\, ML\, and Computer Vision Meetup|Online
+DTSTART:20261015T100000
+CATEGORIES:ai,backend,cloud,data,frontend,security
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nJoin our virtual meetup to hear talks from experts on cutting-edge topics
+  across AI\, ML\, and computer vision.\n\n**Time\, Place and Location**\n\
+ nOct 15\, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!]
+ (https://voxel51.com/events/ai-ml-and-computer-vision-meetup-october-15-20
+ 26)**\n\n**Testing AI Systems in Production: Data Quality\, Drift\, and Mo
+ del Evaluation**\n\nAI systems can pass offline evaluation and still fail 
+ in production when real-world data changes\, features become stale\, label
+ s or feedback signals are incomplete\, or model behavior drifts away from 
+ expected outcomes. This talk shares practical patterns for testing and eva
+ luating AI systems after deployment\, including data quality checks\, drif
+ t detection\, online/offline metric comparison\, model monitoring\, and ro
+ llback analysis.\n\nUsing personalization and recommendation systems as ex
+ amples\, we will examine how teams can build evaluation workflows that cat
+ ch quality issues before users do. Attendees will leave with a practical c
+ hecklist for making AI-backed systems easier to evaluate\, debug\, and ope
+ rate as data changes over time.\n\n*About the Speaker*\n\n[Jayakumar Ramal
+ ingam](https://www.linkedin.com/in/jayakumarramalingam) is a Staff Softwar
+ e Engineer and Cloud Architect at SiriusXM with over 16 years of experienc
+ e building cloud-native platforms\, real-time data pipelines\, resilient A
+ PIs\, and AI/ML-enabled applications at production scale.\n\n**Where Shoul
+ d Your Model Live? A Framework for Tiering Computer Vision Deployments**\n
+ \nWhere should a computer vision model actually run - on-device\, near the
+  edge\, or in the cloud? It's a decision that looks simple until requireme
+ nts like latency\, cost\, connectivity\, and update cadence start pulling 
+ in different directions\, often revealing themselves only after deployment
+ .\n\nDrawing on hands-on experience developing and deploying CV models acr
+ oss Hailo\, Nvidia\, Qualcomm and AWS platforms\, this talk introduces a p
+ ractical framework for tiering computer vision deployments based on real p
+ roject requirements and constraints. Discussion will include what changes 
+ at each tier - from development to deployment to monitoring and update str
+ ategy - with relevant industry examples.\n\nAttendees will leave with a se
+ t of questions or a framework they can use to place their own CV projects 
+ into the right tier.\n\n*About the Speaker*\n\n[Ajaykumaar Sivacoumare](ht
+ tps://www.linkedin.com/in/ajay-sa/) is an AI Software Engineer specializin
+ g in computer vision and edge AI\, with production experience developing a
+ nd deploying CV models across Nvidia\, Hailo\, Qualcomm and AWS-based plat
+ forms.\n\n**From 2D Slices to 3D Tumors: Lightweight Volumetric Detection 
+ Without Heavy 3D Networks**\n\nSlice-wise 2D detectors are fast and scalab
+ le\, but they struggle to produce reliable 3D bounding boxes from volumetr
+ ic medical data. This talk presents YOLO-PVC\, a lightweight post-processi
+ ng framework that consolidates slice-wise YOLO detections into coherent 3D
+  bounding boxes using percentile-based geometric aggregation and a minimal
+  MLP calibration module.\n\nThis talk demonstrates consistent improvements
+  in volumetric IoU across three liver tumor categories i.e.\, HCC\, CCA\, 
+ and Mixed\, without requiring dense 3D annotations or memory-intensive arc
+ hitectures. The talk covers the clinical motivation\, the technical approa
+ ch\, and practical lessons from deploying computer vision on real hospital
+  MRI data.\n\n*About the Speaker*\n\n[Talha Waqas](https://www.linkedin.co
+ m/in/mtalha-waqas-255557144/) is a second-year PhD student at ESME Researc
+ h Lab\, Paris and LISSI\, Université Paris-Est\, working on computer visi
+ on applied to medical imaging\, with a focus on tumor classification\, det
+ ection\, and segmentation in multi-phase liver MRI.\n\n**The Two-Loop Arch
+ itecture for Voice AI**\n\nBuilding responsive voice AI requires balancing
+  latency with intelligence. This talk introduces a practical architecture 
+ that separates real-time conversation from asynchronous reasoning\, enabli
+ ng richer interactions without slowing the user experience. The session co
+ vers reusable design patterns drawn from production-inspired conversationa
+ l AI systems.\n\n*About the Speaker*\n\n[Abhinav Tushar](https://lepisma.x
+ yz/wiki/about/) is an ML engineer and researcher specializing in Conversat
+ ional AI and Speech Technology.
+LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:GDG Tepic|Dev Fest 2026: Collaborative Innovation|México|
 DTSTART:20261015T123000
 CATEGORIES:security
@@ -14034,6 +14145,81 @@ LOCATION:Por Definir\, Villahermosa\, Villahermosa
 X-CRONQUILES-ADDRESS:Por Definir\, Villahermosa\, Villahermosa
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Nov 
+ 11 - AI\, ML and Computer Vision Meetup|Online
+DTSTART:20261111T110000
+CATEGORIES:ai,backend,data,frontend,security
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nJoin our virtual meetup to hear talks from experts on cutting-edge topics
+  across AI\, ML\, and computer vision.\n\n**Time\, Date and Location**\n\n
+ Nov 11\, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](
+ https://voxel51.com/events/ai-ml-and-computer-vision-meetup-november-11-20
+ 26)**\n\n**Agentic RAG: Beyond Retrieve-and-Generate**\n\nRetrieval-Augmen
+ ted Generation (RAG) has become the default pattern for grounding large la
+ nguage models in external knowledge\, but most implementations still follo
+ w a rigid retrieve-once\, generate-once pipeline — one that struggles wi
+ th multi-hop questions\, ambiguous queries\, and knowing when its own retr
+ ieved context is insufficient. This talk introduces Agentic RAG\, where re
+ trieval is treated as an action within an agent's reasoning loop rather th
+ an a fixed upstream step.\n\nWe'll examine query decomposition and routing
+  for breaking complex questions into targeted sub-queries\, self-reflectiv
+ e and corrective retrieval loops that let an agent judge and re-query its 
+ own results\, and tool-orchestration patterns (via MCP) that let retrieval
+  sit alongside other agent actions like database lookups and API calls. Us
+ ing a live architecture — evolving a standard RAG chatbot into an agenti
+ c\, MCP-connected system — we'll walk through what changes in design\, a
+ nd where these systems introduce new failure modes: grounding drift\, late
+ ncy and cost from repeated retrieval loops\, and cases where a simpler RAG
+  pipeline still wins.\n\nAttendees will leave with a practical framework f
+ or deciding when the added complexity of agentic RAG is worth it\, and a s
+ et of design patterns for building it correctly.\n\n*About the Speaker*\n\
+ n[Balaji Venkatasubramaniyar](https://www.linkedin.com/in/balaji-venkatasu
+ bramaniyar/) is a Technical Lead at Wisdom Infotech\, leading a 15+ person
+  engineering team delivering enterprise solutions. With 13+ years of exper
+ ience in enterprise software and insurance technology\, he specializes in 
+ agentic AI systems\, RAG architectures\, and vector databases.\n\n**GeoAI 
+ for the Physical World: Earth Observation\, Foundation Models\, and Urban 
+ Digital Twins**\n\nEarth observation provides a unique form of computer vi
+ sion for understanding the physical world at city to continental scales. I
+ n this talk\, I will show how satellite imagery\, geospatial data\, machin
+ e learning\, and foundation-model representations can be combined to chara
+ cterize urban environments and environmental conditions.\n\nI will present
+  UrbanScope Open\, an open GeoAI digital-twin prototype integrating Earth 
+ observation with 3D buildings\, vegetation\, land-surface temperature\, ai
+ r quality\, noise\, population\, and other urban data. I will also share l
+ essons from my research using geospatial foundation-model embeddings for e
+ nvironmental prediction across Europe.\n\nThe talk will discuss how these 
+ approaches can contribute to increasingly multimodal AI systems capable of
+  reasoning about real-world environments.\n\n*About the Speaker*\n\n[Cesar
+  Alvarez](https://voxel51.com/events/cesar.alvarez@uni-a.de) is a research
+ er at the University of Augsburg working at the intersection of GeoAI\, Ea
+ rth observation\, remote sensing\, and environmental intelligence. His res
+ earch applies machine learning\, computer vision\, and geospatial foundati
+ on models to problems including urban environments\, climate risk\, air qu
+ ality\, and agriculture.\n\n**Can agents get curious?**\n\nMost AI agents 
+ are good at answering a question once we tell them exactly what to look fo
+ r. The harder problem is building agents that can explore a complex datase
+ t autonomously: generating hypotheses\, deciding which analyses are worth 
+ running\, allocating additional compute when evidence is ambiguous\, and k
+ nowing when they have enough evidence to stop.\n\nIn this talk\, I’ll sh
+ ow an architecture for autonomous research agents that combines structured
+  knowledge\, iterative tool use\, and explicit evidence tracking to turn o
+ pen-ended questions into a sequence of testable investigations. I’ll dis
+ cuss practical lessons from building and evaluating these systems\, includ
+ ing why more test-time compute does not automatically produce better resea
+ rch and how provenance and evaluation can make long-running agents more re
+ liable.\n\nI’ll close with a live example of an agent exploring a datase
+ t\, revising its hypotheses\, and choosing what to investigate next.\n\n*A
+ bout the Speaker*\n\n[Srivatsa P](https://www.linkedin.com/in/srivatsa-p) 
+ is a member of technical staff at Sigma Computing\, where he works on AI a
+ gents that reason over complex enterprise data. Previously\, he worked on 
+ machine learning at Apple and conducted research at the MIT Media Lab\; ou
+ tside of traditional ML\, he has also worked on mapping coral reefs throug
+ h underwater imaging\, which sparked an enduring interest in how intellige
+ nt systems make sense of messy real-world data.
+LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GDG Cloud Mexico City|DevFest 2026: Innovación en Inteligencia Ar
