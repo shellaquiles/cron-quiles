@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-17T15:54:26.427853+00:00",
-  "total_events": 467,
+  "generated_at": "2026-09-17T20:46:31.875091+00:00",
+  "total_events": 468,
   "city": "Online",
   "communities": [
     {
@@ -93,11 +93,6 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
-          "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5219,7 +5214,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5783,7 +5778,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11934,7 +11929,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -13710,6 +13705,35 @@
       "city_code": "",
       "address": "",
       "hash_key": "oct 8 mcp agents and skills meetup meetu_2026-10-08T16:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|Lunch & Hack: SF Tech Week Special (w/ The AI Collective)|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-gl-10-8\n\nHosted by The AI Collective & Adelina Martiniuc",
+      "url": "https://luma.com/aic-gl-10-8",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-gl-10-8",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-hNNr1fqTW4kqq40",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-10-08T18:00:00+00:00",
+      "dtend": "2026-10-08T19:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-hNNr1fqTW4kqq40",
+      "hash_key": "lunch hack sf tech week special w the ai_2026-10-08T18:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|Can AI Help Prevent Toxic Relationships and Gender-Based Violence? Lessons from Finland and Brazil|Online",
