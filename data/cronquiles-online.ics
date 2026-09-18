@@ -7338,6 +7338,70 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
 LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Oct 
+ 1 - APAC AI\, ML and Computer Vision Meetup|Online
+DTSTART:20261001T190000
+CATEGORIES:ai,frontend,security
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nJoin our APAC time-zone friendly virtual meetup to hear talks from expert
+ s on cutting-edge topics across AI\, ML\, and computer vision.\n\n**Time\,
+  Date and Location**\n\nOct 1\, 2026\n6:00 PM - 8:00 PM PDT\nOnline. **[Re
+ gister for the Zoom!](https://voxel51.com/events/apac-ai-ml-and-computer-v
+ ision-meetup-october-1-2026)**\n\n**Beyond Exact Matches: Detecting Modifi
+ ed 3D Assets at Marketplace Scale**\n\nHow can a marketplace identify copi
+ ed 3D assets when their orientation\, geometry\, or composition has change
+ d? Drawing on my work in 3D content understanding at Roblox\, this talk wi
+ ll explore multi-view and rotation-invariant representations for similarit
+ y and duplicate detection\, including the challenges posed by deformed and
+  fragmented copies.\nIt will examine how geometric and semantic signals ca
+ n complement one another\, and discuss practical trade-offs in evaluating 
+ detection quality and deploying these methods at scale. The presentation w
+ ill draw on published patent applications and publicly shareable examples 
+ to offer practical lessons for engineers building visual search\, content-
+ understanding\, and marketplace-safety systems.\n\n*About the Speaker*\n\n
+ [Phani Harish Wajjala](https://www.linkedin.com/in/harish-wajjala-81a47119
+ /) is a Principal Machine Learning Engineer at Roblox specializing in 3D c
+ omputer vision\, multimodal AI\, and large-scale content understanding.\n\
+ n**Sign Language: Towards Sign Understanding for Robot Autonomy**\n\nNavig
+ ational signs are common aids for human wayfinding and scene understanding
+ \, but are underutilized by robots. We argue that they benefit robot navig
+ ation and scene understanding\, by directly encoding privileged informatio
+ n on actions\, spatial regions\, and relations.\n\nInterpreting signs in o
+ pen-world settings remains a challenge owing to the complexity of scenes a
+ nd signs\, but recent advances in vision-language models (VLMs) make this 
+ feasible. To advance progress in this area\, we introduce the task of visu
+ al sign grounding\, which parses locations and associated directions from 
+ signs\, and maps them to region in the sign’s local environment.\n\nAddi
+ tionally\, we present a baseline approach using VLMs\, and demonstrate the
+ ir promise on the task. We also outline different applications\, such as l
+ ocalization and navigation\, which benefit from the spatial-symbolic infor
+ mation encoded by navigational signs.\n\n*About the Speaker*\n\n[Nicky Zim
+ merman](https://www.linkedin.com/in/nicky-zimmerman-41b71694/) I am a post
+ doctoral researcher in NUS\, working on open world navigation. My PhD thes
+ is focused on human-inspired strategies for semantic localization and mapp
+ ing. Previously\, I worked as computer vision algorithm developer in Gener
+ al Motors and Intel.\n\n**MeMo: Memory as a Model**\n\nLarge language mode
+ ls (LLMs) achieve strong performance across a wide range of tasks\, but re
+ main frozen after pretraining until subsequent updates. Many real-world ap
+ plications require timely\, domain-specific information\, motivating the n
+ eed for efficient mechanisms to incorporate new knowledge.\n\nIn this pape
+ r\, we introduce MeMo (Memory as a Model)\, a modular framework that encod
+ es new knowledge into a dedicated Memory model while keeping the LLM uncha
+ nged. Compared to existing methods\, MeMo offers several advantages: (a) i
+ t captures complex cross-document relationships\, (b) it is robust to retr
+ ieval noise\, (c) it avoids catastrophic forgetting in the LLM\, (d) it do
+ es not require access to the LLM’s weights or output logits that enablin
+ g plug-and-play integration with both open and proprietary LLMs\, and (e) 
+ its retrieval cost is independent of corpus size at inference time.\n\nOur
+  experiments on three benchmarks\, BrowseComp-Plus\, NarrativeQA\, and MuS
+ iQue\, show that MeMo achieves strong performance compared to existing met
+ hods across diverse settings.\n\n*About the Speaker*\n\n[Arun Verma](https
+ ://www.linkedin.com/in/arunverma100) is a Postdoctoral Associate at the Si
+ ngapore-MIT Alliance for Research and Technology Centre\, where he works w
+ ith Daniela Rus\, Armando Solar-Lezama\, and Bryan Low.
+LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rust-AICollective|AI HR Forum #03: Do You Need a Chief AI Officer?
   (w/ AI Collective KC) (w/ The AI Collective)|Online
 DTSTART:20261005T170000Z
