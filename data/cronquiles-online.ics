@@ -7903,6 +7903,32 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Nov 
+ 19 - Visualizing and Debugging Hugging Face's LeRobot Data|Online
+DTSTART:20261119T110000
+CATEGORIES:ai,data
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nThis workshop is a hands-on tour of what actually breaks when you load re
+ al LeRobot datasets\, and how Voxel51's native LeRobot support in FiftyOne
+  catches it.\n\n**Date\, Time and Location**\n\nNov 19\, 2026\n9:00 AM - 1
+ 0:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events
+ /lerobot-workshop-november-19-2026)**\n\nRobot learning data doesn't look 
+ like the data that trains most vision-language models. It's temporal\, low
+ -dimensional in the parts that matter most\, embodiment-specific\, and exp
+ ensive to collect\, and increasingly\, it's shipped in Hugging Face's LeRo
+ bot format. But packaging robot data consistently isn't the same as being 
+ able to see it: episodes hide broken metadata\, silently dropped sensor mo
+ dalities\, and mismatched schemas between robots that look identical on pa
+ per.\n\nStarting from the core differences that make robot data hard (temp
+ oral structure\, proprioception\, action grounding\, embodiment heterogene
+ ity\, data scarcity)\, we'll move into live debugging: a metadata bug that
+  broke multiple dataset imports\, sensor streams that vanish without an er
+ ror\, and two robots running an identical benchmark whose data is structur
+ ally incompatible. By the end\, you'll know what to check before you trust
+  a LeRobot dataset\, and how to actually look inside one.
+LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:GDG Guadalajara|DevFest 2026|México|
 DTSTART:20261121T090000
 CATEGORIES:AI,Android,Career Development,Community Building,Conference,Dev
