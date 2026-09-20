@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-20T15:07:08.594099+00:00",
-  "total_events": 473,
+  "generated_at": "2026-09-20T20:00:05.894477+00:00",
+  "total_events": 474,
   "city": "Online",
   "communities": [
     {
@@ -164,8 +164,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -245,6 +250,17 @@
         {
           "platform": "website",
           "url": "https://gdg.community.dev/gdg-cdmx/",
+          "label": "Sitio web"
+        }
+      ]
+    },
+    {
+      "name": "GDG Cancún",
+      "description": "Disclaimer: GDG Cancún is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg/",
+      "links": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/gdg-cancun/",
           "label": "Sitio web"
         }
       ]
@@ -3269,7 +3285,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3434,7 +3450,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10589,7 +10605,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14278,6 +14294,38 @@
       "hash_key": "nov 19 visualizing and debugging hugging_2026-11-19T16:00:00+00:00"
     },
     {
+      "title": "GDG Cancún|DevFest Cancún 2026|México|",
+      "description": "DevFest Cancún 2026, organized by GDG Cancún, gathers developers, students, tech professionals, and innovation enthusiasts at Universidad del Caribe on November 20, 2026. Join to explore AI, Cloud, Web, Mobile, and more through talks, tech sessions, and networking. This global Google Developer Groups event welcomes learners of all levels to share, innovate, and connect.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cancun-presents-devfest-cancun-2026/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cancun-presents-devfest-cancun-2026/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Universidad del Caribe, reg 78, Cancún",
+      "online": false,
+      "organizer": "GDG Cancún",
+      "dtstart": "2026-11-20T09:00:00-05:00",
+      "dtend": "2026-11-20T17:00:00-05:00",
+      "tags": [
+        "ai",
+        "cloud",
+        "mobile",
+        "web"
+      ],
+      "source": "https://gdg.community.dev/gdg-cancun/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Universidad del Caribe, reg 78, Cancún",
+      "hash_key": "devfest cancn 2026_2026-11-20T14:00:00+00:00"
+    },
+    {
       "title": "GDG Guadalajara|DevFest 2026|México|",
       "description": "Join the second edition of DevFest in Guadalajara, a hub for technology enthusiasts and professionals focused on AI, Cloud, and web development. Discover the latest trends and connect with a vibrant community eager to learn and grow together. Don't miss out—register today and embark on your journey to innovation!",
       "url": "https://gdg.community.dev/events/details/google-gdg-guadalajara-presents-devfest-2026/",
@@ -14403,7 +14451,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
