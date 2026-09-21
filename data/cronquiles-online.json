@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-21T11:28:08.029177+00:00",
-  "total_events": 474,
+  "generated_at": "2026-09-21T17:27:08.103806+00:00",
+  "total_events": 475,
   "city": "Online",
   "communities": [
     {
@@ -93,6 +93,11 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
+          "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5225,7 +5230,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5789,7 +5794,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11940,7 +11945,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -13506,6 +13511,36 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-AtOS7XkIN1npkr7",
       "hash_key": "building enterprise ai agents with micro_2026-09-26T12:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|Search, redesigned: What AI Means for Shopping (w/ The AI Collective)|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-sw-9-30\n\nHosted by The AI Collective & 4 others",
+      "url": "https://luma.com/aic-sw-9-30",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-sw-9-30",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-Tip5W8wqgxA4onA",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-09-30T09:30:00+00:00",
+      "dtend": "2026-09-30T10:30:00+00:00",
+      "tags": [
+        "ai",
+        "frontend"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-Tip5W8wqgxA4onA",
+      "hash_key": "search redesigned what ai means for shop_2026-09-30T08:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|AI and the Future of Humanity: What Could the ‘AI Destroys Humanity’ Debate Mean for the Global South?|Online",
