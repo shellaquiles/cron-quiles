@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-22T02:27:08.561887+00:00",
-  "total_events": 44,
+  "generated_at": "2026-09-22T10:36:23.679943+00:00",
+  "total_events": 45,
   "city": "México",
   "communities": [
     {
@@ -17,11 +17,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -35,6 +35,17 @@
       "name": "Python CDMX",
       "description": "Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles.",
       "links": []
+    },
+    {
+      "name": "Rust-AICollective",
+      "description": "Comunidad de Rust y AI en Ciudad de México. Eventos sobre desarrollo en Rust, inteligencia artificial y desafíos técnicos.",
+      "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/rust-ios-ai",
+          "label": "Luma"
+        }
+      ]
     },
     {
       "name": "The Data Pub",
@@ -699,7 +710,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -1244,6 +1255,35 @@
       "city_code": "",
       "address": "",
       "hash_key": "data pub septiembre 2026_2026-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|Hack for Humanity: Carmen-Campeche|México|México",
+      "description": "Get up-to-date information at: https://luma.com/h4h-campeche\n\nAddress:\nCentro de Tecnologías de Información\nCiudad del Carmen, Mexico\n\nHosted by AJ Green & 6 others",
+      "url": "https://luma.com/h4h-campeche",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/h4h-campeche",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Centro de Tecnologías de Información, Av. Aviacion s/n, Petrolera, 24179 Cdad. del Carmen, Camp., Mexico",
+      "online": false,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-10-15T16:00:00+00:00",
+      "dtend": "2026-10-15T22:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Centro de Tecnologías de Información, Av. Aviacion s/n, Petrolera, 24179 Cdad. del Carmen, Camp., Mexico",
+      "hash_key": "hack for humanity carmen campeche_2026-10-15T16:00:00+00:00"
     },
     {
       "title": "Claude Community|Mexico City  -  Claude for AI Engineering|México|México",
