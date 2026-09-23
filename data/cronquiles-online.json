@@ -1,6 +1,6 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-23T15:48:20.392376+00:00",
+  "generated_at": "2026-09-23T20:52:36.487360+00:00",
   "total_events": 481,
   "city": "Online",
   "communities": [
@@ -93,11 +93,6 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
-          "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5230,7 +5225,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5794,7 +5789,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11945,7 +11940,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14114,6 +14109,10 @@
       "dtstart": "2026-10-15T12:30:00-07:00",
       "dtend": "2026-10-17T16:30:00-07:00",
       "tags": [
+        "AI",
+        "AI - Gemini",
+        "DevFest",
+        "Google Cloud",
         "security"
       ],
       "source": "https://gdg.community.dev/gdg-tepic/",
@@ -14538,6 +14537,10 @@
       "dtstart": "2026-11-20T09:00:00-05:00",
       "dtend": "2026-11-20T17:00:00-05:00",
       "tags": [
+        "AI",
+        "AI - Gemini",
+        "DevFest",
+        "Google Cloud",
         "ai",
         "cloud",
         "mobile",
