@@ -1,6 +1,6 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-24T10:46:05.824467+00:00",
+  "generated_at": "2026-09-24T16:09:50.386537+00:00",
   "total_events": 51,
   "city": "México",
   "communities": [
@@ -17,11 +17,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -710,7 +710,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -1532,7 +1532,7 @@
     },
     {
       "title": "Claude Community|Monterrey  -  Claude for Manufacturing & Industry 4.0|México|México",
-      "description": "Get up-to-date information at: https://luma.com/claudemonterrey\n\nAddress:\nEXPEDITION FEMSA\nMonterrey, Mexico\n\nHosted by Ricardo Lira de la Vega",
+      "description": "Get up-to-date information at: https://luma.com/claudemonterrey\n\nAddress:\nEXPEDITION FEMSA\nMonterrey, Mexico\n\nHosted by Ricardo Lira de la Vega & Desarrollo Tecnológico · Secretaría de Economía Nuevo León",
       "url": "https://luma.com/claudemonterrey",
       "sources": [
         {
@@ -1546,7 +1546,9 @@
       "organizer": "Claude Community",
       "dtstart": "2026-11-23T16:00:00+00:00",
       "dtend": "2026-11-23T21:30:00+00:00",
-      "tags": [],
+      "tags": [
+        "security"
+      ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
       "country": "México",
       "country_code": "MX",
