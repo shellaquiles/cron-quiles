@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-24T16:09:50.073179+00:00",
-  "total_events": 838,
+  "generated_at": "2026-09-24T20:57:02.761044+00:00",
+  "total_events": 839,
   "city": "México",
   "communities": [
     {
@@ -10174,7 +10174,7 @@
         "ai",
         "backend"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -24650,6 +24650,7 @@
         "AI - Gemini",
         "DevFest",
         "Google Cloud",
+        "Workshop / hands-on session",
         "security"
       ],
       "source": "https://gdg.community.dev/gdg-tepic/",
@@ -24856,11 +24857,13 @@
       "dtend": "2026-10-22T18:00:00-06:00",
       "tags": [
         "AI",
+        "AI - Gemini",
         "Angular",
         "Build with AI",
         "Career Development",
         "Conference",
         "DevFest",
+        "Google Cloud",
         "Hackathon",
         "Tech Talk / Meetup",
         "UX / UI Design",
@@ -25152,6 +25155,7 @@
       "dtend": "2026-11-13T13:00:00-06:00",
       "tags": [
         "AI",
+        "AI - Gemini",
         "Conference",
         "DevFest",
         "Google Cloud",
@@ -25246,6 +25250,8 @@
       "dtstart": "2026-11-13T09:00:00-06:00",
       "dtend": "2026-11-14T17:00:00-06:00",
       "tags": [
+        "AI",
+        "AI - Gemini",
         "Build with AI",
         "Community Building",
         "Conference",
@@ -25254,6 +25260,7 @@
         "Google Workspace",
         "Networking",
         "Tech Talk / Meetup",
+        "Workshop / hands-on session",
         "cloud",
         "frontend"
       ],
@@ -25288,7 +25295,8 @@
         "Conference",
         "DevFest",
         "Flutter",
-        "Google Cloud"
+        "Google Cloud",
+        "Workshop / hands-on session"
       ],
       "source": "https://gdg.community.dev/gdg-tijuana/",
       "country": "México",
@@ -25317,8 +25325,12 @@
       "dtstart": "2026-11-14T09:00:00-06:00",
       "dtend": "2026-11-14T19:00:00-06:00",
       "tags": [
+        "AI",
+        "AI - Gemini",
         "Conference",
-        "DevFest"
+        "DevFest",
+        "Google Cloud",
+        "Workshop / hands-on session"
       ],
       "source": "https://gdg.community.dev/gdg-san-francisco-de-campeche/",
       "country": "México",
@@ -25410,6 +25422,7 @@
         "AI - Gemini",
         "DevFest",
         "Google Cloud",
+        "Workshop / hands-on session",
         "ai",
         "cloud",
         "mobile",
@@ -25443,6 +25456,7 @@
       "dtend": "2026-11-21T16:00:00-06:00",
       "tags": [
         "AI",
+        "AI - Gemini",
         "Android",
         "Career Development",
         "Community Building",
@@ -25455,6 +25469,7 @@
         "Tech Talk / Meetup",
         "UX / UI Design",
         "Web",
+        "Workshop / hands-on session",
         "ai",
         "cloud",
         "security",
@@ -25500,6 +25515,33 @@
       "hash_key": "monterrey claude for manufacturing indus_2026-11-23T16:00:00+00:00"
     },
     {
+      "title": "Claude Community|Monterrey  -  Claude for Commerce, Manufacturing & Industry 4.0|México|México",
+      "description": "Get up-to-date information at: https://luma.com/claudemonterrey\n\nAddress:\nEXPEDITION FEMSA\nMonterrey, Mexico\n\nHosted by Ricardo Lira de la Vega & 4 others",
+      "url": "https://luma.com/claudemonterrey",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claudemonterrey",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "EXPEDITION FEMSA, Av. Eugenio Garza Sada Sur, Tecnologico, Distrito Tec, 64700 Monterrey, N.L., Mexico",
+      "online": false,
+      "organizer": "Claude Community",
+      "dtstart": "2026-11-23T16:00:00+00:00",
+      "dtend": "2026-11-23T21:30:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "EXPEDITION FEMSA, Av. Eugenio Garza Sada Sur, Tecnologico, Distrito Tec, 64700 Monterrey, N.L., Mexico",
+      "hash_key": "monterrey claude for commerce manufactur_2026-11-23T16:00:00+00:00"
+    },
+    {
       "title": "GDG CDMX|Devfest 2026: Ciudad de México|México|",
       "description": "Devfest 2026 en la Ciudad de México es el evento imperdible para desarrolladores, entusiastas de la tecnología e innovadores. Explora nuevas fronteras tecnológicas y conecta con otros apasionados. Únete a esta inspiradora comunidad y descubre las emocionantes propuestas. Reserva tu lugar hoy para no perder esta oportunidad única.",
       "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-devfest-2026-ciudad-de-mexico/",
@@ -25524,7 +25566,8 @@
         "DevFest",
         "Google Cloud",
         "Google Workspace",
-        "Web"
+        "Web",
+        "Workshop / hands-on session"
       ],
       "source": "https://gdg.community.dev/gdg-cdmx/",
       "country": "México",

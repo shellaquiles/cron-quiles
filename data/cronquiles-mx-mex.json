@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-24T16:09:50.386537+00:00",
-  "total_events": 51,
+  "generated_at": "2026-09-24T20:57:03.070429+00:00",
+  "total_events": 52,
   "city": "México",
   "communities": [
     {
@@ -1558,6 +1558,33 @@
       "city_code": "",
       "address": "EXPEDITION FEMSA, Av. Eugenio Garza Sada Sur, Tecnologico, Distrito Tec, 64700 Monterrey, N.L., Mexico",
       "hash_key": "monterrey claude for manufacturing indus_2026-11-23T16:00:00+00:00"
+    },
+    {
+      "title": "Claude Community|Monterrey  -  Claude for Commerce, Manufacturing & Industry 4.0|México|México",
+      "description": "Get up-to-date information at: https://luma.com/claudemonterrey\n\nAddress:\nEXPEDITION FEMSA\nMonterrey, Mexico\n\nHosted by Ricardo Lira de la Vega & 4 others",
+      "url": "https://luma.com/claudemonterrey",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claudemonterrey",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "EXPEDITION FEMSA, Av. Eugenio Garza Sada Sur, Tecnologico, Distrito Tec, 64700 Monterrey, N.L., Mexico",
+      "online": false,
+      "organizer": "Claude Community",
+      "dtstart": "2026-11-23T16:00:00+00:00",
+      "dtend": "2026-11-23T21:30:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "EXPEDITION FEMSA, Av. Eugenio Garza Sada Sur, Tecnologico, Distrito Tec, 64700 Monterrey, N.L., Mexico",
+      "hash_key": "monterrey claude for commerce manufactur_2026-11-23T16:00:00+00:00"
     }
   ]
 }
