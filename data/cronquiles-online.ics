@@ -7622,7 +7622,7 @@ BEGIN:VEVENT
 SUMMARY:Claude Community|London  -  Claude Meetup|Online
 DTSTART:20261008T120000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/claude-yp5w\n\
- nHosted by Zara Hunter
+ nHosted by Zara Hunter & Claude Community
 LOCATION:https://luma.com/event/evt-4TIKXQqTXucQXRa
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-4TIKXQqTXucQXRa
 END:VEVENT
@@ -8011,6 +8011,16 @@ LOCATION:https://luma.com/event/evt-tGBTfWbV3nhiOhc
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-tGBTfWbV3nhiOhc
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|FinOps: la metodología de control de gasto que t
+ odas las empresas tienen que aplicar|Online
+DTSTART:20261028T160000Z
+CATEGORIES:frontend
+DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-d5be4f2b\
+ n\nHosted by Mexico Tech Week & Luis Regalado
+LOCATION:https://luma.com/event/evt-8N4PJCv6X1IRFNR
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-8N4PJCv6X1IRFNR
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cloud Native Mexico City|Cloud Native CDMX - Workshop + Panel de M
  ujeres|México|
 DTSTART:20261028T160000
@@ -8080,6 +8090,15 @@ LOCATION:Montes Urales 445\, Mexico City
 X-CRONQUILES-ADDRESS:Montes Urales 445\, Mexico City
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|After Hours: Art + Tech x Get on Board + Galería
+  Sala Marte|Online
+DTSTART:20261029T010000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-0b294c7f\
+ n\nHosted by Mexico Tech Week\, Galería Sala Marte & Get on Board
+LOCATION:https://luma.com/event/evt-e8Q1sWanhKIne84
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-e8Q1sWanhKIne84
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Arbor Nexus: Sinergia y Estrategia en la Adopció

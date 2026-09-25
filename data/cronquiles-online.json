@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-25T16:10:15.523200+00:00",
-  "total_events": 484,
+  "generated_at": "2026-09-25T20:53:25.663066+00:00",
+  "total_events": 486,
   "city": "Online",
   "communities": [
     {
@@ -94,11 +94,6 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
-          "label": "Luma"
         }
       ]
     },
@@ -169,8 +164,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3285,7 +3285,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3450,7 +3450,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5225,7 +5225,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5789,7 +5789,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10605,7 +10605,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11940,7 +11940,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -13946,7 +13946,7 @@
     },
     {
       "title": "Claude Community|London  -  Claude Meetup|Online",
-      "description": "Get up-to-date information at: https://luma.com/claude-yp5w\n\nHosted by Zara Hunter",
+      "description": "Get up-to-date information at: https://luma.com/claude-yp5w\n\nHosted by Zara Hunter & Claude Community",
       "url": "https://luma.com/claude-yp5w",
       "sources": [
         {
@@ -14358,6 +14358,35 @@
       "hash_key": "parenting with ai w the ai collective ka_2026-10-28T00:00:00+00:00"
     },
     {
+      "title": "Mexico Tech Week|FinOps: la metodología de control de gasto que todas las empresas tienen que aplicar|Online",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-d5be4f2b\n\nHosted by Mexico Tech Week & Luis Regalado",
+      "url": "https://luma.com/mxtw-d5be4f2b",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-d5be4f2b",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-8N4PJCv6X1IRFNR",
+      "online": true,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T16:00:00+00:00",
+      "dtend": "2026-10-28T17:00:00+00:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-8N4PJCv6X1IRFNR",
+      "hash_key": "finops la metodologa de control de gasto_2026-10-28T16:00:00+00:00"
+    },
+    {
       "title": "Cloud Native Mexico City|Cloud Native CDMX - Workshop + Panel de Mujeres|México|",
       "description": "☁️ Cloud Native CDMX Nueva Edición 🚀\nEstimada comunidad Cloud Native,\nCloud Native CDMX tiene el honor de invitarles a una nueva edición de nuestro capítulo, un espacio dedicado al aprendizaje, la innovación y el fortalecimiento de nuestra comunidad tecnológica en Ciudad de México. 🇲🇽\n📋 Detalles del Evento\n📅 Fecha: 28 de octubre de 2026\n🕓 Horario: 16:00 – 20:00 hrs (CST)\n📍 Sede: C. Montes Urales 445, Ciudad de México, 11000\nVer mapa\n🎟️ Costo: ¡Entrada completamente gratuita!\n📌 Agenda\nEsta edición contará con dos sesiones de alto valor para la comunidad:\n🛠️ Workshop Técnico\n🤖 Google ADK on Kubernetes: Accelerate your AI Agents\nImpartido por\nCamila Martis\nDescubre cómo el Agent Development Kit (ADK), está revolucionando el desarrollo de agentes inteligentes, y cómo Kubernetes optimiza su despliegue y gestión en producción. Una sesión diseñada para profesionales de infraestructura, DevOps y plataformas cloud que buscan construir y escalar agentes de IA de forma innovadora y eficiente. ⚙️🧠\n🎤 Panel Especial\n💜 Mujeres en Cloud Native: Impacto, Retos y Consejos para la Comunidad Tech\nNos enorgullece presentar un panel dedicado a visibilizar y celebrar las contribuciones de las mujeres al ecosistema Cloud Native en México y Latinoamérica. Escucharemos historias reales, consejos prácticos de carrera y reflexiones sobre diversidad e inclusión en comunidades técnicas. 🌟\n👩‍💻 Panelistas Confirmadas\n🔹\nCassandra Valadez\n— Software Engineer en Lyft y Embajadora de la CNCF en México. Forma parte del equipo de Compute en Lyft y es una apasionada de Kubernetes y Cloud Computing. Su convicción: la tecnología debe ser un espacio donde todas las personas tengan un lugar. 🌐💡\n🔹\nCamila Martins\n— SRE en Storyblok, con posgrado en informática forense y maestría en ciencias de la computación por la Universidad Federal del Estado de Río de Janeiro, donde también es candidata a doctorado. Tres veces reconocida como Líder de la Comunidad Docker, Docker Captain, Google Developer Expert, IBM Champion, y organizadora principal de DevOpsDays y KCD/CNCF. Ponente internacional en eventos DevOps a nivel mundial. 🐳🏆🌍\n🔹\nValeria Rivera\n— Ingeniera en Telecomunicaciones, Sistemas y Electrónica por la UNAM y Field Systems Engineer en Nutanix. Con más de siete años de experiencia en tecnología, su trayectoria abarca ciberseguridad, energía, centros de datos, Cloud Native, Kubernetes e Inteligencia Artificial. Speaker internacional en Kubernetes Community Days de México, Colombia y Perú, ganadora de WomenCISO 3 y organizadora de la comunidad CNCF en México. 🏔️🔐🚀\n🔹\nDaryan Salazar\n— Customer Success Leader en consultoría de TI, con formación en Informática Administrativa y Financiera. Su trayectoria abarca redacción técnica, gestión de proyectos e implementaciones de DevOps, RPA, ciberseguridad y Full-Stack Observability. Ha liderado planes de adopción tecnológica para múltiples instituciones bancarias, combinando entendimiento técnico con visión estratégica orientada a resultados. 📊🎯💪\n✨ ¿Qué encontrarás en este panel?\n🌟 Historias reales de mujeres que están transformando el ecosistema Cloud Native en México y Latinoamérica\n📚 Consejos prácticos para iniciar o avanzar en tu carrera en tecnologías cloud native\n🌈 Reflexiones sobre el impacto de la diversidad e inclusión en comunidades técnicas\n🤝 Oportunidades de networking y conexión con referentes de la industria\nCloud Native CDMX sigue creciendo con la misión de construir una comunidad técnica sólida, inclusiva y apasionada por el ecosistema Cloud Native en México. 💙\n¡Los esperamos! Sé parte de la comunidad. 🙌🔥\n☁️ #CloudNativeCDMX 🌐 #CloudNative 💜 #MujeresEnTech 👩‍💻 #WomenInTech 🚀 #WomenInCloudNative ⚙️ #Kubernetes 🏗️ #CNCF 🐳 #K8s 🔧 #DevOps ☁️ #CloudComputing 🌈 #DiversidadEnTech 🤝 #InclusiónTech 💡 #ComunidadTech 🌟 #MujeresEnCloud 🎤 #KubernetesCommunityDays 🔓 #OpenSource 🤖 #AIAgents 🧠 #GoogleADK 🙌 #TechCommunity 💻 #WomenWhoCode 🇲🇽 #LatinasInTech ✨ #MujeresEnTecnología 🏔️ #CloudNativeMexico 🌍 #TechDiversity 🎯 #CNCFMexico 📦 #ContainerOrchestration 💪 #MujeresLíderes 🔗 #TechNetworking 🌎 #CloudNativeLatam 🛠️ #SRELife",
       "url": "https://ocgroups.dev/cncf/group/e5vgp72/event/qc4rwuk",
@@ -14389,6 +14418,33 @@
       "city_code": "",
       "address": "Montes Urales 445, Mexico City",
       "hash_key": "cloud native cdmx workshop panel de muje_2026-10-28T22:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|After Hours: Art + Tech x Get on Board + Galería Sala Marte|Online",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-0b294c7f\n\nHosted by Mexico Tech Week, Galería Sala Marte & Get on Board",
+      "url": "https://luma.com/mxtw-0b294c7f",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-0b294c7f",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-e8Q1sWanhKIne84",
+      "online": true,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-29T01:00:00+00:00",
+      "dtend": "2026-10-29T05:30:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-e8Q1sWanhKIne84",
+      "hash_key": "after hours art tech x get on board gale_2026-10-29T00:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Arbor Nexus: Sinergia y Estrategia en la Adopción Corporativa de IA|México|",
@@ -14793,7 +14849,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
