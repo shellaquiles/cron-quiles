@@ -7759,7 +7759,7 @@ BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Oct 
  14 - Advances in AI at SDSU|Online
 DTSTART:20261014T100000
-CATEGORIES:ai,security
+CATEGORIES:ai,backend,security
 DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  nJoin our virtual meetup to hear talks from AI researchers at San Diego St
  ate University.\n\n**Date\, Time Location**\n\nOct 14\, 2026\n9:00 AM - 11
@@ -7795,7 +7795,22 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
  year PhD student in the Sekeh Lab and leads the lab's work on environment-
  aware OOD detection and cascaded failure analysis for multimodal intellige
  nce with several publications in top-tier Machine Learning and computer vi
- sion conferences.
+ sion conferences.\n\n**Model-Free\, Position-Free Signal Source Seeking Us
+ ing Unmanned Maritime Systems**\n\nLong-range signal source detection in o
+ pen-world environments presents a significant challenge\, mainly due to th
+ e detrimental effects of the environment on signals propagation paths and 
+ presence of extraneous signal sources. While distributed static sensing sy
+ stems are often employed\, achieving scalability and comprehensive coverag
+ e across expansive areas is cost-prohibitive.\n\nOne affordable solution i
+ nvolves using low-cost autonomous unmanned vehicles (AUVs) that can levera
+ ge their mobility and actively explore the environment using extremum seek
+ ing control (ESC) algorithms. This talk presents novel ESC approaches to s
+ teer AUVs to sources of interest in an a priori unknown\, highly non-conve
+ x map.\n\n*About the Speaker*\n\n[Zahra Nili Ahmadabadi](https://www.linke
+ din.com/in/zahra-nili-ahmadabadi-phd-29113171) is Associate Professor with
+  the Mechanical Engineering Department at San Diego State University (SDSU
+ ). She is a recipient of the ASME rising star award and ARO Early career a
+ ward.
 LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
