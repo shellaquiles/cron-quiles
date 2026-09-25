@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-25T02:32:47.242750+00:00",
-  "total_events": 483,
+  "generated_at": "2026-09-25T10:50:56.248062+00:00",
+  "total_events": 484,
   "city": "Online",
   "communities": [
     {
@@ -93,6 +93,11 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
+          "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5220,7 +5225,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5784,7 +5789,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11935,7 +11940,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14383,6 +14388,35 @@
       "city_code": "",
       "address": "Montes Urales 445, Mexico City",
       "hash_key": "cloud native cdmx workshop panel de muje_2026-10-28T22:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Arbor Nexus: Sinergia y Estrategia en la Adopción Corporativa de IA|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-96a0cd11\n\nAddress:\nAv. P.º de la Reforma 505-Piso 51, Cuauhtémoc, 06500 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & Guilermo Pérez",
+      "url": "https://luma.com/mxtw-96a0cd11",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-96a0cd11",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Av. P.º de la Reforma 505-Piso 51, Cuauhtémoc, 06500 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-30T00:00:00+00:00",
+      "dtend": "2026-10-30T04:00:00+00:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Av. P.º de la Reforma 505-Piso 51, Cuauhtémoc, 06500 Ciudad de México, CDMX",
+      "hash_key": "arbor nexus sinergia y estrategia en la _2026-10-30T00:00:00+00:00"
     },
     {
       "title": "GDG Villahermosa|DevFest 2026: Sureste de México|México|",
