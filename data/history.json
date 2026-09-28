@@ -1658,6 +1658,75 @@
     "hash_key": "ai hr forum 03 do you need a chief ai of_2026-10-05T16:00:00+00:00"
   },
   {
+    "title": "GDG CDMX|Probabilidad & Estadística Científica|Online",
+    "description": "El Club de Matemáticas para la IA invita a ingenieros, investigadores y entusiastas tecnológicos a una sesión sobre Probabilidad y Estadística. Se explorarán variables aleatorias y el Teorema de Bayes con actividades prácticas de análisis de datos y probabilidades usando Pandas y SciPy. Perfecto para quienes desean profundizar en estadística en IA.",
+    "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-probabilidad-amp-estadistica-cientifica/",
+    "sources": [
+      {
+        "platform": "website",
+        "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-probabilidad-amp-estadistica-cientifica/",
+        "label": "Ver sitio web"
+      }
+    ],
+    "location": "Online",
+    "online": true,
+    "organizer": "GDG CDMX",
+    "dtstart": "2026-10-03T19:00:00-06:00",
+    "dtend": "2026-10-03T20:30:00-06:00",
+    "tags": [
+      "AI",
+      "AI - Gemini",
+      "Build with AI",
+      "Career Development",
+      "Workshop / hands-on session",
+      "frontend",
+      "python"
+    ],
+    "source": "https://gdg.community.dev/gdg-cdmx/",
+    "country": "México",
+    "country_code": "MX",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "Online",
+    "hash_key": "probabilidad estadstica cientfica_2026-10-04T00:00:00+00:00"
+  },
+  {
+    "title": "GDG CDMX|Construye con Google Maps Platform e Inteligencia Artificial|Online",
+    "description": "El Google Developer Group CDMX invita a ingenieras/os de software, investigadoras/es y entusiastas de la tecnología a la sesión dedicada al desarrollo del Codelab: Construye con Google Maps Platform e Inteligencia Artificial. En este codelab crearemos un explorador de bloques, un juego geoespacial interactivo que combina datos de mapas en tiempo real con Inteligencia Artificial Generativa.",
+    "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-construye-con-google-maps-platform-e-inteligencia-artificial/",
+    "sources": [
+      {
+        "platform": "website",
+        "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-construye-con-google-maps-platform-e-inteligencia-artificial/",
+        "label": "Ver sitio web"
+      }
+    ],
+    "location": "Online",
+    "online": true,
+    "organizer": "GDG CDMX",
+    "dtstart": "2026-10-02T19:00:00-06:00",
+    "dtend": "2026-10-02T20:30:00-06:00",
+    "tags": [
+      "AI",
+      "AI - Gemini",
+      "Build with AI",
+      "Career Development",
+      "Google Maps Platform",
+      "Workshop / hands-on session"
+    ],
+    "source": "https://gdg.community.dev/gdg-cdmx/",
+    "country": "México",
+    "country_code": "MX",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "Online",
+    "hash_key": "construye con google maps platform e int_2026-10-03T00:00:00+00:00"
+  },
+  {
     "title": "México City AI, Machine Learning and Computer Vision Meetup|Oct 1 - APAC AI, ML and Computer Vision Meetup|Online",
     "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our APAC time-zone friendly virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.\n\n**Time, Date and Location**\n\nOct 1, 2026\n6:00 PM - 8:00 PM PDT\nOnline. **[Register for the Zoom!](https://voxel51.com/events/apac-ai-ml-and-computer-vision-meetup-october-1-2026)**\n\n**Beyond Exact Matches: Detecting Modified 3D Assets at Marketplace Scale**\n\nHow can a marketplace identify copied 3D assets when their orientation, geometry, or composition has changed? Drawing on my work in 3D content understanding at Roblox, this talk will explore multi-view and rotation-invariant representations for similarity and duplicate detection, including the challenges posed by deformed and fragmented copies.\nIt will examine how geometric and semantic signals can complement one another, and discuss practical trade-offs in evaluating detection quality and deploying these methods at scale. The presentation will draw on published patent applications and publicly shareable examples to offer practical lessons for engineers building visual search, content-understanding, and marketplace-safety systems.\n\n*About the Speaker*\n\n[Phani Harish Wajjala](https://www.linkedin.com/in/harish-wajjala-81a47119/) is a Principal Machine Learning Engineer at Roblox specializing in 3D computer vision, multimodal AI, and large-scale content understanding.\n\n**Sign Language: Towards Sign Understanding for Robot Autonomy**\n\nNavigational signs are common aids for human wayfinding and scene understanding, but are underutilized by robots. We argue that they benefit robot navigation and scene understanding, by directly encoding privileged information on actions, spatial regions, and relations.\n\nInterpreting signs in open-world settings remains a challenge owing to the complexity of scenes and signs, but recent advances in vision-language models (VLMs) make this feasible. To advance progress in this area, we introduce the task of visual sign grounding, which parses locations and associated directions from signs, and maps them to region in the sign’s local environment.\n\nAdditionally, we present a baseline approach using VLMs, and demonstrate their promise on the task. We also outline different applications, such as localization and navigation, which benefit from the spatial-symbolic information encoded by navigational signs.\n\n*About the Speaker*\n\n[Nicky Zimmerman](https://www.linkedin.com/in/nicky-zimmerman-41b71694/) I am a postdoctoral researcher in NUS, working on open world navigation. My PhD thesis focused on human-inspired strategies for semantic localization and mapping. Previously, I worked as computer vision algorithm developer in General Motors and Intel.\n\n**MeMo: Memory as a Model**\n\nLarge language models (LLMs) achieve strong performance across a wide range of tasks, but remain frozen after pretraining until subsequent updates. Many real-world applications require timely, domain-specific information, motivating the need for efficient mechanisms to incorporate new knowledge.\n\nIn this paper, we introduce MeMo (Memory as a Model), a modular framework that encodes new knowledge into a dedicated Memory model while keeping the LLM unchanged. Compared to existing methods, MeMo offers several advantages: (a) it captures complex cross-document relationships, (b) it is robust to retrieval noise, (c) it avoids catastrophic forgetting in the LLM, (d) it does not require access to the LLM’s weights or output logits that enabling plug-and-play integration with both open and proprietary LLMs, and (e) its retrieval cost is independent of corpus size at inference time.\n\nOur experiments on three benchmarks, BrowseComp-Plus, NarrativeQA, and MuSiQue, show that MeMo achieves strong performance compared to existing methods across diverse settings.\n\n*About the Speaker*\n\n[Arun Verma](https://www.linkedin.com/in/arunverma100) is a Postdoctoral Associate at the Singapore-MIT Alliance for Research and Technology Centre, where he works with Daniela Rus, Armando Solar-Lezama, and Bryan Low.",
     "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/316613758/",
@@ -15581,7 +15650,7 @@
       "ai",
       "security"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -15610,7 +15679,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -15670,7 +15739,7 @@
       "ai",
       "backend"
     ],
-    "source": "https://luma.com/02t893pf",
+    "source": "https://luma.com/eofagheq",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
