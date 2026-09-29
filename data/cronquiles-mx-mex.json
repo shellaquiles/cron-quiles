@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-29T17:17:49.877984+00:00",
-  "total_events": 62,
+  "generated_at": "2026-09-29T21:40:31.343003+00:00",
+  "total_events": 64,
   "city": "México",
   "communities": [
     {
@@ -17,11 +17,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -721,7 +721,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -1494,6 +1494,36 @@
       "hash_key": "maatfia day_2026-10-26T16:00:00+00:00"
     },
     {
+      "title": "Mexico Tech Week|AI for Action, Humans for Emotion - INOVA® Mexico Success Story|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-633886e0\n\nAddress:\nRevo rooftop\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Carlos Fonseca",
+      "url": "https://luma.com/mxtw-633886e0",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-633886e0",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Revo rooftop, C. Valentín Gómez Farías 2, Tabacalera, Cuauhtémoc, 06030 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T22:00:00+00:00",
+      "dtend": "2026-10-28T01:30:00+00:00",
+      "tags": [
+        "ai",
+        "security"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Revo rooftop, C. Valentín Gómez Farías 2, Tabacalera, Cuauhtémoc, 06030 Ciudad de México, CDMX, Mexico",
+      "hash_key": "ai for action humans for emotion inova m_2026-10-27T22:00:00+00:00"
+    },
+    {
       "title": "Claude Community|Mexico City  -  Claude for Architecture, Engineer and Construction|México|México",
       "description": "Get up-to-date information at: https://luma.com/claudemexicoarchitecture\n\nAddress:\nHoliday Inn Ciudad de Mexico-Trade Center by IHG\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega & Leonardo Lamprea",
       "url": "https://luma.com/claudemexicoarchitecture",
@@ -1561,8 +1591,8 @@
       "location": "EBC, Liverpool 54, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
       "online": false,
       "organizer": "Claude Community",
-      "dtstart": "2026-10-28T17:00:00+00:00",
-      "dtend": "2026-10-28T18:30:00+00:00",
+      "dtstart": "2026-10-28T16:30:00+00:00",
+      "dtend": "2026-10-28T19:30:00+00:00",
       "tags": [],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
       "country": "México",
@@ -1656,6 +1686,36 @@
       "city_code": "",
       "address": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
       "hash_key": "reverse pitch inversionistas en ia_2026-10-28T20:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Human + AI Sales Teams - A New Era of Lead Conversion|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-59a380f0\n\nAddress:\nRevo rooftop\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Carlos Fonseca",
+      "url": "https://luma.com/mxtw-59a380f0",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-59a380f0",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Revo rooftop, C. Valentín Gómez Farías 2, Tabacalera, Cuauhtémoc, 06030 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T22:00:00+00:00",
+      "dtend": "2026-10-29T01:30:00+00:00",
+      "tags": [
+        "ai",
+        "security"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Revo rooftop, C. Valentín Gómez Farías 2, Tabacalera, Cuauhtémoc, 06030 Ciudad de México, CDMX, Mexico",
+      "hash_key": "human ai sales teams a new era of lead c_2026-10-28T22:00:00+00:00"
     },
     {
       "title": "Claude Community|Mexico City  -  Claude for Music|México|México",
