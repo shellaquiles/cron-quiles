@@ -14925,6 +14925,31 @@ X-CRONQUILES-STATE:México
 X-CRONQUILES-STATE-CODE:MX-MEX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Oct 
+ 29 - How to Build Vision Data Agents with Tools\, Skills\, and MCP|Online
+DTSTART:20261029T100000
+CATEGORIES:ai,data,frontend
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nIn this session\, you’ll learn how to build production-ready AI agents 
+ that can reason over your data\, automate complex tasks\, and integrate se
+ amlessly into your existing stack using tools\, skills\, and the Model Con
+ text Protocol (MCP).\n\n**Date\, Time and Location**\n\nOct 29\, 2026\n9:0
+ 0 AM - 10:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.co
+ m/events/how-to-build-vision-data-agents-with-tools-skills-and-mcp-october
+ -29-2026)**\n\nWe’ll walk through how modern agentic systems move beyond
+  simple prompts—leveraging structured tools like dataset operations\, em
+ beddings\, evaluation pipelines\, and model execution to take real action.
+  You’ll see how these agents can tag data\, run inference\, evaluate per
+ formance\, and surface insights automatically\, all within a unified workf
+ low.\n\nBy combining natural language interfaces with programmable buildin
+ g blocks\, teams can dramatically reduce manual effort\, accelerate experi
+ mentation\, and unlock faster decision-making across the ML lifecycle.\n\n
+ Whether you're building data-centric AI systems\, managing large-scale vis
+ ion datasets\, or exploring agentic workflows for the first time\, this se
+ ssion will give you a practical blueprint for getting started.
+LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Claude Community|Mexico City  -  Claude for Music|México|México
 DTSTART:20261029T233000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/claudeformusic
@@ -15253,6 +15278,63 @@ X-CRONQUILES-ADDRESS:Tecnológico de Monterrey\, Campus Ciudad de México\
  , Prolongación Canal de Miramontes\, Ciudad de México
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Dec 
+ 10 - AI\, ML and Computer Vision Meetup|Online
+DTSTART:20261210T110000
+CATEGORIES:ai,backend,cloud,data,frontend
+DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
+ nJoin our virtual meetup to hear talks from experts on cutting-edge topics
+  across AI\, ML\, and computer vision.\n\n**Date\, Time and Location**\n\n
+ Dec 10\, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](
+ https://voxel51.com/events/ai-ml-and-computer-vision-meetup-december-10-20
+ 26)**\n\n**Your mAP is fine. Your slices are not. Finding the images that 
+ actually matter**\n\nA single mAP can look acceptable while one slice is u
+ nusable\, small objects\, occlusion\, or a confused class. I will run a pr
+ etrained detector on a few hundred public images (COCO-style\, not a produ
+ ction crawl)\, report the headline metric\, then break the same run by sli
+ ce and walk through the worst samples.\n\nThe claim is modest: you do not 
+ need a million images or a trained-from-scratch model to see what the mean
+  is hiding\, and you cannot relabel everything\, so the next labeling budg
+ et should follow those slices. No employer data and no confidential dashbo
+ ards.\n\n*About the Speaker*\n\n[Amandeep Jiddewar](https://www.linkedin.c
+ om/in/amanfj/) is a Machine Learning Engineer at Pinterest\, with prior wo
+ rk in U.S. manufacturing analytics (CertainTeed / Saint-Gobain) and market
+ place allocation (QuinStreet). Emory Goizueta MSBA (2019)\, Kaggle Expert.
+  This talk is in his personal capacity and does not represent his current 
+ or prior employers.\n\n**Production AI Agents: Tool Use\, Evaluation\, Gua
+ rdrails and Observability**\n\nBuilding an AI agent is easy. Knowing wheth
+ er it is behaving reliably in production is much harder. This session expl
+ ores how to evaluate agents that use tools and external systems\, includin
+ g tool-call validation\, tracing\, observability\, failure analysis\, guar
+ drails\, permissions\, and human review.\n\nAttendees will learn practical
+  patterns for understanding not just what an agent answered\, but why it a
+ cted and whether the action was safe.\n\n*About the Speaker*\n\n[Akshay Ta
+ lathi](https://www.linkedin.com/in/akshaytalathi/) is a Vice President at 
+ Goldman Sachs with over 10 years of experience building large-scale\, clou
+ d-native\, and distributed systems across financial services and technolog
+ y. His current focus is GenAI and agentic AI\, including production AI age
+ nts\, MCP\, enterprise integrations\, guardrails\, observability\, and rel
+ iable AI-driven workflows.\n\n**From Virtual Worlds to Physical AI: Buildi
+ ng Simulation Pipelines That Survive the Real World**\n\nRobots are moving
+  beyond perception systems that only detect and classify objects toward sy
+ stems that must understand a scene\, learn behaviors\, and act in the phys
+ ical world. In this talk\, I’ll show a practical Physical AI workflow us
+ ing OpenUSD\, BowerBot\, NVIDIA Isaac Sim and Isaac Lab to build a robot
+ ’s virtual world\, including its body\, cameras\, sensors\, and environm
+ ent.\n\nWe’ll explore how demonstrations and reinforcement learning can 
+ teach behaviors in simulation\, how vision and sensor data become observat
+ ions for a robot policy\, and what needs to match when transferring that b
+ ehavior to real hardware. The demo follows a small robot from a simulated 
+ environment toward a real-world task\, exposing both the power and the lim
+ itations of sim-to-real.\n\nThe goal is to make the path from pixels to ac
+ tions concrete for computer vision and machine learning practitioners.\n\n
+ *About the Speaker*\n\n[Arturo Morales Rangel](https://www.linkedin.com/in
+ /arturo-morales-rangel) is the founder of Binary Core LLC\, a Physical AI 
+ engineering company working across simulation\, perception\, robot learnin
+ g\, and deployment.
+LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México
