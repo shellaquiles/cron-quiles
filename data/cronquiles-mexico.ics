@@ -3127,7 +3127,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI – Vol 1|Online
 DTSTART:20251007T220000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/pi3ebsn2\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-gCpfBqRDQhEOJf9
@@ -4056,7 +4056,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|Diseña usando AI|Online
 DTSTART:20260127T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/ubxd600w\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-IWVh1A0cdphlpRP
@@ -4103,7 +4103,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|Diseña usando AI|Online
 DTSTART:20260128T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/5nq96pxw\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-H4WPxCoPFcne2bC
@@ -4327,7 +4327,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI – Vol 2|Online
 DTSTART:20260213T000000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/lgd37763\n\nHo
  sted by Javier Rivero & 3 others
 LOCATION:https://luma.com/event/evt-rYB4HiifBPDm7LU
@@ -4480,7 +4480,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI #3: Midjourney|Online
 DTSTART:20260219T233000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/d342anny\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-WUg9IsqZP5MKL4B
@@ -5172,7 +5172,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI #4: OpenClaw|Online
 DTSTART:20260306T000000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/5ivardas\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-utuQiZ6tlVbHWXw
@@ -5395,7 +5395,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI #5: Image Manipulation|Online
 DTSTART:20260401T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/wsj293yt\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-3QmmiVDsImuKFFB
@@ -5510,7 +5510,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI #6: Scaling to 1M users|Online
 DTSTART:20260416T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/11fz6ef5\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-SBK5c7p9LXcCYFE
@@ -9210,7 +9210,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI #7: WhatsApp Voicebots|Online
 DTSTART:20260624T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/vhwcyvjr\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-PwXKYGUxITnF5Ku
@@ -10096,7 +10096,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI: Juan Martínez|Online
 DTSTART:20260709T233000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/3iyi3bsr\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-MVGGctuBiHzWfUZ
@@ -10797,7 +10797,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI: Andres Matte\, Kapso.ai|Online
 DTSTART:20260723T233000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/6liqe957\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-OfU4EZmg85DhiSI
@@ -13866,7 +13866,7 @@ DTSTART:20261001T220000Z
 CATEGORIES:backend
 DESCRIPTION:Get up-to-date information at: https://luma.com/claude-1er9\n\
  nAddress:\nUTOPÍA Elena Poniatowska Amor\nCiudad de México\, Mexico\n\nH
- osted by Angelina Mendoza & Jésica Tapia
+ osted by Angelina Mendoza\, Jésica Tapia & Alejandra Barroeta Lara
 LOCATION:UTOPÍA Elena Poniatowska Amor\, Av Miguel Hidalgo 128\, San Luca
  s\, Coyoacán\, 04100 Ciudad de México\, CDMX\, Mexico
 X-CRONQUILES-ADDRESS:UTOPÍA Elena Poniatowska Amor\, Av Miguel Hidalgo 12
@@ -14791,7 +14791,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Impulsando la comunidad de AI Safety en México: 
  Tech Policy Panel|México|Ciudad de México
-DTSTART:20261027T224500Z
+DTSTART:20261027T230000Z
 CATEGORIES:ai
 DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-aisafetym
  x\n\nAddress:\nMXTW AI House - Juarez\, Ciudad de Mexico\n\nHosted by Mexi
@@ -14902,6 +14902,40 @@ LOCATION:C. Marsella 45\, Juárez\, Cuauhtémoc\, 06030 Ciudad de México\
  , CDMX\, Mexico
 X-CRONQUILES-ADDRESS:C. Marsella 45\, Juárez\, Cuauhtémoc\, 06030 Ciudad
   de México\, CDMX\, Mexico
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:México
+X-CRONQUILES-STATE-CODE:MX-MEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|Mimosas & Compliance by maat.ai|México|México
+DTSTART:20261028T173000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-f5258ec0\
+ n\nAddress:\nWorkInc Offices (Coworking)\nCiudad de México\, Mexico\n\nHo
+ sted by Mexico Tech Week & Michelle Alejandra Solis Jaimez
+LOCATION:WorkInc Offices (Coworking)\, C. Río Lerma 94-Piso 3\, Cuauhtém
+ oc\, 06500 Ciudad de México\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:WorkInc Offices (Coworking)\, C. Río Lerma 94-Piso 3
+ \, Cuauhtémoc\, 06500 Ciudad de México\, CDMX\, Mexico
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:México
+X-CRONQUILES-STATE-CODE:MX-MEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|Agentes de revisión documental y QA de llamadas:
+  lo que sí aguanta en producción|México|México
+DTSTART:20261028T190000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-406f8e6b\
+ n\nAddress:\nBarcelona 26\nAI House (Mexico Tech Week) – Sessions Room /
+  sala de cursos\nCiudad de México\, Mexico\n\nHosted by Mexico Tech Week 
+ & Francisco Kemeny
+LOCATION:Barcelona 26\, Juárez\, Cuauhtémoc\, 06600 Ciudad de México\, 
+ CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Barcelona 26\, Juárez\, Cuauhtémoc\, 06600 Ciudad d
+ e México\, CDMX\, Mexico
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:México
