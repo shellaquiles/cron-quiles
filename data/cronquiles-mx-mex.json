@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-09-30T03:02:16.847168+00:00",
-  "total_events": 65,
+  "generated_at": "2026-09-30T11:36:10.001456+00:00",
+  "total_events": 67,
   "city": "México",
   "communities": [
     {
@@ -17,11 +17,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -721,7 +721,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -1266,6 +1266,35 @@
       "city_code": "",
       "address": "",
       "hash_key": "data pub septiembre 2026_2026-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "Claude Community|Mexico City  -  El Club Violeta Vol. 1 Claude Meetup|México|México",
+      "description": "Get up-to-date information at: https://luma.com/claude-1er9\n\nAddress:\nUTOPÍA Elena Poniatowska Amor\nCiudad de México, Mexico\n\nHosted by Angelina Mendoza & Jésica Tapia",
+      "url": "https://luma.com/claude-1er9",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claude-1er9",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "UTOPÍA Elena Poniatowska Amor, Av Miguel Hidalgo 128, San Lucas, Coyoacán, 04100 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Claude Community",
+      "dtstart": "2026-10-01T22:00:00+00:00",
+      "dtend": "2026-10-02T00:30:00+00:00",
+      "tags": [
+        "backend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "UTOPÍA Elena Poniatowska Amor, Av Miguel Hidalgo 128, San Lucas, Coyoacán, 04100 Ciudad de México, CDMX, Mexico",
+      "hash_key": "mexico city el club violeta vol 1 claude_2026-10-01T22:00:00+00:00"
     },
     {
       "title": "Python CDMX|Meetup Octubre 2026  -  PythonCDMX|México|México",
@@ -1826,6 +1855,36 @@
       "city_code": "",
       "address": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
       "hash_key": "ms all de copilot cmo los corporativos c_2026-10-29T14:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Tu empresa ya tiene una política de salud hormonal: se llama silencio|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-b100c506\n\nAddress:\nLuis G. Urbina 4, Polanco, Polanco IV Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX, México\n\nHosted by Mexico Tech Week & Valeria",
+      "url": "https://luma.com/mxtw-b100c506",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-b100c506",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Luis G. Urbina 4, Polanco, Polanco IV Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX, México",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-29T16:00:00+00:00",
+      "dtend": "2026-10-29T18:00:00+00:00",
+      "tags": [
+        "frontend",
+        "security"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Luis G. Urbina 4, Polanco, Polanco IV Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX, México",
+      "hash_key": "tu empresa ya tiene una poltica de salud_2026-10-29T16:00:00+00:00"
     },
     {
       "title": "Claude Community|Mexico City  -  Claude for Music|México|México",
