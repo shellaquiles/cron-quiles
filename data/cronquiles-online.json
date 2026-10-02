@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-01T22:09:07.671912+00:00",
-  "total_events": 502,
+  "generated_at": "2026-10-02T03:10:24.690823+00:00",
+  "total_events": 503,
   "city": "Online",
   "communities": [
     {
@@ -93,11 +93,6 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
-          "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5225,7 +5220,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5789,7 +5784,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11940,7 +11935,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14522,6 +14517,36 @@
       "hash_key": "oct 22 advances in ai at virginia tech_2026-10-22T16:00:00+00:00"
     },
     {
+      "title": "Mexico Tech Week|How to Raise Capital from US Investors|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-f92dcd27\n\nAddress:\nTorre BBVA Bancomer, Av. P.º de la Reforma 510-Planta 33, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week, Hugo Lara & BDev Ventures",
+      "url": "https://luma.com/mxtw-f92dcd27",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-f92dcd27",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Torre BBVA Bancomer, Av. P.º de la Reforma 510-Planta 33, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-26T16:00:00+00:00",
+      "dtend": "2026-10-26T19:30:00+00:00",
+      "tags": [
+        "ai",
+        "backend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Torre BBVA Bancomer, Av. P.º de la Reforma 510-Planta 33, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+      "hash_key": "how to raise capital from us investors_2026-10-26T16:00:00+00:00"
+    },
+    {
       "title": "Mexico Tech Week|Breaking Barriers for Women in Tech and AI|México|",
       "description": "Get up-to-date information at: https://luma.com/mxtw-d4b13748\n\nAddress:\nC. Versalles 28, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week, Mundo Montes de Oca & Scientika AI",
       "url": "https://luma.com/mxtw-d4b13748",
@@ -14579,33 +14604,6 @@
       "city_code": "",
       "address": "Insurgentes Sur 730, Torre Vistral Piso 11 Col. Del Valle, CDMX, 03100",
       "hash_key": "from data to decisions amazon quick in a_2026-10-27T16:00:00+00:00"
-    },
-    {
-      "title": "Mexico Tech Week|¿Qué vamos a comer mañana?|México|",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-d44c4697\n\nAddress:\nTorre BBVA México, Av. Paseo de la Reforma 510, Cuauhtémoc, Ciudad de México.\n\nHosted by Mexico Tech Week & Brenda Cárdenas Cuevas",
-      "url": "https://luma.com/mxtw-d44c4697",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/mxtw-d44c4697",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "Torre BBVA México, Av. Paseo de la Reforma 510, Cuauhtémoc, Ciudad de México.",
-      "online": false,
-      "organizer": "Mexico Tech Week",
-      "dtstart": "2026-10-27T23:00:00+00:00",
-      "dtend": "2026-10-28T02:00:00+00:00",
-      "tags": [],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-      "country": "México",
-      "country_code": "MX",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "Torre BBVA México, Av. Paseo de la Reforma 510, Cuauhtémoc, Ciudad de México.",
-      "hash_key": "qu vamos a comer maana_2026-10-27T22:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|Parenting with AI (w/ The AI Collective Kansas City)|Online",
@@ -14836,6 +14834,35 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-e8Q1sWanhKIne84",
       "hash_key": "after hours art tech x get on board gale_2026-10-29T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Cocktail para corporativos y premiación AI for Corporate Challenge|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-a0815f8a\n\nAddress:\nBarcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & Startuplinks Community",
+      "url": "https://luma.com/mxtw-a0815f8a",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-a0815f8a",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-29T01:00:00+00:00",
+      "dtend": "2026-10-29T03:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+      "hash_key": "cocktail para corporativos y premiacin a_2026-10-29T00:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Oct 29 - How to Build Vision Data Agents with Tools, Skills, and MCP|Online",

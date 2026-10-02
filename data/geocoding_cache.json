@@ -14467,5 +14467,102 @@
       "establishment",
       "point_of_interest"
     ]
+  },
+  "Brewers Cafetería Experimental, Tuxpan 74, Roma Sur, Cuauhtémoc, 06760 Ciudad de México, CDMX, Mexico": {
+    "address_components": [
+      {
+        "long_name": "74",
+        "short_name": "74",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Tuxpan",
+        "short_name": "Tuxpan",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Roma Sur",
+        "short_name": "Roma Sur",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "México D.F.",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Cuauhtémoc",
+        "short_name": "Cuauhtémoc",
+        "types": [
+          "administrative_area_level_3",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ciudad de México",
+        "short_name": "CDMX",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "México",
+        "short_name": "MX",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "06760",
+        "short_name": "06760",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "formatted_address": "Tuxpan 74, Roma Sur, Cuauhtémoc, 06760 Ciudad de México, CDMX, México",
+    "geometry": {
+      "location": {
+        "lat": 19.4033024,
+        "lng": -99.1669246
+      },
+      "location_type": "ROOFTOP",
+      "viewport": {
+        "northeast": {
+          "lat": 19.4046344302915,
+          "lng": -99.1656544697085
+        },
+        "southwest": {
+          "lat": 19.4019364697085,
+          "lng": -99.1683524302915
+        }
+      }
+    },
+    "place_id": "ChIJ-yUhFaX_0YURw2nYn6COViA",
+    "plus_code": {
+      "compound_code": "CR3M+86 Ciudad de México, CDMX, México",
+      "global_code": "76F2CR3M+86"
+    },
+    "types": [
+      "bakery",
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ]
   }
 }
