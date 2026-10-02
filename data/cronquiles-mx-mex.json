@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-02T03:10:24.836798+00:00",
-  "total_events": 75,
+  "generated_at": "2026-10-02T11:36:03.933851+00:00",
+  "total_events": 76,
   "city": "México",
   "communities": [
     {
@@ -17,11 +17,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
+      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/eofagheq",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -667,7 +667,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -1608,6 +1608,33 @@
       "hash_key": "fintech breakfast_2026-10-27T14:00:00+00:00"
     },
     {
+      "title": "Mexico Tech Week|Soluciones de IA que viven más allá del piloto|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-ebbc571f\n\nAddress:\nBarcelona 26\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Regina Jiménez López",
+      "url": "https://luma.com/mxtw-ebbc571f",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-ebbc571f",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T19:00:00+00:00",
+      "dtend": "2026-10-27T21:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "hash_key": "soluciones de ia que viven ms all del pi_2026-10-27T18:00:00+00:00"
+    },
+    {
       "title": "Mexico Tech Week|AI for Action, Humans for Emotion - INOVA® Mexico Success Story|México|México",
       "description": "Get up-to-date information at: https://luma.com/mxtw-633886e0\n\nAddress:\nRevo rooftop\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Carlos Fonseca",
       "url": "https://luma.com/mxtw-633886e0",
@@ -1709,7 +1736,7 @@
       "online": false,
       "organizer": "Claude Community",
       "dtstart": "2026-10-28T14:30:00+00:00",
-      "dtend": "2026-10-28T20:30:00+00:00",
+      "dtend": "2026-10-28T17:00:00+00:00",
       "tags": [],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
       "country": "México",
@@ -1864,7 +1891,7 @@
     },
     {
       "title": "Mexico Tech Week|Agentes de revisión documental y QA de llamadas: lo que sí aguanta en producción|México|México",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-406f8e6b\n\nAddress:\nBarcelona 26\nAI House (Mexico Tech Week) – Sessions Room / sala de cursos\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Francisco Kemeny",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-406f8e6b\n\nAddress:\nBarcelona 26\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Francisco Kemeny",
       "url": "https://luma.com/mxtw-406f8e6b",
       "sources": [
         {
@@ -1877,10 +1904,8 @@
       "online": false,
       "organizer": "Mexico Tech Week",
       "dtstart": "2026-10-28T19:00:00+00:00",
-      "dtend": "2026-10-28T21:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
+      "dtend": "2026-10-28T21:30:00+00:00",
+      "tags": [],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
       "country": "México",
       "country_code": "MX",
