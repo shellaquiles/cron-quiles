@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-02T17:03:45.926431+00:00",
-  "total_events": 504,
+  "generated_at": "2026-10-02T21:36:42.023786+00:00",
+  "total_events": 503,
   "city": "Online",
   "communities": [
     {
@@ -169,13 +169,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3290,7 +3285,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3455,7 +3450,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10610,7 +10605,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14556,33 +14551,34 @@
       "hash_key": "how to raise capital from us investors_2026-10-26T16:00:00+00:00"
     },
     {
-      "title": "Mexico Tech Week|Breaking Barriers for Women in Tech and AI|México|",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-d4b13748\n\nAddress:\nC. Versalles 28, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week, Mundo Montes de Oca & Scientika AI",
-      "url": "https://luma.com/mxtw-d4b13748",
+      "title": "Mexico Tech Week|Accelerate: mentoría, herramientas y capital para PyMEs que generan empleo|Online",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-49b71d58\n\nHosted by Mexico Tech Week & Igeneris Events",
+      "url": "https://luma.com/mxtw-49b71d58",
       "sources": [
         {
           "platform": "luma",
-          "url": "https://luma.com/mxtw-d4b13748",
+          "url": "https://luma.com/mxtw-49b71d58",
           "label": "Ver en Luma"
         }
       ],
-      "location": "C. Versalles 28, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
-      "online": false,
+      "location": "https://luma.com/event/evt-oTiTuL4eOurxzL1",
+      "online": true,
       "organizer": "Mexico Tech Week",
-      "dtstart": "2026-10-27T00:00:00+00:00",
-      "dtend": "2026-10-27T02:00:00+00:00",
+      "dtstart": "2026-10-26T23:00:00+00:00",
+      "dtend": "2026-10-27T01:00:00+00:00",
       "tags": [
-        "ai"
+        "backend",
+        "python"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-      "country": "México",
-      "country_code": "MX",
+      "country": "",
+      "country_code": "",
       "state": "",
       "state_code": "",
       "city": "",
       "city_code": "",
-      "address": "C. Versalles 28, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
-      "hash_key": "breaking barriers for women in tech and _2026-10-27T00:00:00+00:00"
+      "address": "https://luma.com/event/evt-oTiTuL4eOurxzL1",
+      "hash_key": "accelerate mentora herramientas y capita_2026-10-26T22:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|From Data to Decisions : Amazon Quick in Action.|México|",
@@ -14642,33 +14638,6 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-tGBTfWbV3nhiOhc",
       "hash_key": "parenting with ai w the ai collective ka_2026-10-28T00:00:00+00:00"
-    },
-    {
-      "title": "Mexico Tech Week|People Day by Buk 2026|México|",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-acc2ef06\n\nAddress:\nFlor De María 20 - B Atlamaya San Ángel, Álvaro Obregón, 01760 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & Mariana",
-      "url": "https://luma.com/mxtw-acc2ef06",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/mxtw-acc2ef06",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "Flor De María 20 - B Atlamaya San Ángel, Álvaro Obregón, 01760 Ciudad de México, CDMX",
-      "online": false,
-      "organizer": "Mexico Tech Week",
-      "dtstart": "2026-10-28T14:00:00+00:00",
-      "dtend": "2026-10-29T02:00:00+00:00",
-      "tags": [],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-      "country": "México",
-      "country_code": "MX",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "Flor De María 20 - B Atlamaya San Ángel, Álvaro Obregón, 01760 Ciudad de México, CDMX",
-      "hash_key": "people day by buk 2026_2026-10-28T14:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|FinOps: la metodología de control de gasto que todas las empresas tienen que aplicar|Online",
@@ -14792,7 +14761,7 @@
     },
     {
       "title": "Mexico Tech Week|Mujeres sin Filtro × Victoria147  -  Mexico Tech Week|México|",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-2e3424a2\n\nAddress:\nÁmsterdam 255, Hipódromo Condesa, Cuauhtémoc, 06100 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & 4 others",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-2e3424a2\n\nAddress:\nÁmsterdam 255, Hipódromo Condesa, Cuauhtémoc, 06100 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & 5 others",
       "url": "https://luma.com/mxtw-2e3424a2",
       "sources": [
         {
@@ -15406,7 +15375,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
