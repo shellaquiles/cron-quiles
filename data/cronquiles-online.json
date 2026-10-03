@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-03T10:49:58.667556+00:00",
-  "total_events": 509,
+  "generated_at": "2026-10-03T15:26:34.031563+00:00",
+  "total_events": 510,
   "city": "Online",
   "communities": [
     {
@@ -94,11 +94,6 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
-          "label": "Luma"
         }
       ]
     },
@@ -169,8 +164,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3285,7 +3285,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3450,7 +3450,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5225,7 +5225,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5789,7 +5789,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10605,7 +10605,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11940,7 +11940,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14551,6 +14551,33 @@
       "hash_key": "how to raise capital from us investors_2026-10-26T16:00:00+00:00"
     },
     {
+      "title": "Mexico Tech Week|Pit Stop by Emprelatam y Oracle|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-c6628fc8\n\nAddress:\nC. Montes Urales 470, Lomas - Virreyes, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & Emprelatam",
+      "url": "https://luma.com/mxtw-c6628fc8",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-c6628fc8",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "C. Montes Urales 470, Lomas - Virreyes, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-26T21:00:00+00:00",
+      "dtend": "2026-10-26T23:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "C. Montes Urales 470, Lomas - Virreyes, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX",
+      "hash_key": "pit stop by emprelatam y oracle_2026-10-26T20:00:00+00:00"
+    },
+    {
       "title": "Mexico Tech Week|Accelerate: mentoría, herramientas y capital para PyMEs que generan empleo|Online",
       "description": "Get up-to-date information at: https://luma.com/mxtw-49b71d58\n\nHosted by Mexico Tech Week & Igeneris Events",
       "url": "https://luma.com/mxtw-49b71d58",
@@ -15493,9 +15520,10 @@
         "Google Cloud",
         "Google Workspace",
         "Web",
-        "Workshop / hands-on session"
+        "Workshop / hands-on session",
+        "cloud"
       ],
-      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "source": "https://gdg.community.dev/gdg-cloud-mexico-city/",
       "country": "México",
       "country_code": "MX",
       "state": "",
@@ -15582,7 +15610,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",

@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-03T10:49:58.837248+00:00",
-  "total_events": 92,
+  "generated_at": "2026-10-03T15:26:34.201401+00:00",
+  "total_events": 93,
   "city": "México",
   "communities": [
     {
@@ -17,11 +17,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -667,7 +667,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -1860,6 +1860,33 @@
       "city_code": "",
       "address": "C. Lucerna 34, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
       "hash_key": "moon explorer challenge_2026-10-27T18:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Emprelatam Connect Day|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-2eb68508\n\nAddress:\nBarranca del Muerto 280\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Emprelatam",
+      "url": "https://luma.com/mxtw-2eb68508",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-2eb68508",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Barranca del Muerto 280, Guadalupe Inn, Álvaro Obregón, 01020 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T20:00:00+00:00",
+      "dtend": "2026-10-28T01:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Barranca del Muerto 280, Guadalupe Inn, Álvaro Obregón, 01020 Ciudad de México, CDMX, Mexico",
+      "hash_key": "emprelatam connect day_2026-10-27T20:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|AI for Action, Humans for Emotion - INOVA® Mexico Success Story|México|México",
