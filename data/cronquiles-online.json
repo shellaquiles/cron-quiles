@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-03T02:56:38.002515+00:00",
-  "total_events": 507,
+  "generated_at": "2026-10-03T10:49:58.667556+00:00",
+  "total_events": 509,
   "city": "Online",
   "communities": [
     {
@@ -169,13 +169,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3290,7 +3285,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3455,7 +3450,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10610,7 +10605,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14765,6 +14760,36 @@
       "hash_key": "cloud native cdmx workshop panel de muje_2026-10-28T22:00:00+00:00"
     },
     {
+      "title": "Mexico Tech Week|AI Red Carpet. Netflix. Locación 2|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-7dea8e81\n\nAddress:\nAv. Ejército Nacional Mexicano 769, Polanco III Secc, Miguel Hidalgo, 11520 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week, Experta talks & Yuri De Leija",
+      "url": "https://luma.com/mxtw-7dea8e81",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-7dea8e81",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Av. Ejército Nacional Mexicano 769, Polanco III Secc, Miguel Hidalgo, 11520 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-29T00:00:00+00:00",
+      "dtend": "2026-10-29T03:00:00+00:00",
+      "tags": [
+        "ai",
+        "security"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Av. Ejército Nacional Mexicano 769, Polanco III Secc, Miguel Hidalgo, 11520 Ciudad de México, CDMX",
+      "hash_key": "ai red carpet netflix locacin 2_2026-10-29T00:00:00+00:00"
+    },
+    {
       "title": "Mexico Tech Week|Mujeres sin Filtro × Victoria147  -  Mexico Tech Week|México|",
       "description": "Get up-to-date information at: https://luma.com/mxtw-2e3424a2\n\nAddress:\nÁmsterdam 255, Hipódromo Condesa, Cuauhtémoc, 06100 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & 5 others",
       "url": "https://luma.com/mxtw-2e3424a2",
@@ -14846,6 +14871,35 @@
       "city_code": "",
       "address": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
       "hash_key": "cocktail para corporativos y premiacin a_2026-10-29T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Founder Dinner: AI Tinkerers CDMX x Mexico Tech Week|Online",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-b65c100e\n\nHosted by Mexico Tech Week & Christopher Martinez",
+      "url": "https://luma.com/mxtw-b65c100e",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-b65c100e",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-xCH3SD9wbA6GoPP",
+      "online": true,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-29T01:30:00+00:00",
+      "dtend": "2026-10-29T04:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-xCH3SD9wbA6GoPP",
+      "hash_key": "founder dinner ai tinkerers cdmx x mexic_2026-10-29T00:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Oct 29 - How to Build Vision Data Agents with Tools, Skills, and MCP|Online",
@@ -15528,7 +15582,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
