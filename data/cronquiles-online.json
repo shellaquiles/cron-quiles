@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-04T20:40:29.493267+00:00",
-  "total_events": 511,
+  "generated_at": "2026-10-05T03:03:53.914682+00:00",
+  "total_events": 513,
   "city": "Online",
   "communities": [
     {
@@ -93,11 +93,6 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
-          "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5225,7 +5220,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5789,7 +5784,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11940,7 +11935,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14694,6 +14689,62 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-tGBTfWbV3nhiOhc",
       "hash_key": "parenting with ai w the ai collective ka_2026-10-28T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Miprimerachamba.ai|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-52aa1722\n\nAddress:\nTonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & 3 others",
+      "url": "https://luma.com/mxtw-52aa1722",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-52aa1722",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Tonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T10:00:00+00:00",
+      "dtend": "2026-10-28T13:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Tonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+      "hash_key": "miprimerachamba ai_2026-10-28T10:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Breathwork, Cold Plunge & Sauna by Ice Coldture|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-8b5f48f6\n\nAddress:\nAv. Veracruz 73, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week, Laura Jaramillo & MARIO ALBERTO GONZALEZ ALVAREZ",
+      "url": "https://luma.com/mxtw-8b5f48f6",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-8b5f48f6",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Av. Veracruz 73, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T14:00:00+00:00",
+      "dtend": "2026-10-28T16:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Av. Veracruz 73, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX",
+      "hash_key": "breathwork cold plunge sauna by ice cold_2026-10-28T14:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|FinOps: la metodología de control de gasto que todas las empresas tienen que aplicar|Online",
