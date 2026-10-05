@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-05T03:03:54.032444+00:00",
-  "total_events": 105,
+  "generated_at": "2026-10-05T13:02:57.355871+00:00",
+  "total_events": 106,
   "city": "México",
   "communities": [
     {
@@ -17,11 +17,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
+      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/eofagheq",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -667,7 +667,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -1426,8 +1426,8 @@
       "location": "Universidad Panamericana - Sede Santa Fe, Av. Javier Barros Sierra 540 - piso 3, Park Plaza, Torre II, Santa Fe, Zedec Sta Fé, Álvaro Obregón, 01210 Ciudad de México, CDMX, Mexico",
       "online": false,
       "organizer": "Claude Community",
-      "dtstart": "2026-10-21T15:30:00+00:00",
-      "dtend": "2026-10-21T18:30:00+00:00",
+      "dtstart": "2026-10-21T15:15:00+00:00",
+      "dtend": "2026-10-21T18:15:00+00:00",
       "tags": [],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
       "country": "México",
@@ -1496,6 +1496,33 @@
       "city_code": "",
       "address": "Casita Solosé, Altata 310, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX, Mexico",
       "hash_key": "mundialito tech weeks world cup chill ch_2026-10-25T20:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Copa América de Fútbol 7|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-baf21b46\n\nAddress:\nAltata 310\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Diego",
+      "url": "https://luma.com/mxtw-baf21b46",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-baf21b46",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Altata 310, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-25T20:30:00+00:00",
+      "dtend": "2026-10-26T01:30:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Altata 310, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX, Mexico",
+      "hash_key": "copa amrica de ftbol 7_2026-10-25T20:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|RUN 5K WITH MITH|México|México",
