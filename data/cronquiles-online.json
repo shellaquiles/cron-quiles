@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-05T23:30:14.819496+00:00",
-  "total_events": 513,
+  "generated_at": "2026-10-06T03:53:22.979190+00:00",
+  "total_events": 515,
   "city": "Online",
   "communities": [
     {
@@ -94,11 +94,6 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
-          "label": "Luma"
         }
       ]
     },
@@ -169,8 +164,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3285,7 +3285,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3450,7 +3450,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5225,7 +5225,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5789,7 +5789,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10605,7 +10605,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11940,7 +11940,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15245,6 +15245,42 @@
       "hash_key": "nov 11 ai ml and computer vision meetup_2026-11-11T16:00:00+00:00"
     },
     {
+      "title": "GDG Villahermosa|DevFest 2026: TecNM Comalcalco|México|",
+      "description": "Únete al Devfest 2026, el evento clave para explorar las últimas tendencias en desarrollo de software, desde aplicaciones móviles hasta inteligencia artificial. Asiste a charlas de expertos y talleres prácticos, y conéctate con otros desarrolladores apasionados. Descubre cómo puedes influir en el futuro tecnológico. Se lleva a cabo en el auditorio principal del Congreso. ¡Confirma tu asistencia!",
+      "url": "https://gdg.community.dev/events/details/google-gdg-villahermosa-presents-devfest-2026-tecnm-comalcalco/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-villahermosa-presents-devfest-2026-tecnm-comalcalco/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Instituto Tecnológico Superior de Comalcalco, KM 2 Paraiso - Comalcalco, Comalcalco",
+      "online": false,
+      "organizer": "GDG Villahermosa",
+      "dtstart": "2026-11-12T09:00:00-06:00",
+      "dtend": "2026-11-12T13:00:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Conference",
+        "DevFest",
+        "Google Cloud",
+        "Web",
+        "Workshop / hands-on session",
+        "frontend"
+      ],
+      "source": "https://gdg.community.dev/gdg-villahermosa/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Instituto Tecnológico Superior de Comalcalco, KM 2 Paraiso - Comalcalco, Comalcalco",
+      "hash_key": "devfest 2026 tecnm comalcalco_2026-11-12T14:00:00+00:00"
+    },
+    {
       "title": "GDG Villahermosa|DevFest 2026: Sureste de México Virtual|Online",
       "description": "Devfest 2026 es la cita ideal para desarrolladores que quieran explorar las últimas tendencias en aplicaciones móviles, web, cloud e inteligencia artificial. Participa en charlas de expertos y talleres prácticos que mejorarán tus habilidades. Conecta con otros apasionados y descubre cómo influir en el futuro de la tecnología. ¡Confirma tu asistencia!",
       "url": "https://gdg.community.dev/events/details/google-gdg-villahermosa-presents-devfest-2026-sureste-de-mexico-virtual/",
@@ -15282,6 +15318,45 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "devfest 2026 sureste de mxico virtual_2026-11-13T00:00:00+00:00"
+    },
+    {
+      "title": "GDG Villahermosa|DevFest 2026: Sureste de México Virtual|Online",
+      "description": "Devfest 2026 es la cita ideal para desarrolladores que quieran explorar las últimas tendencias en aplicaciones móviles, web, cloud e inteligencia artificial. Participa en charlas de expertos y talleres prácticos que mejorarán tus habilidades. Conecta con otros apasionados y descubre cómo influir en el futuro de la tecnología. ¡Confirma tu asistencia!",
+      "url": "https://gdg.community.dev/events/details/google-gdg-villahermosa-presents-devfest-2026-sureste-de-mexico-virtual/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-villahermosa-presents-devfest-2026-sureste-de-mexico-virtual/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG Villahermosa",
+      "dtstart": "2026-11-13T08:00:00-06:00",
+      "dtend": "2026-11-13T16:00:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Conference",
+        "DevFest",
+        "Google Cloud",
+        "Web",
+        "Workshop / hands-on session",
+        "backend",
+        "cloud",
+        "frontend",
+        "web"
+      ],
+      "source": "https://gdg.community.dev/gdg-villahermosa/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "devfest 2026 sureste de mxico virtual_2026-11-13T14:00:00+00:00"
     },
     {
       "title": "GDG Cloud Mexico City|DevFest 2026: Innovación en Inteligencia Artificial|México|",
@@ -15694,7 +15769,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
