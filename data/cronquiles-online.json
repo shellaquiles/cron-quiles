@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-06T12:26:40.487599+00:00",
-  "total_events": 516,
+  "generated_at": "2026-10-06T22:02:17.340305+00:00",
+  "total_events": 519,
   "city": "Online",
   "communities": [
     {
@@ -14226,8 +14226,8 @@
       "hash_key": "ai nije autoritet kako koristiti ai a za_2026-10-11T14:00:00+00:00"
     },
     {
-      "title": "Cloud Native Mexico City|Cloud Native CDMX - Platform Engineering: Fundamentos + Seguridad|Online",
-      "description": "🎤 ¡Buscamos speakers para un Lightning Talk en Cloud Native CDMX!\n¡Hola, comunidad! 👋\nEstamos armando nuestro próximo meetup en Cloud Native CDMX y queremos abrir un espacio para ti.\n🔎 ¿Qué buscamos?\nUn\nlightning talk\nde 15-20 minutos sobre algún tema relacionado con el ecosistema Cloud Native. Algunos ejemplos (pero no limitados a):\nObservabilidad (OpenTelemetry, Prometheus, Grafana)\nGitOps (Argo CD, Flux)\nService Mesh (Istio, Linkerd, Cilium)\nCI/CD Cloud Native\nExperiencias implementando proyectos CNCF\nCualquier tema Cloud Native que te apasione 🔥\n📌 ¿Qué necesitas saber?\nDuración: 15-20 minutos\nEl contenido debe ser vendor-neutral (enfocado en tecnologías open source, no en productos comerciales)\nNo necesitas ser experto, si tienes experiencia práctica con algún proyecto CNCF y quieres compartirla, ¡este es tu espacio!\n💡 Es una excelente oportunidad para dar tus primeros pasos como speaker o compartir algo que estés usando en tu día a día.\n¡Los esperamos! 🚀\n#CloudNative #CNCF #Kubernetes #PlatformEngineering #Meetup #CDMX",
+      "title": "Cloud Native Mexico City|Cloud Native CDMX - Platform Engineering: Fundamentos + Seguridad|México|",
+      "description": "🚀 ¡Nueva edición de Cloud Native CDMX! 🚀\n¡Estamos de vuelta! 🎉 Nos emociona anunciar una nueva edición de Cloud Native CDMX, esta vez dedicada a uno de los temas más relevantes del ecosistema actual: Platform Engineering 🏗️\n📋 Detalles:\n📅 13 de octubre de 2026\n🕐 17:00 – 21:00 hrs\n📍 Av. Insurgentes Sur 1458, Actipan, Benito Juárez, 03230 Ciudad de México, CDMX\nVer mapa\n🎟️ ¡Completamente GRATIS!\n🎯 ¿Qué veremos?\n🔹\nPlatform Engineering 101: Fundamentos y el camino hacia la madurez\n🎤\nGonzalo García Campos\n, Platform Engineering, Gentera\nDesmitificaremos la Ingeniería de Plataforma, exploraremos qué hace a una verdadera Plataforma Interna para Desarrolladores (IDP) y navegaremos el Modelo de Madurez de la CNCF como brújula estratégica. ⚙️🧭\n🔹\nFirma y validación de imágenes de contenedor con Cosign y Kyverno\n🎤\nNoé Gutierrez Romero\n— Platform Engineer, Gentera\nAseguraremos la cadena de suministro de software con firma y verificación automatizada de artefactos en Kubernetes. ¡Fundamentos teóricos + demo en vivo! 🔐🐳\n🔹 Promoción Continua a escala, auditable y declarativa con Kargo\n🎤\nYamil Urbina\nSenior DevOps Engineer @ Cisco ThousandEyes\nLa entrega continua (continuous delivery) tradicional suele fragmentarse en diferentes entornos, listas de verificación, ramas de GitOps dispersas y conocimiento disperso entre ingenieros. En esta charla veremos cómo utilizar Kargo para construir un control plane unificado y declarativo de CD. Analizaremos la arquitectura necesaria para escalar a 9,000+ promociones mensuales que sean auditables, visuales y declarativas. El complemento ideal para GitOps con Argo CD. 🚀📦\n💡 Si eres arquitecto, ingeniero de plataforma, DevOps o líder tecnológico, esta edición es para ti. Ven a aprender cómo tratar la infraestructura como un producto interno y cómo asegurar tu cadena de suministro de software.\nCloud Native CDMX sigue creciendo y construyendo una comunidad técnica sólida, inclusiva y apasionada por el ecosistema Cloud Native en México. 💙🇲🇽\n¡No te lo pierdas!\n☁️ #CloudNativeCDMX #CloudNative #PlatformEngineering #Kubernetes #CNCF #DevOps #CloudComputing #Cosign #Kyverno #SupplyChainSecurity #OpenSource #ComunidadTech #CloudNativeMexico #Gentera #IDP #CNCFMaturityModel #TechCommunity #CloudNativeLatam",
       "url": "https://ocgroups.dev/cncf/group/e5vgp72/event/um66q6c",
       "sources": [
         {
@@ -14237,14 +14237,17 @@
         }
       ],
       "location": "Gentera, Benito Juárez, México City, México",
-      "online": true,
+      "online": false,
       "organizer": "Cloud Native Mexico City",
       "dtstart": "2026-10-13T17:00:00-06:00",
       "dtend": "2026-10-13T21:00:00-06:00",
       "tags": [
+        "ai",
         "cloud",
         "devops",
-        "frontend"
+        "frontend",
+        "security",
+        "web"
       ],
       "source": "https://ocgroups.dev/cncf/group/e5vgp72",
       "country": "México",
@@ -14383,6 +14386,33 @@
       "city_code": "",
       "address": "Museo interactivo de ciencias e innovación de Nayarit, s/n Avenida de la Salud, Tepic",
       "hash_key": "dev fest 2026 collaborative innovation_2026-10-15T18:00:00+00:00"
+    },
+    {
+      "title": "Claude Community|Oslo  -  Claude Impact Lab|Online",
+      "description": "Get up-to-date information at: https://luma.com/claude-qv5r\n\nHosted by Aleksander Stensby & Mesh Oslo",
+      "url": "https://luma.com/claude-qv5r",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claude-qv5r",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-WeBUbqHOiAlPqLR",
+      "online": true,
+      "organizer": "Claude Community",
+      "dtstart": "2026-10-21T07:00:00+00:00",
+      "dtend": "2026-10-21T12:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-WeBUbqHOiAlPqLR",
+      "hash_key": "oslo claude impact lab_2026-10-21T06:00:00+00:00"
     },
     {
       "title": "GDG Villahermosa|Devfest 2026: Congreso Internacional de Informática y Sistemas DACYTI|México|",
@@ -14667,6 +14697,33 @@
       "hash_key": "accelerate mentora herramientas y capita_2026-10-26T22:00:00+00:00"
     },
     {
+      "title": "Mexico Tech Week|Odiamos los eventos de tech. Hicimos uno: noche de apertura|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-be728524\n\nAddress:\nTonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & Alejandro Rivera",
+      "url": "https://luma.com/mxtw-be728524",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-be728524",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Tonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-26T23:30:00+00:00",
+      "dtend": "2026-10-27T01:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Tonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+      "hash_key": "odiamos los eventos de tech hicimos uno _2026-10-26T22:00:00+00:00"
+    },
+    {
       "title": "Mexico Tech Week|From Data to Decisions : Amazon Quick in Action.|México|",
       "description": "Get up-to-date information at: https://luma.com/mxtw-518abc4e\n\nAddress:\nInsurgentes Sur 730, Torre Vistral Piso 11 Col. Del Valle, CDMX, 03100\n\nHosted by Mexico Tech Week, Ana Sofia Escobedo & Danu Analítica",
       "url": "https://luma.com/mxtw-518abc4e",
@@ -14695,6 +14752,35 @@
       "city_code": "",
       "address": "Insurgentes Sur 730, Torre Vistral Piso 11 Col. Del Valle, CDMX, 03100",
       "hash_key": "from data to decisions amazon quick in a_2026-10-27T16:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Token Economics: The Hidden P&L of AI Startups|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-71b7b14c\n\nAddress:\nC. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & Alexander Santana Gracia",
+      "url": "https://luma.com/mxtw-71b7b14c",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-71b7b14c",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T17:00:00+00:00",
+      "dtend": "2026-10-27T19:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+      "hash_key": "token economics the hidden p l of ai sta_2026-10-27T16:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|Parenting with AI (w/ The AI Collective Kansas City)|Online",

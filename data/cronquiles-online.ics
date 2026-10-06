@@ -7799,25 +7799,42 @@ X-CRONQUILES-ADDRESS:https://luma.com/event/evt-DygnHfbHLpGWRUS
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Cloud Native Mexico City|Cloud Native CDMX - Platform Engineering:
-  Fundamentos + Seguridad|Online
+  Fundamentos + Seguridad|México|
 DTSTART:20261013T170000
-CATEGORIES:cloud,devops,frontend
-DESCRIPTION:🎤 ¡Buscamos speakers para un Lightning Talk en Cloud Nativ
- e CDMX!\n¡Hola\, comunidad! 👋\nEstamos armando nuestro próximo meetup
-  en Cloud Native CDMX y queremos abrir un espacio para ti.\n🔎 ¿Qué bu
- scamos?\nUn\nlightning talk\nde 15-20 minutos sobre algún tema relacionad
- o con el ecosistema Cloud Native. Algunos ejemplos (pero no limitados a):\
- nObservabilidad (OpenTelemetry\, Prometheus\, Grafana)\nGitOps (Argo CD\, 
- Flux)\nService Mesh (Istio\, Linkerd\, Cilium)\nCI/CD Cloud Native\nExperi
- encias implementando proyectos CNCF\nCualquier tema Cloud Native que te ap
- asione 🔥\n📌 ¿Qué necesitas saber?\nDuración: 15-20 minutos\nEl co
- ntenido debe ser vendor-neutral (enfocado en tecnologías open source\, no
-  en productos comerciales)\nNo necesitas ser experto\, si tienes experienc
- ia práctica con algún proyecto CNCF y quieres compartirla\, ¡este es tu
-  espacio!\n💡 Es una excelente oportunidad para dar tus primeros pasos c
- omo speaker o compartir algo que estés usando en tu día a día.\n¡Los e
- speramos! 🚀\n#CloudNative #CNCF #Kubernetes #PlatformEngineering #Meetu
- p #CDMX
+CATEGORIES:ai,cloud,devops,frontend,security,web
+DESCRIPTION:🚀 ¡Nueva edición de Cloud Native CDMX! 🚀\n¡Estamos de
+  vuelta! 🎉 Nos emociona anunciar una nueva edición de Cloud Native CDM
+ X\, esta vez dedicada a uno de los temas más relevantes del ecosistema ac
+ tual: Platform Engineering 🏗️\n📋 Detalles:\n📅 13 de octubre de 
+ 2026\n🕐 17:00 – 21:00 hrs\n📍 Av. Insurgentes Sur 1458\, Actipan\, 
+ Benito Juárez\, 03230 Ciudad de México\, CDMX\nVer mapa\n🎟️ ¡Compl
+ etamente GRATIS!\n🎯 ¿Qué veremos?\n🔹\nPlatform Engineering 101: Fu
+ ndamentos y el camino hacia la madurez\n🎤\nGonzalo García Campos\n\, P
+ latform Engineering\, Gentera\nDesmitificaremos la Ingeniería de Platafor
+ ma\, exploraremos qué hace a una verdadera Plataforma Interna para Desarr
+ olladores (IDP) y navegaremos el Modelo de Madurez de la CNCF como brújul
+ a estratégica. ⚙️🧭\n🔹\nFirma y validación de imágenes de cont
+ enedor con Cosign y Kyverno\n🎤\nNoé Gutierrez Romero\n— Platform Eng
+ ineer\, Gentera\nAseguraremos la cadena de suministro de software con firm
+ a y verificación automatizada de artefactos en Kubernetes. ¡Fundamentos 
+ teóricos + demo en vivo! 🔐🐳\n🔹 Promoción Continua a escala\, au
+ ditable y declarativa con Kargo\n🎤\nYamil Urbina\nSenior DevOps Enginee
+ r @ Cisco ThousandEyes\nLa entrega continua (continuous delivery) tradicio
+ nal suele fragmentarse en diferentes entornos\, listas de verificación\, 
+ ramas de GitOps dispersas y conocimiento disperso entre ingenieros. En est
+ a charla veremos cómo utilizar Kargo para construir un control plane unif
+ icado y declarativo de CD. Analizaremos la arquitectura necesaria para esc
+ alar a 9\,000+ promociones mensuales que sean auditables\, visuales y decl
+ arativas. El complemento ideal para GitOps con Argo CD. 🚀📦\n💡 Si 
+ eres arquitecto\, ingeniero de plataforma\, DevOps o líder tecnológico\,
+  esta edición es para ti. Ven a aprender cómo tratar la infraestructura 
+ como un producto interno y cómo asegurar tu cadena de suministro de softw
+ are.\nCloud Native CDMX sigue creciendo y construyendo una comunidad técn
+ ica sólida\, inclusiva y apasionada por el ecosistema Cloud Native en Mé
+ xico. 💙🇲🇽\n¡No te lo pierdas!\n☁️ #CloudNativeCDMX #CloudNat
+ ive #PlatformEngineering #Kubernetes #CNCF #DevOps #CloudComputing #Cosign
+  #Kyverno #SupplyChainSecurity #OpenSource #ComunidadTech #CloudNativeMexi
+ co #Gentera #IDP #CNCFMaturityModel #TechCommunity #CloudNativeLatam
 LOCATION:Gentera\, Benito Juárez\, México City\, México
 X-CRONQUILES-ADDRESS:Gentera\, Benito Juárez\, México City\, México
 X-CRONQUILES-COUNTRY:México
@@ -7975,6 +7992,14 @@ X-CRONQUILES-ADDRESS:Museo interactivo de ciencias e innovación de Nayari
  t\, s/n Avenida de la Salud\, Tepic
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Claude Community|Oslo  -  Claude Impact Lab|Online
+DTSTART:20261021T070000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/claude-qv5r\n\
+ nHosted by Aleksander Stensby & Mesh Oslo
+LOCATION:https://luma.com/event/evt-WeBUbqHOiAlPqLR
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-WeBUbqHOiAlPqLR
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GDG Villahermosa|Devfest 2026: Congreso Internacional de Informát
@@ -8162,6 +8187,20 @@ LOCATION:https://luma.com/event/evt-oTiTuL4eOurxzL1
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-oTiTuL4eOurxzL1
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|Odiamos los eventos de tech. Hicimos uno: noche d
+ e apertura|México|
+DTSTART:20261026T233000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-be728524\
+ n\nAddress:\nTonalá 145\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad de Méxi
+ co\, CDMX\n\nHosted by Mexico Tech Week & Alejandro Rivera
+LOCATION:Tonalá 145\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad de México\,
+  CDMX
+X-CRONQUILES-ADDRESS:Tonalá 145\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad 
+ de México\, CDMX
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|From Data to Decisions : Amazon Quick in Action.|
  México|
 DTSTART:20261027T160000Z
@@ -8174,6 +8213,21 @@ LOCATION:Insurgentes Sur 730\, Torre Vistral Piso 11 Col. Del Valle\, CDMX
  \, 03100
 X-CRONQUILES-ADDRESS:Insurgentes Sur 730\, Torre Vistral Piso 11 Col. Del 
  Valle\, CDMX\, 03100
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|Token Economics: The Hidden P&L of AI Startups|M
+ éxico|
+DTSTART:20261027T170000Z
+CATEGORIES:ai
+DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-71b7b14c\
+ n\nAddress:\nC. Marsella 45\, Juárez\, Cuauhtémoc\, 06600 Ciudad de Méx
+ ico\, CDMX\n\nHosted by Mexico Tech Week & Alexander Santana Gracia
+LOCATION:C. Marsella 45\, Juárez\, Cuauhtémoc\, 06600 Ciudad de México\
+ , CDMX
+X-CRONQUILES-ADDRESS:C. Marsella 45\, Juárez\, Cuauhtémoc\, 06600 Ciudad
+  de México\, CDMX
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
