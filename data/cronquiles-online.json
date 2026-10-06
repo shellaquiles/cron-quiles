@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-06T03:53:22.979190+00:00",
-  "total_events": 515,
+  "generated_at": "2026-10-06T12:26:40.487599+00:00",
+  "total_events": 516,
   "city": "Online",
   "communities": [
     {
@@ -94,6 +94,11 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
+          "label": "Luma"
         }
       ]
     },
@@ -164,13 +169,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3285,7 +3285,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3450,7 +3450,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5225,7 +5225,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5789,7 +5789,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10605,7 +10605,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11940,7 +11940,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14449,6 +14449,36 @@
       "hash_key": "devfest 2026 sureste de mxico_2026-10-21T14:00:00+00:00"
     },
     {
+      "title": "Agility Talks|Lean OKR: ¿Cascadeo o Alineamiento?|Online",
+      "description": "Agile Talks - Difundiendo la agilidad\n**Cuando los OKR se cascadean por indicadores, cada traslado degrada la calidad del indicador y el impacto termina convertido en un entregable. En este webinar veremos por qué ocurre y cómo Lean OKR lo resuelve alineando hacia dimensiones estratégicas.**\n\nMuchas organizaciones alinean sus OKR bajando indicadores de nivel en nivel. Parece ordenado y sin embargo cada traslado transforma lo que se mide. Un indicador de impacto financiero se vuelve uno de outcome y luego uno de output o de proceso. Al final del camino puede quedar apenas un hito de proyecto.\n\nEn esta Agile Talk presentaremos un sistema de indicadores y mostraremos cómo se degrada el cascadeo.\nLuego veremos la propuesta de Lean OKR, que conecta a cada equipo con una dimensión estratégica.\n\nCada equipo trabaja en el nivel donde realmente influye y su contribución se trata como una hipótesis que se pone a prueba.\n\n**Saldrás con un ejercicio sencillo para auditar la cascada de tu propia organización.**",
+      "url": "https://www.meetup.com/agilility-talks/events/316863500/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/agilility-talks/events/316863500/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Online event,",
+      "online": true,
+      "organizer": "Agility Talks",
+      "dtstart": "2026-10-21T19:00:00-06:00",
+      "dtend": "2026-10-21T20:30:00-06:00",
+      "tags": [
+        "frontend",
+        "web"
+      ],
+      "source": "https://www.meetup.com/agilility-talks/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "lean okr cascadeo o alineamiento_2026-10-22T00:00:00+00:00"
+    },
+    {
       "title": "GDG Monterrey|DevFest 2026 Monterrey: Innovación con IA|México|",
       "description": "Únete a nosotros en el DevFest 2026 Monterrey: Innovación con IA, donde exploraremos las últimas tendencias en inteligencia artificial y tecnologías de Google. Podrás participar en talleres interactivos que te ayudarán a sacar el máximo provecho a las herramientas de Inteligencia Artificial que brinda Google; aprenderás de expertos en la industria y tendrás la oportunidad de conectar con expertos.",
       "url": "https://gdg.community.dev/events/details/google-gdg-monterrey-presents-devfest-2026-monterrey-innovacion-con-ia/",
@@ -15769,7 +15799,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
