@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-06T22:02:17.340305+00:00",
-  "total_events": 519,
+  "generated_at": "2026-10-07T03:21:50.049888+00:00",
+  "total_events": 523,
   "city": "Online",
   "communities": [
     {
@@ -94,11 +94,6 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
-          "label": "Luma"
         }
       ]
     },
@@ -169,8 +164,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3285,7 +3285,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3450,7 +3450,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5225,7 +5225,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5789,7 +5789,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10605,7 +10605,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11940,7 +11940,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14168,6 +14168,75 @@
       "hash_key": "lunch hack sf tech week special w the ai_2026-10-08T18:00:00+00:00"
     },
     {
+      "title": "GDG CDMX|Construye aplicaciones con Inteligencia Artificial utilizando el ecosistema de Google|Online",
+      "description": "El GDG CDMX invita a ingenieras/os de software, investigadoras/es y entusiastas de la tecnología a la sesión dedicada al desarrollo del Codelab: Construye aplicaciones con Inteligencia Artificial utilizando el ecosistema de Google. La aplicación que vamos a crear en este codelab se llama Decide For Me; es un asistente para personas indecisas que se enfrentan a elecciones vitales.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-construye-aplicaciones-con-inteligencia-artificial-utilizando-el-ecosistema-de-google/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-construye-aplicaciones-con-inteligencia-artificial-utilizando-el-ecosistema-de-google/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-10-09T19:00:00-06:00",
+      "dtend": "2026-10-09T20:30:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Career Development",
+        "Google Maps Platform",
+        "Workshop / hands-on session"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "construye aplicaciones con inteligencia _2026-10-10T00:00:00+00:00"
+    },
+    {
+      "title": "GDG CDMX|Probabilidad & Estadística Científica parte II|Online",
+      "description": "El Club de Matemáticas para la Inteligencia Artificial invita a ingenieras/os de software y entusiastas de la tecnología a explorar variables aleatorias y el Teorema de Bayes, con análisis de datos y ejercicios prácticos. Ideal para quienes buscan profundizar en probabilidades y estadísticas aplicadas.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-probabilidad-amp-estadistica-cientifica-parte-ii/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-probabilidad-amp-estadistica-cientifica-parte-ii/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-10-10T19:00:00-06:00",
+      "dtend": "2026-10-10T20:30:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Career Development",
+        "Workshop / hands-on session",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "probabilidad estadstica cientfica parte _2026-10-11T00:00:00+00:00"
+    },
+    {
       "title": "Rust-AICollective|Mojih prvih 5 sati sa AI — Kako koristiti AI, a zadržati kritičko mišljenje? (w/ The AI Collective)|Online",
       "description": "Get up-to-date information at: https://luma.com/aic-se-10-11\n\nHosted by The AI Collective & 5 others",
       "url": "https://luma.com/aic-se-10-11",
@@ -14224,6 +14293,35 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-DygnHfbHLpGWRUS",
       "hash_key": "ai nije autoritet kako koristiti ai a za_2026-10-11T14:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|AI Roundtable #28: Beyond Assistants - What Autonomous AI Agents Change About Work (w/ The AI Collective KC & Voyage Consulting)|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-kc-roundtable28\n\nHosted by The AI Collective & 4 others",
+      "url": "https://luma.com/aic-kc-roundtable28",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-kc-roundtable28",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-tWUwDV5y1nAzRxM",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-10-12T17:00:00+00:00",
+      "dtend": "2026-10-12T18:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-tWUwDV5y1nAzRxM",
+      "hash_key": "ai roundtable 28 beyond assistants what _2026-10-12T16:00:00+00:00"
     },
     {
       "title": "Cloud Native Mexico City|Cloud Native CDMX - Platform Engineering: Fundamentos + Seguridad|México|",
@@ -14386,6 +14484,41 @@
       "city_code": "",
       "address": "Museo interactivo de ciencias e innovación de Nayarit, s/n Avenida de la Salud, Tepic",
       "hash_key": "dev fest 2026 collaborative innovation_2026-10-15T18:00:00+00:00"
+    },
+    {
+      "title": "GDG CDMX|Club de lectura de papers de AI: Fundamentos y Arquitectura de las Redes de Memoria a Corto y Largo Plazo (LSTM)|Online",
+      "description": "El Club de Lectura de Papers de Inteligencia Artificial invita a ingenieras/os de software, investigadoras/es y entusiastas de la tecnología a la  sesión técnica donde se llevará a cabo un análisis exhaustivo del célebre artículo Understanding LSTM Networks de Christopher Olah.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-club-de-lectura-de-papers-de-ai-fundamentos-y-arquitectura-de-las-redes-de-memoria-a-corto-y-largo-plazo-lstm/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-club-de-lectura-de-papers-de-ai-fundamentos-y-arquitectura-de-las-redes-de-memoria-a-corto-y-largo-plazo-lstm/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-10-15T20:00:00-06:00",
+      "dtend": "2026-10-15T21:30:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Career Development",
+        "Workshop / hands-on session",
+        "ai",
+        "frontend"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "club de lectura de papers de ai fundamen_2026-10-16T02:00:00+00:00"
     },
     {
       "title": "Claude Community|Oslo  -  Claude Impact Lab|Online",
@@ -15885,7 +16018,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
