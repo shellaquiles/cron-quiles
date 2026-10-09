@@ -254,7 +254,7 @@
     "online": false,
     "organizer": "GDG Cancún",
     "dtstart": "2026-11-20T09:00:00-05:00",
-    "dtend": "2026-11-20T17:00:00-05:00",
+    "dtend": "2026-11-21T17:00:00-05:00",
     "tags": [
       "AI",
       "AI - Gemini",
@@ -900,7 +900,7 @@
   },
   {
     "title": "Claude Community|Mexico City  -  Claude for Music|México|México",
-    "description": "Get up-to-date information at: https://luma.com/claudeformusic\n\nAddress:\nCASA LUMA CDMX\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega & Sunshine Vendetta",
+    "description": "Get up-to-date information at: https://luma.com/claudeformusic\n\nAddress:\nCASA LUMA CDMX\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega, Sunshine Vendetta & AXIS",
     "url": "https://luma.com/claudeformusic",
     "sources": [
       {
@@ -1414,6 +1414,62 @@
     "hash_key": "amela x mikigai a mindful oasis in the m_2026-10-28T22:00:00+00:00"
   },
   {
+    "title": "Mexico Tech Week|Startups Without Borders|México|México",
+    "description": "Get up-to-date information at: https://luma.com/mxtw-dc21e34b\n\nAddress:\nISDI México\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Rene Pons",
+    "url": "https://luma.com/mxtw-dc21e34b",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/mxtw-dc21e34b",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "ISDI México, C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+    "online": false,
+    "organizer": "Mexico Tech Week",
+    "dtstart": "2026-10-28T23:00:00+00:00",
+    "dtend": "2026-10-29T00:30:00+00:00",
+    "tags": [],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+    "country": "México",
+    "country_code": "MX",
+    "state": "México",
+    "state_code": "MX-MEX",
+    "city": "",
+    "city_code": "",
+    "address": "ISDI México, C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+    "hash_key": "startups without borders_2026-10-28T22:00:00+00:00"
+  },
+  {
+    "title": "Mexico Tech Week|Código Seguro con IA: Checkmarx + Babel redefinen AppSec|México|México",
+    "description": "Get up-to-date information at: https://luma.com/mxtw-354447f8\n\nAddress:\nAv. Ejército Nacional Mexicano 425\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Jorge Sánchez",
+    "url": "https://luma.com/mxtw-354447f8",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/mxtw-354447f8",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Av. Ejército Nacional Mexicano 425, Chapultepec Morales, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX, Mexico",
+    "online": false,
+    "organizer": "Mexico Tech Week",
+    "dtstart": "2026-10-28T23:00:00+00:00",
+    "dtend": "2026-10-29T02:00:00+00:00",
+    "tags": [
+      "security"
+    ],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+    "country": "México",
+    "country_code": "MX",
+    "state": "México",
+    "state_code": "MX-MEX",
+    "city": "",
+    "city_code": "",
+    "address": "Av. Ejército Nacional Mexicano 425, Chapultepec Morales, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX, Mexico",
+    "hash_key": "cdigo seguro con ia checkmarx babel rede_2026-10-28T22:00:00+00:00"
+  },
+  {
     "title": "Mexico Tech Week|Human + AI Sales Teams - A New Era of Lead Conversion|México|México",
     "description": "Get up-to-date information at: https://luma.com/mxtw-59a380f0\n\nAddress:\nRevo rooftop\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Carlos Fonseca",
     "url": "https://luma.com/mxtw-59a380f0",
@@ -1616,6 +1672,93 @@
     "city_code": "",
     "address": "Av Moliere 222, Polanco, Polanco II Secc, Miguel Hidalgo, 11530 Ciudad de México, CDMX, Mexico",
     "hash_key": "reshaping the innovation playbook by blu_2026-10-28T22:00:00+00:00"
+  },
+  {
+    "title": "Mexico Tech Week|Final competencia: AI for Corporates Challenge|México|",
+    "description": "Get up-to-date information at: https://luma.com/mxtw-bfa001de\n\nAddress:\nBarcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week, Startuplinks Community & ILB Media",
+    "url": "https://luma.com/mxtw-bfa001de",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/mxtw-bfa001de",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+    "online": false,
+    "organizer": "Mexico Tech Week",
+    "dtstart": "2026-10-28T22:00:00+00:00",
+    "dtend": "2026-10-28T23:00:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+    "country": "México",
+    "country_code": "MX",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+    "hash_key": "final competencia ai for corporates chal_2026-10-28T22:00:00+00:00"
+  },
+  {
+    "title": "Mexico Tech Week|Impuestos en la era de la IA|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/mxtw-771b09ba\n\nAddress:\nBBVA\nBBVA Spark Space, Torre Bancomer\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & 3 others",
+    "url": "https://luma.com/mxtw-771b09ba",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/mxtw-771b09ba",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "BBVA, Av. P.º de la Reforma 510, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+    "online": false,
+    "organizer": "Mexico Tech Week",
+    "dtstart": "2026-10-28T22:00:00+00:00",
+    "dtend": "2026-10-29T01:00:00+00:00",
+    "tags": [
+      "data"
+    ],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Av. P.º de la Reforma 510, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
+    "hash_key": "impuestos en la era de la ia_2026-10-28T22:00:00+00:00"
+  },
+  {
+    "title": "Mexico Tech Week|Fintech Builders Lab by Interledger, Dell, AMD & TWIF|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/mxtw-fce5c125\n\nAddress:\nPÚBLICO Reforma\nEl evento se llevará a cabo en el piso 7.\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & This Week in Fintech",
+    "url": "https://luma.com/mxtw-fce5c125",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/mxtw-fce5c125",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "PÚBLICO Reforma, Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico",
+    "online": false,
+    "organizer": "Mexico Tech Week",
+    "dtstart": "2026-10-28T22:00:00+00:00",
+    "dtend": "2026-10-29T03:30:00+00:00",
+    "tags": [
+      "frontend"
+    ],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "Ciudad de México",
+    "city_code": "cdmx",
+    "address": "Av. P.º de la Reforma 333, Cuauhtémoc, 06500 Ciudad de México, CDMX, México",
+    "hash_key": "fintech builders lab by interledger dell_2026-10-28T22:00:00+00:00"
   },
   {
     "title": "Mexico Tech Week|Reverse Pitch: Inversionistas en IA|México|México",
@@ -2039,6 +2182,89 @@
     "hash_key": "bueno me escuchas building voice agents _2026-10-28T16:00:00+00:00"
   },
   {
+    "title": "Mexico Tech Week|Competencia startups en IA: AI for Corporates Challenge|México|México",
+    "description": "Get up-to-date information at: https://luma.com/mxtw-a47e94b5\n\nAddress:\nBarcelona 26\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week, Startuplinks Community & ILB Media",
+    "url": "https://luma.com/mxtw-a47e94b5",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/mxtw-a47e94b5",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+    "online": false,
+    "organizer": "Mexico Tech Week",
+    "dtstart": "2026-10-28T17:00:00+00:00",
+    "dtend": "2026-10-28T19:00:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+    "country": "México",
+    "country_code": "MX",
+    "state": "México",
+    "state_code": "MX-MEX",
+    "city": "",
+    "city_code": "",
+    "address": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+    "hash_key": "competencia startups en ia ai for corpor_2026-10-28T16:00:00+00:00"
+  },
+  {
+    "title": "Mexico Tech Week|Conexión sin filtro|México|México",
+    "description": "Get up-to-date information at: https://luma.com/mxtw-66747967\n\nAddress:\nAv. Veracruz 73\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Daphne Leger",
+    "url": "https://luma.com/mxtw-66747967",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/mxtw-66747967",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Av. Veracruz 73, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico",
+    "online": false,
+    "organizer": "Mexico Tech Week",
+    "dtstart": "2026-10-28T17:00:00+00:00",
+    "dtend": "2026-10-28T18:30:00+00:00",
+    "tags": [],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+    "country": "México",
+    "country_code": "MX",
+    "state": "México",
+    "state_code": "MX-MEX",
+    "city": "",
+    "city_code": "",
+    "address": "Av. Veracruz 73, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico",
+    "hash_key": "conexin sin filtro_2026-10-28T16:00:00+00:00"
+  },
+  {
+    "title": "Mexico Tech Week|B2B ES HUMANO: De la conexión al revenue|México|México",
+    "description": "Get up-to-date information at: https://luma.com/mxtw-685a3895\n\nAddress:\nISDI México\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Male Jimenez",
+    "url": "https://luma.com/mxtw-685a3895",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/mxtw-685a3895",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "ISDI México, C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+    "online": false,
+    "organizer": "Mexico Tech Week",
+    "dtstart": "2026-10-28T17:00:00+00:00",
+    "dtend": "2026-10-28T19:00:00+00:00",
+    "tags": [],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+    "country": "México",
+    "country_code": "MX",
+    "state": "México",
+    "state_code": "MX-MEX",
+    "city": "",
+    "city_code": "",
+    "address": "ISDI México, C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+    "hash_key": "b2b es humano de la conexin al revenue_2026-10-28T16:00:00+00:00"
+  },
+  {
     "title": "Claude Community|Mexico City  -  Claude for Revenue: Sales, GTM & Agents That Sell|México|México",
     "description": "Get up-to-date information at: https://luma.com/claudeforrevenue\n\nAddress:\nEBC\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega & Andres Nájera",
     "url": "https://luma.com/claudeforrevenue",
@@ -2268,7 +2494,7 @@
   },
   {
     "title": "Mexico Tech Week|Copa América de Fútbol 7|México|México",
-    "description": "Get up-to-date information at: https://luma.com/mxtw-baf21b46\n\nAddress:\nAltata 310\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Diego",
+    "description": "Get up-to-date information at: https://luma.com/mxtw-baf21b46\n\nAddress:\nAltata 310\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & 3 others",
     "url": "https://luma.com/mxtw-baf21b46",
     "sources": [
       {
@@ -2518,6 +2744,33 @@
     "city_code": "",
     "address": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
     "hash_key": "ai tech court_2026-10-28T00:00:00+00:00"
+  },
+  {
+    "title": "Mexico Tech Week|Cyber Trust Round: Por qué la confianza se volvió el activo que cierra rondas y contratos enterprise.|México|México",
+    "description": "Get up-to-date information at: https://luma.com/mxtw-b12cadbf\n\nAddress:\nC. Marsella 45\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & 4 others",
+    "url": "https://luma.com/mxtw-b12cadbf",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/mxtw-b12cadbf",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "C. Marsella 45, Juárez, Cuauhtémoc, 06030 Ciudad de México, CDMX, Mexico",
+    "online": false,
+    "organizer": "Mexico Tech Week",
+    "dtstart": "2026-10-28T01:00:00+00:00",
+    "dtend": "2026-10-28T04:00:00+00:00",
+    "tags": [],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+    "country": "México",
+    "country_code": "MX",
+    "state": "México",
+    "state_code": "MX-MEX",
+    "city": "",
+    "city_code": "",
+    "address": "C. Marsella 45, Juárez, Cuauhtémoc, 06030 Ciudad de México, CDMX, Mexico",
+    "hash_key": "cyber trust round por qu la confianza se_2026-10-28T00:00:00+00:00"
   },
   {
     "title": "Mexico Tech Week|Securing Trust in Clinical AI Agents|México|México",
@@ -2914,7 +3167,7 @@
   },
   {
     "title": "Mexico Tech Week|El País Necesita un Norte|México|México",
-    "description": "Get up-to-date information at: https://luma.com/mxtw-0bba507f\n\nAddress:\nWeRock\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Diego Benitez Concha",
+    "description": "Get up-to-date information at: https://luma.com/mxtw-0bba507f\n\nAddress:\nWeRock\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & 3 others",
     "url": "https://luma.com/mxtw-0bba507f",
     "sources": [
       {
@@ -2927,7 +3180,7 @@
     "online": false,
     "organizer": "Mexico Tech Week",
     "dtstart": "2026-10-27T23:00:00+00:00",
-    "dtend": "2026-10-28T02:00:00+00:00",
+    "dtend": "2026-10-28T04:00:00+00:00",
     "tags": [],
     "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
     "country": "México",
@@ -3693,6 +3946,35 @@
     "city_code": "",
     "address": "ISDI México, C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
     "hash_key": "when to sell your company_2026-10-27T14:00:00+00:00"
+  },
+  {
+    "title": "Mexico Tech Week|Vambe Lab: prueba Vambe AI con tu propia empresa|México|México",
+    "description": "Get up-to-date information at: https://luma.com/mxtw-fcdf3a55\n\nAddress:\nBarcelona 26\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week, angelica huertas & benja",
+    "url": "https://luma.com/mxtw-fcdf3a55",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/mxtw-fcdf3a55",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+    "online": false,
+    "organizer": "Mexico Tech Week",
+    "dtstart": "2026-10-27T15:00:00+00:00",
+    "dtend": "2026-10-28T01:00:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+    "country": "México",
+    "country_code": "MX",
+    "state": "México",
+    "state_code": "MX-MEX",
+    "city": "",
+    "city_code": "",
+    "address": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+    "hash_key": "vambe lab prueba vambe ai con tu propia _2026-10-27T14:00:00+00:00"
   },
   {
     "title": "Mexico Tech Week|Mesa Redonda: Nativos Digitales no Nativos de ingreso. Aprendizajes para retailers y Medios de Pago|México|México",
@@ -5159,7 +5441,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
@@ -8452,7 +8734,7 @@
     "dtstart": "2026-08-26T22:00:00+00:00",
     "dtend": "2026-08-26T23:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "",
     "country_code": "",
     "state": "",
@@ -9374,7 +9656,7 @@
       "ai",
       "frontend"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "México",
@@ -10222,7 +10504,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
@@ -15761,7 +16043,7 @@
     "dtstart": "2026-05-15T00:00:00+00:00",
     "dtend": "2026-05-15T00:50:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "",
     "country_code": "",
     "state": "",
@@ -16514,7 +16796,7 @@
     "tags": [
       "security"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "",
     "country_code": "",
     "state": "",
@@ -17994,7 +18276,7 @@
     "dtstart": "2026-04-24T15:00:00+00:00",
     "dtend": "2026-04-24T21:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -19267,7 +19549,7 @@
       "cloud",
       "python"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -19382,7 +19664,7 @@
     "dtstart": "2026-03-01T17:00:00+00:00",
     "dtend": "2026-03-01T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -19468,7 +19750,7 @@
     "dtstart": "2026-02-27T15:00:00+00:00",
     "dtend": "2026-02-27T17:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -19524,7 +19806,7 @@
     "dtstart": "2026-02-26T01:00:00+00:00",
     "dtend": "2026-02-26T04:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -19578,7 +19860,7 @@
     "dtstart": "2026-02-26T00:00:00+00:00",
     "dtend": "2026-02-26T03:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -19605,7 +19887,7 @@
     "dtstart": "2026-02-25T22:00:00+00:00",
     "dtend": "2026-02-25T23:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -19634,7 +19916,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -19663,7 +19945,7 @@
     "tags": [
       "mobile"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -19717,7 +19999,7 @@
     "dtstart": "2026-02-25T15:00:00+00:00",
     "dtend": "2026-02-25T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -19982,7 +20264,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -20011,7 +20293,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -20038,7 +20320,7 @@
     "dtstart": "2026-02-24T14:30:00+00:00",
     "dtend": "2026-02-24T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -20067,7 +20349,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -20094,7 +20376,7 @@
     "dtstart": "2026-02-24T00:00:00+00:00",
     "dtend": "2026-02-24T02:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -20123,7 +20405,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -20153,7 +20435,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -20183,7 +20465,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -20210,7 +20492,7 @@
     "dtstart": "2026-02-23T19:00:00+00:00",
     "dtend": "2026-02-23T20:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -20237,7 +20519,7 @@
     "dtstart": "2026-02-23T18:00:00+00:00",
     "dtend": "2026-02-23T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -20264,7 +20546,7 @@
     "dtstart": "2026-02-23T17:00:00+00:00",
     "dtend": "2026-02-23T18:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -20294,7 +20576,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -20758,7 +21040,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -21660,7 +21942,7 @@
       "devops",
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
@@ -21854,7 +22136,7 @@
     "dtstart": "2025-11-18T23:00:00+00:00",
     "dtend": "2025-11-19T01:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -22749,7 +23031,7 @@
     "tags": [
       "frontend"
     ],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
@@ -22918,7 +23200,7 @@
     "dtstart": "2025-09-29T18:00:00+00:00",
     "dtend": "2025-09-29T19:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -22972,7 +23254,7 @@
     "dtstart": "2025-09-19T22:00:00+00:00",
     "dtend": "2025-09-20T00:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -29126,7 +29408,7 @@
     "dtstart": null,
     "dtend": null,
     "tags": [],
-    "source": "https://luma.com/e17fbtoo",
+    "source": "https://luma.com/sudo_fciencias_2026",
     "country": "",
     "country_code": "",
     "state": "",
