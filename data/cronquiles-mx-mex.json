@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-09T22:02:05.856639+00:00",
-  "total_events": 163,
+  "generated_at": "2026-10-10T03:23:43.796041+00:00",
+  "total_events": 164,
   "city": "México",
   "communities": [
     {
@@ -39,11 +39,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -689,7 +689,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -3572,6 +3572,35 @@
       "city_code": "",
       "address": "ISDI México, C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
       "hash_key": "top 25 cmos de startups de mxico_2026-10-28T14:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|The Happy Culture Lab|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-125b8276\n\nAddress:\nKoti Casa Condesa - Contrast Therapy | Sauna & Cold Plunge | Masajes\nWellness House - México Tech Week\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Carlos Ángel",
+      "url": "https://luma.com/mxtw-125b8276",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-125b8276",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Koti Casa Condesa - Contrast Therapy | Sauna & Cold Plunge | Masajes, Av. Veracruz 73, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T15:30:00+00:00",
+      "dtend": "2026-10-28T17:30:00+00:00",
+      "tags": [
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Koti Casa Condesa - Contrast Therapy | Sauna & Cold Plunge | Masajes, Av. Veracruz 73, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico",
+      "hash_key": "the happy culture lab_2026-10-28T14:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Amela x mikigai: A Mindful Oasis in the Middle of Tech Week|México|México",
