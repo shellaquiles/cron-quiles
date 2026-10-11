@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-11T17:02:04.048096+00:00",
-  "total_events": 527,
+  "generated_at": "2026-10-11T21:14:42.764258+00:00",
+  "total_events": 529,
   "city": "Online",
   "communities": [
     {
@@ -93,11 +93,6 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
-          "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5230,7 +5225,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5794,7 +5789,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11945,7 +11940,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14588,6 +14583,41 @@
       "hash_key": "devfest 2026 comienza la aventura tecnol_2026-10-17T16:00:00+00:00"
     },
     {
+      "title": "GDG CDMX|Probabilidad & Estadística Científica parte II|Online",
+      "description": "El Club de Matemáticas para la Inteligencia Artificial invita a ingenieras/os de software y entusiastas de la tecnología a explorar variables aleatorias y el Teorema de Bayes, con análisis de datos y ejercicios prácticos. Ideal para quienes buscan profundizar en probabilidades y estadísticas aplicadas.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-probabilidad-amp-estadistica-cientifica-parte-ii/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-probabilidad-amp-estadistica-cientifica-parte-ii/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-10-17T19:00:00-06:00",
+      "dtend": "2026-10-17T20:30:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Career Development",
+        "Workshop / hands-on session",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "probabilidad estadstica cientfica parte _2026-10-18T00:00:00+00:00"
+    },
+    {
       "title": "Claude Community|Oslo  -  Claude Impact Lab|Online",
       "description": "Get up-to-date information at: https://luma.com/claude-qv5r\n\nHosted by Aleksander Stensby & Mesh Oslo",
       "url": "https://luma.com/claude-qv5r",
@@ -15595,6 +15625,36 @@
       "city_code": "",
       "address": "",
       "hash_key": "nov 11 ai ml and computer vision meetup_2026-11-11T16:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|AI Collective Detroit x Codalio : Building apps with Codalio|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-de-11-11\n\nHosted by The AI Collective & 7 others",
+      "url": "https://luma.com/aic-de-11-11",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-de-11-11",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-5RAbNSf2zNssESZ",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-11-11T23:30:00+00:00",
+      "dtend": "2026-11-12T00:30:00+00:00",
+      "tags": [
+        "ai",
+        "frontend"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-5RAbNSf2zNssESZ",
+      "hash_key": "ai collective detroit x codalio building_2026-11-11T22:00:00+00:00"
     },
     {
       "title": "GDG Villahermosa|DevFest 2026: TecNM Comalcalco|México|",
