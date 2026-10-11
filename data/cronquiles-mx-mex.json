@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-11T11:49:52.305200+00:00",
-  "total_events": 165,
+  "generated_at": "2026-10-11T17:02:04.184452+00:00",
+  "total_events": 166,
   "city": "México",
   "communities": [
     {
@@ -39,11 +39,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
+      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/eofagheq",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -689,7 +689,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -2739,7 +2739,7 @@
       "hash_key": "emprelatam connect day_2026-10-27T20:00:00+00:00"
     },
     {
-      "title": "Mexico Tech Week|Fast Track Week · 02 · Valida con clientes reales|México|México",
+      "title": "Mexico Tech Week|Fast Track Week · 02 · Valida con clientes reales usando AI|México|México",
       "description": "Get up-to-date information at: https://luma.com/mxtw-a6ec731e\n\nAddress:\nC. Marsella 45\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & ISDI Mexico",
       "url": "https://luma.com/mxtw-a6ec731e",
       "sources": [
@@ -2754,7 +2754,9 @@
       "organizer": "Mexico Tech Week",
       "dtstart": "2026-10-27T20:00:00+00:00",
       "dtend": "2026-10-27T23:00:00+00:00",
-      "tags": [],
+      "tags": [
+        "ai"
+      ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
       "country": "México",
       "country_code": "MX",
@@ -3155,7 +3157,7 @@
       "hash_key": "mexico city claude for architecture engi_2026-10-27T22:00:00+00:00"
     },
     {
-      "title": "Mexico Tech Week|Fast Track Week · 03 · Del MVP al pitch en una tarde|México|México",
+      "title": "Mexico Tech Week|Fast Track Week · 03 · Del MVP al pitch en una tarde con AI|México|México",
       "description": "Get up-to-date information at: https://luma.com/mxtw-08e6d477\n\nAddress:\nC. Marsella 45\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & ISDI Mexico",
       "url": "https://luma.com/mxtw-08e6d477",
       "sources": [
@@ -3170,7 +3172,9 @@
       "organizer": "Mexico Tech Week",
       "dtstart": "2026-10-27T23:30:00+00:00",
       "dtend": "2026-10-28T02:30:00+00:00",
-      "tags": [],
+      "tags": [
+        "ai"
+      ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
       "country": "México",
       "country_code": "MX",
@@ -4133,6 +4137,35 @@
       "city_code": "",
       "address": "C. Marsella 45, Juárez, Cuauhtémoc, 06030 Ciudad de México, CDMX, Mexico",
       "hash_key": "fast track week 05 que la ia te recomien_2026-10-28T20:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Presentación del Libro VISIÓN FINTECH MÉXICO 2030|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-192b6cf6\n\nAddress:\nJardín Escénico Chapultepec\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Aide flores",
+      "url": "https://luma.com/mxtw-192b6cf6",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-192b6cf6",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Jardín Escénico Chapultepec, Av. P.º de la Reforma 111, Bosque de Chapultepec I Secc, Miguel Hidalgo, 11580 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T20:30:00+00:00",
+      "dtend": "2026-10-29T01:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Jardín Escénico Chapultepec, Av. P.º de la Reforma 111, Bosque de Chapultepec I Secc, Miguel Hidalgo, 11580 Ciudad de México, CDMX, Mexico",
+      "hash_key": "presentacin del libro visin fintech mxic_2026-10-28T20:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Reverse Pitch: Inversionistas en IA|México|México",
