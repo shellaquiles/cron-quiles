@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-12T03:20:09.203336+00:00",
-  "total_events": 530,
+  "generated_at": "2026-10-12T13:55:06.819329+00:00",
+  "total_events": 531,
   "city": "Online",
   "communities": [
     {
@@ -169,8 +169,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3285,7 +3290,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3450,7 +3455,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10605,7 +10610,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14436,7 +14441,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15246,6 +15251,35 @@
       "city_code": "",
       "address": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
       "hash_key": "final competencia ai for corporates chal_2026-10-28T22:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Miprimerachamba.ai - ¿Por qué nosotros?|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-52aa1722\n\nAddress:\nTonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & 3 others",
+      "url": "https://luma.com/mxtw-52aa1722",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-52aa1722",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Tonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T22:00:00+00:00",
+      "dtend": "2026-10-29T02:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Tonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+      "hash_key": "miprimerachamba ai por qu nosotros_2026-10-28T22:00:00+00:00"
     },
     {
       "title": "Cloud Native Mexico City|Cloud Native CDMX - Workshop + Panel de Mujeres|México|",
@@ -16256,7 +16290,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
