@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-13T13:11:57.451797+00:00",
-  "total_events": 534,
+  "generated_at": "2026-10-13T22:06:05.745849+00:00",
+  "total_events": 537,
   "city": "Online",
   "communities": [
     {
@@ -93,6 +93,11 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
+          "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -305,6 +310,17 @@
         {
           "platform": "website",
           "url": "https://gdg.community.dev/gdg-heroica-veracruz/",
+          "label": "Sitio web"
+        }
+      ]
+    },
+    {
+      "name": "GDG IPN",
+      "description": "Disclaimer: GDG IPN is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/community/gdg/",
+      "links": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/gdg-ipn/",
           "label": "Sitio web"
         }
       ]
@@ -5225,7 +5241,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5789,7 +5805,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11940,7 +11956,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14577,6 +14593,38 @@
       "hash_key": "club de lectura de papers de ai fundamen_2026-10-16T02:00:00+00:00"
     },
     {
+      "title": "GDG IPN|Introducción al desarrollo de software Ágil|Online",
+      "description": "Únete a una charla sobre desarrollo de software Ágil, explorando sus principios y beneficios para transformar equipos. Basado en el libro de James Shore, es ideal para quienes buscan adoptar Ágil en sus proyectos. Un evento imprescindible para entender este enfoque revolucionario. Regístrate y sé parte del cambio.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-ipn-presents-introduccion-al-desarrollo-de-software-agil/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-ipn-presents-introduccion-al-desarrollo-de-software-agil/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG IPN",
+      "dtstart": "2026-10-17T11:00:00-06:00",
+      "dtend": "2026-10-17T12:00:00-06:00",
+      "tags": [
+        "Career Development",
+        "Conference",
+        "frontend",
+        "mobile"
+      ],
+      "source": "https://gdg.community.dev/gdg-ipn/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "introduccin al desarrollo de software gi_2026-10-17T16:00:00+00:00"
+    },
+    {
       "title": "GDG Hermosillo|DevFest 2026: ¡Comienza la Aventura Tecnológica!|México|",
       "description": "Únete al lanzamiento de DevFest 2026 en Hermosillo para descubrir tendencias en tecnología y desarrollo. Es una oportunidad ideal para conectar con otros entusiastas y compartir ideas. No te lo pierdas, regístrate ahora y forma parte de esta emocionante comunidad.",
       "url": "https://gdg.community.dev/events/details/google-gdg-hermosillo-presents-devfest-2026-comienza-la-aventura-tecnologica/",
@@ -15104,35 +15152,6 @@
       "hash_key": "finops la metodologa de control de gasto_2026-10-27T16:00:00+00:00"
     },
     {
-      "title": "Mexico Tech Week|Token Economics: The Hidden P&L of AI Startups|México|",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-71b7b14c\n\nAddress:\nC. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & Alexander Santana Gracia",
-      "url": "https://luma.com/mxtw-71b7b14c",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/mxtw-71b7b14c",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
-      "online": false,
-      "organizer": "Mexico Tech Week",
-      "dtstart": "2026-10-27T17:00:00+00:00",
-      "dtend": "2026-10-27T19:00:00+00:00",
-      "tags": [
-        "ai"
-      ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-      "country": "México",
-      "country_code": "MX",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
-      "hash_key": "token economics the hidden p l of ai sta_2026-10-27T16:00:00+00:00"
-    },
-    {
       "title": "Rust-AICollective|Parenting with AI (w/ The AI Collective Kansas City)|Online",
       "description": "Get up-to-date information at: https://luma.com/ParentingWithAI\n\nHosted by The AI Collective & Jesse Bray",
       "url": "https://luma.com/ParentingWithAI",
@@ -15160,6 +15179,33 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-tGBTfWbV3nhiOhc",
       "hash_key": "parenting with ai w the ai collective ka_2026-10-28T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Debt 101 for Startups: Cómo escalar con deuda|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-bc013843\n\nAddress:\nC. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & 3 others",
+      "url": "https://luma.com/mxtw-bc013843",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-bc013843",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T01:00:00+00:00",
+      "dtend": "2026-10-28T04:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+      "hash_key": "debt 101 for startups cmo escalar con de_2026-10-28T00:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Miprimerachamba.ai|México|",
@@ -15218,6 +15264,35 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-8N4PJCv6X1IRFNR",
       "hash_key": "finops la metodologa de control de gasto_2026-10-28T16:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|From PoC to Profit: A Practical Framework for Evaluating AI Investments|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-3d10ec14\n\nAddress:\nC. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & Alexander Santana Gracia",
+      "url": "https://luma.com/mxtw-3d10ec14",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-3d10ec14",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T17:00:00+00:00",
+      "dtend": "2026-10-28T19:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+      "hash_key": "from poc to profit a practical framework_2026-10-28T16:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Final AI for Corpoarte Challenge|México|",
@@ -15666,6 +15741,35 @@
       "hash_key": "nov 5 visual ai agriculture meetup_2026-11-05T16:00:00+00:00"
     },
     {
+      "title": "GDG IPN|Modernización Arquitectural: De Código Legacy a una Plataforma Escalable|Online",
+      "description": "The event \"Estrategia para mitigar riesgos tecnológicos\" offers insights into effective strategies for managing and reducing technology-related risks. It's ideal for IT professionals and business leaders looking to enhance their risk management skills and ensure technological resilience.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-ipn-presents-modernizacion-arquitectural-de-codigo-legacy-a-una-plataforma-escalable/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-ipn-presents-modernizacion-arquitectural-de-codigo-legacy-a-una-plataforma-escalable/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG IPN",
+      "dtstart": "2026-11-05T19:00:00-06:00",
+      "dtend": "2026-11-05T20:00:00-06:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://gdg.community.dev/gdg-ipn/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "modernizacin arquitectural de cdigo lega_2026-11-06T00:00:00+00:00"
+    },
+    {
       "title": "GDG Villahermosa|DevFest 2026: Sureste de México|México|",
       "description": "Únete a nosotros en el Devfest 2026. Este evento emblemático es una oportunidad única para sumergirse en las tendencias ...",
       "url": "https://gdg.community.dev/events/details/google-gdg-villahermosa-presents-devfest-2026-sureste-de-mexico/",
@@ -15739,7 +15843,7 @@
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Nov 11 - AI, ML and Computer Vision Meetup|Online",
-      "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.\n\n**Time, Date and Location**\n\nNov 11, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-november-11-2026)**\n\n**Agentic RAG: Beyond Retrieve-and-Generate**\n\nRetrieval-Augmented Generation (RAG) has become the default pattern for grounding large language models in external knowledge, but most implementations still follow a rigid retrieve-once, generate-once pipeline — one that struggles with multi-hop questions, ambiguous queries, and knowing when its own retrieved context is insufficient. This talk introduces Agentic RAG, where retrieval is treated as an action within an agent's reasoning loop rather than a fixed upstream step.\n\nWe'll examine query decomposition and routing for breaking complex questions into targeted sub-queries, self-reflective and corrective retrieval loops that let an agent judge and re-query its own results, and tool-orchestration patterns (via MCP) that let retrieval sit alongside other agent actions like database lookups and API calls. Using a live architecture — evolving a standard RAG chatbot into an agentic, MCP-connected system — we'll walk through what changes in design, and where these systems introduce new failure modes: grounding drift, latency and cost from repeated retrieval loops, and cases where a simpler RAG pipeline still wins.\n\nAttendees will leave with a practical framework for deciding when the added complexity of agentic RAG is worth it, and a set of design patterns for building it correctly.\n\n*About the Speaker*\n\n[Balaji Venkatasubramaniyar](https://www.linkedin.com/in/balaji-venkatasubramaniyar/) is a Technical Lead at Wisdom Infotech, leading a 15+ person engineering team delivering enterprise solutions. With 13+ years of experience in enterprise software and insurance technology, he specializes in agentic AI systems, RAG architectures, and vector databases.\n\n**GeoAI for the Physical World: Earth Observation, Foundation Models, and Urban Digital Twins**\n\nEarth observation provides a unique form of computer vision for understanding the physical world at city to continental scales. In this talk, I will show how satellite imagery, geospatial data, machine learning, and foundation-model representations can be combined to characterize urban environments and environmental conditions.\n\nI will present UrbanScope Open, an open GeoAI digital-twin prototype integrating Earth observation with 3D buildings, vegetation, land-surface temperature, air quality, noise, population, and other urban data. I will also share lessons from my research using geospatial foundation-model embeddings for environmental prediction across Europe.\n\nThe talk will discuss how these approaches can contribute to increasingly multimodal AI systems capable of reasoning about real-world environments.\n\n*About the Speaker*\n\n[Cesar Alvarez](https://voxel51.com/events/cesar.alvarez@uni-a.de) is a researcher at the University of Augsburg working at the intersection of GeoAI, Earth observation, remote sensing, and environmental intelligence. His research applies machine learning, computer vision, and geospatial foundation models to problems including urban environments, climate risk, air quality, and agriculture.\n\n**Can agents get curious?**\n\nMost AI agents are good at answering a question once we tell them exactly what to look for. The harder problem is building agents that can explore a complex dataset autonomously: generating hypotheses, deciding which analyses are worth running, allocating additional compute when evidence is ambiguous, and knowing when they have enough evidence to stop.\n\nIn this talk, I’ll show an architecture for autonomous research agents that combines structured knowledge, iterative tool use, and explicit evidence tracking to turn open-ended questions into a sequence of testable investigations. I’ll discuss practical lessons from building and evaluating these systems, including why more test-time compute does not automatically produce better research and how provenance and evaluation can make long-running agents more reliable.\n\nI’ll close with a live example of an agent exploring a dataset, revising its hypotheses, and choosing what to investigate next.\n\n*About the Speaker*\n\n[Srivatsa P](https://www.linkedin.com/in/srivatsa-p) is a member of technical staff at Sigma Computing, where he works on AI agents that reason over complex enterprise data. Previously, he worked on machine learning at Apple and conducted research at the MIT Media Lab; outside of traditional ML, he has also worked on mapping coral reefs through underwater imaging, which sparked an enduring interest in how intelligent systems make sense of messy real-world data.",
+      "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.\n\n**Time, Date and Location**\n\nNov 11, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-november-11-2026)**\n\n**Agentic RAG: Beyond Retrieve-and-Generate**\n\nRetrieval-Augmented Generation (RAG) has become the default pattern for grounding large language models in external knowledge, but most implementations still follow a rigid retrieve-once, generate-once pipeline — one that struggles with multi-hop questions, ambiguous queries, and knowing when its own retrieved context is insufficient. This talk introduces Agentic RAG, where retrieval is treated as an action within an agent's reasoning loop rather than a fixed upstream step.\n\nWe'll examine query decomposition and routing for breaking complex questions into targeted sub-queries, self-reflective and corrective retrieval loops that let an agent judge and re-query its own results, and tool-orchestration patterns (via MCP) that let retrieval sit alongside other agent actions like database lookups and API calls. Using a live architecture — evolving a standard RAG chatbot into an agentic, MCP-connected system — we'll walk through what changes in design, and where these systems introduce new failure modes: grounding drift, latency and cost from repeated retrieval loops, and cases where a simpler RAG pipeline still wins.\n\nAttendees will leave with a practical framework for deciding when the added complexity of agentic RAG is worth it, and a set of design patterns for building it correctly.\n\n*About the Speaker*\n\n[Balaji Venkatasubramaniyar](https://www.linkedin.com/in/balaji-venkatasubramaniyar/) is a Technical Lead at Wisdom Infotech, leading a 15+ person engineering team delivering enterprise solutions. With 13+ years of experience in enterprise software and insurance technology, he specializes in agentic AI systems, RAG architectures, and vector databases.\n\n**GeoAI for the Physical World: Earth Observation, Foundation Models, and Urban Digital Twins**\n\nEarth observation provides a unique form of computer vision for understanding the physical world at city to continental scales. In this talk, I will show how satellite imagery, geospatial data, machine learning, and foundation-model representations can be combined to characterize urban environments and environmental conditions.\n\nI will present UrbanScope Open, an open GeoAI digital-twin prototype integrating Earth observation with 3D buildings, vegetation, land-surface temperature, air quality, noise, population, and other urban data. I will also share lessons from my research using geospatial foundation-model embeddings for environmental prediction across Europe.\n\nThe talk will discuss how these approaches can contribute to increasingly multimodal AI systems capable of reasoning about real-world environments.\n\n*About the Speaker*\n\n[Cesar Alvarez](https://voxel51.com/events/cesar.alvarez@uni-a.de) is a researcher at the University of Augsburg working at the intersection of GeoAI, Earth observation, remote sensing, and environmental intelligence. His research applies machine learning, computer vision, and geospatial foundation models to problems including urban environments, climate risk, air quality, and agriculture.\n\n**Can agents get curious?**\n\nMost AI agents are good at answering a question once we tell them exactly what to look for. The harder problem is building agents that can explore a complex dataset autonomously: generating hypotheses, deciding which analyses are worth running, allocating additional compute when evidence is ambiguous, and knowing when they have enough evidence to stop.\n\nIn this talk, I’ll show an architecture for autonomous research agents that combines structured knowledge, iterative tool use, and explicit evidence tracking to turn open-ended questions into a sequence of testable investigations. I’ll discuss practical lessons from building and evaluating these systems, including why more test-time compute does not automatically produce better research and how provenance and evaluation can make long-running agents more reliable.\n\nI’ll close with a live example of an agent exploring a dataset, revising its hypotheses, and choosing what to investigate next.\n\n*About the Speaker*\n\n[Srivatsa P](https://www.linkedin.com/in/srivatsa-p) is a member of technical staff at Sigma Computing, where he works on AI agents that reason over complex enterprise data. Previously, he worked on machine learning at Apple and conducted research at the MIT Media Lab; outside of traditional ML, he has also worked on mapping coral reefs through underwater imaging, which sparked an enduring interest in how intelligent systems make sense of messy real-world data.\n\n**Does Cross-Validation Work in Deep Learning?**\n\nCross-validation is a standard in hyperparameter optimization in classical ML, but is generally considered computationally prohibitive and unnecessary in deep learning. We investigated whether CV produces 1. better DL models 2. better estimates of future performance of said models. We focused on medical image classification as an important deep learning application domain.\n\nOur results show that cross-validation consistently and materially reduces the gap between development and independent testing error for relatively small training datasets (up to about 1000 images). The test performance improvement was generally modest. We discuss the implications for deep-learning practitioners, including whether the increased computational cost of cross-validation is justified.\n\n*About the Speaker*\n\n[Ljubomir Buturovic](https://www.linkedin.com/in/ljubomir-buturovic-798156/) is an AI scientist and biotech executive with extensive experience in clinical diagnostics, including work at Inflammatix and Pathwork Diagnostics. His current research focuses on deep-learning image classification, infectious disease adjudication using LLMs, and development of AI models for helping critically ill patients.",
       "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/316572587/",
       "sources": [
         {
@@ -16299,7 +16403,7 @@
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Dec 10 - AI, ML and Computer Vision Meetup|Online",
-      "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.\n\n**Date, Time and Location**\n\nDec 10, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-december-10-2026)**\n\n**Your mAP is fine. Your slices are not. Finding the images that actually matter**\n\nA single mAP can look acceptable while one slice is unusable, small objects, occlusion, or a confused class. I will run a pretrained detector on a few hundred public images (COCO-style, not a production crawl), report the headline metric, then break the same run by slice and walk through the worst samples.\n\nThe claim is modest: you do not need a million images or a trained-from-scratch model to see what the mean is hiding, and you cannot relabel everything, so the next labeling budget should follow those slices. No employer data and no confidential dashboards.\n\n*About the Speaker*\n\n[Amandeep Jiddewar](https://www.linkedin.com/in/amanfj/) is a Machine Learning Engineer at Pinterest, with prior work in U.S. manufacturing analytics (CertainTeed / Saint-Gobain) and marketplace allocation (QuinStreet). Emory Goizueta MSBA (2019), Kaggle Expert. This talk is in his personal capacity and does not represent his current or prior employers.\n\n**Production AI Agents: Tool Use, Evaluation, Guardrails and Observability**\n\nBuilding an AI agent is easy. Knowing whether it is behaving reliably in production is much harder. This session explores how to evaluate agents that use tools and external systems, including tool-call validation, tracing, observability, failure analysis, guardrails, permissions, and human review.\n\nAttendees will learn practical patterns for understanding not just what an agent answered, but why it acted and whether the action was safe.\n\n*About the Speaker*\n\n[Akshay Talathi](https://www.linkedin.com/in/akshaytalathi/) is a Vice President at Goldman Sachs with over 10 years of experience building large-scale, cloud-native, and distributed systems across financial services and technology. His current focus is GenAI and agentic AI, including production AI agents, MCP, enterprise integrations, guardrails, observability, and reliable AI-driven workflows.\n\n**From Virtual Worlds to Physical AI: Building Simulation Pipelines That Survive the Real World**\n\nRobots are moving beyond perception systems that only detect and classify objects toward systems that must understand a scene, learn behaviors, and act in the physical world. In this talk, I’ll show a practical Physical AI workflow using OpenUSD, BowerBot, NVIDIA Isaac Sim and Isaac Lab to build a robot’s virtual world, including its body, cameras, sensors, and environment.\n\nWe’ll explore how demonstrations and reinforcement learning can teach behaviors in simulation, how vision and sensor data become observations for a robot policy, and what needs to match when transferring that behavior to real hardware. The demo follows a small robot from a simulated environment toward a real-world task, exposing both the power and the limitations of sim-to-real.\n\nThe goal is to make the path from pixels to actions concrete for computer vision and machine learning practitioners.\n\n*About the Speaker*\n\n[Arturo Morales Rangel](https://www.linkedin.com/in/arturo-morales-rangel) is the founder of Binary Core LLC, a Physical AI engineering company working across simulation, perception, robot learning, and deployment.",
+      "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics across AI, ML, and computer vision.\n\n**Date, Time and Location**\n\nDec 10, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/ai-ml-and-computer-vision-meetup-december-10-2026)**\n\n**Your mAP is fine. Your slices are not. Finding the images that actually matter**\n\nA single mAP can look acceptable while one slice is unusable, small objects, occlusion, or a confused class. I will run a pretrained detector on a few hundred public images (COCO-style, not a production crawl), report the headline metric, then break the same run by slice and walk through the worst samples.\n\nThe claim is modest: you do not need a million images or a trained-from-scratch model to see what the mean is hiding, and you cannot relabel everything, so the next labeling budget should follow those slices. No employer data and no confidential dashboards.\n\n*About the Speaker*\n\n[Amandeep Jiddewar](https://www.linkedin.com/in/amanfj/) is a Machine Learning Engineer at Pinterest, with prior work in U.S. manufacturing analytics (CertainTeed / Saint-Gobain) and marketplace allocation (QuinStreet). Emory Goizueta MSBA (2019), Kaggle Expert. This talk is in his personal capacity and does not represent his current or prior employers.\n\n**Production AI Agents: Tool Use, Evaluation, Guardrails and Observability**\n\nBuilding an AI agent is easy. Knowing whether it is behaving reliably in production is much harder. This session explores how to evaluate agents that use tools and external systems, including tool-call validation, tracing, observability, failure analysis, guardrails, permissions, and human review.\n\nAttendees will learn practical patterns for understanding not just what an agent answered, but why it acted and whether the action was safe.\n\n*About the Speaker*\n\n[Akshay Talathi](https://www.linkedin.com/in/akshaytalathi/) is a Vice President at Goldman Sachs with over 10 years of experience building large-scale, cloud-native, and distributed systems across financial services and technology. His current focus is GenAI and agentic AI, including production AI agents, MCP, enterprise integrations, guardrails, observability, and reliable AI-driven workflows.\n\n**From Virtual Worlds to Physical AI: Building Simulation Pipelines That Survive the Real World**\n\nRobots are moving beyond perception systems that only detect and classify objects toward systems that must understand a scene, learn behaviors, and act in the physical world. In this talk, I’ll show a practical Physical AI workflow using OpenUSD, BowerBot, NVIDIA Isaac Sim and Isaac Lab to build a robot’s virtual world, including its body, cameras, sensors, and environment.\n\nWe’ll explore how demonstrations and reinforcement learning can teach behaviors in simulation, how vision and sensor data become observations for a robot policy, and what needs to match when transferring that behavior to real hardware. The demo follows a small robot from a simulated environment toward a real-world task, exposing both the power and the limitations of sim-to-real.\n\nThe goal is to make the path from pixels to actions concrete for computer vision and machine learning practitioners.\n\n*About the Speaker*\n\n[Arturo Morales Rangel](https://www.linkedin.com/in/arturo-morales-rangel) is the founder of Binary Core LLC, a Physical AI engineering company working across simulation, perception, robot learning, and deployment.\n\n**Prompting Video-Language Models in Production: Lessons from Enterprise Video Tagging and Evaluation**\n\nVideo-language models can now describe, tag and answer questions about long-form video, but production results depend heavily on prompt design and evaluation. This talk shares field lessons from deploying such models for media, news, streaming and sports organizations, including how to structure prompts for consistent, schema-bound outputs across hours of footage.\n\nOn one sports video-tagging project, consolidating the prompt definitions cut estimated processing cost about 3x, and about 90% of the originally reported issues were later resolved through prompting alone. I'll also walk through building evaluation frameworks for video outputs, including for hard domains like egocentric video, and what changes when migrating between model versions.\n\nAttendees will leave with reusable prompt patterns and an evaluation checklist they can apply to their own video pipelines.\n\n*About the Speaker*\n\n[Yash Gugale](https://www.linkedin.com/in/yashgugale/) is a Senior Forward Deployed Engineer at TwelveLabs in New York, integrating video foundation models (Marengo for embeddings and search, Pegasus for video-language understanding) for media, news, streaming and sports customers. He previously spent about six years in video streaming engineering at Peloton and Samsung TV Plus, and holds an MS in Computer Graphics Technology from Purdue.",
       "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/316757843/",
       "sources": [
         {
