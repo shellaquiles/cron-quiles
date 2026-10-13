@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-12T23:59:00.294625+00:00",
-  "total_events": 531,
+  "generated_at": "2026-10-13T05:08:21.975393+00:00",
+  "total_events": 533,
   "city": "Online",
   "communities": [
     {
@@ -93,6 +93,11 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
+          "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5220,7 +5225,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5784,7 +5789,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11935,7 +11940,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14895,6 +14900,33 @@
       "hash_key": "oct 22 advances in ai at virginia tech_2026-10-22T16:00:00+00:00"
     },
     {
+      "title": "Claude Community|Claude for Islanders at Ishigaki|Online",
+      "description": "Get up-to-date information at: https://luma.com/claude-enam\n\nHosted by Kenichi Watanabe & Kenichi Watanabe",
+      "url": "https://luma.com/claude-enam",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claude-enam",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-aAgeUBiJfTKp6PY",
+      "online": true,
+      "organizer": "Claude Community",
+      "dtstart": "2026-10-23T04:00:00+00:00",
+      "dtend": "2026-10-23T08:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-aAgeUBiJfTKp6PY",
+      "hash_key": "claude for islanders at ishigaki_2026-10-23T04:00:00+00:00"
+    },
+    {
       "title": "Rust-AICollective|Land AI — AI for Smarter Land Decisions|Online",
       "description": "Get up-to-date information at: https://luma.com/landai\n\nHosted by The AI Collective, Knowledge Innovations & David Asante-Darko",
       "url": "https://luma.com/landai",
@@ -15270,6 +15302,35 @@
       "city_code": "",
       "address": "Tonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
       "hash_key": "miprimerachamba ai por qu nosotros_2026-10-28T22:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Tu próxima chamba ya no es suerte  -  miprimerachamba.ai Day|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-52aa1722\n\nAddress:\nTonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & 3 others",
+      "url": "https://luma.com/mxtw-52aa1722",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-52aa1722",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Tonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T22:00:00+00:00",
+      "dtend": "2026-10-29T02:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Tonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+      "hash_key": "tu prxima chamba ya no es suerte miprime_2026-10-28T22:00:00+00:00"
     },
     {
       "title": "Cloud Native Mexico City|Cloud Native CDMX - Workshop + Panel de Mujeres|México|",
@@ -16192,10 +16253,9 @@
         "Google Cloud",
         "Google Workspace",
         "Web",
-        "Workshop / hands-on session",
-        "cloud"
+        "Workshop / hands-on session"
       ],
-      "source": "https://gdg.community.dev/gdg-cloud-mexico-city/",
+      "source": "https://gdg.community.dev/gdg-cdmx/",
       "country": "México",
       "country_code": "MX",
       "state": "",
