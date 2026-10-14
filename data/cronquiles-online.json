@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-13T22:06:05.745849+00:00",
-  "total_events": 537,
+  "generated_at": "2026-10-14T02:44:33.147606+00:00",
+  "total_events": 540,
   "city": "Online",
   "communities": [
     {
@@ -169,13 +169,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3301,7 +3296,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3466,7 +3461,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10621,7 +10616,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14452,7 +14447,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15150,6 +15145,99 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-8N4PJCv6X1IRFNR",
       "hash_key": "finops la metodologa de control de gasto_2026-10-27T16:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|AWS  -  Databases for Agentic AI: Building the Data Substrate for Autonomous Agents|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-8a19bedf\n\nAddress:\nPeriférico Blvrd Manuel Ávila Camacho 261, Polanco, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week, Alexander Santana Gracia & Julian Diaz",
+      "url": "https://luma.com/mxtw-8a19bedf",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-8a19bedf",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Periférico Blvrd Manuel Ávila Camacho 261, Polanco, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T17:00:00+00:00",
+      "dtend": "2026-10-27T18:00:00+00:00",
+      "tags": [
+        "ai",
+        "cloud",
+        "data",
+        "frontend",
+        "security"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Periférico Blvrd Manuel Ávila Camacho 261, Polanco, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX",
+      "hash_key": "aws databases for agentic ai building th_2026-10-27T16:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|AWS  -  Search Without Limits: From SQL to Vectors, Live on AWS|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-25c28f58\n\nAddress:\nPeriférico Blvrd Manuel Ávila Camacho 261, Polanco, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week, Alexander Santana Gracia & Julian Diaz",
+      "url": "https://luma.com/mxtw-25c28f58",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-25c28f58",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Periférico Blvrd Manuel Ávila Camacho 261, Polanco, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T18:00:00+00:00",
+      "dtend": "2026-10-27T19:00:00+00:00",
+      "tags": [
+        "cloud",
+        "security"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Periférico Blvrd Manuel Ávila Camacho 261, Polanco, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX",
+      "hash_key": "aws search without limits from sql to ve_2026-10-27T18:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|AWS  -  Amazon OpenSearch & Bedrock Knowledge Bases (RAG)|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-cc73ab78\n\nAddress:\nPeriférico Blvrd Manuel Ávila Camacho 261, Polanco, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & Alexander Santana Gracia",
+      "url": "https://luma.com/mxtw-cc73ab78",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-cc73ab78",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Periférico Blvrd Manuel Ávila Camacho 261, Polanco, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T20:00:00+00:00",
+      "dtend": "2026-10-27T22:00:00+00:00",
+      "tags": [
+        "cloud",
+        "security"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Periférico Blvrd Manuel Ávila Camacho 261, Polanco, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX",
+      "hash_key": "aws amazon opensearch bedrock knowledge _2026-10-27T20:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|Parenting with AI (w/ The AI Collective Kansas City)|Online",
@@ -16389,9 +16477,10 @@
         "Google Cloud",
         "Google Workspace",
         "Web",
-        "Workshop / hands-on session"
+        "Workshop / hands-on session",
+        "cloud"
       ],
-      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "source": "https://gdg.community.dev/gdg-cloud-mexico-city/",
       "country": "México",
       "country_code": "MX",
       "state": "",
@@ -16478,7 +16567,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
