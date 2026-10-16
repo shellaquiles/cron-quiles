@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-16T10:21:51.491638+00:00",
-  "total_events": 546,
+  "generated_at": "2026-10-16T15:48:00.194020+00:00",
+  "total_events": 547,
   "city": "Online",
   "communities": [
     {
@@ -15074,6 +15074,33 @@
       "location": "Av. Álvaro Obregón 64, Roma Nte., CDMX",
       "online": false,
       "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-26T19:00:00+00:00",
+      "dtend": "2026-10-26T22:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Av. Álvaro Obregón 64, Roma Nte., CDMX",
+      "hash_key": "ugly talk cdmx mxtw_2026-10-26T18:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Ugly Talk CDMX MXTW|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-923e0b47\n\nAddress:\nAv. Álvaro Obregón 64, Roma Nte., CDMX\n\nHosted by Mexico Tech Week & 4 others",
+      "url": "https://luma.com/mxtw-923e0b47",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-923e0b47",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Av. Álvaro Obregón 64, Roma Nte., CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
       "dtstart": "2026-10-26T20:00:00+00:00",
       "dtend": "2026-10-26T21:30:00+00:00",
       "tags": [],
@@ -15297,7 +15324,7 @@
     },
     {
       "title": "Mexico Tech Week|Debt 101 for Startups: Cómo escalar con deuda|México|",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-bc013843\n\nAddress:\nC. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & 3 others",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-bc013843\n\nAddress:\nC. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week, Luishon Vázquez & Sam Junkermann",
       "url": "https://luma.com/mxtw-bc013843",
       "sources": [
         {
@@ -15311,7 +15338,9 @@
       "organizer": "Mexico Tech Week",
       "dtstart": "2026-10-28T01:00:00+00:00",
       "dtend": "2026-10-28T04:00:00+00:00",
-      "tags": [],
+      "tags": [
+        "frontend"
+      ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
       "country": "México",
       "country_code": "MX",
@@ -16660,10 +16689,9 @@
         "Google Cloud",
         "Google Workspace",
         "Web",
-        "Workshop / hands-on session",
-        "cloud"
+        "Workshop / hands-on session"
       ],
-      "source": "https://gdg.community.dev/gdg-cloud-mexico-city/",
+      "source": "https://gdg.community.dev/gdg-cdmx/",
       "country": "México",
       "country_code": "MX",
       "state": "",
