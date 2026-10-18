@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-17T19:52:32.789608+00:00",
-  "total_events": 218,
+  "generated_at": "2026-10-18T02:09:51.613618+00:00",
+  "total_events": 220,
   "city": "México",
   "communities": [
     {
@@ -39,11 +39,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
+      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/eofagheq",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -689,7 +689,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -3471,6 +3471,35 @@
       "hash_key": "selectusa tech pitch competition_2026-10-27T22:00:00+00:00"
     },
     {
+      "title": "Mexico Tech Week|\"Sin crash\": tu energía también tiene runway powered by Capibara Energy Drink|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-af9512fc\n\nAddress:\nAv. Veracruz 73\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Michelle Fischman",
+      "url": "https://luma.com/mxtw-af9512fc",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-af9512fc",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Av. Veracruz 73, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T22:30:00+00:00",
+      "dtend": "2026-10-27T23:30:00+00:00",
+      "tags": [
+        "backend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Av. Veracruz 73, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico",
+      "hash_key": "sin crash tu energa tambin tiene runway _2026-10-27T22:00:00+00:00"
+    },
+    {
       "title": "Mexico Tech Week|Impulsando la comunidad de AI Safety en México: Tech Policy Panel|México|Ciudad de México",
       "description": "Get up-to-date information at: https://luma.com/mxtw-aisafetymx\n\nAddress:\nBarcelona 26\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & AI SAFETY MÉXICO",
       "url": "https://luma.com/mxtw-aisafetymx",
@@ -4483,6 +4512,35 @@
       "city_code": "",
       "address": "WorkInc Offices (Coworking), C. Río Lerma 94-Piso 3, Cuauhtémoc, 06500 Ciudad de México, CDMX, Mexico",
       "hash_key": "el impacto de la ia en el aftermarket au_2026-10-28T14:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Vambe Lab: prueba Vambe AI con tu propia empresa|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-ddc17ed0\n\nAddress:\nBarcelona 26\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week, angelica huertas & benja",
+      "url": "https://luma.com/mxtw-ddc17ed0",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-ddc17ed0",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T15:00:00+00:00",
+      "dtend": "2026-10-29T01:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "hash_key": "vambe lab prueba vambe ai con tu propia _2026-10-28T14:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|The Happy Culture Lab|México|México",

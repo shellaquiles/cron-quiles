@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-17T19:52:32.675500+00:00",
-  "total_events": 552,
+  "generated_at": "2026-10-18T02:09:51.415102+00:00",
+  "total_events": 553,
   "city": "Online",
   "communities": [
     {
@@ -93,6 +93,11 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
+          "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5271,7 +5276,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5835,7 +5840,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11986,7 +11991,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15414,6 +15419,33 @@
       "city_code": "",
       "address": "Periférico Blvrd Manuel Ávila Camacho 261, Polanco, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX",
       "hash_key": "aws amazon opensearch bedrock knowledge _2026-10-27T20:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Autopista Inteligente: Tesla SI + Grok Take Over Tech Week @TESLA Bosques|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-tesla-bosques\n\nAddress:\nPaseo de los Tamarindos 90, Bosques de las Lomas, Cuajimalpa de Morelos, 05110 Ciudad de México, CDMX (inside Paseo Arcos Bosques).\n\nHosted by Mexico Tech Week & Tesla Mexico",
+      "url": "https://luma.com/mxtw-tesla-bosques",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-tesla-bosques",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Paseo de los Tamarindos 90, Bosques de las Lomas, Cuajimalpa de Morelos, 05110 Ciudad de México, CDMX (inside Paseo Arcos Bosques).",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T20:00:00+00:00",
+      "dtend": "2026-10-28T00:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Paseo de los Tamarindos 90, Bosques de las Lomas, Cuajimalpa de Morelos, 05110 Ciudad de México, CDMX (inside Paseo Arcos Bosques).",
+      "hash_key": "autopista inteligente tesla si grok take_2026-10-27T20:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|Parenting with AI (w/ The AI Collective Kansas City)|Online",
