@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-19T21:58:53.836128+00:00",
-  "total_events": 228,
+  "generated_at": "2026-10-20T02:39:18.994816+00:00",
+  "total_events": 231,
   "city": "México",
   "communities": [
     {
@@ -1668,7 +1668,7 @@
     },
     {
       "title": "Mexico Tech Week|RUN 5K WITH MITH|México|México",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-a2cf4150\n\nAddress:\nPuerta de los Leones de Chapultepec\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Alfonso Rodriguez",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-a2cf4150\n\nAddress:\nCircuito Gandhi\nA la altura de la Glorieta de Rubén Darío y Campos Elíseos\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Alfonso Rodriguez",
       "url": "https://luma.com/mxtw-a2cf4150",
       "sources": [
         {
@@ -1682,7 +1682,9 @@
       "organizer": "Mexico Tech Week",
       "dtstart": "2026-10-26T13:00:00+00:00",
       "dtend": "2026-10-26T15:00:00+00:00",
-      "tags": [],
+      "tags": [
+        "frontend"
+      ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
       "country": "México",
       "country_code": "MX",
@@ -2066,6 +2068,36 @@
       "hash_key": "maatfia day foro de ejecucin flujo de ca_2026-10-26T16:00:00+00:00"
     },
     {
+      "title": "Mexico Tech Week|Reverse Pitch: VC + Cloud Trajinera Sessions en Xochimilco By Clouxter X Chill & Go|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-cd26b90f\n\nAddress:\nTrajineras Xochimilco - Embarcadero Cuemanco\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week, Daniel & Herlyn Hurtado",
+      "url": "https://luma.com/mxtw-cd26b90f",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-cd26b90f",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Trajineras Xochimilco - Embarcadero Cuemanco, Periférico sur Adolfo Ruíz Cortines, Xochimilco, 16034, Cuidad de mexico CDMX Embarcadero, Cuemanco, Xochimilco, 16034 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-26T17:00:00+00:00",
+      "dtend": "2026-10-26T22:00:00+00:00",
+      "tags": [
+        "cloud",
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Trajineras Xochimilco - Embarcadero Cuemanco, Periférico sur Adolfo Ruíz Cortines, Xochimilco, 16034, Cuidad de mexico CDMX Embarcadero, Cuemanco, Xochimilco, 16034 Ciudad de México, CDMX, Mexico",
+      "hash_key": "reverse pitch vc cloud trajinera session_2026-10-26T16:00:00+00:00"
+    },
+    {
       "title": "Mexico Tech Week|Autopista Inteligente: Tesla SI + Grok Take Over Tech Week @TESLA Masaryk|México|México",
       "description": "Get up-to-date information at: https://luma.com/mxtw-tesla-masaryk\n\nAddress:\nAv. Pdte. Masaryk 421\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Tesla Mexico",
       "url": "https://luma.com/mxtw-tesla-masaryk",
@@ -2354,7 +2386,7 @@
     },
     {
       "title": "Mexico Tech Week|Mexico City  -  Claude for Games|México|México",
-      "description": "Get up-to-date information at: https://luma.com/claudeforgamesmexico\n\nAddress:\nPlatzi México\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega & Platzi Team",
+      "description": "Get up-to-date information at: https://luma.com/claudeforgamesmexico\n\nAddress:\nPlatzi México\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega, Juan Felipe Peralta & Platzi Team",
       "url": "https://luma.com/claudeforgamesmexico",
       "sources": [
         {
@@ -2803,6 +2835,33 @@
       "city_code": "",
       "address": "C. Lucerna 34, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
       "hash_key": "google coding jam cdmx_2026-10-27T14:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Lenovo  -  Nvidia: From Desk to Field|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-f98add34\n\nAddress:\nBarcelona 26\nCiudad de México, Mexico\n\nHosted by John Parker & Blanca",
+      "url": "https://luma.com/mxtw-f98add34",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-f98add34",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T15:00:00+00:00",
+      "dtend": "2026-10-27T17:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Barcelona 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "hash_key": "lenovo nvidia from desk to field_2026-10-27T14:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Stress Release Dance|México|México",
@@ -3444,6 +3503,33 @@
       "city_code": "",
       "address": "C. Lucerna 34, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
       "hash_key": "google talks_2026-10-27T20:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Fireside Chat: Expanding from Mexico to the U.S. with ViTia|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-f62c57e2\n\nAddress:\nAv. Morelos 67\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Clarissa Bonillas",
+      "url": "https://luma.com/mxtw-f62c57e2",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-f62c57e2",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Av. Morelos 67, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T21:00:00+00:00",
+      "dtend": "2026-10-27T22:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Av. Morelos 67, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "hash_key": "fireside chat expanding from mexico to t_2026-10-27T20:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|AI for Action, Humans for Emotion - INOVA® Mexico Success Story|México|México",
@@ -4099,7 +4185,7 @@
     },
     {
       "title": "Mexico Tech Week|Cyber Trust Round: Por qué la confianza se volvió el activo que cierra rondas y contratos enterprise.|México|México",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-b12cadbf\n\nAddress:\nC. Marsella 45\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & 5 others",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-b12cadbf\n\nAddress:\nC. Marsella 45\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & 6 others",
       "url": "https://luma.com/mxtw-b12cadbf",
       "sources": [
         {

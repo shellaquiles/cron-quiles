@@ -1071,9 +1071,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|RUN 5K WITH MITH|México|México
 DTSTART:20261026T130000Z
+CATEGORIES:frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-a2cf4150\
- n\nAddress:\nPuerta de los Leones de Chapultepec\nCiudad de México\, Mexi
- co\n\nHosted by Mexico Tech Week & Alfonso Rodriguez
+ n\nAddress:\nCircuito Gandhi\nA la altura de la Glorieta de Rubén Darío 
+ y Campos Elíseos\nCiudad de México\, Mexico\n\nHosted by Mexico Tech Wee
+ k & Alfonso Rodriguez
 LOCATION:Puerta de los Leones de Chapultepec\, Av. P.º de la Reforma 132\
  , Cuauhtémoc\, Miguel Hidalgo\, 06500 Ciudad de México\, CDMX\, Mexico
 X-CRONQUILES-ADDRESS:Puerta de los Leones de Chapultepec\, Av. P.º de la 
@@ -1303,6 +1305,26 @@ X-CRONQUILES-STATE:México
 X-CRONQUILES-STATE-CODE:MX-MEX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|Reverse Pitch: VC + Cloud Trajinera Sessions en X
+ ochimilco By Clouxter X Chill & Go|México|México
+DTSTART:20261026T170000Z
+CATEGORIES:cloud,frontend
+DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-cd26b90f\
+ n\nAddress:\nTrajineras Xochimilco - Embarcadero Cuemanco\nCiudad de Méxi
+ co\, Mexico\n\nHosted by Mexico Tech Week\, Daniel & Herlyn Hurtado
+LOCATION:Trajineras Xochimilco - Embarcadero Cuemanco\, Periférico sur Ad
+ olfo Ruíz Cortines\, Xochimilco\, 16034\, Cuidad de mexico CDMX Embarcade
+ ro\, Cuemanco\, Xochimilco\, 16034 Ciudad de México\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Trajineras Xochimilco - Embarcadero Cuemanco\, Perif
+ érico sur Adolfo Ruíz Cortines\, Xochimilco\, 16034\, Cuidad de mexico C
+ DMX Embarcadero\, Cuemanco\, Xochimilco\, 16034 Ciudad de México\, CDMX\,
+  Mexico
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:México
+X-CRONQUILES-STATE-CODE:MX-MEX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Autopista Inteligente: Tesla SI + Grok Take Over 
  Tech Week @TESLA Masaryk|México|México
 DTSTART:20261026T200000Z
@@ -1476,7 +1498,7 @@ SUMMARY:Mexico Tech Week|Mexico City  -  Claude for Games|México|México
 DTSTART:20261026T233000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/claudeforgames
  mexico\n\nAddress:\nPlatzi México\nCiudad de México\, Mexico\n\nHosted b
- y Ricardo Lira de la Vega & Platzi Team
+ y Ricardo Lira de la Vega\, Juan Felipe Peralta & Platzi Team
 LOCATION:Platzi México\, Av. P.º de la Reforma 373-Piso 20\, Cuauhtémoc
  \, 06500 Ciudad de México\, CDMX\, Mexico
 X-CRONQUILES-ADDRESS:Platzi México\, Av. P.º de la Reforma 373-Piso 20\,
@@ -1734,6 +1756,22 @@ LOCATION:C. Lucerna 34\, Juárez\, Cuauhtémoc\, 06600 Ciudad de México\,
   CDMX\, Mexico
 X-CRONQUILES-ADDRESS:C. Lucerna 34\, Juárez\, Cuauhtémoc\, 06600 Ciudad 
  de México\, CDMX\, Mexico
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:México
+X-CRONQUILES-STATE-CODE:MX-MEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|Lenovo  -  Nvidia: From Desk to Field|México|Mé
+ xico
+DTSTART:20261027T150000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-f98add34\
+ n\nAddress:\nBarcelona 26\nCiudad de México\, Mexico\n\nHosted by John Pa
+ rker & Blanca
+LOCATION:Barcelona 26\, Juárez\, Cuauhtémoc\, 06600 Ciudad de México\, 
+ CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Barcelona 26\, Juárez\, Cuauhtémoc\, 06600 Ciudad d
+ e México\, CDMX\, Mexico
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:México
@@ -2108,6 +2146,22 @@ LOCATION:C. Lucerna 34\, Juárez\, Cuauhtémoc\, 06600 Ciudad de México\,
   CDMX\, Mexico
 X-CRONQUILES-ADDRESS:C. Lucerna 34\, Juárez\, Cuauhtémoc\, 06600 Ciudad 
  de México\, CDMX\, Mexico
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:México
+X-CRONQUILES-STATE-CODE:MX-MEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|Fireside Chat: Expanding from Mexico to the U.S. 
+ with ViTia|México|México
+DTSTART:20261027T210000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-f62c57e2\
+ n\nAddress:\nAv. Morelos 67\nCiudad de México\, Mexico\n\nHosted by Mexic
+ o Tech Week & Clarissa Bonillas
+LOCATION:Av. Morelos 67\, Juárez\, Cuauhtémoc\, 06600 Ciudad de México\
+ , CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Av. Morelos 67\, Juárez\, Cuauhtémoc\, 06600 Ciudad
+  de México\, CDMX\, Mexico
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:México
@@ -2499,7 +2553,7 @@ SUMMARY:Mexico Tech Week|Cyber Trust Round: Por qué la confianza se volvi
 DTSTART:20261028T010000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-b12cadbf\
  n\nAddress:\nC. Marsella 45\nCiudad de México\, Mexico\n\nHosted by Mexic
- o Tech Week & 5 others
+ o Tech Week & 6 others
 LOCATION:C. Marsella 45\, Juárez\, Cuauhtémoc\, 06030 Ciudad de México\
  , CDMX\, Mexico
 X-CRONQUILES-ADDRESS:C. Marsella 45\, Juárez\, Cuauhtémoc\, 06030 Ciudad
