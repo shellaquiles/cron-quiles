@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-20T16:03:05.415014+00:00",
-  "total_events": 232,
+  "generated_at": "2026-10-20T21:01:30.478299+00:00",
+  "total_events": 237,
   "city": "México",
   "communities": [
     {
@@ -39,11 +39,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
+      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/eofagheq",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -700,7 +700,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -2682,6 +2682,33 @@
       "hash_key": "breathwork cold plunge sauna martes by i_2026-10-27T14:00:00+00:00"
     },
     {
+      "title": "Mexico Tech Week|El Breakfast Club del Riesgo|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-180c9c3f\n\nAddress:\nColony Spaces Chapultepec 360\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Antonella Viso",
+      "url": "https://luma.com/mxtw-180c9c3f",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-180c9c3f",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Colony Spaces Chapultepec 360, Av Chapultepec 360, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T14:30:00+00:00",
+      "dtend": "2026-10-27T17:30:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Colony Spaces Chapultepec 360, Av Chapultepec 360, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+      "hash_key": "el breakfast club del riesgo_2026-10-27T14:00:00+00:00"
+    },
+    {
       "title": "Mexico Tech Week|Fintech Breakfast|México|México",
       "description": "Get up-to-date information at: https://luma.com/mxtw-e1214e93\n\nAddress:\nFrëims\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Andrés Cano",
       "url": "https://luma.com/mxtw-e1214e93",
@@ -2875,6 +2902,35 @@
       "hash_key": "lenovo nvidia from desk to field_2026-10-27T14:00:00+00:00"
     },
     {
+      "title": "Mexico Tech Week|Dev House Sessions: Arquitectura, escala y liderazgo técnico|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-a4ed26bc\n\nAddress:\nC. Lucerna 34\nCiudad de México, Mexico\n\nHosted by John Parker & One day Trip Mexico City",
+      "url": "https://luma.com/mxtw-a4ed26bc",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-a4ed26bc",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "C. Lucerna 34, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T15:00:00+00:00",
+      "dtend": "2026-10-27T17:30:00+00:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "C. Lucerna 34, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "hash_key": "dev house sessions arquitectura escala y_2026-10-27T14:00:00+00:00"
+    },
+    {
       "title": "Mexico Tech Week|Stress Release Dance|México|México",
       "description": "Get up-to-date information at: https://luma.com/mxtw-ad1334ea\n\nAddress:\nAv. Veracruz 73\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & wendy ramirez",
       "url": "https://luma.com/mxtw-ad1334ea",
@@ -2927,6 +2983,33 @@
       "city_code": "",
       "address": "C. Marsella 45, Juárez, Cuauhtémoc, 06030 Ciudad de México, CDMX, Mexico",
       "hash_key": "arpa playbook crecimiento predecible par_2026-10-27T16:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Google - Coding Jam CDMX|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-codingjam\n\nAddress:\nC. Lucerna 34\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week, Alejandra Alvarado & Karen Acosta",
+      "url": "https://luma.com/mxtw-codingjam",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-codingjam",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "C. Lucerna 34, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T16:00:00+00:00",
+      "dtend": "2026-10-27T19:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "C. Lucerna 34, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "hash_key": "google coding jam cdmx_2026-10-27T16:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Fast Track Week · 01 · Crea tu cofundador IA|México|México",
@@ -3151,6 +3234,33 @@
       "city_code": "",
       "address": "CASA LUMA CDMX, Tonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
       "hash_key": "arquitectas de lo utpico_2026-10-27T18:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Reviewing Code Before It's Written + Sumo Reboot|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-d61613f0\n\nAddress:\nC. Lucerna 34\nCiudad de México, Mexico\n\nHosted by John Parker & Alexandra Ruggiero",
+      "url": "https://luma.com/mxtw-d61613f0",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-d61613f0",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "C. Lucerna 34, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T18:00:00+00:00",
+      "dtend": "2026-10-27T21:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "C. Lucerna 34, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "hash_key": "reviewing code before it s written sumo _2026-10-27T18:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Soluciones de IA que viven más allá del piloto|México|México",
@@ -3881,7 +3991,7 @@
     },
     {
       "title": "Mexico Tech Week|El País Necesita un Norte|México|México",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-0bba507f\n\nAddress:\nWeRock\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & 3 others",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-0bba507f\n\nAddress:\nWeRock\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & 6 others",
       "url": "https://luma.com/mxtw-0bba507f",
       "sources": [
         {
@@ -4733,7 +4843,7 @@
     },
     {
       "title": "Mexico Tech Week|Top 25 CMOs Tech de México|México|México",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-4b89529a\n\nAddress:\nISDI México\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week, Victor Noguera & Ivonne",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-4b89529a\n\nAddress:\nISDI México\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & 3 others",
       "url": "https://luma.com/mxtw-4b89529a",
       "sources": [
         {
@@ -4956,6 +5066,33 @@
       "city_code": "",
       "address": "Koti Casa Condesa - Contrast Therapy | Sauna & Cold Plunge | Masajes, Av. Veracruz 73, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico",
       "hash_key": "coffee happy culture lab_2026-10-28T14:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Legal hour para founders  -  Powered by WeInvest Latam & Angel Ventures|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-98c45dd5\n\nAddress:\nISDI México\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week, Amaya Baliño Sanz & Barbara Harteneck / WeInvest",
+      "url": "https://luma.com/mxtw-98c45dd5",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-98c45dd5",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "ISDI México, C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T15:30:00+00:00",
+      "dtend": "2026-10-28T17:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "ISDI México, C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
+      "hash_key": "legal hour para founders powered by wein_2026-10-28T14:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Amela x mikigai: A Mindful Oasis in the Middle of Tech Week|México|México",
