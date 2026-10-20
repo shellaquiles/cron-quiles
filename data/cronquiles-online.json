@@ -1,6 +1,6 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-20T02:39:18.796536+00:00",
+  "generated_at": "2026-10-20T10:40:24.475738+00:00",
   "total_events": 557,
   "city": "Online",
   "communities": [
@@ -169,8 +169,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3310,7 +3315,8 @@
       "dtstart": "2025-10-07T22:00:00+00:00",
       "dtend": "2025-10-07T23:00:00+00:00",
       "tags": [
-        "ai"
+        "ai",
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
@@ -3341,7 +3347,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3506,7 +3512,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3722,7 +3728,8 @@
       "dtstart": "2026-01-27T23:00:00+00:00",
       "dtend": "2026-01-28T02:00:00+00:00",
       "tags": [
-        "ai"
+        "ai",
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
@@ -3751,7 +3758,8 @@
       "dtstart": "2026-01-28T23:00:00+00:00",
       "dtend": "2026-01-29T02:00:00+00:00",
       "tags": [
-        "ai"
+        "ai",
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
@@ -3834,7 +3842,8 @@
       "dtstart": "2026-02-13T00:00:00+00:00",
       "dtend": "2026-02-13T00:30:00+00:00",
       "tags": [
-        "ai"
+        "ai",
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
@@ -3863,7 +3872,8 @@
       "dtstart": "2026-02-19T23:30:00+00:00",
       "dtend": "2026-02-20T00:00:00+00:00",
       "tags": [
-        "ai"
+        "ai",
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
@@ -3950,7 +3960,8 @@
       "dtstart": "2026-03-06T00:00:00+00:00",
       "dtend": "2026-03-06T01:00:00+00:00",
       "tags": [
-        "ai"
+        "ai",
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
@@ -4006,7 +4017,8 @@
       "dtstart": "2026-04-01T23:00:00+00:00",
       "dtend": "2026-04-02T00:00:00+00:00",
       "tags": [
-        "ai"
+        "ai",
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
@@ -4064,7 +4076,8 @@
       "dtstart": "2026-04-16T23:00:00+00:00",
       "dtend": "2026-04-17T00:00:00+00:00",
       "tags": [
-        "ai"
+        "ai",
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
@@ -8244,7 +8257,8 @@
       "dtstart": "2026-06-24T23:00:00+00:00",
       "dtend": "2026-06-25T00:00:00+00:00",
       "tags": [
-        "ai"
+        "ai",
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
@@ -9528,7 +9542,8 @@
       "dtstart": "2026-07-09T23:30:00+00:00",
       "dtend": "2026-07-10T00:00:00+00:00",
       "tags": [
-        "ai"
+        "ai",
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
@@ -10198,7 +10213,8 @@
       "dtstart": "2026-07-23T23:30:00+00:00",
       "dtend": "2026-07-24T00:00:00+00:00",
       "tags": [
-        "ai"
+        "ai",
+        "frontend"
       ],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
@@ -10661,7 +10677,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14492,7 +14508,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15603,7 +15619,7 @@
     },
     {
       "title": "Mexico Tech Week|Debt 101 for Startups: Cómo escalar con deuda|México|",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-bc013843\n\nAddress:\nC. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week, Luishon Vázquez & Sam Junkermann",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-bc013843\n\nAddress:\nC. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & 3 others",
       "url": "https://luma.com/mxtw-bc013843",
       "sources": [
         {
@@ -15617,9 +15633,7 @@
       "organizer": "Mexico Tech Week",
       "dtstart": "2026-10-28T01:00:00+00:00",
       "dtend": "2026-10-28T04:00:00+00:00",
-      "tags": [
-        "frontend"
-      ],
+      "tags": [],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
       "country": "México",
       "country_code": "MX",
@@ -17097,7 +17111,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
