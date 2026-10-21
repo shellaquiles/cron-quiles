@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-21T02:33:43.978975+00:00",
-  "total_events": 1120,
+  "generated_at": "2026-10-21T10:51:16.340097+00:00",
+  "total_events": 1122,
   "city": "México",
   "communities": [
     {
@@ -32687,6 +32687,36 @@
       "hash_key": "cloud native cdmx carbon as a first clas_2026-11-03T16:00:00+00:00"
     },
     {
+      "title": "Claude Community|Claude Code Build Day  -  AWS Student Community Day|México|México",
+      "description": "Get up-to-date information at: https://luma.com/claude-hxzu\n\nAddress:\nMexico City, Mexico\n\nHosted by Cesar Méndez",
+      "url": "https://luma.com/claude-hxzu",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claude-hxzu",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Mexico City, Mexico",
+      "online": false,
+      "organizer": "Claude Community",
+      "dtstart": "2026-11-04T17:00:00+00:00",
+      "dtend": "2026-11-04T20:00:00+00:00",
+      "tags": [
+        "cloud",
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Mexico City, Mexico",
+      "hash_key": "claude code build day aws student commun_2026-11-04T16:00:00+00:00"
+    },
+    {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Nov 5 - Visual AI Agriculture Meetup|Online",
       "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics at the intersection of agriculture and AI.\n\n**Date, Time and Location**\n\nNov 05, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/visual-ai-agriculture-meetup-november-5-2026)**\n\nTalks will include:\n\n**U-Net Framework for Micro-Scale Surface Damage Segmentation in High-Resolution Soybean Seed Imagery**\n\nAccurate detection of surface-level seed damage is critical for soybean seed quality assurance, yet automated micro-scale damage detection in high-resolution imagery remains an open challenge due to extreme spatial variability in damage scale, severe class imbalance across damage types, and the computational demands of processing ultra-high resolution agricultural imagery at scale. This research addresses the semantic segmentation of fine-grained soybean seed surface defects, such as wrinkles, dark spots, and general surface damage, in 6048 × 4024 pixel images where target damages can be as small as 18 × 18 pixels, using an augmented dataset of 77,000 individual seed images.\n\nTo overcome the difficulties of micro-scale detection, spatial sparsity, and class confusion, we propose a two-stage training and dual model inference framework built on an optimized U-Net architecture with a ResNet34 encoder. In the first stage, a damage specialist model is trained using weighted loss functions and a class-balanced approach that prioritizes damage classes.\n\nIn the second stage, transfer learning is applied to initialize a healthy seed specialist model from Stage 1 weights, with rebalanced class weights and tile probabilities that identify healthy seeds. During inference, a confidence-gated damage filter suppresses low-confidence predictions, and healthy seed labels are assigned only when the specialist model's confidence exceeds that of the damage model.\n\nThe two specialist models achieve validation accuracies of 94% and 98.53%, respectively, and the combined inference system successfully detects and localizes all three damage categories across unseen test images under conditions of extreme spatial variability and class imbalance. Qualitative evaluation confirms close alignment of predicted boundaries with ground truth annotations across all damage types, including dark spots.\n\nThese results demonstrate that confidence-gated dual model inference can reduce class confusion in imbalanced micro-scale segmentation, advancing the feasibility of fine-grained automated seed quality inspection at the scale.\n\n*About the Speaker*\n\n[Saurav Upadhyaya](https://www.linkedin.com/in/sauravupadhyaya/) is an AI/ML researcher with a Master's degree in Computer Science, whose work spans agricultural AI, conversational systems, and public health, consistently translating advanced technology into tangible real-world impact.\n\n**From camera to drone: wildfire detection and integration at the edge**\n\nWildfires are getting larger and more expensive every year. But caught early, a fire is a small job for a small team; caught late, nothing stops it. The cameras to catch them are already installed, so the work is not necessary more sensors but making the ones we have act.\n\nThis talk walks the whole chain: a small vision model running on the camera that flags smoke, an integration layer that scores the alert against terrain, weather and history to decide whether it matters, and a drone dispatched to confirm before anyone commits a crew. We will cover what has to run at the edge and why, how small the model can get before it stops seeing smoke, and what it takes to trust a detection nobody has looked at yet.\n\n*About the Speaker*\n\n[Maxime Carriere](https://voxel51.com/events/www.linkedin.com/in/maxime-carriere-871756161) is co-founder of Kernwerk in Berlin, where he works on compressing AI models to run on cheap embedded hardware.\n\n**5,000 Flights to Answer One Question: Can a Drone Sample as Well as a Human?**\n\nEnvironmental testing still begins with a person walking onto a site with a shovel. We built a system that turns a plain-language brief into a sampling campaign, flies it, and returns soil, water and vegetation samples with GPS, timestamps and chain of custody intact: 5,000 flights, roughly 9,000 miles and 570 flight hours over a 185-acre site in Roatan, much of it under canopy where GPS degrades and clearances are tight.\n\nI will walk through the vision and planning stack, including multispectral and thermal canopy sensing, terrain and land-cover mapping, and the constraint solver that clears a route against airspace and battery budget before anything leaves the ground. Then the harder problem: evidentiary comparability.\n\nA drone-collected result means nothing to a regulator unless it agrees with a hand-collected split under the same method, so I will show the dual-collection protocol we designed to test exactly that. I will close on why calibrated uncertainty and knowing when a model should refuse to answer matter more than raw accuracy once the output lands in a regulatory filing.\n\n*About the Speaker*\n\n[Rohan Talwadia](https://www.linkedin.com/in/rohantalwadia/) is co-founder and CTO of LabGPT, which automates environmental field sampling using drones and edge analysis, with results returned through ISO/IEC 17025-accredited partner laboratories.",
       "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/316768272/",
@@ -33599,6 +33629,44 @@
       "city_code": "",
       "address": "Tecnológico de Monterrey, Campus Ciudad de México, Prolongación Canal de Miramontes, Ciudad de México",
       "hash_key": "devfest 2026 ciudad de mxico_2026-12-07T14:00:00+00:00"
+    },
+    {
+      "title": "GDG CDMX|Devfest 2026: Ciudad de México|México|",
+      "description": "Devfest 2026 en la Ciudad de México es el evento imperdible para desarrolladores, entusiastas de la tecnología e innovadores. Explora nuevas fronteras tecnológicas y conecta con otros apasionados. Únete a esta inspiradora comunidad y descubre las emocionantes propuestas. Reserva tu lugar hoy para no perder esta oportunidad única.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-devfest-2026-ciudad-de-mexico/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-devfest-2026-ciudad-de-mexico/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Tecnológico de Monterrey, Campus Ciudad de México, Prolongación Canal de Miramontes, Ciudad de México",
+      "online": false,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-12-09T08:00:00-06:00",
+      "dtend": "2026-12-09T21:00:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Android",
+        "Community Building",
+        "Conference",
+        "DevFest",
+        "Google Cloud",
+        "Google Workspace",
+        "Web",
+        "Workshop / hands-on session"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Tecnológico de Monterrey, Campus Ciudad de México, Prolongación Canal de Miramontes, Ciudad de México",
+      "hash_key": "devfest 2026 ciudad de mxico_2026-12-09T14:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Dec 10 - AI, ML and Computer Vision Meetup|Online",
