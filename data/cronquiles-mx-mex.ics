@@ -962,39 +962,30 @@ BEGIN:VEVENT
 SUMMARY:Ajolotes en la Nube|SDD con Kiro: Donde la especificación guía e
  l código|México|México
 DTSTART:20261022T190000
-CATEGORIES:cloud,frontend,web
+CATEGORIES:cloud,frontend
 DESCRIPTION:AWS User Group: Ajolotes en la Nube\n📅 **Fecha:** 22/Oct/20
- 26\n⏰ **Hora:** 19:00\n📍 **Ubicación:** COFORGE\n\nÚnete a nosotros
-  en esta sesión donde descubrirás cómo el **desarrollo guiado por espec
- ificaciones (Spec-Driven Development)** puede transformar la manera en que
-  construimos software utilizando **Kiro**.\n\nEn un entorno donde la Intel
- igencia Artificial nos permite generar código cada vez más rápido\, def
- inir correctamente qué queremos construir se vuelve fundamental. ¿Cómo 
- podemos asegurarnos de que la implementación realmente refleje la intenci
- ón del diseño?\n\nEn esta charla exploraremos cómo las **especificacion
- es formales** pueden ayudarnos a definir arquitecturas más claras\, acele
- rar la generación de código y mantener una mejor alineación entre el di
- seño y la implementación.\nDurante la sesión\, aprenderás a:\n\n✅ Co
- mprender los fundamentos del **Spec-Driven Development** y su aplicación 
- en proyectos de software.\n✅ Utilizar **Kiro** para transformar especifi
- caciones en implementaciones más estructuradas.\n✅ Definir arquitectura
- s y requisitos de manera clara antes de comenzar a generar código.\n✅ R
- educir la deuda técnica mediante un proceso de desarrollo más organizado
- .\n✅ Mantener alineada la intención del diseño con la implementación.
- \n✅ Descubrir cómo integrar el desarrollo guiado por especificaciones e
- n tu flujo de trabajo con IA.\n\nEsta charla es ideal para **desarrollador
- es\, arquitectos de software\, ingenieros y profesionales tecnológicos** 
- que quieran explorar nuevas formas de construir software con IA\, sin perd
- er de vista la arquitectura\, la calidad y las buenas prácticas de ingeni
- ería.\n\nLa sesión será impartida por **Josue Hernandez**\, quien nos g
- uiará a través de los conceptos y prácticas del **Spec-Driven Developme
- nt** utilizando **Kiro**\, mostrando cómo este enfoque puede cambiar la m
- anera en que diseñamos y construimos software.\n\nEsta sesión es tu opor
- tunidad perfecta para **conocer nuevas formas de desarrollar con IA**\, **
- experimentar con Kiro**\, **mejorar la forma en que defines y construyes t
- us proyectos**\, **conectar con nuestra comunidad** y seguir creciendo en 
- tu camino profesional.\n\n**¡Nos vemos en COFORGE\, Ajolote! 💜🚀✨*
- *
+ 26\n⏰ **Hora:** 19:00\n📍 **Ubicación:** COFORGE\n\n¡Prepárate para
+  una sesión con dos charlas sobre desarrollo de software e Inteligencia A
+ rtificial! 🚀\n\nDescubre cómo **Kiro** y el desarrollo guiado por espe
+ cificaciones (*Spec-Driven Development*) están transformando la construcc
+ ión de software. Aprende cómo definir arquitecturas claras\, acelerar la
+  generación de código y reducir la deuda técnica.\n\nAdemás\, explorar
+ emos la evolución de los LLM hacia **agentes de IA autónomos** capaces d
+ e razonar\, planificar y ejecutar tareas complejas\, así como el papel de
+  **MongoDB** en la memoria y personalización de estas soluciones.\n\nDura
+ nte el evento\, aprenderás a:\n✅ Aplicar Spec-Driven Development con Ki
+ ro.\n✅ Definir especificaciones y arquitecturas más claras.\n✅ Compre
+ nder los componentes fundamentales de los agentes de IA.\n✅ Explorar el 
+ uso de herramientas\, memoria y MongoDB en sistemas inteligentes.\n✅ Ide
+ ntificar cuándo utilizar agentes de IA frente a prompting o RAG.\n\n🎤 
+ **Nuestros ponentes**\n\n**Josue Hernandez** nos mostrará cómo aprovecha
+ r Kiro para construir software a partir de especificaciones formales.\n\n*
+ *Ruben Cadenas** nos guiará por los fundamentos de los agentes de IA aut
+ ónomos y cómo diseñar arquitecturas inteligentes con LLM y MongoDB.\n\n
+ Esta es tu oportunidad para **aprender\, compartir conocimientos y conecta
+ r con la comunidad**\, explorando nuevas formas de desarrollar software y 
+ construir soluciones con IA.\n\n**¡Nos vemos en COFORGE\, Ajolote! 💜
+ 🚀✨**
 LOCATION:Seguros Monterrey New York Life & Advisory\, Av. P.º de la Refor
  ma 342\, Juárez\, Cuauhtémoc\, 06600 Ciudad de México\, CDMX\, Mexico
 X-CRONQUILES-ADDRESS:coforge
@@ -1666,7 +1657,7 @@ X-CRONQUILES-STATE:México
 X-CRONQUILES-STATE-CODE:MX-MEX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mexico Tech Week|El Breakfast Club del Riesgo|México|México
+SUMMARY:Mexico Tech Week|El Breakfast Club del Riesgo🥯|México|México
 DTSTART:20261027T143000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-180c9c3f\
  n\nAddress:\nColony Spaces Chapultepec 360\nCiudad de México\, Mexico\n\n
@@ -2128,7 +2119,22 @@ DTSTART:20261027T190000Z
 CATEGORIES:frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-beb3311d\
  n\nAddress:\nISDI México\nCiudad de México\, Mexico\n\nHosted by Mexico 
- Tech Week & Rodolfo Moreno
+ Tech Week\, Rodolfo Moreno & Gerardo Ramirez
+LOCATION:ISDI México\, C. Marsella 45\, Juárez\, Cuauhtémoc\, 06600 Ciu
+ dad de México\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:ISDI México\, C. Marsella 45\, Juárez\, Cuauhtémoc
+ \, 06600 Ciudad de México\, CDMX\, Mexico
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:México
+X-CRONQUILES-STATE-CODE:MX-MEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|Plan de Crecimiento 2027|México|México
+DTSTART:20261027T190000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-c44a4ad4\
+ n\nAddress:\nISDI México\nCiudad de México\, Mexico\n\nHosted by Mexico 
+ Tech Week & Susana (Susy) Goitia
 LOCATION:ISDI México\, C. Marsella 45\, Juárez\, Cuauhtémoc\, 06600 Ciu
  dad de México\, CDMX\, Mexico
 X-CRONQUILES-ADDRESS:ISDI México\, C. Marsella 45\, Juárez\, Cuauhtémoc
@@ -2416,7 +2422,7 @@ DTSTART:20261027T230000Z
 CATEGORIES:frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-cd35e075\
  n\nAddress:\nLuis G. Urbina 4\nCiudad de México\, Mexico\n\nHosted by Mex
- ico Tech Week\, Igeneris Events & Collective Events
+ ico Tech Week & 3 others
 LOCATION:Luis G. Urbina 4\, Polanco\, Polanco IV Secc\, Miguel Hidalgo\, 1
  1550 Ciudad de México\, CDMX\, Mexico
 X-CRONQUILES-ADDRESS:Luis G. Urbina 4\, Polanco\, Polanco IV Secc\, Miguel
@@ -3252,7 +3258,7 @@ DTSTART:20261028T160000Z
 CATEGORIES:frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-62d0f4f6\
  n\nAddress:\nC. Lucerna 34\nCiudad de México\, Mexico\n\nHosted by Mexico
-  Tech Week\, Herlyn Hurtado & Daniel
+  Tech Week & 3 others
 LOCATION:C. Lucerna 34\, Juárez\, Cuauhtémoc\, 06600 Ciudad de México\,
   CDMX\, Mexico
 X-CRONQUILES-ADDRESS:C. Lucerna 34\, Juárez\, Cuauhtémoc\, 06600 Ciudad 

@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-21T16:19:51.184724+00:00",
-  "total_events": 568,
+  "generated_at": "2026-10-21T21:02:59.569791+00:00",
+  "total_events": 572,
   "city": "Online",
   "communities": [
     {
@@ -94,11 +94,6 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
-          "label": "Luma"
         }
       ]
     },
@@ -169,13 +164,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -230,6 +220,11 @@
     {
       "name": "Claude Community",
       "description": "Eventos de la comunidad de Claude AI.",
+      "links": []
+    },
+    {
+      "name": "AI Builders MX",
+      "description": "Comunidad de AI builders en México. Eventos sobre inteligencia artificial, desarrollo y hackathons.",
       "links": []
     },
     {
@@ -3294,7 +3289,7 @@
       "hash_key": "batter up regional pitch competition 202_2025-10-06T16:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|How I Use AI – Vol 1|Online",
+      "title": "AI Builders MX|How I Use AI – Vol 1|Online",
       "description": "Get up-to-date information at: https://luma.com/pi3ebsn2\n\nHosted by Javier Rivero",
       "url": "https://luma.com/pi3ebsn2",
       "sources": [
@@ -3306,13 +3301,13 @@
       ],
       "location": "https://luma.com/event/evt-gCpfBqRDQhEOJf9",
       "online": true,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2025-10-07T22:00:00+00:00",
       "dtend": "2025-10-07T23:00:00+00:00",
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3341,7 +3336,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3506,7 +3501,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3706,7 +3701,7 @@
       "hash_key": "tics aprende a hackear con agentes de ia_2026-01-19T18:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|Diseña usando AI|Online",
+      "title": "AI Builders MX|Diseña usando AI|Online",
       "description": "Get up-to-date information at: https://luma.com/ubxd600w\n\nHosted by Javier Rivero",
       "url": "https://luma.com/ubxd600w",
       "sources": [
@@ -3718,13 +3713,13 @@
       ],
       "location": "https://luma.com/event/evt-IWVh1A0cdphlpRP",
       "online": true,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2026-01-27T23:00:00+00:00",
       "dtend": "2026-01-28T02:00:00+00:00",
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3735,7 +3730,7 @@
       "hash_key": "disea usando ai_2026-01-27T22:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|Diseña usando AI|Online",
+      "title": "AI Builders MX|Diseña usando AI|Online",
       "description": "Get up-to-date information at: https://luma.com/5nq96pxw\n\nHosted by Javier Rivero",
       "url": "https://luma.com/5nq96pxw",
       "sources": [
@@ -3747,13 +3742,13 @@
       ],
       "location": "https://luma.com/event/evt-H4WPxCoPFcne2bC",
       "online": true,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2026-01-28T23:00:00+00:00",
       "dtend": "2026-01-29T02:00:00+00:00",
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3818,7 +3813,7 @@
       "hash_key": "networking 101 fundamentos de redes_2026-02-06T00:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|How I Use AI – Vol 2|Online",
+      "title": "AI Builders MX|How I Use AI – Vol 2|Online",
       "description": "Get up-to-date information at: https://luma.com/lgd37763\n\nHosted by Javier Rivero & 3 others",
       "url": "https://luma.com/lgd37763",
       "sources": [
@@ -3830,13 +3825,13 @@
       ],
       "location": "https://luma.com/event/evt-rYB4HiifBPDm7LU",
       "online": true,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2026-02-13T00:00:00+00:00",
       "dtend": "2026-02-13T00:30:00+00:00",
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3847,7 +3842,7 @@
       "hash_key": "how i use ai vol 2_2026-02-13T00:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|How I Use AI #3: Midjourney|Online",
+      "title": "AI Builders MX|How I Use AI #3: Midjourney|Online",
       "description": "Get up-to-date information at: https://luma.com/d342anny\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/d342anny",
       "sources": [
@@ -3859,13 +3854,13 @@
       ],
       "location": "https://luma.com/event/evt-WUg9IsqZP5MKL4B",
       "online": true,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2026-02-19T23:30:00+00:00",
       "dtend": "2026-02-20T00:00:00+00:00",
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3934,7 +3929,7 @@
       "hash_key": "venture bites understanding advisory sha_2026-02-26T18:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|How I Use AI #4: OpenClaw|Online",
+      "title": "AI Builders MX|How I Use AI #4: OpenClaw|Online",
       "description": "Get up-to-date information at: https://luma.com/5ivardas\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/5ivardas",
       "sources": [
@@ -3946,13 +3941,13 @@
       ],
       "location": "https://luma.com/event/evt-utuQiZ6tlVbHWXw",
       "online": true,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2026-03-06T00:00:00+00:00",
       "dtend": "2026-03-06T01:00:00+00:00",
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3990,7 +3985,7 @@
       "hash_key": "small bets live angel investing 101 boot_2026-03-19T16:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|How I Use AI #5: Image Manipulation|Online",
+      "title": "AI Builders MX|How I Use AI #5: Image Manipulation|Online",
       "description": "Get up-to-date information at: https://luma.com/wsj293yt\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/wsj293yt",
       "sources": [
@@ -4002,13 +3997,13 @@
       ],
       "location": "https://luma.com/event/evt-3QmmiVDsImuKFFB",
       "online": true,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2026-04-01T23:00:00+00:00",
       "dtend": "2026-04-02T00:00:00+00:00",
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -4048,7 +4043,7 @@
       "hash_key": "how bolt new went from failure to 40 mil_2026-04-16T18:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|How I Use AI #6: Scaling to 1M users|Online",
+      "title": "AI Builders MX|How I Use AI #6: Scaling to 1M users|Online",
       "description": "Get up-to-date information at: https://luma.com/11fz6ef5\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/11fz6ef5",
       "sources": [
@@ -4060,13 +4055,13 @@
       ],
       "location": "https://luma.com/event/evt-SBK5c7p9LXcCYFE",
       "online": true,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2026-04-16T23:00:00+00:00",
       "dtend": "2026-04-17T00:00:00+00:00",
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5281,7 +5276,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5845,7 +5840,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -8228,7 +8223,7 @@
       "hash_key": "june 24 building composable vision workf_2026-06-24T16:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|How I Use AI #7: WhatsApp Voicebots|Online",
+      "title": "AI Builders MX|How I Use AI #7: WhatsApp Voicebots|Online",
       "description": "Get up-to-date information at: https://luma.com/vhwcyvjr\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/vhwcyvjr",
       "sources": [
@@ -8240,13 +8235,13 @@
       ],
       "location": "https://luma.com/event/evt-PwXKYGUxITnF5Ku",
       "online": true,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2026-06-24T23:00:00+00:00",
       "dtend": "2026-06-25T00:00:00+00:00",
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -9512,7 +9507,7 @@
       "hash_key": "cloud native cdmx sre multi agentes y la_2026-07-09T22:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|How I Use AI: Juan Martínez|Online",
+      "title": "AI Builders MX|How I Use AI: Juan Martínez|Online",
       "description": "Get up-to-date information at: https://luma.com/3iyi3bsr\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/3iyi3bsr",
       "sources": [
@@ -9524,13 +9519,13 @@
       ],
       "location": "https://luma.com/event/evt-MVGGctuBiHzWfUZ",
       "online": true,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2026-07-09T23:30:00+00:00",
       "dtend": "2026-07-10T00:00:00+00:00",
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10182,7 +10177,7 @@
       "hash_key": "agentic ai series multi agent orchestrat_2026-07-23T22:00:00+00:00"
     },
     {
-      "title": "v0 Prompt to Production Mexico City|How I Use AI: Andres Matte, Kapso.ai|Online",
+      "title": "AI Builders MX|How I Use AI: Andres Matte, Kapso.ai|Online",
       "description": "Get up-to-date information at: https://luma.com/6liqe957\n\nHosted by Javier Rivero, Ben Kim & Ricardo García",
       "url": "https://luma.com/6liqe957",
       "sources": [
@@ -10194,13 +10189,13 @@
       ],
       "location": "https://luma.com/event/evt-OfU4EZmg85DhiSI",
       "online": true,
-      "organizer": "v0 Prompt to Production Mexico City",
+      "organizer": "AI Builders MX",
       "dtstart": "2026-07-23T23:30:00+00:00",
       "dtend": "2026-07-24T00:00:00+00:00",
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/fdg8riz2",
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-dXKY5yt0FSICFuq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10661,7 +10656,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11996,7 +11991,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14550,7 +14545,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15354,7 +15349,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15392,6 +15387,33 @@
       "city_code": "",
       "address": "Centro De Internacionalización UANL, 4904 Avenida Manuel L. Barragán, Monterrey, NLE",
       "hash_key": "pyday mxico 2026 monterrey_2026-10-24T14:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Chilangatón 2026|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-4ba87736\n\nAddress:\nAv Miguel Hidalgo 128, San Lucas, Coyoacán, 04100 Ciudad de México, CDMX\n\nHosted by Isabel Robles, Mexico Tech Week & Daniela Roman",
+      "url": "https://luma.com/mxtw-4ba87736",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-4ba87736",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Av Miguel Hidalgo 128, San Lucas, Coyoacán, 04100 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-25T14:00:00+00:00",
+      "dtend": "2026-10-25T23:30:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Av Miguel Hidalgo 128, San Lucas, Coyoacán, 04100 Ciudad de México, CDMX",
+      "hash_key": "chilangatn 2026_2026-10-25T14:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|How to Raise Capital from US Investors|México|",
@@ -15506,7 +15528,7 @@
     },
     {
       "title": "Mexico Tech Week|Building Fintech in LATAM: The Playbook No One Gave You  -  Clouxter x Dalia ft StartupGrind|México|",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-fbbbf639\n\nAddress:\nMonte Líbano 215, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week, Daniel & Herlyn Hurtado",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-fbbbf639\n\nAddress:\nMonte Líbano 215, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & 3 others",
       "url": "https://luma.com/mxtw-fbbbf639",
       "sources": [
         {
@@ -15804,6 +15826,35 @@
       "hash_key": "autopista inteligente tesla si grok take_2026-10-27T20:00:00+00:00"
     },
     {
+      "title": "Mexico Tech Week|Building the Next Gen of Innovators @ ITAM|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-8d0b90b7\n\nAddress:\nRío Hondo 1-Edificio 5, Progreso Tizapán, Álvaro Obregón, 01080 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week",
+      "url": "https://luma.com/mxtw-8d0b90b7",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-8d0b90b7",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Río Hondo 1-Edificio 5, Progreso Tizapán, Álvaro Obregón, 01080 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T00:00:00+00:00",
+      "dtend": "2026-10-28T03:00:00+00:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Río Hondo 1-Edificio 5, Progreso Tizapán, Álvaro Obregón, 01080 Ciudad de México, CDMX",
+      "hash_key": "building the next gen of innovators itam_2026-10-28T00:00:00+00:00"
+    },
+    {
       "title": "Rust-AICollective|Parenting with AI (w/ The AI Collective Kansas City)|Online",
       "description": "Get up-to-date information at: https://luma.com/ParentingWithAI\n\nHosted by The AI Collective & Jesse Bray",
       "url": "https://luma.com/ParentingWithAI",
@@ -15945,6 +15996,35 @@
       "city_code": "",
       "address": "Tonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
       "hash_key": "miprimerachamba ai_2026-10-28T10:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Cafe Compute CDMX · Open AI × Cerebras|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-5353f8ca\n\nAddress:\nAv. Constituyentes 455, Col. América, Miguel Hidalgo, CDMX\n\nHosted by Mexico Tech Week & 4 others",
+      "url": "https://luma.com/mxtw-5353f8ca",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-5353f8ca",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Av. Constituyentes 455, Col. América, Miguel Hidalgo, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T14:00:00+00:00",
+      "dtend": "2026-10-28T17:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Av. Constituyentes 455, Col. América, Miguel Hidalgo, CDMX",
+      "hash_key": "cafe compute cdmx open ai cerebras_2026-10-28T14:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|FinOps: la metodología de control de gasto que todas las empresas tienen que aplicar|Online",
@@ -16573,6 +16653,37 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "modernizacin arquitectural de cdigo lega_2026-11-06T00:00:00+00:00"
+    },
+    {
+      "title": "México City AI, Machine Learning and Computer Vision Meetup|Nov 9 - Agentic Labeling for Specialized Visual Data|Online",
+      "description": "México City AI, Machine Learning and Computer Vision Meetup\n**Date, Time and Location**\n\nNov 09, 2026\n9:00 AM - 10:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/when-prompting-beats-training-agentic-labeling-for-specialized-visual-data-november-9-2026)**\n\nFrontier multimodal models handle familiar concepts well and struggle on niche ones: sorting drill-core samples into 35 geological classes, or telling adhesion from scarring on a ceramic substrate. Our study across 11 specialized visual datasets in manufacturing inspection, geology, and medical imaging found that a few labeled examples in the prompt can close much of that gap, and it also found where that stops working.\n\n**What you’ll learn:**\n\n* Niche versus hard: how in-context examples supply domain knowledge a model is missing, and how to tell a niche task from a genuinely hard one\n* What the study measured: on an industrial defect task, one labeled example per class raised macro-F1 from 34% to 59% with no fine-tuning, while on other tasks trained specialists pulled ahead at 5 to 10 examples per class\n* Building a few-shot labeling task: define classes, pick reference examples, preview predictions on a small batch, and refine the instructions\n* Finding the crossover point: when to stop prompting a foundation model and train a specialist on bootstrapped labels\n* Running it on your own data: attendees get free GPU compute from Nebius to try the workflow after the session",
+      "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/317079244/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/317079244/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Online event,",
+      "online": true,
+      "organizer": "México City AI, Machine Learning and Computer Vision Meetup",
+      "dtstart": "2026-11-09T11:00:00-06:00",
+      "dtend": "2026-11-09T13:00:00-06:00",
+      "tags": [
+        "ai",
+        "data",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "nov 9 agentic labeling for specialized v_2026-11-09T16:00:00+00:00"
     },
     {
       "title": "GDG Villahermosa|DevFest 2026: Sureste de México|México|",
@@ -17429,7 +17540,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
