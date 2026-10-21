@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-21T10:51:16.788942+00:00",
-  "total_events": 240,
+  "generated_at": "2026-10-21T15:24:44.132330+00:00",
+  "total_events": 241,
   "city": "México",
   "communities": [
     {
@@ -39,11 +39,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -700,7 +700,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -2737,7 +2737,7 @@
     },
     {
       "title": "Mexico Tech Week|Stripe x Vambe Session:\"Agentic Commerce: Capturing a new powerful sales channel\"|México|México",
-      "description": "Get up-to-date information at: https://luma.com/vambe-tech-weekmx\n\nAddress:\nBarcelona 26\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & angelica huertas",
+      "description": "Get up-to-date information at: https://luma.com/vambe-tech-weekmx\n\nAddress:\nBarcelona 26\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & 3 others",
       "url": "https://luma.com/vambe-tech-weekmx",
       "sources": [
         {
@@ -4303,6 +4303,33 @@
       "city_code": "",
       "address": "UNITEC Campus Cuitláhuac, Calle Nte. 67 2346, San Salvador Xochimanca, Azcapotzalco, 02870 Ciudad de México, CDMX, Mexico",
       "hash_key": "chief s table corporate tech ecosystem_2026-10-28T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Last Mile by Capa x Monato|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-173ced14\n\nAddress:\nBar Latosa\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & 3 others",
+      "url": "https://luma.com/mxtw-173ced14",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-173ced14",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Bar Latosa, Tonalá 15, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T00:00:00+00:00",
+      "dtend": "2026-10-28T04:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Bar Latosa, Tonalá 15, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+      "hash_key": "last mile by capa x monato_2026-10-28T00:00:00+00:00"
     },
     {
       "title": "NoTrustSec|NTS 33, 9vo Aniversario:  De Ciberseguridad  Cabalistica y dia de muertos!|México|México",

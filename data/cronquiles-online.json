@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-21T10:51:16.582451+00:00",
-  "total_events": 562,
+  "generated_at": "2026-10-21T15:24:44.009538+00:00",
+  "total_events": 567,
   "city": "Online",
   "communities": [
     {
@@ -94,11 +94,6 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
-          "label": "Luma"
         }
       ]
     },
@@ -169,8 +164,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3336,7 +3336,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3501,7 +3501,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5276,7 +5276,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5840,7 +5840,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10656,7 +10656,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11991,7 +11991,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -13885,6 +13885,35 @@
       "hash_key": "construye con google maps platform e int_2026-10-03T00:00:00+00:00"
     },
     {
+      "title": "PyDay México 2026|PyDay México 2026: Puebla|México|",
+      "description": "Un día de charlas, talleres y networking para la comunidad Python de México. ¡Aprende, comparte y crece con nosotros!",
+      "url": "https://www.eventbrite.com.mx/e/pyday-mexico-2026-puebla-tickets-1989261609022",
+      "sources": [
+        {
+          "platform": "eventbrite",
+          "url": "https://www.eventbrite.com.mx/e/pyday-mexico-2026-puebla-tickets-1989261609022",
+          "label": "Ver en Eventbrite"
+        }
+      ],
+      "location": "Complejo Cultural Universitario BUAP, Vía Atlixcáyotl 2299, Reserva Territorial Atlixcáyotl, Heroica Puebla de Zaragoza, PUE",
+      "online": false,
+      "organizer": "PyDay México 2026",
+      "dtstart": "2026-10-03T08:00:00-06:00",
+      "dtend": "2026-10-03T18:30:00-06:00",
+      "tags": [
+        "python"
+      ],
+      "source": "Eventbrite",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Complejo Cultural Universitario BUAP, Vía Atlixcáyotl 2299, Reserva Territorial Atlixcáyotl, Heroica Puebla de Zaragoza, PUE",
+      "hash_key": "pyday mxico 2026 puebla_2026-10-03T14:00:00+00:00"
+    },
+    {
       "title": "GDG CDMX|Probabilidad & Estadística Científica|Online",
       "description": "El Club de Matemáticas para la IA invita a ingenieros, investigadores y entusiastas tecnológicos a una sesión sobre Probabilidad y Estadística. Se explorarán variables aleatorias y el Teorema de Bayes con actividades prácticas de análisis de datos y probabilidades usando Pandas y SciPy. Perfecto para quienes desean profundizar en estadística en IA.",
       "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-probabilidad-amp-estadistica-cientifica/",
@@ -14253,6 +14282,35 @@
       "hash_key": "construye aplicaciones con inteligencia _2026-10-10T00:00:00+00:00"
     },
     {
+      "title": "PyDay México 2026|PyDay México 2026: CDMX|México|",
+      "description": "Un día de charlas, talleres y networking para la comunidad Python de México. ¡Aprende, comparte y crece con nosotros!",
+      "url": "https://www.eventbrite.com.mx/e/pyday-mexico-2026-cdmx-tickets-1989262280029",
+      "sources": [
+        {
+          "platform": "eventbrite",
+          "url": "https://www.eventbrite.com.mx/e/pyday-mexico-2026-cdmx-tickets-1989262280029",
+          "label": "Ver en Eventbrite"
+        }
+      ],
+      "location": "TecNM Instituto Tecnológico de Gustavo A. Madero, Avenida 608 y Avenida 412 300, Ciudad de México, CMX",
+      "online": false,
+      "organizer": "PyDay México 2026",
+      "dtstart": "2026-10-10T08:00:00-06:00",
+      "dtend": "2026-10-10T18:30:00-06:00",
+      "tags": [
+        "python"
+      ],
+      "source": "Eventbrite",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "TecNM Instituto Tecnológico de Gustavo A. Madero, Avenida 608 y Avenida 412 300, Ciudad de México, CMX",
+      "hash_key": "pyday mxico 2026 cdmx_2026-10-10T14:00:00+00:00"
+    },
+    {
       "title": "GDG CDMX|Probabilidad & Estadística Científica parte II|Online",
       "description": "El Club de Matemáticas para la Inteligencia Artificial invita a ingenieras/os de software y entusiastas de la tecnología a explorar variables aleatorias y el Teorema de Bayes, con análisis de datos y ejercicios prácticos. Ideal para quienes buscan profundizar en probabilidades y estadísticas aplicadas.",
       "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-probabilidad-amp-estadistica-cientifica-parte-ii/",
@@ -14487,7 +14545,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14626,6 +14684,35 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "club de lectura de papers de ai fundamen_2026-10-16T02:00:00+00:00"
+    },
+    {
+      "title": "PyDay México 2026|PyDay México 2026: Guadalajara|México|",
+      "description": "Un día de charlas, talleres y networking para la comunidad Python de México. ¡Aprende, comparte y crece con nosotros!",
+      "url": "https://www.eventbrite.com.mx/e/pyday-mexico-2026-guadalajara-tickets-1989262344221",
+      "sources": [
+        {
+          "platform": "eventbrite",
+          "url": "https://www.eventbrite.com.mx/e/pyday-mexico-2026-guadalajara-tickets-1989262344221",
+          "label": "Ver en Eventbrite"
+        }
+      ],
+      "location": "Auditorio Dr. Salvador Allende Gossens, 1140 Avenida Fray Antonio Alcalde, Guadalajara, JAL",
+      "online": false,
+      "organizer": "PyDay México 2026",
+      "dtstart": "2026-10-17T08:00:00-06:00",
+      "dtend": "2026-10-17T18:30:00-06:00",
+      "tags": [
+        "python"
+      ],
+      "source": "Eventbrite",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Auditorio Dr. Salvador Allende Gossens, 1140 Avenida Fray Antonio Alcalde, Guadalajara, JAL",
+      "hash_key": "pyday mxico 2026 guadalajara_2026-10-17T14:00:00+00:00"
     },
     {
       "title": "GDG Tapachula Chiapas|IA APLICADA A LA INNOVACIÓN TECNOLÓGICA EN EL SOCONUSCOIA APLICADA A LA INNOVACIÓN TECNOLÓGICA EN EL SOCONUSCO|México|",
@@ -15262,7 +15349,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15271,6 +15358,35 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-vKCl8r9oNYPPPgR",
       "hash_key": "acelera tu carrera con ibm skillsbuild y_2026-10-23T22:00:00+00:00"
+    },
+    {
+      "title": "PyDay México 2026|PyDay México 2026: Monterrey|México|",
+      "description": "Un día de charlas, talleres y networking para la comunidad Python de México. ¡Aprende, comparte y crece con nosotros!",
+      "url": "https://www.eventbrite.com.mx/e/pyday-mexico-2026-monterrey-tickets-1989262557860",
+      "sources": [
+        {
+          "platform": "eventbrite",
+          "url": "https://www.eventbrite.com.mx/e/pyday-mexico-2026-monterrey-tickets-1989262557860",
+          "label": "Ver en Eventbrite"
+        }
+      ],
+      "location": "Centro De Internacionalización UANL, 4904 Avenida Manuel L. Barragán, Monterrey, NLE",
+      "online": false,
+      "organizer": "PyDay México 2026",
+      "dtstart": "2026-10-24T08:00:00-06:00",
+      "dtend": "2026-10-24T18:30:00-06:00",
+      "tags": [
+        "python"
+      ],
+      "source": "Eventbrite",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Centro De Internacionalización UANL, 4904 Avenida Manuel L. Barragán, Monterrey, NLE",
+      "hash_key": "pyday mxico 2026 monterrey_2026-10-24T14:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|How to Raise Capital from US Investors|México|",
@@ -15443,6 +15559,33 @@
       "city_code": "",
       "address": "Clara, Av Sonora 46, Roma Nte., Cuauhtémoc, Mexico City, México",
       "hash_key": "cloud native cdmx casa de las comunidade_2026-10-27T00:00:00+00:00"
+    },
+    {
+      "title": "Claude Community|Oslo  -  Claude Meetup|Online",
+      "description": "Get up-to-date information at: https://luma.com/claude-ki2k\n\nHosted by Aleksander Stensby & Mesh Oslo",
+      "url": "https://luma.com/claude-ki2k",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claude-ki2k",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-qz8F2XQDxXKvl03",
+      "online": true,
+      "organizer": "Claude Community",
+      "dtstart": "2026-10-27T15:00:00+00:00",
+      "dtend": "2026-10-27T20:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-qz8F2XQDxXKvl03",
+      "hash_key": "oslo claude meetup_2026-10-27T14:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|From Data to Decisions : Amazon Quick in Action.|México|",
@@ -17249,7 +17392,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
