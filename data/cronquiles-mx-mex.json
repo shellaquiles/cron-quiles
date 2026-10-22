@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-22T10:52:44.514376+00:00",
-  "total_events": 247,
+  "generated_at": "2026-10-22T16:18:39.975490+00:00",
+  "total_events": 249,
   "city": "México",
   "communities": [
     {
@@ -39,11 +39,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -700,7 +700,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -3178,6 +3178,33 @@
       "hash_key": "financiamiento y tecnologa discusin y pe_2026-10-27T16:00:00+00:00"
     },
     {
+      "title": "Mexico Tech Week|Fascial Maneuvers: Reinicia tu cuerpo, recupera tu energía|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-46c8c2de\n\nAddress:\nAv. Veracruz 73\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week, Laura Jaramillo & Tatjana Potvin",
+      "url": "https://luma.com/mxtw-46c8c2de",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-46c8c2de",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Av. Veracruz 73, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T17:00:00+00:00",
+      "dtend": "2026-10-27T18:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Av. Veracruz 73, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico",
+      "hash_key": "fascial maneuvers reinicia tu cuerpo rec_2026-10-27T16:00:00+00:00"
+    },
+    {
       "title": "Mexico Tech Week|Semiconductores, oportunidades reales en México.|México|México",
       "description": "Get up-to-date information at: https://luma.com/mxtw-c543f967\n\nAddress:\nCAMPUS WORTEV\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & 3 others",
       "url": "https://luma.com/mxtw-c543f967",
@@ -4610,6 +4637,33 @@
       "city_code": "",
       "address": "ISDI México, C. Marsella 45, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
       "hash_key": "levanta vc conoce el mtodo para consegui_2026-10-28T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|nexus 2027 · Cóctel de Lanzamiento|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-05a1c348\n\nAddress:\nCAMPUS WORTEV\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week, Gabo Charles & Pedro LOPEZ SELA",
+      "url": "https://luma.com/mxtw-05a1c348",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-05a1c348",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "CAMPUS WORTEV, Zamora 187, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T01:00:00+00:00",
+      "dtend": "2026-10-28T03:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "CAMPUS WORTEV, Zamora 187, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico",
+      "hash_key": "nexus 2027 cctel de lanzamiento_2026-10-28T00:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Restaurantes & Tecnología: La Sobremesa|México|México",
@@ -6928,7 +6982,7 @@
     },
     {
       "title": "Claude Community|Mexico City  -  Claude Build Day at AWS Student Community Day|México|México",
-      "description": "Get up-to-date information at: https://luma.com/claude-hxzu\n\nAddress:\nMexico City, Mexico\n\nHosted by Cesar Méndez",
+      "description": "Get up-to-date information at: https://luma.com/claude-hxzu\n\nAddress:\nMexico City, Mexico\n\nHosted by Cesar Méndez & aws ipn-zacatenco",
       "url": "https://luma.com/claude-hxzu",
       "sources": [
         {
