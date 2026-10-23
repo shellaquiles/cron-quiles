@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-23T16:08:21.749758+00:00",
-  "total_events": 256,
+  "generated_at": "2026-10-23T18:06:09.966404+00:00",
+  "total_events": 257,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -119,13 +119,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -208,6 +203,11 @@
     {
       "name": "OpenClaw Community",
       "description": "Organizador de eventos manuales (ej: ClawCon CDMX)",
+      "links": []
+    },
+    {
+      "name": "pgDay",
+      "description": "Organizador de eventos manuales (ej: pgDay México Segunda edición)",
       "links": []
     }
   ],
@@ -3097,7 +3097,7 @@
       "dtstart": "2025-09-19T22:00:00+00:00",
       "dtend": "2025-09-20T00:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3151,7 +3151,7 @@
       "dtstart": "2025-09-29T18:00:00+00:00",
       "dtend": "2025-09-29T19:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -3824,7 +3824,7 @@
       "dtstart": "2025-11-18T23:00:00+00:00",
       "dtend": "2025-11-19T01:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4367,7 +4367,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4563,7 +4563,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4590,7 +4590,7 @@
       "dtstart": "2026-02-23T17:00:00+00:00",
       "dtend": "2026-02-23T18:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4617,7 +4617,7 @@
       "dtstart": "2026-02-23T18:00:00+00:00",
       "dtend": "2026-02-23T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4644,7 +4644,7 @@
       "dtstart": "2026-02-23T19:00:00+00:00",
       "dtend": "2026-02-23T20:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4674,7 +4674,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4704,7 +4704,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4731,7 +4731,7 @@
       "dtstart": "2026-02-24T00:00:00+00:00",
       "dtend": "2026-02-24T02:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4760,7 +4760,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4789,7 +4789,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4816,7 +4816,7 @@
       "dtstart": "2026-02-24T14:30:00+00:00",
       "dtend": "2026-02-24T16:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4845,7 +4845,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4875,7 +4875,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5078,7 +5078,7 @@
       "dtstart": "2026-02-25T15:00:00+00:00",
       "dtend": "2026-02-25T16:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5134,7 +5134,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5163,7 +5163,7 @@
       "tags": [
         "mobile"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5190,7 +5190,7 @@
       "dtstart": "2026-02-25T22:00:00+00:00",
       "dtend": "2026-02-25T23:30:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5217,7 +5217,7 @@
       "dtstart": "2026-02-26T00:00:00+00:00",
       "dtend": "2026-02-26T03:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5244,7 +5244,7 @@
       "dtstart": "2026-02-26T01:00:00+00:00",
       "dtend": "2026-02-26T04:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5271,7 +5271,7 @@
       "dtstart": "2026-02-27T15:00:00+00:00",
       "dtend": "2026-02-27T17:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5325,7 +5325,7 @@
       "dtstart": "2026-03-01T17:00:00+00:00",
       "dtend": "2026-03-01T19:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5385,7 +5385,7 @@
         "cloud",
         "python"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5936,7 +5936,7 @@
       "dtstart": "2026-04-24T15:00:00+00:00",
       "dtend": "2026-04-24T21:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -7431,6 +7431,37 @@
       "city_code": "cdmx",
       "address": "C. Montes Urales 445, Lomas - Virreyes, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX, México",
       "hash_key": "finops foundation meetup_2026-10-28T22:00:00+00:00"
+    },
+    {
+      "title": "pgDay|pgDay México Segunda edición|México|Ciudad de México",
+      "description": "pgDay México es un evento internacional que por segunda ocación se llevará a cabo en México, el evento consiste en una serie de conferencias enfocadas completamente en PostgreSQL la base de datos más avanzada de código abierto del mundo y en las cuales participan un conjunto multidisciplinario de profesionales (desarrollares, DBA’s, analistas y miembros de la comunidad en general)",
+      "url": "https://2026.pgday.com.mx/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://2026.pgday.com.mx/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Puerta Polanco, Periférico Blvrd Manuel Ávila Camacho 261, Polanco, Polanco I Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "pgDay",
+      "dtstart": "2026-11-13T08:00:00-06:00",
+      "dtend": "2026-11-13T21:00:00-06:00",
+      "tags": [
+        "PostgreSQL",
+        "databases",
+        "open source"
+      ],
+      "source": "Manual",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Puerta Polanco, Periférico Blvrd Manuel Ávila Camacho 261, Polanco, Polanco I Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX",
+      "hash_key": "pgday mxico segunda edicin_2026-11-13T14:00:00+00:00"
     },
     {
       "title": "AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México",

@@ -943,7 +943,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI – Vol 1|Online
 DTSTART:20251007T220000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/pi3ebsn2\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-gCpfBqRDQhEOJf9
@@ -1073,7 +1073,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|Diseña usando AI|Online
 DTSTART:20260127T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/ubxd600w\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-IWVh1A0cdphlpRP
@@ -1082,7 +1082,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|Diseña usando AI|Online
 DTSTART:20260128T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/5nq96pxw\n\nHo
  sted by Javier Rivero
 LOCATION:https://luma.com/event/evt-H4WPxCoPFcne2bC
@@ -1113,7 +1113,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI – Vol 2|Online
 DTSTART:20260213T000000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/lgd37763\n\nHo
  sted by Javier Rivero & 3 others
 LOCATION:https://luma.com/event/evt-rYB4HiifBPDm7LU
@@ -1122,7 +1122,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI #3: Midjourney|Online
 DTSTART:20260219T233000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/d342anny\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-WUg9IsqZP5MKL4B
@@ -1150,7 +1150,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI #4: OpenClaw|Online
 DTSTART:20260306T000000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/5ivardas\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-utuQiZ6tlVbHWXw
@@ -1168,7 +1168,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI #5: Image Manipulation|Online
 DTSTART:20260401T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/wsj293yt\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-3QmmiVDsImuKFFB
@@ -1187,7 +1187,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI #6: Scaling to 1M users|Online
 DTSTART:20260416T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/11fz6ef5\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-SBK5c7p9LXcCYFE
@@ -3734,7 +3734,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI #7: WhatsApp Voicebots|Online
 DTSTART:20260624T230000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/vhwcyvjr\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-PwXKYGUxITnF5Ku
@@ -4514,7 +4514,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI: Juan Martínez|Online
 DTSTART:20260709T233000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/3iyi3bsr\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-MVGGctuBiHzWfUZ
@@ -5161,7 +5161,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI Builders MX|How I Use AI: Andres Matte\, Kapso.ai|Online
 DTSTART:20260723T233000Z
-CATEGORIES:ai
+CATEGORIES:ai,frontend
 DESCRIPTION:Get up-to-date information at: https://luma.com/6liqe957\n\nHo
  sted by Javier Rivero\, Ben Kim & Ricardo García
 LOCATION:https://luma.com/event/evt-OfU4EZmg85DhiSI
@@ -9122,6 +9122,28 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Embajadoras Cloud|Historias de Terror en Tech|Online
+DTSTART:20261028T170000
+CATEGORIES:cloud,frontend
+DESCRIPTION:Embajadoras Cloud\n¡Prepárate para una tarde espeluznante y 
+ llena de aprendizaje! 🎃👻\n¿Alguna vez tiraste producción en vierne
+ s o borraste una base de datos sin respaldo? 💀 Todos tenemos nuestra pr
+ opia pesadilla en la nube. Por eso\, te invitamos a nuestra sesión especi
+ al de **Historias de Terror Tech**.\nSerá un espacio para compartir esas 
+ anécdotas que nos quitaron el sueño\, reírnos un rato y\, sobre todo\, 
+ **¡divertirnos y aprender de los errores juntos!** Porque de las peores c
+ aídas salen los mejores aprendizajes en comunidad. 👩‍💻✨\n🗓
+ ️ **¿Cuándo?** Miércoles 28 de octubre ⏰ **¿Hora?** De 17:00 a 19:
+ 00 hrs 📍 **¿Dónde?** ¡En vivo simultáneamente por **YouTube y Linke
+ dIn**!\n\n🎁 **¡TRUCO O TRATO!** Para que el susto valga la pena\, dura
+ nte la transmisión estaremos regalando **códigos con créditos de AWS** 
+ para que sigas construyendo (y experimentando) sin miedo en la nube. ☁
+ ️🚀\n\n¡Nos encantará que nos acompañes!\n\nPrepara tus botanas\, p
+ onte cómod@ y ven a pasar un rato increíble con la comunidad.\n👇 **¡
+ Guarda la fecha y conéctate aquí!**
+LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|AI Red Carpet. Netflix. Locación 2|México|
 DTSTART:20261029T000000Z
 CATEGORIES:ai,security
@@ -9886,7 +9908,7 @@ CATEGORIES:AI,AI - AI Studio,AI - Gemini,AI - Gemma,Accessibility,Angular,
  ebase,Flutter,Google Cloud,Google Maps Platform,Google Workspace,Hackathon
  ,Networking,Tech Talk / Meetup,UX / UI Design,Web,Workshop / hands-on sess
  ion,mobile,web
-DESCRIPTION:El 25 de noviembre de 2026\, DevFest Health 2026 se lleva a ca
+DESCRIPTION:El 02 de diciembre de 2026\, DevFest Health 2026 se lleva a ca
  bo en las oficinas de AstraZeneca en Guadalajara. Los asistentes explorar
  án tendencias en inteligencia artificial y tecnologías de Google mediant
  e talleres interactivos y charlas de expertos sobre Angular\, Flutter y m
