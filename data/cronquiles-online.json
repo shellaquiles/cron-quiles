@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-22T21:00:21.525395+00:00",
-  "total_events": 575,
+  "generated_at": "2026-10-23T02:35:20.646709+00:00",
+  "total_events": 576,
   "city": "Online",
   "communities": [
     {
@@ -94,11 +94,6 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
-          "label": "Luma"
         }
       ]
     },
@@ -169,8 +164,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3336,7 +3336,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3501,7 +3501,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5276,7 +5276,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5840,7 +5840,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10656,7 +10656,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11991,7 +11991,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14545,7 +14545,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15349,7 +15349,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15358,6 +15358,36 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-vKCl8r9oNYPPPgR",
       "hash_key": "acelera tu carrera con ibm skillsbuild y_2026-10-23T22:00:00+00:00"
+    },
+    {
+      "title": "Embajadoras Cloud|Historias de Terror en Tech|Online",
+      "description": "Embajadoras Cloud\n¡Prepárate para una tarde espeluznante y llena de aprendizaje! 🎃👻\n¿Alguna vez tiraste producción en viernes o borraste una base de datos sin respaldo? 💀 Todos tenemos nuestra propia pesadilla en la nube. Por eso, te invitamos a nuestra sesión especial de **Historias de Terror Tech**.\nSerá un espacio para compartir esas anécdotas que nos quitaron el sueño, reírnos un rato y, sobre todo, **¡divertirnos y aprender de los errores juntos!** Porque de las peores caídas salen los mejores aprendizajes en comunidad. 👩‍💻✨\n🗓️ **¿Cuándo?** Miércoles 28 de octubre ⏰ **¿Hora?** De 17:00 a 19:00 hrs 📍 **¿Dónde?** ¡En vivo simultáneamente por **YouTube y LinkedIn**!\n\n🎁 **¡TRUCO O TRATO!** Para que el susto valga la pena, durante la transmisión estaremos regalando **códigos con créditos de AWS** para que sigas construyendo (y experimentando) sin miedo en la nube. ☁️🚀\n\n¡Nos encantará que nos acompañes!\n\nPrepara tus botanas, ponte cómod@ y ven a pasar un rato increíble con la comunidad.\n👇 **¡Guarda la fecha y conéctate aquí!**",
+      "url": "https://www.meetup.com/embajadoras-cloud/events/317097667/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/embajadoras-cloud/events/317097667/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Online event,",
+      "online": true,
+      "organizer": "Embajadoras Cloud",
+      "dtstart": "2026-10-23T17:00:00-06:00",
+      "dtend": "2026-10-23T20:00:00-06:00",
+      "tags": [
+        "cloud",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/embajadoras-cloud/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "historias de terror en tech_2026-10-23T22:00:00+00:00"
     },
     {
       "title": "PyDay México 2026|PyDay México 2026: Monterrey|México|",
@@ -17625,7 +17655,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",

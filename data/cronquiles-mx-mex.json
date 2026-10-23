@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-22T21:00:21.645267+00:00",
-  "total_events": 251,
+  "generated_at": "2026-10-23T02:35:20.813591+00:00",
+  "total_events": 253,
   "city": "México",
   "communities": [
     {
@@ -39,11 +39,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -700,7 +700,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -2847,7 +2847,7 @@
     },
     {
       "title": "Mexico Tech Week|Lenovo  -  Nvidia: From Desk to Field|México|México",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-f98add34\n\nAddress:\nBarcelona 26\nCiudad de México, Mexico\n\nHosted by Blanca & Mexico Tech Week",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-f98add34\n\nAddress:\nBarcelona 26\nCiudad de México, Mexico\n\nHosted by Blanca, Mexico Tech Week & Giovanna",
       "url": "https://luma.com/mxtw-f98add34",
       "sources": [
         {
@@ -3897,6 +3897,37 @@
       "city_code": "",
       "address": "Av. Morelos 67, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",
       "hash_key": "selectusa tech pitch competition_2026-10-27T22:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Rewiring humans for AI era|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-048798c9\n\nAddress:\nKoti Casa Condesa - Contrast Therapy | Sauna & Cold Plunge | Masajes\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Noelia Aguirre",
+      "url": "https://luma.com/mxtw-048798c9",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-048798c9",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Koti Casa Condesa - Contrast Therapy | Sauna & Cold Plunge | Masajes, Av. Veracruz 73, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T22:00:00+00:00",
+      "dtend": "2026-10-27T23:00:00+00:00",
+      "tags": [
+        "ai",
+        "frontend",
+        "python"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Koti Casa Condesa - Contrast Therapy | Sauna & Cold Plunge | Masajes, Av. Veracruz 73, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX, Mexico",
+      "hash_key": "rewiring humans for ai era_2026-10-27T22:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Mexico City  -  Claude for Architecture, Engineering & Construction|México|México",
@@ -5541,6 +5572,33 @@
       "hash_key": "emprender en biotech build fund scale_2026-10-28T16:00:00+00:00"
     },
     {
+      "title": "Mexico Tech Week|El futuro del trabajo, el emprendimiento y la integración del e-commerce como motor comercial e independencia.|México|México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-db931684\n\nAddress:\nAv Sonora 46\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Georgina",
+      "url": "https://luma.com/mxtw-db931684",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-db931684",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Av Sonora 46, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T16:00:00+00:00",
+      "dtend": "2026-10-28T19:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Av Sonora 46, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+      "hash_key": "el futuro del trabajo el emprendimiento _2026-10-28T16:00:00+00:00"
+    },
+    {
       "title": "Claude Community|Mexico City  -  Claude for Revenue: Sales, GTM & Agents That Sell|México|México",
       "description": "Get up-to-date information at: https://luma.com/claudeforrevenue\n\nAddress:\nEBC\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega & Andres Nájera",
       "url": "https://luma.com/claudeforrevenue",
@@ -6894,7 +6952,7 @@
     },
     {
       "title": "Claude Community|Mexico City  -  Claude Code for Developers|México|México",
-      "description": "Get up-to-date information at: https://luma.com/claudemexico\n\nAddress:\nBarcelona 26\nCiudad de México, Mexico\n\nHosted by Ricardo Lira de la Vega & Claude Community",
+      "description": "Get up-to-date information at: https://luma.com/claudemexico\n\nAddress:\nBarcelona 26\nCiudad de México, Mexico\n\nHosted by Claude Community & Ricardo Lira de la Vega",
       "url": "https://luma.com/claudemexico",
       "sources": [
         {
