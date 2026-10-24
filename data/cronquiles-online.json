@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-24T15:04:57.683899+00:00",
-  "total_events": 580,
+  "generated_at": "2026-10-24T19:59:22.239226+00:00",
+  "total_events": 581,
   "city": "Online",
   "communities": [
     {
@@ -164,8 +164,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3331,7 +3336,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3496,7 +3501,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10651,7 +10656,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14540,7 +14545,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15373,7 +15378,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -17628,7 +17633,7 @@
         "mobile",
         "web"
       ],
-      "source": "https://gdg.community.dev/gdg-heroica-veracruz/",
+      "source": "https://gdg.community.dev/gdg-guadalajara/",
       "country": "México",
       "country_code": "MX",
       "state": "",
@@ -17637,6 +17642,35 @@
       "city_code": "",
       "address": "AstraZeneca GITC Guadalajara, 4965 Boulevard Puerta de Hierro, Zapopan",
       "hash_key": "devfest 2026 health_2026-12-02T14:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|Lovable Office Hour (w/ The AI Collective)|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-ta-12-6\n\nHosted by The AI Collective, Grace Pan & Alix",
+      "url": "https://luma.com/aic-ta-12-6",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-ta-12-6",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-fHEqu2TjTzEHNCU",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-12-06T08:00:00+00:00",
+      "dtend": "2026-12-06T10:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-fHEqu2TjTzEHNCU",
+      "hash_key": "lovable office hour w the ai collective_2026-12-06T08:00:00+00:00"
     },
     {
       "title": "GDG CDMX|Devfest 2026: Ciudad de México|México|",
@@ -17791,7 +17825,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
