@@ -1520,8 +1520,8 @@ SUMMARY:Mexico Tech Week|Odiamos los eventos de tech. Hicimos uno: noche d
  e apertura|México|México
 DTSTART:20261026T233000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-be728524\
- n\nAddress:\nRoma\nMexico City\, Mexico\n\nHosted by Mexico Tech Week\, Al
- ejandro Rivera & Adrián Balderas
+ n\nAddress:\nRoma\nMexico City\, Mexico\n\nHosted by Mexico Tech Week & 3 
+ others
 LOCATION:Tonalá 145\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad de México\,
   CDMX
 X-CRONQUILES-ADDRESS:Tonalá 145\, Roma Nte.\, Cuauhtémoc\, 06700 Ciudad 
@@ -1723,7 +1723,7 @@ CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-d0253d98\
  n\nAddress:\nKoti Casa Condesa - Contrast Therapy | Sauna & Cold Plunge | 
  Masajes\nTech Week Wellness House\nCiudad de México\, Mexico\n\nHosted by
-  Mexico Tech Week\, Laura Jaramillo & MARIO ALBERTO GONZALEZ ALVAREZ
+  Mexico Tech Week & 3 others
 LOCATION:Koti Casa Condesa - Contrast Therapy | Sauna & Cold Plunge | Masa
  jes\, Av. Veracruz 73\, Colonia Condesa\, Cuauhtémoc\, 06140 Ciudad de M
  éxico\, CDMX\, Mexico
@@ -3194,7 +3194,7 @@ CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-8b5f48f6\
  n\nAddress:\nKoti Casa Condesa - Contrast Therapy | Sauna & Cold Plunge | 
  Masajes\nTech Week Wellness House\nCiudad de México\, Mexico\n\nHosted by
-  Mexico Tech Week\, Laura Jaramillo & MARIO ALBERTO GONZALEZ ALVAREZ
+  Mexico Tech Week & 3 others
 LOCATION:Koti Casa Condesa - Contrast Therapy | Sauna & Cold Plunge | Masa
  jes\, Av. Veracruz 73\, Colonia Condesa\, Cuauhtémoc\, 06140 Ciudad de M
  éxico\, CDMX\, Mexico
@@ -3494,13 +3494,17 @@ BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Tired but Wired — Cómo recuperar tu sueño\, e
  nergía y rendimiento en un mundo hiperconectado|México|México
 DTSTART:20261028T160000Z
+CATEGORIES:python
 DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-d7772887\
- n\nAddress:\nÁmsterdam 55\nCiudad de México\, Mexico\n\nHosted by Mexico
-  Tech Week & María del Rocío Ruvalcaba Rincón
-LOCATION:Ámsterdam 55\, Hipódromo Condesa\, Cuauhtémoc\, 06100 Ciudad d
- e México\, CDMX\, Mexico
-X-CRONQUILES-ADDRESS:Ámsterdam 55\, Hipódromo Condesa\, Cuauhtémoc\, 06
- 100 Ciudad de México\, CDMX\, Mexico
+ n\nAddress:\nKoti Casa Condesa - Contrast Therapy | Sauna & Cold Plunge | 
+ Masajes\nCiudad de México\, Mexico\n\nHosted by Mexico Tech Week & María
+  del Rocío Ruvalcaba Rincón
+LOCATION:Koti Casa Condesa - Contrast Therapy | Sauna & Cold Plunge | Masa
+ jes\, Av. Veracruz 73\, Colonia Condesa\, Cuauhtémoc\, 06140 Ciudad de M
+ éxico\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Koti Casa Condesa - Contrast Therapy | Sauna & Cold P
+ lunge | Masajes\, Av. Veracruz 73\, Colonia Condesa\, Cuauhtémoc\, 06140 
+ Ciudad de México\, CDMX\, Mexico
 X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:México
@@ -3608,6 +3612,22 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mexico Tech Week|Fast Track Week · 04 · Opera con IA|México|Mé
  xico
+DTSTART:20261028T163000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-887a395a\
+ n\nAddress:\nC. Marsella 45\nCiudad de México\, Mexico\n\nHosted by Mexic
+ o Tech Week & ISDI Mexico
+LOCATION:C. Marsella 45\, Juárez\, Cuauhtémoc\, 06030 Ciudad de México\
+ , CDMX\, Mexico
+X-CRONQUILES-ADDRESS:C. Marsella 45\, Juárez\, Cuauhtémoc\, 06030 Ciudad
+  de México\, CDMX\, Mexico
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:México
+X-CRONQUILES-STATE-CODE:MX-MEX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|Fast Track Week · 04 · Opera y automatiza con I
+ A|México|México
 DTSTART:20261028T163000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-887a395a\
  n\nAddress:\nC. Marsella 45\nCiudad de México\, Mexico\n\nHosted by Mexic
