@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-26T11:53:43.454974+00:00",
-  "total_events": 258,
+  "generated_at": "2026-10-26T17:56:04.754133+00:00",
+  "total_events": 259,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -119,13 +119,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3102,7 +3097,7 @@
       "dtstart": "2025-09-19T22:00:00+00:00",
       "dtend": "2025-09-20T00:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4372,7 +4367,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4880,7 +4875,7 @@
         "ai",
         "python"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5390,7 +5385,7 @@
         "cloud",
         "python"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5941,7 +5936,7 @@
       "dtstart": "2026-04-24T15:00:00+00:00",
       "dtend": "2026-04-24T21:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -7298,7 +7293,7 @@
     },
     {
       "title": "Mexico Tech Week|Brunch Break by Pluria: Organizando eventos corporativos con tech|México|Ciudad de México",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-eb5c372a\n\nAddress:\nCoffeefy Workafe - Juárez\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week, Emilio García & Pluria Latam",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-eb5c372a\n\nAddress:\nCoffeefy Workafe - Juárez\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week, Emilio García & Pluria LatAm",
       "url": "https://luma.com/mxtw-eb5c372a",
       "sources": [
         {
@@ -7322,6 +7317,35 @@
       "city_code": "cdmx",
       "address": "Liverpool 69, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, México",
       "hash_key": "brunch break by pluria organizando event_2026-10-28T16:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Eficiencia en IA empresarial · Saptiva AI × Qualcomm|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-50c3883a\n\nAddress:\nCENTRO, Av. Constituyentes 455, Col. América, Miguel Hidalgo, 11820, Ciudad de México\n\nHosted by Mexico Tech Week & Saptiva AI",
+      "url": "https://luma.com/mxtw-50c3883a",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-50c3883a",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "CENTRO, Av. Constituyentes 455, Col. América, Miguel Hidalgo, 11820, Ciudad de México",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-28T18:00:00+00:00",
+      "dtend": "2026-10-28T20:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "",
+      "city_code": "cdmx",
+      "address": "CENTRO, Av. Constituyentes 455, Col. América, Miguel Hidalgo, 11820, Ciudad de México",
+      "hash_key": "eficiencia en ia empresarial saptiva ai _2026-10-28T18:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Fintech Builders Lab by Interledger & TWIF|México|Ciudad de México",
