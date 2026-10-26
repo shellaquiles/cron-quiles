@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-26T17:56:04.660223+00:00",
-  "total_events": 581,
+  "generated_at": "2026-10-26T22:07:35.060642+00:00",
+  "total_events": 583,
   "city": "Online",
   "communities": [
     {
@@ -93,11 +93,6 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
-          "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5276,7 +5271,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5840,7 +5835,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11991,7 +11986,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15647,36 +15642,6 @@
       "hash_key": "oslo claude meetup_2026-10-27T14:00:00+00:00"
     },
     {
-      "title": "Mexico Tech Week|From Data to Decisions : Amazon Quick in Action.|México|",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-518abc4e\n\nAddress:\nInsurgentes Sur 730, Torre Vistral Piso 11 Col. Del Valle, CDMX, 03100\n\nHosted by Mexico Tech Week & 3 others",
-      "url": "https://luma.com/mxtw-518abc4e",
-      "sources": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/mxtw-518abc4e",
-          "label": "Ver en Luma"
-        }
-      ],
-      "location": "Insurgentes Sur 730, Torre Vistral Piso 11 Col. Del Valle, CDMX, 03100",
-      "online": false,
-      "organizer": "Mexico Tech Week",
-      "dtstart": "2026-10-27T16:00:00+00:00",
-      "dtend": "2026-10-27T19:00:00+00:00",
-      "tags": [
-        "data",
-        "frontend"
-      ],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
-      "country": "México",
-      "country_code": "MX",
-      "state": "",
-      "state_code": "",
-      "city": "",
-      "city_code": "",
-      "address": "Insurgentes Sur 730, Torre Vistral Piso 11 Col. Del Valle, CDMX, 03100",
-      "hash_key": "from data to decisions amazon quick in a_2026-10-27T16:00:00+00:00"
-    },
-    {
       "title": "Mexico Tech Week|FinOps: la metodología de control de gasto que todas las empresas tienen que aplicar|Online",
       "description": "Get up-to-date information at: https://luma.com/mxtw-d5be4f2b\n\nHosted by Mexico Tech Week & Luis Regalado",
       "url": "https://luma.com/mxtw-d5be4f2b",
@@ -15769,6 +15734,36 @@
       "city_code": "",
       "address": "Periférico Blvrd Manuel Ávila Camacho 261, Polanco, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11510 Ciudad de México, CDMX",
       "hash_key": "aws databases for agentic ai from sql to_2026-10-27T16:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|From Data to Decisions : Amazon Quick in Action.|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-518abc4e\n\nHosted by Mexico Tech Week & 3 others",
+      "url": "https://luma.com/mxtw-518abc4e",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-518abc4e",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Insurgentes Sur 730, Torre Vistral Piso 11 Col. Del Valle, CDMX, 03100",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-27T17:00:00+00:00",
+      "dtend": "2026-10-27T19:00:00+00:00",
+      "tags": [
+        "data",
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Insurgentes Sur 730, Torre Vistral Piso 11 Col. Del Valle, CDMX, 03100",
+      "hash_key": "from data to decisions amazon quick in a_2026-10-27T16:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|AWS  -  Search Without Limits: From SQL to Vectors, Live on AWS|México|",
@@ -16770,6 +16765,35 @@
       "hash_key": "ibm bob tv episode 3 benchmarking optimi_2026-11-04T10:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|AIC Education: From AI Tools to AI Teammates (w/ The AI Collective)|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-gl-11-4\n\nHosted by The AI Collective, Abraham & Lena Shakurova",
+      "url": "https://luma.com/aic-gl-11-4",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-gl-11-4",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-UIXrplPWppKOxzG",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-11-04T19:00:00+00:00",
+      "dtend": "2026-11-04T20:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-UIXrplPWppKOxzG",
+      "hash_key": "aic education from ai tools to ai teamma_2026-11-04T18:00:00+00:00"
+    },
+    {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Nov 5 - Visual AI Agriculture Meetup|Online",
       "description": "México City AI, Machine Learning and Computer Vision Meetup\nJoin our virtual meetup to hear talks from experts on cutting-edge topics at the intersection of agriculture and AI.\n\n**Date, Time and Location**\n\nNov 05, 2026\n9:00 AM - 11:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/visual-ai-agriculture-meetup-november-5-2026)**\n\nTalks will include:\n\n**U-Net Framework for Micro-Scale Surface Damage Segmentation in High-Resolution Soybean Seed Imagery**\n\nAccurate detection of surface-level seed damage is critical for soybean seed quality assurance, yet automated micro-scale damage detection in high-resolution imagery remains an open challenge due to extreme spatial variability in damage scale, severe class imbalance across damage types, and the computational demands of processing ultra-high resolution agricultural imagery at scale. This research addresses the semantic segmentation of fine-grained soybean seed surface defects, such as wrinkles, dark spots, and general surface damage, in 6048 × 4024 pixel images where target damages can be as small as 18 × 18 pixels, using an augmented dataset of 77,000 individual seed images.\n\nTo overcome the difficulties of micro-scale detection, spatial sparsity, and class confusion, we propose a two-stage training and dual model inference framework built on an optimized U-Net architecture with a ResNet34 encoder. In the first stage, a damage specialist model is trained using weighted loss functions and a class-balanced approach that prioritizes damage classes.\n\nIn the second stage, transfer learning is applied to initialize a healthy seed specialist model from Stage 1 weights, with rebalanced class weights and tile probabilities that identify healthy seeds. During inference, a confidence-gated damage filter suppresses low-confidence predictions, and healthy seed labels are assigned only when the specialist model's confidence exceeds that of the damage model.\n\nThe two specialist models achieve validation accuracies of 94% and 98.53%, respectively, and the combined inference system successfully detects and localizes all three damage categories across unseen test images under conditions of extreme spatial variability and class imbalance. Qualitative evaluation confirms close alignment of predicted boundaries with ground truth annotations across all damage types, including dark spots.\n\nThese results demonstrate that confidence-gated dual model inference can reduce class confusion in imbalanced micro-scale segmentation, advancing the feasibility of fine-grained automated seed quality inspection at the scale.\n\n*About the Speaker*\n\n[Saurav Upadhyaya](https://www.linkedin.com/in/sauravupadhyaya/) is an AI/ML researcher with a Master's degree in Computer Science, whose work spans agricultural AI, conversational systems, and public health, consistently translating advanced technology into tangible real-world impact.\n\n**From camera to drone: wildfire detection and integration at the edge**\n\nWildfires are getting larger and more expensive every year. But caught early, a fire is a small job for a small team; caught late, nothing stops it. The cameras to catch them are already installed, so the work is not necessary more sensors but making the ones we have act.\n\nThis talk walks the whole chain: a small vision model running on the camera that flags smoke, an integration layer that scores the alert against terrain, weather and history to decide whether it matters, and a drone dispatched to confirm before anyone commits a crew. We will cover what has to run at the edge and why, how small the model can get before it stops seeing smoke, and what it takes to trust a detection nobody has looked at yet.\n\n*About the Speaker*\n\n[Maxime Carriere](https://voxel51.com/events/www.linkedin.com/in/maxime-carriere-871756161) is co-founder of Kernwerk in Berlin, where he works on compressing AI models to run on cheap embedded hardware.\n\n**5,000 Flights to Answer One Question: Can a Drone Sample as Well as a Human?**\n\nEnvironmental testing still begins with a person walking onto a site with a shovel. We built a system that turns a plain-language brief into a sampling campaign, flies it, and returns soil, water and vegetation samples with GPS, timestamps and chain of custody intact: 5,000 flights, roughly 9,000 miles and 570 flight hours over a 185-acre site in Roatan, much of it under canopy where GPS degrades and clearances are tight.\n\nI will walk through the vision and planning stack, including multispectral and thermal canopy sensing, terrain and land-cover mapping, and the constraint solver that clears a route against airspace and battery budget before anything leaves the ground. Then the harder problem: evidentiary comparability.\n\nA drone-collected result means nothing to a regulator unless it agrees with a hand-collected split under the same method, so I will show the dual-collection protocol we designed to test exactly that. I will close on why calibrated uncertainty and knowing when a model should refuse to answer matter more than raw accuracy once the output lands in a regulatory filing.\n\n*About the Speaker*\n\n[Rohan Talwadia](https://www.linkedin.com/in/rohantalwadia/) is co-founder and CTO of LabGPT, which automates environmental field sampling using drones and edge analysis, with results returned through ISO/IEC 17025-accredited partner laboratories.",
       "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/316768272/",
@@ -17381,6 +17405,35 @@
       "hash_key": "road to devfest tamaulipas 2026_2026-11-14T14:00:00+00:00"
     },
     {
+      "title": "Claude Community|Adelaide  -  Claude Workshop for Agile Product Teams|Online",
+      "description": "Get up-to-date information at: https://luma.com/claude-6o13\n\nHosted by Jack McNicol & Jason",
+      "url": "https://luma.com/claude-6o13",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claude-6o13",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-Ad2S1oOU5o2hYw9",
+      "online": true,
+      "organizer": "Claude Community",
+      "dtstart": "2026-11-19T07:30:00+00:00",
+      "dtend": "2026-11-19T10:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-Ad2S1oOU5o2hYw9",
+      "hash_key": "adelaide claude workshop for agile produ_2026-11-19T06:00:00+00:00"
+    },
+    {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Nov 19 - Visualizing and Debugging Hugging Face's LeRobot Data|Online",
       "description": "México City AI, Machine Learning and Computer Vision Meetup\nThis workshop is a hands-on tour of what actually breaks when you load real LeRobot datasets, and how Voxel51's native LeRobot support in FiftyOne catches it.\n\n**Date, Time and Location**\n\nNov 19, 2026\n9:00 AM - 10:00 AM PST\nOnline. **[Register for the Zoom!](https://voxel51.com/events/lerobot-workshop-november-19-2026)**\n\nRobot learning data doesn't look like the data that trains most vision-language models. It's temporal, low-dimensional in the parts that matter most, embodiment-specific, and expensive to collect, and increasingly, it's shipped in Hugging Face's LeRobot format. But packaging robot data consistently isn't the same as being able to see it: episodes hide broken metadata, silently dropped sensor modalities, and mismatched schemas between robots that look identical on paper.\n\nStarting from the core differences that make robot data hard (temporal structure, proprioception, action grounding, embodiment heterogeneity, data scarcity), we'll move into live debugging: a metadata bug that broke multiple dataset imports, sensor streams that vanish without an error, and two robots running an identical benchmark whose data is structurally incompatible. By the end, you'll know what to check before you trust a LeRobot dataset, and how to actually look inside one.",
       "url": "https://www.meetup.com/mexico-city-ai-machine-learning-and-computer-vision-meetup/events/316617443/",
@@ -17635,7 +17688,7 @@
         "mobile",
         "web"
       ],
-      "source": "https://gdg.community.dev/gdg-heroica-veracruz/",
+      "source": "https://gdg.community.dev/gdg-guadalajara/",
       "country": "México",
       "country_code": "MX",
       "state": "",
