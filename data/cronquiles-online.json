@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-28T11:51:47.131822+00:00",
-  "total_events": 597,
+  "generated_at": "2026-10-28T17:40:20.625236+00:00",
+  "total_events": 599,
   "city": "Online",
   "communities": [
     {
@@ -94,11 +94,6 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
-          "label": "Luma"
         }
       ]
     },
@@ -169,8 +164,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -745,7 +745,7 @@
     },
     {
       "title": "This Week in Fintech|The Fintech Job Fair|Online",
-      "description": "Get up-to-date information at: https://luma.com/fintech-job-fair\n\nHosted by This Week in Fintech",
+      "description": "Get up-to-date information at: https://luma.com/fintech-job-fair\n\nHosted by FNN",
       "url": "https://luma.com/fintech-job-fair",
       "sources": [
         {
@@ -3336,7 +3336,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3501,7 +3501,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5276,7 +5276,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5840,7 +5840,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10656,7 +10656,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11991,7 +11991,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14545,7 +14545,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15378,7 +15378,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -16651,7 +16651,7 @@
     },
     {
       "title": "Mexico Tech Week|Mujeres sin Filtro × Victoria147  -  Mexico Tech Week|México|",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-2e3424a2\n\nAddress:\nÁmsterdam 255, Hipódromo Condesa, Cuauhtémoc, 06100 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & 5 others",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-2e3424a2\n\nAddress:\nÁmsterdam 255, Hipódromo Condesa, Cuauhtémoc, 06100 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & 6 others",
       "url": "https://luma.com/mxtw-2e3424a2",
       "sources": [
         {
@@ -16959,6 +16959,62 @@
       "city_code": "",
       "address": "C. Marsella 45, Juárez, Cuauhtémoc, 06030 Ciudad de México, CDMX",
       "hash_key": "left unsaid cofounder communication fund_2026-10-29T18:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Autopista Inteligente: Tesla SI + Grok Take Over Tech Week @TESLA Perisur|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-tesla-perisur\n\nAddress:\nAnillo Perif. Blvd. Adolfo López Mateos 4690, Insurgentes Cuicuilco, Coyoacán, 04530 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & Tesla Mexico",
+      "url": "https://luma.com/mxtw-tesla-perisur",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-tesla-perisur",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Anillo Perif. Blvd. Adolfo López Mateos 4690, Insurgentes Cuicuilco, Coyoacán, 04530 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-29T20:00:00+00:00",
+      "dtend": "2026-10-30T00:00:00+00:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Anillo Perif. Blvd. Adolfo López Mateos 4690, Insurgentes Cuicuilco, Coyoacán, 04530 Ciudad de México, CDMX",
+      "hash_key": "autopista inteligente tesla si grok take_2026-10-29T20:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Inauguración Oficial del Consejo Mexicano de Activos Digitales: el futuro de la tokenización en México|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-e6e96c3d\n\nAddress:\nRicardo Flores Magón 1, Nonoalco-Tlatelolco, Cuauhtémoc, CDMX\n\nHosted by Mexico Tech Week & 3 others",
+      "url": "https://luma.com/mxtw-e6e96c3d",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-e6e96c3d",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Ricardo Flores Magón 1, Nonoalco-Tlatelolco, Cuauhtémoc, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-29T21:00:00+00:00",
+      "dtend": "2026-10-30T00:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Ricardo Flores Magón 1, Nonoalco-Tlatelolco, Cuauhtémoc, CDMX",
+      "hash_key": "inauguracin oficial del consejo mexicano_2026-10-29T20:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|Arbor Nexus: Sinergia y Estrategia en la Adopción Corporativa de IA|México|",
@@ -18288,7 +18344,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
