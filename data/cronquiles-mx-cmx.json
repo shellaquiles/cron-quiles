@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-28T17:40:20.749094+00:00",
-  "total_events": 266,
+  "generated_at": "2026-10-28T22:01:10.917656+00:00",
+  "total_events": 267,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -119,13 +119,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3102,7 +3097,7 @@
       "dtstart": "2025-09-19T22:00:00+00:00",
       "dtend": "2025-09-20T00:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4372,7 +4367,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5390,7 +5385,7 @@
         "cloud",
         "python"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5941,7 +5936,7 @@
       "dtstart": "2026-04-24T15:00:00+00:00",
       "dtend": "2026-04-24T21:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -7692,6 +7687,33 @@
       "city_code": "cdmx",
       "address": "Roma Nte., 06700 Ciudad de México, CDMX, México",
       "hash_key": "war of machines el futuro del trabajo y _2026-10-30T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Latin Leap VC Connect|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-42eb2bb7\n\nAddress:\nMexico City\nMexico City, Mexico\n\nHosted by Mexico Tech Week & Latin Leap VC",
+      "url": "https://luma.com/mxtw-42eb2bb7",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-42eb2bb7",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Mexico City, CDMX, Mexico",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-30T00:00:00+00:00",
+      "dtend": "2026-10-30T03:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "Ciudad de México",
+      "city_code": "cdmx",
+      "address": "Ciudad de México, CDMX, México",
+      "hash_key": "latin leap vc connect_2026-10-30T00:00:00+00:00"
     },
     {
       "title": "pgDay|pgDay México Segunda edición|México|Ciudad de México",

@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-28T17:40:20.625236+00:00",
-  "total_events": 599,
+  "generated_at": "2026-10-28T22:01:10.821456+00:00",
+  "total_events": 602,
   "city": "Online",
   "communities": [
     {
@@ -164,13 +164,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3336,7 +3331,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3501,7 +3496,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10656,7 +10651,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14545,7 +14540,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15378,7 +15373,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -17018,7 +17013,7 @@
     },
     {
       "title": "Mexico Tech Week|Arbor Nexus: Sinergia y Estrategia en la Adopción Corporativa de IA|México|",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-96a0cd11\n\nAddress:\nAv. P.º de la Reforma 505-Piso 51, Cuauhtémoc, 06500 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & Guilermo Pérez",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-96a0cd11\n\nAddress:\nAv. P.º de la Reforma 505-Piso 51, Cuauhtémoc, 06500 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & Sequoia Connect",
       "url": "https://luma.com/mxtw-96a0cd11",
       "sources": [
         {
@@ -17032,9 +17027,7 @@
       "organizer": "Mexico Tech Week",
       "dtstart": "2026-10-30T00:00:00+00:00",
       "dtend": "2026-10-30T04:00:00+00:00",
-      "tags": [
-        "frontend"
-      ],
+      "tags": [],
       "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
       "country": "México",
       "country_code": "MX",
@@ -17044,6 +17037,94 @@
       "city_code": "",
       "address": "Av. P.º de la Reforma 505-Piso 51, Cuauhtémoc, 06500 Ciudad de México, CDMX",
       "hash_key": "arbor nexus sinergia y estrategia en la _2026-10-30T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|De startup a empresa: finanzas, impuestos y control para escalar sin sorpresas|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-88a9fd2d\n\nAddress:\nFounders & Inverstors House C. Marsella 45, Juárez, Cuauhtémoc, 06030 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & José Nadurille",
+      "url": "https://luma.com/mxtw-88a9fd2d",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-88a9fd2d",
+          "label": "Ver en Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-95b3a976",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Founders & Inverstors House C. Marsella 45, Juárez, Cuauhtémoc, 06030 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-30T00:00:00+00:00",
+      "dtend": "2026-10-30T01:30:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Founders & Inverstors House C. Marsella 45, Juárez, Cuauhtémoc, 06030 Ciudad de México, CDMX",
+      "hash_key": "de startup a empresa finanzas impuestos _2026-10-30T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Liderazgo Emocional: Del control a la conexión en la era Tech, Mujeres en Tech x Capital One|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-2f1327cd\n\nAddress:\nC. Lucerna 34, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & 3 others",
+      "url": "https://luma.com/mxtw-2f1327cd",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-2f1327cd",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "C. Lucerna 34, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-30T00:00:00+00:00",
+      "dtend": "2026-10-30T03:30:00+00:00",
+      "tags": [
+        "backend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "C. Lucerna 34, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+      "hash_key": "liderazgo emocional del control a la con_2026-10-30T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|TOP Founders #MXTW2026 🇲🇽🫆|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-23a845f3\n\nAddress:\nAv. P.º de la Reforma 540, Lomas - Virreyes, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX\n\nHosted by David Alvo V. | Impacta VC & Mexico Tech Week",
+      "url": "https://luma.com/mxtw-23a845f3",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-23a845f3",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Av. P.º de la Reforma 540, Lomas - Virreyes, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-30T00:00:00+00:00",
+      "dtend": "2026-10-30T03:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Av. P.º de la Reforma 540, Lomas - Virreyes, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX",
+      "hash_key": "top founders mxtw2026_2026-10-30T00:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|Lunch with a Side of AI (w/ The AI Collective)|Online",
@@ -18344,7 +18425,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
