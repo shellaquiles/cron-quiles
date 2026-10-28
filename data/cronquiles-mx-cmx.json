@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-27T21:37:03.769702+00:00",
-  "total_events": 263,
+  "generated_at": "2026-10-28T03:04:46.244169+00:00",
+  "total_events": 264,
   "city": "Ciudad de México",
   "communities": [
     {
@@ -119,13 +119,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3102,7 +3097,7 @@
       "dtstart": "2025-09-19T22:00:00+00:00",
       "dtend": "2025-09-20T00:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4372,7 +4367,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -4850,7 +4845,7 @@
       "tags": [
         "ai"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5390,7 +5385,7 @@
         "cloud",
         "python"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -5941,7 +5936,7 @@
       "dtstart": "2026-04-24T15:00:00+00:00",
       "dtend": "2026-04-24T21:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -7213,23 +7208,25 @@
       "hash_key": "the unofficial stanford playbook how to _2026-10-27T22:00:00+00:00"
     },
     {
-      "title": "Mexico Tech Week|WAR OF MACHINES: EL FUTURO DEL TRABAJO Y LA IA|México|Ciudad de México",
-      "description": "Get up-to-date information at: https://luma.com/mxtw-c029722f\n\nAddress:\nCasa Rafael Galvan\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & 4 others",
-      "url": "https://luma.com/mxtw-c029722f",
+      "title": "AI/IA CDMX|WAR OF MACHINES: EL FUTURO DEL TRABAJO Y LA IA|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/woka0c75\n\nAddress:\nCheck event page for more details.\n\nHosted by Ben AI CDMX",
+      "url": "https://luma.com/woka0c75",
       "sources": [
         {
           "platform": "luma",
-          "url": "https://luma.com/mxtw-c029722f",
+          "url": "https://luma.com/woka0c75",
           "label": "Ver en Luma"
         }
       ],
       "location": "Casa Rafael Galvan, Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
       "online": false,
-      "organizer": "Mexico Tech Week",
+      "organizer": "AI/IA CDMX",
       "dtstart": "2026-10-28T00:00:00+00:00",
       "dtend": "2026-10-28T03:00:00+00:00",
-      "tags": [],
-      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/ai-cdmx",
       "country": "México",
       "country_code": "MX",
       "state": "Ciudad de México",
@@ -7578,6 +7575,33 @@
       "city_code": "cdmx",
       "address": "Lago Iseo 296, Anáhuac I Secc, Miguel Hidalgo, 11320 Ciudad de México, CDMX, México",
       "hash_key": "fuckup nights x mexico tech week_2026-10-29T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|Economía Espacial, la nueva frontera|México|Ciudad de México",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-0303f0a9\n\nAddress:\nZamora 187, Condesa, Ciudad de México\n\nHosted by Mexico Tech Week, Gabo Charles & Daniela Roman",
+      "url": "https://luma.com/mxtw-0303f0a9",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-0303f0a9",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Zamora 187, Condesa, Ciudad de México",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-29T15:00:00+00:00",
+      "dtend": "2026-10-29T16:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "Ciudad de México",
+      "state_code": "MX-CMX",
+      "city": "",
+      "city_code": "cdmx",
+      "address": "Zamora 187, Condesa, Ciudad de México",
+      "hash_key": "economa espacial la nueva frontera_2026-10-29T14:00:00+00:00"
     },
     {
       "title": "AI/IA CDMX|🤖 WAR OF MACHINES: EL FUTURO DEL TRABAJO Y LA IA|México|Ciudad de México",
