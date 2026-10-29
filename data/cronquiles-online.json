@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-28T22:01:10.821456+00:00",
-  "total_events": 602,
+  "generated_at": "2026-10-29T03:31:57.241933+00:00",
+  "total_events": 604,
   "city": "Online",
   "communities": [
     {
@@ -93,6 +93,11 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
+          "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5271,7 +5276,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5835,7 +5840,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11986,7 +11991,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -16470,11 +16475,6 @@
           "platform": "website",
           "url": "https://ocgroups.dev/cncf/group/e5vgp72/event/qc4rwuk",
           "label": "Ver sitio web"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/mxtw-e430c755",
-          "label": "Ver en Luma"
         }
       ],
       "location": "Montes Urales 445, Mexico City",
@@ -17125,6 +17125,60 @@
       "city_code": "",
       "address": "Av. P.º de la Reforma 540, Lomas - Virreyes, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX",
       "hash_key": "top founders mxtw2026_2026-10-30T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|La TechWeek se muere aquí. Ven a su funeral. 🪦✨💀|México|",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-8b48ccb0\n\nAddress:\nTonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX\n\nHosted by Mexico Tech Week & 5 others",
+      "url": "https://luma.com/mxtw-8b48ccb0",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-8b48ccb0",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Tonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+      "online": false,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-31T01:00:00+00:00",
+      "dtend": "2026-10-31T08:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Tonalá 145, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+      "hash_key": "la techweek se muere aqu ven a su funera_2026-10-31T00:00:00+00:00"
+    },
+    {
+      "title": "Mexico Tech Week|💥 StartHaus Day Pass! (Online)|Online",
+      "description": "Get up-to-date information at: https://luma.com/mxtw-2d6294b0\n\nHosted by Mexico Tech Week & 3 others",
+      "url": "https://luma.com/mxtw-2d6294b0",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/mxtw-2d6294b0",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-zCqEsSrBcNt6c8R",
+      "online": true,
+      "organizer": "Mexico Tech Week",
+      "dtstart": "2026-10-31T17:00:00+00:00",
+      "dtend": "2026-10-31T19:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-zCqEsSrBcNt6c8R",
+      "hash_key": "starthaus day pass online_2026-10-31T16:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|Lunch with a Side of AI (w/ The AI Collective)|Online",
