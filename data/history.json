@@ -123,9 +123,10 @@
       "Google Cloud",
       "Google Workspace",
       "Web",
-      "Workshop / hands-on session"
+      "Workshop / hands-on session",
+      "cloud"
     ],
-    "source": "https://gdg.community.dev/gdg-cdmx/",
+    "source": "https://gdg.community.dev/gdg-cloud-mexico-city/",
     "country": "México",
     "country_code": "MX",
     "state": "",
@@ -201,6 +202,35 @@
     "city_code": "",
     "address": "https://luma.com/event/evt-fHEqu2TjTzEHNCU",
     "hash_key": "lovable office hour w the ai collective_2026-12-06T08:00:00+00:00"
+  },
+  {
+    "title": "Rust-AICollective|From Vibe to Live, Lovable Virtual Prompathon Kickoff + Office Hour (Side Event of AI Post Open Lab)|Online",
+    "description": "Get up-to-date information at: https://luma.com/aic-ta-12-6_main\n\nHosted by The AI Collective & Grace Pan",
+    "url": "https://luma.com/aic-ta-12-6_main",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/aic-ta-12-6_main",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "https://luma.com/event/evt-n9ogEMxck80yIPh",
+    "online": true,
+    "organizer": "Rust-AICollective",
+    "dtstart": "2026-12-06T07:00:00+00:00",
+    "dtend": "2026-12-06T09:00:00+00:00",
+    "tags": [
+      "ai"
+    ],
+    "source": "https://luma.com/rust-ios-ai",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "https://luma.com/event/evt-n9ogEMxck80yIPh",
+    "hash_key": "from vibe to live lovable virtual prompa_2026-12-06T06:00:00+00:00"
   },
   {
     "title": "GDG Heroica Veracruz|DevFest 2026 Health|México|",
@@ -585,6 +615,33 @@
     "city_code": "",
     "address": "",
     "hash_key": "nov 19 visualizing and debugging hugging_2026-11-19T16:00:00+00:00"
+  },
+  {
+    "title": "Claude Community|Barcelona  -  Workshop & Cowork - Claude for LinkedIn|Online",
+    "description": "Get up-to-date information at: https://luma.com/claude-2ugt\n\nHosted by Fernanda Grace Lins",
+    "url": "https://luma.com/claude-2ugt",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/claude-2ugt",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "https://luma.com/event/evt-nG1EG2qpitkFpwu",
+    "online": true,
+    "organizer": "Claude Community",
+    "dtstart": "2026-11-19T09:00:00+00:00",
+    "dtend": "2026-11-19T12:00:00+00:00",
+    "tags": [],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+    "country": "",
+    "country_code": "",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "https://luma.com/event/evt-nG1EG2qpitkFpwu",
+    "hash_key": "barcelona workshop cowork claude for lin_2026-11-19T08:00:00+00:00"
   },
   {
     "title": "Claude Community|Adelaide  -  Claude Workshop for Agile Product Teams|Online",
@@ -2358,6 +2415,33 @@
     "hash_key": "evento con ponentes de gobierno tecnolog_2026-10-30T22:00:00+00:00"
   },
   {
+    "title": "Mexico Tech Week|Meeting y charla Tech: IA, Poder Y Filosofía De La Tecnología|México|Ciudad de México",
+    "description": "Get up-to-date information at: https://luma.com/mxtw-66bb3493\n\nAddress:\nCasa Murciélago - 199, Del Carmen, Coyoacán, 04100, Ciudad de México\n\nHosted by Mexico Tech Week, Axel Vega & Axel Vega",
+    "url": "https://luma.com/mxtw-66bb3493",
+    "sources": [
+      {
+        "platform": "luma",
+        "url": "https://luma.com/mxtw-66bb3493",
+        "label": "Ver en Luma"
+      }
+    ],
+    "location": "Casa Murciélago - 199, Del Carmen, Coyoacán, 04100, Ciudad de México",
+    "online": false,
+    "organizer": "Mexico Tech Week",
+    "dtstart": "2026-10-30T23:00:00+00:00",
+    "dtend": "2026-10-31T02:00:00+00:00",
+    "tags": [],
+    "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-jWh40NRx2vB56Tu",
+    "country": "México",
+    "country_code": "MX",
+    "state": "Ciudad de México",
+    "state_code": "MX-CMX",
+    "city": "",
+    "city_code": "cdmx",
+    "address": "Casa Murciélago - 199, Del Carmen, Coyoacán, 04100, Ciudad de México",
+    "hash_key": "meeting y charla tech ia poder y filosof_2026-10-30T22:00:00+00:00"
+  },
+  {
     "title": "Vive Codding Cafe|Vibe Coding Café|México|Jalisco",
     "description": "Get up-to-date information at: https://luma.com/4xyyeuy0\n\nAddress:\nHackerGarage\nGuadalajara, Mexico\n\nHosted by Ruy",
     "url": "https://luma.com/4xyyeuy0",
@@ -2473,7 +2557,7 @@
   },
   {
     "title": "Mexico Tech Week|Desinformación, Deepfakes y el Futuro de la Reputación|México|México",
-    "description": "Get up-to-date information at: https://luma.com/mxtw-440b3731\n\nAddress:\nAv. Pdte. Masaryk 17\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week & Victory",
+    "description": "Get up-to-date information at: https://luma.com/mxtw-440b3731\n\nAddress:\nAv. Pdte. Masaryk 17\nCiudad de México, Mexico\n\nHosted by Mexico Tech Week, Victory & Yoshua Miranda",
     "url": "https://luma.com/mxtw-440b3731",
     "sources": [
       {
@@ -19146,7 +19230,7 @@
     "dtstart": "2026-08-26T22:00:00+00:00",
     "dtend": "2026-08-26T23:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "",
     "country_code": "",
     "state": "",
@@ -20068,7 +20152,7 @@
       "ai",
       "frontend"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "México",
@@ -26455,7 +26539,7 @@
     "dtstart": "2026-05-15T00:00:00+00:00",
     "dtend": "2026-05-15T00:50:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "",
     "country_code": "",
     "state": "",
@@ -27208,7 +27292,7 @@
     "tags": [
       "security"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "",
     "country_code": "",
     "state": "",
@@ -30076,7 +30160,7 @@
     "dtstart": "2026-03-01T17:00:00+00:00",
     "dtend": "2026-03-01T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30162,7 +30246,7 @@
     "dtstart": "2026-02-27T15:00:00+00:00",
     "dtend": "2026-02-27T17:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30218,7 +30302,7 @@
     "dtstart": "2026-02-26T01:00:00+00:00",
     "dtend": "2026-02-26T04:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30272,7 +30356,7 @@
     "dtstart": "2026-02-26T00:00:00+00:00",
     "dtend": "2026-02-26T03:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30299,7 +30383,7 @@
     "dtstart": "2026-02-25T22:00:00+00:00",
     "dtend": "2026-02-25T23:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30328,7 +30412,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30357,7 +30441,7 @@
     "tags": [
       "mobile"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30411,7 +30495,7 @@
     "dtstart": "2026-02-25T15:00:00+00:00",
     "dtend": "2026-02-25T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30705,7 +30789,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30732,7 +30816,7 @@
     "dtstart": "2026-02-24T14:30:00+00:00",
     "dtend": "2026-02-24T16:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30761,7 +30845,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30788,7 +30872,7 @@
     "dtstart": "2026-02-24T00:00:00+00:00",
     "dtend": "2026-02-24T02:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30817,7 +30901,7 @@
     "tags": [
       "ai"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30847,7 +30931,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30877,7 +30961,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30904,7 +30988,7 @@
     "dtstart": "2026-02-23T19:00:00+00:00",
     "dtend": "2026-02-23T20:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30931,7 +31015,7 @@
     "dtstart": "2026-02-23T18:00:00+00:00",
     "dtend": "2026-02-23T19:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30958,7 +31042,7 @@
     "dtstart": "2026-02-23T17:00:00+00:00",
     "dtend": "2026-02-23T18:00:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -30988,7 +31072,7 @@
       "ai",
       "python"
     ],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -32548,7 +32632,7 @@
     "dtstart": "2025-11-18T23:00:00+00:00",
     "dtend": "2025-11-19T01:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
@@ -33612,7 +33696,7 @@
     "dtstart": "2025-09-29T18:00:00+00:00",
     "dtend": "2025-09-29T19:30:00+00:00",
     "tags": [],
-    "source": "https://luma.com/eofagheq",
+    "source": "https://luma.com/02t893pf",
     "country": "México",
     "country_code": "MX",
     "state": "Ciudad de México",
