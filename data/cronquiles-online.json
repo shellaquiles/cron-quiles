@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-30T12:07:51.321999+00:00",
-  "total_events": 608,
+  "generated_at": "2026-10-30T14:04:12.889401+00:00",
+  "total_events": 610,
   "city": "Online",
   "communities": [
     {
@@ -83,11 +83,6 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
-          "label": "Luma"
         }
       ]
     },
@@ -158,8 +153,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3325,7 +3325,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3490,7 +3490,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5265,7 +5265,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5829,7 +5829,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10645,7 +10645,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11980,7 +11980,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14534,7 +14534,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15367,7 +15367,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -17325,6 +17325,40 @@
       "hash_key": "cloud native cdmx carbon as a first clas_2026-11-03T16:00:00+00:00"
     },
     {
+      "title": "GDG CDMX|Cómo dirigir, evaluar y confiar en la Inteligencia Artificial|Online",
+      "description": "El Google Developer Group CDMX organiza una sesión sobre cómo dirigir, evaluar y confiar en la inteligencia artificial. Estudiantes, profesionales y entusiastas tecnológicos aprenderán a detectar errores y calificar el desempeño de IA usando métodos como la evaluación 'De afuera hacia adentro' y herramientas de observabilidad. Ideal para quienes buscan liderar equipos de IA eficientemente.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-como-dirigir-evaluar-y-confiar-en-la-inteligencia-artificial/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-como-dirigir-evaluar-y-confiar-en-la-inteligencia-artificial/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-11-03T19:30:00-06:00",
+      "dtend": "2026-11-03T20:30:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Career Development",
+        "Workshop / hands-on session",
+        "frontend"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "cmo dirigir evaluar y confiar en la inte_2026-11-04T00:00:00+00:00"
+    },
+    {
       "title": "Data, Cloud and AI in Mexico City|IBM Bob TV episode 3: Benchmarking optimization tasks, cost & quality with Bob|Online",
       "description": "Data, Cloud and AI in Mexico City\nJoin us for the third episode of **Bob TV,** the monthly digital event series hosted by **Max Jesch**, IBM Bob’s outbound product manager. Each month, Max sits down with a technical guest to explore real examples of your trusted AI assistant in action—showing how **Bob** accelerates enterprise software development across the entire lifecycle.\n\n**Featuring Special Guest: Rynne Whitnah**\n\nWe’re thrilled to welcome Rynne Whitnah, Technical Lead AI Ecosystem at IBM to the November installment.\n\n**Rynne will cover:**\n\n* How developers can benchmark optimization tasks to benchmark cost & quality\n* How to increase effectiveness of prompting and MCP servers at lowest possible cost\n* Bobalytics - additional ways to maximize token use\n\n**Bob TV is your monthly window into:**\n\n* Bob capabilities\n* AI‑assisted development workflows\n* Enterprise modernization patterns\n* Agent‑based software engineering\n\n**Host:**\n\n**![](https://cache.webcasts.com/content/ibmx001/1771850/content/8605de84345dc42143086f23cfcb2d55984805ea/common/Screenshot20260803at1.28.53PM.png)**\n\n**Maximilian Jesch,** Outbound Product Manager, IBM Bob\n\n![](https://cache.webcasts.com/content/ibmx001/1778678/content/bcc46111dcd862aa529fb2d57d0f81cb3076048a/common/image198.png)\n\n**Rynne Whitnah,** Technical Lead, AI Ecosystem, IBM",
       "url": "https://www.meetup.com/big-data-developers-in-mexico-city/events/317075371/",
@@ -17512,6 +17546,41 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "modernizacin arquitectural de cdigo lega_2026-11-06T00:00:00+00:00"
+    },
+    {
+      "title": "GDG CDMX|De Prototipo a Colega: Cómo Educar a tu Primer Agente de IA|Online",
+      "description": "Google Developer Group CDMX invites tech enthusiasts to \"De Prototipo a Colega.\" Learn how to transform AI prototypes into reliable colleagues. This interactive session covers training, deployment, and collaboration without needing technical knowledge, ensuring AI agents are well-prepared and secure before interacting with real clients.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-de-prototipo-a-colega-como-educar-a-tu-primer-agente-de-ia/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-de-prototipo-a-colega-como-educar-a-tu-primer-agente-de-ia/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-11-05T19:30:00-06:00",
+      "dtend": "2026-11-05T20:30:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Career Development",
+        "Workshop / hands-on session",
+        "ai",
+        "security"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "de prototipo a colega cmo educar a tu pr_2026-11-06T00:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Nov 9 - Agentic Labeling for Specialized Visual Data|Online",
@@ -18596,7 +18665,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",

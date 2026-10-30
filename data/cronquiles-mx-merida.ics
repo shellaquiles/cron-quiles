@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Shellaquiles//CronQuiles v2.0.2//ES
+CALSCALE:GREGORIAN
+X-WR-CALDESC:Calendario unificado de eventos tech en MX-MERIDA\, México
+X-WR-CALNAME:Eventos Tech MX-MERIDA - cronquiles
+X-WR-TIMEZONE:America/Mexico_City
+BEGIN:VEVENT
+SUMMARY:Proyecto GNOME\, CCOSS|GNOME Latam & CCOSS 2026|México|Yucatán
+DTSTART:20261112T080000
+CATEGORIES:Desktops,Free Software,GNOME,Open Source,mobile
+DESCRIPTION:GNOME Latam & CCOSS 2026 es el evento de referencia en la regi
+ ón que reúne a desarrolladores\, usuarios\, profesionales de TI\, acadé
+ micos\, estudiantes y entusiastas del software libre para intercambiar ide
+ as\, colaborar e impulsar un ecosistema tecnológico incluyente y sostenib
+ le.
+LOCATION:Universidad Anáhuac Mayab (Mérida\, Yucatán\, México) & Track
+  en línea.
+X-CRONQUILES-ADDRESS:Universidad Anáhuac Mayab (Mérida\, Yucatán\, Méx
+ ico) & Track en línea.
+X-CRONQUILES-CITY:Mérida
+X-CRONQUILES-CITY-CODE:mérida
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:Yucatán
+X-CRONQUILES-STATE-CODE:MX-MERIDA
+END:VEVENT
+END:VCALENDAR
