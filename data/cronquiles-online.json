@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-30T03:34:21.208316+00:00",
-  "total_events": 606,
+  "generated_at": "2026-10-30T11:52:45.767943+00:00",
+  "total_events": 608,
   "city": "Online",
   "communities": [
     {
@@ -169,8 +169,13 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
+      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
       "links": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/sudo_fciencias_2026",
+          "label": "Luma"
+        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3336,7 +3341,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3501,7 +3506,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10656,7 +10661,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14545,7 +14550,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15378,7 +15383,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",
@@ -17269,6 +17274,40 @@
       "hash_key": "lunch with a side of ai w the ai collect_2026-11-02T22:00:00+00:00"
     },
     {
+      "title": "GDG CDMX|Arquitecturas Multi-Agente y Especialización en Producción|Online",
+      "description": "The Google Developer Group CDMX hosts a conference on transitioning from general-purpose models to specialist agent architectures. Software engineers and solution architects will learn about robust multi-agent systems using orchestration patterns and real case studies. The event covers the shift to specialized agents, design patterns, synthesis mechanisms, and human-in-the-loop collaboration.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-arquitecturas-multi-agente-y-especializacion-en-produccion/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-arquitecturas-multi-agente-y-especializacion-en-produccion/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-11-02T19:30:00-06:00",
+      "dtend": "2026-11-02T20:30:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Career Development",
+        "Workshop / hands-on session",
+        "frontend"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "arquitecturas multi agente y especializa_2026-11-03T00:00:00+00:00"
+    },
+    {
       "title": "Cloud Native Mexico City|Cloud Native CDMX -  Carbon as a First-Class Signal: Designing a Standard for OpenTelemetry|Online",
       "description": "🚀 Cloud Native CDMX Online! New edition of our chapter in virtual format!\nWe keep building the Cloud Native community in Mexico City with a new session of learning, networking, and technology — this time from the comfort of your home.\n📅 Tuesday, November 3, 2026\n🕛 19:00 (CET)\n💻 Online event\n🎟️ Completely free admission!\nThis session will feature a high-level technical talk:\n🎤 Carbon as a First-Class Signal: Designing a Standard for OpenTelemetry by\nDiana Todea\nOpenTelemetry helps us measure latency, errors, and availability. But as sustainability moves into engineering, one question remains unanswered: how do we observe carbon?\nThis talk explores Software Carbon Intensity (SCI) through the lens of OpenTelemetry semantic conventions. Rather than focusing on sustainability reporting, we examine the technical challenge of modeling carbon as telemetry: what entities should emissions be attributed to, which attributes should be standardized, and whether carbon belongs in metrics, traces, resource metadata, or all three.\nWe will explore how carbon-related signals can be collected, enriched, and visualized alongside traditional observability data. Attendees will gain a deeper understanding of semantic conventions, telemetry design trade-offs, and the opportunities for OpenTelemetry to support a new generation of operational signals.\nKey takeaways:\nUnderstanding SCI as an observability signal\nDesigning semantic conventions for carbon telemetry\nTrade-offs between metrics, traces, and resource attributes\nPractical implementation patterns using OpenTelemetry\nFuture directions for green observability\n🗣️ About Diana Todea: CNCF Ambassador and Operational Resilience TAG lead, co-leads the Neurodiversity Merge Forward community, and organizes Cloud Native Days Romania. Professionally, she is the Head of Developer Relations Engineering at VictoriaMetrics, where she works at the intersection of developer experience, observability, and open source community engagement. With experience as a Senior Site Reliability Engineer specialized in Observability, Diana is passionate about the Cloud Native ecosystem and sustainability in software engineering. 🇷🇴\nCloud Native CDMX continues to grow with the mission of building a strong, inclusive, and passionate technical community around the Cloud Native ecosystem in Mexico.\nBe part of the community! 🙌\n#CloudNativeCDMX #CloudNative #CloudNativeMexico #CNCF #CNCFCommunity #CNCFAmbassador #CommunityMeetup #TechCommunity #TechCDMX #OpenTelemetry #Observability #GreenSoftware #SCI #SoftwareCarbonIntensity #Sustainability #CloudNativeLatam #GreenObservability #Telemetry #SemanticConventions #VictoriaMetrics\n🚀 ¡Cloud Native CDMX Online! ¡Nueva edición de nuestro capítulo en formato virtual!\nSeguimos construyendo comunidad Cloud Native en Ciudad de México con una nueva sesión de aprendizaje, networking y tecnología, esta vez desde la comodidad de tu hogar.\n📅 Martes 3 de Noviembre de 2026\n🕛 19:00 hrs (CET)\n💻 Evento en línea\n🎟️ ¡Entrada completamente gratuita!\nEsta sesión contará con una ponencia de alto nivel técnico:\n🎤 Carbon as a First-Class Signal: Diseñando un estándar para OpenTelemetry por Diana Todea\nOpenTelemetry nos ayuda a medir latencia, errores y disponibilidad. Pero a medida que la sostenibilidad se integra en la ingeniería, una pregunta sigue sin respuesta: ¿cómo observamos el carbono?\nEn esta charla exploraremos la Intensidad de Carbono del Software (SCI) a través de las convenciones semánticas de OpenTelemetry. En lugar de enfocarnos en reportes de sostenibilidad, examinaremos el desafío técnico de modelar el carbono como telemetría: ¿a qué entidades deben atribuirse las emisiones?, ¿qué atributos deben estandarizarse? y ¿el carbono pertenece a métricas, trazas, metadatos de recursos o a los tres?\nExploraremos cómo las señales relacionadas con el carbono pueden recolectarse, enriquecerse y visualizarse junto con los datos tradicionales de observabilidad. Los asistentes obtendrán una comprensión más profunda de las convenciones semánticas, las decisiones de diseño en telemetría y las oportunidades para que OpenTelemetry soporte una nueva generación de señales operacionales.\nLo que te llevarás de esta sesión:\nEntender SCI como una señal de observabilidad\nDiseñar convenciones semánticas para telemetría de carbono\nTrade-offs entre métricas, trazas y atributos de recursos\nPatrones de implementación prácticos usando OpenTelemetry\nDirecciones futuras para la observabilidad verde\n🗣️ Sobre Diana Todea: CNCF Ambassador y líder del TAG de Resiliencia Operacional, co-lidera la comunidad Neurodiversity Merge Forward y organiza Cloud Native Days Romania. Profesionalmente, es Head of Developer Relations Engineering en VictoriaMetrics, donde trabaja en la intersección de experiencia de desarrollador, observabilidad y comunidad open source. Con experiencia como Senior Site Reliability Engineer especializada en Observabilidad, Diana es una apasionada del ecosistema Cloud Native y la sostenibilidad en la ingeniería de software. 🇷🇴\nCloud Native CDMX sigue creciendo con la misión de construir una comunidad técnica sólida, inclusiva y apasionada por el ecosistema Cloud Native en México.\n¡Sé parte de la comunidad! 🙌\n#CloudNativeCDMX #CloudNative #CloudNativeMexico #CNCF #CNCFCommunity #CNCFAmbassador #CommunityMeetup #TechCommunity #TechCDMX #OpenTelemetry #Observability #GreenSoftware #SCI #SoftwareCarbonIntensity #Sustainability #CloudNativeLatam #GreenObservability #Telemetry #SemanticConventions #VictoriaMetrics",
       "url": "https://ocgroups.dev/cncf/group/e5vgp72/event/deesvtm",
@@ -17361,6 +17400,41 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-UIXrplPWppKOxzG",
       "hash_key": "aic education from ai tools to ai teamma_2026-11-04T18:00:00+00:00"
+    },
+    {
+      "title": "GDG CDMX|Larga Language Models de dominio específico|Online",
+      "description": "Google Developer Group CDMX presents Academia de Héroes IA, inviting tech enthusiasts, creators, and students to discover how AI models become specialized 'heroes' like SecLM for cybersecurity and Med-PaLM 2 for healthcare. Learn advanced techniques and create your own AI hero through interactive sessions.",
+      "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-larga-language-models-de-dominio-especifico/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-cdmx-presents-larga-language-models-de-dominio-especifico/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Online",
+      "online": true,
+      "organizer": "GDG CDMX",
+      "dtstart": "2026-11-04T19:30:00-06:00",
+      "dtend": "2026-11-04T20:30:00-06:00",
+      "tags": [
+        "AI",
+        "AI - Gemini",
+        "Build with AI",
+        "Career Development",
+        "Workshop / hands-on session",
+        "ai",
+        "security"
+      ],
+      "source": "https://gdg.community.dev/gdg-cdmx/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Online",
+      "hash_key": "larga language models de dominio especfi_2026-11-05T00:00:00+00:00"
     },
     {
       "title": "Kong Mexico City|Intelligent Model Routing, Governed: NVIDIA NeMo Switchyard + Kong AI Gateway|Online",
@@ -18538,7 +18612,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/e17fbtoo",
+      "source": "https://luma.com/sudo_fciencias_2026",
       "country": "",
       "country_code": "",
       "state": "",

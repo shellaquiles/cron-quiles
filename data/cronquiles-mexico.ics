@@ -22395,7 +22395,7 @@ SUMMARY:Mexico Tech Week|GrowthConf 2026 CDMX  -  Meaningful + NeoPerforma
  nce @ Yalo|México|México
 DTSTART:20261030T140000Z
 DESCRIPTION:Get up-to-date information at: https://luma.com/growth-conf-20
- 26-cdmx\n\nAddress:\nTorre Reforma Latino\nRegistro comienza 7:15am\nCiuda
+ 26-cdmx\n\nAddress:\nTorre Reforma Latino\nRegistro comienza 8:00am\nCiuda
  d de México\, Mexico\n\nHosted by Mexico Tech Week & 6 others
 LOCATION:Torre Reforma Latino\, Av. P.º de la Reforma 296\, Juárez\, Cua
  uhtémoc\, 06600 Ciudad de México\, CDMX\, Mexico
@@ -22677,6 +22677,23 @@ X-CRONQUILES-STATE:México
 X-CRONQUILES-STATE-CODE:MX-MEX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Mexico Tech Week|Meeting VR AURA HUB & MUV LAB TECH WEEK Halloween
+  VRFest|México|México
+DTSTART:20261031T000000Z
+CATEGORIES:frontend
+DESCRIPTION:Get up-to-date information at: https://luma.com/mxtw-6123e7f6\
+ n\nAddress:\nUxmal 520\nCiudad de México\, Mexico\n\nHosted by Mexico Tec
+ h Week & Lorena Patino
+LOCATION:Uxmal 520\, Vértiz Narvarte\, Benito Juárez\, 03600 Ciudad de M
+ éxico\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Uxmal 520\, Vértiz Narvarte\, Benito Juárez\, 03600
+  Ciudad de México\, CDMX\, Mexico
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:México
+X-CRONQUILES-STATE-CODE:MX-MEX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:AWS User Group Mixtli|Conceptos de la nube:  fundamentos|Online
 DTSTART:20261030T183000
 CATEGORIES:ai,cloud,frontend,mobile
@@ -22928,6 +22945,23 @@ LOCATION:https://luma.com/event/evt-IQRkkDPErtVT2zC
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-IQRkkDPErtVT2zC
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:GDG CDMX|Arquitecturas Multi-Agente y Especialización en Producci
+ ón|Online
+DTSTART:20261102T193000
+CATEGORIES:AI,AI - Gemini,Build with AI,Career Development,Workshop / hand
+ s-on session,frontend
+DESCRIPTION:The Google Developer Group CDMX hosts a conference on transiti
+ oning from general-purpose models to specialist agent architectures. Softw
+ are engineers and solution architects will learn about robust multi-agent 
+ systems using orchestration patterns and real case studies. The event cove
+ rs the shift to specialized agents\, design patterns\, synthesis mechanism
+ s\, and human-in-the-loop collaboration.
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Cloud Native Mexico City|Cloud Native CDMX -  Carbon as a First-Cl
  ass Signal: Designing a Standard for OpenTelemetry|Online
 DTSTART:20261103T110000
@@ -23084,6 +23118,21 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/aic-gl-11-4\n\
  nHosted by The AI Collective\, Abraham & Lena Shakurova
 LOCATION:https://luma.com/event/evt-UIXrplPWppKOxzG
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-UIXrplPWppKOxzG
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GDG CDMX|Larga Language Models de dominio específico|Online
+DTSTART:20261104T193000
+CATEGORIES:AI,AI - Gemini,Build with AI,Career Development,Workshop / hand
+ s-on session,ai,security
+DESCRIPTION:Google Developer Group CDMX presents Academia de Héroes IA\, 
+ inviting tech enthusiasts\, creators\, and students to discover how AI mod
+ els become specialized 'heroes' like SecLM for cybersecurity and Med-PaLM 
+ 2 for healthcare. Learn advanced techniques and create your own AI hero th
+ rough interactive sessions.
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kong Mexico City|Intelligent Model Routing\, Governed: NVIDIA NeMo
