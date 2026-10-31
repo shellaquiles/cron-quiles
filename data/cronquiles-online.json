@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-10-31T11:26:38.228535+00:00",
-  "total_events": 612,
+  "generated_at": "2026-10-31T16:32:15.571430+00:00",
+  "total_events": 613,
   "city": "Online",
   "communities": [
     {
@@ -83,6 +83,11 @@
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
           "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
+          "label": "Luma"
         }
       ]
     },
@@ -153,13 +158,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3325,7 +3325,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3490,7 +3490,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5265,7 +5265,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5829,7 +5829,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10645,7 +10645,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11980,7 +11980,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14534,7 +14534,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15367,7 +15367,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -17614,6 +17614,35 @@
       "hash_key": "nov 9 agentic labeling for specialized v_2026-11-09T16:00:00+00:00"
     },
     {
+      "title": "Rust-AICollective|AI Roundtable #29: Work Rewritten: AI, Jobs, Opportunity, and Impact (w/ The AI Collective KC & Voyage Consulting)|Online",
+      "description": "Get up-to-date information at: https://luma.com/aic-kc-roundtable29\n\nHosted by The AI Collective & 4 others",
+      "url": "https://luma.com/aic-kc-roundtable29",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/aic-kc-roundtable29",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-VpQxGO9M0yYQaCK",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-11-09T18:00:00+00:00",
+      "dtend": "2026-11-09T19:00:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-VpQxGO9M0yYQaCK",
+      "hash_key": "ai roundtable 29 work rewritten ai jobs _2026-11-09T18:00:00+00:00"
+    },
+    {
       "title": "GDG Villahermosa|DevFest 2026: Sureste de México|México|",
       "description": "Únete a nosotros en el Devfest 2026. Este evento emblemático es una oportunidad única para sumergirse en las tendencias ...",
       "url": "https://gdg.community.dev/events/details/google-gdg-villahermosa-presents-devfest-2026-sureste-de-mexico/",
@@ -18721,7 +18750,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
