@@ -672,6 +672,38 @@
     "hash_key": "adelaide claude workshop for agile produ_2026-11-19T06:00:00+00:00"
   },
   {
+    "title": "Cloud Native Mexico City|Cloud Native CDMX - OpenTelemetry|Online",
+    "description": "🚀 ¡Cloud Native CDMX Online! Nueva edición de nuestro capítulo ¡en formato virtual!\nSeguimos construyendo comunidad Cloud Native en Ciudad de México con una nueva sesión de aprendizaje, networking y tecnología, esta vez desde la comodidad de tu hogar.\n📅 Martes 17 de Noviembre de 2026\n🕛 18:30 hrs (Ciudad de México, UTC-6)\n💻 Evento en línea\n🎟️ ¡Entrada completamente gratuita!\nEsta sesión contará con una ponencia de alto nivel técnico:\n🎤 OpenTelemetry Goes Beyond Your Services: Telemetría de sistema, métricas de host y profiling con eBPF por\nEnzo Venturi\nTus servicios tienen trazas. Las requests tienen spans. La latencia está medida. Los dashboards se ven increíbles.\nMientras tanto, el sistema operativo sigue haciendo cosas que nadie instrumentó.\nProcesos compitiendo por CPU. Threads siendo planificados. Memoria siendo reclamada. Discos manejando I/O. Nada de esto respeta los límites de tus servicios.\nInstrumentamos los servicios. Aparentemente, olvidamos lo que los ejecuta.\nEn esta charla, Enzo explorará cómo OpenTelemetry puede observar mucho más que código de aplicación: puede recolectar telemetría de sistemas operativos, procesos e infraestructura a través de Linux, Windows y macOS. Partiremos de un host bajo contención de recursos, recolectaremos métricas de sistema usando el OpenTelemetry Collector, y profundizaremos con profiling basado en eBPF en Linux. Inspeccionaremos stacks de ejecución en userspace y kernel space, los compararemos con trazas de aplicación, e investigaremos qué puede explicar realmente cada señal.\nSin Kubernetes requerido. Sin SDK en cada proceso. Sin pretender que un servicio saludable significa un sistema saludable.\nTus servicios nunca fueron todo el stack.\n🗣️ Sobre Enzo Venturi: CNCF Ambassador, Platform Engineer y apasionado de Linux, Networking y Go. Con un enfoque profundo en entender cómo funcionan los sistemas y qué sucede debajo de sus abstracciones, Enzo es organizador del CNCG en Perú y ha sido parte del equipo organizador de KCD Lima. Su curiosidad por la tecnología se extiende a la comunidad, donde contribuye activamente al ecosistema Cloud Native. 🇵🇪\nCloud Native CDMX sigue creciendo con la misión de construir una comunidad técnica sólida, inclusiva y apasionada por el ecosistema Cloud Native en México.\n¡Sé parte de la comunidad! 🙌\n#CloudNativeCDMX #CloudNative #CloudNativeMexico #CNCF #CNCFCommunity #CommunityMeetup #TechCommunity #TechCDMX #OpenTelemetry #Observability #eBPF #Linux #PlatformEngineering #DevOps #Kubernetes #CloudNativeLatam #OTel #SystemTelemetry #HostMetrics",
+    "url": "https://ocgroups.dev/cncf/group/e5vgp72/event/8mf3zj7",
+    "sources": [
+      {
+        "platform": "website",
+        "url": "https://ocgroups.dev/cncf/group/e5vgp72/event/8mf3zj7",
+        "label": "Ver sitio web"
+      }
+    ],
+    "location": "Online",
+    "online": true,
+    "organizer": "Cloud Native Mexico City",
+    "dtstart": "2026-11-17T18:30:00-06:00",
+    "dtend": "2026-11-17T20:00:00-06:00",
+    "tags": [
+      "cloud",
+      "devops",
+      "frontend",
+      "mobile"
+    ],
+    "source": "https://ocgroups.dev/cncf/group/e5vgp72",
+    "country": "México",
+    "country_code": "MX",
+    "state": "",
+    "state_code": "",
+    "city": "",
+    "city_code": "",
+    "address": "Online",
+    "hash_key": "cloud native cdmx opentelemetry_2026-11-18T00:00:00+00:00"
+  },
+  {
     "title": "AI/IA CDMX|To Be Announced/Por anunciar|México|Ciudad de México",
     "description": "AI/IA CDMX (Ciudad de México Inteligencia Artificial)\nEvent live streams on youtube.\nhttps://www.youtube.com/@AICDMX\n\nFollow us\nhttps://www.instagram.com/cdmxai/\nhttps://www.facebook.com/aicdmx\nhttps://www.linkedin.com/company/ai-cdmx\n\nJoin us and stay ahead of the curve. You won’t just learn about AI—you’ll learn how to use it to your advantage.\nThis event is just a glimpse into these topics. Our group dives into AI from all angles with monthly events and workshops that explore a wide range of themes.",
     "url": "https://www.meetup.com/ai-cdmx/events/lwpsttyjcpbwb/",

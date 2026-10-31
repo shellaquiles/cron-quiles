@@ -10259,6 +10259,52 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Cloud Native Mexico City|Cloud Native CDMX - OpenTelemetry|Online
+DTSTART:20261117T183000
+CATEGORIES:cloud,devops,frontend,mobile
+DESCRIPTION:🚀 ¡Cloud Native CDMX Online! Nueva edición de nuestro cap
+ ítulo ¡en formato virtual!\nSeguimos construyendo comunidad Cloud Native
+  en Ciudad de México con una nueva sesión de aprendizaje\, networking y 
+ tecnología\, esta vez desde la comodidad de tu hogar.\n📅 Martes 17 de 
+ Noviembre de 2026\n🕛 18:30 hrs (Ciudad de México\, UTC-6)\n💻 Evento
+  en línea\n🎟️ ¡Entrada completamente gratuita!\nEsta sesión contar
+ á con una ponencia de alto nivel técnico:\n🎤 OpenTelemetry Goes Beyon
+ d Your Services: Telemetría de sistema\, métricas de host y profiling co
+ n eBPF por\nEnzo Venturi\nTus servicios tienen trazas. Las requests tienen
+  spans. La latencia está medida. Los dashboards se ven increíbles.\nMien
+ tras tanto\, el sistema operativo sigue haciendo cosas que nadie instrumen
+ tó.\nProcesos compitiendo por CPU. Threads siendo planificados. Memoria s
+ iendo reclamada. Discos manejando I/O. Nada de esto respeta los límites d
+ e tus servicios.\nInstrumentamos los servicios. Aparentemente\, olvidamos 
+ lo que los ejecuta.\nEn esta charla\, Enzo explorará cómo OpenTelemetry 
+ puede observar mucho más que código de aplicación: puede recolectar tel
+ emetría de sistemas operativos\, procesos e infraestructura a través de 
+ Linux\, Windows y macOS. Partiremos de un host bajo contención de recurso
+ s\, recolectaremos métricas de sistema usando el OpenTelemetry Collector\
+ , y profundizaremos con profiling basado en eBPF en Linux. Inspeccionaremo
+ s stacks de ejecución en userspace y kernel space\, los compararemos con 
+ trazas de aplicación\, e investigaremos qué puede explicar realmente cad
+ a señal.\nSin Kubernetes requerido. Sin SDK en cada proceso. Sin pretende
+ r que un servicio saludable significa un sistema saludable.\nTus servicios
+  nunca fueron todo el stack.\n🗣️ Sobre Enzo Venturi: CNCF Ambassador\
+ , Platform Engineer y apasionado de Linux\, Networking y Go. Con un enfoqu
+ e profundo en entender cómo funcionan los sistemas y qué sucede debajo d
+ e sus abstracciones\, Enzo es organizador del CNCG en Perú y ha sido part
+ e del equipo organizador de KCD Lima. Su curiosidad por la tecnología se 
+ extiende a la comunidad\, donde contribuye activamente al ecosistema Cloud
+  Native. 🇵🇪\nCloud Native CDMX sigue creciendo con la misión de con
+ struir una comunidad técnica sólida\, inclusiva y apasionada por el ecos
+ istema Cloud Native en México.\n¡Sé parte de la comunidad! 🙌\n#Cloud
+ NativeCDMX #CloudNative #CloudNativeMexico #CNCF #CNCFCommunity #Community
+ Meetup #TechCommunity #TechCDMX #OpenTelemetry #Observability #eBPF #Linux
+  #PlatformEngineering #DevOps #Kubernetes #CloudNativeLatam #OTel #SystemT
+ elemetry #HostMetrics
+LOCATION:Online
+X-CRONQUILES-ADDRESS:Online
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Claude Community|Adelaide  -  Claude Workshop for Agile Product Te
  ams|Online
 DTSTART:20261119T073000Z
