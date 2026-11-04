@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-11-04T13:29:23.143897+00:00",
-  "total_events": 621,
+  "generated_at": "2026-11-04T23:01:09.988659+00:00",
+  "total_events": 622,
   "city": "Online",
   "communities": [
     {
@@ -17953,7 +17953,7 @@
       "online": false,
       "organizer": "GDG Villahermosa",
       "dtstart": "2026-11-12T09:00:00-06:00",
-      "dtend": "2026-11-12T13:00:00-06:00",
+      "dtend": "2026-11-12T16:00:00-06:00",
       "tags": [
         "AI",
         "AI - Gemini",
@@ -18410,6 +18410,35 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "cloud native cdmx opentelemetry_2026-11-18T00:00:00+00:00"
+    },
+    {
+      "title": "Rust-AICollective|AI Collective Connect: Madrid × Barcelona (w/ The AI Collective)|Online",
+      "description": "Get up-to-date information at: https://luma.com/AICollective_Madrid_Barcelona\n\nHosted by The AI Collective & 6 others",
+      "url": "https://luma.com/AICollective_Madrid_Barcelona",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/AICollective_Madrid_Barcelona",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-6YqNoKFO4uJK5W0",
+      "online": true,
+      "organizer": "Rust-AICollective",
+      "dtstart": "2026-11-18T18:00:00+00:00",
+      "dtend": "2026-11-18T19:30:00+00:00",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://luma.com/rust-ios-ai",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-6YqNoKFO4uJK5W0",
+      "hash_key": "ai collective connect madrid barcelona w_2026-11-18T18:00:00+00:00"
     },
     {
       "title": "Claude Community|Adelaide  -  Claude Workshop for Agile Product Teams|Online",
