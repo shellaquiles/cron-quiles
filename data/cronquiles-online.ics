@@ -9959,6 +9959,47 @@ DESCRIPTION:México City AI\, Machine Learning and Computer Vision Meetup\
 LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:AWS User Group Mixtli|Seguridad y conformidad|Online
+DTSTART:20261105T183000
+CATEGORIES:ai,cloud,frontend,mobile,security
+DESCRIPTION:AWS User Group Mixtli\nContinuamos la serie de sesiones de pre
+ paración para la certificación AWS Certified Cloud Practitioner (CLF-C02
+ )\, y en esta segunda sesión nos metemos de lleno en uno de los temas má
+ s importantes.\n\n**Dominio 2: Seguridad y conformidad (30% del examen)**\
+ nEs el dominio de mayor peso junto con Tecnología y servicios de la nube\
+ , así que dominarlo marca la diferencia el día del examen. Veremos:\n\n*
+  **Modelo de responsabilidad compartida:** qué asegura AWS (la seguridad 
+ *de* la nube) y qué te toca a ti (la seguridad *en* la nube)\, y cómo ca
+ mbia la responsabilidad según los servicios.\n\n* **Seguridad\, gobernanz
+ a y conformidad:** AWS Artifact para reportes y certificaciones de auditor
+ ía\, cifrado en tránsito (TLS) y en reposo (KMS)\, registro y auditoría
+  con CloudWatch\, CloudTrail y Config\, y detección y protección con Ins
+ pector\, GuardDuty\, Security Hub y Shield.\n\n* **Administración de acce
+ so:** usuarios\, grupos\, roles y políticas de IAM\, protección del usua
+ rio raíz con MFA\, principio de mínimo privilegio\, manejo de credencial
+ es con Secrets Manager e IAM Identity Center como alternativa recomendada 
+ para múltiples cuentas.\n\n* **Componentes y recursos de seguridad:** gru
+ pos de seguridad vs. Network ACL en la VPC\, servicios de protección como
+  WAF\, Firewall Manager\, Macie y Detective\, recomendaciones con Trusted 
+ Advisor y recursos de apoyo como AWS Marketplace\, Knowledge Center\, Secu
+ rity Center y el blog de seguridad.\n\n**¿Qué te llevarás?**\n\n* Clari
+ dad sobre quién es responsable de qué en AWS\, una de las preguntas favo
+ ritas del examen.\n* Capacidad de distinguir qué servicio de seguridad us
+ ar en cada escenario.\n* Claridad sobre cómo estudiar y qué priorizar.\n
+ * Un espacio para resolver dudas y aprender en comunidad.\n\n**¿Para qui
+ én es?**\nPara cualquier persona que quiera iniciar en la nube o certific
+ arse\, sin importar su perfil: estudiantes\, desarrolladores\, administrad
+ ores de sistemas\, personas de negocio o gente en transición a TI. **No s
+ e requiere experiencia previa.** Si no pudiste asistir a la primera sesió
+ n\, no te preocupes: puedes unirte igual.\n\n🔗 **Enlaces importantes:**
+ \n\n1. [Guía oficial de AWS](https://d1.awsstatic.com/es_ES/training-and-
+ certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exa
+ m-Guide.pdf)\n2. [Learning Path en AWS Skill Builder](https://skillbuilder
+ .aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials-espaol-latam/RX7XZ
+ B6CTM)
+LOCATION:Online event\,
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:GDG IPN|Modernización Arquitectural: De Código Legacy a una Plat
  aforma Escalable|Online
 DTSTART:20261105T190000
@@ -10381,10 +10422,9 @@ BEGIN:VEVENT
 SUMMARY:GDG Heroica Veracruz|DevFest 2026 Heroica Veracruz|México|
 DTSTART:20261114T090000
 CATEGORIES:AI,AI - AI Studio,AI - Gemini,AI - Gemini Enterprise Agent Plat
- form,AI - Gemma,Angular,Build with AI,Career Development,Community Buildin
- g,DevFest,Google Cloud,Google Workspace,Hackathon,Networking,Tech Talk / M
- eetup,UX / UI Design,Web,Workshop / hands-on session,ai,mobile,security,we
- b
+ form,AI - Gemma,Angular,Career Development,Community Building,DevFest,Goog
+ le Cloud,Google Workspace,Hackathon,Networking,Tech Talk / Meetup,UX / UI 
+ Design,Web,Workshop / hands-on session,ai,mobile,security,web
 DESCRIPTION:Join DevFest 2026 Heroica Veracruz on November 14 to explore t
  he latest in AI and Google technologies. Engage in hands-on workshops and 
  learn from industry experts on topics like Angular\, Flutter\, and Android
@@ -10629,10 +10669,9 @@ BEGIN:VEVENT
 SUMMARY:GDG Heroica Veracruz|DevFest 2026 Health|México|
 DTSTART:20261202T090000
 CATEGORIES:AI,AI - AI Studio,AI - Gemini,AI - Gemma,Accessibility,Angular,
- Build with AI,Career Development,Community Building,Conference,DevFest,Fir
- ebase,Flutter,Google Cloud,Google Maps Platform,Google Workspace,Hackathon
- ,Networking,Tech Talk / Meetup,UX / UI Design,Web,Workshop / hands-on sess
- ion,mobile,web
+ Career Development,Community Building,Conference,DevFest,Firebase,Flutter,
+ Google Cloud,Google Maps Platform,Google Workspace,Hackathon,Networking,Te
+ ch Talk / Meetup,UX / UI Design,Web,Workshop / hands-on session,mobile,web
 DESCRIPTION:El 02 de diciembre de 2026\, DevFest Health 2026 se lleva a ca
  bo en las oficinas de AstraZeneca en Guadalajara. Los asistentes explorar
  án tendencias en inteligencia artificial y tecnologías de Google mediant
