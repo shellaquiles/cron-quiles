@@ -9970,33 +9970,32 @@ DESCRIPTION:AWS User Group Mixtli\nContinuamos la serie de sesiones de pre
  , así que dominarlo marca la diferencia el día del examen. Veremos:\n\n*
   **Modelo de responsabilidad compartida:** qué asegura AWS (la seguridad 
  *de* la nube) y qué te toca a ti (la seguridad *en* la nube)\, y cómo ca
- mbia la responsabilidad según los servicios.\n\n* **Seguridad\, gobernanz
- a y conformidad:** AWS Artifact para reportes y certificaciones de auditor
- ía\, cifrado en tránsito (TLS) y en reposo (KMS)\, registro y auditoría
-  con CloudWatch\, CloudTrail y Config\, y detección y protección con Ins
- pector\, GuardDuty\, Security Hub y Shield.\n\n* **Administración de acce
- so:** usuarios\, grupos\, roles y políticas de IAM\, protección del usua
- rio raíz con MFA\, principio de mínimo privilegio\, manejo de credencial
- es con Secrets Manager e IAM Identity Center como alternativa recomendada 
- para múltiples cuentas.\n\n* **Componentes y recursos de seguridad:** gru
- pos de seguridad vs. Network ACL en la VPC\, servicios de protección como
-  WAF\, Firewall Manager\, Macie y Detective\, recomendaciones con Trusted 
- Advisor y recursos de apoyo como AWS Marketplace\, Knowledge Center\, Secu
- rity Center y el blog de seguridad.\n\n**¿Qué te llevarás?**\n\n* Clari
- dad sobre quién es responsable de qué en AWS\, una de las preguntas favo
- ritas del examen.\n* Capacidad de distinguir qué servicio de seguridad us
- ar en cada escenario.\n* Claridad sobre cómo estudiar y qué priorizar.\n
- * Un espacio para resolver dudas y aprender en comunidad.\n\n**¿Para qui
- én es?**\nPara cualquier persona que quiera iniciar en la nube o certific
- arse\, sin importar su perfil: estudiantes\, desarrolladores\, administrad
- ores de sistemas\, personas de negocio o gente en transición a TI. **No s
- e requiere experiencia previa.** Si no pudiste asistir a la primera sesió
- n\, no te preocupes: puedes unirte igual.\n\n🔗 **Enlaces importantes:**
- \n\n1. [Guía oficial de AWS](https://d1.awsstatic.com/es_ES/training-and-
- certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exa
- m-Guide.pdf)\n2. [Learning Path en AWS Skill Builder](https://skillbuilder
- .aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials-espaol-latam/RX7XZ
- B6CTM)
+ mbia la responsabilidad según los servicios.\n* **Seguridad\, gobernanza 
+ y conformidad:** AWS Artifact para reportes y certificaciones de auditorí
+ a\, cifrado en tránsito (TLS) y en reposo (KMS)\, registro y auditoría c
+ on CloudWatch\, CloudTrail y Config\, y detección y protección con Inspe
+ ctor\, GuardDuty\, Security Hub y Shield.\n* **Administración de acceso:*
+ * usuarios\, grupos\, roles y políticas de IAM\, protección del usuario 
+ raíz con MFA\, principio de mínimo privilegio\, manejo de credenciales c
+ on Secrets Manager e IAM Identity Center como alternativa recomendada para
+  múltiples cuentas.\n* **Componentes y recursos de seguridad:** grupos de
+  seguridad vs. Network ACL en la VPC\, servicios de protección como WAF\,
+  Firewall Manager\, Macie y Detective\, recomendaciones con Trusted Adviso
+ r y recursos de apoyo como AWS Marketplace\, Knowledge Center\, Security C
+ enter y el blog de seguridad.\n\n**¿Qué te llevarás?**\n\n* Claridad so
+ bre quién es responsable de qué en AWS\, una de las preguntas favoritas 
+ del examen.\n* Capacidad de distinguir qué servicio de seguridad usar en 
+ cada escenario.\n* Claridad sobre cómo estudiar y qué priorizar.\n* Un e
+ spacio para resolver dudas y aprender en comunidad.\n\n**¿Para quién es?
+ **\nPara cualquier persona que quiera iniciar en la nube o certificarse\, 
+ sin importar su perfil: estudiantes\, desarrolladores\, administradores de
+  sistemas\, personas de negocio o gente en transición a TI. **No se requi
+ ere experiencia previa.** Si no pudiste asistir a la primera sesión\, no 
+ te preocupes: puedes unirte igual.\n\n🔗 **Enlaces importantes:**\n\n1. 
+ [Guía oficial de AWS](https://d1.awsstatic.com/es_ES/training-and-certifi
+ cation/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide
+ .pdf)\n2. [Learning Path en AWS Skill Builder](https://skillbuilder.aws/le
+ arn/94T2BEN85A/aws-cloud-practitioner-essentials-espaol-latam/RX7XZB6CTM)
 LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
@@ -10694,6 +10693,26 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/aic-sw-ai-read
  y-2\n\nHosted by The AI Collective\, Neelima Misra & Data & AI Stockholm
 LOCATION:https://luma.com/event/evt-pBKW8j8QhoYmrfT
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-pBKW8j8QhoYmrfT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GDG Heroica Veracruz|DevFest 2026 Heroica Veracruz|México|
+DTSTART:20261205T090000
+CATEGORIES:AI,AI - AI Studio,AI - Gemini,AI - Gemini Enterprise Agent Plat
+ form,AI - Gemma,Angular,Career Development,Community Building,DevFest,Goog
+ le Cloud,Google Workspace,Hackathon,Networking,Tech Talk / Meetup,UX / UI 
+ Design,Web,Workshop / hands-on session,ai,mobile,security,web
+DESCRIPTION:Join DevFest 2026 Heroica Veracruz on November 14 to explore t
+ he latest in AI and Google technologies. Engage in hands-on workshops and 
+ learn from industry experts on topics like Angular\, Flutter\, and Android
+ . Network with passionate developers and enhance your skills. Register now
+  and secure your spot for this dynamic tech experience in Veracruz. Don't 
+ miss out!
+LOCATION:Museo de la Ciudad "Coronel Manuel Gutiérrez Zamora"\, 397 Aveni
+ da Ignacio Zaragoza\, Veracruz
+X-CRONQUILES-ADDRESS:Museo de la Ciudad "Coronel Manuel Gutiérrez Zamora"
+ \, 397 Avenida Ignacio Zaragoza\, Veracruz
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rust-AICollective|From Vibe to Live\, Lovable Virtual Prompathon K

@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-11-05T13:44:08.807796+00:00",
-  "total_events": 625,
+  "generated_at": "2026-11-05T23:02:30.378704+00:00",
+  "total_events": 626,
   "city": "Online",
   "communities": [
     {
@@ -82,11 +82,6 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
-          "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5270,7 +5265,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5834,7 +5829,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11985,7 +11980,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -17558,7 +17553,7 @@
     },
     {
       "title": "AWS User Group Mixtli|Seguridad y conformidad|Online",
-      "description": "AWS User Group Mixtli\nContinuamos la serie de sesiones de preparación para la certificación AWS Certified Cloud Practitioner (CLF-C02), y en esta segunda sesión nos metemos de lleno en uno de los temas más importantes.\n\n**Dominio 2: Seguridad y conformidad (30% del examen)**\nEs el dominio de mayor peso junto con Tecnología y servicios de la nube, así que dominarlo marca la diferencia el día del examen. Veremos:\n\n* **Modelo de responsabilidad compartida:** qué asegura AWS (la seguridad *de* la nube) y qué te toca a ti (la seguridad *en* la nube), y cómo cambia la responsabilidad según los servicios.\n\n* **Seguridad, gobernanza y conformidad:** AWS Artifact para reportes y certificaciones de auditoría, cifrado en tránsito (TLS) y en reposo (KMS), registro y auditoría con CloudWatch, CloudTrail y Config, y detección y protección con Inspector, GuardDuty, Security Hub y Shield.\n\n* **Administración de acceso:** usuarios, grupos, roles y políticas de IAM, protección del usuario raíz con MFA, principio de mínimo privilegio, manejo de credenciales con Secrets Manager e IAM Identity Center como alternativa recomendada para múltiples cuentas.\n\n* **Componentes y recursos de seguridad:** grupos de seguridad vs. Network ACL en la VPC, servicios de protección como WAF, Firewall Manager, Macie y Detective, recomendaciones con Trusted Advisor y recursos de apoyo como AWS Marketplace, Knowledge Center, Security Center y el blog de seguridad.\n\n**¿Qué te llevarás?**\n\n* Claridad sobre quién es responsable de qué en AWS, una de las preguntas favoritas del examen.\n* Capacidad de distinguir qué servicio de seguridad usar en cada escenario.\n* Claridad sobre cómo estudiar y qué priorizar.\n* Un espacio para resolver dudas y aprender en comunidad.\n\n**¿Para quién es?**\nPara cualquier persona que quiera iniciar en la nube o certificarse, sin importar su perfil: estudiantes, desarrolladores, administradores de sistemas, personas de negocio o gente en transición a TI. **No se requiere experiencia previa.** Si no pudiste asistir a la primera sesión, no te preocupes: puedes unirte igual.\n\n🔗 **Enlaces importantes:**\n\n1. [Guía oficial de AWS](https://d1.awsstatic.com/es_ES/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)\n2. [Learning Path en AWS Skill Builder](https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials-espaol-latam/RX7XZB6CTM)",
+      "description": "AWS User Group Mixtli\nContinuamos la serie de sesiones de preparación para la certificación AWS Certified Cloud Practitioner (CLF-C02), y en esta segunda sesión nos metemos de lleno en uno de los temas más importantes.\n\n**Dominio 2: Seguridad y conformidad (30% del examen)**\nEs el dominio de mayor peso junto con Tecnología y servicios de la nube, así que dominarlo marca la diferencia el día del examen. Veremos:\n\n* **Modelo de responsabilidad compartida:** qué asegura AWS (la seguridad *de* la nube) y qué te toca a ti (la seguridad *en* la nube), y cómo cambia la responsabilidad según los servicios.\n* **Seguridad, gobernanza y conformidad:** AWS Artifact para reportes y certificaciones de auditoría, cifrado en tránsito (TLS) y en reposo (KMS), registro y auditoría con CloudWatch, CloudTrail y Config, y detección y protección con Inspector, GuardDuty, Security Hub y Shield.\n* **Administración de acceso:** usuarios, grupos, roles y políticas de IAM, protección del usuario raíz con MFA, principio de mínimo privilegio, manejo de credenciales con Secrets Manager e IAM Identity Center como alternativa recomendada para múltiples cuentas.\n* **Componentes y recursos de seguridad:** grupos de seguridad vs. Network ACL en la VPC, servicios de protección como WAF, Firewall Manager, Macie y Detective, recomendaciones con Trusted Advisor y recursos de apoyo como AWS Marketplace, Knowledge Center, Security Center y el blog de seguridad.\n\n**¿Qué te llevarás?**\n\n* Claridad sobre quién es responsable de qué en AWS, una de las preguntas favoritas del examen.\n* Capacidad de distinguir qué servicio de seguridad usar en cada escenario.\n* Claridad sobre cómo estudiar y qué priorizar.\n* Un espacio para resolver dudas y aprender en comunidad.\n\n**¿Para quién es?**\nPara cualquier persona que quiera iniciar en la nube o certificarse, sin importar su perfil: estudiantes, desarrolladores, administradores de sistemas, personas de negocio o gente en transición a TI. **No se requiere experiencia previa.** Si no pudiste asistir a la primera sesión, no te preocupes: puedes unirte igual.\n\n🔗 **Enlaces importantes:**\n\n1. [Guía oficial de AWS](https://d1.awsstatic.com/es_ES/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)\n2. [Learning Path en AWS Skill Builder](https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials-espaol-latam/RX7XZB6CTM)",
       "url": "https://www.meetup.com/awsugmixtli/events/317295302/",
       "sources": [
         {
@@ -18918,6 +18913,55 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-pBKW8j8QhoYmrfT",
       "hash_key": "beyond ai readiness architecting the int_2026-12-04T08:00:00+00:00"
+    },
+    {
+      "title": "GDG Heroica Veracruz|DevFest 2026 Heroica Veracruz|México|",
+      "description": "Join DevFest 2026 Heroica Veracruz on November 14 to explore the latest in AI and Google technologies. Engage in hands-on workshops and learn from industry experts on topics like Angular, Flutter, and Android. Network with passionate developers and enhance your skills. Register now and secure your spot for this dynamic tech experience in Veracruz. Don't miss out!",
+      "url": "https://gdg.community.dev/events/details/google-gdg-heroica-veracruz-presents-devfest-2026-heroica-veracruz/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-heroica-veracruz-presents-devfest-2026-heroica-veracruz/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "Museo de la Ciudad \"Coronel Manuel Gutiérrez Zamora\", 397 Avenida Ignacio Zaragoza, Veracruz",
+      "online": false,
+      "organizer": "GDG Heroica Veracruz",
+      "dtstart": "2026-12-05T09:00:00-06:00",
+      "dtend": "2026-12-05T17:00:00-06:00",
+      "tags": [
+        "AI",
+        "AI - AI Studio",
+        "AI - Gemini",
+        "AI - Gemini Enterprise Agent Platform",
+        "AI - Gemma",
+        "Angular",
+        "Career Development",
+        "Community Building",
+        "DevFest",
+        "Google Cloud",
+        "Google Workspace",
+        "Hackathon",
+        "Networking",
+        "Tech Talk / Meetup",
+        "UX / UI Design",
+        "Web",
+        "Workshop / hands-on session",
+        "ai",
+        "mobile",
+        "security",
+        "web"
+      ],
+      "source": "https://gdg.community.dev/gdg-heroica-veracruz/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "Museo de la Ciudad \"Coronel Manuel Gutiérrez Zamora\", 397 Avenida Ignacio Zaragoza, Veracruz",
+      "hash_key": "devfest 2026 heroica veracruz_2026-12-05T14:00:00+00:00"
     },
     {
       "title": "Rust-AICollective|From Vibe to Live, Lovable Virtual Prompathon Kickoff + Office Hour (Side Event of AI Post Open Lab)|Online",
