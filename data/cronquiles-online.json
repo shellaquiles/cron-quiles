@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-11-06T22:32:10.648780+00:00",
-  "total_events": 626,
+  "generated_at": "2026-11-07T03:46:26.745688+00:00",
+  "total_events": 627,
   "city": "Online",
   "communities": [
     {
@@ -82,6 +82,11 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
+          "label": "Luma"
+        },
+        {
+          "platform": "luma",
+          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5265,7 +5270,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5829,7 +5834,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11980,7 +11985,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/eofagheq",
+      "source": "https://luma.com/02t893pf",
       "country": "",
       "country_code": "",
       "state": "",
@@ -17734,6 +17739,33 @@
       "city_code": "",
       "address": "https://luma.com/event/evt-H8Txqn36tqf0bmM",
       "hash_key": "the psycle system 2 day online workshop_2026-11-07T18:00:00+00:00"
+    },
+    {
+      "title": "GDG Tapachula Chiapas|Herramientas de IA para la Innovación|México|",
+      "description": "Explora cómo la inteligencia artificial puede impulsar la innovación en tus proyectos. Esta charla revela aplicaciones concretas de IA que transforman la resolución de problemas tanto en el trabajo como en proyectos personales. Descubre el poder de la IA para innovar. ¡Reserva tu lugar hoy!",
+      "url": "https://gdg.community.dev/events/details/google-gdg-tapachula-chiapas-presents-herramientas-de-ia-para-la-innovacion/",
+      "sources": [
+        {
+          "platform": "website",
+          "url": "https://gdg.community.dev/events/details/google-gdg-tapachula-chiapas-presents-herramientas-de-ia-para-la-innovacion/",
+          "label": "Ver sitio web"
+        }
+      ],
+      "location": "CEUNI Centro Universitario Interamericano del Pacífico [Sede Tapachula], 6 Francisco Villa, Tapachula de Córdova y Ordóñez",
+      "online": false,
+      "organizer": "GDG Tapachula Chiapas",
+      "dtstart": "2026-11-07T22:00:00-06:00",
+      "dtend": "2026-11-07T23:00:00-06:00",
+      "tags": [],
+      "source": "https://gdg.community.dev/gdg-tapachula-chiapas/",
+      "country": "México",
+      "country_code": "MX",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "CEUNI Centro Universitario Interamericano del Pacífico [Sede Tapachula], 6 Francisco Villa, Tapachula de Córdova y Ordóñez",
+      "hash_key": "herramientas de ia para la innovacin_2026-11-08T04:00:00+00:00"
     },
     {
       "title": "México City AI, Machine Learning and Computer Vision Meetup|Nov 9 - Agentic Labeling for Specialized Visual Data|Online",
