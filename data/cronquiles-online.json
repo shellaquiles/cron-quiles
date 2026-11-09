@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-11-09T03:42:46.060249+00:00",
-  "total_events": 629,
+  "generated_at": "2026-11-09T14:43:15.728329+00:00",
+  "total_events": 630,
   "city": "Online",
   "communities": [
     {
@@ -60,6 +60,17 @@
         {
           "platform": "meetup",
           "url": "https://www.meetup.com/big-data-developers-in-mexico-city",
+          "label": "Meetup"
+        }
+      ]
+    },
+    {
+      "name": "DevOps Workshop",
+      "description": "Aprende cómo aplicar diferentes tecnologías para construir un producto. En este grupo vas a mejorar tu conocimiento de diferentes sistemas operativos.",
+      "links": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/devops-workshop",
           "label": "Meetup"
         }
       ]
@@ -18180,6 +18191,37 @@
       "city_code": "",
       "address": "Online",
       "hash_key": "devfest 2026 sureste de mxico virtual_2026-11-13T00:00:00+00:00"
+    },
+    {
+      "title": "DevOps Workshop|Construir, Simular y Desplegar con Kiro, Terraform , LocalStack y AWS|Online",
+      "description": "DevOps Workshop\n**De la Idea al Deploy: Construir, Simular y Desplegar con Kiro, Terraform , LocalStack y AWS (online en español).**\n\n¿Alguna vez has usado IA para generar código y luego te has enfrentado al dolor de desplegarlo? En este meetup, vamos a mostrar un flujo de trabajo moderno que integra **Kiro** (el nuevo IDE de AWS con IA), **Terraform** para infraestructura como código y **LocalStack** para pruebas locales y la entrega final en AWS.\n\nAprenderás a generar infraestructura con prompts, validarla en un entorno local antes de tocar la nube y desplegarla con confianza. Ideal para devs y arquitectos que quieren acelerar sus proyectos con IA sin sacrificar la calidad.\n\nNos vemos pronto.\n\nLa URL será publicada a la brevedad.",
+      "url": "https://www.meetup.com/devops-workshop/events/317355481/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/devops-workshop/events/317355481/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Online event,",
+      "online": true,
+      "organizer": "DevOps Workshop",
+      "dtstart": "2026-11-12T20:30:00-06:00",
+      "dtend": "2026-11-12T22:00:00-06:00",
+      "tags": [
+        "cloud",
+        "devops",
+        "frontend"
+      ],
+      "source": "https://www.meetup.com/devops-workshop/events/ical",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "construir simular y desplegar con kiro t_2026-11-13T02:00:00+00:00"
     },
     {
       "title": "GDG Villahermosa|DevFest 2026: Sureste de México Virtual|Online",
