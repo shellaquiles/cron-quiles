@@ -24501,12 +24501,16 @@ BEGIN:VEVENT
 SUMMARY:Pythonistas GDL|Viernes 27 de Noviembre en el HackerGarage|México
  |Jalisco
 DTSTART:20261128T003000Z
-CATEGORIES:python
+CATEGORIES:frontend,python
 DESCRIPTION:<ul><li><p style="margin:0.5em 0px\;">🚪 Recepción a partir
   de las 6:30</p></li><li><p style="margin:0.5em 0px\;">⏰ Evento 7:00</p>
- </li><li><p style="margin:0.5em 0px\;">🗣️ Por definir</p></li><li><p 
- style="margin:0.5em 0px\;">🗣️ Por definir </p></li><li><p style="marg
- in:0.5em 0px\;">🪩 Networking</p></li></ul>
+ </li><li><p style="margin:0.5em 0px\;">🗣️ Una guía para romper el mi
+ to del "Fin de la innovación" con creatividad\, una arquitectura exótica
+  y problemas reales.<br /><strong>Daniel De La Cruz</strong></p></li><li><
+ p style="margin:0.5em 0px\;">🗣️ git commit -m "Quiero ser Rockstar"<b
+ r /><em>De una guitarra y unas líneas de Python a crear mi propio videoju
+ ego musical.</em><br /><strong>Nietsnie Alberto Pérez</strong></p></li><l
+ i><p style="margin:0.5em 0px\;">🪩 Networking </p></li></ul>
 LOCATION:HackerGarage\, Calle Marsella 155-Int 105 A\, Col Americana\, Laf
  ayette\, Guadalajara\, Jalisco\, MX
 X-CRONQUILES-ADDRESS:HackerGarage\, Calle Marsella 155-Int 105 A\, Col Ame
@@ -24515,6 +24519,23 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Jalisco
 X-CRONQUILES-STATE-CODE:MX-JAL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Claude Community|Mexico City  -  Claude Build Day At UniconHub Hac
+ k|México|México
+DTSTART:20261128T150000Z
+CATEGORIES:frontend
+DESCRIPTION:Get up-to-date information at: https://luma.com/claude-unicon-
+ hack\n\nAddress:\nSandbox Hub\nCiudad de México\, Mexico\n\nHosted by Ces
+ ar Méndez & 3 others
+LOCATION:Sandbox Hub\, Luis G. Urbina 4-dpto. 103\, Polanco\, Polanco IV S
+ ecc\, Miguel Hidalgo\, 11550 Ciudad de México\, CDMX\, Mexico
+X-CRONQUILES-ADDRESS:Sandbox Hub\, Luis G. Urbina 4-dpto. 103\, Polanco\, 
+ Polanco IV Secc\, Miguel Hidalgo\, 11550 Ciudad de México\, CDMX\, Mexico
+X-CRONQUILES-COUNTRY:México
+X-CRONQUILES-COUNTRY-CODE:MX
+X-CRONQUILES-STATE:México
+X-CRONQUILES-STATE-CODE:MX-MEX
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Posadev|Posadev 2026|México|Jalisco
@@ -24756,6 +24777,14 @@ X-CRONQUILES-COUNTRY:México
 X-CRONQUILES-COUNTRY-CODE:MX
 X-CRONQUILES-STATE:Ciudad de México
 X-CRONQUILES-STATE-CODE:MX-CMX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Claude Community|Sydney  -  Claude Meetup|Online
+DTSTART:20270225T063000Z
+DESCRIPTION:Get up-to-date information at: https://luma.com/claude-b1lq\n\
+ nHosted by Dominik Fretz
+LOCATION:https://luma.com/event/evt-BBB8MxHxFp0hwAz
+X-CRONQUILES-ADDRESS:https://luma.com/event/evt-BBB8MxHxFp0hwAz
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HackGDL|HackGDL 2027|México|Jalisco

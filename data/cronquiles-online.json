@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-11-10T13:58:37.440989+00:00",
-  "total_events": 631,
+  "generated_at": "2026-11-10T22:40:56.481455+00:00",
+  "total_events": 632,
   "city": "Online",
   "communities": [
     {
@@ -93,11 +93,6 @@
         {
           "platform": "luma",
           "url": "https://luma.com/eofagheq",
-          "label": "Luma"
-        },
-        {
-          "platform": "luma",
-          "url": "https://luma.com/02t893pf",
           "label": "Luma"
         }
       ]
@@ -5281,7 +5276,7 @@
       "tags": [
         "security"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -5845,7 +5840,7 @@
       "dtstart": "2026-05-15T00:00:00+00:00",
       "dtend": "2026-05-15T00:50:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -11996,7 +11991,7 @@
       "dtstart": "2026-08-26T22:00:00+00:00",
       "dtend": "2026-08-26T23:00:00+00:00",
       "tags": [],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "",
       "country_code": "",
       "state": "",
@@ -19008,7 +19003,7 @@
         "mobile",
         "web"
       ],
-      "source": "https://gdg.community.dev/gdg-heroica-veracruz/",
+      "source": "https://gdg.community.dev/gdg-guadalajara/",
       "country": "México",
       "country_code": "MX",
       "state": "",
@@ -19292,6 +19287,33 @@
       "city_code": "",
       "address": "",
       "hash_key": "dec 10 ai ml and computer vision meetup_2026-12-10T16:00:00+00:00"
+    },
+    {
+      "title": "Claude Community|Sydney  -  Claude Meetup|Online",
+      "description": "Get up-to-date information at: https://luma.com/claude-b1lq\n\nHosted by Dominik Fretz",
+      "url": "https://luma.com/claude-b1lq",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claude-b1lq",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-BBB8MxHxFp0hwAz",
+      "online": true,
+      "organizer": "Claude Community",
+      "dtstart": "2027-02-25T06:30:00+00:00",
+      "dtend": "2027-02-25T09:00:00+00:00",
+      "tags": [],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-BBB8MxHxFp0hwAz",
+      "hash_key": "sydney claude meetup_2027-02-25T06:00:00+00:00"
     },
     {
       "title": "CHIDAS TECH|Networking 101: Fundamentos de Redes|Online",

@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-11-10T13:58:37.648682+00:00",
-  "total_events": 427,
+  "generated_at": "2026-11-10T22:40:56.790581+00:00",
+  "total_events": 428,
   "city": "México",
   "communities": [
     {
@@ -50,11 +50,11 @@
     },
     {
       "name": "FinTech México",
-      "description": "Comunidad FinTech México. FinTech México Week, Fuckup Nights y eventos de la comunidad (Ciudad de México).",
+      "description": "Comunidad FinTech México. Eventos sobre fintech, sistemas transaccionales y escalamiento (Ciudad de México).",
       "links": [
         {
           "platform": "luma",
-          "url": "https://luma.com/02t893pf",
+          "url": "https://luma.com/eofagheq",
           "label": "Luma"
         }
       ]
@@ -711,7 +711,7 @@
         "ai",
         "frontend"
       ],
-      "source": "https://luma.com/02t893pf",
+      "source": "https://luma.com/eofagheq",
       "country": "México",
       "country_code": "MX",
       "state": "México",
@@ -12099,6 +12099,35 @@
       "city_code": "",
       "address": "EXPEDITION FEMSA, Av. Eugenio Garza Sada Sur, Tecnologico, Distrito Tec, 64700 Monterrey, N.L., Mexico",
       "hash_key": "monterrey claude for commerce manufactur_2026-11-23T16:00:00+00:00"
+    },
+    {
+      "title": "Claude Community|Mexico City  -  Claude Build Day At UniconHub Hack|México|México",
+      "description": "Get up-to-date information at: https://luma.com/claude-unicon-hack\n\nAddress:\nSandbox Hub\nCiudad de México, Mexico\n\nHosted by Cesar Méndez & 3 others",
+      "url": "https://luma.com/claude-unicon-hack",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claude-unicon-hack",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "Sandbox Hub, Luis G. Urbina 4-dpto. 103, Polanco, Polanco IV Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "Claude Community",
+      "dtstart": "2026-11-28T15:00:00+00:00",
+      "dtend": "2026-11-28T22:00:00+00:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "Sandbox Hub, Luis G. Urbina 4-dpto. 103, Polanco, Polanco IV Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX, Mexico",
+      "hash_key": "mexico city claude build day at uniconhu_2026-11-28T14:00:00+00:00"
     },
     {
       "title": "Mexico Tech Week|AI House - General Access  -  MXTW 2026|México|México",
