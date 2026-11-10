@@ -10125,7 +10125,7 @@ BEGIN:VEVENT
 SUMMARY:Cloud Native Mexico City|Cloud Native CDMX - Platform Engineering:
   Fundamentos|México|
 DTSTART:20261110T170000
-CATEGORIES:ai,cloud,devops,frontend,security,web
+CATEGORIES:ai,backend,cloud,devops,frontend,security,web
 DESCRIPTION:🚀 ¡Nueva edición de Cloud Native CDMX! 🚀\n¡Estamos de
   vuelta! 🎉 Nos emociona anunciar una nueva edición de Cloud Native CDM
  X\, esta vez dedicada a uno de los temas más relevantes del ecosistema ac
@@ -10138,16 +10138,24 @@ DESCRIPTION:🚀 ¡Nueva edición de Cloud Native CDMX! 🚀\n¡Estamos de
  ineering\, Gentera\nDesmitificaremos la Ingeniería de Plataforma\, explor
  aremos qué hace a una verdadera Plataforma Interna para Desarrolladores (
  IDP) y navegaremos el Modelo de Madurez de la CNCF como brújula estratég
- ica. ⚙️🧭\n💡 Si eres arquitecto\, ingeniero de plataforma\, DevOp
- s o líder tecnológico\, esta edición es para ti. Ven a aprender cómo t
- ratar la infraestructura como un producto interno y cómo asegurar tu cade
- na de suministro de software.\nCloud Native CDMX sigue creciendo y constru
- yendo una comunidad técnica sólida\, inclusiva y apasionada por el ecosi
- stema Cloud Native en México. 💙🇲🇽\n¡No te lo pierdas!\n☁️ #
- CloudNativeCDMX #CloudNative #PlatformEngineering #Kubernetes #CNCF #DevOp
- s #CloudComputing #Cosign #Kyverno #SupplyChainSecurity #OpenSource #Comun
- idadTech #CloudNativeMexico #Gentera #IDP #CNCFMaturityModel #TechCommunit
- y #CloudNativeLatam
+ ica. ⚙️🧭\n​🔹Más allá de las certificaciones: Admission Contr
+ ollers que te salvan (o destruyen) en producción"\n​🎤\nCarlos Z. Rey
+ es\n(Technical Account Manager OpenShift en Red Hat).\n​En su charla "M
+ ás allá de las certificaciones: Admission Controllers que te salvan (o d
+ estruyen) en producción"\, exploraremos:\n​-La cadena de admisión del 
+ API Server paso a paso.\n-Cómo funcionan los plugins nativos y los webhoo
+ ks dinámicos (Validating y Mutating).\n-Casos reales en los que un Admiss
+ ion Plugin mal configurado (o ausente) ha generado incidentes complejos en
+  clústeres en producción.\n💡 Si eres arquitecto\, ingeniero de plataf
+ orma\, DevOps o líder tecnológico\, esta edición es para ti. Ven a apre
+ nder cómo tratar la infraestructura como un producto interno y cómo aseg
+ urar tu cadena de suministro de software.\nCloud Native CDMX sigue crecien
+ do y construyendo una comunidad técnica sólida\, inclusiva y apasionada 
+ por el ecosistema Cloud Native en México. 💙🇲🇽\n¡No te lo pierda
+ s!\n☁️ #CloudNativeCDMX #CloudNative #PlatformEngineering #Kubernetes 
+ #CNCF #DevOps #CloudComputing #Cosign #Kyverno #SupplyChainSecurity #OpenS
+ ource #ComunidadTech #CloudNativeMexico #Gentera #IDP #CNCFMaturityModel #
+ TechCommunity #CloudNativeLatam
 LOCATION:Gentera\, Benito Juárez\, México City\, México
 X-CRONQUILES-ADDRESS:Gentera\, Benito Juárez\, México City\, México
 X-CRONQUILES-COUNTRY:México
@@ -10359,8 +10367,9 @@ DESCRIPTION:DevOps Workshop\n**De la Idea al Deploy: Construir\, Simular y
  cales y la entrega final en AWS.\n\nAprenderás a generar infraestructura 
  con prompts\, validarla en un entorno local antes de tocar la nube y despl
  egarla con confianza. Ideal para devs y arquitectos que quieren acelerar s
- us proyectos con IA sin sacrificar la calidad.\n\nNos vemos pronto.\n\nLa 
- URL será publicada a la brevedad.
+ us proyectos con IA sin sacrificar la calidad.\n\nNos vemos pronto.\n\n[ht
+ tps://www.youtube.com/watch?v=tX9djgm7pwM](https://www.youtube.com/watch?v
+ =tX9djgm7pwM)
 LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
@@ -10582,6 +10591,30 @@ DESCRIPTION:Get up-to-date information at: https://luma.com/claude-2ugt\n\
  nHosted by Fernanda Grace Lins
 LOCATION:https://luma.com/event/evt-nG1EG2qpitkFpwu
 X-CRONQUILES-ADDRESS:https://luma.com/event/evt-nG1EG2qpitkFpwu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kong Mexico City|AI ROI by Business Unit: FinOps for AI Platforms|
+ Online
+DTSTART:20261119T100000
+CATEGORIES:ai,data,frontend,web
+DESCRIPTION:Kong/MEXICO-CITY\nEvery business unit wants more AI. Finance w
+ ants to know what each use case costs and what it returns. When LLM spend 
+ arrives as one shared bill\, neither question has a clear answer. This web
+ inar shows how to tie AI consumption to the teams and use cases driving it
+ . With that view\, leaders can fund what works and rethink what doesn't. W
+ e'll walk through how Kong AI Gateway applies team-level token quotas and 
+ chargeback attribution at the traffic layer\, before application code touc
+ hes a request. You'll see how Konnect Metering & Billing turns that gatewa
+ y-native usage data into showback and chargeback reports business owners c
+ an trust. We'll also cover how gateway policies can be leveraged to reduce
+  the cost of each request. Lower unit costs raise the return on every AI u
+ se case you already run. Join us to build an AI cost model that your finan
+ ce leaders and your platform team can both stand behind.\n\nKey takeaways:
+ \n\n* How to build one AI cost model that finance leaders and platform tea
+ ms can both stand behind.\n* How to decide which AI use cases to fund\, sc
+ ale\, or rethink using per-team cost and return data.\n* How to enforce AI
+  spend limits at the gateway\, before application code touches a request.
+LOCATION:Online event\,
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:México City AI\, Machine Learning and Computer Vision Meetup|Nov 
