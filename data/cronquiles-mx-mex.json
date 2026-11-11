@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-11-10T22:40:56.790581+00:00",
-  "total_events": 428,
+  "generated_at": "2026-11-11T03:47:52.378314+00:00",
+  "total_events": 429,
   "city": "México",
   "communities": [
     {
@@ -71,6 +71,17 @@
         {
           "platform": "meetup",
           "url": "https://www.meetup.com/notrustsec",
+          "label": "Meetup"
+        }
+      ]
+    },
+    {
+      "name": "PHP Mexico",
+      "description": "¡Hacemos la web! PHP es el lenguaje más usado de la web, en este grupo podrás encontrar el siguiente nivel en tu carrera como programador PHP.",
+      "links": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/php-the-right-way",
           "label": "Meetup"
         }
       ]
@@ -11870,6 +11881,33 @@
       "city_code": "",
       "address": "Universidad Anáhuac Cancún, Blvd. Luis Donaldo Colosio Km 13.5 M 2 Zona 8 SM 299, Carr. Cancún - Tulum, 77565 Cancún, Q.R., Mexico",
       "hash_key": "cancun claude for hospitality_2026-11-11T18:00:00+00:00"
+    },
+    {
+      "title": "PHP Mexico|Rasmus Lerdorf|México|México",
+      "description": "PHP Mexico\nPHP México Meetup @ Etsy México\n\n**Invitados especiales:**\n\n* **Rasmus Lerdorf** — Creador de PHP\n* **Eric Norris** — Contribuyente al núcleo de PHP\n* **Mike Adler** — Principal Systems Architect en Etsy\n* **Dan McKinley** — Principal Architect en Etsy\n* **Emjek Cordover** — Staff Systems Architect en Etsy\n* **Miriam Lauter** — Staff Systems Architect en Etsy",
+      "url": "https://www.meetup.com/php-the-right-way/events/317375896/",
+      "sources": [
+        {
+          "platform": "meetup",
+          "url": "https://www.meetup.com/php-the-right-way/events/317375896/",
+          "label": "Ver en Meetup"
+        }
+      ],
+      "location": "Etsy CDMX Office, Av. Emilio Castelar 75, Polanco, Polanco IV Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX, Mexico",
+      "online": false,
+      "organizer": "PHP Mexico",
+      "dtstart": "2026-11-12T18:00:00-06:00",
+      "dtend": "2026-11-12T21:00:00-06:00",
+      "tags": [],
+      "source": "https://www.meetup.com/php-the-right-way/events/ical",
+      "country": "México",
+      "country_code": "MX",
+      "state": "México",
+      "state_code": "MX-MEX",
+      "city": "",
+      "city_code": "",
+      "address": "",
+      "hash_key": "rasmus lerdorf_2026-11-13T00:00:00+00:00"
     },
     {
       "title": "Cafe Cursor Puebla|Cursor Hackatón México: Puebla|México|México",

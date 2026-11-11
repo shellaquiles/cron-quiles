@@ -58,7 +58,7 @@ Esta es la lista completa de comunidades integradas en el agregador de **Cron-Qu
 | 🟢 [**NoTrustSec**](https://www.meetup.com/notrustsec) | Ciberseguridad, hacking ético y seguridad ofensiva/defensiva. | México |
 | 🔴 [**Odoo Latinoamérica**](https://www.meetup.com/odoo-community-days-america-latina) | Comunidad del ERP Open Source Odoo en América Latina. | Online |
 | 🔴 [**Open Infra CDMX**](https://www.meetup.com/openinfrastructurecdmx) | Infraestructura abierta, OpenStack y tecnologías de cloud open source. | Online |
-| 🔴 [**PHP Mexico**](https://www.meetup.com/php-the-right-way) | ¡Hacemos la web! PHP es el lenguaje más usado de la web, en este grupo podrás encontrar el siguiente nivel en tu carrera como programador PHP. | Online |
+| 🟢 [**PHP Mexico**](https://www.meetup.com/php-the-right-way) | ¡Hacemos la web! PHP es el lenguaje más usado de la web, en este grupo podrás encontrar el siguiente nivel en tu carrera como programador PHP. | México |
 | 🔴 [**PostgreSQL México**](https://www.meetup.com/postgresql-mexico) | Usuarios y administradores de bases de datos PostgreSQL. | Online |
 | 🟢 [**PyTalavera**](https://api2.luma.com/ics/get?entity=calendar&id=cal-ZiazPAzfyRnM7zl) | Comunidad Pythonista en Puebla. Eventos, charlas y networking para entusiastas de Python en la región. | Puebla |
 | 🟢 [**Python CDMX**](https://www.meetup.com/python-mexico) | Comunidad de entusiastas de Python en México. Charlas, talleres y networking para todos los niveles. | Ciudad de México, México |

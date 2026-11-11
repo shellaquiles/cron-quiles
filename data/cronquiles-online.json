@@ -1,7 +1,7 @@
 {
   "version": "2.0.2",
-  "generated_at": "2026-11-10T22:40:56.481455+00:00",
-  "total_events": 632,
+  "generated_at": "2026-11-11T03:47:52.125943+00:00",
+  "total_events": 633,
   "city": "Online",
   "communities": [
     {
@@ -164,13 +164,8 @@
     },
     {
       "name": "Sudo FCiencias",
-      "description": "Sudo FCiencias es una comunidad estudiantil de la Facultad de Ciencias de la UNAM. En Sudo buscamos acercar el conocimiento tecnológico a todxs sin importar el nivel que tengas. No somos expertxs, somos Sudo.",
+      "description": "Sudo FCiencias (UNAM Facultad de Ciencias). Eventos sobre bases de datos, programación y tech (Ciudad de México).",
       "links": [
-        {
-          "platform": "luma",
-          "url": "https://luma.com/sudo_fciencias_2026",
-          "label": "Luma"
-        },
         {
           "platform": "luma",
           "url": "https://luma.com/e17fbtoo",
@@ -3336,7 +3331,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -3501,7 +3496,7 @@
         "devops",
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -10656,7 +10651,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -14545,7 +14540,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -15378,7 +15373,7 @@
       "tags": [
         "frontend"
       ],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
@@ -18423,7 +18418,7 @@
       "online": false,
       "organizer": "GDG San Francisco de Campeche",
       "dtstart": "2026-11-14T09:00:00-06:00",
-      "dtend": "2026-11-14T19:00:00-06:00",
+      "dtend": "2026-11-14T18:00:00-06:00",
       "tags": [
         "AI",
         "AI - Gemini",
@@ -18861,6 +18856,35 @@
       "city_code": "",
       "address": "Aula Magna Herman Harris Fleishman, Centro Universitario Tampico-Madero (Campus Sur UAT), Tampico",
       "hash_key": "road to devfest tamaulipas 2026_2026-11-21T14:00:00+00:00"
+    },
+    {
+      "title": "Claude Community|La Ceja  -  Claude Workshop|Online",
+      "description": "Get up-to-date information at: https://luma.com/claude-1ryz\n\nHosted by Felipe Aguirre Martinez, José Villegas & Hola Skipea",
+      "url": "https://luma.com/claude-1ryz",
+      "sources": [
+        {
+          "platform": "luma",
+          "url": "https://luma.com/claude-1ryz",
+          "label": "Ver en Luma"
+        }
+      ],
+      "location": "https://luma.com/event/evt-BokU6ZWxoMCmica",
+      "online": true,
+      "organizer": "Claude Community",
+      "dtstart": "2026-11-24T23:00:00+00:00",
+      "dtend": "2026-11-25T02:00:00+00:00",
+      "tags": [
+        "frontend"
+      ],
+      "source": "https://api2.luma.com/ics/get?entity=calendar&id=cal-TOpA5LAFfuDeFpu",
+      "country": "",
+      "country_code": "",
+      "state": "",
+      "state_code": "",
+      "city": "",
+      "city_code": "",
+      "address": "https://luma.com/event/evt-BokU6ZWxoMCmica",
+      "hash_key": "la ceja claude workshop_2026-11-24T22:00:00+00:00"
     },
     {
       "title": "GDG Villahermosa|DevFest 2026: TecNM Villahermosa|México|",
@@ -19359,7 +19383,7 @@
       "dtstart": null,
       "dtend": null,
       "tags": [],
-      "source": "https://luma.com/sudo_fciencias_2026",
+      "source": "https://luma.com/e17fbtoo",
       "country": "",
       "country_code": "",
       "state": "",
